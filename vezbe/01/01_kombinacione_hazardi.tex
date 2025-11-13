@@ -6,6 +6,9 @@
 % Load xcolor ONCE with all options you need
 \usepackage[dvipsnames,table]{xcolor}
 
+%---- Color box
+\usepackage[most]{tcolorbox}
+
 %---- Page layout & typography
 \usepackage[a4paper,margin=2.5cm,headheight=15pt]{geometry}
 \usepackage{microtype} % nicer text
@@ -67,7 +70,7 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\lhead{\textit{Vežbe 1}}
+\lhead{\textit{Sinteza kombinacionih mre\v{z}a pomo\'{c}u kola niskog stepena integracije}}
 \rhead{\thepage}
 
 %---- Table settings
@@ -1025,5 +1028,498 @@ Na slici 11 je predstavljena implementacija funkcije $C = A \cdot B$.
   \label{fig:zadatak3}
 \end{figure}
 
+
+\subsection{Zadatak}\label{zad_4}
+
+\noindent
+Za kolo predstavljeno na slici~\ref{fig:zadatak4}:
+\begin{enumerate}[label=\alph*), leftmargin=*, itemsep=2pt]
+\item  Odrediti logičku funkciju
+\item Nacrtati vremenski dijagam prelaza ABCD: $1111$ \textrightarrow~$1110$ za signale $D$, $I_1$, $I_2$, $I_3$, $I_4$ i $Y$ ako je kašnjenje svakog logičkog kola jednako T. Komentarisati dobijene
+vremenske dijagrame.
+\item Predložiti realizaciju koja rešava probleme uočene pod b)
+\end{enumerate}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=0.6\linewidth]{Zadatak_4/Zadatak_4}% adjust path if needed
+  \caption{Šema logičkog kola uz zadatak~\ref{zad_4}.}
+  \label{fig:zadatak4}
+\end{figure}
+
+\subsubsection*{Rešenje:} 
+\noindent
+a) Logička funkcija kojom se opisuje kolo prikazano na slici~\ref{fig:zadatak4} je:
+\begin{equation}\label{eq:zad4}
+Y = A \bar{B} + C D + A C \bar{D}
+\end{equation}
+
+\noindent\makebox[\linewidth]{\dotfill}
+
+\noindent
+b) Vremenski dijagram prelaza ABCD: $1111$ \textrightarrow~$1110$ je prikazan na slici 13
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=0.6\linewidth]{Zadatak_4/Zadatak_4_TimeDiagram}% adjust path if needed
+  \caption{Vremenski dijagram prelaza ABCD: $1111$ \textrightarrow~$1110$ za logičko kolo sa slike~\ref{fig:zadatak4}.}
+  \label{fig:zadatak4r}
+\end{figure}
+
+
+Ako posmatramo vrednost funkcije defini\v{s}e jedna\v{c}ina~\eqref{eq:zad4} videćemo da za obe
+kombinacije ulaza $ABCD = 1111$ i $ABCD = 1110$ dobijamo istu vrednost. Međutim, uvidom
+u vremenski dijagram možemo uočiti da postoji jedan vremenski interval, jednak kašnjenju
+logičkog kola, u okviru koga vrednost izlaza $Y$ postaje jednak logičkoj nuli. Takvo
+ponašanje nije poželjno u logičkim kolima koje realizujemo jer se potencijalno može
+degradirati funkcionalnost ostatka digitalnog sistema koji koristi takvu realizaciju. Zbog toga
+se postavlja pitanje kako rešiti uočeni poroblem u ovom konkretnom slučaju i još mnogo bitnije pitanje, kako uopšteno detektovati da postoji problem u nekom kolu a zatim ga sistematično
+rešavati?
+
+Na putu do odgovora na postavljena pitanja, potrebno je analizirati sadržaj Karnoove
+karte kao i odgovarajućih oblasti koje u toj Karnoovoj karti pokriva funkcija~\eqref{eq:zad4}. Na slici
+14 je predstavljen sadržaj Karnoove karte sa naznačenim odgovarajućim oblastima:
+
+\begin{figure}[!ht]
+  \centering
+  \captionsetup{skip=-8pt} % space between K-map and caption (adjust)
+  % Y = A \bar{B} + C D + A C \bar{D}
+  % 1-cells: 3,7,8,9,10,11,14,15
+  % 0-cells: 0,1,2,4,5,6,12,13
+  \begin{tikzpicture}
+    % Put the Karnaugh map as a node
+    \node (km) {
+      \begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]
+        \minterms{3,7,8,9,10,11,14,15}
+        \maxterms{0,1,2,4,5,6,12,13}
+        % Groups of ones
+        \implicant{8}{10}
+        \implicant{3}{11}
+        \implicant{14}{10}
+      \end{karnaugh-map}
+    };
+
+    % Now draw an arrow roughly from “cell 15” to “cell 14”
+    % (tune the shifts until it hits exactly where you like)
+    \draw[->,orange,line width=1.2pt]
+      ([xshift=-2.0cm,yshift=2.3cm]km.south east)  % near cell 15
+      -- ++(-0.4cm,0);                             % point toward cell 14
+    \draw[<-,red,line width=1.2pt]
+      ([xshift=-2.0cm,yshift=2.6cm]km.south east)  % near cell 15
+      -- ++(-0.4cm,0);                             % point toward cell 14
+  \end{tikzpicture}
+  
+  \caption{Sadržaj Karnoove karte za funkciju~\eqref{eq:zad4}.}
+  \label{fig:kmap-zad4}
+\end{figure}
+
+Na osnovu sadržaja Karnoove karte ali i prikazanih oblasti možemo uočiti da se
+posmatrani prelaz, koji dovodi do pojave logičke nule, nalazi između dve nepreklopljene
+oblasti u Karnoovoj karti. U opštem slučaju se ovaj problem naziva problem lažne nule (ili
+lažne jedinice za slučaj funkcije izražene koristeći formu PZ) a javlja se, kao i ovom
+konkretnom slučaju, pri prelazima iz oblasti u Karnoovoj karti koje nisu preklopljene. U
+opštem slučaju problem pojave lažne nule (ili lažne jedinice za slučaj funkcije izražene
+koristeći formu PZ) se može javiti u oba smera.
+
+\begin{tcolorbox}[colback=gray!10, colframe=black, boxrule=0.5pt]
+\textbf{Za samostalni rad:} Nacrtati vremenske dijagrame za prelaz ABCD: 1110 $\rightarrow$ 1111.
+\end{tcolorbox}
+
+\noindent\makebox[\linewidth]{\dotfill}
+
+\noindent
+c) Jedan od načina za rešavanje ovog problema predstavlja preklapanje prelaza koje
+potencijalno može dovesti do pojave lažne nule ili lažne jedinice. Za slučaj u ovom zadatku
+dobijamo oblasti kao što je prikazano na slici~\ref{fig:kmap-zad4_2}.
+
+Na osnovu Karnoove karte sa slike~\ref{fig:kmap-zad4_2}, izvodimo sledeću funkciju:
+
+\begin{equation}\label{eq:zad4_2}
+Y = A \bar{B} + C D + A C
+\end{equation}
+
+\begin{tcolorbox}[colback=gray!10, colframe=black, boxrule=0.5pt]
+\textbf{Za samostalni rad:} Nacrtati vremenske dijagrame za funkciju~\eqref{eq:zad4_2} za prelaz ABCD: 1110 $\rightarrow$ 1111.
+\end{tcolorbox}
+
+Poređenjem funkcija~\eqref{eq:zad4_2} i~\eqref{eq:zad4} možemo zaključiti da je primena metode rešavanja
+statičkog hazarda (pojava lažne nule ili lažne jedinice) u ovom konkretnom slučaju doprinela i
+dodatnoj minimizaciji logičke funkcije~\eqref{eq:zad4} što \textbf{NE MORA} uvek biti slučaj.
+
+\begin{figure}[!ht]
+  \centering
+  \captionsetup{skip=-8pt} % space between K-map and caption (adjust)
+
+  % Z = 1 for minterms: 0,1,2,3,4,8,9,12
+  % Z = 0 for minterms: 5,6,7,10,11,13,14,15
+  \begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]
+    \minterms{3,7,8,9,10,11,14,15}
+    \maxterms{0,1,2,4,5,6,12,13}
+    % Groups of ones
+    \implicant{8}{10}
+    \implicant{3}{11}
+    \implicant{15}{10}
+  \end{karnaugh-map}
+
+  \caption{Karnoove karta za funkciju~\eqref{eq:zad4}.}
+  \label{fig:kmap-zad4_2}
+\end{figure}
+
+\FloatBarrier   % place all pending floats before carrying on
+
+\subsection{Zadatak}\label{zad_5}
+
+\noindent
+Data je funkcija
+\begin{equation}\label{eq:zad5}
+Y = \bar{A} \bar{C} + C D + B C \bar{D}
+\end{equation}
+
+\begin{enumerate}[label=\alph*), leftmargin=*, itemsep=2pt]
+\item Odrediti pri kojim prelazima postoji mogućnost generisanja lažnih nula na izlazu kola.
+\item Predstaviti funkciju~\eqref{eq:zad5} u minimalnoj formi
+\item Ukoliko u realizaciji b) postoji mogućnost generisanja lažnih nula, modifikovati
+funkciju tako da se to spreči
+\end{enumerate}
+
+
+\subsubsection*{Rešenje:} 
+\noindent
+Na slici~\ref{fig:kmap-5} je prikazan sadržaj Karnoove karte za funkciju~\eqref{eq:zad5}.
+
+\begin{figure}[!ht]
+  \centering
+  \captionsetup{skip=-6pt} % space between K-map and caption (adjust as needed)
+    \begin{tikzpicture}
+    % Put the Karnaugh map as a node
+    \node (km) {
+      \begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]
+        \minterms{0,1,3,4,5,6,7,11,14,15}
+        \maxterms{2,8,9,10,12,13}
+        % Groups of ones
+        \implicant{0}{5}
+        \implicant{3}{11}
+        \implicant{6}{14}
+      \end{karnaugh-map}
+    };
+
+    \draw[->,blue,line width=1.2pt]
+      ([xshift=-2.0cm,yshift=2.4cm]km.south east)  % near cell 15
+      -- ++(-0.4cm,0);                             % point toward cell 14
+    \draw[<-,blue,line width=1.2pt]
+      ([xshift=-2.0cm,yshift=2.7cm]km.south east)  % near cell 15
+      -- ++(-0.4cm,0);                             % point toward cell 14
+      
+    \draw[->,blue,line width=1.2pt]
+      ([xshift=-2.0cm,yshift=3.3cm]km.south east)  % near cell 7
+      -- ++(-0.4cm,0);                             % point toward cell 6
+    \draw[<-,blue,line width=1.2pt]
+      ([xshift=-2.0cm,yshift=3.6cm]km.south east)  % near cell 7
+      -- ++(-0.4cm,0);                             % point toward cell 6
+      
+    \draw[->,blue,line width=1.2pt]
+      ([xshift=-1.0cm,yshift=3.3cm]km.south east)  % near cell 6
+      -- ++(-0.4cm,0);                             % point toward cell 4
+    \draw[<-,blue,line width=1.2pt]
+      ([xshift=-1.0cm,yshift=3.6cm]km.south east)  % near cell 6
+      -- ++(-0.4cm,0);                             % point toward cell 4
+      
+    \draw[->,blue,line width=1.2pt]
+      ([xshift=-5.0cm,yshift=3.3cm]km.south east)  % near cell 4
+      -- ++(-0.4cm,0);                             % point toward cell 6
+    \draw[<-,blue,line width=1.2pt]
+      ([xshift=-5.0cm,yshift=3.6cm]km.south east)  % near cell 4
+      -- ++(-0.4cm,0);                             % point toward cell 6
+      
+    \draw[->,blue,line width=1.2pt]
+      ([xshift=-3.0cm,yshift=3.3cm]km.south east)  % near cell 5
+      -- ++(-0.4cm,0);                             % point toward cell 7
+    \draw[<-,blue,line width=1.2pt]
+      ([xshift=-3.0cm,yshift=3.6cm]km.south east)  % near cell 5
+      -- ++(-0.4cm,0);                             % point toward cell 7
+      
+    \draw[->,blue,line width=1.2pt]
+      ([xshift=-3.0cm,yshift=4.3cm]km.south east)  % near cell 2
+      -- ++(-0.4cm,0);                             % point toward cell 3
+    \draw[<-,blue,line width=1.2pt]
+      ([xshift=-3.0cm,yshift=4.6cm]km.south east)  % near cell 2
+      -- ++(-0.4cm,0);                             % point toward cell 3
+  \end{tikzpicture}
+
+  \caption{Sadržaj Karnoove karte za funkciju~\eqref{eq:zad5}.}
+  \label{fig:kmap-5}
+\end{figure}
+
+Na osnovu obeleženih kontura koje odgovaraju pojedinačnim logičkim proizvodima iz
+logičke funkcije~\eqref{eq:zad5}, vidimo da funkcija nije data u minimalnoj formi. Takođe, uočavamo
+potencijalne prelaze koji mogu dovesti do generisanja lažne nule na izlazu kola. To su svi
+prelazi između dve susedne konture, koji se mogu desiti pri promeni najviše jednog od ulaznih
+signala. Na slici~\ref{fig:kmap-5} su ovi prelazi označeni parom strelica na levu i desnu stranu. Prema tabeli
+sa slike~\ref{fig:kmap-5} uočavamo da postoji ukupno 10 prelaza koji mogu dovesti do pojave lažne nule na
+izlazu kola. Kao što je obeleženo u Karnoovoj karti na slici~\ref{fig:kmap-5}, polja $ABCD = 0100$ i $ABCD
+= 0110$ predstavljaju susedna polja u Karnoovoj karti.
+
+%\noindent\makebox[\linewidth]{\dotfill}
+
+\newpage
+
+\noindent
+b) Na slici~\ref{fig:kmap-zad5} je predstavljen sadržaj Karnoove karte sa označenim oblastima za slučaj
+minimalne forme funkcije~\eqref{eq:zad5}. Kao što se sa slike~\ref{fig:kmap-zad5} može primetiti, minimalna forma funkcije i dalje sadrži prelaze
+koji potencijalno mogu uzrokovati pojavu lažnih nula i jedinica.
+
+\begin{figure}[!ht]
+  \centering
+  \captionsetup{skip=-6pt} % space between K-map and caption (adjust as needed)
+    \begin{tikzpicture}
+    % Put the Karnaugh map as a node
+    \node (km) {
+      \begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]
+        \minterms{0,1,3,4,5,6,7,11,14,15}
+        \maxterms{2,8,9,10,12,13}
+        % Groups of ones
+        \implicant{0}{5}
+        \implicant{3}{11}
+        \implicant{7}{14}
+      \end{karnaugh-map}
+    };
+ 
+    \draw[->,blue,line width=1.2pt]
+      ([xshift=-1.0cm,yshift=3.3cm]km.south east)  % near cell 6
+      -- ++(-0.4cm,0);                             % point toward cell 4
+    \draw[<-,blue,line width=1.2pt]
+      ([xshift=-1.0cm,yshift=3.6cm]km.south east)  % near cell 6
+      -- ++(-0.4cm,0);                             % point toward cell 4
+      
+    \draw[->,blue,line width=1.2pt]
+      ([xshift=-5.0cm,yshift=3.3cm]km.south east)  % near cell 4
+      -- ++(-0.4cm,0);                             % point toward cell 6
+    \draw[<-,blue,line width=1.2pt]
+      ([xshift=-5.0cm,yshift=3.6cm]km.south east)  % near cell 4
+      -- ++(-0.4cm,0);                             % point toward cell 6
+      
+    \draw[->,blue,line width=1.2pt]
+      ([xshift=-3.0cm,yshift=3.3cm]km.south east)  % near cell 5
+      -- ++(-0.4cm,0);                             % point toward cell 7
+    \draw[<-,blue,line width=1.2pt]
+      ([xshift=-3.0cm,yshift=3.6cm]km.south east)  % near cell 5
+      -- ++(-0.4cm,0);                             % point toward cell 7
+      
+    \draw[->,blue,line width=1.2pt]
+      ([xshift=-3.0cm,yshift=4.3cm]km.south east)  % near cell 2
+      -- ++(-0.4cm,0);                             % point toward cell 3
+    \draw[<-,blue,line width=1.2pt]
+      ([xshift=-3.0cm,yshift=4.6cm]km.south east)  % near cell 2
+      -- ++(-0.4cm,0);                             % point toward cell 3
+  \end{tikzpicture}
+
+  \caption{Sadržaj Karnoove karte za slučaj minimalne forme funkcije~\eqref{eq:zad5} sa
+označenim prelazima koji mogu uzrokovati pojavu lažnih nula.}
+  \label{fig:kmap-zad5}
+\end{figure}
+Na osnovu slike~\ref{fig:kmap-zad5} dobijamo funkciju~\eqref{eq:zad5} u minimalnoj formi:
+
+\begin{equation}\label{eq:zad5-min}
+Y = \bar{A} \bar{C} + C D + B C
+\end{equation}
+
+\noindent\makebox[\linewidth]{\dotfill}
+
+\noindent
+c) Na slici~\ref{fig:kmap-zad5-2} je prikazana Karnoova karta sa naznačenim oblastima koje omogućavaju
+realizaciju funkcije u formi koja neće dovesti do generisanja lažnih nula.
+
+
+\begin{figure}[!ht]
+  \centering
+  \captionsetup{skip=-6pt} % space between K-map and caption (adjust as needed)
+      \begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]
+        \minterms{0,1,3,4,5,6,7,11,14,15}
+        \maxterms{2,8,9,10,12,13}
+        % Groups of ones
+        \implicant{0}{5}
+        \implicant{3}{11}
+        \implicant{7}{14}
+        \implicant{4}{6}
+        \implicant{1}{7}
+      \end{karnaugh-map}
+    
+  \caption{Karnoova karta sa naznačenim oblastima koje omogućavaju
+realizaciju funkcije~\eqref{eq:zad5} u formi koja neće dovesti do generisanja lažnih nula.}
+  \label{fig:kmap-zad5-2}
+\end{figure}
+Na osnovu Karnoove karte, prikazane na slici~\ref{fig:kmap-zad5-2}, moguće je izvesti sledeći zapis funkcije:
+
+\begin{equation}\label{eq:zad5-fin}
+Y = \bar{A} \bar{C} + CD + BC + \bar{A} B + \bar{A} D
+\end{equation}
+
+Dakle, polazeći od funkcije~\eqref{eq:zad5} najpre smo u tački b) izveli izraz koji predstavlja
+funkciju~\eqref{eq:zad5} u minimalnoj formi~\eqref{eq:zad5-min}. Međutim tako dobijena forma je i dalje potencijalno
+generisala lažne nule. Da bi smo sprečili generisanje lažnih nula, na osnovu preklapanja oblasti
+u Karnoovoj karti dobili smo formu~\eqref{eq:zad5-fin}. Za razliku od~\eqref{eq:zad5-min}, forma predstavljena u okviru~\eqref{eq:zad5-fin} sadrži veći broj logičkih kola ali sprečava pojavu lažnih nula.
+
+\newpage
+
+\subsection{Zadatak}\label{zad_6}
+
+\noindent
+Data je funkcija u formi zbira logičkih proizvoda:
+\begin{equation}\label{eq:zad6}
+Y = \bar{B} \bar{C} \bar{D} + A \bar{C} D + \bar{A} C \bar{D}
+\end{equation}
+
+\begin{enumerate}[label=\alph*), leftmargin=*, itemsep=2pt]
+\item Logičku funkciju~\eqref{eq:zad6} predstaviti u formi proizvoda logičkih zbirova. Da li, i pri
+kojim prelazima, postoji mogućnost generisanja lažnih jedinica na izlazu kola?
+\item Modifikovati logičku funkciju tako da ne postoji mogućnost generisanja lažnih jedinica
+\end{enumerate}
+
+\subsubsection*{Rešenje:} 
+\noindent
+a) Na slici~\ref{fig:kmap-6} je predstavljen sadržaj Karnoove karte dobijen na osnovu funkcije~\eqref{eq:zad6}.
+
+
+\begin{figure}[!ht]
+  \centering
+  \captionsetup{skip=-6pt} % razmak između karte i natpisa (po želji)
+  % Y = \bar{B} \bar{C} \bar{D} + A \bar{C} D + \bar{A} C \bar{D}
+  % 1-cells (minterms): 0,2,6,8,9,13
+  % 0-cells (maxterms): 1,3,4,5,7,10,11,12,14,15
+  \begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]
+    \minterms{0,2,6,8,9,13}
+    \maxterms{1,3,4,5,7,10,11,12,14,15}
+    % Groups of zeros
+    \implicant{4}{12}
+    \implicant{1}{7}
+    \implicant{15}{10}
+  \end{karnaugh-map}
+
+  \caption{Sadržaj Karnoove karte za funkciju~\eqref{eq:zad6}.}
+  \label{fig:kmap-6}
+\end{figure}
+
+Na osnovu Karnoove karte prikazane na slici~\ref{fig:kmap-6}, određujemo logičku funkciju izlaza kola
+u minimalnoj formi u obliku proizvoda logičkih zbirova:
+
+\begin{equation}\label{eq:kmap-6-pz}
+Y = (\bar{B} + C + D) (A + \bar{D}) (\bar{A} + \bar{C})
+\end{equation}
+
+Sa slike~\ref{fig:kmap-6} uočavamo da logička funkcija~\eqref{eq:kmap-6-pz} u traženom obliku ima više
+potencijalno opasnih prelaza u pogledu pojave statičkih hazarda, odnosno generisanja lažne
+jedinice na izlazu kola, u odnosu na realizaciju mreže u obliku zbira logičkih proizvoda. Na
+slici 21 su obeleženi svi prelazi koji mogu dovesti do pojave lažnih jedinica
+
+
+\begin{figure}[!ht]
+  \centering
+  \captionsetup{skip=-6pt} % space between K-map and caption (adjust as needed)
+    \begin{tikzpicture}
+    % Put the Karnaugh map as a node
+    \node (km) {
+      \begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]
+        \minterms{0,2,6,8,9,13}
+        \maxterms{1,3,4,5,7,10,11,12,14,15}
+        % Groups of zeros
+        \implicant{4}{12}
+        \implicant{1}{7}
+        \implicant{15}{10}
+      \end{karnaugh-map}
+    };
+ 
+    \draw[->,blue,line width=1.2pt]
+      ([xshift=-1.0cm,yshift=2.45cm]km.south east)  % near cell 14
+      -- ++(-0.4cm,0);                             % point toward cell 12
+    \draw[<-,blue,line width=1.2pt]
+      ([xshift=-1.0cm,yshift=2.65cm]km.south east)  % near cell 14
+      -- ++(-0.4cm,0);                             % point toward cell 12
+      
+    \draw[->,blue,line width=1.2pt]
+      ([xshift=-5.0cm,yshift=2.45cm]km.south east)  % near cell 12
+      -- ++(-0.4cm,0);                             % point toward cell 14
+    \draw[<-,blue,line width=1.2pt]
+      ([xshift=-5.0cm,yshift=2.65cm]km.south east)  % near cell 12
+      -- ++(-0.4cm,0);                             % point toward cell 14
+      
+    \draw[->,blue,line width=1.2pt]
+      ([xshift=-4.0cm,yshift=3.45cm]km.south east)  % near cell 4
+      -- ++(-0.4cm,0);                             % point toward cell 5
+    \draw[<-,blue,line width=1.2pt]
+      ([xshift=-4.0cm,yshift=3.65cm]km.south east)  % near cell 4
+      -- ++(-0.4cm,0);                             % point toward cell 5
+      
+    \draw[->,blue,line width=1.2pt]
+      ([xshift=-2.6cm,yshift=3.2cm]km.south east)  % near cell 7
+      -- ++(0,-0.4cm);                             % point toward cell 15
+    \draw[<-,blue,line width=1.2pt]
+      ([xshift=-2.8cm,yshift=3.2cm]km.south east)  % near cell 7
+      -- ++(0,-0.4cm);                             % point toward cell 15
+      
+    \draw[->,blue,line width=1.2pt]
+      ([xshift=-2.6cm,yshift=5.2cm]km.south east)  % near cell 3
+      -- ++(0,-0.4cm);                             % point toward cell 11
+    \draw[<-,blue,line width=1.2pt]
+      ([xshift=-2.8cm,yshift=5.2cm]km.south east)  % near cell 3
+      -- ++(0,-0.4cm);                             % point toward cell 11
+      
+    \draw[->,blue,line width=1.2pt]
+      ([xshift=-2.6cm,yshift=1.2cm]km.south east)  % near cell 11
+      -- ++(0,-0.4cm);                             % point toward cell 3
+    \draw[<-,blue,line width=1.2pt]
+      ([xshift=-2.8cm,yshift=1.2cm]km.south east)  % near cell 11
+      -- ++(0,-0.4cm);                             % point toward cell 3
+  \end{tikzpicture}
+
+  \caption{Karnoova karta funkcije~\eqref{eq:zad6} sa naznačenim prelazima koji dovode do pojave lažne jedinice.}
+  \label{fig:kmap-zad6-marked}
+\end{figure}
+
+%\noindent\makebox[\linewidth]{\dotfill}
+\newpage
+
+\noindent
+b) Nova forma funkcije~\eqref{eq:zad6} koja ne dovodi do pojave lažnih jedinica dobija se na
+osnovu Karnoove karte prikazane na slici~\ref{fig:kmap-zad6-final}
+
+\begin{figure}[!ht]
+  \centering
+  \captionsetup{skip=-6pt} % space between K-map and caption (adjust as needed)
+
+      \begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]
+        \minterms{0,2,6,8,9,13}
+        \maxterms{1,3,4,5,7,10,11,12,14,15}
+        % Groups of zeros
+        \implicant{4}{12}
+        \implicant{1}{7}
+        \implicant{15}{10}
+        \implicant{4}{5}
+        \implicantedge{12}{12}{14}{14}
+        \implicant{3}{11}
+      \end{karnaugh-map}
+
+  \caption{Karnoova karta funkcije~\eqref{eq:zad6} sa naznačenim prelazima koji ne dovode do pojave lažnih jedinica.}
+  \label{fig:kmap-zad6-final}
+\end{figure}
+
+Na osnovu Karnoove karte prikazane na slici~\ref{fig:kmap-zad6-final} izvodimo sledeću funkciju:
+
+\begin{equation}
+Y = (\bar{B} + C + D) (A + \bar{D}) (\bar{A} + \bar{C}) (\bar{C} + \bar{D}) (A + \bar{B} + C) (\bar{A} + \bar{B} + D)
+\end{equation}
+
+\section{Zadaci za samostalni rad}
+
+\subsection{Zadatak}
+Projektovati kombinacionu mrežu koja na ulazima prihvata dva dvobitna neoznačena
+binarna broja, a na izlazima generiše brinarni broj koji predstavlja zbir kvadrata ulaznih
+brojeva. Na raspolaganju su proizvoljna logička kola niskog stepena integracije. Težiti da
+broj upotrebljenih logičkih kola bude minimalan.
+
+\subsection{Zadatak}
+Projektovati kombinacionu mrežu koja za četvorobitni binarni broj na ulazu generiše
+brinarni broj koji predstavlja broj pojavljivanja jedinice u ulaznom binarnom broju. Na
+raspolaganju su proizvoljna logička kola. Težiti da broj upotrebljenih logičkih kola bude
+minimalan.
 
 \end{document}
