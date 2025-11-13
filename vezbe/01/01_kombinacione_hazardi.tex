@@ -1,0 +1,1029 @@
+%========================
+% A4 Article Template
+%========================
+\documentclass[a4paper,11pt]{article}
+
+% Load xcolor ONCE with all options you need
+\usepackage[dvipsnames,table]{xcolor}
+
+%---- Page layout & typography
+\usepackage[a4paper,margin=2.5cm,headheight=15pt]{geometry}
+\usepackage{microtype} % nicer text
+\usepackage{setspace}  % optional line spacing
+%\onehalfspacing        % uncomment for 1.5 spacing
+
+% Add/replace these in your preamble
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[serbian]{babel} % latin script variant
+\usepackage{lmodern}
+
+% If using XeLaTeX/LuaLaTeX, comment the three lines above and use:
+% \usepackage{fontspec}
+% \setmainfont{Latin Modern Roman}
+
+%---- Flush floats
+\usepackage{placeins} % preamble
+
+%---- Karnaugh map
+\usepackage[label=corner]{karnaugh-map}
+
+%---- Math
+\usepackage{amsmath,amssymb,mathtools}
+\numberwithin{equation}{section} % eq numbers like (1.1)
+
+%---- Colors & links
+\definecolor{Primary}{HTML}{1F77B4} % custom palette
+\definecolor{Accent}{HTML}{2CA02C}
+\usepackage[colorlinks=true,linkcolor=Primary,citecolor=Primary,urlcolor=Primary]{hyperref}
+\usepackage{cleveref} % smart refs: \cref{fig:...}
+
+%---- Figures
+\usepackage{graphicx}
+\graphicspath{{Images/}} % put images in ./Images
+\usepackage{subcaption} % subfigures
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf}
+
+%---- Tables
+\usepackage{booktabs}   % professional tables
+\usepackage{tabularx}   % tables with flexible width
+\usepackage{arydshln}   % adds : for dashed vertical lines and \hdashline
+\usepackage{multirow}   % optional, merged rows
+\usepackage{siunitx}    % alignment for numbers/units
+\sisetup{detect-all}
+
+% for the table and logic symbols
+\usepackage{array,makecell}
+\usepackage{tikz}
+\usetikzlibrary{circuits.logic.US,positioning}
+
+
+%---- Lists (optional nicer lists)
+\usepackage{enumitem}
+\setlist{nosep}
+
+%---- Header/Footer (optional)
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textit{Vežbe 1}}
+\rhead{\thepage}
+
+%---- Table settings
+\renewcommand{\arraystretch}{1.25}
+\renewcommand{\tabularxcolumn}[1]{m{#1}} % X behaves like m{...}
+\newcolumntype{C}{>{\centering\arraybackslash}X} % centered X
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+%\setlength{\arrayrulewidth}{0.5pt} % optional thicker borders
+
+\renewcommand{\contentsname}{Sadržaj}
+
+%========================
+% Document
+%========================
+\begin{document}
+
+
+%====================================
+% Custom title page (Serbian, A4)
+%====================================
+\begin{titlepage}
+  \thispagestyle{empty}
+  \begin{center}
+
+    %--- Top (faculty/department)
+    {\Large\bfseries
+    UNIVERZITET U BEOGRADU -- ELEKTROTEHNIČKI FAKULTET\\
+    KATEDRA ZA ELEKTRONIKU\par}
+
+    \vspace{25mm}
+
+    %--- Middle (course + subtitle)
+    {\LARGE\bfseries DIGITALNA ELEKTRONIKA 1\par}
+    \vspace{2mm}
+    {\large Materijali za računske vežbe\par}
+
+    \vspace{18mm}
+
+    %--- Title block (exercise title + number)
+    {\Large\bfseries
+    SINTEZA KOMBINACIONIH MREŽA POMOĆU KOLA NISKOG 
+    STEPENA INTEGRACIJE I STATIČKI HAZARDI\par}
+    \vspace{3mm}
+    {\large Vežbe 1\par}
+
+    \vfill
+
+%--- Bottom (authors table on left, date on right)
+\begin{minipage}{0.62\linewidth}
+  \raggedright
+  \textbf{Autori:}\\[4pt]
+  \small
+  \begin{tabular}{@{}l l@{}}
+    Nikola Petrović & \href{mailto:p.z.nikola@etf.bg.ac.rs}{\texttt{p.z.nikola@etf.bg.ac.rs}} \\
+    Haris Turkmanović & \href{mailto:haris@etf.bg.ac.rs}{\texttt{haris@etf.bg.ac.rs}} \\
+  \end{tabular}
+\end{minipage}
+\hfill
+\begin{minipage}{0.34\linewidth}
+  \raggedleft
+  Beograd, \today
+\end{minipage}
+
+  \end{center}
+\end{titlepage}
+
+%========================
+
+\tableofcontents
+\newpage
+
+%========================
+\section{Uvod}
+U okviru prvog dela ovih računskih vežbi obrađivaćemo praktične primere vezane za
+sintezu kombinacionih mreža korišćenjem kola niskog stepena integracije. Pod kolima niskog
+stepena integracija, za potrebe ovog kursa, podrazumevaćemo grupu osnovnih logičkih kola
+predstavljenih u tabeli~\ref{tab:osnovna-kola}.
+
+
+
+\begin{table}[!ht]
+  \centering
+  \caption{Pregled osnovnih logičkih kola}
+  \label{tab:osnovna-kola}
+
+  \begin{tabularx}{\linewidth}{| C | M{3.3cm} | C | M{3cm} |}
+    \hline
+    \rowcolor{gray!40}
+    \textbf{Naziv} & \textbf{Simbol} & \textbf{Funkcija} & \textbf{Tabela istinitosti} \\
+    \hline
+
+    Invertor (NOT) &
+    \begin{tikzpicture}[circuit logic US, x=1em, y=1em, baseline={(current bounding box.center)}]
+      \node[not gate US, draw, minimum width=2.2em, logic gate inputs=nn] (g) {};
+      \draw (g.input) -- ++(-0.9,0) node[left] {$A$};
+      \draw (g.output) -- ++(0.9,0) node[right] {$Y$};
+    \end{tikzpicture}
+    & $Y=\lnot A = \bar{A}$ &
+    {\scriptsize
+      \begin{minipage}{\linewidth}\centering
+        \vspace{3pt}
+        \begingroup
+        \rowcolors{0}{}{} % disable any active row coloring
+        \begin{tabular}{|c|c|}
+          \hline \rowcolor{gray!40} $A$ & $Y$ \\ \hline
+          0 & 1 \\ \hline
+          1 & 0 \\ \hline
+        \end{tabular}
+        \endgroup
+        \vspace{3pt}
+      \end{minipage}
+    }\\ \hline
+
+    Bafer (BUFFER) &
+    \begin{tikzpicture}[circuit logic US, x=1em, y=1em, baseline={(current bounding box.center)}]
+      \node[buffer gate US, draw, minimum width=2.2em, logic gate inputs=nn] (g) {};
+      \draw (g.input) -- ++(-0.9,0) node[left] {$A$};
+      \draw (g.output) -- ++(0.9,0) node[right] {$Y$};
+    \end{tikzpicture}
+    & $Y=A$ &
+    {\scriptsize
+      \begin{minipage}{\linewidth}\centering
+        \vspace{3pt}
+        \begingroup
+        \rowcolors{0}{}{} % disable any active row coloring
+        \begin{tabular}{|c|c|}
+          \hline \rowcolor{gray!40} $A$ & $Y$ \\ \hline
+          0 & 0 \\ \hline
+          1 & 1 \\ \hline
+        \end{tabular}
+        \endgroup
+        \vspace{3pt}
+      \end{minipage}
+    }\\ \hline
+
+    I (konjunkcija, AND) &
+    \begin{tikzpicture}[circuit logic US, x=1em, y=1em, baseline={(current bounding box.center)}]
+      \node[and gate US, draw, minimum width=3em, logic gate inputs=nn] (g) {};
+      \draw (g.input 1) -- ++(-0.9,0) node[left] {$A$};
+      \draw (g.input 2) -- ++(-0.9,0) node[left] {$B$};
+      \draw (g.output) -- ++(0.9,0) node[right] {$Y$};
+    \end{tikzpicture}
+    & $Y=A \land B = A \cdot B$ &
+    {\scriptsize
+      \begin{minipage}{\linewidth}\centering
+        \vspace{3pt}
+        \begingroup
+        \rowcolors{0}{}{} % disable any active row coloring
+        \begin{tabular}{|c|c|c|}
+          \hline \rowcolor{gray!40} $A$ & $B$ & $Y$ \\ \hline
+          0 & 0 & 0 \\ \hline
+          0 & 1 & 0 \\ \hline
+          1 & 0 & 0 \\ \hline
+          1 & 1 & 1 \\ \hline
+        \end{tabular}
+        \endgroup
+        \vspace{3pt}
+      \end{minipage}
+    }\\ \hline
+
+    ILI (disjunkcija, OR) &
+    \begin{tikzpicture}[circuit logic US, x=1em, y=1em, baseline={(current bounding box.center)}]
+      \node[or gate US, draw, minimum width=3em, logic gate inputs=nn] (g) {};
+      \draw (g.input 1) -- ++(-0.9,0) node[left] {$A$};
+      \draw (g.input 2) -- ++(-0.9,0) node[left] {$B$};
+      \draw (g.output) -- ++(0.9,0) node[right] {$Y$};
+    \end{tikzpicture}
+    & $Y=A \lor B = A + B$ &
+    {\scriptsize
+      \begin{minipage}{\linewidth}\centering
+        \vspace{3pt}
+        \begingroup
+        \rowcolors{0}{}{} % disable any active row coloring
+        \begin{tabular}{|c|c|c|}
+          \hline \rowcolor{gray!40} $A$ & $B$ & $Y$ \\ \hline
+          0 & 0 & 0 \\ \hline
+          0 & 1 & 1 \\ \hline
+          1 & 0 & 1 \\ \hline
+          1 & 1 & 1 \\ \hline
+        \end{tabular}
+        \endgroup
+        \vspace{3pt}
+      \end{minipage}
+    }\\ \hline
+
+    NI (NAND) &
+    \begin{tikzpicture}[circuit logic US, x=1em, y=1em, baseline={(current bounding box.center)}]
+      \node[nand gate US, draw, minimum width=3em, logic gate inputs=nn] (g) {};
+      \draw (g.input 1) -- ++(-0.9,0) node[left] {$A$};
+      \draw (g.input 2) -- ++(-0.9,0) node[left] {$B$};
+      \draw (g.output) -- ++(0.9,0) node[right] {$Y$};
+    \end{tikzpicture}
+    & $Y=\lnot(A \land B) = \overline{A \cdot B}$ &
+    {\scriptsize
+      \begin{minipage}{\linewidth}\centering
+        \vspace{3pt}
+        \begingroup
+        \rowcolors{0}{}{} % disable any active row coloring
+        \begin{tabular}{|c|c|c|}
+          \hline \rowcolor{gray!40} $A$ & $B$ & $Y$ \\ \hline
+          0 & 0 & 1 \\ \hline
+          0 & 1 & 1 \\ \hline
+          1 & 0 & 1 \\ \hline
+          1 & 1 & 0 \\ \hline
+        \end{tabular}
+        \endgroup
+        \vspace{3pt}
+      \end{minipage}
+    }\\ \hline
+
+    NILI (NOR) &
+    \begin{tikzpicture}[circuit logic US, x=1em, y=1em, baseline={(current bounding box.center)}]
+      \node[nor gate US, draw, minimum width=3em, logic gate inputs=nn] (g) {};
+      \draw (g.input 1) -- ++(-0.9,0) node[left] {$A$};
+      \draw (g.input 2) -- ++(-0.9,0) node[left] {$B$};
+      \draw (g.output) -- ++(0.9,0) node[right] {$Y$};
+    \end{tikzpicture}
+    & $Y=\lnot(A \lor B) = \overline{A + B}$ &
+    {\scriptsize
+      \begin{minipage}{\linewidth}\centering
+        \vspace{3pt}
+        \begingroup
+        \rowcolors{0}{}{} % disable any active row coloring
+        \begin{tabular}{|c|c|c|}
+          \hline \rowcolor{gray!40} $A$ & $B$ & $Y$ \\ \hline
+          0 & 0 & 1 \\ \hline
+          0 & 1 & 0 \\ \hline
+          1 & 0 & 0 \\ \hline
+          1 & 1 & 0 \\ \hline
+        \end{tabular}
+        \endgroup
+        \vspace{3pt}
+      \end{minipage}
+    }\\ \hline
+
+    Ekskluzivno ILI (XOR) &
+    \begin{tikzpicture}[circuit logic US, x=1em, y=1em, baseline={(current bounding box.center)}]
+      \node[xor gate US, draw, minimum width=3.2em, logic gate inputs=nn] (g) {};
+      \draw (g.input 1) -- ++(-0.9,0) node[left] {$A$};
+      \draw (g.input 2) -- ++(-0.9,0) node[left] {$B$};
+      \draw (g.output) -- ++(0.9,0) node[right] {$Y$};
+    \end{tikzpicture}
+    & $Y=A \oplus B$ &
+    {\scriptsize
+      \begin{minipage}{\linewidth}\centering
+        \vspace{3pt}
+        \begingroup
+        \rowcolors{0}{}{} % disable any active row coloring
+        \begin{tabular}{|c|c|c|}
+          \hline \rowcolor{gray!40} $A$ & $B$ & $Y$ \\ \hline
+          0 & 0 & 0 \\ \hline
+          0 & 1 & 1 \\ \hline
+          1 & 0 & 1 \\ \hline
+          1 & 1 & 0 \\ \hline
+        \end{tabular}
+        \endgroup
+        \vspace{3pt}
+      \end{minipage}
+    }\\ \hline
+
+    Ekvivalencija (XNOR) &
+    \begin{tikzpicture}[circuit logic US, x=1em, y=1em, baseline={(current bounding box.center)}]
+      \node[xnor gate US, draw, minimum width=3.2em, logic gate inputs=nn] (g) {};
+      \draw (g.input 1) -- ++(-0.9,0) node[left] {$A$};
+      \draw (g.input 2) -- ++(-0.9,0) node[left] {$B$};
+      \draw (g.output) -- ++(0.9,0) node[right] {$Y$};
+    \end{tikzpicture}
+    & $Y=\lnot(A \oplus B) = \overline{A \oplus B}$ &
+    {\scriptsize
+      \begin{minipage}{\linewidth}\centering
+        \vspace{3pt}
+        \begingroup
+        \rowcolors{0}{}{} % disable any active row coloring
+        \begin{tabular}{|c|c|c|}
+          \hline \rowcolor{gray!40} $A$ & $B$ & $Y$ \\ \hline
+          0 & 0 & 1 \\ \hline
+          0 & 1 & 0 \\ \hline
+          1 & 0 & 0 \\ \hline
+          1 & 1 & 1 \\ \hline
+        \end{tabular}
+        \endgroup
+        \vspace{3pt}
+      \end{minipage}
+    }\\ \hline
+
+  \end{tabularx}
+\end{table}
+
+\pagebreak
+
+Jedan od bitnijih koraka u procesu sinteze kombinacionih mreža predstavlja proces
+minimizacije logičkih funkcija. Iako su razvijene različite metode koje imaju za cilj da
+minimizuju broj logičkih kola potrebnih za sintezu neke logičke funkcije, za potrebe računskih
+vežbi iz ovog kursa u svrhu minimizacije logičkih funkcija koristićemo metodu baziranu na
+Karnoovim kartama. Zbog toga, za potpuno razumevanje primera koji slede, neophodno je
+dobro poznavanje ove oblasti koja je odrađena na časovima predavanja.
+
+Pored poznavanja funkcionalnosti osnovnih logičkih kola, kao i poznavanja metoda za
+minimizaciju logičkih funkcija, u toku izrade zadataka potrebno je poznavanje određenih
+algebarskih pravila koji važe u slučaju Bulove algebre. U tabeli~\ref{tab:pravila-logike} predstavljan su neka od
+osnovnih pravila Bulove algebre koja će biti korišćena kroz izradu zadataka.
+
+
+\begin{table}[!ht]
+  \centering
+  \caption{Neka od osnovnih pravila Bulove algebre}
+  \label{tab:pravila-logike}
+  \begin{tabularx}{\linewidth}{| M{2.5cm} | C | C |}
+    \hline
+    \rowcolor{gray!40}
+    \textbf{Broj pravila} & \textbf{I forma} & \textbf{ILI forma} \\
+    \hline
+    1  & $0\cdot A = 0$                                  & $0 + A = A$ \\ \hline
+    2  & $1\cdot A = A$                                  & $1 + A = 1$ \\ \hline
+    3  & $A\cdot A = A$                                  & $A + A = A$ \\ \hline
+    4  & $A\cdot \bar{A} = 0$                            & $A + \bar{A} = 1$ \\ \hline
+    5  & $A\cdot B = B\cdot A$                           & $A + B = B + A$ \\ \hline
+    6  & $A\cdot(B\cdot C) = (A\cdot B)\cdot C$          & $A + (B + C) = (A + B) + C$ \\ \hline
+    7  & $A + B\cdot C = (A + B)\cdot(A + C)$            & $A\cdot(B + C) = A\cdot B + A\cdot C$ \\ \hline
+    8  & $A\cdot(A + B) = A$                             & $A + A\cdot B = A$ \\ \hline
+    9  & $\overline{A\cdot B} = \bar{A} + \bar{B}$       & $\overline{A + B} = \bar{A}\cdot \bar{A}$ \\ \hline
+    10 & \multicolumn{2}{|c|}{$A = \overline{\overline{A}}$} \\ \hline
+  \end{tabularx}
+\end{table}
+
+U drugom delu računskih vežbi obrađivaćemo jednu vrstu hazarda karakterističnih za
+sekvencijalne mreže. Ta vrsta hazarda naziva statički hazardi i manifestuje se pojavom lažnih
+nula i jedinica na izlazu logičkog kola. U okiru praktičnih primera predstavićemo pristup koji
+se može iskoristiti za uklanjanje statičkih hazarda. Međutim, treba imati u vidu da se u većini
+praktičnih situacija statički hazardi rešavaju korišćenjem metoda simulacije digitalnih kola.
+
+\pagebreak
+
+%========================
+\section{Zadaci}
+
+\subsection{Zadatak}
+\noindent
+Funkciju
+\begin{equation}
+Y = (A + C + D)\cdot(\bar{A} + C + \bar{D}) \cdot (B + \bar{C})
+\label{eq:zad21}
+\end{equation}
+realizovati u što minimalnijoj formi:
+
+\begin{enumerate}[label=\alph*) , leftmargin=*, itemsep=2pt]
+  \item Korišćenjem osnovnih logičkih kola sa proizvoljnim brojem ulaza
+  \item Korišćenjem isključivo NI logičkih kola sa proizvoljnim brojem ulaza
+  \item Korišćenjem isključivo NI logičkih kola sa dva ulaza
+  \item Korišćenjem isključivo NILI logičkih kola sa dva ulaza
+\end{enumerate}
+
+\subsubsection*{Rešenje:} 
+
+a) Pošto se u okviru postavke zadatka traži realizacija u što minimalnijoj formi neophodno
+je izvršiti minimizaciju logičke funkcije korišćenjem nekih od dostupnih metoda za
+minimizaciju. U okviru ovog kursa, koristićemo metodu Karnoovih karti. Rezultat dobijen
+primenom ove metode garantuje minimalnost po pitanju broja logičkih kola ali i po pitanju
+broja ulaza.
+
+
+\begin{figure}[!ht]
+  \centering
+  \captionsetup{skip=-8pt} % space between K-map and caption (adjust)
+\begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]
+  \minterms{1,5,6,7,8,12,14,15}
+  \maxterms{0,2,3,4,9,10,11,13}
+  % no \implicant lines -> no groups drawn
+\end{karnaugh-map}
+  \caption{Sadržaj Karnoove karte za funkciju~\eqref{eq:zad21}}
+  \label{fig:kmap-21}
+\end{figure}
+
+
+\begin{figure}[!ht]
+  \centering
+  \captionsetup{skip=4pt} % space between K-map and caption (adjust)
+
+  % Left: grouped zeros
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    % tighten just this subfigure (optional override)
+    \captionsetup{skip=-8pt, belowskip=2pt}
+    \begin{karnaugh-map}(label=corner)[4][4][1][$CD$][$AB$]
+      \minterms{1,5,6,7,8,12,14,15}
+      \maxterms{0,2,3,4,9,10,11,13}
+
+      % --- Example zero groups (choose any valid cover you prefer) ---
+      \implicant{0}{4}
+      \implicantedge{3}{2}{11}{10}
+      \implicant{13}{9}
+    \end{karnaugh-map}
+    \caption{Proizvod zbirova}
+    \label{fig:kmap-zeros}
+  \end{subfigure}
+  \hfill
+  % Right: grouped ones
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    % tighten just this subfigure (optional override)
+    \captionsetup{skip=-8pt, belowskip=2pt}
+    \begin{karnaugh-map}(label=corner)[4][4][1][$CD$][$AB$]
+      \minterms{1,5,6,7,8,12,14,15}
+      \maxterms{0,2,3,4,9,10,11,13}
+
+      % --- A minimal cover of ones (example groups) ---
+      \implicant{7}{14}
+      \implicant{12}{8}
+      \implicant{1}{5}
+    \end{karnaugh-map}
+    \caption{Zbir proizvoda}
+    \label{fig:kmap-ones}
+  \end{subfigure}
+
+  \caption{Sadržaj Karnoove karte za funkciju~\eqref{eq:zad21}, gde je a) označena oblast za minimizaciju u formi proizvoda zbirova b)
+označena oblast za minimizaiciju u formi zbira proizvoda}
+  \label{fig:kmap-both}
+\end{figure}
+
+
+Nakon minimizacije dobijaju se minimalne funkcije u formi zbira proizvoda~\eqref{eq:zad21_min_zp} i u
+formi proizvoda zbirova~\eqref{eq:zad21_min_pz}. Za realizaciju funkcije~\eqref{eq:zad21_min_zp} potrebna su 3 I i 2 ILI logička
+kola. Isti broj kola potreban je i za realizaciju funcije~\eqref{eq:zad21_min_pz}. Dakle, obe minimalne forme daju
+isti broj logičkih kola.
+
+\begin{equation}
+Y_{MIN\_ZP} = \bar{A} \bar{C} D + A \bar{C} \bar{D} + BC
+\label{eq:zad21_min_zp}
+\end{equation}
+
+\begin{equation}
+Y_{MIN\_PZ} = (A + C + D)(\bar{A} + C + \bar{D})( B + \bar{C})
+\label{eq:zad21_min_pz}
+\end{equation}
+
+
+\noindent
+Na slici~\ref{fig:zadatak1-zp} je predstavljena realizacija funkcije~\eqref{eq:zad21_min_zp}.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.7\linewidth]{Zadatak_1/Zadatak1_ZP}% adjust path if needed
+  \caption{Implementacija funkcije~\eqref{eq:zad21} u formi zbira proizvoda.}
+  \label{fig:zadatak1-zp}
+\end{figure}
+
+\noindent\makebox[\linewidth]{\dotfill}
+
+b) U okviru ove tačke zahtevana je implementacija funkcije~\eqref{eq:zad21} korišćenjem isključivo
+NI kola. Sistematski pristup za implementaciju funkcije koja sadrži isključivo NI kola
+podrazumeva dva koraka:
+\begin{enumerate}
+\item[$1)$] Transformaciju minimalne funkcije u formi zbira proizvoda u algebarski zapis koji
+sadrži isključivo komplementirane proizvode
+\item[$2)$] Šemu koja sadrži isključivo NI kola a koja se dobija na osnovu algebarskog izraza
+dobijenog u koraku 1
+\end{enumerate}
+
+\vspace{1em}
+Korak (1) obuhvata niz transformacija koje za cilj imaju dobijanje algebarskog zapisa u kome
+isključivo figurišu komplementirani proizvodi. U slučaju da se zahteva realizacija isključivo
+korišćenjem NI kola sa n ulaza, proizvodi moraju sadržati tačno n činioca. U okviru ove tačke
+broj ulaza nije definisan tako da ne postoji ograničenje po pitanju broja dostupnih ulaza u NI
+logičko kolo. Kao polazni izraz, nad kojim će se vršiti dalje transformacije, koristi se formazbira proizvoda funkcije dobijene primenom Karnoove karte. Za slučaj funkcije~\eqref{eq:zad21} polazni
+izraz predstavlja~\eqref{eq:zad21_min_zp} odnosno zbir proizvoda. Na osnovu pravila Bulove algebre, koji kaže da se vrednost funkcije
+ne menja dvostrukim komplementiranjem iste, dobijamo:
+
+
+\begin{equation}
+Y = \overline{\overline{Y}} = \overline{\overline{\bar{A} \bar{C} D + A \bar{C} \bar{D} + BC}}
+\label{eq:zad21_min_zp_1}
+\end{equation}
+Daljim transformacija kao krajnji rezultat dobijamo:
+\begin{equation}
+Y = \overline{\overline{Y}} = \overline{\color{red}{\overline{\bar{A} \bar{C} D}} \cdot \color{blue}{\overline{A \bar{C} \bar{D}}} \cdot \color{ForestGreen}{\overline{BC}}}
+\label{eq:zad21_min_zp_2}
+\end{equation}
+
+\noindent
+Iz funkcije~\eqref{eq:zad21_min_zp_2} možemo uočiti da u njoj figurišu isključivo
+komplementirani proizvodi, tačnije četiri takva proizvoda (crveni -- $\color{red}{\overline{\bar{A} \bar{C} D}}$;
+plavi -- $\color{blue}{\overline{A \bar{C} \bar{D}}}$; zeleni -- $\color{ForestGreen}{\overline{BC}}$; i na kraju globalni
+komplement koji predstavlja celu funkciju).
+
+
+\vspace{1em}
+\noindent
+Na slici~\ref{fig:zadatak1-proiz-ni} je predstavljena implementacija funkcije~\eqref{eq:zad21_min_zp_2}.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.7\linewidth]{Zadatak_1/Zadatak1_NIProizInput}% adjust path if needed
+  \caption{Implementacija funkcije~\eqref{eq:zad21} korišćenjem isključivo NI kola sa proizvoljnim brojem ulaza.}
+  \label{fig:zadatak1-proiz-ni}
+\end{figure}
+
+\noindent\makebox[\linewidth]{\dotfill}
+
+c) U okviru ove tačke se takođe zahteva realizacija funkcije~\eqref{eq:zad21} korišćenjem \textbf{isključivo
+dvoulaznih NI} kola. Koraci (1) i (2) su identični kao u prethodnoj tački što podrazumeva
+da i ovde polazimo od algebarskog zapisa funkcije~\eqref{eq:zad21} u formi zbira proizvoda~\eqref{eq:zad21_min_zp}. Nakon niza transformacija~\eqref{eq:zad21_min_2ni_1}-\eqref{eq:zad21_min_2ni_4} dobijamo krajnji izraz~\eqref{eq:zad21_min_2ni_5}.
+
+\begin{equation}
+Y = \bar{C} (\bar{A}  D + A \bar{D}) + BC
+\label{eq:zad21_min_2ni_1}
+\end{equation}
+
+\begin{equation}
+Y = \overline{\overline{Y}} =  \overline{\overline{\bar{C} (\bar{A}  D + A \bar{D}) + BC}}
+\label{eq:zad21_min_2ni_2}
+\end{equation}
+
+\begin{equation}
+Y = \overline{\overline{\bar{C} (\bar{A} D + A \bar{D})} \cdot \overline{BC}}
+\label{eq:zad21_min_2ni_3}
+\end{equation}
+
+\begin{equation}
+Y = \overline{
+\overline{\bar{C} \overline{\overline{(\bar{A} D + A \bar{D})}}}
+\cdot
+\overline{BC}
+}
+\label{eq:zad21_min_2ni_4}
+\end{equation}
+
+\begin{equation}
+Y = \overline{
+\color{orange}{\overline{\bar{C} 
+\color{ForestGreen}{\overline{
+\color{black}{(}\color{red}{\overline{\bar{A} D}}
+\color{ForestGreen}{ \cdot }
+\color{blue}{\overline{A \bar{D}}}\color{black}{)}
+}}
+}}
+\color{black}{ \cdot }
+\color{Plum}{
+\overline{BC}
+}}
+\label{eq:zad21_min_2ni_5}
+\end{equation}
+
+\noindent
+Na slici~\ref{fig:zadatak1-2-ni} je predstavljena implementacija funkcije~\eqref{eq:zad21_min_2ni_5}.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.7\linewidth]{Zadatak_1/Zadatak1_NI2Ulaza}% adjust path if needed
+  \caption{Implementacija funkcije~\eqref{eq:zad21} korišćenjem isključivo dvoulaznih NI kola.}
+  \label{fig:zadatak1-2-ni}
+\end{figure}
+
+\FloatBarrier   % place all pending floats before carrying on
+
+\noindent\makebox[\linewidth]{\dotfill}
+
+d) U okviru ove tačke zahtevana je implementacija funkcije~\eqref{eq:zad21} korišćenjem isključivo
+dvoulaznih NILI kola. Sistematski pristup za implementaciju funkcije koja sadrži isključivo
+dvoulazna NILI kola podrazumeva sledeća dva koraka:
+\begin{itemize}
+\item[$1)$] Transformaciju minimalne funkcije u formi proizvoda zbirova u algebarski zapis koji
+sadrži isključivo komplementirane zbirove
+\item[$2)$] Šemu koja sadrži isključivo NILI kola a koja se dobija na osnovu algebarskog izraza
+dobijenog u koraku 1
+\end{itemize}
+
+\vspace{1em}
+\noindent
+Korak (1) obuhvata niz transformacija koje za cilj imaju dobijanje algebarskog zapisa u kome
+isključivo figurišu komplementirani zbirovi sa tačno dva sabirka. Kao polazni izraz, nad kojim
+će se vršiti dalje transformacije, koristi se forma proizvoda zbirova funkcije dobijene primenom
+Karnoove karte. Za slučaj funkcije~\eqref{eq:zad21} polazni izraz predstavlja~\eqref{eq:zad21_min_pz} ili ponovljeno ispod:
+
+\begin{equation}
+Y = (A + C + D)(\bar{A} + C + \bar{D})( B + \bar{C})
+\label{eq:zad21_min_pz_again}
+\end{equation}
+
+Na osnovu primena pravila 7 Bulove algebre definisanog u Tabeli~\ref{tab:pravila-logike} moguće je
+transformisati~\eqref{eq:zad21_min_pz_again} u:
+
+\begin{equation}
+Y = (C + (A + D)(\bar{A} + \bar{D}))( B + \bar{C})
+\label{eq:zad21_pz_tran_1}
+\end{equation}
+
+Duplim komplementiranje izraza~\eqref{eq:zad21_pz_tran_1} dobija se
+
+\begin{equation}
+Y = \overline{\overline{Y}} = \overline{\overline{ (C + (A + D)(\bar{A} + \bar{D}))( B + \bar{C}) }}
+\label{eq:zad21_pz_tran_2}
+\end{equation}
+
+\begin{equation}
+Y = 
+\overline{
+\overline{ (C + (A + D)(\bar{A} + \bar{D}))} 
++ 
+\overline{ ( B + \bar{C}) }
+}
+\label{eq:zad21_pz_tran_3}
+\end{equation}
+
+\begin{equation}
+Y = 
+\overline{
+\overline{ (C + 
+\overline{ \overline{ (A + D)(\bar{A} + \bar{D})) }}
+} 
++ 
+\overline{ ( B + \bar{C}) }
+}
+\label{eq:zad21_pz_tran_4}
+\end{equation}
+
+\begin{equation}
+Y = 
+\overline{
+\color{Bittersweet}{ \overline{ (C + 
+\color{ForestGreen}{ \overline{ 
+\color{red}{ \overline{ (A + D) } }
+\color{ForestGreen}{ + }
+\color{blue}{ \overline{ (\bar{A} + \bar{D})) } }
+}}
+} }
+\color{black}{ + }
+\color{Plum}{ \overline{ ( B + \bar{C}) } }
+}
+\label{eq:zad21_pz_tran_5}
+\end{equation}
+
+\newpage
+\noindent
+Na slici~\ref{fig:zadatak1-2-nili} je predstavljena implementacija funkcije~\eqref{eq:zad21_pz_tran_5}.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=0.7\linewidth]{Zadatak_1/Zadatak1_NILI2Ulaza}% adjust path if needed
+  \caption{Implementacija funkcije~\eqref{eq:zad21} korišćenjem isključivo dvoulaznih NILI kola.}
+  \label{fig:zadatak1-2-nili}
+\end{figure}
+
+
+
+\clearpage
+
+\subsection{Zadatak}
+
+
+\begin{enumerate}[label=\alph*), leftmargin=*, itemsep=2pt]
+  \item Odrediti funkcionalnu tabelu za funkciju $Z = f(A,B,C,D)$, gde je $Z$ jednako $1$ kada u zapisu
+  četvorobitnog broja $ABCD$ postoje barem dve susedne nule, dok je u suprotnom $Z$ jednako $0$
+  (na primer, kada je $ABCD=0000$ tada je $Z=1$, dok kada je $ABCD=0101$ tada je $Z=0$).
+
+  \item Projektovati kombinacionu mrežu koja realizuje funkciju $Z$ ukoliko su dostupna logička
+  kola proizvoljnog tipa.
+\end{enumerate}
+
+\noindent
+\textit{Napomena.} Težiti da broj upotrebljenih logičkih kola bude minimalan.
+
+\subsubsection*{Rešenje:} 
+
+\noindent
+a) Sadržaj funkcionalne tabele za funkciju Z je:
+
+\begin{table}[!ht]
+\centering
+\caption{Funkcionalna tabela za $Z = f(A,B,C,D)$}\label{tab:zad22}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{gray!40}
+A & B & C & D & Z \\ \hline
+0 & 0 & 0 & 0 & 1 \\ \hline
+0 & 0 & 0 & 1 & 1 \\ \hline
+0 & 0 & 1 & 0 & 1 \\ \hline
+0 & 0 & 1 & 1 & 1 \\ \hline
+0 & 1 & 0 & 0 & 1 \\ \hline
+0 & 1 & 0 & 1 & 0 \\ \hline
+0 & 1 & 1 & 0 & 0 \\ \hline
+0 & 1 & 1 & 1 & 0 \\ \hline
+1 & 0 & 0 & 0 & 1 \\ \hline
+1 & 0 & 0 & 1 & 1 \\ \hline
+1 & 0 & 1 & 0 & 0 \\ \hline
+1 & 0 & 1 & 1 & 0 \\ \hline
+1 & 1 & 0 & 0 & 1 \\ \hline
+1 & 1 & 0 & 1 & 0 \\ \hline
+1 & 1 & 1 & 0 & 0 \\ \hline
+1 & 1 & 1 & 1 & 0 \\ \hline
+\end{tabular}
+\end{table}
+
+\noindent\makebox[\linewidth]{\dotfill}
+
+\noindent
+b) Pošto se postavkom zadatka zahteva da broj upotrebljenih kola bude minimalan,
+realizaciju ove logičke funkcije potrebno je započeti korišćenjem metode minimizacije bazirane na upotrebi Karnoovih karti. Sadržaj Karnove karte za funkcionalnu tabelu~\ref{tab:zad22} iz
+prethodne tačke je prikazan na slici \ref{fig:kmap-adjacent-zeros}.
+
+\begin{figure}[!ht]
+  \centering
+  \captionsetup{skip=-8pt} % space between K-map and caption (adjust)
+
+  % Z = 1 for minterms: 0,1,2,3,4,8,9,12
+  % Z = 0 for minterms: 5,6,7,10,11,13,14,15
+  \begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]
+    \minterms{0,1,2,3,4,8,9,12}
+    \maxterms{5,6,7,10,11,13,14,15}
+    % no groups drawn
+  \end{karnaugh-map}
+
+  \caption{Sadržaj Karnoove karte za funkciju $Z$.}
+  \label{fig:kmap-adjacent-zeros}
+\end{figure}
+
+Funkciju $Z$ ćemo najpre izraziti u obe forme (zbir proizvoda i proizvod zbirova) a zatim ćemo analizom utvrditi koja forma zahteva manji broj logičkih kola.
+
+\begin{figure}[!ht]
+  \centering
+  \captionsetup{skip=4pt} % main caption spacing
+
+  % ===== Left: group zeros (POS) =====
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    % tighten just this subfigure (optional override) 
+    \captionsetup{skip=-8pt, belowskip=2pt}
+    \begin{karnaugh-map}(label=corner)[4][4][1][$CD$][$AB$]
+      \minterms{0,1,2,3,4,8,9,12}
+      \maxterms{5,6,7,10,11,13,14,15}
+      \implicant{5}{15}
+      \implicant{7}{14}
+      \implicant{15}{10}
+    \end{karnaugh-map}
+    \caption{Proizvod zbirova}
+    \label{fig:kmap-adjzeros}
+  \end{subfigure}
+  \hfill
+  % ===== Right: group ones (SOP) =====
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    % tighten just this subfigure (optional override) 
+    \captionsetup{skip=-8pt, belowskip=2pt}
+    \begin{karnaugh-map}(label=corner)[4][4][1][$CD$][$AB$]
+      \minterms{0,1,2,3,4,8,9,12}
+      \maxterms{5,6,7,10,11,13,14,15}
+
+      \implicant{0}{8}
+      \implicant{0}{2}
+      \implicantedge{0}{1}{8}{9}
+    \end{karnaugh-map}
+    \caption{Zbir proizvoda}
+    \label{fig:kmap-adjones}
+  \end{subfigure}
+
+  \caption{Karnoova mape za funkciju $Z$ gde je a) označena oblast za minimizaciju u formi proizvoda zbirova b)
+označena oblast za minimizaiciju u formi zbira proizvoda.}
+  \label{fig:kmap-adj-both}
+\end{figure}
+
+\noindent
+Na osnovu slike slike~\ref{fig:kmap-adj-both} dobijamo sledeće funkcije:
+
+\begin{equation}
+Y_{MIN\_ZP} = \bar{C}\bar{D} + \bar{A}\bar{B} + \bar{B}\bar{C}
+\label{eq:zad22_min_zp}
+\end{equation}
+
+\begin{equation}
+Y_{MIN\_PZ} = (\bar{B} + \bar{C})(\bar{B} + \bar{D})(\bar{A} + \bar{C})
+\label{eq:zad22_min_pz}
+\end{equation}
+
+Na osnovu dobijenih logičkih funkcija možemo zaključiti da je isti broj logičkih kola
+potreban za realizaciju obe forme logičke funkcije $Z$. 
+
+\FloatBarrier   % place all pending floats before carrying on
+
+\noindent
+Na slici~\ref{fig:zadatak2-impl} je prikazana implementacija
+funkcije~\eqref{eq:zad22_min_zp}.
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=0.65\linewidth]{Zadatak_2/Zadatak2}% adjust path if needed
+  \caption{Implementacija funkcije $Z$ korišćenjem forme zbira proizvoda.}
+  \label{fig:zadatak2-impl}
+\end{figure}
+
+\newpage
+
+\subsection{Zadatak}
+
+Projektovati kombinacionu mrežu koja realizuje izlaz
+$
+C(C_3 C_2 C_1 C_0) = A(A_1 A_0) \cdot B(B_1 B_0),
+$
+gde su $A$ i $B$ neoznačeni binarni brojevi. Kombinacionu mrežu je potrebno realizovati
+korišćenjem minimalnog broja osnovnih logičkih kola sa proizvoljnim brojem ulaza.
+
+\subsubsection*{Rešenje:} 
+
+Prvi korak u rešavanju ovog zadatka predstavlja kreiranje sadržaja funkcionalne tabele:
+
+\begin{table}[!ht]
+\centering
+\caption{Funkcionalna tabela za $C = A \cdot B$}\label{tab:zad23}
+\begin{tabular}{|c:c||c:c||c:c:c:c|}
+\hline
+\rowcolor{gray!40}
+$A_1$ & $A_0$ & $B_1$ & $B_0$ & $C_3$ & $C_2$ & $C_1$ & $C_0$ \\ \hline\hline
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 \\ \hline
+0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 \\ \hline
+0 & 0 & 1 & 1 & 0 & 0 & 0 & 0 \\ \hline
+
+0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+0 & 1 & 0 & 1 & 0 & 0 & 0 & 1 \\ \hline
+0 & 1 & 1 & 0 & 0 & 0 & 1 & 0 \\ \hline
+0 & 1 & 1 & 1 & 0 & 0 & 1 & 1 \\ \hline
+
+1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+1 & 0 & 0 & 1 & 0 & 0 & 1 & 0 \\ \hline
+1 & 0 & 1 & 0 & 0 & 1 & 0 & 0 \\ \hline
+1 & 0 & 1 & 1 & 0 & 1 & 1 & 0 \\ \hline
+
+1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+1 & 1 & 0 & 1 & 0 & 0 & 1 & 1 \\ \hline
+1 & 1 & 1 & 0 & 0 & 1 & 1 & 0 \\ \hline
+1 & 1 & 1 & 1 & 1 & 0 & 0 & 1 \\ \hline
+\end{tabular}
+\end{table}
+
+Nakon kreiranja funkcionalne tabele, primenom metode optimizacije bazirane na Karnoovim
+kartama, potrebno je realizovati minimalnu funkciju za svaki od izlaznih signala. Sadržaj
+Karnoovih karti je prikazan na slikama~\ref{fig:kmap-2x2_1} i~\ref{fig:kmap-2x2_2}.
+
+\begin{figure}[!ht]
+  \centering
+  \captionsetup{skip=4pt}
+
+  % ========== ROW 1: C3 and C2 ======================================
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    \captionsetup{skip=-8pt}
+    % ================= C3 =====================
+    \begin{karnaugh-map}(label=corner)[4][4][1][$B_1B_0$][$A_1A_0$]
+      \minterms{15}
+      \maxterms{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14}
+
+      % Group of ones (single 1)
+      \implicant{15}{15}
+    \end{karnaugh-map}
+    \caption{Karnoova mapa za $C_3$}
+    \label{fig:kmap-C3}
+  \end{subfigure}\hfill
+  % --------------------------------------------------
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    \captionsetup{skip=-8pt}
+    % ================= C2 =====================
+    \begin{karnaugh-map}(label=corner)[4][4][1][$B_1B_0$][$A_1A_0$]
+      \minterms{10,11,14}
+      \maxterms{0,1,2,3,4,5,6,7,8,9,12,13,15}
+
+      % Groups of ones
+      \implicant{11}{10} % horizontal pair
+      \implicant{14}{10} % isolated
+    \end{karnaugh-map}
+    \caption{Karnoova mapa za $C_2$}
+    \label{fig:kmap-C2}
+  \end{subfigure}
+
+
+  \caption{Karnoove karte za $C_3$ i$C_2$ proizvoda $C = A \cdot B$, sa grupisanim jedinicama (ZP).}
+  \label{fig:kmap-2x2_1}
+\end{figure}
+
+
+\begin{figure}[!ht]
+  \centering
+  \captionsetup{skip=4pt}
+
+  % ========== ROW 2: C1 and C0 ======================================
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    \captionsetup{skip=-8pt}
+    % ================= C1 =====================
+    \begin{karnaugh-map}(label=corner)[4][4][1][$B_1B_0$][$A_1A_0$]
+      \minterms{6,7,9,11,13,14}
+      \maxterms{0,1,2,3,4,5,8,10,12,15}
+
+      % Groups of ones
+      \implicant{7}{6}
+      \implicant{6}{14}
+      \implicant{13}{9}
+      \implicant{9}{11}
+    \end{karnaugh-map}
+    \caption{Karnoova mapa za $C_1$}
+    \label{fig:kmap-C1}
+  \end{subfigure}\hfill
+  % --------------------------------------------------
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    \captionsetup{skip=-8pt}
+    % ================= C0 =====================
+    \begin{karnaugh-map}(label=corner)[4][4][1][$B_1B_0$][$A_1A_0$]
+      \minterms{5,7,13,15}
+      \maxterms{0,1,2,3,4,6,8,9,10,11,12,14}
+
+      % Groups of ones
+      \implicant{5}{15}
+    \end{karnaugh-map}
+    \caption{Karnoova mapa za $C_0$ }
+    \label{fig:kmap-C0}
+  \end{subfigure}
+
+  \caption{Karnoove karte za $C_1$ i$C_0$ proizvoda $C = A \cdot B$, sa grupisanim jedinicama (ZP).}
+  \label{fig:kmap-2x2_2}
+\end{figure}
+
+Na osnovu sadržaja Karnoovih karti, prikazanih na slikama~\ref{fig:kmap-2x2_1} i~\ref{fig:kmap-2x2_2}, moguće je realizovati
+svaku od izlaznih funkcija:
+
+\begin{equation}
+C_3 = A_1 A_0 B_1 B_0
+\end{equation}
+
+
+\begin{equation}
+C_2 
+= A_1 B_1 \bar{B_0} + \bar{A_0} A_1 B_1 
+= A_1 B_1 (\bar{B_0} + \bar{A_0}) 
+= A_1 B_1 \overline{B_0 A_0}
+\end{equation}
+
+\begin{equation}
+\begin{aligned}
+C_1 
+&= A_1 \bar{B_1} B_0 + A_1 \bar{A_0} B_0 + \bar{A_1} A_0 B_1 + A_0 B_1 \bar{B_0} \\
+&= A_1  B_0  (\bar{A_0} + \bar{B_1}) +  A_0 B_1 ( \bar{A_1} + \bar{B_0} ) \\
+&= A_1  B_0  (\overline{A_0 B_1}) +  A_0 B_1 ( \overline{A_1 B_0} ) 
+= A_1  B_0 \oplus A_0 B_1
+\end{aligned}
+\end{equation}
+
+\begin{equation}
+C_0 = A_0 B_0
+\end{equation}
+
+Na slici 11 je predstavljena implementacija funkcije $C = A \cdot B$.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=0.6\linewidth]{Zadatak_3/Zadatak3}% adjust path if needed
+  \caption{Implementacija funkcije $C = A \cdot B$.}
+  \label{fig:zadatak3}
+\end{figure}
+
+
+\end{document}
