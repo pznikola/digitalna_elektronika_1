@@ -327,3 +327,6 @@ TSWLatexianTemp*
 
 # drawio bkp
 *.bkp
+
+# gtkwave vcd
+*.vcd
