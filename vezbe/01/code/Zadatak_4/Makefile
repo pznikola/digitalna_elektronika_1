@@ -2,10 +2,6 @@
 
 # Analyze (compile) all VHDL files
 compile:
-	ghdl -a --std=08 INV.vhd
-	ghdl -a --std=08 OR3.vhd
-	ghdl -a --std=08 AND2.vhd
-	ghdl -a --std=08 AND3.vhd
 	ghdl -a --std=08 zadatak_4.vhd
 	ghdl -a --std=08 tb_zadatak_4.vhd
 
@@ -17,7 +13,7 @@ elaborate:
 run:
 	ghdl -r --std=08 tb_zadatak_4 \
 		--vcd=zadatak_4.vcd \
-		--stop-time=200ns
+		--stop-time=100ns
 
 # Show waveform
 show:

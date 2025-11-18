@@ -14,75 +14,31 @@ entity zadatak_4 is
     );
 end zadatak_4;
 
-architecture Structural of zadatak_4 is
-
+architecture Behavioral of zadatak_4 is
     -- interni signali
     signal B_inv, I1 : STD_LOGIC;
     signal I2, I3, I4 : STD_LOGIC;
 begin
-
     --------------------------------------------------------------------
-    -- Invertori: B_inv = inv B, I1 = inv D
+    -- B_inv = inv B, I1 = inv D
     --------------------------------------------------------------------
-    U_INV_B : entity work.INV
-        generic map ( T => T )
-        port map (
-            A => B,
-            Y => B_inv
-        );
-
-    U_INV_D : entity work.INV
-        generic map ( T => T )
-        port map (
-            A => D,
-            Y => I1
-        );
-
+    B_inv <= (not B) after T;
+    I1    <= (not D) after T;
     --------------------------------------------------------------------
-    -- I2 = A + B_inv
+    -- I2 = A B_inv
     --------------------------------------------------------------------
-    U_I2 : entity work.AND2
-        generic map ( T => T )
-        port map (
-            A => A,
-            B => B_inv,
-            Y => I2
-        );
-
+    I2 <= (A and B_inv) after T;
     --------------------------------------------------------------------
     -- I3 = C D
     --------------------------------------------------------------------
-    U_I3 : entity work.AND2
-        generic map ( T => T )
-        port map (
-            A => C,
-            B => D,
-            Y => I3
-        );
-
+    I3 <= (C and D) after T;
     --------------------------------------------------------------------
     -- I4 = A and C and I1   (A C \bar{D})
     --------------------------------------------------------------------
-    U_I4 : entity work.AND3
-        generic map ( T => T )
-        port map (
-            A => A,
-            B => C,
-            C => I1,
-            Y => I4
-        );
-
+    I4 <= (A and C and I1) after T;
     --------------------------------------------------------------------
-    -- Single 3-input OR:
     -- Y = I2 + I3 + I4
     --------------------------------------------------------------------
-    U_OR3 : entity work.OR3
-        generic map ( T => T )
-        port map (
-            A => I2,
-            B => I3,
-            C => I4,
-            Y => Y
-        );
+    Y <= (I2 or I3 or I4) after T;
 
-end Structural;
+end Behavioral;
