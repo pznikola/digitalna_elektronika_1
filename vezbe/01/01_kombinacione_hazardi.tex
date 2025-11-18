@@ -25,6 +25,9 @@
 % \usepackage{fontspec}
 % \setmainfont{Latin Modern Roman}
 
+%---- for code
+\usepackage{minted}
+
 %---- Flush floats
 \usepackage{placeins} % preamble
 
@@ -1166,6 +1169,17 @@ dodatnoj minimizaciji logičke funkcije~\eqref{eq:zad4} što \textbf{NE MORA} uv
 \end{figure}
 
 \FloatBarrier   % place all pending floats before carrying on
+\noindent
+VHDL kod koji implementira funkciju~\eqref{eq:zad4} sa ka\v{s}njenjem T.
+\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_4/zadatak_4.vhd}
+
+\newpage
+\noindent
+Testbench koji simulira prelazak $ABCD = 1111$ \textrightarrow~$ABCD = 1110$.
+\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_4/tb_zadatak_4.vhd}
+
+
+\newpage
 
 \subsection{Zadatak}\label{zad_5}
 
@@ -1259,9 +1273,8 @@ sa slike~\ref{fig:kmap-5} uočavamo da postoji ukupno 10 prelaza koji mogu doves
 izlazu kola. Kao što je obeleženo u Karnoovoj karti na slici~\ref{fig:kmap-5}, polja $ABCD = 0100$ i $ABCD
 = 0110$ predstavljaju susedna polja u Karnoovoj karti.
 
-%\noindent\makebox[\linewidth]{\dotfill}
+\noindent\makebox[\linewidth]{\dotfill}
 
-\newpage
 
 \noindent
 b) Na slici~\ref{fig:kmap-zad5} je predstavljen sadržaj Karnoove karte sa označenim oblastima za slučaj
@@ -1359,7 +1372,7 @@ funkciju~\eqref{eq:zad5} u minimalnoj formi~\eqref{eq:zad5-min}. Međutim tako d
 generisala lažne nule. Da bi smo sprečili generisanje lažnih nula, na osnovu preklapanja oblasti
 u Karnoovoj karti dobili smo formu~\eqref{eq:zad5-fin}. Za razliku od~\eqref{eq:zad5-min}, forma predstavljena u okviru~\eqref{eq:zad5-fin} sadrži veći broj logičkih kola ali sprečava pojavu lažnih nula.
 
-\newpage
+
 
 \subsection{Zadatak}\label{zad_6}
 
@@ -1475,8 +1488,8 @@ slici 21 su obeleženi svi prelazi koji mogu dovesti do pojave lažnih jedinica
   \label{fig:kmap-zad6-marked}
 \end{figure}
 
-%\noindent\makebox[\linewidth]{\dotfill}
-\newpage
+\noindent\makebox[\linewidth]{\dotfill}
+
 
 \noindent
 b) Nova forma funkcije~\eqref{eq:zad6} koja ne dovodi do pojave lažnih jedinica dobija se na

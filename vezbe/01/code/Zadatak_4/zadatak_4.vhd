@@ -6,10 +6,7 @@ entity zadatak_4 is
         T : time := 1 ns   -- globalni delay parametar
     );
     port (
-        A : in  STD_LOGIC;
-        B : in  STD_LOGIC;
-        C : in  STD_LOGIC;
-        D : in  STD_LOGIC;
+        A, B, C, D : in  STD_LOGIC;
         Y : out STD_LOGIC
     );
 end zadatak_4;
@@ -40,5 +37,4 @@ begin
     -- Y = I2 + I3 + I4
     --------------------------------------------------------------------
     Y <= (I2 or I3 or I4) after T;
-
 end Behavioral;
