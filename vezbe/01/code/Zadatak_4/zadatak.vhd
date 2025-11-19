@@ -1,7 +1,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity zadatak_4 is
+entity zadatak is
     generic (
         T : time := 1 ns   -- globalni delay parametar
     );
@@ -9,9 +9,9 @@ entity zadatak_4 is
         A, B, C, D : in  STD_LOGIC;
         Y : out STD_LOGIC
     );
-end zadatak_4;
+end zadatak;
 
-architecture Behavioral of zadatak_4 is
+architecture Behavioral of zadatak is
     -- interni signali
     signal B_inv, I1 : STD_LOGIC;
     signal I2, I3, I4 : STD_LOGIC;

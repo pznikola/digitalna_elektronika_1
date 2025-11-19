@@ -1,32 +1,38 @@
 #!/usr/bin/env bash
 
-# Analyze (compile) all VHDL files
-compile:
-	ghdl -a --std=08 zadatak_4.vhd
-	ghdl -a --std=08 tb_zadatak_4.vhd
-
-# Elaborate the testbench
-elaborate:
-	ghdl -e --std=08 tb_zadatak_4
-
-# Run the simulation, dump VCD waveform
-run:
-	ghdl -r --std=08 tb_zadatak_4 \
-		--vcd=zadatak_4.vcd \
-		--stop-time=100ns
-
-# Show waveform
-show:
-	gtkwave zadatak_4.vcd
+DESIGN = zadatak
 
 # Clean old stuff
 clean:
-	rm -f *.o *.cf tb_zadatak_4 wave.vcd
+	rm -rf *.o *.cf *.vcd tb_${DESIGN} transcript *.qpf *.qsf *.wlf *.qws modelsim.ini ./db/ ./incremental_db/ ./output_files/ ./work/
 
-# Run the simulation, dump VCD waveform
-run_all:
+# Run the simulation using GHDL
+run_ghdl:
+# Clean all
 	make clean
-	make compile
-	make elaborate
-	make run
-	make show
+# Analyze (compile) VHDL files
+	ghdl -a --std=08 ${DESIGN}.vhd
+	ghdl -a --std=08 tb_${DESIGN}.vhd
+# Elaborate the testbench
+	ghdl -e --std=08 tb_${DESIGN}
+# Run the simulation, dump VCD waveform
+	ghdl -r --std=08 tb_${DESIGN} \
+		--vcd=${DESIGN}.vcd \
+		--stop-time=200ns
+# Show waveform
+	gtkwave ${DESIGN}.vcd &
+
+# Run the simulation using Quartus
+run_vsim:
+# Clean all
+	make clean
+# Run simulation
+	vsim -do run_tb_gui.do
+
+
+# Create Quartus project, elaborate it and open the project in order to inspect RTL schematic
+run_schematic:
+# Clean all
+	make clean
+# Build project
+	./build_and_open.sh &
