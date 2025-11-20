@@ -716,7 +716,14 @@ Na slici~\ref{fig:zadatak1-2-nili} je predstavljena implementacija funkcije~\eqr
   \label{fig:zadatak1-2-nili}
 \end{figure}
 
+%\FloatBarrier   % place all pending floats before carrying on
+\noindent
+VHDL kod koji implementira funkcije~\eqref{eq:zad21_min_zp} i~\eqref{eq:zad21_min_pz}.
+\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_1/zadatak.vhd}
 
+%\newpage
+\noindent
+Testbench koji simulira date funkcije je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_1/tb_zadatak.vhd}{OVDE}.
 
 \clearpage
 
@@ -861,6 +868,15 @@ funkcije~\eqref{eq:zad22_min_zp}.
   \label{fig:zadatak2-impl}
 \end{figure}
 
+%\FloatBarrier   % place all pending floats before carrying on
+\noindent
+VHDL kod koji implementira funkcije~\eqref{eq:zad22_min_zp} i~\eqref{eq:zad22_min_pz}.
+\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_2/zadatak.vhd}
+
+%\newpage
+\noindent
+Testbench koji simulira funkcije~\eqref{eq:zad22_min_zp} i~\eqref{eq:zad22_min_pz} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_2/tb_zadatak.vhd}{OVDE}.
+
 \newpage
 
 \subsection{Zadatak}
@@ -946,7 +962,7 @@ Karnoovih karti je prikazan na slikama~\ref{fig:kmap-2x2_1} i~\ref{fig:kmap-2x2_
   \end{subfigure}
 
 
-  \caption{Karnoove karte za $C_3$ i$C_2$ proizvoda $C = A \cdot B$, sa grupisanim jedinicama (ZP).}
+  \caption{Karnoove karte za $C_3$ i $C_2$ proizvoda $C = A \cdot B$, sa grupisanim jedinicama (ZP).}
   \label{fig:kmap-2x2_1}
 \end{figure}
 
@@ -989,7 +1005,7 @@ Karnoovih karti je prikazan na slikama~\ref{fig:kmap-2x2_1} i~\ref{fig:kmap-2x2_
     \label{fig:kmap-C0}
   \end{subfigure}
 
-  \caption{Karnoove karte za $C_1$ i$C_0$ proizvoda $C = A \cdot B$, sa grupisanim jedinicama (ZP).}
+  \caption{Karnoove karte za $C_1$ i $C_0$ proizvoda $C = A \cdot B$, sa grupisanim jedinicama (ZP).}
   \label{fig:kmap-2x2_2}
 \end{figure}
 
@@ -1031,6 +1047,16 @@ Na slici 11 je predstavljena implementacija funkcije $C = A \cdot B$.
   \label{fig:zadatak3}
 \end{figure}
 
+%\FloatBarrier   % place all pending floats before carrying on
+\noindent
+VHDL kod koji implementira funkciju $C = A \cdot B$.
+\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_3/zadatak.vhd}
+
+%\newpage
+\noindent
+Testbench koji simulira funkciju $C = A \cdot B$ je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_3/tb_zadatak.vhd}{OVDE}.
+
+\newpage
 
 \subsection{Zadatak}\label{zad_4}
 
@@ -1170,13 +1196,14 @@ dodatnoj minimizaciji logičke funkcije~\eqref{eq:zad4} što \textbf{NE MORA} uv
 
 \FloatBarrier   % place all pending floats before carrying on
 \noindent
-VHDL kod koji implementira funkciju~\eqref{eq:zad4} sa ka\v{s}njenjem T.
-\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_4/zadatak_4.vhd}
+VHDL kod koji implementira funkciju~\eqref{eq:zad4} sa ka\v{s}njenjem T.\\
+\textbf{Napomena:} Kašnjenja dodata u kod se koriste samo za simulacije!
+\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_4/zadatak.vhd}
 
-\newpage
+%\newpage
 \noindent
-Testbench koji simulira prelazak $ABCD = 1111$ \textrightarrow~$ABCD = 1110$.
-\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_4/tb_zadatak_4.vhd}
+Testbench koji simulira prelazak $ABCD = 1111$ \textrightarrow~$ABCD = 1110$ je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_4/tb_zadatak.vhd}{OVDE}.
+%\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_4/tb_zadatak.vhd}
 
 
 \newpage
@@ -1372,7 +1399,18 @@ funkciju~\eqref{eq:zad5} u minimalnoj formi~\eqref{eq:zad5-min}. Međutim tako d
 generisala lažne nule. Da bi smo sprečili generisanje lažnih nula, na osnovu preklapanja oblasti
 u Karnoovoj karti dobili smo formu~\eqref{eq:zad5-fin}. Za razliku od~\eqref{eq:zad5-min}, forma predstavljena u okviru~\eqref{eq:zad5-fin} sadrži veći broj logičkih kola ali sprečava pojavu lažnih nula.
 
+\newpage
 
+\noindent
+VHDL kod koji implementira funkcije~\eqref{eq:zad5-min} i~\eqref{eq:zad5-fin} sa ka\v{s}njenjem T.\\
+\textbf{Napomena:} Kašnjenja dodata u kod se koriste samo za simulacije!
+\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_5/zadatak.vhd}
+
+%\newpage
+\noindent
+Testbench koji simulira funkcije~\eqref{eq:zad5-min} i~\eqref{eq:zad5-fin} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_5/tb_zadatak.vhd}{OVDE}.
+
+\newpage
 
 \subsection{Zadatak}\label{zad_6}
 
@@ -1517,9 +1555,20 @@ osnovu Karnoove karte prikazane na slici~\ref{fig:kmap-zad6-final}
 
 Na osnovu Karnoove karte prikazane na slici~\ref{fig:kmap-zad6-final} izvodimo sledeću funkciju:
 
-\begin{equation}
+\begin{equation}\label{eq:zad6-final}
 Y = (\bar{B} + C + D) (A + \bar{D}) (\bar{A} + \bar{C}) (\bar{C} + \bar{D}) (A + \bar{B} + C) (\bar{A} + \bar{B} + D)
 \end{equation}
+
+\newpage 
+
+\noindent
+VHDL kod koji implementira funkcije~\eqref{eq:kmap-6-pz} i~\eqref{eq:zad6-final} sa ka\v{s}njenjem T.\\
+\textbf{Napomena:} Kašnjenja dodata u kod se koriste samo za simulacije!
+\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_6/zadatak.vhd}
+
+%\newpage
+\noindent
+Testbench koji simulira funkcije~\eqref{eq:kmap-6-pz} i~\eqref{eq:zad6-final} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_6/tb_zadatak.vhd}{OVDE}.
 
 \section{Zadaci za samostalni rad}
 
