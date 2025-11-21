@@ -1,0 +1,248 @@
+%========================
+% A4 Article Template
+%========================
+\documentclass[a4paper,11pt]{article}
+
+% Load xcolor ONCE with all options you need
+\usepackage[dvipsnames,table]{xcolor}
+
+%---- Color box
+\usepackage[most]{tcolorbox}
+
+%---- Page layout & typography
+\usepackage[a4paper,margin=2.5cm,headheight=15pt]{geometry}
+\usepackage{microtype} % nicer text
+\usepackage{setspace}  % optional line spacing
+%\onehalfspacing        % uncomment for 1.5 spacing
+
+% Add/replace these in your preamble
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[serbian]{babel} % latin script variant
+\usepackage{lmodern}
+
+% If using XeLaTeX/LuaLaTeX, comment the three lines above and use:
+% \usepackage{fontspec}
+% \setmainfont{Latin Modern Roman}
+
+%---- for code
+\usepackage{minted}
+
+%---- Flush floats
+\usepackage{placeins} % preamble
+
+%---- Karnaugh map
+\usepackage[label=corner]{karnaugh-map}
+
+%---- Math
+\usepackage{amsmath,amssymb,mathtools}
+\numberwithin{equation}{section} % eq numbers like (1.1)
+
+%---- Colors & links
+\definecolor{Primary}{HTML}{1F77B4} % custom palette
+\definecolor{Accent}{HTML}{2CA02C}
+\usepackage[colorlinks=true,linkcolor=Primary,citecolor=Primary,urlcolor=Primary]{hyperref}
+\usepackage{cleveref} % smart refs: \cref{fig:...}
+
+%---- Figures
+\usepackage{graphicx}
+\graphicspath{{Images/}} % put images in ./Images
+\usepackage{subcaption} % subfigures
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf}
+
+%---- Tables
+\usepackage{booktabs}   % professional tables
+\usepackage{tabularx}   % tables with flexible width
+\usepackage{arydshln}   % adds : for dashed vertical lines and \hdashline
+\usepackage{multirow}   % optional, merged rows
+\usepackage{siunitx}    % alignment for numbers/units
+\sisetup{detect-all}
+
+% for the table and logic symbols
+\usepackage{array,makecell}
+\usepackage{tikz}
+\usetikzlibrary{circuits.logic.US,positioning}
+
+
+%---- Lists (optional nicer lists)
+\usepackage{enumitem}
+\setlist{nosep}
+
+%---- Header/Footer (optional)
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textit{Sinteza kombinacionih mre\v{z}a pomo\'{c}u kola srednjeg stepena integracije}}
+\rhead{\thepage}
+
+%---- Table settings
+\renewcommand{\arraystretch}{1.25}
+\renewcommand{\tabularxcolumn}[1]{m{#1}} % X behaves like m{...}
+\newcolumntype{C}{>{\centering\arraybackslash}X} % centered X
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+%\setlength{\arrayrulewidth}{0.5pt} % optional thicker borders
+
+\renewcommand{\contentsname}{Sadržaj}
+
+%========================
+% Document
+%========================
+\begin{document}
+
+
+%====================================
+% Custom title page (Serbian, A4)
+%====================================
+\begin{titlepage}
+  \thispagestyle{empty}
+  \begin{center}
+
+    %--- Top (faculty/department)
+    {\Large\bfseries
+    UNIVERZITET U BEOGRADU -- ELEKTROTEHNIČKI FAKULTET\\
+    KATEDRA ZA ELEKTRONIKU\par}
+
+    \vspace{25mm}
+
+    %--- Middle (course + subtitle)
+    {\LARGE\bfseries DIGITALNA ELEKTRONIKA 1\par}
+    \vspace{2mm}
+    {\large Materijali za računske vežbe\par}
+
+    \vspace{18mm}
+
+    %--- Title block (exercise title + number)
+    {\Large\bfseries
+    SINTEZA KOMBINACIONIH MREŽA POMOĆU KOLA SREDNJEG
+STEPENA INTEGRACIJE\par}
+    \vspace{3mm}
+    {\large Vežbe 2\par}
+
+    \vfill
+
+%--- Bottom (authors table on left, date on right)
+\begin{minipage}{0.62\linewidth}
+  \raggedright
+  \textbf{Autori:}\\[4pt]
+  \small
+  \begin{tabular}{@{}l l@{}}
+    Nikola Petrović & \href{mailto:p.z.nikola@etf.bg.ac.rs}{\texttt{p.z.nikola@etf.bg.ac.rs}} \\
+    Haris Turkmanović & \href{mailto:haris@etf.bg.ac.rs}{\texttt{haris@etf.bg.ac.rs}} \\
+  \end{tabular}
+\end{minipage}
+\hfill
+\begin{minipage}{0.34\linewidth}
+  \raggedleft
+  Beograd, \today
+\end{minipage}
+
+  \end{center}
+\end{titlepage}
+
+%========================
+
+\tableofcontents
+\newpage
+
+
+
+%========================
+\section{Zadaci}
+
+\subsection{Zadatak 1}\label{sec:zad1}
+
+\begin{enumerate}[label=\alph*) , leftmargin=*, itemsep=2pt]
+  \item Predstaviti logičku šemu multipleksera 4/1
+  \item Pomoću multipleksera 4/1 iz ta\v{c}ke a) i NE, ILI i I logičkih kola realizovati kombinacionu mrežu
+koja generiše izlaze Y\textsubscript{0} i Y\textsubscript{1} definisane logičkih funkcijama predstavljenim u tabeli~\ref{tab:zad1}.
+
+\end{enumerate}
+
+\begin{table}[!ht]
+  \centering
+  \caption{Tabela logičkih funkcija za zadatak~\ref{sec:zad1}}
+  \label{tab:zad1}
+  \begin{tabularx}{0.4\linewidth}{| C | C | C |}
+    \hline
+    \rowcolor{gray!40}
+    C\textsubscript{1}C\textsubscript{0} & Y\textsubscript{1} & Y\textsubscript{0} \\ \hline
+    00  & $\overline{A \oplus B}$ & $A \oplus B$            \\ \hline
+    01  & $A \oplus B$            & $\overline{A \oplus B}$ \\ \hline
+    10  & $\bar{A} \bar{B}$       & $\bar{A} {B}$           \\ \hline
+    11  & ${A   B}$               & $A \bar{B}$             \\ \hline
+
+  \end{tabularx}
+\end{table}
+
+\subsubsection*{Rešenje:} 
+
+\noindent
+a) Izlaz Y kombinacione mreže mutlipleksera 4/1, korišćenog za realizaciju u tački b) je
+definisan sledećom funkcijom:
+
+\begin{equation}\label{eq:zad1_b}
+Y = 
+\bar{S_1} \bar{S_0} D_0 + 
+\bar{S_1} {S_0} D_1 + 
+{S_1} \bar{S_0} D_2 + 
+{S_1} {S_0} D_3 
+\end{equation}
+Na osnovu ove funkcije dobijamo realizaciju prikazanu na slici~\ref{fig:zadatak1-b}.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.85\linewidth]{Zadatak_1/Zadatak_1b}% adjust path if needed
+  \caption{Implementacija multipleksera 4/1.}
+  \label{fig:zadatak1-b}
+\end{figure}
+
+\noindent\makebox[\linewidth]{\dotfill}
+
+\noindent
+b) Izlaze kombinacione mreže realizovaćemo korišćenjem dva multipleksera 4/1. Ukoliko
+funkcije koje se dovode na ulaz multipleksera nisu izražene u formi pogodnoj za realizaciju I,
+ILI ili NE logičkim kolima, najpre je neophodno izvesti njihovu odgovarajuću formu. Za slučaj $\overline{A \oplus B}$ i $A \oplus B$ dobijamo ekvivalentne izraze:
+
+\begin{equation}\label{eq:zad1_1}
+A \oplus B = A \bar{B} + \bar{A} B
+\end{equation}
+
+\begin{equation}\label{eq:zad1_2}
+\overline{A \oplus B} = \overline{A \bar{B} + \bar{A} B}
+\end{equation}
+
+Nakon izvođenja ekvivalentnih izraza možemo nacrtati kombinacionu mrežu čiji izlazi su
+definisani funkcijama predstavljenim u tabeli~\ref{tab:zad1}. Ta kombinaciona mreža je predstavljena na
+slici~\ref{fig:zadatak1-a}.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.85\linewidth]{Zadatak_1/Zadatak_1a}% adjust path if needed
+  \caption{Realizacija kombinacione mreže za zadatak~\ref{sec:zad1}.}
+  \label{fig:zadatak1-a}
+\end{figure}
+
+\noindent\makebox[\linewidth]{\dotfill}
+
+%\FloatBarrier   % place all pending floats before carrying on
+\noindent
+VHDL kod koji implementira multiplekser dat jednacinom~\eqref{eq:zad1_b}.
+\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_1/a/zadatak.vhd}
+
+%\newpage
+\noindent
+Testbench koji simulira multiplekser dat jednacinom~\eqref{eq:zad1_b} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_1/a/tb_zadatak.vhd}{OVDE}.
+
+\newpage
+
+%\FloatBarrier   % place all pending floats before carrying on
+\noindent
+VHDL kod koji implementira funkciju datu u tabeli~\eqref{tab:zad1}.
+\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_1/b/zadatak.vhd}
+
+%\newpage
+\noindent
+Testbench koji simulira funkciju datu u tabeli~\eqref{tab:zad1} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_1/a/tb_zadatak.vhd}{OVDE}.
+
+\end{document}
