@@ -1,0 +1,40 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram id="JF-3ASA6uOCNrvhHw_kE" name="Page-1">
+    <mxGraphModel dx="1042" dy="667" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="beJ90Kt7QVNGZH99AXZ9-1" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="281" y="220" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="beJ90Kt7QVNGZH99AXZ9-2" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;" parent="beJ90Kt7QVNGZH99AXZ9-1" vertex="1">
+          <mxGeometry x="4" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="beJ90Kt7QVNGZH99AXZ9-7" value="OFF" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="250" y="222.5" width="30" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beJ90Kt7QVNGZH99AXZ9-8" value="LZ&lt;sub&gt;OUT&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="240" y="242.5" width="40" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beJ90Kt7QVNGZH99AXZ9-9" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;negating=1;negSize=0.15;" parent="1" vertex="1">
+          <mxGeometry x="412" y="191" width="59" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="beJ90Kt7QVNGZH99AXZ9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="beJ90Kt7QVNGZH99AXZ9-2" target="beJ90Kt7QVNGZH99AXZ9-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beJ90Kt7QVNGZH99AXZ9-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="beJ90Kt7QVNGZH99AXZ9-11" target="beJ90Kt7QVNGZH99AXZ9-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beJ90Kt7QVNGZH99AXZ9-11" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.inverter_2" parent="1" vertex="1">
+          <mxGeometry x="310" y="168" width="35" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="beJ90Kt7QVNGZH99AXZ9-13" value="a" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="296" y="169" width="11" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="beJ90Kt7QVNGZH99AXZ9-17" value="a&lt;span style=&quot;font-size: 8.33333px;&quot;&gt;&#39;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="476" y="201" width="11" height="14.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -295,19 +295,23 @@ Na osnovu niza jednakosti~\eqref{eq:zad2-a2} dobijamo realizaciju prikazanu na s
 
 \begin{figure}[!ht]
   \centering
-  \includegraphics[width=0.2\linewidth]{Zadatak_2/Zadatak_2a}% adjust path if needed
+  \includegraphics[width=0.25\linewidth]{Zadatak_2/Zadatak_2a}% adjust path if needed
   \caption{Realizacija funkcije~\eqref{eq:zad2-a1} korišćenjem isključivo multipleksera 4/1 pri \v{c}emu se na selekcione signale multipleksera dovode signali A i B.}
   \label{fig:zadatak2-a}
 \end{figure}
 
+\begin{tcolorbox}[colback=gray!10, colframe=black, boxrule=0.5pt]
+\textbf{Za samostalni rad:} Implementirati logičku funkciju Y ukoliko su ako selekcioni signali uzeti ulazi AC.
+\end{tcolorbox}
+
 \noindent\makebox[\linewidth]{\dotfill}
 
 \noindent
-b) Kao i do sada, prvi korak na putu do minimalne realizacije podrazumeva popunjavanje odgovarajuće Karnoove karte na osnovu koje se izvodi funkcija u minimalnoj formi. Sadržaj Karnoove karte za funkciju~\eqref{eq:zad2} je prikazan na slici 2.2.2
+b) Kao i do sada, prvi korak na putu do minimalne realizacije podrazumeva popunjavanje odgovarajuće Karnoove karte na osnovu koje se izvodi funkcija u minimalnoj formi. Sadržaj Karnoove karte za funkciju~\eqref{eq:zad2} je prikazan na slici~\ref{fig:kmap-zad2}.
 
 \begin{figure}[!ht]
   \centering
-  \captionsetup{skip=-1.8em} % space between K-map and caption (adjust)
+  \captionsetup{skip=-1em} % space between K-map and caption (adjust)
 
   \begin{karnaugh-map}[4][2][1][$A$][$B$][$C$]
     \minterms{1,5,6,7}
@@ -340,7 +344,7 @@ Na osnovu~\eqref{eq:zad2-b2} moguće je realizovati logičku funkciju Y kao što
 
 \begin{figure}[!ht]
   \centering
-  \includegraphics[width=0.3\linewidth]{Zadatak_2/Zadatak_2b.png}% adjust path if needed
+  \includegraphics[width=0.35\linewidth]{Zadatak_2/Zadatak_2b.png}% adjust path if needed
   \caption{Realizacija logičke funkcije~\eqref{eq:zad2-b1} pomo\'{c}u NI kola.}
   \label{fig:zadatak2-b}
 \end{figure}
@@ -358,7 +362,7 @@ d) Prelaz pri kojem može doći do pojave lažne nule je označen na slici~\ref{
 
 \begin{figure}[!ht]
   \centering
-  \captionsetup{skip=-1.8em} % space between K-map and caption (adjust as needed)
+  \captionsetup{skip=-1em} % space between K-map and caption (adjust as needed)
     \begin{tikzpicture}
     % Put the Karnaugh map as a node
     \node (km) {
@@ -383,11 +387,15 @@ d) Prelaz pri kojem može doći do pojave lažne nule je označen na slici~\ref{
   \caption{Karnoova karta funkcije~\eqref{eq:zad2} sa naznačenim prelazima koji dovode do pojave lažne nule.}
   \label{fig:kmap-zad2-d}
 \end{figure}
-U cilju sprečavanja pojave lažne nule, uvodimo dodatnu oblast:
+\noindent
+U cilju sprečavanja pojave lažne nule, uvodimo dodatnu oblast kao \v{s}to je to prikazano na slici~\ref{fig:kmap-zad2-d1} i dobijamo funkciju:
+\begin{equation}\label{eq:zad2-d1}
+Y = C B + \bar{B} A + C A
+\end{equation}
 
 \begin{figure}[!ht]
   \centering
-  \captionsetup{skip=-1.8em} % space between K-map and caption (adjust)
+  \captionsetup{skip=-1em} % space between K-map and caption (adjust)
 
   \begin{karnaugh-map}[4][2][1][$A$][$B$][$C$]
     \minterms{1,5,6,7}
@@ -401,13 +409,10 @@ U cilju sprečavanja pojave lažne nule, uvodimo dodatnu oblast:
   \label{fig:kmap-zad2-d1}
 \end{figure}
 \noindent
-I dobijamo funkciju:
-\begin{equation}\label{eq:zad2-d1}
-Y = C B + \bar{B} A + C A
-\end{equation}
 
 
 
+\newpage
 %--------------------------------------------------------------------
 \subsection{Zadatak 3}\label{sec:zad3}
 
@@ -467,7 +472,7 @@ Y_7 = {A_2} {A_1} {A_0}
 \end{aligned}
 \end{equation}
 
-\noindent\makebox[\linewidth]{\dotfill}
+%\noindent\makebox[\linewidth]{\dotfill}
 
 \noindent
 b) U ovoj tački se zahteva realizacija dekodera 4/16 korišćenjem dekodera 3/8. Za razliku od dekodera 3/8 iz prethodne tačke, ovaj dekoder sadrži tri ulazna enable signala dok su mu izlazi aktivni u logičkoj nuli. Funkcije kojima se opisuju izlazni signali ovog dekodera predstavljaju komplemente funkcija datih jednacinom~\eqref{eq:zad3-a1}.
@@ -1097,19 +1102,19 @@ signale u okviru svakog od BCD konvertora:
     \rowcolor{gray!40}
     Naziv signala & Ulazni/Izlazni & Aktivni logički nivo & Opis \\ \hline
 
-    Error & Izlazni & 1 &
+    \texttt{ERROR} & Izlazni & 1 &
     Označava da se na ulazu BCD konvertora pojavila nedozvoljena kombinacija bita. \\ \hline
 
-    OFF & Ulazni & 1 &
+    \texttt{OFF} & Ulazni & 1 &
     Kontroliše uključenost segmenata. Kada je postavljen na „0“ svi segmenti su isključeni,
     dok je u suprotnom stanje segmenata određeno drugim signalima. \\ \hline
 
-    LZIN & Ulazni & 1 &
+    \texttt{LZ\textsubscript{IN}} & Ulazni & 1 &
     \textit{\textbf{L}eading \textbf{Z}eros} ulazni signal BCD konvertora niže cifre prihvata \textit{\textbf{L}eading \textbf{Z}eros}
     sa BCD konvertora više cifre. Ukoliko su vodeće nule isključene signal je postavljen na jedinicu,
     dok je u suprotnom postavljen na nulu. \\ \hline
 
-    LZOUT & Izlazni & 1 &
+    \texttt{LZ\textsubscript{OUT}} & Izlazni & 1 &
     \textit{\textbf{L}eading \textbf{Z}eros} izlazni signal BCD konvertora više cifre se prosleđuje na BCD konvertor niže cifre.
     Ukoliko su vodeće nule isključene signal je postavljen na jedinicu od strane BCD konvertora više cifre,
     dok je u suprotnom postavljen na nulu. \\ \hline
@@ -1117,13 +1122,136 @@ signale u okviru svakog od BCD konvertora:
   \end{tabularx}
 \end{table}
 
-\textit{Error} signal predstavlja izlazni signal iz jednog BCD konvertora koji se generiše kada
+\texttt{ERROR} signal predstavlja izlazni signal iz jednog BCD konvertora koji se generiše kada
 se na ulazu pojavi binarni sadrđaj u ospegu od 1010 -1111. Na osnovu analize sprovedene u
 tačkama a) i b) i uvidom u Karnoove karte svakog od izlaznih signala možemo izvesti
 minimalnu logičku funkciju \textit{Error} signala:
 
 \begin{equation}
-Error = D \cdot (C + B)
+ERROR = D \cdot (C + B)
 \end{equation}
 
+Na putu do realizacije kompletne kontrole uključenosti svih segmenata LE displeja,
+uvešćemo jedan pomoćni signal \texttt{off\_int} koji je aktivan u logičkoj jedinici. Logika za generisanje ovog internog signala BCD konvertora je prikazana na slici~\ref{fig:Zadatak_4c_OffInternal}.
+
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.25\linewidth]{Zadatak_4/Zadatak_4c_OffInternal}% adjust path if needed
+  \caption{Logika za kontrolu \texttt{off\_int} signala.}
+  \label{fig:Zadatak_4c_OffInternal}
+\end{figure}
+
+
+Do postavljanja ovog signala na nivo logičke jedinice dolazi ukoliko je eksterni signal
+\texttt{OFF} postavljen na nivo logičke jedinice ili ukoliko je \texttt{LZ\textsubscript{OUT}} signal postavljen na nivo logičke
+jedinice. Drugim rečima, segment koji je kontrolisan \texttt{off\_int} signalom će biti isključen ako se
+izvan BCD konvertora aktivira \texttt{OFF} signal ili ukoliko je BCD konvertor u nizu vodeći nula.
+
+Logika za generisanje \texttt{LZ\textsubscript{OUT}} signala se nalazi unutar BCD konvertora i definisana je
+izrazom~\eqref{eq:lzout} do je implementacija predstavljena na slici 2.4.7.
+
+\begin{equation}\label{eq:lzout}
+LZ_{OUT} = LZ_{IN} \bar{D} \bar{C} \bar{B} \bar{A}
+\end{equation}
+Dakle, ukoliko su u okviru BCD konvertora viših cifara detektovane vodeće nule (\texttt{LZ\textsubscript{IN}} = 1)
+i ako se na ulazu trenutnog BCD konvertora nalazi binarna kombinacija koja odgovara cifri
+nula, \texttt{LZ\textsubscript{OUT}} se postavlja na nivo logičke jedinice.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.25\linewidth]{Zadatak_4/Zadatak_4c_Lzout}% adjust path if needed
+  \caption{Logika za kontrolu \texttt{LZ\textsubscript{OUT}} signala.}
+  \label{fig:Zadatak_4c_Lzout}
+\end{figure}
+
+Logika ilustrovana na slikama~\ref{fig:Zadatak_4c_OffInternal} i~\ref{fig:Zadatak_4c_Lzout} predstavlja glavne komponente kontrole
+uključenosti svakog od segmenata. 
+
+Na slici~\ref{fig:Zadatak_4c_ASegmentControl} je prikazana logika kojom se kontroliše
+uključenost segmenta \textit{a}. Kao što se sa slike~\ref{fig:Zadatak_4c_ASegmentControl} može i uočiti, signal \textit{a'} predstavlja dodatno
+kontrolisan signal \textit{a} čija je funkcija već predstavljena u prethodnim tačkama.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.4\linewidth]{Zadatak_4/Zadatak_4c_ASegmentControl}% adjust path if needed
+  \caption{Logika za kontrolu uključenosti segmenta \textit{a}.}
+  \label{fig:Zadatak_4c_ASegmentControl}
+\end{figure}
+
+Na slici~\ref{fig:Zadatak_4c_CompleteBCDLogic} je predstavljena logička šema BCD konvertora koja implementira set
+funkcionalnosti potreban za realizaciju višecifrenog BCD konvertora.
+
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.7\linewidth]{Zadatak_4/Zadatak_4c_CompleteBCDLogic}% adjust path if needed
+  \caption{Logika jednog BCD konvertora sa dodatnim kontrolnim signalima iz tabele.}
+  \label{fig:Zadatak_4c_CompleteBCDLogic}
+\end{figure}
+
+
+\begin{tcolorbox}[colback=gray!10, colframe=black, boxrule=0.5pt]
+\textbf{Za samostalni rad:} 
+Za ostale izlazne signale \textit{b'-g'} nacrtati odgovarajuće logičke šeme.
+\end{tcolorbox}
+
+Logika predstavljena na slici~\ref{fig:Zadatak_4c_CompleteBCDLogic} je enkapsulirana u funkcionalni blok BCD
+konvertora koji će biti iskorišćen za sintezu višecifrenog BCD konvertora. Ovaj funcionalni
+blok je predstavljen na slici~\ref{fig:Zadatak_4c_BCDComponent}.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.28\linewidth]{Zadatak_4/Zadatak_4c_BCDComponent}% adjust path if needed
+  \caption{Funkcionalni blok BCD konvertora.}
+  \label{fig:Zadatak_4c_BCDComponent}
+\end{figure}
+
+Funkcionalni blok predstavljen na slici~\ref{fig:Zadatak_4c_BCDComponent} je iskorišćen za realizaciju višecifrenog BCD konvertora kao što je prikazano na slici~\ref{fig:Zadatak_4c_4Digits}.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=\linewidth]{Zadatak_4/Zadatak_4c_4Digits}% adjust path if needed
+  \caption{Višebitni BCD konvertor.}
+  \label{fig:Zadatak_4c_4Digits}
+\end{figure}
+
+Kao što se sa slike~\ref{fig:Zadatak_4c_4Digits} može videti, \texttt{ERROR} signali svih blokova su dovedeni na
+jedno ILI kolo (ozna\v{c}eno na slici~\ref{fig:Zadatak_4c_4Digits} sa 3) što funkcionalno označava da, ukoliko se pojavi nedozvoljena kombinacija
+na bilo kom ulazu, generisaće se globalni \texttt{OFF} signal. Ovaj signal kontroliše isključenje svih segmenata u okviru svakog od LE displeja osim displeja najniže cifre višecifrenog BCD konvertora. Najniža cifra je uvek uključena bez obzira šta je na ulazu BCD konvertora viših cifara. Međutim, u slučaju da je \texttt{OFF} signal postavlje na nivo logičke jedinice (što označava da je bilo nedozvoljene kombinacije na nekom od ulaza BCD konvertora koji odgovaraju višim
+ciframa), koristeći ILI logička kola (ozna\v{c}ena na slici~\ref{fig:Zadatak_4c_4Digits} sa 1 i 2) doći će do propagiranja te informacije i postavljanja nedozvoljene kombinacije na ulaz BCD konvertora najniže cifre što za posledicu ima ispis slova \texttt{E} na LE displej najniže cifre.
+
+\begin{tcolorbox}[colback=orange!10, colframe=black, boxrule=0.5pt]
+\textbf{Napomena:} 
+Zbog pojave povratne sprege (na primer signal \texttt{ERROR} je, sa izlaza BCD
+konvertora najniže cifre, posredstvom logičkih kola 3, 4, 2 ili 3,4,1 vraćen na ulaz istog BCD konvertora) može doći do pojave ''pamćenja'' vrednosti u povratnoj sprezi koja za posledicu ima nemogućnost promene ispisa na LE displeju najniže cifre. O ovoj pojavi će biti više reči na kursu Digitalna Elektronika 2 . Da bi se kolo izvelo iz navedenog stanja, uvodimo kontrolni signal $\overline{\text{\texttt{INIT}}}$ koji ima za cilj da resetuje vrednost zapamćenu u okviru povratne sprege kombinacione mreže.
+\end{tcolorbox}
+
+\section{Zadaci za samostalni rad}
+
+\subsection{Zadatak 1}
+\begin{enumerate}[label=\alph*) , leftmargin=*, itemsep=2pt]
+  \item Pomoću dekodera $n/2^n$ i $m/2^m$ projektovati dekoder $(n+m)/2^(n+m)$ .Na raspolaganju su dvoulazna logička I kola. Dekodere $n/2^n$ i $m/2^m$ crtati kao blokove.
+\item Pomoću dvoulaznih I kola i invertora realizovati dekoder 4/16 kod koga su i ulazni i
+izlazni signali aktivni na logičkoj jedinici. Težiti da broj upotrebljenih logičkih kola bude
+minimalan.
+\item Projektovati kolo dekodera koje ima 13 ulaza tako da realizacija bude izvedena u maksimalno 4 nivoa. Na raspolaganju su doulazna I kola i invertori. Težiti da broj upotrebljenih logičkih kola bude minimalan. Vreme propagiranja kroz logičko kolo iznosi $t_{dlk}$ dok se kašnjenje signala invertora može zanemariti.
+\end{enumerate}
+
+\subsection{Zadatak 2}
+\noindent
+Funkciju:
+\begin{equation}
+Y = \bar{D} C \bar{A} + \bar{B} A + \bar{C} A
+\end{equation}
+realizovati isključivo korišćenjem osnovnih logičkih kola sa proizvoljnim brojem ulaza i multipleksera 4/1 za čije selekcione signale S\textsubscript{1}S\textsubscript{0} važi:
+
+\begin{enumerate}[label=\alph*) , leftmargin=*, itemsep=2pt]
+  \item $S_1 S_0 = D C$
+  \item $S_1 S_0 = B A$
+  \item $S_1 S_0 = D B$
+  \item $S_1 S_0 = C A$
+\end{enumerate}
+\noindent
+Koja od realizacija a), b), c) i d) zahteva minimalan broj logičkih kola?
 \end{document}
