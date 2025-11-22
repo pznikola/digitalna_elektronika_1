@@ -76,6 +76,10 @@
 \lhead{\textit{Sinteza kombinacionih mre\v{z}a pomo\'{c}u kola srednjeg stepena integracije}}
 \rhead{\thepage}
 
+% Shrug command
+
+\def\shrug{\texttt{\raisebox{0.75em}{\char`\_}\char`\\\char`\_\kern-0.5ex(\kern-0.25ex\raisebox{0.25ex}{\rotatebox{45}{\raisebox{-.75ex}"\kern-1.5ex\rotatebox{-90})}}\kern-0.5ex)\kern-0.5ex\char`\_/\raisebox{0.75em}{\char`\_}}}
+
 %---- Table settings
 \renewcommand{\arraystretch}{1.25}
 \renewcommand{\tabularxcolumn}[1]{m{#1}} % X behaves like m{...}
@@ -244,5 +248,882 @@ VHDL kod koji implementira funkciju datu u tabeli~\eqref{tab:zad1}.
 %\newpage
 \noindent
 Testbench koji simulira funkciju datu u tabeli~\eqref{tab:zad1} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_1/a/tb_zadatak.vhd}{OVDE}.
+
+
+\newpage
+
+%--------------------------------------------------------------------
+\subsection{Zadatak 2}\label{sec:zad2}
+
+\begin{enumerate}[label=\alph*) , leftmargin=*, itemsep=2pt]
+  \item Pomoću jednog multipleksera 4/1 i potrebnog broja logičkih kola projektovati kolo koje
+generiše izlazni signal Y definisan logičkom funkcijom:
+\begin{equation}\label{eq:zad2}
+Y = C B \bar{A} + C A + \bar{B} A
+\end{equation}
+  \item Projektovati kolo u minimalnoj formi ako su dostupna isključivo dvoulazna NI kola.
+  \item Uporediti realizaciju pod a) i pod b) u pogledu složenosti i kašnjenja ako je vreme
+propagacije signala kroz multiplekser $t_{d-mux}=20$ns a kroz logička kola $t_{d-l} = 10$ns.
+\item Da li se u realizaciji pod b) javljaju lažne nule, i ukoliko se javljaju jasno naznačiti pri
+kojim prelazima. Predstaviti realizaciju, u vidu logičke funkcije, kojom se otklanjanju lažne
+nule.
+
+\end{enumerate}
+
+\subsubsection*{Rešenje:} 
+
+\noindent
+a) Prilikom realizacije logičke funkcije koja podrazumeva korišćenje isključivo
+multipleksera, za signale na selekcionim linijama S\textsubscript{1}S\textsubscript{0} (u slučaju multipleksera 4/1) treba
+postaviti one ulaze koji su u logičkoj funkciji zastupljeni sa najviše različitih kombinacija. U slučaju funkcije~\eqref{eq:zad2} možemo primetiti da su AB i AC podjednako zastupljeni i u nastavku ćemo za selekcione ulaze uzeti AB.
+
+Logičku funkciju odgovarajućeg ulaza D\textsubscript{i} multipleksera 4/1 određujemo primenjujući proceduru koja podrazumeva zamenu promenljivih AB u jednačini:
+
+\begin{equation}\label{eq:zad2-a1}
+Y(A, B, C) = C B \bar{A} + C A + \bar{B} A
+\end{equation}
+sa binarnim kombinacijama od 00 do 11:
+\begin{equation}\label{eq:zad2-a2}
+\begin{aligned}
+Y(0,0,C) &= 0 \\
+Y(0,1,C) &= C \\
+Y(1,0,C) &= 1 \\
+Y(1,1,C) &= C
+\end{aligned}
+\end{equation}
+Na osnovu niza jednakosti~\eqref{eq:zad2-a2} dobijamo realizaciju prikazanu na slici~\ref{fig:zadatak2-a}.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.2\linewidth]{Zadatak_2/Zadatak_2a}% adjust path if needed
+  \caption{Realizacija funkcije~\eqref{eq:zad2-a1} korišćenjem isključivo multipleksera 4/1 pri \v{c}emu se na selekcione signale multipleksera dovode signali A i B.}
+  \label{fig:zadatak2-a}
+\end{figure}
+
+\noindent\makebox[\linewidth]{\dotfill}
+
+\noindent
+b) Kao i do sada, prvi korak na putu do minimalne realizacije podrazumeva popunjavanje odgovarajuće Karnoove karte na osnovu koje se izvodi funkcija u minimalnoj formi. Sadržaj Karnoove karte za funkciju~\eqref{eq:zad2} je prikazan na slici 2.2.2
+
+\begin{figure}[!ht]
+  \centering
+  \captionsetup{skip=-1.8em} % space between K-map and caption (adjust)
+
+  \begin{karnaugh-map}[4][2][1][$A$][$B$][$C$]
+    \minterms{1,5,6,7}
+    \maxterms{0,2,3,4}
+    % Groups of ones (prime implicants)
+    \implicant{1}{5}   % A \bar{B}
+    \implicant{7}{6}   % B C
+  \end{karnaugh-map}
+
+  \caption{Karnoova karta za funkciju~\eqref{eq:zad2}.}
+  \label{fig:kmap-zad2}
+\end{figure}
+
+Pošto se zahteva minimalna realizacija korišćenjem isključivo dvoulaznih NI kola, u Karnoovoj karti tražimo oblasti koje sadrže logičke jedinice, tj. glavni cilj je realizacija funkcije~\eqref{eq:zad2} u formi zbira proizvoda. Na osnovu Karnoove karte sa slike~\ref{fig:kmap-zad2}, dobijamo sledeću funkciju:
+
+\begin{equation}\label{eq:zad2-b1}
+Y = C B + \bar{B} A
+\end{equation}
+Primenom pravila Bulove algebre $Y = \bar{\bar{Y}}$, dobijamo:
+
+\begin{equation}\label{eq:zad2-b2}
+Y = \overline{\overline{C B + \bar{B} A}} = 
+\overline{
+\textcolor{red}{\overline{C B} }
+\textcolor{black}{\cdot }
+\textcolor{blue}{\overline{\bar{B} A} }
+}
+\end{equation}
+Na osnovu~\eqref{eq:zad2-b2} moguće je realizovati logičku funkciju Y kao što je prikazano na slici~\ref{fig:zadatak2-b}.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.3\linewidth]{Zadatak_2/Zadatak_2b.png}% adjust path if needed
+  \caption{Realizacija logičke funkcije~\eqref{eq:zad2-b1} pomo\'{c}u NI kola.}
+  \label{fig:zadatak2-b}
+\end{figure}
+
+\noindent\makebox[\linewidth]{\dotfill}
+
+\noindent
+c) Kako se u standardnom 14-pinskom integrisanom kolu mogu naći 4 dvoulazna NI kola, potreban broj integrisanih kola za realizaciju u tački a) i b) je isti i znosi 1. Međutim, sa strane kašnjenja postoje izvesne razlike. U slučaju realizacije iz tačke a) kašnjenje iznosi $t_{d-Y} = t_{d-mux} = 20$ns, dok u slučaju realizacije pod b) kašnjenje iznosi $t_{d-Y} = 3t_{d-l} = 30$ns. Takođe, realizacije pod a) ne zahteva dodatnu minimizaciju date funkcije obzirom da se vrednosti ulaza multipleksera određuju na osnovu konkretnih vrednosti ulaza A i B.
+
+\noindent\makebox[\linewidth]{\dotfill}
+
+\noindent
+d) Prelaz pri kojem može doći do pojave lažne nule je označen na slici~\ref{fig:kmap-zad2-d}.
+
+
+\begin{figure}[!ht]
+  \centering
+  \captionsetup{skip=-1.8em} % space between K-map and caption (adjust as needed)
+    \begin{tikzpicture}
+    % Put the Karnaugh map as a node
+    \node (km) {
+      \begin{karnaugh-map}[4][2][1][$A$][$B$][$C$]
+        \minterms{1,5,6,7}
+        \maxterms{0,2,3,4}
+        % Groups of ones (prime implicants)
+        \implicant{1}{5}   % A \bar{B}
+        \implicant{7}{6}   % B C
+      \end{karnaugh-map}
+    };
+ 
+    \draw[->,blue,line width=1.2pt]
+      ([xshift=-3.0cm,yshift=1.45cm]km.south east)  % near cell 14
+      -- ++(-0.4cm,0);                             % point toward cell 12
+    \draw[<-,blue,line width=1.2pt]
+      ([xshift=-3.0cm,yshift=1.65cm]km.south east)  % near cell 14
+      -- ++(-0.4cm,0);                             % point toward cell 12
+      
+  \end{tikzpicture}
+
+  \caption{Karnoova karta funkcije~\eqref{eq:zad2} sa naznačenim prelazima koji dovode do pojave lažne nule.}
+  \label{fig:kmap-zad2-d}
+\end{figure}
+U cilju sprečavanja pojave lažne nule, uvodimo dodatnu oblast:
+
+\begin{figure}[!ht]
+  \centering
+  \captionsetup{skip=-1.8em} % space between K-map and caption (adjust)
+
+  \begin{karnaugh-map}[4][2][1][$A$][$B$][$C$]
+    \minterms{1,5,6,7}
+    \maxterms{0,2,3,4}
+    % Groups of ones (prime implicants)
+    \implicant{1}{5}
+    \implicant{7}{6}
+    \implicant{5}{7}
+  \end{karnaugh-map}
+  \caption{Karnoova karta za funkciju~\eqref{eq:zad2}.}
+  \label{fig:kmap-zad2-d1}
+\end{figure}
+\noindent
+I dobijamo funkciju:
+\begin{equation}\label{eq:zad2-d1}
+Y = C B + \bar{B} A + C A
+\end{equation}
+
+
+
+%--------------------------------------------------------------------
+\subsection{Zadatak 3}\label{sec:zad3}
+
+\begin{enumerate}[label=\alph*) , leftmargin=*, itemsep=2pt]
+  \item Izvesti funkciju svakog izlaza dekodera 3/8. Izlazi dekodera su aktivni u logičkoj jedinici i dekoder ne sadrži \textit{enable} ulaze
+  \item Pomoću dekodera 3/8 sa \textit{enable} ulazom EN\textsubscript{1} aktivnim na nivou logičke jedinice i EN\textsubscript{2}
+i EN\textsubscript{3} aktivnim na nivou logičke nule, projektovati dekoder 4/16. Izlazi dekodera 3/8 su aktivni
+na nivou logičke nule, dok su ostali ulazi (osim EN\textsubscript{2} u EN\textsubscript{3}) aktivni na nivou logičke jedinice.
+Izlazi dekodera 4/16 takođe treba da budu aktivni na nivou logičke nule.
+\item Pomoću dekodera 3/8 iz prethodne tačke, i dvoulaznih I logičkih kola, realizovati
+sledeću funkciju:
+\begin{equation}\label{eq:zad3}
+Y = \bar{B} A + C \overline{B A} + \bar{C} B A
+\end{equation}
+\item Pomoću dekodera iz tačke a) realizovati dekoder 6/64
+\end{enumerate}
+
+\subsubsection*{Rešenje:} 
+
+\noindent
+a) Tabela~\ref{tab:decoder3to8} predstavlja funkcionalnu tabelu kojom se opisuje način rada dekodera 3/8.
+
+
+\begin{table}[!ht]
+  \centering
+  \caption{Funkcionalna tabela dekodera 3/8 u opštem slučaju}
+  \label{tab:decoder3to8}
+  \begin{tabularx}{0.65\linewidth}{| C | M{0.6cm} | M{0.6cm} | M{0.6cm} | M{0.6cm} | M{0.6cm} | M{0.6cm} | M{0.6cm} | M{0.6cm} |}
+    \hline
+    \rowcolor{gray!40}
+    A\textsubscript{2}A\textsubscript{1}A\textsubscript{0} &
+    Y\textsubscript{7} & Y\textsubscript{6} & Y\textsubscript{5} & Y\textsubscript{4} &
+    Y\textsubscript{3} & Y\textsubscript{2} & Y\textsubscript{1} & Y\textsubscript{0} \\ \hline
+    000 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 \\ \hline
+    001 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 \\ \hline
+    010 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\ \hline
+    011 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 \\ \hline
+    100 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 \\ \hline
+    101 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 \\ \hline
+    110 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+    111 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+  \end{tabularx}
+\end{table}
+
+\noindent
+Na osnovu funkcionalne tabele~\ref{tab:decoder3to8} možemo izvesti logičku funkciju svakog od izlaza:
+\begin{equation}\label{eq:zad3-a1}
+\begin{aligned}
+Y_0 = \bar{A_2} \bar{A_1} \bar{A_0} \\
+Y_1 = \bar{A_2} \bar{A_1} {A_0} \\
+Y_2 = \bar{A_2} {A_1} \bar{A_0} \\
+Y_3 = \bar{A_2} {A_1} {A_0} \\
+Y_4 = {A_2} \bar{A_1} \bar{A_0} \\
+Y_5 = {A_2} \bar{A_1} {A_0} \\
+Y_6 = {A_2} {A_1} \bar{A_0} \\
+Y_7 = {A_2} {A_1} {A_0} 
+\end{aligned}
+\end{equation}
+
+\noindent\makebox[\linewidth]{\dotfill}
+
+\noindent
+b) U ovoj tački se zahteva realizacija dekodera 4/16 korišćenjem dekodera 3/8. Za razliku od dekodera 3/8 iz prethodne tačke, ovaj dekoder sadrži tri ulazna enable signala dok su mu izlazi aktivni u logičkoj nuli. Funkcije kojima se opisuju izlazni signali ovog dekodera predstavljaju komplemente funkcija datih jednacinom~\eqref{eq:zad3-a1}.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.75\linewidth]{Zadatak_3/Zadatak_3a}% adjust path if needed
+  \caption{Realizacija dekodera 4/16 korišćenjem dva dekodera 3/8.}
+  \label{fig:zadatak3-a}
+\end{figure}
+
+\FloatBarrier   % place all pending floats before carrying on
+
+\noindent\makebox[\linewidth]{\dotfill}
+
+\noindent
+c) Pošto se u ovoj tački zahteva realizacija funkcije~\eqref{eq:zad3} korišćenjem dekodera, navedenu funkciju je neophodno izraziti u formi koja sadrži neke od komplementiranih proizvoda~\eqref{eq:zad3-a1}. Do ove forme je najlakše doći analizirajući Karnoovu kartu koja odgovara funkciji~\eqref{eq:zad3} i izdvajanjem izlaza aktivnih u logičkoj nuli koji se formiraju potpunim
+zbirovima. Sadržaj Karnoove karte, sa naznačenim oblastima koji se realizuju u formi potpunih zbirova je prikazan na slici 2.3.2
+
+
+\begin{figure}[!ht]
+  \centering
+  \captionsetup{skip=-1.8em} % space between K-map and caption (adjust)
+
+  \begin{karnaugh-map}[4][2][1][$A$][$B$][$C$]
+    \minterms{1,3,4,5,6}
+    \maxterms{0,2,7}
+    % Groups of zeros
+    \implicant{0}{0} 
+    \implicant{7}{7}
+    \implicant{2}{2}
+  \end{karnaugh-map}
+  \caption{Karnoova karta za funkciju~\eqref{eq:zad3}.}
+  \label{fig:kmap-zad3-c1}
+\end{figure}
+
+\noindent
+Na osnovu oblasti označenih na slici~\ref{fig:kmap-zad3-c1}, izvodimo sledeću formu funkcije~\eqref{eq:zad3}:
+
+\begin{equation}\label{eq:zad3-c1}
+Y = (C + B + A) (C + \bar{B} + A) (\bar{C} + \bar{B} + \bar{A})
+\end{equation}
+Ukoliko funkciju~\eqref{eq:zad3-c1} izrazimo koristeći funkcije date jedna\v{c}inom~\eqref{eq:zad3-a1} dobijamo:
+
+\begin{equation}\label{eq:zad3-c2}
+Y = \bar{Y_0} \bar{Y_1} \bar{Y_7}
+\end{equation}
+
+\noindent
+Na osnovu~\eqref{eq:zad3-c2} realizujemo kombinacionu mrežu prikazanu na slici~\ref{fig:zadatak3-c}.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.5\linewidth]{Zadatak_3/Zadatak_3b}% adjust path if needed
+  \caption{Kombinaciona mreža funkcije~\eqref{eq:zad3} realizovana korišćenjem dekodera 3/8.}
+  \label{fig:zadatak3-c}
+\end{figure}
+
+\noindent
+d) Na slici~\ref{fig:zadatak3-d} je prikazana realizacija dekodera 6/64 korišćenjem dekodera 3/8.
+
+\begin{figure}[!t]
+  \centering
+  \includegraphics[width=0.6\linewidth]{Zadatak_3/Zadatak_3c}% adjust path if needed
+  \caption{Kombinaciona mreža funkcije~\eqref{eq:zad3} realizovana korišćenjem dekodera 3/8.}
+  \label{fig:zadatak3-d}
+\end{figure}
+
+\vspace{1em}
+\textcolor{white}{\shrug}
+
+\newpage
+
+%--------------------------------------------------------------------
+\subsection{Zadatak 4}\label{sec:zad4}
+
+\begin{enumerate}[label=\alph*) , leftmargin=*, itemsep=2pt]
+  \item Projektovati konvertor BCD koda u sedmobitni kod za pobudu svetlosnog
+sedmosegmentnog LED indikatora sa zajedničkom katodom. Ako se na ulazu pojave
+kombinacije od 0000 do 1001 na indikatoru se prikazuju cifre 0-9. Ako se na ulazu pojave nedozvoljene kombinacije 1010-1111, na idikatoru se prikazuje slovo E (\textit{Error}). Naraspolaganju su samo NI i NILI logička kola. Težiti da broj upotrebljenih logičkih kola bude minimalan.
+\item Projektovati kombinacionu mrežu, ako je poznato da se na ulazu konvertora koda ne mogu pojaviti nedozvoljene kombinacije ulaza, tj. ulazni podatak je u sigurno u opsegu 0000-1001, Na raspolaganju su logička kola proizvoljnog tipa.
+\item Kako treba modifikovati dobijenu šemu pod tačkom a) da bi se, u slučaju kada se konvertora koristi u više cifarskom indikatoru, obezbedilo gašenje vodećih nula, i slova E, u slučaju da je na ulazu bilo kog indikatora, nalazi neka od nedozvoljenih kombinacija. Na raspolaganju su logička kola proizvoljnog tipa.
+\end{enumerate}
+
+\begin{table}[!ht]
+  \centering
+  \caption{Primer rada višecifrenog BCD konvertora}
+  \label{tab:bcd-konvertor}
+  \begin{tabular}{|c|c|}
+    \hline
+    \rowcolor{gray!40}
+    Ulaz u višecifreni BCD konvertor &
+    Sadržaj na višecifrenom sedmosegmentnom LE displeju \\ \hline
+    0231 & 231 \\ \hline
+    00A5 & E   \\ \hline
+    0504 & 504 \\ \hline
+  \end{tabular}
+\end{table}
+
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.3\linewidth]{Zadatak_4/7seg}% adjust path if needed
+  \caption{Sedmosegmentni displej sa označenim segmentima.}
+  \label{fig:zadatak4}
+\end{figure}
+
+\newpage
+
+\subsubsection*{Rešenje:} 
+\noindent
+a) Najpre određujemo funkcionalnu tabelu koja definiše vrednosti izlaznih signala za sve kombinacije ulaznih logičkih nivoa. Na izlazu kombinacione mreže imamo sedmobitni kod (abcdefg) koji se koristi za pobudu LED segmenata. Obzirom da je, prema tekstu zadatka, indikator sa zajedničkom katodom, aktivan logički nivo za pobudu nekog segmenta indikatora je nivo logičke jedinice.
+
+\begin{table}[!ht]
+  \centering
+  \caption{Funkcionalna tabela uz zadatak~\ref{sec:zad4}}
+  \label{tab:bcd-7seg-e}
+  \begin{tabularx}{0.7\linewidth}{|C|C|C|C||C|C|C|C|C|C|C|}
+    \hline
+    \rowcolor{gray!40}
+    D & C & B & A & a & b & c & d & e & f & g \\ \hline
+    0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 1 & 1 & 0 \\ \hline % 0
+    0 & 0 & 0 & 1 & 0 & 1 & 1 & 0 & 0 & 0 & 0 \\ \hline % 1
+    0 & 0 & 1 & 0 & 1 & 1 & 0 & 1 & 1 & 0 & 1 \\ \hline % 2
+    0 & 0 & 1 & 1 & 1 & 1 & 1 & 1 & 0 & 0 & 1 \\ \hline % 3
+    0 & 1 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\ \hline % 4
+    0 & 1 & 0 & 1 & 1 & 0 & 1 & 1 & 0 & 1 & 1 \\ \hline % 5
+    0 & 1 & 1 & 0 & 1 & 0 & 1 & 1 & 1 & 1 & 1 \\ \hline % 6
+    0 & 1 & 1 & 1 & 1 & 1 & 1 & 0 & 0 & 0 & 0 \\ \hline % 7
+    1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\ \hline % 8
+    1 & 0 & 0 & 1 & 1 & 1 & 1 & 1 & 0 & 1 & 1 \\ \hline % 9
+    % Kodovi veći od 9 -> E (1001111)
+    1 & 0 & 1 & 0 & 1 & 0 & 0 & 1 & 1 & 1 & 1 \\ \hline % 10 -> E
+    1 & 0 & 1 & 1 & 1 & 0 & 0 & 1 & 1 & 1 & 1 \\ \hline % 11 -> E
+    1 & 1 & 0 & 0 & 1 & 0 & 0 & 1 & 1 & 1 & 1 \\ \hline % 12 -> E
+    1 & 1 & 0 & 1 & 1 & 0 & 0 & 1 & 1 & 1 & 1 \\ \hline % 13 -> E
+    1 & 1 & 1 & 0 & 1 & 0 & 0 & 1 & 1 & 1 & 1 \\ \hline % 14 -> E
+    1 & 1 & 1 & 1 & 1 & 0 & 0 & 1 & 1 & 1 & 1 \\ \hline % 15 -> E
+  \end{tabularx}
+\end{table}
+
+Na osnovu kombinacione tabele~\ref{tab:bcd-7seg-e}, popunjavamo odgovarajuće Karnoove karte a zatim određujemo funkciju svakog od izlaza. U nastavku su date Karnoove karte za svaki od izlaza BCD konvertora.
+
+
+\begin{figure}[!ht]
+  \centering
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  % First row: a, b, c
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \begin{subfigure}{0.32\textwidth}
+    \centering
+    \captionsetup{skip=-1em} % space between K-map and caption (adjust)
+    % Segment a: 1 for minterms 0,2,3,5,6,7,8,9,10,11,12,13,14,15
+    \resizebox{\columnwidth}{!}{%
+    \begin{karnaugh-map}[4][4][1][$A$][$B$][$C$][$D$]
+      \minterms{0,2,3,5,6,7,8,9,10,11,12,13,14,15}
+      \maxterms{1,4}
+      \implicant{4}{4}
+      \implicant{1}{1}
+    \end{karnaugh-map}
+    }
+    \caption{Segment $a$}
+    \label{fig:kmap-a}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}{0.32\textwidth}
+    \centering
+    \captionsetup{skip=-1em} % space between K-map and caption (adjust)
+    % Segment b: 1 for minterms 0,1,2,3,4,7,8,9
+    \resizebox{\columnwidth}{!}{%
+    \begin{karnaugh-map}[4][4][1][$A$][$B$][$C$][$D$]
+      \minterms{0,1,2,3,4,7,8,9}
+      \maxterms{5,6,10,11,12,13,14,15}
+      \implicant{12}{14}
+      \implicant{5}{13}
+      \implicant{15}{10}
+      \implicant{6}{14}
+    \end{karnaugh-map}
+    }
+    \caption{Segment $b$}
+    \label{fig:kmap-b}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}{0.32\textwidth}
+    \centering
+    \captionsetup{skip=-1em} % space between K-map and caption (adjust)
+    % Segment c: 1 for minterms 0,1,3,4,5,6,7,8,9
+    \resizebox{\columnwidth}{!}{%
+    \begin{karnaugh-map}[4][4][1][$A$][$B$][$C$][$D$]
+      \minterms{0,1,3,4,5,6,7,8,9}
+      \maxterms{2,10,11,12,13,14,15}
+      \implicant{12}{14}
+      \implicant{15}{10}
+      \implicantedge{2}{2}{10}{10}
+    \end{karnaugh-map}
+    }
+    \caption{Segment $c$}
+    \label{fig:kmap-c}
+  \end{subfigure}
+
+  \vspace{1em}
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  % Second row: d, e, f
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \begin{subfigure}{0.32\textwidth}
+    \centering
+    \captionsetup{skip=-1em} % space between K-map and caption (adjust)
+    % Segment d: 1 for minterms 0,2,3,5,6,8,9,10,11,12,13,14,15
+    \resizebox{\columnwidth}{!}{%
+    \begin{karnaugh-map}[4][4][1][$A$][$B$][$C$][$D$]
+      \minterms{0,2,3,5,6,8,9,10,11,12,13,14,15}
+      \maxterms{1,4,7}
+      \implicant{1}{1}
+      \implicant{4}{4}
+      \implicant{7}{7}
+    \end{karnaugh-map}
+    }
+    \caption{Segment $d$}
+    \label{fig:kmap-d}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}{0.32\textwidth}
+    \centering
+    \captionsetup{skip=-1em} % space between K-map and caption (adjust)
+    % Segment e: 1 for minterms 0,2,6,8,10,11,12,13,14,15
+    \resizebox{\columnwidth}{!}{%
+    \begin{karnaugh-map}[4][4][1][$A$][$B$][$C$][$D$]
+      \minterms{0,2,6,8,10,11,12,13,14,15}
+      \maxterms{1,3,4,5,7,9}
+      \implicant{4}{5}
+      \implicant{1}{7}
+      \implicantedge{1}{1}{9}{9}
+    \end{karnaugh-map}
+    }
+    \caption{Segment $e$}
+    \label{fig:kmap-e}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}{0.32\textwidth}
+    \centering
+    \captionsetup{skip=-1em} % space between K-map and caption (adjust)
+    % Segment f: 1 for minterms 0,4,5,6,8,9,10,11,12,13,14,15
+    \resizebox{\columnwidth}{!}{%
+    \begin{karnaugh-map}[4][4][1][$A$][$B$][$C$][$D$]
+      \minterms{0,4,5,6,8,9,10,11,12,13,14,15}
+      \maxterms{1,2,3,7}
+      \implicant{1}{3}
+      \implicant{3}{2}
+      \implicant{3}{7}
+    \end{karnaugh-map}
+    }
+    \caption{Segment $f$}
+    \label{fig:kmap-f}
+  \end{subfigure}
+
+  \vspace{1em}
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  % Third row: g
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \begin{subfigure}{0.32\textwidth}
+    \centering
+    \captionsetup{skip=-1em} % space between K-map and caption (adjust)
+    % Segment g: 1 for minterms 2,3,4,5,6,8,9,10,11,12,13,14,15
+    \resizebox{\columnwidth}{!}{%
+    \begin{karnaugh-map}[4][4][1][$A$][$B$][$C$][$D$]
+      \minterms{2,3,4,5,6,8,9,10,11,12,13,14,15}
+      \maxterms{0,1,7}
+      \implicant{0}{1}
+      \implicant{7}{7}
+    \end{karnaugh-map}
+    }
+    \caption{Segment $g$}
+    \label{fig:kmap-g}
+  \end{subfigure}
+
+  \caption{Sadržaj Karnoovih karti za svaki od izlaza BCD konvertora.}
+  \label{fig:kmap-7seg}
+\end{figure}
+
+Na osnovu sadržaja Karnoovih karti moguće je odrediti funkcije koje podrazumevaju
+minimalan broj logičkih kola sa minimalnim brojem ulaza. Svaki od Izlaza logičkog kola je pogodan za implementaciju korišćenjem NILI logičkih kola i zbog toga se u Karnoovim kartama posmatraju logičke nule.
+
+\begin{equation}\label{eq:zad4-a}
+\begin{aligned}
+a &= (D + \bar{C} + B + A)(D + C + B + \bar{A}) \\[4pt]
+b &= (\bar{D} + \bar{B})(\bar{D} + \bar{C})(\bar{C} + \bar{B} + A)(\bar{C} + B + \bar{A}) \\[4pt]
+c &= (\bar{D} + \bar{B})(\bar{D} + \bar{C})(C + \bar{B} + A) \\[4pt]
+d &= (D + \bar{C} + B + A)(D + C + B + \bar{A})(D + \bar{C} + \bar{B} + \bar{A}) \\[4pt]
+e &= (D + \bar{A})(C + B + \bar{A})(D + \bar{C} + B) \\[4pt]
+f &= (D + C + \bar{A})(D + C + \bar{B})(D + \bar{B} + \bar{A}) \\[4pt]
+g &= (D + C + B)(D + \bar{C} + \bar{B} + \bar{A})
+\end{aligned}
+\end{equation}
+
+\begin{tcolorbox}[colback=gray!10, colframe=black, boxrule=0.5pt]
+\textbf{Za samostalni rad:} Izvesti funkciju za svaki od izlaza ako se umesto NILI logičkih kola
+koriste NI logička kola. Uporediti dobijene funkcije sa funkcijama datih u jedna\v{c}ini~\eqref{eq:zad4-a} sa stanovišta broja
+logičkih kola.
+\end{tcolorbox}
+
+Primenom Bulovih transformacija nad funkcijom svakog od signala potencijalno je
+moguće dodatno uprostiti izraze. U slučaju funkcije izlaznog signala \textit{a} važe sledeće jednakosti:
+
+\begin{equation}\label{eq:zad4-a1}
+a = (D + \bar{C} + B + A)(D + C + B + \bar{A})
+\end{equation}
+primenom pravila Bulove algebre dobija se
+\begin{equation}\label{eq:zad4-a2}
+\begin{aligned}
+a &= (D + \bar{C} + B + A)(D + C + B + \bar{A}) \\[4pt]
+&=  D + B + (\bar{C} + A)(C + \bar{A}) = D + B + (\bar{C} \bar{A} + C A) \\[4pt]
+&= D + B + \overline{C \oplus A}
+\end{aligned}
+\end{equation}
+Na osnovu dobijenog izraza~\eqref{eq:zad4-a2} jasno je da se funkcija a može realizovati sa manjim brojem logičkih kola. Međutim, za takvu realizaciju potrebno je koristiti EXNILI logička kola koja nisu dozvoljena u ovoj tački zadatka.
+
+\begin{tcolorbox}[colback=gray!10, colframe=black, boxrule=0.5pt]
+\textbf{Za samostalni rad:} Za ostale signale b-g, primenom Bulovih transformacija, naći formu koja
+sadrži manji broj logičkih kola
+\end{tcolorbox}
+
+Pošto se u ovoj tački zadatka traži realizacija korišćenjem isključivo NI ili NILI
+logičkih kola, potrebno je funkcije izlaza iz Tabele napisati u odgovarajućoj formi. Pošto smo
+funkcije, u navedenoj tabeli, izrazili koristeći formu proizvoda zbirova, navedene funkcije je
+poželjno realizovati korišćenjem NILI logičkih kola. Zbog toga što broj ulaza nije ograničen
+tekstom zadatka, koristićemo NILI kola sa proizvoljnim brojem ulaza. Procedurom sličnom
+kao u prethodnim zadacima, dolazimo do forme logičke funkcije izlaznog signala \textit{a} koja je
+pogodna za realizaciju NILI logičkim kolima:
+
+\begin{equation}\label{eq:zad4-a3}
+\begin{aligned}
+a = \bar{\bar{a}} &= \overline{ \overline{ (D + \bar{C} + B + A)(D + C + B + \bar{A}) }} \\[4pt]
+&= 
+\overline{ 
+\textcolor{red}{\overline{ (D + \bar{C} + B + A) }}
+\textcolor{black}{+}
+\textcolor{blue}{\overline{(D + C + B + \bar{A}) }} }
+\end{aligned}
+\end{equation}
+Na slici~\ref{fig:Zadatak4_a} je ilustrovana implementacija izlaznog signala a korišćenjem isključivo NILI logičkih kola.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.8\linewidth]{Zadatak_4/Zadatak4_a}% adjust path if needed
+  \caption{Implementacija izlaza a korišćenjem NILI logičkih kola.}
+  \label{fig:Zadatak4_a}
+\end{figure}
+
+\begin{tcolorbox}[colback=gray!10, colframe=black, boxrule=0.5pt]
+\textbf{Za samostalni rad:} 
+\begin{enumerate}[leftmargin=*, itemsep=2pt]
+\item Za ostale signale b-g izvesti algebarski zapis pogodan za implementaciju korišćenjem
+isključivo NILI logičkih kola.
+\item Za ostale signale b-g izvesti algebarski zapis pogodan za implementaciju korišćenjem
+isključivo NI logičkih kola.
+\item Uporediti realizacije sa stanovišta broja logičkih kola
+\end{enumerate}
+\end{tcolorbox}
+
+
+\noindent
+b) Najpre određujemo kombinacionu tabelu koja definiše vrednosti izlaznih signala za sve kombinacije ulaznih logičkih nivoa. Na izlazu imamo sedmobitni binarni broj (abcdefg). Kako je poznato da na ulazu konvertora može biti samo neka od kombinacija 0000-1001, vrednosti izlaza, u slučaju nedozvoljene kombinacije signala na ulazu kola, mogu imati proizvoljnu vrednost (označenu sa bbbbbbb u funkcionalnoj tabeli) te ih je preporučljivo koristiti prilikom
+određivanja logičke funkcije minimalne kompleksnosti.
+
+\begin{table}[!ht]
+  \centering
+  \caption{Funkcionalna tabela uz zadatak~\ref{sec:zad4} b).}
+  \label{tab:bcd-7seg-b}
+  \begin{tabularx}{0.7\linewidth}{|C|C|C|C||C|C|C|C|C|C|C|}
+    \hline
+    \rowcolor{gray!40}
+    D & C & B & A & a & b & c & d & e & f & g \\ \hline
+    0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 1 & 1 & 0 \\ \hline % 0
+    0 & 0 & 0 & 1 & 0 & 1 & 1 & 0 & 0 & 0 & 0 \\ \hline % 1
+    0 & 0 & 1 & 0 & 1 & 1 & 0 & 1 & 1 & 0 & 1 \\ \hline % 2
+    0 & 0 & 1 & 1 & 1 & 1 & 1 & 1 & 0 & 0 & 1 \\ \hline % 3
+    0 & 1 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\ \hline % 4
+    0 & 1 & 0 & 1 & 1 & 0 & 1 & 1 & 0 & 1 & 1 \\ \hline % 5
+    0 & 1 & 1 & 0 & 1 & 0 & 1 & 1 & 1 & 1 & 1 \\ \hline % 6
+    0 & 1 & 1 & 1 & 1 & 1 & 1 & 0 & 0 & 0 & 0 \\ \hline % 7
+    1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\ \hline % 8
+    1 & 0 & 0 & 1 & 1 & 1 & 1 & 1 & 0 & 1 & 1 \\ \hline % 9
+    % Kodovi veći od 9 -> don't care (b)
+    1 & 0 & 1 & 0 & b & b & b & b & b & b & b \\ \hline % 10
+    1 & 0 & 1 & 1 & b & b & b & b & b & b & b \\ \hline % 11
+    1 & 1 & 0 & 0 & b & b & b & b & b & b & b \\ \hline % 12
+    1 & 1 & 0 & 1 & b & b & b & b & b & b & b \\ \hline % 13
+    1 & 1 & 1 & 0 & b & b & b & b & b & b & b \\ \hline % 14
+    1 & 1 & 1 & 1 & b & b & b & b & b & b & b \\ \hline % 15
+  \end{tabularx}
+\end{table}
+
+\noindent
+Na slici~\ref{fig:kmap-7seg-b} prikazane su Karnoove karte gde su grupisane jedinice. Dobijene funkcije predstavljene u formi zbira proizvoda su date u oviru jedna\v{c}ine~\eqref{eq:zad4-b}.
+
+\begin{figure}[!ht]
+  \centering
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  % First row: a, b, c
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \begin{subfigure}{0.32\textwidth}
+    \centering
+    \captionsetup{skip=-1em} % space between K-map and caption (adjust)
+    \resizebox{\columnwidth}{!}{%
+    \begin{karnaugh-map}[4][4][1][$A$][$B$][$C$][$D$]
+      \minterms{0,2,3,5,6,7,8,9}
+      \maxterms{1,4}
+      \terms{10,11,12,13,14,15}{$b$}
+            
+      \implicant{5}{15}
+      \implicant{3}{10}
+      \implicant{12}{10}
+      \implicantcorner
+    \end{karnaugh-map}
+    }
+    \caption{Segment $a$}
+    \label{fig:kmap-a-b}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}{0.32\textwidth}
+    \centering
+    \captionsetup{skip=-1em} % space between K-map and caption (adjust)
+    \resizebox{\columnwidth}{!}{%
+    \begin{karnaugh-map}[4][4][1][$A$][$B$][$C$][$D$]
+      \minterms{0,1,2,3,4,7,8,9}
+      \maxterms{5,6}
+      \terms{10,11,12,13,14,15}{$b$}
+            
+      \implicantedge{0}{2}{8}{10}
+      \implicant{0}{8}
+      \implicant{3}{11}
+    \end{karnaugh-map}
+    }
+    \caption{Segment $b$}
+    \label{fig:kmap-b-b}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}{0.32\textwidth}
+    \centering
+    \captionsetup{skip=-1em} % space between K-map and caption (adjust)
+    \resizebox{\columnwidth}{!}{%
+    \begin{karnaugh-map}[4][4][1][$A$][$B$][$C$][$D$]
+      \minterms{0,1,3,4,5,6,7,8,9}
+      \maxterms{2}
+      \terms{10,11,12,13,14,15}{$b$}
+      
+      \implicant{4}{14}
+      \implicant{0}{9}
+      \implicant{1}{11}
+    \end{karnaugh-map}
+    }
+    \caption{Segment $c$}
+    \label{fig:kmap-c-b}
+  \end{subfigure}
+
+  \vspace{1em}
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  % Second row: d, e, f
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \begin{subfigure}{0.32\textwidth}
+    \centering
+    \captionsetup{skip=-1em} % space between K-map and caption (adjust)
+    \resizebox{\columnwidth}{!}{%
+    \begin{karnaugh-map}[4][4][1][$A$][$B$][$C$][$D$]
+      \minterms{0,2,3,5,6,8,9}
+      \maxterms{1,4,7}
+      \terms{10,11,12,13,14,15}{$b$}
+      
+      \implicant{12}{10}
+      \implicant{2}{10}
+      \implicantedge{3}{2}{11}{10}
+      \implicantcorner
+      \implicant{5}{13}
+    \end{karnaugh-map}
+    }
+    \caption{Segment $d$}
+    \label{fig:kmap-d-b}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}{0.32\textwidth}
+    \centering
+    \captionsetup{skip=-1em} % space between K-map and caption (adjust)
+    \resizebox{\columnwidth}{!}{%
+    \begin{karnaugh-map}[4][4][1][$A$][$B$][$C$][$D$]
+      \minterms{0,2,6,8}
+      \maxterms{1,3,4,5,7,9}
+      \terms{10,11,12,13,14,15}{$b$}
+      
+      \implicant{2}{10}
+      \implicantcorner
+    \end{karnaugh-map}
+    }
+    \caption{Segment $e$}
+    \label{fig:kmap-e-b}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}{0.32\textwidth}
+    \centering
+    \captionsetup{skip=-1em} % space between K-map and caption (adjust)
+    \resizebox{\columnwidth}{!}{%
+    \begin{karnaugh-map}[4][4][1][$A$][$B$][$C$][$D$]
+      \minterms{0,4,5,6,8,9}
+      \maxterms{1,2,3,7}
+      \terms{10,11,12,13,14,15}{$b$}
+      
+      \implicant{12}{10}
+      \implicantedge{4}{12}{6}{14}
+      \implicant{4}{13}
+      \implicant{0}{8}
+    \end{karnaugh-map}
+    }
+    \caption{Segment $f$}
+    \label{fig:kmap-f-b}
+  \end{subfigure}
+
+  \vspace{1em}
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  % Third row: g
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \begin{subfigure}{0.32\textwidth}
+    \centering
+    \captionsetup{skip=-1em} % space between K-map and caption (adjust)
+    \resizebox{\columnwidth}{!}{%
+    \begin{karnaugh-map}[4][4][1][$A$][$B$][$C$][$D$]
+      \minterms{2,3,4,5,6,8,9}
+      \maxterms{0,1,7}
+      \terms{10,11,12,13,14,15}{$b$}
+      
+      \implicant{12}{10}
+      \implicantedge{3}{2}{11}{10}
+      \implicantedge{4}{12}{6}{14}
+      \implicant{4}{13}
+    \end{karnaugh-map}
+    }
+    \caption{Segment $g$}
+    \label{fig:kmap-g-b}
+  \end{subfigure}
+
+  \caption{Sadržaj Karnoovih karti za svaki od izlaza BCD konvertora za zadatak~\ref{sec:zad4} b).}
+  \label{fig:kmap-7seg-b}
+\end{figure}
+
+\begin{equation}\label{eq:zad4-b}
+\begin{aligned}
+a &= D + B + C A + \bar{C}\,\bar{A} \\[4pt]
+b &= \bar{C} + A B + \bar{A}\,\bar{B} \\[4pt]
+c &= C + \bar{B} + A \\[4pt]
+d &= D + B\bar{A} + B\bar{C} + \bar{C}\,\bar{A} + C\bar{B}A \\[4pt]
+e &= B\bar{A} + \bar{C}\,\bar{A} \\[4pt]
+f &= D + C\bar{A} + C\bar{B} + \bar{A}\,\bar{B} \\[4pt]
+g &= D + B\bar{C} + C\bar{A} + C\bar{B}
+\end{aligned}
+\end{equation}
+
+Posmatraju\'{c}i Karnoovu kartu za izlaz \textit{a} koja je data na slici~\ref{fig:kmap-a-b}, izlaz \textit{a} mo\v{z}emo dodatno pojednostaviti:
+
+\begin{equation}\label{eq:zad4-b-a}
+\begin{aligned}
+a &= D + B + C A + \bar{C}\,\bar{A} \\[4pt]
+&= D + B + \overline{C \oplus A}
+\end{aligned}
+\end{equation}
+
+Implementacija izlaza \textit{a} datog jedna\v{c}inom~\eqref{eq:zad4-b-a} je prikazana na slici~\ref{fig:Zadatak_4b}.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.58\linewidth]{Zadatak_4/Zadatak_4b}% adjust path if needed
+  \caption{Implementacija funkcije izlaza \textit{a}.}
+  \label{fig:Zadatak_4b}
+\end{figure}
+
+\begin{tcolorbox}[colback=gray!10, colframe=black, boxrule=0.5pt]
+\textbf{Za samostalni rad:} 
+Za ostale izlazne signale b-g, implementirati minimalne funkcije. Uporediti dobijene implementacije sa implementacijama u
+tački a).
+\end{tcolorbox}
+
+\noindent\makebox[\linewidth]{\dotfill}
+
+\noindent
+c) Celokupnu funkcionalnost definisanu u okviru ove tačke zadatka moguće je
+dekomponovati na sledeće manje zahteve:
+\begin{enumerate}
+\item Kontrola uključenosti segmenata
+\item Detekcija nedozvoljenog ulaza
+\item Detekcija vodećih nula
+\end{enumerate}
+\vspace{1em}
+
+Zahtev (1) podrazumeva uvođenje dodatnog signala u okviru kombinacione mreže
+BCD konvertora koji bi omogućio isključivanje svih segmenata LE displeja. Ovaj signal bi
+predstavljao ulazni signal u BCD konvertor dok bi logika za kontrolu ovog signala bila
+izmeštena izvan samog BCD konvertora. Funkcionalni zahtev (2) podrazumeva uvođenje još
+jednog dodatnog izlaznog signala koji ima za cilj prosleđivanje informacije o nevalidnosti
+ulaza ostalim BCD konvertorima koji čine višecifreni BCD konvertor. Jedan od
+najkopleksnijih funkcionalnih zahteva podrazumeva implementaciju logike za detekciju
+vodećih nula koja ima za cilj isključivanje segmenata onih LE displeja koji su povezani na
+vodeće nule. Za potpunu implementaciju ove logike neophodno je da do svakog BCD
+konvertora, u nizu konvertora koji čine višecifreni BCD konvertor, propagira informacija o
+tome da li su prethodni BCD konvertori viših cifara imali niz vodećin nula. Na taj način bi se
+omogućilo isključivanje segmenata BCD konvertora koji je poslednji u nizu ukoliko bi se i na
+njegovom ulazu pojavio binarni zapis cifre 0.
+
+Na osnovu analize tri glavna funkcionalna zahteva, moguće je identifikovati sledeće
+signale u okviru svakog od BCD konvertora:
+
+
+\begin{table}[!ht]
+  \centering
+  \caption{Opis upravljačkih signala BCD konvertora}
+  \label{tab:signali-bcd}
+  \begin{tabularx}{\linewidth}{|c|c|c|X|}
+    \hline
+    \rowcolor{gray!40}
+    Naziv signala & Ulazni/Izlazni & Aktivni logički nivo & Opis \\ \hline
+
+    Error & Izlazni & 1 &
+    Označava da se na ulazu BCD konvertora pojavila nedozvoljena kombinacija bita. \\ \hline
+
+    OFF & Ulazni & 1 &
+    Kontroliše uključenost segmenata. Kada je postavljen na „0“ svi segmenti su isključeni,
+    dok je u suprotnom stanje segmenata određeno drugim signalima. \\ \hline
+
+    LZIN & Ulazni & 1 &
+    \textit{\textbf{L}eading \textbf{Z}eros} ulazni signal BCD konvertora niže cifre prihvata \textit{\textbf{L}eading \textbf{Z}eros}
+    sa BCD konvertora više cifre. Ukoliko su vodeće nule isključene signal je postavljen na jedinicu,
+    dok je u suprotnom postavljen na nulu. \\ \hline
+
+    LZOUT & Izlazni & 1 &
+    \textit{\textbf{L}eading \textbf{Z}eros} izlazni signal BCD konvertora više cifre se prosleđuje na BCD konvertor niže cifre.
+    Ukoliko su vodeće nule isključene signal je postavljen na jedinicu od strane BCD konvertora više cifre,
+    dok je u suprotnom postavljen na nulu. \\ \hline
+
+  \end{tabularx}
+\end{table}
+
+\textit{Error} signal predstavlja izlazni signal iz jednog BCD konvertora koji se generiše kada
+se na ulazu pojavi binarni sadrđaj u ospegu od 1010 -1111. Na osnovu analize sprovedene u
+tačkama a) i b) i uvidom u Karnoove karte svakog od izlaznih signala možemo izvesti
+minimalnu logičku funkciju \textit{Error} signala:
+
+\begin{equation}
+Error = D \cdot (C + B)
+\end{equation}
 
 \end{document}
