@@ -304,6 +304,17 @@ Na osnovu niza jednakosti~\eqref{eq:zad2-a2} dobijamo realizaciju prikazanu na s
 \textbf{Za samostalni rad:} Implementirati logičku funkciju Y ukoliko su ako selekcioni signali uzeti ulazi AC.
 \end{tcolorbox}
 
+\newpage
+
+\noindent
+VHDL kod koji implementira kolo sa slike~\ref{fig:zadatak2-a}.\\
+\textbf{Napomena:} Kašnjenja dodata u kod se koriste samo za simulacije!
+\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_2/a/zadatak.vhd}
+
+%\newpage
+\noindent
+Testbench koji simulira kolo sa slike~\ref{fig:zadatak2-a} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_2/a/tb_zadatak.vhd}{OVDE}.
+
 \noindent\makebox[\linewidth]{\dotfill}
 
 \noindent
@@ -349,7 +360,16 @@ Na osnovu~\eqref{eq:zad2-b2} moguće je realizovati logičku funkciju Y kao što
   \label{fig:zadatak2-b}
 \end{figure}
 
-\noindent\makebox[\linewidth]{\dotfill}
+\noindent
+VHDL kod koji implementira kolo sa slike~\ref{fig:zadatak2-b}.\\
+\textbf{Napomena:} Kašnjenja dodata u kod se koriste samo za simulacije!
+\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_2/b/zadatak.vhd}
+
+%\newpage
+\noindent
+Testbench koji simulira kolo sa slike~\ref{fig:zadatak2-b} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_2/b/tb_zadatak.vhd}{OVDE}.
+
+
 
 \noindent
 c) Kako se u standardnom 14-pinskom integrisanom kolu mogu naći 4 dvoulazna NI kola, potreban broj integrisanih kola za realizaciju u tački a) i b) je isti i znosi 1. Međutim, sa strane kašnjenja postoje izvesne razlike. U slučaju realizacije iz tačke a) kašnjenje iznosi $t_{d-Y} = t_{d-mux} = 20$ns, dok u slučaju realizacije pod b) kašnjenje iznosi $t_{d-Y} = 3t_{d-l} = 30$ns. Takođe, realizacije pod a) ne zahteva dodatnu minimizaciju date funkcije obzirom da se vrednosti ulaza multipleksera određuju na osnovu konkretnih vrednosti ulaza A i B.
@@ -410,7 +430,15 @@ Y = C B + \bar{B} A + C A
 \end{figure}
 \noindent
 
+ 
+\noindent
+VHDL kod koji implementira jedna\v{c}inu~\eqref{eq:zad2-d1}.\\
+\textbf{Napomena:} Kašnjenja dodata u kod se koriste samo za simulacije!
+\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_2/d/zadatak.vhd}
 
+%\newpage
+\noindent
+Testbench koji simulira jedna\v{c}inu~\eqref{eq:zad2-d1} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_2/d/tb_zadatak.vhd}{OVDE}.
 
 \newpage
 %--------------------------------------------------------------------
@@ -472,21 +500,37 @@ Y_7 = {A_2} {A_1} {A_0}
 \end{aligned}
 \end{equation}
 
-%\noindent\makebox[\linewidth]{\dotfill}
+\newpage
+
+\noindent
+VHDL kod koji implementira dekoder opisan tabelom~\ref{tab:decoder3to8}.
+\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_3/a/zadatak.vhd}
+
+
+\noindent
+Testbench koji simulira dekoder opisan tabelom~\ref{tab:decoder3to8} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_3/a/tb_zadatak.vhd}{OVDE}.
+
+\newpage
 
 \noindent
 b) U ovoj tački se zahteva realizacija dekodera 4/16 korišćenjem dekodera 3/8. Za razliku od dekodera 3/8 iz prethodne tačke, ovaj dekoder sadrži tri ulazna enable signala dok su mu izlazi aktivni u logičkoj nuli. Funkcije kojima se opisuju izlazni signali ovog dekodera predstavljaju komplemente funkcija datih jednacinom~\eqref{eq:zad3-a1}.
 
 \begin{figure}[!ht]
   \centering
-  \includegraphics[width=0.75\linewidth]{Zadatak_3/Zadatak_3a}% adjust path if needed
+  \includegraphics[width=0.62\linewidth]{Zadatak_3/Zadatak_3a}% adjust path if needed
   \caption{Realizacija dekodera 4/16 korišćenjem dva dekodera 3/8.}
   \label{fig:zadatak3-a}
 \end{figure}
 
-\FloatBarrier   % place all pending floats before carrying on
+\noindent
+VHDL kod koji implementira kolo sa slike~\ref{fig:zadatak3-a}.
+\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_3/b/zadatak.vhd}
 
-\noindent\makebox[\linewidth]{\dotfill}
+
+\noindent
+Testbench koji simulira kolo sa slike~\ref{fig:zadatak3-a} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_3/b/tb_zadatak.vhd}{OVDE}.
+
+
 
 \noindent
 c) Pošto se u ovoj tački zahteva realizacija funkcije~\eqref{eq:zad3} korišćenjem dekodera, navedenu funkciju je neophodno izraziti u formi koja sadrži neke od komplementiranih proizvoda~\eqref{eq:zad3-a1}. Do ove forme je najlakše doći analizirajući Karnoovu kartu koja odgovara funkciji~\eqref{eq:zad3} i izdvajanjem izlaza aktivnih u logičkoj nuli koji se formiraju potpunim
@@ -534,9 +578,19 @@ Na osnovu~\eqref{eq:zad3-c2} realizujemo kombinacionu mrežu prikazanu na slici~
 \newpage
 
 \noindent
+VHDL kod koji implementira jedna\v{c}inu~\eqref{eq:zad3-c2} i kolo sa slike~\ref{fig:zadatak3-c}.
+\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_3/c/zadatak.vhd}
+
+
+\noindent
+Testbench koji simulira jedna\v{c}inu~\eqref{eq:zad3-c2} i kolo sa slike~\ref{fig:zadatak3-c} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_3/c/tb_zadatak.vhd}{OVDE}.
+
+\newpage
+
+\noindent
 d) Na slici~\ref{fig:zadatak3-d} je prikazana realizacija dekodera 6/64 korišćenjem dekodera 3/8.
 
-\begin{figure}[!t]
+\begin{figure}[!ht]
   \centering
   \includegraphics[width=0.6\linewidth]{Zadatak_3/Zadatak_3c}% adjust path if needed
   \caption{Kombinaciona mreža funkcije~\eqref{eq:zad3} realizovana korišćenjem dekodera 3/8.}

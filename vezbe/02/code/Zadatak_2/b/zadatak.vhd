@@ -14,9 +14,8 @@ end entity zadatak;
 architecture Structural of zadatak is
 
   signal I1, I2, I3: STD_LOGIC;
-
+  
 begin
-
   ----------------------------------------------------------------------------------
   -- I1 = ¬(C · B)
   I1 <= (C nand B) after T;

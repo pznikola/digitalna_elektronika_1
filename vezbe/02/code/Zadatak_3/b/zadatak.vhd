@@ -9,14 +9,10 @@ entity zadatak is
 end entity zadatak;
 
 architecture Structural of zadatak is
-
     signal Y_low  : STD_LOGIC_VECTOR(7 downto 0);
     signal Y_high : STD_LOGIC_VECTOR(7 downto 0);
-
 begin
-
-    -- Lower decoder: outputs Y(7 downto 0)
-    dec_low : entity work.decoder
+    dec_low : entity work.decoder -- dekoder za donjih 8 bita
         port map (
             EN0   => '1',
             EN1_B => A(3),
@@ -24,9 +20,7 @@ begin
             A     => A(2 downto 0),
             Y     => Y_low
         );
-
-    -- Upper decoder: outputs Y(15 downto 8)
-    dec_high : entity work.decoder
+    dec_high : entity work.decoder -- dekoder za gornjih 8 bita
         port map (
             EN0   => A(3),
             EN1_B => '0',
@@ -34,9 +28,8 @@ begin
             A     => A(2 downto 0),
             Y     => Y_high
         );
-
-    -- Concatenate sub-decoder outputs into 16-bit bus
+    -- Povezivanje izlaza
     Y( 7 downto 0) <= Y_low;
     Y(15 downto 8) <= Y_high;
-
+    
 end architecture Structural;
