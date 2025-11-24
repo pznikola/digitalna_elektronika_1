@@ -20,7 +20,7 @@ begin
 
   S(1) <= A;
   S(0) <= B;
-  D <= C & '1' & C & '0';
+  D    <= (C, '1', C, '0');
 
     -- Instanciranje multipleksera
     UMUX : entity work.mux4
