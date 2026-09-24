@@ -1,0 +1,12 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb}
+\usepackage[american]{circuitikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{circuits.logic.US,positioning,calc,arrows.meta,patterns,shapes.geometric}
+\definecolor{Primary}{HTML}{1F77B4}
+\begin{document}
+\begin{tikzpicture}[thick,font=\Large]\node[pmos](m73)at(0,1.3000000000000003){};\draw(0,2.2)--(m73.S)(m73.D)--(0,0.40000000000000013);\draw(m73.G)--++(-.25,0)node[left]{$CLK$};\node[nmos](m74)at(0,-0.9){};\draw(0,0)--(m74.D)(m74.S)--(0,-1.8);\draw(m74.G)--++(-.25,0)node[left]{$C$};\draw(0,-1.8)--(-1.2,-1.8)--(-1.2,-2.1);\node[nmos](m75)at(-1.2,-3.0){};\draw(-1.2,-2.1)--(m75.D)(m75.S)--(-1.2,-3.9000000000000004);\draw(m75.G)--++(-.25,0)node[left]{$A$};\draw(-1.2,-3.9000000000000004)--(-1.2,-4.2)--(0,-4.2);\draw(0,-1.8)--(1.2,-1.8)--(1.2,-2.1);\node[nmos](m76)at(1.2,-3.0){};\draw(1.2,-2.1)--(m76.D)(m76.S)--(1.2,-3.9000000000000004);\draw(m76.G)--++(-.25,0)node[left]{$B$};\draw(1.2,-3.9000000000000004)--(1.2,-4.2)--(0,-4.2);\node[nmos](m77)at(0,-5.500000000000001){};\draw(0,-4.6000000000000005)--(m77.D)(m77.S)--(0,-6.4);\draw(m77.G)--++(-.25,0)node[left]{$CLK$};\draw(0,2.2)node[vcc]{$V_{DD}$};\draw(0,.4)--(0,0)--(2.8,0);\draw(0,-4.2)--(0,-4.6000000000000005);\draw(0,-6.4)node[ground]{};\node[right]at(2.8,0){$Y$};\end{tikzpicture}
+\end{document}

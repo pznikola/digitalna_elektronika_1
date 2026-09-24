@@ -1,0 +1,32 @@
+# LaTeX pomocni fajlovi, latexmk, SyncTeX, VCD i .bkp vec su pokriveni
+# korenskim .gitignore fajlom. PDF izdanja i izvori ostaju dostupni Gitu.
+
+# Python provere
+__pycache__/
+*.py[cod]
+.venv/
+
+# GHDL: objekti, biblioteke i izvrsni testbench iz postojecih Makefile-ova
+**/code/**/*.o
+**/code/**/*-obj*.cf
+**/code/**/tb_zadatak
+**/code/**/*.ghw
+
+# ModelSim / Questa
+**/code/**/work/
+**/code/**/transcript
+**/code/**/modelsim.ini
+**/code/**/*.wlf
+
+# Quartus projekti i rezultati koje generise make_project.tcl
+**/code/**/*.qpf
+**/code/**/*.qsf
+**/code/**/*.qws
+**/code/**/db/
+**/code/**/incremental_db/
+**/code/**/output_files/
+**/code/**/tmp/
+
+# Privremeni fajlovi editora
+*.drawio.dtmp
+~$*.docx

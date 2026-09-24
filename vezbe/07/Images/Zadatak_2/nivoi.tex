@@ -1,0 +1,12 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb}
+\usepackage[american]{circuitikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{circuits.logic.US,positioning,calc,arrows.meta,patterns,shapes.geometric}
+\definecolor{Primary}{HTML}{1F77B4}
+\begin{document}
+\begin{tikzpicture}[scale=.85]\draw[->] (0,0)--(5.6,0);\node[anchor=north east]at(5.6,-.95){$v_U\,[\mathrm V]$};\draw[->] (0,0)--(0,5.6) node[above]{$v_I\,[\mathrm V]$};\foreach \x in {1,...,5}{\draw (\x,.07)--(\x,-.07) node[below,font=\scriptsize]{\x};\draw (.07,\x)--(-.07,\x) node[left,font=\scriptsize]{\x};}\draw[Primary,thick] (0,5)--(2,4)--(3,1)--(5,0);\draw[dashed,gray](0,0)--(5,5);\draw[dashed](2,0)|-(0,4);\draw[dashed](3,0)|-(0,1);\node[above right] at(2,4){$V_{OH}=f(V_{IL})$};\node[above right] at(3,1){$V_{OL}=f(V_{IH})$};\node[below] at(2,-.4){$V_{IL}$};\node[below] at(3,-.4){$V_{IH}$};\node[right] at(0,5){$V_H$};\node[above right] at(0,0){$V_L$};\node[above right]at(2.5,2.5){$V_S$};\end{tikzpicture}
+\end{document}

@@ -1,0 +1,12 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb}
+\usepackage[american]{circuitikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{circuits.logic.US,positioning,calc,arrows.meta,patterns,shapes.geometric}
+\definecolor{Primary}{HTML}{1F77B4}
+\begin{document}
+\begin{tikzpicture}[thick,font=\Large]\draw(0,4.6000000000000005)--(-1.2,4.6000000000000005)--(-1.2,4.300000000000001);\node[pmos](m13)at(-1.2,3.400000000000001){};\draw(-1.2,4.300000000000001)--(m13.S)(m13.D)--(-1.2,2.500000000000001);\draw(m13.G)--++(-.25,0)node[left]{$A$};\node[pmos](m14)at(-1.2,1.600000000000001){};\draw(-1.2,2.500000000000001)--(m14.S)(m14.D)--(-1.2,0.7000000000000008);\draw(m14.G)--++(-.25,0)node[left]{$B$};\draw(-1.2,0.7000000000000006)--(-1.2,0.40000000000000036)--(0,0.40000000000000036);\draw(0,4.6000000000000005)--(1.2,4.6000000000000005)--(1.2,4.300000000000001);\node[pmos](m15)at(1.2,3.400000000000001){};\draw(1.2,4.300000000000001)--(m15.S)(m15.D)--(1.2,2.500000000000001);\draw(m15.G)--++(-.25,0)node[left]{$C$};\node[pmos](m16)at(1.2,1.600000000000001){};\draw(1.2,2.500000000000001)--(m16.S)(m16.D)--(1.2,0.7000000000000008);\draw(m16.G)--++(-.25,0)node[left]{$D$};\draw(1.2,0.7000000000000006)--(1.2,0.40000000000000036)--(0,0.40000000000000036);\draw(0,0)--(-1.2,0)--(-1.2,-0.3);\node[nmos](m17)at(-1.2,-1.2){};\draw(-1.2,-0.3)--(m17.D)(m17.S)--(-1.2,-2.1);\draw(m17.G)--++(-.25,0)node[left]{$A$};\draw(-1.2,-2.1)--(-1.2,-2.4)--(0,-2.4);\draw(0,0)--(1.2,0)--(1.2,-0.3);\node[nmos](m18)at(1.2,-1.2){};\draw(1.2,-0.3)--(m18.D)(m18.S)--(1.2,-2.1);\draw(m18.G)--++(-.25,0)node[left]{$B$};\draw(1.2,-2.1)--(1.2,-2.4)--(0,-2.4);\draw(0,-2.4)--(-1.2,-2.4)--(-1.2,-2.6999999999999997);\node[nmos](m19)at(-1.2,-3.5999999999999996){};\draw(-1.2,-2.6999999999999997)--(m19.D)(m19.S)--(-1.2,-4.5);\draw(m19.G)--++(-.25,0)node[left]{$C$};\draw(-1.2,-4.5)--(-1.2,-4.8)--(0,-4.8);\draw(0,-2.4)--(1.2,-2.4)--(1.2,-2.6999999999999997);\node[nmos](m20)at(1.2,-3.5999999999999996){};\draw(1.2,-2.6999999999999997)--(m20.D)(m20.S)--(1.2,-4.5);\draw(m20.G)--++(-.25,0)node[left]{$D$};\draw(1.2,-4.5)--(1.2,-4.8)--(0,-4.8);\draw(0,4.6000000000000005)--++(0,.3)node[vcc]{$V_{DD}$};\draw(0,.4)--(0,0)--(2.8,0)node[right]{$Y_1$};\draw(0,-4.8)node[ground]{};\node[not gate US,draw] (inv)at(4.7,0){};\draw(3.4,0)--(inv.input);\draw(inv.output)--(5.7,0)node[right]{$Y$};\end{tikzpicture}
+\end{document}

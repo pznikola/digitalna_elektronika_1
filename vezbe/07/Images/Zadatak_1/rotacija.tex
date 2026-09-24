@@ -1,0 +1,12 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb}
+\usepackage[american]{circuitikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{circuits.logic.US,positioning,calc,arrows.meta,patterns,shapes.geometric}
+\definecolor{Primary}{HTML}{1F77B4}
+\begin{document}
+\begin{tikzpicture}[scale=.65]\begin{scope}[rotate=0]\draw[->] (0,0)--(5.5,0);\draw[Primary,thick] (0,4).. controls (4.75,4) and (.25,.25)..(5,.25);\end{scope}\begin{scope}[rotate=90]\draw[->] (0,0)--(5.5,0);\draw[Primary,thick] (0,4).. controls (4.75,4) and (.25,.25)..(5,.25);\end{scope}\begin{scope}[rotate=180]\draw[->] (0,0)--(5.5,0);\draw[Primary,thick] (0,4).. controls (4.75,4) and (.25,.25)..(5,.25);\end{scope}\begin{scope}[rotate=270]\draw[->] (0,0)--(5.5,0);\draw[Primary,thick] (0,4).. controls (4.75,4) and (.25,.25)..(5,.25);\end{scope}\node[right] at(5.5,0){$v_{U1},v_{I4}$};\node[above] at(0,5.5){$v_{I1},v_{U2}$};\node[left] at(-5.5,0){$v_{I2},v_{U3}$};\node[below] at(0,-5.5){$v_{I3},v_{U4}$};\draw[red,dashed,->] (1.75,0)--(1.75,3.692025994905218)--(-0.38953892658916756,3.692025994905218)--(-0.38953892658916756,-3.990762792460884)--(0.3244286488276658,-3.990762792460884)--(0.3244286488276658,0);\end{tikzpicture}
+\end{document}

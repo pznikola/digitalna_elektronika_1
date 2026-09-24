@@ -1,0 +1,12 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb}
+\usepackage[american]{circuitikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{circuits.logic.US,positioning,calc,arrows.meta,patterns,shapes.geometric}
+\definecolor{Primary}{HTML}{1F77B4}
+\begin{document}
+\begin{tikzpicture}[thick]\node[nmos,bulk](m1)at(0,0){};\draw(m1.G)--++(-1,0)node[left]{$v_U$};\draw(m1.S)--(0,-1)node[ground]{};\draw(m1.bulk)--(3,0)--(3,-1)--(0,-1);\draw(m1.D)--(0,1)--(1.5,1)node[right]{$v_I$};\node[left]at(-.4,-.55){$M_1$};\node[nmosd,bulk](m2)at(0,2){};\draw(m2.S)--(0,1);\draw(m2.D)--(0,3)node[vcc]{$V_{DD}$};\draw(m2.bulk)--(3,2)--(3,0);\node[left]at(-.4,2.55){$M_2$};\draw(m2.G)--(-1,2)--(-1,1.2)--(0,1.2);\node[align=left,right]at(1,2.4){ugrađeni kanal\\$V_{T02}<0$};\end{tikzpicture}
+\end{document}

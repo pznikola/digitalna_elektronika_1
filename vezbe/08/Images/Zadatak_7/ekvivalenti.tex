@@ -1,0 +1,12 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb}
+\usepackage[american]{circuitikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{circuits.logic.US,positioning,calc,arrows.meta,patterns,shapes.geometric}
+\definecolor{Primary}{HTML}{1F77B4}
+\begin{document}
+\begin{tikzpicture}[thick,font=\normalsize]\node[nmos](m49)at(0,-0.9){};\draw(0,0)--(m49.D)(m49.S)--(0,-1.8);\draw(m49.G)--++(-.25,0)node[left]{$W_1$};\node[nmos](m50)at(0,-2.7){};\draw(0,-1.8)--(m50.D)(m50.S)--(0,-3.6);\draw(m50.G)--++(-.25,0)node[left]{$W_2$};\node at(1.6,-1.8){$\Longrightarrow$};\node[nmos](m51)at(4,-1.8){};\draw(4,-0.9)--(m51.D)(m51.S)--(4,-2.7);\draw(m51.G)--++(-.25,0)node[left]{$W_S$};\draw(8,0)--(6.8,0)--(6.8,-0.3);\node[nmos](m52)at(6.8,-1.2){};\draw(6.8,-0.3)--(m52.D)(m52.S)--(6.8,-2.1);\draw(m52.G)--++(-.25,0)node[left]{$W_1$};\draw(6.8,-2.1)--(6.8,-2.4)--(8,-2.4);\draw(8,0)--(9.2,0)--(9.2,-0.3);\node[nmos](m53)at(9.2,-1.2){};\draw(9.2,-0.3)--(m53.D)(m53.S)--(9.2,-2.1);\draw(m53.G)--++(-.25,0)node[left]{$W_2$};\draw(9.2,-2.1)--(9.2,-2.4)--(8,-2.4);\node at(10.5,-1.2){$\Longrightarrow$};\node[nmos](m54)at(13,-1.2){};\draw(13,-0.3)--(m54.D)(m54.S)--(13,-2.1);\draw(m54.G)--++(-.25,0)node[left]{$W_P$};\node[below]at(2,-4){$W_S=W_1W_2/(W_1+W_2)$};\node[below]at(10,-4){$W_P=\min(W_1,W_2)$ (najgori slučaj)};\end{tikzpicture}
+\end{document}
