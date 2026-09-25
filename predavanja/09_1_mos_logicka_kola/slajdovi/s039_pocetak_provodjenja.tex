@@ -1,0 +1,12 @@
+\slajdid{09_1-s039}
+\begin{frame}[label=09_1-s039]
+\gusttekst\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}
+\begin{columns}[c,onlytextwidth]\column{.23\textwidth}\centering\input{slike/tikz/s039_invertor_sa_aktivnim_opterecenjem.tex}\column{.75\textwidth}
+Daljim porastom ulaznog napona $V_I=V_{Tn,D}+\varepsilon$ tranzistor $T_D$ počinje da vodi sa malom strujom. Visok mu je napon na drejnu pa radi u zasićenju. $V_{DS,D}\geq V_{GS,D}-V_{Tn,D}$ odnosno $V_O\geq V_I-V_{Tn,D}$. Izjednačavanjem struja $I_{Dn,L}=I_{Dn,D}$
+\end{columns}
+\[\frac{k_{n,L}}2\bigl(2V_{DS,L}(V_{GS,L}-V_{Tn,L})-V_{DS,L}^2\bigr)=\frac{k_{n,D}}2(V_{GS,D}-V_{Tn,D})^2\]
+odnosno
+\[\frac{k_{n,L}}2\bigl(2(V_{DD}-V_O)(V_C-V_O-V_{Tn,L})-(V_{DD}-V_O)^2\bigr)=\frac{k_{n,D}}2(V_I-V_{Tn,D})^2\]
+dolazimo do zavisnosti izlaznog od ulaznog napona koju možemo napisati u obliku
+\[k_{n,L}(V_{DD}-V_O)(2V_C-2V_{Tn,L}-V_{DD}-V_O)=k_{n,D}(V_I-V_{Tn,D})^2\]
+\end{frame}

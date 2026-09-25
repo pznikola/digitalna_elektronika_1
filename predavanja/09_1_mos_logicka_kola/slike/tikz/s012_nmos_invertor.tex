@@ -1,0 +1,9 @@
+\begin{circuitikz}[DEoznaka,baseline=(current bounding box.center),circuitikz/bipoles/length=8mm]
+\node[nigfete,scale=.7] (t) at (0,0) {};
+\draw[DEvod] (t.D) -- (0,.6) to[R,l=\(R_L\)] (0,1.4) -- (0,1.55);
+\draw[DEvod] (-.2,1.55)--(.2,1.55) node[above left] {\(V_{DD}\)};
+\draw[DEvod] (t.S)--++(0,-.25) node[ground] {};
+\draw[DEvod] (t.G)--++(-.3,0) node[ocirc] {} node[left] {\(V_I\)};
+\draw[DEvod] (0,.6)--(.3,.6) node[ocirc] {} node[right] {\(V_O\)};
+\node[right] at (.15,0) {\(T_D\)};
+\end{circuitikz}

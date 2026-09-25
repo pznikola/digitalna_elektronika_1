@@ -1,0 +1,560 @@
+{
+  "schema_version": 1,
+  "slides": {
+    "01-s001": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "notes": "Naslov LOGIČKE FUNKCIJE; uklonjeni su samo logo i ponavljajući podaci.",
+      "source_render_sha256": "c718aacc1123cad3ccb4a9a6cb6f5571444be2950be4205d7c3eb828109d0abf",
+      "new_render_sha256": "87129472a76c91f825f17f589c9a2fb5cd7d51dd418c26df015b1c1f1770c36c",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s002": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "notes": "Definicija sistema, ulaz/izlaz i povratna sprega, dve vrste promene i crveno upozorenje. Sačuvana izvorna slovna greška.",
+      "source_render_sha256": "5741187aafe1a0ffbcc726ff4c7086d58441986ea1122360fcfd0e8bb06d68e2",
+      "new_render_sha256": "50fc65668c76dc360134fd25a46d57d70f89746b0ab69b9eebe254d0e9dd28ad",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s003": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "notes": "Apstraktan i realan sistem, definicija signala i mala napomena o značenju reči apstraktan.",
+      "source_render_sha256": "bf6e44237102d6f00458004980cba4e0068022ee7855ddd8a5a01fd8536cd18a",
+      "new_render_sha256": "9b8636f58bfe7b02ba4a2556568b6af1a0ff9cf6fa9879d1cd07f4fb7feff2ba",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s004": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "notes": "Dvosmerna veza apstraktno–realno, četiri naziva alata, elipsa, oba autora, godine i naslovi publikacija.",
+      "source_render_sha256": "e5e99e06bd45b337a7b6294feed2fc7b0616462c70c1480a6db298fb9fe5e30b",
+      "new_render_sha256": "17c8a2a0e67474a2ffdcc8a9354458d66261bf18af6dd22afdf112caa94bbc3a",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s005": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "crtezi": "provereno"
+      },
+      "notes": "Redna veza dva otvorena prekidača, baterija pozitivna gore, sijalica S; svih 12 ćelija, tri tvrdnje i tri opisa promenljivih.",
+      "source_render_sha256": "758716d649a0c64e348033a2e0d77d5f5131b33db47cb04bc7d14ef00cf7d34a",
+      "new_render_sha256": "2980aef269f680f8455090e0a6bcb76a8f1b0ec9b7e1d8b3fd1a33f2f2b1f0de",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s006": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "crtezi": "provereno"
+      },
+      "notes": "Paralelna veza P1/P2, baterija pozitivna gore, sijalica S; svih 12 ćelija i oba značenja simbola tačnosti.",
+      "source_render_sha256": "fae36c237ef43ef4f0830e32ccc915bc2a47d7bde221ad1fa160f12fb92c71a3",
+      "new_render_sha256": "28c944056cacf0f6c1d3540270520a6213d24f856f84c4da70758d05d86fa8c2",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s007": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "crtezi": "provereno"
+      },
+      "notes": "Oba preklopnika, P2=negacija P1, tabela sa četiri ćelije, obe tvrdnje i objašnjenje zašto je dovoljna jedna promenljiva.",
+      "source_render_sha256": "5a7486ef78d983b09fe1de1229e3176ec06a8e7fd03b0573c14eff3691b62719",
+      "new_render_sha256": "76185959ff903808d7dcddad0885793a6fb1012ba10982c705fc6b81a495e350",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s008": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "notes": "Dva preklopnika, obe putanje, negacije P1/P2, napajanje i S; sačuvana isticanja I/ILI u oba uslova.",
+      "source_render_sha256": "ebb28c5664047c48f401c114540bb0ccff8f3c5f11cba8d52cd95ec266f35e6f",
+      "new_render_sha256": "0dd74c479538b4306e8af079453849167dc4464acbaafde640e0f75e56c487c9",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s009": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "notes": "Svih šest stavki lifta, obe elipse, veza sa A/B/Y, funkcija i strelica ka šemi.",
+      "source_render_sha256": "7bdcf40b313e3ab770d920e1bbe5b25a06bed03b1be10f203a8a2bd9ca7aa95f",
+      "new_render_sha256": "979d1a9cd154797f40d56d559fda55c4122cb7810523fd15797c4eb8e90a874c",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s010": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "notes": "Definicija preslikavanja, f:A→B, y=f(x), f:A^n→A, uslovi za A/n i sva četiri načina opisa.",
+      "source_render_sha256": "5b99c93859718bafe6b43fcfa9dc2fb1da62556ef8a9ccf1d94cf7d207aa8176",
+      "new_render_sha256": "fdafb92a29afa46ad265bc54065e5063d2d7ea271f76c09d562a0f304e069870",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s011": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "notes": "Logička nula/jedinica, oba stanja prekidača, A={0,1}, P∈A i izvorni zapis 'promenjiva'.",
+      "source_render_sha256": "87323f3d2b961f2da446bbb0a6b4211a4a44b9dc9c39c2ec9f3afe199c0e3911",
+      "new_render_sha256": "cc51ae2bdecb82f4503f653684ad72ea860811b1437de8f851658a214542c02c",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s012": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "crtezi": "nije_primenljivo"
+      },
+      "notes": "Oba zapisa unarne funkcije, x∈A/y_k∈A/2²=4, svih deset ćelija i napomena za y0/y3.",
+      "source_render_sha256": "9dae630ae5c895863f00bbf5d8a6ff697bd4401ae979d74c72111d31ef31ea34",
+      "new_render_sha256": "526da5e342937a6b8b63acdaf43ebe9f773d3b17202cf93cda41b32cf9748d3f",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s013": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "crtezi": "provereno"
+      },
+      "notes": "Kompletna unarna tabela sa istaknutim y2, tabela negacije, tri zapisa jednačine i sva tri invertora sa odgovarajućim izlaznim oznakama.",
+      "source_render_sha256": "9480270befc31874a822c353d0bc50240abe834267427dafc7c19c1394979015",
+      "new_render_sha256": "eb9f4847f0560921bc2aa577da4614969c91584a1ef0422bf2c2442471ffa0bd",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s014": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "crtezi": "provereno"
+      },
+      "notes": "Kompletna unarna tabela sa istaknutim y1, tabela bafera, jednačina i simbol bez izlazne negacije.",
+      "source_render_sha256": "d9b889c99a8f06625fca182161a9e29b15610d80a1166c6a766d3cea37db6c25",
+      "new_render_sha256": "bfee5a42e8680ae560973be675ad8f7c8bd77a2ba2641bd252dfd672a17b06f8",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s015": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "crtezi": "nije_primenljivo"
+      },
+      "notes": "Domen binarne funkcije, (x,y)∈A², z_k∈A, 2⁴=16; svih 72 ćelije tabele i napomena o z0/z15.",
+      "source_render_sha256": "a8302120361405fbf8ebfc8c470da591cf43f25dd31024ee0ed2c3c1190324c2",
+      "new_render_sha256": "ec6ff06173253c52597afa512e9f90c97416af54dd3e75fb95389a27e97ff81e",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s016": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "crtezi": "provereno"
+      },
+      "notes": "Kompletna tabela 4×18 sa istaknutim z8, AND tabela 4×3, tri zapisa funkcije, simbol, naziv konjunkcije i digresija DVOULAZNO.",
+      "source_render_sha256": "32c990e639e378f2c4078136c0a1caec96ecbe03cac1363d1b7413127181c568",
+      "new_render_sha256": "f8f71e413c1051d176498906d7f16734fcd9a9c12df8243bf55791e874912d20",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s017": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "crtezi": "provereno"
+      },
+      "notes": "Kompletna tabela 4×18 sa istaknutim z14, OR tabela 4×3, tri zapisa funkcije, simbol, naziv disjunkcije i digresija.",
+      "source_render_sha256": "6ba0fcd17d9932c17f0a95f1fca66a5c8f1d0921e7da8078e5507cdaed9c0a2b",
+      "new_render_sha256": "83480f0b91d1dc4e875cf295b6583576893e10b0ff68d80cbbc2f55dd1920588",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s018": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "crtezi": "provereno"
+      },
+      "notes": "Kompletna tabela 4×18 sa istaknutim z6, XOR tabela 4×3, oba zapisa funkcije, simbol i izvorni zapis 'eksluzivno'.",
+      "source_render_sha256": "13d15cd66e3598bff9c20813fc015c0870730470d74df21dbed2055729a0db28",
+      "new_render_sha256": "1b6127697ae63aba5b492ba793cd53e0329e4e893c989261f3da02bc018397af",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s019": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "crtezi": "provereno"
+      },
+      "notes": "Kompletna tabela 4×18 sa istaknutim z7, NAND tabela, negacija celog proizvoda i oba prikaza električne šeme.",
+      "source_render_sha256": "fca61595d72a56381102368e990e46254ed7b440b7c4e2055b20ddf0e31b7de6",
+      "new_render_sha256": "22d7341571b2dcc84a2426ac8932afdff606b49becfbe88799831877355e85da",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s020": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "crtezi": "provereno"
+      },
+      "notes": "Kompletna tabela 4×18 sa istaknutim z1, NOR tabela, negacija celog zbira i oba prikaza šeme.",
+      "source_render_sha256": "8d7ad0a5e404eb0a89092328f12566655a1db7e0451040b250aa2fa0d35be94e",
+      "new_render_sha256": "23e64bd54a95d134ae25a8ea22322bdb5bd5343d548b2a672c2c6c3438a6683e",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s021": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "crtezi": "provereno"
+      },
+      "notes": "Kompletna tabela 4×18 sa istaknutim z9, XNOR tabela, negacija XOR izraza i oba prikaza šeme.",
+      "source_render_sha256": "696c8de7e58d5117a241befbeb3fd627dc5db85e7309824b032f16145fb13ccf",
+      "new_render_sha256": "e7de0fc97db08fe5ca995e79df8664a7cfedae40d7e2e4d3fc7610822053acef",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s022": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "crtezi": "nije_primenljivo"
+      },
+      "notes": "Naslov u dva reda i svih pet aksioma; oba smera implikacija i sve vrednosti u dve kolone.",
+      "source_render_sha256": "d39921b47b73b01ef14d624946270d74ca72f371ce9fa5de3a0496e71f1483ca",
+      "new_render_sha256": "7135955d850fd592c67a59581bcdd70bc8c78cae234d98262161bc3f7c55f37a",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s023": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "crtezi": "nije_primenljivo"
+      },
+      "notes": "Svih pet teorema sa nazivima i obe kolone jednačina; zagrade u asocijativnosti su sačuvane.",
+      "source_render_sha256": "e66752237889eec51895a8c38159fc5a860cc8bbb26eaaa759fd454908a9f567",
+      "new_render_sha256": "1eec6f64daea952162f20dfbdb939c58c831b6b1879a71cfadc6a1e367622887",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s024": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "notes": "Teoreme 6–9: dvostruka negacija, obe distributivnosti, obe apsorpcije i oba De Morganova obrasca.",
+      "source_render_sha256": "bed3856cdc97bb0cbb245d7670b14c54f179ce0970663e6fbd1d0121d24ead55",
+      "new_render_sha256": "13f545abb126d899cd2e5dcd654d7ac7cb7089d82c21feade834320a62ac7ccb",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s025": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "notes": "Četiri šeme (troulazna AND/OR i odgovarajuće kaskade), sve ulazne oznake, strelice i obe jednačine sa zagradama.",
+      "source_render_sha256": "b3a0a16e6e4f70074f5aba49b14ce93f8f742b4e5026fb87e97a3990eb7aab62",
+      "new_render_sha256": "56175a9e5e82af555679a1a8145caacd69d0542eb9043ceb53e827c36d4efe65",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s026": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "notes": "Troulazni NAND, precrtana pogrešna NAND–NAND kaskada, ispravna AND–NAND kaskada i različiti opsezi negacija u obe jednačine.",
+      "source_render_sha256": "6f536ad21fde7a9fa2d317f7d1afe293fc698b7ab42b0402431ee17c6b11be3e",
+      "new_render_sha256": "55165fa975450b5a7909e54943e2c0e856e71a5311704c0db6f082eb601b1ab0",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s027": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "notes": "Sve četiri realizacije troulaznog NAND-a; ista povezivanja i položaji negacija, raspoređeni u mrežu 2×2.",
+      "source_render_sha256": "5b5cf934cb347b3636e92b8b4c3bfa2cff514cf6ddfd3d18dba636533dc3af2d",
+      "new_render_sha256": "4180c437a498d274b39db5636db8972964f108f7570de3ea703da814b804dda7",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s028": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "notes": "Troulazni XOR, dvoulazni razvijeni izraz, svi zapisi asocijativnosti, pitanje, rečenica i XOR–XOR kaskada.",
+      "source_render_sha256": "9cbb9dd7fad480c7d75f38f8822b2ecf618054147e00dca9744f64c1934da7ae",
+      "new_render_sha256": "42a1a4b800cd9b206f677634dee717123bbd5fdb064f59cc991cd8ab197334af",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s029": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "notes": "Troulazni XNOR, pitanje i XNOR–XNOR kaskada. Odgovor nije dodat.",
+      "source_render_sha256": "cf3efab5f864bdc649501b7e612bc6435737969adb4878d2759e011e460463ec",
+      "new_render_sha256": "5fdad060ccb01ba3f8dc55c9f685000fdaac66bc7cfa0e2d5aef8195fb211468",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s030": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "notes": "Oba opisa AND/OR, crvena I/ILI i oba zaključna pasusa, uključujući izvorne gramatičke greške.",
+      "source_render_sha256": "419be5d0cd26511ebfb79111d475da1b2be8537318d8a7c5f81fd931032a9a13",
+      "new_render_sha256": "9731e3427ed2d9387f296ae9cb2a212819dd164ca0a79ec197514568197ed18b",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s031": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "notes": "Oba opisa NAND/NOR, oba zaključka i dodatna rečenica o višeulaznim kolima; obe šeme sa zasebnim invertorom.",
+      "source_render_sha256": "6103aa5d82fa3cae8c61bc69feba973630d5791febe9e361dde06713dcad15ac",
+      "new_render_sha256": "6182b3c902cd6411da5ac15a04b634c7a3ccd55a866a3410d32084f4d00669e1",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s032": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "notes": "Sva četiri tekstualna bloka, oba troulazna simbola, obe kaskade i dve dvosmerne strelice.",
+      "source_render_sha256": "738f7ddb2419b0ef923090c5dcb5a8859409285365f18ef1192bb439d3d4f161",
+      "new_render_sha256": "24217749ee7876bb4964b7756e6b7dc409c48d8a0ad534528de2279b3be06fff",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s033": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "notes": "Obe šeme sa aktivnim nulama na ulazima, z=negacija x puta negacija y i svi pasusi; sačuvan pogrešan izraz 'logička kola'.",
+      "source_render_sha256": "28a7c82385cb5b6920d9f37bedfe05266fc9847639c5c1e0fbed5bac5936dbb9",
+      "new_render_sha256": "d2846e58b2d0804dfb3edf01e51141d79bf101d64b33113dffce4a91d422d0fd",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s034": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "notes": "Obe De Morganove jednačine, četiri simbola sa tačnim negacijama, obe strelice i ceo zaključni tekst.",
+      "source_render_sha256": "7f981ff8b845f77f9028f7de0e74d8ac5adb55db7b7635792698f699fbec7cfe",
+      "new_render_sha256": "f83002d0c6e336f9af9cd0de724c1232b2a485a1a9e040cd71fe0984b219c400",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s035": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "notes": "Dve dvoulazne i dve troulazne dualne veze, obe jednakosti sa dvostrukim negacijama i izvorni zapis 'višulazna'.",
+      "source_render_sha256": "12351ee2dae79ed99e041e9f14b915fd98135bb6682b668e8dfcdb90ac70e0ec",
+      "new_render_sha256": "c3e45ab744dd0ce5ad9c5c99161914d15d1117955d0c08e407e8e0d0faf8201f",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s036": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "notes": "Svih šest XOR/XNOR simbola; prvi par ima dve negacije ulaza, poslednji jednu. Obe rečenice 'Ispitajte dualnost'.",
+      "source_render_sha256": "13aef0105fd8753a05cbbd8bec8b6d5084339a3d90508f598e263663a4a9cc5b",
+      "new_render_sha256": "5454da1fb54c5c98f7c428b9b53632d59262a375736181a9901838e78153e5a9",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    },
+    "01-s037": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "kod": "nije_primenljivo",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "notes": "Sve tri realizacije, sva četiri ulaza i izlaz y, obe negacije ulaza srednjeg izlaznog NAND-a, završna tri NAND-a, strelica i sve rečenice.",
+      "source_render_sha256": "d79c9dd7a288db50d8a76a0751f506e7588b8996131d8d50abc40e2f40c3127d",
+      "new_render_sha256": "724aca84345a8c4c358875a666f50145519a4c3098018bcf86fe5c2cf1beb562",
+      "reviewed_by": "AI agent; vizuelni pregled originalnog i novog slajda u punoj veličini",
+      "reviewed_on": "2026-09-24"
+    }
+  }
+}

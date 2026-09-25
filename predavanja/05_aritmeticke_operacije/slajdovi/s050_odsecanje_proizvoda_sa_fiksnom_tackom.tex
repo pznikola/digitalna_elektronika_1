@@ -1,0 +1,13 @@
+
+\slajdid{05-s050}
+\begin{frame}[label=05-s050]
+\gusttekst
+\begin{center}ODSECANJE REZULTATA MNOŽENJA\end{center}
+U sistemima gde su prekoračenja moguća, odnosno operandi nisu unapred „poznati“, koristi se fiksna tačka iza bita najveće težine. Puno se koristi u digitalnoj obradi signala.
+\[a_{n-1}.a_{n-2}\ldots a_1a_0\times b_{n-1}.b_{n-2}\ldots b_1b_0=\textcolor{DEcrvena}{c_{2n-1}.c_{2n-2}\ldots c_n}\textcolor{DEplava}{c_{n-1}c_{n-2}\ldots c_1c_0}\]
+Prilikom množenja ne može da dođe do prekoračenja opsega
+\[-1\leq a<1,\ -1\leq b<1\Longrightarrow -1<c<1\]
+uz izuzetak $a=-1$, $b=-1$ što je moguće kontrolisati.\par\vspace{5mm}
+Biti $\textcolor{DEcrvena}{c_{2n-1}.c_{2n-2}\ldots c_n}$ se smeštaju u $n$ bitni registar i koriste za dalju obradu\par\vspace{3mm}
+Biti $\textcolor{DEplava}{c_{n-1}c_{n-2}\ldots c_1c_0}$ se odbacuju, odseca se rezultat množenja
+\end{frame}

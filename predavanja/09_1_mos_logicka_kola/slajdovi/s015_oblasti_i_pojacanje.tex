@@ -1,0 +1,21 @@
+\slajdid{09_1-s015}
+\begin{frame}[label=09_1-s015]
+\gusttekst\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}
+\begin{columns}[c,onlytextwidth]\column{.25\textwidth}\centering
+\input{slike/tikz/s015_oblasti_tranzistora.tex}
+\column{.73\textwidth}
+Kada ulazni napon još poraste tranzistor ulazi u triodnu oblast i tada je
+\[\frac{V_{DD}-V_O}{R_L}=\frac{k_n}{2}\frac1{1+\frac{V_O}{L_nE_{Cn}}}\bigl(2V_O(V_I-V_{Tn})-V_O^2\bigr)\]
+\end{columns}\medskip
+\begin{columns}[c,onlytextwidth]\column{.25\textwidth}\centering
+\input{slike/tikz/s015_oblasti_pojacanja.tex}
+\column{.73\textwidth}
+1. Oblast – zakočen i u zasićenju\par
+2. Oblast – u zasićenju i u triodnoj\par
+3. Oblast – u triodnoj\par\medskip
+\tikz[remember picture,baseline=(s15f1.base)]{\node[inner sep=0pt](s15f1){$\displaystyle\frac{V_{DD}-V_O}{R_L}=\frac{k_n}{2}\frac1{1+\frac{(V_I-V_{Tn})}{L_nE_{Cn}}}(V_I-V_{Tn})^2$};}\quad Pojačanje može biti manje od 1\par\medskip
+\tikz[remember picture,baseline=(s15f2.base)]{\node[inner sep=0pt](s15f2){$\displaystyle\frac{V_{DD}-V_O}{R_L}=\frac{k_n}{2}\frac1{1+\frac{V_O}{L_nE_{Cn}}}\bigl(2V_O(V_I-V_{Tn})-V_O^2\bigr)$};}\par
+\hfill Pojačanje može biti veće od 1
+\tikz[remember picture,overlay]{\draw[->,DEplava](s15f1.west)--(s15high);\draw[->,DEplava](s15f2.west)--(s15low);}
+\end{columns}
+\end{frame}

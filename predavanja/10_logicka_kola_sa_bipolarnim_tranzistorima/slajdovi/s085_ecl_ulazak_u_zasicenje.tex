@@ -1,0 +1,18 @@
+\slajdid{10-s085}
+\begin{frame}[label=10-s085]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[T,onlytextwidth]\column{.27\textwidth}\centering\input{slike/tikz/s082_ecl_diferencijalni_par.tex}\column{.71\textwidth}
+Daljim porastom ulaznog napona vodiće tranzistor T1, dok će tranzistor T1 biti zakočen
+\[V_I>V_{BE}-V_{\gamma T}+V_R\]
+Ovde treba uočiti i jednu „neregularnu situaciju“ kada raste ulazni napon a tranzistor T1 vodi kompletnu struju $I_E$
+\[V_{C1}=V_{CC}-R_{C1}I_E\]
+\[V_{E1}=V_I-V_{BE1}=V_I-V_{BE}\]
+\[V_{CE1}=V_{CC}-R_{C1}I_E-V_I+V_{BE}\]
+Da bi tranzistor uvek radio u aktivnom režimu
+\[V_{CE1}=V_{CC}-R_{C1}I_E-V_I+V_{BE}>V_{CES}\]
+\[V_{CC}-R_{C1}I_E-V_{CES}+V_{BE}>V_I\]
+međutim porastom ulaznog napona vidi se da tranzistor T1 može otiči u zasićenje kada ovaj uslov ne bude ispunjen. Znači pri ulaznom naponu
+\[V_I=V_{CC}-R_{C1}I_E-V_{CES}+V_{BE}\]
+tranzistor T1 ulazi u zasićenje i tada je izlazni napon
+\[V_{O1}=V_I-V_{BE}+V_{CES}\]
+\end{columns}
+\end{frame}

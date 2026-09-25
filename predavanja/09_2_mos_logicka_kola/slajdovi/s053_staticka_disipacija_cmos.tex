@@ -1,0 +1,6 @@
+\slajdid{09_2-s053}
+\begin{frame}[label=09_2-s053]{Disipacija kod CMOS logičkih kola}
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}Kod CMOS invertora statička disipacija je jako malo, pošto je uvek jedan tranzistor zakočen, odnosno ili je zakočen PUN ili PDN deo kola. Znači statičku disipaciju će predstavljati samo struje curenja i potpražni režim rada MOS tranzistora.
+\[P_{stat}=V_{DD}I_{stat}\]
+Međutim sa ovim zaključkom treba biti oprezan pošto se odnosi samo na jedan invertor. Kada su u pitanju složeni digitalni sistemi broj tranzistora u njima se kreće reda $N_T\sim10^9$. Pa ako je na primer struja $I_{stat}\sim10^{-9}=1nA$ da vidimo šta bi se desilo kada takav uređaj radi sa baterijom od 1000mAh (ovaj podatak znači da je kapacitet baterije takav da može da daje struju od 1000mA jedan sat, ili 10mA 100 sati itd…). Ukupna struja u statičkom režimu za pretpostavljeni slučaj bi bila $\sum I_{stat}\sim10^{-9}\times10^9=1A$ i uređaj bi ispraznio bateriju za 1 sat a da „ništa nije radio“. Situacija u savremenim digitalnim sistemima je takva da se u tehnologijama izrade tranzistora poklanja velika pažnja kako bi se ove struje smanjile i u realnosti su daleko manje nego što su u našem pretpostavljenom slučaju. Ali ih ne treba zaboraviti.
+\end{frame}

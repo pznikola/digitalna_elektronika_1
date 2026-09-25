@@ -1,0 +1,20 @@
+\slajdid{10-s030}
+\begin{frame}[label=10-s030]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[T,onlytextwidth]\column{.36\textwidth}
+$t\geq t_2$\par\centering\input{slike/tikz/s030_ekvivalent_praznjenja.tex}
+\[\tau=C_0 R_C\quad v(t_2^+)=V_{OH}\]
+\raggedright\fontsize{9}{10}\selectfont Kondenzator vidi samo otpornost $R_C$. Idealne naponske generatore kratko spajamo, znači ulazni generator $V_H$ i $V_{CC}$ i $V_{BE}$ na masu. Zbog toga je $I_B=0$, pa je i $\beta_F I_B=0$ pa onda taj zavisni strujni izvor možemo da smatramo otvorenom vezom.
+
+\column{.62\textwidth}
+\[v_0(t)=V_{CC}-R_C i_{RC}(t)=V_{CC}-R_C(\beta_F I_B-i_C(t))\]
+\[i_C(\infty)=0\]
+\[v_0(\infty)=V_{CC}-R_C i_{RC}(t)=V_{CC}-R_C\beta_F I_B\]
+\[v_0(\infty)=V_{CC}-R_C i_{RC}(t)=V_{CC}-\frac{R_C\beta_F}{R_B}(V_H-V_{BE})\]
+\[\frac{R_C\beta_F}{R_B}\gg1\]
+\[\frac{R_C\beta_F}{R_B}(V_H-V_{BE})\gg V_{CC}\]
+\[\textcolor{DEcrvena}{v_0(\infty)\ll0\quad\text{PO MODELU}}\]
+\end{columns}
+\[v_o(t)=V_{CC}-\frac{R_C\beta_F}{R_B}(V_H-V_{BE})+\left(V_{OH}-\left(V_{CC}-\frac{R_C\beta_F}{R_B}(V_H-V_{BE})\right)\right)e^{-\frac{t-t_2}{\tau}}\]
+\[\textcolor{DEcrvena}{t_3\geq} t\geq t_2\]
+\centering\textcolor{DEcrvena}{DOK JE TRANZISTOR U AKTIVNOM REŽIMU}
+\end{frame}

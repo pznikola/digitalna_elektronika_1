@@ -1,0 +1,25 @@
+\begin{tikzpicture}[x=1cm,y=1cm,font=\fontsize{8}{9}\selectfont]
+\foreach \r/\lab in {0/A,1/B,2/{\bar B},3/C,4/A,5/{BA},6/{C\bar B},7/F}{
+ \pgfmathsetmacro{\yy}{-.79*\r}
+ \draw[DEstrelica] (0,\yy-.06)--(0,\yy+.60) node[left] {$\lab$};
+ \draw[DEstrelica] (-.1,\yy)--(3.8,\yy) node[below] {$t$};
+}
+\foreach \r in {0,3,4}{
+ \pgfmathsetmacro{\yy}{-.79*\r}
+ \draw[DEvod] (0,\yy+.44)--(3.35,\yy+.44);
+}
+\foreach \r in {1,5}{
+ \pgfmathsetmacro{\yy}{-.79*\r}
+ \draw[DEvod] (0,\yy+.44)--(.95,\yy+.44)--(1.06,\yy+.08)--(3.35,\yy+.08);
+}
+\foreach \r in {2,6}{
+ \pgfmathsetmacro{\yy}{-.79*\r}
+ \draw[DEvod] (0,\yy+.08)--(1.76,\yy+.08)--(1.88,\yy+.44)--(3.35,\yy+.44);
+}
+\draw[DEvod] (0,-5.09)--(.95,-5.09)--(1.06,-5.45)--(1.76,-5.45)--(1.88,-5.09)--(3.35,-5.09);
+\draw[DEvod,dashed] (1,.58)--(1,-5.62);
+\draw[DEvod,dashed] (1.82,.58)--(1.82,-5.62);
+\draw[DEvod,{Latex[length=1.1mm]}-{Latex[length=1.1mm]}] (1,-1.70)--(1.82,-1.70)
+ node[midway,below,inner sep=1pt] {$t_p$};
+\node[font=\fontsize{8}{9}\selectfont,inner sep=1pt] at (2.7,-5.95) {lažna nula};
+\end{tikzpicture}

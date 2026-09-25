@@ -1,0 +1,12 @@
+\slajdid{10-s066}
+\begin{frame}[label=10-s066]{Dinamički režim}
+\gusttekst\setlength{\abovedisplayskip}{2pt}\setlength{\belowdisplayskip}{2pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[c,onlytextwidth]\column{.37\textwidth}\centering\input{slike/tikz/s066_ttl_sa_izlaznom_kapacitivnoscu.tex}\column{.24\textwidth}\centering\input{slike/tikz/s049_ulazni_prelazi.tex}\par\medskip\input{slike/tikz/s066_linearno_praznjenje_model.tex}\column{.37\textwidth}
+Sa datim brojnim vrednostima tranzistor će raditi u zasićenju kada se dostigne 50\% promene pa možemo odmah da pišemo
+\[t_{pLH}=\tau_2\ln\left(\frac{v(t_1^+)-v(\infty)}{\dfrac{V_{OL}+V_{OH}}2-v(\infty)}\right)\]
+\end{columns}
+\begin{columns}[c,onlytextwidth]\column{.44\textwidth}\centering\input{slike/tikz/s066_ttl_vremenski_odziv_rezimi.tex}\column{.54\textwidth}
+\[v_o(t)=v_o(t_2^+)-\frac{I_{OL}}C(t-t_2)\quad za\ t\geq t_2\]
+\[\frac{V_{OL}+V_{OH}}2=V_{OH}-\frac{I_{OL}}C t_{pHL}\]
+\[t_{pHL}=C\frac{V_{OH}-V_{OL}}{2I_{OL}}\]
+\end{columns}
+\end{frame}

@@ -1,0 +1,21 @@
+
+\slajdid{05-s013}
+\begin{frame}[label=05-s013]
+\gusttekst\setlength{\parskip}{2pt}
+Pretpostavke:\\
+1. radimo sa fiksnom tačkom i ignorišemo njenu poziciju,\\
+\hspace*{5mm}smatramo da su operandi usaglašeni sa pozicijama tačke pa radimo sa celobrojnim vrednostima\\
+2. radimo sa ograničenim brojem cifara $n$ i za operande i za rezultate\\
+3. imamo u registru potrebne vodeće i prateće nule
+\[a_i,b_i,s_i\in\{0,1,2,\ldots r-2,r-1\}\]
+\begin{columns}[c,onlytextwidth]
+\column{.38\textwidth}\centering\input{slike/tikz/s013_opste_sabiranje.tex}
+\column{.59\textwidth}
+C – Carry, prenos 0 ili 1 bez obzira na osnovu brojnog sistema
+
+Sabiranje radimo u osnovi brojnog sistema
+\end{columns}
+\[\begin{aligned}(a_i+b_i+C_{i-1})_{max}&=r-1+r-1+1=2r-1\\&=\underset{\substack{\textcolor{DEplava}{\uparrow}\\\displaystyle C_i=1}}{r}+\underset{\substack{\textcolor{DEplava}{\uparrow}\\\displaystyle s_i=r-1}}{r-1}\end{aligned}\]
+\[s_n=0+0+C_{n-1}=0\ \mathit{ili}\ 1\]
+$s_n=1$\quad Prekoračenje opsega, rezultat nije moguće smestiti u $n$ cifara
+\end{frame}

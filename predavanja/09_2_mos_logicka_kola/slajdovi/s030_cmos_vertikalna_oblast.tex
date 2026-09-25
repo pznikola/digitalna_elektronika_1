@@ -1,0 +1,9 @@
+\slajdid{09_2-s030}
+\begin{frame}[label=09_2-s030]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[c,onlytextwidth]\column{.21\textwidth}\centering\input{slike/tikz/s030_cmos_invertor.tex}\column{.77\textwidth}Iz uslov se vidi da postoji oblast ulaznih i izlaznih napona za koju važi pretpostavka: P tranzistor radi u zasićenju, N tranzistor radi u zasićenju. Na primer za dugi kanal
+\[\text{N tranzistor u zasićenju:}\quad V_O\ge V_I-V_{Tn}\]
+\[\text{P tranzistor u zasićenju:}\quad V_O\le V_I-V_{Tp}\]
+\[\frac{k_p}2\frac1{1+\frac{V_{GS,P}-V_{Tp}}{L_pE_{Cp}}}(V_{GS,P}-V_{Tp})^2=\frac{k_n}2\frac1{1+\frac{V_{GS,N}-V_{Tn}}{L_nE_{Cn}}}(V_{GS,N}-V_{Tn})^2\]
+\[k_p\frac1{1+\frac{V_I-V_{DD}-V_{Tp}}{L_pE_{Cp}}}(V_I-V_{DD}-V_{Tp})^2=k_n\frac1{1+\frac{V_I-V_{Tn}}{L_nE_{Cn}}}(V_I-V_{Tn})^2\]
+Opet smo dobili beskonačno pojačanje, bez obzira što su u pitanju tranzistori sa kratkim kanalom. Dosta očigledno je da će se i tačka $V_S$ naći u ovoj oblasti. \alert{Sređivanju i izvođenju ovih izraza je posvećen poseban deo materijala „Podešavanje praga odlučivanja CMOS invertora“. (JAVLJA SE JAKO ČESTO NA ISPITU)} Ali i da se podsetimo u realnosti to baš i nije slučaj pošto smo zanemarili efekat skraćenja dužine kanala. odnosno, to ne bi bila vertikalna linija, ali bi pojačanje zaista bilo jako veliko.\end{columns}
+\end{frame}

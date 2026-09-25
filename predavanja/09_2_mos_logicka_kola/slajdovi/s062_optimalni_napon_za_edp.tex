@@ -1,0 +1,11 @@
+\slajdid{09_2-s062}
+\begin{frame}[label=09_2-s062]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}Ako se podsetimo da je $t_p\sim R_{eq}C_L$ i $R_{eq}\approx\frac34\frac{V_{DD}}{I_{Dsat}}\left(1-\frac79\lambda_pV_{DD}\right)$ i za kratki kanal kada nastupa „brzo“ zasićenje
+\[I_{Dsat}=WC_{oxn}v_{sat}\left(V_{DD}-V_T-\frac{V_{DSsat}}2\right)\]
+možemo izvesti zaključak da će
+\[t_p\approx\frac{\alpha C_LV_{DD}}{V_{DD}-V_{Te}}\]
+gde je $\alpha$ koeficijent proporcionalnosti a $V_{Te}=V_T+\frac{V_{DSsat}}2$. U tom slučaju
+\[EDP=\frac{C_LV_{DD}^2}2\frac{\alpha C_LV_{DD}}{V_{DD}-V_{Te}}=\frac\alpha2\frac{C_L^2V_{DD}^3}{V_{DD}-V_{Te}}\]
+Čemu sve ovo? Da bi eventualno odredili optimalno napajanje $V_{DD}$ kako bi EDP bio minimalan. Diferenciranjem po $V_{DD}$ dobijamo da je
+\[V_{DDopt}=\frac32V_{Te}=\frac32\left(V_T+\frac{V_{DSsat}}2\right)\]
+\end{frame}

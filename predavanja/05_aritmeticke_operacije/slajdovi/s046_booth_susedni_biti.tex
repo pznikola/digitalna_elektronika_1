@@ -1,0 +1,17 @@
+
+\slajdid{05-s046}
+\begin{frame}[label=05-s046]
+\gusttekst
+\[a=a_{31}a_{30}a_{29}a_{28}\ldots a_3a_2a_1a_0\]
+\begin{columns}[c,onlytextwidth]
+\column{.65\textwidth}\centering
+$\begin{gathered}(a_{-1}-a_0)\mathbin{\mathrm{x}}b\mathbin{\mathrm{x}}2^0\\(a_0-a_1)\mathbin{\mathrm{x}}b\mathbin{\mathrm{x}}2^1\\(a_1-a_2)\mathbin{\mathrm{x}}b\mathbin{\mathrm{x}}2^2\\\ldots\\(a_{29}-a_{30})\mathbin{\mathrm{x}}b\mathbin{\mathrm{x}}2^{30}\\(a_{30}-a_{31})\mathbin{\mathrm{x}}b\mathbin{\mathrm{x}}2^{31}\end{gathered}$
+\column{.30\textwidth}$a_{-1}=0$
+\end{columns}
+\[=b\mathbin{\mathrm{x}}(-a_{31}2^{31}+a_{30}2^{30}+\ldots+a_1 2^1+a_0 2^0)\]
+\begin{columns}[c,onlytextwidth]
+\column{.56\textwidth}Ako posmatramo dva susedna bita u operandu a
+\column{.40\textwidth}
+$\textcolor{DEplava}{\left\{\vphantom{\begin{gathered}0\\0\\0\\0\end{gathered}}\right.}\quad\begin{gathered}\text{\textcolor{DEcrvena}{\textbf{\(\triangleright\)00: 0-0 = nop}}}\\[2mm]\text{\textcolor{DEcrvena}{\textbf{\(\triangleright\)01: 1-0 = add}}}\\[2mm]\text{\textcolor{DEcrvena}{\textbf{\(\triangleright\)10: 0-1 = sub}}}\\[2mm]\text{\textcolor{DEcrvena}{\textbf{\(\triangleright\)11: 1-1 = nop}}}\end{gathered}$
+\end{columns}
+\end{frame}

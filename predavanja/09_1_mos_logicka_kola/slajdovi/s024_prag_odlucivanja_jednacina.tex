@@ -1,0 +1,13 @@
+\slajdid{09_1-s024}
+\begin{frame}[label=09_1-s024]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}
+Da bi odredili prag odlučivanja logičkog kola, mogli bi da sprovedemo kompletan postupak. Očigledno je da će se ta tačka naći u drugoj oblasti, pri čemu je
+\[\frac{V_{DD}-V_O}{R_L}=\frac{k_n}{2}\frac{L_nE_{Cn}}{L_nE_{Cn}+(V_I-V_{Tn})}(V_I-V_{Tn})^2\]
+\[V_I=V_O=V_S\]
+\[\frac{V_{DD}-V_S}{R_L}=\frac{k_n}{2}\frac{L_nE_{Cn}}{L_nE_{Cn}+(V_S-V_{Tn})}(V_S-V_{Tn})^2\]
+i „nema zanemarivanja“. Nekako se nameće da rešavamo po $(V_S-V_{Tn})$
+\[\frac{V_{DD}-(V_S-V_{Tn})-V_{Tn}}{R_L}=\frac{k_n}{2}\frac{L_nE_{Cn}}{L_nE_{Cn}+(V_S-V_{Tn})}(V_S-V_{Tn})^2\]
+\[\left(\frac{k_nL_nE_{Cn}}2+\frac1{R_L}\right)(V_S-V_{Tn})^2+\left(\frac{L_nE_{Cn}}{R_L}-\frac{V_{DD}-V_{Tn}}{R_L}\right)(V_S-V_{Tn})-L_nE_{Cn}\frac{V_{DD}-V_{Tn}}{R_L}=0\]
+\[(V_S-V_{Tn})^2+\frac{L_nE_{Cn}-(V_{DD}-V_{Tn})}{\frac{k_nR_LL_nE_{Cn}}2+1}(V_S-V_{Tn})-\frac{L_nE_{Cn}(V_{DD}-V_{Tn})}{\frac{k_nR_LL_nE_{Cn}}2+1}=0\]
+\centering Zamenimo brojne vrednosti i rešimo
+\end{frame}

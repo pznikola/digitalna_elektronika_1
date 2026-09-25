@@ -1,0 +1,16 @@
+\slajdid{02-s048}
+\begin{frame}[label=02-s048]
+\gusttekst
+\setlength{\parskip}{3pt}
+\setlength{\abovedisplayskip}{4pt}
+\setlength{\belowdisplayskip}{4pt}
+Najčešća algebarska manipulacija da bi koristili kola iste vrste jeste da funkcije predstavimo tako da koristimo sa NI ili NILI logička kola. Za realizaciju samo sa NI logičkim kolima po pravilu je najlakše krenuti od zbira proizvoda
+\[
+F=\bar D\bar B+D\bar C\bar A
+=\overline{\overline{\bar D\bar B+D\bar C\bar A}}
+=\overline{\overline{\bar D\bar B}\ \overline{D\bar C\bar A}}
+\]
+pa nam za realizaciju treba čip sa najmanje 4 invertora, 1 čip sa najmanje 2 dvoulazna NI kola i jedan čip sa najmanje jednim troulaznim NI kolom. Tri čipa ali različita. Za ovu realizaciju samo sa NI kolima ne postoji dokaz da je minimalna sa stanovišta klasične minimizacije. Možemo se samo nadati da je tako. Kako se u jednom čipu nalazi 4 dvoulazna NI kola, možemo ih iskoristiti kao invertore za potrebne 4 inverzije. I isto tako troulazno NI kolo na račun povećanog kašnjenja možemo realizovati kao
+\(\overline{XYZ}=\overline{(XY)Z}=\overline{\bigl(\overline{\overline{XY}}\bigr)Z}\)
+pa bi nam za to trebalo 2 dvoulazana NI kola i 1 upotrebljeno kao invertor. Za ostatak nam treba još 2 dvoulazna NI kola. Ukupno je 9 dvoulaznih NI kola što možemo kupiti u 3 čipa, ali sada iste vrste, što je ekonomski isplativije, popust na količinu, od prethodne realizacije. Ali treba uočiti da smo kupili čip sa invertorima ostalo bi nam dva neupotrebljena. Za realizaciju funkcije sa dvoulaznim kolima nam treba 4 NI kola i jedan invertor. 4 NI kola imamo u jednom čipu a invertor možemo uzeti jedan od „viška“ koji nam je ostao. Znači možemo sve da realizujemo sa 2 čipa. Ostaje pitanje da li je jeftinije 1+1 ili 3. Ne postoji generalna odgovor.
+\end{frame}

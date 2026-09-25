@@ -1,0 +1,7 @@
+\begin{tikzpicture}[x=.95cm,y=.7cm,font=\sitneoznake,>=Latex]
+\node[nand gate US,draw,logic gate inputs=nn,minimum width=1.3cm,minimum height=1cm] (a) at(0,1.2){i};
+\node[not gate US,draw,minimum width=1.25cm,minimum height=1cm] (b) at(2.7,.5){i+1};
+\node[nor gate US,draw,logic gate inputs=nn,minimum width=1.4cm,minimum height=1cm] (c) at(5.5,.8){i+2};
+\draw(a.input 1)--++(-1,0);\draw(a.input 2)--++(-.45,0);\draw(a.output)--++(.4,0)|-(b.input);
+\draw(b.output)--(c.input 2);\draw(c.input 1)--++(-.55,0);\draw(c.output)--++(.6,0);
+\end{tikzpicture}

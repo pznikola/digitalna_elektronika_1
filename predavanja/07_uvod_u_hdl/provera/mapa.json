@@ -1,0 +1,3386 @@
+{
+  "schema_version": 1,
+  "lecture_id": "07",
+  "source_pdf": "07 Uvod u HDL.pdf",
+  "source_sha256": "321ce3dd5052f7eab982430e29715feb8044b6f69e74a458a18f1356ddbbc6cc",
+  "source_pages": 16,
+  "expected_slides": 31,
+  "slides": [
+    {
+      "pdf_page": 1,
+      "position": "gornji",
+      "source_number": 1,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "Uvod u HDL",
+          "bbox_pt": [
+            195.17,
+            167.408616,
+            353.606648,
+            200.645184
+          ]
+        }
+      ],
+      "id": "07-s001",
+      "frame_label": "07-s001",
+      "output_page": 1,
+      "tex": "slajdovi/s001_uvod_u_hdl.tex",
+      "source_text": "Uvod u HDL",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst"
+        ],
+        "sadrzaj": "Izvorni naslov Uvod u HDL."
+      }
+    },
+    {
+      "pdf_page": 1,
+      "position": "donji",
+      "source_number": 2,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "Opis digitalnog sistema",
+          "bbox_pt": [
+            215.57,
+            397.051,
+            300.287,
+            407.014
+          ]
+        },
+        {
+          "text": "1.",
+          "bbox_pt": [
+            104.4,
+            415.201,
+            111.21,
+            425.164
+          ]
+        },
+        {
+          "text": "2.",
+          "bbox_pt": [
+            104.4,
+            426.001,
+            111.21,
+            435.964
+          ]
+        },
+        {
+          "text": "3.",
+          "bbox_pt": [
+            104.4,
+            436.821,
+            111.21,
+            446.784
+          ]
+        },
+        {
+          "text": "4.",
+          "bbox_pt": [
+            104.4,
+            447.621,
+            111.21,
+            457.584
+          ]
+        },
+        {
+          "text": "Rečima – najčešće željeni način ponašanja – behavioral model",
+          "bbox_pt": [
+            117.96,
+            415.201,
+            342.98,
+            425.164
+          ]
+        },
+        {
+          "text": "Funkcionalnom tabelom – praktično za sisteme sa malim brojem ulaza i izlaza",
+          "bbox_pt": [
+            117.96,
+            426.001,
+            400.019,
+            435.964
+          ]
+        },
+        {
+          "text": "Jedačinama Bulove algebre – kombinacione mreže",
+          "bbox_pt": [
+            117.96,
+            436.821,
+            300.968,
+            446.784
+          ]
+        },
+        {
+          "text": "Električnom šemom – pogodno za realizaciju digitalnog sistema, omogućuje",
+          "bbox_pt": [
+            117.96,
+            447.621,
+            393.587,
+            457.584
+          ]
+        },
+        {
+          "text": "jedna vid sinteze i simulacije sistema - Schematic Capture",
+          "bbox_pt": [
+            117.96,
+            458.421,
+            327.554,
+            468.384
+          ]
+        },
+        {
+          "text": "1. Deo CAD Computer Aided Design",
+          "bbox_pt": [
+            122.4,
+            469.221,
+            262.4,
+            479.184
+          ]
+        },
+        {
+          "text": "2. Deo EDA Electronic Design Automation – ECAD",
+          "bbox_pt": [
+            122.4,
+            480.021,
+            317.351,
+            489.984
+          ]
+        },
+        {
+          "text": "3. Najčešće za potrebe pravljenja PCB-a (Printed Circuit Board)",
+          "bbox_pt": [
+            122.4,
+            490.821,
+            358.367,
+            500.784
+          ]
+        },
+        {
+          "text": "Danas - za složene i programabilne sisteme mnogo efikasniji",
+          "bbox_pt": [
+            113.33,
+            521.881,
+            332.015,
+            531.844
+          ]
+        },
+        {
+          "text": "HDL – Hardware Description Language",
+          "bbox_pt": [
+            188.11,
+            543.911,
+            332.638,
+            553.883
+          ]
+        },
+        {
+          "text": "Slični tipičnim programskim jezicima – dele neke karakteristike sa njia (objektno",
+          "bbox_pt": [
+            113.33,
+            568.341,
+            406.459,
+            578.304
+          ]
+        },
+        {
+          "text": "orjentisano programiranje, konkuretno programiranje, itd.) ali im je osnovna",
+          "bbox_pt": [
+            113.33,
+            579.119616,
+            388.690288,
+            589.109184
+          ]
+        },
+        {
+          "text": "namena OPIS hardvera u odnosu na posao koji treba neki procesor da izvrši.",
+          "bbox_pt": [
+            113.33,
+            589.961,
+            388.217,
+            599.924
+          ]
+        }
+      ],
+      "id": "07-s002",
+      "frame_label": "07-s002",
+      "output_page": 2,
+      "tex": "slajdovi/s002_nacini_opisa_digitalnog_sistema.tex",
+      "source_text": "Opis digitalnog sistema\n1.\n2.\n3.\n4.\nRečima – najčešće željeni način ponašanja – behavioral model\nFunkcionalnom tabelom – praktično za sisteme sa malim brojem ulaza i izlaza\nJedačinama Bulove algebre – kombinacione mreže\nElektričnom šemom – pogodno za realizaciju digitalnog sistema, omogućuje\njedna vid sinteze i simulacije sistema - Schematic Capture\n1. Deo CAD Computer Aided Design\n2. Deo EDA Electronic Design Automation – ECAD\n3. Najčešće za potrebe pravljenja PCB-a (Printed Circuit Board)\nDanas - za složene i programabilne sisteme mnogo efikasniji\nHDL – Hardware Description Language\nSlični tipičnim programskim jezicima – dele neke karakteristike sa njia (objektno\norjentisano programiranje, konkuretno programiranje, itd.) ali im je osnovna\nnamena OPIS hardvera u odnosu na posao koji treba neki procesor da izvrši.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst"
+        ],
+        "sadrzaj": "Četiri načina opisa, sva tri podkoraka CAD/EDA/PCB, Schematic Capture, puni naziv HDL i kompletan završni pasus sa izvornim slovnim greškama."
+      }
+    },
+    {
+      "pdf_page": 2,
+      "position": "gornji",
+      "source_number": 3,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "Digitalne, elektronske, komponente se mogu klasifikovati u dve velike grupe",
+          "bbox_pt": [
+            109.25,
+            83.761,
+            386.36,
+            93.724
+          ]
+        },
+        {
+          "text": "fiksne",
+          "bbox_pt": [
+            145.25,
+            99.961,
+            167.111,
+            109.924
+          ]
+        },
+        {
+          "text": "programabilne",
+          "bbox_pt": [
+            145.25,
+            116.161,
+            197.684,
+            126.124
+          ]
+        },
+        {
+          "text": "Pri ovome govorimo i mislimo o hardveru komponenti. Na primer: Računar je programabilan.",
+          "bbox_pt": [
+            109.25,
+            132.361,
+            448.198,
+            142.324
+          ]
+        },
+        {
+          "text": "Možemo da napišemo različite programe i da se računar izvođenjem programa ponaša na",
+          "bbox_pt": [
+            109.25,
+            143.161,
+            430.028,
+            153.124
+          ]
+        },
+        {
+          "text": "različite načine. Ali hardver računara je fiksan. Izvođenje programa ne menja hardverske veze",
+          "bbox_pt": [
+            109.25,
+            153.961,
+            448.206,
+            163.924
+          ]
+        },
+        {
+          "text": "u procesoru ili nekom drugom delu računara (zaboravite na trenutak memorije).",
+          "bbox_pt": [
+            109.25,
+            164.761,
+            396.139,
+            174.724
+          ]
+        },
+        {
+          "text": "Fiksne komponente – kada su proizvedene određena im je logička funkcija i ne može se menjati",
+          "bbox_pt": [
+            109.25,
+            195.811,
+            454.651,
+            205.783
+          ]
+        },
+        {
+          "text": "Programabilne komponente – korisnik može da ih prilagodi, programira, za određenu funkciju. Za sada",
+          "bbox_pt": [
+            109.25,
+            225.911,
+            481.06,
+            235.874
+          ]
+        },
+        {
+          "text": "to su neke logičke funkcije. Kombinacione mreže. Razvoj tehnologije je to omogućio. Da se sa kola",
+          "bbox_pt": [
+            109.25,
+            236.711,
+            468.953,
+            246.674
+          ]
+        },
+        {
+          "text": "malog i srednjeg stepena integracije koja su po pravilu fiksne komponente pređe na korišćenje",
+          "bbox_pt": [
+            109.25,
+            247.511,
+            448.721,
+            257.474
+          ]
+        },
+        {
+          "text": "komponenta višeg stepena integracije i koja mogu da se prilagode potrebi korisnika.",
+          "bbox_pt": [
+            109.25,
+            258.311,
+            412.019,
+            268.274
+          ]
+        }
+      ],
+      "id": "07-s003",
+      "frame_label": "07-s003",
+      "output_page": 3,
+      "tex": "slajdovi/s003_fiksne_i_programabilne_komponente.tex",
+      "source_text": "Digitalne, elektronske, komponente se mogu klasifikovati u dve velike grupe\nfiksne\nprogramabilne\nPri ovome govorimo i mislimo o hardveru komponenti. Na primer: Računar je programabilan.\nMožemo da napišemo različite programe i da se računar izvođenjem programa ponaša na\nrazličite načine. Ali hardver računara je fiksan. Izvođenje programa ne menja hardverske veze\nu procesoru ili nekom drugom delu računara (zaboravite na trenutak memorije).\nFiksne komponente – kada su proizvedene određena im je logička funkcija i ne može se menjati\nProgramabilne komponente – korisnik može da ih prilagodi, programira, za određenu funkciju. Za sada\nto su neke logičke funkcije. Kombinacione mreže. Razvoj tehnologije je to omogućio. Da se sa kola\nmalog i srednjeg stepena integracije koja su po pravilu fiksne komponente pređe na korišćenje\nkomponenta višeg stepena integracije i koja mogu da se prilagode potrebi korisnika.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst"
+        ],
+        "sadrzaj": "Podela sa dva plava pojma, potpuni primer računara, definicije fiksnih i programabilnih komponenti i sve rečenice o integraciji."
+      }
+    },
+    {
+      "pdf_page": 2,
+      "position": "donji",
+      "source_number": 4,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "Koja je ideja da napravimo programabilnu komponentu u kojoj možemo da",
+          "bbox_pt": [
+            83.088,
+            398.268,
+            444.528,
+            411.552
+          ]
+        },
+        {
+          "text": "realizujemo razne kombinacione mreže?",
+          "bbox_pt": [
+            166.73,
+            412.668,
+            360.748,
+            425.952
+          ]
+        },
+        {
+          "text": "Bilo koja logička funkcija može da se predstavi u obliku sume proizvoda!",
+          "bbox_pt": [
+            86.928,
+            441.488,
+            440.774,
+            454.772
+          ]
+        },
+        {
+          "text": "I + ILI (ako ima NE)",
+          "bbox_pt": [
+            213.79,
+            477.488,
+            313.966,
+            490.772
+          ]
+        },
+        {
+          "text": "Šta nam treba?",
+          "bbox_pt": [
+            222.22,
+            513.898,
+            293.328,
+            527.182
+          ]
+        },
+        {
+          "text": "Dovoljan broj ulaza.",
+          "bbox_pt": [
+            208.66,
+            542.728,
+            306.96,
+            556.012
+          ]
+        },
+        {
+          "text": "Dovoljan broj izlaza.",
+          "bbox_pt": [
+            207.34,
+            557.128,
+            308.4,
+            570.412
+          ]
+        },
+        {
+          "text": "Mogućnost programiranja I-ILI povezanosti.",
+          "bbox_pt": [
+            150.58,
+            578.728,
+            365.1,
+            592.012
+          ]
+        }
+      ],
+      "id": "07-s004",
+      "frame_label": "07-s004",
+      "output_page": 4,
+      "tex": "slajdovi/s004_ideja_programabilne_kombinacione_mreze.tex",
+      "source_text": "Koja je ideja da napravimo programabilnu komponentu u kojoj možemo da\nrealizujemo razne kombinacione mreže?\nBilo koja logička funkcija može da se predstavi u obliku sume proizvoda!\nI + ILI (ako ima NE)\nŠta nam treba?\nDovoljan broj ulaza.\nDovoljan broj izlaza.\nMogućnost programiranja I-ILI povezanosti.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst"
+        ],
+        "sadrzaj": "Uvodno pitanje, suma proizvoda, I+ILI uz NE, pitanje o potrebama i sva tri zahteva."
+      }
+    },
+    {
+      "pdf_page": 3,
+      "position": "gornji",
+      "source_number": 5,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "Primer i ideja jedne programabilne komponente",
+          "bbox_pt": [
+            211.8,
+            74.831,
+            384.006,
+            84.794
+          ]
+        },
+        {
+          "text": "X1 X2",
+          "bbox_pt": [
+            123.516427,
+            92.901843,
+            154.19525,
+            101.586354
+          ]
+        },
+        {
+          "text": "Xn",
+          "bbox_pt": [
+            216.64982,
+            91.989954,
+            228.518219,
+            100.674466
+          ]
+        },
+        {
+          "text": "...",
+          "bbox_pt": [
+            175.358771,
+            100.195341,
+            182.641649,
+            108.879852
+          ]
+        },
+        {
+          "text": "ulazni baferi",
+          "bbox_pt": [
+            150.930822,
+            120.253667,
+            199.729186,
+            128.938178
+          ]
+        },
+        {
+          "text": "invertori",
+          "bbox_pt": [
+            158.610582,
+            131.834809,
+            192.05089,
+            140.51932
+          ]
+        },
+        {
+          "text": "X1 X1 X2 X2",
+          "bbox_pt": [
+            126.942458,
+            161.14851,
+            161.321639,
+            165.490974
+          ]
+        },
+        {
+          "text": "...",
+          "bbox_pt": [
+            184.992054,
+            163.107592,
+            192.274933,
+            171.792103
+          ]
+        },
+        {
+          "text": "n ulaza",
+          "bbox_pt": [
+            279.82,
+            129.913,
+            305.53,
+            138.013
+          ]
+        },
+        {
+          "text": "k izlaza",
+          "bbox_pt": [
+            279.82,
+            140.713,
+            307.456,
+            148.813
+          ]
+        },
+        {
+          "text": "Xn Xn",
+          "bbox_pt": [
+            224.204956,
+            161.14851,
+            239.315305,
+            165.490974
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            243.47476,
+            173.913338,
+            249.408241,
+            178.255802
+          ]
+        },
+        {
+          "text": "F1",
+          "bbox_pt": [
+            384.257946,
+            173.913338,
+            389.388653,
+            178.255802
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            243.47476,
+            183.032221,
+            249.408241,
+            187.374685
+          ]
+        },
+        {
+          "text": "I matrica",
+          "bbox_pt": [
+            161.611272,
+            190.461024,
+            196.387861,
+            199.145536
+          ]
+        },
+        {
+          "text": "...",
+          "bbox_pt": [
+            244.635221,
+            194.108577,
+            251.918099,
+            202.793089
+          ]
+        },
+        {
+          "text": "F2",
+          "bbox_pt": [
+            384.257946,
+            183.032221,
+            389.388653,
+            187.374685
+          ]
+        },
+        {
+          "text": "ILI matrica",
+          "bbox_pt": [
+            299.254578,
+            189.093996,
+            343.196965,
+            197.778507
+          ]
+        },
+        {
+          "text": "Ym",
+          "bbox_pt": [
+            243.717534,
+            209.472961,
+            251.00166,
+            213.815425
+          ]
+        },
+        {
+          "text": "...",
+          "bbox_pt": [
+            383.189739,
+            195.020466,
+            390.472618,
+            203.704977
+          ]
+        },
+        {
+          "text": "Fk",
+          "bbox_pt": [
+            384.257946,
+            210.384849,
+            389.386271,
+            214.727313
+          ]
+        },
+        {
+          "text": "Šta i koliko može da se programira zavisi od tipa komponente.",
+          "bbox_pt": [
+            135.58,
+            229.681,
+            360.742,
+            239.644
+          ]
+        },
+        {
+          "text": "Da li su obe matrice programabilne?",
+          "bbox_pt": [
+            135.58,
+            251.281,
+            266.656,
+            261.244
+          ]
+        },
+        {
+          "text": "Da li je samo I odnosno ILI matrica programabilna?",
+          "bbox_pt": [
+            135.58,
+            262.081,
+            322.888,
+            272.044
+          ]
+        },
+        {
+          "text": "Koliko su programabilne?",
+          "bbox_pt": [
+            135.58,
+            272.881,
+            229.486,
+            282.844
+          ]
+        },
+        {
+          "text": "Šta može da učestvuje u Y i koliko ih ima (m?)? Koliko ulaza u I kola.",
+          "bbox_pt": [
+            135.58,
+            283.681,
+            389.893,
+            293.644
+          ]
+        },
+        {
+          "text": "Šta može da učestvuje u F i koliko? Koliko ulaza u ILI kola.",
+          "bbox_pt": [
+            135.58,
+            294.459616,
+            352.706464,
+            304.449184
+          ]
+        }
+      ],
+      "id": "07-s005",
+      "frame_label": "07-s005",
+      "output_page": 5,
+      "tex": "slajdovi/s005_programabilne_i_ili_matrice.tex",
+      "source_text": "Primer i ideja jedne programabilne komponente\nX1 X2\nXn\n...\nulazni baferi\ninvertori\nX1 X1 X2 X2\n...\nn ulaza\nk izlaza\nXn Xn\nY1\nF1\nY2\nI matrica\n...\nF2\nILI matrica\nYm\n...\nFk\nŠta i koliko može da se programira zavisi od tipa komponente.\nDa li su obe matrice programabilne?\nDa li je samo I odnosno ILI matrica programabilna?\nKoliko su programabilne?\nŠta može da učestvuje u Y i koliko ih ima (m?)? Koliko ulaza u I kola.\nŠta može da učestvuje u F i koliko? Koliko ulaza u ILI kola.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst",
+          "formule",
+          "crtezi"
+        ],
+        "sadrzaj": "Tri bloka, tri ulaza i šest polariteta, sve strelice Y1/Y2/Ym/F1/F2/Fk i elipse, n/k, sva pitanja ispod šeme."
+      }
+    },
+    {
+      "pdf_page": 3,
+      "position": "donji",
+      "source_number": 6,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "PLA – Programmable Logic Array",
+          "bbox_pt": [
+            119.76,
+            398.768,
+            281.21,
+            412.052
+          ]
+        },
+        {
+          "text": "PAL – Programmable Array Logic",
+          "bbox_pt": [
+            119.42,
+            421.888,
+            277.654,
+            435.172
+          ]
+        },
+        {
+          "text": "PLD",
+          "bbox_pt": [
+            319.63,
+            429.983,
+            336.676,
+            438.083
+          ]
+        },
+        {
+          "text": "GAL – Generic Array Logic",
+          "bbox_pt": [
+            117.72,
+            442.258,
+            244.874,
+            455.542
+          ]
+        },
+        {
+          "text": "CPLD – Complex Programmable Logic Device",
+          "bbox_pt": [
+            117.72,
+            462.638,
+            335.162,
+            475.922
+          ]
+        },
+        {
+          "text": "FPGA– Fild Programmable Gate Array",
+          "bbox_pt": [
+            118.42,
+            482.678,
+            297.48,
+            495.962
+          ]
+        },
+        {
+          "text": "CPLD",
+          "bbox_pt": [
+            368.33,
+            473.061,
+            391.379,
+            483.024
+          ]
+        },
+        {
+          "text": "ROM – Read Only Memory",
+          "bbox_pt": [
+            118.08,
+            517.624,
+            243.512,
+            528.424
+          ]
+        },
+        {
+          "text": "PROM – Programmable ROM",
+          "bbox_pt": [
+            117.72,
+            535.164,
+            253.25,
+            545.964
+          ]
+        },
+        {
+          "text": "Memory",
+          "bbox_pt": [
+            309.55,
+            548.798,
+            350.842,
+            562.082
+          ]
+        },
+        {
+          "text": "EEPROM – Electrically EPROM",
+          "bbox_pt": [
+            117.72,
+            571.018,
+            262.838,
+            584.302
+          ]
+        },
+        {
+          "text": "ASIC– Application Specific Integrated Circuit",
+          "bbox_pt": [
+            118.08,
+            609.807608,
+            332.068496,
+            620.629208
+          ]
+        },
+        {
+          "text": "ASIC",
+          "bbox_pt": [
+            363.91,
+            608.251,
+            384.304,
+            618.214
+          ]
+        }
+      ],
+      "id": "07-s006",
+      "frame_label": "07-s006",
+      "output_page": 6,
+      "tex": "slajdovi/s006_vrste_programabilnih_komponenti.tex",
+      "source_text": "PLA – Programmable Logic Array\nPAL – Programmable Array Logic\nPLD\nGAL – Generic Array Logic\nCPLD – Complex Programmable Logic Device\nFPGA– Fild Programmable Gate Array\nCPLD\nROM – Read Only Memory\nPROM – Programmable ROM\nMemory\nEEPROM – Electrically EPROM\nASIC– Application Specific Integrated Circuit\nASIC",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst",
+          "crtezi"
+        ],
+        "sadrzaj": "Svih devet akronima i punih naziva, plavi inicijali i crvena Memory, četiri zagrade sa oznakama PLD/CPLD/Memory/ASIC; sačuvano Fild i izvorno grupisanje."
+      }
+    },
+    {
+      "pdf_page": 4,
+      "position": "gornji",
+      "source_number": 7,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "Primer jedne PAL komponente",
+          "bbox_pt": [
+            194.81,
+            73.681,
+            307.067,
+            83.644
+          ]
+        },
+        {
+          "text": "Maksimalno",
+          "bbox_pt": [
+            36.048,
+            99.113,
+            80.85,
+            107.213
+          ]
+        },
+        {
+          "text": "10+6 ulaza",
+          "bbox_pt": [
+            36.048,
+            109.913,
+            75.798,
+            118.013
+          ]
+        },
+        {
+          "text": "odnosno",
+          "bbox_pt": [
+            36.048,
+            120.713,
+            66.792,
+            128.813
+          ]
+        },
+        {
+          "text": "2+6 izlaza",
+          "bbox_pt": [
+            36.048,
+            131.513,
+            73.284,
+            139.613
+          ]
+        },
+        {
+          "text": "izlaz",
+          "bbox_pt": [
+            348.7,
+            99.931,
+            365.656,
+            109.894
+          ]
+        },
+        {
+          "text": "Može biti i izlaz i",
+          "bbox_pt": [
+            372.7,
+            145.081,
+            436.096,
+            155.044
+          ]
+        },
+        {
+          "text": "ulaz",
+          "bbox_pt": [
+            372.7,
+            155.881,
+            387.748,
+            165.844
+          ]
+        },
+        {
+          "text": "„Bilo koja“ kombinaciona",
+          "bbox_pt": [
+            36.048,
+            151.241,
+            130.584,
+            161.204
+          ]
+        },
+        {
+          "text": "mreža koja ima maksimalno",
+          "bbox_pt": [
+            36.048,
+            162.041,
+            137.343,
+            172.004
+          ]
+        },
+        {
+          "text": "10+X ulaza,",
+          "bbox_pt": [
+            36.048,
+            174.713,
+            80.031,
+            182.813
+          ]
+        },
+        {
+          "text": "odnosno",
+          "bbox_pt": [
+            36.048,
+            185.513,
+            66.792,
+            193.613
+          ]
+        },
+        {
+          "text": "ulazi",
+          "bbox_pt": [
+            138.48,
+            193.631,
+            155.976,
+            203.594
+          ]
+        },
+        {
+          "text": "2+6-X izlaza",
+          "bbox_pt": [
+            36.048,
+            196.313,
+            82.755,
+            204.413
+          ]
+        },
+        {
+          "text": "X = 0,1,..6",
+          "bbox_pt": [
+            36.048,
+            207.113,
+            74.784,
+            215.213
+          ]
+        },
+        {
+          "text": "Ukupan broj programabilnih veza u ovoj",
+          "bbox_pt": [
+            349.15,
+            207.861,
+            495.886,
+            217.824
+          ]
+        },
+        {
+          "text": "komponenti je 2048 u I matrici. ILI",
+          "bbox_pt": [
+            349.15,
+            218.661,
+            476.809,
+            228.624
+          ]
+        },
+        {
+          "text": "matrica je fiksna. Po svakom I kolu je 32",
+          "bbox_pt": [
+            349.15,
+            229.461,
+            496.96,
+            239.424
+          ]
+        },
+        {
+          "text": "moguća člana u proizvodu. Po svakom ILI",
+          "bbox_pt": [
+            349.15,
+            240.261,
+            502.123,
+            250.224
+          ]
+        },
+        {
+          "text": "kolu je moguće sumirati 7 proizvoda. I",
+          "bbox_pt": [
+            349.15,
+            251.039616,
+            488.942752,
+            261.029184
+          ]
+        },
+        {
+          "text": "ovo je za današnju tehnologiju",
+          "bbox_pt": [
+            349.15,
+            261.881,
+            459.283,
+            271.844
+          ]
+        },
+        {
+          "text": "jednostavna programabilna komponenta.",
+          "bbox_pt": [
+            349.15,
+            272.681,
+            495.787,
+            282.644
+          ]
+        },
+        {
+          "text": "20-pinsko pakovanje",
+          "bbox_pt": [
+            41.064,
+            229.566608,
+            116.279808,
+            237.688208
+          ]
+        },
+        {
+          "text": "10. Pin GND",
+          "bbox_pt": [
+            41.064,
+            240.403,
+            88.098,
+            248.503
+          ]
+        },
+        {
+          "text": "20. Pin VDD",
+          "bbox_pt": [
+            41.064,
+            251.203,
+            88.206,
+            259.303
+          ]
+        },
+        {
+          "text": "Programabilne veze",
+          "bbox_pt": [
+            83.544,
+            275.731,
+            155.049,
+            285.694
+          ]
+        },
+        {
+          "text": "izlaz",
+          "bbox_pt": [
+            349.54,
+            293.203,
+            366.496,
+            301.303
+          ]
+        },
+        {
+          "text": "ulaz",
+          "bbox_pt": [
+            350.38,
+            302.371,
+            365.428,
+            312.334
+          ]
+        }
+      ],
+      "id": "07-s007",
+      "frame_label": "07-s007",
+      "output_page": 7,
+      "tex": "slajdovi/s007_pal_programabilna_matrica.tex",
+      "source_text": "Primer jedne PAL komponente\nMaksimalno\n10+6 ulaza\nodnosno\n2+6 izlaza\nizlaz\nMože biti i izlaz i\nulaz\n„Bilo koja“ kombinaciona\nmreža koja ima maksimalno\n10+X ulaza,\nodnosno\nulazi\n2+6-X izlaza\nX = 0,1,..6\nUkupan broj programabilnih veza u ovoj\nkomponenti je 2048 u I matrici. ILI\nmatrica je fiksna. Po svakom I kolu je 32\nmoguća člana u proizvodu. Po svakom ILI\nkolu je moguće sumirati 7 proizvoda. I\novo je za današnju tehnologiju\njednostavna programabilna komponenta.\n20-pinsko pakovanje\n10. Pin GND\n20. Pin VDD\nProgramabilne veze\nizlaz\nulaz",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst",
+          "formule",
+          "crtezi"
+        ],
+        "sadrzaj": "Cela PAL šema: 32 kolone, 64 redna indeksa i I proizvoda, 2048 raskrsnica, osam ILI i izlaznih drajvera sa upravljanjem, šesnaest dvopolarnih ulaznih bafera, svi direktni/povratni vodovi, I1–I10/O1/IO2–IO7/O8, brojevi pinova, ulazna zagrada, crvena elipsa i sve nastavne strelice. Svih 89 reči objašnjenja, 10+6, 2+6, X=0…6 i GND/VDD. Indeksi raspoređeni stepenasto radi fonta 8 pt."
+      }
+    },
+    {
+      "pdf_page": 4,
+      "position": "donji",
+      "source_number": 8,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "Primer fajla potreban da bi „programator“ isprogramirao potrebne veze",
+          "bbox_pt": [
+            106.56,
+            389.351,
+            362.939,
+            399.314
+          ]
+        }
+      ],
+      "id": "07-s008",
+      "frame_label": "07-s008",
+      "output_page": 8,
+      "tex": "slajdovi/s008_jedec_fajl_programabilnih_veza.tex",
+      "source_text": "Primer fajla potreban da bi „programator“ isprogramirao potrebne veze",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst",
+          "kod",
+          "crtezi"
+        ],
+        "sadrzaj": "Naslov i JEDEC, cela engleska rečenica, kvadrat na početku, 15 redova zaglavlja i svih 11×32 osiguračka bita sa adresama, oba objašnjenja brojeva i legenda 1/0. Izvorni rasterski kod ručno prepisan; svaki bit pregledan u uvećanju sa mrežom indeksa. Pokazivač teksta iz interfejsa ne nosi podatak i nije deo fajla."
+      }
+    },
+    {
+      "pdf_page": 5,
+      "position": "gornji",
+      "source_number": 9,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "Da bi se na „lak“ način generisao potreban fajl za programator, da bi se eventualno pre toga uradila i simulacija",
+          "bbox_pt": [
+            66.24,
+            86.541,
+            467.57,
+            96.504
+          ]
+        },
+        {
+          "text": "a kasnije i verifikacija isprogramirane komponente započet je razvoj HDL jezika, 80ih godina prošlog veka.",
+          "bbox_pt": [
+            66.24,
+            97.341,
+            455.023,
+            107.304
+          ]
+        },
+        {
+          "text": "PALASM – PAL Assembler",
+          "bbox_pt": [
+            66.24,
+            118.941,
+            169.209,
+            128.904
+          ]
+        },
+        {
+          "text": "CUPL – Compiler for Universal Programmable Logic",
+          "bbox_pt": [
+            66.24,
+            129.741,
+            260.669,
+            139.704
+          ]
+        },
+        {
+          "text": "ABEL - Advanced Boolean Expression Language",
+          "bbox_pt": [
+            66.24,
+            140.541,
+            245.798,
+            150.504
+          ]
+        },
+        {
+          "text": "Ovi jezici su između ostalog dozvolili dobru dokumentovanost dizajna. Zapisan u čitljivom „kodu“.",
+          "bbox_pt": [
+            66.624,
+            163.751,
+            426.19,
+            173.714
+          ]
+        },
+        {
+          "text": "Iz istog razloga je započet i razvoj složenijih HDL jezika. Međutim mogućnosti prenosivosti, ponovnog",
+          "bbox_pt": [
+            66.624,
+            174.551,
+            440.749,
+            184.514
+          ]
+        },
+        {
+          "text": "korišćenja, mogućnosti simulacije kompleksnih digitalnih sistema, itd… doveli su to toga da se ovi jezici danas",
+          "bbox_pt": [
+            66.624,
+            185.351,
+            467.836,
+            195.314
+          ]
+        },
+        {
+          "text": "masovno koriste u sintezi i analizi digitalnih sistema.",
+          "bbox_pt": [
+            66.624,
+            196.151,
+            257.262,
+            206.114
+          ]
+        },
+        {
+          "text": "Dva najpoznatija i najčešće korišćena su",
+          "bbox_pt": [
+            66.624,
+            206.951,
+            212.298,
+            216.914
+          ]
+        },
+        {
+          "text": "VHDL - Very High Speed Integrated Circuit (VHSIC) Hardware Description Language (VHDL)",
+          "bbox_pt": [
+            66.624,
+            229.581,
+            415.891,
+            239.544
+          ]
+        },
+        {
+          "text": "VERILOG – Verification and Logic",
+          "bbox_pt": [
+            66.624,
+            240.381,
+            197.099,
+            250.344
+          ]
+        }
+      ],
+      "id": "07-s009",
+      "frame_label": "07-s009",
+      "output_page": 9,
+      "tex": "slajdovi/s009_razvoj_hdl_jezika.tex",
+      "source_text": "Da bi se na „lak“ način generisao potreban fajl za programator, da bi se eventualno pre toga uradila i simulacija\na kasnije i verifikacija isprogramirane komponente započet je razvoj HDL jezika, 80ih godina prošlog veka.\nPALASM – PAL Assembler\nCUPL – Compiler for Universal Programmable Logic\nABEL - Advanced Boolean Expression Language\nOvi jezici su između ostalog dozvolili dobru dokumentovanost dizajna. Zapisan u čitljivom „kodu“.\nIz istog razloga je započet i razvoj složenijih HDL jezika. Međutim mogućnosti prenosivosti, ponovnog\nkorišćenja, mogućnosti simulacije kompleksnih digitalnih sistema, itd… doveli su to toga da se ovi jezici danas\nmasovno koriste u sintezi i analizi digitalnih sistema.\nDva najpoznatija i najčešće korišćena su\nVHDL - Very High Speed Integrated Circuit (VHSIC) Hardware Description Language (VHDL)\nVERILOG – Verification and Logic",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst"
+        ],
+        "sadrzaj": "Celi pasusi o razvoju, simulaciji i verifikaciji, PALASM/CUPL/ABEL/VHDL/VERILOG puna imena i originalno to toga."
+      }
+    },
+    {
+      "pdf_page": 5,
+      "position": "donji",
+      "source_number": 10,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "ABEL primeri",
+          "bbox_pt": [
+            100.7,
+            397.993,
+            152.549,
+            406.093
+          ]
+        },
+        {
+          "text": "1. Dvoulazno I kolo sa test vektorima",
+          "bbox_pt": [
+            55.536,
+            415.703,
+            195.102,
+            423.803
+          ]
+        },
+        {
+          "text": "2. Koder prioriteta koji koduje i ulaz sa najvišim",
+          "bbox_pt": [
+            55.536,
+            424.631,
+            234.819,
+            434.603
+          ]
+        },
+        {
+          "text": "prioritetom kao i ulaz sa narednim prioritetom",
+          "bbox_pt": [
+            69.096,
+            437.303,
+            235.659,
+            445.403
+          ]
+        },
+        {
+          "text": "2",
+          "bbox_pt": [
+            426.7,
+            485.94364,
+            437.68,
+            510.25336
+          ]
+        },
+        {
+          "text": "1",
+          "bbox_pt": [
+            199.46,
+            520.05364,
+            210.44,
+            544.36336
+          ]
+        }
+      ],
+      "id": "07-s010",
+      "frame_label": "07-s010",
+      "output_page": 10,
+      "tex": "slajdovi/s010_abel_i_kolo_i_prioritet.tex",
+      "source_text": "ABEL primeri\n1. Dvoulazno I kolo sa test vektorima\n2. Koder prioriteta koji koduje i ulaz sa najvišim\nprioritetom kao i ulaz sa narednim prioritetom\n2\n1",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst",
+          "kod"
+        ],
+        "sadrzaj": "Oba uvodna iskaza i crvene oznake 1/2, ceo and1 sa oba komentara i četiri test vektora, kompletan PRIORTWO sa deklaracijama, osam A grana, AVALID, osam B grana, BVALID i krajem. Samo razmaci/prelomi promenjeni."
+      }
+    },
+    {
+      "pdf_page": 6,
+      "position": "gornji",
+      "source_number": 11,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "Primer",
+          "bbox_pt": [
+            123.24,
+            93.673,
+            147.702,
+            101.773
+          ]
+        }
+      ],
+      "id": "07-s011",
+      "frame_label": "07-s011",
+      "output_page": 11,
+      "tex": "slajdovi/s011_abel_multiplekser.tex",
+      "source_text": "Primer",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst",
+          "kod",
+          "crtezi"
+        ],
+        "sadrzaj": "Primer Mux12T4: svih 12 podatkovnih i dva selekciona ulaza, četiri izlaza; svi pinovi, H/L/X skupovi, četiri uslova, svih 12 test vektora i četiri komentara, end."
+      }
+    },
+    {
+      "pdf_page": 6,
+      "position": "donji",
+      "source_number": 12,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "Tipičan CAD proces",
+          "bbox_pt": [
+            46.536,
+            391.961,
+            121.029,
+            401.924
+          ]
+        }
+      ],
+      "id": "07-s012",
+      "frame_label": "07-s012",
+      "output_page": 12,
+      "tex": "slajdovi/s012_cad_i_vlsi_proces.tex",
+      "source_text": "Tipičan CAD proces",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst",
+          "crtezi"
+        ],
+        "sadrzaj": "Oba potpuna toka: Design conception, DESIGN ENTRY, dve elipse, sinteza/simulacije, obe odluke i sve tri povratne putanje, oba Yes/No, završna konfiguracija; desno svih devet blokova, četiri povratne grane, četiri nivoa reprezentacije, VLSI DESIGN FLOW i Fabrication & Testing."
+      }
+    },
+    {
+      "pdf_page": 7,
+      "position": "gornji",
+      "source_number": 13,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "Šta je VHDL?",
+          "bbox_pt": [
+            248.5,
+            76.531,
+            299.971,
+            86.494
+          ]
+        },
+        {
+          "text": "VHDL je programski jezik koji je dizajniran i optimizovan za opisivanje ponašanja digitalnih kola i sistema.",
+          "bbox_pt": [
+            77.088,
+            108.931,
+            467.049,
+            118.894
+          ]
+        },
+        {
+          "text": "Kao takav, VHDL kombinuje sledeće karakteristike:",
+          "bbox_pt": [
+            77.088,
+            119.731,
+            266.196,
+            129.694
+          ]
+        },
+        {
+          "text": "1. Jezik za simulaciono modelovanje. VHDL ima mnogo funkcija pogodnih za opisivanje",
+          "bbox_pt": [
+            92.784,
+            166.241,
+            421.942,
+            176.204
+          ]
+        },
+        {
+          "text": "(do nivoa detalja) ponašanja elektronskih komponenti u rasponu od jednostavnih logičkih",
+          "bbox_pt": [
+            92.784,
+            177.041,
+            415.038,
+            187.004
+          ]
+        },
+        {
+          "text": "gejtova do kompletnih mikroprocesora i namenskih čipova. Karakteristike VHDL-a",
+          "bbox_pt": [
+            92.784,
+            187.819616,
+            394.586656,
+            197.809184
+          ]
+        },
+        {
+          "text": "omogućavaju da se električni aspekti ponašanja kola (kao što su vremena porasta i pada",
+          "bbox_pt": [
+            92.784,
+            198.671,
+            408.449,
+            208.634
+          ]
+        },
+        {
+          "text": "signala, kašnjenja kroz gejtove i funkcionalni rad) precizno opisuju. Dobijeni VHDL",
+          "bbox_pt": [
+            92.784,
+            209.471,
+            398.296,
+            219.434
+          ]
+        },
+        {
+          "text": "simulacioni modeli se zatim mogu koristiti kao gradivni blokovi u većim kolima (koristeći",
+          "bbox_pt": [
+            92.784,
+            220.271,
+            418.782,
+            230.234
+          ]
+        },
+        {
+          "text": "šeme, blok dijagrame ili VHDL opise na nivou sistema) u svrhu simulacije.",
+          "bbox_pt": [
+            92.784,
+            231.071,
+            364.51,
+            241.034
+          ]
+        }
+      ],
+      "id": "07-s013",
+      "frame_label": "07-s013",
+      "output_page": 13,
+      "tex": "slajdovi/s013_vhdl_simulaciono_modelovanje.tex",
+      "source_text": "Šta je VHDL?\nVHDL je programski jezik koji je dizajniran i optimizovan za opisivanje ponašanja digitalnih kola i sistema.\nKao takav, VHDL kombinuje sledeće karakteristike:\n1. Jezik za simulaciono modelovanje. VHDL ima mnogo funkcija pogodnih za opisivanje\n(do nivoa detalja) ponašanja elektronskih komponenti u rasponu od jednostavnih logičkih\ngejtova do kompletnih mikroprocesora i namenskih čipova. Karakteristike VHDL-a\nomogućavaju da se električni aspekti ponašanja kola (kao što su vremena porasta i pada\nsignala, kašnjenja kroz gejtove i funkcionalni rad) precizno opisuju. Dobijeni VHDL\nsimulacioni modeli se zatim mogu koristiti kao gradivni blokovi u većim kolima (koristeći\nšeme, blok dijagrame ili VHDL opise na nivou sistema) u svrhu simulacije.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst"
+        ],
+        "sadrzaj": "Naslov/puni uvod i ceo prvi numerisani opis VHDL-a, sa podebljanim nazivom i svim primerima električnih aspekata."
+      }
+    },
+    {
+      "pdf_page": 7,
+      "position": "donji",
+      "source_number": 14,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "2. Jezik za unos dizajna. Baš kao što programski jezici visokog nivoa dozvoljavaju da se",
+          "bbox_pt": [
+            94.632,
+            409.531,
+            418.522,
+            419.494
+          ]
+        },
+        {
+          "text": "složeni koncepti dizajna izraze kao kompjuterski program VHDL omogućava da se ponašanje",
+          "bbox_pt": [
+            94.632,
+            420.331,
+            433.07,
+            430.294
+          ]
+        },
+        {
+          "text": "složenih elektronskih kola prikaže u sistemu dizajna za automatsku sintezu kola ili za simulaciju",
+          "bbox_pt": [
+            94.632,
+            431.131,
+            441.51,
+            441.094
+          ]
+        },
+        {
+          "text": "sistema. Kao Pascal, C i C++, VHDL uključuje funkcije korisne za tehnike strukturiranog",
+          "bbox_pt": [
+            94.632,
+            441.931,
+            417.997,
+            451.894
+          ]
+        },
+        {
+          "text": "dizajna i nudi bogat skup funkcija kontrole i predstavljanja podataka. Za razliku od ovih drugih",
+          "bbox_pt": [
+            94.632,
+            452.731,
+            437.703,
+            462.694
+          ]
+        },
+        {
+          "text": "programskih jezika, VHDL pruža funkcije koje omogućavaju opisivanje istovremenih događaja.",
+          "bbox_pt": [
+            94.632,
+            463.531,
+            441.5,
+            473.494
+          ]
+        },
+        {
+          "text": "Ovo je važno jer je hardver koji se opisuje korišćenjem VHDL-a inherentno istovremen u svom",
+          "bbox_pt": [
+            94.632,
+            474.331,
+            439.058,
+            484.294
+          ]
+        },
+        {
+          "text": "radu. Korisnicima PLD programskih jezika kao što su PALASM, ABEL, CUPL i drugi će",
+          "bbox_pt": [
+            94.632,
+            485.109616,
+            419.256656,
+            495.099184
+          ]
+        },
+        {
+          "text": "istovremene karakteristike VHDL-a biti prilično poznate. Oni koji su programirali samo koristeći",
+          "bbox_pt": [
+            94.632,
+            495.961,
+            445.232,
+            505.924
+          ]
+        },
+        {
+          "text": "softverske programske jezike će, međutim, imati neke nove koncepte za razumevanje.",
+          "bbox_pt": [
+            94.632,
+            506.761,
+            404.074,
+            516.724
+          ]
+        },
+        {
+          "text": "Konkuretno programiranje. Konkuretno izvršavanje programa.",
+          "bbox_pt": [
+            94.632,
+            517.561,
+            320.451,
+            527.524
+          ]
+        },
+        {
+          "text": "3. Jezik za testiranje. Jedan od najvažnijih (i nedovoljno iskorišćenih) aspekata VHDL-a je",
+          "bbox_pt": [
+            94.632,
+            539.161,
+            429.416,
+            549.124
+          ]
+        },
+        {
+          "text": "njegova sposobnost da prihvati specifikacije performansi za kolo, u obliku koji se obično naziva",
+          "bbox_pt": [
+            94.632,
+            549.961,
+            440.772,
+            559.924
+          ]
+        },
+        {
+          "text": "testbench. Testbench su VHDL opisi stimulusa kola i odgovarajućih očekivanih izlaza koji",
+          "bbox_pt": [
+            94.632,
+            560.761,
+            421.607,
+            570.724
+          ]
+        },
+        {
+          "text": "potvrđuju ponašanje kola tokom vremena. Testbench treba da budu sastavni deo svakog VHDL",
+          "bbox_pt": [
+            94.632,
+            571.561,
+            438.342,
+            581.524
+          ]
+        },
+        {
+          "text": "projekta i treba da se kreiraju paralelno sa drugim opisima kola.",
+          "bbox_pt": [
+            94.632,
+            582.361,
+            324.231,
+            592.324
+          ]
+        }
+      ],
+      "id": "07-s014",
+      "frame_label": "07-s014",
+      "output_page": 14,
+      "tex": "slajdovi/s014_vhdl_unos_dizajna_i_testiranje.tex",
+      "source_text": "2. Jezik za unos dizajna. Baš kao što programski jezici visokog nivoa dozvoljavaju da se\nsloženi koncepti dizajna izraze kao kompjuterski program VHDL omogućava da se ponašanje\nsloženih elektronskih kola prikaže u sistemu dizajna za automatsku sintezu kola ili za simulaciju\nsistema. Kao Pascal, C i C++, VHDL uključuje funkcije korisne za tehnike strukturiranog\ndizajna i nudi bogat skup funkcija kontrole i predstavljanja podataka. Za razliku od ovih drugih\nprogramskih jezika, VHDL pruža funkcije koje omogućavaju opisivanje istovremenih događaja.\nOvo je važno jer je hardver koji se opisuje korišćenjem VHDL-a inherentno istovremen u svom\nradu. Korisnicima PLD programskih jezika kao što su PALASM, ABEL, CUPL i drugi će\nistovremene karakteristike VHDL-a biti prilično poznate. Oni koji su programirali samo koristeći\nsoftverske programske jezike će, međutim, imati neke nove koncepte za razumevanje.\nKonkuretno programiranje. Konkuretno izvršavanje programa.\n3. Jezik za testiranje. Jedan od najvažnijih (i nedovoljno iskorišćenih) aspekata VHDL-a je\nnjegova sposobnost da prihvati specifikacije performansi za kolo, u obliku koji se obično naziva\ntestbench. Testbench su VHDL opisi stimulusa kola i odgovarajućih očekivanih izlaza koji\npotvrđuju ponašanje kola tokom vremena. Testbench treba da budu sastavni deo svakog VHDL\nprojekta i treba da se kreiraju paralelno sa drugim opisima kola.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst"
+        ],
+        "sadrzaj": "Celi odeljci 2 i 3, podebljani nazivi, crveno istovremeni događaji, sva poređenja sa programskim jezicima i testbench opis; izvorni Konkuretno sačuvan."
+      }
+    },
+    {
+      "pdf_page": 8,
+      "position": "gornji",
+      "source_number": 15,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "4. Netlist Language. VHDL je moćan jezik sa kojim se unose novi dizajni na visokom nivou, ali",
+          "bbox_pt": [
+            81.744,
+            85.201,
+            431.426,
+            95.164
+          ]
+        },
+        {
+          "text": "je takođe koristan kao oblik komunikacije niskog nivoa između različitih alata u računarskom",
+          "bbox_pt": [
+            81.744,
+            96.001,
+            418.965,
+            105.964
+          ]
+        },
+        {
+          "text": "okruženju dizajna. Karakteristike strukturalnog jezika VHDL-a omogućavaju da se efikasno",
+          "bbox_pt": [
+            81.744,
+            106.801,
+            413.656,
+            116.764
+          ]
+        },
+        {
+          "text": "koristi kao jezik liste povezanosti mreža, zamenjujući (ili povećavajući) druge jezike liste",
+          "bbox_pt": [
+            81.744,
+            117.601,
+            404.362,
+            127.564
+          ]
+        },
+        {
+          "text": "povezanosti mreža kao što je EDIF.",
+          "bbox_pt": [
+            81.744,
+            128.401,
+            210.147,
+            138.364
+          ]
+        },
+        {
+          "text": "5. Standardni jezik. Jedan od najubedljivijih razloga da steknete iskustvo i znanje o VHDL-u je",
+          "bbox_pt": [
+            81.744,
+            153.379616,
+            430.326496,
+            163.369184
+          ]
+        },
+        {
+          "text": "njegovo usvajanje kao standarda u zajednici elektronskog dizajna. Korišćenje standardnog jezika",
+          "bbox_pt": [
+            81.744,
+            164.231,
+            430.638,
+            174.194
+          ]
+        },
+        {
+          "text": "kao što je VHDL će praktično garantovati da nećete morati da bacate i ponovo preuzimate",
+          "bbox_pt": [
+            81.744,
+            175.031,
+            406.439,
+            184.994
+          ]
+        },
+        {
+          "text": "koncepte dizajna samo zato što metod unosa dizajna koji ste izabrali nije podržan u novijoj",
+          "bbox_pt": [
+            81.744,
+            185.831,
+            409.164,
+            195.794
+          ]
+        },
+        {
+          "text": "generaciji alata za dizajn. Korišćenje standardnog jezika takođe znači da je veća verovatnoća da",
+          "bbox_pt": [
+            81.744,
+            196.631,
+            427.02,
+            206.594
+          ]
+        },
+        {
+          "text": "ćete moći da iskoristite prednosti najsavremenijih alata za dizajn i da ćete imati pristup bazi",
+          "bbox_pt": [
+            81.744,
+            207.431,
+            411.513,
+            217.394
+          ]
+        },
+        {
+          "text": "znanja hiljada drugih inženjera, od kojih mnogi rešavaju slične probleme.",
+          "bbox_pt": [
+            81.744,
+            218.231,
+            346.218,
+            228.194
+          ]
+        },
+        {
+          "text": "VHDL: Jednostavno ili složeno koliko želite. Iako je istina da je VHDL veliki i",
+          "bbox_pt": [
+            117.02,
+            245.881,
+            404.345,
+            255.844
+          ]
+        },
+        {
+          "text": "složen jezik, zapravo nije teško početi sa njim. Koristite ga kako vam je potrebno i",
+          "bbox_pt": [
+            117.02,
+            256.681,
+            414.218,
+            266.644
+          ]
+        },
+        {
+          "text": "istražujte napredne funkcije dok postajete sigurniji.",
+          "bbox_pt": [
+            117.02,
+            267.481,
+            301.502,
+            277.444
+          ]
+        }
+      ],
+      "id": "07-s015",
+      "frame_label": "07-s015",
+      "output_page": 15,
+      "tex": "slajdovi/s015_vhdl_netlist_i_standard.tex",
+      "source_text": "4. Netlist Language. VHDL je moćan jezik sa kojim se unose novi dizajni na visokom nivou, ali\nje takođe koristan kao oblik komunikacije niskog nivoa između različitih alata u računarskom\nokruženju dizajna. Karakteristike strukturalnog jezika VHDL-a omogućavaju da se efikasno\nkoristi kao jezik liste povezanosti mreža, zamenjujući (ili povećavajući) druge jezike liste\npovezanosti mreža kao što je EDIF.\n5. Standardni jezik. Jedan od najubedljivijih razloga da steknete iskustvo i znanje o VHDL-u je\nnjegovo usvajanje kao standarda u zajednici elektronskog dizajna. Korišćenje standardnog jezika\nkao što je VHDL će praktično garantovati da nećete morati da bacate i ponovo preuzimate\nkoncepte dizajna samo zato što metod unosa dizajna koji ste izabrali nije podržan u novijoj\ngeneraciji alata za dizajn. Korišćenje standardnog jezika takođe znači da je veća verovatnoća da\nćete moći da iskoristite prednosti najsavremenijih alata za dizajn i da ćete imati pristup bazi\nznanja hiljada drugih inženjera, od kojih mnogi rešavaju slične probleme.\nVHDL: Jednostavno ili složeno koliko želite. Iako je istina da je VHDL veliki i\nsložen jezik, zapravo nije teško početi sa njim. Koristite ga kako vam je potrebno i\nistražujte napredne funkcije dok postajete sigurniji.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst"
+        ],
+        "sadrzaj": "Puni odeljci 4/5 i završni pasus; podebljani Netlist Language, Standardni jezik i VHDL, EDIF i svi iskazi o alatima."
+      }
+    },
+    {
+      "pdf_page": 8,
+      "position": "donji",
+      "source_number": 16,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "Kako se koristi VHDL?",
+          "bbox_pt": [
+            77.616,
+            397.391,
+            163.278,
+            407.354
+          ]
+        },
+        {
+          "text": "VHDL je programski jezik opšte namene optimizovan za dizajn elektronskih kola. Kao takav, postoji",
+          "bbox_pt": [
+            77.616,
+            408.191,
+            442.233,
+            418.154
+          ]
+        },
+        {
+          "text": "mnogo tačaka u celokupnom procesu dizajna u kojima VHDL može pomoći.",
+          "bbox_pt": [
+            77.616,
+            418.991,
+            354.47,
+            428.954
+          ]
+        },
+        {
+          "text": "Za specifikaciju dizajna: VHDL se može koristiti na početku, dok još dizajnirate na visokom nivou, da",
+          "bbox_pt": [
+            77.616,
+            440.591,
+            447.093,
+            450.554
+          ]
+        },
+        {
+          "text": "biste prikazali performanse i zahteve interfejsa svake komponente u velikom sistemu. Ovo je posebno",
+          "bbox_pt": [
+            77.616,
+            451.391,
+            444.528,
+            461.354
+          ]
+        },
+        {
+          "text": "korisno za velike projekte koji uključuju mnogo članova tima. Koristeći pristup dizajnu odozgo nadole,",
+          "bbox_pt": [
+            77.616,
+            462.191,
+            449.933,
+            472.154
+          ]
+        },
+        {
+          "text": "dizajner sistema može definisati interfejs za svaku komponentu u sistemu i opisati zahteve prihvatanja",
+          "bbox_pt": [
+            77.616,
+            472.991,
+            445.671,
+            482.954
+          ]
+        },
+        {
+          "text": "tih komponenti u obliku testbench-a visokog nivoa. Definicija interfejsa (obično izražena kao",
+          "bbox_pt": [
+            77.616,
+            483.791,
+            413.91,
+            493.754
+          ]
+        },
+        {
+          "text": "deklaracija VHDL entiteta) i specifikacija performansi visokog nivoa mogu se zatim preneti na druge",
+          "bbox_pt": [
+            77.616,
+            494.591,
+            442.638,
+            504.554
+          ]
+        },
+        {
+          "text": "članove tima radi dovršavanja ili usavršavanja.",
+          "bbox_pt": [
+            77.616,
+            505.411,
+            246.321,
+            515.374
+          ]
+        },
+        {
+          "text": "Za unos dizajna: Unos dizajna je ona faza u kojoj se detalji sistema unose u sistem projektovanja",
+          "bbox_pt": [
+            77.616,
+            527.011,
+            426.006,
+            536.974
+          ]
+        },
+        {
+          "text": "zasnovan na računaru. U ovoj fazi možete izraziti svoj dizajn (ili delove vašeg dizajna) kao šeme (bilo",
+          "bbox_pt": [
+            77.616,
+            537.811,
+            445.653,
+            547.774
+          ]
+        },
+        {
+          "text": "na nivou ploče ili čisto funkcionalne) ili koristeći VHDL opise. Ako ćete koristiti tehnologiju sinteze,",
+          "bbox_pt": [
+            77.616,
+            548.611,
+            443.072,
+            558.574
+          ]
+        },
+        {
+          "text": "onda ćete želeti da napišete VHDL delove dizajna koristeći stil VHDL koji je prikladan za sintezu.",
+          "bbox_pt": [
+            77.616,
+            559.411,
+            433.082,
+            569.374
+          ]
+        },
+        {
+          "text": "Faza unosa dizajna može uključivati alate i metode unosa dizajna koje nisu VHDL. U mnogim",
+          "bbox_pt": [
+            77.616,
+            570.211,
+            418.077,
+            580.174
+          ]
+        },
+        {
+          "text": "slučajevima, opisi dizajna napisani u VHDL-u se kombinuju sa drugim prikazima, kao što su šeme, da",
+          "bbox_pt": [
+            77.616,
+            581.011,
+            446.031,
+            590.974
+          ]
+        },
+        {
+          "text": "bi se formirao kompletan sistem.",
+          "bbox_pt": [
+            77.616,
+            591.811,
+            195.588,
+            601.774
+          ]
+        }
+      ],
+      "id": "07-s016",
+      "frame_label": "07-s016",
+      "output_page": 16,
+      "tex": "slajdovi/s016_vhdl_specifikacija_i_unos.tex",
+      "source_text": "Kako se koristi VHDL?\nVHDL je programski jezik opšte namene optimizovan za dizajn elektronskih kola. Kao takav, postoji\nmnogo tačaka u celokupnom procesu dizajna u kojima VHDL može pomoći.\nZa specifikaciju dizajna: VHDL se može koristiti na početku, dok još dizajnirate na visokom nivou, da\nbiste prikazali performanse i zahteve interfejsa svake komponente u velikom sistemu. Ovo je posebno\nkorisno za velike projekte koji uključuju mnogo članova tima. Koristeći pristup dizajnu odozgo nadole,\ndizajner sistema može definisati interfejs za svaku komponentu u sistemu i opisati zahteve prihvatanja\ntih komponenti u obliku testbench-a visokog nivoa. Definicija interfejsa (obično izražena kao\ndeklaracija VHDL entiteta) i specifikacija performansi visokog nivoa mogu se zatim preneti na druge\nčlanove tima radi dovršavanja ili usavršavanja.\nZa unos dizajna: Unos dizajna je ona faza u kojoj se detalji sistema unose u sistem projektovanja\nzasnovan na računaru. U ovoj fazi možete izraziti svoj dizajn (ili delove vašeg dizajna) kao šeme (bilo\nna nivou ploče ili čisto funkcionalne) ili koristeći VHDL opise. Ako ćete koristiti tehnologiju sinteze,\nonda ćete želeti da napišete VHDL delove dizajna koristeći stil VHDL koji je prikladan za sintezu.\nFaza unosa dizajna može uključivati alate i metode unosa dizajna koje nisu VHDL. U mnogim\nslučajevima, opisi dizajna napisani u VHDL-u se kombinuju sa drugim prikazima, kao što su šeme, da\nbi se formirao kompletan sistem.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst"
+        ],
+        "sadrzaj": "Naslov i tri kompletna pasusa o opštoj nameni, specifikaciji i unosu dizajna."
+      }
+    },
+    {
+      "pdf_page": 9,
+      "position": "gornji",
+      "source_number": 17,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "Za simulaciju dizajna: Jednom kada uđete u sistem projektovanja zasnovan na računaru,",
+          "bbox_pt": [
+            87.168,
+            92.561,
+            404.544,
+            102.524
+          ]
+        },
+        {
+          "text": "verovatno ćete želeti da simulirate rad vašeg kola da biste saznali da li će ono ispuniti",
+          "bbox_pt": [
+            87.168,
+            103.361,
+            395.674,
+            113.324
+          ]
+        },
+        {
+          "text": "funkcionalne i vremenske zahteve razvijene tokom procesa specifikacije. Ako ste kreirali",
+          "bbox_pt": [
+            87.168,
+            114.161,
+            408.036,
+            124.124
+          ]
+        },
+        {
+          "text": "jedan ili više test bench-a kao deo vaše specifikacije dizajna, onda ćete koristiti simulator da",
+          "bbox_pt": [
+            87.168,
+            124.961,
+            419.488,
+            134.924
+          ]
+        },
+        {
+          "text": "primenite test bench-a na svoj dizajn onako kako je napisan za sintezu (funkcionalna",
+          "bbox_pt": [
+            87.168,
+            135.761,
+            392.084,
+            145.724
+          ]
+        },
+        {
+          "text": "simulacija) i eventualno korišćenje verzije nakon sinteze dizajna takođe.",
+          "bbox_pt": [
+            87.168,
+            146.561,
+            347.827,
+            156.524
+          ]
+        },
+        {
+          "text": "Za projektnu dokumentaciju: Karakteristike strukturiranog programiranja VHDL-a, zajedno sa",
+          "bbox_pt": [
+            83.568,
+            169.891,
+            424.335,
+            179.854
+          ]
+        },
+        {
+          "text": "njegovim karakteristikama upravljanja konfiguracijom, čine VHDL prirodnim oblikom u kojem se",
+          "bbox_pt": [
+            83.568,
+            180.691,
+            438.555,
+            190.654
+          ]
+        },
+        {
+          "text": "dokumentuje veliko i složeno kolo. Na vrednost korišćenja jezika visokog nivoa kao što je VHDL za",
+          "bbox_pt": [
+            83.568,
+            191.469616,
+            446.463328,
+            201.459184
+          ]
+        },
+        {
+          "text": "projektnu dokumentaciju ukazuje činjenica da Ministarstvo odbrane SAD sada zahteva VHDL kao",
+          "bbox_pt": [
+            83.568,
+            202.321,
+            438.942,
+            212.284
+          ]
+        },
+        {
+          "text": "standardni format za komunikaciju zahteva dizajna između vladinih podizvođača.",
+          "bbox_pt": [
+            83.568,
+            213.121,
+            377.706,
+            223.084
+          ]
+        },
+        {
+          "text": "Kao alternativa šemi: Šeme su dugo bile deo dizajna elektronskih sistema i malo je verovatno da će",
+          "bbox_pt": [
+            83.568,
+            234.721,
+            441.636,
+            244.684
+          ]
+        },
+        {
+          "text": "uskoro izumreti. Šeme imaju svoje prednosti, posebno kada se koriste za prikazivanje kola u obliku",
+          "bbox_pt": [
+            83.568,
+            245.521,
+            441.417,
+            255.484
+          ]
+        },
+        {
+          "text": "blok dijagrama. Iz tog razloga mnogi VHDL alati za dizajn sada nude mogućnost kombinovanja",
+          "bbox_pt": [
+            83.568,
+            256.321,
+            430.062,
+            266.284
+          ]
+        },
+        {
+          "text": "šematskih i VHDL reprezentacija u dizajnu.",
+          "bbox_pt": [
+            83.568,
+            267.121,
+            242.085,
+            277.084
+          ]
+        }
+      ],
+      "id": "07-s017",
+      "frame_label": "07-s017",
+      "output_page": 17,
+      "tex": "slajdovi/s017_vhdl_simulacija_i_dokumentacija.tex",
+      "source_text": "Za simulaciju dizajna: Jednom kada uđete u sistem projektovanja zasnovan na računaru,\nverovatno ćete želeti da simulirate rad vašeg kola da biste saznali da li će ono ispuniti\nfunkcionalne i vremenske zahteve razvijene tokom procesa specifikacije. Ako ste kreirali\njedan ili više test bench-a kao deo vaše specifikacije dizajna, onda ćete koristiti simulator da\nprimenite test bench-a na svoj dizajn onako kako je napisan za sintezu (funkcionalna\nsimulacija) i eventualno korišćenje verzije nakon sinteze dizajna takođe.\nZa projektnu dokumentaciju: Karakteristike strukturiranog programiranja VHDL-a, zajedno sa\nnjegovim karakteristikama upravljanja konfiguracijom, čine VHDL prirodnim oblikom u kojem se\ndokumentuje veliko i složeno kolo. Na vrednost korišćenja jezika visokog nivoa kao što je VHDL za\nprojektnu dokumentaciju ukazuje činjenica da Ministarstvo odbrane SAD sada zahteva VHDL kao\nstandardni format za komunikaciju zahteva dizajna između vladinih podizvođača.\nKao alternativa šemi: Šeme su dugo bile deo dizajna elektronskih sistema i malo je verovatno da će\nuskoro izumreti. Šeme imaju svoje prednosti, posebno kada se koriste za prikazivanje kola u obliku\nblok dijagrama. Iz tog razloga mnogi VHDL alati za dizajn sada nude mogućnost kombinovanja\nšematskih i VHDL reprezentacija u dizajnu.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst"
+        ],
+        "sadrzaj": "Cela tri pasusa o simulaciji, projektnoj dokumentaciji i alternativi šemi. Istorijske tvrdnje nisu ažurirane."
+      }
+    },
+    {
+      "pdf_page": 9,
+      "position": "donji",
+      "source_number": 18,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "Gde se VHDL uklapa u ovaj dijagram? VHDL (zajedno sa drugim oblicima unosa, kao što su šeme i blok dijagrami)",
+          "bbox_pt": [
+            63.024,
+            493.361,
+            482.991,
+            503.324
+          ]
+        },
+        {
+          "text": "će se koristiti za unos dizajna. VHDL izvorni kod se može uneti u simulaciju, omogućavajući mu da bude",
+          "bbox_pt": [
+            63.024,
+            504.161,
+            443.98,
+            514.124
+          ]
+        },
+        {
+          "text": "funkcionalno verifikovan, ili može biti prosleđen direktno alatima za sintezu za implementaciju u određenom tipu",
+          "bbox_pt": [
+            63.024,
+            514.991,
+            472.569,
+            524.954
+          ]
+        },
+        {
+          "text": "uređaja. Na strani razvoja testa, mogu se kreirati VHDL testbench koje testiraju kolo kako bi se proverilo da li",
+          "bbox_pt": [
+            63.024,
+            525.791,
+            459.985,
+            535.754
+          ]
+        },
+        {
+          "text": "ispunjava funkcionalna i vremenska ograničenja specifikacije. Testbench se mogu uneti pomoću editora teksta ili",
+          "bbox_pt": [
+            63.024,
+            536.591,
+            470.557,
+            546.554
+          ]
+        },
+        {
+          "text": "mogu biti generisani iz drugih oblika informacija o test stimulansima, kao što su grafički talasni oblici. Za preciznu",
+          "bbox_pt": [
+            63.024,
+            547.391,
+            477.969,
+            557.354
+          ]
+        },
+        {
+          "text": "vremensku simulaciju kola posle rutiranja, verovatno ćete koristiti program za generisanje vremenskog modela",
+          "bbox_pt": [
+            63.024,
+            558.191,
+            462.577,
+            568.154
+          ]
+        },
+        {
+          "text": "dobijen od dobavljača uređaja ili treće strane dobavljača simulacionog modela. Alati za generisanje modela, kao što je",
+          "bbox_pt": [
+            63.024,
+            568.991,
+            488.98,
+            578.954
+          ]
+        },
+        {
+          "text": "ovaj, obično generišu VHDL izvorne datoteke sa vremenskim napomenama koje podržavaju veoma precizne",
+          "bbox_pt": [
+            63.024,
+            579.791,
+            455.055,
+            589.754
+          ]
+        },
+        {
+          "text": "simulacije na nivou sistema.",
+          "bbox_pt": [
+            63.024,
+            590.591,
+            164.78,
+            600.554
+          ]
+        }
+      ],
+      "id": "07-s018",
+      "frame_label": "07-s018",
+      "output_page": 18,
+      "tex": "slajdovi/s018_vhdl_u_procesu_razvoja.tex",
+      "source_text": "Gde se VHDL uklapa u ovaj dijagram? VHDL (zajedno sa drugim oblicima unosa, kao što su šeme i blok dijagrami)\nće se koristiti za unos dizajna. VHDL izvorni kod se može uneti u simulaciju, omogućavajući mu da bude\nfunkcionalno verifikovan, ili može biti prosleđen direktno alatima za sintezu za implementaciju u određenom tipu\nuređaja. Na strani razvoja testa, mogu se kreirati VHDL testbench koje testiraju kolo kako bi se proverilo da li\nispunjava funkcionalna i vremenska ograničenja specifikacije. Testbench se mogu uneti pomoću editora teksta ili\nmogu biti generisani iz drugih oblika informacija o test stimulansima, kao što su grafički talasni oblici. Za preciznu\nvremensku simulaciju kola posle rutiranja, verovatno ćete koristiti program za generisanje vremenskog modela\ndobijen od dobavljača uređaja ili treće strane dobavljača simulacionog modela. Alati za generisanje modela, kao što je\novaj, obično generišu VHDL izvorne datoteke sa vremenskim napomenama koje podržavaju veoma precizne\nsimulacije na nivou sistema.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst",
+          "crtezi"
+        ],
+        "sadrzaj": "Svih šest blokova, oba izvora za funkcionalnu simulaciju, obe putanje do vremenske simulacije, svi smerovi, simbol čipa i ceo prateći pasus."
+      }
+    },
+    {
+      "pdf_page": 10,
+      "position": "gornji",
+      "source_number": 19,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "Kada je reč o jezicima za opis hardvera, VHDL nije jedini. Verilog HDL postoji već dugi niz godina i ima veliki",
+          "bbox_pt": [
+            59.232,
+            107.521,
+            464.585,
+            117.484
+          ]
+        },
+        {
+          "text": "broj fanova koji ga koriste i za simulaciju i za sintezu. Kako se Verilog razlikuje od VHDL-a? Prvo, Verilog ima",
+          "bbox_pt": [
+            59.232,
+            118.321,
+            465.446,
+            128.284
+          ]
+        },
+        {
+          "text": "određenu prednost u dostupnosti simulacionih modela. Ubrzo nakon svog uvođenja (od strane Gatevai Design",
+          "bbox_pt": [
+            59.232,
+            129.141,
+            455.75,
+            139.104
+          ]
+        },
+        {
+          "text": "Automation sredinom 1980-ih), Verilog se uspostavio kao de fakto standardni jezik za ASIC simulacione biblioteke.",
+          "bbox_pt": [
+            59.232,
+            139.941,
+            479.39,
+            149.904
+          ]
+        },
+        {
+          "text": "Široka popularnost Verilog HDL-a za ovu svrhu ostavila je VHDL donekle iza u podršci za širok spektar ASIC",
+          "bbox_pt": [
+            59.232,
+            150.741,
+            459.741,
+            160.704
+          ]
+        },
+        {
+          "text": "uređaja. Inicijativa VITAL poboljšava VHDL standardnim metodom zapisa o kašnjenju koji je sličan onom koji se",
+          "bbox_pt": [
+            59.232,
+            161.541,
+            472.386,
+            171.504
+          ]
+        },
+        {
+          "text": "koristi u Verilog-u. VITAL će olakšati dobavljačima ASIC-a i drugima da brzo kreiraju VHDL modele iz postojećih",
+          "bbox_pt": [
+            59.232,
+            172.341,
+            479.27,
+            182.304
+          ]
+        },
+        {
+          "text": "Verilog biblioteka. Još jedna karakteristika koja je definisana u Verilogu (u Open Verilog International objavljenom",
+          "bbox_pt": [
+            59.232,
+            183.141,
+            477.656,
+            193.104
+          ]
+        },
+        {
+          "text": "standardu) je interfejs programskog jezika, ili PLI. PLI omogućava piscima simulacionih modela da izađu van",
+          "bbox_pt": [
+            59.232,
+            193.941,
+            456.182,
+            203.904
+          ]
+        },
+        {
+          "text": "Verilog-a kada je to potrebno za kreiranje bržih simulacionih modela, ili da kreiraju funkcije (koristeći jezik C) koje",
+          "bbox_pt": [
+            59.232,
+            204.741,
+            477.77,
+            214.704
+          ]
+        },
+        {
+          "text": "bi bilo teško ili neefikasno implementirati direktno u Verilogu. U korist VHDL-a su njegovo usvajanje kao IEEE",
+          "bbox_pt": [
+            59.232,
+            215.541,
+            465.983,
+            225.504
+          ]
+        },
+        {
+          "text": "standard (standard 1076) i njegove karakteristike upravljanja dizajnom višeg nivoa. Ove karakteristike upravljanja",
+          "bbox_pt": [
+            59.232,
+            226.341,
+            470.902,
+            236.304
+          ]
+        },
+        {
+          "text": "dizajnom, koje uključuju deklaraciju konfiguracije i karakteristike biblioteke VHDL-a, čine VHDL idealnim",
+          "bbox_pt": [
+            59.232,
+            237.141,
+            450.566,
+            247.104
+          ]
+        },
+        {
+          "text": "jezikom za upotrebu u velikim projektima. U većini aspekata, međutim, VHDL i Verilog su identični u funkciji.",
+          "bbox_pt": [
+            59.232,
+            247.941,
+            462.656,
+            257.904
+          ]
+        },
+        {
+          "text": "Sintaksa je drugačija (sa Verilogom koji liči na C, a VHDL više kao Pascal ili Ada), ali osnovni koncepti su isti.",
+          "bbox_pt": [
+            59.232,
+            258.719616,
+            463.424096,
+            268.709184
+          ]
+        }
+      ],
+      "id": "07-s019",
+      "frame_label": "07-s019",
+      "output_page": 19,
+      "tex": "slajdovi/s019_vhdl_i_verilog.tex",
+      "source_text": "Kada je reč o jezicima za opis hardvera, VHDL nije jedini. Verilog HDL postoji već dugi niz godina i ima veliki\nbroj fanova koji ga koriste i za simulaciju i za sintezu. Kako se Verilog razlikuje od VHDL-a? Prvo, Verilog ima\nodređenu prednost u dostupnosti simulacionih modela. Ubrzo nakon svog uvođenja (od strane Gatevai Design\nAutomation sredinom 1980-ih), Verilog se uspostavio kao de fakto standardni jezik za ASIC simulacione biblioteke.\nŠiroka popularnost Verilog HDL-a za ovu svrhu ostavila je VHDL donekle iza u podršci za širok spektar ASIC\nuređaja. Inicijativa VITAL poboljšava VHDL standardnim metodom zapisa o kašnjenju koji je sličan onom koji se\nkoristi u Verilog-u. VITAL će olakšati dobavljačima ASIC-a i drugima da brzo kreiraju VHDL modele iz postojećih\nVerilog biblioteka. Još jedna karakteristika koja je definisana u Verilogu (u Open Verilog International objavljenom\nstandardu) je interfejs programskog jezika, ili PLI. PLI omogućava piscima simulacionih modela da izađu van\nVerilog-a kada je to potrebno za kreiranje bržih simulacionih modela, ili da kreiraju funkcije (koristeći jezik C) koje\nbi bilo teško ili neefikasno implementirati direktno u Verilogu. U korist VHDL-a su njegovo usvajanje kao IEEE\nstandard (standard 1076) i njegove karakteristike upravljanja dizajnom višeg nivoa. Ove karakteristike upravljanja\ndizajnom, koje uključuju deklaraciju konfiguracije i karakteristike biblioteke VHDL-a, čine VHDL idealnim\njezikom za upotrebu u velikim projektima. U većini aspekata, međutim, VHDL i Verilog su identični u funkciji.\nSintaksa je drugačija (sa Verilogom koji liči na C, a VHDL više kao Pascal ili Ada), ali osnovni koncepti su isti.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst"
+        ],
+        "sadrzaj": "Ceo dugi pasus: istorijski razvoj, modeli, VITAL/PLI/IEEE1076, prednosti upravljanja i poređenje sintakse; izvorni Gatevai sačuvan."
+      }
+    },
+    {
+      "pdf_page": 10,
+      "position": "donji",
+      "source_number": 20,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "Oba jezika se lako uče, ali ih je teško savladati.",
+          "bbox_pt": [
+            116.18,
+            439.221,
+            286.36,
+            449.184
+          ]
+        },
+        {
+          "text": "Kada naučite jedan od ovih jezika, nećete imati problema da pređete na drugi.",
+          "bbox_pt": [
+            116.18,
+            460.799616,
+            396.625424,
+            470.789184
+          ]
+        },
+        {
+          "text": "Suština je sledeća: raspravljanje o jezičkim karakteristikama je besmisleno i najbolje je ostaviti",
+          "bbox_pt": [
+            116.18,
+            482.441,
+            458.486,
+            492.404
+          ]
+        },
+        {
+          "text": "za slobodno vreme.",
+          "bbox_pt": [
+            116.18,
+            493.241,
+            186.047,
+            503.204
+          ]
+        },
+        {
+          "text": "Trebalo bi da izaberete skup alata koji će vam pomoći da obavite svoj posao. Izaberite ove alate",
+          "bbox_pt": [
+            116.18,
+            514.841,
+            461.248,
+            524.804
+          ]
+        },
+        {
+          "text": "na osnovu njihovih karakteristika i njihove podrške za vašu specifičnu aplikaciju i tehnologiju.",
+          "bbox_pt": [
+            116.18,
+            525.641,
+            457.361,
+            535.604
+          ]
+        },
+        {
+          "text": "Ne birajte jezik opisa hardvera samo na osnovu toga kako izgleda",
+          "bbox_pt": [
+            116.18,
+            536.441,
+            352.439,
+            546.404
+          ]
+        }
+      ],
+      "id": "07-s020",
+      "frame_label": "07-s020",
+      "output_page": 20,
+      "tex": "slajdovi/s020_izbor_hdl_alata.tex",
+      "source_text": "Oba jezika se lako uče, ali ih je teško savladati.\nKada naučite jedan od ovih jezika, nećete imati problema da pređete na drugi.\nSuština je sledeća: raspravljanje o jezičkim karakteristikama je besmisleno i najbolje je ostaviti\nza slobodno vreme.\nTrebalo bi da izaberete skup alata koji će vam pomoći da obavite svoj posao. Izaberite ove alate\nna osnovu njihovih karakteristika i njihove podrške za vašu specifičnu aplikaciju i tehnologiju.\nNe birajte jezik opisa hardvera samo na osnovu toga kako izgleda",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst"
+        ],
+        "sadrzaj": "Svih pet iskaza, crvena početna rečenica, izbor alata prema aplikaciji i tehnologiji i završna zabrana izbora po izgledu jezika."
+      }
+    },
+    {
+      "pdf_page": 11,
+      "position": "gornji",
+      "source_number": 21,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "Jednostavan VHDL kod",
+          "bbox_pt": [
+            196.1,
+            76.221,
+            283.112,
+            86.184
+          ]
+        },
+        {
+          "text": "Dva osnovna elementa opisa - koda",
+          "bbox_pt": [
+            43.608,
+            145.891,
+            171.931,
+            155.854
+          ]
+        },
+        {
+          "text": "1. ENTITY",
+          "bbox_pt": [
+            47.76,
+            186.112,
+            130.758,
+            206.038
+          ]
+        },
+        {
+          "text": "2. ARCHITECTURE",
+          "bbox_pt": [
+            47.76,
+            252.022,
+            202.722,
+            271.948
+          ]
+        },
+        {
+          "text": "Za jedan entity može biti definisano više arhitektura. Obrnuto NE.",
+          "bbox_pt": [
+            149.02,
+            293.681,
+            387.687,
+            303.644
+          ]
+        }
+      ],
+      "id": "07-s021",
+      "frame_label": "07-s021",
+      "output_page": 21,
+      "tex": "slajdovi/s021_entity_i_architecture.tex",
+      "source_text": "Jednostavan VHDL kod\nDva osnovna elementa opisa - koda\n1. ENTITY\n2. ARCHITECTURE\nZa jedan entity može biti definisano više arhitektura. Obrnuto NE.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst",
+          "formule",
+          "kod",
+          "crtezi"
+        ],
+        "sadrzaj": "Šema sa dva I, jednim NE i ILI, sve veze/polariteti i x1/x2/x3/f; uvod, crvene ENTITY/ARCHITECTURE oznake, oba cela kodna dela i zaključak o više arhitektura."
+      }
+    },
+    {
+      "pdf_page": 11,
+      "position": "donji",
+      "source_number": 22,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "Opis kola – design entity - entity",
+          "bbox_pt": [
+            184.06,
+            400.051,
+            302.187,
+            410.014
+          ]
+        }
+      ],
+      "id": "07-s022",
+      "frame_label": "07-s022",
+      "output_page": 22,
+      "tex": "slajdovi/s022_struktura_design_entity.tex",
+      "source_text": "Opis kola – design entity - entity",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst",
+          "crtezi"
+        ],
+        "sadrzaj": "Naslov i ugnježdena Entity oblast sa dva odvojena okvira Entity declaration i Architecture, pozadinsko grupisanje."
+      }
+    },
+    {
+      "pdf_page": 12,
+      "position": "gornji",
+      "source_number": 23,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [],
+      "id": "07-s023",
+      "frame_label": "07-s023",
+      "output_page": 23,
+      "tex": "slajdovi/s023_entity_architecture_obrazac.tex",
+      "source_text": "",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst",
+          "kod"
+        ],
+        "sadrzaj": "Ceo sintaksni obrazac sa rasterskog originala, opcioni/signalski delovi, podvučeni identifikatori i izvorno SIGNAL] bez otvarajuće uglaste zagrade; ranije potvrđen pilot."
+      }
+    },
+    {
+      "pdf_page": 12,
+      "position": "donji",
+      "source_number": 24,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "Jednobitni potpuni sabirač",
+          "bbox_pt": [
+            229.13,
+            393.211,
+            324.026,
+            403.174
+          ]
+        }
+      ],
+      "id": "07-s024",
+      "frame_label": "07-s024",
+      "output_page": 24,
+      "tex": "slajdovi/s024_jednobitni_potpuni_sabirac.tex",
+      "source_text": "Jednobitni potpuni sabirač",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst",
+          "kod"
+        ],
+        "sadrzaj": "Naslov i celokupan VHDL fulladd, biblioteka, portovi Cin/x/y/s/Cout, XOR suma i sva tri člana prenosa; ranije potvrđen pilot."
+      }
+    },
+    {
+      "pdf_page": 13,
+      "position": "gornji",
+      "source_number": 25,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "“Dodeljivanje vrednosti”",
+          "bbox_pt": [
+            206.74,
+            82.701,
+            297.156,
+            92.664
+          ]
+        }
+      ],
+      "id": "07-s025",
+      "frame_label": "07-s025",
+      "output_page": 25,
+      "tex": "slajdovi/s025_dodeljivanje_vrednosti.tex",
+      "source_text": "“Dodeljivanje vrednosti”",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst",
+          "kod"
+        ],
+        "sadrzaj": "Naslov sa navodnicima, opšti signal_name izraz, deklaracija četiri signala, tri tačke i konkretna logička dodela."
+      }
+    },
+    {
+      "pdf_page": 13,
+      "position": "donji",
+      "source_number": 26,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "Primer logička operacija",
+          "bbox_pt": [
+            231.34,
+            389.351,
+            319.873,
+            399.314
+          ]
+        },
+        {
+          "text": "Primer aritmetička operacija",
+          "bbox_pt": [
+            210.43,
+            510.281,
+            312.868,
+            520.244
+          ]
+        }
+      ],
+      "id": "07-s026",
+      "frame_label": "07-s026",
+      "output_page": 26,
+      "tex": "slajdovi/s026_logicke_i_aritmeticke_vektorske_operacije.tex",
+      "source_text": "Primer logička operacija\nPrimer aritmetička operacija",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst",
+          "formule",
+          "kod"
+        ],
+        "sadrzaj": "Oba izvorna naslova, deklaracije A/B/C i X/Y/S sa suprotnim smerovima opsega, dve trotačke, obe dodele i sva tri člana engleskog objašnjenja logičkog proizvoda."
+      }
+    },
+    {
+      "pdf_page": 14,
+      "position": "gornji",
+      "source_number": 27,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [],
+      "id": "07-s027",
+      "frame_label": "07-s027",
+      "output_page": 27,
+      "tex": "slajdovi/s027_prioritet_abel_i_vhdl.tex",
+      "source_text": "",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst",
+          "kod"
+        ],
+        "sadrzaj": "Ceo ponovljeni ABEL PRIORTWO i ceo izvorni VHDL Vprior2, biblioteke, portovi, sensitivity lista, sve dodele, petlja i if/elsif. Originalna funkcionalna greška sa zastavicama je sačuvana; nema prepravke algoritma."
+      }
+    },
+    {
+      "pdf_page": 14,
+      "position": "donji",
+      "source_number": 28,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "Dataflow model - Konkuretni izrazi – redosled kojim se pojavljuju ne menja značenje koda.",
+          "bbox_pt": [
+            109.97,
+            390.281,
+            440.944,
+            400.244
+          ]
+        },
+        {
+          "text": "Svi se izvršavaju u paraleli. Kombinaciona logika.",
+          "bbox_pt": [
+            109.97,
+            401.081,
+            291.248,
+            411.044
+          ]
+        },
+        {
+          "text": "entity ckt is",
+          "bbox_pt": [
+            43.608,
+            428.02216,
+            93.96,
+            434.63824
+          ]
+        },
+        {
+          "text": "port (A: in BIT:=1;",
+          "bbox_pt": [
+            43.608,
+            435.82216,
+            117.118,
+            442.43824
+          ]
+        },
+        {
+          "text": "end ckt;",
+          "bbox_pt": [
+            43.608,
+            443.62216,
+            74.496,
+            450.23824
+          ]
+        },
+        {
+          "text": "B: in BIT; Y,Z: out BIT);",
+          "bbox_pt": [
+            124.99,
+            435.82216,
+            221.77528,
+            442.43824
+          ]
+        },
+        {
+          "text": "architecture ckt of ckt is",
+          "bbox_pt": [
+            43.608,
+            459.22216,
+            144.358,
+            465.83824
+          ]
+        },
+        {
+          "text": "begin",
+          "bbox_pt": [
+            43.608,
+            467.02216,
+            62.856,
+            473.63824
+          ]
+        },
+        {
+          "text": "B <= A and A;",
+          "bbox_pt": [
+            43.608,
+            474.84216,
+            93.93816,
+            481.45824
+          ]
+        },
+        {
+          "text": "Y<= A and B;",
+          "bbox_pt": [
+            43.608,
+            482.64216,
+            90.09552,
+            489.25824
+          ]
+        },
+        {
+          "text": "Z<= B after 10 ns;",
+          "bbox_pt": [
+            43.608,
+            490.44216,
+            113.278,
+            497.05824
+          ]
+        },
+        {
+          "text": "end ckt;",
+          "bbox_pt": [
+            43.608,
+            498.24216,
+            74.496,
+            504.85824
+          ]
+        },
+        {
+          "text": "entity ckt is",
+          "bbox_pt": [
+            273.67,
+            428.02216,
+            323.998,
+            434.63824
+          ]
+        },
+        {
+          "text": "port (A: in BIT:=1;",
+          "bbox_pt": [
+            273.67,
+            435.82216,
+            347.188,
+            442.43824
+          ]
+        },
+        {
+          "text": "end ckt;",
+          "bbox_pt": [
+            273.67,
+            443.62216,
+            304.558,
+            450.23824
+          ]
+        },
+        {
+          "text": "B: in BIT; Y,Z: out BIT);",
+          "bbox_pt": [
+            355.06,
+            435.82216,
+            451.84528,
+            442.43824
+          ]
+        },
+        {
+          "text": "architecture ckt of ckt is",
+          "bbox_pt": [
+            273.67,
+            459.22216,
+            374.428,
+            465.83824
+          ]
+        },
+        {
+          "text": "begin",
+          "bbox_pt": [
+            273.67,
+            467.02216,
+            292.918,
+            473.63824
+          ]
+        },
+        {
+          "text": "Y<= A and B;",
+          "bbox_pt": [
+            273.67,
+            474.84216,
+            320.15752,
+            481.45824
+          ]
+        },
+        {
+          "text": "Z<= B after 10 ns;",
+          "bbox_pt": [
+            273.67,
+            482.64216,
+            343.318,
+            489.25824
+          ]
+        },
+        {
+          "text": "B <= A and A;",
+          "bbox_pt": [
+            273.67,
+            490.44216,
+            324.00016,
+            497.05824
+          ]
+        },
+        {
+          "text": "end ckt;",
+          "bbox_pt": [
+            273.67,
+            498.24216,
+            304.558,
+            504.85824
+          ]
+        },
+        {
+          "text": "A = 1, B = 0, Y = 0, Z = 0",
+          "bbox_pt": [
+            223.8,
+            533.758,
+            328.952,
+            544.594
+          ]
+        },
+        {
+          "text": "Y = 1, Z = 1",
+          "bbox_pt": [
+            241.75,
+            592.478,
+            291.352,
+            603.314
+          ]
+        }
+      ],
+      "id": "07-s028",
+      "frame_label": "07-s028",
+      "output_page": 28,
+      "tex": "slajdovi/s028_dataflow_redosled_izraza.tex",
+      "source_text": "Dataflow model - Konkuretni izrazi – redosled kojim se pojavljuju ne menja značenje koda.\nSvi se izvršavaju u paraleli. Kombinaciona logika.\nentity ckt is\nport (A: in BIT:=1;\nend ckt;\nB: in BIT; Y,Z: out BIT);\narchitecture ckt of ckt is\nbegin\nB <= A and A;\nY<= A and B;\nZ<= B after 10 ns;\nend ckt;\nentity ckt is\nport (A: in BIT:=1;\nend ckt;\nB: in BIT; Y,Z: out BIT);\narchitecture ckt of ckt is\nbegin\nY<= A and B;\nZ<= B after 10 ns;\nB <= A and A;\nend ckt;\nA = 1, B = 0, Y = 0, Z = 0\nY = 1, Z = 1",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst",
+          "kod",
+          "crtezi"
+        ],
+        "sadrzaj": "Oba ista ckt primera u različitom redosledu, sva tri izraza, 10 ns, izvorni BIT:=1 i dodela IN portu B; uvodni opis, početna četiri stanja, strelica i konačni Y/Z."
+      }
+    },
+    {
+      "pdf_page": 15,
+      "position": "gornji",
+      "source_number": 29,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "entity latch is",
+          "bbox_pt": [
+            46.536,
+            163.121,
+            94.992,
+            173.084
+          ]
+        },
+        {
+          "text": "port",
+          "bbox_pt": [
+            82.536,
+            173.921,
+            97.143,
+            183.884
+          ]
+        },
+        {
+          "text": "(s,r : in bit;",
+          "bbox_pt": [
+            118.56,
+            173.921,
+            158.601,
+            183.884
+          ]
+        },
+        {
+          "text": "q, nq : out bit);",
+          "bbox_pt": [
+            118.56,
+            184.721,
+            172.362,
+            194.684
+          ]
+        },
+        {
+          "text": "s='0’, r='0', q='1', nq='0'",
+          "bbox_pt": [
+            298.73,
+            169.751,
+            384.97,
+            179.714
+          ]
+        },
+        {
+          "text": "end latch;",
+          "bbox_pt": [
+            46.536,
+            195.521,
+            81.78,
+            205.484
+          ]
+        },
+        {
+          "text": "architecture dataflow of latch is",
+          "bbox_pt": [
+            46.536,
+            217.151,
+            160.449,
+            227.114
+          ]
+        },
+        {
+          "text": "begin",
+          "bbox_pt": [
+            46.536,
+            227.951,
+            66.489,
+            237.914
+          ]
+        },
+        {
+          "text": "q<=r nor nq;",
+          "bbox_pt": [
+            82.536,
+            238.751,
+            128.202,
+            248.714
+          ]
+        },
+        {
+          "text": "nq<=s nor q;",
+          "bbox_pt": [
+            82.536,
+            249.551,
+            128.688,
+            259.514
+          ]
+        },
+        {
+          "text": "end dataflow;",
+          "bbox_pt": [
+            46.536,
+            260.351,
+            95.577,
+            270.314
+          ]
+        },
+        {
+          "text": "r= ‘1’ pa r= ‘0’",
+          "bbox_pt": [
+            326.59,
+            209.011,
+            381.337,
+            218.974
+          ]
+        },
+        {
+          "text": "start : r='0',s='0',q='1',nq='0’",
+          "bbox_pt": [
+            241.97,
+            245.62636,
+            332.98732,
+            254.52664
+          ]
+        },
+        {
+          "text": "round 1: r='1',s='0',q='1',nq='0', The value '0' is scheduled on q.",
+          "bbox_pt": [
+            241.97,
+            255.22636,
+            444.34024,
+            264.12664
+          ]
+        },
+        {
+          "text": "round 2: r='1',s='0',q='0',nq='0', The value '1' is scheduled on nq.",
+          "bbox_pt": [
+            241.97,
+            264.82636,
+            448.40848,
+            273.72664
+          ]
+        },
+        {
+          "text": "round 3: r='1',s='0',q='0',nq='1', No new events are scheduled.",
+          "bbox_pt": [
+            241.97,
+            274.42636,
+            439.75432,
+            283.32664
+          ]
+        },
+        {
+          "text": "round 4: r='0',s='0',q='0',nq='1', No new events are scheduled.",
+          "bbox_pt": [
+            241.97,
+            284.02636,
+            439.75432,
+            292.92664
+          ]
+        }
+      ],
+      "id": "07-s029",
+      "frame_label": "07-s029",
+      "output_page": 29,
+      "tex": "slajdovi/s029_sr_latch_i_delta_ciklusi.tex",
+      "source_text": "entity latch is\nport\n(s,r : in bit;\nq, nq : out bit);\ns='0’, r='0', q='1', nq='0'\nend latch;\narchitecture dataflow of latch is\nbegin\nq<=r nor nq;\nnq<=s nor q;\nend dataflow;\nr= ‘1’ pa r= ‘0’\nstart : r='0',s='0',q='1',nq='0’\nround 1: r='1',s='0',q='1',nq='0', The value '0' is scheduled on q.\nround 2: r='1',s='0',q='0',nq='0', The value '1' is scheduled on nq.\nround 3: r='1',s='0',q='0',nq='1', No new events are scheduled.\nround 4: r='0',s='0',q='0',nq='1', No new events are scheduled.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst",
+          "formule",
+          "kod",
+          "crtezi"
+        ],
+        "sadrzaj": "Dva NOR sa ukrštenim vezama bez spoja na ukrštanju, svi priključci/negacije i SR Latch, ceo VHDL, početno stanje, dva događaja r i obe strelice, start i sva četiri round reda sa potpunim engleskim napomenama."
+      }
+    },
+    {
+      "pdf_page": 15,
+      "position": "donji",
+      "source_number": 30,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "Behavioral model – sekvencijalno izvršavanje – dodela vrednosti na kraju - PROCESS",
+          "bbox_pt": [
+            90.48,
+            412.631,
+            403.474,
+            422.594
+          ]
+        }
+      ],
+      "id": "07-s030",
+      "frame_label": "07-s030",
+      "output_page": 30,
+      "tex": "slajdovi/s030_process_obrazac.tex",
+      "source_text": "Behavioral model – sekvencijalno izvršavanje – dodela vrednosti na kraju - PROCESS",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst",
+          "kod"
+        ],
+        "sadrzaj": "Ceo behavioral model naslov i svih 11 redova sintaksnog obrasca, opcione uglaste/vitičaste zagrade, WAIT i sve kategorije naredbi."
+      }
+    },
+    {
+      "pdf_page": 16,
+      "position": "gornji",
+      "source_number": 31,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "MUX 2/1",
+          "bbox_pt": [
+            258.24,
+            88.991,
+            293.1,
+            98.954
+          ]
+        }
+      ],
+      "id": "07-s031",
+      "frame_label": "07-s031",
+      "output_page": 31,
+      "tex": "slajdovi/s031_mux_2_1_tri_procesa.tex",
+      "source_text": "MUX 2/1",
+      "inventory_confirmed": true,
+      "inventory": {
+        "kategorije": [
+          "tekst",
+          "kod"
+        ],
+        "sadrzaj": "Naslov i sva tri procesa, sve sensitivity liste, početna dodela u drugom, odsustvo ELSE u trećem, izvorni numerički 1 u drugom/trećem i literal 0 u prvom."
+      }
+    }
+  ]
+}

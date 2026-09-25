@@ -1,0 +1,11 @@
+\slajdid{09_3-s051}
+\begin{frame}[label=09_3-s051]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}Samo je jedan nMOS tranzistor koji je simetrične strukture pa može da vodi u oba smera
+\begin{columns}[T,onlytextwidth]\column{.49\textwidth}\centering\input{slike/tikz/s051_punjenje.tex}\par\medskip\raggedright
+U 1. slučaju kada je aktivan selekcioni signal $A=1$ i funkcija $B$ ima vrednost 1 izlazna kapacitivnost će se preko selekcionog, prolaznog, tranzistora napuniti na napon logičke jedinice ali na žalost na napon
+\[V_Y=V_{DD}-V_{Tn}\quad\text{ili tačnije}\quad V_Y=V_A-V_{Tn}\]
+i dolazi do degradacije, smanjenja, napona logičke jedinice. Na kraju prelaznog režima prolazni tranzistor radi u zasićenju $(V_{DG}\approx0,I=0,V_{GS}=V_{GTn})$.
+\column{.49\textwidth}\centering\input{slike/tikz/s051_praznjenje.tex}\par\medskip\raggedright
+U 2. slučaju kada je aktivan selekcioni signal $A=1$ i funkcija $B$ ima vrednost 0 izlazna kapacitivnost će se preko selekcionog, prolaznog, trnazistora isprazniti na napon logičke logičke nule. Na kraju prelaznog režima prolazni tranzistor radi u omskoj oblasti $(I=0,V_{GS}\approx V_{DD},V_{DS}=0)$.
+\end{columns}
+\end{frame}

@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "slides": {
+    "03-s001": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Naslov Kola srednjeg stepena integracije, bez dodavanja razdelnika. Original i novi prikaz pregledani u punoj veličini. Provereni natpisi, veze, formule i čitljivost; uočene greške originala izdvojene u uocene_greske.md.",
+      "source_render_sha256": "bfaa019848e5df72a38fdbb51d4151e2c195062f52ef7f5d1585f888d443ffe1",
+      "new_render_sha256": "f08c2b5322218a72a560f9fc8146cae8a6f946af87e0e58e8f086b812af6287e"
+    },
+    "03-s002": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Naslov, uvodni i završni pasus, svih pet klasa SSI/MSI/LSI/VLSI/ULSI sa punim engleskim nazivima i svim brojevima komponenti i gejtova. Original i novi prikaz pregledani u punoj veličini. Provereni natpisi, veze, formule i čitljivost; uočene greške originala izdvojene u uocene_greske.md.",
+      "source_render_sha256": "4feb7539585f73a26f89a036d1546a575e11a9d6fa00bacc1e98621ff7166b3b",
+      "new_render_sha256": "c6e479c029c6beb9816fa9e65dcf562a5d93d490a78eb1e123a148125faf7d7f"
+    },
+    "03-s003": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Kompletan pasus o 14/16/20 pinova, pinovima mase i napajanja, PCB i izboru pakovanja. Original i novi prikaz pregledani u punoj veličini. Provereni natpisi, veze, formule i čitljivost; uočene greške originala izdvojene u uocene_greske.md.",
+      "source_render_sha256": "7c6912a4b34f1c694d85dbed8283a851c14c9b3d8cc1f39a3d0e5228c0bda33d",
+      "new_render_sha256": "6b21611c6e70e0392164886dfda5bdc625129e7dee4eb2e12bb58eacdd4f5ef8"
+    },
+    "03-s004": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Tri puna pasusa, podvučena vrsta kola i crven pasus o nekorišćenim ulazima; izvorna jednačina A·B·C=A·(B·C) bez negacija i pogrešna tvrdnja o dva NI ostaju. Original i novi prikaz pregledani u punoj veličini. Provereni natpisi, veze, formule i čitljivost; uočene greške originala izdvojene u uocene_greske.md.",
+      "source_render_sha256": "4c536c82da0c7c7acd9af86759d796eb05cd2a1ccdfaec760bfc0496824936ab",
+      "new_render_sha256": "6cb56ad1f294408b08bd1b5032dd41c438c30d8d7afd80aef21937399b1164c9"
+    },
+    "03-s005": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Naslov, n<m i m=2^n, četiri invertora i četiri I2; S1/S0 i Y0–Y3, sve veze minterma; sve četiri formule i ceo opis dekodera. Original i novi prikaz pregledani u punoj veličini. Provereni natpisi, veze, formule i čitljivost; uočene greške originala izdvojene u uocene_greske.md.",
+      "source_render_sha256": "9bef37be4cebd87008d271848aa5730fff8b070fa50d80b5004377bd4b47153b",
+      "new_render_sha256": "655dc4f9d1e462519e185b0e6516867347fa828f6d3dbd316aefd189ae6e794a"
+    },
+    "03-s006": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Formula barB barA+BA, spolja B/A, unutra S1/S0, natpis Dekoder 2/4, Y0–Y3 i izdvojeno F. Original nema nacrtanu unutrašnju šemu ili veze do F; nema dopunjavanja. Original i novi prikaz pregledani u punoj veličini. Provereni natpisi, veze, formule i čitljivost; uočene greške originala izdvojene u uocene_greske.md.",
+      "source_render_sha256": "33d6f0d7a2ba5fe40e19a5821b6975ad52d6190f6ec658d2774d13813cffb2cf",
+      "new_render_sha256": "5e9cfaefeb48db862280881e16171ba3f12fd7395ef3799ea8a140123ce02d81"
+    },
+    "03-s007": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Tri tekstualna bloka i podvučena obaveza označavanja; puna unutrašnja šema i pravougaoni simbol, oba sa svim ulazima/izlazima i nazivom Dekoder 2/4. Original i novi prikaz pregledani u punoj veličini. Provereni natpisi, veze, formule i čitljivost; uočene greške originala izdvojene u uocene_greske.md.",
+      "source_render_sha256": "2eb55bf56469d502b2a180d44744210ef7c1f4e7d34654ae6a28204dac78215f",
+      "new_render_sha256": "04d2e1eb420b8b780cb7f9dae3b437287d2d82675872d0770981906106052fb8"
+    },
+    "03-s008": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Puni uvod i završni pasus; CS dodat svim četirima I3 u unutrašnjoj šemi i posebnom simbolu; uslov CS=0 i formula CS=CS1·CS2. Original i novi prikaz pregledani u punoj veličini. Provereni natpisi, veze, formule i čitljivost; uočene greške originala izdvojene u uocene_greske.md.",
+      "source_render_sha256": "ad3b4e4a74db92e6f14d02e244a632a28d9dc0f67931ea61fa77e3a06051a7d0",
+      "new_render_sha256": "6ddaa285f250151707b95f124d073a833023adcabfb5ac37a5e9794861552bc7"
+    },
+    "03-s009": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Spoljni Dekoder 4/16, pet Dekoder 2/4 blokova; svi unutrašnji Y0–Y3, spoljašnji Y0–Y15, CS, S3/S2 u prvom nivou, zajednički S1/S0 izlaznog nivoa; dva kraća i ceo dugi tekst sa 6/2^6. Original i novi prikaz pregledani u punoj veličini. Provereni natpisi, veze, formule i čitljivost; uočene greške originala izdvojene u uocene_greske.md.",
+      "source_render_sha256": "de482f8469b054288dd3cb0f9c505956470e11b691ecf58d03a87b2e7ad3319c",
+      "new_render_sha256": "aa38051904b4438700750c38e500d4001db7320bea28473c9429f791fd5f2389"
+    },
+    "03-s010": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Tri dekodera i/j/izabrani izlazni blok; dve zajedničke CS veze, svih šest S signala; 4×4 ukrštena mreža sa Y0–Y3V/K, označen presek Y2V/Y2K i strelica; YiV/YjK i sva četiri Y(16i+4j+n); kompletan tekst, 18 naspram 21 komponente. Original i novi prikaz pregledani u punoj veličini. Provereni natpisi, veze, formule i čitljivost; uočene greške originala izdvojene u uocene_greske.md.",
+      "source_render_sha256": "e1ecd6ecbdfcb4ce38447c2243313bef782e1bff60ad951b3004bcb40f353761",
+      "new_render_sha256": "fc69a5632e86ad997967be0854f8ed77e2c2562919a0b11f2e62e0b5f34e2cd3"
+    },
+    "03-s011": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Tri izlazna i tri ulazna primera; barska oznaka, kružić i oba zajedno; dve jednakosti i dve nejednakosti, svi Y/S/CS natpisi, puni pasusi i CS=CS1·barCS2. Original i novi prikaz pregledani u punoj veličini. Provereni natpisi, veze, formule i čitljivost; uočene greške originala izdvojene u uocene_greske.md.",
+      "source_render_sha256": "ceb89323434cc32ac9942376e51e6e0aeb93795c6b6e253578c017d2103d0af9",
+      "new_render_sha256": "d59b1e5c5c5d3b18ab6bc7c4115d3e9c723605ee90a193f08d9cd764d4f7c57d"
+    },
+    "03-s012": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Dva puna tekstualna bloka i oba skupa DMUX 1/4/S1/S0/I/Y0–Y3; levo samo isprekidani obris, desno bez obrisa. Nedostajuća kola i vodovi nisu izmišljeni. Original i novi prikaz pregledani u punoj veličini. Provereni natpisi, veze, formule i čitljivost; uočene greške originala izdvojene u uocene_greske.md.",
+      "source_render_sha256": "7c09ea2fa570a21ff473ebed8d39faf7f569da08a65172e9297dbe106900c226",
+      "new_render_sha256": "5135c1f65869dd427b1077495361eb65c61531f26f5050cc88a72f72a7684c54"
+    },
+    "03-s013": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Naslov, definicija sa n i 2^n; četiri invertora, četiri I3 i ILI4; sve veze S1/S0, I0–I3, Z i obris MUX 4/1; zaseban pravougaoni simbol. Original i novi prikaz pregledani u punoj veličini. Provereni natpisi, veze, formule i čitljivost; uočene greške originala izdvojene u uocene_greske.md.",
+      "source_render_sha256": "778ee7611c3872205151d579086d7fa84deab14eec3d3a0cd2c4807442287cf4",
+      "new_render_sha256": "84cdec6cf252a4301cd9a8355ddcae9e8789c4752a5a94085800c1a23631041b"
+    },
+    "03-s014": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Uvod, XNOR formula, dekoder i četiri I2/ILI4 unutar MUX; zaseban MUX, dve plave strelice, primer sa I3..I0=1,0,0,1 i S1=B/S0=A/Z=F; pun završni tekst. Original i novi prikaz pregledani u punoj veličini. Provereni natpisi, veze, formule i čitljivost; uočene greške originala izdvojene u uocene_greske.md.",
+      "source_render_sha256": "ed78f306911a14499229b253bc5649e9b87c149af0b888c505f9f75a56ed3879",
+      "new_render_sha256": "cf63625b5fac12463e52bfe05dff34b0851e8ddf8558c07dc542c321ef9bb08b"
+    },
+    "03-s015": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Uvod, unutrašnji dekoder sa CS i četiri I2/ILI4, zaseban MUX sa CS; plava strelica; pet blokova MUX 4/1, svih 16 ulaza, S1/S0 zajednički prvi nivo, S3/S2 drugi nivo i izlaz Z. Original i novi prikaz pregledani u punoj veličini. Provereni natpisi, veze, formule i čitljivost; uočene greške originala izdvojene u uocene_greske.md.",
+      "source_render_sha256": "488f3dd15201bd600f82c4e15ab4a633562f049f316b23ea2f392f7067926da3",
+      "new_render_sha256": "f4eff75eafcaa6e612aa77f2fe8b7385fac457d597430b12eff0368f832e775c"
+    },
+    "03-s016": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Naslov, svi pasusi i funkcionalna tabela od pet redova/šest kolona; svako X, obe poslednje nulte šifre i opis dodatnog GS. Original i novi prikaz pregledani u punoj veličini. Provereni natpisi, veze, formule i čitljivost; uočene greške originala izdvojene u uocene_greske.md.",
+      "source_render_sha256": "b9c5ea48654e129c1dce4394e017f3a775494f5e00c100d11474a00ed50c5fa1",
+      "new_render_sha256": "d8fc134afd2291446a713be42af5fc2b4c12d5e71ffbd28138a0844dec36885b"
+    },
+    "03-s017": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Proširena tabela pet redova/sedam kolona; potpuni tekst; tri invertora, I2/I3/I4 prioritetnog dela i ILI2/ILI2/ILI4 koderskog dela, sve veze I3–I0/A1/A0/GS i oba naziva delova. Original i novi prikaz pregledani u punoj veličini. Provereni natpisi, veze, formule i čitljivost; uočene greške originala izdvojene u uocene_greske.md.",
+      "source_render_sha256": "25b233e53a69c49ebe0af63c281d4568d79d773b5a77f734dc4b804af23623bc",
+      "new_render_sha256": "17fb5a75eef1af1d386a5570616e26442c85233426cc73d5073a7bfbc5097750"
+    },
+    "03-s018": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Oba tekstualna bloka, I2 negacija i I sa I1, tri ILI izlaza A1/A0/GS; sva četiri ulaza i svaka GS veza. Izvorna šema dodatno proverena pri većem uvećanju. Original i novi prikaz pregledani u punoj veličini. Provereni natpisi, veze, formule i čitljivost; uočene greške originala izdvojene u uocene_greske.md.",
+      "source_render_sha256": "5072dca768fd21ac71c14fc8a5900ef0116bbb559b4e585c5b4cbe5ee91bf87d",
+      "new_render_sha256": "8ff255700fc0d4dfe5f122519dde5933c9234847d21428c6c5a6a9d9a948ebfa"
+    },
+    "03-s019": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Uvod i ceo opis sa crvenim upozorenjem; pet KP blokova, svih 16 ulaza, četiri GS veze do drugog nivoa, otvoreni A1/A0 prvog nivoa, A3/A2 i GS drugog nivoa. Original i novi prikaz pregledani u punoj veličini. Provereni natpisi, veze, formule i čitljivost; uočene greške originala izdvojene u uocene_greske.md.",
+      "source_render_sha256": "a3b61f10f34e64aaf1a71f03858f61277771a3f2c3f7066bfeca17af4bcbf54a",
+      "new_render_sha256": "395c0b7f1cf89d51fce2a209c7e5d4462ad635183bfe31803b5b25b773bd8e25"
+    },
+    "03-s020": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Oba puna pasusa, sa izvornim slovnim greškama i otvorenim navodnikom; prioritetni deo iz slajda 17, četiri dodatna I sa EI, tri koderska ILI, invertor GS i I za EO; sve veze i A1/A0/GS/EO. Original i novi prikaz pregledani u punoj veličini. Provereni natpisi, veze, formule i čitljivost; uočene greške originala izdvojene u uocene_greske.md.",
+      "source_render_sha256": "892e2c789ceae61c72f7a9e8a2273b4caa98d123383d4ffd855215a144cbc19f",
+      "new_render_sha256": "7a353a57ff81b8be747f642b79132bf1579792256cd58467f1885fad0a16bad1"
+    },
+    "03-s021": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Uvod, oba puna pasusa i plavo isticanje; pet KP sa EI/EO, dve konstante 1, sva četiri nivoa lanca EO→EI; 16 ulaza, četiri GS veze, dva ILI4 za A1/A0, A3/A2/GS i otvoreni EO drugog nivoa. Original i novi prikaz pregledani u punoj veličini. Provereni natpisi, veze, formule i čitljivost; uočene greške originala izdvojene u uocene_greske.md.",
+      "source_render_sha256": "45db8a3920192d7ffeb43f2a66442f4909c277bfbd0862cff5b6edaff30da3ea",
+      "new_render_sha256": "cdbe7bcc430fece3186436fd0ecb1a5b945734a69c271dec93c5420f51eb7217"
+    }
+  }
+}

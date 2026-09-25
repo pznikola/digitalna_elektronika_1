@@ -1,0 +1,10 @@
+\slajdid{10-s049}
+\begin{frame}[label=10-s049]{Dinamičke karakteristike DTL kola}
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[c,onlytextwidth]\column{.29\textwidth}\centering\input{slike/tikz/s049_dtl_ulazni_i_izlazni_odziv.tex}\column{.47\textwidth}\centering\input{slike/tikz/s049_dtl_sa_izlaznom_kapacitivnoscu.tex}\column{.22\textwidth}\centering\input{slike/tikz/s049_ulazni_prelazi.tex}\end{columns}
+\[v_o(t)=V_{CC}+(V_{OL}-V_{CC})e^{-\frac{t-t_1}{\tau}}\qquad t\geq t_1\]
+\begin{columns}[c,onlytextwidth]\column{.43\textwidth}\centering\input{slike/tikz/s049_dtl_ekvivalent_praznjenja.tex}\column{.55\textwidth}
+\[\begin{aligned}v_o(t)&=V_{CES}-R_C I_{OL}\\&\quad+\bigl(V_{OH}-(V_{CES}-R_C I_{OL})\bigr)e^{-\frac{t-t_2}{\tau}}\end{aligned}\]
+\[t_3\geq t\geq t_2\]
+\[t_3=t_2+\tau\ln\left(1+\frac{V_{CC}-V_{CES}}{R_C I_{OL}}\right)\]
+\end{columns}
+\end{frame}

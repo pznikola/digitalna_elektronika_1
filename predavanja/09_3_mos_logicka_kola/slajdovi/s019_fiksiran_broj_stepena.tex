@@ -1,0 +1,12 @@
+\slajdid{09_3-s019}
+\begin{frame}[label=09_3-s019]
+ukupno kašnjenje je
+\[t_p=Nt_{p0}\left(1+\frac f\gamma\right)=Nt_{p0}\left(1+\frac{\sqrt[N]F}\gamma\right)\]
+Dobijeni izraz možemo da posmatramo na dva načina:
+\par\medskip
+\alert{Fiksiramo broj invertora u nizu $N$.}\par
+Tražimo odnose dimenzija tako dobijemo minimalno kašnjenje. U tom slučaju
+\[f=\sqrt[N]{\frac{C_L}{C_{G,1}}}=\sqrt[N]F\]
+Invertor prvi u nizu je minimalne geometrije $f_1=1$. Drugi ima dimenzije tranzistora povećane $f$ puta, a pošto nam treba ceo broj $f_2=\lfloor f+0.5\rfloor$ ($\lfloor x\rfloor$, ceo deo od x, $\lfloor x+0.5\rfloor$ najblizi ceo broj) treći $f_3=\lfloor f^2+0.5\rfloor$, itd… Ukupno kašnjenje je
+\[t_p=Nt_{p0}+\frac{t_{p0}}\gamma\sum_{i=1}^{i=N}\frac{f_{(i+1)}}{f_i}\]
+\end{frame}

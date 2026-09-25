@@ -1,0 +1,11 @@
+\slajdid{10-s038}
+\begin{frame}[label=10-s038]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\fontsize{9}{10}\selectfont
+Ostaje pitanje kako će stanje visoke impedanse na liniji shvatiti logiko kolo 4. Odgovor nije jednoznačan pošto zavisi od tipa kola. Na primer kod RTL kola to znači da je ulaz „ostavljen da visi“. Na ulazu nema napona. U tom slučaju ne postoje uslovi da provodi tranzistor i na izlazu će biti logička jedinica, kao da je na ulazu logička nula. Ali ne treba zaboraviti da je ova linija „koja visi“ metalni vod koji može predstavljati dobru antenu za smetnje iz okoline. Kako je i ulazna impedansa u RTL logičko kolo visoka, smetnja može izazvati da tranzistor počne da vodi, odnosno da logičko kolo shvati da je na ulazu logička jedinica. Ovakve situacije moraju da se u projektovanju digitalnih sistema spreče.
+\par\smallskip
+\begin{columns}[c,onlytextwidth]\column{.72\textwidth}Slično je pitanje i kako radi na primer dvoulazno logičko NI kolo kada mu jedan ulaz nije povezan sa ostatkom sistema.\column{.25\textwidth}\centering\input{slike/tikz/s038_nepovezan_ulaz_ni.tex}\end{columns}\par\smallskip
+\begin{columns}[c,onlytextwidth]\column{.60\textwidth}
+I ponovo, šta će biti na izlazu kola u situaciji A=1, odgovor nije jednoznačan, zavisno je od tipa kola, smetnji u okolini itd…\par
+Opšte pravilo: \underline{Neiskorišćeni ulazi u kolo moraju biti terminisani,}\par\underline{odnosno dovedeni na neaktivne naponske nivoe.} Na primer u ovom slučaju NI logičkog kola na nivo logičke jedinice. Termin terminacije koji je upotrebljen znači da impedansa linije prema napajanju ili masi bude konačna. Terminacija se najčešće izvodi pomoću otpornika
+\column{.38\textwidth}\centering Terminacija linija\par\bigskip\input{slike/tikz/s038_terminacija_linija.tex}\end{columns}
+\end{frame}

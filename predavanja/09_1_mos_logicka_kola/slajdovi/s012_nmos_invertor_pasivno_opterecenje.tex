@@ -1,0 +1,45 @@
+\slajdid{09_1-s012}
+\begin{frame}[label=09_1-s012]
+\gusttekst
+\setlength{\abovedisplayskip}{3pt}
+\setlength{\belowdisplayskip}{3pt}
+\setlength{\abovedisplayshortskip}{2pt}
+\setlength{\belowdisplayshortskip}{2pt}
+Analiza invertora. Od njega lako napraviti složena a da ostanu „iste“ karakteristike.\\
+Prvi - \alert{nMOS invertor sa pasivnim opterećenjem}
+
+\begin{columns}[c,onlytextwidth]
+\begin{column}{.46\textwidth}\centering
+\mbox{\input{slike/tikz/s012_nmos_invertor.tex}\hspace{1mm}%
+\input{slike/tikz/s012_karakteristika_prenosa.tex}
+}
+\end{column}
+\begin{column}{.53\textwidth}\gusttekst\centering
+U prvoj oblasti
+\[
+V_I=V_{GS,D}<V_{Tn}
+\]
+i tranzistor ne \(T_D\) (D – drive) vodi. Napon na izlazu
+\[
+\begin{aligned}
+V_O&=V_{DD}-R_LI_{RL}\\
+&=V_{DD}-R_LI_{Dn,D}=V_{DD}
+\end{aligned}
+\]
+\end{column}
+\end{columns}
+
+Kada ulazni napon postane jednak \(V_{Tn}\) tranzistor počinje da vodi ali sa malom strujom. Zbog toga ne dolazi do velikog pada napona na otporniku \(R_L\) (L – load) odnosno napon između drejna i sorsa tranzistora će i dalje biti visok.
+\[
+V_{DSn}>V_{DSnsat}
+\]
+\[
+V_{DSnsat}=
+\frac{(\alert{V_{GSn}}-V_{Tn})L_nE_{Cn}}{L_nE_{Cn}+(\alert{V_{GSn}}-V_{Tn})}
+=\frac{(\alert{V_{Tn}+\varepsilon}-V_{Tn})L_nE_{Cn}}{L_nE_{Cn}+(\alert{V_{Tn}+\varepsilon}-V_{Tn})}
+\approx\alert{\varepsilon}
+\]
+\[
+V_O=V_{DD}-R_LI_{RL}=V_{DD}-R_LI_{Dn,D}<V_{DD}
+\]
+\end{frame}

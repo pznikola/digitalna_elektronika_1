@@ -1,0 +1,14 @@
+\slajdid{09_1-s053}
+\begin{frame}[label=09_1-s053]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}
+\[V_{IL}=V_{Tn,D}\]
+Daljim porastom ulaznog napona, napon na drejnu tranzistora $T_D$ opada i kada je
+\[V_O=V_{DS,D}=V_{GS,D}-V_{Tn,D}=V_I-V_{Tn,D}\]
+tranzistor $T_D$ ulazi u omsku oblast, pa je zavisnost ulaznog od izlaznog napona
+\[\frac{k_{n,L}}2(V_{GS,L}-V_{Tn,L})^2=\frac{k_{n,D}}2\bigl(2V_{DS,D}(V_{GS,D}-V_{Tn,D})-V_{DS,D}^2\bigr)\]
+\[\alert{1.}\quad k_{n,L}(V_{DD}-V_O-V_{Tn,L})^2=k_{n,D}V_O(2V_I-2V_{Tn,D}-V_O)\]
+Ako se u ovoj oblasti nalazi $V_{IH}$ diferenciranjem leve i desne strane i izjednačavanjem $\frac{\partial V_O}{\partial V_I}=-1$ dobijamo
+\[2k_{n,L}(V_{DD}-V_O-V_{Tn,L})=-k_{n,D}(2V_I-2V_{Tn,L}-V_O)+k_{n,D}V_O(2+1)\]
+\[2k_{n,L}(V_{DD}-V_O-V_{Tn,L})=k_{n,D}(2V_O-2V_I+2V_{Tn,D})\]
+\[\alert{2.}\quad V_I=V_{Tn,D}+V_O-\frac{k_{n,L}}{k_{n,D}}(V_{DD}-V_O-V_{Tn,L})\]
+\end{frame}

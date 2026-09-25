@@ -1,0 +1,12 @@
+\begin{tabular}{cc}
+\DEtroulaz{nand} &
+\begin{tikzpicture}[circuit logic US,DEoznaka,baseline=(a.center)]
+\node[and gate US,draw,logic gate inputs=nnn,minimum width=11mm,minimum height=12mm] (a) {};
+\node[not gate US,draw,minimum width=9mm] (b) at (1.6,0) {};
+\foreach \i in {1,2,3} \draw[DEvod] (a.input \i)--++(-.4,0) node[left] {$x_\i$};
+\draw[DEvod] (a.output)--(b.input);
+\draw[DEvod] (b.output)--++(.4,0) node[right] {$y$};
+\end{tikzpicture}
+\\[9mm]
+\DEkaskada[1]{and}{and} & \DEkaskada{and}{nand}
+\end{tabular}

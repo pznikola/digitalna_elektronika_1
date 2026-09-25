@@ -1,0 +1,14 @@
+\begingroup\fontsize{8}{9.5}\selectfont\setlength{\tabcolsep}{2pt}\renewcommand{\arraystretch}{1.45}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}p{43mm}*{9}{>{\centering\arraybackslash}X}c@{}}\toprule
+Symbol&Characteristic&\multicolumn{3}{c}{$-40^\circ$C}&\multicolumn{3}{c}{$25^\circ$C}&\multicolumn{3}{c}{$85^\circ$C}&Unit\\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}\cmidrule(lr){9-11}
+&&Min&Typ&Max&Min&Typ&Max&Min&Typ&Max&\\\midrule
+$f_{\max}$&Maximum Frequency\newline(See Figure 4. $F_{\max}$/JITTER)&&$>3$&&&$>3$&&&$>3$&&GHz\\\midrule
+\multirow{3}{*}{\shortstack{$t_{PLH},$\\$t_{PHL}$}}&Propagation Delay\hfill D to Q, $\overline{\mathrm{Q}}$&&&&&&&&&&\multirow{3}{*}{ps}\\
+&\hfill10&125&225&325&150&250&370&170&300&420&\\
+&\hfill100&180&280&380&200&300&400&250&320&450&\\\midrule
+\multirow{2}{*}{$t_{\mathrm{SKEW}}$}&Within Device Skew\hfill Q, $\overline{\mathrm{Q}}$&&15&50&&20&50&&20&50&\multirow{2}{*}{ps}\\
+&Device to Device Skew (Note 15)&&&200&&&200&&&200&\\\midrule
+$t_{\mathrm{JITTER}}$&Cycle-to-Cycle Jitter\newline(See Figure 4. $F_{\max}$/JITTER)&&0.2&$<1$&&0.2&$<1$&&0.2&$<1$&ps\\\midrule
+\shortstack{$t_r$\\$t_f$}&Output Rise/Fall Times\hfill Q, $\overline{\mathrm{Q}}$\newline(20\% -- 80\%)&100&150&200&120&170&220&150&190&250&ps\\\bottomrule
+\end{tabularx}\endgroup

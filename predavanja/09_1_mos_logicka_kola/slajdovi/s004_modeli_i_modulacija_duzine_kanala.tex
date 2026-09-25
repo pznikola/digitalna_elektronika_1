@@ -1,0 +1,14 @@
+\slajdid{09_1-s004}
+\begin{frame}[label=09_1-s004]
+\gusttekst\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}
+U velikom broju slučajeva ćemo smatrati da je $\lambda_n=\lambda_p=0$ odnosno zanemarićemo uticaj modulacije dužine kanala sa promenom napona između drejna i sorsa. Međutim ako niste već do sada uočili modeli zavisnosti napona i struja između triodne i oblasti zasićenja pri
+\[V_{DSn}=V_{GSn}-V_{Tn}\]
+imaju diskontinuitet
+\[I_{Dn}=\frac{k_n}{2}(V_{GSn}-V_{Tn})^2(1+\lambda_nV_{DSn})=\frac{k_n}{2}(V_{DSn})^2(1+\lambda_nV_{DSn})\]
+\[I_{Dn}=\frac{k_n}{2}\bigl(2V_{DSn}(V_{GSn}-V_{Tn})-V_{DSn}^2\bigr)=\frac{k_n}{2}(V_{DSn}^2)\]
+A trebala bi ova dva izraza da daju isti rezultat. Ovo je posledica nesavršenosti modela, slično kao i kod „grubih“ modela kod bipolarnih tranzistora - videćemo. Zbog toga ćete sresti i drugačije modele, na primer neki autori predlažu modifikaciju zavisnosti struje u zasićenju
+\[I_{Dn}=\frac{k_n}{2}(V_{GSn}-V_{Tn})^2\bigl(1+\lambda_n(V_{DSn}-(V_{GSn}-V_T))\bigr)\]
+dok se na primer u modelu za SPICE programski paket modifikuje struja u triodnoj oblasti na isti način kao što je u zasićenju
+\[I_{Dn}=\frac{k_n}{2}\bigl(2V_{DSn}(V_{GSn}-V_{Tn})-V_{DSn}^2\bigr)(1+\lambda_nV_{DSn})\]
+Mi ćemo „živeti“ sa ovim diskontinuitetom, odnosno koristićemo one nemodifikovane izraze, znajući da ovako nešto postoji.
+\end{frame}

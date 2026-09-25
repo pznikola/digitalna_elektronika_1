@@ -1,0 +1,15 @@
+\slajdid{09_1-s005}
+\begin{frame}[label=09_1-s005]
+\gusttekst
+Ovi izrazi, odnosno model je pokazivao dobre rezultate kada su dimenzije tranzistora bile „velike“ reda $\mu m$. Međutim prilikom eksperimenata sa tranzistorima čije su dimenzije manje i reda $nm$ pojavio se efekat, gledajući izlazne karakteristike, da tranzistor ulazi „ranije“ u oblast zasićenja odnosno pri manjim naponima $V_{DS}$.\par\medskip
+Uočeno je da pri „velikim“ poljima u kanalu dolazi do zasićenja brzine nosilaca, što efektivno ima uticaj da tranzistor „ranije“ uđe u režim zasićenja.\par\medskip
+\centering Uvedeni pojmovi dugačak i kratak kanal\par
+\begin{columns}[c,onlytextwidth]\column{.40\textwidth}\centering
+\tikz{\draw[->,DEplava](1,0)--(0,-.6);\draw[->,DEplava](2.8,0)--(3.3,-.6);}\par
+\input{slike/tikz/s005_brzina_dugacak_kanal.tex}\hfill\input{slike/tikz/s005_brzina_kratak_kanal.tex}
+\column{.58\textwidth}
+\[v_n=\mu_n\frac E{1+\frac E{E_{Cn}}}\quad za\ E\leq E_{Cn}\]
+\[v_n=v_{nsat}\quad za\ E\geq E_{Cn}\]
+\raggedright gde je E polje koje deluje na nosioce, $E_{Cn}$ kritično polje pri kojem nastaje efekat zasićenja brzine nosilaca a $v_{nsat}=\frac{\mu_nE_{Cn}}2$.
+\end{columns}
+\end{frame}

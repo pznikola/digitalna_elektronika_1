@@ -1,0 +1,6 @@
+\begin{tikzpicture}[x=.8cm,y=.65cm,font=\sitneoznake,>=Latex]
+\ctikzset{bipoles/length=.6cm}
+\foreach \x in{0,2.2}{\draw(\x,-.4)--(\x+1,.2)--(\x,.8)--cycle;\draw(\x+1.1,.2)circle(.1);}
+\draw(-.6,.2)node[left]{$v_I(t)$}--(0,.2);\draw(1.2,.2)--(2.2,.2);\draw(3.4,.2)--(4,.2)node[right]{$v_O(t)$};
+\draw(2.4,-.28)to[C,l=$\mathrm{Cint}$](2.4,-1.35)node[ground]{};
+\end{tikzpicture}

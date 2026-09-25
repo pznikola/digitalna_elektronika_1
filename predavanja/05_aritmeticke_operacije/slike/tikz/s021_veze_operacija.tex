@@ -1,0 +1,6 @@
+\begin{tikzpicture}[x=1cm,y=.43cm,font=\fontsize{9}{10}\selectfont]
+\node at (0,1) {$a,b\geq0$};\node at (7,1) {$a,b\geq0$};
+\foreach \id/\y/\f in {a/0/{a+b},b/-1/{(-a)+b},c/-2/{a+(-b)},d/-3/{(-a)+(-b)}}{\node (L\id) at (0,\y) {$\f$};}
+\foreach \id/\y/\f in {a/0/{a-b},b/-1/{(-a)-b},c/-2/{a-(-b)},d/-3/{(-a)-(-b)}}{\node (R\id) at (7,\y) {$\f$};}
+\foreach \l/\r in {a/c,b/d,c/a,d/b}{\draw[DEplava,<->] (L\l.east)--(R\r.west);}
+\end{tikzpicture}

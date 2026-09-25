@@ -1,0 +1,14 @@
+% \Komparator{ime}{x}{y}, font i geometrija nasleđeni iz tikzpicture.
+\providecommand{\Komparator}[3]{%
+\begin{scope}[shift={(#2,#3)}]
+\draw[DEvod] (0,0) rectangle (3.4,4.2);
+\node at (1.7,3.88) {komparator};
+\foreach \name/\label/\yy in {ip/inA>B/3.35,iq/inA<B/2.9,ie/inA=B/2.45,a1/A1/1.9,a0/A0/1.4,b1/B1/.9,b0/B0/.4}{
+ \node[anchor=west,inner sep=1pt] at (0,\yy) {\label};
+ \draw[DEvod] (-.3,\yy)--(0,\yy);\coordinate (#1-\name) at (-.3,\yy);
+}
+\foreach \name/\label/\yy in {p/A>B/2.0,q/A<B/1.3,e/A=B/.6}{
+ \node[anchor=east,inner sep=1pt] at (3.4,\yy) {\label};
+ \draw[DEvod] (3.4,\yy)--(3.7,\yy);\coordinate (#1-\name) at (3.7,\yy);
+}
+\end{scope}}

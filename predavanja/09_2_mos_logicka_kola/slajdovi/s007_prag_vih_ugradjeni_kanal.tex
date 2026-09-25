@@ -1,0 +1,11 @@
+\slajdid{09_2-s007}
+\begin{frame}[label=09_2-s007]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}Daljim porastom ulaznog napona, napon na drejnu tranzistora $T_D$ opada, napon između drejna i sorsa tranzistora $T_L$ raste. Tranzistor $T_L$ ostaje u zasićenju, ali tranzistor $T_D$ počinje da radi u omskoj oblasti
+\begin{columns}[c,onlytextwidth]\column{.19\textwidth}\centering\input{slike/tikz/s007_invertor_ugradjeni_kanal.tex}\column{.79\textwidth}\[\frac{k_{n,L}}2(V_{GS,L}-V_{Tn,L})^2=\frac{k_{n,D}}2\left(2V_{DS,D}(V_{GS,D}-V_{Tn,D})-V_{DS,D}^2\right)\]
+\[\alert{1.}\quad k_{n,L}(-V_{Tn,L})^2=k_{n,D}V_O\left(2(V_I-V_{Tn,D})-V_O\right)\]
+Ako se u ovoj oblasti nalazi $V_{IH}$ diferenciranjem leve i desne strane i izjednačavanjem $\frac{\partial V_O}{\partial V_I}=-1$ dobijamo
+\[0=-k_{n,D}\left(2(V_I-V_{Tn,D})-V_O\right)+k_{n,D}V_O(2+1)\]
+\[\alert{2.}\quad V_I=V_{Tn,D}+2V_O\]
+Rešavanjem
+\[V_{O(IH)}=-V_{Tn,L}\sqrt{\frac{k_{n,L}}{3k_{n,D}}}\qquad V_{IH}=V_{Tn,D}-2V_{Tn,L}\sqrt{\frac{k_{n,L}}{3k_{n,D}}}\]\end{columns}
+\end{frame}

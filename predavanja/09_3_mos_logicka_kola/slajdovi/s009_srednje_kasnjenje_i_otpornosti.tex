@@ -1,0 +1,12 @@
+\slajdid{09_3-s009}
+\begin{frame}[label=09_3-s009]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}Polazne pretpostavke su nam $L_{n1}=L_{p1}$ i $L_{n2}=L_{p2}$, $W_{n1}=W_{p1}$ i $W_{n2}=W_{p2}$ a želimo da minimizujemo srednje kašnjenje invertora
+\[t_p=\min\left(\frac{t_{pLH}+t_{pHL}}2\right)\]
+tako što ćemo menjati širine kanala P tranzistora na isti način i u 1. i u 2. invertoru
+\par\bigskip
+Pod pretpostavkom da su u pitanju tranzistori sa kratkim kanalom, i da su za sve vreme prelaznih procesa bitnih za kašnjenje u zasićenju možemo odmah da pišemo za izlaz 1. invertora
+\[t_{pLH}=0.69R_{p1}C_L\qquad t_{pHL}=0.69R_{n1}C_L\]
+gde je
+\[R_p\approx\frac34\frac{V_{DD}}{I_{Dpsat}}\left(1-\frac79|\lambda_p|V_{DD}\right)\quad\textit{ili}\quad\frac34\frac{V_{DD}}{I_{Dpsat}}\left(1-\frac56|\lambda_p|V_{DD}\right)\]
+\[R_n\approx\frac34\frac{V_{DD}}{I_{Dnsat}}\left(1-\frac79\lambda_nV_{DD}\right)\quad\textit{ili}\quad\frac34\frac{V_{DD}}{I_{Dnsat}}\left(1-\frac56\lambda_nV_{DD}\right)\]
+\end{frame}

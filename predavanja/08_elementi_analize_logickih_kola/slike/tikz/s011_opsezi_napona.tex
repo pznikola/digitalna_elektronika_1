@@ -1,0 +1,12 @@
+\begin{tikzpicture}[x=1cm,y=1cm,font=\sitneoznake,>=Latex]
+\foreach\x in{0,8.3}{\draw(\x,0)--(\x,2.5);\draw(\x-.15,0)--(\x+.15,0);\draw(\x-.15,2.5)--(\x+.15,2.5);\node[above]at(\x,2.5){$V_{CC}$};\node[below]at(\x,0){0};}
+\draw[<->](.12,0)--(.12,1.25);\draw[<->](.12,1.25)--(.12,2.5);\draw(-.15,1.25)--(.25,1.25);\node[left]at(-.15,1.25){$V_{CC}/2$};
+\node[align=center,anchor=west]at(.28,1.9){Opseg napona koje logičko\\kolo prepoznaje kao\\logičku jedinicu};
+\node[align=center,anchor=west]at(.28,.6){Opseg napona koje logičko\\kolo prepoznaje kao\\logičku nulu};
+\node[below]at(1.6,-.45){Nemoguće za realizaciju};
+\node[align=left]at(5.0,1.4){$R\equiv R\pm\Delta R$\\[3pt]$\beta_F=\beta_F\pm\Delta\beta_F$\\[3pt]$V_T=V_T\pm\Delta V_T$\\[3pt]$\ldots$};
+\draw[<->](8.42,1.5)--(8.42,2.5);\draw[<->](8.42,0)--(8.42,.75);
+\draw(8.1,1.5)--(8.55,1.5);\draw(8.1,.75)--(8.55,.75);\node[left]at(8.1,1.5){$V_{CC}/2+\Delta H$};\node[left]at(8.1,.75){$V_{CC}/2-\Delta L$};
+\node[align=center,anchor=west]at(8.6,2){Opseg napona koje logičko\\kolo sigurno prepoznaje\\kao logičku jedinicu};
+\node[align=center,anchor=west]at(8.6,.35){Opseg napona koje logičko\\kolo sigurno prepoznaje\\kao logičku nulu};
+\end{tikzpicture}

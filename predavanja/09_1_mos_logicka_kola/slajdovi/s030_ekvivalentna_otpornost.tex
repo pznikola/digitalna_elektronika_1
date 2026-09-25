@@ -1,0 +1,8 @@
+\slajdid{09_1-s030}
+\begin{frame}[label=09_1-s030]{\alert{Dinamička otpornost MOS tranzistora}}
+\gusttekst
+Da bi se u kasnijim analizama dinamičkog režima rada tranzistora izbegao prethodni račun, sa dovoljnom tačnošću, MOS FET tranzistor kada radi u aktivnoj oblasti zamenjuje se dinamičkom otpornošću. \alert{Uzima se u obzir i faktor $\lambda$.}
+\begin{center}\input{slike/tikz/s030_kapacitivno_opterecen_mos.tex}\hspace{10mm}\input{slike/tikz/s030_dinamicka_karakteristika.tex}\end{center}
+Ideja je da se prilikom procene kašnjenja, ne izvode i ne računaju kvadratne jednačine, nego da se tranzistor zameni ekvivalentnom otpornošću kada menja radnu tačku između tačaka 1 i 2. Time bi koristili gotove rezultate $t_p=0.69R_nC_L$ sa dovoljno dobrom tačnošću.\par\bigskip
+\alert{Uočiti da će ova aproksimacija praktično važiti samo za tranzistore sa kratkim kanalom kod kojih je $V_{DSsat}$ malo i gde važi $V_{DSsat}<\frac{V_{DD}}2$, odnosno gde tranzistor ostaje u zasićenju sve vreme kada prazni parazitnu kapacitivnost, bez obzira koja je pobuda $V_{Tn}\leq V_{GS}\leq V_{DD}$. \textbf{Tranzistori koji se koriste u savremenim integrisanim kolima jesu tranzistori sa kratkim kanalom.}}
+\end{frame}

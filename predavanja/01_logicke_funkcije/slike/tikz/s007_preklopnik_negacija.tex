@@ -1,0 +1,8 @@
+\begin{tikzpicture}[DEoznaka]
+\draw[DEvod] (-.5,0)--(0,0)--(.9,.22);
+\draw[DEvod] (1,.45)--(1.65,.45) (1,-.45)--(1.65,-.45);
+\foreach \x/\y in {0/0,1/.45,1/-.45}
+  \draw[DEvod,fill=white] (\x,\y) circle (1.4pt);
+\node[above] at (.9,.48) {\(\mathrm{P1}\)};
+\node[below] at (.9,-.48) {\(\overline{\mathrm{P1}}\)};
+\end{tikzpicture}

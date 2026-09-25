@@ -1,0 +1,28 @@
+\slajdid{03-s014}
+\begin{frame}[label=03-s014]
+\fontsize{9}{10}\selectfont
+\setlength{\parskip}{2pt}
+U nekim situacijama multiplekseri su komponente koje omogućuju još jednostavniju realizaciju kombinacionih mreža od dekodera. Na primer ako treba da realizujemo funkciju \(F=\bar B\bar A+BA\). Pre nego što prikažemo relizaciju ono što treba uočiti da je multiplekser principski
+\begingroup
+\def\DEoznsize{8}\def\DEoblik{.6}\def\DEdekmod{1}\def\DEcs{0}\def\DEprimer{0}\def\DEjedinica{.75cm}
+\begin{columns}[c,onlytextwidth]
+\begin{column}{.44\textwidth}\centering
+\input{slike/tikz/mux_jezgro.tex}
+\end{column}
+\begin{column}{.21\textwidth}\centering
+\input{slike/tikz/mux_simbol.tex}
+\end{column}
+\begin{column}{.06\textwidth}\centering
+\begin{tikzpicture}
+\draw[DEstrelica,DEplava] (0,0)--(.6,0);
+\draw[DEstrelica,DEplava] (0,1.6)--(.6,.9);
+\end{tikzpicture}
+\end{column}
+\begin{column}{.26\textwidth}\centering
+\def\DEprimer{1}
+\input{slike/tikz/mux_simbol.tex}
+\end{column}
+\end{columns}
+\endgroup
+odnosno da ponovo imamo selekciju potpunih proizvoda koje formiraju signali S1 i S0. U tom smislu jedino što treba da uradimo jeste da na ulaze multipleksera za odgovarajući proizvod dovedemo željene vrednosti funkcije
+\end{frame}

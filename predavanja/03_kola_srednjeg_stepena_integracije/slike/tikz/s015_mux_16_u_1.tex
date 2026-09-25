@@ -1,0 +1,39 @@
+\begingroup
+\newcommand{\MMux}[3]{%
+ \begin{scope}[shift={(#2,#3)}]
+ \draw[DEvod] (0,0) rectangle (1.65,1.6);
+ \node[align=center,inner sep=1pt] at (.9,1.18) {MUX\\4/1};
+ \foreach \n/\y in {3/1.04,2/.78,1/.52,0/.26}{
+  \node[anchor=west,inner sep=1pt] at (0,\y) {I\n};
+  \draw[DEvod] (-.2,\y)--(0,\y);
+  \coordinate (#1-i\n) at (-.2,\y);
+ }
+ \node[anchor=east,inner sep=1pt] at (1.65,.72) {Z};
+ \draw[DEvod] (1.65,.72)--(1.9,.72);
+ \coordinate (#1-z) at (1.9,.72);
+ \foreach \n/\x in {1/.65,0/1.25}{
+  \node[anchor=south,inner sep=1pt] at (\x,0) {S\n};
+  \draw[DEvod] (\x,0)--(\x,-.1);
+  \coordinate (#1-s\n) at (\x,-.1);
+ }
+ \end{scope}}
+\begin{tikzpicture}[x=.85cm,y=.85cm,font=\fontsize{8}{8.5}\selectfont]
+\foreach \k/\y in {3/5.85,2/3.90,1/1.95,0/0}{
+ \MMux{m\k}{0}{\y}
+ \foreach \n in {3,2,1,0}{
+  \pgfmathtruncatemacro{\ii}{4*\k+\n}
+  \draw[DEvod] (m\k-i\n)--++(-.15,0) node[left,inner sep=1pt] {I\ii};
+ }
+ \draw[DEvod] (m\k-s1)--(.65,\y-.13)--(2.05,\y-.13);
+ \draw[DEvod] (m\k-s0)--(1.25,\y-.26)--(2.26,\y-.26);
+}
+\MMux{f}{3.35}{2.85}
+\foreach \k/\x in {3/2.45,2/2.65,1/2.65,0/2.45}
+ \draw[DEvod] (m\k-z)--(\x,0 |- m\k-z)|-(f-i\k);
+\draw[DEvod] (2.05,5.72)--(2.05,-.5) node[below left,inner sep=1pt] {S1};
+\draw[DEvod] (2.26,5.59)--(2.26,-.5) node[below right,inner sep=1pt] {S0};
+\draw[DEvod] (f-z)--++(.2,0) node[right] {Z};
+\draw[DEvod] (f-s1)--++(0,-.25) node[below] {S3};
+\draw[DEvod] (f-s0)--++(0,-.25) node[below] {S2};
+\end{tikzpicture}
+\endgroup

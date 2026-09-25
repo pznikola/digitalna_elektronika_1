@@ -1,0 +1,22 @@
+\slajdid{08-s059}
+\begin{frame}[label=08-s059]{1. način}
+\fontsize{9}{10}\selectfont\setlength{\abovedisplayshortskip}{0pt}\setlength{\belowdisplayshortskip}{0pt}\setlength{\parskip}{1pt}\setlength{\abovedisplayskip}{0pt}\setlength{\belowdisplayskip}{0pt}
+\begin{columns}[T,onlytextwidth]\column{.28\textwidth}\centering
+\input{slike/tikz/s059_pulse.tex}\par\input{slike/tikz/s059_step.tex}\par\input{slike/tikz/s059_negative.tex}
+\column{.70\textwidth}
+\[u_{o1}(t)=V_{OL}\quad za\ t<t_1\]
+\[u_{o1}(t)=V_{OH}+(V_{OL}-V_{OH})e^{-\frac{t-t_1}{\tau}}\quad za\ t\geq t_1\]
+Na sličan način možemo naći i odziv na pobudu $u_{i2}(t)$:
+\[u_{o2}(t)=0\quad za\ t<t_2\]
+\[u_{o2}(t)=-(V_{OH}-V_{OL})+\bigl(0-(-(V_{OH}-V_{OL}))\bigr)e^{-\frac{t-t_2}{\tau}}\]
+\hfill $za\ t\geq t_2$
+\[u_{o2}(t)=(V_{OH}-V_{OL})\left(e^{-\frac{t-t_2}{\tau}}-1\right)\quad za\ t\geq t_2\]
+Superpozicijom
+\[u_o(t)=V_{OL}\quad za\ t<t_1\]
+\[u_o(t)=V_{OH}+(V_{OL}-V_{OH})e^{-\frac{t-t_1}{\tau}}\quad za\ t_2\geq t\geq t_1\]
+\end{columns}
+\centering $za\ t\geq t_2$
+\[u_o(t)=u_{o1}(t)+u_{o1}(t)=V_{OH}+(V_{OL}-V_{OH})e^{-\frac{t-t_1}{\tau}}+(V_{OH}-V_{OL})\left(e^{-\frac{t-t_2}{\tau}}-1\right)\]
+\[u_o(t)=V_{OH}-(V_{OH}+V_{OL})+(V_{OH}-V_{OL})\left(e^{-\frac{t-t_2}{\tau}}-e^{-\frac{t-t_1}{\tau}}\right)\]
+\[\alert{u_o(t)=V_{OL}+\left((V_{OH}-V_{OL})\left(1-e^{-\frac{t_2-t_1}{\tau}}\right)\right)e^{-\frac{t-t_2}{\tau}}}\]
+\end{frame}

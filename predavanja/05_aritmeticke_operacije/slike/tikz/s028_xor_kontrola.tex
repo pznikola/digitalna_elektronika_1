@@ -1,0 +1,8 @@
+\begin{tikzpicture}[font=\fontsize{8}{9}\selectfont]
+\foreach \y/\bit/\label in {0/0/BAFER,-1.55/1/INVERTOR}{
+\node[xor gate US,draw,logic gate inputs=nn,scale=.65] (g\bit) at (0,\y) {};
+\draw (g\bit.input 1)--(-.65,\y+.2)node[left]{$x$};
+\draw (g\bit.input 2)--(-.65,\y-.2)node[left,DEcrvena]{$\bit$};
+\ifnum\bit=0\draw (g\bit.output)--++(.25,0)node[right]{$x$};\else\draw (g\bit.output)--++(.25,0)node[right]{$\bar x$};\fi
+\node at (0,\y-.6) {\label};}
+\end{tikzpicture}

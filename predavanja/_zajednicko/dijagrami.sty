@@ -1,0 +1,62 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{dijagrami}[2026/09/24 Crtezi za predavanja]
+\RequirePackage{tikz}
+\RequirePackage{circuitikz}
+\RequirePackage{pgfplots}
+\RequirePackage[label=corner]{karnaugh-map}
+\usetikzlibrary{arrows.meta,positioning,calc,fit,backgrounds,circuits.logic.US}
+\pgfplotsset{compat=1.18}
+\tikzset{DEvod/.style={draw=DEtekst,line width=.7pt},
+  DEstrelica/.style={DEvod,-{Latex[length=2mm]}},
+  DEblok/.style={draw=DEplava,line width=.8pt,minimum width=22mm,minimum height=10mm,align=center},
+  DEoznaka/.style={font=\fontsize{9}{10}\selectfont},
+  every circuit symbol/.style={line width=.7pt}}
+% Dvoulazni simbol: vrsta (and/or/xor/nand/nor/xnor), ulazi (nn/ii), izlaz.
+\newcommand{\DEkapija}[3]{%
+  \begin{tikzpicture}[circuit logic US,DEoznaka,baseline=(g.center)]
+    \node[#1 gate US,draw,logic gate inputs=#2,minimum width=12mm,minimum height=10mm] (g) {};
+    \draw[DEvod] (g.input 1) -- ++(-.6,0) node[left] {$x$};
+    \draw[DEvod] (g.input 2) -- ++(-.6,0) node[left] {$y$};
+    \draw[DEvod] (g.output) -- ++(.6,0) node[right] {$#3$};
+  \end{tikzpicture}}
+\newcommand{\DEtroXor}[1]{%
+  \begin{tikzpicture}[DEoznaka,baseline=(current bounding box.center)]
+    \draw[DEvod] (-.55,.6) .. controls (.05,.6) and (.55,.4) .. (.85,0)
+      .. controls (.55,-.4) and (.05,-.6) .. (-.55,-.6)
+      .. controls (-.12,-.2) and (-.12,.2) .. cycle;
+    \draw[DEvod] (-.7,.6) .. controls (-.27,.2) and (-.27,-.2) .. (-.7,-.6);
+    \draw[DEvod] (-1.1,.36) node[left] {$x_1$} -- (-.37,.36);
+    \draw[DEvod] (-1.1,0) node[left] {$x_2$} -- (-.23,0);
+    \draw[DEvod] (-1.1,-.36) node[left] {$x_3$} -- (-.37,-.36);
+    \ifnum#1=1
+      \draw[DEvod] (.92,0) circle (.07);
+      \draw[DEvod] (.99,0)--(1.4,0) node[right] {$y$};
+    \else
+      \draw[DEvod] (.85,0)--(1.4,0) node[right] {$y$};
+    \fi
+  \end{tikzpicture}}
+\newcommand{\DEtroulaz}[1]{%
+  \ifstrequal{#1}{xor}{\DEtroXor{0}}{\ifstrequal{#1}{xnor}{\DEtroXor{1}}{%
+  \begin{tikzpicture}[circuit logic US,DEoznaka,baseline=(g.center)]
+    \node[#1 gate US,draw,logic gate inputs=nnn,minimum width=12mm,minimum height=12mm] (g) {};
+    \foreach \i in {1,2,3}
+      \draw[DEvod] (g.input \i) -- ++(-.5,0) node[left] {$x_\i$};
+    \draw[DEvod] (g.output) -- ++(.5,0) node[right] {$y$};
+  \end{tikzpicture}}}}
+% Tri ulaza kroz dva dvoulazna kola; opcija 1 dodaje izlazni invertor.
+\newcommand{\DEkaskada}[3][0]{%
+  \begin{tikzpicture}[circuit logic US,DEoznaka,baseline=(b.center)]
+    \node[#2 gate US,draw,logic gate inputs=nn,minimum width=11mm,minimum height=10mm] (a) at (0,.35) {};
+    \node[#3 gate US,draw,logic gate inputs=nn,minimum width=11mm,minimum height=10mm] (b) at (1.7,-.3) {};
+    \draw[DEvod] (a.input 1)--++(-.4,0) node[left] {$x_1$};
+    \draw[DEvod] (a.input 2)--++(-.4,0) node[left] {$x_2$};
+    \draw[DEvod] (a.output)--++(.2,0)|-(b.input 1);
+    \draw[DEvod] (b.input 2)--++(-.4,0) node[left] {$x_3$};
+    \ifnum#1=1
+      \node[not gate US,draw,minimum width=8mm] (c) at (3.2,-.3) {};
+      \draw[DEvod] (b.output)--(c.input);
+      \draw[DEvod] (c.output)--++(.35,0) node[right] {$y$};
+    \else
+      \draw[DEvod] (b.output)--++(.35,0) node[right] {$y$};
+    \fi
+  \end{tikzpicture}}

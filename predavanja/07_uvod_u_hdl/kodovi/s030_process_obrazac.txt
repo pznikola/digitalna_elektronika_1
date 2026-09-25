@@ -1,0 +1,11 @@
+[process_label:]
+PROCESS [( signal name {, signal name} )]
+    [VARIABLE declarations]
+BEGIN
+    [WAIT statement]
+    [Simple Signal Assignment Statements]
+    [Variable Assignment Statements]
+    [IF Statements]
+    [CASE Statements]
+    [LOOP Statements]
+END PROCESS [process_label] ;

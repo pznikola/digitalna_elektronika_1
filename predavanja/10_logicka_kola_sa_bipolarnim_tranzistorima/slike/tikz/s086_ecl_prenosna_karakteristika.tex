@@ -1,0 +1,6 @@
+\begin{tikzpicture}[x=.65cm,y=.8cm,font=\sitneoznake,>=Latex]
+\draw[->](0,0)--(5,0)node[below]{$V_I$};\draw[->](.2,-.1)--(.2,2.8)node[above]{$V_{O1},V_{O2}$};
+\draw[dashed](.2,2.1)--(1.8,2.1);\draw[dashed](.2,.55)--(1.8,.55);\node[left]at(.2,2.1){$V_{OH}$};\node[left]at(.2,.55){$V_{OL}$};
+\draw(.65,2.1)--(1.8,2.1)--(2.7,.55)--(3.8,.55)--(4.5,1.25);\draw(.65,.55)--(1.8,.55)--(2.7,2.1)--(4.5,2.1);\node[above]at(3.5,2.1){$V_{O2}$};\node[above]at(3.6,.55){$V_{O1}$};
+\foreach\x/\l/\y in{1.8/V_{IL}/2.1,2.25/V_R/1.325,2.7/V_{IH}/.55}{\draw[dashed](\x,0)--(\x,\y);}
+\node[below left]at(1.8,0){$V_{IL}$};\node[below]at(2.25,-.4){$V_R$};\draw(2.25,0)--(2.25,-.35);\node[below right]at(2.7,0){$V_{IH}$};\draw[->,DEplava](4.85,1.65)--(4.22,1.12);\end{tikzpicture}

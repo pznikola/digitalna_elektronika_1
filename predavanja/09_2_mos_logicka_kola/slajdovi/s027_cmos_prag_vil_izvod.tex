@@ -1,0 +1,11 @@
+\slajdid{09_2-s027}
+\begin{frame}[label=09_2-s027]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[c,onlytextwidth]\column{.20\textwidth}\centering\input{slike/tikz/s027_cmos_invertor.tex}\column{.78\textwidth}
+\[\begin{aligned}\alert{*1.}\quad&k_p\frac1{1+\frac{V_O-V_{DD}}{L_pE_{Cp}}}\left(2(V_O-V_{DD})(V_I-V_{DD}-V_{Tp})-(V_O-V_{DD})^2\right)\\&\qquad=k_n\frac1{1+\frac{V_I-V_{Tn}}{L_nE_{Cn}}}(V_I-V_{Tn})^2\end{aligned}\]
+\end{columns}
+Ako bi sada smatrali da se u toj oblasti nalazi $V_{IL}$ i uradili diferenciranje leve i desne strane i zamenili da je $\frac{\partial V_O}{\partial V_I}=-1$ dobili bi suviše kompleksan izraz. Ali ako smatramo da ćemo dobiti približne rezultate kao i kod prethodnih invertora, možemo smatrati da je $\frac{V_{O(IL)}-V_{DD}}{L_pE_{Cp}}\ll1$ pošto očekujemo veliko $V_{O(IL)}$ blizu $V_{DD}$ kao i da je $\frac{V_I-V_{Tn}}{L_nE_{Cn}}\ll1$ pošto očekujemo da će $V_{IL}$ biti blisko $V_{Tn}$. U tom slučaju priprema za diferenciranje je
+\[\alert{1.}\quad k_p(V_O-V_{DD})\left(2(V_I-V_{DD}-V_{Tp})-(V_O-V_{DD})\right)=k_n(V_I-V_{Tn})^2\]
+a posle diferenciranja
+\[-k_p\left(2(V_I-V_{DD}-V_{Tp})-(V_O-V_{DD})\right)+k_p(V_O-V_{DD})(2+1)=2k_n(V_I-V_{Tn1})\]
+\[\alert{2.}\quad V_I=\frac{4k_pV_O-2k_pV_{DD}+2k_pV_{Tp}+2k_nV_{Tn}}{2(k_n+k_p)}=\frac{2V_O-V_{DD}+V_{Tp}+\frac{k_n}{k_p}V_{Tn}}{1+\frac{k_n}{k_p}}\]
+\end{frame}

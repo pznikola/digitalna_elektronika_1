@@ -1,0 +1,5 @@
+\begin{tikzpicture}[x=.55cm,y=.32cm,font=\sitneoznake,>=Latex]
+\draw[->](0,4)--(5,4)node[below]{t};\draw[->](.2,3.7)--(.2,6.2)node[left]{$v_i(t)$};\draw(.2,5.7)--(1,5.7)--(1,4.3)--(2.8,4.3)--(2.8,5.7)--(4.7,5.7);\node[left]at(.2,5.7){$V_H$};\node[left]at(.2,4.3){$V_L$};
+\draw[->](0,.7)--(5,.7)node[below]{t};\draw[->](.2,.4)--(.2,3.6)node[left]{$v_o(t)$};\foreach\y/\l in{2.8/V_{OH},1.9/50\%,1/V_{OL}}{\draw[dashed](.2,\y)--(3.3,\y);\node[left]at(.2,\y){$\l$};}
+\draw(.2,1)--(1,1)..controls(1.2,2.5)and(1.7,2.8)..(2.2,2.8)--(2.8,2.8)..controls(2.85,1.8)and(2.95,1.2)..(3.05,1)--(4.7,1);
+\foreach\x/\l in{1/1,2.8/2}{\draw[dashed](\x,.45)--(\x,4.2);\node[below]at(\x,.45){$t_\l$};}\end{tikzpicture}

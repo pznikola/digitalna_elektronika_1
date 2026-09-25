@@ -1,0 +1,7 @@
+\begin{tikzpicture}[x=.8cm,y=.65cm,font=\sitneoznake,>=Latex]
+\foreach\y/\lab/\inp in{1.4/L/C,0/D/I}{\begin{scope}[shift={(0,\y)}]
+\ifdim\y pt=0pt\draw(-.9,0)--(-.28,0);\node[left]at(-.9,0){$V_I$};\draw[fill=white](-.9,0)circle(.05);\else\draw(-.28,0)--(-.65,0)--(-.65,.7)--(0,.7);\fi
+\draw(-.28,-.3)--(-.28,.3);\draw(-.2,-.35)--(-.2,.35);\draw(-.2,.25)--(0,.25)--(0,.7);\draw(-.2,-.25)--(0,-.25)--(0,-.7);\node[right]at(.05,0){$T_\lab$};\end{scope}}
+\draw(-.2,2.1)--(.2,2.1)node[above left]{$V_{DD}$};\draw(0,-.7)node[ground]{};\draw(0,.7)--(.85,.7)node[ocirc]{}node[right]{$V_O$};
+\end{tikzpicture}
+

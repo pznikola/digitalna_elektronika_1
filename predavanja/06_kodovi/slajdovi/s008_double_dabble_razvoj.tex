@@ -1,0 +1,20 @@
+\slajdid{06-s008}
+\begin{frame}[label=06-s008]{Double dabble algoritam}
+\gusttekst\setlength{\parskip}{1pt}\setlength{\jot}{0pt}
+Kako „čitati“, pretvarati binarnu vrednost u decimalnu.
+\begin{columns}[t,onlytextwidth]
+\column{.34\textwidth}Binarni broj se čita sa levo na desno.\\Duplira se ako se naiđe na 0.\\Duplira se i dodaje 1 ako se naiđe na 1
+\column{.64\textwidth}
+11110011\\
+\textcolor{DEcrvena}{1}1110011 - jedan\\
+\textcolor{DEcrvena}{11}110011 – jedan puta 2 plus 1 = tri\\
+\textcolor{DEcrvena}{111}10011 – tri puta 2 plus 1 = sedam\\
+\textcolor{DEcrvena}{1111}0011 – sedam puta 2 plus 1 = petnaest\\
+\textcolor{DEcrvena}{11110}011 – petnaest puta 2 = trideset\\
+\textcolor{DEcrvena}{111100}11 – trideset puta 2 = šezdeset\\
+\textcolor{DEcrvena}{1111001}1 – šezdeset puta 2 plus 1 = sto dvadeset jedan\\
+\textcolor{DEcrvena}{11110011} – sto dvadeset jedan puta 2 plus 1 = dvesto četrdeset tri
+\end{columns}
+\[c_{n-1}2^{n-1}+c_{n-2}2^{n-2}+c_{n-3}2^{n-3}+\cdots+c_2 2^2+c_1 2^1+c_0 2^0=\]
+\[\Bigl(\bigl(\ldots\bigl(\bigl(((c_{n-1}\times2)+c_{n-2})\times2\bigr)+c_{n-3}\bigr)\times2+\cdots+c_2\bigr)\times2+c_1\Bigr)\times2+c_0\]
+\end{frame}

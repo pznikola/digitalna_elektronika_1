@@ -1,0 +1,9 @@
+\begin{tikzpicture}[x=.85cm,y=.65cm,font=\sitneoznake,>=Latex]
+\draw(0,-.45)--(1,.1)--(0,.65)--cycle;\draw(1.12,.1)circle(.12);\node at(.3,.1){1};\draw(-.55,.1)--(0,.1);\draw(1.24,.1)--(2,.1);
+\draw(2,-.45)--(3,.1)--(2,.65)--cycle;\node at(2.3,.1){B};\draw(3,.1)--(4,.1);\draw(4,-1.5)--(4,1.8);
+\foreach \y/\lab in{1.8/{2_1},-1.5/{2_N}}{\draw(4,\y)--(4.6,\y);\draw(4.6,\y-.45)--(5.6,\y)--(4.6,\y+.45)--cycle;\draw(5.72,\y)circle(.12);\draw(5.84,\y)--(6.55,\y);\node at(4.9,\y){$\lab$};}
+\node at(5.05,.15){$\vdots$};
+\node[above,align=center]at(.3,.9){logičko kolo sa\\nedovoljnim\\strujnim\\kapacitetom};
+\node[above,align=center]at(2.7,.9){bafer sa\\povećanim,\\dovoljnim,\\strujnim\\kapacitetom};
+\node[below,align=center]at(.1,-.6){mala ulazna\\kapacitivnost};
+\end{tikzpicture}

@@ -1,0 +1,26 @@
+\slajdid{07-s007}
+\begin{frame}[label=07-s007]{Primer jedne PAL komponente}
+\gusttekst\setlength{\parskip}{1pt}\begin{columns}[c,onlytextwidth]
+\column{.61\textwidth}\centering\input{slike/tikz/s007_pal_matrica.tex}
+\column{.37\textwidth}\fontsize{9}{10}\selectfont
+Maksimalno 10+\textcolor{DEcrvena}{6} ulaza odnosno 2+\textcolor{DEcrvena}{6} izlaza\par
+„Bilo koja“ kombinaciona mreža koja ima maksimalno 10+X ulaza, odnosno 2+6-X izlaza\\X = 0,1,..6\par
+20-pinsko pakovanje\\10. Pin GND\\20. Pin VDD\par
+\tikz[remember picture,baseline]{\node[anchor=base west,inner sep=0pt] (palann1) {izlaz};}\par
+\tikz[remember picture,baseline]{\node[anchor=base west,inner sep=0pt] (palannio) {Može biti i izlaz i ulaz};}\par
+Ukupan broj programabilnih veza u ovoj komponenti je 2048 u I matrici. ILI matrica je fiksna. Po svakom I kolu je 32 moguća člana u proizvodu. Po svakom ILI kolu je moguće sumirati 7 proizvoda. I ovo je za današnju tehnologiju jednostavna programabilna komponenta.\par
+\tikz[remember picture,baseline]{\node[anchor=base west,inner sep=0pt] (palann8) {izlaz};}\\\tikz[remember picture,baseline]{\node[anchor=base west,inner sep=0pt] (palann10) {ulaz};}
+\begin{tikzpicture}[remember picture,overlay,DEplava,->,line width=.3pt]
+\draw (palann1.west)--(palout1);
+\draw (palann8.west)--(palout8);
+\draw (palann10.west)--(palin10);
+\draw (palannio.west)--(palout2);
+\draw (palannio.west)--(palout3);
+\draw (palannio.west)--(palout4);
+\draw (palannio.west)--(palout5);
+\draw (palannio.west)--(palout6);
+\draw (palannio.west)--(palout7);
+\end{tikzpicture}
+\end{columns}
+
+\end{frame}

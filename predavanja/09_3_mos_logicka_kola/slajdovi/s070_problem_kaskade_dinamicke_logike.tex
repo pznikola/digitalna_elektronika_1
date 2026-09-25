@@ -1,0 +1,9 @@
+\slajdid{09_3-s070}
+\begin{frame}[label=09_3-s070]{Domino logika}
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}Kod dinamičke logike ozbiljan problem leži prilikom kaskadne veze funkcija. Da vidimo to na jednostavnom primeru
+\par\medskip\begin{columns}[c,onlytextwidth]\column{.4\textwidth}\centering\input{slike/tikz/s070_kaskada_dinamickih_invertora.tex}\column{.58\textwidth}
+Ako je A na logičkoj nuli, u fazi pripreme kapacitivnost tranzistora T2 će se napuniti na $V_{DD}$. U fazi izračunavanja tranzistor T1 je zakočen, tranzistor T2 će vodi i prazniće izlaznu kapacitivnost, tako da će na kraju faze izračunavanja biti logička nula na izlazu kao što i treba da bude. Dvostruka inverzija.
+\par\medskip
+Ako je A na logičkoj jedinici, u fazi pripreme kapacitivnost tranzistora tranzistora T2 će se napuniti na $V_{DD}$. U fazi izračunavanja tranzistor T1 je voditi i prazniće kapacitivnost tranzistora T2. Međutim tranzistor T2 će voditi dok god mu se ne isprazne njegove kapacitivnosti a samim time će prazniti i izlaznu kapacitivnost. Može da se desi da na kraju faze izračunavanja napon na izlazu padne ispod logičke jedinice koja bi trebala da bude na izlazu.
+\end{columns}
+\end{frame}

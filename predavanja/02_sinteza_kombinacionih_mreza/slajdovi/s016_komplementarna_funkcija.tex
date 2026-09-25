@@ -1,0 +1,26 @@
+\slajdid{02-s016}
+\begin{frame}[label=02-s016]
+\gusttekst
+\begin{columns}[c,onlytextwidth]
+\begin{column}{.70\textwidth}
+\alert{Drugi način} tretirajući funkciju \(\bar F\) na isti način kako kada smo posmatrili da funkcija F ima vrednosti jedan (funkcija \(\bar F\) će imati vrednost logičke jedinice tamo gde funkcija F ima vrednost logičke nule)
+\[
+\bar F=\bar C\bar B\bar A+\bar C\bar BA+\bar CB\bar A+C\bar B\bar A+CBA
+\]
+\end{column}
+\begin{column}{.27\textwidth}
+\input{tabele/s016_komplement_funkcije.tex}
+\end{column}
+\end{columns}
+\[
+\begin{aligned}
+\overline{(\bar F)}
+&=\overline{(\bar C\bar B\bar A+\bar C\bar BA+\bar CB\bar A+C\bar B\bar A+CBA)}\\
+&=\overline{\bar C\bar B\bar A}\cdot\overline{\bar C\bar BA}\cdot
+\overline{\bar CB\bar A}\cdot\overline{C\bar B\bar A}\cdot\overline{CBA}
+\end{aligned}
+\]
+\[
+F=(C+B+A)(C+B+\bar A)(C+\bar B+A)(\bar C+B+A)(\bar C+\bar B+\bar A)
+\]
+\end{frame}

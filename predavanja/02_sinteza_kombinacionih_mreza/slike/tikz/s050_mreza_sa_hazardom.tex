@@ -1,0 +1,15 @@
+\begin{tikzpicture}[circuit logic US,DEoznaka,x=1cm,y=1cm,
+ gate/.style={draw,logic gate inputs=nn,minimum width=12mm,minimum height=9mm,scale=.6}]
+\node[and gate US,gate] (u) at (2,1.1) {};
+\node[and gate US,gate] (d) at (2,-.1) {};
+\node[or gate US,gate] (f) at (3.8,.5) {};
+\node[not gate US,draw,minimum width=8mm,minimum height=8mm,scale=.6] (i) at (.6,.55) {};
+\draw[DEvod] (u.input 1)--(-.5,0 |- u.input 1) node[left] {$C$};
+\draw[DEvod] (i.input)--(-.5,.55) node[left] {$B$};
+\draw[DEvod] (i.output)--(1.25,.55)|-(u.input 2);
+\draw[DEvod] (-.2,.55)|-(d.input 1);
+\draw[DEvod] (d.input 2)--(-.5,0 |- d.input 2) node[left] {$A$};
+\draw[DEvod] (u.output)--(2.8,1.1)|-(f.input 1);
+\draw[DEvod] (d.output)--(2.8,-.1)|-(f.input 2);
+\draw[DEvod] (f.output)--++(.4,0) node[right] {$F$};
+\end{tikzpicture}

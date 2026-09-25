@@ -1,0 +1,15 @@
+\slajdid{10-s063}
+\begin{frame}[label=10-s063]{Dinamički režim\qquad L –> H}
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[c,onlytextwidth]\column{.43\textwidth}\centering
+$\beta_F R_C<R_B$\par\medskip\input{slike/tikz/s063_totem_pol_kapacitivno_opterecenje.tex}\hfill\raisebox{1.5cm}{\tikz\draw[->,DEplava,>=Latex](0,0)--(.6,0);}\hfill\input{slike/tikz/s063_aktivni_ekvivalent_punjenja.tex}
+\column{.55\textwidth}
+Vremenska konstanta punjenja je
+\[\tau=C*\frac{R_B}{\beta_F+1}\]
+Pošto je izlazni napon istovremeno i napon na kondenzatoru i ako smo počeli da posmatramo pojavu u trenutku $t_0$ kada je napon na kondenzatoru bio nizak $V_L$ onda je
+\[v_O(t_0^+)=v_C(t_0^+)=v_C(t_0^-)=V_L\]
+Napon u beskonačnosti po modelu dobija se kada je struja kroz kondenzator jednaka nuli što znači da je u beskonačnosti i $I_B=0$, pa je
+\[v_O(\infty)=V_{CC}-V_{BE}-V_D\]
+Konačan izraz je već dobro poznati
+\[v_o(t)=v_o(\infty)+(v_o(t_0^+)-v_o(\infty))e^{-\frac{t-t_0}{\tau}}\quad za\ t\geq t_0\]
+\end{columns}
+\end{frame}

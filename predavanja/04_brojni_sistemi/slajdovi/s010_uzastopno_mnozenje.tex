@@ -1,0 +1,19 @@
+\slajdid{04-s010}
+\begin{frame}[label=04-s010]
+\gusttekst
+\setlength{\abovedisplayskip}{5pt}\setlength{\belowdisplayskip}{5pt}
+Uočimo razlomljenu vrednost
+\[\begin{aligned}
+RV_{10}\cdot r&=\left(c_{-1}\cdot r^{-1}+c_{-2}\cdot r^{-2}+\ldots+c_{-k+1}\cdot r^{-k+1}+c_{-k}\cdot r^{-k}\right)\cdot r\\
+&=c_{-1}\cdot r^0+c_{-2}\cdot r^{-1}+\ldots+c_{-k+1}\cdot r^{-k+2}+c_{-k}\cdot r^{-k+1}
+\end{aligned}\]
+\[c_{-1}\geq0\qquad c_i\in\{0,1,2,\ldots r-2,r-1\}\]
+\[RV_{10}\cdot r=c_{-1}+(RV_{10})_{-2}=\text{celobrojna vrednost }c_{-1}+(RV_{10})_{-2}\]
+Izdvojili smo cifru $c_{-1}$ i nastavljamo dalje
+\[(RV_{10})_{-2}\cdot r=\text{celobrojna vrednost }c_{-2}+(RV_{10})_{-3}\]
+Izdvojili smo cifru $c_{-2}$ i nastavljamo dalje \ldots
+
+Zaustavljamo se kada bude zadovoljen uslov
+\[(RV_{10})_{-k-1}=0\Rightarrow c_{-k-1}=0\]
+\begin{center}Stalno bi dobijali prateće nule\end{center}
+\end{frame}

@@ -1,0 +1,7 @@
+\begin{tikzpicture}[DEoznaka]
+  \node[DEblok,minimum width=32mm,minimum height=13mm,fill=DEplava!8] (s) at (0,0) {SISTEM};
+  \draw[DEstrelica,line width=1.2pt] (-3.3,0) node[left] {ULAZI} -- (s.west);
+  \draw[DEstrelica,line width=1.2pt] (s.east) -- (3.3,0) node[right] {IZLAZI};
+  \draw[DEstrelica,draw=DEcrvena] (2.5,0) -- (2.5,-1.2) -- (-2.5,-1.2) -- (-2.5,0);
+  \node[below] at (0,-1.2) {POVRATNA SPREGA};
+\end{tikzpicture}

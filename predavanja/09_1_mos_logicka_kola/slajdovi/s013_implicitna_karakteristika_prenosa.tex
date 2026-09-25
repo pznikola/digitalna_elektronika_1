@@ -1,0 +1,13 @@
+\slajdid{09_1-s013}
+\begin{frame}[label=09_1-s013]
+\gusttekst\setlength{\parskip}{3pt}
+Ono što je uobičajeno kod analize statičkih karakteristika logičkih kola sa MOS FET tranzistorima je da se ne insistira da uvek izrazi za izlazni napon budu napisani u eksplicitnom obliku, odnosno
+\[V_O=f(V_I)\]
+Zbog kvadratnih zavisnosti ovu relaciju je često dosta teško izvesti, a videćemo i da nema potrebe, na primer za određivanje karakterističnih tačaka. Po pravilu se ova zavisnost ostavlja u obliku izjednačavanja struja PUN i PDN mreže
+\[\alert{I_{PUN}=I_{PDN}}\]
+(ne zaboravite analiziramo neopterećeno logičko kolo).\par
+U tom slučaju, kada tranzistor radi u drugoj oblasti, odnosno u zasićenju je važi
+\[\alert{I_{PUN}=\frac{V_{DD}-V_O}{R_L}=I_{Dn,D}=\frac{k_n}{2}\frac1{1+\frac{(V_{GS,D}-V_{Tn})}{L_nE_{Cn}}}(V_{GS,D}-V_{Tn})^2(1+\lambda_nV_{DS,D})}\]
+U analizama statičkih karakteristika ćemo zanemariti uticaj promene efektivne dužine kanala, odnosno smatraćemo da je $\lambda_n\approx0$, pa izraz uz $V_{GS,D}=V_I$ postaje
+\[\frac{V_{DD}-V_O}{R_L}=\frac{k_n}{2}\frac1{1+\frac{(V_I-V_{Tn})}{L_nE_{Cn}}}(V_I-V_{Tn})^2\]
+\end{frame}

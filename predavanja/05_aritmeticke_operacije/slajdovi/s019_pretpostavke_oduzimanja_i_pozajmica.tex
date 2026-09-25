@@ -1,0 +1,26 @@
+
+\slajdid{05-s019}
+\begin{frame}[label=05-s019]
+\gusttekst\setlength{\parskip}{1pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}
+Pretpostavke:\\
+1. radimo sa fiksnom tačkom i ignorišemo njenu poziciju,\\
+\hspace*{5mm}smatramo da su operandi usaglašeni sa pozicijama tačke pa radimo sa celobrojnim vrednostima\\
+2. radimo sa ograničenim brojem cifara $n$ i za operande i za rezultate\\
+3. imamo u registru potrebne vodeće i prateće nule
+\[a_i,b_i,s_i\in\{0,1,2,\ldots r-2,r-1\}\]
+\begin{columns}[c,onlytextwidth]
+\column{.38\textwidth}\centering\input{slike/tikz/s013_opste_sabiranje.tex}
+\column{.59\textwidth}
+B – Borrow, pozajmica 0 ili 1 bez obzira na osnovu brojnog sistema
+
+Oduzimanje radimo u osnovi brojnog sistema
+\end{columns}
+\[(a_i-B_{i-1}-b_i)_{min}=0-1-(r-1)=\underset{\substack{\textcolor{DEplava}{\uparrow}\\\displaystyle B_i=1}}{-r}+\underset{\substack{\textcolor{DEplava}{\uparrow}\\\displaystyle s_i=0}}{0}\]
+\begin{columns}[c,onlytextwidth]
+\column{.57\textwidth}
+\[\left.\begin{gathered}s_n=0-0-B_{n-1}=0\ \mathit{ili}\ -1\quad\textcolor{DEcrvena}{???}\\[2mm]
+s_n=-1\quad\text{\textcolor{DEcrvena}{\makecell{Prekoračenje opsega, rezultat nije\\moguće smestiti u $n$ cifara???}}}\end{gathered}\right\}\]
+\column{.40\textwidth}\centering
+Javlja se kada je $a<b$\\odnosno kada rezultat treba da bude negativan\\O ovome kasnije
+\end{columns}
+\end{frame}

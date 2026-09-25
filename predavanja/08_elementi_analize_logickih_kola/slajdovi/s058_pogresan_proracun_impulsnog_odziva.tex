@@ -1,0 +1,21 @@
+\slajdid{08-s058}
+\begin{frame}[label=08-s058]{Standardna situacija}
+\gusttekst\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}
+\begin{columns}[c,onlytextwidth]\column{.44\textwidth}\centering\input{slike/tikz/s058_rc.tex}
+\column{.54\textwidth}\centering\input{slike/tikz/s058_impuls.tex}\end{columns}
+\[u_o(t)=u_o(\infty)+\bigl(u_o(t_1^+)-u_o(\infty)\bigr)e^{-\frac{t-t_1}{\tau}}\quad za\ t\geq t_1\]
+\begin{columns}[T,onlytextwidth]\column{.44\textwidth}
+1. $\tau$\quad $\tau=C*R$\par
+2. $u_o(t_1^+)$\par
+Kako je izlazni napon istovremeno i napon na kondenzatoru važi
+\[u_0(t_1^+)=u_c(t_1^+)=u_c(t_1^-)\]
+to je\qquad $u_0(t_1^+)=V_{OL}$
+\column{.54\textwidth}
+3. $u_o(\infty)$\par
+Kada se završe svi prelazni procesi $i_c(\infty)=0=i_r(\infty)$. Kako je u beskonačnosti napon na ulazu \tikz[remember picture,baseline=(s58text.base)]{\node[inner sep=0pt](s58text){$V_{OL}$};} i struja kroz otpornik jednaka nuli\tikz[remember picture,overlay]{\draw[->,DEplava](s58text.south)--++(0,-3mm)-|([xshift=21mm,yshift=-3mm]s58end)--([xshift=21mm]s58end)--(s58end);}
+\[u_0(\infty)=u_i(\infty)-Ri_R(\infty)=V_{OL}\]
+\end{columns}
+\[u_o(t)=u_o(\infty)+\bigl(u_o(t_0^+)-u_o(\infty)\bigr)e^{-\frac{t-t_1}{\tau}}\quad za\ t\geq t_1\]
+\[\alert{u_o(t)=V_{OL}+(V_{OL}-V_{OL})e^{-\frac{t-t_1}{\tau}}=V_{OL}\quad za\ t\geq t_1}\]
+\hfill ????????????
+\end{frame}

@@ -1,0 +1,12 @@
+\slajdid{09_2-s017}
+\begin{frame}[label=09_2-s017]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}Daljim porastom ulaznog napona $V_I=V_{Tn}+\varepsilon$ tranzistor N počinje da vodi sa malom strujom. Visok mu je napon na drejnu pa radi u zasićenju. $V_{DS,N}\ge V_{GS,N}-V_{Tn}$ odnosno $V_O\ge V_I-V_{Tn}$.
+\begin{columns}[c,onlytextwidth]\column{.20\textwidth}\centering\input{slike/tikz/s017_pseudo_nmos.tex}\column{.78\textwidth}Izjednačavanjem struja $I_{Dp}=I_{Dn}$
+\[\frac{k_p}2\left(2V_{DS,P}(V_{GS,P}-V_{Tp})-V_{DS,P}^2\right)=\frac{k_n}2(V_{GS,N}-V_{Tn})^2\]
+dolazimo do zavisnosti izlaznog od ulaznog napona koju možemo napisati u obliku
+\[\alert{1.}\quad k_p\left(2(V_O-V_{DD})(-V_{DD}-V_{Tp})-(V_O-V_{DD})^2\right)=\frac{k_n}2(V_I-V_{Tn})^2\]
+Ako bi sada smatrali da se u toj oblasti nalazi $V_{IL}$ i uradili diferenciranje leve i desne strane i zamenili da je $\frac{\partial V_O}{\partial V_I}=-1$ dobijamo
+\[k_p\left(-2(V_{DD}+V_{Tp})-(V_O-V_{DD})\right)-k_p(V_O-V_{DD})=2k_n(V_I-V_{Tn})\]
+\[k_p\left(-2(V_{DD}+V_{Tp})-2(V_O-V_{DD})\right)=2k_n(V_I-V_{Tn1})\]
+\[\begin{aligned}\alert{2.}\quad V_I&=V_{Tn}+\frac{k_p}{k_n}{\color{DEplava}\left(-(V_{DD}+V_{Tp})-(V_O-V_{DD})\right)}\\&=V_{Tn}+\frac{k_p}{k_n}{\color{DEplava}(-V_{Tp}-V_O)}\end{aligned}\]\end{columns}
+\end{frame}

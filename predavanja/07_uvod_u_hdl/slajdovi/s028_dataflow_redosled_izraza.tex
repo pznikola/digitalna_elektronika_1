@@ -1,0 +1,9 @@
+\slajdid{07-s028}
+\begin{frame}[label=07-s028]
+\gusttekst
+Dataflow model - Konkuretni izrazi – redosled kojim se pojavljuju ne menja značenje koda.\\Svi se izvršavaju u paraleli. Kombinaciona logika.\par\vspace{4mm}
+\begin{columns}[T,onlytextwidth]\column{.48\textwidth}\lstinputlisting{kodovi/s028_dataflow_a.vhd}\column{.48\textwidth}\lstinputlisting{kodovi/s028_dataflow_b.vhd}\end{columns}
+\vspace{5mm}\centering A = 1, B = 0, Y = 0, Z = 0\par
+\begin{tikzpicture}\draw[DEplava,->] (0,0)--(0,-.8);\end{tikzpicture}\par
+Y = 1, Z = 1
+\end{frame}

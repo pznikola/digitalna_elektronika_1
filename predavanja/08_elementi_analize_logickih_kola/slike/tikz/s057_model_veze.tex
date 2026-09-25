@@ -1,0 +1,11 @@
+\begin{tikzpicture}[x=1cm,y=1cm,font=\sitneoznake,>=Latex]
+\foreach\x/\num in{0/1,3.4/2}{\draw(\x-.3,2.15)--(\x+.3,1.85)--(\x-.3,1.55)--cycle;\node at(\x-.1,1.85){\num};}
+\draw(-1,1.85)node[left]{$V_{i1}$}--(-.3,1.85);\draw(.3,1.85)--(3.1,1.85);\node[above,fill=white,inner sep=1pt]at(.7,1.85){$V_{o1}$};\node[above,fill=white,inner sep=1pt]at(2.65,1.85){$V_{i2}$};\draw(3.7,1.85)--(4.3,1.85)node[right]{$V_{o2}$};
+\draw[->](.85,1.75)--(1.5,.85);\draw[->](2.6,1.75)--(1.5,.85);
+\draw(.2,-.05)circle(.22);\node[left]at(-.06,-.05){$u_{O1}(t)$};\node at(.3,.32){$+$};\draw(.2,.17)--(.2,.85)--(.4,.85)--(.47,.98)--(.57,.72)--(.67,.98)--(.77,.72)--(.87,.98)--(.97,.72)--(1.04,.85)--(2.1,.85);\node[above]at(.73,1){$R_{O1}$};
+\draw(2.1,.85)--(2.17,.98)--(2.27,.72)--(2.37,.98)--(2.47,.72)--(2.57,.98)--(2.67,.72)--(2.74,.85)--(3.6,.85);\node[above]at(2.4,1){$R_{I2}$};
+\draw(.2,-.27)--(.2,-.9)--(3.6,-.9);\draw(3.1,.85)--(3.1,.02);\draw(3.1,-.08)--(3.1,-.9);\draw(2.85,.02)--(3.35,.02);\draw(2.85,-.08)--(3.35,-.08);\node[left]at(2.8,-.03){$C_{I2}$};
+\draw[<->](3.6,.75)--(3.6,-.8);\draw[fill=white](3.6,.85)circle(.06);\draw[fill=white](3.6,-.9)circle(.06);\node[right]at(3.7,.6){$+$};\node[right]at(3.7,0){$u_{i2}(t)$};
+\draw[dotted](.6,.35)ellipse(.78 and 1.85);\draw[dotted](2.75,.35)ellipse(.70 and 1.85);
+\node[align=center,below]at(.6,-1.55){Model izlaza 1.\\logičkog kola};\node[align=center,below]at(2.9,-1.55){Model ulaza 2.\\logičkog kola};
+\end{tikzpicture}

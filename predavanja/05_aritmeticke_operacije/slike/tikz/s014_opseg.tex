@@ -1,0 +1,15 @@
+% DEzas=0: prelivanje; DEzas=1: zasićenje. Krive su kvalitativne, bez izmišljenih skala.
+\begin{tikzpicture}[x=1.25cm,y=1.1cm,font=\fontsize{8}{9}\selectfont]
+\draw[DEplava,->] (-.12,0)--(1.75,0) node[below] {$a+b$};
+\draw[DEplava,->] (0,-.1)--(0,1.0) node[left] {$s$};
+\ifnum\DEzas=0
+ \draw[DEplava] (0,0)--(.6,.6)--(.6,0)--(1.2,.6);
+ \draw[orange] (.9,0)--(.9,.3);
+ \draw[orange,->] (.9,.3)--(0,.3);
+\else
+ \draw[DEplava] (0,0)--(.6,.6)--(1.2,.6);
+ \draw[orange,->] (.82,0)--(.82,.6);
+ \draw[orange,->] (.82,.6)--(0,.6);
+ \node[below] at (.75,-.24) {Sa zasićenjem};
+\fi
+\end{tikzpicture}

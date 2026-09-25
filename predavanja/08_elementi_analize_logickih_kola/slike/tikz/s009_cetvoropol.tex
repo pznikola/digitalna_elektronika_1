@@ -1,0 +1,12 @@
+\begin{tikzpicture}[x=1cm,y=1cm,font=\sitneoznake,>=Latex]
+\draw(0,0)--(1.5,0);\draw(1.5,-.12)rectangle(2.2,.12);\draw(2.2,0)--(2.65,0)--(2.65,-1.8);
+\draw(1.65,-.25)--(1.78,-.25)--(1.95,.25)--(2.08,.25);\node[above]at(1.85,.25){$Z_i$};
+\draw(3.3,-1.8)--(3.3,-1.2);\draw(3.3,-.9)circle(.3);\draw(3.3,-.6)--(3.3,0)--(3.7,0);
+\node at(3.55,-.54){$+$};\node[right]at(3.6,-.9){$f(V_i)$};
+\draw(3.7,-.12)rectangle(4.4,.12);\draw(3.85,-.25)--(3.98,-.25)--(4.15,.25)--(4.28,.25);\node[above]at(4.05,.25){$Z_o$};\draw(4.4,0)--(6.7,0);
+\draw(0,-1.8)--(6.7,-1.8);
+\foreach\x in{0,6.7}{\draw[<->](\x,-.1)--(\x,-1.7);\draw[fill=white](\x,0)circle(.11);\draw[fill=white](\x,-1.8)circle(.11);}
+\node[left]at(-.13,0){input};\node[right]at(6.85,0){output};\node[right]at(6.85,-1.8){DGND};
+\node[left]at(-.12,-.25){$+$};\node[left]at(-.12,-.9){$V_i$};\node[right]at(6.85,-.25){$+$};\node[right]at(6.85,-.9){$V_o$};
+\draw[->](.3,-.15)--(1.1,-.15)node[midway,below]{$I_i$};\draw[->](6.3,-.15)--(5.5,-.15)node[midway,below]{$I_o$};
+\end{tikzpicture}

@@ -1,0 +1,31 @@
+\slajdid{02-s003}
+\begin{frame}[label=02-s003]{Ulazni signal u logičko kolo se menja u vremenu}
+\gusttekst
+Signal – fizička veličina koja nosi informaciju o logičkim jedinicama i nulama.\\
+Za sada još uvek razmišljamo na apstraktnom nivou sa logičkim jedincama i nulama
+
+\centering
+\begin{tikzpicture}[DEoznaka,baseline=(current bounding box.center)]
+\node[not gate US,draw,minimum width=6mm,minimum height=5mm] (g) at (0,0) {};
+\draw[DEvod] (g.input)--++(-.5,0) node[left] {\(x(t)\)};
+\draw[DEvod] (g.output)--++(.5,0) node[right] {\(y(t)\)};
+\end{tikzpicture}\par
+\begin{columns}[c,onlytextwidth]
+\begin{column}{.40\textwidth}\centering
+\input{slike/tikz/s003_bez_kasnjenja.tex}
+\end{column}
+\begin{column}{.42\textwidth}\centering
+\input{slike/tikz/s003_sa_kasnjenjem.tex}
+\end{column}
+\begin{column}{.16\textwidth}\gusttekst
+p – propagation\\
+H – high\\
+L – low
+\end{column}
+\end{columns}
+\raggedright
+\(t_{pHL}\) - kašnjenje izlaznog signala u odnosu na promenu ulaznog signala prilikom prelaska IZLAZNOG signala sa „nivoa“ H na L
+
+\(t_{pLH}\) - kašnjenje izlaznog signala u odnosu na promenu ulaznog signala prilikom prelaska IZLAZNOG signala sa „nivoa“ L na H\\
+H = 1, L = 0
+\end{frame}

@@ -1,0 +1,9 @@
+\slajdid{09_2-s026}
+\begin{frame}[label=09_2-s026]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[c,onlytextwidth]\column{.21\textwidth}\centering\input{slike/tikz/s026_cmos_invertor.tex}\column{.77\textwidth}Iz uslov se vidi da postoji oblast ulaznih i izlaznih napona za koju važi pretpostavka: P tranzistor radi u omskoj oblasti, N tranzistor radi u zasićenju. Na primer za dugi kanal
+\[\text{N tranzistor u zasićenju:}\quad V_O\ge V_I-V_{Tn}\]
+\[\text{P tranzistor u omskoj:}\quad V_O\ge V_I-V_{Tp}\]
+Za P tranzistor (kao i u prethodnom slučaju) koristimo „prvi način pisanja jednačina“, znajući da su svi naponi uključujući i $E_{Cp}$ negativni. Zato je i promenjen smer veće jednako za P tranzistor (nadam se da Vas to ne zbunjuje).\par\medskip
+Izjednačavanjem struja $I_{Dp}=I_{Dn}$
+\[\begin{aligned}&\frac{k_p}2\frac1{1+\frac{V_{DS,P}}{L_pE_{Cp}}}\left(2V_{DS,P}(V_{GS,P}-V_{Tp})-V_{DS,P}^2\right)\\&\qquad=\frac{k_n}2\frac1{1+\frac{V_{GS,N}-V_{Tn}}{L_nE_{Cn}}}(V_{GS,N}-V_{Tn})^2\end{aligned}\]\end{columns}
+\end{frame}

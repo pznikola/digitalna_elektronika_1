@@ -1,0 +1,21 @@
+\slajdid{02-s005}
+\begin{frame}[label=02-s005]{Šta su u stvari inženjerski vremena \(t_{pHL}\) i \(t_{pLH}\)}
+\gusttekst
+\begin{columns}[c,onlytextwidth]
+\begin{column}{.48\textwidth}\centering
+\input{slike/tikz/s005_maksimalna_kasnjenja.tex}
+\end{column}
+\begin{column}{.50\textwidth}\gusttekst
+Promena izlaznog signala može da se desi i ranije\\
+ali se SIGURNO dešava posle vremena \(t_{pHL}\) odnosno \(t_{pLH}\)
+\end{column}
+\end{columns}
+Znači ovo su MAKSIMALNA vremena posle kojih smo sigurni u stanje izlaznog signala
+
+Stvarno kašnjenje logičkog kola će zavisti od napajanja, temperature, starosti komponente, \ldots\\
+ali neće biti veće od \(t_{pHL}\) odnosno \(t_{pLH}\).\\
+Za isto logičko kolo stvarna kašnjenja su promenljiva!\\
+Proizvođač ova vremena specificira za TIP logičkog kola.\\
+Znači invertori koje je neki proizvođač napravio imaće ova MAKSIMALNA kašnjenja. SVI.\\
+Ali svaki pojedinačno može da ima realna kašnjenja koja su različita od primerka do primerka.
+\end{frame}

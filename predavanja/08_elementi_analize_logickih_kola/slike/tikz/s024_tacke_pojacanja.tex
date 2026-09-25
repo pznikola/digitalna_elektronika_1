@@ -1,0 +1,6 @@
+\begin{tikzpicture}[x=.86cm,y=.86cm,font=\sitneoznake,>=Latex]
+\draw[->](-.2,0)--(3.95,0)node[right]{$V_i$};\draw[->](0,-.15)--(0,3.8)node[left]{$V_o$};\draw[dashed](0,3.2)--(3.2,3.2)--(3.2,0);\node[left]at(0,3.4){$V_{CC}$};\node[below]at(3.2,0){$V_{CC}$};
+\draw[thick](0,2.8)--(1.02,2.71)..controls(1.22,2.69)and(1.25,2.65)..(1.32,2.58)..controls(1.48,2.42)and(1.53,2.04)..(1.85,1.22)..controls(2.05,.71)and(2.13,.53)..(2.26,.4)..controls(2.33,.33)and(2.38,.32)..(2.55,.29)--(3.2,.2);
+\foreach\x/\y/\lab in{1.32/2.58/V_{IL},2.26/.4/V_{IH}}{
+\draw[dashed](\x,0)--(\x,\y);\node[below]at(\x,0){$\lab$};\draw(\x-.22,\y+.22)--(\x+.22,\y-.22);\filldraw[fill=DEcrvena,draw=DEtekst](\x,\y)circle(.05)node[above right]{$a=-1$};}
+\end{tikzpicture}

@@ -1,0 +1,13 @@
+\slajdid{10-s088}
+\begin{frame}[label=10-s088]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}Međutim sada treba uočiti jednu bitnu stvar, a to je da za ovako izabrani referentni napon i ovakvu konfiguraciju teško je postići održavanja naponskih nivoa.
+\par\medskip Za ovako izabrani referentni napon na primer kada vodi tranzistor T2 celokupnu struju
+\[V_{B2}=V_R=V_{CC}-R_C\frac{I_E}2\]
+\[V_{E2}=V_{B2}-V_{BE2}=V_{CC}-R_C\frac{I_E}2-V_{BE}\]
+\[V_{C2}=V_{CC}-R_C I_E\]
+\[V_{CE2}=V_{C2}-V_{E2}=V_{CC}-R_C I_E-\left(V_{CC}-R_C\frac{I_E}2-V_{BE}\right)\]
+i on mora ostati u aktivnom režimu
+\[V_{CE2}=V_{BE}-R_C\frac{I_E}2>V_{CES}\]
+Znači jako precizno moraju biti izabrani otpornici kao i struja strujnog izvora. I to je različito u odnosu na prethodne familije. Tamo da li je 9k ili 10k nam nije uticalo na funkcionisanje kola. Ovde neće biti čudno ako vidimo da neki otpornik treba da bude $779\Omega$.
+
+\end{frame}

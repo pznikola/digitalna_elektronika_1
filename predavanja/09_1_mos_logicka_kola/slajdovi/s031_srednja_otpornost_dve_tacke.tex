@@ -1,0 +1,8 @@
+\slajdid{09_1-s031}
+\begin{frame}[label=09_1-s031]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\begin{center}\input{slike/tikz/s031_kapacitivno_opterecen_mos.tex}\hspace{10mm}\input{slike/tikz/s031_dinamicka_karakteristika.tex}\end{center}\alert{Prvi način}
+\[R_n=\dfrac{R_{ON1}+R_{ON2}}2\]
+Ekvivalentu otpornost $R_n$ računamo kao srednju vrednost otpornosti tranzistora u tačkama 1 i 2, pri čemu je
+\[R_{ON1}=\dfrac{V_{DD}}{I_{Dn1}}=\dfrac{V_{DD}}{\dfrac{k_n}{2}\dfrac1{1+\dfrac{(V_{GS}-V_{Tn})}{L_nE_{Cn}}}(V_{GS}-V_{Tn})^2(1+\lambda_nV_{DD})}\]
+\[R_{ON2}=\dfrac{\dfrac{V_{DD}}2}{I_{Dn2}}=\dfrac{\dfrac{V_{DD}}2}{\dfrac{k_n}{2}\dfrac1{1+\dfrac{(V_{GS}-V_{Tn})}{L_nE_{Cn}}}(V_{GS}-V_{Tn})^2\left(1+\lambda_n\dfrac{V_{DD}}2\right)}\]
+\end{frame}

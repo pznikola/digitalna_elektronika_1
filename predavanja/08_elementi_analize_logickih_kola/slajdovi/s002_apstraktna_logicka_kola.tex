@@ -1,0 +1,16 @@
+\slajdid{08-s002}
+\begin{frame}[label=08-s002]{APSTRAKTNA LOGIČKA KOLA}
+\begin{columns}[c,onlytextwidth]
+\column{.46\textwidth}
+A i B su promenljive, nisu signali\par\medskip
+Ne postoji dimenzija vremena
+\column{.49\textwidth}\centering
+\begin{tikzpicture}[circuit logic US,DEoznaka]
+\node[not gate US,draw,scale=1.2](g)at(0,0){};
+\draw(g.input)--++(-.6,0)node[left]{$A$};\draw(g.output)--++(.6,0)node[right]{$B$};
+\end{tikzpicture}
+\[ A\in\{0,1\}\qquad B\in\{0,1\}\qquad B=\overline A \]
+\end{columns}
+\medskip\centering\input{slike/tikz/s002_apstraktni_signal.tex}\par
+\medskip\alert{NIJE MOGUĆE U REALNOSTI}
+\end{frame}

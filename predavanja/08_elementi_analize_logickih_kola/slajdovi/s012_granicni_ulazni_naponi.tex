@@ -1,0 +1,14 @@
+\slajdid{08-s012}
+\begin{frame}[label=08-s012]
+\gusttekst
+Analizu logičkih kola mi radimo na tipičnom predstavniku familije. Međutim u proizvodnji je nemoguće postići da sva logička kola koja su šematski identična i imaju identične karakteristike. U tom slučaju analiza ide u dva koraka\par
+\hspace{4mm}Odrede se ovi opsezi na tipičnom predstavniku\par
+\hspace{4mm}Prouči se uticaj parametara na ove opsege i metodom najgoreg slučaja odrede inženjerske granice.\par\medskip
+\begin{tabularx}{\textwidth}{@{}lX@{}}
+$V_{IL}=\dfrac{V_{CC}}2-\Delta L$ & L – Low – maksimalan napon koji logičko kolo još uvek prepoznaje kao logičku nulu\\[5pt]
+$V_{IH}=\dfrac{V_{CC}}2+\Delta H$ & H – High – minimalan napon koji logičko kolo još uvek prepoznaje kao logičku jedinicu
+\end{tabularx}\par\medskip
+Katalog – Data sheet – karakteristike daje proizvođač komponente logičkog kola\par
+\centering\input{tabele/s012_kataloski_nivoi.tex}\par\medskip\raggedright
+\alert{Uočiti da $\Delta L$ i $\Delta H$ ne moraju biti pozitivni odnosno da je uvek $V_{IH}$ veće od polovine napona napajanja a $V_{IL}$ uvek manje. Česta situacija kod logičkih kola sa bipolarnim tranzistorima je da je $V_{IH}$ manje od polovine napona napajanja.}
+\end{frame}

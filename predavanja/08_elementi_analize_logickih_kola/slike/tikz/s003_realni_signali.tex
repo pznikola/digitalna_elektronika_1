@@ -1,0 +1,10 @@
+\begin{tikzpicture}[x=1cm,y=.75cm,font=\sitneoznake,>=Latex]
+\fill[DEcrvena!12](1,1.25)rectangle(2.3,1.8);\fill[DEcrvena!12](3.2,0)rectangle(3.7,.55);
+\foreach \y/\lab in {1.25/a,0/b}{\draw[->](0,\y-.1)--(0,\y+.95)node[left]{$\lab$};\draw[->](-.1,\y)--(5.8,\y)node[below]{$t$};}
+\draw[thick](0,1.8)--(1,1.8)--(2.3,1.25)--(5.5,1.25);
+\draw[thick](0,0)--(3.2,0)--(3.7,.55)--(5.5,.55);
+\node at(.45,1.5){1};\node at(4.2,1.5){0};\node at(.45,.3){0};\node at(4.2,.3){1};
+\node[anchor=west](sh)at(2.6,2.15){Šta shvata logičko kolo};\draw[->](sh.west)--(2,1.7);
+\draw[->,DEcrvena](1.55,1.56)to[bend right=45](3.3,.3);
+\node[anchor=north](da)at(3.7,-.26){Šta i kada daje logičko kolo};\draw[->](da.north)--(3.48,.18);
+\end{tikzpicture}

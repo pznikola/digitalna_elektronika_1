@@ -1,0 +1,12 @@
+\slajdid{09_2-s005}
+\begin{frame}[label=09_2-s005]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[c,onlytextwidth]\column{.19\textwidth}\centering\input{slike/tikz/s005_invertor_ugradjeni_kanal.tex}\column{.79\textwidth}Daljim porastom ulaznog napona, napon na drejnu tranzistora $T_D$ opada, napon između drejna i sorsa tranzistora $T_L$ raste i kada je
+\[V_{DS,D}=V_O\ge V_{GS,D}-V_{Tn,D}=V_I-V_{Tn,D}\]
+\[V_{DS,L}=V_{DD}-V_O\ge V_{GS,L}-V_{Tn,L}=-V_{Tn,L}\]
+Odnosno
+\[V_O\ge V_I-V_{Tn,D}\qquad V_O\le V_{DD}+V_{Tn,L}\]
+postoje uslovi da i tranzistor $T_D$ i tranzistor $T_L$ rade u zasićenju. Tada je
+\[\frac{k_{n,L}}2(V_{GS,L}-V_{Tn,L})^2=\frac{k_{n,D}}2(V_{GS,D}-V_{Tn,D})^2\]
+\[k_{n,L}(-V_{Tn,L})^2=k_{n,D}(V_I-V_{Tn,D})^2\]
+\[\color{DEcrvena}V_I=V_{Tn,D}-V_{Tn,L}\sqrt{\frac{k_{n,L}}{k_{n,D}}}\]\end{columns}
+\end{frame}

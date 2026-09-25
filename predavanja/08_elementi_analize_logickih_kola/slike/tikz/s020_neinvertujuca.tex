@@ -1,0 +1,10 @@
+\begin{tikzpicture}[x=1.2cm,y=1.2cm,font=\sitneoznake,>=Latex]
+\draw[->](-.15,0)--(3.9,0)node[below left,yshift=-3mm]{$V_{i1}=V_{o2}$};\draw[->](0,-.15)--(0,3.85)node[left]{$V_{o1}=V_{i2}$};
+\draw[dashed](0,3.2)--(3.2,3.2)--(3.2,0);\node[left]at(0,3.2){$V_{CC}$};\node[below]at(3.2,0){$V_{CC}$};\node at(2,3.62){1. i 2.};
+\draw[DEcrvena](0,0)--(3.2,3.2);
+\draw[thick](0,.25)--(.32,.32)--(1.2,.42)..controls(1.55,.47)and(1.64,1.21)..(1.95,1.95)..controls(2.22,2.58)and(2.30,2.72)..(2.55,2.77)--(2.8,2.8)--(3.2,2.88);
+\begin{scope}[cm={0,1,1,0,(0,0)}]\draw[thick,DEplava](0,.25)--(.32,.32)--(1.2,.42)..controls(1.55,.47)and(1.64,1.21)..(1.95,1.95)..controls(2.22,2.58)and(2.30,2.72)..(2.55,2.77)--(2.8,2.8)--(3.2,2.88);\end{scope}
+\filldraw[fill=DEcrvena,draw=DEtekst](0.32,0.32)circle(.045)node[above left]{L};
+\filldraw[fill=DEcrvena,draw=DEtekst](1.95,1.95)circle(.045)node[above left]{M};
+\filldraw[fill=DEcrvena,draw=DEtekst](2.8,2.8)circle(.045)node[above left]{H};
+\end{tikzpicture}

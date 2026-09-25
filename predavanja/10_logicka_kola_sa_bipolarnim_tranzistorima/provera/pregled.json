@@ -1,0 +1,1253 @@
+{
+  "schema_version": 1,
+  "slides": {
+    "10-s001": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Postojeći naslovni slajd bez dodavanja drugih podataka.",
+      "source_render_sha256": "32a9113cfc9316666a141d735d35223b7f0757dc17e2c3b840806801c595c3ad",
+      "new_render_sha256": "243825b9d0b22002ad4018f6000b767dff756eba5c47e360d8fed78da5daed64"
+    },
+    "10-s002": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. PN simbol A/C sa ID, polaritetom VAC i p/n; otvorena grana i naponski izvor VD, svi uslovi provođenja i šest redova postupka pretpostavka/dokaz.",
+      "source_render_sha256": "509346af0d662d589766dc5c0b4078b03439c14ba6e31480aed1e50849fcd59e",
+      "new_render_sha256": "adfe4805bed1da18ec27a5155906673771908d9c1bfa188066afaf7bce2256d3"
+    },
+    "10-s003": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Različiti Zener/Šotki simboli A/C, Zenerov naponski model VZ sa obrnutim polaritetom i IZ ulevo; objašnjenja polarizacija i dva pasusa o Šotki diodi sa 0.3 V.",
+      "source_render_sha256": "0fa42a937538a7ba5f72f647bec6f819bf950462d28689135381cf4fe4fd6c2b",
+      "new_render_sha256": "9465a59068db83c05a953029a772b92b5fc723868ec5e00614bca41b7602a8f3"
+    },
+    "10-s004": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ulazno R-dioda kolo sa polaritetima i iD, poseban vi impuls, tri vremenska dijagrama sa VH/VL/VD i pet vremena t0–t4, sva četiri intervala i obe formule struje. Kvalitativne krive bez izmišljenih numeričkih skala.",
+      "source_render_sha256": "fc71a0bcf8344a0f17da2e4b0cc39230849140b506f0b6d084fac57cca87b3a1",
+      "new_render_sha256": "01efde5430b2f43488e8443962a520f4e5b2a34a68aa52b7650aea201c702d17"
+    },
+    "10-s005": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. NPN/PNP simboli sa n/p/n+ i p/n/p+, imenima B/C/E, različitim strelicama emitora; usaglašene tri struje i tri napona sa polaritetima; precrtan model malog signala i lista režima velikog signala.",
+      "source_render_sha256": "d20e76172c46df09cd364615790a8f9554a460f31095ab64918430d8b1295ea3",
+      "new_render_sha256": "30dacb91897761ba67c796d5123e9a94271ac3f0b19fa823bc7a08ca270ef44f"
+    },
+    "10-s006": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Tri režima sa svim uslovima, otvoreni model, VBE i kontrolisani strujni izvor βFIB, dva zasićena naponska izvora; sve struje, polariteti i naponi .6/.7/.1 V. Izvorna nepreciznost baza–kolektor/VCES ostaje.",
+      "source_render_sha256": "8ad79016f23d94d7d8575f5adbbfe4efec3319e9d81a1a58c929d54c548420a9",
+      "new_render_sha256": "29846634fd20a0e4a3f493714afa91c88e5c37b965293231093031a300acfb3c"
+    },
+    "10-s007": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Puni uvod, pet numerisanih koraka sa βFIB>IC i završni pasus; očuvano „iz elektronika“.",
+      "source_render_sha256": "b112aecc32fae945254b9167860bcc7a9c82cffc746db228216ead5ddc821407",
+      "new_render_sha256": "eb2fa861beff23381534351ea81472b94a2a9125ab9786f9b4676cc0733e33d9"
+    },
+    "10-s008": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Kolo sa T1/RB/RC/VCC i polaritetima, poseban impuls, tri kvalitativna dijagrama vi/vo/iB sa sedam vremena i VH/VL/VOH/VOL; šest potpunih pasusa, uključujući izvorne slovne greške i završnu crticu u četvrtom.",
+      "source_render_sha256": "045af5cc65bb1b6cc1fdbb3ebdfd2f04bc3598cefd98b94759c3ed3a357779f5",
+      "new_render_sha256": "aee6ac947ab50f1d336517eafa08b8439e7bd2c41f66847e4f5d027bc3303516"
+    },
+    "10-s009": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Izvorni smajli, CB paralelno RB u pojačavaču T1, ekvivalentni kompenzovani razdelnik sa RBE/CBE u crvenoj elipsi, plava strelica, svi naponi i polariteti.",
+      "source_render_sha256": "f23719680264e715d1124ea0f37badbd653415b1daa39cae841270c91ba92ff4",
+      "new_render_sha256": "5bd86fa7180961e5d49b706f03b0222e68d14772b2e31e547a9549520e798c20"
+    },
+    "10-s010": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Puni uvod i dve ekvivalentne šeme pojačavača zajedničkog emitora; svi ulazni/izlazni naponi, pet struja i razlika T1/IB/IC naspram T_1/IB1/IC1; oba smera IO ka kolu.",
+      "source_render_sha256": "83f12041683132dc9a134a3efe6c4d93634188e865dff16461e7d7bddd118ae5",
+      "new_render_sha256": "13051d7ab332aea777afdfb009e092586fd92c90640cba056f8eb7771650d1b0"
+    },
+    "10-s011": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ista RTL šema sa svim strujama; ceo postupak odbacivanja aktivnog/zasićenog režima za VI=0 i potvrde zakočenja; dve iste ulazne jednačine i obe izlazne, svi indeksi, početno V0 i izvorne slovne greške. Formule prelome dobijaju u pasusima.",
+      "source_render_sha256": "b78aa881ac07c5bf93c33b9f03b18b5967c1b6e669f7a1304608b284e24fddbb",
+      "new_render_sha256": "54168759eeb56345c966b51c0c519b41ce08426e8701d990bfe386815438a663"
+    },
+    "10-s012": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ceo pasus o ivici provođenja i diskretnim modelima; samo početni horizontalni deo VO=VCC, isprekidana granica VγT, obe ose, bez dodavanja ostatka krive.",
+      "source_render_sha256": "d6780fbe694000ac9a85ff0b9485f5f56e3355ddc5ea5634c02f0fb6a0ae36b8",
+      "new_render_sha256": "4abed2adbc2977bd5bd73792942b77aef8d93ac34718a9a6290cb6698ecf26ec"
+    },
+    "10-s013": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Tri tekstualna bloka i obe formule za mali IC; sačuvana završna zapeta prve formule i nejednakost sa VCES.",
+      "source_render_sha256": "5082e053dcb91088ac5887a4a9d2e2b973e0f0bd166a6d7e31fb76fe765b0d7a",
+      "new_render_sha256": "c8ce3fa59735fcb19377ec6265a993bd7ba75760cefada61eca288a970e1be28"
+    },
+    "10-s014": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Svih sedam redova jednačina i pet uvodnih tekstova; izvorno IR u lancu jednakosti i „aktivnom režimi“ preneti bez ispravke.",
+      "source_render_sha256": "6433f92b05102871b769dd673fad01a55c4e1ec6e0bb17faaf6d5c996a18e762",
+      "new_render_sha256": "179eca4727fa02467cd58ec9c8136e5d935ced4402c0b4e229843121b8c153fb"
+    },
+    "10-s015": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ponovljen aktivni izraz, tri pasusa, potpuna supstitucija .5−.6 sa >VCC i tri upitnika, izvorno kurzivno „na“ i završna jednačina; nedoslednost diskretnog modela ostaje predmet objašnjenja.",
+      "source_render_sha256": "6be8f09b71638c58134432cb4d706979f0f6cc3671bdbb0d21487c647a787c5a",
+      "new_render_sha256": "6fcf64a982ee86afd61a6392680cd091b8c432cca3706648ad4c4c63ff4b15bd"
+    },
+    "10-s016": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Izvod nagiba, |a|≫1, opis kontinualne prave; parcijalna kriva, a/crtamo/VγT, zaokružen početak i uvećani glatki prelaz sa svim redovima napomene; desno formula i plava strelica ulevo.",
+      "source_render_sha256": "7b7562053a451594cd985de0744506eabd88da54fd7335380fb8397e2b68529b",
+      "new_render_sha256": "064141e9ce1c4135b3df3306205474dba5b914c511ade63541012ddc8867918a"
+    },
+    "10-s017": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Obe formule za VI1, kompletna izlomljena karakteristika sa a i sva četiri praga/napona, plava strelica, četiri definicije napona i dve margine sa izvornim indeksima LMS/HMS.",
+      "source_render_sha256": "d1bd1f4deb9350490cac743e93ab4b8158bfba5c75b1d33b9ef791dcbd7355f2",
+      "new_render_sha256": "70cee111434bccadaf4516feccf34df4e8102f539c13ffecce7c638c23cd59d7"
+    },
+    "10-s018": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Pet koraka izvođenja VM uključujući sva tri ekvivalentna razlomka poslednjeg reda, obe margine LSS/HSS, crveni zaključak velikim slovima.",
+      "source_render_sha256": "405cbd7075c8989fc7dc5f5f7af7d309663b94b1a25c58c95d147a0601be6aa4",
+      "new_render_sha256": "e6815ff3ede8741a5e1152868f0c8d171a5006baaeb89c07c81d9d2410858594"
+    },
+    "10-s019": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Obe početne struje, zasićene struje i nejednakost, granična jednakost i potpuna supstitucija, VI2, ponovljeno VI1 i razlika pragova; četiri međuteksta bez ispravljanja „smanjuje se struje“.",
+      "source_render_sha256": "bb50d48b2e33a908d114e3d783144cc4bff10f7a3df2a22d2302fb5d4c1096dd",
+      "new_render_sha256": "8938c2d58850bb60f60a1ef8a7d33a1c788a2211c23724af48b02986436f7148"
+    },
+    "10-s020": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ponovljena razlika pragova, pitanje i crveni protivrečni odgovor sa tri upitnika, ceo pasus o aproksimaciji; cela kriva sa VI1 ili VI2 i kružnim uvećanjem glatkog donjeg prelaza, sva napomena i oznake.",
+      "source_render_sha256": "06a2e68d25d098b02c38b9be6cc1bb10134fb18855ef540f3d7495a75f44afb8",
+      "new_render_sha256": "e58ce400535e1565186385e7d7e6cff3d33fba6e4e302b37761f131c66de60b2"
+    },
+    "10-s021": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ista RTL šema sa svim naponskim i strujnim oznakama; oba intervala ulaza za IIL/IIH, oba izraza bazne struje, uslov maksimalnog VI i formula IImax. „u zasićenu“ ostaje.",
+      "source_render_sha256": "9dd96e0e563d5e846bd3791862156b94ffd0e5d3f3d5c6567ec87c4f614beac2",
+      "new_render_sha256": "83310f12af172cbbe3960b810333d8fc0b31347f1928c12020752714b7b9d282"
+    },
+    "10-s022": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ceo pasus o kompromisu RB i oba podvučena suprotna zahteva; originalne gramatičke greške i elipsa ostaju.",
+      "source_render_sha256": "e780088e2ca0a4fd2f9d8fe6c55a39ebd90f1c78233536c9fd6b969878e3d10b",
+      "new_render_sha256": "88c60d5b84ef65bd520f4029fd59d8cd1573fbb8af5f10f7d80d8d12eebec5b0"
+    },
+    "10-s023": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Oba negativna izraza izlazne struje, usvojen smer, granica VOHmin>VIH i kompletno objašnjenje rezerve šuma.",
+      "source_render_sha256": "f870a53d9457b93a25281ce1011c90e3fa40398746145af687f2162867947c67",
+      "new_render_sha256": "fb1771d6288635d3dd78888fee3264a6064391c9d58f6509454bb94788a2c28a"
+    },
+    "10-s024": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ponovljen IOmax, kompletan primer 0/−20/−25 mA i MAX kao apsolutna vrednost; oba suprotna zahteva za RC i zaključak.",
+      "source_render_sha256": "d9f8e1ec48ec911c0541341d97480ed485063314310758a7683a7fefaf080d63",
+      "new_render_sha256": "6126670857f5722d696c1c18d8eb898892efb8e827488103991de01789b68dcf"
+    },
+    "10-s025": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ceo šestostepeni izvod IOL: KCL, uslov βFIB>IC, granica IO, izlazna kontura, zasićena kontura i poslednja supstitucija; svi međutekstovi.",
+      "source_render_sha256": "35063df204e0a12774f5ad14afc252aee4bcb5259d589313cc7df3199840b9db",
+      "new_render_sha256": "8192f94da20ccf39361ab8fc37fb70903bf015e112c78d6e7b105e849fc1f33c"
+    },
+    "10-s026": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ponovljena granica, bazna struja, oba objašnjenja minimalnog IB, VI=VIH, IBmin, potpuni lanac IOL, VI2 i kompletna završna supstitucija sa crvenim =0=IOL.",
+      "source_render_sha256": "cc8a02d11d4cf498d530b90251b17eda8fbc0bacfae2359e963a9315fbfeecce",
+      "new_render_sha256": "a68b48eda1cfcf5e056e19d31079fcfd4e5b39c3e12b7088316d40f6eb275c66"
+    },
+    "10-s027": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Predlog VI=VOHmin>VIH sa upitnikom, puni IOL izraz, oba pitanja i crveni odgovor, NL=∞, sve četiri forme NH sa apsolutnim IOH, crvene tri napomene i završni minimum; izvorno „granja“.",
+      "source_render_sha256": "e1b6b2fb9452eb5c1dd315a6ec054662e89f7d5ad66c3efbc67edafab999216d",
+      "new_render_sha256": "9c00987d37c2f078f711b726bbf32ea13b9348114903be0b3c086e0845b65708"
+    },
+    "10-s028": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dva kompletna blok-dijagrama: invertor 1, neinvertujući B i grane 21/2N sa vertikalnim nastavkom; drugi lanac 1/B/B, odvojak Abar i A ka sledećem nivou; svi natpisi i obe vrste rasterećenja.",
+      "source_render_sha256": "4a9b5785b874f7b36476bb5360643505a2effe215624af29f148e0a95e4835e6",
+      "new_render_sha256": "29bc7b359a341adddd071bc40f905c79e68b72a41ebed984cb22d35a68ee8ba2"
+    },
+    "10-s029": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. RTL sa CO, poseban ulazni impuls sa t1/t2, ekvivalent RC punjenja i smer iC, drugi vi/vo dijagram sa asimptotom VOH i početkom VOL; četiri formule i oba uslova t≥t1. Razlika C0/CO i v/v0/vo u originalu ostaje.",
+      "source_render_sha256": "f198e1a2d5cef98bcedd93e6023bad3b3ab789db016a21b5aad40caccf66a832",
+      "new_render_sha256": "87dd82d72f41234bf18a19e5bf02e010eed56d8877150269bf6e83733f54bcf2"
+    },
+    "10-s030": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Aktivni model RB/VBE i βFIB sa RC/CO i usvojenim smerom iC, t≥t2, τ i ceo pasus o gašenju izvora; svih sedam desnih formula sa izvornim iRC(t) i završni eksponencijalni odziv, početni uslov, granica t3≥t≥t2 i crvene napomene.",
+      "source_render_sha256": "2eee0032441798be70080abe2258f3f71195c354216d9af2cb5e474044ce0c5e",
+      "new_render_sha256": "cfd3332a40c1f6a2ab6555cdc61f4d11d2e598e7a5f97b3ad631f25e89b00c5c"
+    },
+    "10-s031": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dva eksponencijalna izraza, objašnjenje ulaska u zasićenje, oba opšta rešenja i obe zamene za t3; svi početni i krajnji uslovi.",
+      "source_render_sha256": "4ca3e2d2eb015dfc079ae830a92e6677522ce916a2d0b35d9bc380a99a61e34d",
+      "new_render_sha256": "17141a83b9d1e09c3f83fa11cb0779ea47902e2e0be040d86089d9abd2d67c26"
+    },
+    "10-s032": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ulazni impuls, izlazni odziv sa VOL/50%/VOH i tačkastim nastavkom po modelu; crna i plava strelica. Upozorenje sa izvornim tf=2.2 bez tau, puna izvođenja tpHL/tf i crveni pasus o najgorem VH.",
+      "source_render_sha256": "08b2c85a12676e31afd7f229d34ed03bc2665a89ea3034bfca584f9b523b947c",
+      "new_render_sha256": "b4e65b058b4eb6a1ff4b48d55f7e914f4b041b4f88b5b93406a55d85090fb904"
+    },
+    "10-s033": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. NPN T1 sa RB/RC/RN, negativnim napajanjem −VN i strujama II/IB1/IN; Tevenenovi RT/ET i sva izvođenja VILnovo/VIL.",
+      "source_render_sha256": "cab7b83f9430d447ab79c5f63cf195006b109e4f35b746a2e45010cfbc6fccc6",
+      "new_render_sha256": "507c8f1aaf971b446e4e1ff83cf4cfda7b29d6eb013ae46aaa2d8c4af7caed2b"
+    },
+    "10-s034": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dve numerisane realizacije: dva bazna ulaza sa RN i dva spojena invertora sa NOR izrazom; dva detaljna kola sa zasebnim RC i zajedničkim RC. Izvorna ponovljena oznaka RBB u desnoj šemi sačuvana; crveno upozorenje o zabranjenom spajanju izlaza.",
+      "source_render_sha256": "3753b8154417c7bf5b55e2e9660704350c4db6e4303b35f69b91d14176a3cc4b",
+      "new_render_sha256": "4a0a0e2b4b83a909aa1ba756ef9c3ea9ae7db7767c32d68db7ee558de7b1c9da"
+    },
+    "10-s035": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. NPN bez Rc, plava strelica ka paru oc invertora sa pull-up RC i NOR izrazom; strelica na oznaku oc. Složena funkcija NOT/NAND/OR sa zajedničkim RC i izvornim izrazom (A negirano)(BC negirano)(CD), iako je donje kolo OR.",
+      "source_render_sha256": "fc721fd757e4c7e36a2498203989732f493f1c5d9f1954ad79acf2716de9290c",
+      "new_render_sha256": "65c94f1db17743523467aad1d24911a6c6d9cd36c6b63b65948b4d7924244bc6"
+    },
+    "10-s036": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dva numerisana oc spoja bez pull-up: precrtan izvorni izraz, izlazno kolo 4 i strelica Z→∞. Celokupan tekst i podvučen odgovor; bez dodavanja stanja logičke jedinice.",
+      "source_render_sha256": "b12e4f03ced13d17ba5246c84f206435c834ca2e02aff016db76c4129f7e3f74",
+      "new_render_sha256": "b5f4db27b0ecd8e6d42995eb5fe0fd4ba3bb69f0ddd1f41f30f31df86592548c"
+    },
+    "10-s037": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Oc šema 1–3 i VO bez pull-up, prelaz 0–Z–0 sa tpLZ/tpZL; tri podsetnika idealan/realan/nebitno stanje, VOL/VOH, tpLH/tpHL i strelice na promene.",
+      "source_render_sha256": "ed87f5d17fa852d9853715644b20bed960aa6e205e7831cc45a76c2d7b3c5152",
+      "new_render_sha256": "a8cdd0e4a5727aa8db5cfea7809fb19f120683de22954808d29c5b90ae5c2a98"
+    },
+    "10-s038": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Sva tri objašnjenja plivajućih ulaza i posledica smetnji; nepovezan NI ulaz sa A i ?, podvučeno opšte pravilo, pull-up/pull-down sa R, napajanjem/masom i plavim strelicama 1/0.",
+      "source_render_sha256": "aedb7b9a580bc1fbd1e80b5b0399542927d2aad7f7aefaa5ba635273d7ec2c5b",
+      "new_render_sha256": "a08e24370c87ebe020a51dfebc9cfebba7b7a38406286f47a58a95e5da61dbc9"
+    },
+    "10-s039": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dvoulazno diodno ILI: D1/D2, anodni ulazi, zajedničke katode, puldaun R, sve struje/polariteti VD; uvod i ceo dokaz da pri niskim ulazima diode ne vode.",
+      "source_render_sha256": "4b4f7b0f28c596bd27b5132f065b1fc89f6e02074d956573718d9158b5917bc7",
+      "new_render_sha256": "fd60a36e164444e9c854c39636d9fda176f57194a1c95f2a90718b87b4e599af"
+    },
+    "10-s040": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ponovljena potpuna diodna ILI šema; opovrgavanje neprovodne D1, KVL i pozitivni ID, inverzna D2 i svi međukoraci; slovne greške Smatrajno/didodu prenete.",
+      "source_render_sha256": "059936176de2b67592e8228d1d0bcfdc9b3777b66bc578aee2ea6ecb12b079b1",
+      "new_render_sha256": "51428df50d01e40451f35a5735a5eb0cb34d034cf692ce848526e25a362ade6a"
+    },
+    "10-s041": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ponovljena šema, simetrija ulaza, istovremeno provođenje, sve rečenice o proširenju; kvalitativna prenosna karakteristika sa pragom VD i crveni zaključak sa izvornim slovnim greškama.",
+      "source_render_sha256": "b6a299690bf142288d36f1c8478f8b78bb3d9d15e9e3407df06101d7c06d714d",
+      "new_render_sha256": "79e0beeb34f89fac486d2cd9fa9534d5564aa0642aaf1760d61b8cbf91e79df2"
+    },
+    "10-s042": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Reverzirane D1/D2, zajedničke anode i pull-up R/VCC, sve struje/polariteti; kvalitativna kriva od VD do zasićenja VCC pri VCC−VD, oba objašnjenja i crveni zaključak.",
+      "source_render_sha256": "ea70dab198bed4d1f1eb8247ac8cd8bc24c72dd70fbeb5cfeeeaf644ae2591c6",
+      "new_render_sha256": "ab2c626bcb49c4cb31784db5ca1378a8e07f173e4c45b29ebe47bb13e1a45872"
+    },
+    "10-s043": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. RTL→DTL, ulazne D1/D2 sa zajedničkim anodama i RD/VCC, RB i RN/−VN, T1 i RC/VCC, VI1/VI2 i Vo; potpuna šema bez izostavljanja negativnog napajanja.",
+      "source_render_sha256": "5a7d20d285b30377a871e89124c296ce0bc8a731b3bcff8d31da0cbbdc1dd661",
+      "new_render_sha256": "595e6f6a88ff061bebdd0357a8f4660f7af65d18f6a6af95f10a36f1a362c041"
+    },
+    "10-s044": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Precrtana cela DTL šema bez RN/−VN sa VX; pitanje, oba velika upozorenja i oba puna pasusa koji objašnjavaju neodržanje naponskih nivoa.",
+      "source_render_sha256": "cf0374af1f7baa22e430c61374e0d683d97e340e9eeeb250e7ee31da95a1898f",
+      "new_render_sha256": "d48de21dbd7c5f652337567bef5e6e0d9d1637870060b25c183fe07a52df4056"
+    },
+    "10-s045": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Invertor i dvoulazno DTL sa D3/D4 kao pomeračima nivoa, RD/RC/RB, VX i napajanjima; tri plave strelice i sve napomene, uključujući izvorno didode.",
+      "source_render_sha256": "48e551dec45832484cc786cb0bc2a30d9603b3ba64862ae2ccf7b5164ece5c7e",
+      "new_render_sha256": "d4e1b97167a74f0fce066044ecac078b60cadf325e2518e2b4eda0f4b11428af"
+    },
+    "10-s046": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ista invertorska šema sa pomeračima nivoa, cela transfer kriva, obe plave strelice, VX/VRB, provođenje D1/D3/D4, dva izraza za gornju granicu sa crvenim različitim oduzimanjem, objašnjenje i četiri logička napona.",
+      "source_render_sha256": "042c6cb2c14af839f950cc6443c7403875b6a9fa58552885e85476824c2b4b38",
+      "new_render_sha256": "2fdf0f0e1eba51c877e0a6e6aebc07769d4062f330e9d0ccafebec3d67703427"
+    },
+    "10-s047": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Cela transfer kriva sa pragovima i plavom strelicom; afina funkcija V0, oba razlomka za nagib a, sva tri reda za VM i četiri margine šuma sa objašnjenjima. Sitni član −VγD u skraćenom imeniocu potvrđen na 200 dpi.",
+      "source_render_sha256": "7055ec52d6d47803d8f3bf348fed662b456a49ca50c51132ad6e7045bc55ffab",
+      "new_render_sha256": "13096dea0be86f92d94ffe484f30f39a87700eae653cfd451619358d5bfc6035"
+    },
+    "10-s048": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ista invertorska šema; sva tri razlomka IImax, crvena 0 i plava strelica ili VOL; IIL/IIH/IOH, pitanje IOL i svi koraci IB/IO/IOL. Formule sačuvane uz prelom redova.",
+      "source_render_sha256": "e735868b695b674d6c8afaf1056ffac480a90aff8b1928914a081022b43c2347",
+      "new_render_sha256": "be1d8906d4b6526a7b20c46b149c9d1c36189eb2ce7c1b497e186d274e1f512e"
+    },
+    "10-s049": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. DTL invertor sa CO, odvojeni ulazni impuls i par ulaznog/izlaznog odziva sa 50%; Nortonov ekvivalent ID34/RB/VBE i βFIB/RC/CO sa svim strujama. Izrazi punjenja, pražnjenja sa IOL i t3; izvorni indeks vI(t) na šemi sačuvan.",
+      "source_render_sha256": "a0fb0ad9707baefa49917fab1bff8fde79791d269029a1c2c5936b3141e833ae",
+      "new_render_sha256": "ceec65954c124a3c89c94a1399e6cc94119f308529f53fbffacf186f1041200a"
+    },
+    "10-s050": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Tri koraka DTL→TTL: elipsom obuhvaćene D1/D3 sa n-p p-n oznakama, tranzistorska zamena sa D4 i konačno kolo RB1/RB2/T1/T2; tri plave strelice i napomene o zameni i ubrzanju isključenja.",
+      "source_render_sha256": "907706934ecd7c4f1427a0e6c1c3ca8935299cfad1bc4663b3a2ba04981b9e3d",
+      "new_render_sha256": "8f78f58b9c10fcd167cd6c4b4a2e39cc9a3bdff64df6103ab72746421cfe2115"
+    },
+    "10-s051": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ponovljeno kompletno TTL kolo RB1/RB2/RC/T1/T2; horizontalni NPN sa E/B/C ↔ dve diode sa zajedničkim anodama B i katodama E/C, natpis Logička ekvivalencija.",
+      "source_render_sha256": "4399fdd0fb5c4c45408b21aead4f9980d16524e89b809da8bd5aa04f15c4e23b",
+      "new_render_sha256": "1adf4b4f1eef6229f6373b142dbc4c62c4f7b664467edfa81ba36b0a293d75e9"
+    },
+    "10-s052": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Inverzni NPN stepen sa strelicom na gornjem priključku, C novi/E novi i IB/IC/IE; kvalitativna IC–VCE kriva sa VBE, kružićem i uvećanim presekom. Sav tekst, oba skupa indeksa, znakova i granica βR, dva suprotna znaka VCESI.",
+      "source_render_sha256": "016c231fded2e4abb75bb7453a55bb3c26c541bec39fb3d79900b3ad06c75338",
+      "new_render_sha256": "c4531553f015909066ea3c4f9d6b3fc4163c61ae923a8fc2f27e01b044ece61d"
+    },
+    "10-s053": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dva ulazna T11/T12 sa zajedničkim bazama i kolektorima zamenjeni T1 sa dva emitera; mostić bez spoja pri ukrštanju vodova baza/kolektora, svi RB1/RB2/RC i naponi; plava strelica i napomena o broju emitera.",
+      "source_render_sha256": "e318080fa94e76b78bc90658c59e2f8be83a2b653022d840a4afec96635c86d7",
+      "new_render_sha256": "51d01fa1752a3be81680a1ac617da712278b69b331e177027b1b67ba6a1a44d1"
+    },
+    "10-s054": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Prethodno dvoulazno TTL → standardno TTL sa otvorenim kolektorom: T1/T2/T3, RB1 4k0, RC2 1k6, RE2 1k0, spoljni pulap RC 2k2, svi VCC i Vo, isprekidana granica integrisanog kola i natpis.",
+      "source_render_sha256": "52285aaee4aba33d3015f89bbc7a37673b7bc225dc5ef8216c97d0d7fa63dc4d",
+      "new_render_sha256": "1359df65743883cb5a4a64c03fb6a6e13512b09dda609f35c377f657587f3c5b"
+    },
+    "10-s055": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Otvoreni kolektor sa spoljnim RC naspram standardnog TTL: T4/RC4 130/D4 totem pole, ulazne zaštitne D1/D2, sve veze i vrednosti, oba natpisa; plava dvostrana strelica i strelica ka totem pole, objašnjenje povećanja kapaciteta logičke jedinice.",
+      "source_render_sha256": "ef475df434316ae097b6da07677750f21f1bae1c99e61ea23f2d91280979b61f",
+      "new_render_sha256": "cb8c47679fa20bbd648692c893c7b106afa6d1c063029ad25cfa085c7eced747"
+    },
+    "10-s056": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ista kompletna standardna TTL šema sa svim vrednostima; oba numerisana pasusa u celini o negativnim impulsima/zaštitnim diodama i radu totem pola. Izvorne slovne i gramatičke greške ostaju.",
+      "source_render_sha256": "3e689e7bf50ddc8dd4b436e66cbd5b820c25b5a0627b58effb00b57db3bc8d8d",
+      "new_render_sha256": "9eb146aebff980871dc0330876ef281977f9264016c0ab7869c11d10dd82cf19"
+    },
+    "10-s057": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Kompletna standardna TTL šema sa istim vrednostima i diodama, četvorodelna transfer kriva VOH/VOL/VIL/VIH/VCC i a≈−1.6, pun opis oba logička režima i zaključak dvoulazno NI.",
+      "source_render_sha256": "a6cd6b35b40e7413baeae2268af119c763593aa47e8833784eaddc592a4c49de",
+      "new_render_sha256": "ca88c3c68378e04bc0ed12a907dd347ca6f3b5cafbdece5f4881aa04fd3dcf56"
+    },
+    "10-s058": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dva emitorska sledila sa RB/RC/T1/D1: neopterećeno i R→∞, plava strelica. Pun zaključak o ivici provođenja, izvorno dva puta IC→0, trostruki izraz V0 sa svim indeksima i prelazom VD→VγD.",
+      "source_render_sha256": "96833da4bddd019174eea186cd0025c222e4c502e37a913c354cc637972da1f1",
+      "new_render_sha256": "dd2a3630ee1ed87f103e912cfda1a8578f73dd6b279717c24587614e688495f9"
+    },
+    "10-s059": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ponovljena potpuna TTL šema i transfer kriva sa a≈−1.6, četiri naponska nivoa sa svim međukoracima i obe margine. Izvorni +VD4 u prvom izrazu VOH sačuvan i evidentiran kao greška originala.",
+      "source_render_sha256": "d4f50b6c9718866c6ae2f7ee3fb55e74b3bd4cbd3ce64b627e01a95a6ee6d1b8",
+      "new_render_sha256": "519fc4ea130eb22d75aebcd5be35b85c1499fe2d8e47b24468b7cb0b5b51f750"
+    },
+    "10-s060": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ista potpuna TTL šema; IIL sa izvornim RBE1, II i IIH sa βR/2 i pun tekst o deljenju bazne struje između dva ili n emitera.",
+      "source_render_sha256": "e59c981c5c11e24b08eedf0e802b8f3c9b3db51a1b3d0615e643a98b8c37ea6b",
+      "new_render_sha256": "d5e1ae511ac1ee7d7d7ae898939abb6b15da4ae05b570b78c8e8dca07c616bfc"
+    },
+    "10-s061": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Kompletna TTL šema, IOL sa (βF+1) i βF, uslov βFRC4>RC2 i zasićenje pri velikim strujama; IO i IOH sa minusom ispred celog zbira i pun uslov VOHmin.",
+      "source_render_sha256": "647d9550e336e6a272b4985fa081586710a6692db4136596dc87140213bad534",
+      "new_render_sha256": "654f049820e65082381a53e115c93d2f0955f57fa8a01d9462fa6596d5c7db0b"
+    },
+    "10-s062": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Totem-pol sa R→∞, sva četiri izraza aktivnog režima, uslov VCE1>VCES i puna zamena VCE1; obe grane nejednakosti za RCβF/RB i kompletan završni pasus. Izvorni indeks V0 sačuvan.",
+      "source_render_sha256": "19c7abf537864a14db2f345dc4b7cb5c3c4f697da78fa058b84b5e6cec80470f",
+      "new_render_sha256": "0ef8d229033e5618364979bfdaa8fb6f71d559a0f9af2352b36e7f70e6201b9d"
+    },
+    "10-s063": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Kapacitivno opterećen totem pol i aktivni ekvivalent VBE/βFIB/VD sa IB, svi elementi i plava strelica; uslov βFRC<RB, tau, kontinuitet napona, asimptota i pun konačan izraz sa tekstom.",
+      "source_render_sha256": "8d78d22fe4647be8763c30a2e92de9909c511b67458ab30590a9f7fd01fe8731",
+      "new_render_sha256": "600aaf6e2f956e688ba9cd476188db6a272c48c5e8879a8127cf8d74d3cedcb1"
+    },
+    "10-s064": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Isto kapacitivno kolo i zasićeni model sa VBES/VCES/VD; uslov βFRC>RB, tau paralelnih otpornika, kontinuitet, sve KVL/KCL jednačine i asimptota, konačan izraz i ograničenje do prelaska u aktivni režim.",
+      "source_render_sha256": "66d202838e9c974a2b216eeaa110a429654bb47273693fbfbe6352b8cf9f96b9",
+      "new_render_sha256": "12d134e775148c9fddad216263ddd40c8cef96113e39c98afedd7b3bf82e6735"
+    },
+    "10-s065": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Aktivni ekvivalent sa VCЕS mernom strelicom i Vo(t1), βFiB(t1)=iC(t1); svi KVL koraci, struja praga, napon praga, početni/krajnji napon, izvorno tau2=CRB/(βF+1) i oba logaritma za t1.",
+      "source_render_sha256": "7327e1521f118ad349e651f3000a20bd6d6449314e0690b58f17e70c9991a006",
+      "new_render_sha256": "696d909f93e0d8b458865e751378b5857f76e04c8bafd07ed298c8baad19a976"
+    },
+    "10-s066": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Standardno TTL sa Co (izvorni ulazni natpisi odsečeni na I1/I2), odvojeni ulaz i par odziva sa 50%, strelicama i tri napomene. Izraz tpLH, model konstantnog pražnjenja sa izvornim βFIB4 i CO, linearni vo(t), međukorak i tpHL.",
+      "source_render_sha256": "96c64f4f5ca918cb7c97ce4367108fdaf4424564044adaaf692f2994dc0f7651",
+      "new_render_sha256": "3680240d0b30ff8d435197f4a8763f0177b9505c9f6e7887d9756de8d0f07a56"
+    },
+    "10-s067": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Standardno TTL naspram Low power TTL: iste sve veze T1–T4/D1/D2/D4, nove vrednosti RB1 40k, RC2 20k, RC4 500, RE2 12k; plava strelica, oba natpisa i zaključak o povećanim otpornicima.",
+      "source_render_sha256": "c580d70d791a3c883cb2b6d7ccf764cfc84af87303e81a9a9f25b6091b94f49c",
+      "new_render_sha256": "86954fa41ea0a0f2a25c8c75485bb18e67553d8e4fb8d508edc04c660e875367"
+    },
+    "10-s068": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Nova Darlingtonova izlazna grana T5/T4 bez D4, RE5 4k, sve ostale veze i nove RB1 2k8/RC2 760/RC4 50/RE2 470; plava elipsa i napomena o strujnom kapacitetu, dva potpuna izraza VOH sa aproksimacijom.",
+      "source_render_sha256": "d5912ee1c84abbab08ca44ee7785232b8e5f8da7c8725801c6e7b5cf1b1056cb",
+      "new_render_sha256": "b75018bb102e37b920869d6bec681d9cbba24dd0c68355cb5a5ddaad33a9ae4c"
+    },
+    "10-s069": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. High power TTL → Schottky TTL uz iste otpornike i veze; specifičan simbol Šotki tranzistora uveden samo na T2, T3 i T5, T1/T4 ostaju isti; puna oba natpisa i pitanje Kako ubrzati rad.",
+      "source_render_sha256": "1b2a3526f83e5e5d6198bd8bd727196bf230eb34c0c41b7bc86d969c0400596e",
+      "new_render_sha256": "8c210600ef4650b50acedeb8edcfd5b3d9224acefdcd01fae5afa3d12562571c"
+    },
+    "10-s070": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Šotki simbol T2 ↔ BJT sa BC Šotki diodom, poseban dijagram svih terminalnih/internih struja; svih pet izvođenja IC, dva slučaja provođenja, VCE, grupisana zamena VBES/VCES i oba uslova Šotki zasićenja.",
+      "source_render_sha256": "811862465f031911310891133bd5275d646bc233f90c1b4445ed1439b30df709",
+      "new_render_sha256": "b18039edba01581785e81e7975c1f44b5f7e442b8c997ef99be39ba48710a371"
+    },
+    "10-s071": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Potpuna Schottky TTL šema: specifični simboli T1/T2/T3/T5/T6 i ulaznih D1/D2, T4 običan; RC2 900, RE5 izvorno 35k, aktivni puldaun T6/RB6 500/RC6 250 umesto RE2; svi ostali otpornici, veze, naponi i natpis.",
+      "source_render_sha256": "fc7db6afcc66298d9d7bd7aa6ad16aa3944b430e62cbb7d1ca7fbe1234a259b9",
+      "new_render_sha256": "f79686c2033bdedf7c54a51331a60d2b1a41391ffffd86f58ba5a1f116b3027c"
+    },
+    "10-s072": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Kompletna LS TTL šema: ulazne Šotki D11/D12 umesto T1, RB2 10k, dodatne D21/D22 ka RE5 i izlazu; RB1 20k/RC2 8k/RC4 120/RE5 4k/RB6 1k5/RC6 3k. T2/T3 Šotki, T5/T6 obični, zaštitne diode, dve plave elipse/strelice i sva objašnjenja.",
+      "source_render_sha256": "637f0a7d42d8f3cd2b18e6e781a8ab3aa4d2c25e57a3a1e594e7b0309bbc086e",
+      "new_render_sha256": "24db997aca00812075468d26b69d46e21a7d077f421af9d1ec2ad458753046b9"
+    },
+    "10-s073": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Potpuna tabela GUARANTEED OPERATING RANGES: VCC i TA za serije 54/74, IOH i IOL, sedam kolona i sve prazne ćelije.",
+      "source_render_sha256": "ef1bb97da54dfe51277fa5a77e2d511754e8b1ed9cc8f8fe0a93ead27162c31c",
+      "new_render_sha256": "f18909c0ae9a7d7b559eab81c6603d007a6376abcfe1cb54168a4623430e2cea"
+    },
+    "10-s074": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Sve ćelije DC i AC tabela, VIH/VIL/VIK/VOH/VOL/IIH/IIL/IOS/ICC, uslovi merenja i napomena o kratkom spoju, oba kašnjenja sa 15 pF.",
+      "source_render_sha256": "0d34033425cfc176d3cb9a1bd8a1f5b6d9432407d1c78cb16716d407d66e8025",
+      "new_render_sha256": "d25d4bf64fb4f47afc2aac5c95e8fa34ae3550ec61005c9799919a82408dec6b"
+    },
+    "10-s075": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Potpun tekst o 54/74 i osam TTL familija, 74LS00; tri uređiva tehnička pogleda N014 sa 14 pinova, svim dimenzijama/tolerancijama/napomenama i fotografijom izdvojenom iz originala. Notch 2,0 (0.080) NOM i debljina izvoda 0,36/0,25 potvrđeni uvećanjem originalne slike.",
+      "source_render_sha256": "0a583bcfc4e6a0a08bb0cdd982d47de3a89e50e095e650b3bbf8c5bf8c7ae6a2",
+      "new_render_sha256": "cc083c59d6e5dfe1018f17e15f6591cd2e48f06893f9bf4f0f1e84d1e05aad88"
+    },
+    "10-s076": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dva NAND izlaza zajedno; oba zrcalna totem-pole stepena, svi otpornici i oznake T1/T2, tabela četiri kombinacije sa dve crvene oznake DIM.",
+      "source_render_sha256": "f065aeef233400056c56042f3fea9eec38c25f17cec6e3f23fd70b4cac6c4397",
+      "new_render_sha256": "233f7a23dbd785159d5df8f0a3b77db34a7e68d9461a81bc743711e84a866f95"
+    },
+    "10-s077": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Četiri blok-šeme sa po četiri predajnika (1,2,i,n), svim tačkama izostavljanja, prijemnicima, invertorima, dozvolama rada i centralnom kontrolom; obe izvorne napomene.",
+      "source_render_sha256": "66a01ca0de3b9616424e2e982458c6ed59ca2c1a8f218513196607f3eb68a8ff",
+      "new_render_sha256": "ef080fd4bf43109c2c17546f4823d38e2d9652c4a217d9f9b35139c982c1e153"
+    },
+    "10-s078": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. S TTL sa D3/D4 i invertovanom dozvolom OE, svi spojevi/otpornici/T1–T5; šest trostatičkih simbola i izostavljanje; NOR sa OE i tabela izvorno Y=A+B, sva tri upozorenja o Z.",
+      "source_render_sha256": "0f98a5eb021c4fd7cdd7c579ee473d96b6cf919ffe94fe689c602f7dadd02fa9",
+      "new_render_sha256": "93d2d86b31e465ed7bf3d5b01fe035df25c32cc0ca426839168bd3d4cdd5ac1b"
+    },
+    "10-s079": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Tri para vremenskih dijagrama sa OE, VH/VL/Z i tpLZ/tpZL/tpHZ/tpZH; tri potpuno nacrtana kataloška testna kola, RL/CL, posebni simboli kondenzatora, diode, 1kΩ i prekidači S1/S2, sve engleske napomene/naslovi.",
+      "source_render_sha256": "04a7bcc2faa4e0086728aa0284a550d0779965bca47f05d8ca3fe218f34d353e",
+      "new_render_sha256": "666419f8dfd18c1c6b9b7ed11f068b2e9bbd62ba0c44239e7f10630271d6b714"
+    },
+    "10-s080": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Potpuna šema ’LS126A sa 12 tranzistora, posebnim Schottky/običnim simbolima, svim diodama, 12 vrednosti otpornika, spojevima INPUT G/INPUT A/OUTPUT/VCC/GND; šest redova kataloških kašnjenja LS125A/LS126A sa uslovima 667Ω/45pF/5pF i svim praznim poljima.",
+      "source_render_sha256": "a884c99896c3b10b276b2472cb313a8675312ad4b81384b909ac6b91eecab804",
+      "new_render_sha256": "0f1df5eda851bf786c6dcfc23a4abb59816158db71795a90443ee122b875ba5d"
+    },
+    "10-s081": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Svih pet izvornih pasusa, izvorni engleski naslov Emitor, datumi 1956/1979, 4-bitni MC10800 i tvrdnje o brzini/disipaciji.",
+      "source_render_sha256": "e3a32502a96fde2f1380e57e62265c1ebbeaa85836487d1f2b0a5b6a93f0ac92",
+      "new_render_sha256": "6f02680ac031016ae87f200c94ca997059ff30b93bb987947243df36057baf7b"
+    },
+    "10-s082": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Diferencijalni par T1/T2 sa RC1/RC2, VI/VR, VO1/VO2, izvorom IE i VCC/VEE, svih pet pasusa, podnaslov i tri formule/nejednakosti.",
+      "source_render_sha256": "ce8dc7041f4a21507249cfd020553587171b313f51d4b756288b8e28b5e386f1",
+      "new_render_sha256": "0af5aebf54b2b5b5df47518b724b0a22f75dc16dfdc5323449ce1f65ae354f05"
+    },
+    "10-s083": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ponovljena kompletna šema; svih šest izraza za zakočen T1 i aktivan T2, izbor RC2/IE, podvučeno zanemarivanje baznih struja, izvorni VI2/VI1 i IE2.",
+      "source_render_sha256": "4c17443988cc819fe9e5c35c9aeb639a4388cd081479627656cc5846b682f76d",
+      "new_render_sha256": "18247354e45fe54e8d046457576abbb015d63ab7d9a8e16a469581307a53d2fb"
+    },
+    "10-s084": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ponovljena šema, sva četiri pasusa i pet izraza od prvog provođenja T1 do prestanka T2, izvorna dva IE2/2 u simetričnoj tački i dva zapisa transistor.",
+      "source_render_sha256": "71ed1b7b45e661b2d75798b3eed9f84574b8171871f1ddc5e7c04c28cc7c283d",
+      "new_render_sha256": "95d637c51363129864dad7756157acc93942fe16e429d0c2a3cbad24eec9e351"
+    },
+    "10-s085": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ponovljena diferencijalna šema, svih osam jednačina/nejednakosti i pet tekstualnih blokova; izvorno T1 vodi i T1 zakočen u istoj rečenici i otiči.",
+      "source_render_sha256": "1f387a70be866e707d60f6297c062f133296f5c5e7863a973d400b608dcf01e9",
+      "new_render_sha256": "efaf936e50baee63b5c1b6f5af2f12d0ad47a3d3a55445013839a31faccf1b52"
+    },
+    "10-s086": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ponovljena šema, obe karakteristike VO1/VO2 sa VOH/VOL/VIL/VR/VIH i porastom VO1 u zasićenju, plava strelica, ceo pasus o brzini i četiri definicije nivoa/granica.",
+      "source_render_sha256": "2452a1f1728051096d70c94c4b7547c4b159a1293f505b6d8baf4b0ad726cbc0",
+      "new_render_sha256": "bfb18caa7f56b6454e310120163527b5c812e6a3bb8c382e8810a4cd6472daaa"
+    },
+    "10-s087": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Sedam izraza za održavanje nivoa, simetrične margine Delta i srednji referentni napon; sva četiri tekstualna bloka i zagrade koje nedostaju u izvučenom tekstu.",
+      "source_render_sha256": "40640fb4e37d4c6e9cd6cf0c1bd0cc3457ba48a86ece855f13fe485ff78c7639",
+      "new_render_sha256": "ebedf5740558f258ffe34297b3d6a3f3b3ed5c892c60935c4a2b50f6c53ea54f"
+    },
+    "10-s088": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Pet jednačina za VB2/VE2/VC2/VCE2 i uslov aktivnog režima, sva četiri tekstualna bloka sa 9k, 10k i 779Ω i očuvanim padežom održavanja.",
+      "source_render_sha256": "72d5b66e02eac076e384383ec5c2ddd00c14b8d3b3bbd85e1033dda05d3edb15",
+      "new_render_sha256": "25368ba83d9c07b17bda4c97bfe2eae32120848deaeadc7b4cc431d1db2d1145"
+    },
+    "10-s089": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dve šeme pre/posle izlaznih bafera T3/T4, plava strelica i izvorno izostavljanje; oba puna pasusa, promena VOH/VOL i završna rečenica.",
+      "source_render_sha256": "6a9f6e9c56cf53ae7901747c573b2ff6df63240d6cdfb8c3c0da8b5d0fffece0",
+      "new_render_sha256": "47f3e33ccb24a86d9a3b28f9e7d61a0e2e3d785feaf27c894c917dad28176b8d"
+    },
+    "10-s090": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Odvojeni VCC1/VCC2, izlazni T3/T4, RB1 prema VEE i IE; dva pasusa o negativnom napajanju −5.2 V, svih šest izraza, uključujući izvorni nedostatak DC struje u formulama sa Delta.",
+      "source_render_sha256": "e726996b75914a001a11e3bb2fca641395736d1f6a9a5d855d248b6d8ff90374",
+      "new_render_sha256": "5d8e93351ade91e2e910ff4ca5660c52f7de0997a12cf236004bfcac34c6a7a9"
+    },
+    "10-s091": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ponovljena šema sa odvojenim napajanjima i RB1; obe ulazne struje sa svim članovima, izlazni kapacitet IOH i oba tekstualna objašnjenja, uključujući izvorno beskonačan kapacitet nule.",
+      "source_render_sha256": "af25135b3b101514ed17e772271173fbd06a7f1c6b276105fc7024a82ac97922",
+      "new_render_sha256": "0b973edc93983a8679e4c87278b2e001a47ea50ab68e9f1be57bb1ac80646113"
+    },
+    "10-s092": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ponovljena šema; obe vremenske konstante, svi početni/asimptotski/uslovi polovine prelaza i tri pasusa. Izvorno tpHL i VCC ostaju i u izrazu za punjenje.",
+      "source_render_sha256": "1beb1c973a28a64c2e82a0a29010713fcac671ff3b2ca8482cdad8b38b97cfc5",
+      "new_render_sha256": "2174745fffa481b1df1897d08ecea45a4fda4ef7bd6ad682fe2fa7d62db9e983"
+    },
+    "10-s093": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Kompletna dvoulazna šema T1_1/T1_2/T2 sa RE779, RB11/RB12 50k, izlaznim T3/T4, RC1 220/RC2 245 i referentnim T3/RB1 907/D1/D2/RE3 6k1/RB2 4k98; odvojena napajanja, četiri VEE i svi prelazi bez spajanja; dvostruki OR/NOR simbol i oba izraza.",
+      "source_render_sha256": "6149fb85f7b7d6fd9c32a121da7a166f094ad35b4666b2ffe919c33acb9169ac",
+      "new_render_sha256": "e67c187ee60384c2b4a10e1c6498b62f1c7b76b2ae1e6b7c1d9864bbb4338fde"
+    },
+    "10-s094": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Svih sedam redova PECL tabele 6 i tri temperaturna opsega −40/25/85°C, sve vrednosti/prazna polja/jedinice, napajanja i Note 4/5; prepisano iz originalne slike.",
+      "source_render_sha256": "8a3fcfc9d47feca2438bd279793406773bbfc21888b9dd4fbc39620fb5f3919d",
+      "new_render_sha256": "14a1a6894a377b81914a3e0bbd075beb4de0851fe1f64b429d53b53ee5698b28"
+    },
+    "10-s095": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Table 7. 10EP DC CHARACTERISTICS, NECL; VCC=0V, VEE=-5.5V to -3.0V, Note6. Sedam redova IEE,VOH,VOL,VIH,VIL,IIH,IIL, tri temperaturne grupe −40/25/85°C i Min/Typ/Max, jedinice i prazne ćelije.",
+      "source_render_sha256": "b21f2cb541cb9dd69294beaec419a55c17370a9fd0229a6af77a8f5f9e62042b",
+      "new_render_sha256": "4360a48c077bf26b85d16d92b287d3a014ca2d2b40cb752be0fafebf24dc6290"
+    },
+    "10-s096": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Cela tabela 11: fmax, tPLH/tPHL varijante 10/100, dva skew reda, jitter i tr/tf, svih 9 min/typ/max kolona na −40/25/85°C, ps/GHz, oba Fmax/JITTER poziva, Note 14/15 i puni naponski uslovi.",
+      "source_render_sha256": "0dc1fc783b44235b9f3c3fc2dbe4d60b126d236a6533501740115404edfdea6e",
+      "new_render_sha256": "5754428eb35e7c6e2a55bc759e816fbc3f649109801d9f75d49accf3ffb268e6"
+    }
+  }
+}

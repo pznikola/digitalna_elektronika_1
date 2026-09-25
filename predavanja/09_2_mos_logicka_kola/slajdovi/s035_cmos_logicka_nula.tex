@@ -1,0 +1,13 @@
+\slajdid{09_2-s035}
+\begin{frame}[label=09_2-s035]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[c,onlytextwidth]\column{.21\textwidth}\centering\input{slike/tikz/s035_cmos_invertor.tex}\column{.77\textwidth}Prilikom daljeg porasta ulaznog napona dešava se situacija
+\[V_I\ge V_{DD}+V_{Tp}\]
+kako je napon između gejta i sorsa tranzistora P
+\[V_{GS,P}=V_{G,P}-V_{S,P}=V_I-V_{DD}\]
+važiće $V_{GS,P}\ge V_{Tp}$ odnosno tranzistor P će se zakočiti. Tranzistor N radi u omskoj oblasti i njegova radna tačka se podešava $V_{DS,N}=0$, pošto je kolo neeopterećeno i njegova struja drejna je jednaka nuli.
+\[I_{Dn}=\frac{k_n}2\frac1{1+\frac{V_{DS,N}}{L_nE_{Cn}}}\left(2V_{DS,N}(V_{GS,N}-V_{Tn})-V_{DS,N}^2\right)=0\]
+Kako je $V_{DS,N}=V_I=0$ možemo odmah da pišemo
+\[V_{OL}=0\]
+I prvi put, od kako smo krenuli sa analizom logičkih kola smo dobili
+\[V_{OL}=0\qquad V_{OH}=V_{DD}\]\end{columns}
+\end{frame}

@@ -1,0 +1,11 @@
+\slajdid{08-s014}
+\begin{frame}[label=08-s014]{Robusnost}
+\gusttekst
+Iz prethodnog izlaganja je jasno da ako kolo na svom izlazu daje napon $V_{OL}$, u toku signala do narednog kola može da se dozvoli pojava smetnja koja će promeniti nivo signala maksimalno do $V_{IL}$. Maksimalan nivo smetnji je $V_{IL}-V_{OL}$ i naziva se marginom šuma logičke nule. Isto tako da ako kolo na svom izlazu daje napon $V_{OH}$, u toku signala do narednog kola može da se dozvoli pojava smetnja koja će promeniti nivo signala minimalno do $V_{IH}$. Maksimalan nivo smetnji je $V_{OH}-V_{IH}$ i naziva se marginom šuma logičke jedinice.
+\[NM_L=V_{IL}-V_{OL}\qquad NM_H=V_{OH}-V_{IH}\]
+NM – noise margin\par\medskip
+\centering Inženjerski\par\medskip\raggedright
+$NM=\min(NM_L,NM_H)$ za kolo, ne pretpostavljajući šta je na izlazu\par
+Odnosno, na primer, u slučaju $NM_H=2\mathrm{V}$ i $NM_L=1\mathrm{V}\ =>\ NM=1\mathrm{V}$.\par
+Sa druge strane evidentno je da $NM_L+NM_H\ <=V_{CC}$, što predstavlja na primer i proveru prilikom izrade ispitnih zadataka.
+\end{frame}

@@ -1,0 +1,10 @@
+\begin{tikzpicture}[x=.9cm,y=1.0cm,font=\sitneoznake,>=Latex]
+\draw[->](-1.65,-.2)--(5.25,-.2)node[below]{$t$};\draw[->](0,-.3)--(0,2.1)node[left]{$a_i(t)$};
+\node[above]at(-1.1,1.2){$\approx V_{OH}$};\node[below]at(.8,.25){$\approx V_{OL}$};
+\draw(-1.5,1.2)--(-.9,1.2)..controls(-.6,1.2)and(-.2,0.25)..(.1,0.25)--(1.4,0.25)..controls(1.7,0.25)and(2.1,1.2)..(2.4,1.2)--(3.4,1.2)..controls(3.7,1.2)and(4.1,0.25)..(4.4,0.25)--(5,0.25);
+
+\draw[dashed](-.12,.345)--(4.214,.345);\node[above right]at(0,.345){$V_{OL}+10\%A$};\draw[dashed](-.12,1.105)--(3.586,1.105);\node[above right]at(0,1.105){$V_{OL}+90\%A$};
+\foreach\x/\y in{1.586/.345,2.214/1.105,3.586/1.105,4.214/.345}{\draw[dashed](\x,-.52)--(\x,\y);}
+\draw[<->](1.586,-.38)--(2.214,-.38)node[midway,below]{$t_r$};\draw[<->](3.586,-.38)--(4.214,-.38)node[midway,below]{$t_f$};
+\node[below]at(2,-.85){Principski $t_r$ različito od $t_f$};
+\end{tikzpicture}

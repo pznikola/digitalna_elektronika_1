@@ -1,0 +1,12 @@
+\slajdid{09_1-s032}
+\begin{frame}[label=09_1-s032]
+\gusttekst\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}
+Da bi pojednostavili izraz smatraćemo da je $\displaystyle I_{Dnsat}=\frac{k_n}{2}\frac1{1+\frac{(V_{GS}-V_{Tn})}{L_nE_{Cn}}}(V_{GS}-V_{Tn})^2$\quad Pa je tada
+\[R_{ON1}=\frac{V_{DD}}{I_{Dn1}}=\frac{V_{DD}}{I_{Dnsat}(1+\lambda_nV_{DD})}\qquad R_{ON2}=\frac{\frac{V_{DD}}2}{I_{Dn2}}=\frac{V_{DD}}{2I_{Dnsat}(1+\lambda_n\frac{V_{DD}}2)}\]
+\[R_n=\frac{R_{ON1}+R_{ON2}}2=\frac{\frac{V_{DD}}{I_{Dnsat}(1+\lambda_nV_{DD})}+\frac{V_{DD}}{2I_{Dnsat}(1+\lambda_n\frac{V_{DD}}2)}}2\]
+\[R_n=\frac{V_{DD}}{4I_{Dnsat}}\left(\frac2{(1+\lambda_nV_{DD})}+\frac1{(1+\lambda_n\frac{V_{DD}}2)}\right)\]
+Kako je $\lambda_nV_{DD}\ll1$ tada važi $\displaystyle\frac1{1+\lambda_nV_{DD}}\approx1-\lambda_nV_{DD}$ pa je
+\[R_n\approx\frac{V_{DD}}{4I_{Dnsat}}\left(2(1-\lambda_nV_{DD})+\left(1-\lambda_n\frac{V_{DD}}2\right)\right)\]
+\[R_n\approx\frac34\frac{V_{DD}}{I_{Dnsat}}\left(1-\frac56\lambda_nV_{DD}\right)\]
+\centering\large\alert{Za računanje struja zasićenja koliko $V_{GS}$ se uzima?}
+\end{frame}

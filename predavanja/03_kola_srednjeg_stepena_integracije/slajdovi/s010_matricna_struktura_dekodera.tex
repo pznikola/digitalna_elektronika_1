@@ -1,0 +1,18 @@
+\slajdid{03-s010}
+\begin{frame}[t,label=03-s010]
+\gusttekst
+\fontsize{9}{9.5}\selectfont
+\setlength{\parskip}{1pt}
+Kod matrične strukture, treba nam dva selekciona signala na komponentama u slučaju dvodimenzionog dekodovanja, odnosno tru u slučaju trodimenzionog dekodovanja itd... Za veći broj izlaza matrična struktura će imati prednost zbog manjeg broja upotrebljenih komponenti, ali kao što smo rekli potrebne su specifičnije komponente. U tom smislu da vidimo kako bi izgledala realizacija dekodera \(6/2^6\) realizovana sa dekoderima 2/4.
+\begin{columns}[c,onlytextwidth]
+\begin{column}{.60\textwidth}\centering
+\input{slike/tikz/s010_matricni_dekoder.tex}
+\end{column}
+\begin{column}{.37\textwidth}
+U izlaznom nivou se nalazi 16 dekodera 2/4 (na slici je prikazan smo jedan) dok se jedan dekoder koristi za selekciju vrste (i) a drugi za selekciju kolone (j). Potreban broj komponenti nam je 16+1+1=18. Način povezivanja internih selekcionih signala je identičan kao I kod piramidalne strukture. Uočiti da bi nam kod piramidalne sturkture trebalo 16+4+1=21 komponenta.
+\end{column}
+\end{columns}
+
+Ova razlika postaje još značajnija kao su u pitanju komponente sa još većim brojem izlaza. Takođe uočiti da će matrična struktura imati manje kašnjenje, pošto u ovom slučaju uvek su u pitanju dva nivoa, dok kod piramidalne strukture će broj nivoa zavisiti od veličine komponente. Ali za matričnu strukturu su potrebne komponenet sa više selekcionih signala. Normalno moguće je praviti i kombinacije ove dve strukture.
+
+\end{frame}

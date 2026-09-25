@@ -1,0 +1,18 @@
+\begin{tikzpicture}[x=.9cm,y=.8cm,font=\fontsize{9}{10}\selectfont]
+\foreach \name/\xx/\i in {a/0/{n-1},b/1.8/{n-2},c/5/i,d/8.2/1,e/10/0}{
+ \node[draw=DEplava,fill=DEplava!10,minimum width=9mm,minimum height=11mm] (\name) at (\xx,0) {};
+ \draw[DEplava,-{Latex[length=1.5mm]}] (\xx-.25,1.2)node[above,xshift=-1.5mm]{$a_{\i}$}--(\xx-.25,.69);
+ \draw[DEplava,-{Latex[length=1.5mm]}] (\xx+.25,1.2)node[above,xshift=1.5mm]{$b_{\i}$}--(\xx+.25,.69);
+ \draw[DEplava,-{Latex[length=1.5mm]}] (\name.south)--++(0,-.45)node[below]{$s_{\i}$};
+}
+\node at (c.center) {\Large$\Sigma$};
+\draw[DEplava,->] (b.west)--(a.east);
+\draw[DEplava,->] (e.west)--(d.east);
+\draw[DEplava,->] (a.west)--++(-.6,0)node[above]{$C_n$};
+\draw[DEplava,->] (c.west)--++(-.6,0)node[above]{$C_i$};
+\draw[DEplava,->] (5.5,0)++(.6,0)node[above]{$C_{i-1}$}--(c.east);
+\draw[DEplava,->] (3.05,0)--(b.east);
+\draw[DEplava,->] (d.west)--++(-.6,0);
+\node at (3.65,0) {$\ldots$};\node at (6.7,0) {$\ldots$};
+\draw[orange,->] (11.25,0)node[right,text=DEcrvena]{0}--(e.east);
+\end{tikzpicture}

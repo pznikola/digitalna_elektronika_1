@@ -1,0 +1,13 @@
+\slajdid{06-s023}
+\begin{frame}[label=06-s023]{Zaštitni kodovi – CRC – Cyclic Redundancy Check}
+\gusttekst Predstava binarne vrednosti u obliku polinoma
+\[b_{n-1}b_{n-2}b_{n-3}\ldots b_1b_0\equiv b(X)=b_{n-1}X^{n-1}+b_{n-2}X^{n-2}+b_{n-3}X^{n-3}+\ldots+b_1X^1+b_0X^0\]
+\begin{center}\input{tabele/s023_polinom.tex}\end{center}
+\[1010100101\equiv X^9+X^7+X^5+X^2+1\]
+\begin{columns}[c,onlytextwidth]\column{.30\textwidth}Osnova CRC kodova je\\Generator polynomial stepena $k$
+\column{.68\textwidth}\[g(X)=g_kX^k+g_{k-1}X^{k-1}+g_{k-2}X^{k-2}+\ldots+g_1X^1+g_0X^0\]\end{columns}
+\vspace{1.5mm}\centerline{Na osnovu generator polinoma dodaje se $k$ zaštitnih bita}\vspace{1.5mm}
+\begin{center}Vrednost zaštitnih bita se određuje na osnovu ostatka koji se dobija deljenjem
+\[\left(P\times X^k\right)\div g(X)\]
+{\Large\color{DEcrvena}po modulu 2\par}\end{center}
+\end{frame}

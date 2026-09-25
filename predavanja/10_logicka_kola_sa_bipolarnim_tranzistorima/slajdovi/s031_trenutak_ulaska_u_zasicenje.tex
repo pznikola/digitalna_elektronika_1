@@ -1,0 +1,15 @@
+\slajdid{10-s031}
+\begin{frame}[label=10-s031]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}
+\[v_o(t)=V_{CC}+\frac{R_C\beta_F}{R_B}(V_H-V_{BE})(e^{-\frac{t-t_2}{\tau}}-1)\qquad za\quad t_3\geq t\geq t_2\]
+Trenutak $t_3$ možemo da nađemo iz prethodne jednačine pošto tada tranzistor ulazi u zasićenje, odnosno izlazni napon postaje jednak $V_{CES}$
+\[v_o(t_3)=V_{CES}=V_{CC}+\frac{R_C\beta_F}{R_B}(V_H-V_{BE})(e^{-\frac{t_3-t_2}{\tau}}-1)\]
+\medskip Iz opšteg rešenja
+\begin{columns}[c,onlytextwidth]\column{.4\textwidth}
+\[t_1=t_0+\tau\ln\left(\frac{p(t_0^+)-p(\infty)}{p(t_1)-p(\infty)}\right)\]
+\[t_2-t_1=\tau\ln\left(\frac{p(t_1)-p(\infty)}{p(t_2)-p(\infty)}\right)\]
+\column{.58\textwidth}
+\[t_3=t_2+\tau\ln\left(\frac{v_o(t_2^+)-v_o(\infty)}{v_o(t_3)-v_o(\infty)}\right)\]
+\[t_3=t_2+\tau\ln\left(\frac{V_{OH}-(V_{CC}-\dfrac{R_C\beta_F}{R_B}(V_H-V_{BE}))}{V_{OL}-(V_{CC}-\dfrac{R_C\beta_F}{R_B}(V_H-V_{BE}))}\right)\]
+\end{columns}
+\end{frame}

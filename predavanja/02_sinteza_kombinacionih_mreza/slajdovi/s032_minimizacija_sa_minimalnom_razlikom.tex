@@ -1,0 +1,15 @@
+\slajdid{02-s032}
+\begin{frame}[label=02-s032]{Minimizacija logičkih funkcija}
+\fontsize{9}{10.3}\selectfont
+\setlength{\parskip}{3pt}
+\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}
+U prethodnom delu nas je interesovala samo mogućnost realizacije kombinacionih mreža. Međutim, pojavom „digitalnih“ kola od interesa je postao i proces \alert{minimizacije logičkih funkcija} koji bi trebao da obezbedi da se kombinaciona mreža realizuje ako je moguće sa što minimalnijim brojem komponenti. Međutim odmah da budemo jasni, pitanje je da li će to biti i ekonomski najisplativije, kao što smo već diskutovali. Kroz istoriju su realizovani mnogi algoritmi minimizacije, od kojih mnogi minimizuju logičke funkcije realizovane sa I i ILI logičkim funkcijama i minimizuju ukupan broj ulaza u logička kola. Sve ove tehnike minimizacije se zasnivaju na tome da se u funkciji datoj sa potpunim proizvodima ili zbirovima uoče proizvodi ili zbirovi čiji su \alert{indeksi sa Hemingovim rastojanjem jedan} odnosno razlikuju se samo u jednom literalu. Primer
+\[
+F=\cdots+C\bar B\bar A+CB\bar A+\cdots
+\]
+Indeksi ova dva proizvoda su 4 i 6, odnosno 100 i 110. Hemingovo rastojanje (broj bita koji su različiti) je jedan, razlikuju se samo u drugom bitu. Razlikuju se samo po jednom literalu \(\bar B\) i \(B\). U tom slučaju je moguće
+\[
+F=\cdots+C\bar B\bar A+CB\bar A+\cdots=\cdots+C\bar A(\bar B+B)+\cdots=\cdots+C\bar A+\cdots
+\]
+Znači umesto dva proizvoda za koja su nam trebala dva troulazna I kola, dobili smo da nam treba samo jedno dvoulazno I kolo. Isto tako umesto da rezultat dva troulazna I kola ide na izlazno ILI kolo, ići će rezultat samo jednog dvoulaznog I kola. Broj potrebnih kola smo smanjili sa dva na jedno, ali \alert{ukupan broj ulaza smo smanjili sa 2x3+2=8 na 1x2+1=3}. U CMOS logici smo na primer \alert{značajno smanjili broj potrebnih tranzistora odnosno površinu} koju bi nam zauzeo taj deo kombinacione mreže.
+\end{frame}

@@ -1,0 +1,19 @@
+\slajdid{08-s060}
+\begin{frame}[label=08-s060]{Digresija}
+\gusttekst\setlength{\parskip}{1pt}\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}
+\begin{columns}[c,onlytextwidth]\column{.29\textwidth}\centering\input{slike/tikz/s060_integrator.tex}\par\input{slike/tikz/s060_promena_pocetka.tex}
+\column{.69\textwidth}
+Izveli
+\[u_o^0(t)=U+(U_0-U)e^{-\frac{t-t_0}{\tau}}\quad t\geq t_0\]
+\[u_o^0(t_1)=U+(U_0-U)e^{-\frac{t_1-t_0}{\tau}}=U_1\]
+Važi i
+\[u_0^1(t)=U+(U_1-U)e^{-\frac{t-t_1}{\tau}}\quad t\geq t_1\]
+\[u_0^1(t)=U+\left(U+(U_0-U)e^{-\frac{t_1-t_0}{\tau}}-U\right)e^{-\frac{t-t_1}{\tau}}\quad t\geq t_1\]
+\[u_0^1(t)=U+\left((U_0-U)e^{-\frac{t_1-t_0}{\tau}}\right)e^{-\frac{t-t_1}{\tau}}\quad t\geq t_1\]
+\[u_0^1(t)=U+(U_0-U)e^{-\frac{t-t_0}{\tau}}\quad t\geq t_1\]
+Znači, ništa nismo pogrešili
+\[u_0^1(t)=u_0^0(t)\quad t\geq t_1\]
+i s punim pravom smemo da izraz ostavimo u formi kako smo ga i našli
+\[u_o^1(t)=U+(U_1-U)e^{-\frac{t-t_1}{\tau}}\quad t\geq t_1\]
+\end{columns}
+\end{frame}

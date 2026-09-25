@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "slides": {
+    "07-s001": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Izvorni naslov Uvod u HDL.",
+      "source_render_sha256": "c83b5b95802bfa17475394bfa46d9ea8acf10bf7e048a5a3438f2a6371b741c7",
+      "new_render_sha256": "0fa5e0786bf388f7d95b03c640b818101a0cb147d653128b264e35ef759f9cde"
+    },
+    "07-s002": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Četiri načina opisa, sva tri podkoraka CAD/EDA/PCB, Schematic Capture, puni naziv HDL i kompletan završni pasus sa izvornim slovnim greškama.",
+      "source_render_sha256": "c22d9a91ba84eb59000dbcc64eb7538d2ae238755ddc0efd1fe49a75073364b1",
+      "new_render_sha256": "275c23820f567755eafc7cd2168cbbf4a8bf10bf97c2180deccdb7225c817750"
+    },
+    "07-s003": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Podela sa dva plava pojma, potpuni primer računara, definicije fiksnih i programabilnih komponenti i sve rečenice o integraciji.",
+      "source_render_sha256": "22e09b685060004f930995bfbbe5d25546314429914b4f16022222458fd65ebf",
+      "new_render_sha256": "bcb66445c6f285242dce11e4d52aa4bf5b61ef2a25c2d3c285d8491dfba59e63"
+    },
+    "07-s004": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Uvodno pitanje, suma proizvoda, I+ILI uz NE, pitanje o potrebama i sva tri zahteva.",
+      "source_render_sha256": "32062816df41db9da1dc611a5d48ac1098664a353e14f886663df528fc008804",
+      "new_render_sha256": "20749dfcaf5ecaa827e6897a3c5543f9ed079f5f44780ec4c7641194da683f22"
+    },
+    "07-s005": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Tri bloka, tri ulaza i šest polariteta, sve strelice Y1/Y2/Ym/F1/F2/Fk i elipse, n/k, sva pitanja ispod šeme.",
+      "source_render_sha256": "de84c4efb78e40645ab45c77caaf6a0f626143f08a23e9f3ba8169950b839755",
+      "new_render_sha256": "8a05d18e672834d7edfe03c52665f1310bb6297bc5c0ea75750d7cceb0532206"
+    },
+    "07-s006": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Svih devet akronima i punih naziva, plavi inicijali i crvena Memory, četiri zagrade sa oznakama PLD/CPLD/Memory/ASIC; sačuvano Fild i izvorno grupisanje.",
+      "source_render_sha256": "69d787211a940b3bddbc90114b7a1916aacf4ea5fba10cced7f529381aad4c00",
+      "new_render_sha256": "fc15273938df1e3a1b7ab4a494ce02956ecf9559c355f1e30fce2c2c023f3dca"
+    },
+    "07-s007": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Cela PAL šema: 32 kolone, 64 redna indeksa i I proizvoda, 2048 raskrsnica, osam ILI i izlaznih drajvera sa upravljanjem, šesnaest dvopolarnih ulaznih bafera, svi direktni/povratni vodovi, I1–I10/O1/IO2–IO7/O8, brojevi pinova, ulazna zagrada, crvena elipsa i sve nastavne strelice. Svih 89 reči objašnjenja, 10+6, 2+6, X=0…6 i GND/VDD. Indeksi raspoređeni stepenasto radi fonta 8 pt.",
+      "source_render_sha256": "f11db8950661a7f5a019ad69d1f61a641cf99bf3c6ac376319f01fe8d6aff138",
+      "new_render_sha256": "696cdcc230a34619622824bb19be788c871b8cea259f137117bd4689fec29b62"
+    },
+    "07-s008": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Naslov i JEDEC, cela engleska rečenica, kvadrat na početku, 15 redova zaglavlja i svih 11×32 osiguračka bita sa adresama, oba objašnjenja brojeva i legenda 1/0. Izvorni rasterski kod ručno prepisan; svaki bit pregledan u uvećanju sa mrežom indeksa. Pokazivač teksta iz interfejsa ne nosi podatak i nije deo fajla.",
+      "source_render_sha256": "df5778e87298dffde07f561f0b42d5c5bde64557743de649b2094722bd0373c1",
+      "new_render_sha256": "4e0691af997422adc4d7bb94363670092a45af579484542e96f9441eda8952c9"
+    },
+    "07-s009": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Celi pasusi o razvoju, simulaciji i verifikaciji, PALASM/CUPL/ABEL/VHDL/VERILOG puna imena i originalno to toga.",
+      "source_render_sha256": "6ce0ae86e607d8de9d6ee166477517988d5ad64a5c580e7e5f0f6fea24855dce",
+      "new_render_sha256": "96c24d17b43d8514aad114916d583ec061c623a760ceaadcecfb71c45304b66f"
+    },
+    "07-s010": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Oba uvodna iskaza i crvene oznake 1/2, ceo and1 sa oba komentara i četiri test vektora, kompletan PRIORTWO sa deklaracijama, osam A grana, AVALID, osam B grana, BVALID i krajem. Samo razmaci/prelomi promenjeni.",
+      "source_render_sha256": "4057daa4bdc7500f882459d6c5fdf7173a378792688a4490cf58761e07b92e82",
+      "new_render_sha256": "4deb4f677f0d6e5b14ae44a30d21bb982308b1db27a1f62b4be32cf7a7dc6ed6"
+    },
+    "07-s011": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Primer Mux12T4: svih 12 podatkovnih i dva selekciona ulaza, četiri izlaza; svi pinovi, H/L/X skupovi, četiri uslova, svih 12 test vektora i četiri komentara, end.",
+      "source_render_sha256": "d2946a92ec58a805bae116a5aa69a3f28278118796e7499409375b195d323d5b",
+      "new_render_sha256": "771d3ab162300f7de54cf9e1b1d89108cfc8b823ddfc186948fbb94ebd838837"
+    },
+    "07-s012": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Oba potpuna toka: Design conception, DESIGN ENTRY, dve elipse, sinteza/simulacije, obe odluke i sve tri povratne putanje, oba Yes/No, završna konfiguracija; desno svih devet blokova, četiri povratne grane, četiri nivoa reprezentacije, VLSI DESIGN FLOW i Fabrication & Testing.",
+      "source_render_sha256": "a713080ce81200298608f7c88940d727f62af76d13439ae3d00012b9a17d098d",
+      "new_render_sha256": "6196bae94570ade3fb2c554228b3126f8998c069b131500495093d9784642abe"
+    },
+    "07-s013": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Naslov/puni uvod i ceo prvi numerisani opis VHDL-a, sa podebljanim nazivom i svim primerima električnih aspekata.",
+      "source_render_sha256": "4ce97d3225d7df1ee56cabcd05739ef7ba4cb84a5972ce85f3da4922b6f9b614",
+      "new_render_sha256": "84452dd70256946d8d3a10877ac61f5a49998b24ea7f0c0215b9d3482fa944dc"
+    },
+    "07-s014": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Celi odeljci 2 i 3, podebljani nazivi, crveno istovremeni događaji, sva poređenja sa programskim jezicima i testbench opis; izvorni Konkuretno sačuvan.",
+      "source_render_sha256": "fcb8d2edf5e6240329a84baff20622bd8c6cd300c83a9c574c1fd24590e2bc05",
+      "new_render_sha256": "181bb8d1ded2238afb25d36062fc98d17635d166c7ae092d71e6e766e5edfd81"
+    },
+    "07-s015": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Puni odeljci 4/5 i završni pasus; podebljani Netlist Language, Standardni jezik i VHDL, EDIF i svi iskazi o alatima.",
+      "source_render_sha256": "2c90069c35e3022ecfe05660d751abade3e70f5457540034d0dbdd177d652d60",
+      "new_render_sha256": "4e4cff6bf2104bcbfa520a19d6100c5665ac5f7a078b330a0ce924ff00f98c04"
+    },
+    "07-s016": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Naslov i tri kompletna pasusa o opštoj nameni, specifikaciji i unosu dizajna.",
+      "source_render_sha256": "f5ac530a242251d76ed3a5475dc4d28d05d9390fb6dc40c4ff4ab809d957f51e",
+      "new_render_sha256": "baffd9531234ea68298583b28a460e17270d1483b5862b3df21f216ff982ca72"
+    },
+    "07-s017": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Cela tri pasusa o simulaciji, projektnoj dokumentaciji i alternativi šemi. Istorijske tvrdnje nisu ažurirane.",
+      "source_render_sha256": "8bf9f07641b02230e0bd7a8bfbaa384512236efdcee14a6031b43caa6ebacd84",
+      "new_render_sha256": "ff7519bbd137ded2a61377059d77ec0bd6e7b468c5a039abcba6dbfa5b9cf840"
+    },
+    "07-s018": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Svih šest blokova, oba izvora za funkcionalnu simulaciju, obe putanje do vremenske simulacije, svi smerovi, simbol čipa i ceo prateći pasus.",
+      "source_render_sha256": "689872e8d9065fdf9e474816ed08696ad782dfd4189fa7fac91c7018a506c828",
+      "new_render_sha256": "79f41ab94a65a706db12e31b7bba9e426e18de1c0e3a932c69023639c0f27024"
+    },
+    "07-s019": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Ceo dugi pasus: istorijski razvoj, modeli, VITAL/PLI/IEEE1076, prednosti upravljanja i poređenje sintakse; izvorni Gatevai sačuvan.",
+      "source_render_sha256": "0b47fc01bd2cec3a4e6c052170cf2c01e812c7bf82689a80b367880bae229497",
+      "new_render_sha256": "9fd186cbef3320feacec3ed1aacec52b3ae4f78b3e3e8229d45b6b951b4b86d9"
+    },
+    "07-s020": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Svih pet iskaza, crvena početna rečenica, izbor alata prema aplikaciji i tehnologiji i završna zabrana izbora po izgledu jezika.",
+      "source_render_sha256": "4542df7d4e6203c6e1ed9b46914fbef71a2048ec766874229825473c90dd1ead",
+      "new_render_sha256": "e6ed94fec6740ee2334d8f4981a403422adabdcf9c3d4632d852bc734f66d30a"
+    },
+    "07-s021": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Šema sa dva I, jednim NE i ILI, sve veze/polariteti i x1/x2/x3/f; uvod, crvene ENTITY/ARCHITECTURE oznake, oba cela kodna dela i zaključak o više arhitektura.",
+      "source_render_sha256": "0e4032cc370ad7d141858a1753ec860488ddbe333f3e6885b0eb7c8338535112",
+      "new_render_sha256": "709a259c1a74a34111fefeae8200ed7d5a5b4f6e04c6ef2a01a6e6bd69b71780"
+    },
+    "07-s022": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Naslov i ugnježdena Entity oblast sa dva odvojena okvira Entity declaration i Architecture, pozadinsko grupisanje.",
+      "source_render_sha256": "90b25e6335552cc736750b2320a17c464fe422d1d07125a6c3831d42117e39cb",
+      "new_render_sha256": "2f5894eb8fc76f10293a44186e7cd7b7f7ea31112cb63965a99726cb6e102ef7"
+    },
+    "07-s023": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Ceo sintaksni obrazac sa rasterskog originala, opcioni/signalski delovi, podvučeni identifikatori i izvorno SIGNAL] bez otvarajuće uglaste zagrade; ranije potvrđen pilot.",
+      "source_render_sha256": "022e099f6fa41281ceb77d66537cb535e20f0f22c98fb0b0d321dbc81f3996e6",
+      "new_render_sha256": "609ffcb4219cfa251b3680e4cb4df964c85bdc1687ff864a89b3cbb49210ef96"
+    },
+    "07-s024": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Naslov i celokupan VHDL fulladd, biblioteka, portovi Cin/x/y/s/Cout, XOR suma i sva tri člana prenosa; ranije potvrđen pilot.",
+      "source_render_sha256": "eacae2387f97d3ddbd508571cb14d53fa98dd9faf13e2c8246abf0ae4ef73263",
+      "new_render_sha256": "0fb2b0ac52beb422bca3c6faea71694568b1f7f0f84b92d5dcefc847a1ef2350"
+    },
+    "07-s025": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Naslov sa navodnicima, opšti signal_name izraz, deklaracija četiri signala, tri tačke i konkretna logička dodela.",
+      "source_render_sha256": "6af4f50f50cc80c78a414b54b48034ab508b6054da7e5943f95542c6b21ed28d",
+      "new_render_sha256": "0cb030bc90d14ddc9103f1774474855485dd5bfe077a15f13b0073ba4c3a7325"
+    },
+    "07-s026": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Oba izvorna naslova, deklaracije A/B/C i X/Y/S sa suprotnim smerovima opsega, dve trotačke, obe dodele i sva tri člana engleskog objašnjenja logičkog proizvoda.",
+      "source_render_sha256": "6406e6b7e0b0d3ee63a274ab2d00994abf6cd250d213cb84300546569bbac48c",
+      "new_render_sha256": "5be494ea685f85d97702ffd9f43d200bc227b1557dbe191c9f0613f32384883e"
+    },
+    "07-s027": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Ceo ponovljeni ABEL PRIORTWO i ceo izvorni VHDL Vprior2, biblioteke, portovi, sensitivity lista, sve dodele, petlja i if/elsif. Originalna funkcionalna greška sa zastavicama je sačuvana; nema prepravke algoritma.",
+      "source_render_sha256": "2c7fd7503debf4f1a3ecf98d2ac72f798bbb4f0bf5ded84b3c78a0976723b653",
+      "new_render_sha256": "08ac934679a0c282200548f820e6794ea83113df88d666014b735b41204732ad"
+    },
+    "07-s028": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Oba ista ckt primera u različitom redosledu, sva tri izraza, 10 ns, izvorni BIT:=1 i dodela IN portu B; uvodni opis, početna četiri stanja, strelica i konačni Y/Z.",
+      "source_render_sha256": "da1a666fcddd7dc241b1f6241719333af43cfc0bef77bac4874425d71fc81498",
+      "new_render_sha256": "a88e27f323614fb1ca2203fc39daf191605122663b3ee1bf4408fd7c099236bd"
+    },
+    "07-s029": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Dva NOR sa ukrštenim vezama bez spoja na ukrštanju, svi priključci/negacije i SR Latch, ceo VHDL, početno stanje, dva događaja r i obe strelice, start i sva četiri round reda sa potpunim engleskim napomenama.",
+      "source_render_sha256": "67d76b8db6a8681d81ede65420005da0adc5caea6084d746a46265f3782053df",
+      "new_render_sha256": "c25e02aa7cf48b5e9f28970d46bdde8a7d9f77a4c574b6d63fcb95b336d5a011"
+    },
+    "07-s030": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Ceo behavioral model naslov i svih 11 redova sintaksnog obrasca, opcione uglaste/vitičaste zagrade, WAIT i sve kategorije naredbi.",
+      "source_render_sha256": "e2c8a7ab74be24c5ccbfa9724b70e46edc98d8f1acd5441c53206ea1a42306f6",
+      "new_render_sha256": "0c61350d27b9b4e5f84c7072cd1d5b9ebb62976e1b94df14a910e43c37d563e6"
+    },
+    "07-s031": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pregledani original i novi prikaz u punoj veličini; sadržaj, oznake i čitljivost provereni. Naslov i sva tri procesa, sve sensitivity liste, početna dodela u drugom, odsustvo ELSE u trećem, izvorni numerički 1 u drugom/trećem i literal 0 u prvom.",
+      "source_render_sha256": "fb51c5e29a6af0d79498e4b073630cc7c38a3cca12c3807d3de53c748ffdde02",
+      "new_render_sha256": "ba6b12847161d073cc10ead1a2ca474c3c9ec1462446ab637071548a9019beb3"
+    }
+  }
+}

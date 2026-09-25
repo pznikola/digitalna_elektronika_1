@@ -1,0 +1,12 @@
+\slajdid{09_2-s002}
+\begin{frame}[label=09_2-s002]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\alert{Invertor u nMOS tehnologiji sa aktivnim opterećenjem na izlazu\\u vidu nMOS tranzistora sa ugrađenim kanalom}\par\medskip
+\begin{columns}[c,onlytextwidth]\column{.19\textwidth}\centering\input{slike/tikz/s002_invertor_ugradjeni_kanal.tex}\column{.79\textwidth}Kako već postoji kanal, odnosno $V_{Tn,L}$ je po prirodi negativno, uvek će važiti
+\[V_{GS,L}=0>V_{Tn,L}\]
+odnosno tranzistor $T_L$ uvek vodi. Za ulazni napon $V_I<V_{Tn,D}$ tranzistor $T_D$ je zakočen. Kolo je neopterećeno $I_{Dn,D}=0=I_{Dn,L}$. Kako tranzistor $T_L$ radi, mora raditi u omskoj oblasti
+\[I_{Dn,L}=\frac{k_{n,L}}2\left(2V_{DS,L}(V_{GS,L}-V_{Tn,L})-V_{DS,L}^2\right)=0\]
+kako bi se njegova radna tačka podesila tako da je $V_{DS,L}=0$, što daje $I_{Dn,L}=0$. To je jedina moguća radna tačka nezavisno od napona $V_{GS,L}$. Da smo pretpostavili da radi u zasićenju
+\[I_{Dn,L}=\frac{k_{n,L}}2(V_{GS,L}-V_{Tn,L})^2=\frac{k_{n,L}}2(-V_{Tn,L})^2>0\]
+Izraz pokazuje da nije moguće da tranzistor $T_L$ radi u zasićenju sa strujom drejna jednakom nuli. Prema tome
+\[V_O=V_{OH}=V_{DD}-V_{DS,L}=V_{DD}\]\end{columns}
+\end{frame}

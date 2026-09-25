@@ -1,0 +1,13 @@
+\slajdid{09_3-s010}
+\begin{frame}[label=09_3-s010]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}$C_L$ ukupna kapacitivnost kojom je opterećen PRVI invertor
+\[C_L=(C_{Dp1}+C_{Dn1})+(C_{Gp2}+C_{Gn2})\]
+gde je $C_{Dp1}$ ukupna kapacitivnost na drejnu P tranzistora u PRVOM Invertoru. $C_{DBp1}$ i preslikana kapacitivnost $C_{GDp1}$ na izlaz (približnom Milerovom teoremom, kada se ulaz promeni sa 0 na $V_{DD}$ izlaz se promeni sa $V_{DD}$ na 0, ukupna promena napona na kapacitvnosti je $2V_{DD}$, a da bi bila ista količina naelektrisanja koja prolazi kroz tu kapacitivnost preslikana na izlaz gde je promena samo $V_{DD}$ treba na izlazu da bude ekvivalentna kapacitivnost $2C_{GDp1}$). Isto važi i za kapacitivnost $C_{Dn1}$
+\par\medskip
+Ako sada u oba invertora povećamo širinu kanala P tranzistora, pri čemu širine kanala N tranzistora ostaju iste, sa faktorom
+\[\beta=\frac{\left(\frac WL\right)_p}{\left(\frac WL\right)_n}\]
+sa dosta velikom tačnošću možemo smatrati da će se odgovarajuće kapacitivnosti povećati
+\[C_{Dp1}\approx\beta C_{Dp1(\beta=1)}\approx\beta C_{Dn1}\]
+gde je $C_{Dp1(\beta=1)}$ kapacitivnost pre povećanja širine kanala kada je bilo $W_{n1}=W_{p1}$
+\par\medskip\centering i sa punim pravom smemo smatrati $C_{Dp1(\beta=1)}=C_{Dn1}$.
+\end{frame}

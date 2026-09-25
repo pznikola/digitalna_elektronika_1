@@ -1,0 +1,928 @@
+{
+  "schema_version": 1,
+  "slides": {
+    "09_3-s001": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Postojeći naslovni slajd, tri reda naslova i oznaka trećeg dela.",
+      "source_render_sha256": "f23aaa1af3d99a665c179e1705f16c8a83202cb3c40a0f99a65d78b6a3989426",
+      "new_render_sha256": "d831fde19296f762984395fff1965e7554ab6051f94a1a5d4a5d6384de196e8f"
+    },
+    "09_3-s002": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Šest pasusa o internim kapacitivnostima, opterećenju prethodnog invertora i zavisnosti od dimenzija.",
+      "source_render_sha256": "a4aba1886d5ae0413adfa195629216e0b8ef60c3a57086728a75b859e9b0fdbf",
+      "new_render_sha256": "b6b0cfad9e8b597ef9bb34e4eadac03813a21298f7d8881e42eef2beb07fab8f"
+    },
+    "09_3-s003": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Pet parazitnih kapacitivnosti, četvoropriključni NMOS sa strelicom osnove i dva prelaza bez spoja, presek B/S/G/D, oba preklapanja i tri objašnjenja.",
+      "source_render_sha256": "78cb4fb4bbb304086b2ab58bce8dd34bb385df6eae41226d0f2b22cb605d74c1",
+      "new_render_sha256": "6343e9d4985206eb15c5e9e5a39221cf4dd0c6f1c95c0cb394e6f68767472d32"
+    },
+    "09_3-s004": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Tabela 4×6 sa tri prazne ćelije i svim formulama; šest objašnjenja uključujući izvorno „dužina kanal“.",
+      "source_render_sha256": "c550b369864329b8cd2bcd62f2e99dde716356b114192a048d201d6264935cc2",
+      "new_render_sha256": "c578416f5583f84931189187076b7e12144a98171e83792a78adc29d92c1b7c1"
+    },
+    "09_3-s005": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dva pitanja, izvorna isticanja; par invertora sa Cint na drugom simbolu; lanac 1,2,…,n sa faktorima 1,1×f,1×f^(n−1), Cmin i CL.",
+      "source_render_sha256": "cbcf5f02b69cd682b5fe4abcf6f3b457964a3a15a20fb2c20fce553d5fc0a004",
+      "new_render_sha256": "64a98a622dfb6a3bb7172f94025c311c1eb4e8ae4f4b9f2742e31957ede5fba7"
+    },
+    "09_3-s006": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Uvodni pasus, crveni naslov, dve povezane CMOS šeme sa VI1, VO1, VI2, VO2 i oznakama P1/N1/P2/N2.",
+      "source_render_sha256": "28aaf3e280784464bf85ee68f3d4b8b6fc6c216f5d2d7ca91edd408e5a60e3d6",
+      "new_render_sha256": "4165e0680ed375f002381134d737f0cd54bfca8a62f6232592c65c07503874ec"
+    },
+    "09_3-s007": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dva pasusa o zajedničkoj promeni dimenzija i kašnjenju prvog invertora; dve CMOS šeme sa šest kapacitivnosti i vezama osnova.",
+      "source_render_sha256": "68e4e1482a5cb8fb00d81388b3706885887918d7f9db9f4247376c5d1201f7ea",
+      "new_render_sha256": "bf25016c017d6963fd4d836a4dc92a9c45cd890fab2a0d2a613ad1e0242db9a3"
+    },
+    "09_3-s008": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ponovljena šema svih šest kapacitivnosti; objašnjenje idealnog izvora, konačne otpornosti i kapacitivnog opterećenja drugog stepena.",
+      "source_render_sha256": "fb4a7aa3f6557195a94c8cccbc49c1fd5d8099d5cf5d7503d0b5a14891caeb34",
+      "new_render_sha256": "8fe1734c0868996e2b2a805e54e0e6f9c78808ffd2131ee4b4347df58c759665"
+    },
+    "09_3-s009": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Jednake početne dužine i širine, minimizacija srednjeg kašnjenja, obe RC konstante i četiri izraza otpornosti sa 7/9 i 5/6, apsolutni λp.",
+      "source_render_sha256": "42e590240cd6f08362eedc9d025f89dc76904576e4f30b7ec6919bb52d95a240",
+      "new_render_sha256": "32a1438d6c790aa0a49b58b81720bdf366ba0f8308c30b17e1e714c6db98425a"
+    },
+    "09_3-s010": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ukupno opterećenje, čitavo objašnjenje Milerove teoreme sa 2VDD i 2CGDp1, definicija β i skaliranje drejnskih kapacitivnosti.",
+      "source_render_sha256": "babfaf55ff17f34d379b3b149b50119ee17933037cb57f4ea46beee63b0e04d7",
+      "new_render_sha256": "9d96203010bc09a70148eab1513a0c0d1e3543f2d77dc389f7576824bf4562bf"
+    },
+    "09_3-s011": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Skaliranje CGp2 i Rp1, sva tri međukoraka tp, definicija r sa količnikom otpornosti, strujama pri Wp=Wn i pokretljivostima.",
+      "source_render_sha256": "28cd550eb3323f373979cbf3813b17edb12f625ec755a918f80032be585ff91b",
+      "new_render_sha256": "9bad3c3f3df8305420f11c2f5ab1a55011059a2bd7fc98161a9f5ecece46c355"
+    },
+    "09_3-s012": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Izraz tp sa istaknutim faktorima, diferenciranje po β, β²=r, svi odnosi i kompromis Wp/Wn≈2.",
+      "source_render_sha256": "4a01233669bf63aea520d74d36aaa734dcd07f5978c0e1f662f5132de9b2ece8",
+      "new_render_sha256": "b1b07f1f696f817135aca1fb7bb3a120756c8c812dbf2d750592f2e31e260aa2"
+    },
+    "09_3-s013": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Definicija jediničnog invertora i minimalnih dimenzija, šema sa P/N i širinama 2/1, četiri pasusa o promeni tehnologije.",
+      "source_render_sha256": "055838b3003f8a85eea7e1ef4fdf8c30014e5665f1569532131823f5fe036046",
+      "new_render_sha256": "0719ab8750c3f76c145c5b4621c01b4e7aff7c08bdb3d3c2c2fb5e1459be45da"
+    },
+    "09_3-s014": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Pitanje fiksnog CL, šema invertora sa izlaznim CL, naglašeno povećanje interne kapacitivnosti i kašnjenja prethodnog kola.",
+      "source_render_sha256": "8a1ce57cf037fc70ed1f2913aa89f51eb7de5a1db4f3e855e2ad4f3474090346",
+      "new_render_sha256": "9194a80f6db7760b4857beb1e0bf2696b75957407ff41b36c11c1f0bd2ddfab8"
+    },
+    "09_3-s015": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Predlog lanca i minimalnog prvog invertora; isti lanac 1,2,…,n, Cmin, CL, f i f^(n−1), objašnjenje f.",
+      "source_render_sha256": "3ff16b554138eebcaf1ae5431e6fd826aec70e50b20417ed6eac0aaf11d24855",
+      "new_render_sha256": "ada89a738d51fbe766fd188704ae7f6196d947289c539678ece35ba82e966a05"
+    },
+    "09_3-s016": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ponovljen lanac i objašnjenje f; proširen zbir kašnjenja, definicije Req/Cint/Cext i dva oblika tp1 sa tp0.",
+      "source_render_sha256": "adc485f43b35e901524b77b8c01da2ca052d69c031abb13ed7c9fd93954ac90f",
+      "new_render_sha256": "fabb1019fc63dd6c017215340f23dfc9fabbf67151f6079facde12105bcc8569"
+    },
+    "09_3-s017": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. γ kao tehnološki faktor, fanout, skaliranje R i C, ceo opis i trostruka jednakost kašnjenja i-tog stepena.",
+      "source_render_sha256": "e7b648637003e94b763f4eca0659f98caf0798a2744184dca9be791be480aa40",
+      "new_render_sha256": "f0f678ef8fb02d364cc83c0ccd178a7a50b25d1f17bda0fa560a0bc4a9c174e1"
+    },
+    "09_3-s018": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Suma N kašnjenja, jednaki odnosi susednih kapacitivnosti, geometrijska sredina i N-ti koren ukupnog fanout-a F; sačuvana mesta trotačaka.",
+      "source_render_sha256": "441ed2968557258686af4455018a0cf8528e54d6edeaae7fa7ce30ccf453e9af",
+      "new_render_sha256": "a154de2509e695d72e9d43efc0981d22416787c7a12492f1e87acef86ec03b73"
+    },
+    "09_3-s019": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Zadato N, N-ti koren opterećenja, zaokruživanje dimenzija floor(f+0.5) i floor(f²+0.5), zbir stvarnih odnosa.",
+      "source_render_sha256": "8779eefdca6c2bb43cbba49d87424ad1eff2f4433ffb2f6be90b063edf1a271a",
+      "new_render_sha256": "3da3b347f3444d030020e3477848bdfbbd934b2ca2eed090be7e72146ce72559"
+    },
+    "09_3-s020": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dvaput ista jednačina tp, diferenciranje po N, implicitna jednačina f=exp(1+γ/f), izvorna vrednost f=3.6.",
+      "source_render_sha256": "23acf3161e6e086b20db86418b7cabda0f6745444cee4e21cb62588d9a88243a",
+      "new_render_sha256": "c4559ee9e6f8c1e4b8081104f2e83f1ce1946fb2a72341f57a172847dd55c708"
+    },
+    "09_3-s021": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Logaritamski broj stepena za f=3.6, neparan N, normalizovane širine i zaokruživanje, zbir kašnjenja bez γ kao u originalu.",
+      "source_render_sha256": "66fc4019e3fc06dbe242311160d489ce1f9c6162e0584b3b42cd19787fae4d2f",
+      "new_render_sha256": "0d566cb11e4d8d66b21edddc23ad87aaf1557173ba877d1f552982930ab3e47d"
+    },
+    "09_3-s022": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Praktičan faktor 4, logaritamski N, neparan broj stepena, širine 1/4/16 i izvorni izraz 5Ntp0.",
+      "source_render_sha256": "28b353a83ff20f56d3d235164b93158114c7f4eb93fa0ba71713adb1c43f5e15",
+      "new_render_sha256": "c73e6403368158a15129efdadb25e65432392606ecd0cd13a9d913d98cc0cf49"
+    },
+    "09_3-s023": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Tri pasusa, posledice premalog opterećenja i istaknute nebaferisne/duplo baferisane realizacije; izvorne jezičke omaške, faktori 4/16/64.",
+      "source_render_sha256": "44afc9283bd31b7b2e67556313a3fd92a2e6ded7b2557c254d0fdae2affb8239",
+      "new_render_sha256": "9558b4a71b0569d9ad176f645183abbd7091108b285320e331ab91fa5c29d23f"
+    },
+    "09_3-s024": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dva kompletna blok dijagrama: kolo 1, neinvertujući B, fanout 2_1…2_N; dva invertujuća bafera B daju A i negirano A, grupe ulaza narednog nivoa; svi opisi kapaciteta i kapacitivnosti.",
+      "source_render_sha256": "6cf113b04127011bbb1713653d5433bb5d209e4ba6cea89024eba2bd3de36290",
+      "new_render_sha256": "df240db0a55ef0fc81ab105815eb36535516e1d5a3e8e65b9535f43c84e24308"
+    },
+    "09_3-s025": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. PUN/PDN blokovi, ulazni snop, spoj izlaza, VDD i masa; dve definicije logičkih nivoa.",
+      "source_render_sha256": "5a1607ebad7246e4d729a52751556381e6b21d84c3ba40613f6b486503828b79",
+      "new_render_sha256": "f248715da6ea40575071f7e7b64c3be558624f2d243e371ce0af7f76e11b49d1"
+    },
+    "09_3-s026": {
+      "categories": {
+        "tekst": "nije_primenljivo",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Četiri šeme: redni/paralelni PMOS sa pasivnim PDN i paralelni/redni NMOS sa pasivnim PUN; svaka oznaka A/B, VDD i sva četiri izraza izlaza sa odgovarajućim negacijama.",
+      "source_render_sha256": "b5d9b08870b0ed2d45ffb1cbf861f4caf7f48e67102256dafc782fe26f81304b",
+      "new_render_sha256": "2e9802dcebe3ec4854505a97edcad8827fac9c329e70714a092816610036c096"
+    },
+    "09_3-s027": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dvoulazni NILI: P=4/4,N=1/1; NI: P=2/2,N=2/2; četiri ulaza A/B po realizaciji, oba izlazna izraza i nazivi kola.",
+      "source_render_sha256": "cf1cccb9a37dfa4226b592485acc02e150f91e7ce7b84b38fd7377d97fc58dd1",
+      "new_render_sha256": "a74048a09336a73094b21c8006132bb3d53d1d69900450699ea0450275fa8a46"
+    },
+    "09_3-s028": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ponovljena potpuna NILI šema sa širinama, analiza najgoreg paralelnog PDN i rednog PUN, odnos W/(1+1)=2.",
+      "source_render_sha256": "3ca4ec1053448e5e20a9f3b2541873f917ee98c9eaafe6ba6db72f8ed092fa3e",
+      "new_render_sha256": "deff46614b531f203daff39bf0b73410072a6625a03826a3464fcf7c68b1a9ac"
+    },
+    "09_3-s029": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ponovljena potpuna NI šema, analiza rednog PDN i paralelnog PUN, odnos W/(1+1)=1 i četiri širine 2.",
+      "source_render_sha256": "d1594d8513323d318285de80f72e8afdfc30b231c26087e0894e32e88bd31e15",
+      "new_render_sha256": "4a1ef49bca285b3d10ff3b984a8b4ddfa65d1dd372310490b35d5f537ae6a932"
+    },
+    "09_3-s030": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Poređenje ukupnih normiranih površina 8 i 10; zaključak o 20% manjoj površini NI kola.",
+      "source_render_sha256": "764bc11c8aa52cc1d9761d188e7155932ddeacf880912030cf635572193e5c48",
+      "new_render_sha256": "050bd39e5572a8e7cc5bc5b828ab830efa0f275ef63b61d1f216496b66e456e0"
+    },
+    "09_3-s031": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. F sa ukupnom negacijom i negiranim A; primeri NOR/NAND, komplement F, pravilo rednih/paralelnih veza, tačna PDN topologija D || (Abar serijski (B||C)).",
+      "source_render_sha256": "e4bcbe0d7b037efbf6eee85412c570b033c0c389a4a28c190307e149c3eaae6f",
+      "new_render_sha256": "a6df9b9eba4bcaeb2593d4cdd3d9bbca7b3e9d5d5ff2ac8e04144efb311203ff"
+    },
+    "09_3-s032": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Pravilo komplementnih vrednosti na PMOS ulazima, F=Dbar(A+Bbar Cbar), PUN paralelna grana Abar / redna B,C, pa zajednički D.",
+      "source_render_sha256": "180c5287024f51a17ac9bacf01bf75e70ab4b21ad2cf2058adf56bcb636cd5b0",
+      "new_render_sha256": "8cddca6e173f72bef4c9e337d22b483ed8ca1cf4dd994af16c2813510305797f"
+    },
+    "09_3-s033": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Obe kompletne mreže i objašnjenje dualnosti, sa primerom tranzistora D.",
+      "source_render_sha256": "4f56d4f0baeb65258f3ce56b755f337ee77896493009163d3b470858bc908aff",
+      "new_render_sha256": "a24a639c96dc5f321721b96292e0eb8554b94ad2147703a79bcb3b26fed28c09"
+    },
+    "09_3-s034": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Potpuna PUN+PDN realizacija; PMOS Abar/D=4, B/C=8; NMOS D=1, Abar/B/C=2; VDD, masa i F.",
+      "source_render_sha256": "a5b05b41dc671224e4564599452eec3220a520ee51d0a8f2eff1e4c5fe563b6c",
+      "new_render_sha256": "914c29cd35ecb6cd3437da3fd3e5d76a29f50dd47f910b58ff055e3c98b2acea"
+    },
+    "09_3-s035": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dva pasusa, niz NI kola 1,2,…,n sa ostalim ulazima i CL; označena kritična putanja.",
+      "source_render_sha256": "84ad0e94af8880f78cb03516bbe319fac78d2f84f4092234fc9520e305e5ee5a",
+      "new_render_sha256": "3022df17ed448f44891381b9c1156071c0ec836771eb2c006306774971066716"
+    },
+    "09_3-s036": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Povratak na RC kašnjenje; karakteristična konstanta invertora, COX i sve pretpostavke dimenzija, Cin i τinv.",
+      "source_render_sha256": "3bacb6f476e2cb002d8a93e8b30595ad1903d2b4092d5b7a58f74ee19e1881af",
+      "new_render_sha256": "ce053202dc61ddb5db36c06f56d79f7ef76be603651684f4a452a3e343bec902"
+    },
+    "09_3-s037": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Normalizacija Cin, sva tri oblika sume kašnjenja, poništavanje faktora širine i uslov γ≈1 za neopterećen invertor.",
+      "source_render_sha256": "45073f43c4ad7dbec4d82626723700982bab90299fd992b720aacf42636af23b",
+      "new_render_sha256": "4fa93692c95711e210bb27b5235ee42772348b7749f3512bf653c96e8c924677"
+    },
+    "09_3-s038": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Prvi stepen i suma kašnjenja lanca NI, jednake dužine, izvorne širine i faktor 4 u karakterističnoj konstanti.",
+      "source_render_sha256": "220a8557e3b9789dabba0fd97e33d7fdd2ab23d36d1505aa61fa07e1bd2b47f8",
+      "new_render_sha256": "090a713432977f24d5185a89bf2f43f78f51ddc878c46d05f6bba79daf5c0a1b"
+    },
+    "09_3-s039": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Prvi stepen i suma kašnjenja lanca NILI, jednake dužine, izvorne širine i faktor 5 u karakterističnoj konstanti.",
+      "source_render_sha256": "f4f0a7826914fc44721d7e2bf86199b52a461a1ef6394d58bbe240609264ae78",
+      "new_render_sha256": "f8eeb46683325e9ab6257aebc6c281aacdf9efffc3993abdecace9a8efb87e3b"
+    },
+    "09_3-s040": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Mešoviti lanac NI i / invertor i+1 / NILI i+2; ukupni izraz sa svim indeksima. Sitni plus pre γinv potvrđen u originalu renderovanom na 400 dpi.",
+      "source_render_sha256": "2b6c1560ffb70b52df5711509c5f52c8381e94cffea62555e6d87d8f58dd6f58",
+      "new_render_sha256": "9116289e2f2a6a2d6426a2089d935434ac563d8ebd53ee245368e80c3e03672a"
+    },
+    "09_3-s041": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Kašnjenje dva kola, parcijalni izvod, jednakost τFO i definicije oba FO; ceo istaknuti zaključak, izvorno „izvorom“.",
+      "source_render_sha256": "8b22277498318e32219e49d6382c6f2a25644e51097722c802a5638237738b8c",
+      "new_render_sha256": "d8040ab409f4397e912021400de287a55a487ae7c76bdcbf3fb4a8f85ade24ab"
+    },
+    "09_3-s042": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Sledeći par invertor/NOR, jednakost τFO i istaknuto pravilo za sve gejtove.",
+      "source_render_sha256": "89097e352b067b9d0cb48aadc450e2627b4f6472645b4fbb0480225ac0c4c461",
+      "new_render_sha256": "2eb8e047bd275f073172739a6aef8f2084bd008743817694b0e23827b10a3596"
+    },
+    "09_3-s043": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Normalizovani zbir tri kola, definicija LE i D; izvorni indeksi Pi, LEOR, FOi+1 i POR ostaju nepromenjeni.",
+      "source_render_sha256": "967a16da14cb062a53beb121a85e1cd78771f4fe4526e6b77184b24bd80c9325",
+      "new_render_sha256": "6a533511508c797ccae2799d9415eaebeb32d05d7d2ba04bdb1a030b6ddcf86b"
+    },
+    "09_3-s044": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Opšta suma, definicije LE/FO/P, vrednosti invertora i dvoulaznih NI/NILI sa svim koeficijentima, zaključak o manjem LE NAND.",
+      "source_render_sha256": "7d3abb08525250590980661478449b3024b99f601710bf28f63bfc9080d2a309",
+      "new_render_sha256": "87b9299a337978f1710781ca12b6d5355c187d638eec6f79800bc6b18fd11b15"
+    },
+    "09_3-s045": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dva suprotno orijentisana NI kola i spojeni izlazi, četiri izlazna tranzistora; plavi/red put sukoba, tabela 5×7 svih stanja i upozorenje o običnim izlazima.",
+      "source_render_sha256": "3658d908b32233abe6fd484ffd5d96c300be811bd4e75a18f69de79362e25a29",
+      "new_render_sha256": "447f5f468a13942c4e73953728525a86a3446e407ec3e9ac086b244325bfcedb"
+    },
+    "09_3-s046": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dva dodatna crvena NMOS u seriji, A/E/Y i originalni P/N, tabela A/E/Y, simbol sa E, opis sva četiri Z kašnjenja i obe crvene napomene.",
+      "source_render_sha256": "800492290ea4e17cb48b087bc744f28e13fbe550e41b424c6b70da0c1572de26",
+      "new_render_sha256": "5051e3634c1506fab9bdcc4c10fecadd537f3cd43fc7c9c02ed8d4d5d11afd6a"
+    },
+    "09_3-s047": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. NMOS sa otvorenim drejnom, tabela A/Y, OD simbol, pravo zajedničkog spajanja izlaza, objašnjenje plutajućeg ulaza i CMOS šema.",
+      "source_render_sha256": "73e595fcde706082359cd0342fb765daeff028ceb072a26f99e29d3a334ffa38",
+      "new_render_sha256": "1497551c47f83185a6b984e29086e4fb54e26325312d884ff4c8756b8636c4e7"
+    },
+    "09_3-s048": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Četiri dijagrama: opšta zajednička linija, OD sa jednim otpornikom, trostatički predajnici sa lokalnom i centralnom dozvolom; svi predajnici 1/2/i/n, dve trotačke, prijemnici i natpisi.",
+      "source_render_sha256": "84effe993926a80c0194509e658e3a982bc2b1ef370a6524554fad59c454a5e7",
+      "new_render_sha256": "a5b60856ed9183961b14d0637d5dbc7ec2fd7a8ec3c457ec6ee4b35ecb0123a8"
+    },
+    "09_3-s049": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Tri para vremenskih dijagrama E/Y; opšti Z iz oba logička nivoa, posebni LZ/ZL i HZ/ZH prelazi, VH/VL/t, sve isprekidane projekcije i oznake vremena.",
+      "source_render_sha256": "207ed7b9e4c84a9db37f1bbd95b11eed4ee539e4e5708e1d6c1134be4fd03940",
+      "new_render_sha256": "b72db093c8099f155a643ba60c9b2f9c7367c8a8afcfa40c3d20892003f75bc1"
+    },
+    "09_3-s050": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. PTL naslov sa engleskim nazivom; selektorski slučaj A/Abar, horizontalni prolazni NMOS sa B/A/Y i CL, pun tekst o kapacitivnom opterećenju.",
+      "source_render_sha256": "e76b4e67503fb95a81b99b3e7c62b4e1d0c09c13d42299f35c5f1ee5da1b452d",
+      "new_render_sha256": "9485bbb203a556c23943663df76d1fa97834c571700b684ea8ddef93828773b6"
+    },
+    "09_3-s051": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Oba smera struje, dve NMOS šeme sa CL, svi naponi i režimi; izvorni VGTn i slovne greške zadržani.",
+      "source_render_sha256": "cfe069a8dbbc3878d549fa5c50a51cfb30434386798f37a37fccd70ee3a71aea",
+      "new_render_sha256": "e821703747c949c25bd45df2cd6af54d4d54d464b80985ba88eaa2a48d52d0ad"
+    },
+    "09_3-s052": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ceо pasus i dva prolazna NMOS sa B/C, A/Abar, zajedničkim Y i CL.",
+      "source_render_sha256": "61220cb537ea22667b5446442eb91a0bd41bc207a33c724898d04a08dc80b072",
+      "new_render_sha256": "c2d207cc43344ff9f35cb516bc0f9e0bd89ed08b635e3fc85c2fc01fba3b6dc9"
+    },
+    "09_3-s053": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Četiri selektorske šeme I/ILI sa konstantama 0/1 i ekvivalentnom zamenom signalom A; sva četiri CL, oba znaka jednakosti.",
+      "source_render_sha256": "5889336bcf28246238bc73032b7da2236f38cb850a15cc81a8dadc0a23f8c515",
+      "new_render_sha256": "bb072ebaa6d61c190fe4abe0226c5c4a361ab8a4aa972cf9d38127636d9799d4"
+    },
+    "09_3-s054": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Stepenasta pogrešna veza tri NMOS, gejtovi vezani na prethodne izlaze, sva tri praga i CL, puni uvod i zaključak.",
+      "source_render_sha256": "806caef04d3988b91dd0cc3bbd91612851811b10464107beee15b0454a23c607",
+      "new_render_sha256": "e3936c80b9f9a6c89851dce35affcba5c859743076273e6b82b9bd5a54f377ee"
+    },
+    "09_3-s055": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ista pogrešna kaskada sa dve plave precrtavajuće linije; pravilna redna veza 3/2/1 sa C/B/A, D/Y/CL i vertikalnim nastavkom mreže; oba pasusa.",
+      "source_render_sha256": "fd6f8a927eb0803a7485b6a2863b381f9a47f20b871b88c4987c233f10c583f8",
+      "new_render_sha256": "7436d49953d0eb3a615ae53b73f02c04fb077e5388c0e066762ca599ec2f0753"
+    },
+    "09_3-s056": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dva NMOS selektora B/A sa A/Abar, CMOS P/N invertor i PMOS R sa povratnom spregom sa Y; dva potpuna pasusa, izvorno kolam.",
+      "source_render_sha256": "8a3c9de1bbb0fe259f4510c479e5daf1c6faac7f9683c348964e0aae5c651f4c",
+      "new_render_sha256": "0fe4338c036769c4b489ae46cf432ed05185916c8a230aa5b172a65432f1ae6f"
+    },
+    "09_3-s057": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dekoder 2/4 sa S1/S0, Y0–Y3 i četiri NMOS ka Z; puna realizacija dekodera sa četiri invertora i osam NMOS na četiri ulaza I0–I3, tačne četiri selekcione vodilice.",
+      "source_render_sha256": "0b20b2251981196e574576fd21a9fd5d6c398349b6ac4c06b8929a1aa5a9be70",
+      "new_render_sha256": "da1d6e5d45d426a009180eb6b5a7558b85d1de942f4ee46687ffe1908b68278d"
+    },
+    "09_3-s058": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dva susedna bit-slice prikaza Ai/Ai−1, Bi/Bi−1; tri prolazna NMOS po bitu, Right/nop/Left, susedne veze, izlazni baferi, elipsa multipleksera i istaknuta oblast Bit-Slice i sa nastavkom.",
+      "source_render_sha256": "97cfa20611a528caa51f412c4e3f073e96f8265ef10dc80eab36fa067828d34c",
+      "new_render_sha256": "3e223ab52c968df35d46686f287617239ca8953ffaead87300a4381b309c8b9f"
+    },
+    "09_3-s059": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Četiri ulaza A3–A0 i izlaza B3–B0, 16 NMOS i četiri bafera, donje Sh0–Sh3 i leve Sh1–Sh3 vodilice, obe legende. Boja razlikuje kontrolne od podatkovnih vodova.",
+      "source_render_sha256": "ecbd0690aac627be63ad9a9144240a05659037632bee22f3125c7591e6f9a76e",
+      "new_render_sha256": "69a7472f43ea5361d8a1f80d0fe3ae299ee93731f45fc58dc682a94205cf569d"
+    },
+    "09_3-s060": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Paralelni PMOS/NMOS gejt, dvostruki trougaoni simbol i bilateralni prekidač sa RL; A/Abar i ±VC, puni naponski opsezi i sva tri pasusa.",
+      "source_render_sha256": "1d42e8f027b22a4c479be70f8175fb4910f18ff08a10916f6d374bc6606e042f",
+      "new_render_sha256": "58a488a9599c418e626cf9b3aace49ba301643454f05242d7d91b6780418a8d7"
+    },
+    "09_3-s061": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Puni pasus o režimima oba tranzistora; priključci 1/2, RL, VO, ±15 V i ulaz -12V, tačan smer struje. ",
+      "source_render_sha256": "5686fb2dfe5fe77e0deca7d35e02e08a2655ed76f1b2583717eef072776d9e97",
+      "new_render_sha256": "da5077572485df4170d30483d69a8eb96207a248ddeb85a031cff7ac2ae4ef34"
+    },
+    "09_3-s062": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Puni pasus o režimima oba tranzistora; priključci 1/2, RL, VO, ±15 V i ulaz +12V, tačan smer struje. Izvorni naslov sa −12 V ostaje iako šema i tekst opisuju +12 V.",
+      "source_render_sha256": "68109c82e4da61c46b4d18aee79843bb4dee229a1ac868ffe06463406a8acc68",
+      "new_render_sha256": "51088fa0f574773188a3edfd81f863f7c3f375f913d9819ff89e85f36d4e8333"
+    },
+    "09_3-s063": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Puni pasus o režimima oba tranzistora; priključci 1/2, RL, VO, ±15 V i ulaz 0V, tačan smer struje. ",
+      "source_render_sha256": "78df18fdecf6b53d4f16cf63806d058c2572f167c40b154bb1a67c68b8f9d32d",
+      "new_render_sha256": "ca35da9c78171e13c157e56b4ff45ffa62d685e4359a3ae8d85f11435a45de00"
+    },
+    "09_3-s064": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Kvalitativne tri krive RonN/RonP/Ron, obe ose R/VI bez numeričke skale; puni zaključak o paralelnom provođenju.",
+      "source_render_sha256": "6456a4ae111d59d57237b3f1620b1544ccad9731a4b27a375db64ed5ea450eab",
+      "new_render_sha256": "d63436a819f1b0af740b1d1ddc0452b637d42749d0bf6ef1a322271c6e1bbad1"
+    },
+    "09_3-s065": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Zakočen gejt, zamenjeni kontrolni polariteti, priključci 1/2 i RL ka VRL; puni pasus sa opsezima i izlaznim naponom.",
+      "source_render_sha256": "287275b63c6193e4319050bdbc44540978a6bf7bcedd587e3ed3344143319f04",
+      "new_render_sha256": "459deda8caafbb64074c735b2972176be22f8e23b9313e405f8a2a6c21663169"
+    },
+    "09_3-s066": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dva transmisiona gejta A/B sa zajedničkim S i krajnjim Sbar, CMOS invertor, VDD/masa i izvorna formula Ybar=SA+Sbar B; kompletan pasus.",
+      "source_render_sha256": "0c6cb564b7ff393218abf5926805cee1c114f19318daabbb6f030ab051ba2224",
+      "new_render_sha256": "6304d95cba6e4b8056c5fded3ff73ee62cedee1056970c39cec6d9803372b245"
+    },
+    "09_3-s067": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Crveni upitnik i nerešeno Y=?; CMOS grana sa napajanjem B/Bbar i ulazom A, transmisioni gejt sa B/Bbar i drugim A. Bez dodavanja odgovora na slajd.",
+      "source_render_sha256": "33e9e22304bdcffd504c2d177a4355e00f0c140bb54842f69cf628a27c961aed",
+      "new_render_sha256": "c0c5be31dd05ef5f4979a8262a683a923cd197bd50ecaa96f7fbc406bb8c3314"
+    },
+    "09_3-s068": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Tri uvodna pasusa, srednji crven; dinamička PDN mreža P/N/CLK/I/Y/CL, napajanje i masa; vremenski CLK i Y sa tri faze Y0/Y1/Y0 i šest isprekidanih granica.",
+      "source_render_sha256": "39d32235d5c293bb674e7df954245f6df3ab3ae56f6254c9584f28b92d1fce79",
+      "new_render_sha256": "e77c6f9ae2517fe083d5b95dd3d2eb8dd082ba4c67c51eea68877a17daad2c26"
+    },
+    "09_3-s069": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Ponovljena PDN šema i oba vremenska dijagrama sa svim oznakama; tri potpuna pasusa o konstrukciji, precharge i fazi izračunavanja.",
+      "source_render_sha256": "cb341513c3c2881cab47867fe43c2fe28483e3e2c51f1e7d46d3a7a30923bb7a",
+      "new_render_sha256": "52fc55b71d569251dfdd90c9ffda18ab68eb55b342cb004b713a2db235a79eb3"
+    },
+    "09_3-s070": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dva dinamička invertora P1/T1/N1 i P2/T2/N2, zajednički CLK, prelaz bez spoja, A/Y/CL; uvod i oba slučaja sa svim ponovljenim rečima originala.",
+      "source_render_sha256": "7f58c9a005d35483662cfb9657ccc39711fe9aca3be9b24b38fa911d1ba522ce",
+      "new_render_sha256": "a77e950dbbcc80b4d8f3c3c10471ba9933b852a5d730d1fc763f2be47787b36b"
+    },
+    "09_3-s071": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani original i novi prikaz. Dodata izlazna inverzija i izostavljen CL kao u originalu; PDN/P/N/I/Y/CLK, oba vremenska dijagrama sa Y0/Y1/Y0; sva četiri pasusa i crveno isticanje.",
+      "source_render_sha256": "e0a8d712e60e760a72c1f532af6712fcbeaad7bf16f03051f01738fea9c924eb",
+      "new_render_sha256": "97ea1f4aa1b48ee02d92afc9555935a1fd7c1c10fa94782c35a93e29883875dc"
+    }
+  }
+}

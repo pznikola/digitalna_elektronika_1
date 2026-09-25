@@ -1,0 +1,12 @@
+\slajdid{09_2-s019}
+\begin{frame}[label=09_2-s019]
+\gusttekst\setlength{\abovedisplayskip}{1pt}\setlength{\belowdisplayskip}{1pt}\setlength{\abovedisplayshortskip}{1pt}\setlength{\belowdisplayshortskip}{1pt}\begin{columns}[c,onlytextwidth]\column{.20\textwidth}\centering\input{slike/tikz/s019_pseudo_nmos.tex}\column{.78\textwidth}Daljim porastom ulaznog napona, napon na drejnu tranzistora N opada, napon između sorsa i drejna tranzistora P raste i kada je
+\[V_{DS,N}=V_O\ge V_{GS,N}-V_{Tn}=V_I-V_{Tn}\]
+\[V_{DS,P}=V_O-V_{DD}\le V_{GS,P}-V_{Tp}=-V_{DD}-V_{Tp}\]
+\[V_O\ge V_I-V_{Tn}\qquad V_O\le -V_{Tp}\]
+postoje uslovi da i tranzistor T1 i tranzistor T2 rade u zasićenju. Tada je
+\[\frac{k_p}2(V_{GS,P}-V_{Tp})^2=\frac{k_n}2(V_{GS,N}-V_{Tn})^2\]
+\[k_p(-V_{DD}-V_{Tp})^2=k_n(V_I-V_{Tn})^2\]
+\[V_I=V_\infty=V_{Tn}+(V_{DD}+V_{Tp})\sqrt{\frac{k_p}{k_n}}\]
+\[\color{DEcrvena}\begin{aligned}&\frac{k_p}{1+\frac{-V_{DD}-V_{Tp}}{E_{Cp}L_p}}(-V_{DD}-V_{Tp})^2\left(1+\lambda_p(V_0-V_{DD})\right)\\&\qquad=\frac{k_n}{1+\frac{V_I-V_{Tn}}{E_{Cn}L_n}}(V_I-V_{Tn})^2(1+\lambda_nV_O)\end{aligned}\]\end{columns}
+\end{frame}

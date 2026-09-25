@@ -1,0 +1,5 @@
+SIGNAL X, Y, S : STD_LOGIC_VECTOR (3 DOWNTO 0) ;
+    .
+    .
+    .
+S <= X + Y ;

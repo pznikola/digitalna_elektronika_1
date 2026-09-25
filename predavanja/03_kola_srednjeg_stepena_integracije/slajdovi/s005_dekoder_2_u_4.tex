@@ -1,0 +1,15 @@
+\slajdid{03-s005}
+\begin{frame}[label=03-s005]{Dekoderi/demultiplekseri}
+\gusttekst
+Pod pojmom dekodera podrazumevaju se kombinacione mreže sa n ulaza i m izlaza pri čemu je \(n<m\). Najčešći su potpuni binarni dekoderi kod kojih je \(m=2^n\). Njihova struktura je u slučaju \(n=2\)
+\begin{columns}[c,onlytextwidth]
+\begin{column}{.52\textwidth}\centering
+\input{slike/tikz/s005_dekoder_2_u_4.tex}
+\end{column}
+\begin{column}{.45\textwidth}
+Ulazi S se nazivaju selekcionim ulazima a često i adresnim ulazima sa oznakom A. Ono što je njihova osnovna karakteristika je da na svojim izlazima daju potpune proizvode formirane od ulaznih signala.
+\(Y0=\overline{S1}\,\overline{S0}\), \(Y1=\overline{S1}\,S0\), \(Y2=S1\,\overline{S0}\) i \(Y3=S1\,S0\).
+Prikazani dekoder naziva se potpunim binarnim dekoderom 2 u 4 (2/4). Pošto raspolažemo potpunim proizvodima formiranim od ulaznih signala sada možemo lako realizovati funkcije korišćenjem samo dodatnih ILI logičkih kola.
+\end{column}
+\end{columns}
+\end{frame}

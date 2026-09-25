@@ -1,0 +1,11 @@
+\slajdid{09_1-s027}
+\begin{frame}[label=09_1-s027]
+\gusttekst\setlength{\abovedisplayskip}{5pt}\setlength{\belowdisplayskip}{5pt}
+Strujni kapacitet logičke jedinice je
+\[I_{OH}=-\frac{V_{DD}-V_{OHmin}}{R_L}\]
+Strujni kapacitet logičke nule, tranzistor radi u omskoj oblasti je
+\[I_{OL}=\frac{k_n}{2}\frac1{1+\frac{V_{OLmax}}{L_nE_{Cn}}}\bigl(2V_{OLmax}(V_I-V_{Tn})-V_{OLmax}^2)\bigr)-\frac{V_{DD}-V_{OLmax}}{R_L}\]
+MOSFET tranzistor će menjati napon na svom izlazu prilikom strujnog opterećenja i zbog toga se u ovom izrazu pojavljuje napon $V_{OLmax}$ definisan na isti način kao što smo ranije definisali $V_{OHmin}=V_{IH}+\Delta$ odnosno $V_{OLmax}=V_{IL}-\Delta$, da bi ostavili prostor za pojavu šuma. \alert{Na ispitu ako nije specificirano $V_{OLmax}=V_{IL}$.}\par\medskip
+Postavlja se pitanje koje $V_I$ treba zameniti. Nadam se da nemate dilemu. $V_{OHmin}$. \alert{Na ispitu ako nije specificirano $V_{OHmin}=V_{IH}$}
+\[I_{OL}=\frac{k_n}{2}\frac1{1+\frac{V_{OLmax}}{L_nE_{Cn}}}\bigl(2V_{OLmax}(V_{OHmin}-V_{Tn})-V_{OLmax}^2\bigr)-\frac{V_{DD}-V_{OLmax}}{R_L}\]
+\end{frame}

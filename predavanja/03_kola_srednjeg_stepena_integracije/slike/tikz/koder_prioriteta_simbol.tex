@@ -1,0 +1,36 @@
+% \KPSimbol{ime}{x}{y}; DEenable bira EI/EO varijantu; font 8 pt u pozivaocu.
+\newcommand{\KPSimbol}[3]{%
+\begin{scope}[shift={(#2,#3)}]
+\draw[DEvod] (0,0) rectangle (2.1,1.65);
+\ifnum\DEenable=1
+ \def\DEgsheight{1.05}
+ \node at (1.0,1.05) {KP};
+ \node[anchor=north,inner sep=1pt] at (1.0,1.65) {EI};
+ \draw[DEvod] (1.0,1.65)--(1.0,1.8);
+ \coordinate (#1-ei) at (1.0,1.8);
+ \node[anchor=south,inner sep=1pt] at (1.0,0) {EO};
+ \draw[DEvod] (1.0,0)--(1.0,-.15);
+ \coordinate (#1-eo) at (1.0,-.15);
+ \foreach \n/\y in {1/.62,0/.25}{
+  \node[anchor=east,inner sep=1pt] at (2.1,\y) {A\n};
+  \draw[DEvod] (2.1,\y)--(2.3,\y);
+  \coordinate (#1-a\n) at (2.3,\y);
+ }
+\else
+ \def\DEgsheight{.95}
+ \node at (1.0,1.43) {KP};
+ \foreach \n/\x in {1/.7,0/1.45}{
+  \node[anchor=south,inner sep=1pt] at (\x,0) {A\n};
+  \draw[DEvod] (\x,0)--(\x,-.15);
+  \coordinate (#1-a\n) at (\x,-.15);
+ }
+\fi
+\foreach \n/\y in {3/1.2,2/.89,1/.58,0/.27}{
+ \node[anchor=west,inner sep=1pt] at (0,\y) {I\n};
+ \draw[DEvod] (-.2,\y)--(0,\y);
+ \coordinate (#1-i\n) at (-.2,\y);
+}
+\node[anchor=east,inner sep=1pt] at (2.1,\DEgsheight) {GS};
+\draw[DEvod] (2.1,\DEgsheight)--(2.3,\DEgsheight);
+\coordinate (#1-gs) at (2.3,\DEgsheight);
+\end{scope}}

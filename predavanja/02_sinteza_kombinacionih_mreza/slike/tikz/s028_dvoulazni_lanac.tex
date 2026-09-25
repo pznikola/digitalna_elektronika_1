@@ -1,0 +1,22 @@
+% DEvrsta = and, or ili nand; DEodnos = = ili \ne; DEkriticna = 0/1.
+\begin{tikzpicture}[DEoznaka,x=10mm,y=8mm]
+\node[\DEvrsta\space gate US,draw,logic gate inputs=nnnnn,scale=.65,minimum height=12mm] (g) at (-1.3,0) {};
+\foreach \i in {1,...,5}{\draw[DEvod] (g.input \i)--++(-.25,0);}
+\draw[DEvod] (g.output)--++(.25,0);
+\node at (0,0) {\(\DEodnos\)};
+\foreach \i/\x/\y in {1/2/1.2,2/3.8/.6,3/5.6/0,4/7.4/-.6}{
+ \node[\DEvrsta\space gate US,draw,logic gate inputs=nn,scale=.65,minimum height=8mm] (k\i) at (\x,\y) {};
+}
+\draw[DEvod] (k1.input 1)--(.65,0 |- k1.input 1);
+\draw[DEvod] (k1.input 2)--(.65,0 |- k1.input 2);
+\foreach \a/\b in {1/2,2/3,3/4}{
+ \draw[DEvod] (k\a.output)--++(.18,0)|-(k\b.input 1);
+ \draw[DEvod] (k\b.input 2)--(.65,0 |- k\b.input 2);
+}
+\draw[DEvod] (k4.output)--++(.25,0);
+\ifnum\DEkriticna=1
+ \draw[DEcrvena,->] (.65,1.7)--(2.9,1.7)--(2.9,1.1)--(4.7,1.1)--(4.7,.5)--(6.5,.5)--(6.5,-.1)--(8.5,-.1);
+ \draw[cyan!70!blue,->] (.65,-1.25)--(8.5,-1.25);
+ \node[above] at (7.1,1.0) {Kritična putanja};
+\fi
+\end{tikzpicture}

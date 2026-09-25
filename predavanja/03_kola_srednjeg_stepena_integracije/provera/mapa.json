@@ -1,0 +1,7291 @@
+{
+  "schema_version": 1,
+  "lecture_id": "03",
+  "source_pdf": "03 Kola srednjeg stepena integracije.pdf",
+  "source_sha256": "5e68d267ca2f60c1ccdf073c2579fd64a4b05278955cc3d3f920cc54e123fd86",
+  "source_pages": 11,
+  "expected_slides": 21,
+  "slides": [
+    {
+      "pdf_page": 1,
+      "position": "gornji",
+      "source_number": 1,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "Kola",
+          "bbox_pt": [
+            234.6,
+            161.38,
+            292.92,
+            188.38
+          ]
+        },
+        {
+          "text": "srednjeg stepena integracije",
+          "bbox_pt": [
+            97.296,
+            197.363608,
+            430.292184,
+            224.385208
+          ]
+        }
+      ],
+      "id": "03-s001",
+      "frame_label": "03-s001",
+      "output_page": 1,
+      "tex": "slajdovi/s001_kola_srednjeg_stepena_integracije.tex",
+      "source_text": "Kola\nsrednjeg stepena integracije",
+      "inventory_confirmed": true,
+      "inventory": {
+        "tekstualni_sloj": "Kola\nsrednjeg stepena integracije",
+        "napomena": "Popis dopunjen neposrednim pregledom originalnog slajda.",
+        "vizuelni_popis": "Naslov Kola srednjeg stepena integracije, bez dodavanja razdelnika.",
+        "kategorije": [
+          "tekst"
+        ]
+      }
+    },
+    {
+      "pdf_page": 1,
+      "position": "donji",
+      "source_number": 2,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "Integrisana logička kola i digitalni sistemi",
+          "bbox_pt": [
+            37.92,
+            390.071,
+            197.885,
+            400.043
+          ]
+        },
+        {
+          "text": "Najčešća podela integrisanih logičkih kola i digitalnih sistema je na osnovu količine tranzistora koji se",
+          "bbox_pt": [
+            72.384,
+            441.641,
+            462.636,
+            451.613
+          ]
+        },
+        {
+          "text": "nalaze u istom kućištu, čipu. Ta podela je na SSI, MSI, LSI, VLSI i ULSI integrisana kola.",
+          "bbox_pt": [
+            72.384,
+            454.001,
+            398.47,
+            463.973
+          ]
+        },
+        {
+          "text": "SSI - Small Scale Integration do 100 komponenti odnosno 10 gejtova",
+          "bbox_pt": [
+            72.384,
+            473.273,
+            322.405,
+            481.373
+          ]
+        },
+        {
+          "text": "MSI - Medium Scale Integratiom do 500 komponeti odnosno od 10 do 100 gejtova",
+          "bbox_pt": [
+            72.384,
+            490.673,
+            371.155,
+            498.773
+          ]
+        },
+        {
+          "text": "LSI – Large Scale Integration do 300000 komponenti odnosno više od 100 do 10000 gejtova",
+          "bbox_pt": [
+            72.384,
+            506.321,
+            406.195,
+            516.293
+          ]
+        },
+        {
+          "text": "VLSI – Very Large Scale Integration više od 300000 komponenti 10000 do 100000 gejtova",
+          "bbox_pt": [
+            72.384,
+            523.721,
+            401.275,
+            533.693
+          ]
+        },
+        {
+          "text": "ULSI – Ultra Large Scale Integration više od 1500000 komponenti preko 100000 gejtova",
+          "bbox_pt": [
+            72.384,
+            541.151,
+            394.195,
+            551.123
+          ]
+        },
+        {
+          "text": "Ova podela po vrednostima nije striktna i u literaturi se mogu naći i drugačiji brojevi, pri čemu današnja",
+          "bbox_pt": [
+            72.384,
+            558.551,
+            462.477,
+            568.523
+          ]
+        },
+        {
+          "text": "terminologija pod pojmom VLSI dizajna podrazumeva i VLSI i ULSI tehnologije.",
+          "bbox_pt": [
+            72.384,
+            572.903,
+            369.07,
+            581.003
+          ]
+        }
+      ],
+      "id": "03-s002",
+      "frame_label": "03-s002",
+      "output_page": 2,
+      "tex": "slajdovi/s002_stepeni_integracije.tex",
+      "source_text": "Integrisana logička kola i digitalni sistemi\nNajčešća podela integrisanih logičkih kola i digitalnih sistema je na osnovu količine tranzistora koji se\nnalaze u istom kućištu, čipu. Ta podela je na SSI, MSI, LSI, VLSI i ULSI integrisana kola.\nSSI - Small Scale Integration do 100 komponenti odnosno 10 gejtova\nMSI - Medium Scale Integratiom do 500 komponeti odnosno od 10 do 100 gejtova\nLSI – Large Scale Integration do 300000 komponenti odnosno više od 100 do 10000 gejtova\nVLSI – Very Large Scale Integration više od 300000 komponenti 10000 do 100000 gejtova\nULSI – Ultra Large Scale Integration više od 1500000 komponenti preko 100000 gejtova\nOva podela po vrednostima nije striktna i u literaturi se mogu naći i drugačiji brojevi, pri čemu današnja\nterminologija pod pojmom VLSI dizajna podrazumeva i VLSI i ULSI tehnologije.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "tekstualni_sloj": "Integrisana logička kola i digitalni sistemi\nNajčešća podela integrisanih logičkih kola i digitalnih sistema je na osnovu količine tranzistora koji se\nnalaze u istom kućištu, čipu. Ta podela je na SSI, MSI, LSI, VLSI i ULSI integrisana kola.\nSSI - Small Scale Integration do 100 komponenti odnosno 10 gejtova\nMSI - Medium Scale Integratiom do 500 komponeti odnosno od 10 do 100 gejtova\nLSI – Large Scale Integration do 300000 komponenti odnosno više od 100 do 10000 gejtova\nVLSI – Very Large Scale Integration više od 300000 komponenti 10000 do 100000 gejtova\nULSI – Ultra Large Scale Integration više od 1500000 komponenti preko 100000 gejtova\nOva podela po vrednostima nije striktna i u literaturi se mogu naći i drugačiji brojevi, pri čemu današnja\nterminologija pod pojmom VLSI dizajna podrazumeva i VLSI i ULSI tehnologije.",
+        "napomena": "Popis dopunjen neposrednim pregledom originalnog slajda.",
+        "vizuelni_popis": "Naslov, uvodni i završni pasus, svih pet klasa SSI/MSI/LSI/VLSI/ULSI sa punim engleskim nazivima i svim brojevima komponenti i gejtova.",
+        "kategorije": [
+          "tekst"
+        ]
+      }
+    },
+    {
+      "pdf_page": 2,
+      "position": "gornji",
+      "source_number": 3,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "Standardna pakovanja SSI tehnologije po pravilu imaju 14, 16 ili 20 nožica, pinova. Preko pinova se ostvaruje",
+          "bbox_pt": [
+            56.688,
+            130.081,
+            459.983,
+            140.053
+          ]
+        },
+        {
+          "text": "povezivanje putem veza na PCB (printed circuit board) sa ostalim komponentama. Uobičajeno je pin 7 (14",
+          "bbox_pt": [
+            56.688,
+            142.441,
+            460.04,
+            152.413
+          ]
+        },
+        {
+          "text": "pinsko pakovanje), 8 (16 pinsko pakovanje) ili 10 (20 pinsko pakovanje) bio rezervisan za priključak mase, a",
+          "bbox_pt": [
+            56.688,
+            154.921,
+            460.016,
+            164.893
+          ]
+        },
+        {
+          "text": "pinovi 14, 16 i 20 za priključak napajanja. Ostali pinovi su rezervisani za ulaze i izlaze logičkih kola ili",
+          "bbox_pt": [
+            56.688,
+            167.281,
+            460.085,
+            177.253
+          ]
+        },
+        {
+          "text": "složenijih digitalnih sistema. Izbor tipa pakovanja zavisi od tehnologije u kojoj će PCB biti rađen. Proizvođači",
+          "bbox_pt": [
+            56.688,
+            179.781,
+            460.049,
+            189.753
+          ]
+        },
+        {
+          "text": "nude iste komponente u različitim pakovanjima i sve informacije o različitim dostupnim pakovanjima se nalaze",
+          "bbox_pt": [
+            56.688,
+            192.141,
+            459.89,
+            202.113
+          ]
+        },
+        {
+          "text": "u proizvođačkom opisu komponente.",
+          "bbox_pt": [
+            56.688,
+            204.621,
+            190.24,
+            214.593
+          ]
+        }
+      ],
+      "id": "03-s003",
+      "frame_label": "03-s003",
+      "output_page": 3,
+      "tex": "slajdovi/s003_pakovanja_i_prikljucci.tex",
+      "source_text": "Standardna pakovanja SSI tehnologije po pravilu imaju 14, 16 ili 20 nožica, pinova. Preko pinova se ostvaruje\npovezivanje putem veza na PCB (printed circuit board) sa ostalim komponentama. Uobičajeno je pin 7 (14\npinsko pakovanje), 8 (16 pinsko pakovanje) ili 10 (20 pinsko pakovanje) bio rezervisan za priključak mase, a\npinovi 14, 16 i 20 za priključak napajanja. Ostali pinovi su rezervisani za ulaze i izlaze logičkih kola ili\nsloženijih digitalnih sistema. Izbor tipa pakovanja zavisi od tehnologije u kojoj će PCB biti rađen. Proizvođači\nnude iste komponente u različitim pakovanjima i sve informacije o različitim dostupnim pakovanjima se nalaze\nu proizvođačkom opisu komponente.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "tekstualni_sloj": "Standardna pakovanja SSI tehnologije po pravilu imaju 14, 16 ili 20 nožica, pinova. Preko pinova se ostvaruje\npovezivanje putem veza na PCB (printed circuit board) sa ostalim komponentama. Uobičajeno je pin 7 (14\npinsko pakovanje), 8 (16 pinsko pakovanje) ili 10 (20 pinsko pakovanje) bio rezervisan za priključak mase, a\npinovi 14, 16 i 20 za priključak napajanja. Ostali pinovi su rezervisani za ulaze i izlaze logičkih kola ili\nsloženijih digitalnih sistema. Izbor tipa pakovanja zavisi od tehnologije u kojoj će PCB biti rađen. Proizvođači\nnude iste komponente u različitim pakovanjima i sve informacije o različitim dostupnim pakovanjima se nalaze\nu proizvođačkom opisu komponente.",
+        "napomena": "Popis dopunjen neposrednim pregledom originalnog slajda.",
+        "vizuelni_popis": "Kompletan pasus o 14/16/20 pinova, pinovima mase i napajanja, PCB i izboru pakovanja.",
+        "kategorije": [
+          "tekst"
+        ]
+      }
+    },
+    {
+      "pdf_page": 2,
+      "position": "donji",
+      "source_number": 4,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "Ono što je bitno jeste da su se u jednom pakovanju po pravilu nalazila kola iste vrste, na primer samo dvoulazna NI",
+          "bbox_pt": [
+            50.832,
+            423.811,
+            478.147,
+            433.783
+          ]
+        },
+        {
+          "text": "kola, ili samo invertori itd… Znači ako nam za sintezu kombinacione mreže treba dva dvoulazna NI kola, jedno",
+          "bbox_pt": [
+            50.832,
+            436.171,
+            478.081,
+            446.143
+          ]
+        },
+        {
+          "text": "troulazno NI, i jedan invertor morali smo kupiti tri čipa: sa dvoulaznim NI kolima, sa troulaznim NI kolima i sa",
+          "bbox_pt": [
+            50.832,
+            448.651,
+            478.186,
+            458.623
+          ]
+        },
+        {
+          "text": "invertorima.",
+          "bbox_pt": [
+            50.832,
+            462.866608,
+            94.992,
+            470.988208
+          ]
+        },
+        {
+          "text": "Ono što je takođe jako bitno jeste da se nekorišćeni ulazi i ulazi u nekorišćene delove komponente moraju postaviti na",
+          "bbox_pt": [
+            50.832,
+            478.441,
+            478.306,
+            488.413
+          ]
+        },
+        {
+          "text": "neaktivne nivoe. U suprotnom može doći do neželjenih efekata po rad aktivnog dela mreže. Kao što se vidi nije",
+          "bbox_pt": [
+            50.832,
+            490.921,
+            478.285,
+            500.893
+          ]
+        },
+        {
+          "text": "svejedno kako ćemo od početnih logičkih funkcija uraditi sintezu kombinacione mreže.",
+          "bbox_pt": [
+            50.832,
+            503.281,
+            365.42,
+            513.253
+          ]
+        },
+        {
+          "text": "U prethodnom primerima nadam se da ste uočili da sa dvoulaznim NI kolom možemo napraviti kratkim spajanjem",
+          "bbox_pt": [
+            50.832,
+            520.681,
+            478.142,
+            530.653
+          ]
+        },
+        {
+          "text": "ulaznih priključaka invertor – ne treba nam čip sa invertorima. Isto tako sa dva dvoulazna NI kola možemo napraviti",
+          "bbox_pt": [
+            50.832,
+            533.161,
+            478.085,
+            543.133
+          ]
+        },
+        {
+          "text": "jedno troulazno, normalno po cenu većeg kašnjenja 𝐹 = 𝐴 ∙ 𝐵 ∙ 𝐶 = 𝐴 ∙ (𝐵 ∙ 𝐶), Znači trebalo bi nam i manji broj",
+          "bbox_pt": [
+            50.832,
+            545.521,
+            478.237,
+            555.538
+          ]
+        },
+        {
+          "text": "čipova, a i kupovali bi čipove iste vrste. Opet, ako smemo da dozvolimo, kašnjenje će biti povećano pošto umesto",
+          "bbox_pt": [
+            50.832,
+            558.001,
+            478.207,
+            567.973
+          ]
+        },
+        {
+          "text": "jednog kašnjenja kroz troulazno logičko kola imamo kašnjenje kroz dva dvoulazna logička kola.",
+          "bbox_pt": [
+            50.832,
+            570.361,
+            398.18,
+            580.333
+          ]
+        }
+      ],
+      "id": "03-s004",
+      "frame_label": "03-s004",
+      "output_page": 4,
+      "tex": "slajdovi/s004_izbor_kola_i_nekorisceni_ulazi.tex",
+      "source_text": "Ono što je bitno jeste da su se u jednom pakovanju po pravilu nalazila kola iste vrste, na primer samo dvoulazna NI\nkola, ili samo invertori itd… Znači ako nam za sintezu kombinacione mreže treba dva dvoulazna NI kola, jedno\ntroulazno NI, i jedan invertor morali smo kupiti tri čipa: sa dvoulaznim NI kolima, sa troulaznim NI kolima i sa\ninvertorima.\nOno što je takođe jako bitno jeste da se nekorišćeni ulazi i ulazi u nekorišćene delove komponente moraju postaviti na\nneaktivne nivoe. U suprotnom može doći do neželjenih efekata po rad aktivnog dela mreže. Kao što se vidi nije\nsvejedno kako ćemo od početnih logičkih funkcija uraditi sintezu kombinacione mreže.\nU prethodnom primerima nadam se da ste uočili da sa dvoulaznim NI kolom možemo napraviti kratkim spajanjem\nulaznih priključaka invertor – ne treba nam čip sa invertorima. Isto tako sa dva dvoulazna NI kola možemo napraviti\njedno troulazno, normalno po cenu većeg kašnjenja 𝐹 = 𝐴 ∙ 𝐵 ∙ 𝐶 = 𝐴 ∙ (𝐵 ∙ 𝐶), Znači trebalo bi nam i manji broj\nčipova, a i kupovali bi čipove iste vrste. Opet, ako smemo da dozvolimo, kašnjenje će biti povećano pošto umesto\njednog kašnjenja kroz troulazno logičko kola imamo kašnjenje kroz dva dvoulazna logička kola.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "tekstualni_sloj": "Ono što je bitno jeste da su se u jednom pakovanju po pravilu nalazila kola iste vrste, na primer samo dvoulazna NI\nkola, ili samo invertori itd… Znači ako nam za sintezu kombinacione mreže treba dva dvoulazna NI kola, jedno\ntroulazno NI, i jedan invertor morali smo kupiti tri čipa: sa dvoulaznim NI kolima, sa troulaznim NI kolima i sa\ninvertorima.\nOno što je takođe jako bitno jeste da se nekorišćeni ulazi i ulazi u nekorišćene delove komponente moraju postaviti na\nneaktivne nivoe. U suprotnom može doći do neželjenih efekata po rad aktivnog dela mreže. Kao što se vidi nije\nsvejedno kako ćemo od početnih logičkih funkcija uraditi sintezu kombinacione mreže.\nU prethodnom primerima nadam se da ste uočili da sa dvoulaznim NI kolom možemo napraviti kratkim spajanjem\nulaznih priključaka invertor – ne treba nam čip sa invertorima. Isto tako sa dva dvoulazna NI kola možemo napraviti\njedno troulazno, normalno po cenu većeg kašnjenja 𝐹 = 𝐴 ∙ 𝐵 ∙ 𝐶 = 𝐴 ∙ (𝐵 ∙ 𝐶), Znači trebalo bi nam i manji broj\nčipova, a i kupovali bi čipove iste vrste. Opet, ako smemo da dozvolimo, kašnjenje će biti povećano pošto umesto\njednog kašnjenja kroz troulazno logičko kola imamo kašnjenje kroz dva dvoulazna logička kola.",
+        "napomena": "Popis dopunjen neposrednim pregledom originalnog slajda.",
+        "vizuelni_popis": "Tri puna pasusa, podvučena vrsta kola i crven pasus o nekorišćenim ulazima; izvorna jednačina A·B·C=A·(B·C) bez negacija i pogrešna tvrdnja o dva NI ostaju.",
+        "kategorije": [
+          "tekst",
+          "formule"
+        ]
+      }
+    },
+    {
+      "pdf_page": 3,
+      "position": "gornji",
+      "source_number": 5,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "Dekoderi/demultiplekseri",
+          "bbox_pt": [
+            39.456,
+            78.813,
+            136.848,
+            86.913
+          ]
+        },
+        {
+          "text": "Pod pojmom dekodera podrazumevaju se kombinacione mreže sa n ulaza i m izlaza pri čemu je 𝑛 < 𝑚. Najčešći",
+          "bbox_pt": [
+            40.464,
+            108.241,
+            453.468,
+            118.258
+          ]
+        },
+        {
+          "text": "su potpuni binarni dekoderi kod kojih je 𝑚 = 2 𝑛 . Njihova struktura je u slučaju 𝑛 = 2",
+          "bbox_pt": [
+            40.464,
+            120.2386,
+            351.766,
+            130.618
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            136.041391,
+            144.636241,
+            144.221936,
+            151.637223
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            137.444069,
+            166.685798,
+            145.623839,
+            173.68678
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            228.28195,
+            234.675885,
+            237.74796,
+            241.676866
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            254.54891,
+            234.675885,
+            264.020083,
+            241.676866
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            280.685491,
+            234.675885,
+            290.147628,
+            241.676866
+          ]
+        },
+        {
+          "text": "Y3",
+          "bbox_pt": [
+            306.296681,
+            234.675885,
+            315.771727,
+            241.676866
+          ]
+        },
+        {
+          "text": "Ulazi S se nazivaju selekcionim ulazima a često i adresnim ulazima sa oznakom A. Ono što je njihova",
+          "bbox_pt": [
+            97.008,
+            251.081,
+            464.415,
+            261.044
+          ]
+        },
+        {
+          "text": "osnovna karakteristika je da na svojim izlazima daju potpune proizvode formirane od ulaznih signala.",
+          "bbox_pt": [
+            97.008,
+            263.753,
+            462.75,
+            271.853
+          ]
+        },
+        {
+          "text": "𝑌0 = 𝑆1 𝑆0, 𝑌1 = 𝑆1 𝑆0, 𝑌2 = 𝑆1 𝑆0 i 𝑌3 = 𝑆1 𝑆0. Prikazani dekoder naziva se potpunim binarnim",
+          "bbox_pt": [
+            97.008,
+            273.809,
+            464.643,
+            282.818
+          ]
+        },
+        {
+          "text": "dekoderom 2 u 4 (2/4). Pošto raspolažemo potpunim proizvodima formiranim od ulaznih signala sada",
+          "bbox_pt": [
+            97.008,
+            283.601,
+            463.236,
+            293.564
+          ]
+        },
+        {
+          "text": "možemo lako realizovati funkcije korišćenjem samo dodatnih ILI logičkih kola.",
+          "bbox_pt": [
+            97.008,
+            294.401,
+            384.288,
+            304.364
+          ]
+        }
+      ],
+      "id": "03-s005",
+      "frame_label": "03-s005",
+      "output_page": 5,
+      "tex": "slajdovi/s005_dekoder_2_u_4.tex",
+      "source_text": "Dekoderi/demultiplekseri\nPod pojmom dekodera podrazumevaju se kombinacione mreže sa n ulaza i m izlaza pri čemu je 𝑛 < 𝑚. Najčešći\nsu potpuni binarni dekoderi kod kojih je 𝑚 = 2 𝑛 . Njihova struktura je u slučaju 𝑛 = 2\nS1\nS0\nY0\nY1\nY2\nY3\nUlazi S se nazivaju selekcionim ulazima a često i adresnim ulazima sa oznakom A. Ono što je njihova\nosnovna karakteristika je da na svojim izlazima daju potpune proizvode formirane od ulaznih signala.\n𝑌0 = 𝑆1 𝑆0, 𝑌1 = 𝑆1 𝑆0, 𝑌2 = 𝑆1 𝑆0 i 𝑌3 = 𝑆1 𝑆0. Prikazani dekoder naziva se potpunim binarnim\ndekoderom 2 u 4 (2/4). Pošto raspolažemo potpunim proizvodima formiranim od ulaznih signala sada\nmožemo lako realizovati funkcije korišćenjem samo dodatnih ILI logičkih kola.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "tekstualni_sloj": "Dekoderi/demultiplekseri\nPod pojmom dekodera podrazumevaju se kombinacione mreže sa n ulaza i m izlaza pri čemu je 𝑛 < 𝑚. Najčešći\nsu potpuni binarni dekoderi kod kojih je 𝑚 = 2 𝑛 . Njihova struktura je u slučaju 𝑛 = 2\nS1\nS0\nY0\nY1\nY2\nY3\nUlazi S se nazivaju selekcionim ulazima a često i adresnim ulazima sa oznakom A. Ono što je njihova\nosnovna karakteristika je da na svojim izlazima daju potpune proizvode formirane od ulaznih signala.\n𝑌0 = 𝑆1 𝑆0, 𝑌1 = 𝑆1 𝑆0, 𝑌2 = 𝑆1 𝑆0 i 𝑌3 = 𝑆1 𝑆0. Prikazani dekoder naziva se potpunim binarnim\ndekoderom 2 u 4 (2/4). Pošto raspolažemo potpunim proizvodima formiranim od ulaznih signala sada\nmožemo lako realizovati funkcije korišćenjem samo dodatnih ILI logičkih kola.",
+        "napomena": "Popis dopunjen neposrednim pregledom originalnog slajda.",
+        "vizuelni_popis": "Naslov, n<m i m=2^n, četiri invertora i četiri I2; S1/S0 i Y0–Y3, sve veze minterma; sve četiri formule i ceo opis dekodera.",
+        "kategorije": [
+          "tekst",
+          "formule",
+          "crtezi"
+        ]
+      }
+    },
+    {
+      "pdf_page": 3,
+      "position": "donji",
+      "source_number": 6,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "Na primer ako treba da realizujemo funkciju 𝐹 = 𝐵 ത 𝐴 ҧ + 𝐵 𝐴",
+          "bbox_pt": [
+            44.064,
+            396.619,
+            264.637,
+            407.428
+          ]
+        },
+        {
+          "text": "B",
+          "bbox_pt": [
+            146.829907,
+            432.443549,
+            152.658505,
+            440.331792
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            163.156507,
+            428.309458,
+            172.385928,
+            436.197702
+          ]
+        },
+        {
+          "text": "A",
+          "bbox_pt": [
+            147.071968,
+            455.232173,
+            153.381186,
+            463.120417
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            162.67588,
+            451.083475,
+            171.905301,
+            458.971718
+          ]
+        },
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            174.54008,
+            499.532674,
+            204.626466,
+            507.420918
+          ]
+        },
+        {
+          "text": "2/4",
+          "bbox_pt": [
+            184.001145,
+            510.050501,
+            195.167637,
+            517.938745
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            243.192518,
+            527.691233,
+            253.872558,
+            535.579477
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            274.452193,
+            527.691233,
+            285.132233,
+            535.579477
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            303.356796,
+            527.691233,
+            314.032467,
+            535.579477
+          ]
+        },
+        {
+          "text": "Y3",
+          "bbox_pt": [
+            332.252661,
+            527.691233,
+            342.928332,
+            535.579477
+          ]
+        },
+        {
+          "text": "F",
+          "bbox_pt": [
+            302.541187,
+            600.156137,
+            307.39981,
+            608.044381
+          ]
+        }
+      ],
+      "id": "03-s006",
+      "frame_label": "03-s006",
+      "output_page": 6,
+      "tex": "slajdovi/s006_primer_funkcije_i_obris_dekodera.tex",
+      "source_text": "Na primer ako treba da realizujemo funkciju 𝐹 = 𝐵 ത 𝐴 ҧ + 𝐵 𝐴\nB\nS1\nA\nS0\nDekoder\n2/4\nY0\nY1\nY2\nY3\nF",
+      "inventory_confirmed": true,
+      "inventory": {
+        "tekstualni_sloj": "Na primer ako treba da realizujemo funkciju 𝐹 = 𝐵 ത 𝐴 ҧ + 𝐵 𝐴\nB\nS1\nA\nS0\nDekoder\n2/4\nY0\nY1\nY2\nY3\nF",
+        "napomena": "Popis dopunjen neposrednim pregledom originalnog slajda.",
+        "vizuelni_popis": "Formula barB barA+BA, spolja B/A, unutra S1/S0, natpis Dekoder 2/4, Y0–Y3 i izdvojeno F. Original nema nacrtanu unutrašnju šemu ili veze do F; nema dopunjavanja.",
+        "kategorije": [
+          "tekst",
+          "formule",
+          "crtezi"
+        ]
+      }
+    },
+    {
+      "pdf_page": 4,
+      "position": "gornji",
+      "source_number": 7,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "Simboli mreža srednjeg stepena integracije su pravougaoni sa svim označenim signalima.",
+          "bbox_pt": [
+            45.312,
+            88.561,
+            367.91,
+            98.533
+          ]
+        },
+        {
+          "text": "Podvučeno je pošto na ispitu često zaboravite da označite signale unutar komponente, a onda nije moguće restaurirati šta",
+          "bbox_pt": [
+            45.312,
+            105.961,
+            481.289,
+            115.933
+          ]
+        },
+        {
+          "text": "ste i kako hteli da realizujete zadatak.",
+          "bbox_pt": [
+            45.312,
+            120.193,
+            180.43,
+            128.293
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            147.178154,
+            163.556411,
+            153.006929,
+            168.540633
+          ]
+        },
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            333.488642,
+            164.472046,
+            352.488886,
+            169.456268
+          ]
+        },
+        {
+          "text": "2/4 Y3",
+          "bbox_pt": [
+            339.458003,
+            171.117782,
+            359.785061,
+            177.697903
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            148.177585,
+            179.254193,
+            154.005808,
+            184.238415
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            353.04313,
+            181.870951,
+            359.785061,
+            186.855173
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            353.04313,
+            192.337062,
+            359.785061,
+            197.321284
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            353.04313,
+            202.80225,
+            359.785061,
+            207.786472
+          ]
+        },
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            164.795772,
+            205.94236,
+            183.796017,
+            210.926582
+          ]
+        },
+        {
+          "text": "2/4",
+          "bbox_pt": [
+            170.770653,
+            212.588096,
+            177.822549,
+            217.572318
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            334.895903,
+            217.193037,
+            340.727253,
+            222.177259
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            208.151365,
+            223.733548,
+            214.896055,
+            228.71777
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            227.892568,
+            223.733548,
+            234.637258,
+            228.71777
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            246.146489,
+            223.733548,
+            252.88842,
+            228.71777
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            347.634833,
+            217.193037,
+            353.456986,
+            222.177259
+          ]
+        },
+        {
+          "text": "Y3",
+          "bbox_pt": [
+            264.394892,
+            223.733548,
+            271.136823,
+            228.71777
+          ]
+        },
+        {
+          "text": "Selekcioni signali su indeksirani po težini, dok su indeksi izlaza odgovarajući indeksima proizvoda koji",
+          "bbox_pt": [
+            93.0,
+            250.461,
+            468.076,
+            260.433
+          ]
+        },
+        {
+          "text": "se formira na tom izlazu. I to je standardno i podrazumeva se.",
+          "bbox_pt": [
+            93.0,
+            264.693,
+            315.28,
+            272.793
+          ]
+        }
+      ],
+      "id": "03-s007",
+      "frame_label": "03-s007",
+      "output_page": 7,
+      "tex": "slajdovi/s007_simbol_dekodera.tex",
+      "source_text": "Simboli mreža srednjeg stepena integracije su pravougaoni sa svim označenim signalima.\nPodvučeno je pošto na ispitu često zaboravite da označite signale unutar komponente, a onda nije moguće restaurirati šta\nste i kako hteli da realizujete zadatak.\nS1\nDekoder\n2/4 Y3\nS0\nY2\nY1\nY0\nDekoder\n2/4\nS1\nY0\nY1\nY2\nS0\nY3\nSelekcioni signali su indeksirani po težini, dok su indeksi izlaza odgovarajući indeksima proizvoda koji\nse formira na tom izlazu. I to je standardno i podrazumeva se.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "tekstualni_sloj": "Simboli mreža srednjeg stepena integracije su pravougaoni sa svim označenim signalima.\nPodvučeno je pošto na ispitu često zaboravite da označite signale unutar komponente, a onda nije moguće restaurirati šta\nste i kako hteli da realizujete zadatak.\nS1\nDekoder\n2/4 Y3\nS0\nY2\nY1\nY0\nDekoder\n2/4\nS1\nY0\nY1\nY2\nS0\nY3\nSelekcioni signali su indeksirani po težini, dok su indeksi izlaza odgovarajući indeksima proizvoda koji\nse formira na tom izlazu. I to je standardno i podrazumeva se.",
+        "napomena": "Popis dopunjen neposrednim pregledom originalnog slajda.",
+        "vizuelni_popis": "Tri tekstualna bloka i podvučena obaveza označavanja; puna unutrašnja šema i pravougaoni simbol, oba sa svim ulazima/izlazima i nazivom Dekoder 2/4.",
+        "kategorije": [
+          "tekst",
+          "crtezi"
+        ]
+      }
+    },
+    {
+      "pdf_page": 4,
+      "position": "donji",
+      "source_number": 8,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "Da bi se na lak način omogućilo pravljenje mreža većih kapaciteta, sa većim brojem ulaza i izlaza uobičajeno",
+          "bbox_pt": [
+            41.616,
+            393.071,
+            468.346,
+            403.043
+          ]
+        },
+        {
+          "text": "komponente imaju dodatne selekcione signale koji „selektuju“ komponentu, uobičajeno nazvani CS (chip select).",
+          "bbox_pt": [
+            41.616,
+            405.431,
+            450.16,
+            415.403
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            143.264132,
+            440.606338,
+            149.233155,
+            445.713751
+          ]
+        },
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            334.057489,
+            441.544604,
+            353.514903,
+            446.652017
+          ]
+        },
+        {
+          "text": "2/4 Y3",
+          "bbox_pt": [
+            340.170481,
+            448.354597,
+            360.986633,
+            455.097354
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            144.287611,
+            456.692109,
+            150.256069,
+            461.799522
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            354.082482,
+            459.373543,
+            360.986633,
+            464.480956
+          ]
+        },
+        {
+          "text": "CS",
+          "bbox_pt": [
+            143.148466,
+            467.416902,
+            150.05992,
+            472.524314
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            354.082482,
+            470.098336,
+            360.986633,
+            475.205749
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            354.082482,
+            480.822183,
+            360.986633,
+            485.929596
+          ]
+        },
+        {
+          "text": "CS",
+          "bbox_pt": [
+            326.710595,
+            482.163373,
+            333.62205,
+            487.270786
+          ]
+        },
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            161.305653,
+            484.039905,
+            180.763067,
+            489.147318
+          ]
+        },
+        {
+          "text": "2/4",
+          "bbox_pt": [
+            167.424297,
+            490.849898,
+            174.645871,
+            495.95731
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            335.49861,
+            495.568655,
+            341.47027,
+            500.676068
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            205.704437,
+            502.270823,
+            212.611413,
+            507.378236
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            225.920638,
+            502.270823,
+            232.827614,
+            507.378236
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            244.613772,
+            502.270823,
+            251.517923,
+            507.378236
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            348.544055,
+            495.568655,
+            354.506296,
+            500.676068
+          ]
+        },
+        {
+          "text": "Y3",
+          "bbox_pt": [
+            263.301254,
+            502.270823,
+            270.205405,
+            507.378236
+          ]
+        },
+        {
+          "text": "U ovom slučaju za dekoder se kaže da su mu aktivne logičke jedinice na izlazu, a CS signal",
+          "bbox_pt": [
+            75.168,
+            529.241,
+            414.936,
+            539.213
+          ]
+        },
+        {
+          "text": "dovodi sve izlaze u neaktivno stanje, odnosno kao što se vidi kada CS nije aktivan odnosno",
+          "bbox_pt": [
+            75.168,
+            541.601,
+            414.879,
+            551.573
+          ]
+        },
+        {
+          "text": "CS=0, svi izlazi će biti na neaktivnom nivou odnosno logičkoj nuli. Česta situacija je i da",
+          "bbox_pt": [
+            75.168,
+            554.081,
+            414.876,
+            564.053
+          ]
+        },
+        {
+          "text": "komponenta ima više od jednog CS signala. U tom slučaju su uvek povezani I logičkom",
+          "bbox_pt": [
+            75.168,
+            566.441,
+            414.858,
+            576.413
+          ]
+        },
+        {
+          "text": "funkcijom, odnosno svi moraju biti aktivni da bi se selektovala komponenta, 𝐶𝑆 = 𝐶𝑆1 ∙ 𝐶𝑆2.",
+          "bbox_pt": [
+            75.168,
+            579.929,
+            414.21,
+            588.938
+          ]
+        }
+      ],
+      "id": "03-s008",
+      "frame_label": "03-s008",
+      "output_page": 8,
+      "tex": "slajdovi/s008_selekcija_komponente.tex",
+      "source_text": "Da bi se na lak način omogućilo pravljenje mreža većih kapaciteta, sa većim brojem ulaza i izlaza uobičajeno\nkomponente imaju dodatne selekcione signale koji „selektuju“ komponentu, uobičajeno nazvani CS (chip select).\nS1\nDekoder\n2/4 Y3\nS0\nY2\nCS\nY1\nY0\nCS\nDekoder\n2/4\nS1\nY0\nY1\nY2\nS0\nY3\nU ovom slučaju za dekoder se kaže da su mu aktivne logičke jedinice na izlazu, a CS signal\ndovodi sve izlaze u neaktivno stanje, odnosno kao što se vidi kada CS nije aktivan odnosno\nCS=0, svi izlazi će biti na neaktivnom nivou odnosno logičkoj nuli. Česta situacija je i da\nkomponenta ima više od jednog CS signala. U tom slučaju su uvek povezani I logičkom\nfunkcijom, odnosno svi moraju biti aktivni da bi se selektovala komponenta, 𝐶𝑆 = 𝐶𝑆1 ∙ 𝐶𝑆2.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "tekstualni_sloj": "Da bi se na lak način omogućilo pravljenje mreža većih kapaciteta, sa većim brojem ulaza i izlaza uobičajeno\nkomponente imaju dodatne selekcione signale koji „selektuju“ komponentu, uobičajeno nazvani CS (chip select).\nS1\nDekoder\n2/4 Y3\nS0\nY2\nCS\nY1\nY0\nCS\nDekoder\n2/4\nS1\nY0\nY1\nY2\nS0\nY3\nU ovom slučaju za dekoder se kaže da su mu aktivne logičke jedinice na izlazu, a CS signal\ndovodi sve izlaze u neaktivno stanje, odnosno kao što se vidi kada CS nije aktivan odnosno\nCS=0, svi izlazi će biti na neaktivnom nivou odnosno logičkoj nuli. Česta situacija je i da\nkomponenta ima više od jednog CS signala. U tom slučaju su uvek povezani I logičkom\nfunkcijom, odnosno svi moraju biti aktivni da bi se selektovala komponenta, 𝐶𝑆 = 𝐶𝑆1 ∙ 𝐶𝑆2.",
+        "napomena": "Popis dopunjen neposrednim pregledom originalnog slajda.",
+        "vizuelni_popis": "Puni uvod i završni pasus; CS dodat svim četirima I3 u unutrašnjoj šemi i posebnom simbolu; uslov CS=0 i formula CS=CS1·CS2.",
+        "kategorije": [
+          "tekst",
+          "formule",
+          "crtezi"
+        ]
+      }
+    },
+    {
+      "pdf_page": 5,
+      "position": "gornji",
+      "source_number": 9,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            210.440986,
+            83.941662,
+            224.549018,
+            87.650044
+          ]
+        },
+        {
+          "text": "4/16",
+          "bbox_pt": [
+            213.852333,
+            88.88625,
+            221.137419,
+            92.594632
+          ]
+        },
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            278.877597,
+            83.653228,
+            292.985629,
+            87.36161
+          ]
+        },
+        {
+          "text": "2/4 Y3",
+          "bbox_pt": [
+            283.309958,
+            88.597816,
+            298.403174,
+            93.494273
+          ]
+        },
+        {
+          "text": "Y15",
+          "bbox_pt": [
+            303.989757,
+            89.785891,
+            311.044688,
+            93.494273
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            293.397165,
+            96.598435,
+            298.403174,
+            100.306817
+          ]
+        },
+        {
+          "text": "Y14",
+          "bbox_pt": [
+            303.989757,
+            96.598435,
+            311.044688,
+            100.306817
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            293.397165,
+            104.386162,
+            298.403174,
+            108.094544
+          ]
+        },
+        {
+          "text": "Y13",
+          "bbox_pt": [
+            303.989757,
+            104.386162,
+            311.044688,
+            108.094544
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            293.397165,
+            112.167021,
+            298.403174,
+            115.875403
+          ]
+        },
+        {
+          "text": "Y12",
+          "bbox_pt": [
+            303.989757,
+            112.167021,
+            311.044688,
+            115.875403
+          ]
+        },
+        {
+          "text": "CS",
+          "bbox_pt": [
+            273.550568,
+            113.142204,
+            278.561873,
+            116.850586
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            279.929344,
+            122.880296,
+            284.2524,
+            126.588678
+          ]
+        },
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            278.877597,
+            140.103946,
+            292.985629,
+            143.812328
+          ]
+        },
+        {
+          "text": "2/4 Y3",
+          "bbox_pt": [
+            283.309958,
+            145.048535,
+            298.403174,
+            149.944991
+          ]
+        },
+        {
+          "text": "Y11",
+          "bbox_pt": [
+            303.989757,
+            146.236609,
+            311.044688,
+            149.944991
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            293.397165,
+            153.049153,
+            298.403174,
+            156.757535
+          ]
+        },
+        {
+          "text": "Y10",
+          "bbox_pt": [
+            303.989757,
+            153.049153,
+            311.044688,
+            156.757535
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            293.397165,
+            160.83688,
+            298.403174,
+            164.545262
+          ]
+        },
+        {
+          "text": "Y9",
+          "bbox_pt": [
+            305.014186,
+            160.83688,
+            310.020194,
+            164.545262
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            293.397165,
+            168.624607,
+            298.403174,
+            172.332989
+          ]
+        },
+        {
+          "text": "Y8",
+          "bbox_pt": [
+            305.014186,
+            168.624607,
+            310.020194,
+            172.332989
+          ]
+        },
+        {
+          "text": "Piramidalna struktura.",
+          "bbox_pt": [
+            49.992,
+            160.513,
+            130.03,
+            168.613
+          ]
+        },
+        {
+          "text": "CS",
+          "bbox_pt": [
+            273.550568,
+            169.59979,
+            278.561873,
+            173.308172
+          ]
+        },
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            213.054645,
+            173.198351,
+            227.162677,
+            176.906733
+          ]
+        },
+        {
+          "text": "2/4 Y3",
+          "bbox_pt": [
+            217.49042,
+            178.14294,
+            232.582953,
+            183.039397
+          ]
+        },
+        {
+          "text": "U ovom slučaju nam je dovoljan",
+          "bbox_pt": [
+            49.992,
+            176.041,
+            167.41,
+            186.013
+          ]
+        },
+        {
+          "text": "jedan selekcioni signal na",
+          "bbox_pt": [
+            49.992,
+            190.273,
+            167.416,
+            198.373
+          ]
+        },
+        {
+          "text": "komponentama",
+          "bbox_pt": [
+            49.992,
+            202.753,
+            105.315,
+            210.853
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            289.381405,
+            122.880296,
+            293.711291,
+            126.588678
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            279.929344,
+            179.331015,
+            284.2524,
+            183.039397
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            289.381405,
+            179.331015,
+            293.711291,
+            183.039397
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            227.574896,
+            186.143559,
+            232.582953,
+            189.851941
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            227.574896,
+            193.931286,
+            232.582953,
+            197.639668
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            227.574896,
+            201.719012,
+            232.582953,
+            205.427395
+          ]
+        },
+        {
+          "text": "CS",
+          "bbox_pt": [
+            207.729665,
+            202.694195,
+            212.740969,
+            206.402577
+          ]
+        },
+        {
+          "text": "CS",
+          "bbox_pt": [
+            193.210097,
+            203.66251,
+            198.221401,
+            207.370892
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            214.105025,
+            212.42542,
+            218.432862,
+            216.133802
+          ]
+        },
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            278.877597,
+            196.561532,
+            292.985629,
+            200.269914
+          ]
+        },
+        {
+          "text": "2/4 Y3",
+          "bbox_pt": [
+            283.309958,
+            201.50612,
+            298.403174,
+            206.402577
+          ]
+        },
+        {
+          "text": "Y7",
+          "bbox_pt": [
+            305.014186,
+            201.719012,
+            310.020194,
+            205.427395
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            293.397165,
+            209.506739,
+            298.403174,
+            213.215121
+          ]
+        },
+        {
+          "text": "Y6",
+          "bbox_pt": [
+            305.014186,
+            208.531557,
+            310.020194,
+            212.239939
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            293.397165,
+            217.294466,
+            298.403174,
+            221.002848
+          ]
+        },
+        {
+          "text": "Y5",
+          "bbox_pt": [
+            305.014186,
+            216.319283,
+            310.020194,
+            220.027665
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            293.397165,
+            225.075326,
+            298.403174,
+            228.783708
+          ]
+        },
+        {
+          "text": "Y4",
+          "bbox_pt": [
+            305.014186,
+            224.10701,
+            310.020194,
+            227.815392
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            223.559136,
+            212.42542,
+            227.886972,
+            216.133802
+          ]
+        },
+        {
+          "text": "S3",
+          "bbox_pt": [
+            194.035786,
+            219.237964,
+            198.363623,
+            222.946346
+          ]
+        },
+        {
+          "text": "CS",
+          "bbox_pt": [
+            273.550568,
+            226.050508,
+            278.561873,
+            229.75889
+          ]
+        },
+        {
+          "text": "S2",
+          "bbox_pt": [
+            193.552256,
+            227.025691,
+            197.880092,
+            230.734073
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            279.929344,
+            235.781733,
+            284.2524,
+            239.490115
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            289.381405,
+            235.781733,
+            293.711291,
+            239.490115
+          ]
+        },
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            278.877597,
+            253.012937,
+            292.985629,
+            256.721319
+          ]
+        },
+        {
+          "text": "2/4 Y3",
+          "bbox_pt": [
+            283.309958,
+            257.957526,
+            298.403174,
+            262.853982
+          ]
+        },
+        {
+          "text": "Y3",
+          "bbox_pt": [
+            305.014186,
+            259.1456,
+            310.020194,
+            262.853982
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            293.397165,
+            265.958831,
+            298.403174,
+            269.667213
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            305.014186,
+            265.958831,
+            310.020194,
+            269.667213
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            293.397165,
+            273.745185,
+            298.403174,
+            277.453567
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            305.014186,
+            273.745185,
+            310.020194,
+            277.453567
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            293.397165,
+            281.532225,
+            298.403174,
+            285.240607
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            305.014186,
+            281.532225,
+            310.020194,
+            285.240607
+          ]
+        },
+        {
+          "text": "CS",
+          "bbox_pt": [
+            273.550568,
+            282.505347,
+            278.561873,
+            286.213729
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            279.929344,
+            292.239319,
+            284.2524,
+            295.947701
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            289.381405,
+            292.239319,
+            293.711291,
+            295.947701
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            193.326199,
+            299.05255,
+            197.654035,
+            302.760932
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            193.552256,
+            304.892658,
+            197.880092,
+            308.60104
+          ]
+        },
+        {
+          "text": "Mogući su i drugačiji načini",
+          "bbox_pt": [
+            339.84,
+            104.921,
+            480.95,
+            114.893
+          ]
+        },
+        {
+          "text": "povezivanja",
+          "bbox_pt": [
+            339.84,
+            119.153,
+            383.274,
+            127.253
+          ]
+        },
+        {
+          "text": "internih",
+          "bbox_pt": [
+            397.56,
+            119.153,
+            425.667,
+            127.253
+          ]
+        },
+        {
+          "text": "selekcionih",
+          "bbox_pt": [
+            440.06,
+            119.153,
+            480.911,
+            127.253
+          ]
+        },
+        {
+          "text": "signala. Prikazani način dozvoljava da",
+          "bbox_pt": [
+            339.84,
+            129.761,
+            480.896,
+            139.733
+          ]
+        },
+        {
+          "text": "se na lak način identifikuju indeksi",
+          "bbox_pt": [
+            339.84,
+            142.121,
+            480.854,
+            152.093
+          ]
+        },
+        {
+          "text": "novih izlaza. Po pravilu u izlaznom",
+          "bbox_pt": [
+            339.84,
+            156.473,
+            481.01,
+            164.573
+          ]
+        },
+        {
+          "text": "nivou se koriste selekcioni signali",
+          "bbox_pt": [
+            339.84,
+            168.833,
+            480.932,
+            176.933
+          ]
+        },
+        {
+          "text": "„najniže težine, a onda u prethodnim",
+          "bbox_pt": [
+            339.84,
+            179.441,
+            480.977,
+            189.413
+          ]
+        },
+        {
+          "text": "nivoima sve veće težine. Uočiti da na",
+          "bbox_pt": [
+            339.84,
+            191.801,
+            481.016,
+            201.773
+          ]
+        },
+        {
+          "text": "ovaj način možemo realizovati i",
+          "bbox_pt": [
+            339.84,
+            204.281,
+            480.962,
+            214.253
+          ]
+        },
+        {
+          "text": "komponentu sa većim brojem izlaza",
+          "bbox_pt": [
+            339.84,
+            216.619616,
+            480.894944,
+            226.618208
+          ]
+        },
+        {
+          "text": "jedino će se povećavati broj nivoa. Na",
+          "bbox_pt": [
+            339.84,
+            229.151,
+            481.016,
+            239.123
+          ]
+        },
+        {
+          "text": "primer komponenta 6/2 6 realizovana sa",
+          "bbox_pt": [
+            339.84,
+            242.672,
+            480.896,
+            251.483
+          ]
+        },
+        {
+          "text": "dekoderima 2/4 bi imala tri nivoa.",
+          "bbox_pt": [
+            339.84,
+            255.863,
+            480.95,
+            263.963
+          ]
+        },
+        {
+          "text": "Naziv piramidalna struktura je zbog",
+          "bbox_pt": [
+            339.84,
+            268.223,
+            481.028,
+            276.323
+          ]
+        },
+        {
+          "text": "oblika koju ova struktura ima kao i",
+          "bbox_pt": [
+            339.84,
+            280.703,
+            480.962,
+            288.803
+          ]
+        },
+        {
+          "text": "načina dekodovanja.",
+          "bbox_pt": [
+            339.84,
+            291.191,
+            413.99,
+            301.163
+          ]
+        }
+      ],
+      "id": "03-s009",
+      "frame_label": "03-s009",
+      "output_page": 9,
+      "tex": "slajdovi/s009_piramidalna_struktura_dekodera.tex",
+      "source_text": "Dekoder\n4/16\nDekoder\n2/4 Y3\nY15\nY2\nY14\nY1\nY13\nY0\nY12\nCS\nS1\nDekoder\n2/4 Y3\nY11\nY2\nY10\nY1\nY9\nY0\nY8\nPiramidalna struktura.\nCS\nDekoder\n2/4 Y3\nU ovom slučaju nam je dovoljan\njedan selekcioni signal na\nkomponentama\nS0\nS1\nS0\nY2\nY1\nY0\nCS\nCS\nS1\nDekoder\n2/4 Y3\nY7\nY2\nY6\nY1\nY5\nY0\nY4\nS0\nS3\nCS\nS2\nS1\nS0\nDekoder\n2/4 Y3\nY3\nY2\nY2\nY1\nY1\nY0\nY0\nCS\nS1\nS0\nS1\nS0\nMogući su i drugačiji načini\npovezivanja\ninternih\nselekcionih\nsignala. Prikazani način dozvoljava da\nse na lak način identifikuju indeksi\nnovih izlaza. Po pravilu u izlaznom\nnivou se koriste selekcioni signali\n„najniže težine, a onda u prethodnim\nnivoima sve veće težine. Uočiti da na\novaj način možemo realizovati i\nkomponentu sa većim brojem izlaza\njedino će se povećavati broj nivoa. Na\nprimer komponenta 6/2 6 realizovana sa\ndekoderima 2/4 bi imala tri nivoa.\nNaziv piramidalna struktura je zbog\noblika koju ova struktura ima kao i\nnačina dekodovanja.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "tekstualni_sloj": "Dekoder\n4/16\nDekoder\n2/4 Y3\nY15\nY2\nY14\nY1\nY13\nY0\nY12\nCS\nS1\nDekoder\n2/4 Y3\nY11\nY2\nY10\nY1\nY9\nY0\nY8\nPiramidalna struktura.\nCS\nDekoder\n2/4 Y3\nU ovom slučaju nam je dovoljan\njedan selekcioni signal na\nkomponentama\nS0\nS1\nS0\nY2\nY1\nY0\nCS\nCS\nS1\nDekoder\n2/4 Y3\nY7\nY2\nY6\nY1\nY5\nY0\nY4\nS0\nS3\nCS\nS2\nS1\nS0\nDekoder\n2/4 Y3\nY3\nY2\nY2\nY1\nY1\nY0\nY0\nCS\nS1\nS0\nS1\nS0\nMogući su i drugačiji načini\npovezivanja\ninternih\nselekcionih\nsignala. Prikazani način dozvoljava da\nse na lak način identifikuju indeksi\nnovih izlaza. Po pravilu u izlaznom\nnivou se koriste selekcioni signali\n„najniže težine, a onda u prethodnim\nnivoima sve veće težine. Uočiti da na\novaj način možemo realizovati i\nkomponentu sa većim brojem izlaza\njedino će se povećavati broj nivoa. Na\nprimer komponenta 6/2 6 realizovana sa\ndekoderima 2/4 bi imala tri nivoa.\nNaziv piramidalna struktura je zbog\noblika koju ova struktura ima kao i\nnačina dekodovanja.",
+        "napomena": "Popis dopunjen neposrednim pregledom originalnog slajda.",
+        "vizuelni_popis": "Spoljni Dekoder 4/16, pet Dekoder 2/4 blokova; svi unutrašnji Y0–Y3, spoljašnji Y0–Y15, CS, S3/S2 u prvom nivou, zajednički S1/S0 izlaznog nivoa; dva kraća i ceo dugi tekst sa 6/2^6.",
+        "kategorije": [
+          "tekst",
+          "formule",
+          "crtezi"
+        ]
+      }
+    },
+    {
+      "pdf_page": 5,
+      "position": "donji",
+      "source_number": 10,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "Kod matrične strukture, treba nam dva selekciona signala na komponentama u slučaju dvodimenzionog dekodovanja,",
+          "bbox_pt": [
+            46.536,
+            390.071,
+            477.622,
+            400.043
+          ]
+        },
+        {
+          "text": "odnosno tru u slučaju trodimenzionog dekodovanja itd... Za veći broj izlaza matrična struktura će imati prednost zbog",
+          "bbox_pt": [
+            46.536,
+            402.431,
+            477.718,
+            412.403
+          ]
+        },
+        {
+          "text": "manjeg broja upotrebljenih komponenti, ali kao što smo rekli potrebne su specifičnije komponente. U tom smislu da",
+          "bbox_pt": [
+            46.536,
+            414.911,
+            477.586,
+            424.883
+          ]
+        },
+        {
+          "text": "vidimo kako bi izgledala realizacija dekodera 6/2 6 realizovana sa dekoderima 2/4.",
+          "bbox_pt": [
+            46.536,
+            428.432,
+            341.54,
+            437.243
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            88.691294,
+            519.426352,
+            94.41414,
+            523.658517
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            84.102373,
+            531.643396,
+            89.047912,
+            535.875561
+          ]
+        },
+        {
+          "text": "Y(16i+4j+3)",
+          "bbox_pt": [
+            233.981368,
+            468.326065,
+            257.728229,
+            472.55823
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            221.42427,
+            477.213753,
+            227.144775,
+            481.445918
+          ]
+        },
+        {
+          "text": "Y(16i+4j+2)",
+          "bbox_pt": [
+            234.535473,
+            477.213753,
+            258.282333,
+            481.445918
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            221.42427,
+            486.101441,
+            227.144775,
+            490.333606
+          ]
+        },
+        {
+          "text": "Y(16i+4j+1)",
+          "bbox_pt": [
+            235.089577,
+            486.101441,
+            258.836437,
+            490.333606
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            221.42427,
+            494.989129,
+            227.144775,
+            499.221294
+          ]
+        },
+        {
+          "text": "Y(16i+4j+0)",
+          "bbox_pt": [
+            235.089577,
+            496.094212,
+            258.836437,
+            500.326377
+          ]
+        },
+        {
+          "text": "CS1",
+          "bbox_pt": [
+            198.128473,
+            490.545285,
+            206.198068,
+            494.77745
+          ]
+        },
+        {
+          "text": "CS2",
+          "bbox_pt": [
+            198.128473,
+            497.207132,
+            206.198068,
+            501.439297
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            206.034216,
+            507.207741,
+            210.982096,
+            511.439905
+          ]
+        },
+        {
+          "text": "Y0V",
+          "bbox_pt": [
+            99.167769,
+            515.538968,
+            108.271416,
+            519.771133
+          ]
+        },
+        {
+          "text": "CS1",
+          "bbox_pt": [
+            41.614272,
+            565.523984,
+            49.683087,
+            569.756148
+          ]
+        },
+        {
+          "text": "CS2",
+          "bbox_pt": [
+            41.614272,
+            569.967044,
+            49.683087,
+            574.199209
+          ]
+        },
+        {
+          "text": "S3",
+          "bbox_pt": [
+            43.729234,
+            577.187703,
+            48.674773,
+            581.419867
+          ]
+        },
+        {
+          "text": "S2",
+          "bbox_pt": [
+            43.729234,
+            581.630763,
+            48.674773,
+            585.862928
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            43.729234,
+            588.295745,
+            48.674773,
+            592.52791
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            44.282558,
+            592.738962,
+            49.227317,
+            596.971127
+          ]
+        },
+        {
+          "text": "j",
+          "bbox_pt": [
+            146.206549,
+            546.084714,
+            147.508284,
+            550.316878
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            166.351027,
+            539.020007,
+            170.565275,
+            543.986572
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            73.299678,
+            531.643396,
+            78.245218,
+            535.875561
+          ]
+        },
+        {
+          "text": "S5",
+          "bbox_pt": [
+            42.623366,
+            539.419731,
+            47.568125,
+            543.651896
+          ]
+        },
+        {
+          "text": "S4",
+          "bbox_pt": [
+            42.918368,
+            544.973361,
+            47.863127,
+            549.205525
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            88.691294,
+            510.538664,
+            94.41414,
+            514.770829
+          ]
+        },
+        {
+          "text": "Y1V",
+          "bbox_pt": [
+            99.167769,
+            507.207741,
+            108.271416,
+            511.439905
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            166.351027,
+            549.868629,
+            170.565275,
+            554.835195
+          ]
+        },
+        {
+          "text": "CS2",
+          "bbox_pt": [
+            65.396277,
+            521.645923,
+            73.464311,
+            525.878088
+          ]
+        },
+        {
+          "text": "Y2V",
+          "bbox_pt": [
+            99.167769,
+            498.320053,
+            108.271416,
+            502.552217
+          ]
+        },
+        {
+          "text": "Y1 Y1K",
+          "bbox_pt": [
+            143.125468,
+            523.047265,
+            149.548329,
+            539.378141
+          ]
+        },
+        {
+          "text": "Y0 Y0K",
+          "bbox_pt": [
+            151.97553,
+            523.047265,
+            158.398391,
+            539.378141
+          ]
+        },
+        {
+          "text": "CS1",
+          "bbox_pt": [
+            65.396277,
+            514.426048,
+            73.464311,
+            518.658213
+          ]
+        },
+        {
+          "text": "YiV",
+          "bbox_pt": [
+            182.090662,
+            490.545285,
+            190.159361,
+            494.77745
+          ]
+        },
+        {
+          "text": "YjK",
+          "bbox_pt": [
+            182.090662,
+            496.094212,
+            190.159361,
+            500.326377
+          ]
+        },
+        {
+          "text": "CS1",
+          "bbox_pt": [
+            149.759112,
+            554.669862,
+            153.97336,
+            562.772198
+          ]
+        },
+        {
+          "text": "CS2",
+          "bbox_pt": [
+            156.400561,
+            555.224754,
+            160.614808,
+            563.327874
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            88.691294,
+            501.650976,
+            94.41414,
+            505.883141
+          ]
+        },
+        {
+          "text": "i",
+          "bbox_pt": [
+            79.841232,
+            507.207741,
+            81.142966,
+            511.439905
+          ]
+        },
+        {
+          "text": "Y3V",
+          "bbox_pt": [
+            99.167769,
+            489.432365,
+            108.271416,
+            493.664529
+          ]
+        },
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            121.780742,
+            539.850415,
+            125.99499,
+            556.040597
+          ]
+        },
+        {
+          "text": "2/4 Y3 Y3K",
+          "bbox_pt": [
+            125.425344,
+            523.047265,
+            132.956414,
+            550.950162
+          ]
+        },
+        {
+          "text": "Y2 Y2K",
+          "bbox_pt": [
+            134.275406,
+            523.047265,
+            140.706072,
+            539.378141
+          ]
+        },
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            72.098598,
+            486.87735,
+            88.220239,
+            491.109515
+          ]
+        },
+        {
+          "text": "2/4 Y3",
+          "bbox_pt": [
+            77.168263,
+            492.520327,
+            94.41414,
+            498.108373
+          ]
+        },
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            204.832355,
+            462.440127,
+            220.953996,
+            466.672292
+          ]
+        },
+        {
+          "text": "2/4 Y3",
+          "bbox_pt": [
+            209.905142,
+            468.083104,
+            227.144775,
+            473.67115
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            216.835349,
+            507.207741,
+            221.78323,
+            511.439905
+          ]
+        },
+        {
+          "text": "U izlaznom nivou se nalazi 16 dekodera 2/4 (na slici je",
+          "bbox_pt": [
+            270.29,
+            453.953,
+            493.936,
+            462.053
+          ]
+        },
+        {
+          "text": "prikazan smo jedan) dok se jedan dekoder koristi za selekciju",
+          "bbox_pt": [
+            270.29,
+            466.313,
+            493.831,
+            474.413
+          ]
+        },
+        {
+          "text": "vrste (i) a drugi za selekciju kolone (j). Potreban broj",
+          "bbox_pt": [
+            270.29,
+            478.793,
+            493.99,
+            486.893
+          ]
+        },
+        {
+          "text": "komponenti nam je 16+1+1=18. Način povezivanja internih",
+          "bbox_pt": [
+            270.29,
+            489.281,
+            493.948,
+            499.253
+          ]
+        },
+        {
+          "text": "selekcionih signala je identičan kao I kod piramidalne",
+          "bbox_pt": [
+            270.29,
+            501.761,
+            493.915,
+            511.733
+          ]
+        },
+        {
+          "text": "strukture. Uočiti da bi nam kod piramidalne sturkture trebalo",
+          "bbox_pt": [
+            270.29,
+            514.121,
+            493.954,
+            524.093
+          ]
+        },
+        {
+          "text": "16+4+1=21 komponenta. Ova razlika postaje još značajnija",
+          "bbox_pt": [
+            270.29,
+            526.601,
+            494.035,
+            536.573
+          ]
+        },
+        {
+          "text": "kao su u pitanju komponente sa još većim brojem izlaza.",
+          "bbox_pt": [
+            270.29,
+            538.991,
+            493.75,
+            548.963
+          ]
+        },
+        {
+          "text": "Takođe uočiti da će matrična struktura imati manje kašnjenje,",
+          "bbox_pt": [
+            270.29,
+            551.471,
+            493.867,
+            561.443
+          ]
+        },
+        {
+          "text": "pošto u ovom slučaju uvek su u pitanju dva nivoa, dok kod",
+          "bbox_pt": [
+            270.29,
+            563.831,
+            493.951,
+            573.803
+          ]
+        },
+        {
+          "text": "piramidalne strukture će broj nivoa zavisiti od veličine",
+          "bbox_pt": [
+            270.29,
+            576.311,
+            493.918,
+            586.283
+          ]
+        },
+        {
+          "text": "komponente. Ali za matričnu strukturu su potrebne",
+          "bbox_pt": [
+            270.29,
+            588.671,
+            493.924,
+            598.643
+          ]
+        },
+        {
+          "text": "komponenet sa više selekcionih signala. Normalno moguće je",
+          "bbox_pt": [
+            270.29,
+            601.151,
+            493.816,
+            611.123
+          ]
+        },
+        {
+          "text": "praviti i kombinacije ove dve strukture.",
+          "bbox_pt": [
+            270.29,
+            615.381,
+            412.36,
+            623.481
+          ]
+        }
+      ],
+      "id": "03-s010",
+      "frame_label": "03-s010",
+      "output_page": 10,
+      "tex": "slajdovi/s010_matricna_struktura_dekodera.tex",
+      "source_text": "Kod matrične strukture, treba nam dva selekciona signala na komponentama u slučaju dvodimenzionog dekodovanja,\nodnosno tru u slučaju trodimenzionog dekodovanja itd... Za veći broj izlaza matrična struktura će imati prednost zbog\nmanjeg broja upotrebljenih komponenti, ali kao što smo rekli potrebne su specifičnije komponente. U tom smislu da\nvidimo kako bi izgledala realizacija dekodera 6/2 6 realizovana sa dekoderima 2/4.\nY0\nS0\nY(16i+4j+3)\nY2\nY(16i+4j+2)\nY1\nY(16i+4j+1)\nY0\nY(16i+4j+0)\nCS1\nCS2\nS1\nY0V\nCS1\nCS2\nS3\nS2\nS1\nS0\nj\nS0\nS1\nS5\nS4\nY1\nY1V\nS1\nCS2\nY2V\nY1 Y1K\nY0 Y0K\nCS1\nYiV\nYjK\nCS1\nCS2\nY2\ni\nY3V\nDekoder\n2/4 Y3 Y3K\nY2 Y2K\nDekoder\n2/4 Y3\nDekoder\n2/4 Y3\nS0\nU izlaznom nivou se nalazi 16 dekodera 2/4 (na slici je\nprikazan smo jedan) dok se jedan dekoder koristi za selekciju\nvrste (i) a drugi za selekciju kolone (j). Potreban broj\nkomponenti nam je 16+1+1=18. Način povezivanja internih\nselekcionih signala je identičan kao I kod piramidalne\nstrukture. Uočiti da bi nam kod piramidalne sturkture trebalo\n16+4+1=21 komponenta. Ova razlika postaje još značajnija\nkao su u pitanju komponente sa još većim brojem izlaza.\nTakođe uočiti da će matrična struktura imati manje kašnjenje,\npošto u ovom slučaju uvek su u pitanju dva nivoa, dok kod\npiramidalne strukture će broj nivoa zavisiti od veličine\nkomponente. Ali za matričnu strukturu su potrebne\nkomponenet sa više selekcionih signala. Normalno moguće je\npraviti i kombinacije ove dve strukture.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "tekstualni_sloj": "Kod matrične strukture, treba nam dva selekciona signala na komponentama u slučaju dvodimenzionog dekodovanja,\nodnosno tru u slučaju trodimenzionog dekodovanja itd... Za veći broj izlaza matrična struktura će imati prednost zbog\nmanjeg broja upotrebljenih komponenti, ali kao što smo rekli potrebne su specifičnije komponente. U tom smislu da\nvidimo kako bi izgledala realizacija dekodera 6/2 6 realizovana sa dekoderima 2/4.\nY0\nS0\nY(16i+4j+3)\nY2\nY(16i+4j+2)\nY1\nY(16i+4j+1)\nY0\nY(16i+4j+0)\nCS1\nCS2\nS1\nY0V\nCS1\nCS2\nS3\nS2\nS1\nS0\nj\nS0\nS1\nS5\nS4\nY1\nY1V\nS1\nCS2\nY2V\nY1 Y1K\nY0 Y0K\nCS1\nYiV\nYjK\nCS1\nCS2\nY2\ni\nY3V\nDekoder\n2/4 Y3 Y3K\nY2 Y2K\nDekoder\n2/4 Y3\nDekoder\n2/4 Y3\nS0\nU izlaznom nivou se nalazi 16 dekodera 2/4 (na slici je\nprikazan smo jedan) dok se jedan dekoder koristi za selekciju\nvrste (i) a drugi za selekciju kolone (j). Potreban broj\nkomponenti nam je 16+1+1=18. Način povezivanja internih\nselekcionih signala je identičan kao I kod piramidalne\nstrukture. Uočiti da bi nam kod piramidalne sturkture trebalo\n16+4+1=21 komponenta. Ova razlika postaje još značajnija\nkao su u pitanju komponente sa još većim brojem izlaza.\nTakođe uočiti da će matrična struktura imati manje kašnjenje,\npošto u ovom slučaju uvek su u pitanju dva nivoa, dok kod\npiramidalne strukture će broj nivoa zavisiti od veličine\nkomponente. Ali za matričnu strukturu su potrebne\nkomponenet sa više selekcionih signala. Normalno moguće je\npraviti i kombinacije ove dve strukture.",
+        "napomena": "Popis dopunjen neposrednim pregledom originalnog slajda.",
+        "vizuelni_popis": "Tri dekodera i/j/izabrani izlazni blok; dve zajedničke CS veze, svih šest S signala; 4×4 ukrštena mreža sa Y0–Y3V/K, označen presek Y2V/Y2K i strelica; YiV/YjK i sva četiri Y(16i+4j+n); kompletan tekst, 18 naspram 21 komponente.",
+        "kategorije": [
+          "tekst",
+          "formule",
+          "crtezi"
+        ]
+      }
+    },
+    {
+      "pdf_page": 6,
+      "position": "gornji",
+      "source_number": 11,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "Takođe ulazi i izlazi mogu biti i sa aktivnim nivoima logičke nule. Na primer da su izlazi sa aktivnim logičkim nulama",
+          "bbox_pt": [
+            63.144,
+            77.711,
+            490.844,
+            87.683
+          ]
+        },
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            68.352188,
+            118.098232,
+            85.802101,
+            122.668916
+          ]
+        },
+        {
+          "text": "2/4 Y3",
+          "bbox_pt": [
+            73.838701,
+            124.192575,
+            92.505477,
+            130.226747
+          ]
+        },
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            128.214737,
+            118.098232,
+            145.664651,
+            122.668916
+          ]
+        },
+        {
+          "text": "2/4 Y3",
+          "bbox_pt": [
+            133.701251,
+            124.192575,
+            152.369716,
+            130.226747
+          ]
+        },
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            221.603728,
+            118.098232,
+            239.053642,
+            122.668916
+          ]
+        },
+        {
+          "text": "2/4 Y3",
+          "bbox_pt": [
+            227.086018,
+            124.192575,
+            245.754483,
+            130.226747
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            86.311121,
+            134.054406,
+            92.505477,
+            138.62509
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            146.177895,
+            134.054406,
+            152.369716,
+            138.62509
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            239.562662,
+            134.054406,
+            245.754483,
+            138.62509
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            86.311121,
+            143.651303,
+            92.505477,
+            148.221987
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            146.177895,
+            143.651303,
+            152.369716,
+            148.221987
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            86.311121,
+            153.249047,
+            92.505477,
+            157.819731
+          ]
+        },
+        {
+          "text": "CS",
+          "bbox_pt": [
+            61.765837,
+            154.448447,
+            67.964209,
+            159.019131
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            69.65138,
+            166.444992,
+            75.004386,
+            171.015676
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            81.344961,
+            166.444992,
+            86.697122,
+            171.015676
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            239.562662,
+            143.651303,
+            245.754483,
+            148.221987
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            146.177895,
+            153.249047,
+            152.369716,
+            157.819731
+          ]
+        },
+        {
+          "text": "CS",
+          "bbox_pt": [
+            121.628387,
+            154.448447,
+            127.826759,
+            159.019131
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            129.511396,
+            166.444992,
+            134.866936,
+            171.015676
+          ]
+        },
+        {
+          "text": "Obratite pažnju da su i prvi i drugi način označavanja isti, i",
+          "bbox_pt": [
+            280.44,
+            110.281,
+            498.272,
+            120.253
+          ]
+        },
+        {
+          "text": "mogu slobodno da se koriste, dok je treći pogrešan i takva",
+          "bbox_pt": [
+            280.44,
+            122.641,
+            498.08,
+            132.613
+          ]
+        },
+        {
+          "text": "komponenta nije isto što i prve dve. Suštinski treća",
+          "bbox_pt": [
+            280.44,
+            135.121,
+            498.083,
+            145.093
+          ]
+        },
+        {
+          "text": "komponenta bi opet bila dekoder sa aktivnim logičkim",
+          "bbox_pt": [
+            280.44,
+            147.459616,
+            498.207632,
+            157.458208
+          ]
+        },
+        {
+          "text": "jedinicama na izlazu, postoji dvostruka negacija. Način",
+          "bbox_pt": [
+            280.44,
+            159.981,
+            497.972,
+            169.953
+          ]
+        },
+        {
+          "text": "prikazan na drugom simbolu se i najčešće koristi.",
+          "bbox_pt": [
+            280.44,
+            172.341,
+            458.54,
+            182.313
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            239.562662,
+            153.249047,
+            245.754483,
+            157.819731
+          ]
+        },
+        {
+          "text": "CS",
+          "bbox_pt": [
+            215.014843,
+            154.448447,
+            221.213215,
+            159.019131
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            141.21089,
+            166.444992,
+            146.557982,
+            171.015676
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            222.896163,
+            166.444992,
+            228.251703,
+            171.015676
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            234.595656,
+            166.444992,
+            239.942749,
+            171.015676
+          ]
+        },
+        {
+          "text": "Primer sa više selekcionih signala.",
+          "bbox_pt": [
+            82.536,
+            198.281,
+            206.75,
+            208.253
+          ]
+        },
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            185.705347,
+            223.723791,
+            203.929334,
+            228.504726
+          ]
+        },
+        {
+          "text": "2/4 Y3",
+          "bbox_pt": [
+            191.43524,
+            230.098473,
+            210.93007,
+            236.410218
+          ]
+        },
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            248.223384,
+            223.723791,
+            266.447371,
+            228.504726
+          ]
+        },
+        {
+          "text": "2/4 Y3",
+          "bbox_pt": [
+            253.953277,
+            230.098473,
+            273.449871,
+            236.410218
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            204.460934,
+            240.413949,
+            210.93007,
+            245.194885
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            266.983382,
+            240.413949,
+            273.449871,
+            245.194885
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            204.460934,
+            250.452303,
+            210.93007,
+            255.233239
+          ]
+        },
+        {
+          "text": "CS2",
+          "bbox_pt": [
+            178.128125,
+            255.472366,
+            187.249156,
+            260.253301
+          ]
+        },
+        {
+          "text": "CS1",
+          "bbox_pt": [
+            178.128125,
+            263.001574,
+            187.249156,
+            267.78251
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            187.062171,
+            274.294502,
+            192.652635,
+            279.075437
+          ]
+        },
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            340.902982,
+            223.723791,
+            359.126969,
+            228.504726
+          ]
+        },
+        {
+          "text": "2/4 Y3",
+          "bbox_pt": [
+            346.637286,
+            230.098473,
+            366.13388,
+            236.410218
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            359.658569,
+            240.413949,
+            366.13388,
+            245.194885
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            266.983382,
+            250.452303,
+            273.449871,
+            255.233239
+          ]
+        },
+        {
+          "text": "CS2",
+          "bbox_pt": [
+            241.271642,
+            255.472366,
+            250.391791,
+            260.253301
+          ]
+        },
+        {
+          "text": "CS1",
+          "bbox_pt": [
+            241.271642,
+            263.001574,
+            250.391791,
+            267.78251
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            204.460934,
+            260.491543,
+            210.93007,
+            265.272479
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            199.274476,
+            274.294502,
+            204.864058,
+            279.075437
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            249.577562,
+            274.294502,
+            255.170672,
+            279.075437
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            266.983382,
+            260.491543,
+            273.449871,
+            265.272479
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            359.658569,
+            250.452303,
+            366.13388,
+            255.233239
+          ]
+        },
+        {
+          "text": "CS2",
+          "bbox_pt": [
+            333.95124,
+            255.472366,
+            343.073153,
+            260.253301
+          ]
+        },
+        {
+          "text": "CS1",
+          "bbox_pt": [
+            333.95124,
+            263.001574,
+            343.073153,
+            267.78251
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            261.796042,
+            274.294502,
+            267.38033,
+            279.075437
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            342.261571,
+            274.294502,
+            347.854681,
+            279.075437
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            359.658569,
+            260.491543,
+            366.13388,
+            265.272479
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            354.471229,
+            274.294502,
+            360.064339,
+            279.075437
+          ]
+        },
+        {
+          "text": "Unutrašnji selekcioni signal se formira kao 𝐶𝑆 = 𝐶𝑆1 ∙ 𝐶𝑆2.",
+          "bbox_pt": [
+            164.06,
+            291.361,
+            382.24,
+            301.378
+          ]
+        }
+      ],
+      "id": "03-s011",
+      "frame_label": "03-s011",
+      "output_page": 11,
+      "tex": "slajdovi/s011_aktivni_nivoi_i_negacije.tex",
+      "source_text": "Takođe ulazi i izlazi mogu biti i sa aktivnim nivoima logičke nule. Na primer da su izlazi sa aktivnim logičkim nulama\nDekoder\n2/4 Y3\nDekoder\n2/4 Y3\nDekoder\n2/4 Y3\nY2\nY2\nY2\nY1\nY1\nY0\nCS\nS1\nS0\nY1\nY0\nCS\nS1\nObratite pažnju da su i prvi i drugi način označavanja isti, i\nmogu slobodno da se koriste, dok je treći pogrešan i takva\nkomponenta nije isto što i prve dve. Suštinski treća\nkomponenta bi opet bila dekoder sa aktivnim logičkim\njedinicama na izlazu, postoji dvostruka negacija. Način\nprikazan na drugom simbolu se i najčešće koristi.\nY0\nCS\nS0\nS1\nS0\nPrimer sa više selekcionih signala.\nDekoder\n2/4 Y3\nDekoder\n2/4 Y3\nY2\nY2\nY1\nCS2\nCS1\nS1\nDekoder\n2/4 Y3\nY2\nY1\nCS2\nCS1\nY0\nS0\nS1\nY0\nY1\nCS2\nCS1\nS0\nS1\nY0\nS0\nUnutrašnji selekcioni signal se formira kao 𝐶𝑆 = 𝐶𝑆1 ∙ 𝐶𝑆2.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "tekstualni_sloj": "Takođe ulazi i izlazi mogu biti i sa aktivnim nivoima logičke nule. Na primer da su izlazi sa aktivnim logičkim nulama\nDekoder\n2/4 Y3\nDekoder\n2/4 Y3\nDekoder\n2/4 Y3\nY2\nY2\nY2\nY1\nY1\nY0\nCS\nS1\nS0\nY1\nY0\nCS\nS1\nObratite pažnju da su i prvi i drugi način označavanja isti, i\nmogu slobodno da se koriste, dok je treći pogrešan i takva\nkomponenta nije isto što i prve dve. Suštinski treća\nkomponenta bi opet bila dekoder sa aktivnim logičkim\njedinicama na izlazu, postoji dvostruka negacija. Način\nprikazan na drugom simbolu se i najčešće koristi.\nY0\nCS\nS0\nS1\nS0\nPrimer sa više selekcionih signala.\nDekoder\n2/4 Y3\nDekoder\n2/4 Y3\nY2\nY2\nY1\nCS2\nCS1\nS1\nDekoder\n2/4 Y3\nY2\nY1\nCS2\nCS1\nY0\nS0\nS1\nY0\nY1\nCS2\nCS1\nS0\nS1\nY0\nS0\nUnutrašnji selekcioni signal se formira kao 𝐶𝑆 = 𝐶𝑆1 ∙ 𝐶𝑆2.",
+        "napomena": "Popis dopunjen neposrednim pregledom originalnog slajda.",
+        "vizuelni_popis": "Tri izlazna i tri ulazna primera; barska oznaka, kružić i oba zajedno; dve jednakosti i dve nejednakosti, svi Y/S/CS natpisi, puni pasusi i CS=CS1·barCS2.",
+        "kategorije": [
+          "tekst",
+          "formule",
+          "crtezi"
+        ]
+      }
+    },
+    {
+      "pdf_page": 6,
+      "position": "donji",
+      "source_number": 12,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "Demultipleksor je komponenta čija je osobina da sa ulaza (jednog) prosleđuje logički nivo na",
+          "bbox_pt": [
+            99.48,
+            412.461,
+            436.066,
+            422.433
+          ]
+        },
+        {
+          "text": "selektovani, adresirani, preko selekcionih signala, izlaz. Njegova unutrašnja struktura je",
+          "bbox_pt": [
+            99.48,
+            424.821,
+            415.786,
+            434.793
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            135.361876,
+            463.403054,
+            141.75148,
+            468.866109
+          ]
+        },
+        {
+          "text": "DMUX",
+          "bbox_pt": [
+            340.768268,
+            464.406653,
+            359.252989,
+            469.869709
+          ]
+        },
+        {
+          "text": "1/4 Y3",
+          "bbox_pt": [
+            346.142384,
+            471.690844,
+            368.425258,
+            478.903117
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            136.45747,
+            480.608919,
+            142.846469,
+            486.071975
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            361.034636,
+            483.477069,
+            368.425258,
+            488.940125
+          ]
+        },
+        {
+          "text": "I",
+          "bbox_pt": [
+            137.930159,
+            492.080508,
+            139.944664,
+            497.543563
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            361.034636,
+            494.948658,
+            368.425258,
+            500.411713
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            361.034636,
+            506.419235,
+            368.425258,
+            511.88229
+          ]
+        },
+        {
+          "text": "I",
+          "bbox_pt": [
+            334.426206,
+            507.853815,
+            336.440711,
+            513.316871
+          ]
+        },
+        {
+          "text": "DMUX",
+          "bbox_pt": [
+            155.846233,
+            509.861015,
+            174.330954,
+            515.32407
+          ]
+        },
+        {
+          "text": "1/4",
+          "bbox_pt": [
+            161.224383,
+            517.145205,
+            168.954794,
+            522.608261
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            341.14133,
+            522.192542,
+            347.533758,
+            527.655598
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            202.201768,
+            529.3614,
+            209.595415,
+            534.824456
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            223.842417,
+            529.3614,
+            231.236064,
+            534.824456
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            243.852683,
+            529.3614,
+            251.243305,
+            534.824456
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            355.105967,
+            522.192542,
+            361.488312,
+            527.655598
+          ]
+        },
+        {
+          "text": "Y3",
+          "bbox_pt": [
+            263.856898,
+            529.3614,
+            271.24752,
+            534.824456
+          ]
+        },
+        {
+          "text": "Kao što se vidi, njegova unutrašnja struktura je identična dekoderu sa selekcionim signalom komponente.",
+          "bbox_pt": [
+            92.304,
+            565.001,
+            473.49,
+            574.973
+          ]
+        },
+        {
+          "text": "Zato se u katalozima dekoderi i demultipleksori nalaze pod zajedničkim imenom dekoder/demultiplekser.",
+          "bbox_pt": [
+            92.304,
+            577.361,
+            473.37,
+            587.333
+          ]
+        },
+        {
+          "text": "Način pravljenja mreža većih kapaciteta je identičan kako i kod dekoderskih mreža.",
+          "bbox_pt": [
+            92.304,
+            589.841,
+            393.57,
+            599.813
+          ]
+        }
+      ],
+      "id": "03-s012",
+      "frame_label": "03-s012",
+      "output_page": 12,
+      "tex": "slajdovi/s012_demultipleksor.tex",
+      "source_text": "Demultipleksor je komponenta čija je osobina da sa ulaza (jednog) prosleđuje logički nivo na\nselektovani, adresirani, preko selekcionih signala, izlaz. Njegova unutrašnja struktura je\nS1\nDMUX\n1/4 Y3\nS0\nY2\nI\nY1\nY0\nI\nDMUX\n1/4\nS1\nY0\nY1\nY2\nS0\nY3\nKao što se vidi, njegova unutrašnja struktura je identična dekoderu sa selekcionim signalom komponente.\nZato se u katalozima dekoderi i demultipleksori nalaze pod zajedničkim imenom dekoder/demultiplekser.\nNačin pravljenja mreža većih kapaciteta je identičan kako i kod dekoderskih mreža.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "tekstualni_sloj": "Demultipleksor je komponenta čija je osobina da sa ulaza (jednog) prosleđuje logički nivo na\nselektovani, adresirani, preko selekcionih signala, izlaz. Njegova unutrašnja struktura je\nS1\nDMUX\n1/4 Y3\nS0\nY2\nI\nY1\nY0\nI\nDMUX\n1/4\nS1\nY0\nY1\nY2\nS0\nY3\nKao što se vidi, njegova unutrašnja struktura je identična dekoderu sa selekcionim signalom komponente.\nZato se u katalozima dekoderi i demultipleksori nalaze pod zajedničkim imenom dekoder/demultiplekser.\nNačin pravljenja mreža većih kapaciteta je identičan kako i kod dekoderskih mreža.",
+        "napomena": "Popis dopunjen neposrednim pregledom originalnog slajda.",
+        "vizuelni_popis": "Dva puna tekstualna bloka i oba skupa DMUX 1/4/S1/S0/I/Y0–Y3; levo samo isprekidani obris, desno bez obrisa. Nedostajuća kola i vodovi nisu izmišljeni.",
+        "kategorije": [
+          "tekst",
+          "crtezi"
+        ]
+      }
+    },
+    {
+      "pdf_page": 7,
+      "position": "gornji",
+      "source_number": 13,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "Multiplekseri",
+          "bbox_pt": [
+            33.6,
+            73.433,
+            85.287,
+            81.533
+          ]
+        },
+        {
+          "text": "Multiplekseri su specifične koderske mreže (broj ulaza veći od broja izlaza) koji imaju obrnutu funkciju od",
+          "bbox_pt": [
+            66.624,
+            98.421,
+            468.18,
+            108.393
+          ]
+        },
+        {
+          "text": "demultipleksera, odnosno ova komponenata prenosi stanje logičkog signala sa selektovanog, adresiranog,",
+          "bbox_pt": [
+            66.624,
+            110.801,
+            468.049,
+            120.773
+          ]
+        },
+        {
+          "text": "ulaza na izlaz. Znači ima n selekcionih signala, 2 n ulaza i jedan izlaz.",
+          "bbox_pt": [
+            66.624,
+            123.281,
+            315.4,
+            133.253
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            190.516699,
+            145.877829,
+            195.143561,
+            150.911101
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            210.010247,
+            145.877829,
+            214.63896,
+            150.911101
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            228.377156,
+            145.877829,
+            233.005869,
+            150.911101
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            245.623905,
+            145.877829,
+            250.252618,
+            150.911101
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            123.942951,
+            165.694325,
+            129.809578,
+            170.727597
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            304.853483,
+            176.264366,
+            309.482195,
+            181.297638
+          ]
+        },
+        {
+          "text": "MUX",
+          "bbox_pt": [
+            314.536843,
+            166.617106,
+            327.497314,
+            171.650378
+          ]
+        },
+        {
+          "text": "4/1",
+          "bbox_pt": [
+            317.471475,
+            173.328243,
+            324.571944,
+            178.361515
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            124.948872,
+            181.549386,
+            130.814944,
+            186.582658
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            304.483182,
+            186.830678,
+            309.111895,
+            191.86395
+          ]
+        },
+        {
+          "text": "Z",
+          "bbox_pt": [
+            334.153516,
+            192.114766,
+            337.547266,
+            197.148038
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            304.853483,
+            197.398854,
+            309.482195,
+            202.432126
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            304.853483,
+            207.967963,
+            309.482195,
+            213.001235
+          ]
+        },
+        {
+          "text": "MUX",
+          "bbox_pt": [
+            144.756805,
+            208.496465,
+            157.717276,
+            213.529737
+          ]
+        },
+        {
+          "text": "4/1",
+          "bbox_pt": [
+            147.68866,
+            215.207602,
+            154.786352,
+            220.240874
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            312.879748,
+            219.85786,
+            318.748967,
+            224.891133
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            325.701405,
+            219.85786,
+            331.561367,
+            224.891133
+          ]
+        },
+        {
+          "text": "Z",
+          "bbox_pt": [
+            219.999105,
+            270.058936,
+            223.392856,
+            275.092208
+          ]
+        }
+      ],
+      "id": "03-s013",
+      "frame_label": "03-s013",
+      "output_page": 13,
+      "tex": "slajdovi/s013_multiplekser_4_u_1.tex",
+      "source_text": "Multiplekseri\nMultiplekseri su specifične koderske mreže (broj ulaza veći od broja izlaza) koji imaju obrnutu funkciju od\ndemultipleksera, odnosno ova komponenata prenosi stanje logičkog signala sa selektovanog, adresiranog,\nulaza na izlaz. Znači ima n selekcionih signala, 2 n ulaza i jedan izlaz.\nI0\nI1\nI2\nI3\nS1\nI3\nMUX\n4/1\nS0\nI2\nZ\nI1\nI0\nMUX\n4/1\nS1\nS0\nZ",
+      "inventory_confirmed": true,
+      "inventory": {
+        "tekstualni_sloj": "Multiplekseri\nMultiplekseri su specifične koderske mreže (broj ulaza veći od broja izlaza) koji imaju obrnutu funkciju od\ndemultipleksera, odnosno ova komponenata prenosi stanje logičkog signala sa selektovanog, adresiranog,\nulaza na izlaz. Znači ima n selekcionih signala, 2 n ulaza i jedan izlaz.\nI0\nI1\nI2\nI3\nS1\nI3\nMUX\n4/1\nS0\nI2\nZ\nI1\nI0\nMUX\n4/1\nS1\nS0\nZ",
+        "napomena": "Popis dopunjen neposrednim pregledom originalnog slajda.",
+        "vizuelni_popis": "Naslov, definicija sa n i 2^n; četiri invertora, četiri I3 i ILI4; sve veze S1/S0, I0–I3, Z i obris MUX 4/1; zaseban pravougaoni simbol.",
+        "kategorije": [
+          "tekst",
+          "formule",
+          "crtezi"
+        ]
+      }
+    },
+    {
+      "pdf_page": 7,
+      "position": "donji",
+      "source_number": 14,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "U nekim situacijama multiplekseri su komponente koje omogućuju još jednostavniju realizaciju kombinacionih mreža",
+          "bbox_pt": [
+            53.616,
+            401.851,
+            486.463,
+            411.823
+          ]
+        },
+        {
+          "text": "od dekodera. Na primer ako treba da realizujemo funkciju 𝐹 = 𝐵 ത 𝐴 ҧ + 𝐵 𝐴. Pre nego što prikažemo relizaciju ono što",
+          "bbox_pt": [
+            53.616,
+            413.419,
+            486.493,
+            424.228
+          ]
+        },
+        {
+          "text": "treba uočiti da je multiplekser principski",
+          "bbox_pt": [
+            53.616,
+            426.669616,
+            199.526976,
+            436.668208
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            151.18126,
+            438.867122,
+            156.088937,
+            444.206531
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            170.682436,
+            438.867122,
+            175.596009,
+            444.206531
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            190.179682,
+            438.867122,
+            195.093255,
+            444.206531
+          ]
+        },
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            84.569274,
+            455.271236,
+            104.869814,
+            460.610645
+          ]
+        },
+        {
+          "text": "2/4 Y3",
+          "bbox_pt": [
+            90.952067,
+            462.390562,
+            112.669239,
+            468.125489
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            105.462971,
+            471.012856,
+            112.669239,
+            476.352265
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            105.462971,
+            479.417616,
+            112.669239,
+            484.757025
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            105.462971,
+            488.015191,
+            112.669239,
+            493.3546
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            208.487831,
+            438.867122,
+            213.401404,
+            444.206531
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            266.989395,
+            473.910026,
+            271.89314,
+            479.249435
+          ]
+        },
+        {
+          "text": "MUX",
+          "bbox_pt": [
+            277.268688,
+            463.675996,
+            291.026773,
+            469.015405
+          ]
+        },
+        {
+          "text": "4/1",
+          "bbox_pt": [
+            280.374096,
+            470.795321,
+            287.911543,
+            476.13473
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            266.586478,
+            485.11901,
+            271.500051,
+            490.458418
+          ]
+        },
+        {
+          "text": "Z",
+          "bbox_pt": [
+            298.082784,
+            490.72449,
+            301.685393,
+            496.063899
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            266.989395,
+            496.32997,
+            271.89314,
+            501.669379
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            86.081687,
+            511.746277,
+            92.308179,
+            517.085686
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            266.989395,
+            507.54192,
+            271.89314,
+            512.881329
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            99.684553,
+            511.746277,
+            105.912029,
+            517.085686
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            275.509612,
+            520.154992,
+            281.730208,
+            525.494401
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            61.010234,
+            521.556115,
+            67.237906,
+            526.895524
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            60.685247,
+            529.96483,
+            66.912624,
+            535.304239
+          ]
+        },
+        {
+          "text": "1",
+          "bbox_pt": [
+            383.385676,
+            466.855472,
+            387.17707,
+            473.718853
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            398.499679,
+            466.855472,
+            404.816183,
+            473.718853
+          ]
+        },
+        {
+          "text": "0",
+          "bbox_pt": [
+            382.669091,
+            481.26626,
+            386.460485,
+            488.129641
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            397.987833,
+            481.26626,
+            404.3056,
+            488.129641
+          ]
+        },
+        {
+          "text": "0",
+          "bbox_pt": [
+            383.385676,
+            495.197875,
+            387.17707,
+            502.061255
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            398.499679,
+            495.678319,
+            404.816183,
+            502.5417
+          ]
+        },
+        {
+          "text": "1",
+          "bbox_pt": [
+            382.963561,
+            511.891409,
+            386.754955,
+            518.754789
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            398.499679,
+            510.090378,
+            404.816183,
+            516.953759
+          ]
+        },
+        {
+          "text": "MUX",
+          "bbox_pt": [
+            411.721747,
+            453.704262,
+            429.415136,
+            460.567643
+          ]
+        },
+        {
+          "text": "4/1",
+          "bbox_pt": [
+            415.724259,
+            462.855583,
+            425.413894,
+            469.718963
+          ]
+        },
+        {
+          "text": "Z",
+          "bbox_pt": [
+            438.494474,
+            488.472925,
+            443.127558,
+            495.336306
+          ]
+        },
+        {
+          "text": "F",
+          "bbox_pt": [
+            458.59424,
+            487.311216,
+            462.810271,
+            494.174597
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            289.110513,
+            520.154992,
+            295.340937,
+            525.494401
+          ]
+        },
+        {
+          "text": "MUX",
+          "bbox_pt": [
+            99.819187,
+            541.736437,
+            113.577271,
+            547.075846
+          ]
+        },
+        {
+          "text": "4/1",
+          "bbox_pt": [
+            102.930491,
+            548.855763,
+            110.464989,
+            554.195172
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            409.459512,
+            526.302197,
+            417.468268,
+            533.165577
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            426.953285,
+            526.302197,
+            434.962041,
+            533.165577
+          ]
+        },
+        {
+          "text": "B",
+          "bbox_pt": [
+            409.441818,
+            545.758413,
+            414.499538,
+            552.621793
+          ]
+        },
+        {
+          "text": "A",
+          "bbox_pt": [
+            429.535266,
+            545.758413,
+            435.010039,
+            552.621793
+          ]
+        },
+        {
+          "text": "Z",
+          "bbox_pt": [
+            176.903079,
+            573.409428,
+            180.505688,
+            578.748837
+          ]
+        },
+        {
+          "text": "odnosno da ponovo imamo selekciju potpunih proizvoda koje formiraju signali S1 i S0. U tom smislu jedino što",
+          "bbox_pt": [
+            86.232,
+            583.771,
+            493.673,
+            593.743
+          ]
+        },
+        {
+          "text": "treba da uradimo jeste da na ulaze multipleksera za odgovarajući proizvod dovedemo željene vrednosti funkcije",
+          "bbox_pt": [
+            86.232,
+            596.131,
+            488.702,
+            606.103
+          ]
+        }
+      ],
+      "id": "03-s014",
+      "frame_label": "03-s014",
+      "output_page": 14,
+      "tex": "slajdovi/s014_realizacija_funkcije_multiplekserom.tex",
+      "source_text": "U nekim situacijama multiplekseri su komponente koje omogućuju još jednostavniju realizaciju kombinacionih mreža\nod dekodera. Na primer ako treba da realizujemo funkciju 𝐹 = 𝐵 ത 𝐴 ҧ + 𝐵 𝐴. Pre nego što prikažemo relizaciju ono što\ntreba uočiti da je multiplekser principski\nI0\nI1\nI2\nDekoder\n2/4 Y3\nY2\nY1\nY0\nI3\nI3\nMUX\n4/1\nI2\nZ\nI1\nS1\nI0\nS0\nS1\nS1\nS0\n1\nI3\n0\nI2\n0\nI1\n1\nI0\nMUX\n4/1\nZ\nF\nS0\nMUX\n4/1\nS1\nS0\nB\nA\nZ\nodnosno da ponovo imamo selekciju potpunih proizvoda koje formiraju signali S1 i S0. U tom smislu jedino što\ntreba da uradimo jeste da na ulaze multipleksera za odgovarajući proizvod dovedemo željene vrednosti funkcije",
+      "inventory_confirmed": true,
+      "inventory": {
+        "tekstualni_sloj": "U nekim situacijama multiplekseri su komponente koje omogućuju još jednostavniju realizaciju kombinacionih mreža\nod dekodera. Na primer ako treba da realizujemo funkciju 𝐹 = 𝐵 ത 𝐴 ҧ + 𝐵 𝐴. Pre nego što prikažemo relizaciju ono što\ntreba uočiti da je multiplekser principski\nI0\nI1\nI2\nDekoder\n2/4 Y3\nY2\nY1\nY0\nI3\nI3\nMUX\n4/1\nI2\nZ\nI1\nS1\nI0\nS0\nS1\nS1\nS0\n1\nI3\n0\nI2\n0\nI1\n1\nI0\nMUX\n4/1\nZ\nF\nS0\nMUX\n4/1\nS1\nS0\nB\nA\nZ\nodnosno da ponovo imamo selekciju potpunih proizvoda koje formiraju signali S1 i S0. U tom smislu jedino što\ntreba da uradimo jeste da na ulaze multipleksera za odgovarajući proizvod dovedemo željene vrednosti funkcije",
+        "napomena": "Popis dopunjen neposrednim pregledom originalnog slajda.",
+        "vizuelni_popis": "Uvod, XNOR formula, dekoder i četiri I2/ILI4 unutar MUX; zaseban MUX, dve plave strelice, primer sa I3..I0=1,0,0,1 i S1=B/S0=A/Z=F; pun završni tekst.",
+        "kategorije": [
+          "tekst",
+          "formule",
+          "crtezi"
+        ]
+      }
+    },
+    {
+      "pdf_page": 8,
+      "position": "gornji",
+      "source_number": 15,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "Kao i kod dekoderskih mreža komponenta može imati selekcioni signal komponente",
+          "bbox_pt": [
+            36.696,
+            81.091,
+            341.285,
+            91.063
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            113.707909,
+            137.82622,
+            117.116567,
+            141.531174
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            127.252576,
+            137.82622,
+            130.66533,
+            141.531174
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            140.794513,
+            137.82622,
+            144.207267,
+            141.531174
+          ]
+        },
+        {
+          "text": "I14",
+          "bbox_pt": [
+            338.258604,
+            117.502238,
+            343.285937,
+            120.916751
+          ]
+        },
+        {
+          "text": "I13",
+          "bbox_pt": [
+            338.513175,
+            124.67283,
+            343.540508,
+            128.087343
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            348.364752,
+            124.495779,
+            351.506315,
+            127.910292
+          ]
+        },
+        {
+          "text": "I12",
+          "bbox_pt": [
+            338.513175,
+            131.843422,
+            343.540508,
+            135.257935
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            348.364752,
+            131.666371,
+            351.506315,
+            135.080884
+          ]
+        },
+        {
+          "text": "MUX",
+          "bbox_pt": [
+            354.940852,
+            103.616329,
+            363.740798,
+            107.030842
+          ]
+        },
+        {
+          "text": "4/1",
+          "bbox_pt": [
+            356.930904,
+            108.169086,
+            361.75012,
+            111.583599
+          ]
+        },
+        {
+          "text": "Z",
+          "bbox_pt": [
+            368.25585,
+            120.910482,
+            370.56015,
+            124.324996
+          ]
+        },
+        {
+          "text": "S1 S0",
+          "bbox_pt": [
+            356.072278,
+            139.728544,
+            366.499595,
+            143.143058
+          ]
+        },
+        {
+          "text": "Y2",
+          "bbox_pt": [
+            81.953977,
+            160.392496,
+            86.959137,
+            164.09745
+          ]
+        },
+        {
+          "text": "Y1",
+          "bbox_pt": [
+            81.953977,
+            166.0941,
+            86.959137,
+            169.799054
+          ]
+        },
+        {
+          "text": "Y0",
+          "bbox_pt": [
+            81.953977,
+            171.79982,
+            86.959137,
+            175.504774
+          ]
+        },
+        {
+          "text": "MUX",
+          "bbox_pt": [
+            201.282743,
+            155.04081,
+            210.838509,
+            158.745764
+          ]
+        },
+        {
+          "text": "4/1",
+          "bbox_pt": [
+            203.439624,
+            159.980828,
+            208.674806,
+            163.685782
+          ]
+        },
+        {
+          "text": "I11",
+          "bbox_pt": [
+            338.513175,
+            162.195135,
+            343.540508,
+            165.609648
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            348.364752,
+            162.138226,
+            351.506315,
+            165.552739
+          ]
+        },
+        {
+          "text": "I10",
+          "bbox_pt": [
+            338.258604,
+            169.365728,
+            343.285937,
+            172.780241
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            348.110182,
+            169.308818,
+            351.251744,
+            172.723331
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            194.143193,
+            177.699025,
+            197.549121,
+            181.403979
+          ]
+        },
+        {
+          "text": "I9",
+          "bbox_pt": [
+            339.45603,
+            176.53632,
+            342.597593,
+            179.950833
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            348.364752,
+            176.473087,
+            351.506315,
+            179.8876
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            194.143193,
+            185.478867,
+            197.549121,
+            189.183821
+          ]
+        },
+        {
+          "text": "I8",
+          "bbox_pt": [
+            339.45603,
+            183.706912,
+            342.597593,
+            187.121425
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            348.364752,
+            183.643679,
+            351.506315,
+            187.058192
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            194.143193,
+            162.142085,
+            197.549121,
+            165.84704
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            193.863345,
+            169.919869,
+            197.276098,
+            173.624823
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            77.94054,
+            188.396222,
+            82.265873,
+            192.101176
+          ]
+        },
+        {
+          "text": "CS S1",
+          "bbox_pt": [
+            193.590322,
+            192.2858,
+            204.38152,
+            197.935886
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            51.079043,
+            195.203155,
+            55.404513,
+            198.908109
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            50.853322,
+            201.037865,
+            55.178586,
+            204.742819
+          ]
+        },
+        {
+          "text": "MUX",
+          "bbox_pt": [
+            354.940852,
+            155.593638,
+            363.740798,
+            159.008151
+          ]
+        },
+        {
+          "text": "4/1",
+          "bbox_pt": [
+            356.930904,
+            160.146395,
+            361.75012,
+            163.560908
+          ]
+        },
+        {
+          "text": "Z",
+          "bbox_pt": [
+            368.25585,
+            172.894114,
+            370.56015,
+            176.308627
+          ]
+        },
+        {
+          "text": "Z",
+          "bbox_pt": [
+            215.739307,
+            173.809447,
+            218.241522,
+            177.514401
+          ]
+        },
+        {
+          "text": "CS",
+          "bbox_pt": [
+            63.184334,
+            180.61638,
+            68.192739,
+            184.321334
+          ]
+        },
+        {
+          "text": "S1",
+          "bbox_pt": [
+            68.492582,
+            188.396222,
+            72.817232,
+            192.101176
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            348.364752,
+            110.154594,
+            351.506315,
+            113.569107
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            348.110182,
+            117.325186,
+            351.251744,
+            120.739699
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            153.510556,
+            137.82622,
+            156.92331,
+            141.531174
+          ]
+        },
+        {
+          "text": "Dekoder",
+          "bbox_pt": [
+            67.442126,
+            149.208844,
+            81.541997,
+            152.913798
+          ]
+        },
+        {
+          "text": "2/4 Y3",
+          "bbox_pt": [
+            71.875336,
+            154.148862,
+            86.959137,
+            158.128262
+          ]
+        },
+        {
+          "text": "CS",
+          "bbox_pt": [
+            49.640759,
+            180.61638,
+            54.649164,
+            184.321334
+          ]
+        },
+        {
+          "text": "I15",
+          "bbox_pt": [
+            338.513175,
+            110.337969,
+            343.540508,
+            113.752482
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            401.815829,
+            189.024785,
+            404.958649,
+            192.439298
+          ]
+        },
+        {
+          "text": "S1 S0",
+          "bbox_pt": [
+            356.072278,
+            191.712176,
+            366.499595,
+            195.126689
+          ]
+        },
+        {
+          "text": "S0",
+          "bbox_pt": [
+            209.507558,
+            194.230932,
+            213.834939,
+            197.935886
+          ]
+        },
+        {
+          "text": "MUX",
+          "bbox_pt": [
+            408.390671,
+            182.480197,
+            417.190618,
+            185.89471
+          ]
+        },
+        {
+          "text": "4/1",
+          "bbox_pt": [
+            410.383238,
+            187.032954,
+            415.20434,
+            190.447467
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            401.564401,
+            196.195377,
+            404.707221,
+            199.60989
+          ]
+        },
+        {
+          "text": "Z",
+          "bbox_pt": [
+            421.710069,
+            199.77435,
+            424.01437,
+            203.188863
+          ]
+        },
+        {
+          "text": "Z",
+          "bbox_pt": [
+            432.402045,
+            199.77435,
+            434.706345,
+            203.188863
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            401.815829,
+            203.359646,
+            404.958649,
+            206.774159
+          ]
+        },
+        {
+          "text": "MUX",
+          "bbox_pt": [
+            78.034051,
+            209.206047,
+            87.589817,
+            212.911001
+          ]
+        },
+        {
+          "text": "4/1",
+          "bbox_pt": [
+            80.195027,
+            214.146065,
+            85.428161,
+            217.851019
+          ]
+        },
+        {
+          "text": "I7",
+          "bbox_pt": [
+            339.45603,
+            214.058625,
+            342.597593,
+            217.473138
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            348.364752,
+            214.115534,
+            351.506315,
+            217.530047
+          ]
+        },
+        {
+          "text": "I6",
+          "bbox_pt": [
+            339.201459,
+            221.229217,
+            342.343022,
+            224.64373
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            348.110182,
+            221.286126,
+            351.251744,
+            224.70064
+          ]
+        },
+        {
+          "text": "I5",
+          "bbox_pt": [
+            339.45603,
+            228.393486,
+            342.597593,
+            231.807999
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            348.364752,
+            228.456719,
+            351.506315,
+            231.871232
+          ]
+        },
+        {
+          "text": "I4",
+          "bbox_pt": [
+            339.45603,
+            235.564078,
+            342.597593,
+            238.978591
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            348.364752,
+            235.627311,
+            351.506315,
+            239.041824
+          ]
+        },
+        {
+          "text": "MUX",
+          "bbox_pt": [
+            354.940852,
+            207.577269,
+            363.740798,
+            210.991783
+          ]
+        },
+        {
+          "text": "4/1",
+          "bbox_pt": [
+            356.930904,
+            212.130026,
+            361.75012,
+            215.544539
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            401.815829,
+            210.530238,
+            404.958649,
+            213.944751
+          ]
+        },
+        {
+          "text": "S1 S0",
+          "bbox_pt": [
+            409.528383,
+            218.598735,
+            419.950043,
+            222.013248
+          ]
+        },
+        {
+          "text": "Z",
+          "bbox_pt": [
+            368.25585,
+            224.871423,
+            370.56015,
+            228.285936
+          ]
+        },
+        {
+          "text": "Z",
+          "bbox_pt": [
+            131.573164,
+            231.183569,
+            134.075379,
+            234.888523
+          ]
+        },
+        {
+          "text": "S3 S2",
+          "bbox_pt": [
+            409.528383,
+            226.660909,
+            420.635184,
+            230.075422
+          ]
+        },
+        {
+          "text": "S1 S0",
+          "bbox_pt": [
+            356.072278,
+            243.689485,
+            366.499595,
+            247.103998
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            339.45603,
+            266.156708,
+            342.597593,
+            269.571221
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            348.364752,
+            266.097269,
+            351.506315,
+            269.511782
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            339.201459,
+            273.326668,
+            342.343022,
+            276.741181
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            348.110182,
+            273.266597,
+            351.251744,
+            276.68111
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            339.45603,
+            280.495995,
+            342.597593,
+            283.910508
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            348.364752,
+            280.436556,
+            351.506315,
+            283.851069
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            339.45603,
+            287.665955,
+            342.597593,
+            291.080468
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            348.364752,
+            287.606516,
+            351.506315,
+            291.021029
+          ]
+        },
+        {
+          "text": "MUX",
+          "bbox_pt": [
+            354.940852,
+            259.554578,
+            363.740798,
+            262.969091
+          ]
+        },
+        {
+          "text": "4/1",
+          "bbox_pt": [
+            356.930904,
+            264.107335,
+            361.75012,
+            267.521848
+          ]
+        },
+        {
+          "text": "Z",
+          "bbox_pt": [
+            368.25585,
+            276.851893,
+            370.56015,
+            280.266406
+          ]
+        },
+        {
+          "text": "S1 S0",
+          "bbox_pt": [
+            356.072278,
+            295.671852,
+            366.499595,
+            299.086365
+          ]
+        },
+        {
+          "text": "S1 S0",
+          "bbox_pt": [
+            371.633156,
+            310.907779,
+            380.753676,
+            314.322292
+          ]
+        }
+      ],
+      "id": "03-s015",
+      "frame_label": "03-s015",
+      "output_page": 15,
+      "tex": "slajdovi/s015_selekcija_i_prosirenje_multipleksera.tex",
+      "source_text": "Kao i kod dekoderskih mreža komponenta može imati selekcioni signal komponente\nI0\nI1\nI2\nI14\nI13\nI1\nI12\nI0\nMUX\n4/1\nZ\nS1 S0\nY2\nY1\nY0\nMUX\n4/1\nI11\nI3\nI10\nI2\nI1\nI9\nI1\nI0\nI8\nI0\nI3\nI2\nS0\nCS S1\nS1\nS0\nMUX\n4/1\nZ\nZ\nCS\nS1\nI3\nI2\nI3\nDekoder\n2/4 Y3\nCS\nI15\nI3\nS1 S0\nS0\nMUX\n4/1\nI2\nZ\nZ\nI1\nMUX\n4/1\nI7\nI3\nI6\nI2\nI5\nI1\nI4\nI0\nMUX\n4/1\nI0\nS1 S0\nZ\nZ\nS3 S2\nS1 S0\nI3\nI3\nI2\nI2\nI1\nI1\nI0\nI0\nMUX\n4/1\nZ\nS1 S0\nS1 S0",
+      "inventory_confirmed": true,
+      "inventory": {
+        "tekstualni_sloj": "Kao i kod dekoderskih mreža komponenta može imati selekcioni signal komponente\nI0\nI1\nI2\nI14\nI13\nI1\nI12\nI0\nMUX\n4/1\nZ\nS1 S0\nY2\nY1\nY0\nMUX\n4/1\nI11\nI3\nI10\nI2\nI1\nI9\nI1\nI0\nI8\nI0\nI3\nI2\nS0\nCS S1\nS1\nS0\nMUX\n4/1\nZ\nZ\nCS\nS1\nI3\nI2\nI3\nDekoder\n2/4 Y3\nCS\nI15\nI3\nS1 S0\nS0\nMUX\n4/1\nI2\nZ\nZ\nI1\nMUX\n4/1\nI7\nI3\nI6\nI2\nI5\nI1\nI4\nI0\nMUX\n4/1\nI0\nS1 S0\nZ\nZ\nS3 S2\nS1 S0\nI3\nI3\nI2\nI2\nI1\nI1\nI0\nI0\nMUX\n4/1\nZ\nS1 S0\nS1 S0",
+        "napomena": "Popis dopunjen neposrednim pregledom originalnog slajda.",
+        "vizuelni_popis": "Uvod, unutrašnji dekoder sa CS i četiri I2/ILI4, zaseban MUX sa CS; plava strelica; pet blokova MUX 4/1, svih 16 ulaza, S1/S0 zajednički prvi nivo, S3/S2 drugi nivo i izlaz Z.",
+        "kategorije": [
+          "tekst",
+          "crtezi"
+        ]
+      }
+    },
+    {
+      "pdf_page": 8,
+      "position": "donji",
+      "source_number": 16,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "Koder prioriteta",
+          "bbox_pt": [
+            36.072,
+            386.563,
+            99.504,
+            394.663
+          ]
+        },
+        {
+          "text": "Osim multipleksera koji prestavlja specijalnu vrstu kodera u sintezi složenih digitalnih sistema (pogotovo u procesorskim)",
+          "bbox_pt": [
+            43.464,
+            404.881,
+            485.151,
+            414.853
+          ]
+        },
+        {
+          "text": "se najčešće koristi koder prioriteta. Osnovna njegova uloga jeste da koduje indeks ulaza na kojem se nalazi aktivan signal",
+          "bbox_pt": [
+            43.464,
+            417.241,
+            485.256,
+            427.213
+          ]
+        },
+        {
+          "text": "i najveće je vrednosti. Da bi bilo jasnije da vidimo funkcionalnu tabelu kodera prioriteta koji ima 4 ulaza. Da bi se",
+          "bbox_pt": [
+            43.464,
+            429.721,
+            485.316,
+            439.693
+          ]
+        },
+        {
+          "text": "kodovali indeksi potrebne su nam dve izlazne promenjive.",
+          "bbox_pt": [
+            43.464,
+            443.953,
+            253.48,
+            452.053
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            117.725121,
+            483.496507,
+            128.083062,
+            494.692644
+          ]
+        },
+        {
+          "text": "1",
+          "bbox_pt": [
+            119.795486,
+            500.96898,
+            126.012697,
+            512.165117
+          ]
+        },
+        {
+          "text": "0",
+          "bbox_pt": [
+            119.795486,
+            518.760755,
+            126.012697,
+            529.956892
+          ]
+        },
+        {
+          "text": "0",
+          "bbox_pt": [
+            119.795486,
+            536.392879,
+            126.012697,
+            547.589016
+          ]
+        },
+        {
+          "text": "0",
+          "bbox_pt": [
+            119.795486,
+            554.025003,
+            126.012697,
+            565.221139
+          ]
+        },
+        {
+          "text": "0",
+          "bbox_pt": [
+            119.795486,
+            571.656297,
+            126.012697,
+            582.852434
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            141.224484,
+            483.496507,
+            151.582424,
+            494.692644
+          ]
+        },
+        {
+          "text": "X",
+          "bbox_pt": [
+            141.912533,
+            501.128631,
+            150.890186,
+            512.324768
+          ]
+        },
+        {
+          "text": "1",
+          "bbox_pt": [
+            143.294848,
+            518.601104,
+            149.51206,
+            529.797241
+          ]
+        },
+        {
+          "text": "0",
+          "bbox_pt": [
+            143.294848,
+            536.392879,
+            149.51206,
+            547.589016
+          ]
+        },
+        {
+          "text": "0",
+          "bbox_pt": [
+            143.294848,
+            554.025003,
+            149.51206,
+            565.221139
+          ]
+        },
+        {
+          "text": "0",
+          "bbox_pt": [
+            143.294848,
+            571.656297,
+            149.51206,
+            582.852434
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            164.721774,
+            483.496507,
+            175.079715,
+            494.692644
+          ]
+        },
+        {
+          "text": "X",
+          "bbox_pt": [
+            165.411896,
+            501.128631,
+            174.389549,
+            512.324768
+          ]
+        },
+        {
+          "text": "X",
+          "bbox_pt": [
+            165.411896,
+            518.760755,
+            174.389549,
+            529.956892
+          ]
+        },
+        {
+          "text": "1",
+          "bbox_pt": [
+            166.792139,
+            536.392879,
+            173.00935,
+            547.589016
+          ]
+        },
+        {
+          "text": "0",
+          "bbox_pt": [
+            166.792139,
+            554.025003,
+            173.00935,
+            565.221139
+          ]
+        },
+        {
+          "text": "0",
+          "bbox_pt": [
+            166.792139,
+            571.656297,
+            173.00935,
+            582.852434
+          ]
+        },
+        {
+          "text": "I0 A1 A0",
+          "bbox_pt": [
+            188.221137,
+            483.496507,
+            247.996338,
+            494.692644
+          ]
+        },
+        {
+          "text": "1",
+          "bbox_pt": [
+            237.288155,
+            500.96898,
+            243.505367,
+            512.165117
+          ]
+        },
+        {
+          "text": "X 1",
+          "bbox_pt": [
+            188.909186,
+            500.96898,
+            218.538719,
+            512.324768
+          ]
+        },
+        {
+          "text": "X 1",
+          "bbox_pt": [
+            188.909186,
+            518.760755,
+            218.538719,
+            529.956892
+          ]
+        },
+        {
+          "text": "0",
+          "bbox_pt": [
+            237.288155,
+            518.760755,
+            243.505367,
+            529.956892
+          ]
+        },
+        {
+          "text": "X 0 1",
+          "bbox_pt": [
+            188.909186,
+            536.392879,
+            243.505367,
+            547.589016
+          ]
+        },
+        {
+          "text": "1 0 0",
+          "bbox_pt": [
+            190.291502,
+            554.025003,
+            243.505367,
+            565.221139
+          ]
+        },
+        {
+          "text": "0 0 0",
+          "bbox_pt": [
+            190.291502,
+            571.656297,
+            243.505367,
+            582.852434
+          ]
+        },
+        {
+          "text": "Neodređenost se pojavljuje u dve poslednje vrste.",
+          "bbox_pt": [
+            267.82,
+            486.741,
+            467.75,
+            496.713
+          ]
+        },
+        {
+          "text": "Pretposlednja vrsta je situacija da je na ulazu sa",
+          "bbox_pt": [
+            267.82,
+            500.973,
+            467.816,
+            509.073
+          ]
+        },
+        {
+          "text": "najnižim indeksom aktivan signal, a poslednja da",
+          "bbox_pt": [
+            267.82,
+            511.581,
+            467.816,
+            521.553
+          ]
+        },
+        {
+          "text": "uopšte nema aktivnih signala. Iz tog razloga nam treba",
+          "bbox_pt": [
+            267.82,
+            523.941,
+            467.687,
+            533.913
+          ]
+        },
+        {
+          "text": "još jedan dodatni izlazni signal GS (group select) koji",
+          "bbox_pt": [
+            267.82,
+            536.421,
+            467.855,
+            546.393
+          ]
+        },
+        {
+          "text": "će pokazivati da li uopšte ima nešto da se koduje,",
+          "bbox_pt": [
+            267.82,
+            548.801,
+            467.87,
+            558.773
+          ]
+        },
+        {
+          "text": "odnosno da li postoji bilo koji aktivan ulazni signal",
+          "bbox_pt": [
+            267.82,
+            563.153,
+            452.276,
+            571.253
+          ]
+        }
+      ],
+      "id": "03-s016",
+      "frame_label": "03-s016",
+      "output_page": 16,
+      "tex": "slajdovi/s016_koder_prioriteta.tex",
+      "source_text": "Koder prioriteta\nOsim multipleksera koji prestavlja specijalnu vrstu kodera u sintezi složenih digitalnih sistema (pogotovo u procesorskim)\nse najčešće koristi koder prioriteta. Osnovna njegova uloga jeste da koduje indeks ulaza na kojem se nalazi aktivan signal\ni najveće je vrednosti. Da bi bilo jasnije da vidimo funkcionalnu tabelu kodera prioriteta koji ima 4 ulaza. Da bi se\nkodovali indeksi potrebne su nam dve izlazne promenjive.\nI3\n1\n0\n0\n0\n0\nI2\nX\n1\n0\n0\n0\nI1\nX\nX\n1\n0\n0\nI0 A1 A0\n1\nX 1\nX 1\n0\nX 0 1\n1 0 0\n0 0 0\nNeodređenost se pojavljuje u dve poslednje vrste.\nPretposlednja vrsta je situacija da je na ulazu sa\nnajnižim indeksom aktivan signal, a poslednja da\nuopšte nema aktivnih signala. Iz tog razloga nam treba\njoš jedan dodatni izlazni signal GS (group select) koji\nće pokazivati da li uopšte ima nešto da se koduje,\nodnosno da li postoji bilo koji aktivan ulazni signal",
+      "inventory_confirmed": true,
+      "inventory": {
+        "tekstualni_sloj": "Koder prioriteta\nOsim multipleksera koji prestavlja specijalnu vrstu kodera u sintezi složenih digitalnih sistema (pogotovo u procesorskim)\nse najčešće koristi koder prioriteta. Osnovna njegova uloga jeste da koduje indeks ulaza na kojem se nalazi aktivan signal\ni najveće je vrednosti. Da bi bilo jasnije da vidimo funkcionalnu tabelu kodera prioriteta koji ima 4 ulaza. Da bi se\nkodovali indeksi potrebne su nam dve izlazne promenjive.\nI3\n1\n0\n0\n0\n0\nI2\nX\n1\n0\n0\n0\nI1\nX\nX\n1\n0\n0\nI0 A1 A0\n1\nX 1\nX 1\n0\nX 0 1\n1 0 0\n0 0 0\nNeodređenost se pojavljuje u dve poslednje vrste.\nPretposlednja vrsta je situacija da je na ulazu sa\nnajnižim indeksom aktivan signal, a poslednja da\nuopšte nema aktivnih signala. Iz tog razloga nam treba\njoš jedan dodatni izlazni signal GS (group select) koji\nće pokazivati da li uopšte ima nešto da se koduje,\nodnosno da li postoji bilo koji aktivan ulazni signal",
+        "napomena": "Popis dopunjen neposrednim pregledom originalnog slajda.",
+        "vizuelni_popis": "Naslov, svi pasusi i funkcionalna tabela od pet redova/šest kolona; svako X, obe poslednje nulte šifre i opis dodatnog GS.",
+        "kategorije": [
+          "tekst",
+          "tabele"
+        ]
+      }
+    },
+    {
+      "pdf_page": 9,
+      "position": "gornji",
+      "source_number": 17,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "Proširena funkcionalna tabela u tom slučaju je",
+          "bbox_pt": [
+            39.144,
+            72.761,
+            205.666,
+            82.733
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            203.978616,
+            95.402224,
+            209.827698,
+            101.716603
+          ]
+        },
+        {
+          "text": "1",
+          "bbox_pt": [
+            205.147741,
+            105.256321,
+            208.658572,
+            111.5707
+          ]
+        },
+        {
+          "text": "0",
+          "bbox_pt": [
+            205.147741,
+            115.290498,
+            208.658572,
+            121.604877
+          ]
+        },
+        {
+          "text": "0",
+          "bbox_pt": [
+            205.147741,
+            125.234635,
+            208.658572,
+            131.549014
+          ]
+        },
+        {
+          "text": "0",
+          "bbox_pt": [
+            205.147741,
+            135.178772,
+            208.658572,
+            141.493151
+          ]
+        },
+        {
+          "text": "0",
+          "bbox_pt": [
+            205.147741,
+            145.122441,
+            208.658572,
+            151.43682
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            217.248599,
+            95.402224,
+            223.097681,
+            101.716603
+          ]
+        },
+        {
+          "text": "X",
+          "bbox_pt": [
+            217.637137,
+            105.346361,
+            222.706778,
+            111.66074
+          ]
+        },
+        {
+          "text": "1",
+          "bbox_pt": [
+            218.417725,
+            115.200458,
+            221.928556,
+            121.514837
+          ]
+        },
+        {
+          "text": "0",
+          "bbox_pt": [
+            218.417725,
+            125.234635,
+            221.928556,
+            131.549014
+          ]
+        },
+        {
+          "text": "0",
+          "bbox_pt": [
+            218.417725,
+            135.178772,
+            221.928556,
+            141.493151
+          ]
+        },
+        {
+          "text": "0",
+          "bbox_pt": [
+            218.417725,
+            145.122441,
+            221.928556,
+            151.43682
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            230.517413,
+            95.402224,
+            236.366495,
+            101.716603
+          ]
+        },
+        {
+          "text": "X",
+          "bbox_pt": [
+            230.907121,
+            105.346361,
+            235.976761,
+            111.66074
+          ]
+        },
+        {
+          "text": "X",
+          "bbox_pt": [
+            230.907121,
+            115.290498,
+            235.976761,
+            121.604877
+          ]
+        },
+        {
+          "text": "1",
+          "bbox_pt": [
+            231.686538,
+            125.234635,
+            235.197369,
+            131.549014
+          ]
+        },
+        {
+          "text": "0",
+          "bbox_pt": [
+            231.686538,
+            135.178772,
+            235.197369,
+            141.493151
+          ]
+        },
+        {
+          "text": "0",
+          "bbox_pt": [
+            231.686538,
+            145.122441,
+            235.197369,
+            151.43682
+          ]
+        },
+        {
+          "text": "I0 A1 A0 GS",
+          "bbox_pt": [
+            243.787396,
+            95.402224,
+            291.007635,
+            101.716603
+          ]
+        },
+        {
+          "text": "1 1",
+          "bbox_pt": [
+            271.495319,
+            105.256321,
+            288.276134,
+            111.5707
+          ]
+        },
+        {
+          "text": "X 1",
+          "bbox_pt": [
+            244.175935,
+            105.256321,
+            260.907597,
+            111.66074
+          ]
+        },
+        {
+          "text": "X 1",
+          "bbox_pt": [
+            244.175935,
+            115.290498,
+            260.907597,
+            121.604877
+          ]
+        },
+        {
+          "text": "0 1",
+          "bbox_pt": [
+            271.495319,
+            115.200458,
+            288.276134,
+            121.604877
+          ]
+        },
+        {
+          "text": "X 0 1 1",
+          "bbox_pt": [
+            244.175935,
+            125.144595,
+            288.276134,
+            131.549014
+          ]
+        },
+        {
+          "text": "1 0 0 1",
+          "bbox_pt": [
+            244.956522,
+            135.088732,
+            288.276134,
+            141.493151
+          ]
+        },
+        {
+          "text": "0 0 0 0",
+          "bbox_pt": [
+            244.956522,
+            145.122441,
+            288.276134,
+            151.43682
+          ]
+        },
+        {
+          "text": "Mada je moguće izvesti minimizaciju, u ovom slučaju je dosta jednostavnije direktno nacrtati realizaciju, ne trudeći se da",
+          "bbox_pt": [
+            39.144,
+            167.521,
+            483.176,
+            177.493
+          ]
+        },
+        {
+          "text": "bude baš minimalna. Direktno crtanje je moguće pošto su funkcije dosta „pravolinijske“.",
+          "bbox_pt": [
+            39.144,
+            179.859616,
+            358.996,
+            189.858208
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            198.208737,
+            199.686593,
+            201.476336,
+            203.236094
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            198.208737,
+            222.29859,
+            201.476336,
+            225.848091
+          ]
+        },
+        {
+          "text": "Prioritetna mreža",
+          "bbox_pt": [
+            313.821751,
+            227.814879,
+            340.94111,
+            232.180765
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            198.208737,
+            237.94951,
+            201.476336,
+            241.499011
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            198.208737,
+            261.302313,
+            201.476336,
+            264.851814
+          ]
+        },
+        {
+          "text": "Koderska mreža",
+          "bbox_pt": [
+            320.143625,
+            290.107644,
+            345.736806,
+            294.473531
+          ]
+        },
+        {
+          "text": "A1",
+          "bbox_pt": [
+            261.514293,
+            305.865564,
+            266.306334,
+            309.415065
+          ]
+        },
+        {
+          "text": "A0",
+          "bbox_pt": [
+            279.12009,
+            305.958707,
+            283.912131,
+            309.508208
+          ]
+        },
+        {
+          "text": "GS",
+          "bbox_pt": [
+            298.000723,
+            305.026948,
+            303.014406,
+            308.576449
+          ]
+        }
+      ],
+      "id": "03-s017",
+      "frame_label": "03-s017",
+      "output_page": 17,
+      "tex": "slajdovi/s017_koder_prioriteta_sa_gs.tex",
+      "source_text": "Proširena funkcionalna tabela u tom slučaju je\nI3\n1\n0\n0\n0\n0\nI2\nX\n1\n0\n0\n0\nI1\nX\nX\n1\n0\n0\nI0 A1 A0 GS\n1 1\nX 1\nX 1\n0 1\nX 0 1 1\n1 0 0 1\n0 0 0 0\nMada je moguće izvesti minimizaciju, u ovom slučaju je dosta jednostavnije direktno nacrtati realizaciju, ne trudeći se da\nbude baš minimalna. Direktno crtanje je moguće pošto su funkcije dosta „pravolinijske“.\nI3\nI2\nPrioritetna mreža\nI1\nI0\nKoderska mreža\nA1\nA0\nGS",
+      "inventory_confirmed": true,
+      "inventory": {
+        "tekstualni_sloj": "Proširena funkcionalna tabela u tom slučaju je\nI3\n1\n0\n0\n0\n0\nI2\nX\n1\n0\n0\n0\nI1\nX\nX\n1\n0\n0\nI0 A1 A0 GS\n1 1\nX 1\nX 1\n0 1\nX 0 1 1\n1 0 0 1\n0 0 0 0\nMada je moguće izvesti minimizaciju, u ovom slučaju je dosta jednostavnije direktno nacrtati realizaciju, ne trudeći se da\nbude baš minimalna. Direktno crtanje je moguće pošto su funkcije dosta „pravolinijske“.\nI3\nI2\nPrioritetna mreža\nI1\nI0\nKoderska mreža\nA1\nA0\nGS",
+        "napomena": "Popis dopunjen neposrednim pregledom originalnog slajda.",
+        "vizuelni_popis": "Proširena tabela pet redova/sedam kolona; potpuni tekst; tri invertora, I2/I3/I4 prioritetnog dela i ILI2/ILI2/ILI4 koderskog dela, sve veze I3–I0/A1/A0/GS i oba naziva delova.",
+        "kategorije": [
+          "tekst",
+          "tabele",
+          "crtezi"
+        ]
+      }
+    },
+    {
+      "pdf_page": 9,
+      "position": "donji",
+      "source_number": 18,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "Prioritetna mreža će obezbediti da se u unutrašnjosti komponente pojavi samo jedna aktivna logička jedinica sa onog",
+          "bbox_pt": [
+            54.84,
+            397.871,
+            479.785,
+            407.843
+          ]
+        },
+        {
+          "text": "ulaza koji ima aktivnu jedinicu i najvišeg je prioriteta odnosno ima najveći indeks. U tom slučaju je lako napraviti",
+          "bbox_pt": [
+            54.84,
+            410.231,
+            479.695,
+            420.203
+          ]
+        },
+        {
+          "text": "Koderski deo mreže. Može i minimalnije da se nacrta",
+          "bbox_pt": [
+            54.84,
+            422.711,
+            247.619,
+            432.683
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            208.121778,
+            454.377138,
+            213.712584,
+            460.430696
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            208.121778,
+            463.910524,
+            213.712584,
+            469.964082
+          ]
+        },
+        {
+          "text": "A1",
+          "bbox_pt": [
+            328.670528,
+            459.037332,
+            336.869791,
+            465.090889
+          ]
+        },
+        {
+          "text": "A0",
+          "bbox_pt": [
+            331.041954,
+            492.510679,
+            339.252403,
+            498.564237
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            207.668746,
+            502.042944,
+            213.259664,
+            508.096502
+          ]
+        },
+        {
+          "text": "GS",
+          "bbox_pt": [
+            331.8026,
+            528.578131,
+            340.381097,
+            534.631688
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            209.48065,
+            541.765681,
+            215.071344,
+            547.819239
+          ]
+        },
+        {
+          "text": "međutim prva realizacija je lakša za proširivanje kada je potrebno realizovati veće mreže.",
+          "bbox_pt": [
+            60.384,
+            577.609616,
+            382.396,
+            587.608208
+          ]
+        }
+      ],
+      "id": "03-s018",
+      "frame_label": "03-s018",
+      "output_page": 18,
+      "tex": "slajdovi/s018_minimalnija_realizacija_kodera.tex",
+      "source_text": "Prioritetna mreža će obezbediti da se u unutrašnjosti komponente pojavi samo jedna aktivna logička jedinica sa onog\nulaza koji ima aktivnu jedinicu i najvišeg je prioriteta odnosno ima najveći indeks. U tom slučaju je lako napraviti\nKoderski deo mreže. Može i minimalnije da se nacrta\nI3\nI2\nA1\nA0\nI1\nGS\nI0\nmeđutim prva realizacija je lakša za proširivanje kada je potrebno realizovati veće mreže.",
+      "inventory_confirmed": true,
+      "inventory": {
+        "tekstualni_sloj": "Prioritetna mreža će obezbediti da se u unutrašnjosti komponente pojavi samo jedna aktivna logička jedinica sa onog\nulaza koji ima aktivnu jedinicu i najvišeg je prioriteta odnosno ima najveći indeks. U tom slučaju je lako napraviti\nKoderski deo mreže. Može i minimalnije da se nacrta\nI3\nI2\nA1\nA0\nI1\nGS\nI0\nmeđutim prva realizacija je lakša za proširivanje kada je potrebno realizovati veće mreže.",
+        "napomena": "Popis dopunjen neposrednim pregledom originalnog slajda.",
+        "vizuelni_popis": "Oba tekstualna bloka, I2 negacija i I sa I1, tri ILI izlaza A1/A0/GS; sva četiri ulaza i svaka GS veza. Izvorna šema dodatno proverena pri većem uvećanju.",
+        "kategorije": [
+          "tekst",
+          "crtezi"
+        ]
+      }
+    },
+    {
+      "pdf_page": 10,
+      "position": "gornji",
+      "source_number": 19,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "Prilikom pravljenja mreža većih kapaciteta, možemo se poslužiti idejama koje smo imali",
+          "bbox_pt": [
+            41.304,
+            83.131,
+            375.532,
+            93.103
+          ]
+        },
+        {
+          "text": "kod prethodnih kola. Na primer da je potrebno napraviti koder prioriteta sa 16 ulaza",
+          "bbox_pt": [
+            41.304,
+            97.363,
+            343.33,
+            105.463
+          ]
+        },
+        {
+          "text": "KP",
+          "bbox_pt": [
+            125.162612,
+            117.603664,
+            129.57917,
+            120.735335
+          ]
+        },
+        {
+          "text": "I15",
+          "bbox_pt": [
+            108.288765,
+            123.768516,
+            112.894835,
+            126.900187
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            117.314833,
+            123.600331,
+            120.19315,
+            126.732002
+          ]
+        },
+        {
+          "text": "I14",
+          "bbox_pt": [
+            108.055526,
+            130.345131,
+            112.661595,
+            133.476802
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            117.081594,
+            130.176946,
+            119.959911,
+            133.308617
+          ]
+        },
+        {
+          "text": "I13",
+          "bbox_pt": [
+            108.288765,
+            136.915946,
+            112.894835,
+            140.047617
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            117.314833,
+            136.75356,
+            120.19315,
+            139.885232
+          ]
+        },
+        {
+          "text": "I12",
+          "bbox_pt": [
+            108.288765,
+            143.492561,
+            112.894835,
+            146.624232
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            117.314833,
+            143.330175,
+            120.19315,
+            146.461846
+          ]
+        },
+        {
+          "text": "GS",
+          "bbox_pt": [
+            133.977901,
+            133.465253,
+            138.394459,
+            136.596924
+          ]
+        },
+        {
+          "text": "A1 A0",
+          "bbox_pt": [
+            124.089712,
+            150.730317,
+            134.216871,
+            153.861988
+          ]
+        },
+        {
+          "text": "KP",
+          "bbox_pt": [
+            125.162612,
+            165.275423,
+            129.57917,
+            168.407094
+          ]
+        },
+        {
+          "text": "I11",
+          "bbox_pt": [
+            108.288765,
+            171.330084,
+            112.894835,
+            174.461755
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            117.314833,
+            171.277889,
+            120.19315,
+            174.40956
+          ]
+        },
+        {
+          "text": "I10",
+          "bbox_pt": [
+            108.055526,
+            177.906699,
+            112.661595,
+            181.03837
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            117.081594,
+            177.854503,
+            119.959911,
+            180.986175
+          ]
+        },
+        {
+          "text": "I9",
+          "bbox_pt": [
+            109.152614,
+            184.483314,
+            112.030931,
+            187.614985
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            117.314833,
+            184.431118,
+            120.19315,
+            187.56279
+          ]
+        },
+        {
+          "text": "I8",
+          "bbox_pt": [
+            109.152614,
+            191.059929,
+            112.030931,
+            194.1916
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            117.314833,
+            191.001934,
+            120.19315,
+            194.133605
+          ]
+        },
+        {
+          "text": "GS",
+          "bbox_pt": [
+            133.570164,
+            181.142811,
+            137.986723,
+            184.274482
+          ]
+        },
+        {
+          "text": "KP",
+          "bbox_pt": [
+            174.136504,
+            189.934829,
+            178.553062,
+            193.0665
+          ]
+        },
+        {
+          "text": "A1 A0",
+          "bbox_pt": [
+            124.089712,
+            198.402075,
+            134.216871,
+            201.533747
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            166.286998,
+            195.937295,
+            169.166466,
+            199.068966
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            166.056638,
+            202.513909,
+            168.936106,
+            205.645581
+          ]
+        },
+        {
+          "text": "GS",
+          "bbox_pt": [
+            182.544632,
+            205.802217,
+            186.961191,
+            208.933888
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            166.286998,
+            209.090524,
+            169.166466,
+            212.222196
+          ]
+        },
+        {
+          "text": "KP",
+          "bbox_pt": [
+            125.162612,
+            212.952981,
+            129.57917,
+            216.084652
+          ]
+        },
+        {
+          "text": "I7",
+          "bbox_pt": [
+            109.152614,
+            218.897452,
+            112.030931,
+            222.029123
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            117.314833,
+            218.949647,
+            120.19315,
+            222.081318
+          ]
+        },
+        {
+          "text": "I6",
+          "bbox_pt": [
+            108.919375,
+            225.474067,
+            111.797691,
+            228.605738
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            117.081594,
+            225.526262,
+            119.959911,
+            228.657933
+          ]
+        },
+        {
+          "text": "I5",
+          "bbox_pt": [
+            109.152614,
+            232.050681,
+            112.030931,
+            235.182353
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            117.314833,
+            232.102877,
+            120.19315,
+            235.234548
+          ]
+        },
+        {
+          "text": "I4",
+          "bbox_pt": [
+            109.152614,
+            238.621497,
+            112.030931,
+            241.753168
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            117.314833,
+            238.679492,
+            120.19315,
+            241.811163
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            166.286998,
+            215.66134,
+            169.166466,
+            218.793011
+          ]
+        },
+        {
+          "text": "A1 A0",
+          "bbox_pt": [
+            173.065331,
+            223.061481,
+            183.189612,
+            226.193153
+          ]
+        },
+        {
+          "text": "GS",
+          "bbox_pt": [
+            133.977901,
+            228.814569,
+            138.394459,
+            231.946241
+          ]
+        },
+        {
+          "text": "A1 A0",
+          "bbox_pt": [
+            124.089712,
+            246.076734,
+            134.216871,
+            249.208405
+          ]
+        },
+        {
+          "text": "KP",
+          "bbox_pt": [
+            125.162612,
+            260.625899,
+            129.57917,
+            263.75757
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            109.152614,
+            266.68114,
+            112.030931,
+            269.812812
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            117.314833,
+            266.626045,
+            120.19315,
+            269.757716
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            108.919375,
+            273.256595,
+            111.797691,
+            276.388266
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            117.081594,
+            273.20208,
+            119.959911,
+            276.333751
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            109.152614,
+            279.83263,
+            112.030931,
+            282.964301
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            117.314833,
+            279.778115,
+            120.19315,
+            282.909786
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            109.152614,
+            286.408665,
+            112.030931,
+            289.540336
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            117.314833,
+            286.35357,
+            120.19315,
+            289.485241
+          ]
+        },
+        {
+          "text": "GS",
+          "bbox_pt": [
+            133.977901,
+            276.489808,
+            138.394459,
+            279.621479
+          ]
+        },
+        {
+          "text": "A3 A2",
+          "bbox_pt": [
+            173.065331,
+            230.461623,
+            183.817342,
+            233.593294
+          ]
+        },
+        {
+          "text": "GS",
+          "bbox_pt": [
+            193.970472,
+            205.802217,
+            198.387031,
+            208.933888
+          ]
+        },
+        {
+          "text": "Sa slike je vidljiva ideja da se iskoristi osobina kodera prioriteta",
+          "bbox_pt": [
+            238.27,
+            128.203,
+            471.114,
+            136.303
+          ]
+        },
+        {
+          "text": "i u drugom nivou. Znači ako ima na bilo kojem koderu prioriteta",
+          "bbox_pt": [
+            238.27,
+            138.691,
+            471.111,
+            148.663
+          ]
+        },
+        {
+          "text": "u prvom nivou aktivnih logičkih jedinica, biće aktivan i njegov",
+          "bbox_pt": [
+            238.27,
+            151.171,
+            471.045,
+            161.143
+          ]
+        },
+        {
+          "text": "izlazni signal GS, pa će koder prioriteta u drugom nivou dati",
+          "bbox_pt": [
+            238.27,
+            163.531,
+            471.198,
+            173.503
+          ]
+        },
+        {
+          "text": "odgovarajući indeks kodera prioriteta prvog nivoa (određen po",
+          "bbox_pt": [
+            238.27,
+            176.041,
+            471.18,
+            186.013
+          ]
+        },
+        {
+          "text": "prioritetu GS signala), što su u stvari signali A3 i A2 za „veliki“",
+          "bbox_pt": [
+            238.27,
+            188.401,
+            471.0,
+            198.373
+          ]
+        },
+        {
+          "text": "koder. Ostaje problem kako odrediti signale A1 i A0. Ovde su u",
+          "bbox_pt": [
+            238.27,
+            202.753,
+            470.94,
+            210.853
+          ]
+        },
+        {
+          "text": "pitanju izlazi pa njihovo direktno spajanje sigurno ne dolazi u",
+          "bbox_pt": [
+            238.27,
+            215.113,
+            471.06,
+            223.213
+          ]
+        },
+        {
+          "text": "obzir. A i logički njihovo direktno spajanje ne bi donelo validnu",
+          "bbox_pt": [
+            238.27,
+            225.721,
+            471.159,
+            235.693
+          ]
+        },
+        {
+          "text": "informaciju. U tom smislu bi morali na osnovne kodere",
+          "bbox_pt": [
+            238.27,
+            239.953,
+            471.018,
+            248.053
+          ]
+        },
+        {
+          "text": "prioriteta dodati još neke ulaze i izlaze, kako bi omogućili laku",
+          "bbox_pt": [
+            238.27,
+            250.561,
+            471.057,
+            260.533
+          ]
+        },
+        {
+          "text": "identifikaciju koji signali A1 i A0 su validni, a i da omogućimo",
+          "bbox_pt": [
+            238.27,
+            262.921,
+            470.919,
+            272.893
+          ]
+        },
+        {
+          "text": "njihovo lako logičko spajanje.",
+          "bbox_pt": [
+            238.27,
+            275.401,
+            346.87,
+            285.373
+          ]
+        },
+        {
+          "text": "A1 A0",
+          "bbox_pt": [
+            124.089712,
+            293.751392,
+            134.216871,
+            296.883063
+          ]
+        }
+      ],
+      "id": "03-s019",
+      "frame_label": "03-s019",
+      "output_page": 19,
+      "tex": "slajdovi/s019_koder_prioriteta_sa_16_ulaza.tex",
+      "source_text": "Prilikom pravljenja mreža većih kapaciteta, možemo se poslužiti idejama koje smo imali\nkod prethodnih kola. Na primer da je potrebno napraviti koder prioriteta sa 16 ulaza\nKP\nI15\nI3\nI14\nI2\nI13\nI1\nI12\nI0\nGS\nA1 A0\nKP\nI11\nI3\nI10\nI2\nI9\nI1\nI8\nI0\nGS\nKP\nA1 A0\nI3\nI2\nGS\nI1\nKP\nI7\nI3\nI6\nI2\nI5\nI1\nI4\nI0\nI0\nA1 A0\nGS\nA1 A0\nKP\nI3\nI3\nI2\nI2\nI1\nI1\nI0\nI0\nGS\nA3 A2\nGS\nSa slike je vidljiva ideja da se iskoristi osobina kodera prioriteta\ni u drugom nivou. Znači ako ima na bilo kojem koderu prioriteta\nu prvom nivou aktivnih logičkih jedinica, biće aktivan i njegov\nizlazni signal GS, pa će koder prioriteta u drugom nivou dati\nodgovarajući indeks kodera prioriteta prvog nivoa (određen po\nprioritetu GS signala), što su u stvari signali A3 i A2 za „veliki“\nkoder. Ostaje problem kako odrediti signale A1 i A0. Ovde su u\npitanju izlazi pa njihovo direktno spajanje sigurno ne dolazi u\nobzir. A i logički njihovo direktno spajanje ne bi donelo validnu\ninformaciju. U tom smislu bi morali na osnovne kodere\nprioriteta dodati još neke ulaze i izlaze, kako bi omogućili laku\nidentifikaciju koji signali A1 i A0 su validni, a i da omogućimo\nnjihovo lako logičko spajanje.\nA1 A0",
+      "inventory_confirmed": true,
+      "inventory": {
+        "tekstualni_sloj": "Prilikom pravljenja mreža većih kapaciteta, možemo se poslužiti idejama koje smo imali\nkod prethodnih kola. Na primer da je potrebno napraviti koder prioriteta sa 16 ulaza\nKP\nI15\nI3\nI14\nI2\nI13\nI1\nI12\nI0\nGS\nA1 A0\nKP\nI11\nI3\nI10\nI2\nI9\nI1\nI8\nI0\nGS\nKP\nA1 A0\nI3\nI2\nGS\nI1\nKP\nI7\nI3\nI6\nI2\nI5\nI1\nI4\nI0\nI0\nA1 A0\nGS\nA1 A0\nKP\nI3\nI3\nI2\nI2\nI1\nI1\nI0\nI0\nGS\nA3 A2\nGS\nSa slike je vidljiva ideja da se iskoristi osobina kodera prioriteta\ni u drugom nivou. Znači ako ima na bilo kojem koderu prioriteta\nu prvom nivou aktivnih logičkih jedinica, biće aktivan i njegov\nizlazni signal GS, pa će koder prioriteta u drugom nivou dati\nodgovarajući indeks kodera prioriteta prvog nivoa (određen po\nprioritetu GS signala), što su u stvari signali A3 i A2 za „veliki“\nkoder. Ostaje problem kako odrediti signale A1 i A0. Ovde su u\npitanju izlazi pa njihovo direktno spajanje sigurno ne dolazi u\nobzir. A i logički njihovo direktno spajanje ne bi donelo validnu\ninformaciju. U tom smislu bi morali na osnovne kodere\nprioriteta dodati još neke ulaze i izlaze, kako bi omogućili laku\nidentifikaciju koji signali A1 i A0 su validni, a i da omogućimo\nnjihovo lako logičko spajanje.\nA1 A0",
+        "napomena": "Popis dopunjen neposrednim pregledom originalnog slajda.",
+        "vizuelni_popis": "Uvod i ceo opis sa crvenim upozorenjem; pet KP blokova, svih 16 ulaza, četiri GS veze do drugog nivoa, otvoreni A1/A0 prvog nivoa, A3/A2 i GS drugog nivoa.",
+        "kategorije": [
+          "tekst",
+          "crtezi"
+        ]
+      }
+    },
+    {
+      "pdf_page": 10,
+      "position": "donji",
+      "source_number": 20,
+      "bbox_pt": [
+        30,
+        381.9,
+        510,
+        651.9
+      ],
+      "source_lines": [
+        {
+          "text": "U tom smislu ćemo dodati ulazni signal EI (enable input) koji ako je aktivan, komponenta daje validne izlaze A1 i A0, a ako je",
+          "bbox_pt": [
+            41.16,
+            390.071,
+            498.856,
+            400.043
+          ]
+        },
+        {
+          "text": "neaktivan postavlja ih na logičke nule. Ovo možemo da uvedemo i za GS signal, u smislu da kada je on neaktivan komponenta",
+          "bbox_pt": [
+            41.16,
+            402.431,
+            498.925,
+            412.403
+          ]
+        },
+        {
+          "text": "nema šta da koduje bilo zato što nema aktivnih signala na ulazima, bilo zato što joj je „zabranjeno“ kodovanje. Kodovanje će",
+          "bbox_pt": [
+            41.16,
+            414.911,
+            498.976,
+            424.883
+          ]
+        },
+        {
+          "text": "joj biti zabranjeno ako na koderu višeg prioriteta ima šta da se koduje. Znači treba nam i jedan dodatan izlaz EO (enable",
+          "bbox_pt": [
+            41.16,
+            427.271,
+            499.066,
+            437.243
+          ]
+        },
+        {
+          "text": "output) koji suštinski dozvoljava koderu nižeg prioriteta da koduje. Dodavanjem ova dva signala u osnovnu šemu kodera",
+          "bbox_pt": [
+            41.16,
+            439.751,
+            498.958,
+            449.723
+          ]
+        },
+        {
+          "text": "prioriteta dobijamo",
+          "bbox_pt": [
+            41.16,
+            453.983,
+            110.433,
+            462.083
+          ]
+        },
+        {
+          "text": "Možda ne prvi pogled liči da nam nije trebao EO signal i da smo",
+          "bbox_pt": [
+            256.13,
+            458.591,
+            488.564,
+            468.554
+          ]
+        },
+        {
+          "text": "umesto njega mogli upotrebiti invertovani GS signal. Informacija",
+          "bbox_pt": [
+            256.13,
+            471.263,
+            491.512,
+            479.363
+          ]
+        },
+        {
+          "text": "EI",
+          "bbox_pt": [
+            38.514909,
+            475.249786,
+            43.009596,
+            479.553326
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            38.61809,
+            483.083948,
+            42.585102,
+            487.387489
+          ]
+        },
+        {
+          "text": "mora da se prenese „odgore na dole“ bez obzira šta se dešavalo u",
+          "bbox_pt": [
+            256.13,
+            480.191,
+            490.481,
+            490.154
+          ]
+        },
+        {
+          "text": "pojedinom koderu. Na primer sa ovako realizovanim GS on ima i",
+          "bbox_pt": [
+            256.13,
+            492.863,
+            491.836,
+            500.963
+          ]
+        },
+        {
+          "text": "značenje: nema šta da koduje pošto mu je zabranjeno, i da smo ga",
+          "bbox_pt": [
+            256.13,
+            501.791,
+            493.186,
+            511.763
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            38.61809,
+            510.491563,
+            42.585102,
+            514.795104
+          ]
+        },
+        {
+          "text": "iskoristili kao EO on bi svojim invertovanim nivoom dozvolio",
+          "bbox_pt": [
+            256.13,
+            514.463,
+            480.518,
+            522.563
+          ]
+        },
+        {
+          "text": "koderu nižeg prioriteta da „radi“ a ne sme. Mogli smo da ne",
+          "bbox_pt": [
+            256.13,
+            523.391,
+            472.114,
+            533.363
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            38.61809,
+            529.475262,
+            42.585102,
+            533.778802
+          ]
+        },
+        {
+          "text": "uslovima GS, to nam neće smetati za drugi nivo kodera prioriteta,",
+          "bbox_pt": [
+            256.13,
+            534.191,
+            493.222,
+            544.163
+          ]
+        },
+        {
+          "text": "ali opet ne bi smeli da ga iskoristimo kao EO. To što on nema šta",
+          "bbox_pt": [
+            256.13,
+            544.969616,
+            489.869648,
+            554.959184
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            38.61809,
+            557.785838,
+            42.585102,
+            562.089378
+          ]
+        },
+        {
+          "text": "da koduje, ne znači i da oni „ispred njega“ po prioritetu nisu imali.",
+          "bbox_pt": [
+            256.13,
+            555.811,
+            495.803,
+            565.783
+          ]
+        },
+        {
+          "text": "Suština ovako realizovanog EO sa stanovišta pojedinog kodera je",
+          "bbox_pt": [
+            256.13,
+            566.611,
+            491.39,
+            576.574
+          ]
+        },
+        {
+          "text": "„dozvoljeno mi je da kodujem, nemam šta da kodujem, pa ću i ja",
+          "bbox_pt": [
+            256.13,
+            577.411,
+            490.138,
+            587.383
+          ]
+        },
+        {
+          "text": "dozvoliti koderu nižeg prioriteta, odnosno dozvoljeno mi je da",
+          "bbox_pt": [
+            256.13,
+            588.211,
+            480.707,
+            598.174
+          ]
+        },
+        {
+          "text": "kodujem imam šta da kodujem pa ću zabraniti nižim koderima da",
+          "bbox_pt": [
+            256.13,
+            599.011,
+            492.136,
+            608.983
+          ]
+        },
+        {
+          "text": "EO",
+          "bbox_pt": [
+            232.202722,
+            609.669832,
+            238.549865,
+            613.973372
+          ]
+        },
+        {
+          "text": "GS",
+          "bbox_pt": [
+            190.14478,
+            610.799928,
+            196.231617,
+            615.103468
+          ]
+        },
+        {
+          "text": "A1",
+          "bbox_pt": [
+            145.848617,
+            611.816217,
+            151.666369,
+            616.119758
+          ]
+        },
+        {
+          "text": "A0",
+          "bbox_pt": [
+            167.214908,
+            611.929227,
+            173.040597,
+            616.232767
+          ]
+        },
+        {
+          "text": "koduju, odnosno nije mi dozvoljeno da kodujem pa neću dozvoliti",
+          "bbox_pt": [
+            256.13,
+            609.811,
+            494.764,
+            619.783
+          ]
+        },
+        {
+          "text": "ni koderima nižeg prioriteta da koduju",
+          "bbox_pt": [
+            256.13,
+            620.613,
+            394.531,
+            630.585
+          ]
+        }
+      ],
+      "id": "03-s020",
+      "frame_label": "03-s020",
+      "output_page": 20,
+      "tex": "slajdovi/s020_ulazi_ei_i_izlazi_eo.tex",
+      "source_text": "U tom smislu ćemo dodati ulazni signal EI (enable input) koji ako je aktivan, komponenta daje validne izlaze A1 i A0, a ako je\nneaktivan postavlja ih na logičke nule. Ovo možemo da uvedemo i za GS signal, u smislu da kada je on neaktivan komponenta\nnema šta da koduje bilo zato što nema aktivnih signala na ulazima, bilo zato što joj je „zabranjeno“ kodovanje. Kodovanje će\njoj biti zabranjeno ako na koderu višeg prioriteta ima šta da se koduje. Znači treba nam i jedan dodatan izlaz EO (enable\noutput) koji suštinski dozvoljava koderu nižeg prioriteta da koduje. Dodavanjem ova dva signala u osnovnu šemu kodera\nprioriteta dobijamo\nMožda ne prvi pogled liči da nam nije trebao EO signal i da smo\numesto njega mogli upotrebiti invertovani GS signal. Informacija\nEI\nI3\nmora da se prenese „odgore na dole“ bez obzira šta se dešavalo u\npojedinom koderu. Na primer sa ovako realizovanim GS on ima i\nznačenje: nema šta da koduje pošto mu je zabranjeno, i da smo ga\nI2\niskoristili kao EO on bi svojim invertovanim nivoom dozvolio\nkoderu nižeg prioriteta da „radi“ a ne sme. Mogli smo da ne\nI1\nuslovima GS, to nam neće smetati za drugi nivo kodera prioriteta,\nali opet ne bi smeli da ga iskoristimo kao EO. To što on nema šta\nI0\nda koduje, ne znači i da oni „ispred njega“ po prioritetu nisu imali.\nSuština ovako realizovanog EO sa stanovišta pojedinog kodera je\n„dozvoljeno mi je da kodujem, nemam šta da kodujem, pa ću i ja\ndozvoliti koderu nižeg prioriteta, odnosno dozvoljeno mi je da\nkodujem imam šta da kodujem pa ću zabraniti nižim koderima da\nEO\nGS\nA1\nA0\nkoduju, odnosno nije mi dozvoljeno da kodujem pa neću dozvoliti\nni koderima nižeg prioriteta da koduju",
+      "inventory_confirmed": true,
+      "inventory": {
+        "tekstualni_sloj": "U tom smislu ćemo dodati ulazni signal EI (enable input) koji ako je aktivan, komponenta daje validne izlaze A1 i A0, a ako je\nneaktivan postavlja ih na logičke nule. Ovo možemo da uvedemo i za GS signal, u smislu da kada je on neaktivan komponenta\nnema šta da koduje bilo zato što nema aktivnih signala na ulazima, bilo zato što joj je „zabranjeno“ kodovanje. Kodovanje će\njoj biti zabranjeno ako na koderu višeg prioriteta ima šta da se koduje. Znači treba nam i jedan dodatan izlaz EO (enable\noutput) koji suštinski dozvoljava koderu nižeg prioriteta da koduje. Dodavanjem ova dva signala u osnovnu šemu kodera\nprioriteta dobijamo\nMožda ne prvi pogled liči da nam nije trebao EO signal i da smo\numesto njega mogli upotrebiti invertovani GS signal. Informacija\nEI\nI3\nmora da se prenese „odgore na dole“ bez obzira šta se dešavalo u\npojedinom koderu. Na primer sa ovako realizovanim GS on ima i\nznačenje: nema šta da koduje pošto mu je zabranjeno, i da smo ga\nI2\niskoristili kao EO on bi svojim invertovanim nivoom dozvolio\nkoderu nižeg prioriteta da „radi“ a ne sme. Mogli smo da ne\nI1\nuslovima GS, to nam neće smetati za drugi nivo kodera prioriteta,\nali opet ne bi smeli da ga iskoristimo kao EO. To što on nema šta\nI0\nda koduje, ne znači i da oni „ispred njega“ po prioritetu nisu imali.\nSuština ovako realizovanog EO sa stanovišta pojedinog kodera je\n„dozvoljeno mi je da kodujem, nemam šta da kodujem, pa ću i ja\ndozvoliti koderu nižeg prioriteta, odnosno dozvoljeno mi je da\nkodujem imam šta da kodujem pa ću zabraniti nižim koderima da\nEO\nGS\nA1\nA0\nkoduju, odnosno nije mi dozvoljeno da kodujem pa neću dozvoliti\nni koderima nižeg prioriteta da koduju",
+        "napomena": "Popis dopunjen neposrednim pregledom originalnog slajda.",
+        "vizuelni_popis": "Oba puna pasusa, sa izvornim slovnim greškama i otvorenim navodnikom; prioritetni deo iz slajda 17, četiri dodatna I sa EI, tri koderska ILI, invertor GS i I za EO; sve veze i A1/A0/GS/EO.",
+        "kategorije": [
+          "tekst",
+          "crtezi"
+        ]
+      }
+    },
+    {
+      "pdf_page": 11,
+      "position": "gornji",
+      "source_number": 21,
+      "bbox_pt": [
+        30,
+        68.7,
+        510,
+        338.7
+      ],
+      "source_lines": [
+        {
+          "text": "Sa ovako realizovanim koderom prioriteta mreža sa 16 ulaza postaje",
+          "bbox_pt": [
+            45.0,
+            78.641,
+            291.419,
+            88.613
+          ]
+        },
+        {
+          "text": "1",
+          "bbox_pt": [
+            113.17395,
+            109.122956,
+            114.849328,
+            112.159068
+          ]
+        },
+        {
+          "text": "EI",
+          "bbox_pt": [
+            111.638721,
+            116.291669,
+            114.801318,
+            119.327781
+          ]
+        },
+        {
+          "text": "I15",
+          "bbox_pt": [
+            95.269458,
+            124.421833,
+            99.736114,
+            127.457945
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            104.022331,
+            124.264403,
+            106.813529,
+            127.300515
+          ]
+        },
+        {
+          "text": "I14",
+          "bbox_pt": [
+            95.043279,
+            130.797771,
+            99.509935,
+            133.833883
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            103.796152,
+            130.634718,
+            106.587349,
+            133.67083
+          ]
+        },
+        {
+          "text": "I13",
+          "bbox_pt": [
+            95.269458,
+            137.173708,
+            99.736114,
+            140.209821
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            104.022331,
+            137.010655,
+            106.813529,
+            140.046768
+          ]
+        },
+        {
+          "text": "I12",
+          "bbox_pt": [
+            95.269458,
+            143.549646,
+            99.736114,
+            146.585758
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            104.022331,
+            143.386593,
+            106.813529,
+            146.422705
+          ]
+        },
+        {
+          "text": "KP",
+          "bbox_pt": [
+            111.632578,
+            132.551997,
+            115.915459,
+            135.588109
+          ]
+        },
+        {
+          "text": "Mogli smo još da pojednostavimo mrežu u smislu da izlaze A1 i",
+          "bbox_pt": [
+            244.13,
+            125.951,
+            476.962,
+            135.923
+          ]
+        },
+        {
+          "text": "A0 kada je koder neaktivan dovedemo u stanje visoke",
+          "bbox_pt": [
+            244.13,
+            140.183,
+            476.878,
+            148.283
+          ]
+        },
+        {
+          "text": "impedanse. U tom smislu mogli bi na izlazima da izvršimo",
+          "bbox_pt": [
+            244.13,
+            150.791,
+            476.782,
+            160.763
+          ]
+        },
+        {
+          "text": "direktno spajanje, ne bi nam trebala četvoroulazna ILI kola.",
+          "bbox_pt": [
+            244.13,
+            163.151,
+            459.19,
+            173.123
+          ]
+        },
+        {
+          "text": "GS",
+          "bbox_pt": [
+            120.181052,
+            133.822687,
+            124.463933,
+            136.858799
+          ]
+        },
+        {
+          "text": "A1",
+          "bbox_pt": [
+            119.879479,
+            145.776164,
+            123.9747,
+            148.812276
+          ]
+        },
+        {
+          "text": "EO A0",
+          "bbox_pt": [
+            112.174292,
+            148.964133,
+            123.578746,
+            153.597041
+          ]
+        },
+        {
+          "text": "EI",
+          "bbox_pt": [
+            111.638721,
+            162.514406,
+            114.801318,
+            165.550518
+          ]
+        },
+        {
+          "text": "I11",
+          "bbox_pt": [
+            95.269458,
+            170.537742,
+            99.736114,
+            173.573854
+          ]
+        },
+        {
+          "text": "I10",
+          "bbox_pt": [
+            95.043279,
+            176.908057,
+            99.509935,
+            179.94417
+          ]
+        },
+        {
+          "text": "KP",
+          "bbox_pt": [
+            111.632578,
+            178.769111,
+            115.915459,
+            181.805224
+          ]
+        },
+        {
+          "text": "1",
+          "bbox_pt": [
+            187.578117,
+            179.247026,
+            189.253495,
+            182.283138
+          ]
+        },
+        {
+          "text": "GS",
+          "bbox_pt": [
+            120.181052,
+            180.045423,
+            124.463933,
+            183.081536
+          ]
+        },
+        {
+          "text": "I9",
+          "bbox_pt": [
+            96.107161,
+            183.283995,
+            98.898358,
+            186.320107
+          ]
+        },
+        {
+          "text": "I8",
+          "bbox_pt": [
+            96.107161,
+            189.659933,
+            98.898358,
+            192.696045
+          ]
+        },
+        {
+          "text": "EI",
+          "bbox_pt": [
+            186.835354,
+            188.012534,
+            189.997951,
+            191.048647
+          ]
+        },
+        {
+          "text": "A1",
+          "bbox_pt": [
+            119.879479,
+            191.998901,
+            123.9747,
+            195.035013
+          ]
+        },
+        {
+          "text": "EO A0",
+          "bbox_pt": [
+            112.174292,
+            195.18687,
+            123.578746,
+            199.814155
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            178.424822,
+            194.388472,
+            181.217137,
+            197.424584
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            178.201435,
+            200.76441,
+            180.993749,
+            203.800522
+          ]
+        },
+        {
+          "text": "KP",
+          "bbox_pt": [
+            186.036745,
+            203.153981,
+            190.319626,
+            206.190093
+          ]
+        },
+        {
+          "text": "GS",
+          "bbox_pt": [
+            194.190381,
+            203.952378,
+            198.473262,
+            206.988491
+          ]
+        },
+        {
+          "text": "GS",
+          "bbox_pt": [
+            205.270391,
+            203.952378,
+            209.553272,
+            206.988491
+          ]
+        },
+        {
+          "text": "EO",
+          "bbox_pt": [
+            186.181946,
+            219.8866,
+            190.647987,
+            222.922712
+          ]
+        },
+        {
+          "text": "A1",
+          "bbox_pt": [
+            194.491954,
+            216.704254,
+            198.591084,
+            219.740366
+          ]
+        },
+        {
+          "text": "A0",
+          "bbox_pt": [
+            194.285321,
+            220.684998,
+            198.378866,
+            223.72111
+          ]
+        },
+        {
+          "text": "A3",
+          "bbox_pt": [
+            205.153113,
+            216.704254,
+            209.246658,
+            219.740366
+          ]
+        },
+        {
+          "text": "A2",
+          "bbox_pt": [
+            205.153113,
+            219.8866,
+            209.246658,
+            222.922712
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            178.424822,
+            207.140347,
+            181.217137,
+            210.17646
+          ]
+        },
+        {
+          "text": "EI",
+          "bbox_pt": [
+            111.638721,
+            208.73152,
+            114.801318,
+            211.767633
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            178.424822,
+            213.516285,
+            181.217137,
+            216.552397
+          ]
+        },
+        {
+          "text": "I7",
+          "bbox_pt": [
+            96.107161,
+            216.648029,
+            98.898358,
+            219.684141
+          ]
+        },
+        {
+          "text": "I6",
+          "bbox_pt": [
+            95.880981,
+            223.023966,
+            98.672179,
+            226.060079
+          ]
+        },
+        {
+          "text": "KP",
+          "bbox_pt": [
+            111.632578,
+            224.991848,
+            115.915459,
+            228.027961
+          ]
+        },
+        {
+          "text": "GS",
+          "bbox_pt": [
+            120.181052,
+            226.262538,
+            124.463933,
+            229.29865
+          ]
+        },
+        {
+          "text": "EO",
+          "bbox_pt": [
+            205.181036,
+            226.262538,
+            209.647077,
+            229.29865
+          ]
+        },
+        {
+          "text": "I5",
+          "bbox_pt": [
+            96.107161,
+            229.399904,
+            98.898358,
+            232.436016
+          ]
+        },
+        {
+          "text": "I4",
+          "bbox_pt": [
+            96.107161,
+            235.775842,
+            98.898358,
+            238.811954
+          ]
+        },
+        {
+          "text": "A1",
+          "bbox_pt": [
+            119.879479,
+            238.216015,
+            123.9747,
+            241.252128
+          ]
+        },
+        {
+          "text": "EO A0",
+          "bbox_pt": [
+            112.174292,
+            241.403984,
+            123.578746,
+            246.036892
+          ]
+        },
+        {
+          "text": "Verovatno ste uočili da striktnih standarda za crtanje simbola",
+          "bbox_pt": [
+            244.13,
+            180.551,
+            477.109,
+            190.523
+          ]
+        },
+        {
+          "text": "kola srednjeg stepena integracije nema. Ono što je uobičajeno",
+          "bbox_pt": [
+            244.13,
+            193.031,
+            477.019,
+            203.003
+          ]
+        },
+        {
+          "text": "jeste da ulazi budu na jednoj strani simbola a izlazi na drugoj",
+          "bbox_pt": [
+            244.13,
+            207.263,
+            476.938,
+            215.363
+          ]
+        },
+        {
+          "text": "strani. Da se ne mešaju ulazi i izlazi na jednoj stranici simbola. I",
+          "bbox_pt": [
+            244.13,
+            217.871,
+            476.977,
+            227.843
+          ]
+        },
+        {
+          "text": "dosta često se ulazi crtaju sa leve strane simbola a izlazi sa",
+          "bbox_pt": [
+            244.13,
+            230.251,
+            476.896,
+            240.223
+          ]
+        },
+        {
+          "text": "desne strane simbola.",
+          "bbox_pt": [
+            244.13,
+            244.603,
+            321.38,
+            252.703
+          ]
+        },
+        {
+          "text": "EI",
+          "bbox_pt": [
+            111.638721,
+            254.954257,
+            114.801318,
+            257.99037
+          ]
+        },
+        {
+          "text": "I3",
+          "bbox_pt": [
+            96.107161,
+            262.974782,
+            98.898358,
+            266.010894
+          ]
+        },
+        {
+          "text": "I2",
+          "bbox_pt": [
+            95.880981,
+            269.349595,
+            98.672179,
+            272.385708
+          ]
+        },
+        {
+          "text": "KP",
+          "bbox_pt": [
+            111.632578,
+            271.208963,
+            115.915459,
+            274.245075
+          ]
+        },
+        {
+          "text": "GS",
+          "bbox_pt": [
+            120.181052,
+            270.093455,
+            124.463933,
+            273.129567
+          ]
+        },
+        {
+          "text": "I1",
+          "bbox_pt": [
+            96.107161,
+            275.724971,
+            98.898358,
+            278.761083
+          ]
+        },
+        {
+          "text": "I0",
+          "bbox_pt": [
+            96.107161,
+            282.099784,
+            98.898358,
+            285.135896
+          ]
+        },
+        {
+          "text": "A1",
+          "bbox_pt": [
+            171.907498,
+            278.517676,
+            176.006628,
+            281.553789
+          ]
+        },
+        {
+          "text": "A1",
+          "bbox_pt": [
+            119.879479,
+            284.437628,
+            123.9747,
+            287.47374
+          ]
+        },
+        {
+          "text": "EO A0",
+          "bbox_pt": [
+            112.174292,
+            287.625034,
+            123.578746,
+            292.255131
+          ]
+        },
+        {
+          "text": "A0",
+          "bbox_pt": [
+            171.723203,
+            295.195758,
+            175.822333,
+            298.23187
+          ]
+        }
+      ],
+      "id": "03-s021",
+      "frame_label": "03-s021",
+      "output_page": 21,
+      "tex": "slajdovi/s021_lanac_kodera_prioriteta.tex",
+      "source_text": "Sa ovako realizovanim koderom prioriteta mreža sa 16 ulaza postaje\n1\nEI\nI15\nI3\nI14\nI2\nI13\nI1\nI12\nI0\nKP\nMogli smo još da pojednostavimo mrežu u smislu da izlaze A1 i\nA0 kada je koder neaktivan dovedemo u stanje visoke\nimpedanse. U tom smislu mogli bi na izlazima da izvršimo\ndirektno spajanje, ne bi nam trebala četvoroulazna ILI kola.\nGS\nA1\nEO A0\nEI\nI11\nI10\nKP\n1\nGS\nI9\nI8\nEI\nA1\nEO A0\nI3\nI2\nKP\nGS\nGS\nEO\nA1\nA0\nA3\nA2\nI1\nEI\nI0\nI7\nI6\nKP\nGS\nEO\nI5\nI4\nA1\nEO A0\nVerovatno ste uočili da striktnih standarda za crtanje simbola\nkola srednjeg stepena integracije nema. Ono što je uobičajeno\njeste da ulazi budu na jednoj strani simbola a izlazi na drugoj\nstrani. Da se ne mešaju ulazi i izlazi na jednoj stranici simbola. I\ndosta često se ulazi crtaju sa leve strane simbola a izlazi sa\ndesne strane simbola.\nEI\nI3\nI2\nKP\nGS\nI1\nI0\nA1\nA1\nEO A0\nA0",
+      "inventory_confirmed": true,
+      "inventory": {
+        "tekstualni_sloj": "Sa ovako realizovanim koderom prioriteta mreža sa 16 ulaza postaje\n1\nEI\nI15\nI3\nI14\nI2\nI13\nI1\nI12\nI0\nKP\nMogli smo još da pojednostavimo mrežu u smislu da izlaze A1 i\nA0 kada je koder neaktivan dovedemo u stanje visoke\nimpedanse. U tom smislu mogli bi na izlazima da izvršimo\ndirektno spajanje, ne bi nam trebala četvoroulazna ILI kola.\nGS\nA1\nEO A0\nEI\nI11\nI10\nKP\n1\nGS\nI9\nI8\nEI\nA1\nEO A0\nI3\nI2\nKP\nGS\nGS\nEO\nA1\nA0\nA3\nA2\nI1\nEI\nI0\nI7\nI6\nKP\nGS\nEO\nI5\nI4\nA1\nEO A0\nVerovatno ste uočili da striktnih standarda za crtanje simbola\nkola srednjeg stepena integracije nema. Ono što je uobičajeno\njeste da ulazi budu na jednoj strani simbola a izlazi na drugoj\nstrani. Da se ne mešaju ulazi i izlazi na jednoj stranici simbola. I\ndosta često se ulazi crtaju sa leve strane simbola a izlazi sa\ndesne strane simbola.\nEI\nI3\nI2\nKP\nGS\nI1\nI0\nA1\nA1\nEO A0\nA0",
+        "napomena": "Popis dopunjen neposrednim pregledom originalnog slajda.",
+        "vizuelni_popis": "Uvod, oba puna pasusa i plavo isticanje; pet KP sa EI/EO, dve konstante 1, sva četiri nivoa lanca EO→EI; 16 ulaza, četiri GS veze, dva ILI4 za A1/A0, A3/A2/GS i otvoreni EO drugog nivoa.",
+        "kategorije": [
+          "tekst",
+          "crtezi"
+        ]
+      }
+    }
+  ]
+}

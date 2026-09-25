@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "slides": {
+    "06-s001": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Izvorni naslov KODOVI. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "315c1485137d91c0668fd153995ff57574d1a98d88d0ecbed5b33dbfac34685e",
+      "new_render_sha256": "a037c885a000a7fba1e4af22efa894c8f45e43f7857d2d3e8cc6931afcf33c3a"
+    },
+    "06-s002": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Svi pasusi, PSR/CCR/Flag register, C/Z/S/N/V/O/W, napomena o proveri prekoračenja na programskom nivou; sačuvane izvorne slovne greške. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "1812499c715507eb0bbf2440baaf48e6460905d110185ca709f9ea34dac72d9f",
+      "new_render_sha256": "982468bc747872ac3c58583c12bb126bbef38dc72c46c3515bf6c28981304186"
+    },
+    "06-s003": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Svih 128 ćelija originalne USASCII tabele, kontrolne skraćenice, svi štampajući znaci, zaglavlja/biti/red/kolona i sedam strelica; ASCII/ANSI definicije, heksadekadni primeri i spisak standarda. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "f5a18963d5173daf65531d8e6e80cd231f8bd4ad861d0d1633a1fad2ec11a68e",
+      "new_render_sha256": "91d21c62652306f32bc94457f5e9c6e57ef635d9f5040e77c5d677221c500445"
+    },
+    "06-s004": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Četrdeset četvorobitnih reči, četiri koda, Stibitz/Aiken imena, težine 84−2−1, šest crvenih ćelija, zagrada i napomena autokomplementarnosti. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "e420a31ee4bb20cf3ae54fa26e226a0dfa16f1b206aff7aa64b827cbc652daac",
+      "new_render_sha256": "c56c2f48840044caf70d7a51af3f9b89b56ff49d3e96281206dcf7e334495ec8"
+    },
+    "06-s005": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Sve rečenice, pitanje 59+13, šest računskih redova, prenos, korekcija 0110, rezultat 72, zagrade cifara i −10+16≡+6. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "a03553e20c4bf5ebc086e07777b1a96e3913d5351c5dcd577cbf341a6e2e977e",
+      "new_render_sha256": "1c57f9ef9be909386cc6c43c88c1fa38f11506639ce23174b97e6154d3f317ae"
+    },
+    "06-s006": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Ceo niz transformacija preko komplementa 81, pet računskih redova sa izlaznim prenosom i korekcijom 60, rezultat 124 i zagrade cifara 24. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "9f89cdf1d5746aed07e23bb74c4831a41a6ddf57d2b706dee9cae5d846bc116e",
+      "new_render_sha256": "899822508610ad64375df39c24b24711e1540d51778e6395c32fa3c83033a093"
+    },
+    "06-s007": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Izvorni prvi red 19−53, zatim 19−43 i komplement 57; svaki međured, crveni prenos/korekcija, rezultat 76 i izvorna jednakost 76₁₀=−24₁₀. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "5ae0b4ad78bc8872ee0c2d915e3b11ff2c3e77a7b952d0921add6d8a75b5e127",
+      "new_render_sha256": "e5d105ced3ee4407b4628a493895771a1092b1166ad74e6e5384b54e6b7c3e5b"
+    },
+    "06-s008": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Naslov, sva tri uputstva, osam binarnih prefiksa i decimalnih rezultata, potencijski i ugnježdeni Hornerov razvoj 243; izvorni tekst sa levo. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "efb9fd9c9277acd565f0de5fe380a4d56f11b5d915c2a74dd9b0bebab93a472c",
+      "new_render_sha256": "76b418ec7fe8a1bcf0290545df5d1f56b0a2d83ba929d0d6508ff55450b07478"
+    },
+    "06-s009": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Svih 15×11 ćelija uključujući prazne redove, oznake 15/30/121/243 i crvene/plave pozicije, korekcije 0110. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "192d40c12b57d00541715a4dcb1496ab75ae33dcdca5bbba69507a8fb1442d93",
+      "new_render_sha256": "34b4cb42fdb71432a9ecc77e31c3440cce82507bbdf9645ddde95f28c095635a"
+    },
+    "06-s010": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Svih 17×11 ćelija, sve korekcije 011, prazni redovi i četiri grupe boja završnog rezultata. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "3dd15e985c61e828cf34412f5b0de005bd09e84ff78d21c66e0cf5bff621f68a",
+      "new_render_sha256": "c6bc8f012ed90982bcbb1d05f03c1ad6005c6fff3f3a66de5d5811d7bff0f497"
+    },
+    "06-s011": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Četiri koraka algoritma i svih 17×5 ćelija, osam pomeranja <<, tri ADD 3, redovi R, crvene cifre i završne 2/4/3. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "0a4be74f98c93bcb8acdaf0a268551bb79c46e2b1f16f5fd707782a181be1c72",
+      "new_render_sha256": "d8b49a0b3b0c4d85f2cc468a87d65666958ea3cc6fde8182804f876553f88f62"
+    },
+    "06-s012": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "IEEE naziv, V sa znakom/mantisom/osnovom/eksponentom, S=0/1, skrivena jedinica i frakcija F, E−B, k bita i B=2^(k−1)−1, crveni SEF. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "c8da6a055388680a9fdcfbb95f96917c3d8af6f1301d95d00e1492fd3ce08740",
+      "new_render_sha256": "cf0d09deaeec6a7f489383e1ac87cfc93f62ce92ea4c77cb1a6223a61641be3c"
+    },
+    "06-s013": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Oba primera 13.25 i −164, svi biti i međukoraci; izvornih 22 bita prve frakcije i skraćeni −101001₂ verno sačuvani. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "c24fb5ccfdb9144c321cb3deaf08b650989fa923c8c9eca72030ada4bcb2c8d6",
+      "new_render_sha256": "e2cf3ff7889c140a167f8c16ebb65ac2e0708970c1635cec146640508922c0af"
+    },
+    "06-s014": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Svih pet engleskih pravila (a)–(e), uključujući izvorno 1<E<254 i zapis F<>0, NAN, infinities, denormal i ±0. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "99753d12aefb65ca2c7e753644ab0e62b6075cc4e8ea017ea761900f98d19a83",
+      "new_render_sha256": "0a8d9d14d608a1569a0b5ee753a97930289eaf1954456270adbc325b97a268aa"
+    },
+    "06-s015": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Svi načini zaokruživanja, grupisana zaglavlja Mod/Primer, četiri ulaza i svih 20 izlaznih vrednosti sa znacima i decimalnim nulama. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "50677d2df7b31f6c66739bc88f54022e776109b7a93f8f9999f2e39cfad1aacd",
+      "new_render_sha256": "09f90f2bb640178c50baff3ce97da68033e2e4c1f122d9309889ad89cbb45769"
+    },
+    "06-s016": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Svih osam redova tri kodiranja, donja brojanja 8 od 8/128/256, obe težinske napomene sa izvornim nizom 1,2,3,4…6,7. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "4b87387306e3eca1b1f6d9b9923bdd600708a1d4e85d7f9d0d22f4d5a574131d",
+      "new_render_sha256": "8b5d3992be142b08b18351cba6e51b468b46fa1fad78769ce27dd8aaaef5898b"
+    },
+    "06-s017": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Šesnaest binarnih i Grejovih reči, deset Grejovih BCD reči, prazne ćelije, četiri crvena granična koda i objašnjenje jednog promenjenog bita. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "d4e33fb888ce0b724478245f78cad5580fefa0281494e87549bd171e3b05f903",
+      "new_render_sha256": "8086037b65e045c9146c17f3322afe9ad6b79bc0a6663f70e3ee9d3bd174574f"
+    },
+    "06-s018": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Četiri kanala D/rD sa Δt, predajnik/prijemnik, osam signala i svih osam osa, četiri kašnjenja, tri očitavanja 1001/1111/0111 i kompletan opis grešaka. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "a3e52d86ef5afbd89e6215e1435f630a823b33201b25250ebcf22ee1ce52333b",
+      "new_render_sha256": "2543b8b6032282e47a0f9ef8dde15465de87cc712e90db92f3657a3200474a84"
+    },
+    "06-s019": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Isti kanali i osam dijagrama, promena samo D3/rD3, očitavanja 1100/1100/0100, sve Δt strelice čak i kod stabilnih signala; nema izmišljenih početnih 0 na D1/D0. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "e80cb722ec45cdd11fdc9700c04ee34ced4956c2515db049660be5601bb1f044",
+      "new_render_sha256": "0dd5d7b223c1c52f1a755c6930464ca7deb77d920d079f80c405a831a90aa648"
+    },
+    "06-s020": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Dve Karnoove karte sa svim zaglavljima, razlikom D1D0/D₁D₀, zagradama, početnom nulom i krajnjim 15/9; svaki smer narandžastih putanja BINARNI/BCD. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "346577b0eb2764124dfd172c57d8e87cf5bb6d5e725ff3cc0199c7d9eeca5b42",
+      "new_render_sha256": "9aee56c42fa0840c7f95eeb0a4337f188d840370faabef54c5f8b76667ad0f27"
+    },
+    "06-s021": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "XOR identitet i svih 7×5 ćelija sa plavim p i crvenim a; B/G zapisi, obe pune liste formula i elipse; izvorno pogrešna povratna konverzija sačuvana. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "afc5636e28c1f8dc8a0af1b776429c55498c2859e210e91290e894302b3b8724",
+      "new_render_sha256": "336a3c066da0a05ca86002a0650476da4e95715545d8176b3cbd46a35dee97aa"
+    },
+    "06-s022": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Svi uvodni pasusi, 8×4 tabela parnosti i 8 od 16, EKSILI, neparan broj grešaka i obe vrste parnosti. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "033ffa76df2b83884290ee7eb870e8c275183ad5860041abf2bfaa43d861ba43",
+      "new_render_sha256": "8174be1f200e65115d1ed40e6dae32bfaa2b713c571115fb75cfbc06c2d5a620"
+    },
+    "06-s023": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Opšti polinom, tabela svih 10 koeficijenata i stepena, 1010100101, generator g stepena k, dodavanje k bita i ostatak deljenja po modulu 2. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "0a3162f4f0208fbee11b414fe0316e4e3d1ed94a909d6d5f0cf028a26c23088e",
+      "new_render_sha256": "f752079f454a66e691aef5adbec6f8d48efe9860e92884134fc23d4ef7e487c1"
+    },
+    "06-s024": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Poruka 11100110, generator X⁴+X³+1, svi razlomci, količnik i ostatak 0110, poslata poruka, svi članovi razvoja proizvoda, uparene boje i strelica povezivanja ostatka. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "832b9fea6bf6390b1a20b2c22d6efde6a62dccadc250554db2e13cb712e854ce",
+      "new_render_sha256": "225153589b8f72b0d22e8e334d47b41e4847007bd97ab7dbf85139970e0b4fc6"
+    },
+    "06-s025": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Svih 23×13 ćelija deljenja, XOR/R oznake, svi crni podvučeni redovi, sedam strelica spuštanja, prijemne alternative 0(1)/1(0), boje i kompletna objašnjenja obe strane. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "57ec4fb353e0ed581bfb2c8d52e4ae8ac4ed2f2d7d5dba52e27b4edfd07ce671",
+      "new_render_sha256": "f21f8112bbaa3d7c0e8de34fc8ff8b0ee33cb17a8356657c95a636f819b69375"
+    },
+    "06-s026": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Definicije i izvorni tipografski oblici raastojanje/Hemnigovo, dve reči sa crvenim razlikama, d=1/2, uslovi detekcije i korekcije sa izvornim >=. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "6bec5f4e252d2222682f007e989d6a8289883a5d9f00bd541a7cc1c752a207d5",
+      "new_render_sha256": "260c2ec54f507357e13555259992b6b87514ca41490c80f96e79c561ce422e19"
+    },
+    "06-s027": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "d=3, sva tri tekstualna objašnjenja i nejednakosti za n i r. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "9eb9f1c675fa8d2ad63af0dbcbb4cfaddd1b6ea2a5378bc76a059367887c2f37",
+      "new_render_sha256": "f5a0b1ea2d77793690b11263c5b74541d1c19844ae3c468d44dae3c535bb9e92"
+    },
+    "06-s028": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Tri koraka, svih 8×15 ćelija, decimalne i binarne pozicije 13…1, postojeće i/r oznake, svaki x, četiri crvena zaštitna polja i prazan donji red. Izvorni suvišni x u koloni 13, redu r₁/p₁, sačuvan i evidentiran. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "f63238bb7479f030af427ddb90db0a0ae0adb0731159aa33e28a3f362410c257",
+      "new_render_sha256": "566b77400d03dd35db7a586403fbee3451b06604c1fbc3181d61bafdbc9208e7"
+    },
+    "06-s029": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Dva koraka prijema, svih 8×15 ćelija uključujući x na zaštitnim pozicijama, p0…p3 i elipsa, obe završne provere sindroma sa opisima. Izvorni suvišni x u koloni 13, redu r₁/p₁, sačuvan i evidentiran. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "b406ff56b94a701534aab833daf60edaf876355b76ff65621c2f3f58b0ccca96",
+      "new_render_sha256": "bd9707c5da971d7bd17b8f3228e9ae14269e6818e430a5ecc4c551538f2a5382"
+    },
+    "06-s030": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Parnost/termometarski/jedan od/Grejov kod i sva rastojanja, šest binarnih primera, crveni/plavi biti, oba upozorenja o mogućoj grešci i završni iskaz. Original i novi prikaz pregledani pojedinačno u punoj veličini; sadržaj i čitljivost provereni. Izvorne greške su dokumentovane odvojeno.",
+      "source_render_sha256": "df5af74971a190ef9a7ddb806dfcbb7b5d39e463fd26aeaa0151e6aa6a036dc8",
+      "new_render_sha256": "8480640e448858933023bfb1cbc0793c8f5acaabff6160bb0f7172a2f2e913f7"
+    }
+  }
+}

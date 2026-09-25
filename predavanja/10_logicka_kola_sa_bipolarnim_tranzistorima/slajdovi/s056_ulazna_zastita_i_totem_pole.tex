@@ -1,0 +1,9 @@
+\slajdid{10-s056}
+\begin{frame}[label=10-s056]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\fontsize{9}{9.5}\selectfont
+\begin{columns}[c,onlytextwidth]\column{.36\textwidth}\centering\input{slike/tikz/s056_standardno_ttl_kolo.tex}\column{.62\textwidth}
+1.\quad Diode D1 i D2 na ulazu kola. One su obavezni deo na ulazu u TTL logička kola, i služe da štite ulaz od napona koji su manji od napona mase. Videli smo da ta situacija može da se pojavi kada imamo diferencijatorski efekat u toku signala. Veliki negativan napon na bio kojem ulazu bi rezultovao u velikoj struji kroz tranzistor T1 koji tada radi u direktnom zasićenju i čija je struja direktno proporcionalna ulaznom naponu, Došlo bi prevelike disipacije na ulaznom delu kola pa i do njegovog „pregorevanja“. U toku normalnih režima rada te diode nemaju nikakvu funkciju tako da ćemo ih u našoj analizi „ignorisati“.
+\end{columns}\par\smallskip
+2.\quad Tranzistor T4, otpornik $R_{C4}$ i dioda D4, Ta konfiguracija naziva se totempol (totem pole) konfiguracijom i cilj je da zamene otporniku u kolektoru izlaznog tranzistora. Videli smo da je bilo „problema“ sa tim otpornikom. Treba da bude mali da bi strujni kapacitet logičke jedinice bio velik, a treba da bude velik da bi na karakteristici imali što veće pojačanje itd. Ideja je da tranzistor T4 radi samo kada bi trebala na izlazu da bude logička jedinica i da obezbeđuje veliki strujni kapacitet. A da je isključen kada bi na izlazu trebala da bude logička nula i da ne smeta strujnom kapacitetu logičke nule. Suštinski to obezbeđuje tranzistor T2 i to je ranije spomenuta njegova druga uloga.
+
+\end{frame}

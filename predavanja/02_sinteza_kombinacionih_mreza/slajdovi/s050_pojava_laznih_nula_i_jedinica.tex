@@ -1,0 +1,12 @@
+\slajdid{02-s050}
+\begin{frame}[label=02-s050]{Pojava lažnih nula i jedinica}
+\gusttekst
+\centering (race hazard)\par
+\raggedright
+Zbog kašnjenja koja su različita kod logičkih kola i zavisna i od fabrikacije i od temperature i od starosti komponente \ldots\ mogu se desiti neželjeni efekti na izlazu prilikom promene ulaznih signala. Najčešća situacija je da je izlaz na logičkoj jedinici, da se ulazni signali promene tako da izlaz treba da ostane na logičkoj jedinici ali se zbog propagacije signala pojavi kratkotrajna, lažna, nula na izlazu. Isto takva situacija i da je izlaz na logičkoj nuli, da se ulazni signali promene tako da izlaz treba da ostane na logičkoj nuli ali se zbog propagacije signala pojavi kratkotrajna, lažna, jedinica na izlazu. Dosta čest termin za ove kratkotrajne neželjene signale je glič (glitch). Da vidimo na primeru. Neka je realizovana kombinaciona mreža
+\[
+F=C\bar B+BA
+\]
+\centering
+\input{slike/tikz/s050_mreza_sa_hazardom.tex}
+\end{frame}

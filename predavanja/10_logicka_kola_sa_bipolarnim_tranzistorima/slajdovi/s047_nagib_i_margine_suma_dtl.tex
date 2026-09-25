@@ -1,0 +1,19 @@
+\slajdid{10-s047}
+\begin{frame}[label=10-s047]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[c,onlytextwidth]\column{.31\textwidth}\centering\input{slike/tikz/s047_nagib_karakteristike_dtl.tex}\column{.67\textwidth}
+\[\begin{aligned}V_0&=\frac{V_{CC}-V_{CES}}{(V_D+V_{\gamma T})-(2V_D+V_{BES}-V_{\gamma D})}\\&\quad\cdot\bigl(V_I-(V_D+V_{\gamma T})\bigr)+V_{CC}\end{aligned}\]
+\[\begin{aligned}a&=\frac{V_{CC}-V_{CES}}{(V_D+V_{\gamma T})-(2V_D+V_{BES}-V_{\gamma D})}\\&=-\frac{V_{CC}-V_{CES}}{V_D+V_{BES}-V_{\gamma D}-V_{\gamma T}}\end{aligned}\]
+\end{columns}\medskip
+\begin{columns}[c,onlytextwidth]\column{.39\textwidth}
+\[V_I=V_O\]
+\[V_I=a\bigl(V_I-(V_D+V_{\gamma T})\bigr)+V_{CC}\]
+\[V_I=\frac{V_{CC}-a(V_D+V_{\gamma T})}{(1-a)}=V_M\]
+\column{.59\textwidth}
+Margine šuma za višestruke izvore šuma su
+\[NM_{LMS}=V_{IL}-V_{OL}=V_D+V_{\gamma T}-V_{CES}\]
+\[NM_{HMS}=V_{OH}-V_{IH}=V_{CC}-2V_D-V_{BES}+V_{\gamma D}\]
+Zbog uske prelazne zone margine šuma za jednostruke izvore će biti slične po vrednosti.
+\[NM_{LSS}=V_M-V_{OL}=V_M-V_{CES}\]
+\[NM_{HSS}=V_{OH}-V_M=V_{CC}-V_M\]
+\end{columns}
+\end{frame}

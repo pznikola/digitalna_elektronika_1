@@ -1,0 +1,20 @@
+\slajdid{10-s062}
+\begin{frame}[label=10-s062]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[T,onlytextwidth]\column{.51\textwidth}
+\begin{columns}[c,onlytextwidth]\column{.41\textwidth}\centering\input{slike/tikz/s062_totem_pol_uslov_aktivnog_rezima.tex}\column{.57\textwidth}\centering U aktivnom režimu
+\[V_0=V_{CC}-R_B I_{B1}-V_{BE1}-V_{D1}\]
+\[I_{E1}=\frac{V_O}{R}\]
+\[I_{B1}=\frac{I_{E1}}{\beta_F+1}\]
+\[I_{C1}=\beta_F I_{B1}=\frac{\beta_F}{\beta_F+1}I_{E1}\]
+\end{columns}
+Uslov da tranzistor radi u aktivnom režimu je
+\[V_{CE1}>V_{CES}\]
+\[\begin{aligned}V_{CE1}&=V_{C1}-V_{E1}\\&=(V_{CC}-R_C I_{C1})-(V_O+V_{D1})\end{aligned}\]
+\column{.47\textwidth}\centering Uslov
+\[V_O<\frac{V_{BE1}-V_{CES}}{1-\dfrac{R_C\beta_F}{R_B}}+(V_{CC}-V_{BE1}-V_{D1})\]
+\[za\ R_C\beta_F<R_B\]
+\[V_O>\frac{V_{BE1}-V_{CES}}{1-\dfrac{R_C\beta_F}{R_B}}+(V_{CC}-V_{BE1}-V_{D1})\]
+\[za\ R_C\beta_F>R_B\]
+\raggedright Bez ulaženja u dublju analizu vidi se da će za opsege izlaznog napona $0\leq V_O\leq V_{CC}$ režim rada tranzistor zavisiti od odnosa otpornika $R_C$ i $R_B$. Na primer ako je $R_C=0$, tranzistor će uvek raditi u aktivnom režimu. A ako je $\beta_F R_C<R_B$ praktično uvek u aktivnom režimu. A ako je $\beta_F R_C>R_B$ u zavisnosti od odnosa može da se desi da za neke napone (više napone) radi u aktivnom režimu, a za neke niže u zasićenju.
+\end{columns}
+\end{frame}

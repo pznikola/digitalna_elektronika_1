@@ -1,0 +1,746 @@
+{
+  "schema_version": 1,
+  "slides": {
+    "09_1-s001": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Izvorni naslov i oznaka 1. deo; bez dodatnog naslovnog slajda.",
+      "source_render_sha256": "9e41495581f8123ae019a615ffaf9f13b469ade2adc5e5f2bc0b27f5a7ed475f",
+      "new_render_sha256": "1d3c579fa6fd271ffee55eb6b3a28768fe70fa170ad99ef3f2bbf256958802b6"
+    },
+    "09_1-s002": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Šesnaest simbola: četiri reda i četiri kolone; indukovan/ugrađen kanal, nMOS/pMOS, strelice osnove i sorsa, veza B–S, kružić na gejtu; oznake 1–4, D/G/S/B i legenda.",
+      "source_render_sha256": "e4c9d99f007a3e5856336fb7ef9182d9680f5db8e78b14767bb6074a749ee57c",
+      "new_render_sha256": "508cf55c3fd056807afca66281fa9b8316211d279efc77be6c6203f79557acaa"
+    },
+    "09_1-s003": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Dva NMOS simbola, referentni smerovi IG/ID/IS i naponi VGD/VGS/VDS sa polaritetima; uslovi i obe strujne formule; svih šest definicija parametara i jedinice. Izvorno redstavlja i sors sačuvano.",
+      "source_render_sha256": "6a510642a819aead2242a2863f619d9762a9190668c12ef454a6957c3e263b10",
+      "new_render_sha256": "97a4ff90cf2b49a819fd6ae223ee4d9c570409bd92539f03596dc8039adb6e92"
+    },
+    "09_1-s004": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Pet formula sa svim faktorima i zagradama, nemodifikovani i modifikovani modeli, potpuni pasusi o diskontinuitetu. VT bez n u modifikovanom izrazu zadržan.",
+      "source_render_sha256": "1afe7d0ea90442f3242507f8722aec54f13976a68407d78cd468fb29c5d158e0",
+      "new_render_sha256": "9bdbcef6ef0185ce3b10cb1025111c0989d2bcaaddad40f2fc84698b58f8a6fc"
+    },
+    "09_1-s005": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Oba uvodna pasusa, pojmovi dugačak/kratak kanal sa plavim strelicama, dva kvalitativna v(E) dijagrama sa μ, vsat, EC; obe grane modela i definicija vsat.",
+      "source_render_sha256": "bff447cdbedc4910e2faca60b41dba762e096800d76bb8516962d865ebeb0535",
+      "new_render_sha256": "ef940d927ee07f43cf565635a8aaf8fbd65fca8ca4e79faf984d50ae72f89c3e"
+    },
+    "09_1-s006": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Dve strujne formule kratkog kanala, dodatni faktor modulacije ako treba, oba ne-striktna uslova; crvena četiri razlomka/Ln i plava strelica ka graničnom slučaju velikog Ln.",
+      "source_render_sha256": "21f0c108de7d5d7428bf57ad3f5259c90416a315923eb9dc0a2ac483e4d9bbd5",
+      "new_render_sha256": "5979381c90d0f0fa04219dedea66d9ccd722d84d3e8ab437f5e8e75cb14ba9f7"
+    },
+    "09_1-s007": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Alternativni izraz struje, jednakost brzina 8×10^4 m/s, definicije obe brzine i oba k, završna rečenica; očuvano OX/ox.",
+      "source_render_sha256": "193f0db9cf77490c6bc3285d1572dc9b9ff145e34928c395611a88bac01305c6",
+      "new_render_sha256": "2c609c45c1b4b2ec638bd09f1577eefe45e7d7cf2970082903ad2727eee3f523"
+    },
+    "09_1-s008": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Ceo pasus, velika razlika napona, dve aproksimacije brzine, VDSnsat i tri međukoraka struje. Tri kvalitativna dijagrama sa μ/EC/vsat i imenima modela.",
+      "source_render_sha256": "21c67d493010d07cd362df7e79bbfed49f35e35f885ee5ac504d34c48b65f474",
+      "new_render_sha256": "57c303589c89ddb3150a99fafe34826fc8dd4b849dc17b66caa7fe47fd81f2f7"
+    },
+    "09_1-s009": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. PUN/PDN blok sa ulaznom magistralom, izlazom, napajanjem i masom; definicije pasivnog/aktivnog opterećenja, obe numerisane definicije i tri završna pasusa; isključenja ostaje izvorno.",
+      "source_render_sha256": "eae53ea13d93435490d7cdde1a129915d840c94e8710ce0d5fb466f418253d2a",
+      "new_render_sha256": "738bf203868019facbde573bb1743dbab071871f469dee176f6a61d6b9006616"
+    },
+    "09_1-s010": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. PUN/PDN blok i šest kola: paralelna/redna veza, prekidači i dve varijante MOS simbola. Svih šest napajanja/masa, oznake A/B/Y, otporna opterećenja, strelice ekvivalencije, NI/NILI i obe negirane funkcije.",
+      "source_render_sha256": "829b471de691e40239b5ca006efe317fd36a4f19f048b7aae37541b543d6a3d0",
+      "new_render_sha256": "62a88a4d31561bca39c57fc28ee93213edf6bae81bcd87b701bfa9de8e32a5c6"
+    },
+    "09_1-s011": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. PUN/PDN blok i šest kola: paralelna/redna veza, prekidači i dve varijante MOS simbola. Svih šest napajanja/masa, oznake A/B/Y, otporna opterećenja, strelice ekvivalencije, aktivne nule, dualnost i obe De Morganove jednakosti.",
+      "source_render_sha256": "1d0e2ef035135aaf4390f9a6bbd3f181c0dd54911aa68cdf8fe776a3d36b6b32",
+      "new_render_sha256": "cfae6f190fafaba7c9fafd402868e7df2e67825d2003d8f51511ab4696dbecf2"
+    },
+    "09_1-s012": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Uvod u invertore; šema nMOS/RL sa VI,VO,VDD,TD i masom; kvalitativna prenosna karakteristika sa tri oblasti; pet matematičkih iskaza/izvoda i dva tekstualna objašnjenja prve oblasti i početka provođenja.",
+      "source_render_sha256": "4f0b75d753c786211b2e5361f04b71a90fc6c36b03d456a23a765a16b06be2eb",
+      "new_render_sha256": "001218eb5a63b43907f588185e1acf5ddf04bacd925ead52e3c229cde69f1352"
+    },
+    "09_1-s013": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Potpuni pasusi o implicitnom opisu, VO=f(VI), crvena jednakost struja i proširen izraz sa modulacijom, konačan izraz bez modulacije; izvorno je važi sačuvano.",
+      "source_render_sha256": "ff3d431199fc5458445fce18bb2e3b0563b135599006442e779e283e7cea15bd",
+      "new_render_sha256": "cec9fce41d747f0bde8d6e13baa833424f4d4eb777c8c96f67cb988e34903416"
+    },
+    "09_1-s014": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Ponovljeni izraz zasićenja, parabola i maksimum, granica kratkog kanala u dva oblika, dva izvorna izraza sa korenom. Sumnjiva granica dugog kanala preneta bez ispravke.",
+      "source_render_sha256": "2c1f40492c6b6564395146ae8231ebdfa6cdfd600120983837467f045efded8b",
+      "new_render_sha256": "dce1bdf81e61ccc84e6cd9bc6abc27b4da33bcc6d3b8c0a65706299a47f3dc36"
+    },
+    "09_1-s015": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Dva kvalitativna grafika sa različitim granicama tri oblasti; crvena i plave razdelne linije, dve plave strelice ka krivoj; triodni izraz dvaput, izraz zasićenja, tri oblasti i oba iskaza o pojačanju.",
+      "source_render_sha256": "d0c17b6f6882ed944a6fa03eaaf320f04a7799d394a44c8c65b0aab6ebd28ab3",
+      "new_render_sha256": "0a70175e9a5693cbc876cea5b121f3975a9aa23f2b3a3a16b49a3c4575522695"
+    },
+    "09_1-s016": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. VOH i zamena za VOL, kompletna kvadratna jednačina sa kratkim kanalom i svih pet završnih pasusa o aproksimacijama.",
+      "source_render_sha256": "1b5bd6769badf30de83a9e4a71b175bda60e7ee36fbfd06b902f1378e981ab15",
+      "new_render_sha256": "2048b1f34bb08d54de454c70e7ee9b078b0fa3305fd7f37567b9178f963f53ef"
+    },
+    "09_1-s017": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Dve pretpostavke zanemarivanja, oba kompletna lanca jednakosti/približenja, preuređena jednačina i završni VOL; izvorno u režimi i ponovljeno treba sačuvano.",
+      "source_render_sha256": "455088c1d87691ef7db589f41444aac9ead7be2f71d0a779b623729988f451a5",
+      "new_render_sha256": "6a8daaa8ce9b28408a4eb9b9851a0b1c0fb2f8f5543f61b8a9fc2448987b82f3"
+    },
+    "09_1-s018": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Ceo uvod i definicija jediničnog pojačanja, izraz druge oblasti, epsilon i uslov zanemarivanja, ponovljena oznaka za određivanje VIL i konačno približenje.",
+      "source_render_sha256": "fc054917716781f1de9f1b3223fa6b2080c5be9e1a185121ea64b5eea538a060",
+      "new_render_sha256": "0184deddee53a255ded5cb059656f33547e05749585d78f0ec4f712c3d36c154"
+    },
+    "09_1-s019": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Uvod sa izvornim diferencirano, oznaka diferenciranja desno od jednačine, svih šest jednačina/koraka do VIL i VO(IL).",
+      "source_render_sha256": "8850f105f6e8e2323aaed618851f42ee20356b18bc5301b8c048e83f3941ed50",
+      "new_render_sha256": "3742c4f0ed067e2331e600cde182d4e841378830af18d51d56d5af63da87adc5"
+    },
+    "09_1-s020": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Treća oblast sa kratkim kanalom, uslov izvorno sa jednim znakom <, dva ponovljena približna izraza i potpuni implicitni izvod.",
+      "source_render_sha256": "1df6907b79a7089df73cbcb6009625b2a30fa2bd15cce1d8a02b1701a0065300",
+      "new_render_sha256": "a6b4fa360b270a541528f822b64a66dd33e3c76cea92fdabbc8a3c329ea8dc85"
+    },
+    "09_1-s021": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Nagib −1, zamena izvoda, sistem dve jednačine sa plavom zagradom i crvenim nepoznatim veličinama, oba konačna izraza sa korenom.",
+      "source_render_sha256": "7ea5c7ece37253d6c7b8b2b816e00aaeef9994214e54a659acb51354684989ac",
+      "new_render_sha256": "0fa0743841f0d8b12bba7379ceb1a58995dcbb00dd3d1bfd90726517062f2733"
+    },
+    "09_1-s022": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Uvod sa izvornim odgovarajaću, ISPIT, četiri numerisana zahteva i završna crvena napomena NE TREBA.",
+      "source_render_sha256": "abff82c7d3e129d6f7a1975b49751f2235faefb4c070676fd6fb7a79b9e16f5b",
+      "new_render_sha256": "abf6d8f2d2cafbe33803f58201e1f3e44ffdd658878e0a98fc46eb2c0e5b7407"
+    },
+    "09_1-s023": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Celi pasusi o održivosti, pet uslova, definicija β; grafik sa VO/VI, VOH/VOL/VIL/VIH/VDD, dve tangente a=−1, crveni horizontalni nivoi i plava strelica ka VO(IH).",
+      "source_render_sha256": "b1ba459eec39d929379a2b01ea7bc75c2a363c3a17c32677c1f806aeac09899b",
+      "new_render_sha256": "2c809c4da7a00668d2f834c8e312b043f464f9463ac07c3820266ff83cde615e"
+    },
+    "09_1-s024": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Potpun postupak praga VS: početna jednačina, VI=VO=VS, zamena, pomerena nepoznata, obe kvadratne jednačine sa svim koeficijentima i završni tekst.",
+      "source_render_sha256": "5220631f7c8df1dbdcff48a9b21dd9bade141acece5dea8ce1c37e61c4f6ee90",
+      "new_render_sha256": "55376bdac00c191e71a0a4920aa7e4ecf7404e8c2723e6e294f81ff84d097d4d"
+    },
+    "09_1-s025": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Pretpostavka polovine napajanja, puna približna jednačina, koren sa 0.26/0.71V, poređenje sa 0.7V i 0.6V, sva crvena isticanja i završna ispitna napomena.",
+      "source_render_sha256": "00310e7548f4db50e29b23752b98074808a2e8c8c29c5e83d2ef526e196b75f6",
+      "new_render_sha256": "0ea0dcfc357d54b96ffa1cc354200fd0c4ec0a2094e501c48b60a5de6a73f62d"
+    },
+    "09_1-s026": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Cela tri pasusa i jednakost ulaznih struja, razlika statičkog i dinamičkog faktora grananja.",
+      "source_render_sha256": "9cd4e4578522cda561b7748f407a190d3ed9f47b89c86484e6c97038f1d5f891",
+      "new_render_sha256": "87f03f14f931f2d1cb07a45460c8a4de367155db2bedbd501f002a0cadc014f5"
+    },
+    "09_1-s027": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. IOH sa negativnim znakom, oba IOL izraza sa oduzetom strujom RL, uslovi VOHmin/VOLmax i obe crvene ispitne napomene. Suvišna zatvorena zagrada u prvom IOL izrazu verno preneta.",
+      "source_render_sha256": "f11ff2cb8e52c4e84252966d8e45eaac91cc404e170eb291fa36618fb267d08a",
+      "new_render_sha256": "31162820054d2886e926ae54cab42871a8bd82f9b095cdb66c86c8122da4b7ac"
+    },
+    "09_1-s028": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Dva dinamička modela: punjenje kroz RL i pražnjenje uz konstantan IDn, svi smerovi/polariteti i L u H/H u L. Tri vremenska parametra, strujni izraz i najgori ulaz, početni/krajnji uslov, crveno ≪0 i završno pitanje.",
+      "source_render_sha256": "67b2128deaabefbc15c5bf5630e89b138c1795aa3b72ce2def52df19252663d7",
+      "new_render_sha256": "098d6f4da12285615c82116bad139338fa7ec05704c8822356556bcada4a98ad"
+    },
+    "09_1-s029": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Čitav uslov zasićenja sa dve jednakosti, tekst o brzini, vrednost u tpHL, tačan uslov i dva alternativna dovoljna uslova, završni izvorni iskaz o celom procesu pražnjenja.",
+      "source_render_sha256": "1e408483c6bbea43ee21ab6ea61f263b179478af111a1e2019aad63180f9f435",
+      "new_render_sha256": "e01bdaa3604108756f51c3c38b24cf77da2bacf0c8437b320fad6960ecb4a8f1"
+    },
+    "09_1-s030": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Crveni naslov/λ i završni pasus sa dodatnim isticanjem poslednje rečenice; NMOS sa CL, VO prelaz, ID(VDS) kriva sa tačkama 1/2, strelicom i projekcijama, tp formula i uslovi oblasti.",
+      "source_render_sha256": "5973a254efe7e3da31a1d459c13e41486093e0f538112026624ee9a3df63316a",
+      "new_render_sha256": "c984524610b4023b84a362b7abf7ddc8677ea0ae9a7497de84daa4bcaa95c4cd"
+    },
+    "09_1-s031": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Ponovljena šema i karakteristika sa svim oznakama; crveno Prvi način, aritmetička sredina i oba puna RON razlomka sa faktorom λ.",
+      "source_render_sha256": "e028de7f108ccfb27b6c3c030bcf25dad2db179a46430927973823e23a8c0d68",
+      "new_render_sha256": "a4e40cc185327e8dba9e0efe59956476213bb32be98a7cb357145666b99c5f09"
+    },
+    "09_1-s032": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Definicija IDnsat, oba RON, svi međukoraci srednje vrednosti i linearizacije, završni koeficijent 5/6 i veliko crveno pitanje.",
+      "source_render_sha256": "a73e7b7cae044019755dae0818864defc437e8228d70dffa0b9c5a373de9a26b",
+      "new_render_sha256": "45962ce1458c0ce9ba2f895cb6e8786c769c4e31c1fb550824df830ddb13111b"
+    },
+    "09_1-s033": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Definicija integralne sredine, potpuni RON, zamena IDnsat i pet koraka integracije uključujući dva identična uzastopna integrala. Crveno poređenje aproksimacija i obe izvorne decimalne vrednosti.",
+      "source_render_sha256": "be9f4f652450d601cf1ed3781f7d158b3e3e3fc777a95cd315c8157e96b3f901",
+      "new_render_sha256": "019c8cef2384f749c842d575279a7a77d4831673b10d86526f8c48b2a235cb80"
+    },
+    "09_1-s034": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. PMOS PUN sa VDD/VSG, CL i izlaznim prelazom 0→VDD/2, ID(VSD) kriva sa izvornom oznakom VGS i tačkama 1/2, napomena o sorsu i obe formule Rp. Obe formule sadrže apsolutnu vrednost λp.",
+      "source_render_sha256": "5fc9039d1ee60540af8fe1915c73cbbbf688a776df2f3719d932005c61269585",
+      "new_render_sha256": "0a9a67712255e971955e395f5f260f0c63ed8ca73819184062b4e2d00ae3af86"
+    },
+    "09_1-s035": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Crveni naslov u dva reda, uvod o RL, tri numerisane posledice izbora otpornika, kompromis i kn formula sa crvenim Wn, ceo završni pasus uključujući minimalni Ln.",
+      "source_render_sha256": "a9c6260d84b7b7ee969d19d931eae90d2ff4e564994500e8e858abd61f3e46e4",
+      "new_render_sha256": "6b82b8b8097a266e0beaafab4658373e32210557896a8db1b1ecf391117261ff"
+    },
+    "09_1-s036": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Uvod, NMOS par TL/TD sa VC/VI/VO/VDD i plavom strelicom na TL; celokupno obrazloženje dva slučaja i crveno isticanje dugog kanala.",
+      "source_render_sha256": "e50b66acf6d2765f73d1309445bc1a3b957f7a0dc77ab89b4c7748e828f9e827",
+      "new_render_sha256": "9e60002fc3b11ddfdcb12ba7437fa3255e0286cbd0846dcb1f3d4faca683fee2"
+    },
+    "09_1-s037": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Ponovljeni invertor, dva izraza napona TL, tri koraka uslova zasićenja, kompletno objašnjenje i oba stroga završna uslova na VC.",
+      "source_render_sha256": "74e37244ed58bea73dd1fd0f15080f9e60a1b1baa736b2feeeb2383a4a39e697",
+      "new_render_sha256": "ae3a1b9f72536bd1d9ac2ab105bf8489d531f8f0718cfd58878c6b68d79b3672"
+    },
+    "09_1-s038": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Ista šema, prvi omski slučaj, zakočenje TD, jednakost nultih struja, puni omski izraz i zaključak VOH=VDD; izvorno neoptrećeno sačuvano.",
+      "source_render_sha256": "ae1a0d9361332e01831b189fcf048b46f37997f439b44d3dfa3968e240b78f6f",
+      "new_render_sha256": "f9fbaf118eb168c9e057c23ab0b089b7aed515c735521842794e0cfc06334d80"
+    },
+    "09_1-s039": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Ista šema i potpuni uvod sa epsilon/uslovima; izjednačene struje, zamena napona i faktorizovan završni izraz, svi indeksi L/D.",
+      "source_render_sha256": "3e0d23fd2dcf180acb59e12242f87ca3d0a703cf15b095b5a602a52c4a270b86",
+      "new_render_sha256": "98bf4558f5010d72ecc771e1a26455ba3f5fcaedf9f9abc9d2a6d135118f0c5a"
+    },
+    "09_1-s040": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Uvođenje Δ, jednačine označene crvenim 1/2, diferenciranje sa nagibom −1, svi međukoraci zamene i završna jednačina; sedam prikazanih formula.",
+      "source_render_sha256": "c7fa8e5ee686fa8103d72e807291d64329c2bc0986d5eeb28b79be8ac26eee08",
+      "new_render_sha256": "5233f60392491610f51bfd59459533f943275e1bb33a8660a655923456bf3e2c"
+    },
+    "09_1-s041": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Ponovljena jednačina, poseban slučaj Δ=0 i nejednaki k, dve razvijene jednačine i završni iskaz za jednake k, bez prećutnog dodavanja ograničenja.",
+      "source_render_sha256": "ce712a1007e61958ff9347f0ca81bc34f4b88906c2bf310c7245036255be90b5",
+      "new_render_sha256": "0196796332668f6093587af515ec23ac7a107161935d4d4c67b19736cdc07871"
+    },
+    "09_1-s042": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Oba oblika VO(IL) i oba oblika VIL sa svim zagradama, korenima i odnosima k. Izvorna tačka umesto zareza u indeksu VTn.L zadržana u drugoj jednačini.",
+      "source_render_sha256": "65491ca645fa5eabb61ec744f54c302e84967608bc274624c046c43b37edc0b2",
+      "new_render_sha256": "82dea82e865881aab8d0a9e1e096086b7c716423399958bb5f47f7688302c5d4"
+    },
+    "09_1-s043": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Uvod sa izvornom oznakom T1, granica oblasti, jednake omske struje pre/posle skraćivanja 2, definicija VC i crveno označena jednačina 1.",
+      "source_render_sha256": "01eac40895026b4107dde0a99b93294af18704c7240f0aed9d223da714eb6ee4",
+      "new_render_sha256": "e868028aea1e573451c1a28c9dfe99faf1e3e0fd5f9a928a15742acd4b1ee0bd"
+    },
+    "09_1-s044": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Jednačina 1, diferenciranje i četiri dalja koraka sa crvenim 2. Izvorna greška 2VO umesto 4VO i tačka u kn.D ostaju; nije prepravljena izvedena jednačina.",
+      "source_render_sha256": "21e1d269d2bacefde8e782fb399834968dc94fad762bfc62739870ddfea1c41e",
+      "new_render_sha256": "2854680cbaf78539e130e3fb7c0c795e8cb5b18ef35eca4c8a4ed4f785232447"
+    },
+    "09_1-s045": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Oba duga izraza VO(IH)/VIH sa plus granom korena, odnosima k, kvadratima i svim zagradama, verno prema originalu uprkos prethodnoj grešci izvoda.",
+      "source_render_sha256": "e89da3e882a7688c6319244946d4196d283152c170407f2b49cd5dcf4d71db71",
+      "new_render_sha256": "354207c57fd5d850efab2ddeb5c2f0aa82a1eefcc81fbb85a71d7a9a78b408a7"
+    },
+    "09_1-s046": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Početni i zamenjeni omski izraz, zanemarivanje malog VOL i oba završna oblika; nedostajući faktor 2 uz VTn,L u drugom obliku verno sačuvan.",
+      "source_render_sha256": "e277962d59b7b711b32cb90fefbd0e4f510fa37aaf85bc635a93f06cabade198",
+      "new_render_sha256": "d47c25985b137232830dc53b3fa10d07dbe7ac401a8aaa3509b8c275e74820ca"
+    },
+    "09_1-s047": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Ponovljen VOL sa oba crvena odnosa k; ceo podebljan pasus i podebljana jednakost tri odnosa sa zajedničkim faktorom F i svim indeksima dimenzija.",
+      "source_render_sha256": "d587c0791cb9883e44f050a7ef722938b674a9aa96c24e5c99885ee13d889556",
+      "new_render_sha256": "d8e464660c5b315919b4dd5ad975d67e12a96268abfe4c03ad4560230c13056c"
+    },
+    "09_1-s048": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Karakteristika prenosa sa nivoima, pragovima i dve tangente a=−1; potpuna dva obimna pasusa, oba odnosa k/W i izraz rDSn,L. Izvorno dobilo sačuvano.",
+      "source_render_sha256": "a2186dce048ed2893c2df82d6f00805425baaceb20ba8c0a1d84e51c39a9e007",
+      "new_render_sha256": "57a989b7ddb10aff8eb5d8abdc4fa95e3583ae5bc7951cfa243c86b2f0ac565f"
+    },
+    "09_1-s049": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Pun uvod o dodatnom napajanju, gejt TL vezan na VDD u šemi, četiri naponska izraza/uslova i zaključak; izvorna oznaka T2 u tekstu ostaje.",
+      "source_render_sha256": "6c6bc7a582d1ffa3f8ea3cc3e7bbaa0d68c6b621a8d023feaf94b5454a4527fa",
+      "new_render_sha256": "e967f486276f73350cfcb60c2cb2136b1f1bedb2dd85ffb2e67cdf39bfce72a1"
+    },
+    "09_1-s050": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Ponovljena šema sa gejtom na VDD, zakočen TD, nulta struja TL u zasićenju i VOH manji za prag; sva izvorna interpunkcija/neoptrećeno.",
+      "source_render_sha256": "ec8a3bb358b6eaf6dd97857a8adb7a1412ff659500339cbe8522af28ed74779e",
+      "new_render_sha256": "d39d80b15b1d4fd6b7597cbd14bca2ad3550f9f69406163341aa4ca55e5bb594"
+    },
+    "09_1-s051": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Šema, epsilon i izvorni indeks D1, jednake struje, crvena 1/2, izvod i završna identičnost sa četiri upitnika. Pogrešan faktor u identičnosti nije prepravljen.",
+      "source_render_sha256": "2dab5e5ca250ba52f87ce7618099c1253d526f79521c8cbe2ee6f9656ee48198",
+      "new_render_sha256": "e7efbb96c579e926b61d5435e9a8ff781de4bdc137557d1bb4aa31980cf11641"
+    },
+    "09_1-s052": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Oba ponavljanja početne jednačine, eksplicitni VO, konstantno pojačanje, oba uslova odnosa k i svi uvodni pasusi.",
+      "source_render_sha256": "98d7e8b547dea9809ab5e1ec3c53e3214a23338e493d65632c14a082500a4940",
+      "new_render_sha256": "087b4e8c07fc111cda0caf5f1683b5c7e7a568c28d29e647dc5b31afa39e8aa2"
+    },
+    "09_1-s053": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. VIL na početku, granica oblasti i sve jednake struje/diferenciranje; crveni 1/2. Izvorni indeks L na desnoj strani prvog izvoda i nedostajući faktor 2 u 2VO sačuvani.",
+      "source_render_sha256": "a608f957bc91d0b9888c168130b9e1646d815286a3b4b311bd6326ba00e6f60f",
+      "new_render_sha256": "d352b677a6157a07e3e246d437c7f8c0d72e68cd1e8fe6270bedfe2a8eb9a9fb"
+    },
+    "09_1-s054": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Oba izvorna približna rešenja sa plus granom korena i svim odnosima k; nisu ispravljene posledice prethodnog pogrešnog izvoda.",
+      "source_render_sha256": "b60546b7ab9e051dc0a095c0340a06a8b97d0670f590d89c7593507c962634b8",
+      "new_render_sha256": "4ef336f50af2088d9c0b3a9bcc410d1d48493368d1c8727ad311d9a0debca512"
+    },
+    "09_1-s055": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Početna jednačina i dva koraka za VOL, završni izvorni imenilac VDD−VTn,D; grafik sa oštrim prelomom u VIL, jednom tangentom a=−1, svim naponskim oznakama i projekcijama.",
+      "source_render_sha256": "df9efef34e2cbfb4e83ddd1fc21577432764c54609198a40d1f365daa4ee78bf",
+      "new_render_sha256": "881849e5c4b9a29a5717b3bbda361435be34c57a46c8e365cc4bb4dda0a956bd"
+    },
+    "09_1-s056": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Dve šeme četvoropriključnih NMOS sa VC/VI/VO/VDD/TL/TD: precrtane veze osnova–sors i zajednička uzemljena osnova, preskok voda i plava strelica. Obe formule praga, VSB,L, implicitni VOH i ceo završni pasus; apsolutne vrednosti pod korenima sačuvane.",
+      "source_render_sha256": "57a40292f87a89c33943761088b277aaacdc246391c1f098239fbc539911eecd",
+      "new_render_sha256": "42687e732f7421bc5737bb61c4985b2d18c6134e8dd6f33569a23c261d2aec3f"
+    },
+    "09_1-s057": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Pojedinačno pregledani originalni isečak i novi slajd; provereni sadržaj, raspored i čitljivost. Sve četiri završne rečenice u izvornom redosledu; bez nove zaključne stranice.",
+      "source_render_sha256": "467a6aa82e39a9b266de393a5fddaded96a83efd910378066323e8f98c30b470",
+      "new_render_sha256": "e234a22bef155c339ba3d355cbd6cd140b3c4fb6f6e68d8d0bfc1f70dd433aad"
+    }
+  }
+}

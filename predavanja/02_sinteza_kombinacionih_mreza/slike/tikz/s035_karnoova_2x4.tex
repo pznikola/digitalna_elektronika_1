@@ -1,0 +1,10 @@
+\begingroup
+\fontsize{14.52}{16.13}\selectfont
+\renewcommand{\small}{\fontsize{14.52}{16.13}\selectfont}
+\scalebox{.62}{%
+\begin{karnaugh-map}(label=middle)[2][4][1][$A$][$B$][$C$]
+\foreach \x/\y/\lab in {1/3/0,2/3/1,1/2/2,2/2/3,1/1/6,2/1/7,1/0/4,2/0/5}{
+ \node[anchor=south east,inner sep=2pt,font=\fontsize{12.91}{14}\selectfont] at (\x,\y) {\lab};
+}
+\end{karnaugh-map}}
+\endgroup

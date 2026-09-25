@@ -1,0 +1,12 @@
+\slajdid{06-s013}
+\begin{frame}[label=06-s013]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\jot}{0pt}
+PRIMER 13.25 prikazati u FPF sa 32 bita (1 bit znaka, 8 bita eksponent, 23 bita frakcija)
+\[\begin{gathered}13.25_{10}=1101.01_2\\1101.01_2=\textcolor{DEcrvena}{1}.10101\times2^3\\S=0\\F=1010100\ldots\\E=3+127=130_{10}=10000010_2\end{gathered}\]
+\begin{center}Zapis 0 10000010 1010100000000000000000\end{center}
+PRIMER vrednost broja prikazanog u FPF\quad 1 10000110 01001000000000000000000
+\begin{columns}[c,onlytextwidth]\column{.49\textwidth}\centering
+$\begin{gathered}S=1\\F=0100100\ldots\\E=10000110_2=134_{10}=127+7\end{gathered}$
+\column{.48\textwidth}\centering$\begin{gathered}\mathit{mantisa}=1.01001_2\\\mathit{eksponent}=E-B=7\end{gathered}$\end{columns}
+\[V=(-1)^1\times1.01001_2\times2^7=-101001_2=-164_{10}\]
+\end{frame}

@@ -1,0 +1,10 @@
+\slajdid{09_3-s043}
+\begin{frame}[label=09_3-s043]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}Prilikom analize kritičnih putanja i sinteze digitalnih sistema sa što manjim kašnjenjem uvodi se formalniji metod posmatranja doprinosa kašnjenju svakog kola. Na primer kašnjenje koje smo posmatrali može da se napiše i u obliku
+\[\frac{t_p}{\tau_{inv}}=\frac{\tau_{NAND}}{\tau_{inv}}\left(\frac{C_{g,i+1}}{C_{g,i}}+\gamma_{NAND}\right)+\frac{\tau_{inv}}{\tau_{inv}}\left(\frac{C_{g,i+2}}{C_{g,i+1}}+\gamma_{inv}\right)+\frac{\tau_{NOR}}{\tau_{inv}}\left(\frac{C_{g,i+3}}{C_{g,i+2}}+\gamma_{NOR}\right)\]
+\par\bigskip
+normalizovano na „kašnjenje“ jediničnog invertora. Odnosi $\frac{\tau_{NAND}}{\tau_{inv}}$, $\frac{\tau_{inv}}{\tau_{inv}}$ i $\frac{\tau_{NOR}}{\tau_{inv}}$ nazivaju se \alert{logičkim trudom pojedinih kola (logical effort) – LE}.
+\par\bigskip
+U tom slučaju normalizovano kašnjenje možemo da napišemo u obliku
+\[D=\frac{t_p}{\tau_{inv}}=(LE_{NAND}FO_i+P_{NAND})+(LE_{inv}FO_{i+1}+P_i)+(LE_{OR}FO_{i+1}+P_{OR})\]
+\end{frame}

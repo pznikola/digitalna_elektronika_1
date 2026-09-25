@@ -1,0 +1,14 @@
+
+\slajdid{05-s049}
+\begin{frame}[label=05-s049]
+\gusttekst
+\begin{center}ODSECANJE REZULTATA MNOŽENJA\end{center}
+\[a_{n-1}a_{n-2}\ldots a_1a_0\times b_{n-1}b_{n-2}\ldots b_1b_0=c_{2n-1}c_{2n-2}\ldots c_n\textcolor{DEcrvena}{c_{n-1}c_{n-2}\ldots c_1c_0}\]
+Ako rezultat množenja smeštamo takođe u $n$ bitni registar kod celobrojnog množenja mora da se vodi računa da ne dođe do prekoračenja opsega, odnosno da rezultat može da stane u $n$ bitni registar
+\begin{align*}
+c_{2n-1}c_{2n-2}\ldots c_n c_{n-1}&=00\ldots00&&\text{Za pozitivan rezultat, označeno množenje}\\[3mm]
+c_{2n-1}c_{2n-2}\ldots c_n c_{n-1}&=11\ldots11&&\text{Za negativan rezultat, označeno množenje}\\[3mm]
+c_{2n-1}c_{2n-2}\ldots c_n&=00\ldots00&&\text{Neoznačeno množenje}
+\end{align*}
+Greška koju bi napravili eventualnim prekoračenjem opsega bila bi „ogromna“.\\Videli smo to kod sabiranja.
+\end{frame}

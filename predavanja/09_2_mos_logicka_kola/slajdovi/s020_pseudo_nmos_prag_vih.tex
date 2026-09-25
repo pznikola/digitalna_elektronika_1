@@ -1,0 +1,11 @@
+\slajdid{09_2-s020}
+\begin{frame}[label=09_2-s020]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}Daljim porastom ulaznog napona, napon na drejnu tranzistora N opada, napon između sorsa i drejna tranzistora P raste. Tranzistor P ostaje u zasićenju, ali tranzistor N počinje da radi u omskoj oblasti
+\begin{columns}[c,onlytextwidth]\column{.20\textwidth}\centering\input{slike/tikz/s020_pseudo_nmos.tex}\column{.78\textwidth}\[\frac{k_p}2(V_{GS,P}-V_{Tp})^2=\frac{k_n}2\left(2V_{DS,N}(V_{GS,N}-V_{Tn})-V_{DS,N}^2\right)\]
+\[\alert{1.}\quad k_p(-V_{DD}-V_{Tp})^2=k_nV_O\left(2(V_I-V_{Tn})-V_O\right)\]
+$V_{IH}$ - diferenciranjem leve i desne strane i izjednačavanjem $\frac{\partial V_O}{\partial V_I}=-1$ dobijamo
+\[0=-k_n\left(2(V_I-V_{Tn})-V_O\right)+k_nV_O(2+1)\]
+\[\alert{2.}\quad V_I=V_{Tn}+2V_O\]
+\[V_{O(IH)}=(V_{DD}+V_{Tp})\sqrt{\frac{k_p}{3k_n}}\]
+\[V_{IH}=V_{Tn}+2(V_{DD}+V_{Tp})\sqrt{\frac{k_p}{3k_n}}=V_{Tn}+(V_{DD}+V_{Tp})\sqrt{\frac{4k_p}{3k_n}}\]\end{columns}
+\end{frame}

@@ -1,0 +1,26 @@
+\begingroup
+\input{slike/tikz/dekoder_kompaktni.tex}
+\begin{tikzpicture}[x=1cm,y=1cm,font=\fontsize{8}{9}\selectfont]
+\draw[DEvod] (-.12,-.45) rectangle (4.76,7.3);
+\node[align=center] at (.75,6.85) {Dekoder\\4/16};
+\DEdek{r}{0}{3}
+\foreach \i/\y in {3/5.5,2/3.7,1/1.9,0/.1}{
+ \DEdek{d\i}{3}{\y}
+ \foreach \j in {3,2,1,0}{
+  \pgfmathtruncatemacro{\izlaz}{4*\i+\j}
+  \draw[DEvod] (d\i-y\j)--++(.15,0) node[right,inner sep=1pt] {Y\izlaz};
+ }
+ \draw[DEvod] (d\i-S1)--(2.45,0 |- d\i-S1);
+ \draw[DEvod] (d\i-S0)--(2.68,0 |- d\i-S0);
+}
+\draw[DEvod] (r-y3)--(2.1,4.24)|-(d3-CS);
+\draw[DEvod] (r-y2)--(2.22,3.96)|-(d2-CS);
+\draw[DEvod] (r-y1)--(2.1,3.68)|-(d1-CS);
+\draw[DEvod] (r-y0)--(2.22,3.4)|-(d0-CS);
+\draw[DEvod] (2.45,6.46)--(2.45,-.16)--(-.55,-.16) node[left] {S1};
+\draw[DEvod] (2.68,6.18)--(2.68,-.35)--(-.55,-.35) node[left] {S0};
+\draw[DEvod] (r-S1)--(-.55,3.96) node[left] {S3};
+\draw[DEvod] (r-S0)--(-.55,3.68) node[left] {S2};
+\draw[DEvod] (r-CS)--(-.55,3.40) node[left] {CS};
+\end{tikzpicture}
+\endgroup

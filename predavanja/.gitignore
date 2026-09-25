@@ -1,0 +1,28 @@
+# Generisane prezentacije, uporedni prikazi i pomoćni fajlovi.
+build/
+# PDF izlazi ako se prezentacija kompajlira direktno u svom folderu.
+/*/[0-9]*_*.pdf
+/*/radni_pregled.pdf
+/*/*.state.json
+
+# LaTeX/Beamer izlazi pri ručnoj kompilaciji izvan build direktorijuma.
+*.aux
+*.log
+*.nav
+*.snm
+*.out
+*.toc
+*.vrb
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.dvi
+*.xdv
+*.slide-map.tsv
+
+# Python keš alata i računskih provera.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Originalni PDF-ovi, izvorne slike, .tex i evidencija provere ostaju u Git-u.

@@ -1,0 +1,7 @@
+\begin{tikzpicture}[x=.70cm,y=.48cm,font=\fontsize{9}{10}\selectfont]
+\foreach \x/\i in {0/{n-1},1/{n-2},3/i,5/1,6/0}{
+\node at (\x,1) {$a_{\i}$};\node at (\x,0) {$b_{\i}$};\node at (\x,-1) {$s_{\i}$};}
+\foreach \x in {2,4}{\foreach \y in {-1,0,1}{\node at (\x,\y) {$\ldots$};}}
+\node[DEcrvena] at (-.7,-1) {$s_n$};\draw[DEvod] (-.95,-.5)--(6.4,-.5);
+\foreach \x in {0,1,2,3.5,5}{\draw[DEplava,-{Latex[length=1.4mm]}] (\x-.15,2)--(\x-.4,2)--(\x-.4,1.35);}
+\end{tikzpicture}

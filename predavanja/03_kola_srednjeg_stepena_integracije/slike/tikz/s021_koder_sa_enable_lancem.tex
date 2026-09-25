@@ -1,0 +1,35 @@
+\begingroup
+\def\DEenable{1}
+\input{slike/tikz/koder_prioriteta_simbol.tex}
+\begin{tikzpicture}[circuit logic US,x=.74cm,y=.74cm,font=\fontsize{8}{9}\selectfont,
+ zbir/.style={or gate US,draw,logic gate inputs=nnnn,minimum width=10mm,minimum height=12mm,scale=.45}]
+\foreach \k/\y in {3/6,2/4,1/2,0/0}{
+ \KPSimbol{p\k}{0}{\y}
+ \foreach \n in {3,2,1,0}{
+  \pgfmathtruncatemacro{\ii}{4*\k+\n}
+  \draw[DEvod] (p\k-i\n)--++(-.15,0) node[left,inner sep=1pt] {I\ii};
+ }
+}
+\foreach \vis/\niz in {3/2,2/1,1/0}
+ \draw[DEvod] (p\vis-eo)--(p\niz-ei);
+\draw[DEvod] (p3-ei)--++(0,.2) node[above] {1};
+\KPSimbol{f}{5.0}{3}
+\draw[DEvod] (f-ei)--++(0,.2) node[above] {1};
+\foreach \k/\x in {3/4.0,2/3.7,1/3.7,0/4.0}
+ \draw[DEvod] (p\k-gs)--(\x,0 |- p\k-gs)|-(f-i\k);
+\draw[DEvod] (f-gs)--++(.2,0) node[right] {GS};
+\draw[DEvod] (f-a1)--++(.2,0) node[right] {A3};
+\draw[DEvod] (f-a0)--++(.2,0) node[right] {A2};
+\draw[DEvod] (f-eo)--++(0,-.1)--++(1.2,0) node[right] {EO};
+\node[zbir] (a1) at (5.2,.4) {};
+\node[zbir] (a0) at (5.2,-.8) {};
+\foreach \k/\pin/\xx in {3/1/3.35,2/2/3.1,1/3/2.85,0/4/2.6}{
+ \draw[DEvod] (p\k-a1)--(\xx,0 |- p\k-a1)|-(a1.input \pin);
+}
+\foreach \k/\pin/\xx in {3/1/3.75,2/2/3.5,1/3/3.25,0/4/3.0}{
+ \draw[DEvod] (p\k-a0)--(\xx,0 |- p\k-a0)|-(a0.input \pin);
+}
+\draw[DEvod] (a1.output)--++(.3,0) node[right] {A1};
+\draw[DEvod] (a0.output)--++(.3,0) node[right] {A0};
+\end{tikzpicture}
+\endgroup

@@ -1,0 +1,12 @@
+\slajdid{09_2-s006}
+\begin{frame}[label=09_2-s006]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\[\color{DEcrvena}V_I=V_{Tn,D}-V_{Tn,L}\sqrt{\frac{k_{n,L}}{k_{n,D}}}\]
+\begin{columns}[c,onlytextwidth]\column{.19\textwidth}\centering\input{slike/tikz/s006_invertor_ugradjeni_kanal.tex}\column{.79\textwidth}I praktično prvi put od kako smo krenuli sa analizom logičkih kola u karakteristici prenosa $V_O=f(V_I)$ dobijamo „vertikalnu“ pravu odnosno oblast gde je pojačanje beskonačno. Kao što nam treba za „idealno logičko kolo“. U realnosti to baš i nije slučaj pošto smo zanemarili i efekat kratkog kanala i efekat skraćenja dužine kanala. Pravi izraz bi glasio
+\[\begin{aligned}
+&\frac{k_{n,L}}{1+\frac{-V_{Tn,L}}{E_{Cn}L_{n,L}}}(-V_{Tn,L})^2\left(1+\lambda_{n,L}(V_{DD}-V_O)\right)\\
+&\qquad=\frac{k_{n,D}}{1+\frac{V_I-V_{Tn,D}}{E_{Cn}L_{n,D}}}(V_I-V_{Tn,D})^2(1+\lambda_{n,D}V_O)
+\end{aligned}\]
+odnosno, to ne bi bila vertikalna linija, ali bi pojačanje zaista bilo jako veliko\par\medskip
+Sada je lako izračunati i tačku $V_S$ pošto će se ona verovatno naći u ovoj oblasti, odnosno možemo direktno da pišemo
+\[V_S=V_{Tn,D}-V_{Tn,L}\sqrt{\frac{k_{n,L}}{k_{n,D}}}\]\end{columns}
+\end{frame}

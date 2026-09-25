@@ -1,0 +1,21 @@
+\slajdid{08-s003}
+\begin{frame}[label=08-s003]{REALNA LOGIČKA KOLA}
+\gusttekst\setlength{\parskip}{1pt}
+\begin{center}\begin{tikzpicture}[circuit logic US,DEoznaka,baseline=(g.center)]
+\node[not gate US,draw](g){};\draw(g.input)--++(-.5,0)node[left]{$a$};\draw(g.output)--++(.5,0)node[right]{$b$};\end{tikzpicture}\quad $a$ i $b$ signali\end{center}
+$a$ je signal koji logičko kolo tumači, shvata, kao logičku jedinicu ili nuli\par
+$b$ je signal koji logičko kolo generiše, postavlja, daje kao logičku jedinicu ili nuli\par
+Logička funkcija kola je\quad $B=\overline A$\quad gde je $B$ logičko stanje signala $b$ i $A$ logičko stanje signala $a$\par
+Funkcija kola je\quad $b=f(a)$\quad i po pravilu je nelinerana\par
+\begin{columns}[c,onlytextwidth]
+\column{.54\textwidth}\centering\input{slike/tikz/s003_realni_signali.tex}
+\column{.43\textwidth}\centering
+\begin{tikzpicture}[circuit logic US,DEoznaka]
+\node[not gate US,draw](g){};\draw(g.input)--++(-.6,0)node[left]{$a_i(t)$};\draw(g.output)--++(.6,0)node[right]{$b_o(t)$};\end{tikzpicture}\par
+Indeks $i$ – input, ulaz, fizička veličina na ulazu koja nosi informaciju o logičkim nulama i jedinicama\par
+Indeks $o$ – output, izlaz, fizička veličina na izlazu koja nosi informaciju o logičkim nulama i jedinicama
+\end{columns}\medskip
+Signal ne može trenutno da promeni svoje stanje.\par
+Mora da prođe sve vrednosti između dva stanja, makar smatrali da je taj vremenski interval beskonačno kratak.\par
+\centering\alert{Signal je fizička veličina koja nosi informacije.}
+\end{frame}

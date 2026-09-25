@@ -1,0 +1,14 @@
+\slajdid{09_2-s038}
+\begin{frame}[label=09_2-s038]{Podešavanje praga odlučivanja CMOS invertora - $V_S$}
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\[\begin{aligned}&k_p\frac1{1+\frac{V_I-V_{DD}-V_{Tp}}{L_pE_{Cp}}}(V_I-V_{DD}-V_{Tp})^2\left(1+\lambda_p(V_0-V_{DD})\right)\\&\quad=k_n\frac1{1+\frac{V_I-V_{Tn}}{L_nE_{Cn}}}(V_I-V_{Tn})^2(1+\lambda_nV_O)\end{aligned}\]
+Zaključci:
+\begin{enumerate}\setlength{\itemsep}{3pt}
+\item Pojačanje neće biti beskonačno u 3. zoni ali će biti jako veliko.
+\item Prag odlučivanja logičkog kola će se naći u ovoj oblasti.
+\item Moguće je podešavanjem odnosa $\frac{k_n}{k_p}$ podesiti vrednost praga odlučivanja logičkog kola.
+\end{enumerate}
+Posmatraćemo tri različita slučaja, pri čemu ćemo zanemariti efekat skraćenja dužine kanala odnosno smatrati $\lambda_n=\lambda_p=0$\par\medskip
+\hspace{5mm}Tranzistori sa dugačkim kanalom $V_S\ll E_CL$\par\medskip
+\hspace{5mm}Tranzistori sa kratkim kanalom $V_S\sim E_CL$\par\medskip
+\hspace{5mm}Tranzistori sa kratkim kanalom $V_S\gg E_CL$
+\end{frame}

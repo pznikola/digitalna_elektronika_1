@@ -1,0 +1,8 @@
+\begin{tabular}{|c|c|c|c|}\hline
+\textbf{Iteracija}&\makecell{\textbf{Operand}\\$\mathbf{b}=0010$\\$\mathbf{a}=0110$}&\textbf{Korak}&\makecell{\textbf{Parcijalni}\\\textbf{proizvod}\\0000 0000}\\\hline
+N=4&\makecell{0010\\$011\textcolor{DEcrvena}{00}$}&\makecell{\textcolor{DEcrvena}{00}: no op\\arith$\gg$ 1}&\makecell{0000 0000\\0000 0000}\\\hline
+N=3&\makecell{0010\\$001\textcolor{DEcrvena}{10}$}&\makecell{\textcolor{DEcrvena}{10}: R=R-b$2^n$\\arith$\gg$ 1}&\makecell{1110 0000\\1111 0000}\\\hline
+N=2&\makecell{0010\\$000\textcolor{DEcrvena}{11}$}&\makecell{\textcolor{DEcrvena}{11}: no op\\arith$\gg$ 1}&\makecell{1111 0000\\1111 1000}\\\hline
+N=1&\makecell{0010\\$000\textcolor{DEcrvena}{01}$}&\makecell{\textcolor{DEcrvena}{01}: R=R+b$2^n$\\arith$\gg$ 1}&\makecell{0001 1000\\0000 1100}\\\hline
+N=0&&kraj&0000 1100\\\hline
+\end{tabular}

@@ -1,0 +1,15 @@
+% Izvor prikazuje obrise/oznake bez unutrašnje šeme; desni simbol nema obris.
+\begin{tikzpicture}[DEoznaka,x=1cm,y=1cm]
+\draw[DEvod,dashed] (0,0) rectangle (4.5,2.4);
+\foreach \lab/\y in {S1/2.1,S0/1.5,I/1.0}
+ \node[anchor=east] at (-.15,\y) {\lab};
+\node[align=center] at (.65,.55) {DMUX\\1/4};
+\foreach \n/\x in {0/2.0,1/2.7,2/3.4,3/4.1}
+ \node[anchor=north] at (\x,0) {Y\n};
+\node[align=center] at (7.1,2.0) {DMUX\\1/4};
+\foreach \n/\y in {3/1.8,2/1.4,1/1.0,0/.6}
+ \node at (7.85,\y) {Y\n};
+\node at (6.6,.55) {I};
+\node at (6.9,.05) {S1};
+\node at (7.5,.05) {S0};
+\end{tikzpicture}

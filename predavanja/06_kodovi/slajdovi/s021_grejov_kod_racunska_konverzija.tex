@@ -1,0 +1,20 @@
+\slajdid{06-s021}
+\begin{frame}[label=06-s021]{Grejov kod – prelazak „u“ i „iz“}
+\gusttekst\centering Računski\par\vspace{4mm}
+\begin{columns}[c,onlytextwidth]
+\column{.40\textwidth}\centering Uočiti\quad $(b\oplus p)\oplus p=b$\par\vspace{3mm}
+\renewcommand{\arraystretch}{1.4}\input{tabele/s021_inverzija_xor.tex}
+\column{.57\textwidth}
+\begin{align*}
+\text{binarni}\quad B&=b_{n-1}b_{n-2}b_{n-3}\ldots b_1\,b_0\\
+\text{Grejov}\quad G&=g_{n-1}g_{n-2}g_{n-3}\ldots g_1\,g_0
+\end{align*}
+\begin{columns}[T,onlytextwidth]\column{.48\textwidth}
+\begin{align*}
+g_{n-1}&=b_{n-1}\\g_{n-2}&=b_{n-1}\oplus b_{n-2}\\g_{n-3}&=b_{n-2}\oplus b_{n-3}\\&\ldots\\g_1&=b_2\oplus b_1\\g_0&=b_1\oplus b_0
+\end{align*}
+\column{.49\textwidth}
+\begin{align*}
+b_{n-1}&=g_{n-1}\\b_{n-2}&=g_{n-1}\oplus g_{n-2}\\b_{n-3}&=g_{n-2}\oplus g_{n-3}\\&\ldots\\b_1&=g_2\oplus g_1\\b_0&=g_1\oplus g_0
+\end{align*}\end{columns}\end{columns}
+\end{frame}

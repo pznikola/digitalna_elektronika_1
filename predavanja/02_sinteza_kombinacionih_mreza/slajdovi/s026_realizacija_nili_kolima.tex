@@ -1,0 +1,21 @@
+\slajdid{02-s026}
+\begin{frame}[label=02-s026]
+\gusttekst
+\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}
+Za realizaciju funkcije u obliku proizvoda zbirova
+\[
+\begin{aligned}
+F&=(C+B+A)(C+B+\bar A)(C+\bar B+A)(\bar C+B+A)(\bar C+\bar B+\bar A)\\
+&=\overline{\overline{(C+B+A)(C+B+\bar A)(C+\bar B+A)(\bar C+B+A)(\bar C+\bar B+\bar A)}}\\
+&=\overline{\overline{(C+B+A)}+\overline{(C+B+\bar A)}+\overline{(C+\bar B+A)}+\overline{(\bar C+B+A)}+\overline{(\bar C+\bar B+\bar A)}}
+\end{aligned}
+\]
+ili preko električnih, logičkih, šema
+
+\centering
+\input{slike/tikz/s026_nili_i_invertovani_ulazi.tex}
+\(\longrightarrow\)
+\input{slike/tikz/s026_nili_realizacija.tex}\par
+\raggedright
+Znači moguće je bilo koju kombinacionu mrežu realizovati, izuzimajući invertore samo pomoću NILI logičkih kola. Ili generalnije ako invertor smatramo NILI logičkim kolom sa jednim ulazom: Bilo koju kombinacionu mrežu možemo realizovati korišćenjem samo NILI logičkih kola.
+\end{frame}

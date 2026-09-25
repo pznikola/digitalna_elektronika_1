@@ -1,0 +1,24 @@
+\begin{tikzpicture}[x=.88cm,y=.65cm,font=\fontsize{8}{9}\selectfont]
+\foreach \name/\xx/\i in {a/0/{n-1},b/1.8/{n-2},c/5/i,d/8.2/1,e/10/0}{
+\node[draw=DEplava,fill=DEplava!15,minimum width=8mm,minimum height=9mm] (\name) at (\xx,0) {};
+\node[xor gate US,draw,logic gate inputs=nn,rotate=-90,scale=.55] (x\name) at (\xx+.3,1.7) {};
+\draw[DEplava,->] (x\name.output)--(\xx+.3,.70);
+\draw (x\name.input 1)--++(0,.55)node[above]{$b_{\i}$};
+\draw[orange] (x\name.input 2)--(x\name.input 2 |- 0,2.4);
+\draw[DEplava,->] (\xx-.3,1.15)node[above,xshift=-1mm]{$a_{\i}$}--(\xx-.3,.70);
+\draw[DEplava,->] (\name.south)--++(0,-.3)node[below]{$s_{\i}$};}
+\node at (c.center) {\Large$\Sigma$};
+\draw[orange] (-1,2.4)node[above]{$\mathrm{SUB}/\overline{\mathrm{ADD}}$}--(11,2.4)--(11,0);
+\draw[orange,->] (11,0)--(e.east);
+\draw[DEplava,->] (b.west)--(a.east);\draw[DEplava,->] (e.west)--(d.east);
+\draw[DEplava,->] (a.west)--++(-.65,0)node[above]{$C_n$};
+\draw[DEplava,->] (c.west)--++(-.6,0)node[above]{$C_i$};
+\draw[DEplava,->] (5.5,0)++(.6,0)node[above]{$C_{i-1}$}--(c.east);
+\draw[DEplava,->] (3.05,0)--(b.east);\draw[DEplava,->] (d.west)--++(-.6,0);
+\node at (3.65,0) {$\ldots$};\node at (6.7,0) {$\ldots$};
+\node[xor gate US,draw,logic gate inputs=nn,rotate=-90,scale=.55] (ov) at (0,-2.35) {};
+\draw (-.8,0)--(-.8,-1.7)-|(ov.input 2);
+\draw (.9,0)--(.9,-1.7)-|(ov.input 1);
+\draw (ov.output)--++(0,-.15)node[below]{OVF};
+\node at (5.6,-1.1) {$c_i$};
+\end{tikzpicture}

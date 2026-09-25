@@ -1,0 +1,12 @@
+\slajdid{10-s032}
+\begin{frame}[label=10-s032]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[c,onlytextwidth]\column{.30\textwidth}\centering\input{slike/tikz/s032_praznjenje_i_nastavak_modela.tex}\par\raggedright
+Ne smemo koristiti gotove izraze za\par $t_{pHL}=0.69\tau$\par $t_f=2.2$
+\column{.68\textwidth}
+\[\begin{aligned}v_o(t_2+t_{pHL})&=V_{OH}-50\%(V_{OH}-V_{OL})\\&=V_{OH}-\frac{V_{OH}-V_{OL}}{2}=\frac{V_{OH}+V_{OL}}{2}\end{aligned}\]
+pa je
+\[t_{pHL}=\tau\ln\left(\frac{V_{OH}-(V_{CC}-\dfrac{R_C\beta_F}{R_B}(V_H-V_{BE}))}{\dfrac{V_{OH}+V_{OL}}2-(V_{CC}-\dfrac{R_C\beta_F}{R_B}(V_H-V_{BE}))}\right)\]
+\[t_f=\tau\ln\left(\frac{(0.9V_{OH}+0.1V_{OL})-(V_{CC}-\dfrac{R_C\beta_F}{R_B}(V_H-V_{BE}))}{(0.1V_{OH}+0.9V_{OL})-(V_{CC}-\dfrac{R_C\beta_F}{R_B}(V_H-V_{BE}))}\right)\]
+\end{columns}\medskip
+\textcolor{DEcrvena}{Ostaje pitanje vrednosti $V_H$. Očigledno je da taj napon mora biti iz opsega $V_{IH}$ do $V_{OH}$, a na osnovu prethodnih diskusija kod strujnih kapaciteta izabraćemo najgori slučaj iz tog opsega, što pokazuju svi izvedeni izrazi, odnosno $V_H=V_{OHmin}$ a kao što je rečeno to bi i bilo u katalogu}
+\end{frame}

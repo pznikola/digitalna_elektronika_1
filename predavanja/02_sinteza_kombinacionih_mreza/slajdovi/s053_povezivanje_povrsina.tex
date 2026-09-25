@@ -1,0 +1,20 @@
+\slajdid{02-s053}
+\begin{frame}[label=02-s053]
+\gusttekst
+\begin{columns}[c,onlytextwidth]
+\begin{column}{.30\textwidth}\centering
+\input{slike/tikz/s053_dve_povrsine.tex}
+\end{column}
+\begin{column}{.67\textwidth}
+Ono što odmah možemo da uočimo jeste da smo posmatrali „prelaz funkcije“ sa jedne površine na drugu. Na prvoj uočenoj površini je \(B=0\) a na drugoj \(B=1\). Minimizacija je urađena prema pravilima ali površine nemaju zajedničkih polja ali imaju zajedničkih strana. U svim takvim slučajevima prelaz sa jedne na drugu površinu je po pravilu promena jedne promenljive (zbog ove zajedničke strane). I ta promena izaziva lažnu nulu, kao što smo videli na vremenskim dijagramima. Da bi se izbegla ova pojava mora se odstupiti od minimalne forme i ove dve površine „povezati“ dodatnom površinom kako bi se obezbedilo da imaju zajednička polja.
+\end{column}
+\end{columns}
+\begin{columns}[c,onlytextwidth]
+\begin{column}{.30\textwidth}\centering
+\input{slike/tikz/s053_zajednicka_povrsina.tex}
+\end{column}
+\begin{column}{.67\textwidth}
+U tom slučaju funkcija postaje \(F=C\bar B+BA+CA\) i ovaj dodatni član koji povezuje površine obezbeđuje da se neće pojaviti lažna nula.
+\end{column}
+\end{columns}
+\end{frame}

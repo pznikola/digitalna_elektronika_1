@@ -1,0 +1,12 @@
+% Bitovi indeksa su DCBA; kolone BA=00,01,11,10, redovi DC=00,01,11,10.
+\begingroup
+\fontsize{16.67}{18.5}\selectfont
+\renewcommand{\small}{\fontsize{16.67}{18.5}\selectfont}
+\scalebox{.54}{%
+\begin{karnaugh-map}(label=middle)[4][4][1][$A$][$B$][$C$][$D$]
+\minterms{0,4,5,8,10}
+\terms{1}{b}
+\maxterms{2,3,6,7,9,11,12,13,14,15}
+\end{karnaugh-map}
+}
+\endgroup

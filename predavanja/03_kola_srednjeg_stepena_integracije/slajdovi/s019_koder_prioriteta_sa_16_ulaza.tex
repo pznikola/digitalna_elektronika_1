@@ -1,0 +1,13 @@
+\slajdid{03-s019}
+\begin{frame}[label=03-s019]
+\gusttekst
+Prilikom pravljenja mreža većih kapaciteta, možemo se poslužiti idejama koje smo imali kod prethodnih kola. Na primer da je potrebno napraviti koder prioriteta sa 16 ulaza
+\begin{columns}[c,onlytextwidth]
+\begin{column}{.43\textwidth}\centering
+\input{slike/tikz/s019_koder_16_ulaza.tex}
+\end{column}
+\begin{column}{.54\textwidth}
+Sa slike je vidljiva ideja da se iskoristi osobina kodera prioriteta i u drugom nivou. Znači ako ima na bilo kojem koderu prioriteta u prvom nivou aktivnih logičkih jedinica, biće aktivan i njegov izlazni signal GS, pa će koder prioriteta u drugom nivou dati odgovarajući indeks kodera prioriteta prvog nivoa (određen po prioritetu GS signala), što su u stvari signali A3 i A2 za „veliki“ koder. Ostaje problem kako odrediti signale A1 i A0. \alert{Ovde su u pitanju izlazi pa njihovo direktno spajanje sigurno ne dolazi u obzir.} A i logički njihovo direktno spajanje ne bi donelo validnu informaciju. U tom smislu bi morali na osnovne kodere prioriteta dodati još neke ulaze i izlaze, kako bi omogućili laku identifikaciju koji signali A1 i A0 su validni, a i da omogućimo njihovo lako logičko spajanje.
+\end{column}
+\end{columns}
+\end{frame}

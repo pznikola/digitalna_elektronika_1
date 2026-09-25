@@ -1,0 +1,20 @@
+\begin{tikzpicture}[x=.79cm,y=.79cm,font=\sitneoznake,>=Latex]
+\draw[<->](-4.1,0)node[above]{$V_{o2}=V_{i3}$}--(4.1,0)node[right]{$V_{i1}=V_{o4}$};
+\draw[<->](0,-3.65)node[right]{$V_{o3}=V_{i4}$}--(0,3.85)node[left]{$V_{o1}=V_{i2}$};
+\draw[dashed](-3.2,-3.2)rectangle(3.2,3.2);\draw[dashed](-3.2,-3.2)--(3.2,3.2);\draw[dashed](-3.2,3.2)--(3.2,-3.2);
+\node[left]at(0,3.45){$V_{CC}$};\node[below]at(3.45,0){$V_{CC}$};\node[below]at(-3.45,0){$V_{CC}$};
+\node at(2.35,2.72){1.};\node at(-2.35,2.72){2.};\node at(-2.2,-2.88){3.};\node at(2.2,-2.88){4.};
+\begin{scope}[rotate=0]\draw[thick](0,3.2)--(1.6,2.67)--(1.6,.53)--(3.2,0);
+\filldraw[fill=DEcrvena,draw=DEtekst](1.6,1.6)circle(.06);\end{scope}
+\begin{scope}[rotate=90]\draw[thick](0,3.2)--(1.6,2.67)--(1.6,.53)--(3.2,0);
+\filldraw[fill=DEcrvena,draw=DEtekst](1.6,1.6)circle(.06);\end{scope}
+\begin{scope}[rotate=180]\draw[thick](0,3.2)--(1.6,2.67)--(1.6,.53)--(3.2,0);
+\filldraw[fill=DEcrvena,draw=DEtekst](1.6,1.6)circle(.06);\end{scope}
+\begin{scope}[rotate=270]\draw[thick](0,3.2)--(1.6,2.67)--(1.6,.53)--(3.2,0);
+\filldraw[fill=DEcrvena,draw=DEtekst](1.6,1.6)circle(.06);\end{scope}
+
+\draw[->,DEcrvena](1.34,0)--(1.34,2.75);\draw[->,DEcrvena](1.34,2.75)--(0,2.75);
+\draw[->,DEplava](0,2.75)--(0,1.46);\node[right]at(0,2.05){N=9};
+\draw[->,DEcrvena](0,1.46)--(-2.67,1.46);\draw[->,DEcrvena](-2.67,1.46)--(-2.67,-.14);\draw[->,DEcrvena](-2.67,-.14)--(3.12,-.14);
+\draw[->,DEplava](0,0)--(1.34,0);\node[above,fill=white,inner sep=1pt]at(.72,0){N=10};
+\end{tikzpicture}

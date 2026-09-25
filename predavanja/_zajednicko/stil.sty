@@ -1,0 +1,41 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{stil}[2026/09/24 Zajednicki stil predavanja]
+\RequirePackage{fontspec}
+\RequirePackage[serbian]{babel}
+\setsansfont{Latin Modern Sans}
+\setmainfont{Latin Modern Sans}
+\setmonofont{Latin Modern Mono}
+\RequirePackage{amsmath,amssymb,mathtools}
+\RequirePackage{array,booktabs,tabularx,multirow,makecell}
+\RequirePackage{listings}
+\RequirePackage{graphicx}
+\definecolor{DEtekst}{HTML}{182536}
+\definecolor{DEplava}{HTML}{194F78}
+\definecolor{DEcrvena}{HTML}{AF3447}
+\definecolor{DEzelena}{HTML}{237660}
+\setbeamercolor{normal text}{fg=DEtekst,bg=white}
+\setbeamercolor{structure}{fg=DEplava}
+\setbeamercolor{frametitle}{fg=DEplava,bg=white}
+\setbeamercolor{alerted text}{fg=DEcrvena}
+\setbeamerfont{frametitle}{size=\large,series=\bfseries}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{headline}{}
+\setbeamertemplate{footline}{\hfill\usebeamercolor[fg]{structure}\fontsize{8}{9}\selectfont\insertframenumber\hspace{5mm}\vspace{2mm}}
+\setbeamersize{text margin left=7mm,text margin right=7mm}
+\setbeamertemplate{itemize item}{\small\textbullet}
+\setbeamertemplate{itemize subitem}{\scriptsize\textbullet}
+\setlength{\parskip}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\newcommand{\gusttekst}{\fontsize{9}{11}\selectfont}
+\newcommand{\sitneoznake}{\fontsize{8}{9.5}\selectfont}
+\lstset{basicstyle=\ttfamily\fontsize{9}{10.5}\selectfont,
+  keywordstyle=\color{DEplava}\bfseries,commentstyle=\color{DEzelena},
+  stringstyle=\color{DEcrvena},columns=fullflexible,keepspaces=true,
+  showstringspaces=false,breaklines=true,tabsize=2,language=VHDL}
+% Oznaka se vezuje za stvarno poslatu PDF stranu, uključujući eventualne overlay strane.
+\newwrite\DEmap
+\immediate\openout\DEmap=\jobname.slide-map.tsv
+\newcommand{\DEcurrentid}{NEOZNACEN}
+\newcommand{\slajdid}[1]{\gdef\DEcurrentid{#1}}
+\AddToHook{shipout/before}{\immediate\write\DEmap{\DEcurrentid\space\thepage}}
+\AtEndDocument{\immediate\closeout\DEmap}

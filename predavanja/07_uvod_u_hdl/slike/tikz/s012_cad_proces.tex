@@ -1,0 +1,22 @@
+\begin{tikzpicture}[font=\fontsize{8}{9}\selectfont,>=Latex]
+\node[draw,ellipse,minimum width=2.5cm,minimum height=.42cm] (start) at (0,0) {Design conception};
+\filldraw[fill=magenta!7,draw=magenta] (-2.45,-.6) rectangle (2.45,-1.86);
+\node at (0,-.83) {DESIGN ENTRY};
+\node[draw,ellipse,align=center,inner sep=1pt,minimum width=2.2cm,minimum height=.55cm] (schem) at (-1.2,-1.37) {Schematic\\capture};
+\node[draw,ellipse,minimum width=1.4cm,minimum height=.42cm] (vhdl) at (1.3,-1.37) {VHDL};
+\draw[->] (start)--(0,-.6);
+\node[draw,minimum width=2.1cm,minimum height=.45cm] (syn) at (0,-2.12) {Synthesis};
+\node[draw,minimum width=2.1cm,minimum height=.45cm] (func) at (0,-2.85) {Functional simulation};
+\node[draw,minimum width=2.1cm,minimum height=.45cm] (phys) at (0,-4.5) {Physical design};
+\node[draw,minimum width=2.1cm,minimum height=.45cm] (time) at (0,-5.23) {Timing simulation};
+\node[draw,minimum width=2.1cm,minimum height=.45cm] (chip) at (0,-6.88) {Chip configuration};
+\draw[->] (schem.south)|-(syn.west);\draw[->] (vhdl.south)|-(syn.east);
+\draw[->] (syn)--(func);
+\node[inner sep=0pt,minimum width=3.8cm,minimum height=.50cm] (correct) at (0,-3.58) {Design correct?};\draw (-1.9,-3.58)--(0,-3.33)--(1.9,-3.58)--(0,-3.83)--cycle;
+\node[inner sep=0pt,minimum width=4.6cm,minimum height=.70cm] (timing) at (0,-6.07) {Timing requirements met?};\draw (-2.3,-6.07)--(0,-5.72)--(2.3,-6.07)--(0,-6.42)--cycle;
+\draw[->] (func)--(correct);\draw[->] (correct)--(phys) node[midway,right] {Yes};
+\draw[->] (phys)--(time);\draw[->] (time)--(timing);\draw[->] (timing)--(chip) node[midway,right] {Yes};
+\draw[->] (correct.west)--(-3.1,-3.58) node[pos=.12,above] {No} |- (0,-.38);
+\draw[->] (timing.west)--(-3.1,-6.07) node[pos=.12,above] {No}--(-3.1,-3.58);
+\draw[->] (-2.65,-6.07)--(-2.65,-4.02)--(0,-4.02);
+\end{tikzpicture}

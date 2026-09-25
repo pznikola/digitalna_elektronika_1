@@ -1,0 +1,26 @@
+\begin{tikzpicture}[font=\fontsize{8}{9}\selectfont,>=Latex]
+\node[draw,fill=DEplava!10,minimum height=.45cm] (entry) at (0,0) {Design Entry};
+\node[draw,fill=DEplava!10,minimum height=.45cm] (test) at (4.5,0) {Test Development};
+\node[draw,fill=DEplava!10,minimum height=.45cm] (syn) at (0,-.8) {Synthesis};
+\node[draw,fill=DEplava!10,minimum height=.45cm] (func) at (3.2,-.8) {Functional Simulation};
+\node[draw,fill=DEplava!10,minimum height=.45cm] (map) at (0,-1.6) {Device Mapping};
+\node[draw,fill=DEplava!10,minimum height=.45cm] (time) at (4.5,-1.6) {Timing Simulation};
+\draw[->,line width=1.2pt,DEplava] (entry)--(syn);\draw[->,line width=1.2pt,DEplava] (entry.east)-|([xshift=-4mm]func.north);
+\draw[->,line width=1.2pt,DEplava] (test.south)--++(0,-.12)-|([xshift=4mm]func.north);\draw[->,line width=1.2pt,DEplava] (test.east)--(6,0)|-(time.east);
+\draw[->,line width=1.2pt,DEplava] (syn)--(map);\draw[->,line width=1.2pt,DEplava] (map)--(time);
+\draw[->,line width=1.2pt,DEplava] (map)--(0,-2.18);
+\filldraw[fill=orange!35,draw=DEplava] (-.85,-2.6)--(.6,-2.6)--(.95,-2.22)--(-.5,-2.22)--cycle;
+\draw[DEplava] (-.85,-2.6)--(-.85,-2.66)--(.6,-2.66)--(.95,-2.28)--(.95,-2.22);
+\draw[DEplava] (-0.85,-2.66)--(-0.85,-2.84);
+\draw[DEplava] (-0.705,-2.66)--(-0.705,-2.84);
+\draw[DEplava] (-0.56,-2.66)--(-0.56,-2.84);
+\draw[DEplava] (-0.41500000000000004,-2.66)--(-0.41500000000000004,-2.84);
+\draw[DEplava] (-0.27,-2.66)--(-0.27,-2.84);
+\draw[DEplava] (-0.125,-2.66)--(-0.125,-2.84);
+\draw[DEplava] (0.019999999999999907,-2.66)--(0.019999999999999907,-2.84);
+\draw[DEplava] (0.16499999999999992,-2.66)--(0.16499999999999992,-2.84);
+\draw[DEplava] (0.30999999999999994,-2.66)--(0.30999999999999994,-2.84);
+\draw[DEplava] (0.45499999999999996,-2.66)--(0.45499999999999996,-2.84);
+\draw[DEplava] (0.6,-2.66)--(0.6,-2.84);
+\draw[DEplava] (.9,-2.33)--(.9,-2.51);
+\end{tikzpicture}

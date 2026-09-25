@@ -1,0 +1,15 @@
+\slajdid{04-s012}
+\begin{frame}[label=04-s012]
+\gusttekst
+\setlength{\abovedisplayskip}{5pt}\setlength{\belowdisplayskip}{5pt}
+U bilo kojem brojnom sistemu razlomljeni deo može da se napiše kao
+\[\begin{aligned}RV_r&=c_{-1}\cdot r^{-1}+c_{-2}\cdot r^{-2}+\ldots+c_{-k+1}\cdot r^{-k+1}+c_{-k}\cdot r^{-k}\\
+&=\frac{c_{-1}\cdot r^{k-1}+c_{-2}\cdot r^{k-2}+\ldots+c_{-k+1}\cdot r^1+c_{-k}\cdot r^0}{r^k}\end{aligned}\]
+Odnosno kao odgovarajuća celobrojna vrednost\hfill $RV_r=\dfrac{CV_r}{r^k}$
+
+Ako je razlomljeni deo u decimalnom brojnom sistemu prikazan sa $l$ cifara i smatramo da će u drugom brojnom sistemu biti prikazan sa konačnim brojem cifara $k$ uslov se svodi na
+\[\frac{(CV_{10})_l}{10^l}=\frac{(CV_r)_k}{r^k}\qquad\text{odnosno}\qquad(CV_r)_k=\frac{r^k}{10^l}(CV_{10})_l\]
+Da li je uvek moguće zadovoljiti ovaj uslov. Odgovor je NE, kao što smo i videli a i videćemo.
+\[\textcolor{DEcrvena}{\text{Znači za razlomljeni deo uslov}}\quad(RV_{10})_{-k-1}=0\Rightarrow c_{-k-1}=0\]
+A ako ga nije moguće postići: \alert{izračunat dovoljan broj cifara} (šta god to za sada značilo)
+\end{frame}

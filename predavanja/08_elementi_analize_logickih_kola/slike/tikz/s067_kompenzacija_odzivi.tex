@@ -1,0 +1,10 @@
+\begin{tikzpicture}[x=.85cm,y=.73cm,font=\sitneoznake,>=Latex]
+\draw[->](-1.1,6.0)--(4.6,6.0)node[below]{$t$};\draw[->](0,5.9)--(0,7.75)node[left]{$u_i(t)$};
+\draw(-.8,6.2)--(.7,6.2)--(.7,7.35)--(3.9,7.35);\node[above]at(-.45,6.2){$=V_{OL}$};\node[above]at(2.3,7.35){$=V_{OH}$};\node[below]at(.7,6){$t_0$};
+\draw[->](-1.1,4.0)--(4.6,4.0)node[below]{$t$};\draw[->](0,3.9)--(0,5.75)node[left]{$u_o(t)$};
+\draw(-.8,4.2)--(.7,4.2)--(.7,5.4)--(3.9,5.4);\node[align=center]at(2.5,4.75){Kompenzovan\\C1R1=C2R2};
+\draw[->](-1.1,2.0)--(4.6,2.0)node[below]{$t$};\draw[->](0,1.9)--(0,3.75)node[left]{$u_o(t)$};
+\draw(-.8,2.2)--(.7,2.2);\draw[domain=.7:3.9,samples=50]plot(\x,{3.4-1.2*exp(-2*(\x-.7))});\draw[dashed](0,3.4)--(3.9,3.4);\node[align=center]at(2.8,2.7){Podkompenzovan\\C1R1<C2R2};
+\draw[->](-1.1,0.0)--(4.6,0.0)node[below]{$t$};\draw[->](0,-0.1)--(0,1.75)node[left]{$u_o(t)$};
+\draw(-.8,.2)--(.7,.2)--(.7,1.65);\draw[domain=.7:3.9,samples=50]plot(\x,{1.25+.4*exp(-1.1*(\x-.7))});\draw[dashed](0,1.25)--(3.9,1.25);\node[align=center]at(2.8,.65){Prekompenzovan\\C1R1>C2R2};
+\draw[dotted](.7,-.1)--(.7,6.2);\end{tikzpicture}

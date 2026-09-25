@@ -1,0 +1,19 @@
+\slajdid{08-s050}
+\begin{frame}[label=08-s050]
+\gusttekst\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}
+\textbf{Isto tako zanimljivo je videti koliko je trajanje usponske (simetrično je i za silaznu) ivicu prouzrokovanu ovom kapacitivnošću}
+\begin{align*}
+u_o(t_1)&=10\%\,(U-U_0)+U_0=(U-U_0)\left(1-e^{-\frac{t_1-t_0}{\tau}}\right)+U_0\\
+u_o(t_2)&=90\%\,(U-U_0)+U_0=(U-U_0)\left(1-e^{-\frac{t_2-t_0}{\tau}}\right)+U_0\\
+t_1&=t_0-\tau\ln(0.9)\qquad t_2=t_0-\tau\ln(0.1)\\
+t_2-t_1&=t_r=\tau\ln(9)\approx\alert{2.2\tau}
+\end{align*}
+odnosno vreme uspona, pada, u slučaju jednog akumulativnog elementa (videćemo da to važi i za induktivnosti) je $2.2\tau$.\par
+Na sličan način možemo proučiti i kašnjenje
+\begin{align*}
+u_o(t_1)&=50\%\,(U-U_0)+U_0=(U-U_0)\left(1-e^{-\frac{t_1-t_0}{\tau}}\right)+U_0\\
+t_1&=t_0-\tau\ln(0.5)\\
+t_1-t_0&=t_p=\tau\ln(2)\approx\alert{0.69\tau}
+\end{align*}
+Odnosno kašnjenje (simetrično za silaznu ivicu) koje unosi akumulativni element je $\tau\ln(2)$ što je približno $0.69\,\tau$.
+\end{frame}

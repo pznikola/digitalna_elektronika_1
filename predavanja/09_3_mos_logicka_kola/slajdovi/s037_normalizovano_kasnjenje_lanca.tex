@@ -1,0 +1,10 @@
+\slajdid{09_3-s037}
+\begin{frame}[label=09_3-s037]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}U tom slučaju
+\[t_{p1}=0.69R_{eq1}(C_{int1}+C_{ext1})=0.69R_{eq1}C_{in}\left(\frac{C_{ext1}}{C_{in}}+\frac{C_{int1}}{C_{in}}\right)\]
+\[t_{p1}=\tau_{inv}\left(\frac{C_{ext1}}{C_{in}}+\frac{C_{int1}}{C_{in}}\right)\]
+i mogli smo da nastavimo optimizaciju sa ovim izrazom kod lanca invertora,
+\[t_p=\sum_{i=1}^{i=N}t_{p,i}=\sum_{i=1}^{i=N}0.69R_{eq,i}C_{in,i}\left(\frac{C_{ext,i}}{C_{in,i}}+\frac{C_{int,i}}{C_{in,i}}\right)=\sum_{i=1}^{i=N}\tau_{inv}\left(\frac{C_gW_{i+1}}{C_gW_i}+\gamma\right)\]
+\[t_p=\sum_{i=1}^{i=N}\tau_{inv}\left(\frac{W_{i+1}}{W_i}+\gamma\right)\]
+gde je $C_gW_{N+1}=C_L$ i $R_{eq,i}C_{in,i}=\frac{R_{eq1}}f(C_{in1}f)=R_{eq1}C_{in1}$. Dobili bi isti rezultat. Karakteristična vremenska konstanta jediničnog invertora je praktično jednaka kašnjenju jediničnog invertora kada nije opterećen i pod uslovom da je $\gamma\approx1$.
+\end{frame}

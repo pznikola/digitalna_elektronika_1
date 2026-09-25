@@ -1,0 +1,19 @@
+\slajdid{09_1-s033}
+\begin{frame}[label=09_1-s033]
+\gusttekst\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}
+\begin{columns}[T,onlytextwidth]\column{.50\textwidth}
+Računamo „zaista“ srednju vrednost po definiciji kada se radna tačka menja između tačaka 1 i 2
+\[R_n=\frac1{V_2-V_1}\int_{V_1}^{V_2}R_{ON}(V)dV\]
+\[\begin{aligned}R_{ON}(V)&=\frac V{I_{Dn}(V)}\\&=\frac V{\frac{k_n}{2}\frac1{1+\frac{(V_{GS}-V_{Tn})}{L_nE_{Cn}}}(V_{GS}-V_{Tn})^2(1+\lambda_nV)}\end{aligned}\]
+\par\bigskip\alert{Izrazi su veoma slični, i jedna i drugi su aproksimacija, tako da možemo koristiti ili jedan ili drugi, pri čemu je drugi tačniji.\par
+$\left(\frac56=0.833,\quad\frac79=0.777\right)$}
+\column{.48\textwidth}
+Uz istu zamenu
+\[I_{Dnsat}=\frac{k_n}{2}\frac1{1+\frac{(V_{GS}-V_{Tn})}{L_nE_{Cn}}}(V_{GS}-V_{Tn})^2\]
+\[R_n=\frac1{\frac{V_{DD}}2-V_{DD}}\int_{V_{DD}}^{\frac{V_{DD}}2}\frac V{I_{Dnsat}(1+\lambda_nV)}dV\]
+\[R_n=-\frac2{I_{Dnsat}V_{DD}}\int_{V_{DD}}^{\frac{V_{DD}}2}\frac V{(1+\lambda_nV)}dV\]
+\[R_n\approx-\frac2{I_{Dnsat}V_{DD}}\int_{V_{DD}}^{\frac{V_{DD}}2}V(1-\lambda_nV)dV\]
+\[R_n\approx-\frac2{I_{Dnsat}V_{DD}}\int_{V_{DD}}^{\frac{V_{DD}}2}V(1-\lambda_nV)dV\]
+\[R_n\approx\frac34\frac{V_{DD}}{I_{Dnsat}}\left(1-\frac79\lambda_nV_{DD}\right)\]
+\end{columns}
+\end{frame}

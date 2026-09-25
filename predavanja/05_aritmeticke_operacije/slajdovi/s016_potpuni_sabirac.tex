@@ -1,0 +1,20 @@
+
+\slajdid{05-s016}
+\begin{frame}[label=05-s016]{Potpuni sabirač}
+\gusttekst
+\begin{columns}[c,onlytextwidth]
+\column{.38\textwidth}\centering\renewcommand{\arraystretch}{1.5}\setlength{\tabcolsep}{8pt}\input{tabele/s016_potpuni_sabirac.tex}
+\column{.59\textwidth}\centering
+\begin{tikzpicture}[font=\fontsize{9}{10}\selectfont]
+\node[draw,align=center,minimum width=1.4cm,minimum height=.8cm] (b) at (0,0) {Full\\adder};
+\draw[DEstrelica] (-.35,.9)node[above]{$a$}--(-.35,.4);
+\draw[DEstrelica] (.35,.9)node[above]{$b$}--(.35,.4);
+\draw[DEstrelica] (-1.2,0)node[left]{$c_i$}--(b.west);
+\draw[DEstrelica] (b.east)--(1.2,0)node[right]{$c_o$};
+\draw[DEstrelica] (b.south)--(0,-.8)node[below]{$s$};
+\end{tikzpicture}
+\[s=c_{in}\oplus a\oplus b\qquad c_{out}=ab+c_{in}(a\oplus b)\]
+\input{slike/tikz/s016_potpuni_sabirac.tex}
+\end{columns}
+\[\textcolor{DEcrvena}{r=c_{in}ab+\overline{c_{out}}(c_i+a+b)}\]
+\end{frame}

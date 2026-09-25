@@ -1,0 +1,20 @@
+\slajdid{02-s020}
+\begin{frame}[label=02-s020]
+\gusttekst
+Da li su nam uvek na raspolaganju i prave i komplementne vrednosti signala. U većini praktičnih slučajeva NE.
+
+Za formiranje električne, logičke, šeme će nam trebati i invertori pošto nam, na primer, trebaju komplemente vrednosti ulaznih signala jer raspolažemo samo sa pravim vrednostima.
+\begin{columns}[c,onlytextwidth]
+\begin{column}{.61\textwidth}\centering
+\input{slike/tikz/s020_zbir_proizvoda_sa_invertorima.tex}
+\end{column}
+\begin{column}{.36\textwidth}
+Primer: logičko kolo koje je napravilo promenljivu A „vidi“ tri ulaza u logička kola.
+
+\alert{Sa stanovišta realnih logičkih kola to nije dobro.}
+\[
+F=\bar CBA+C\bar BA+CB\bar A
+\]
+\end{column}
+\end{columns}
+\end{frame}

@@ -1,0 +1,16 @@
+\begin{tikzpicture}[x=1cm,y=.8cm,font=\sitneoznake,>=Latex]
+\draw (-0.22,0.22)--(0.24,0)--(-0.22,-0.22)--cycle;
+\draw (0.29,0)circle(.05);\node at(-0.08,0){1};
+\draw (3.5799999999999996,0.22)--(4.04,0)--(3.5799999999999996,-0.22)--cycle;
+\draw (4.09,0)circle(.05);\node at(3.7199999999999998,0){2};
+\draw(-1.1,0)node[above]{$a_1(t)$}--(-.22,0);\draw(.34,0)--(3.58,0);
+\draw(4.14,0)--(5.8,0)node[above]{$b_2(t)$};
+\draw(-.1,.16)--(-.1,.85);\draw(3.7,.16)--(3.7,.85);
+\draw(-.1,-.16)--(-.1,-1.05);\draw(3.7,-.16)--(3.7,-1.05);
+\draw[->](2.35,.12)--(3.35,.12)node[midway,above]{$i_{i2}(t)$};
+\draw[->](5.1,.12)--(4.4,.12)node[midway,above]{$i_{o2}(t)$};
+\draw(-1.8,.85)node[above]{$V_{CC}$}--(-1.25,.85);\draw(-1.25,.75)rectangle(-.65,.95);\node[above]at(-.95,.95){$Z_{VCC}$};\draw(-.65,.85)--(3.7,.85);
+\draw(3.7,-1.05)--(-.65,-1.05);\draw(-1.25,-1.15)rectangle(-.65,-.95);\node[above]at(-.95,-.95){$Z_{DGND}$};\draw(-1.25,-1.05)--(-1.8,-1.05)node[ground]{};
+\draw[->](1,.98)--(2.5,.98)node[midway,above]{$i_{cc2}(t)$};
+\draw[->](2.7,-1.2)--(.7,-1.2)node[midway,below]{$i_{DGND2}(t)$};
+\end{tikzpicture}

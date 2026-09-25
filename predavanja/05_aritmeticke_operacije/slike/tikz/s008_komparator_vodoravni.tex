@@ -1,0 +1,7 @@
+\begin{tikzpicture}[font=\fontsize{8}{9}\selectfont]
+\draw[DEvod] (0,0) rectangle (6.5,1.3);
+\foreach \name/\xx in {inA>B/.5,inA<B/1.65,inA=B/2.8,A1/3.8,A0/4.4,B1/5.0,B0/5.6}{
+\draw[DEvod] (\xx,1.3)--(\xx,1.55);\node[anchor=north,inner sep=1pt] at (\xx,1.3) {\name};}
+\node at (2.9,.5) {komparator};
+\foreach \name/\yy in {A>B/.9,A<B/.55,A=B/.2}{\draw[DEvod] (6.5,\yy)--(6.8,\yy);\node[anchor=east,inner sep=1pt] at (6.5,\yy) {\name};}
+\end{tikzpicture}

@@ -1,0 +1,14 @@
+\slajdid{08-s047}
+\begin{frame}[label=08-s047]
+\gusttekst\setlength{\abovedisplayskip}{5pt}\setlength{\belowdisplayskip}{5pt}
+Ostaje da odredimo konstante $K_1$ i $K_2$. One se određuju iz početnih uslova. Kako smo ustanovili da je u trenutku $t_0$ napon na kondenzatoru $U_0$ i iz opšteg rešenja
+\[u_o(t_0)=K_1e^{-\frac{t_0-t_0}{\tau}}+K_2=K_1+K_2\]
+Onda je\qquad $K_1+K_2=U_0$\par
+Isto tako iz diferencijalne jednačine kola
+\[RC\frac{du_o(t)}{dt}+u_o(t)=u_i(t)\ =>\ \frac{du_o(t)}{dt}=\frac{u_i(t)-u_o(t)}{RC}\]
+\[=>\ \frac{du_o(t_0)}{dt}=\frac{u_i(t_0)-u_o(t_0)}{RC}\ =>\ \frac{du_o(t_0)}{dt}=\frac{U-U_o}{\tau}\]
+a iz opšteg rešenja
+\[\frac{du_o(t)}{dt}=\frac{d\left(K_1e^{-\frac{t-t_0}{\tau}}+K_2\right)}{dt}=-\frac{K_1}{\tau}e^{-\frac{t-t_0}{\tau}}\]
+i u trenutku $t=t_0$
+\[\left.\frac{du_o(t)}{dt}\right|_{t=t_0}=-\frac{K_1}{\tau}\]
+\end{frame}

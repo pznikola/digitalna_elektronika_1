@@ -1,0 +1,8 @@
+\begin{tikzpicture}[x=.7cm,y=.75cm,font=\sitneoznake,>=Latex]
+\foreach \a/\b in{.22/.38,.43/.57,.62/.78}{\draw(0,\a)--(0,\b);}\draw(-.13,.22)--(-.13,.78);\draw(0,.7)--(.4,.7)--(.4,1.1);\draw(0,.3)--(.4,.3)--(.4,-.35)node[ground]{};
+\draw(-.9,.3)node[ocirc]{}node[left]{$V_I$}--(-.13,.3);\node[right]at(.55,.9){N};\draw[-{Triangle[length=2mm,width=1.3mm]}](.95,.5)--(.03,.5);\draw(.95,.5)--(.95,-.35)node[ground]{};
+\foreach \a/\b in{1.62/1.78,1.83/1.97,2.02/2.18}{\draw(0,\a)--(0,\b);}\draw(-.13,1.62)--(-.13,2.18);\draw(0,2.1)--(.4,2.1)--(.4,2.65);\draw(0,1.7)--(.4,1.7)--(.4,1.1);
+\draw[-{Triangle[length=2mm,width=1.3mm]}](.03,1.9)--(.7,1.9);\draw(.7,1.9)--(.95,1.9)--(.95,2.65)--(.4,2.65);
+\draw(-.13,2.1)--(-.75,2.1)--(-.75,1.6)node[ground]{};\node[right]at(.55,1.55){P};
+\draw(.15,2.65)--(1.1,2.65)node[above left]{$V_{DD}$};\draw(.4,1.15)--(1.45,1.15)node[ocirc]{}node[right]{$V_O$};
+\end{tikzpicture}

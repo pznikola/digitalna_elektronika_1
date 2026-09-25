@@ -1,0 +1,707 @@
+{
+  "schema_version": 1,
+  "slides": {
+    "02-s001": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Naslovni tekst; sačuvan položaj prvog slajda. Novi prikaz pregledan u punoj veličini; nema odsecanja.",
+      "source_render_sha256": "c1eacbea51e9fe5d7a6bb572db0653b4fed737457e1d3a0d4455ea37690c8157",
+      "new_render_sha256": "600347e7fc994ee9c58699b667ada26b48d2c1b15147dd59b5506927cdcc1f71"
+    },
+    "02-s002": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Sve definicije, pitanja i znakovi ???; crvene reči trenutnog/trenutno, ceo pasus o nepoznatim izlazima i završno Kašnjenje logičkog kola. Novi prikaz pregledan u punoj veličini; nema odsecanja.",
+      "source_render_sha256": "471422a0d83edef22a772f7c023786ac48882f06d3dfc12501d2c3628ac59911",
+      "new_render_sha256": "3cf2eff3950602c2a8e0d3cb026069e7ddf0df8485b413b7cf05e48cf1a8bac3"
+    },
+    "02-s003": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Simbol invertora; četiri talasna oblika, dve vremenske ose po dijagramu; precrtani idealni prikaz, t1/t2, oba kašnjenja, Uočiti i strelice poređenja; objašnjenja p/H/L i dve pune definicije kašnjenja. Izvorno jedincama očuvano. Novi prikaz pregledan u punoj veličini; nema odsecanja.",
+      "source_render_sha256": "5ad8c75a12e69b2b417946d547cff11afacb26bca506dcbdd7fc8d5359202f1c",
+      "new_render_sha256": "604f17bcba5432c5f853543d6864d81cd7c7fa9c4430cf7eb4adf59f41ead5a3"
+    },
+    "02-s004": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Tri iskaza o t_p, uokvirena nejednakost, istaknuto nekih/sve; uzak ulazni impuls i zakašnjen invertovan izlaz, strelica t_p i sva prateća pitanja/tekst. Novi prikaz pregledan u punoj veličini; nema odsecanja.",
+      "source_render_sha256": "f04c28b3eb5e63e2099a2cbeb0b59a5ce18194f920a64f1ab5f897d81587a91a",
+      "new_render_sha256": "dd74e14992aa3992023169b54028c88c7716a659704419c7d717826d4b66f879"
+    },
+    "02-s005": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Sve rečenice i isticanja velikim slovima; dve šrafirane oblasti nepoznatog izlaza, 0 ili 1 i dve strelice, Sigurno 0/1 i strelice ka granicama. Izvorno zavisti očuvano. Novi prikaz pregledan u punoj veličini; nema odsecanja.",
+      "source_render_sha256": "e448846b35a72fa4680e98a9b6c92b9f80f9b8f3461bd411beb91bdeec9557bf",
+      "new_render_sha256": "14204309f3205418180720380c570c94526cc59b5af20175ed50e81f039f359b"
+    },
+    "02-s006": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Kompletna definicija i četiri pasusa o prelaznim procesima, sa oba crvena isticanja. Novi prikaz pregledan u punoj veličini; nema odsecanja.",
+      "source_render_sha256": "589e96d6efbf9ef66e2912ce5b0a2e76cdc2ef9c19ac35749b1fbf62690a9a84",
+      "new_render_sha256": "acb88a202d60a46b29422ebd6366cdc4602268d6932e0e21261f8aaa5e419779"
+    },
+    "02-s007": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Naslov i sve stavke obe liste, uključujući završno trotačje; istaknute minimizacijom i komponenti. Novi prikaz pregledan u punoj veličini; nema odsecanja.",
+      "source_render_sha256": "6dd8317dba5b92577482cc5aee00bce53a2ca090ef82e5ce4c36aaf6d3e431d6",
+      "new_render_sha256": "82daf13bf24d02cc034685b02627d8ca681e3e89b88e6ef57807f81227320807"
+    },
+    "02-s008": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Originalna fotografija 400×299 preuzeta bez izmene. U novim crtežima provereno svih 14 pinova, četiri AND kola i veze; dimenzije 7.11,19.94,5.08 i dve 2.54, natpis 14-Pin DIP, inch/mils. Ceo uvod i ekonomski pasus očuvani. Novi prikaz pregledan u punoj veličini; nema odsecanja.",
+      "source_render_sha256": "c3d0601f6549c04bbaeeecca0d1bf9727323385a8cc04671caf0f9f6a35006eb",
+      "new_render_sha256": "94d6d1804dbb49ff613249188572a38e15b3f6fd54cc7ba5bc563dd7637515c4"
+    },
+    "02-s009": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Svih 11 definicija u izvornom redosledu čitanja (leva pa desna kolona); negacije u primerima, n-bitni indeksi i zamena jedinica/nula provereni. Izvorno uređenje očuvano. Novi prikaz pregledan u punoj veličini; nema odsecanja.",
+      "source_render_sha256": "bf33fa58eba4e1f4714b5430e00960f74a4383a0522472853e015dafe1f12249",
+      "new_render_sha256": "62357c7ec882a8f786991ffb6587fbf65ed8d8c0ce44438c636519878a797ea5"
+    },
+    "02-s010": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Sve tri numerisane stavke i tri tekstualna objašnjenja; reči eventualno, table i među korak sačuvane kao u originalu. Novi prikaz pregledan u punoj veličini; nema odsecanja.",
+      "source_render_sha256": "adcab7d17571e880daa2f7d6dc0baf5dadaa3738b5c79af79b88383e2f6fdb93",
+      "new_render_sha256": "5c3d411eb6050c9d6cf4588a81f2e9c24565cd5eb633cf70a913ece638c318a5"
+    },
+    "02-s011": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Specifikacija funkcije tačno dve jedinice; svih 8 redova CBA/F i ceo opis. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "cc88e12855a75f4920c134dad9bd35796834c208033d7f06d020b468dde4f206",
+      "new_render_sha256": "7499a077c2665be294173324d9f777cbc03899f40cf610bd0fd6d8d67c3cf0da"
+    },
+    "02-s012": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Četiri reda skraćene tabele ILI; sva b polja; oznake b/X i potpuna specifikacija tri ulaza i izlaza. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "7e870880a6a8f5bc2031569fc70f89c02561249979fae271ceed828797cffdef",
+      "new_render_sha256": "17b0f5a9fa1381d13b64c79e434c59a9354004e62045230e50c4772427d09924"
+    },
+    "02-s013": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Tabela CBA/F, crveno izdvojeni redovi 3,5,6; objašnjenje izgradnje tri proizvoda i potpuna SOP formula. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "4e2c58618edbb3646c416a154673224f32b336adf37d181f84141e9625073912",
+      "new_render_sha256": "f6d02a9ea321763cf2eb7a3065d0e1ba90fb3905ab5d1fc5ef5a6f3d7cbbf67c"
+    },
+    "02-s014": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Potpuna SOP formula, sva terminologija i uslov svake promenljive u svakom proizvodu. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "228b3c5d599348bb81a72f2b4e6eb5c39c1b116a54eaf4e4240c1e63ccea0c78",
+      "new_render_sha256": "385ff86c0a6553ed1a4993c7e92489166c03988a66d560037b865c22c4ecfec2"
+    },
+    "02-s015": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Tabela osam kombinacija, pet crvenih nula; sva objašnjenja, pet negiranih proizvoda i konačnih pet maxterma. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "0419aed8e243f17948c0fa7429f158c0ac6ee2990b66c4f71e0343f660541617",
+      "new_render_sha256": "93f13530351f1c52e870228900ae08d8a470a232360644717aa7c7e62bde0bcd"
+    },
+    "02-s016": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Tabela sa F i komplementom F; pet označenih redova; svi međukoraci negacije, primene De Morganovog pravila i konačnog POS. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "59c09d8747bf4e6bb57c4820aa49d18ed4b2047845313aca4d3afd45f3ebcdda",
+      "new_render_sha256": "b0d5eaffce2a55f8d5c5ba01705c320a800aa4a22f3524311ebb08bb917171c2"
+    },
+    "02-s017": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "POS sa pet maxterma, objašnjenje svih naziva i uslova; izvorno konjuktivnom. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "189aa1361d4ed1ad49f9b4fc3252e5f40487417ca51e40e42feb415df552d25a",
+      "new_render_sha256": "e0dcb9ad290d01d56f600991b55cc4095fad55d1e18b704687542d264af0a9fd"
+    },
+    "02-s018": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Tabela indeksa 0–7, CBA i F; suma(3,5,6), proizvod(0,1,2,4,7), redosled CBA i razvoj težinskog broja. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "cec6f2610dd93a6f730ff36fef6eef98611f7774efc6c544624e49d16e494161",
+      "new_render_sha256": "b358c106d371dbbeb6ad16a699a126475160bc73cb1f1d571f901036676cc03c"
+    },
+    "02-s019": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "SOP, svih šest šina C/B/A i negacija, tri troulazna I kola, troulazno ILI i svaka veza do F. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "7275a0965d41e29d148adc3b5e01240b6b7e1d2150bd435c23c1f5e7c58a4c78",
+      "new_render_sha256": "42a269a89e8bb3db3cf93d78b92b8deb5e5ff87dcc29ef99506eb80382cdf08f"
+    },
+    "02-s020": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Ista SOP mreža sa tri invertora i strelicama opterećenja A; naslov, formula i sve veze. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "c837e4adf3cd313189ff41f0cc15020b5e898bff73d3cfeffb89ecd3889b0d09",
+      "new_render_sha256": "42ce381c03d0c0ba5556abc54530715b9002d26296fc34190e1c399ed1b2109f"
+    },
+    "02-s021": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Šest invertora, odvojene šine pravih i negiranih CBA; tri I i jedno ILI; prespojni tapovi van izlaznih kružića. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "d8053752b1c801ffdcc5cd966cf42f12d2f1ae041ce0eb5de2c60fdd5d4e0d42",
+      "new_render_sha256": "e9d5873d603a18a123edc548dcf0dc909fdb3bb97fb1e051209224771e3e63d3"
+    },
+    "02-s022": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Šest invertora, pet troulaznih ILI i jedno petoulazno I; svih pet putanja i formula. Očuvan izvorni nesklad prve zagrade i naslova. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "3f68d1b080f1adf98a0c40a9a02acc0425477841447b40d2fed7134d64c45ab9",
+      "new_render_sha256": "89261724df1641aa951df7defdbbad6bec9d817b72605ef958b8ae7c29ac757c"
+    },
+    "02-s023": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Sva četiri opažanja, značenje T-spoja bez tačke, oba broja ulaza 12 i 20 i crvena isticanja. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "1c5091247741bfbff4dcc1d3a123c0a20ff41b7c5da1bb287ffeccf850bbc1cf",
+      "new_render_sha256": "52224a52fe0e14138d9e7220779617273d445040e31a89d33a9f0ede22869e3a"
+    },
+    "02-s024": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Dve mreže sa po tri NI prvog nivoa; levo ILI sa negiranim ulazima, desno NI; strelica transformacije, sve šine i tekst. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "8ca9a92a046e0cd108d6da4e08033d496da08000c8f2c3d5af26b812c2c5c23b",
+      "new_render_sha256": "c4becd46d005a2e986c043edda37d82fac98a7ad55f87316d95edacd66fe5e4e"
+    },
+    "02-s025": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Sve formule SOP, dvostruka negacija, De Morganov korak i obrazloženje ekvivalentnosti realizacije. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "09d5d2ce98d79338c9571dcc55cd7e30dbd89236427374569e215dfaebd90748",
+      "new_render_sha256": "85e066e2f8956fc1d870bbf43ffc978af92200697b6c3925986e060d2378cece"
+    },
+    "02-s026": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Dve mreže sa pet NILI prvog nivoa; I sa pet negiranih ulaza i završno NILI; svi koraci POS formule i negacije. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "91adae98636f3b497556089f2af82b51b175779bfa4903cc2cc7cd1f9f045c73",
+      "new_render_sha256": "6992c5f148c9bd375cb882f875ad3cf2ac2670eadb2eb9587ddd70e21640a5b1"
+    },
+    "02-s027": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Svi pasusi o istom broju kola i ulaza posle transformacije; izvorno uštedi. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "f908f47907eaaa1631f0adc63af9c095dc083c6baf14ab23967e42ababce8d65",
+      "new_render_sha256": "32db68b0d93a129c5b8ffecb833238d7eacc4466e7c368ec7290962b1868aef2"
+    },
+    "02-s028": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Pet ekvivalentnih invertora; petoulazno I i ILI, po četiri dvoulazna u kaskadi; oznake jednakosti, crvena kritična i plava kraća putanja. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "5ba21a3450489157e99e102322014d772386da23d1aae16491003898586df7d8",
+      "new_render_sha256": "c2a23c82ca91987fe0d83db761797035efde3a190595fd3b14640ef061314102"
+    },
+    "02-s029": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Petoulazno I i stablo četiri dvoulazna I; svih pet ulaza, kritična putanja i tekst, uključujući netačan izvorni navod o broju kola. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "1ed3d77186cf00db66d0d2a52cd99cbd0ebdd6907818b2f5043b1b4e16442a24",
+      "new_render_sha256": "744f147d3e946da84b603ea3ff6a3397ac0044e6a9f9bfbdb67d22b9cb139f59"
+    },
+    "02-s030": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Petoulazno NI naspram NI kaskade i stabla; dva znaka nejednakosti, sve negacije i tekst o NILI. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "d4314453a5991b249bdcf0ad14930d0bb5ff10f1003b060930c93a41046c85fc",
+      "new_render_sha256": "89d6ea5e8336861a81f4026b44c41f52c200b6e64267cdd1148084f067ac657a"
+    },
+    "02-s031": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Tri ekvivalentne realizacije: NI3, I2+NI2, NI2+vezani NI2+NI2; sva tri ulaza, F i formula grupisanja. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "d731f3e93637349dd7f9a8d7cb0d7f739cf56ddba4d0db910b5447241d841f04",
+      "new_render_sha256": "b41ff0397788a718204e103626f7cff20351bbc5eae36790483c1cf9cc65ef14"
+    },
+    "02-s032": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Ceo gust tekst minimizacije i dva algebarska razvoja, sve negacije i istaknuto smanjenje sa 8 na 3 ulaza. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "704677f281086b0b82680fd6cde81c95c95b02c52b08030a64830b54bf0d1b83",
+      "new_render_sha256": "ce44c044b9e85c0f22eda9e09a084c98d14e342b666739c689136545ccbb5eaa"
+    },
+    "02-s033": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Ceo opis minimizacije i geometrijskog prikaza u 2D/3D/4D prostoru, ograničenje i navod o sedam promenljivih. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "6677c202955e054c982f3dc0a9f217f140a73a12fde1adc0d9c4468e47f5b356",
+      "new_render_sha256": "8a109f405f572f7768586d6939579a24c7b263542f5c802f2c8e04728b87c22b"
+    },
+    "02-s034": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Dve karte jedne promenljive i tri karte dve promenljive; svi indeksi i strelice objašnjenja, susedne crvene ivice, pun tekst Hamingovog rastojanja. Očuvani obrnuti indeksi vertikalne karte. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "de9ffd607ec1ee4a86534af79ff4444f92f58f65c566c629ef2d3ef851deb9c8",
+      "new_render_sha256": "c45881cd96a4b4394c180e5a3ce5200f6aebd04ae3b7ba25d741304fb70fb96f"
+    },
+    "02-s035": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Karte 2×4 i 4×2, svi indeksi 0–7, CB/A odnosno C/BA; oba pasusa o savijanju i susednosti preko ivica. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "496fc6984778e54671840bb9ed4b018af3d83cac2d09c9c77b068c5b5a5f134c",
+      "new_render_sha256": "2c4366e2da3256c5f55f89a8627a14ee1e687efbc01e553df6bb14c91000d65d"
+    },
+    "02-s036": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Karta DC/BA 4×4 sa svih 16 indeksa, Grejov redosled i celokupno nabrajanje suseda preko ivica. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "4a8680a3c3b9a47f817aa409d4c4bd77f28c465e1b07619a417bcd2848b75e51",
+      "new_render_sha256": "5800e31582eb5b8b32283def7456722cdf54190e45460a69ec77b15ecf4b4731"
+    },
+    "02-s037": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Dve karte E=0/E=1, indeksi 0–31, iste ose i opis preklapanja uz parove 0/16,1/17. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "d6708b4bba342ee4931a681b89c97186ec69106866dbaeb4bf20c277732dfd23",
+      "new_render_sha256": "39549259e9fc6cce07dce93b159e4d596dea13f01c5bf9788d1f85eb7d6c4846"
+    },
+    "02-s038": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Četiri karte FE=00,01,10,11; svih 64 indeksa, iste DC/BA ose i objašnjenje susedstva u 4D. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "801a1934160497c58044d98ea2f5cac7c38c70e7c2db4d9ba8efe76b6d677dff",
+      "new_render_sha256": "e35e991119c720baf68f35254204984e24c4d82f4adf4199b1a1582f0710b7ff"
+    },
+    "02-s039": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Sedam definicija površina reda 0–6 sa 1,2,4,8,16,32,64 polja i završni popis geometrijskih oblika. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "05e20f35c86c4f72a25133a44b629f6c624fe8635ff1a7e549303828daf7eeeb",
+      "new_render_sha256": "d23c563d0c74a8f3302b8f9d912b2005cfe648f414e919cf7bc2477d2224457c"
+    },
+    "02-s040": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Karta CB/A, dve tabele C=0/1 sa izvornim obrnutim A zaglavljem desno; dve grupe preko ivica 0/4 i 0/1/4/5; sav prateći tekst. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "d1aa23f2362a28da21f9df9c22958f487b4b8021142076618fe5593deae25531",
+      "new_render_sha256": "65494954b25c42a32105410505463733d2e7a22cd2c0401274ff4b2ba87c2d8b"
+    },
+    "02-s041": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Uvod, dve numerisane grane algoritma, crveno najmanji broj površina najvećeg reda i potpun uslov minimalnosti. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "00e10b9ae87ba413d592fe0ed4535c2743c8359af46f765e74d2b63b0db25d0a",
+      "new_render_sha256": "5299c9b3d3a4726be8e5b99ae4e4bf11d32390b1b55e7061091b19f6e068de14"
+    },
+    "02-s042": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Dva puna pasusa o b/X, oba podvučena ne menjaju, uloga pravih i komplementovanih literala. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "fb18aa46fe84b61f305ce526fbb792e634a5e506e1fa4b620fb91442e18517ee",
+      "new_render_sha256": "a542a6bf0d25360ba2fcdd9180e9bb5068b7d1a276e0d6831e477689dba66989"
+    },
+    "02-s043": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Upoređene sve 32 ćelije i obe grupe sa originalom; redosled BA/DC sačuvan. Tekst, negacije u izrazu i podvučeno isticanje provereni. Geometrija karte prilagođena uz oznake od 9 pt.",
+      "source_render_sha256": "ac8cbbc032674a59be67f32658851bce97274fa904cc4da89303aed7fcc9e2bf",
+      "new_render_sha256": "030fa8f3ec22c6e02f182c0b5cfb6e03cdd07c92e3e868d26d88615539d4561a"
+    },
+    "02-s044": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Svih 16 polja 4×4 karte sa b u polju 1, samo izvorno prikazana grupa reda DC=11, pun tekst i POS sa tri zagrade. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "dfeff094129390dea98cbc1f2a5b4e7f94c92dced7d67b4164adf5efe9d1b543",
+      "new_render_sha256": "d0b2589e205d3bdfa9a9d0789a8a8cd7fe175964a45f1d7b5be1cbbf54e6786e"
+    },
+    "02-s045": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "SOP i POS, konkretna kola i brojevi ulaza 7/9, celo crveno upozorenje o izboru minimalnije forme. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "ff88ea21cbd3bc947027d2ac13e70db0ad02ba658982e2eb01868bebcd8ee85e",
+      "new_render_sha256": "9ad6ac5cb108c509d39bed1f5d2676c44efb05dd4209d1f9affb6e0a168d7a66"
+    },
+    "02-s046": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Obe formule, oba detaljna računa pinova 14−2,12/2,12/3, sve količine kola i rezultati četiri odnosno tri čipa. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "1a35bf10275e8988ad129e9406a4a98a890761725aebcfc34dd64f403a49174e",
+      "new_render_sha256": "4227a5f4cc750ecf066289561ca20cc5f52d51d6a97f1775233157d76e7ac74d"
+    },
+    "02-s047": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "SOP i grupisani (D barC)barA; ceo opis dodatnog kašnjenja i realizacije sa tri čipa. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "2be338b8c9e28b11d3c4268e3eaf6b511028831eff51f50671447b7d599396aa",
+      "new_render_sha256": "7cc57323747738caedf162e4ecfff13b63f93d04247ab0c1a11bb0157efc98b0"
+    },
+    "02-s048": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Svi koraci dvostruke negacije, NI3 dekompozicije, svi pasusi sa 9 kola/3 čipa, viškovi invertora i pitanje 1+1 ili 3. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "a359ea9718cbc1bb5b1c03dea90ded292ddbdd67f4031d38bcb1c28e34f378bb",
+      "new_render_sha256": "c5bdb88710e6a4ffeb87edb05dd0cd468d5f2d72ef8cdda6a4242f96686aabc0"
+    },
+    "02-s049": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "POS sa dvostrukom negacijom i De Morganovim korakom; NILI3 dekompozicija, sve količine i podvučeno Probajte; namerno sačuvana ponovljena fraza. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "d5625a5e8e112d69893e95d356aa5d250f4933e4fc003aa9e542a800cc41df5c",
+      "new_render_sha256": "d1ee3ac051cffaba425096e61cc8ae0d7a885d0574dddddc216a1b281666743e"
+    },
+    "02-s050": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Naslov i race hazard, potpun opis gliča, F=CbarB+BA, invertor, dve I kapije i ILI sa svih pet veza signala. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "0fdc3df0da12080f1e17785890887ed813c027054fc82f470be140eccf971f70",
+      "new_render_sha256": "e743158bf1b58757eee12a670d024dcda2c4143c9570e1d0f763c742f1570f43"
+    },
+    "02-s051": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Ponovljena ista šema, kompletan opis i ALI; osam talasnih oblika A/B/barB/C/A/BA/CbarB/F, dve vertikalne isprekidane linije, t_p i lažna nula. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "be3ad87805947b90896c1280d95a240fc90511229469becf69523e9cea87a291",
+      "new_render_sha256": "1a215519a24fbf1e3083df4a6c316a2a788de198a3fc8489232529b1b33d967a"
+    },
+    "02-s052": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Dve prazne karte sa pojedinačnim grupama 0/1 i 3/7; potpuna karta sa vrednostima 1 na 0,1,3,7 i samo prvom grupom; sve rečenice i formula. Izvorni nesklad C sa C=0 ostaje. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "5f5fe9601e9fcc3139f1e8de6ebf6e49ed29bb8cb1af32ba8cec647132ef0308",
+      "new_render_sha256": "d78664a81ae8d95d85d1585bf196f7c867bd60bf9926d6fbc96a74e8a636473e"
+    },
+    "02-s053": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno"
+      },
+      "notes": "Dve karte sa istim osam vrednosti; gornja ima dve grupe, donja dodatnu premošćujuću grupu 1/3; svi pasusi i dodatni član CA. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "2ed4406359459d1596bb8ba3ff552a3ce834f1abb3104fb1c0431dccc13d242c",
+      "new_render_sha256": "a74975eb82a8ff578b03db6a72bc905864d60c3f03407da2c57afc09f2407b94"
+    },
+    "02-s054": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno"
+      },
+      "notes": "Oba cela pasusa o lažnoj jedinici, višestrukim promenama ulaza, izjednačavanju kašnjenja i iskustvu projektanta. Novi prikaz pregledan u punoj veličini; nema odsecanja ili preklapanja.",
+      "source_render_sha256": "75089deded5ef615b41b9b429cbf806ad2a679067d861657313ab86ef7124edf",
+      "new_render_sha256": "22a4a1a81ac441a2ae1fdffa88d10d033ad4babe0ae95bb54c05d91471be9425"
+    }
+  }
+}

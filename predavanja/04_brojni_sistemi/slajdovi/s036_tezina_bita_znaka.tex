@@ -1,0 +1,21 @@
+\slajdid{04-s036}
+\begin{frame}[label=04-s036]
+\gusttekst\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}
+UOČITE
+
+Za računanje negativnih vrednosti u drugom komplementu binarnog brojnog sistema
+
+Znamo da je prikaz broja negativan
+
+Pravu vrednost dobijamo komplementiranjem i stavljanjem znaka minus ispred
+\[\begin{aligned}
+&-\left(2^n-b_{n-1}b_{n-2}\,b_{n-3}\ldots b_1\,b_0\right)\\
+&=-\left(2^n-b_{n-1}2^{n-1}-b_{n-2}\,b_{n-3}\ldots b_1\,b_0\right)\\
+&=-\left((2-b_{n-1})2^{n-1}-b_{n-2}\,b_{n-3}\ldots b_1\,b_0\right)\\
+&=-(2-b_{n-1})2^{n-1}+b_{n-2}b_{n-3}\ldots b_1\,b_0\\
+&=(b_{n-1}-2)2^{n-1}+b_{n-2}b_{n-3}\ldots b_1\,b_0
+\end{aligned}\]
+\[b_{n-1}=1\]
+\[-b_{n-1}\,2^{n-1}+b_{n-2}b_{n-3}\ldots b_1\,b_0\]
+PRELAZAK\qquad $\textcolor{DEcrvena}{(-b_{n-1})\,b_{n-2}b_{n-3}\ldots b_1\,b_0}$
+\end{frame}

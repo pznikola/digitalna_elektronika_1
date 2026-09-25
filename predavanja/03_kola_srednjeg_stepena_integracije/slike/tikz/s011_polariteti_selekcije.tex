@@ -1,0 +1,31 @@
+\begin{tikzpicture}[x=1cm,y=1cm,font=\fontsize{8}{9}\selectfont]
+\foreach \i/\x in {0/0,1/3,2/6}{
+ \begin{scope}[shift={(\x,0)}]
+ \draw[DEvod] (0,0) rectangle(1.65,2.25);
+ \node[align=center] at (.82,1.9) {Dekoder\\2/4};
+ \foreach \n/\y in {3/1.48,2/1.16,1/.84,0/.52}{
+  \node[anchor=east,inner sep=2pt] at (1.65,\y) {Y\n};
+  \draw[DEvod] (1.65,\y)--(1.85,\y);
+ }
+ \foreach \n/\xx in {1/.48,0/1.18}{
+  \node[anchor=south,inner sep=2pt] at (\xx,0) {S\n};
+  \draw[DEvod] (\xx,0)--(\xx,-.2);
+ }
+ \node[anchor=west,inner sep=2pt] at (0,.47) {CS1};
+ \draw[DEvod] (-.2,.47)--(0,.47);
+ \ifnum\i=1
+  \node[anchor=west,inner sep=2pt] at (0,.82) {CS2};
+ \else
+  \node[anchor=west,inner sep=2pt] at (0,.82) {$\overline{\mathrm{CS2}}$};
+ \fi
+ \ifnum\i=0
+  \draw[DEvod] (-.2,.82)--(0,.82);
+ \else
+  \draw[DEvod,fill=white] (-.05,.82) circle(.05);
+  \draw[DEvod] (-.2,.82)--(-.1,.82);
+ \fi
+ \end{scope}
+}
+\node[font=\fontsize{11}{12}\selectfont] at (2.4,1.1) {$=$};
+\node[font=\fontsize{11}{12}\selectfont] at (5.4,1.1) {$\ne$};
+\end{tikzpicture}

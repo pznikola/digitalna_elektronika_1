@@ -1,0 +1,58 @@
+% DEenable: dodatni EI/EO; DEjedinica i DEgejt određuju geometriju, font ostaje 8 pt.
+\begin{tikzpicture}[circuit logic US,x=\DEjedinica,y=\DEjedinica,font=\fontsize{8}{9}\selectfont,
+ inv/.style={not gate US,draw,minimum width=8mm,minimum height=7mm,scale=\DEgejt},
+ kapija/.style={and gate US,draw,minimum width=10mm,minimum height=10mm,scale=\DEgejt},
+ zbir/.style={or gate US,draw,minimum width=10mm,minimum height=12mm,scale=\DEgejt,rotate=-90}]
+\node[kapija,logic gate inputs=nn,anchor=input 2] (p2) at (2.7,3.2) {};
+\node[kapija,logic gate inputs=nnn,anchor=input 3] (p1) at (2.7,2) {};
+\node[kapija,logic gate inputs=nnnn,anchor=input 4] (p0) at (2.7,.8) {};
+\draw[DEvod] (-.4,4.4) node[left] {I3} -- (3.4,4.4);
+\coordinate (p3) at (3.4,4.4);
+\foreach \n/\y/\pin in {2/3.2/2,1/2/3,0/.8/4}
+ \draw[DEvod] (-.4,\y) node[left] {I\n} --(p\n.input \pin);
+\foreach \n/\x/\y/\src in {3/.6/3.9/4.4,2/1.1/2.7/3.2,1/1.6/1.5/2}{
+ \node[inv,rotate=-90] (i\n) at (\x,\y) {};
+ \draw[DEvod] (\x,\src)--(i\n.input);
+}
+\foreach \n in {2,1,0}
+ \draw[DEvod] (i3.output)|-(p\n.input 1);
+\foreach \n in {1,0}
+ \draw[DEvod] (i2.output)|-(p\n.input 2);
+\draw[DEvod] (i1.output)|-(p0.input 3);
+\foreach \n in {2,1,0} \coordinate (p\n) at (p\n.output);
+\ifnum\DEenable=1
+ \foreach \n in {3,2,1,0}{
+  \node[kapija,logic gate inputs=nn,anchor=input 2] (e\n) at (4.5,0 |- p\n) {};
+  \draw[DEvod] (p\n)--(e\n.input 2);
+  \draw[DEvod] (e\n.input 1)--(4.03,0 |- e\n.input 1);
+  \coordinate (q\n) at (e\n.output);
+ }
+ \draw[DEvod] (-.4,5.05) node[left] {EI} --(4.03,5.05)--(4.03,0 |- e0.input 1);
+ \def\DXone{6.4}\def\DXzero{7.6}\def\DXgs{8.9}\def\DXend{9.45}
+\else
+ \foreach \n in {3,2,1,0} \coordinate (q\n) at (p\n);
+ \def\DXone{4.5}\def\DXzero{5.7}\def\DXgs{7.1}\def\DXend{7.7}
+ \node at (1.45,5.05) {Prioritetna mreža};
+ \node at (5.9,5.05) {Koderska mreža};
+\fi
+\foreach \n in {3,2,1,0} \draw[DEvod] (q\n)--(\DXend,0 |- q\n);
+\node[zbir,logic gate inputs=nn] (a1) at (\DXone,-.25) {};
+\node[zbir,logic gate inputs=nn] (a0) at (\DXzero,-.25) {};
+\node[zbir,logic gate inputs=nnnn] (gs) at (\DXgs,-.25) {};
+\foreach \pin/\n in {2/3,1/2}
+ \draw[DEvod] (a1.input \pin)--(a1.input \pin |- q\n);
+\foreach \pin/\n in {2/3,1/1}
+ \draw[DEvod] (a0.input \pin)--(a0.input \pin |- q\n);
+\foreach \pin/\n in {4/3,3/2,2/1,1/0}
+ \draw[DEvod] (gs.input \pin)--(gs.input \pin |- q\n);
+\foreach \name/\lab in {a1/A1,a0/A0,gs/GS}
+ \draw[DEvod] (\name.output)--(\name.output |- 0,-1.3) node[below] {\lab};
+\ifnum\DEenable=1
+ \node[inv,rotate=90] (ngs) at (10,-.35) {};
+ \draw[DEvod] (gs.output)--(gs.output |- 0,-1.1)--(10,-1.1)--(ngs.input);
+ \node[kapija,rotate=-90,logic gate inputs=nn] (eo) at (11.15,-.35) {};
+ \draw[DEvod] (ngs.output)--(ngs.output |- 0,.35)--(eo.input 2 |- 0,.35)--(eo.input 2);
+ \draw[DEvod] (4.03,5.05)--(4.03,5.5)--(11.6,5.5)--(11.6,.35)--(eo.input 1 |- 0,.35)--(eo.input 1);
+ \draw[DEvod] (eo.output)--(eo.output |- 0,-1.3) node[below] {EO};
+\fi
+\end{tikzpicture}

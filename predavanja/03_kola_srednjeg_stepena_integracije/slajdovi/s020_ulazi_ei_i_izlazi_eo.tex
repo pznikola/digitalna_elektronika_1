@@ -1,0 +1,18 @@
+\slajdid{03-s020}
+\begin{frame}[t,label=03-s020]
+\fontsize{9}{9.5}\selectfont
+\setlength{\parskip}{2pt}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.49\textwidth}
+U tom smislu ćemo dodati ulazni signal EI (enable input) koji ako je aktivan, komponenta daje validne izlaze A1 i A0, a ako je neaktivan postavlja ih na logičke nule. Ovo možemo da uvedemo i za GS signal, u smislu da kada je on neaktivan komponenta nema šta da koduje bilo zato što nema aktivnih signala na ulazima, bilo zato što joj je „zabranjeno“ kodovanje. Kodovanje će joj biti zabranjeno ako na koderu višeg prioriteta ima šta da se koduje. Znači treba nam i jedan dodatan izlaz EO (enable output) koji suštinski dozvoljava koderu nižeg prioriteta da koduje. Dodavanjem ova dva signala u osnovnu šemu kodera prioriteta dobijamo
+\par\centering
+\begingroup
+\def\DEenable{1}\def\DEjedinica{.50cm}\def\DEgejt{.42}
+\input{slike/tikz/prioritetno_jezgro.tex}
+\endgroup
+\end{column}
+\begin{column}{.48\textwidth}
+Možda ne prvi pogled liči da nam nije trebao EO signal i da smo umesto njega mogli upotrebiti invertovani GS signal. Informacija mora da se prenese „odgore na dole“ bez obzira šta se dešavalo u pojedinom koderu. Na primer sa ovako realizovanim GS on ima i značenje: nema šta da koduje pošto mu je zabranjeno, i da smo ga iskoristili kao EO on bi svojim invertovanim nivoom dozvolio koderu nižeg prioriteta da „radi“ a ne sme. Mogli smo da ne uslovima GS, to nam neće smetati za drugi nivo kodera prioriteta, ali opet ne bi smeli da ga iskoristimo kao EO. To što on nema šta da koduje, ne znači i da oni „ispred njega“ po prioritetu nisu imali. Suština ovako realizovanog EO sa stanovišta pojedinog kodera je „dozvoljeno mi je da kodujem, nemam šta da kodujem, pa ću i ja dozvoliti koderu nižeg prioriteta, odnosno dozvoljeno mi je da kodujem imam šta da kodujem pa ću zabraniti nižim koderima da koduju, odnosno nije mi dozvoljeno da kodujem pa neću dozvoliti ni koderima nižeg prioriteta da koduju
+\end{column}
+\end{columns}
+\end{frame}

@@ -1,0 +1,15 @@
+\begin{tikzpicture}[font=\fontsize{9}{10}\selectfont,circuit logic US]
+\node[draw,align=center,minimum width=1.4cm,minimum height=.8cm] (box) at (1.5,2.3) {Half\\adder};
+\draw[DEstrelica] (1.15,3.2) node[above] {$a$}--(1.15,2.7);
+\draw[DEstrelica] (1.85,3.2) node[above] {$b$}--(1.85,2.7);
+\draw[DEstrelica] (box.east)--++(.6,0) node[right] {$c_{out}$};
+\draw[DEstrelica] (box.south)--++(0,-.4) node[below] {$s$};
+\node[xor gate US,draw,logic gate inputs=nn,minimum width=1cm,minimum height=.8cm] (x) at (2,.1) {};
+\node[and gate US,draw,logic gate inputs=nn,minimum width=1cm,minimum height=.8cm] (c) at (2,-1.2) {};
+\draw[DEvod] (0,.32) node[left] {$a$}--(.5,.32)--(x.input 1);
+\draw[DEvod] (0,-.12) node[left] {$b$}--(.8,-.12)--(x.input 2);
+\draw[DEvod] (.5,.32)|-(c.input 2);\fill (.5,.32) circle (1pt);
+\draw[DEvod] (.8,-.12)|-(c.input 1);\fill (.8,-.12) circle (1pt);
+\draw[DEvod] (x.output)--++(.4,0) node[right] {$s$};
+\draw[DEvod] (c.output)--++(.4,0) node[right] {$c_{out}$};
+\end{tikzpicture}

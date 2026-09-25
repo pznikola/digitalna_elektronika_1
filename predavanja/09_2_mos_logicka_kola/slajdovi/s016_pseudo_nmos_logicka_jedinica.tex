@@ -1,0 +1,13 @@
+\slajdid{09_2-s016}
+\begin{frame}[label=09_2-s016]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[c,onlytextwidth]\column{.20\textwidth}\centering\input{slike/tikz/s016_pseudo_nmos.tex}\column{.78\textwidth}U ovoj konfiguraciji tranzistor P uvek vodi.
+\[V_{GS,P}=V_{G,P}-V_{S,P}=0-V_{DD}=-V_{DD}<V_{Tp}\]
+(ne zaboravite $V_{Tp}<0$ za pMOS FET)\par\medskip
+Za ulazni napon $V_I<V_{Tn}$ tranzistor N je zakočen. Kolo je neoptrećeno $I_{Dn}=0=I_{Dp}$. Kako tranzistor P radi, mora raditi u omskoj oblasti
+\[I_{Dp}=\frac{k_p}2\left(2V_{DS,P}(V_{GS,P}-V_{Tp})-V_{DS,P}^2\right)=0\]
+kako bi se njegova radna tačka podesila tako da je $V_{DS,P}=0$, što daje $I_{Dp}=0$. To je jedina moguća radna tačka nezavisno od napona $V_{GS,P}$.\par\medskip
+Da smo pretpostavili da radi u zasićenju
+\[I_{Dp}=\frac{k_p}2(V_{GS,P}-V_{Tp})^2=\frac{k_p}2(-V_{DD}-V_{Tp})^2>0\]
+Izraz pokazuje da nije moguće da tranzistor P radi u zasićenju sa strujom drejna jednakom nuli. Prema tome
+\[V_O=V_{OH}=V_{DD}-V_{DS,P}=V_{DD}\]\end{columns}
+\end{frame}

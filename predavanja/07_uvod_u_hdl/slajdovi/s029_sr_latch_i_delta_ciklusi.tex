@@ -1,0 +1,14 @@
+\slajdid{07-s029}
+\begin{frame}[label=07-s029]
+\gusttekst\centering\input{slike/tikz/s029_sr_latch.tex}\par\vspace{2mm}
+\begin{columns}[T,onlytextwidth]\column{.37\textwidth}\lstinputlisting{kodovi/s029_latch.vhd}
+\column{.61\textwidth}\centering s='0’, r='0', q='1', nq='0'\par
+\textcolor{DEplava}{$\downarrow$}\par
+r= ‘1’ pa r= ‘0’\par\textcolor{DEplava}{$\downarrow$}\par\raggedright
+start : r='0',s='0',q='1',nq='0’\\
+round 1: r='1',s='0',q='1',nq='0', The value '0' is scheduled on q.\\
+round 2: r='1',s='0',q='0',nq='0', The value '1' is scheduled on nq.\\
+round 3: r='1',s='0',q='0',nq='1', No new events are scheduled.\\
+round 4: r='0',s='0',q='0',nq='1', No new events are scheduled.
+\end{columns}
+\end{frame}

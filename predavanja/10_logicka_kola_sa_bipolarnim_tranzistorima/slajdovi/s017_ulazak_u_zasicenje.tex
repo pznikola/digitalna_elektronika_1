@@ -1,0 +1,13 @@
+\slajdid{10-s017}
+\begin{frame}[label=10-s017]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}Ostaje da odredimo pri kojem ulaznom naponu $V_{I1}$ tranzistor ulazi u zasićenje
+\[V_O=V_{CC}-\beta_F\frac{R_C}{R_B}(V_{I1}-V_{BE})=V_{CES}\]
+Tada je
+\[V_{I1}=\frac{R_B}{\beta_F R_C}(V_{CC}-V_{CES})+V_{BE}\]
+\begin{columns}[c,onlytextwidth]\column{.34\textwidth}\centering\input{slike/tikz/s017_zasicenje_karakteristike.tex}\column{.08\textwidth}\tikz\draw[->,DEplava](0,0)--(.8,0);\column{.56\textwidth}
+\[V_{OH}=V_{CC}\qquad V_{OL}=V_{CES}\]
+\[V_{IL}=V_{\gamma T}\qquad V_{IH}=V_{I1}\]
+\[NM_{LMS}=V_{IL}-V_{OL}=V_{\gamma T}-V_{CES}\]
+\[NM_{HMS}=V_{OH}-V_{IH}=V_{CC}-V_{I1}\]
+\end{columns}
+\end{frame}

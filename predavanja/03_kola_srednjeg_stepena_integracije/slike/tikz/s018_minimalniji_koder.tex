@@ -1,0 +1,22 @@
+\begin{tikzpicture}[circuit logic US,DEoznaka,
+ i/.style={not gate US,draw,minimum width=9mm,minimum height=8mm,scale=.7},
+ g/.style={draw,minimum width=12mm,minimum height=10mm,scale=.7}]
+\node[or gate US,g,logic gate inputs=nn] (a1) at (4.2,3.1) {};
+\node[or gate US,g,logic gate inputs=nn] (a0) at (4.2,1.6) {};
+\node[or gate US,g,logic gate inputs=nnnn] (gs) at (4.2,0) {};
+\node[and gate US,g,logic gate inputs=nn] (p) at (2.55,1.35) {};
+\node[i,anchor=output] (n) at (1.75,0 |- p.input 1) {};
+\draw[DEvod] (a1.input 1)--(-.5,0 |- a1.input 1) node[left] {I3};
+\draw[DEvod] (a1.input 2)--(-.5,0 |- a1.input 2) node[left] {I2};
+\draw[DEvod] (p.input 2)--(-.5,0 |- p.input 2) node[left] {I1};
+\draw[DEvod] (gs.input 4)--(-.5,0 |- gs.input 4) node[left] {I0};
+\draw[DEvod] (.10,0 |- a1.input 2)|-(n.input);
+\draw[DEvod] (n.output)--(p.input 1);
+\draw[DEvod] (p.output)--++(.25,0)|-(a0.input 2);
+\draw[DEvod] (3.45,0 |- a1.input 1)|-(a0.input 1);
+\draw[DEvod] (.10,0 |- a1.input 2)|-(gs.input 1);
+\draw[DEvod] (-.08,0 |- a1.input 1)|-(gs.input 2);
+\draw[DEvod] (-.27,0 |- p.input 2)|-(gs.input 3);
+\foreach \n/\lab in {a1/A1,a0/A0,gs/GS}
+ \draw[DEvod] (\n.output)--++(.3,0) node[right] {\lab};
+\end{tikzpicture}

@@ -1,0 +1,8 @@
+\begin{tikzpicture}[x=.8cm,y=.65cm,font=\sitneoznake,>=Latex]
+\draw[->](-.2,2.8)--(5.7,2.8)node[below]{$t$};\draw[->](0,2.6)--(0,5.05)node[left]{$v_I(t)$};
+\draw(.65,2.8)--(2.15,4.6)--(3.45,4.6)--(4.95,2.8);\foreach\y/\lab in{3.3/V_{Tn},3.7/V_S,4.1/V_{DD}+V_{Tp}}{\draw[dashed](0,\y)node[left]{$\lab$}--(4.8,\y);}
+\draw(.65,4.75)--(.65,5);\draw(2.15,4.75)--(2.15,5);\node at(1.4,4.9){$t_S$};
+\draw[->](-.2,0)--(5.7,0)node[below]{$t$};\draw[->](0,-.2)--(0,2.35)node[left]{$i_{VDD}(t)$};\draw[dashed](0,1.55)node[left]{$I_{SC}$}--(4.8,1.55);
+\draw(1.067,0)--(1.4,1.55)--(1.733,0);\draw(3.867,0)--(4.2,1.55)--(4.533,0);
+\foreach\x/\y in{1.067/3.3,1.4/3.7,1.733/4.1,3.867/4.1,4.2/3.7,4.533/3.3}{\draw[dashed](\x,-.25)--(\x,\y);}\node[below]at(1.4,-.1){$t_{SC}$};\node[below]at(4.2,-.1){$t_{SC}$};
+\end{tikzpicture}

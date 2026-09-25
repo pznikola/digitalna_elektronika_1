@@ -1,0 +1,19 @@
+\slajdid{04-s008}
+\begin{frame}[label=04-s008]
+\gusttekst
+\setlength{\abovedisplayskip}{5pt}\setlength{\belowdisplayskip}{5pt}
+Uočimo za celobrojnu vrednost
+\[\begin{aligned}
+CV_{10}\div r&=\left(c_{n-1}\cdot r^{n-1}+c_{n-2}\cdot r^{n-2}+\ldots+c_1\cdot r^1+c_0\cdot r^0\right)\div r\\
+&=c_{n-1}\cdot r^{n-2}+c_{n-2}\cdot r^{n-3}+\ldots+c_1\cdot r^0+\frac{c_0}{r}
+\end{aligned}\]
+\[\frac{c_0}{r}<1\qquad c_i\in\{0,1,2,\ldots r-2,r-1\}\]
+\[CV_{10}\div r=(CV_{10})_1+\frac{c_0}{r}=(CV_{10})_1\text{ i ostatak }c_0\]
+Izdvojili smo cifru $c_0$ i nastavljamo dalje
+\[(CV_{10})_1\div r=(CV_{10})_2+\frac{c_1}{r}=(CV_{10})_2\text{ i ostatak }c_1\]
+Izdvojili smo cifru $c_1$ i nastavljamo dalje \ldots
+
+Zaustavljamo se kada bude zadovoljen uslov
+\[(CV_{10})_{n-1}<r\Rightarrow(CV_{10})_{n-1}=c_{n-1}\]
+\[(CV_{10})_n=0\qquad\text{Dobijali bi vodeće nule}\]
+\end{frame}

@@ -1,0 +1,15 @@
+\slajdid{09_1-s014}
+\begin{frame}[label=09_1-s014]
+\gusttekst
+\begin{columns}[c,onlytextwidth]\column{.46\textwidth}
+\[\frac{V_{DD}-V_O}{R_L}=\frac{k_n}{2}\frac1{1+\frac{(V_I-V_{Tn})}{L_nE_{Cn}}}(V_I-V_{Tn})^2\]
+\column{.52\textwidth}Vidi se da je zavisnost „iskrivljena obrnuta ($y=-x^2\ldots$)“ parabola, pri čemu je maksimum u $V_I=V_{Tn}$.
+\end{columns}\bigskip
+Kako ulazni napon raste u jednom trenutku će dovoljno pasti napon između drejna i sorsa tranzistora, odnosno izlazni napon tako da tranzistor izlazi iz zasićenja. To se dešava kada je
+\[V_O=\frac{(V_I-V_{Tn})L_nE_{Cn}}{L_nE_{Cn}+(V_I-V_{Tn})}=\frac{(V_I-V_{Tn})}{1+\frac{(V_I-V_{Tn})}{L_nE_{Cn}}}\]
+pri čemu ćemo videti da nas ova brojna vrednost baš i ne interesuje.\par\medskip
+Na primer, ako zanemarimo efekat kratkog kanala
+\[V_I=V_{Tn}+\sqrt{2\frac{V_{DD}}{k_nR_L}}\]
+Uočiti da bi dobili treću oblast
+\[\left(V_{Tn}+\sqrt{2\frac{V_{DD}}{k_nR_L}}\right)<V_{DD}\]
+\end{frame}

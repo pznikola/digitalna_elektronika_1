@@ -1,0 +1,17 @@
+\slajdid{10-s064}
+\begin{frame}[label=10-s064]{Dinamički režim\qquad L –> H}
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[c,onlytextwidth]\column{.43\textwidth}\centering
+$\beta_F R_C>R_B$\par\medskip\input{slike/tikz/s063_totem_pol_kapacitivno_opterecenje.tex}\hfill\raisebox{1.5cm}{\tikz\draw[->,DEplava,>=Latex](0,0)--(.6,0);}\hfill\input{slike/tikz/s064_zasiceni_ekvivalent_punjenja.tex}\par\bigskip\raggedright
+Samo dok radi u zasićenju. U nekom trenutku prelazi u aktivan režim a onda važi prethodni slajd.
+\column{.55\textwidth}
+\[\tau=C*(R_B\parallel R_C)\]
+\[v_O(t_0^+)=v_C(t_0^+)=v_C(t_0^-)=V_L\]
+\[v_{RB}(t)+V_{BES}-V_{CES}-v_{RC}(t)=0\]
+\[R_B i_{RB}(t)+V_{BES}-V_{CES}-R_C i_{RC}(t)=0\]
+\[i_{RB}(\infty)+i_{RC}(\infty)=0\]
+\[i_{RC}(\infty)=\frac{V_{BES}-V_{CES}}{R_B+R_C}\]
+\[\begin{aligned}v_O(\infty)&=V_{CC}-R_C i_{RC}(\infty)-V_{CES}-V_D\\&=V_{CC}-V_{CES}-V_D-R_C\frac{V_{BES}-V_{CES}}{R_B+R_C}\end{aligned}\]
+Izraz za izlazni napon je
+\[v_o(t)=v_o(\infty)+(v_o(t_0^+)-v_o(\infty))e^{-\frac{t-t_0}{\tau}}\quad za\ t\geq t_0\]
+\end{columns}
+\end{frame}

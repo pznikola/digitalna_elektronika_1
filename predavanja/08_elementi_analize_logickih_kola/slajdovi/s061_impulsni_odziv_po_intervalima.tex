@@ -1,0 +1,14 @@
+\slajdid{08-s061}
+\begin{frame}[label=08-s061]{2. način}
+\gusttekst\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}
+\[u_o(t)=V_{OL}\qquad za\ t<t_1\]
+\[u_o(t)=V_{OH}+(V_{OL}-V_{OH})e^{-\frac{t-t_1}{\tau}}\qquad za\ t_2\geq t\geq t_1\]
+U trenutku $t_2$ nastupa druga, drugačija, pobuda. Znači opšte rešenje jeste
+\[u_o(t)=u_o(\infty)+\bigl(u_o(t_2^+)-u_o(\infty)\bigr)e^{-\frac{t-t_2}{\tau}}\qquad za\ t\geq t_2\]
+\[u_0(t_2^+)=u_c(t_2^+)=u_c(t_2^-)=u_o(t_2^-)\]
+\[u_o(t_2^-)=V_{OH}+(V_{OL}-V_{OH})e^{-\frac{t_2-t_1}{\tau}}\]
+\[u_0(\infty)=u_i(\infty)-Ri_R(\infty)=V_{OL}\]
+I na kraju\hfill $za\ t\geq t_2$
+\[u_o(t)=V_{OL}+\left(V_{OH}+(V_{OL}-V_{OH})e^{-\frac{t_2-t_1}{\tau}}-V_{OL}\right)e^{-\frac{t-t_2}{\tau}}\]
+\[\alert{u_o(t)=V_{OL}+\left((V_{OH}-V_{OL})\left(1-e^{-\frac{t_2-t_1}{\tau}}\right)\right)e^{-\frac{t-t_2}{\tau}}}\]
+\end{frame}

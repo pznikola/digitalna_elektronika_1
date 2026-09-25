@@ -1,0 +1,23 @@
+\slajdid{04-s027}
+\begin{frame}[label=04-s027]
+\fontsize{9}{10.5}\selectfont\setlength{\parskip}{2pt}
+\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}
+\begin{columns}[c,onlytextwidth]\column{.18\textwidth}DIGRESIJA\column{.80\textwidth}
+\input{tabele/s027_registar.tex}\end{columns}
+Na primer\\
+1. iza bita $D_5$ pa je binarna vrednost 011.01000\\
+2. ili iza bita $D_0$ što je u stvari značenje da je u registru celobrojna vrednost\\
+3. ili ispred bita $D_7$ što je u stvari značenje da u registru razlomljena vrednost\\
+4. ili \ldots
+
+Uočite da na osnovu naših prethodnih zapažanja kako možemo posmatrati razlomljeni deo
+\[\begin{aligned}RV_r&=c_{-1}\cdot r^{-1}+c_{-2}\cdot r^{-2}+\ldots+c_{-k+1}\cdot r^{-k+1}+c_{-k}\cdot r^{-k}\\
+&=\frac{c_{-1}\cdot r^{k-1}+c_{-2}\cdot r^{k-2}+\ldots+c_{-k+1}\cdot r^1+c_{-k}\cdot r^0}{r^k}\end{aligned}\]
+odnosno kao odgovarajuća celobrojna vrednost\qquad $RV_r=\dfrac{CV_r}{r^k}$
+
+I u ovom slučaju broj u registru možemo posmatrati kao celobrojnu $CV$ vrednost a kada znamo položaj binarne tačke onda je stvarna vrednost
+
+1. iza bita $D_5$ pa je vrednost\quad $\dfrac{CV}{2^5}$\quad
+2. ili iza bita $D_0$ pa je vrednost $CV$\par
+3. ili ispred bita $D_7$ pa je vrednost\quad $\dfrac{CV}{2^8}$
+\end{frame}

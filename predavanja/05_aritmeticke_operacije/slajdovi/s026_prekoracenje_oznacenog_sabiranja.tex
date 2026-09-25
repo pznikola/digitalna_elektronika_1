@@ -1,0 +1,14 @@
+
+\slajdid{05-s026}
+\begin{frame}[label=05-s026]
+\gusttekst\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}
+Da li se uvek rezultati ADD i SUB operacija mogu smestiti u $n$ bitni rezultat. Kada nastupa prekoračenje.
+\[a,b\geq0\]
+\[\begin{gathered}a+(-b)\equiv a+(2^n-b)=2^n-(b-a)=2^n+(a-b)\\(-a)+b\equiv(2^n-a)+b=2^n-(a-b)=2^n+(b-a)\\[2mm]a+b\equiv a+b\\(-a)+(-b)\equiv(2^n-a)+(2^n-b)=2^n+2^n-(a+b)\end{gathered}\]
+\begin{tabularx}{\textwidth}{@{}p{2.3cm}X@{}}
+1. i 2. slučaj:&Ako su operandi različitog znaka $a_{n-1}\neq b_{n-1}$ nema prekoračenja,\newline ignoriše se eventualna pojava izlaznog kerija\\[3mm]
+3. i 4. slučaj:&Ako su operandi istog znaka $a_{n-1}=b_{n-1}$\newline nema prekoračenja ako je i rezultat istog znaka, ignoriše se eventualna pojava izlaznog kerija
+\end{tabularx}\par\vspace{3mm}
+Za $n$ bitni registar gde je $n$-1 cifara + bit znaka
+\[\begin{array}{lll}a_{max}=b_{max}=2^{n-1}-1&a_{max}+b_{max}=2^n-2&c_{n-1}=1\\[2mm]|a_{min}|=|b_{min}|=2^{n-1}&2^n+2^n-(|a_{min}|+|b_{min}|)=2^n&c_{n-1}=0\end{array}\]
+\end{frame}

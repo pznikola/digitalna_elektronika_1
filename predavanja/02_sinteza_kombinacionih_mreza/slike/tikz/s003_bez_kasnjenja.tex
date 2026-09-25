@@ -1,0 +1,14 @@
+\begin{tikzpicture}[DEoznaka,x=10mm,y=7.2mm]
+\draw[DEstrelica] (-.7,1.9)--(3.8,1.9) node[below] {\(t\)};
+\draw[DEstrelica] (0,1.75)--(0,3.7) node[left] {\(x(t)\)};
+\draw[DEstrelica] (-.7,-.1)--(3.8,-.1) node[below] {\(t\)};
+\draw[DEstrelica] (0,-.25)--(0,1.7) node[left] {\(y(t)\)};
+\node[above left,inner sep=1pt] at (0,3) {=1};\node[above left,inner sep=1pt] at (0,2.1) {=0};
+\node[above left,inner sep=1pt] at (0,1) {=1};\node[above left,inner sep=1pt] at (0,.1) {=0};
+\draw[DEvod] (-.5,2.1)--(.6,2.1)--(.6,3)--(1.6,3)--(1.6,2.1)--(3.5,2.1);
+\draw[DEvod] (-.5,1)--(.6,1)--(.6,.1)--(1.6,.1)--(1.6,1)--(3.5,1);
+\draw[dashed] (0,3)--(.6,3);
+\draw[dashed] (.6,2.1)--(.6,-.25) node[below] {\(t_1\)};
+\draw[dashed] (1.6,2.1)--(1.6,-.25) node[below] {\(t_2\)};
+\draw[DEcrvena] (-.8,-.65)--(3,3.5) (-.8,3.5)--(3.5,-.65);
+\end{tikzpicture}

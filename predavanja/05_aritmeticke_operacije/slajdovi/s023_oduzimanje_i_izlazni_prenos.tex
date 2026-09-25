@@ -1,0 +1,25 @@
+
+\slajdid{05-s023}
+\begin{frame}[label=05-s023]
+\gusttekst\setlength{\parskip}{1pt}\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}
+Da li smo ovo mogli da uradimo ne razmatrajući odnose $a$ i $b$
+\[\begin{gathered}a,b\geq0\\a-b\equiv a+(2^n-b)=2^n-(b-a)=2^n+(a-b)\end{gathered}\]
+\begin{columns}[t,onlytextwidth]
+\column{.49\textwidth}\centering
+$a<b$\\$a+(2^n-b)=2^n-(b-a)$\\
+Dobijamo negativan rezultat prikazan u drugom komplementu,\\prilikom sabiranja neće se pojaviti izlazni keri
+\column{.48\textwidth}\centering
+$a>b$\\$a+(2^n-b)=2^n+(a-b)$\\
+Dobijamo pozitivan rezultat i\\prilikom sabiranja će se pojaviti izlazni keri
+\end{columns}\par\vspace{2mm}
+PRIMER:\quad $00101_2-01100_2={?}_2$\\
+Primer koji smo imali ali sa dodatim 5. bitom zbog znaka
+\[00101-01100=00101+(100000-01100)=00101+10100\]
+\begin{columns}[c,onlytextwidth]
+\column{.34\textwidth}\centering
+$\begin{array}{r@{\;}r}\textcolor{DEcrvena}{C}&\textcolor{DEplava}{0}\textcolor{DEcrvena}{01000}\\&00101\\+&10100\\\cline{2-2}&11001\end{array}$
+\column{.30\textwidth}\centering$\textcolor{DEplava}{\longrightarrow}\quad5-12=-7$
+\column{.30\textwidth}\centering
+\begin{tikzpicture}[font=\fontsize{9}{10}\selectfont,y=.43cm]\node at (0,1) {$11001$};\node at (0,0) {$00110$};\node at (0,-1) {$00111$};\draw[DEplava,->] (.5,1.35)--(.5,-1.35);\end{tikzpicture}
+\end{columns}
+\end{frame}

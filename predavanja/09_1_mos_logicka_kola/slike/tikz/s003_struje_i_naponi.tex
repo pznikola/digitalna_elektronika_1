@@ -1,0 +1,8 @@
+\begin{tikzpicture}[x=.8cm,y=.65cm,font=\sitneoznake,>=Latex]
+\foreach\x in{0,3}{\begin{scope}[shift={(\x,0)}]
+\draw(-.6,0)--(-.1,0);\draw(-.1,-.35)--(-.1,.35);\draw(0,-.4)--(0,.4);\draw(0,.3)--(.4,.3)--(.4,.9)node[above]{D};\draw(0,-.3)--(.4,-.3)--(.4,-.9)node[below]{S};\ifnum\x=3\node[left]at(-.9,0){G};\else\node[left]at(-.6,0){G};\fi\end{scope}}
+\draw[->](-.7,.2)--(-.2,.2)node[midway,above]{$I_G$};\draw[->](.65,.85)--(.65,.35)node[midway,right]{$I_D$};\draw[->](.65,-.35)--(.65,-.85)node[midway,right]{$I_S$};
+\draw[<->](3.4,.85)to[bend right=40](2.35,.05);\node at(2.5,.95){$V_{GD}$};\node at(2.25,.24){$+$};
+\draw[<->](2.35,-.1)to[bend right=40](3.4,-.85);\node at(2.5,-.9){$V_{GS}$};\node at(2.2,-.22){$+$};
+\draw[<->](3.65,.8)to[bend left=20](3.65,-.8);\node[right]at(3.85,0){$V_{DS}$};\node at(3.7,.95){$+$};
+\end{tikzpicture}

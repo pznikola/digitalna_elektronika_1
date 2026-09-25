@@ -1,0 +1,13 @@
+\slajdid{09_1-s049}
+\begin{frame}[label=09_1-s049]
+\gusttekst
+Za prethodni slučaj bi nam bio potreban kontrolni napon veći od napona napajanja odnosno trebao bi nam još jedan izvor napajanja. Zbog toga se na račun nekih performansi (videćemo kojih) gejt tranzistora $T_L$ povezuje na napon napajanja $V_{DD}$ i time se obezbeđuje da tranzistor $T_L$ uvek vodi u zasićenju.\par\medskip
+\begin{columns}[c,onlytextwidth]\column{.23\textwidth}\centering\input{slike/tikz/s049_invertor_gejt_na_napajanju.tex}\column{.75\textwidth}
+\[V_{GS,L}=V_{G,L}-V_{S,L}=V_{DD}-V_O\]
+\[V_{DS,L}=V_{D,L}-V_{S,L}=V_{DD}-V_O\]
+Uslov da radi u zasićenju
+\[V_{DS,L}\geq V_{GS,L}-V_{Tn,L}\]
+\[V_{DD}-V_O\geq V_{DD}-V_O-V_{Tn,L}\]
+i uvek je ispunjen. Tranzistor T2 uvek radi u zasićenju. Uočiti da ovo važi i u slučaju kratkog kanala.
+\end{columns}
+\end{frame}

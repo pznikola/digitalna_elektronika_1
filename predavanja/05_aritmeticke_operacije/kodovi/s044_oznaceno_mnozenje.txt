@@ -1,0 +1,5 @@
+if sign(a)!=sign(b) then s = true, else s=false
+a = abs(a)
+b = abs(b)
+p = a*b
+negate p if s = true

@@ -1,0 +1,8 @@
+\slajdid{09_3-s056}
+\begin{frame}[label=09_3-s056]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}Da degradirani naponski nivoi ne bi dalje propagirali u ostatak kola na izlaz dela koji je realizovan prolaznom logikom po pravilu se dodaje standardno CMOS logičko kolam odnosno invertor, čime se dobijaju na primer i NI, NILI logička kola itd...
+\par\medskip
+\begin{columns}[c,onlytextwidth]\column{.39\textwidth}\centering\input{slike/tikz/s056_restauracija_nivoa.tex}\column{.59\textwidth}
+Na slici je prikazana i dodatna mogućnost, odnosno dodavanje tranzistora R za restauraciju naponskih nivoa. Kada prolazna logika treba da da logičku jedinicu na izlazu invertora će biti logička nula. Tada će voditi tranzistor R i on će dopuniti parazitne kapacitivnosti do pravog napona, napona logičke jedinice odnosno $V_{DD}$. Međutim treba voditi računa o dimenzijama tranzistora R pošto prilikom prelaska izlaza sa logičke nule na logičku jedinicu treba obezbediti da tranzistori prolazne logike mogu da daju dovoljan napon logičke nule kako bi se tranzistor N zakočio. Ova situacija je praktično identična kao kod pseudo NMOS invertora koji treba da da logičku nulu na izlazu. Jednačine i odnosi su tamo definisani.
+\end{columns}
+\end{frame}

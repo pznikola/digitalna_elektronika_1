@@ -1,0 +1,12 @@
+\slajdid{09_3-s046}
+\begin{frame}[label=09_3-s046]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\alert{\textbf{Trostatička CMOS logička kola}}
+\par\medskip
+Umesto da se istovremeno koče tranzistori u PUN i PDN mreži kao što ćemo videti kod logičkih kola sa bipolarnim tranzistorima, kod CMOS logičkih kola se ubacuju dodatni tranzistori između PUN i PDN mreže koji se istovremeno koče ili vode, kako bi se ostvarilo stanje visoke impedanse odnosno normalan režim rada.
+\par\medskip\begin{columns}[c,onlytextwidth]\column{.22\textwidth}\centering\input{slike/tikz/s046_trostaticki_invertor.tex}\column{.24\textwidth}\centering
+\input{tabele/s046_trostaticki_invertor.tex}\par\bigskip\input{slike/tikz/s046_simbol_sa_dozvolom.tex}\par\bigskip\alert{Z – nema u Bulovoj algebri}
+\column{.52\textwidth}
+Uočite da su oba tranzistora koja su „ubačena“ prema izlazu nMOS tranzistori koji će istovremeno biti zakočeni kada je na ulazu E napon logičke nule, a imati oba uslove za provođenje kada je na ulazu E napon logičke jedinice. Koji će zaista provoditi zavisi, kada imaju uslove za provođenje zavisiće od stanja PUN odnosno PDN mreže. Ne zaboravite da sada postoje i kašnjenja $t_{pLZ}$, $t_{pHZ}$, $t_{pZL}$ i $t_{pZH}$, koja su ovde evidentno prouzrokvana kašnjenjem kroz dva dodatna tranzistora.
+\end{columns}\par\medskip\centering
+\alert{SMEMO KRATKOSPAJATI IZLAZE AKO SMO SIGURNI DA JE\par SAMO JEDNO KOLO VAN STANJA VISOKE IMPEDANSE}
+\end{frame}

@@ -1,0 +1,9 @@
+\slajdid{09_3-s069}
+\begin{frame}[label=09_3-s069]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[c,onlytextwidth]\column{.48\textwidth}\centering\input{slike/tikz/s069_dinamicka_mreza.tex}\column{.5\textwidth}\centering\input{slike/tikz/s069_clk_izlaz.tex}\end{columns}\medskip
+Konstrukcija dinamičkog logičkog kola je ista kao i kod složenih CMOS kola u domenu PDN mreža. Koristi se samo PDN mreža čiji je rad uslovljen sinhronizacionim signalom CLK.
+\par\medskip
+Kada je sinhronizacioni signal na nivou logičke nule vodi P tranzistor i on će puniti kapacitivnost na izlazu na logičku jedinicu, bez obzira na PDN mrežu pošto je njen donji kraj odvojen od mase, N tranzistor je zakočen. Ova faza se naziva pripremnom fazom odnosno precharge.
+\par\medskip
+Kada je sinhronizacioni signal na nivou logičke jedinice P tranzistor je zakočen. N tranzistor vodi i obezbeđuje putanju struje prema masi za PDN mrežu. U zavisnosti od ulaza, odnosno šta treba na izlaz da postavi PDN mreža ona će ili prazniti izlaznu kapacitivnost ako na izlazu treba da bude logička nula, ili će i PDN mreža biti „zakočena“ kada na izlazu treba da bude logička jedinica, pa se kapacitivnost neće prazniti odnosno na izlazu će biti logička jedinica. Ova faza se naziva fazom izračunavanja i pri njenom kraju smo sigurni u logički nivo na izlazu, normalno ako smo usaglasili brzinu sinhronizacionog signala i brzinu rada PDN mreže.
+\end{frame}

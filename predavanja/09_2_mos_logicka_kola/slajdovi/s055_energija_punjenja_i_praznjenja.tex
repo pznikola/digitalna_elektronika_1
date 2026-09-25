@@ -1,0 +1,15 @@
+\slajdid{09_2-s055}
+\begin{frame}[label=09_2-s055]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[T,onlytextwidth]\column{.37\textwidth}\centering\input{slike/tikz/s055_punjenje_praznjenje.tex}\par\bigskip\raggedright
+U toku pražnjenja kondenzatora celokupna energija koja se nalazi u njemu će biti disipirana na N tranzistoru.
+\[E_N=E_{CL}=\frac{C_LV_{DD}^2}2\]
+\column{.61\textwidth}
+U situaciji kada P tranzistor treba da napuni parazitnu kapacitivnost ukupna energija koja će se potrošiti iz izvora za napajanje je
+\[\begin{aligned}E_{VDD}&=\int_0^\infty i_{VDD}(t)V_{DD}\,dt=V_{DD}\int_0^\infty i_{CL}(t)dt\\&=V_{DD}\int_0^\infty C_L\frac{u_{CL}(t)}{dt}dt\end{aligned}\]
+\[E_{VDD}=C_LV_{DD}\int_0^{V_{DD}}du_{CL}(t)=C_LV_{DD}^2\]
+dok je na kraju procesa punjenja energija u kondenzatoru
+\[E_{CL}=\frac{C_LV_{DD}^2}2\]
+Razlika energija je disipirana na P tranzistoru.
+\[E_P=E_{VDD}-E_{CL}=C_LV_{DD}^2-\frac{C_LV_{DD}^2}2=\frac{C_LV_{DD}^2}2\]
+\end{columns}
+\end{frame}

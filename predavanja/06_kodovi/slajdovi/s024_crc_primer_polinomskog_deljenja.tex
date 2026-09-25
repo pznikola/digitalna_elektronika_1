@@ -1,0 +1,29 @@
+\slajdid{06-s024}
+\begin{frame}[label=06-s024]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}
+Primer\par
+Poruka = 11100110\par
+\[11100110\equiv X^7+X^6+X^5+X^2+X\]
+Generator polynomial\quad $X^4+X^3+1$
+\begin{align*}
+\frac{(X^7+X^6+X^5+X^2+X)X^4}{X^4+X^3+1}
+&=\frac{X^{11}+X^{10}+X^9+X^6+X^5}{X^4+X^3+1}\\
+&=X^7+X^5+X^4+X^2+X+\frac{\tikz[baseline,remember picture]{\node[inner sep=1pt,anchor=base] (ostatak) {$X^2+X$};}}{X^4+X^3+1}
+\end{align*}
+Ostatak je\quad $X^2+X\equiv0110$\par
+Poruka koja se šalje 11100110\textcolor{DEcrvena}{0110}\par\vspace{2mm}
+\begin{columns}[c,onlytextwidth]\column{.18\textwidth}\centering\Large\color{DEcrvena}po modulu 2
+\column{.58\textwidth}
+\begin{align*}
+&(X^7+X^5+X^4+X^2+X)\times(X^4+X^3+1)=\\
+&(X^{11}+X^9+\textcolor{DEcrvena}{X^8}+X^6+\textcolor{DEzelena}{X^5})+\\
+&(X^{10}+\textcolor{DEcrvena}{X^8}+\textcolor{DEplava}{X^7}+\textcolor{DEzelena}{X^5}+\textcolor{violet}{X^4})+\\
+&(\textcolor{DEplava}{X^7}+X^5+\textcolor{violet}{X^4}+X^2+X)=\\
+&X^{11}+X^{10}+X^9+X^6+X^5+\tikz[baseline,remember picture]{\node[inner sep=1pt,anchor=base] (ostatakdole) {$(X^2+X)$};}
+\end{align*}
+\column{.22\textwidth}\centering $+$\\daje po modulu 2 rezultat 0 0
+\end{columns}
+\begin{tikzpicture}[remember picture,overlay]
+\draw[DEplava,->] (ostatakdole.east) to[bend right=18] (ostatak.east);
+\end{tikzpicture}
+\end{frame}

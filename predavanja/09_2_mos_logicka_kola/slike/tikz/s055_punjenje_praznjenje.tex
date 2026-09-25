@@ -1,0 +1,17 @@
+\begin{tikzpicture}[x=.55cm,y=.6cm,font=\sitneoznake,>=Latex]
+\ctikzset{bipoles/length=.6cm}
+\draw(0,1.2)--(0,1.8);\draw(-.13,1.15)--(-.13,1.85);\draw(-.23,1.5)circle(.1);
+\draw(-.8,1.5)node[ocirc]{}node[below,align=center]{$V_I$\\$=0$}--(-.33,1.5);
+\draw(0,1.75)--(.35,1.75)--(.35,2.9);\draw(.1,2.9)--(.6,2.9)node[above left]{$V_{DD}$};
+\draw(0,1.25)--(.35,1.25)--(.35,.9)--(1.4,.9)node[ocirc]{};
+\node[below,align=center]at(.6,-1.1){$V_O$\\$(0\to V_{DD})$};
+\draw(1.1,.9)to[C,l=$C_L$](1.1,-.65)node[ground]{};
+\begin{scope}[shift={(3.8,0)}]
+\draw(0,1.2)--(0,1.8);\draw(-.13,1.15)--(-.13,1.85);
+\draw(-.8,1.5)node[ocirc]{}node[below,align=center]{$V_I$\\$=V_{DD}$}--(-.13,1.5);
+\draw(0,1.75)--(.35,1.75)--(.35,2.25)--(1.3,2.25)node[ocirc]{};
+\node[below,align=center]at(.6,-1.1){$V_O$\\$(V_{DD}\to0)$};
+\draw(0,1.25)--(.35,1.25)--(.35,-.65)node[ground]{};
+\draw(1.15,2.25)to[C,l=$C_L$](1.15,-.65)node[ground]{};
+\end{scope}
+\end{tikzpicture}

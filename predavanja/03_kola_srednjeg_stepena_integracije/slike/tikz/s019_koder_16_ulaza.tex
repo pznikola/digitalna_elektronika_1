@@ -1,0 +1,19 @@
+\begingroup
+\def\DEenable{0}
+\input{slike/tikz/koder_prioriteta_simbol.tex}
+\begin{tikzpicture}[x=.8cm,y=.8cm,font=\fontsize{8}{9}\selectfont]
+\foreach \k/\y in {3/6,2/4,1/2,0/0}{
+ \KPSimbol{p\k}{0}{\y}
+ \foreach \n in {3,2,1,0}{
+  \pgfmathtruncatemacro{\ii}{4*\k+\n}
+  \draw[DEvod] (p\k-i\n)--++(-.15,0) node[left,inner sep=1pt] {I\ii};
+ }
+}
+\KPSimbol{f}{3.5}{3}
+\foreach \k/\x in {3/3.0,2/2.7,1/2.7,0/3.0}
+ \draw[DEvod] (p\k-gs)--(\x,0 |- p\k-gs)|-(f-i\k);
+\draw[DEvod] (f-gs)--++(.2,0) node[right] {GS};
+\draw[DEvod] (f-a1)--++(0,-.2) node[below] {A3};
+\draw[DEvod] (f-a0)--++(0,-.2) node[below] {A2};
+\end{tikzpicture}
+\endgroup

@@ -1,0 +1,12 @@
+% Original prikazuje samo grupu celog reda DC=11; ostale grupe se ne dopisuju.
+\begingroup
+\fontsize{12}{13.3}\selectfont
+\renewcommand{\small}{\fontsize{12}{13.3}\selectfont}
+\scalebox{.75}{%
+\begin{karnaugh-map}(label=middle,implicantcolors={DEplava})[4][4][1][$A$][$B$][$C$][$D$]
+\minterms{0,4,5,8,10}
+\terms{1}{b}
+\maxterms{2,3,6,7,9,11,12,13,14,15}
+\implicant{12}{14}
+\end{karnaugh-map}}
+\endgroup

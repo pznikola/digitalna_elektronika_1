@@ -1,0 +1,28 @@
+\begin{tikzpicture}[x=1cm,y=.635cm,font=\sitneoznake,>=Latex]
+\foreach\col/\pol/\dep/\name in{0/0/0/nMOS,1/1/0/pMOS,2/0/1/nMOS,3/1/1/pMOS}{
+ \node at(\col*2.7,3.9){\name};
+ \foreach\row in{1,2,3,4}{\begin{scope}[shift={(\col*2.7,3.55-\row*1.95)}]
+ \ifnum\row<3
+  \draw(-.85,-.22)--(-.08,-.22);\draw(-.08,-.37)--(-.08,.37);
+  \ifnum\dep=0 \foreach\lo/\hi in{-.4/-.22,-.1/.1,.22/.4}{\draw(0,\lo)--(0,\hi);}\else\draw[line width=1.1pt](0,-.4)--(0,.4);\fi
+  \draw(0,.3)--(.4,.3)--(.4,.73)node[right]{D};\draw(0,-.3)--(.4,-.3)--(.4,-.73)node[right]{S};
+  \ifnum\pol=0\draw[-{Triangle[length=2.5mm,width=1.8mm]}](.4,0)--(.04,0);\else\draw[-{Triangle[length=2.5mm,width=1.8mm]}](.04,0)--(.4,0);\fi
+  \ifnum\row=1\draw(.4,0)--(.85,0)node[right]{B};\else\draw(.4,0)--(.4,-.3);\fi
+  \node[above]at(-.77,-.22){G};
+ \else
+  \draw(-.08,-.32)--(-.08,.32);
+  \ifnum\dep=1\draw[line width=1.3pt](0,-.4)--(0,.4);\else\draw(0,-.4)--(0,.4);\fi
+  \draw(0,.3)--(.4,.3)--(.4,.73)node[right]{D};\draw(0,-.3)--(.4,-.3)--(.4,-.73)node[right]{S};
+  \ifnum\row=3
+   \draw(-.85,0)--(-.08,0);
+   \ifnum\pol=0\draw[-{Triangle[length=1.9mm,width=1.4mm]}](.02,-.3)--(.38,-.3);\else\draw[-{Triangle[length=1.9mm,width=1.4mm]}](.38,-.3)--(.02,-.3);\fi
+  \else
+   \ifnum\pol=1\draw(-.85,0)--(-.25,0);\draw(-.165,0)circle(.085);\else\draw(-.85,0)--(-.08,0);\fi
+  \fi
+  \node[above]at(-.77,0){G};
+ \fi
+ \end{scope}}
+}
+\node at(1.35,4.65){MOS tranzistori sa indukovanim kanalom};\node at(6.75,4.65){MOS tranzistori sa ugrađenim kanalom};
+\foreach\row in{1,2,3,4}{\node at(-1.65,3.55-\row*1.95){\row};}
+\end{tikzpicture}

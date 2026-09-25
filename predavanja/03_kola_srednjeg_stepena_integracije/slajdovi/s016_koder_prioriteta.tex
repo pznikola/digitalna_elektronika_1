@@ -1,0 +1,13 @@
+\slajdid{03-s016}
+\begin{frame}[label=03-s016]{Koder prioriteta}
+\gusttekst
+Osim multipleksera koji prestavlja specijalnu vrstu kodera u sintezi složenih digitalnih sistema (pogotovo u procesorskim) se najčešće koristi koder prioriteta. Osnovna njegova uloga jeste da koduje indeks ulaza na kojem se nalazi aktivan signal i najveće je vrednosti. Da bi bilo jasnije da vidimo funkcionalnu tabelu kodera prioriteta koji ima 4 ulaza. Da bi se kodovali indeksi potrebne su nam dve izlazne promenjive.
+\begin{columns}[c,onlytextwidth]
+\begin{column}{.41\textwidth}
+\input{tabele/s016_koder_prioriteta.tex}
+\end{column}
+\begin{column}{.55\textwidth}
+Neodređenost se pojavljuje u dve poslednje vrste. Pretposlednja vrsta je situacija da je na ulazu sa najnižim indeksom aktivan signal, a poslednja da uopšte nema aktivnih signala. Iz tog razloga nam treba još jedan dodatni izlazni signal GS (group select) koji će pokazivati da li uopšte ima nešto da se koduje, odnosno da li postoji bilo koji aktivan ulazni signal
+\end{column}
+\end{columns}
+\end{frame}

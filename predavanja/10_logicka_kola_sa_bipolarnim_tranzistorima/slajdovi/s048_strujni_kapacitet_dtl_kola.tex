@@ -1,0 +1,16 @@
+\slajdid{10-s048}
+\begin{frame}[label=10-s048]{Strujni kapacitet DTL logičkog kola}
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[T,onlytextwidth]\column{.43\textwidth}
+\[\begin{aligned}I_{Imax}&=-\frac{V_{CC}-V_D-V_{Imin}}{R_D}\\&=-\frac{V_{CC}-V_D-\tikz[baseline=(z.base),remember picture]\node[inner sep=0pt](z){$\textcolor{DEcrvena}{0}$};}{R_D}=-\frac{V_{CC}-V_D}{R_D}\end{aligned}\]
+\begin{tikzpicture}[remember picture,overlay]\node[above right=11mm and 5mm of z](alt){ili $V_{OL}$};\draw[->,DEplava,>=Latex](alt.south)--++(0,-.8cm)-|(z.north);\end{tikzpicture}
+\[I_{IL}=-\frac{V_{CC}-V_D}{R_D}\qquad I_{IH}=0\]
+\centering\input{slike/tikz/s046_dtl_invertor.tex}\column{.55\textwidth}
+\[I_{Omax}=I_{OH}=-\frac{V_{CC}-V_{OHmin}}{R_C}\]
+$I_{OL}=?$
+\[I_O<\beta_F I_B-I_{RC}=\beta_F I_B-\frac{V_{CC}-V_{CES}}{R_C}\]
+\[I_B=I_{RD}-I_{RB}=\frac{V_{CC}-V_{D3}-V_{D4}-V_{BE1}}{R_D}-\frac{V_{BE1}}{R_B}\]
+\[\begin{aligned}I_B&=\frac{V_{CC}-V_D-V_D-V_{BES}}{R_D}-\frac{V_{BES}}{R_B}\\&=\frac{V_{CC}-2V_D-V_{BES}}{R_D}-\frac{V_{BES}}{R_B}\end{aligned}\]
+\end{columns}
+\[I_{Omax}=I_{OL}=\beta_F I_B-I_{RC}=\beta_F\left(\frac{V_{CC}-2V_D-V_{BES}}{R_D}-\frac{V_{BES}}{R_B}\right)-\frac{V_{CC}-V_{CES}}{R_C}\]
+
+\end{frame}

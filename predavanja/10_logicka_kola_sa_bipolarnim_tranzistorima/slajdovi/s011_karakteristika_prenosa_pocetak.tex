@@ -1,0 +1,19 @@
+\slajdid{10-s011}
+\begin{frame}[label=10-s011]{Karakteristika prenosa}
+\fontsize{9}{9.5}\selectfont
+\begin{columns}[T,onlytextwidth]\column{.26\textwidth}\centering\input{slike/tikz/s011_karakteristika_prenosa_kolo.tex}\column{.72\textwidth}
+Kao što smo definisali u elementima analize logičkih kola crtaćemo zavisnost $V_0=f(V_I)$ tako što ćemo menjati ulazni napon od 0 do $V_{CC}$ smatrajući da je kolo neopterećeno odnosno da je $I_O=0$. Krećemo do tačke $V_I=0$. Ajde na primeru na vidimo: pretpostavka režima rada tranzistor, dokaz pretpostavke „pa u krug“.
+\par\vspace{1pt}
+Pretpostavimo da je tranzistor T1 u aktivnom režimu. Po ulaznoj konturi važi $V_I-R_B I_{RB}-V_{BE1}=0$
+\par\vspace{1pt}
+Kako je $I_B=I_{RB}\to I_B=\dfrac{V_I-V_{BE1}}{R_B}$
+\par\vspace{1pt}
+Po pretpostavci $V_I=0$ i $V_{BE1}=V_{BE}=0.6V$, dobili bi da je $I_B<0$, što je suprotno pretpostavci da je tranzistor u aktivnom režimu kada mora da bude $I_B\geq0$. Znači idemo na novu pretpostavku, Potpuno identično razmišljanje i zaključke bi izveli i da smo pretpostavili da je tranzistor u zasićenju. Jedino bi imali u pretpostavci $V_{BE1}=V_{BES}=0.7V$. Prema tome ostaje situacija da je tranzistor zakočen, odnosno da je $I_B=0$, i $V_{BE1}<V_{\gamma T}$. Iz istih jednačina (koje uvek važe) $V_I-R_B I_{RB}-V_{BE1}=0$
+\par\vspace{1pt}
+Pod uslovom da je $I_B=I_{RB}=0$, onda je $V_{BE1}=V_I=0$, odnosno $V_{BE1}<V_{\gamma T}$, pa je naša pretpostavka da je tranzistor zakočen ispravna. Po izlaznoj konturi je $V_O=V_{CC}-R_C I_{RC}$
+\par\vspace{1pt}
+a za neopterećeno kolo, $I_O=0$, $V_O=V_{CC}-R_C I_C$
+\par\vspace{1pt}
+Tranzistor je zakočen pa je $I_{C1}=0$ što znači da je za $V_I=0$, $V_O=V_{CC}$.
+\end{columns}
+\end{frame}

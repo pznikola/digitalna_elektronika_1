@@ -1,0 +1,25 @@
+
+\slajdid{05-s014}
+\begin{frame}[label=05-s014]
+\gusttekst\setlength{\parskip}{1pt}\renewcommand{\arraystretch}{1.03}
+\vspace*{3mm}\begin{columns}[c,onlytextwidth]
+\column{.30\textwidth}PRIMER:\\$326.23_7+45.4_7={?}_7$
+\column{.24\textwidth}\centering
+$\begin{array}{r@{\;}r}\textcolor{DEcrvena}{C}&\textcolor{DEplava}{0}\textcolor{DEcrvena}{01000}\\&32623\\+&04540\\\cline{2-2}&40463\end{array}$
+\column{.43\textwidth}\centering
+\alert{SIGNAL ZA PREKORAČENJE OPSEGA\\$C$ posle sabiranja cifara najveće težine\\Izlazni keri bit jednak jedinici}\par
+404.63 nema prekoračenja opsega
+\end{columns}\par\vspace{3mm}
+\begin{columns}[c,onlytextwidth]
+\column{.30\textwidth}PRIMER:\\$0101_2+1101_2={?}_2$\par\def\DEzas{0}\input{slike/tikz/s014_opseg.tex}
+\column{.24\textwidth}\centering
+$\begin{array}{r@{\;}r}\textcolor{DEcrvena}{C}&\textcolor{DEplava}{1}\textcolor{DEcrvena}{1010}\\&0101\\+&1101\\\cline{2-2}&\textcolor{DEplava}{1}0010\end{array}$
+\column{.43\textwidth}0010 ima prekoračenja opsega
+\end{columns}\par\vspace{3mm}
+\begin{columns}[c,onlytextwidth]
+\column{.30\textwidth}PRIMER:\\$0101_2+1101_2={?}_2$\par\def\DEzas{1}\input{slike/tikz/s014_opseg.tex}
+\column{.24\textwidth}\centering
+$\begin{array}{r@{\;}r}\textcolor{DEcrvena}{C}&\textcolor{DEplava}{1}\textcolor{DEcrvena}{1010}\\&0101\\+&1101\\\cline{2-2}&\textcolor{DEplava}{1}0010\end{array}$
+\column{.43\textwidth}$\textcolor{DEplava}{\longrightarrow}\ 1111$\quad ima prekoračenja opsega, zasićenje
+\end{columns}
+\end{frame}

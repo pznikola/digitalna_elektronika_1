@@ -1,0 +1,14 @@
+\slajdid{09_1-s040}
+\begin{frame}[label=09_1-s040]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}
+Kako je $V_C>V_{DD}+V_{Tn,L}$ i možemo pretpostaviti $V_C=V_{DD}+V_{Tn,L}+\Delta$ dolazimo do zgodnijeg izraza
+\[\alert{1.}\quad k_{n,L}(V_{DD}-V_O)(V_{DD}+2\Delta-V_O)=k_{n,D}(V_I-V_{Tn,D})^2\]
+Ako bi sada smatrali da se u toj oblasti nalazi $V_{IL}$ i uradili diferenciranje leve i desne strane i zamenili $\frac{\partial V_O}{\partial V_I}=-1$ dobijamo
+\[k_{n,L}(V_{DD}+2\Delta-V_O)+k_{n,L}(V_{DD}-V_O)=2k_{n,D}(V_I-V_{Tn,D})\]
+\[k_{n,L}(V_{DD}+\Delta-V_O)=k_{n,D}(V_I-V_{Tn,D})\]
+\[\alert{2.}\quad V_I=V_{Tn,D}+\frac{k_{n,L}}{k_{n,D}}(V_{DD}+\Delta-V_O)\]
+Zamenom u polaznu jednačinu
+\[k_{n,L}(V_{DD}-V_O)(V_{DD}+2\Delta-V_O)=k_{n,D}\left(V_{Tn,D}+\frac{k_{n,L}}{k_{n,D}}(V_{DD}+\Delta-V_O)-V_{Tn,D}\right)^2\]
+\[k_{n,L}(V_{DD}-V_O)(V_{DD}+2\Delta-V_O)=\frac{k_{n,L}^2}{k_{n,D}}(V_{DD}+\Delta-V_O)^2\]
+\[k_{n,D}(V_{DD}-V_O)(V_{DD}+2\Delta-V_O)=k_{n,L}(V_{DD}+\Delta-V_O)^2\]
+\end{frame}

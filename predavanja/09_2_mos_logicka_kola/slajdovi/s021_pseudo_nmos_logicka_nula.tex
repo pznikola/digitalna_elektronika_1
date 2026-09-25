@@ -1,0 +1,12 @@
+\slajdid{09_2-s021}
+\begin{frame}[label=09_2-s021]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[c,onlytextwidth]\column{.20\textwidth}\centering\input{slike/tikz/s021_pseudo_nmos.tex}\column{.78\textwidth}Napon logičke nule se dobija iz izraza
+\[k_p(-V_{DD}-V_{Tp})^2=k_nV_O\left(2(V_I-V_{Tn})-V_O\right)\]
+za $V_I=V_{OH}$
+\[k_p(-V_{DD}-V_{Tp})^2=k_nV_{OL}\left(2(V_{OH}-V_{Tn})-V_{OL}\right)\]
+Uz $V_{OL}$ malo
+\[k_p(-V_{DD}-V_{Tp})^2\approx k_nV_{OL}\left(2(V_{OH}-V_{Tn})\right)\]
+\[V_{OL}\approx\frac12\frac{k_p}{k_n}\frac{(-V_{DD}-V_{Tp})^2}{V_{DD}-V_{Tn}}\]
+Uz uslov $|V_{Tp}|=V_{Tn}$
+\[V_{OL}\approx\frac12\frac{k_p}{k_n}(V_{DD}-V_{Tn})\]\end{columns}
+\end{frame}

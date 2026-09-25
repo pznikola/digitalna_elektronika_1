@@ -1,0 +1,8 @@
+\begin{tikzpicture}[circuit logic US,DEoznaka,baseline=(a.center)]
+\node[and gate US,draw,logic gate inputs=nn,minimum width=10mm] (a) at (0,0) {};
+\node[not gate US,draw,minimum width=8mm] (b) at (1.45,0) {};
+\draw[DEvod] (a.input 1)--++(-.35,0) node[left] {\(x\)};
+\draw[DEvod] (a.input 2)--++(-.35,0) node[left] {\(y\)};
+\draw[DEvod] (a.output)--(b.input);
+\draw[DEvod] (b.output)--++(.3,0) node[right] {\(z\)};
+\end{tikzpicture}

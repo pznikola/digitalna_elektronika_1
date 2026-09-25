@@ -1,0 +1,25 @@
+\slajdid{09_1-s003}
+\begin{frame}[label=09_1-s003]{NMOS indukovan „dugački“ kanal}
+\gusttekst\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}
+\begin{columns}[T,onlytextwidth]\column{.49\textwidth}\centering
+\input{slike/tikz/s003_struje_i_naponi.tex}
+\[I_{Gn}=0\qquad I_{Dn}=I_{Sn}\geq0\quad za\ V_{GSn}\geq V_{Tn}\]
+\raggedright Tranzistor vodi u zasićenju, aktivnoj oblasti, kada je
+\[V_{DSn}\geq V_{GSn}-V_{Tn}\]
+i tada je njegova struja data izrazom
+\[I_{Dn}=\frac{k_n}{2}(V_{GSn}-V_{Tn})^2(1+\lambda_nV_{DSn})\]
+Tranzistor vodi u triodnoj, omskoj, neaktivnoj oblasti, kada je
+\[V_{DSn}<V_{GSn}-V_{Tn}\]
+i tada je njegova struja data izrazom
+\[I_{Dn}=\frac{k_n}{2}\bigl(2V_{DSn}(V_{GSn}-V_{Tn})-V_{DSn}^2\bigr)\]
+\column{.49\textwidth}
+$V_{Tn}>0$ - prag uključenja n kanalnog tranzistora, napon pri kojem se formira kanal\par\medskip
+$\lambda_n$ – parametar koji pokazuje modifikaciju dužine kanala u zavisnosti od napona između drejna i sors – jedinica $\frac1V$
+\[k_n=\mu_nC_{oxn}\frac{W_n}{L_n}\]
+$W_n$ – širina kanala\par\medskip
+$L_n$ – dužina kanala\par\medskip
+$\mu_n$ – pokretljivost nosilaca koja redstavlja vezu između brzine nosilaca i polja koje deluje na njih $v=\mu E$ - jedinica $\frac{m^2}{Vs}$\par\medskip
+$C_{oxn}$ – normalizovana, po površini, kapacitivnost gejta– jedinica $\frac F{m^2}$\par\medskip
+$k_n$ – jedinica $\frac A{V^2}$
+\end{columns}
+\end{frame}

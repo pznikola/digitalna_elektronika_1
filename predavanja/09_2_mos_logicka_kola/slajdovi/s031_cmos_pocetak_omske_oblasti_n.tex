@@ -1,0 +1,9 @@
+\slajdid{09_2-s031}
+\begin{frame}[label=09_2-s031]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}Daljim porastom ulaznog napona, napon na drejnu tranzistora N opada, napon između sorsa i drejna tranzistora P raste. Tranzistor P ostaje u zasićenju, ali tranzistor N počinje da radi u omskoj oblasti.
+\begin{columns}[c,onlytextwidth]\column{.21\textwidth}\centering\input{slike/tikz/s031_cmos_invertor.tex}\column{.77\textwidth}Uslov da tranzistor N radi u omskoj oblasti
+\[V_{DS,N} \le \frac{(V_{GS,N}-V_{Tn})}{1+\frac{(V_{GS,N}-V_{Tn})}{L_nE_{Cn}}}\qquad V_O \le \frac{(V_I-V_{Tn})}{1+\frac{(V_I-V_{Tn})}{L_nE_{Cn}}}\]
+Uslov da tranzistor P radi u zasićenju
+\[V_{DS,P} \le \frac{(V_{GS,P}-V_{Tp})}{1+\frac{(V_{GS,P}-V_{Tp})}{L_pE_{Cp}}}\qquad V_O-V_{DD} \le \frac{(V_I-V_{DD}-V_{Tp})}{1+\frac{(V_I-V_{DD}-V_{Tp})}{L_pE_{Cp}}}\]
+\[V_O \le V_{DD}+\frac{(V_I-V_{DD}-V_{Tp})}{1+\frac{(V_I-V_{DD}-V_{Tp})}{L_pE_{Cp}}}\]\end{columns}
+\end{frame}

@@ -1,0 +1,20 @@
+% Parametri DEoper (+/-) i DErezultat. Svi prikazani zapisi ostaju zasebni.
+\begin{tikzpicture}[x=.35cm,y=.45cm,font=\fontsize{9}{10}\selectfont]
+\foreach \x/\v in {0/3,1/2,2/6,3/.,4/2,5/3}{\node[anchor=base] at (\x,1) {$\v$};}
+\foreach \x/\v in {1/9,2/5,3/.,4/9}{\node[anchor=base] at (\x,0) {$\v$};}
+\node[anchor=base] at (-1,0) {$\DEoper$};\draw[DEplava] (3.18,-.35)--(3.18,1.5);
+\draw[DEplava,line width=2pt,-{Latex[length=3mm]}] (7.2,.5)--(10.2,.5);
+\node[align=center,text width=4.3cm] at (2,-1.4) {USAGLAŠENO\\MESTO TAČAKA};
+\begin{scope}[shift={(12,0)}]
+\foreach \x/\v in {0/3,1/2,2/6,3/.,4/2,5/3}{\node[anchor=base] at (\x,1) {$\v$};}
+\foreach \x/\v in {0/0,1/9,2/5,3/.,4/9,5/0}{\ifnum\x=0\def\DEboja{DEcrvena}\else\ifnum\x=5\def\DEboja{DEcrvena}\else\def\DEboja{DEtekst}\fi\fi\node[\DEboja,anchor=base] at (\x,0) {$\v$};}
+\node[anchor=base] at (-1,0) {$\DEoper$};
+\node[align=center,text width=5.1cm] at (2,-1.4) {PODRAZUMEVANE VODEĆE I\\PRATEĆE NULE};
+\end{scope}
+\begin{scope}[shift={(6,-4.3)}]
+\foreach \x/\v in {0/3,1/2,2/6,3/.,4/2,5/3}{\node[anchor=base] at (\x,1) {$\v$};}
+\foreach \x/\v in {0/0,1/9,2/5,3/.,4/9,5/0}{\ifnum\x=0\def\DEboja{DEcrvena}\else\ifnum\x=5\def\DEboja{DEcrvena}\else\def\DEboja{DEtekst}\fi\fi\node[\DEboja,anchor=base] at (\x,0) {$\v$};}
+\node[anchor=base] at (-1,0) {$\DEoper$};\draw[DEplava] (-1.3,-.45)--(5.4,-.45);
+\foreach \v [count=\x from 0] in \DErezultat {\node[anchor=base] at (\x,-1.15) {$\v$};}
+\end{scope}
+\end{tikzpicture}

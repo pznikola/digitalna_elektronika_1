@@ -1,0 +1,11 @@
+\slajdid{09_3-s017}
+\begin{frame}[label=09_3-s017]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}Videli smo da su sve kapacitivnosti kod MOS tranzistora u vezi, pa sigurno možemo da pišemo
+\[C_{int1}=\gamma C_{G1}\]
+gde je $\gamma$ faktor proporcionalnosti i zavisi od upotrebljene tehnologije. U tom slučaju
+\[t_{p1}=t_{p0}\left(1+\frac{C_{ext1}}{\gamma C_{G1}}\right)=t_{p0}\left(1+\frac{C_{G2}}{\gamma C_{G1}}\right)=t_{p0}\left(1+\frac f\gamma\right)\]
+gde je $f=\frac{C_{G2}}{C_{G1}}$ efektivni fanout.
+\par\bigskip
+Šta je važno da uočite. Kao što smo ranije videli, ako smo dimenzije i P i N kanalnog tranzistora u i-tom invertoru povećali k puta u odnosu na jedinični invertor njihova ekvivalentna otpornost će biti $R_{eq,i}=\frac{R_{eq1}}k$ a interna kapacitivnost $C_{int,i}=kC_{int1}$. Invertori su u istoj tehnologiji na istoj osnovi pa imaju jednake $\gamma$. Izraz za kašnjenje i-tog invertora u tom slučaju
+\[t_{p,i}=0.69R_{eq,i}C_{int,i}\left(1+\frac{C_{G,(i+1)}}{\gamma C_{G,i}}\right)=t_{p0}\left(1+\frac{C_{G,(i+1)}}{\gamma C_{G,i}}\right)=t_{p0}\left(1+\frac{f_{(i+1)}}\gamma\right)\]
+\end{frame}

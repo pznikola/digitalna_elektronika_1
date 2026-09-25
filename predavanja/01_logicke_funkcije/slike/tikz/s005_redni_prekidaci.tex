@@ -1,0 +1,7 @@
+\begin{circuitikz}[DEoznaka,scale=.8]
+\draw[DEvod] (0,0) to[battery1,invert,l=E] (0,1.6)
+  to[nos,l=P1] (2,1.6) to[nos,l=P2] (4,1.6) -- (4,1.05);
+\node[circle,draw,minimum size=7mm,inner sep=0pt] (s) at (4,.7) {S};
+\draw[DEvod] (s.south) -- (4,0) -- (0,0);
+\node at (.35,.95) {\(+\)};
+\end{circuitikz}

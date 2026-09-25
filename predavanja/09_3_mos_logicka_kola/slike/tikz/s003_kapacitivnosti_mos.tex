@@ -1,0 +1,14 @@
+\begin{tikzpicture}[x=.75cm,y=.75cm,font=\sitneoznake,>=Latex]
+\ctikzset{bipoles/length=.65cm}
+\draw(1.45,1.6)--(1.45,2.6);\draw(1.3,1.55)--(1.3,2.65);
+\draw(1.45,2.55)--(2,2.55)--(2,4.1)node[above]{D};
+\draw(1.45,1.65)--(2,1.65)--(2,0)node[below]{S};
+\draw(-.8,1.85)node[left]{G}--(1.3,1.85);
+\draw[->](3.9,2.1)node[right]{B}--(1.45,2.1);
+\draw(0,1.85)to[C](0,3.5)--(2,3.5);
+\draw(0,1.85)to[C](0,.55)--(3.25,.55);
+\draw(2,3.9)--(3.25,3.9)to[C,l=$C_{DB}$](3.25,2.1)to[C,l=$C_{SB}$](3.25,.55);
+\fill(0,1.85)circle(.045);\fill(3.25,2.1)circle(.045);
+\draw(.85,1.85)--(.85,.7);\draw[preaction={draw=white,line width=2pt}](.85,.7)arc[start angle=90,end angle=270,radius=.15];\draw(.85,.4)to[C,l_=$C_{GB}$](.85,-.9)--(2.65,-.9)--(2.65,.4);
+\draw[preaction={draw=white,line width=2pt}](2.65,.4)arc[start angle=270,end angle=90,radius=.15];\draw(2.65,.7)--(2.65,2.1);
+\node[left]at(-.25,2.7){$C_{GD}$};\node[left]at(-.25,1.15){$C_{GS}$};\end{tikzpicture}

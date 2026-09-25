@@ -1,0 +1,20 @@
+\slajdid{07-s008}
+\begin{frame}[label=07-s008]
+\gusttekst\centering
+Primer fajla potreban da bi „programator“ isprogramirao potrebne veze\par
+{\large JEDEC\par}\vspace{1mm}
+\begin{columns}[T,onlytextwidth]
+\column{.49\textwidth}
+$\square$\par\vspace{-1mm}
+\lstinputlisting[language={},basicstyle=\ttfamily\fontsize{9}{9.5}\selectfont,aboveskip=0pt,belowskip=0pt,lastline=12]{kodovi/s008_jedec_zaglavlje.txt}
+\begin{minipage}{.25\linewidth}
+\lstinputlisting[language={},firstline=13,lastline=13,basicstyle=\ttfamily\fontsize{9}{9.5}\selectfont,aboveskip=0pt,belowskip=0pt]{kodovi/s008_jedec_zaglavlje.txt}
+\end{minipage}\hfill\begin{minipage}{.73\linewidth}\textcolor{DEcrvena}{$\leftarrow$ Number of total fuses}\end{minipage}
+\lstinputlisting[language={},firstline=14,basicstyle=\ttfamily\fontsize{9}{9.5}\selectfont,aboveskip=0pt,belowskip=0pt]{kodovi/s008_jedec_zaglavlje.txt}\par\vspace{1mm}
+\textcolor{DEcrvena}{1 = Blown fuse, no connection\\0 = Intact fuses, connected}
+\column{.49\textwidth}
+\begin{itemize}\item JEDEC files are used to specify the fuses that will be burned or connected to each AND gate.\end{itemize}
+\lstinputlisting[language={},basicstyle=\ttfamily\fontsize{9}{9.5}\selectfont,aboveskip=1pt,belowskip=1pt]{kodovi/s008_jedec_osiguraci.jed}
+\textcolor{DEcrvena}{\(\uparrow\) Number of fuse}
+\end{columns}
+\end{frame}

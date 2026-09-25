@@ -1,0 +1,10 @@
+\begin{tikzpicture}[x=1cm,y=1cm,font=\sitneoznake,>=Latex]
+\draw(-.4,.3)--(.4,0)--(-.4,-.3)--cycle;\node at(-.12,0){1};\draw(.5,0)circle(.1);
+\draw(-1.2,0)node[left]{$V_{i1}$}--(-.4,0);\draw(.6,0)--(2,0);\node[above]at(1,0){$V_{o1}$};\draw[->](1.3,-.17)--(.8,-.17)node[midway,below]{$I_{o1}$};
+\draw(2,1.25)--(2,-1.25);
+\foreach\y/\idx in{1.25/1,-1.25/N}{
+\draw(3,\y+.3)--(3.8,\y)--(3,\y-.3)--cycle;\node at(3.25,\y){$2_{\idx}$};\draw(3.9,\y)circle(.1);\draw(2,\y)--(3,\y);\draw(4,\y)--(4.8,\y)node[right]{$V_{o2\idx}$};
+\draw[->](2.15,\y-.16)--(2.8,\y-.16)node[midway,below]{$I_{i2\idx}$};}
+\node[above]at(2.5,1.25){$V_{i2}$};\node at(3.65,0){$\vdots$};
+\draw(6,1.25)..controls(6.25,1.25)and(6.25,.45)..(6.3,.14)--(6.55,0)--(6.3,-.14)..controls(6.25,-.45)and(6.25,-1.25)..(6,-1.25);\node[right]at(6.55,0){N};
+\end{tikzpicture}

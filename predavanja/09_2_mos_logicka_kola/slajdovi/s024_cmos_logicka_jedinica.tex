@@ -1,0 +1,13 @@
+\slajdid{09_2-s024}
+\begin{frame}[label=09_2-s024]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[c,onlytextwidth]\column{.21\textwidth}\centering\input{slike/tikz/s024_cmos_invertor.tex}\column{.77\textwidth}Pri ulaznom naponu $V_I=0$ N tranzistor sigurno neće voditi pošto je
+\[V_{GS,N}=V_I=0<V_{Tn}\]
+Tranzistor P ima uslove da vodi
+\[V_{GS,P}=V_{G,P}-V_{S,P}=V_I-V_{DD}=0-V_{DD}<V_{Tp}\]
+Kolo je neopterećeno $I_{Dn}=0=I_{Dp}$. Kako tranzistor P ima uslove da vodi, mora raditi u omskoj oblasti
+\[I_{Dp}=\frac{k_p}2\frac1{1+\frac{V_{DS,P}}{E_{Cp}L_p}}\left(2V_{DS,P}(V_{GS,P}-V_{Tp})-V_{DS,P}^2\right)=0\]
+kako bi se njegova radna tačka podesila tako da je $V_{DS,P}=0$, što daje $I_{Dp}=0$. Da smo pretpostavili da radi u zasićenju
+\[I_{Dp}=\frac{k_p}2\frac1{1+\frac{V_{GS,P}}{E_{Cp}L_p}}(V_{GS,P}-V_{Tp})^2=\frac{k_p}2\frac1{1+\frac{-V_{DD}-V_{Tp}}{E_{Cp}L_p}}(-V_{DD}-V_{Tp})^2>0\]
+Izraz pokazuje da nije moguće da tranzistor P radi u zasićenju sa strujom drejna jednakom nuli. Prema tome
+\[V_O=V_{OH}=V_{DD}-V_{DS,P}=V_{DD}\]\end{columns}
+\end{frame}

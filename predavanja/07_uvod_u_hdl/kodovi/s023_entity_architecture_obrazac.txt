@@ -1,0 +1,17 @@
+ENTITY entity_name IS
+  PORT ( [SIGNAL] signal_name {, signal_name} : [mode] type_name {;
+           SIGNAL] signal_name {, signal_name} : [mode] type_name } ) ;
+END entity_name ;
+
+ARCHITECTURE architecture_name OF entity_name IS
+  [SIGNAL declarations]
+  [CONSTANT declarations]
+  [TYPE declarations]
+  [COMPONENT declarations]
+  [ATTRIBUTE specifications]
+BEGIN
+  {COMPONENT instantiation statement ;}
+  {CONCURRENT ASSIGNMENT statement ;}
+  {PROCESS statement ;}
+  {GENERATE statement ;}
+END [architecture_name] ;

@@ -1,0 +1,28 @@
+\begin{tikzpicture}[x=1.0cm,y=1.0cm,font=\sitneoznake,>=Latex]
+\draw[->](-.1,0)--(3.85,0)node[right]{$V_{i1}$};\draw[->](0,-.1)--(0,3.75)node[left]{$V_{o1}=V_{i2}$};
+\foreach\x/\lab in{.25/V_{OL},1.08/V_{IL},1.46/V_{IH},2.8/V_{OH},3.2/V_{CC}}{\draw(\x,-.06)--(\x,.03);\pgfmathsetmacro{\dy}{(abs(\x-1.08)<.01 || abs(\x-2.8)<.01) ? -.30 : -.06}\node[below]at(\x,\dy){$\lab$};}
+\node[below left]at(0,-.06){0};\node[left]at(-.06,0){0};
+\draw(-.06,0.25)--(.03,0.25);\node[left]at(-.06,0.25){$V_{OL}$};
+\draw(-.06,1.08)--(.03,1.08);\node[left]at(-.06,1.08){$V_{IL}$};
+\draw(-.06,1.46)--(.03,1.46);\node[left]at(-.06,1.46){$V_{IH}$};
+\draw(-.06,2.8)--(.03,2.8);\node[left]at(-.06,2.8){$V_{OH}$};
+\draw(-.06,3.2)--(.03,3.2);\node[left]at(-.06,3.2){$V_{CC}$};
+\begin{scope}\clip(0.25,0.25)rectangle(1.08,1.08);
+\foreach\d in{-4,-3.8,...,4}\draw[DEplava!70](\d,-1)--++(5,5);
+\end{scope}
+\begin{scope}\clip(1.46,1.46)rectangle(2.8,2.8);
+\foreach\d in{-4,-3.8,...,4}\draw[DEplava!70](\d,-1)--++(5,5);
+\end{scope}
+\draw[dashed](0.25,0.25)rectangle(1.08,1.08);
+\draw[dashed](1.46,1.46)rectangle(2.8,2.8);
+\draw[dashed](1.08,0)--(1.08,2.8);
+\draw[dashed](1.46,0)--(1.46,2.8);
+\draw[dashed](2.8,0)--(2.8,2.8);
+\draw[dashed](0,0.25)--(2.8,0.25);
+\draw[dashed](0,1.08)--(1.08,1.08);
+\draw[dashed](0,1.46)--(1.46,1.46);
+\draw[dashed](0,2.8)--(2.8,2.8);
+\node[align=center,anchor=west](t)at(3.5,2.25){Karakteristika\\prenosa mora\\biti u ovim\\oblastima};
+\draw[->](t.west)--(0.65,0.65);
+\draw[->](t.west)--(2.1,2.1);
+\end{tikzpicture}

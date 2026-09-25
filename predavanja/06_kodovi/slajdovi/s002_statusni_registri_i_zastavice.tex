@@ -1,0 +1,22 @@
+\slajdid{06-s002}
+\begin{frame}[label=06-s002]
+\gusttekst\setlength{\parskip}{3pt}
+Pored informacija o vrednostima prikazanih brojno, digitalni sistem obrađuje i druge informacije.
+
+Te informacije su takođe predstavljen kombinacijama logičkih nula i jedinica odnosno „kodovane“ su.
+
+Na primer svaki procesor sadrži neku vrstu registra\\u kojem se čuvaju informacije o izvršenim aritmetičkim operacijama
+
+Program status register (PSR) - Flag register - Condition code register (CCR)
+
+Na primer informacija je kodovana u bitima
+\begin{quote}\upshape
+C – Carry flag – rezultat sabiranja, oduzimanja; može da se tretira i kao borrow\par
+Z – Zero flag – rezultat je nula\par
+S/N – Sign, Negative flag – rezultat je negativan\par
+V/O/W – Overflow flag – rezultat operacije u drugom komplenetu ima overflow\par
+\ldots
+\end{quote}
+Sam „hardver“ ne vodi računa ako je nastupilo prekoračenje opsega.\\
+Ali na višem „programskom“ nivou korisnik može da proverava informaciju, kodovanu u PSR, da li je prilikom aritmetičkih operacija nastupilo prekoračenje i da, ako smatra da su potrebne, preduzme odgovarajuće akcije.
+\end{frame}

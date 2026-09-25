@@ -1,0 +1,16 @@
+\slajdid{06-s022}
+\begin{frame}[label=06-s022]{Zaštitni kodovi}
+\gusttekst\centering
+Na žalost, zbog fizičkih osobina signala, fizike procesa, prilikom obrade, smeštanja i prenosa informacija može doći do grešaka.\\
+Bit(i) promeni(e) vrednost sa 0 na 1, ili sa 1 na 0.\\
+Da bi se ovo detektovalo i eventualno ispravilo koriste se „zaštitni kodovi“.\par\vspace{2mm}
+Bit parnosti\par\vspace{2mm}
+\begin{columns}[c,onlytextwidth]
+\column{.57\textwidth}\centering\renewcommand{\arraystretch}{1.10}\input{tabele/s022_bit_parnosti.tex}
+\column{.40\textwidth}Dodaje se zaštitni bit.\par\vspace{2mm}
+Vrednost zaštitnog bita je takva da ukupan broj jedinica u kodu bude paran.\\\centerline{EKSILI}\par\vspace{2mm}
+Na prijemu se proverava kod.\par\vspace{2mm}
+Može da se detektuje greška nastala na 1, 3, … bita. Neparan broj grešaka.\par\vspace{2mm}
+Parna parnost\\Neparna parnost – neparan broj jedinica
+\end{columns}
+\end{frame}

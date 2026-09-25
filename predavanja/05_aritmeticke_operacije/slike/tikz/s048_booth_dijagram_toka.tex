@@ -1,0 +1,23 @@
+\begin{tikzpicture}[x=.9cm,y=.75cm,font=\fontsize{8}{9}\selectfont,
+box/.style={draw,align=center,text width=1.55cm,minimum height=9mm},
+cond/.style={diamond,draw,aspect=2,align=center,inner sep=1mm},
+flow/.style={->,>=Latex,line width=.35pt}]
+\node[circle,draw,inner sep=.5mm] (start) at (0,5.9) {Start};
+\node[box,text width=2.2cm] (init) at (0,4.1) {Rezultat R=0\\b množenik\\a množilac\\n=broj bita a\\N=n\quad$a_{-1}=0$};
+\node[cond] (bits) at (0,2.1) {$a_0a_{-1}$};
+\node[box] (sub) at (-2.1,.8) {$R=R-b2^n$};\node[box] (add) at (2.1,.8) {$R=R+b2^n$};
+\node[box,text width=2.5cm] (shifta) at (0,-1.2) {Pomeri\\aritmetički desno\\za jedno mesto a};
+\node[box,text width=2.5cm] (shiftr) at (3.6,-1.2) {Pomeri\\aritmetički desno\\za jedno mesto R};
+\node[box] (dec) at (6.8,-1.2) {N=N-1};
+\node[cond] (endq) at (9.4,-1.2) {N = 0};
+\node[circle,draw,inner sep=.5mm] (end) at (9.4,-2.9) {Kraj};
+\draw[flow] (start)--(init);\draw[flow] (init)--(bits);
+\draw[flow] (bits.west)-|node[near start,above]{=10}(sub.north);
+\draw[flow] (bits.east)-|node[near start,above]{=01}(add.north);
+\draw[flow] (bits.south)--(shifta.north)node[midway,right,align=left]{=00\\=11};
+\draw[flow] (sub.south)--(-2.1,-.1)--(0,-.1);
+\draw[flow] (add.south)--(2.1,-.1)--(0,-.1);
+\draw[flow] (shifta)--(shiftr);\draw[flow] (shiftr)--(dec);\draw[flow] (dec)--(endq);
+\draw[flow] (endq.south)--(end.north)node[midway,left]{DA};
+\draw[flow] (endq.east)--(11,-1.2)node[midway,above]{NE}--(11,2.85)--(0,2.85);
+\end{tikzpicture}

@@ -1,0 +1,17 @@
+\input{slike/tikz/komparator_simbol.tex}
+
+\slajdid{05-s009}
+\begin{frame}[label=05-s009]{Mreže većih kapaciteta}
+\setlength{\parskip}{2pt}\centering
+\def\DEprosiren{2}\def\DEunit{.57cm}\input{slike/tikz/komparator_jezgro.tex}\par
+\begin{tikzpicture}[x=.70cm,y=.65cm,font=\fontsize{8}{9}\selectfont]
+\Komparator{a}{0}{0}\Komparator{b}{5.8}{0}\Komparator{c}{12.7}{0}
+\foreach \name/\value in {ip/0,iq/0,ie/1}{\draw[DEvod] (a-\name)--++(-.3,0)node[left]{\value};}
+\foreach \name/\label in {a1/a1,a0/a0,b1/b1,b0/b0}{\draw[DEvod] (a-\name)--++(-.3,0)node[left]{\label};}
+\foreach \name/\label in {a1/a3,a0/a2,b1/b3,b0/b2}{\draw[DEvod] (b-\name)--++(-.3,0)node[left]{\label};}
+\draw[DEvod] (a-p)--++(.3,0)|-(b-ip);
+\draw[DEvod] (a-q)--++(.5,0)|-(b-iq);
+\draw[DEvod] (a-e)--++(.7,0)|-(b-ie);
+\foreach \name/\label in {p/A>B,q/A<B,e/A=B}{\draw[DEvod] (b-\name)--++(.3,0)node[right]{\label};}
+\end{tikzpicture}
+\end{frame}

@@ -1,0 +1,22 @@
+
+\slajdid{05-s052}
+\begin{frame}[label=05-s052]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\parskip}{3pt}
+\begin{center}ZAOKRUŽIVANJE REZULTATA MNOŽENJA\end{center}
+Da bi se smanjila greška odsecanja u mnogim sistemima se radi zaokruživanje rezultata.
+\[a_{n-1}.a_{n-2}\ldots a_1a_0\times b_{n-1}.b_{n-2}\ldots b_1b_0=\textcolor{DEcrvena}{c_{2n-1}.c_{2n-2}\ldots c_n}\textcolor{DEplava}{c_{n-1}c_{n-2}\ldots c_1c_0}\]
+Vrednost $\textcolor{DEcrvena}{c_{2n-1}.c_{2n-2}\ldots c_n+r}$ se smešta u $n$ bitni registar i koriste za dalju obradu\\
+$r$ je dodatna vrednost zaokruživanja i zavisi od načina koji se primenjuje.\\
+Sigurno je manja ili jednaka od vrednosti težine najnižeg bita $\textcolor{DEcrvena}{c_n\equiv c_{-n+1}}$
+
+Zaokruživanje na dole – prema minus beskonačno – praktično odsecanje
+
+Zaokruživanje na gore – prema plus beskonačno – $r=\dfrac{1}{2^{n-1}}$\\
+dodaje se vrednost bita najmanje težine
+
+Zaokruživanje prema nuli
+
+Zaokruživanje od nule
+
+Zaokruživanje najbližoj vrednosti $\textcolor{DEplava}{r=c_{n-1}}$ pa onda prema parnoj, neparnoj itd…
+\end{frame}

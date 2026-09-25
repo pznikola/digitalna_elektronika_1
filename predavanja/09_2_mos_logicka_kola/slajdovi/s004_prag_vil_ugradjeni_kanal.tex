@@ -1,0 +1,15 @@
+\slajdid{09_2-s004}
+\begin{frame}[label=09_2-s004]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\[\alert{1.}\quad k_{n,L}(V_{DD}-V_O)\left(-2V_{Tn,L}-(V_{DD}-V_O)\right)=k_{n,D}(V_I-V_{Tn,D})^2\]
+\begin{columns}[c,onlytextwidth]\column{.19\textwidth}\centering\input{slike/tikz/s004_invertor_ugradjeni_kanal.tex}\column{.79\textwidth}Ako bi sada smatrali da se u toj oblasti nalazi $V_{IL}$ i uradili diferenciranje leve i desne strane i zamenili da je $\frac{\partial V_O}{\partial V_I}=-1$ dobijamo
+\[k_{n,L}\left(-2V_{Tn,L}-(V_{DD}-V_O)\right)-k_{n,L}(V_{DD}-V_O)=2k_{n,D}(V_I-V_{Tn,D})\]
+\[k_{n,L}\left(-2V_{Tn,L}-2(V_{DD}-V_O)\right)=2k_{n,D}(V_I-V_{Tn,D})\]
+\[\alert{2.}\quad V_I=V_{Tn,D}+\frac{k_{n,D}}{k_{n,L}}\left(-V_{Tn,L}-(V_{DD}-V_O)\right)\]
+1. i 2. dve jednačine sa dve nepoznate, često se javlja ova situacija i javljaće se. Rešavanjem\end{columns}
+\begin{columns}[c,onlytextwidth]\column{.48\textwidth}
+\[V_{IL}=V_{Tn,D}-\tikz[baseline]{\node[inner sep=0pt,anchor=base](vt){\color{DEcrvena}$V_{Tn,L}$};\draw[->,DEplava](vt.south)--++(0,-.35);}\frac{k_{n,L}}{k_{n,D}}{\color{DEplava}\sqrt{\frac1{1+\frac{k_{n,L}}{k_{n,D}}}}}\]
+\column{.50\textwidth}
+\[V_{O(IL)}=V_{DD}+V_{Tn,L}\left({\color{DEplava}1+\sqrt{\frac1{1+\frac{k_{n,L}}{k_{n,D}}}}}\right)\]
+\end{columns}
+\centering Negativno po prirodi za tranzistor sa ugrađenim kanalom
+\end{frame}

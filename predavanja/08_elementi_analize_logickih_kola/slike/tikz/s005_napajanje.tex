@@ -1,0 +1,8 @@
+\begin{tikzpicture}[circuit logic US,x=1cm,y=1cm,font=\sitneoznake]
+\node[not gate US,draw](g)at(0,0){};
+\draw(g.input)--++(-.8,0)node[above]{$a_i(t)$};\draw(g.output)--++(.8,0)node[above]{$b_o(t)$};
+\draw(-.1,.17)--(-.1,.8)--(-1.9,.8)--(-1.9,.12);
+\draw(-2.08,.12)--(-1.72,.12);\draw(-2,.03)--(-1.8,.03);
+\draw(-1.9,.03)--(-1.9,-.8)--(-.1,-.8)--(-.1,-.17);
+\node[left]at(-2.02,.05){$E$};\node at(-1.65,.25){$+$};
+\end{tikzpicture}

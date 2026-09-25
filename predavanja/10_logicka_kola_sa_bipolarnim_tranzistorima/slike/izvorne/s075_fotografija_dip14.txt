@@ -1,0 +1,1 @@
+Izvor: originalni PDF, strana 38, gornji slajd 75, slikovni objekat 196, original 508×307 piksela; izdvojen samo fotografski prikaz kućišta, pravougaonik (401,110,485,190). Tehnički crteži su rekonstruisani u TikZ-u.

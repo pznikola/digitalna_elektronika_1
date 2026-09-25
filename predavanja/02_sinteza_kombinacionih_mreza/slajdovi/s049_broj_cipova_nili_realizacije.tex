@@ -1,0 +1,15 @@
+\slajdid{02-s049}
+\begin{frame}[label=02-s049]
+\gusttekst
+Za realizaciju samo sa NILI logičkim kolima po pravilu je najlakše krenuti od proizvoda zbirova
+\[
+\begin{aligned}
+F&=(D+\bar B)(\bar D+\bar C)(\bar D+\bar A)\\
+ &=\overline{\overline{(D+\bar B)(\bar D+\bar C)(\bar D+\bar A)}}
+ =\overline{\overline{(D+\bar B)}+\overline{(\bar D+\bar C)}+\overline{(\bar D+\bar A)}}
+\end{aligned}
+\]
+pa nam za realizaciju treba pa nam za realizaciju treba čip sa najmanje 4 invertora, 1 čip sa najmanje 3 dvoulazna NILI kola i jedan čip sa najmanje jednim troulaznim NILI kolom. Tri čipa ali različita. I za ovu realizaciju samo sa NILI kolima ne postoji dokaz da je minimalna sa stanovišta klasične minimizacije. Možemo se samo nadati da je tako. Kako se u jednom čipu nalazi 4 dvoulazna NILI kola, možemo ih iskoristiti kao invertore za potrebne 4 inverzije. I isto tako jedno troulazno NILI kolo zameniti sa dva dvoulazna NILI kola i inverzijom
+\(\overline{X+Y+Z}=\overline{(X+Y)+Z}=\overline{\bigl(\overline{\overline{X+Y}}\bigr)+Z}\),
+ukupan broji dvoulaznih NILI kola koja su nam potrebna je 10. Ukupan broj čipova 3. Ostaje na primer i da se proveri: pod uslovom da posedujemo invertovane vrednosti primenjivih i da ovu kombinacionu mrežu realizujemo kao jednostepeno složeno CMOS kolo koja realizacija bi bila minimalnija sa stanovišta površine koju zauzima. \underline{Probajte}.
+\end{frame}

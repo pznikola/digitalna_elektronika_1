@@ -1,0 +1,14 @@
+\slajdid{10-s090}
+\begin{frame}[t,label=10-s090]
+\vspace*{5pt}
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[T,onlytextwidth]\column{.35\textwidth}\centering\input{slike/tikz/s090_ecl_odvojena_napajanja.tex}\column{.63\textwidth}
+Uobičajeno za ECL logička kola jeste da rade sa negativnim naponima napajanja odnosno $V_{CC}=0=\mathrm{DGND}$, $V_{EE}<0$ (standardno $V_{EE}=-5.2V$). Zašto? Ako se napon napajanja $V_{CC}$ zbog smetnji promeni za $\Delta V_{CC}$ za istu tu vrednost će se promeniti i izlazni napon
+\[V_O=V_{CC}-R_C I_C-V_{BE}\]
+\[V_O+\Delta V_O=V_{CC}+\Delta V_{CC}-R_C I_C-V_{BE}\]
+\[\Delta V_O=\Delta V_{CC}\]
+Ako se napon napajanja $V_{EE}$ zbog smetnji promeni za $\Delta V_{EE}$ ta promena će se u znatno manjoj meri preneti na izlaz u slučaju da strujni izvor nije idealan (ako je idealan biće nula)
+\[V_O=V_{CC}-R_C I_C-V_{BE}\]
+\[\begin{aligned}V_O+\Delta V_O&=V_{CC}-R_C(\Delta I_C)-V_{BE}\\&=V_{CC}-R_C(\Delta I_E)-V_{BE}\end{aligned}\]
+\[\begin{aligned}V_O+\Delta V_O&=V_{CC}-R_C(\Delta I_C)-V_{BE}\\&=V_{CC}-R_C\left(\frac{\Delta V_{EE}}{R_{IE}}\right)-V_{BE}\end{aligned}\]
+\end{columns}
+\end{frame}

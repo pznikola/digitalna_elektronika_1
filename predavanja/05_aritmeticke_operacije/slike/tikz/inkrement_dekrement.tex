@@ -1,0 +1,17 @@
+\begin{tikzpicture}[x=.9cm,y=.8cm,font=\fontsize{9}{10}\selectfont,
+box/.style={draw=DEplava,fill=DEplava!15,align=center,minimum height=8mm},
+flow/.style={orange!85!black,line width=1.4pt,-{Latex[length=3mm]}}]
+\node (in) at (9,3.6) {\input{tabele/s0\DEbroj _ulaz.tex}};
+\node[box,text width=4cm] (find) at (2,2.5) {\DEpitanje};
+\node[box,text width=4cm] (control) at (2,0) {Kontrola EKSILI kola\\Bafer ili invertor};
+\node[box,text width=5.3cm] (xor) at (9,0) {EKSILI kola};
+\node (out) at (9,-1.75) {\input{tabele/s0\DEbroj _izlaz.tex}};
+\draw[flow] (in.south)--(xor.north);
+\draw[flow] (9,2.5)--(find.east)node[midway,above,text=DEtekst]{podatak};
+\draw[flow] (find.south)--(control.north)node[midway,right,text=DEtekst]{pozicija};
+\draw[flow] (control.east)--(xor.west)node[midway,above,text=DEtekst,align=center,text width=2.4cm]{Do pozicije 0,\\a od nje 1};
+\draw[flow] (xor.south)--(out.north);
+\ifnum\DEbroj=36
+\draw[flow] (-1.1,3.65)node[above,text=DEtekst]{$\mathrm{INC}/\overline{\mathrm{DEC}}$}--(-1.1,2.5)--(find.west);
+\fi
+\end{tikzpicture}

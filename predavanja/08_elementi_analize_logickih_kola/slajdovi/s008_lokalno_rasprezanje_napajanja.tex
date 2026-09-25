@@ -1,0 +1,23 @@
+\slajdid{08-s008}
+\begin{frame}[label=08-s008]{Decoupling capacitors}
+\fontsize{9}{10}\selectfont\setlength{\parskip}{1.5pt}
+Kondenzatori za blokadu\par
+\begin{columns}[c,onlytextwidth]\column{.65\textwidth}\input{slike/tikz/s008_dekapling_potrosac.tex}
+\column{.33\textwidth}
+$V_{CC1}(t_0^-)=\dfrac{1000}{1001}V_{CC}$\par\medskip
+$V_{CC1}(t_0^+)=\dfrac{1000}{1001}V_{CC}$
+\end{columns}
+\begin{columns}[T,onlytextwidth]\column{.55\textwidth}
+Od „svoje potrošnje“ - Transient load $C_{TL}$\par
+Od šuma koji je posledica rada drugih kola i smetnji - Noise $C_N$\par
+Isti efekat – jedan kondenzator uz svako kolo\par
+\centering\input{slike/tikz/s008_lokalni_kondenzatori.tex}\par
+{\sitneoznake «različite kockice, različite impedanse i parazitni efekti»\;
+\tikz[baseline=-.5ex]{\draw(0,0)circle(.09);\fill(-.03,.025)circle(.008);\fill(.03,.025)circle(.008);\draw(-.045,-.04)..controls(0,0)..(.045,-.04);}}
+\column{.43\textwidth}
+Kada se ponovo potrošač vrati na 1000R, kondenzator će se dopuniti iz izvora za napajanje. „Privremena baterija“\par
+Najčešći dekapling kondenzator uz logička kola je keramički, vrednosti 100nF.\par
+Većina digitalnih sistema ne bi ispravno radila da ne postoje ovi kondenzatori. Česta greška mladih inženjera jeste da ih ne postave, ili ne postave na odgovarajuća mesta, uz samo napajanje čipova.\par
+Linije između logičkog kola i dekapling kondenzatora treba da su što kraće zbog parazitnih efekata
+\end{columns}
+\end{frame}

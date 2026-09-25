@@ -1,0 +1,6 @@
+\begin{tikzpicture}[x=.8cm,y=.65cm,font=\sitneoznake,>=Latex]
+\draw(-.5,0)--(4.1,0);\draw(-.5,-1.6)--(4.1,-1.6);\node[right]at(-.4,-1.25){p osnova};
+\foreach \x/\d/\l in{.4/p+/B,1.5/n+/S,3.2/n+/D}{\draw(\x-.3,0)--(\x-.3,-.25)arc[start angle=180,end angle=360,x radius=.3,y radius=.35]--(\x+.3,0);\node at(\x,-.25){\d};\draw(\x-.12,0)rectangle(\x+.12,.15);\draw(\x,.15)--(\x,.6)node[above]{\l};}
+\draw(1.75,.02)rectangle(2.95,.17);\draw(2.35,.17)--(2.35,.6)node[above]{G};
+\node at(2.4,-1.05){preklapanje};\draw[->](2.12,-.83)--(1.78,-.05);\draw[->](2.65,-.83)--(2.91,-.05);
+\end{tikzpicture}

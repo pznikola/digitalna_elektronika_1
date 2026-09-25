@@ -1,0 +1,15 @@
+\slajdid{09_1-s051}
+\begin{frame}[label=09_1-s051]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}
+\begin{columns}[c,onlytextwidth]\column{.20\textwidth}\centering\input{slike/tikz/s051_invertor_gejt_na_napajanju.tex}\column{.78\textwidth}
+Daljim porastom ulaznog napona $V_I=V_{Tn,D}+\varepsilon$ tranzistor $T_D$ počinje da vodi sa malom strujom. Visok mu je napon na drejnu pa radi u zasićenju. $V_{DS,D}\geq V_{GS,D}-V_{Tn,D1}$ odnosno $V_O\geq V_I-V_{Tn,D}$. Izjednačavanjem struja $I_{Dn,L}=I_{Dn,D}$
+\[\frac{k_{n,L}}2(V_{GS,L}-V_{Tn,L})^2=\frac{k_{n,D}}2(V_{GS,D}-V_{Tn,D})^2\]
+\end{columns}
+dolazimo do zavisnosti izlaznog od ulaznog napona koju možemo napisati u obliku
+\[\alert{1.}\quad k_{n,L}(V_{DD}-V_O-V_{Tn,L})^2=k_{n,D}(V_I-V_{Tn,D})^2\]
+Ako bi sada smatrali da se u toj oblasti nalazi $V_{IL}$ i uradili diferenciranje leve i desne strane i zamenili da je $\frac{\partial V_O}{\partial V_I}=-1$ dobijamo
+\[2k_{n,L}(V_{DD}-V_O-V_{Tn,L})=2k_{n,D}(V_I-V_{Tn,D})\]
+\[\alert{2.}\quad V_I=V_{Tn,D}+\frac{k_{n,L}}{k_{n,D}}(V_{DD}-V_O-V_{Tn,L})\]
+Zamenom u polaznu jednačinu
+\[k_{n,L}(V_{DD}-V_O-V_{Tn,L})^2=k_{n,L}(V_{DD}-V_O-V_{Tn,L})^2\quad\text{????}\]
+\end{frame}

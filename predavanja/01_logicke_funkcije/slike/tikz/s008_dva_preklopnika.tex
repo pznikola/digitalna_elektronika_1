@@ -1,0 +1,15 @@
+\begin{circuitikz}[DEoznaka]
+\draw[DEvod] (0,0) to[battery1,invert,l=E] (0,1.65) -- (.7,1.65) -- (1.4,1.85);
+\draw[DEvod] (1.45,2.05)--(4.55,2.05);
+\draw[DEvod] (1.45,1.25)--(4.55,1.25);
+\draw[DEvod] (4.6,1.85)--(5.3,1.65)--(6,1.65)--(6,1.05);
+\node[circle,draw,minimum size=7mm,inner sep=0pt] (s) at (6,.7) {S};
+\draw[DEvod] (s.south)--(6,0)--(0,0);
+\foreach \x/\y in {.7/1.65,1.45/2.05,1.45/1.25,4.55/2.05,4.55/1.25,5.3/1.65}
+  \draw[DEvod,fill=white] (\x,\y) circle (1.4pt);
+\node[above left] at (1.4,2.05) {\(\mathrm{P1}\)};
+\node[below left] at (1.4,1.25) {\(\overline{\mathrm{P1}}\)};
+\node[above right] at (4.6,2.05) {\(\mathrm{P2}\)};
+\node[below right] at (4.6,1.25) {\(\overline{\mathrm{P2}}\)};
+\node at (.35,1) {\(+\)};
+\end{circuitikz}

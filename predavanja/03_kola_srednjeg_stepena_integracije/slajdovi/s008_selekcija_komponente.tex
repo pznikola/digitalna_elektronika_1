@@ -1,0 +1,17 @@
+\slajdid{03-s008}
+\begin{frame}[label=03-s008]
+\gusttekst
+Da bi se na lak način omogućilo pravljenje mreža većih kapaciteta, sa većim brojem ulaza i izlaza uobičajeno komponente imaju dodatne selekcione signale koji „selektuju“ komponentu, uobičajeno nazvani CS (chip select).
+\begingroup
+\def\DEcs{1}\def\DEokvir{1}\def\DEnaziv{Dekoder}\def\DEtip{2/4}\def\DEulaz{CS}
+\begin{columns}[c,onlytextwidth]
+\begin{column}{.57\textwidth}\centering
+\input{slike/tikz/dekoder_jezgro.tex}
+\end{column}
+\begin{column}{.40\textwidth}\centering
+\input{slike/tikz/dekoder_simbol.tex}
+\end{column}
+\end{columns}
+\endgroup
+U ovom slučaju za dekoder se kaže da su mu aktivne logičke jedinice na izlazu, a CS signal dovodi sve izlaze u neaktivno stanje, odnosno kao što se vidi kada CS nije aktivan odnosno CS=0, svi izlazi će biti na neaktivnom nivou odnosno logičkoj nuli. Česta situacija je i da komponenta ima više od jednog CS signala. U tom slučaju su uvek povezani I logičkom funkcijom, odnosno svi moraju biti aktivni da bi se selektovala komponenta, \(CS=CS1\cdot CS2\).
+\end{frame}

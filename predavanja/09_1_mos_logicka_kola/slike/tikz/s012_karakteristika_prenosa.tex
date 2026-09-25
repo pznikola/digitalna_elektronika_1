@@ -1,0 +1,19 @@
+% Kvalitativna kriva iz originala: nema uvedene numeričke skale.
+\begin{tikzpicture}[DEoznaka,baseline=(current bounding box.center)]
+\begin{axis}[width=25mm,height=20mm,scale only axis,
+ axis lines=middle,xmin=-.08,xmax=1.22,ymin=-.06,ymax=1.2,
+ ticks=none,clip=false,xlabel=\(V_I\),ylabel=\(V_O\),
+ every axis x label/.style={at={(axis description cs:1,0)},anchor=north},
+ every axis y label/.style={at={(axis description cs:0,1)},anchor=south},
+ axis line style={DEvod,-{Latex[length=1.5mm]}}]
+\addplot[DEvod,smooth] coordinates {(0,1)(.13,1)(.24,.98)(.35,.85)(.43,.55)(.52,.22)(.60,.12)(.85,.085)(1,.06)};
+\draw[dashed] (axis cs:.13,0)--(axis cs:.13,1.1);
+\draw[dashed] (axis cs:.59,0)--(axis cs:.59,1.1);
+\draw[dashed] (axis cs:1,0)--(axis cs:1,1.1);
+\node[above] at (axis cs:.075,1.02) {1.};
+\node[above] at (axis cs:.34,1.02) {2.};
+\node[above] at (axis cs:.80,1.02) {3.};
+\node[left] at (axis cs:0,1) {\(V_{DD}\)};
+\node[below] at (axis cs:1,0) {\(V_{DD}\)};
+\end{axis}
+\end{tikzpicture}

@@ -1,0 +1,23 @@
+\begin{tikzpicture}[DEoznaka,x=10mm,y=10mm]
+\node[nand gate US,draw,logic gate inputs=nnn,scale=.7] (a) at (0,0) {};
+\foreach \i in {1,2,3}{\draw[DEvod] (a.input \i)--++(-.25,0);}
+\draw[DEvod] (a.output)--++(.25,0);
+\node at (1.2,0) {\(=\)};
+\node[and gate US,draw,logic gate inputs=nn,scale=.7] (b) at (2.3,.25) {};
+\node[nand gate US,draw,logic gate inputs=nn,scale=.7] (c) at (3.7,-.25) {};
+\draw[DEvod] (b.input 1)--++(-.25,0) (b.input 2)--++(-.25,0);
+\draw[DEvod] (b.output)--++(.15,0)|-(c.input 1);
+\draw[DEvod] (c.input 2)--(1.5,0 |- c.input 2);
+\draw[DEvod] (c.output)--++(.2,0);
+\node at (4.8,0) {\(=\)};
+\node[nand gate US,draw,logic gate inputs=nn,scale=.7] (d) at (5.9,.25) {};
+\node[nand gate US,draw,logic gate inputs=nn,scale=.7] (e) at (7.3,.25) {};
+\node[nand gate US,draw,logic gate inputs=nn,scale=.7] (f) at (8.7,-.25) {};
+\draw[DEvod] (d.input 1)--++(-.25,0) (d.input 2)--++(-.25,0);
+\coordinate (tie) at ($(e.input 1)!.5!(e.input 2)+(-.18,0)$);
+\draw[DEvod] (d.output)--(tie);
+\draw[DEvod] (e.input 1)--(tie |- e.input 1)--(tie |- e.input 2)--(e.input 2);
+\draw[DEvod] (e.output)--++(.15,0)|-(f.input 1);
+\draw[DEvod] (f.input 2)--(5.1,0 |- f.input 2);
+\draw[DEvod] (f.output)--++(.2,0);
+\end{tikzpicture}

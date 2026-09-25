@@ -1,0 +1,19 @@
+\slajdid{08-s056}
+\begin{frame}[label=08-s056]
+\gusttekst\setlength{\parskip}{3pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}
+3. $u_o(\infty)$\par
+Kada se završe svi prelazni procesi $i_c(\infty)=0$, što je istovremeno i struja kroz otpornik, pa je napon na otporniku u beskonačnosti jednak nuli
+\[u_0(\infty)=u_R(\infty)=Ri_R(\infty)=Ri_C(\infty)=0\]
+Izraz za izlazni napon je
+\[\alert{u_o(t)=(U-U_o)e^{-\frac{t-t_0}{\tau}}\qquad za\ t\geq t_0}\]
+\begin{columns}[c,onlytextwidth]\column{.40\textwidth}\centering\input{slike/tikz/s056_odziv_diferencijatora.tex}
+\column{.58\textwidth}
+\begin{align*}
+i_R(t)&=i_C(t)=C\frac{du_C(t)}{dt}\\
+u_C(t)&=u_i(t)-u_R(t)=u_i(t)-Ri_R(t)\\
+i_R(t)&=C\frac{du_i(t)}{dt}-RC\frac{di_R(t)}{dt}\\
+i_R(t)&\approx C\frac{du_i(t)}{dt}
+\end{align*}
+\[u_i(t)=u_R(t)=Ri_R(t)\approx\alert{RC\frac{du_i(t)}{dt}}\]
+\end{columns}
+\end{frame}

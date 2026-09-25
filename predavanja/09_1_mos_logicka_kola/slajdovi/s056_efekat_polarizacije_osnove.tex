@@ -1,0 +1,13 @@
+\slajdid{09_1-s056}
+\begin{frame}[label=09_1-s056]{Problem koji nismo razmatrali}
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}
+\begin{columns}[c,onlytextwidth]\column{.24\textwidth}\centering\input{slike/tikz/s056_neodgovarajuce_vezivanje_osnove.tex}\column{.06\textwidth}\centering\tikz{\draw[->,DEplava](0,0)--(.75,0);}\column{.24\textwidth}\centering\input{slike/tikz/s056_zajednicka_osnova.tex}\column{.44\textwidth}
+\[V_{Tn}=V_{Tn0}+\gamma\left(\sqrt{|2\phi_F+V_{SB}|}-\sqrt{|2\phi_F|}\right)\]
+\[V_{Tn,L}=V_{Tn0}+\gamma\left(\sqrt{|2\phi_F+V_{SB,L}|}-\sqrt{|2\phi_F|}\right)\]
+\end{columns}
+Pri čemu je
+\[V_{SB,L}=V_{S,L}-V_{B,L}=V_{OH}-0=V_{OH}\]
+Znači
+\[V_{OH}=V_{DD}-V_{Tn0}-\gamma\left(\sqrt{|2\phi_F+V_{OH}|}-\sqrt{|2\phi_F|}\right)\]
+i to treba, i može da se reši, po $V_{OH}$. Bilo računanjem kvadratne jednačine, bilo iterativno. Ono što je uočljivo jeste da će napon $V_{OH}$ značajno pasti. Slično važi i za tačku $V_{OL}$. Tačka $V_{IL}$ ne zavisi od $V_{Tn,L}$ ostaje ista. Na žalost ovo ne važi za tačku i $V_{IH}$ pošto postoji zavisnost napona praga od napona sors – osnovna, odnosno od izlaznog napona
+\end{frame}

@@ -1,0 +1,29 @@
+\begin{tikzpicture}[font=\fontsize{8}{9}\selectfont,>=Latex]
+\node[align=left,anchor=north east,font=\fontsize{8}{9}\selectfont\bfseries] at (-1.55,.25) {VLSI\\DESIGN\\FLOW};
+\node[draw,align=center,minimum width=2.25cm,minimum height=.43cm] (v0) at (0,-0.0) {System Specification};
+\node[draw,align=center,minimum width=2.25cm,minimum height=.43cm] (v1) at (0,-0.75) {Functional\\(Architecture) Design};
+\draw[->] (v0)--(v1);
+\node[draw,align=center,minimum width=2.25cm,minimum height=.43cm] (v2) at (0,-1.5) {Functional Verification};
+\draw[->] (v1)--(v2);
+\node[draw,align=center,minimum width=2.25cm,minimum height=.43cm] (v3) at (0,-2.25) {Logic Design};
+\draw[->] (v2)--(v3);
+\node[draw,align=center,minimum width=2.25cm,minimum height=.43cm] (v4) at (0,-3.0) {Logic Verification};
+\draw[->] (v3)--(v4);
+\node[draw,align=center,minimum width=2.25cm,minimum height=.43cm] (v5) at (0,-3.75) {Circuit Design};
+\draw[->] (v4)--(v5);
+\node[draw,align=center,minimum width=2.25cm,minimum height=.43cm] (v6) at (0,-4.5) {Circuit Verification};
+\draw[->] (v5)--(v6);
+\node[draw,align=center,minimum width=2.25cm,minimum height=.43cm] (v7) at (0,-5.25) {Physical Design};
+\draw[->] (v6)--(v7);
+\node[draw,align=center,minimum width=2.25cm,minimum height=.43cm] (v8) at (0,-6.0) {Layout Verification};
+\draw[->] (v7)--(v8);
+\draw[->] (v2.east)--(2.15,-1.5)--(2.15,-0.75)--(v1.east);
+\draw[->] (v4.east)--(2.15,-3.0)--(2.15,-2.25)--(v3.east);
+\draw[->] (v6.east)--(2.15,-4.5)--(2.15,-3.75)--(v5.east);
+\draw[->] (v8.east)--(2.15,-6.0)--(2.15,-5.25)--(v7.east);
+\node[anchor=east,align=left] at (-1.5,-1.7) {Behavioral\\Representation};
+\node[anchor=east,align=left] at (-1.5,-3.1) {Logic\\(Gate-level)\\Representation};
+\node[anchor=east,align=left] at (-1.5,-4.65) {Circuit\\Representation};
+\node[anchor=east,align=left] at (-1.5,-6) {Layout\\Representation};
+\node at (0,-6.75) (end) {Fabrication \& Testing};\draw[->] (v8)--(end);
+\end{tikzpicture}

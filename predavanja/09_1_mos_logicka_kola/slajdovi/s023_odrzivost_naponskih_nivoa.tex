@@ -1,0 +1,16 @@
+\slajdid{09_1-s023}
+\begin{frame}[label=09_1-s023]
+\gusttekst\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}
+Ono što mora da se proveri i što mora da bude zbog održivosti naponskih nivoa jeste $V_{OL}<V_{Tn}$ da bi taj napon dao napon logičke jedinice. Kako je napon logičke jedinice $V_{DD}$ po načinu kako smo radili on sigurno daje logičku nulu, i tu postoji održivost naponskih nivoa. Znači trebalo bi izabrati parametre tako da
+\begin{columns}[c,onlytextwidth]\column{.25\textwidth}\centering
+\input{slike/tikz/s023_odrzivost_naponskih_nivoa.tex}
+\column{.73\textwidth}
+\[\frac{V_{DD}}{k_nR_L(V_{DD}-V_{Tn})+1}<V_{Tn}\]
+Ali isto tako \tikz[remember picture,baseline=(s23target.base)]{\node[inner sep=0pt](s23target){$\alert{V_{O(IH)}<V_{IL}}$};} a bilo bi jako dobro da $\alert{V_{O(IH)}<V_{Tn}}$
+\[\sqrt{\frac{2V_{DD}}{3k_nR_L}}<V_{Tn}\]
+\tikz[remember picture,overlay]{\draw[->,DEplava](s23from)--(s23target.south west);}
+\end{columns}\medskip
+U svim ovim izrazima često se napon napajanja smatra konstantnim a podešava se faktor $k_nR_L$ i odnos $\alert{\frac{k_nR_L}{V_{DD}}}$ se obeležava sa $\beta$ (pokazuje mogućnost „drajvovanja“ izlaza za zadati napon)
+\[\sqrt{\frac2{3\beta}}<V_{Tn}\ \Rightarrow\ \beta>\frac2{3V_{Tn}^2}\]
+Uočiti da će za ovako izabran parametar biti ispunjen uslov $\alert{V_{O(IL)}>V_{IH}}$ potreban opet zbog održivosti naponskih nivoa.
+\end{frame}

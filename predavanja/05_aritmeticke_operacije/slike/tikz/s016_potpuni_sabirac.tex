@@ -1,0 +1,20 @@
+\begin{tikzpicture}[x=.8cm,y=.8cm,font=\fontsize{8}{9}\selectfont,circuit logic US,
+ g/.style={draw,minimum width=7mm,minimum height=6mm,logic gate inputs=nn}]
+\node[g,xor gate US] (x) at (1.7,1) {};
+\node[g,xor gate US] (s) at (4,2) {};
+\node[g,and gate US] (p) at (1.7,-.3) {};
+\node[g,and gate US] (q) at (4,.55) {};
+\node[g,or gate US] (c) at (6,-.05) {};
+\draw[DEvod] (-.6,2.2) node[left] {$c_{in}$}--(2.8,2.2)--(s.input 1);
+\draw[DEvod] (-.4,1.2) node[left] {$a$}--(.3,1.2)--(x.input 1);
+\draw[DEvod] (-.4,.8) node[left] {$b$}--(0,.8)--(x.input 2);
+\draw[DEvod] (.3,1.2)|-(p.input 1);\fill (.3,1.2) circle (1pt);
+\draw[DEvod] (0,.8)|-(p.input 2);\fill (0,.8) circle (1pt);
+\draw[DEvod] (x.output)--(3.15,1)|-(s.input 2);
+\draw[DEvod] (3.15,1)|-(q.input 1);\fill (3.15,1) circle (1pt);
+\draw[DEvod] (2.8,2.2)|-(q.input 2);\fill (2.8,2.2) circle (1pt);
+\draw[DEvod] (p.output)--(5.05,-.3)|-(c.input 2);
+\draw[DEvod] (q.output)--(5.05,.55)|-(c.input 1);
+\draw[DEvod] (s.output)--(6.9,2) node[right] {$s$};
+\draw[DEvod] (c.output)--(6.9,-.05) node[right] {$c_{out}$};
+\end{tikzpicture}

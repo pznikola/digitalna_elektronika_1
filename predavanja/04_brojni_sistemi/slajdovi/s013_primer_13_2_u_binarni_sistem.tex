@@ -1,0 +1,25 @@
+\slajdid{04-s013}
+\begin{frame}[label=04-s013]
+\gusttekst\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.02}
+\begin{columns}[t,onlytextwidth]
+\column{.47\textwidth}
+PRIMER:\quad $13.2_{10}={?}_2$\par\vspace{2mm}
+CELOBROJNA VREDNOST\par
+\begin{tikzpicture}
+\node[inner sep=0] (t) {\input{tabele/s013_celobrojna_vrednost.tex}};
+\draw[DEplava,->] ([xshift=3mm]t.south east)--([xshift=3mm,yshift=-5mm]t.north east);
+\node[anchor=north east] at ([xshift=7mm,yshift=-1mm]t.south east) {1101};
+\end{tikzpicture}
+\column{.50\textwidth}
+RAZLOMLJENA VREDNOST\par
+\begin{tikzpicture}
+\node[inner sep=0] (t) {\input{tabele/s013_razlomljena_vrednost.tex}};
+\draw[DEplava,->] ([xshift=3mm]t.north east)--([xshift=3mm]t.south east);
+\node[anchor=north east] at ([xshift=6mm,yshift=-1mm]t.south east) {.001100110\ldots.};
+\end{tikzpicture}
+\end{columns}
+\[13.2_{10}=1101.001100110\ldots_2\]
+\alert{Što veći broj cifara u razlomljenom delu imaćemo tačnije „rezultat“ prelaska.\\
+Apsolutno tačan nikada. Moramo se dogovoriti koji broj cifara uzimamo.\\
+U ovom primeru. Za neke druge primere mogli bi da dobijemo i tačan rezultat prelaska. Na primer 0.5 ili 0.25 ili 0.75 ili \ldots.}
+\end{frame}

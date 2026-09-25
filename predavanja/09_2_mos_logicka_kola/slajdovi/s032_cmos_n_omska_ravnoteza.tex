@@ -1,0 +1,9 @@
+\slajdid{09_2-s032}
+\begin{frame}[label=09_2-s032]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[c,onlytextwidth]\column{.21\textwidth}\centering\input{slike/tikz/s032_cmos_invertor.tex}\column{.77\textwidth}Iz uslov se vidi da postoji oblast ulaznih i izlaznih napona za koju važi pretpostavka: P tranzistor radi u zasićenju, N tranzistor radi u omskoj oblasti. Na primer za dugi kanal
+\[\text{N tranzistor u zasićenju:}\quad V_O\le V_I-V_{Tn}\]
+\[\text{P tranzistor u zasićenju:}\quad V_O\le V_I-V_{Tp}\]
+Veza ulaznog i izlaznog napona je tada
+\[\begin{aligned}&\frac{k_p}2\frac1{1+\frac{V_{GS,P}-V_{Tp}}{L_pE_{Cp}}}(V_{GS,P}-V_{Tp})^2\\&\quad=\frac{k_n}2\frac1{1+\frac{V_{DS,N}}{L_nE_{Cn}}}\left(2V_{DS,N}(V_{GS,N}-V_{Tn})-V_{DS,N}^2\right)\end{aligned}\]
+\[k_p\frac1{1+\frac{V_I-V_{DD}-V_{Tp}}{L_pE_{Cp}}}(V_I-V_{DD}-V_{Tp})^2=k_n\frac1{1+\frac{V_O}{L_nE_{Cn}}}\left(2V_O(V_I-V_{Tn})-V_O^2\right)\]\end{columns}
+\end{frame}

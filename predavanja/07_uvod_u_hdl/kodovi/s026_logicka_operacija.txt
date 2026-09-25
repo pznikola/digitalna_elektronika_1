@@ -1,0 +1,5 @@
+SIGNAL A, B, C : STD_LOGIC_VECTOR (1 TO 3) ;
+    .
+    .
+    .
+C <= A AND B ;

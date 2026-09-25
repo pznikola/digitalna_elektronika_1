@@ -1,0 +1,8 @@
+\begin{tikzpicture}[x=1cm,y=1cm,font=\sitneoznake,>=Latex]
+\draw(0,0)circle(.25);\node at(.12,.4){$+$};\node[left]at(-.3,0){$u_i(t)$};\draw(0,.25)--(0,.85)--(1,.85);
+\foreach\x in{1,1.25,1.5,1.75}{\draw(\x,.85)..controls(\x,.99)and(\x+.25,.99)..(\x+.25,.85);}
+\draw(2,.85)--(3.6,.85);\node[above]at(1.5,1){$L$};\draw[->](.3,1)--(.75,1)node[midway,above]{$i_L(t)$};
+\draw[<->](1,.55)--(2,.55)node[midway,below]{$u_L(t)$};\node[left]at(1,.55){$+$};
+\draw(0,-.25)--(0,-.85)--(3.6,-.85);\draw(2.9,.85)--(2.9,.5)--(3.02,.4)--(2.78,.24)--(3.02,.08)--(2.78,-.08)--(3.02,-.24)--(2.78,-.4)--(2.9,-.5)--(2.9,-.85);\node[left]at(2.7,0){$R$};
+\draw[<->](3.6,.75)--(3.6,-.75);\draw[fill=white](3.6,.85)circle(.06);\draw[fill=white](3.6,-.85)circle(.06);\node[right]at(3.7,.6){$+$};\node[right]at(3.7,0){$u_o(t)$};
+\end{tikzpicture}

@@ -1,0 +1,10 @@
+\slajdid{09_2-s009}
+\begin{frame}[label=09_2-s009]
+\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[c,onlytextwidth]\column{.19\textwidth}\centering\input{slike/tikz/s009_invertor_ugradjeni_kanal.tex}\column{.79\textwidth}Ono što mora da se proveri i što mora da bude zbog održivosti naponskih nivoa jeste $V_{OL}<V_{Tn}$ da bi taj napon dao napon logičke jedinice. Kako je napon logičke jedinice $V_{DD}$ po načinu kako smo radili on sigurno daje logičku nulu, i tu postoji održivost naponskih nivoa. Znači trebalo bi izabrati parametre tako da
+\[\frac12\frac{k_{n,L}}{k_{n,D}}\frac{(-V_{Tn,L})^2}{V_{DD}-V_{Tn,D}}<V_{Tn,D}\]
+Ali isto tako $V_{O(IH)}<V_{IL}$ a bilo bi jako dobro da $V_{O(IH)}<V_{Tn,D}$
+\[-V_{Tn,L}\sqrt{\frac{k_{n,L}}{3k_{n,D}}}<V_{Tn1}\]
+U svim ovim izrazima podešava se faktor $\frac{k_{n,D}}{k_{n,L}}$ i obeležava sa $\beta$
+\[-V_{Tn,L}\sqrt{\frac1{3\beta}}<V_{Tn,D}\qquad\color{DEcrvena}\beta>\frac13\left(\frac{-V_{Tn,L}}{V_{Tn,D}}\right)^2\]
+Uočiti da će za ovako izabran parametar biti ispunjen uslov $V_{O(IL)}>V_{IH}$ potreban opet zbog održivosti naponskih nivoa.\end{columns}
+\end{frame}

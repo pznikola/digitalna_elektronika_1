@@ -1,0 +1,15 @@
+MODULE and1
+TITLE 'and1 gate -
+Instantiated by nand1 - Simple hierarchy example'
+" The pins must match the Symbol pins (schematic),
+" or interface names (ABEL-HDL) in the upper-level module.
+IN1, IN2, OUT1 pin;
+EQUATIONS
+OUT1 = IN1 & IN2;
+TEST_VECTORS
+([ IN1, IN2] -> [OUT1])
+ [   0,   0] -> [ 0];
+ [   0,   1] -> [ 0];
+ [   1,   0] -> [ 0];
+ [   1,   1] -> [ 1];
+END

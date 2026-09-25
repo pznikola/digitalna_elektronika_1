@@ -1,0 +1,16 @@
+\slajdid{04-s016}
+\begin{frame}[label=04-s016]{Kompatibilni brojni sistemi}
+\gusttekst
+\setlength{\abovedisplayskip}{5pt}\setlength{\belowdisplayskip}{5pt}
+Kod kompatibilnih brojnih sistema osnove su u odnosu\qquad $p=q^k$
+
+To olakšava prelazak iz jednog sistema u drugi.\\Transformiše se svaka cifra zasebno.
+\[CV_p=c_{n-1}\cdot p^{n-1}+c_{n-2}\cdot p^{n-2}+\ldots+c_1\cdot p^1+c_0\cdot p^0\]
+\[CV_p=c_{n-1}\cdot q^{k(n-1)}+c_{n-2}\cdot q^{k(n-2)}+\ldots+c_1\cdot q^{k\cdot1}+c_0\cdot q^{k\cdot0}\]
+\[c_i\in\{0,1,2,\ldots p-2,p-1\}=\{0,1,2,\ldots q^k-2,q^k-1\}\]
+\[c_i=b_{k-1}\cdot q^{k-1}+b_{k-2}\cdot q^{k-2}+\cdots+b_1\cdot q^1+b_0\cdot q^0\]
+\[b_i\in\{0,1,2,\ldots q-2,q-1\}\]
+\[CV_q=b_{(n-1)(k-1)}\cdot q^{kn-1}+b_{(n-1)(k-2)}\cdot q^{kn-2}+\ldots+b_{0,1}\cdot q^1+b_{0,0}\cdot q^0\]
+Važi i obrnuto. Kada se sa manje osnove ide na veću.\\
+Grupišu se cifre manje osnove u grupe od $k$ i ta grupa se prikaže cifrom veće osnove.
+\end{frame}

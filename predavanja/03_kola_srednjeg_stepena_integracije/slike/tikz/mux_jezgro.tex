@@ -1,0 +1,53 @@
+% DEdekmod=0: eksplicitni invertori; 1: blok dekodera. DEcs selekcija bloka.
+\providecommand{\DEjedinica}{1cm}
+\providecommand{\DEoblik}{.7}
+\providecommand{\DEoznsize}{9}
+\begin{tikzpicture}[circuit logic US,x=\DEjedinica,y=\DEjedinica,font=\fontsize{\DEoznsize}{\DEoznsize}\selectfont,
+ inv/.style={not gate US,draw,minimum width=9mm,minimum height=8mm,scale=\DEoblik},
+ kapija/.style={and gate US,draw,minimum width=10mm,minimum height=10mm,scale=\DEoblik,rotate=-90}]
+\ifnum\DEdekmod=0
+ \foreach \n/\y in {1/3.2,0/2.3}{
+  \node[inv] (i\n) at (0,\y) {};
+  \node[inv] (j\n) at (1.15,\y) {};
+  \draw[DEvod] (i\n.input)--++(-.4,0) node[left] {S\n};
+  \draw[DEvod] (i\n.output)--(j\n.input);
+  \coordinate (tap\n) at ($(i\n.output)!.5!(j\n.input)$);
+  \draw[DEvod] (j\n.output)--(5.4,\y);
+  \draw[DEvod] (tap\n)--++(0,-.35)--(5.4,\y-.35);
+ }
+\else
+ \draw[DEvod] (-.6,1.5) rectangle (1.2,3.85);
+ \node[align=center] at (.3,3.4) {Dekoder\\2/4};
+ \foreach \n/\y in {3/3.0,2/2.66,1/2.33,0/2.0}{
+  \node[anchor=east,inner sep=1pt] at (1.2,\y) {Y\n};
+  \draw[DEvod] (1.2,\y)--(5.4,\y);
+ }
+ \foreach \n/\x/\y in {1/-.18/1.23,0/.55/.96}{
+  \node[anchor=south,inner sep=1pt] at (\x,1.5) {S\n};
+  \draw[DEvod] (\x,1.5)--(\x,\y)--(-1,\y) node[left] {S\n};
+ }
+ \ifnum\DEcs=1
+  \node[anchor=west,inner sep=1pt] at (-.6,2.03) {CS};
+  \draw[DEvod] (-.6,2.03)--(-1,2.03) node[left] {CS};
+ \fi
+\fi
+\ifnum\DEdekmod=1\def\DEvrh{4.2}\def\DEkutija{3.98}\else\def\DEvrh{3.98}\def\DEkutija{3.65}\fi
+\foreach \n/\x/\sy/\ay/\dy in {0/2.05/2.85/1.95/2.0,1/3.05/2.85/2.3/2.33,2/4.05/3.2/1.95/2.66,3/5.05/3.2/2.3/3.0}{
+ \ifnum\DEdekmod=0
+  \node[kapija,logic gate inputs=nnn] (g\n) at (\x,.6) {};
+  \draw[DEvod] (g\n.input 3)--(g\n.input 3 |- 0,\sy);
+  \draw[DEvod] (g\n.input 2)--(g\n.input 2 |- 0,\ay);
+ \else
+  \node[kapija,logic gate inputs=nn] (g\n) at (\x,.6) {};
+  \draw[DEvod] (g\n.input 2)--(g\n.input 2 |- 0,\dy);
+ \fi
+ \draw[DEvod] (g\n.input 1)--(g\n.input 1 |- 0,\DEvrh) node[above] {I\n};
+}
+\node[or gate US,draw,logic gate inputs=nnnn,minimum width=10mm,minimum height=12mm,scale=\DEoblik,rotate=-90] (z) at (3.55,-.92) {};
+\foreach \n/\pin/\y in {0/4/-.22,1/3/0,2/2/0,3/1/-.22}
+ \draw[DEvod] (g\n.output)--(g\n.output |- 0,\y)--(z.input \pin |- 0,\y)--(z.input \pin);
+\draw[DEvod] (z.output)--++(0,-.25) node[below] {Z};
+\coordinate (DEdno) at ($(z.output)+(0,-.08)$);
+\draw[DEvod,dashed] (-.75,0 |- DEdno) rectangle (5.6,\DEkutija);
+\node[align=center] at (.15,.15) {MUX\\4/1};
+\end{tikzpicture}

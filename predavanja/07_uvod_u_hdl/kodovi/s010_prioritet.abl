@@ -1,0 +1,30 @@
+title 'Dual Priority Encoder'
+PRIORTWO device 'P16V8';
+" Input and output pins
+R7..R0 pin 1..8;
+AVALID, A2..A0, BVALID, B2..B0 pin 19..12 istype 'com';
+" Set definitions
+A=[A2..A0]; B=[B2..B0];
+equations
+WHEN R0==1 THEN A=0;
+ELSE WHEN R1==1 THEN A=1;
+ELSE WHEN R2==1 THEN A=2;
+ELSE WHEN R3==1 THEN A=3;
+ELSE WHEN R4==1 THEN A=4;
+ELSE WHEN R5==1 THEN A=5;
+ELSE WHEN R6==1 THEN A=6;
+ELSE WHEN R7==1 THEN A=7;
+AVALID=([R7..R0] != 0);
+WHEN(R0==1)&(A!=0) THEN B=0;
+ELSE WHEN(R1==1)&(A!=1) THEN B=1;
+ELSE WHEN(R2==1)&(A!=2) THEN B=2;
+ELSE WHEN(R3==1)&(A!=3) THEN B=3;
+ELSE WHEN(R4==1)&(A!=4) THEN B=4;
+ELSE WHEN(R5==1)&(A!=5) THEN B=5;
+ELSE WHEN(R6==1)&(A!=6) THEN B=6;
+ELSE WHEN(R7==1)&(A!=7) THEN B=7;
+BVALID=(R0==1)&(A!=0)#(R1==1)&(A!=1)
+#(R2==1)&(A!=2)#(R3==1)&(A!=3)
+#(R4==1)&(A!=4)#(R5==1)&(A!=5)
+#(R6==1)&(A!=6)#(R7==1)&(A!=7);
+end priortwo

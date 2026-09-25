@@ -1,0 +1,9 @@
+\slajdid{09_2-s018}
+\begin{frame}[label=09_2-s018]
+\gusttekst\setlength{\abovedisplayskip}{1pt}\setlength{\belowdisplayskip}{1pt}\setlength{\abovedisplayshortskip}{1pt}\setlength{\belowdisplayshortskip}{1pt}\begin{columns}[c,onlytextwidth]\column{.20\textwidth}\centering\input{slike/tikz/s018_pseudo_nmos.tex}\column{.78\textwidth}\[V_{O(IL)}=-V_{Tp}+(V_{DD}+V_{Tp})\sqrt{\frac{k_n}{k_n+k_p}}\]
+\[V_{IL}=V_{Tn}+(V_{DD}+V_{Tp})\frac{k_p}{k_n}\sqrt{\frac{k_p}{k_p+k_n}}\]
+\alert{\textbf{Važno je da uočite}}
+\[\color{DEcrvena}\boldsymbol{\begin{aligned}V_{IL}&=V_{Tn}+(V_{DD}+V_{Tp})\frac{k_p}{k_n}\sqrt{\frac{k_p}{k_p+k_n}}\\&=V_{Tn}+(V_{DD}+V_{Tp})\frac{k_p}{k_n}\sqrt{\frac{\frac{k_p}{k_n}}{1+\frac{k_p}{k_n}}}\end{aligned}}\]
+\alert{\textbf{da se ništa neće promeniti ni ovde a ni na drugim mestima ako na primer povećamo obe širine tranzistora istim faktorom, pošto nam se stalno pojavljuju odnosi}}
+\[\color{DEcrvena}\boldsymbol{\frac{k_p}{k_n}=\frac{\mu_pC_{oxp}\frac{W_p}{L_p}}{\mu_nC_{oxn}\frac{W_n}{L_n}}=\frac{\mu_pC_{oxp}\frac{{\color{DEplava}F}\times W_p}{L_p}}{\mu_nC_{oxn}\frac{{\color{DEplava}F}\times W_n}{L_n}}}\]\end{columns}
+\end{frame}
