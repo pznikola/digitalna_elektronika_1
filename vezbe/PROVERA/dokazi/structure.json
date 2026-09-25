@@ -1,0 +1,344 @@
+[
+  {
+    "exercise": "01",
+    "labels": 63,
+    "references": 116,
+    "assets": [
+      {
+        "export": "Images/Zadatak_1/Zadatak1_ZP.pdf",
+        "source": "Images/Zadatak_1/Zadatak1_ZP.drawio"
+      },
+      {
+        "export": "Images/Zadatak_1/Zadatak1_NIProizInput.pdf",
+        "source": "Images/Zadatak_1/Zadatak1_NIProizInput.drawio"
+      },
+      {
+        "export": "Images/Zadatak_1/Zadatak1_NI2Ulaza.pdf",
+        "source": "Images/Zadatak_1/Zadatak1_NI2Ulaza.drawio"
+      },
+      {
+        "export": "Images/Zadatak_1/Zadatak1_NILI2Ulaza.pdf",
+        "source": "Images/Zadatak_1/Zadatak1_NILI2Ulaza.drawio"
+      },
+      {
+        "export": "Images/Zadatak_2/Zadatak2.pdf",
+        "source": "Images/Zadatak_2/Zadatak2.drawio"
+      },
+      {
+        "export": "Images/Zadatak_3/Zadatak3.pdf",
+        "source": "Images/Zadatak_3/Zadatak3.drawio"
+      },
+      {
+        "export": "Images/Zadatak_4/Zadatak_4.pdf",
+        "source": "Images/Zadatak_4/Zadatak_4.drawio"
+      },
+      {
+        "export": "Images/Zadatak_4/Zadatak_4_TimeDiagram.pdf",
+        "source": "Images/Zadatak_4/Zadatak_4_TimeDiagram.drawio"
+      }
+    ],
+    "result": "pass",
+    "manual_review": "not implied"
+  },
+  {
+    "exercise": "02",
+    "labels": 69,
+    "references": 82,
+    "assets": [
+      {
+        "export": "Images/Zadatak_1/Zadatak_1b.pdf",
+        "source": "Images/Zadatak_1/Zadatak_1b.drawio"
+      },
+      {
+        "export": "Images/Zadatak_1/Zadatak_1a.pdf",
+        "source": "Images/Zadatak_1/Zadatak_1a.drawio"
+      },
+      {
+        "export": "Images/Zadatak_2/Zadatak_2a.pdf",
+        "source": "Images/Zadatak_2/Zadatak_2a.drawio"
+      },
+      {
+        "export": "Images/Zadatak_2/Zadatak_2b.pdf",
+        "source": "Images/Zadatak_2/Zadatak_2b.tex"
+      },
+      {
+        "export": "Images/Zadatak_3/Zadatak_3a.pdf",
+        "source": "Images/Zadatak_3/Zadatak_3a.drawio"
+      },
+      {
+        "export": "Images/Zadatak_3/Zadatak_3b.pdf",
+        "source": "Images/Zadatak_3/Zadatak_3b.drawio"
+      },
+      {
+        "export": "Images/Zadatak_3/Zadatak_3c.pdf",
+        "source": "Images/Zadatak_3/Zadatak_3c.drawio"
+      },
+      {
+        "export": "Images/Zadatak_4/7seg.pdf",
+        "source": "Images/Zadatak_4/7seg.drawio"
+      },
+      {
+        "export": "Images/Zadatak_4/Zadatak4_a.pdf",
+        "source": "Images/Zadatak_4/Zadatak4_a.drawio"
+      },
+      {
+        "export": "Images/Zadatak_4/Zadatak_4b.pdf",
+        "source": "Images/Zadatak_4/Zadatak_4b.drawio"
+      },
+      {
+        "export": "Images/Zadatak_4/Zadatak_4c_OffInternal.pdf",
+        "source": "Images/Zadatak_4/Zadatak_4c_OffInternal.drawio"
+      },
+      {
+        "export": "Images/Zadatak_4/Zadatak_4c_Lzout.pdf",
+        "source": "Images/Zadatak_4/Zadatak_4c_Lzout.drawio"
+      },
+      {
+        "export": "Images/Zadatak_4/Zadatak_4c_ASegmentControl.pdf",
+        "source": "Images/Zadatak_4/Zadatak_4c_ASegmentControl.drawio"
+      },
+      {
+        "export": "Images/Zadatak_4/Zadatak_4c_CompleteBCDLogic.pdf",
+        "source": "Images/Zadatak_4/Zadatak_4c_CompleteBCDLogic.drawio"
+      },
+      {
+        "export": "Images/Zadatak_4/Zadatak_4c_BCDComponent.pdf",
+        "source": "Images/Zadatak_4/Zadatak_4c_BCDComponent.drawio"
+      },
+      {
+        "export": "Images/Zadatak_4/Zadatak_4c_4Digits.pdf",
+        "source": "Images/Zadatak_4/Zadatak_4c_4Digits.drawio"
+      }
+    ],
+    "result": "pass",
+    "manual_review": "not implied"
+  },
+  {
+    "exercise": "03",
+    "labels": 155,
+    "references": 25,
+    "assets": [],
+    "result": "pass",
+    "manual_review": "not implied"
+  },
+  {
+    "exercise": "04",
+    "labels": 83,
+    "references": 22,
+    "assets": [
+      {
+        "export": "Images/Zadatak_3/komparator2.pdf",
+        "source": "Images/Zadatak_3/komparator2.tex"
+      },
+      {
+        "export": "Images/Zadatak_3/komparator4.pdf",
+        "source": "Images/Zadatak_3/komparator4.tex"
+      },
+      {
+        "export": "Images/Zadatak_3/maksimum.pdf",
+        "source": "Images/Zadatak_3/maksimum.tex"
+      },
+      {
+        "export": "Images/Zadatak_4/karno.pdf",
+        "source": "Images/Zadatak_4/karno.tex"
+      },
+      {
+        "export": "Images/Zadatak_4/sabirac.pdf",
+        "source": "Images/Zadatak_4/sabirac.tex"
+      },
+      {
+        "export": "Images/Zadatak_4/mux4.pdf",
+        "source": "Images/Zadatak_4/mux4.tex"
+      },
+      {
+        "export": "Images/Zadatak_4/proizvod.pdf",
+        "source": "Images/Zadatak_4/proizvod.tex"
+      },
+      {
+        "export": "Images/Zadatak_4/kompletna.pdf",
+        "source": "Images/Zadatak_4/kompletna.tex"
+      }
+    ],
+    "result": "pass",
+    "manual_review": "not implied"
+  },
+  {
+    "exercise": "05",
+    "labels": 52,
+    "references": 20,
+    "assets": [
+      {
+        "export": "Images/Uvod/kanal.pdf",
+        "source": "Images/Uvod/kanal.tex"
+      },
+      {
+        "export": "Images/Uvod/kocke.pdf",
+        "source": "Images/Uvod/kocke.tex"
+      },
+      {
+        "export": "Images/Uvod/ven.pdf",
+        "source": "Images/Uvod/ven.tex"
+      },
+      {
+        "export": "Images/Zadatak_6/ven.pdf",
+        "source": "Images/Zadatak_6/ven.tex"
+      }
+    ],
+    "result": "pass",
+    "manual_review": "not implied"
+  },
+  {
+    "exercise": "07",
+    "labels": 40,
+    "references": 13,
+    "assets": [
+      {
+        "export": "Images/Zadatak_1/karakteristika.pdf",
+        "source": "Images/Zadatak_1/karakteristika.tex"
+      },
+      {
+        "export": "Images/Zadatak_1/iteracije.pdf",
+        "source": "Images/Zadatak_1/iteracije.tex"
+      },
+      {
+        "export": "Images/Zadatak_1/rotacija.pdf",
+        "source": "Images/Zadatak_1/rotacija.tex"
+      },
+      {
+        "export": "Images/Zadatak_1/preslikavanje.pdf",
+        "source": "Images/Zadatak_1/preslikavanje.tex"
+      },
+      {
+        "export": "Images/Zadatak_2/nivoi.pdf",
+        "source": "Images/Zadatak_2/nivoi.tex"
+      },
+      {
+        "export": "Images/Zadatak_2/jednostruki.pdf",
+        "source": "Images/Zadatak_2/jednostruki.tex"
+      },
+      {
+        "export": "Images/Zadatak_2/visestruki.pdf",
+        "source": "Images/Zadatak_2/visestruki.tex"
+      },
+      {
+        "export": "Images/Zadatak_3/karakteristike.pdf",
+        "source": "Images/Zadatak_3/karakteristike.tex"
+      },
+      {
+        "export": "Images/Zadatak_3/preslikavanje.pdf",
+        "source": "Images/Zadatak_3/preslikavanje.tex"
+      },
+      {
+        "export": "Images/Zadatak_4/karakteristike.pdf",
+        "source": "Images/Zadatak_4/karakteristike.tex"
+      },
+      {
+        "export": "Images/Zadatak_4/lanac.pdf",
+        "source": "Images/Zadatak_4/lanac.tex"
+      },
+      {
+        "export": "Images/Zadatak_5/karakteristike.pdf",
+        "source": "Images/Zadatak_5/karakteristike.tex"
+      },
+      {
+        "export": "Images/Zadatak_5/rotacija.pdf",
+        "source": "Images/Zadatak_5/rotacija.tex"
+      },
+      {
+        "export": "Images/Zadatak_5/rezultat.pdf",
+        "source": "Images/Zadatak_5/rezultat.tex"
+      }
+    ],
+    "result": "pass",
+    "manual_review": "not implied"
+  },
+  {
+    "exercise": "08",
+    "labels": 72,
+    "references": 15,
+    "assets": [
+      {
+        "export": "Images/Zadatak_1/invertor.pdf",
+        "source": "Images/Zadatak_1/invertor.tex"
+      },
+      {
+        "export": "Images/Zadatak_2/invertor.pdf",
+        "source": "Images/Zadatak_2/invertor.tex"
+      },
+      {
+        "export": "Images/Zadatak_3/invertor.pdf",
+        "source": "Images/Zadatak_3/invertor.tex"
+      },
+      {
+        "export": "Images/Zadatak_4/oblasti.pdf",
+        "source": "Images/Zadatak_4/oblasti.tex"
+      },
+      {
+        "export": "Images/Zadatak_5/pdn.pdf",
+        "source": "Images/Zadatak_5/pdn.tex"
+      },
+      {
+        "export": "Images/Zadatak_5/cmos.pdf",
+        "source": "Images/Zadatak_5/cmos.tex"
+      },
+      {
+        "export": "Images/Zadatak_5/bez_negacija.pdf",
+        "source": "Images/Zadatak_5/bez_negacija.tex"
+      },
+      {
+        "export": "Images/Zadatak_6/pdn.pdf",
+        "source": "Images/Zadatak_6/pdn.tex"
+      },
+      {
+        "export": "Images/Zadatak_6/dualnost.pdf",
+        "source": "Images/Zadatak_6/dualnost.tex"
+      },
+      {
+        "export": "Images/Zadatak_6/cmos.pdf",
+        "source": "Images/Zadatak_6/cmos.tex"
+      },
+      {
+        "export": "Images/Zadatak_7/cmos.pdf",
+        "source": "Images/Zadatak_7/cmos.tex"
+      },
+      {
+        "export": "Images/Zadatak_7/ekvivalenti.pdf",
+        "source": "Images/Zadatak_7/ekvivalenti.tex"
+      },
+      {
+        "export": "Images/Zadatak_7/dimenzije.pdf",
+        "source": "Images/Zadatak_7/dimenzije.tex"
+      },
+      {
+        "export": "Images/Zadatak_8/dinamicko.pdf",
+        "source": "Images/Zadatak_8/dinamicko.tex"
+      },
+      {
+        "export": "Images/Zadatak_8/domino.pdf",
+        "source": "Images/Zadatak_8/domino.tex"
+      },
+      {
+        "export": "Images/Zadatak_9/kolo.pdf",
+        "source": "Images/Zadatak_9/kolo.tex"
+      },
+      {
+        "export": "Images/Zadatak_9/ulazi.pdf",
+        "source": "Images/Zadatak_9/ulazi.tex"
+      },
+      {
+        "export": "Images/Zadatak_9/izlaz.pdf",
+        "source": "Images/Zadatak_9/izlaz.tex"
+      },
+      {
+        "export": "Images/Zadatak_10/kolo.pdf",
+        "source": "Images/Zadatak_10/kolo.tex"
+      },
+      {
+        "export": "Images/Zadatak_10/sinteza.pdf",
+        "source": "Images/Zadatak_10/sinteza.tex"
+      }
+    ],
+    "result": "pass",
+    "manual_review": "not implied"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "case": "stable IDs and idempotent inventory",
+    "passed": true
+  },
+  {
+    "case": "stable IDs after source line shift",
+    "passed": true
+  },
+  {
+    "case": "invalidation: 03/03_brojni_sistemi_i_predstave_binarnih_brojeva.tex",
+    "passed": true
+  },
+  {
+    "case": "invalidation: 03/code/PREGLED_DOKAZA.md",
+    "passed": true
+  },
+  {
+    "case": "invalidation: PROVERA/logic.py",
+    "passed": true
+  },
+  {
+    "case": "invalidation: 03/03_brojni_sistemi_i_predstave_binarnih_brojeva.pdf",
+    "passed": true
+  },
+  {
+    "case": "missing visual page approval",
+    "passed": true
+  }
+]

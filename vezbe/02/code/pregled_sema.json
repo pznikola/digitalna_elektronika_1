@@ -1,0 +1,3091 @@
+{
+  "figures": {
+    "Images/Zadatak_1/Zadatak_1b.drawio": {
+      "sha256": "e2de5c48a509b30b4f3f58024459aff415534d32312f703541e053cc3a6683e0",
+      "method": "Ručno praćene veze i oznake u izvornom crtežu i novom PDF izvozu; SHA-256 vezuje navedeni logički opis za tačno pregledanu verziju.",
+      "description": "Četiri I kola odozgo sleva prihvataju (S0,S1,D3), (¬S0,S1,D2), (S0,¬S1,D1), (¬S0,¬S1,D0); ILI spaja četiri izlaza. Dva invertora po selekciji razdvajaju direktni i komplementarni vod. Raniji PDF nije prikazao kompletan spoj D2 i ILI kola; izvor je ispravan.",
+      "outputs": {
+        "Y": "S0 S1 D3+\\bar{S0} S1 D2+S0\\bar{S1}D1+\\bar{S0}\\bar{S1}D0"
+      },
+      "cases": [
+        [
+          {
+            "S1": 0,
+            "S0": 0,
+            "D3": 0,
+            "D2": 0,
+            "D1": 0,
+            "D0": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 0,
+            "D3": 0,
+            "D2": 0,
+            "D1": 0,
+            "D0": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 0,
+            "D3": 0,
+            "D2": 0,
+            "D1": 1,
+            "D0": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 0,
+            "D3": 0,
+            "D2": 0,
+            "D1": 1,
+            "D0": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 0,
+            "D3": 0,
+            "D2": 1,
+            "D1": 0,
+            "D0": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 0,
+            "D3": 0,
+            "D2": 1,
+            "D1": 0,
+            "D0": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 0,
+            "D3": 0,
+            "D2": 1,
+            "D1": 1,
+            "D0": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 0,
+            "D3": 0,
+            "D2": 1,
+            "D1": 1,
+            "D0": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 0,
+            "D3": 1,
+            "D2": 0,
+            "D1": 0,
+            "D0": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 0,
+            "D3": 1,
+            "D2": 0,
+            "D1": 0,
+            "D0": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 0,
+            "D3": 1,
+            "D2": 0,
+            "D1": 1,
+            "D0": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 0,
+            "D3": 1,
+            "D2": 0,
+            "D1": 1,
+            "D0": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 0,
+            "D3": 1,
+            "D2": 1,
+            "D1": 0,
+            "D0": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 0,
+            "D3": 1,
+            "D2": 1,
+            "D1": 0,
+            "D0": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 0,
+            "D3": 1,
+            "D2": 1,
+            "D1": 1,
+            "D0": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 0,
+            "D3": 1,
+            "D2": 1,
+            "D1": 1,
+            "D0": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 1,
+            "D3": 0,
+            "D2": 0,
+            "D1": 0,
+            "D0": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 1,
+            "D3": 0,
+            "D2": 0,
+            "D1": 0,
+            "D0": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 1,
+            "D3": 0,
+            "D2": 0,
+            "D1": 1,
+            "D0": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 1,
+            "D3": 0,
+            "D2": 0,
+            "D1": 1,
+            "D0": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 1,
+            "D3": 0,
+            "D2": 1,
+            "D1": 0,
+            "D0": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 1,
+            "D3": 0,
+            "D2": 1,
+            "D1": 0,
+            "D0": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 1,
+            "D3": 0,
+            "D2": 1,
+            "D1": 1,
+            "D0": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 1,
+            "D3": 0,
+            "D2": 1,
+            "D1": 1,
+            "D0": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 1,
+            "D3": 1,
+            "D2": 0,
+            "D1": 0,
+            "D0": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 1,
+            "D3": 1,
+            "D2": 0,
+            "D1": 0,
+            "D0": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 1,
+            "D3": 1,
+            "D2": 0,
+            "D1": 1,
+            "D0": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 1,
+            "D3": 1,
+            "D2": 0,
+            "D1": 1,
+            "D0": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 1,
+            "D3": 1,
+            "D2": 1,
+            "D1": 0,
+            "D0": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 1,
+            "D3": 1,
+            "D2": 1,
+            "D1": 0,
+            "D0": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 1,
+            "D3": 1,
+            "D2": 1,
+            "D1": 1,
+            "D0": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 0,
+            "S0": 1,
+            "D3": 1,
+            "D2": 1,
+            "D1": 1,
+            "D0": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 0,
+            "D3": 0,
+            "D2": 0,
+            "D1": 0,
+            "D0": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 0,
+            "D3": 0,
+            "D2": 0,
+            "D1": 0,
+            "D0": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 0,
+            "D3": 0,
+            "D2": 0,
+            "D1": 1,
+            "D0": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 0,
+            "D3": 0,
+            "D2": 0,
+            "D1": 1,
+            "D0": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 0,
+            "D3": 0,
+            "D2": 1,
+            "D1": 0,
+            "D0": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 0,
+            "D3": 0,
+            "D2": 1,
+            "D1": 0,
+            "D0": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 0,
+            "D3": 0,
+            "D2": 1,
+            "D1": 1,
+            "D0": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 0,
+            "D3": 0,
+            "D2": 1,
+            "D1": 1,
+            "D0": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 0,
+            "D3": 1,
+            "D2": 0,
+            "D1": 0,
+            "D0": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 0,
+            "D3": 1,
+            "D2": 0,
+            "D1": 0,
+            "D0": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 0,
+            "D3": 1,
+            "D2": 0,
+            "D1": 1,
+            "D0": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 0,
+            "D3": 1,
+            "D2": 0,
+            "D1": 1,
+            "D0": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 0,
+            "D3": 1,
+            "D2": 1,
+            "D1": 0,
+            "D0": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 0,
+            "D3": 1,
+            "D2": 1,
+            "D1": 0,
+            "D0": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 0,
+            "D3": 1,
+            "D2": 1,
+            "D1": 1,
+            "D0": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 0,
+            "D3": 1,
+            "D2": 1,
+            "D1": 1,
+            "D0": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 1,
+            "D3": 0,
+            "D2": 0,
+            "D1": 0,
+            "D0": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 1,
+            "D3": 0,
+            "D2": 0,
+            "D1": 0,
+            "D0": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 1,
+            "D3": 0,
+            "D2": 0,
+            "D1": 1,
+            "D0": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 1,
+            "D3": 0,
+            "D2": 0,
+            "D1": 1,
+            "D0": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 1,
+            "D3": 0,
+            "D2": 1,
+            "D1": 0,
+            "D0": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 1,
+            "D3": 0,
+            "D2": 1,
+            "D1": 0,
+            "D0": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 1,
+            "D3": 0,
+            "D2": 1,
+            "D1": 1,
+            "D0": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 1,
+            "D3": 0,
+            "D2": 1,
+            "D1": 1,
+            "D0": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 1,
+            "D3": 1,
+            "D2": 0,
+            "D1": 0,
+            "D0": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 1,
+            "D3": 1,
+            "D2": 0,
+            "D1": 0,
+            "D0": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 1,
+            "D3": 1,
+            "D2": 0,
+            "D1": 1,
+            "D0": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 1,
+            "D3": 1,
+            "D2": 0,
+            "D1": 1,
+            "D0": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 1,
+            "D3": 1,
+            "D2": 1,
+            "D1": 0,
+            "D0": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 1,
+            "D3": 1,
+            "D2": 1,
+            "D1": 0,
+            "D0": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 1,
+            "D3": 1,
+            "D2": 1,
+            "D1": 1,
+            "D0": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "S1": 1,
+            "S0": 1,
+            "D3": 1,
+            "D2": 1,
+            "D1": 1,
+            "D0": 1
+          },
+          {
+            "Y": true
+          }
+        ]
+      ]
+    },
+    "Images/Zadatak_1/Zadatak_1a.drawio": {
+      "sha256": "427ff6321eb767ce4c639621119aeacaa39b2e72260ad2fd6c0d5f0048528b71",
+      "method": "Ručno praćene veze i oznake u izvornom crtežu i novom PDF izvozu; SHA-256 vezuje navedeni logički opis za tačno pregledanu verziju.",
+      "description": "Vertikalni vodovi A, B i njihove negacije daju A¬B, ¬AB, ¬A¬B, AB. Gornji ILI i NE daju XOR i XNOR; gornji MUX Y0 dobija [XOR,XNOR,¬AB,A¬B], donji Y1 [XNOR,XOR,¬A¬B,AB]. Oba imaju selekciju C1C0. Nedostajući spoj gornjeg D2 bio je samo problem starog PDF izvoza.",
+      "outputs": {
+        "Y0": "\\bar{C1}\\bar{C0}(A\\bar B+\\bar A B)+\\bar{C1}C0\\overline{A\\bar B+\\bar A B}+C1\\bar{C0}\\bar A B+C1 C0 A\\bar B",
+        "Y1": "\\bar{C1}\\bar{C0}\\overline{A\\bar B+\\bar A B}+\\bar{C1}C0(A\\bar B+\\bar A B)+C1\\bar{C0}\\bar A\\bar B+C1 C0 A B"
+      },
+      "cases": [
+        [
+          {
+            "A": 0,
+            "B": 0,
+            "C1": 0,
+            "C0": 0
+          },
+          {
+            "Y1": true,
+            "Y0": false
+          }
+        ],
+        [
+          {
+            "A": 0,
+            "B": 0,
+            "C1": 0,
+            "C0": 1
+          },
+          {
+            "Y1": false,
+            "Y0": true
+          }
+        ],
+        [
+          {
+            "A": 0,
+            "B": 0,
+            "C1": 1,
+            "C0": 0
+          },
+          {
+            "Y1": true,
+            "Y0": false
+          }
+        ],
+        [
+          {
+            "A": 0,
+            "B": 0,
+            "C1": 1,
+            "C0": 1
+          },
+          {
+            "Y1": false,
+            "Y0": false
+          }
+        ],
+        [
+          {
+            "A": 0,
+            "B": 1,
+            "C1": 0,
+            "C0": 0
+          },
+          {
+            "Y1": false,
+            "Y0": true
+          }
+        ],
+        [
+          {
+            "A": 0,
+            "B": 1,
+            "C1": 0,
+            "C0": 1
+          },
+          {
+            "Y1": true,
+            "Y0": false
+          }
+        ],
+        [
+          {
+            "A": 0,
+            "B": 1,
+            "C1": 1,
+            "C0": 0
+          },
+          {
+            "Y1": false,
+            "Y0": true
+          }
+        ],
+        [
+          {
+            "A": 0,
+            "B": 1,
+            "C1": 1,
+            "C0": 1
+          },
+          {
+            "Y1": false,
+            "Y0": false
+          }
+        ],
+        [
+          {
+            "A": 1,
+            "B": 0,
+            "C1": 0,
+            "C0": 0
+          },
+          {
+            "Y1": false,
+            "Y0": true
+          }
+        ],
+        [
+          {
+            "A": 1,
+            "B": 0,
+            "C1": 0,
+            "C0": 1
+          },
+          {
+            "Y1": true,
+            "Y0": false
+          }
+        ],
+        [
+          {
+            "A": 1,
+            "B": 0,
+            "C1": 1,
+            "C0": 0
+          },
+          {
+            "Y1": false,
+            "Y0": false
+          }
+        ],
+        [
+          {
+            "A": 1,
+            "B": 0,
+            "C1": 1,
+            "C0": 1
+          },
+          {
+            "Y1": false,
+            "Y0": true
+          }
+        ],
+        [
+          {
+            "A": 1,
+            "B": 1,
+            "C1": 0,
+            "C0": 0
+          },
+          {
+            "Y1": true,
+            "Y0": false
+          }
+        ],
+        [
+          {
+            "A": 1,
+            "B": 1,
+            "C1": 0,
+            "C0": 1
+          },
+          {
+            "Y1": false,
+            "Y0": true
+          }
+        ],
+        [
+          {
+            "A": 1,
+            "B": 1,
+            "C1": 1,
+            "C0": 0
+          },
+          {
+            "Y1": false,
+            "Y0": false
+          }
+        ],
+        [
+          {
+            "A": 1,
+            "B": 1,
+            "C1": 1,
+            "C0": 1
+          },
+          {
+            "Y1": true,
+            "Y0": false
+          }
+        ]
+      ]
+    },
+    "Images/Zadatak_2/Zadatak_2a.drawio": {
+      "sha256": "67c1622c61c71838f71680bf8e2ce79ce5d48cda90ed630e8c1d5656a640c2a1",
+      "method": "Ručno praćene veze i oznake u izvornom crtežu i novom PDF izvozu; SHA-256 vezuje navedeni logički opis za tačno pregledanu verziju.",
+      "description": "MUX ima S1=A, S0=B, D0=0, D1=C, D2=1, D3=C.",
+      "outputs": {
+        "Y": "\\bar A B C+A\\bar B+A B C"
+      },
+      "cases": [
+        [
+          {
+            "A": 0,
+            "B": 0,
+            "C": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "A": 0,
+            "B": 0,
+            "C": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "A": 0,
+            "B": 1,
+            "C": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "A": 0,
+            "B": 1,
+            "C": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "A": 1,
+            "B": 0,
+            "C": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "A": 1,
+            "B": 0,
+            "C": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "A": 1,
+            "B": 1,
+            "C": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "A": 1,
+            "B": 1,
+            "C": 1
+          },
+          {
+            "Y": true
+          }
+        ]
+      ]
+    },
+    "Images/Zadatak_2/Zadatak_2b.tex": {
+      "sha256": "6bd4ad21c90bc8d321ed1933468d81d4f8686829b418bc90e59610d85dc6af1d",
+      "method": "Ručno praćene veze i oznake u izvornom crtežu i novom PDF izvozu; SHA-256 vezuje navedeni logički opis za tačno pregledanu verziju.",
+      "description": "TikZ prati raspored ranijeg PNG-a: I1=NAND(C,B); I2=NAND(B,B); I3=NAND(I2,A); Y=NAND(I1,I3). Spajanje oba ulaza I2 označeno tačkom. Proveren svaki priključak i izlazni negacioni kružić.",
+      "outputs": {
+        "Y": "\\overline{\\overline{CB}\\overline{\\overline{BB}A}}"
+      },
+      "cases": [
+        [
+          {
+            "A": 0,
+            "B": 0,
+            "C": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "A": 0,
+            "B": 0,
+            "C": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "A": 0,
+            "B": 1,
+            "C": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "A": 0,
+            "B": 1,
+            "C": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "A": 1,
+            "B": 0,
+            "C": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "A": 1,
+            "B": 0,
+            "C": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "A": 1,
+            "B": 1,
+            "C": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "A": 1,
+            "B": 1,
+            "C": 1
+          },
+          {
+            "Y": true
+          }
+        ]
+      ]
+    },
+    "Images/Zadatak_3/Zadatak_3a.drawio": {
+      "sha256": "7a9c6dd8e986119efa3247c4866ebf7d877986eb72035a8f69f0c727d18f81f0",
+      "method": "Ručno praćene veze i oznake u izvornom crtežu i novom PDF izvozu; SHA-256 vezuje navedeni logički opis za tačno pregledanu verziju.",
+      "description": "Donji adresni biti vode u oba dekodera. Prvi: EN0=1, EN1=A3, EN2=0; drugi: EN0=A3, EN1=EN2=0. Izlazi oba bloka aktivni su u nuli, prva grupa čini Y[7:0], druga Y[15:8]. Znak ¬Y0 je postojao u izvoru i ponovo je vidljiv nakon izvoza. Široke linije bez tačaka predstavljaju magistrale, ne kratke spojeve."
+    },
+    "Images/Zadatak_3/Zadatak_3b.drawio": {
+      "sha256": "89450dc4a5a23e4c8e46f6388124754318fee7310622b8a1a6e097250e1c4857",
+      "method": "Ručno praćene veze i oznake u izvornom crtežu i novom PDF izvozu; SHA-256 vezuje navedeni logički opis za tačno pregledanu verziju.",
+      "description": "Uvek omogućen dekoder adresira CBA. Aktivni niski izlazi 0 i 2 ulaze u prvo I, njegov izlaz i izlaz 7 u drugo I. Ostali izlazi nepovezani.",
+      "outputs": {
+        "Y": "\\overline{\\bar C\\bar B\\bar A}\\overline{\\bar C B\\bar A}\\overline{CBA}"
+      },
+      "cases": [
+        [
+          {
+            "A": 0,
+            "B": 0,
+            "C": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "A": 0,
+            "B": 0,
+            "C": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "A": 0,
+            "B": 1,
+            "C": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "A": 0,
+            "B": 1,
+            "C": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "A": 1,
+            "B": 0,
+            "C": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "A": 1,
+            "B": 0,
+            "C": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "A": 1,
+            "B": 1,
+            "C": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "A": 1,
+            "B": 1,
+            "C": 1
+          },
+          {
+            "Y": false
+          }
+        ]
+      ]
+    },
+    "Images/Zadatak_3/Zadatak_3c.drawio": {
+      "sha256": "8c38c1a900b6ccd11dcaa638460f25dc7c3aa4672cbf15770c6ae6c31fb82e78",
+      "method": "Ručno praćene veze i oznake u izvornom crtežu i novom PDF izvozu; SHA-256 vezuje navedeni logički opis za tačno pregledanu verziju.",
+      "description": "Prvi omogućeni dekoder dobija A5,A4,A3. Njegovi aktivni niski izlazi 0..7 vode na aktivno nizak EN1 odgovarajućeg dekodera drugog stepena; svi EN0=1 i EN2=0. A2,A1,A0 zajednički su svakoj grani. Svi izlazi su aktivni u nuli, red grane i lokalni izlaz j daju globalni 8i+j. Izvorni tip blokova odgovara tački b), a ne a); tekst sada eksplicitno razlikuje dve realizacije."
+    },
+    "Images/Zadatak_4/7seg.drawio": {
+      "sha256": "86d953068ad59df30cd51036dbb390270926d35e7ab74c73c19d4e2bcfb89b87",
+      "method": "Ručno praćene veze i oznake u izvornom crtežu i novom PDF izvozu; SHA-256 vezuje navedeni logički opis za tačno pregledanu verziju.",
+      "description": "a gornji, b gornji desni, c donji desni, d donji, e donji levi, f gornji levi, g srednji segment. Aktivna jedinica uz zajedničku katodu."
+    },
+    "Images/Zadatak_4/Zadatak4_a.drawio": {
+      "sha256": "566bc0b0d44fbe302344a0ad6123027d17c58f1c30db68d6ee2befacce063de4",
+      "method": "Ručno praćene veze i oznake u izvornom crtežu i novom PDF izvozu; SHA-256 vezuje navedeni logički opis za tačno pregledanu verziju.",
+      "description": "Levi NILI tapovi D,¬C,B,A; desni D,C,B,¬A. Završni NILI spaja njihova dva izlaza. Distribucioni simboli NE tumače se kao NILI sa spojenim ulazima, kako sada piše u tekstu.",
+      "outputs": {
+        "a": "\\overline{\\overline{D+\\bar C+B+A}+\\overline{D+C+B+\\bar A}}"
+      },
+      "cases": [
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 0,
+            "A": 0
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 0,
+            "A": 1
+          },
+          {
+            "a": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 1,
+            "A": 0
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 1,
+            "A": 1
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 0,
+            "A": 0
+          },
+          {
+            "a": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 0,
+            "A": 1
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 1,
+            "A": 0
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 1,
+            "A": 1
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 0,
+            "A": 0
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 0,
+            "A": 1
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 1,
+            "A": 0
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 1,
+            "A": 1
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 0,
+            "A": 0
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 0,
+            "A": 1
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 1,
+            "A": 0
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 1,
+            "A": 1
+          },
+          {
+            "a": true
+          }
+        ]
+      ]
+    },
+    "Images/Zadatak_4/Zadatak_4b.drawio": {
+      "sha256": "ea6a5f77bcb34bb9f545f368bc6495f99f3855e5501fff795e695b11982998e7",
+      "method": "Ručno praćene veze i oznake u izvornom crtežu i novom PDF izvozu; SHA-256 vezuje navedeni logički opis za tačno pregledanu verziju.",
+      "description": "Tapovi D i B ulaze direktno u ILI, C i A u XNOR, koji daje treći ulaz ILI. Ispravljene desne oznake vodova DCBA (bile ABCD); leve oznake i veze nisu menjane.",
+      "outputs": {
+        "a": "D+B+\\overline{C\\oplus A}"
+      },
+      "cases": [
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 0,
+            "A": 0
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 0,
+            "A": 1
+          },
+          {
+            "a": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 1,
+            "A": 0
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 1,
+            "A": 1
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 0,
+            "A": 0
+          },
+          {
+            "a": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 0,
+            "A": 1
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 1,
+            "A": 0
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 1,
+            "A": 1
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 0,
+            "A": 0
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 0,
+            "A": 1
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 1,
+            "A": 0
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 1,
+            "A": 1
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 0,
+            "A": 0
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 0,
+            "A": 1
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 1,
+            "A": 0
+          },
+          {
+            "a": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 1,
+            "A": 1
+          },
+          {
+            "a": true
+          }
+        ]
+      ]
+    },
+    "Images/Zadatak_4/Zadatak_4c_OffInternal.drawio": {
+      "sha256": "a46ef0df34d4df1068b6278b3f494669f49624434d5c98f74d11880fe7d5bf1a",
+      "method": "Ručno praćene veze i oznake u izvornom crtežu i novom PDF izvozu; SHA-256 vezuje navedeni logički opis za tačno pregledanu verziju.",
+      "description": "Dva ulaza ILI jesu OFF i LZ_OUT; izlaz off_int. U izrazu O=OFF, L=LZ_OUT.",
+      "outputs": {
+        "Q": "O+L"
+      },
+      "cases": [
+        [
+          {
+            "O": 0,
+            "L": 0
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "O": 0,
+            "L": 1
+          },
+          {
+            "Q": true
+          }
+        ],
+        [
+          {
+            "O": 1,
+            "L": 0
+          },
+          {
+            "Q": true
+          }
+        ],
+        [
+          {
+            "O": 1,
+            "L": 1
+          },
+          {
+            "Q": true
+          }
+        ]
+      ]
+    },
+    "Images/Zadatak_4/Zadatak_4c_Lzout.drawio": {
+      "sha256": "b6195803134dd52b4952178cfd47653ab87cc05467b90f1cd760de692e7c8c5b",
+      "method": "Ručno praćene veze i oznake u izvornom crtežu i novom PDF izvozu; SHA-256 vezuje navedeni logički opis za tačno pregledanu verziju.",
+      "description": "Petoulazno I dobija LZ_IN i negirane A,B,C,D. Pojedinačne negacije na ulazima jasno prikazane. L=LZ_IN.",
+      "outputs": {
+        "Q": "L\\bar D\\bar C\\bar B\\bar A"
+      },
+      "cases": [
+        [
+          {
+            "L": 0,
+            "D": 0,
+            "C": 0,
+            "B": 0,
+            "A": 0
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 0,
+            "D": 0,
+            "C": 0,
+            "B": 0,
+            "A": 1
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 0,
+            "D": 0,
+            "C": 0,
+            "B": 1,
+            "A": 0
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 0,
+            "D": 0,
+            "C": 0,
+            "B": 1,
+            "A": 1
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 0,
+            "D": 0,
+            "C": 1,
+            "B": 0,
+            "A": 0
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 0,
+            "D": 0,
+            "C": 1,
+            "B": 0,
+            "A": 1
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 0,
+            "D": 0,
+            "C": 1,
+            "B": 1,
+            "A": 0
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 0,
+            "D": 0,
+            "C": 1,
+            "B": 1,
+            "A": 1
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 0,
+            "D": 1,
+            "C": 0,
+            "B": 0,
+            "A": 0
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 0,
+            "D": 1,
+            "C": 0,
+            "B": 0,
+            "A": 1
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 0,
+            "D": 1,
+            "C": 0,
+            "B": 1,
+            "A": 0
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 0,
+            "D": 1,
+            "C": 0,
+            "B": 1,
+            "A": 1
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 0,
+            "D": 1,
+            "C": 1,
+            "B": 0,
+            "A": 0
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 0,
+            "D": 1,
+            "C": 1,
+            "B": 0,
+            "A": 1
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 0,
+            "D": 1,
+            "C": 1,
+            "B": 1,
+            "A": 0
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 0,
+            "D": 1,
+            "C": 1,
+            "B": 1,
+            "A": 1
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 1,
+            "D": 0,
+            "C": 0,
+            "B": 0,
+            "A": 0
+          },
+          {
+            "Q": true
+          }
+        ],
+        [
+          {
+            "L": 1,
+            "D": 0,
+            "C": 0,
+            "B": 0,
+            "A": 1
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 1,
+            "D": 0,
+            "C": 0,
+            "B": 1,
+            "A": 0
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 1,
+            "D": 0,
+            "C": 0,
+            "B": 1,
+            "A": 1
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 1,
+            "D": 0,
+            "C": 1,
+            "B": 0,
+            "A": 0
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 1,
+            "D": 0,
+            "C": 1,
+            "B": 0,
+            "A": 1
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 1,
+            "D": 0,
+            "C": 1,
+            "B": 1,
+            "A": 0
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 1,
+            "D": 0,
+            "C": 1,
+            "B": 1,
+            "A": 1
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 1,
+            "D": 1,
+            "C": 0,
+            "B": 0,
+            "A": 0
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 1,
+            "D": 1,
+            "C": 0,
+            "B": 0,
+            "A": 1
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 1,
+            "D": 1,
+            "C": 0,
+            "B": 1,
+            "A": 0
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 1,
+            "D": 1,
+            "C": 0,
+            "B": 1,
+            "A": 1
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 1,
+            "D": 1,
+            "C": 1,
+            "B": 0,
+            "A": 0
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 1,
+            "D": 1,
+            "C": 1,
+            "B": 0,
+            "A": 1
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 1,
+            "D": 1,
+            "C": 1,
+            "B": 1,
+            "A": 0
+          },
+          {
+            "Q": false
+          }
+        ],
+        [
+          {
+            "L": 1,
+            "D": 1,
+            "C": 1,
+            "B": 1,
+            "A": 1
+          },
+          {
+            "Q": false
+          }
+        ]
+      ]
+    },
+    "Images/Zadatak_4/Zadatak_4c_ASegmentControl.drawio": {
+      "sha256": "a270798130bedc8ad101a4114d9646b3caf2e664410d40bc652ba137c186de91",
+      "method": "Ručno praćene veze i oznake u izvornom crtežu i novom PDF izvozu; SHA-256 vezuje navedeni logički opis za tačno pregledanu verziju.",
+      "description": "Signal a prvo se invertuje. OFF i LZ_OUT ulaze u ILI; njihov zbir i ¬a ulaze u NILI. Zato a′=¬(¬a+OFF+LZ_OUT)=a·¬(OFF+LZ_OUT). O=OFF, L=LZ_OUT.",
+      "outputs": {
+        "Y": "\\overline{\\bar a+O+L}"
+      },
+      "cases": [
+        [
+          {
+            "a": 0,
+            "O": 0,
+            "L": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "a": 0,
+            "O": 0,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "a": 0,
+            "O": 1,
+            "L": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "a": 0,
+            "O": 1,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "a": 1,
+            "O": 0,
+            "L": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "a": 1,
+            "O": 0,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "a": 1,
+            "O": 1,
+            "L": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "a": 1,
+            "O": 1,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ]
+      ]
+    },
+    "Images/Zadatak_4/Zadatak_4c_CompleteBCDLogic.drawio": {
+      "sha256": "23bc79a8740456a1ed48693aaaaf28ebf3ed96320aa5159819a92d7bc9ced7d8",
+      "method": "Ručno praćene veze i oznake u izvornom crtežu i novom PDF izvozu; SHA-256 vezuje navedeni logički opis za tačno pregledanu verziju.",
+      "description": "Levo I prima LZ_IN i četiri negirana ulaza; njegov izlaz i OFF ulaze u ILI. Dva NILI daju n1=¬(D+B+A+¬C), n2=¬(D+B+¬A+C). Ispravljeno srednje I u ILI: n1+n2 ulazi u završno NILI zajedno sa off_int. O=OFF, L=LZ_IN. Pre ispravke n1*n2 uvek je nula, pa segment nije ispravno gasio cifre 1 i 4.",
+      "outputs": {
+        "Y": "\\overline{\\overline{D+B+A+\\bar C}+\\overline{D+B+\\bar A+C}+(O+L\\bar A\\bar B\\bar C\\bar D)}"
+      },
+      "cases": [
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 0,
+            "A": 0,
+            "O": 0,
+            "L": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 0,
+            "A": 0,
+            "O": 0,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 0,
+            "A": 0,
+            "O": 1,
+            "L": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 0,
+            "A": 0,
+            "O": 1,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 0,
+            "A": 1,
+            "O": 0,
+            "L": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 0,
+            "A": 1,
+            "O": 0,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 0,
+            "A": 1,
+            "O": 1,
+            "L": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 0,
+            "A": 1,
+            "O": 1,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 1,
+            "A": 0,
+            "O": 0,
+            "L": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 1,
+            "A": 0,
+            "O": 0,
+            "L": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 1,
+            "A": 0,
+            "O": 1,
+            "L": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 1,
+            "A": 0,
+            "O": 1,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 1,
+            "A": 1,
+            "O": 0,
+            "L": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 1,
+            "A": 1,
+            "O": 0,
+            "L": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 1,
+            "A": 1,
+            "O": 1,
+            "L": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 0,
+            "B": 1,
+            "A": 1,
+            "O": 1,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 0,
+            "A": 0,
+            "O": 0,
+            "L": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 0,
+            "A": 0,
+            "O": 0,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 0,
+            "A": 0,
+            "O": 1,
+            "L": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 0,
+            "A": 0,
+            "O": 1,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 0,
+            "A": 1,
+            "O": 0,
+            "L": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 0,
+            "A": 1,
+            "O": 0,
+            "L": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 0,
+            "A": 1,
+            "O": 1,
+            "L": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 0,
+            "A": 1,
+            "O": 1,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 1,
+            "A": 0,
+            "O": 0,
+            "L": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 1,
+            "A": 0,
+            "O": 0,
+            "L": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 1,
+            "A": 0,
+            "O": 1,
+            "L": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 1,
+            "A": 0,
+            "O": 1,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 1,
+            "A": 1,
+            "O": 0,
+            "L": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 1,
+            "A": 1,
+            "O": 0,
+            "L": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 1,
+            "A": 1,
+            "O": 1,
+            "L": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 0,
+            "C": 1,
+            "B": 1,
+            "A": 1,
+            "O": 1,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 0,
+            "A": 0,
+            "O": 0,
+            "L": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 0,
+            "A": 0,
+            "O": 0,
+            "L": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 0,
+            "A": 0,
+            "O": 1,
+            "L": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 0,
+            "A": 0,
+            "O": 1,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 0,
+            "A": 1,
+            "O": 0,
+            "L": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 0,
+            "A": 1,
+            "O": 0,
+            "L": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 0,
+            "A": 1,
+            "O": 1,
+            "L": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 0,
+            "A": 1,
+            "O": 1,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 1,
+            "A": 0,
+            "O": 0,
+            "L": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 1,
+            "A": 0,
+            "O": 0,
+            "L": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 1,
+            "A": 0,
+            "O": 1,
+            "L": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 1,
+            "A": 0,
+            "O": 1,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 1,
+            "A": 1,
+            "O": 0,
+            "L": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 1,
+            "A": 1,
+            "O": 0,
+            "L": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 1,
+            "A": 1,
+            "O": 1,
+            "L": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 0,
+            "B": 1,
+            "A": 1,
+            "O": 1,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 0,
+            "A": 0,
+            "O": 0,
+            "L": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 0,
+            "A": 0,
+            "O": 0,
+            "L": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 0,
+            "A": 0,
+            "O": 1,
+            "L": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 0,
+            "A": 0,
+            "O": 1,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 0,
+            "A": 1,
+            "O": 0,
+            "L": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 0,
+            "A": 1,
+            "O": 0,
+            "L": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 0,
+            "A": 1,
+            "O": 1,
+            "L": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 0,
+            "A": 1,
+            "O": 1,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 1,
+            "A": 0,
+            "O": 0,
+            "L": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 1,
+            "A": 0,
+            "O": 0,
+            "L": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 1,
+            "A": 0,
+            "O": 1,
+            "L": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 1,
+            "A": 0,
+            "O": 1,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 1,
+            "A": 1,
+            "O": 0,
+            "L": 0
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 1,
+            "A": 1,
+            "O": 0,
+            "L": 1
+          },
+          {
+            "Y": true
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 1,
+            "A": 1,
+            "O": 1,
+            "L": 0
+          },
+          {
+            "Y": false
+          }
+        ],
+        [
+          {
+            "D": 1,
+            "C": 1,
+            "B": 1,
+            "A": 1,
+            "O": 1,
+            "L": 1
+          },
+          {
+            "Y": false
+          }
+        ]
+      ]
+    },
+    "Images/Zadatak_4/Zadatak_4c_BCDComponent.drawio": {
+      "sha256": "8ca9807a5de51b0aebcb4e9e6b447975a48a9f8f23b972b68380153d0e2239f5",
+      "method": "Ručno praćene veze i oznake u izvornom crtežu i novom PDF izvozu; SHA-256 vezuje navedeni logički opis za tačno pregledanu verziju.",
+      "description": "Interfejs: DCBA ulazni bitovi, OFF i LZ_IN kontrolni ulazi, LZ_OUT i ERROR kontrolni izlazi, abcdefg izlazni segmenti. Interna funkcija svih segmenata određena tabelom, ERROR i LZ izrazima; blok nije drugi fizički model."
+    },
+    "Images/Zadatak_4/Zadatak_4c_4Digits.drawio": {
+      "sha256": "46ee33eb1e887747a731b20b995c37279b83982d7e7220ef6039a36e5d50a9de",
+      "method": "Ručno praćene veze i oznake u izvornom crtežu i novom PDF izvozu; SHA-256 vezuje navedeni logički opis za tačno pregledanu verziju.",
+      "description": "LZ lanac sa 1 na najvišoj cifri; na najnižoj OFF=LZ_IN=0. ILI 3 kombinuje sve ERROR izlaze; I4 maskira inicijalizacijom; povratni vod u OFF viših cifara i ILI1/2 na C0/D0. Desni A0 i B0 sada vode u odgovarajuće priključke A i B. Ovo je mreža sa istorijom, ne aciklična kombinaciona mreža. Njena funkcija posle propisanog resetovanja proverena je za svih 16^4 ulaza, a za R=0,I=1 proverena su oba stabilna stanja F."
+    }
+  },
+  "original_arrow_figures": {
+    "fig:kmap-zad2-d": "e22f12bfc321c9e2fda61861c39b51e1325c84ae67e09f075c5b68ed59e1aa49"
+  }
+}

@@ -96,4 +96,6 @@ for rec in [x for x in records if x['kind']=='signed']:
         check(F(u-(r**5-(rep=='KMV') if u*2>=r**5 else 0),r**k)==v)
 labels=re.findall(r'\\label\{([^}]+)\}',tex);check(len(labels)==len(set(labels)))
 for ref in re.findall(r'\\(?:eqref|ref)\{([^}]+)\}',tex):check(ref in labels,ref)
+from audit_math import run
+checks += run(records)
 print(f'Vežbe 04: {checks} provera uspešno završeno.')

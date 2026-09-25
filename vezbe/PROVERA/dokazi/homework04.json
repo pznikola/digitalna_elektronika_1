@@ -1,0 +1,422 @@
+[
+  {
+    "block": 178,
+    "a": "010",
+    "b": "0011",
+    "base": 2,
+    "representation": "KO",
+    "exact": "5",
+    "code_integer": 5,
+    "overflow": false
+  },
+  {
+    "block": 178,
+    "a": "11",
+    "b": "110",
+    "base": 2,
+    "representation": "KO",
+    "exact": "-3",
+    "code_integer": 29,
+    "overflow": false
+  },
+  {
+    "block": 178,
+    "a": "0110",
+    "b": "1011",
+    "base": 2,
+    "representation": "KO",
+    "exact": "1",
+    "code_integer": 1,
+    "overflow": false
+  },
+  {
+    "block": 178,
+    "a": "1100",
+    "b": "0101",
+    "base": 2,
+    "representation": "KO",
+    "exact": "1",
+    "code_integer": 1,
+    "overflow": false
+  },
+  {
+    "block": 178,
+    "a": "0101",
+    "b": "0110",
+    "base": 2,
+    "representation": "KO",
+    "exact": "11",
+    "code_integer": 11,
+    "overflow": false
+  },
+  {
+    "block": 178,
+    "a": "1101",
+    "b": "1011",
+    "base": 2,
+    "representation": "KO",
+    "exact": "-8",
+    "code_integer": 24,
+    "overflow": false
+  },
+  {
+    "block": 178,
+    "a": "1.0",
+    "b": "10.1",
+    "base": 2,
+    "representation": "KO",
+    "exact": "-5/2",
+    "code_integer": 27,
+    "overflow": false
+  },
+  {
+    "block": 178,
+    "a": "435",
+    "b": "834",
+    "base": 10,
+    "representation": "KO",
+    "exact": "269",
+    "code_integer": 269,
+    "overflow": false
+  },
+  {
+    "block": 178,
+    "a": "A32F",
+    "b": "476",
+    "base": 16,
+    "representation": "KO",
+    "exact": "-22619",
+    "code_integer": 1025957,
+    "overflow": false
+  },
+  {
+    "block": 178,
+    "a": "324",
+    "b": "365",
+    "base": 7,
+    "representation": "KO",
+    "exact": "16",
+    "code_integer": 16,
+    "overflow": false
+  },
+  {
+    "block": 180,
+    "a": "010",
+    "b": "1101",
+    "base": 2,
+    "representation": "KO",
+    "exact": "5",
+    "code_integer": 5,
+    "overflow": false
+  },
+  {
+    "block": 180,
+    "a": "11",
+    "b": "010",
+    "base": 2,
+    "representation": "KO",
+    "exact": "-3",
+    "code_integer": 29,
+    "overflow": false
+  },
+  {
+    "block": 180,
+    "a": "0110",
+    "b": "0101",
+    "base": 2,
+    "representation": "KO",
+    "exact": "1",
+    "code_integer": 1,
+    "overflow": false
+  },
+  {
+    "block": 180,
+    "a": "1100",
+    "b": "1011",
+    "base": 2,
+    "representation": "KO",
+    "exact": "1",
+    "code_integer": 1,
+    "overflow": false
+  },
+  {
+    "block": 180,
+    "a": "01.01",
+    "b": "10.10",
+    "base": 2,
+    "representation": "KO",
+    "exact": "11/4",
+    "code_integer": 11,
+    "overflow": false
+  },
+  {
+    "block": 180,
+    "a": "1101",
+    "b": "0101",
+    "base": 2,
+    "representation": "KO",
+    "exact": "-8",
+    "code_integer": 24,
+    "overflow": false
+  },
+  {
+    "block": 180,
+    "a": "10",
+    "b": "011",
+    "base": 2,
+    "representation": "KO",
+    "exact": "-5",
+    "code_integer": 27,
+    "overflow": false
+  },
+  {
+    "block": 180,
+    "a": "435",
+    "b": "166",
+    "base": 10,
+    "representation": "KO",
+    "exact": "269",
+    "code_integer": 269,
+    "overflow": false
+  },
+  {
+    "block": 180,
+    "a": "A32F",
+    "b": "524",
+    "base": 16,
+    "representation": "KO",
+    "exact": "-25077",
+    "code_integer": 1023499,
+    "overflow": false
+  },
+  {
+    "block": 180,
+    "a": "8135",
+    "b": "FA3B",
+    "base": 16,
+    "representation": "KO",
+    "exact": "-30982",
+    "code_integer": 1017594,
+    "overflow": false
+  },
+  {
+    "block": 180,
+    "a": "364",
+    "b": "302",
+    "base": 7,
+    "representation": "KO",
+    "exact": "-299",
+    "code_integer": 16508,
+    "overflow": false
+  },
+  {
+    "block": 183,
+    "a": "010",
+    "b": "0011",
+    "base": 2,
+    "representation": "KMV",
+    "exact": "5",
+    "code_integer": 5,
+    "overflow": false
+  },
+  {
+    "block": 183,
+    "a": "11",
+    "b": "110",
+    "base": 2,
+    "representation": "KMV",
+    "exact": "-1",
+    "code_integer": 30,
+    "overflow": false
+  },
+  {
+    "block": 183,
+    "a": "0110",
+    "b": "1011",
+    "base": 2,
+    "representation": "KMV",
+    "exact": "2",
+    "code_integer": 2,
+    "overflow": false
+  },
+  {
+    "block": 183,
+    "a": "1100",
+    "b": "0101",
+    "base": 2,
+    "representation": "KMV",
+    "exact": "2",
+    "code_integer": 2,
+    "overflow": false
+  },
+  {
+    "block": 183,
+    "a": "0101",
+    "b": "0110",
+    "base": 2,
+    "representation": "KMV",
+    "exact": "11",
+    "code_integer": 11,
+    "overflow": false
+  },
+  {
+    "block": 183,
+    "a": "1101",
+    "b": "1011",
+    "base": 2,
+    "representation": "KMV",
+    "exact": "-6",
+    "code_integer": 25,
+    "overflow": false
+  },
+  {
+    "block": 183,
+    "a": "1.0",
+    "b": "10.1",
+    "base": 2,
+    "representation": "KMV",
+    "exact": "-3/2",
+    "code_integer": 28,
+    "overflow": false
+  },
+  {
+    "block": 183,
+    "a": "435",
+    "b": "834",
+    "base": 10,
+    "representation": "KMV",
+    "exact": "270",
+    "code_integer": 270,
+    "overflow": false
+  },
+  {
+    "block": 183,
+    "a": "A32F",
+    "b": "476",
+    "base": 16,
+    "representation": "KMV",
+    "exact": "-22618",
+    "code_integer": 1025957,
+    "overflow": false
+  },
+  {
+    "block": 183,
+    "a": "324",
+    "b": "365",
+    "base": 7,
+    "representation": "KMV",
+    "exact": "17",
+    "code_integer": 17,
+    "overflow": false
+  },
+  {
+    "block": 185,
+    "a": "010",
+    "b": "1101",
+    "base": 2,
+    "representation": "KMV",
+    "exact": "4",
+    "code_integer": 4,
+    "overflow": false
+  },
+  {
+    "block": 185,
+    "a": "11",
+    "b": "010",
+    "base": 2,
+    "representation": "KMV",
+    "exact": "-2",
+    "code_integer": 29,
+    "overflow": false
+  },
+  {
+    "block": 185,
+    "a": "0110",
+    "b": "0101",
+    "base": 2,
+    "representation": "KMV",
+    "exact": "1",
+    "code_integer": 1,
+    "overflow": false
+  },
+  {
+    "block": 185,
+    "a": "1100",
+    "b": "1011",
+    "base": 2,
+    "representation": "KMV",
+    "exact": "1",
+    "code_integer": 1,
+    "overflow": false
+  },
+  {
+    "block": 185,
+    "a": "01.01",
+    "b": "10.10",
+    "base": 2,
+    "representation": "KMV",
+    "exact": "5/2",
+    "code_integer": 10,
+    "overflow": false
+  },
+  {
+    "block": 185,
+    "a": "1101",
+    "b": "0101",
+    "base": 2,
+    "representation": "KMV",
+    "exact": "-7",
+    "code_integer": 24,
+    "overflow": false
+  },
+  {
+    "block": 185,
+    "a": "10",
+    "b": "011",
+    "base": 2,
+    "representation": "KMV",
+    "exact": "-4",
+    "code_integer": 27,
+    "overflow": false
+  },
+  {
+    "block": 185,
+    "a": "435",
+    "b": "166",
+    "base": 10,
+    "representation": "KMV",
+    "exact": "269",
+    "code_integer": 269,
+    "overflow": false
+  },
+  {
+    "block": 185,
+    "a": "A32F",
+    "b": "524",
+    "base": 16,
+    "representation": "KMV",
+    "exact": "-25076",
+    "code_integer": 1023499,
+    "overflow": false
+  },
+  {
+    "block": 185,
+    "a": "8135",
+    "b": "FA3B",
+    "base": 16,
+    "representation": "KMV",
+    "exact": "-30982",
+    "code_integer": 1017593,
+    "overflow": false
+  },
+  {
+    "block": 185,
+    "a": "364",
+    "b": "302",
+    "base": 7,
+    "representation": "KMV",
+    "exact": "-298",
+    "code_integer": 16508,
+    "overflow": false
+  }
+]

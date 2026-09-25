@@ -42,3 +42,7 @@ Preneto je sedam zadataka sa časova (izvor 2.1–2.7 → `sec:2.1`–`sec:2.7`)
 Tabele korišćene samo za poravnanje numerisanih formula postale su okruženja `equation`. Postupci deljenja i množenja pri konverziji, periodični zapisi, pregledi predstava i tabele zadatih primera ostali su izmenjivi matematički sadržaj. Njihovo poreklo određuju komentari blokova u `.tex` fajlu.
 
 Izvorni blokovi tabela (uključujući Word raspored formula): 35, 41, 43, 45, 52, 55, 57, 60, 62, 71, 75, 77, 80, 83, 86, 89, 91, 93, 95, 98, 107, 109, 111, 116, 119, 121, 124, 128, 130, 132, 141, 145, 147, 155, 157, 159, 161, 163, 165, 167, 169, 178, 180, 182, 184, 186, 188, 190, 192, 202, 204, 209, 211, 214, 216, 219, 221, 224, 226, 234, 236, 238, 240, 242, 244, 246, 249, 258, 260, 263. Svaki ima komentar porekla u glavnom LaTeX fajlu.
+
+## Ponovna provera 25. 9. 2026.
+
+Trenutni dokument ima 134 numerisane jednačine, dve sadržinske računske tabele (blokovi 109 i 111), devet zadataka i nema sadržinskih ilustracija. Naslovna tabela sa kontaktima nije računska tabela. Dodate su stabilne oznake `eq:zapis`, `eq:13-375` i `eq:2.7.13` za tri već postojeće jednačine. Prethodna formulacija o „pregledima predstava i tabelama zadatih primera“ odnosi se na izmenjive matematičke izraze, ne na dodatna okruženja `tabular`. Mesta izvora i sva rešenja sačuvani su. Dokazi svih formula povezani su preko `code/pregled_formula.json`; pregled svih 17 konačnih stranica evidentiran je u zajedničkom registru.

@@ -76,4 +76,6 @@ check(len(labels)==len(set(labels)))
 for ref in re.findall(r'\\(?:eqref|ref)\{([^}]+)\}',tex):check(ref in labels)
 check('(1101.011)_2' in tex)
 check('8048' in tex and '(01111111)_2' in tex)
+from audit_math import run
+checks += run()
 print(f'Vežbe 03: {checks} provera uspešno završeno.')

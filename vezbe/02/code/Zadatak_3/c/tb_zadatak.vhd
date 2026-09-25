@@ -30,6 +30,8 @@ begin
         for i in 0 to 7 loop
             ABC <= std_logic_vector(to_unsigned(i, 3));
             wait for 10 ns;
+        assert Y_comb = Y_dekoder and Y_comb = ((not ABC(1) and ABC(0)) or (ABC(2) and not (ABC(1) and ABC(0))) or (not ABC(2) and ABC(1) and ABC(0)))
+            report "Neocekivan izlaz" severity error;
         end loop;
 
         -- End simulation

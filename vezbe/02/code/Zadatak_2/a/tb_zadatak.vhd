@@ -1,5 +1,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
 
 entity tb_zadatak is
 end entity tb_zadatak;
@@ -25,10 +26,10 @@ begin
             Y => Y
         );
 
-    -- Stimulus + self-checking
+    -- Stimulus + automatsko poredjenje
     stim_proc : process
     begin
-        -- Iteracija svih kombinacija A, B, C (16 ukupno)
+        -- Iteracija svih kombinacija A, B, C (8 ukupno)
         for a_val in 0 to 1 loop
             for b_val in 0 to 1 loop
                 for c_val in 0 to 1 loop
@@ -54,6 +55,8 @@ begin
 
                     -- Wait
                     wait for 40 ns;
+        assert Y = ((C and B) or ((not B) and A))
+            report "Neocekivan izlaz" severity error;
                 end loop;
             end loop;
         end loop;

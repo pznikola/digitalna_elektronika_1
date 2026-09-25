@@ -7,7 +7,7 @@
 \usepackage{lmodern,microtype}
 \usepackage{amsmath,amssymb,mathtools}
 \numberwithin{equation}{section}
-\usepackage{graphicx,adjustbox,placeins}
+\usepackage{graphicx,adjustbox,placeins,needspace}
 \graphicspath{{Images/}}
 \usepackage{booktabs,tabularx,longtable,array,multirow,makecell}
 \usepackage{caption,subcaption}
@@ -63,12 +63,12 @@ Haris Turkmanović & \href{mailto:haris@etf.bg.ac.rs}{\texttt{haris@etf.bg.ac.rs
 \tableofcontents
 \newpage
 \section*{Modeli i oznake}\addcontentsline{toc}{section}{Modeli i oznake}
-Koristimo pojednostavljeni model izvornika, bez modulacije dužine kanala, struja curenja i parazitskih kapacitivnosti, osim gde su izričito potrebne. Za NMOS označimo $B=\mu_nC_{ox}W/L$, $E=E_C L$ i $u=V_{GS}-V_T$. Struje u omskoj oblasti i zasićenju su
+Koristimo pojednostavljeni model izvornika, bez modulacije dužine kanala, struja curenja i parazitskih kapacitivnosti, osim gde su izričito potrebne. Za NMOS označimo $B=\mu_nC_{ox}W/L$, $E=E_C L$ i $u=V_{GS}-V_T$. Za $u\le0$ je $I_D=0$. Za $u>0$ i $V_{DS}\ge0$, struje u omskoj oblasti i zasićenju su
 \begin{equation}\label{eq:model}
 I_{D,\mathrm{lin}}=\frac{B}{1+V_{DS}/E}\left(uV_{DS}-\frac{V_{DS}^2}{2}\right),\qquad I_{D,\mathrm{sat}}=\frac{B}{2}\frac{u^2}{1+u/E}.
 \end{equation}
 
-U ovom modelu granica oblasti uzima se kao $V_{DS}=u$, a $v_{\mathrm{sat}}=\mu_nE_C/2$. Model je aproksimacija efekata kratkog kanala; nije zamena za model konkretne tehnologije. Za $V_{DS}/E\ll1$, odnosno $u/E\ll1$, odgovarajući imenilac može se aproksimirati jedinicom. Za PMOS se koriste pozitivni naponi $V_{SG},V_{SD}$ i prag $|V_{TP}|$.
+U ovom modelu granica oblasti uzima se kao $V_{DS}=u$, a $v_{\mathrm{sat}}=\mu_nE_C/2$. To je zadati aproksimativni model, a ne model konkretne tehnologije. Struja je na toj granici neprekidna, ali nagib omskog izraza po $V_{DS}$ postaje negativan pre granice i ne spaja se glatko sa konstantnom strujom zasićenja. Zato ovaj izraz ne daje fizički pouzdanu karakteristiku u celoj okolini prelaska u zasićenje. U nastavku se čuvaju zadate jednačine i posebno označavaju dodatne aproksimacije. Za $V_{DS}/E\ll1$, odnosno $u/E\ll1$, odgovarajući imenilac može se aproksimirati jedinicom. Za PMOS se koriste pozitivni naponi $V_{SG},V_{SD}$ i prag $|V_{TP}|$.
 Kao u vežbi 07, $V_H,V_L$ označavaju krajnje/stabilne nivoe bez poremećaja; garantovane granice su $V_{OH}=f(V_{IL})$ i $V_{OL}=f(V_{IH})$. Izvor često označava $V_H,V_L$ simbolima $V_{OH},V_{OL}$ i njima aproksimira garantovane nivoe. Ta aproksimacija ovde je posebno naznačena.
 \section{Zadatak 1: NMOS invertor sa pasivnim opterećenjem}\label{sec:1}
 \begin{enumerate}[label=\alph*)]
@@ -79,8 +79,8 @@ Kao u vežbi 07, $V_H,V_L$ označavaju krajnje/stabilne nivoe bez poremećaja; g
 \includegraphics[width=.45\linewidth,height=.36\textheight,keepaspectratio]{Zadatak_1/invertor}
 \caption{NMOS invertor sa otpornim opterećenjem; podloga je vezana za masu.}\label{fig:1.1}
 \end{figure}
-\subsection*{Rešenje}
-\paragraph{a) Izlazni nivoi i pragovi.}
+\FloatBarrier\Needspace{10\baselineskip}\subsection*{Rešenje}
+\FloatBarrier\Needspace{6\baselineskip}\paragraph{a) Izlazni nivoi i pragovi.}
 Za $v_U<V_T$ tranzistor ne vodi, pa nema pada napona na otporniku i $V_H=V_{DD}$. Kada je ulaz $V_H$, izlaz $V_L$ je nizak, a tranzistor u omskoj oblasti. Iz $I_{R_L}=I_D$ sledi
 \begin{equation}\label{eq:1.1}
 \frac{V_{DD}-V_L}{R_L}=\frac{B_n}{1+V_L/E}\left[(V_H-V_T)V_L-\frac{V_L^2}{2}\right].
@@ -128,9 +128,9 @@ Na pragu $v_U=v_I=V_S$, NMOS je u zasićenju ($V_{DG}=0$), pa
 \end{equation}
 
 Može se rešavati numerički na fizičkom intervalu $(V_T,V_{DD})$, npr. bisekcijom. Početna procena $V_{DD}/2$ nije dodatna jednačina.
-\paragraph{b) Numerički rezultati.}
+\FloatBarrier\Needspace{6\baselineskip}\paragraph{b) Numerički rezultati.}
 $B_n=860\,\mathrm{\mu A/V^2}$ i $\alpha=0.0581395\,\mathrm V$. U aproksimaciji bez korekcije kratkog kanala:
-\begin{center}\begin{tabular}{lc}\toprule
+\begin{center}\begin{minipage}{\linewidth}\centering\captionof{table}{Aproksimativni nivoi invertora sa otpornim opterećenjem.}\label{tab:1.nivoi}\begin{tabular}{lc}\toprule
 Veličina & Vrednost\\
 \midrule
 $V_H$ & $1.2\,\mathrm V$\\
@@ -142,14 +142,14 @@ $V_L$, manji koren kvadratne jednačine & $0.085567\,\mathrm V$\\
 $V_{IL}$ & $0.458140\,\mathrm V$\\
 \redlinija
 $V_{IH}$ & $0.773192\,\mathrm V$\\
-\bottomrule\end{tabular}\end{center}
+\bottomrule\end{tabular}\end{minipage}\end{center}
 Procene margina pomoću krajnjih nivoa iz izvornika su $NM_0\approx0.376839\,\mathrm V\approx0.38\,\mathrm V$ i $NM_1\approx0.426808\,\mathrm V\approx0.43\,\mathrm V$. Ako se garantovani izlazi odrede u tačkama nagiba $-1$ u istom aproksimativnom modelu, sledi
 \begin{equation}\label{eq:1.11}
 \begin{aligned}V_{OH}&=V_{DD}-\alpha/2=1.170930\,\mathrm V,\\ V_{OL}&=\sqrt{2\alpha V_{DD}/3}=0.215666\,\mathrm V,\\ NM_0&=0.242474\,\mathrm V,\qquad NM_1=0.397739\,\mathrm V.\end{aligned}
 \end{equation}
 
 \napomena{Parametar $E_C L$ nije zadat. Zato se iz datih podataka ne mogu izračunati tačni rezultati modela kratkog kanala niti potvrditi mala vrednost zanemarenih odnosa. Bez tih korekcija dobilo bi se $V_S=0.652350\,\mathrm V$; to je samo rezultat označene aproksimacije.}
-\FloatBarrier\section{Zadatak 2: opterećenje sa indukovanim kanalom}\label{sec:2}
+\clearpage\section{Zadatak 2: opterećenje sa indukovanim kanalom}\label{sec:2}
 \begin{enumerate}[label=\alph*)]
 \item Za invertor sa slike~\ref{fig:2.1} odrediti visoki izlazni nivo i $K_R=(W_1/L_1)/(W_2/L_2)$. Dato je $2|\phi_F|=0.88\,\mathrm V$, $V_{T0}=0.4\,\mathrm V$, $V_{DD}=1.2\,\mathrm V$, $\gamma=0.2\,\mathrm{V^{1/2}}$, $\mu_n=270\,\mathrm{cm^2/(Vs)}$, $C_{ox}=1.6\,\mathrm{\mu F/cm^2}$, $v_{\mathrm{sat}}=8.0\cdot10^6\,\mathrm{cm/s}$, $E_CL=0.6\,\mathrm V$, $V_L=0.1\,\mathrm V$, $L_1=L_2=100\,\mathrm{nm}$ i $V_{GG}=V_{DD}$.
 \item Odrediti donju granicu napona $V_{GG}$ za omski rad opteretnog tranzistora u celom opsegu izlaza, kao i visoki izlazni nivo u tom slučaju.
@@ -158,8 +158,8 @@ Procene margina pomoću krajnjih nivoa iz izvornika su $NM_0\approx0.376839\,\ma
 \includegraphics[width=.5\linewidth,height=.36\textheight,keepaspectratio]{Zadatak_2/invertor}
 \caption{NMOS invertor sa opteretnim tranzistorom sa indukovanim kanalom.}\label{fig:2.1}
 \end{figure}
-\subsection*{Rešenje}
-\paragraph{a) Efekat podloge i odnos geometrija.}
+\FloatBarrier\Needspace{10\baselineskip}\subsection*{Rešenje}
+\FloatBarrier\Needspace{6\baselineskip}\paragraph{a) Efekat podloge i odnos geometrija.}
 Za $V_{GG}=V_{DD}$ opteretni tranzistor ima spojene gejt i drejn, pa kada vodi radi u zasićenju. Punjenje izlaza prestaje pri $V_H=V_{DD}-V_{T2}(V_H)$. Pošto su podloge na masi,
 \begin{equation}\label{eq:2.4}
 V_{T2}(v)=V_{T0}+\gamma\left(\sqrt{v+2|\phi_F|}-\sqrt{2|\phi_F|}\right).
@@ -180,27 +180,27 @@ K_R=\frac{v_{\mathrm{sat}}L_2}{\mu_n}\,\frac{(1+V_L/E_1)u_2^2}{(u_2+E_2)[(V_H-V_
 \end{equation}
 
 \napomena{Broj $1.7$ u izvorniku ne zadovoljava datu jednačinu struja. Dati parametri su blago neusaglašeni: $2v_{\mathrm{sat}}L/\mu_n=0.592593\,\mathrm V$, dok je zadato $E_CL=0.6\,\mathrm V$. Direktna upotreba datih brojeva u~\eqref{eq:2.2} daje $K_R=4.49558$. Ako se nametne tačna relacija $v_{\mathrm{sat}}=\mu_nE_C/2$ uz $E_CL=0.6\,\mathrm V$, dobija se $K_R=4.55177$. Razlika je oko 1.25\%, pa su oba jasno označena tumačenja navedena.}
-\paragraph{b) Povišeno upravljanje opterećenjem.}
+\FloatBarrier\Needspace{6\baselineskip}\paragraph{b) Povišeno upravljanje opterećenjem.}
 Uslov omskog rada je $V_{DS2}<V_{GS2}-V_{T2}$, odnosno
 \begin{equation}\label{eq:2.3}
 V_{GG}>V_{DD}+\max_{0\le v_I\le V_{DD}}V_{T2}(v_I)=V_{DD}+V_{T2}(V_{DD}).
 \end{equation}
 
 Prag raste sa naponom sorsa, pa maksimum nastupa na $V_{DD}$. Dobijamo $V_{T2}(V_{DD})=0.500827\,\mathrm V$ i $V_{GG}>1.700827\,\mathrm V$. Broj $1.700827\,\mathrm V$ je donja granica (infimum); za strogu nejednakost ne postoji najmanja dopuštena vrednost. Visoki izlaz tada teži $V_H=V_{DD}=1.2\,\mathrm V$ u idealnom statičkom modelu.
-\FloatBarrier\section{Zadatak 3: opterećenje sa ugrađenim kanalom}\label{sec:3}
+\clearpage\section{Zadatak 3: opterećenje sa ugrađenim kanalom}\label{sec:3}
 Za NMOS invertor sa slike~\ref{fig:3.1}, čije opterećenje ima ugrađeni kanal i kratko spojene gejt i sors, odrediti margine šuma za višestruke izvore šuma.
 \begin{figure}[!htbp]\centering
 \includegraphics[width=.6\linewidth,height=.36\textheight,keepaspectratio]{Zadatak_3/invertor}
 \caption{Invertor sa opteretnim tranzistorom sa ugrađenim kanalom.}\label{fig:3.1}
 \end{figure}
-\subsection*{Rešenje}
+\FloatBarrier\Needspace{10\baselineskip}\subsection*{Rešenje}
 Za $M_2$ je $V_{T02}<0$, pa kanal postoji i pri $V_{GS2}=0$. Zasićenje nastupa kada $V_{DS2}\ge -V_{T2}=|V_{T2}|$. Efekat podloge daje
 \begin{equation}\label{eq:3.9}
 V_{T2}(v_I)=V_{T02}+\gamma\left(\sqrt{v_I+2|\phi_F|}-\sqrt{2|\phi_F|}\right).
 \end{equation}
 
 Pretpostavlja se da $V_{T2}(v_I)<0$ u celom posmatranom opsegu. Inače opterećenje može prestati da vodi pre dostizanja šine i analiza se mora prilagoditi. Kada je $M_1$ isključen, $M_2$ je pri kraju punjenja u omskoj oblasti i $V_H=V_{DD}$, a ne unapred zadatih $5\,\mathrm V$.
-\paragraph{Određivanje $V_{IL}$.}
+\FloatBarrier\Needspace{6\baselineskip}\paragraph{Određivanje $V_{IL}$.}
 $M_1$ je u zasićenju, a $M_2$ omski. Uz $t(v_I)=-V_{T2}(v_I)>0$ i $d=V_{DD}-v_I$, jednakost struja je
 \begin{equation}\label{eq:3.1}
 \frac{W_1v_{\mathrm{sat}}C_{ox}(v_U-V_{T1})^2}{v_U-V_{T1}+E_1}=\frac{W_2\mu_nC_{ox}}{L_2(1+d/E_2)}\left[t(v_I)d-\frac{d^2}{2}\right].
@@ -225,7 +225,7 @@ V_{IL}=V_{T1}+\frac{t}{\sqrt{K_R(K_R+1)}},\qquad V_{OH}\approx V_{DD}-t\left(1-\
 \end{equation}
 
 Ako se efekat podloge ne zamrzne na referentnoj tački, pri diferenciranju mora se uključiti $\mathrm d t/\mathrm d v_I$; prethodni zatvoreni izrazi tada ne važe.
-\paragraph{Određivanje $V_{IH}$ i niskog nivoa.}
+\FloatBarrier\Needspace{6\baselineskip}\paragraph{Određivanje $V_{IH}$ i niskog nivoa.}
 Sada je $M_1$ omski, a $M_2$ u zasićenju:
 \begin{equation}\label{eq:3.5}
 \frac{W_1\mu_nC_{ox}}{L_1(1+v_I/E_1)}\left[(v_U-V_{T1})v_I-\frac{v_I^2}{2}\right]=\frac{W_2v_{\mathrm{sat}}C_{ox}\,t(v_I)^2}{t(v_I)+E_2}.
@@ -247,46 +247,46 @@ K_R[2(V_H-V_{T1})V_L-V_L^2]=Q.
 Manji fizički koren je $V_L=(V_H-V_{T1})-\sqrt{(V_H-V_{T1})^2-Q/K_R}$. Ako se zanemari $V_L^2$, $V_L\approx Q/[2K_R(V_H-V_{T1})]$.
 Garantovane margine u navedenoj aproksimaciji su $NM_0=V_{IL}-V_{OL}$ i $NM_1=V_{OH}-V_{IH}$. Izvorna procena zamenjuje $V_{OL},V_{OH}$ krajnjim nivoima $V_L,V_H$.
 \napomena{Nisu dati napajanje, geometrije ni parametri tranzistora. Zato se ne mogu navesti jedinstvene numeričke margine. Svako simboličko rešenje zahteva nenegativan diskriminant, napone između šina i proveru pretpostavljenih oblasti rada.}
-\FloatBarrier\section{Zadatak 4: CMOS invertor}\label{sec:4}
+\clearpage\section{Zadatak 4: CMOS invertor}\label{sec:4}
 \begin{enumerate}[label=\alph*)]
 \item U ravni $(v_U,v_I)$ odrediti oblasti rada NMOS i PMOS tranzistora CMOS invertora (\emph{Complementary MOS}).
 \item Izračunati $V_S$ za $W_{p1}=400\,\mathrm{nm}$ i $W_{p2}=100\,\mathrm{nm}$, uz $W_n=100\,\mathrm{nm}$ i $L_n=L_p=100\,\mathrm{nm}$. Dato je $V_{DD}=1.2\,\mathrm V$, $V_{TN}=|V_{TP}|=0.4\,\mathrm V$, $E_{CP}=24\,\mathrm{V/\mu m}=4E_{CN}$. Objasniti uticaj širine PMOS tranzistora.
 \end{enumerate}
-\subsection*{Rešenje}
-\paragraph{a) Oblasti rada.}
+\FloatBarrier\Needspace{10\baselineskip}\subsection*{Rešenje}
+\FloatBarrier\Needspace{6\baselineskip}\paragraph{a) Oblasti rada.}
 NMOS vodi ako je $v_U>V_{TN}$, a PMOS ako je $V_{DD}-v_U>|V_{TP}|$. Za tranzistore koji vode:
 \begin{equation}\label{eq:4.1}
 \begin{aligned}\text{NMOS zasićen:}\quad&v_I\ge v_U-V_{TN},\\\text{PMOS zasićen:}\quad&V_{DD}-v_I\ge V_{DD}-v_U-|V_{TP}|,\\&v_I\le v_U+|V_{TP}|.\end{aligned}
 \end{equation}
 
-Suprotne stroge nejednakosti određuju omske oblasti; jednakosti su granice. Isključene oblasti određuju samo uslovi gejta. Na $v_U=v_I=V_S$ oba tranzistora su u zasićenju.
+Suprotne stroge nejednakosti određuju omske oblasti; jednakosti su granice. Isključene oblasti određuju samo uslovi gejta. Na $v_U=v_I=V_S$ oba tranzistora su u zasićenju. Oznake I--V na slici prate karakteristiku prenosa; za proizvoljnu tačku van nje koriste se prethodne nejednakosti. Bez modulacije dužine kanala srednji deo idealizovane karakteristike je vertikalan: pri jednakim strujama zasićenja statičke jednačine ne izdvajaju jedan izlazni napon. Crna linija prikazuje samo redosled oblasti, a brojna vrednost $V_S$ računa se u tački b).
 \begin{figure}[!htbp]\centering
 \includegraphics[width=.95\linewidth,height=.36\textheight,keepaspectratio]{Zadatak_4/oblasti}
 \caption{Granice oblasti rada: N označava NMOS, P PMOS.}\label{fig:4.1}
 \end{figure}
-\paragraph{b) Napon prebacivanja.}
+\FloatBarrier\Needspace{17\baselineskip}\paragraph{b) Napon prebacivanja.}
 Uz pretpostavku istog $v_{\mathrm{sat}}$ i $C_{ox}$ za oba tipa, koju koristi i izvor, izjednačavaju se struje:
 \begin{equation}\label{eq:4.2}
 \frac{W_n(V_S-V_{TN})^2}{V_S-V_{TN}+E_{CN}L_n}=\frac{W_p(V_{DD}-V_S-|V_{TP}|)^2}{V_{DD}-V_S-|V_{TP}|+E_{CP}L_p}.
 \end{equation}
 
 $E_{CN}=6\,\mathrm{V/\mu m}$, pa $E_{CN}L_n=0.6\,\mathrm V$, a $E_{CP}L_p=2.4\,\mathrm V$. Rešavanje bez zamrzavanja imenilaca daje
-\begin{center}\begin{tabular}{ccc}\toprule
+\begin{center}\begin{minipage}{\linewidth}\centering\captionof{table}{Prag CMOS invertora za dve širine PMOS tranzistora.}\label{tab:4.prag}\begin{tabular}{ccc}\toprule
 $W_p\,[\mathrm{nm}]$ & $W_p/W_n$ & $V_S\,[\mathrm V]$\\
 \midrule
 400 & 4 & 0.611288\\
 \redlinija
 100 & 1 & 0.537965\\
-\bottomrule\end{tabular}\end{center}
+\bottomrule\end{tabular}\end{minipage}\end{center}
 Rešenja su u intervalu $(0.4,0.8)\,\mathrm V$ i zadovoljavaju pretpostavljene oblasti rada. Jači PMOS pomera prag naviše: potreban je viši ulaz da NMOS uravnoteži njegovu struju.
 U izvorniku se zanemaruje prenapon u PMOS imeniocu i NMOS imenilac zamenjuje konstantom; ovde za to nema potrebe. Ako brzine zasićenja ili oksidne kapacitivnosti nisu jednake, njihov odnos mora ostati u~\eqref{eq:4.2}; bez njega prag nije jednoznačno zadat.
-\FloatBarrier\section{Zadatak 5: sinteza statičkog CMOS kola}\label{sec:5}
+\clearpage\section{Zadatak 5: sinteza statičkog CMOS kola}\label{sec:5}
 \begin{enumerate}[label=\alph*)]
 \item Realizovati $Y=(A+B)(C+D)$ jednostepenim statičkim CMOS kolom ako su negacije ulaza raspoložive.
 \item Realizovati istu funkciju najmanjim brojem tranzistora u komplementarnoj statičkoj CMOS realizaciji kada negacije ulaza nisu raspoložive.
 \end{enumerate}
-\subsection*{Rešenje}
-\paragraph{a) Raspoloživi komplementarni ulazi.}
+\FloatBarrier\Needspace{10\baselineskip}\subsection*{Rešenje}
+\FloatBarrier\Needspace{6\baselineskip}\paragraph{a) Raspoloživi komplementarni ulazi.}
 PDN (\emph{pull-down network}) povezuje izlaz sa masom kada je $Y=0$. Zato
 \begin{equation}\label{eq:5.1}
 \bar Y=\overline{(A+B)(C+D)}=\bar A\bar B+\bar C\bar D.
@@ -300,25 +300,25 @@ Proizvodu odgovara redna, a zbiru paralelna veza NMOS tranzistora. PUN (\emph{pu
 \includegraphics[width=.48\linewidth,height=.36\textheight,keepaspectratio]{Zadatak_5/cmos}
 \caption{Kompletna komplementarna CMOS realizacija.}\label{fig:5.2}
 \end{figure}
-\paragraph{b) Samo direktni ulazi.}
-Prvo se realizuje $Y_1=\overline{(A+B)(C+D)}$ pomoću osam tranzistora, pa se doda izlazni CMOS invertor sa dva tranzistora. Ukupno je potrebno deset tranzistora. Četiri zasebna ulazna invertora uz realizaciju iz a) zahtevala bi šesnaest. Minimalnost se ovde odnosi na uobičajene komplementarne statičke CMOS mreže; nije tvrdnja o svim tranzistorskim porodicama.
+\FloatBarrier\Needspace{6\baselineskip}\paragraph{b) Samo direktni ulazi.}
+Prvo se realizuje $Y_1=\overline{(A+B)(C+D)}$ pomoću osam tranzistora, pa se doda izlazni CMOS invertor sa dva tranzistora. Ukupno je potrebno deset tranzistora. Četiri zasebna ulazna invertora uz realizaciju iz a) zahtevala bi šesnaest. Broj deset je minimalan u acikličnim mrežama komplementarnih statičkih CMOS kola sa dualnim redno-paralelnim PDN/PUN mrežama, uz direktne primarne ulaze. Svaki od četiri bitna ulaza mora upravljati bar jednim NMOS-om i odgovarajućim PMOS-om. Jedan takav stepen sa direktnim ulazima daje nerastuću funkciju svakog ulaza, dok je tražena funkcija rastuća, pa je potreban i unutrašnji signal između stepena. On upravlja bar još jednim parom tranzistora: ukupno najmanje $2(4+1)=10$. Prikazana realizacija dostiže ovu granicu.
 \begin{figure}[!htbp]\centering
 \includegraphics[width=.65\linewidth,height=.36\textheight,keepaspectratio]{Zadatak_5/bez_negacija}
 \caption{Realizacija sa direktnim ulazima i završnim invertorom.}\label{fig:5.3}
 \end{figure}
-\FloatBarrier\section{Zadatak 6: dualne PDN i PUN mreže}\label{sec:6}
+\clearpage\section{Zadatak 6: dualne PDN i PUN mreže}\label{sec:6}
 Za PDN sa slike~\ref{fig:6.1}: a) odrediti funkciju; b) nacrtati kompletno statičko CMOS kolo.
 \begin{figure}[!htbp]\centering
 \includegraphics[width=.5\linewidth,height=.36\textheight,keepaspectratio]{Zadatak_6/pdn}
 \caption{Zadata PDN mreža.}\label{fig:6.1}
 \end{figure}
-\subsection*{Rešenje}
-\paragraph{a) Logička funkcija.}
+\FloatBarrier\Needspace{10\baselineskip}\subsection*{Rešenje}
+\FloatBarrier\Needspace{6\baselineskip}\paragraph{a) Logička funkcija.}
 \begin{equation}\label{eq:6.1}
 \bar Y=A+B(C+D),\qquad Y=\overline{A+B(C+D)}=\bar A\bar B+\bar A\bar C\bar D.
 \end{equation}
 
-\paragraph{b) Konstrukcija dualne mreže.}
+\FloatBarrier\Needspace{6\baselineskip}\paragraph{b) Konstrukcija dualne mreže.}
 PM1 je tranzistor $A$, a PM2 ostatak mreže. U PDN su paralelni, pa su u PUN redni. U PM2 je PM3 tranzistor $B$, a PM4 grupa $C,D$. U PDN su PM3 i PM4 redni, pa su u PUN paralelni. PM4 čine PM5 ($C$) i PM6 ($D$): oni su paralelni u PDN, a redni u PUN. Hijerarhija je prikazana na slici~\ref{fig:6.2}, a tranzistorska realizacija na slici~\ref{fig:6.3}.
 \begin{figure}[!htbp]\centering
 \includegraphics[width=\linewidth,height=.36\textheight,keepaspectratio]{Zadatak_6/dualnost}
@@ -327,14 +327,14 @@ PM1 je tranzistor $A$, a PM2 ostatak mreže. U PDN su paralelni, pa su u PUN red
 \includegraphics[width=.55\linewidth,height=.36\textheight,keepaspectratio]{Zadatak_6/cmos}
 \caption{Kompletno statičko CMOS kolo.}\label{fig:6.3}
 \end{figure}
-\FloatBarrier\section{Zadatak 7: dimenzionisanje tranzistora}\label{sec:7}
+\clearpage\section{Zadatak 7: dimenzionisanje tranzistora}\label{sec:7}
 Odrediti odnose $W/L$ tranzistora kola sa slike~\ref{fig:7.1}. Zanemaruju se kapacitivnosti svih čvorova osim izlaznog i dato je $\mu_n=2\mu_p$.
 \begin{figure}[!htbp]\centering
 \includegraphics[width=.5\linewidth,height=.36\textheight,keepaspectratio]{Zadatak_7/cmos}
 \caption{Kolo koje se dimenzioniše.}\label{fig:7.1}
 \end{figure}
-\subsection*{Rešenje}
-Sama pokretljivost ne određuje apsolutne dimenzije. Kao u izvorniku, uzimamo zajedničku dužinu kanala, referentni invertor sa normalizovanim odnosima $(W/L)_n=1$, $(W/L)_p=2$ i približno izjednačavamo najgore otpornosti provodnih putanja. U nastavku $w$ označava normalizovani odnos $W/L$.
+\FloatBarrier\Needspace{10\baselineskip}\subsection*{Rešenje}
+Sama pokretljivost ne određuje apsolutne dimenzije. Kao u izvorniku, uzimamo zajedničku dužinu kanala, referentni invertor sa istim oksidom, približno jednakim apsolutnim pragovima i normalizovanim odnosima $(W/L)_n=1$, $(W/L)_p=2$ i približno izjednačavamo najgore otpornosti provodnih putanja. U nastavku $w$ označava normalizovani odnos $W/L$.
 Za isti tip tranzistora $R\propto1/w$. Redna veza daje
 \begin{equation}\label{eq:7.1}
 \frac1{w_S}=\frac1{w_1}+\frac1{w_2},\qquad w_S=\frac{w_1w_2}{w_1+w_2}.
@@ -354,14 +354,14 @@ PUN treba da ima najgoru ekvivalentnu širinu 2. Dve redne celine $A$ i $[B\para
 \includegraphics[width=.6\linewidth,height=.36\textheight,keepaspectratio]{Zadatak_7/dimenzije}
 \caption{Normalizovani odnosi W/L svih tranzistora.}\label{fig:7.3}
 \end{figure}
-\FloatBarrier\section{Zadatak 8: dinamička i domino logika}\label{sec:8}
+\clearpage\section{Zadatak 8: dinamička i domino logika}\label{sec:8}
 \begin{enumerate}[label=\alph*)]
 \item Projektovati jednostepeno dinamičko CMOS kolo za
 \[Y=\overline{AB}\left(\overline{\bar C+\bar A\bar D+C(A+D)}+\overline{CD}\right).\]
 \item Realizovati $Z=\bar Y$ u domino logici, koristeći CMOS domino I i ILI kola sa proizvoljnim brojem ulaza. Ulazi i njihove negacije su raspoloživi.
 \end{enumerate}
-\subsection*{Rešenje}
-\paragraph{a) Svođenje funkcije.}
+\FloatBarrier\Needspace{10\baselineskip}\subsection*{Rešenje}
+\FloatBarrier\Needspace{6\baselineskip}\paragraph{a) Svođenje funkcije.}
 Neka je $P=\bar C+\bar A\bar D+C(A+D)$. Za $CD=1$ važi $P=1$, pa $P\,CD=CD$. Otuda
 \begin{equation}\label{eq:8.1}
 Y=\overline{AB}(\bar P+\overline{CD})=\overline{AB+P\,CD}=\overline{AB+CD}.
@@ -372,18 +372,18 @@ PDN sadrži dve paralelne grane sa po dva redna NMOS tranzistora. PMOS za pretpu
 \includegraphics[width=.5\linewidth,height=.36\textheight,keepaspectratio]{Zadatak_8/dinamicko}
 \caption{Dinamičko kolo za Y; logička funkcija važi u fazi evaluacije.}\label{fig:8.1}
 \end{figure}
-\paragraph{b) Domino realizacija.}
+\FloatBarrier\Needspace{6\baselineskip}\paragraph{b) Domino realizacija.}
 \begin{equation}\label{eq:8.2}
 Z=\bar Y=AB+CD.
 \end{equation}
 
 Na izlazu svakog dinamičkog stepena nalazi se statički invertor. Zato domino I stepeni daju $P=AB$, $Q=CD$, a završni domino ILI daje $Z=P+Q$. Negacije složenih izraza uklanjaju se De Morganovim pravilima $\overline{AB}=\bar A+\bar B$, $\overline{A+B}=\bar A\bar B$.
-Raspoloživost negiranih signala sama po sebi ne garantuje ispravan vremenski rad: tokom evaluacije ulazi domino stepena moraju biti stabilni ili monotono prelaziti sa 0 na 1. Izlaz invertora posle pretpunjenja počinje nulom i može samo porasti, što omogućava kaskadiranje. Izbegavaju se padovi koji bi nepovratno ispraznili naredni dinamički čvor.
+Raspoloživost negiranih signala sama po sebi ne garantuje ispravan vremenski rad: tokom evaluacije ulazi domino stepena moraju biti stabilni ili monotono prelaziti sa 0 na 1. Izlaz invertora posle pretpunjenja počinje nulom i može samo porasti, što omogućava kaskadiranje. Ako je prethodna jedinica već ispraznila dinamički čvor, kasniji pad ulaza može prekinuti provodnu putanju, ali ne može ponovo napuniti čvor tokom iste evaluacije. Zato bi tadašnja kombinaciona vrednost mogla da se razlikuje od zapamćenog stanja.
 \begin{figure}[!htbp]\centering
 \includegraphics[width=.78\linewidth,height=.60\textheight,keepaspectratio]{Zadatak_8/domino}
 \caption{Tri domino stepena; jednako označeni P i Q predstavljaju povezane vodove.}\label{fig:8.2}
 \end{figure}
-\FloatBarrier\section{Zadatak 9: vremenski dijagram dinamičkog kola}\label{sec:9}
+\clearpage\section{Zadatak 9: vremenski dijagram dinamičkog kola}\label{sec:9}
 Za dato dinamičko kolo i ulazne signale sa slika~\ref{fig:9.1} i~\ref{fig:9.inputs} nacrtati izlaz $Y(t)$.
 \begin{figure}[!htbp]\centering
 \includegraphics[width=.4\linewidth,height=.36\textheight,keepaspectratio]{Zadatak_9/kolo}
@@ -392,14 +392,14 @@ Za dato dinamičko kolo i ulazne signale sa slika~\ref{fig:9.1} i~\ref{fig:9.inp
 \includegraphics[width=.9\linewidth,height=.36\textheight,keepaspectratio]{Zadatak_9/ulazi}
 \caption{Zadati ulazi; vremenska osa je relativna, bez zadatih numeričkih trajanja.}\label{fig:9.inputs}
 \end{figure}
-\subsection*{Rešenje}
+\FloatBarrier\Needspace{10\baselineskip}\subsection*{Rešenje}
 U fazi evaluacije ostvaruje se $Y=\overline{C(A+B)}$, uz pamćenje prethodnog pražnjenja. Dok je $CLK=0$, PMOS puni čvor i $Y=1$. Dok je $CLK=1$, izlaz može preći sa 1 na 0 kada postoji provodna putanja prema masi, ali ne može ponovo porasti pre sledećeg pretpunjenja.
 Na uzlaznoj ivici $B$ u prvoj fazi evaluacije važi $C=1$, pa izlaz pada na 0. Sledeće pretpunjenje ga vraća na 1. U narednim fazama sa $B=C=1$ izlaz ponovo pada. Kada $C$ opadne usred evaluacije, putanja ka masi se prekida, ali već ispražnjeni čvor ostaje na 0 do prvog narednog $CLK=0$. Posle toga, dok je $C=0$, izlaz ostaje visok. Zanemarena su propagaciona kašnjenja, curenje i raspodela naelektrisanja.
 \begin{figure}[!htbp]\centering
 \includegraphics[width=.9\linewidth,height=.36\textheight,keepaspectratio]{Zadatak_9/izlaz}
 \caption{Izlaz pamti pražnjenje do sledeće faze pretpunjenja.}\label{fig:9.2}
 \end{figure}
-\FloatBarrier\section{Zadatak 10: transmisioni gejtovi}\label{sec:10}
+\clearpage\section{Zadatak 10: transmisioni gejtovi}\label{sec:10}
 \begin{enumerate}[label=\alph*)]
 \item Odrediti funkcionalnu tabelu kola sa slike~\ref{fig:10.1} za binarne ulaze.
 \item Dopuniti opis kada $D$ može biti u stanju visoke impedanse.
@@ -410,13 +410,13 @@ Transmisioni gejt (TG) je paralelna veza NMOS i PMOS prekidača sa komplementarn
 \includegraphics[width=.95\linewidth,height=.36\textheight,keepaspectratio]{Zadatak_10/kolo}
 \caption{Tri multiplekserske grupe realizovane transmisionim gejtovima.}\label{fig:10.1}
 \end{figure}
-\subsection*{Rešenje}
-\paragraph{a) Binarni ulazi.}
+\FloatBarrier\Needspace{10\baselineskip}\subsection*{Rešenje}
+\FloatBarrier\Needspace{6\baselineskip}\paragraph{a) Binarni ulazi.}
 Gornja grana daje $P=\bar BD+BC$, a donja $Q=CD+\bar CB$. Izlaz bira $P$ za $A=1$, odnosno $Q$ za $A=0$:
 \begin{equation}\label{eq:10.1}
 Y=A(\bar BD+BC)+\bar A(CD+\bar CB)=A\bar BD+ABC+\bar ACD+\bar A\bar CB.
 \end{equation}
-\begin{table}[!htbp]\centering\caption{Funkcionalna tabela za binarne ulaze.}\label{tab:10.1}\begin{tabular}{cc}\toprule
+\begin{center}\begin{minipage}{\linewidth}\centering\captionof{table}{Funkcionalna tabela za binarne ulaze.}\label{tab:10.1}\begin{tabular}{cc}\toprule
 $ABCD$ & $Y$\\
 \midrule
 \texttt{0000} & 0\\
@@ -450,11 +450,11 @@ $ABCD$ & $Y$\\
 \texttt{1110} & 1\\
 \redlinija
 \texttt{1111} & 1\\
-\bottomrule\end{tabular}\end{table}
+\bottomrule\end{tabular}\end{minipage}\end{center}
 Za $ABCD=0101$ uključena donja grana bira $B=1$, pa je $Y=1$.
-\paragraph{b) Visoka impedansa na ulazu D.}
+\FloatBarrier\Needspace{6\baselineskip}\paragraph{b) Visoka impedansa na ulazu D.}
 TG prosleđuje odabrani ulaz, uključujući stanje $Z$ visoke impedanse. Ono nije treća logička vrednost na koju se neposredno primenjuje Bulova algebra. Tabela~\ref{tab:10.2} važi za $D\in\{0,1,Z\}$; kada piše $D$, izlaz prati baš taj ulaz. Za $D=Z$ nema aktivnog izvora koji garantuje napon izlaza, iako kapacitivnost može privremeno zadržati prethodni napon.
-\begin{table}[!htbp]\centering\caption{Izlaz kada D može biti i visoke impedanse.}\label{tab:10.2}\begin{tabular}{cc}\toprule
+\begin{center}\begin{minipage}{\linewidth}\centering\captionof{table}{Izlaz kada D može biti i visoke impedanse.}\label{tab:10.2}\begin{tabular}{cc}\toprule
 $ABC$ & $Y$\\
 \midrule
 000 & 0\\
@@ -472,8 +472,8 @@ $ABC$ & $Y$\\
 110 & 0\\
 \redlinija
 111 & 1\\
-\bottomrule\end{tabular}\end{table}
-\paragraph{c) Sinteza funkcije.}
+\bottomrule\end{tabular}\end{minipage}\end{center}
+\FloatBarrier\Needspace{6\baselineskip}\paragraph{c) Sinteza funkcije.}
 Šenonovo razlaganje po A, pa B, daje
 \begin{equation}\label{eq:10.2}
 Y=AC+BC=A(C+BC)+\bar A(BC)=AC+\bar A[BC+\bar B\cdot0].

@@ -1,0 +1,429 @@
+{
+  "figures": {
+    "Images/Zadatak_3/komparator2.tex": {
+      "sha256": "d694af5f9c662813b2061a2f271e224b1d7dbac2ae0d13117b01e8304f33c1fa",
+      "review": "A[1:0] i B[1:0] ulazi; izlazi G=(A>B), L=(A<B), E=(A=B). Svi priključci pročitani iz izvora i izvoza.",
+      "domain": 16
+    },
+    "Images/Zadatak_3/komparator4.tex": {
+      "sha256": "01c93ed098684d20b0c70035dc3d0b0c70fcccd0810ed3f633ae07b2a6125265",
+      "review": "ag: E_H AND G_L; og: G_H OR ag → G. ae: E_H AND E_L → E. nl: NOR(G,E) → L. Imenovani signali povezuju izlaze dva komparatora i ulaze kola. Izlazi L_H/L_L nisu potrebni. NILI se po uslovu može zameniti ILI pa NI sa vezanim ulazima.",
+      "boolean": [
+        [
+          "P",
+          "E L"
+        ],
+        [
+          "G",
+          "H+P"
+        ],
+        [
+          "J",
+          "E F"
+        ],
+        [
+          "Q",
+          "\\bar{G+J}"
+        ]
+      ]
+    },
+    "Images/Zadatak_3/maksimum.tex": {
+      "sha256": "2441eb3787b7a6d3ffe21423b5d3d6eafa21b5fe5e4c3ea04247ffc48c711a7c",
+      "review": "c1 prima X=A i Y=0C3:1; njegova zastavica g1 bira X/Y na prvom MUX-u. Dva podatkovna ulaza sada su nacrtana. M se vodi ka drugom komparatoru i proširuje vodećom nulom na drugi MUX. c2 poredi Z3:0 sa M. Dodato ILI prima g2 i Z4; tek izlaz s bira Z ili 0M. Z je spojen kao B3:0,0. Nema spajanja magistrale i jednobitne kontrole.",
+      "steps": [
+        [
+          "X",
+          "copy",
+          "A"
+        ],
+        [
+          "Q",
+          "shr",
+          "C",
+          1
+        ],
+        [
+          "Z",
+          "shl",
+          "B",
+          1
+        ],
+        [
+          "g1",
+          "gt",
+          "X",
+          "Q"
+        ],
+        [
+          "M",
+          "mux",
+          "g1",
+          "X",
+          "Q"
+        ],
+        [
+          "zlo",
+          "and",
+          "Z",
+          15
+        ],
+        [
+          "g2",
+          "gt",
+          "zlo",
+          "M"
+        ],
+        [
+          "z4",
+          "shr",
+          "Z",
+          4
+        ],
+        [
+          "s",
+          "or",
+          "z4",
+          "g2"
+        ],
+        [
+          "RES",
+          "mux",
+          "s",
+          "Z",
+          "M"
+        ]
+      ]
+    },
+    "Images/Zadatak_4/karno.tex": {
+      "sha256": "796fb8afacabda4d01c0207a99103e406b54d6d5e94fe89737bb0872f744b1f9",
+      "review": "Tri karte imaju redove a1a0 i kolone b1b0 u redosledu 00,01,11,10. Svih 48 ćelija je provereno. Za s2 tri grupe sa 2/3/3 literala; s1 šest grupa sa 3/3/3/3/4/4 literala; s0 dve grupe sa 2/2 literala, svaka od dve isto obojene oblasti preko ivice. Sve grupe i minimalnost proverava audit_math.py iz stvarnih koordinata; matematička pripadnost grupa nije menjana. Dopuna: svih 13 kontura (11 grupa, dve rubne grupe u dva dela) imaju istobojnu ispunu neprozirnosti 0,18 u pozadinskom sloju; cifre i mreža su iznad. Ćelije, boje i koordinate kontura nisu menjane."
+    },
+    "Images/Zadatak_4/kompletna.tex": {
+      "sha256": "63c89604059cd62916bfd5505981a10efe3cc1a18bd81f229ad536e321ec1d53",
+      "review": "Prvi blok je pregledana mreža proizvod. Šestobitni MUX prima dva rasporeda istog X: 0X i X0. G komparatora bira X0 kada A>B. Izlaz E prolazi kroz nacrtani invertor ne, zatim kroz svih šest I kola sa T. Kontrola E ima jednu negaciju. Završni Y[5:0] ima najviši bit nula za sve dozvoljene A,B.",
+      "steps": [
+        [
+          "G",
+          "gt",
+          "A",
+          "B"
+        ],
+        [
+          "E",
+          "eq",
+          "A",
+          "B"
+        ],
+        [
+          "nE",
+          "not",
+          "E"
+        ],
+        [
+          "twice",
+          "shl",
+          "X",
+          1
+        ],
+        [
+          "T",
+          "mux",
+          "G",
+          "twice",
+          "X"
+        ],
+        [
+          "Y",
+          "mul",
+          "nE",
+          "T"
+        ]
+      ]
+    },
+    "Images/Zadatak_4/mux4.tex": {
+      "sha256": "fc420bebff2d5b2cd5fa9cbee405a15f224e8ee2c1215524dc3b943b1685f453",
+      "review": "D0,D1,D2,D3 i izlaz X imaju pet bita; b1 je viši, b0 niži selekcioni bit. Standardna funkcija X=D[2*b1+b0].",
+      "domain": 4
+    },
+    "Images/Zadatak_4/proizvod.tex": {
+      "sha256": "c059cea607cc3168720d78f46f01147e57c72af0eb271f19a8c68b161eb419fe",
+      "review": "Dvobitni sabirač prima A i konstantu 01, daje trobitni S. Grane su 00S,0S0 i S00; tačka na račvi označava zajednički S, a natpisi tačan raspored izlaznih bita. D2 je petobitna konkatenacija 0,a1,a0,not a1,not a0. Dva invertora na1/na0 sada eksplicitno generišu komplementarne signale. B bira D0..D3 po redosledu od vrha ka dnu. Naknadno D1 polazi horizontalno iz tačke (3,1.5) na zajedničkoj vertikali S; dodat je spojni kružić. Svi vodovi imaju samo horizontalne ili vertikalne segmente. Funkcija i ostali priključci nisu menjani.",
+      "steps": [
+        [
+          "S",
+          "add",
+          "A",
+          1
+        ],
+        [
+          "D0",
+          "copy",
+          "S"
+        ],
+        [
+          "D1",
+          "shl",
+          "S",
+          1
+        ],
+        [
+          "a1",
+          "shr",
+          "A",
+          1
+        ],
+        [
+          "a0",
+          "and",
+          "A",
+          1
+        ],
+        [
+          "n1",
+          "not",
+          "a1"
+        ],
+        [
+          "n0",
+          "not",
+          "a0"
+        ],
+        [
+          "D2",
+          "concat",
+          0,
+          "a1",
+          "a0",
+          "n1",
+          "n0"
+        ],
+        [
+          "D3",
+          "shl",
+          "S",
+          2
+        ],
+        [
+          "X",
+          "mux4",
+          "B",
+          "D0",
+          "D1",
+          "D2",
+          "D3"
+        ]
+      ]
+    },
+    "Images/Zadatak_4/sabirac.tex": {
+      "sha256": "bc17261a89810b85923325f1346c9c42b83b8a8c22dfb125e7fa4a680a5bcf06",
+      "review": "Neposredno praćenje obnovljene mreže: x0=XOR(a0,b0)→s0; c0=AND(a0,b0) grananjem (2.5,2.3)→x1.input1 i cp.input1. p1=XOR(a1,b1) grananjem (3.5,.6)→x1.input2 i cp.input2. Gornji ulaz desnog I kola je prenos, donji je izlaz XOR kola. Most na vodu prenosa preko vertikale izlaza XOR je ukrštanje bez spoja. x1→s1; cp.output→s2.input1; g1=AND(a1,b1)→s2.input2; OR→s2. Nema razdvojenih vodova sa imenima c1/p1; iste Bulove funkcije ispod proveravaju svih 16 ulaza. Dopuna 04-A18: položaj x1 zadat je njegovim gornjim ulazom na y=2.3, a cp donjim ulazom na y=0.6. Zato su c0.output→x1.input1 i p1.output→cp.input2 prave horizontalne veze. Ostala grananja, most i funkcije ostaju isti; izlazni vodovi prilagođeni su novim visinama kola.",
+      "boolean": [
+        [
+          "s0",
+          "a_0\\oplus b_0"
+        ],
+        [
+          "c1",
+          "a_0b_0"
+        ],
+        [
+          "p1",
+          "a_1\\oplus b_1"
+        ],
+        [
+          "g1",
+          "a_1b_1"
+        ],
+        [
+          "s1",
+          "c_1\\oplus p_1"
+        ],
+        [
+          "p2",
+          "c_1p_1"
+        ],
+        [
+          "s2",
+          "p_2+g_1"
+        ]
+      ]
+    }
+  },
+  "equations": {
+    "eq:1.1.1": {
+      "sha256": "0d6637b2c9f5e5c6293469b66b1d63a97b7ddce776cd5b1c919868d67ef960ed",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:1.2.1": {
+      "sha256": "19a7381ca8bbdd201eb63b405cca55e3c23d8978b66b443d8c724f1d1965563d",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:racun-1": {
+      "sha256": "9bea62df89d968e605ab86de741b566c1c620ef81682871f8745d1e479b1b223",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:racun-2": {
+      "sha256": "ab1b3ba01c9cd7ffa07f65c80f3023c2fdf431c16ed7b516f4576a1931fbb9cb",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:racun-3": {
+      "sha256": "46b9662cc83fc7870deab4ad4360d8fdff95324b3cc5c40361f8cc7b10198f9c",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:racun-4": {
+      "sha256": "97658ec042665eccd2b29619e30a876b09167e261cd27055d32f482cb45729e5",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:racun-5": {
+      "sha256": "e229fa509aa02cea43a6c7550cbf5255cf9a6d74e7b087d771829555c70bc6e6",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:racun-6": {
+      "sha256": "0142d37dc1ad68355e30bf7cadf447a81b3e1922eddae3e153a03cf78049ab8d",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:racun-7": {
+      "sha256": "ccc2a1cd942e154cc51949214f29ef6c6a425c91cbe471236ba4581ce9ff3903",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:racun-8": {
+      "sha256": "6390e7afd1e5d65d230069462e44cd36c7c87ce26912b4204c92d06d2a35df15",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:racun-9": {
+      "sha256": "56a5772a604ec5779fab76b188a34c536d1b1d587ba5fa03be4c082e4cea3990",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:racun-10": {
+      "sha256": "cc5fbb69d5b5cff8f6e514eca4e9ec5eff572590b29ef082a59fff9b4822bbbe",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:racun-11": {
+      "sha256": "8031d81cf83a1acd96eee04886e529283e0cf48c6139e9fc196dd621ab44b669",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:racun-12": {
+      "sha256": "60482313607dfbb9bea94c60f1e035d2e2fd91252871984d40dfd65e687d2a0c",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:racun-13": {
+      "sha256": "23befab2130dfc61ef2d12447f87a6382f1c7a0536a0a75a97f929b171b714be",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:racun-14": {
+      "sha256": "0879c546db258ddbdb9891ea7dcef323c8e892d1b25731fcd705be74c413c2c1",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.3.1": {
+      "sha256": "72b1941652e4c4a44b6bc8588d67dc085e969e12a1daceca8587cbb2614e0db1",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.4.1": {
+      "sha256": "a33b953a17ae3cb9f0f94674cc6fc914758ac37af18a4259ef9ad7f9cc4198e9",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.4.2": {
+      "sha256": "3834d3ef31d0d044b43df9b2dec878432b84061d3ace8557d6d97aa1f8cdff32",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.4.3": {
+      "sha256": "db6d18acce8f8172d43074cbb636c5a2da772a0fff40807809bdf05344910de1",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.4.4": {
+      "sha256": "e2283003e1833dc947a4ed0a995cc7b62f8ef24bc0f15d034e2208f3d24c82aa",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.4.5": {
+      "sha256": "4c654892cb3ae6d8b6a0a132c96b1ebcdb304b78cccaa071693de28c4f149d8a",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.4.6": {
+      "sha256": "38cc0e66ed171992e29498a5b94cee66fdda4a07b8e800fa61beec899817c423",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.4.7": {
+      "sha256": "ba360aeec9b3035d5e56187fca8737b9acb3e0af176e0aff7d15e8532fdf1bc5",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.4.8": {
+      "sha256": "5adf050241c969ed21d7400008b34460bec3f599be9e4454a0e5d3d4d659bbaa",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.4.9": {
+      "sha256": "7fb0b473789217992d355e469d98eb2745949c000527c80c47e00bc101bf69aa",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.4.10": {
+      "sha256": "7771cc2162a99117f2cb729edde28c8af85f13d94f2f0aad4739f081f9ba7aca",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.4.11": {
+      "sha256": "3c1da0f765993122d8623184b0b75fd305469358b0f93ccff4bec3626f8473f5",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.4.12": {
+      "sha256": "72c159c4a366356e36d5b0c0b7447ba3c309c751ac361556331d15a66066fd7c",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.4.13": {
+      "sha256": "ea45fb8288b4c4b3ed9cea811cb002cc7e97fa72888d57a3dcaa90da8b5f25db",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.4.14": {
+      "sha256": "81658dfd8121b7c977e218433de93f8448d7c5cc54d2b81ccee1c54e65038404",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.4.15": {
+      "sha256": "fc5433666439cc7e505b79a829c54c009bd28ee2c09f66dd45788031c74d6031",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.4.16": {
+      "sha256": "06993f992cede1d95d185834822b40538fd81bdb052438cb273e7f31cdc3e9b0",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.4.17": {
+      "sha256": "787f28b961634a1da075e66956a26275d02e23d55cf66777aeb4523758883733",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.4.18": {
+      "sha256": "699907ba6e1fa1c5bd35415fdc4b231bbf7e795b5eb24f8eabf0f5b8b0ca1c4e",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled; numerički postupci, tabele i logički izrazi dodatno čitani iz LaTeX-a."
+    }
+  }
+}

@@ -1,0 +1,672 @@
+{
+  "eq:zapis": {
+    "sha256": "820fa4590f25f81b52445e1d208a1006634b09a9fdf3767a6234c728c50f5442",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p1"
+  },
+  "eq:1.1.1.1": {
+    "sha256": "29a1da380d7f2efeefdf3918e198e62ae992ff3f096b1580e87c85ed2a20f3f7",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p1"
+  },
+  "eq:1.1.1.2": {
+    "sha256": "032088496493bb10bc60df0350ef921d4d223758f6cd7fa004cc5a72654f8a7f",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p1"
+  },
+  "eq:1.1.1.3": {
+    "sha256": "f4aa1fa095f19340aa868d061925657b49a3281ccd7de4830c6bcf6cd770447f",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p1"
+  },
+  "eq:1.1.1.4": {
+    "sha256": "9c0ee4ebd3a5ce1e645ad6adef35c6a3356a7cbe9cf9a1b6b44670264b8ef834",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p1"
+  },
+  "eq:1.1.1.5": {
+    "sha256": "7d30cb5989a8322700bf2db787a6bc5b8986d0c00bae79d0a9c782e1e29d7b74",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p1"
+  },
+  "eq:1.1.1.6": {
+    "sha256": "07f85e3bc81cb613d9631d83678d0c26e0f06818739748cb1ac857503c1181b0",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p1"
+  },
+  "eq:1.1.1.7": {
+    "sha256": "e28248b73a41f731c3b12a6029d6332c8efa6e6d847a94aec3fcca6b51458fd4",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p1"
+  },
+  "eq:1.1.1.8": {
+    "sha256": "832393127867778b7d027a83dfe8a3b189128e5281c0c72cff2e543b25bc2561",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p1"
+  },
+  "eq:1.1.1.9": {
+    "sha256": "7c380a66e80be2847794ef0b8c62a0fb0c30dea7b6c8d8a4cadadd1a3c890ec6",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p1"
+  },
+  "eq:1.2.1.1": {
+    "sha256": "cbe6f462e1bb4d753d2778c4c0e0cb0d7621e5912e5b5c3a4b622ed788692b6f",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p2"
+  },
+  "eq:1.2.2.1": {
+    "sha256": "abadac5b1f2abc38e0a531d9738d96827e3ffb54baba2ec0b9651afbb1b00b10",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p2"
+  },
+  "eq:1.2.2.2": {
+    "sha256": "eceb5003ba1c1e3ce13263083c3d85e282f433766652f75d8861dd8a1f450d2d",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p2"
+  },
+  "eq:1.2.2.3": {
+    "sha256": "cf2aed35685d9d5c365826d346f4c1a81bb65cb06e38ac162c27e5c1b87146f3",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p2"
+  },
+  "eq:1.2.2.4": {
+    "sha256": "ce2ab0d9bf39de8da9ec30fdaedb9ec6d5aa53a99a51688f905b935f176a5d05",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p2"
+  },
+  "eq:1.2.2.5": {
+    "sha256": "0834d28215bccba398ccd8b1ab92ac068b7d67379f978eb37564fc331cc307a0",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p2"
+  },
+  "eq:1.2.3.1": {
+    "sha256": "4cd4fc5740e3fa042287c7b3812808aef44dbcd42d06e45e1c8e527300173c13",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p2"
+  },
+  "eq:1.2.3.2": {
+    "sha256": "ac423efe6905fc019faa26d0b92f04a898c06d60efb018d0b17bfb1acb5d2703",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p2"
+  },
+  "eq:1.2.3.3": {
+    "sha256": "2ab749adf900f3fa7162f5543fcd7ba611b33e339c008106b6221121e6b1fb3b",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p2"
+  },
+  "eq:1.2.3.4": {
+    "sha256": "454d34ad463bc55dfa9d7207be9da6755a2e794affb2143eb50899f0574ec9c4",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p2"
+  },
+  "eq:1.2.3.5": {
+    "sha256": "46fca711a3f385842414df2b31554df3f61c334cac69db2bcec931de66417975",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p2"
+  },
+  "eq:2.1.1": {
+    "sha256": "3833d583ca8ac5493699383ebd7051d316bd2bf11de0707db88ec7f8f8816ad1",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p3"
+  },
+  "eq:2.1.2": {
+    "sha256": "fd65fae3da98a47682c428efd674b3ec2ac438b5ef9b233a022dc1797e184475",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p3"
+  },
+  "eq:2.1.3": {
+    "sha256": "dcc2b8017ed1bea1ca3995d4a3c3d543d0d631d80013e3fecc217bb9f0d91ba0",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p3"
+  },
+  "eq:2.1.4": {
+    "sha256": "0597b53b4f4cb7ae86b20da74f02104f668dc6d5267f23760179d7f7f261ea0d",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p3"
+  },
+  "eq:13-375": {
+    "sha256": "7cacd5dda631706478ffca4e39050b192f2c6976115075a26aece1435c16c27d",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p3"
+  },
+  "eq:2.1.5": {
+    "sha256": "553ee6c977c2abfdf2b3ca29f95d5840e42b3889983f43b1afb973b2cc810530",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p3"
+  },
+  "eq:2.1.6": {
+    "sha256": "98a041b6273d998ef13484b2b5bbdb4fede3a3a68a32dd599ecbba22b50aef5a",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p3"
+  },
+  "eq:2.1.7": {
+    "sha256": "1e22c219664e3e009bf745e7311ebda28e436790a8d52aa32e6458e7275ef268",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p3"
+  },
+  "eq:2.2.1": {
+    "sha256": "7dcc4a38d4175bc2da4783d17e57de18c0885c560971c4dd251c4c067586eda2",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p4"
+  },
+  "eq:2.2.2": {
+    "sha256": "9e4a3fdb01b7ed775df58c06ae771fe6d441fe30cd6c292f479499415eef8ae7",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p4"
+  },
+  "eq:2.2.3": {
+    "sha256": "5897f3374db44b4fd984f0e4cab416be4c8bcec8bad36f7b5dc2aac4e3b4336e",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p4"
+  },
+  "eq:2.2.4": {
+    "sha256": "3581caff03b3d73fb8f68ee464efc35cf222c6a3f905ccce98ba2f004bb4fb81",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p4"
+  },
+  "eq:2.3.1": {
+    "sha256": "4fd10b3f7c1ffb14fbb9ae297fd1ee47524464de84147ae3327a881a1265ebdc",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.3.2": {
+    "sha256": "797720a94950c37d70b2c548ead1b9a0a5607e7375b70cfe4de0d8db43cb528e",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.3.3": {
+    "sha256": "c29c634953df3938d11a50e465184eea10b9eff0a2023b171462ec11fdab73c0",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.3.4": {
+    "sha256": "22cd0151e7b009a8d1efca36e982b24ecddfcc96c0a023da8b1201eff38fa640",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.3.5": {
+    "sha256": "0566369b70958449f3cf6abac4ccfd7d41b68d4e9fd66399a380dc09a7cf3e06",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.3.6": {
+    "sha256": "32323e68aa2ac7bb46a360dbea6983ebd56d13358701d8b3482e086f0dee9510",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.3.7": {
+    "sha256": "fa80bf3fcd475c930d13962b2ad4d2d1b35440ab82801f097cc5ca3ff2c52904",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.3.8": {
+    "sha256": "a361ccc94641fdf3b1dd6e13c7ad08d49d0f600e308ef59d6e6dc3bf652ca54d",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.3.9": {
+    "sha256": "3e67ca3a0c106ab1035cae0adf7d233dfe9b088df36e7979e833b8c8183f85ed",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.3.10": {
+    "sha256": "7c526018575c58f88780fbd19d716425ccd29cc3b80b3a30c24d3626a92c00df",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.3.11": {
+    "sha256": "1274a762cb46843cd5bbfa83baea27228f40d6d9abbeb524bb19fc1395611773",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.3.12": {
+    "sha256": "88feb420b7554299ad95a6fee6744600adf2a6285e200869a6f23b5dd8af1f88",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.3.13": {
+    "sha256": "5a95347e1c78d79c5d681a48454b381b837fddc865df91d2c7426e8362bb438b",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.3.14": {
+    "sha256": "e581669d060c459bbbdfc147353e6d2c21a71fa475fb3b0f16223d747b8a4ae1",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.1": {
+    "sha256": "1bb1c4f6169e7bc7f22123d137d0f7b4a502f48994c7f1838584c08f575d80c3",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.2": {
+    "sha256": "62883c6bddc66008b12f3337b63cbab01eac5bf70133c068c00c2492eda99f78",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.3": {
+    "sha256": "94e992269b3de36ddcd52f5856396f37a33e7c3c600fa250dc2dcdd47e75ddc7",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.4": {
+    "sha256": "6d557e63a079ad94cd9fbc885aba85a7782c796344cb76aed707c4cc0b4ca548",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.5": {
+    "sha256": "22e1efbb6d01601986f93a5e3d418cc21c4ffeb1c43b0887c3b716ded54a8b30",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.6": {
+    "sha256": "a53900eab257ab4c838ff645104e59590ffa8e8e041cf3959359c008e751e7d4",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.7": {
+    "sha256": "65be8d2c0bb51709c0ff35449e40eb9b8581d970a790f4b5397f65ac45225c45",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.8": {
+    "sha256": "a174263747dc3f010b9785fb8fa75b388462f1eacc07ff3a33606b63b96ffb0e",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.9": {
+    "sha256": "632c0b73bd143bd66b7b055a9770db9090a7d9605ea03db9c3006f901edfe86c",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.10": {
+    "sha256": "ad50907eac145cd81748d9f0bbbb3bbd2920620cde4a91d2a7da0027a0c44662",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.11": {
+    "sha256": "40b96d69cec360f56cffb32645c5251d16e0e6b271b63408882383a73d344d8c",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.12": {
+    "sha256": "dbf92812dcaa77499dfdb25177b12a01fabb00c4dc8bdd09a2d7282859fa8f8f",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.13": {
+    "sha256": "696d80240f2b893c0415811b74eb3dc689c7d264d573f995e665919df97fe948",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.14": {
+    "sha256": "52f1b28fc4345652b5b07578ce8bbb887aba0b4b1498c040862c957e68a40e7c",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.15": {
+    "sha256": "cc51ecb6295084d5facd26794997e90fc866125fdd6efcd5b8c0ee81ea20abe8",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.16": {
+    "sha256": "ce01ddd0f282ac69b184cd13087c60d6a569d4a95516e8a43701a191339df7d2",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.17": {
+    "sha256": "5cb039397a300283780552b310a18760069e31912eeeff36704d4023443c3792",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.18": {
+    "sha256": "bea73c3c2a5e4c72b72fb156519ad74df8c0e9f40c02e24718062226df2a8404",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.19": {
+    "sha256": "28c250411a8f333e051a32810692518cdb31db6b43958a1699122818c20e243c",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.20": {
+    "sha256": "1a68bd50db47b587e46c0315c227a6ec849086859a5b4dcfa6e3d0c69310ef8b",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.21": {
+    "sha256": "f7ef4aef9891048335df389275448e4bdee4f71a9f791d9e08fbfe8a7bcc8ed5",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.22": {
+    "sha256": "b6dc3851ee69139ea028509f5348987198dd52df77d4b24b27c032f5f831d9f3",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.23": {
+    "sha256": "93169b06fa6070a2c424d4c1a86f2a04d776133d7094e3446483485b0f2b7dbe",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.24": {
+    "sha256": "020611086c7094dd2451764a4cc8d0bdb93182e6131b288b0d9dfd8ee66dee43",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.25": {
+    "sha256": "73a55e4f7bef6552d63fc9ec1f9cedac1795155921f62b3611e893f8767b6457",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.26": {
+    "sha256": "43355a90758c45b6c733b1df696aaf9a69374c415a79fefdb61e1dd4e4900a79",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.27": {
+    "sha256": "a1f6e26537ff34e62ce9ed6077c11bdf394432a532c945fb2e2b9ed89726c294",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.28": {
+    "sha256": "1f645be46448e279986af5b37f05c692a18946877396da6be6a95101d6240359",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.29": {
+    "sha256": "c53487deb97388638a05e1828ad436de3a63716d29a6c33ac1daac9d53fef3b3",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.30": {
+    "sha256": "3a1021d1f250cbf39d8461886879238453b56e10af15230e77c75dae69fdb22d",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.4.31": {
+    "sha256": "8954062e917560db2fb3640b821538193872b17df166c0c1a5123bf8ef8c6bee",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.1": {
+    "sha256": "a0eff69ff11737e36b8effb2d976103e22fdd740e4958324011d9db843c161d9",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.2": {
+    "sha256": "ed4759f70df665efcba760132f1f100ff274746c38f3816afe473ca5c97ff786",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.3": {
+    "sha256": "31df9b8ba90dcd7897b316c4c6e4f04081a2d392b0bd5398cd0ca47dc4b7c834",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.4": {
+    "sha256": "d310257c1449226e61f1615b2e61ff69ebafece467d60e8f54bf3e73f8ce345d",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.5": {
+    "sha256": "126242dd20236b62082e031f42da41b6a01abe984e2f8ff85ecdaefab6cb709a",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.6": {
+    "sha256": "72534689342ebae8e8db870441133109b745ab624f7986473608302aa3d5ec08",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.7": {
+    "sha256": "946a831c7d4d1540918d812e35eafc62a6c4d88aded9a408be558871d25a577e",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.8": {
+    "sha256": "beb9adb8aa31b00540a4efc550bad55567f39a91febb648c064780a3eda57f79",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.9": {
+    "sha256": "28837eb500e0b4a1018572c0ffa1d0c07a7564daa985766858e1464a24a437f6",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.10": {
+    "sha256": "922631df7568660b1a6cf1d65257c113d03fddbf1ca68c2674f007b16b5daff2",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.11": {
+    "sha256": "40b96d69cec360f56cffb32645c5251d16e0e6b271b63408882383a73d344d8c",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.12": {
+    "sha256": "d23363b1d1bb1fb67c817a54bc5db4226609efa6fc3e861d743b3ac59eb66155",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.13": {
+    "sha256": "d3469ae4ad693c017ca253053b49021fa823b77362b675f0e74de2228f525cd1",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.14": {
+    "sha256": "42e58ad93e346c5909e19d6b75be7706ffaf918d4a74ca1fcc94c44c1a3f2a7e",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.15": {
+    "sha256": "d62fc518778d588f8bfa48cd5ce633103b1452e30aa892d6e71bf1cd0f0bcc7e",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.16": {
+    "sha256": "5fa4c0d1f3b4288f2ef22449a4991ac20422d18fc451e7c34a1b40952732f37b",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.17": {
+    "sha256": "ad7bf3c6174f8405e656402a1479ebe9aeb7ad71df76edcd636b3d0f6cffe013",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.18": {
+    "sha256": "886c66993e82efca54103a0c078c6574af8fd50d81e58fdda8fe904a4d301fcf",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.19": {
+    "sha256": "642e7f1271a0711c485b00eab92fc545aea479e9359262cfb21dd19b2644fb53",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.20": {
+    "sha256": "1a68bd50db47b587e46c0315c227a6ec849086859a5b4dcfa6e3d0c69310ef8b",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.21": {
+    "sha256": "79001b0d12a554d864361591b91e524d673cb1870ac71715b857caab44e04ecf",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.22": {
+    "sha256": "4097526af343c3937fd82cc703761d404eb6f19cb071ed50d9b470170c0974c3",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.23": {
+    "sha256": "46e009e9a49ccb74e546ad523515ec3d9f610e4f3f1c3b06d20d475a933e0ebd",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.24": {
+    "sha256": "91569ca84d1fa4a40e765415dd4bcbc619c077b04adb2529f4f03d52fb455ec5",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.25": {
+    "sha256": "6500375e639c4bb2619c60962cfeeff6774ba66258572ad5c0ef74fa41e0cbbc",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.26": {
+    "sha256": "2a351c2a420125643a811e6bf728aa6328538552416e9dbcb8f231c5d84ef557",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.27": {
+    "sha256": "a1f6e26537ff34e62ce9ed6077c11bdf394432a532c945fb2e2b9ed89726c294",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.28": {
+    "sha256": "4b450f138b981555883de8942afa89388127591e7e048d96e7b5c96ef1918cb2",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.29": {
+    "sha256": "1c13fe0dc499f9f8d22e8148c765f8077aae8e19689b9f6d582927338c31923c",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.30": {
+    "sha256": "e8c089bad50a6f4a49c8d350259247caebabbfa90173eefd53e350d8c4fc06fc",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.5.31": {
+    "sha256": "a153ad5dbc6421e9d173dc89f9a147adafb0ca67686606a4a50e69fd5954c89e",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p5"
+  },
+  "eq:2.6.1": {
+    "sha256": "78ec10c02d3bf020d968a3b7430db56257e05133a3ed753dfea98077a4252c18",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:2.6.2": {
+    "sha256": "4a6f42c70b185874237fb962510fe9f6f3b7aadd833807e90976fef574384228",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:2.6.3": {
+    "sha256": "19e518682655d0d1734e23f3da39302f4c2cf99ae1aed7e5e6544829fd31877d",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:2.6.4": {
+    "sha256": "072a51f784a15165047cdde39f96a47caa7045856cbfcd9edfa4f8eeb75c6737",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:2.6.5": {
+    "sha256": "f7a9c96307e38c19d6e2f37b7df21d74ccfb9026fc656965ad4882b9c0d808aa",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:2.6.6": {
+    "sha256": "0ac65c31e18ccc4c2ce68ac9272c462226f3d005623bc9970e00af73cbdf522b",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:2.6.7": {
+    "sha256": "3a5c5d85e901e80591ffedece743853e9afee41e3aeb8cdd4dad490374adebab",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:2.6.8": {
+    "sha256": "bd12f72885eb5feab293b3181f99ab1e568df40047f1c37f9d66dcde4d6232c6",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:2.6.9": {
+    "sha256": "c6a3e2647c08ce33c77cc7907ca48e140aaa986432113494a1965af0ef86a7df",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:2.6.10": {
+    "sha256": "7ea71e4e92bbe28d89c9dc88bb62f6173ff62cd60dd3e744db495e00832a7736",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:2.7.1": {
+    "sha256": "893d942382ab559b353df6ff586b27f206e219d89ad3d201897164c0209a1249",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:2.7.2": {
+    "sha256": "8588492a374358bc90d7452cb7401e9b42823b4d464a9238d5ce48ab1e8a87f1",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:2.7.3": {
+    "sha256": "d861983ea11ebdbfcd8cfb862e4e6b3b959e095d7f9718c03ff624b64ab94e47",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:2.7.4": {
+    "sha256": "316e85e0755b1c4244ea64d1dc196b5657cb094ac4fa18188304f1ee07456ccd",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:2.7.5": {
+    "sha256": "cb40663977bfc5812742fe3c570f5f566191115c6a851961d2b534ec2b74b308",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:2.7.6": {
+    "sha256": "4fdc9eff37b5d9baf714782701b69d35dd52e762232a37418026ea37d657cc9f",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:2.7.8": {
+    "sha256": "357e06ba5872ea0ccea04ea0080497bee214db37c8ea72698e8319c30d61d181",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:2.7.9": {
+    "sha256": "a90f959b4beeac307b13b41cc78e5c6eefb66c6cee37a963b1f2657850b51d9a",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:2.7.10": {
+    "sha256": "453b902d7c042e4d15d348f16f123b41d1c97c15387156348476b979448cbe29",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:2.7.11": {
+    "sha256": "fe078a8490f67d1d1599e4f12b556bbd0cf6b2488e2d350d3257be78da7c2d5e",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:2.7.12": {
+    "sha256": "13c97b4b8ec76a44afe7292935f9366b50902566530e9ce2cdd2b03a69ca1f39",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:2.7.13": {
+    "sha256": "64d06d227830f934e932450e58ba6cb6886d54b0664efe4ba20980230412919f",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p6"
+  },
+  "eq:3.2.1": {
+    "sha256": "09be6b54793b8aa8297f8a0b73cbef9a6a888a0b3a35b315b8a38acb91ceffb5",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p7"
+  },
+  "eq:3.2.2": {
+    "sha256": "78f2b8b9c8bb6a45432e39c50d0fecb3018faeea6101e57fa03c1c5604770280",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p7"
+  },
+  "eq:3.2.3": {
+    "sha256": "cdf73d255e86e677bd9274304109abc033fe526b2077cf8c2e1a68a190c998f7",
+    "method": "rucni matematicki dokaz i navedene nezavisne racunske provere",
+    "proof": "code/PREGLED_DOKAZA.md#p7"
+  }
+}

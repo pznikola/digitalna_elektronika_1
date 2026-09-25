@@ -57,3 +57,16 @@ Duplirana oznaka 3.4.4 iz izvora zamenjena je jedinstvenim automatskim brojevima
 Jednačine 3.4.12, 3.4.13, 3.4.16 i 3.4.17, ručno rekonstruisane iz složenijih Word zapisa, takođe imaju oznake `eq:<izvorna oznaka>`. Tri formule koje su u DOCX bile WMF slike prenete su kao izmenjiva matematika u zadatku 3.2, uključujući zadate iskaze koje student treba da proveri.
 
 Izvorni blokovi tabela (uključujući Word raspored formula): 34, 35, 39, 40, 49, 53, 70, 72, 79, 87, 89, 97, 99, 108, 110, 116, 136, 145, 148, 152, 154, 158, 160, 164, 168, 170. Svaki ima komentar porekla u glavnom LaTeX fajlu.
+
+## Ponovna provera 25. 9. 2026.
+
+Provereno je 12 zadataka, 35 numerisanih jednačina, 22 sadržinske tabele (četiri simbolička prikaza postupaka u uvodu, 16 tabela konkretnih računskih postupaka i dve funkcionalne tabele) i osam ilustracija. Ilustracija `karno` sadrži tri zasebne karte, ukupno 48 ćelija i 11 implicanata. Naslovna tabela sa kontaktima evidentira se odvojeno.
+
+Šesnaest postupaka ima nove oznake `tab:postupak-1`–`tab:postupak-16`, nazive i ponovljena zaglavlja nastavaka. Njihov sadržaj i redosled ostali su isti. Ranije nenazvane numerisane formule dobile su oznake `eq:racun-1`–`eq:racun-14`. U proverama se prati svih 54 komplementnih/neoznačenih operacija, osam ZA izraza (pet objavljenih rezultata), šest množenja i tri deljenja sa ukupno 26 koraka. Rešenja samostalnih pottačaka nisu dopisana. Matematika i konkretne veze dokumentovane su u `code/PREGLED_DOKAZA.md` i `code/pregled_izvora.json`. Pregledano je svih 27 konačnih stranica.
+
+
+### Dopuna prikaza posle korisničkog pregleda
+
+Broj zadataka, 35 numerisanih jednačina, 22 sadržinske tabele i osam ilustracija nisu promenjeni. Tabele `tab:postupak-8`–`tab:postupak-16` sada sadrže pisani račun, umesto prethodnog sažetog pregleda po koracima. Šest množenja obuhvata oba izvorna postupka; tri deljenja imaju 18 oduzimanja i 15 dopisivanja, uz grupisanje početnog prefiksa kao u originalu. Sve vrednosti, početne cifre i konačni rezultati su obuhvaćeni. U prvoj tabeli odeljka 1.4 vraćena je strelica kružnog prenosa. U `fig:kmap` dodata je ispuna postojećih grupa; u `fig:adder` direktne veze i zamenjen raspored ulaza desnog I kola. Detalji i razlog su u nalazima 04-A13–A16. Prethodni brojevi koraka i opisi sažetih tabela odnose se na raniju verziju.
+
+Dopuna 04-A17: u Slici 7 (`fig:x`) D₁ je prebačen sa dijagonalnog voda na horizontalni odvod iste vertikale S, uz tačku spoja. Broj slika i funkcija nisu promenjeni.

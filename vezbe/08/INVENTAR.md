@@ -18,3 +18,7 @@ Svih 10 izvornih zadataka i njihove tačke/rešenja uključeni su, u istom redos
 Ukupno 19 izvornih ilustracija preneto je u 20 vektorskih crteža (jedna složena slika razdvojena je na dva crteža). Tabele 10.1 i 10.2 imaju oznake `tab:10.1` i `tab:10.2`. Dve dodatne numeričke tabele sređuju rezultate zadataka 1 i 4.
 
 Izvorne numerisane jednačine (1.1)–(1.8), (2.1)–(2.3), (3.1)–(3.8), (4.1), (8.1)–(8.2), (10.1)–(10.2) zadržavaju stabilne oznake `eq:<izvorna oznaka>`. Izvorne nenumerisane formule imaju nova numerisana okruženja ili ostaju u pratećem tekstu. Preneti su oba Šenonova razlaganja, izvorni početni izraz zadatka 8 sa svim negacijama, sva vremena promena iz zadatka 9 i svi parametri modela.
+
+## Potpuni pregled 2026-09-25
+
+Konačni dokument ima 25 PDF stranica (uključujući naslovnu). Provereno je 38 numerisanih jednačina, sve nenumerisane formule i izrazi, četiri sadržinske tabele (uz tabelu autora na naslovnoj), 20 izmenjivih crteža i svih deset zadataka/pottačaka. Nema izostavljenog odeljka za samostalni rad. `code/PREGLED_DOKAZA.md` P0–P10 daje dokaze po celinama; `code/pregled_izvora.json` otiske svih jednačina i ilustracija. Numeričke tabele sada nose `tab:1.nivoi` i `tab:4.prag`. Ranije ispravke 08-01–08-25 ponovo su proverene; dodatni nalazi 08-A01–08-A09 i ograničenja 08-L01–08-L05 nalaze se u izveštaju.

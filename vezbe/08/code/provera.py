@@ -80,6 +80,6 @@ for t in events:
 check(trace==[(0,1),(1,1),(1.5,0),(2,1),(3,0),(4,1),(5,0),(6,1),(7,0),(7.5,0),(8,1),(9,1),(10,1),(11,1)])
 base=Path(__file__).resolve().parents[1];tex=(base/'08_mos.tex').read_text();labels=re.findall(r'\\label\{([^}]+)\}',tex);refs=re.findall(r'\\(?:eqref|ref)\{([^}]+)\}',tex)
 check(len(set(labels))==len(labels));check(set(refs)<=set(labels));check(len(re.findall(r'\\section\{Zadatak',tex))==10)
-for row,y in enumerate(truth):check('\\texttt{'+format(row,'04b')+'} & '+str(y) in tex)
-for value in ['0.611288','0.537965','4.49558','0.733564','1.700827']:check(value in tex)
-print(f'08: {count} provera prošlo (MOS, dimenzije, sve kombinacije logike, TG sa Z, vremenski dijagram).')
+from audit_math import run
+run(base,check)
+print(f'08: {count} uspešnih provera MOS modela, stvarnih veza, formula, tabela i vremenskih dijagrama.')

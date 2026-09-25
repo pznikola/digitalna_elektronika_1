@@ -1,0 +1,356 @@
+[
+  {
+    "id": "01-R01",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "U drugom delu računskih vežbi obrađivaćemo jednu vrstu hazarda karakterističnih za\nsekvencijalne mreže. Ta vrsta hazarda naziva statički hazardi i manifestuje se pojavom lažnih\nnula i jedinica na izlazu logičkog kola. U okiru praktičnih primera predstavićemo pristup koji\nse može iskoristiti za uklanjanje statičkih hazarda. Međutim, treba imati u vidu da se u većini\npraktičnih situacija statički hazardi rešavaju korišćenjem metoda simulacije digitalnih kola.",
+    "new": "U drugom delu vežbi proučavamo statičke hazarde u kombinacionim mrežama:\nkratkotrajnu lažnu nulu kada izlaz treba da ostane na jedinici (statički hazard 1),\nodnosno lažnu jedinicu kada treba da ostane na nuli (statički hazard 0).\nUzrok su različita kašnjenja rekonvergentnih putanja. Simulacija može da otkrije\nimpuls za ispitane prelaze i kašnjenja; sama simulacija ne uklanja hazard niti\nodsustvo impulsa u jednom modelu dokazuje odsustvo hazarda.\nU dvonivojskoj realizaciji ZP/PZ, uz promenu samo jednog ulaza, statički hazard\nsprečavamo zajedničkim pokrivanjem svakog para susednih jedinica/nula odgovarajućim\nimplikantom/implikatom. Ova garancija ne obuhvata proizvoljne istovremene promene više ulaza.",
+    "why": "MIT 6.004, 4.1, glitches; UMBC Lab 7. Simulacija proverava izabrani model, dok uklanjanje zahteva promenu realizacije. Uslov zajedničkog pokrivanja važi za dvonivojsku realizaciju i jednu promenu ulaza.",
+    "type": "stručna",
+    "original_line": 402
+  },
+  {
+    "id": "01-R02",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "Rezultat dobijen\nprimenom ove metode garantuje minimalnost po pitanju broja logičkih kola ali i po pitanju\nbroja ulaza.",
+    "new": "Karnoova karta omogućava nalaženje minimalnog dvonivojskog pokrivanja u formi\nZP ili PZ (najpre broj članova, zatim broj literala). To nije dokaz globalno\nnajmanjeg broja kola u proizvoljnoj višenivojskoj realizaciji ili biblioteci koja\nsadrži i XOR kola. Pri poređenju realizacija posebno računamo invertore i broj ulaza kola.",
+    "why": "Minimalnost dvonivojskog izraza i minimalnost viš nivojskog sklopa nisu ista optimizaciona tvrdnja. Primer XOR iz zadatka 3 pokazuje razliku.",
+    "type": "stručna",
+    "original_line": 437
+  },
+  {
+    "id": "01-R03",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "Za realizaciju funkcije~\\eqref{eq:zad21_min_zp} potrebna su 3 I i 2 ILI logička\nkola. Isti broj kola potreban je i za realizaciju funcije~\\eqref{eq:zad21_min_pz}. Dakle, obe minimalne forme daju\nisti broj logičkih kola.",
+    "new": "Za realizaciju funkcije~\\eqref{eq:zad21_min_zp} potrebna su tri I kola i jedno\ntroulazno ILI kolo; za~\\eqref{eq:zad21_min_pz} tri ILI kola i jedno troulazno I kolo.\nObe realizacije dodatno zahtevaju tri invertora za $A$, $C$ i $D$, ako negacije\nnisu dostupne: ukupno sedam kola. Dvostruka invertovanja za razvod direktnih\nulaza nisu potrebna. Na šemama istoimene oznake predstavljaju isti električni signal.",
+    "why": "Direktno brojanje članova: 3 prvostepena kola, jedno izlazno i 3 potrebne negacije; izvorni broj 3 I + 2 ILI ne odgovara funkciji niti šemi.",
+    "type": "stručna",
+    "original_line": 503
+  },
+  {
+    "id": "01-R04",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "\\begin{equation}\nY = \n\\overline{\n\\overline{ (C + \n\\overline{ \\overline{ (A + D)(\\bar{A} + \\bar{D})) }}\n} \n+ \n\\overline{ ( B + \\bar{C}) }\n}\n\\label{eq:zad21_pz_tran_4}\n\\end{equation}",
+    "new": "\\begin{equation}\nY = \\overline{\\overline{C + \\overline{\\overline{(A+D)(\\bar A+\\bar D)}}} + \\overline{B+\\bar C}}\n\\label{eq:zad21_pz_tran_4}\n\\end{equation}",
+    "why": "Uklonjene su neuparene zagrade iz NOR transformacije; sve jednakosti proveravaju se za 16 ulaza.",
+    "type": "matematički zapis",
+    "original_line": 687
+  },
+  {
+    "id": "01-R05",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "\\begin{equation}\nY = \n\\overline{\n\\color{Bittersweet}{ \\overline{ (C + \n\\color{ForestGreen}{ \\overline{ \n\\color{red}{ \\overline{ (A + D) } }\n\\color{ForestGreen}{ + }\n\\color{blue}{ \\overline{ (\\bar{A} + \\bar{D})) } }\n}}\n} }\n\\color{black}{ + }\n\\color{Plum}{ \\overline{ ( B + \\bar{C}) } }\n}\n\\label{eq:zad21_pz_tran_5}\n\\end{equation}",
+    "new": "\\begin{equation}\nY = \\overline{\\overline{C + \\overline{\\overline{A+D}+\\overline{\\bar A+\\bar D}}} + \\overline{B+\\bar C}}\n\\label{eq:zad21_pz_tran_5}\n\\end{equation}",
+    "why": "Uklonjene su neuparene zagrade iz NOR transformacije; sve jednakosti proveravaju se za 16 ulaza.",
+    "type": "matematički zapis",
+    "original_line": 692
+  },
+  {
+    "id": "01-R06",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "Y_{MIN\\_ZP} = \\bar{C}\\bar{D}",
+    "new": "Z_{MIN\\_ZP} = \\bar{C}\\bar{D}",
+    "why": "Izlaz zadatka 2 je Z, a ne Y.",
+    "type": "oznake",
+    "original_line": 836
+  },
+  {
+    "id": "01-R07",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "Y_{MIN\\_PZ} = (\\bar{B} + \\bar{C})",
+    "new": "Z_{MIN\\_PZ} = (\\bar{B} + \\bar{C})",
+    "why": "Izlaz zadatka 2 je Z, a ne Y.",
+    "type": "oznake",
+    "original_line": 841
+  },
+  {
+    "id": "01-R08",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "Na slici 11 je",
+    "new": "Na slici~\\ref{fig:zadatak3} je",
+    "why": "Ručni broj može postati netačan posle preloma.",
+    "type": "reference",
+    "original_line": 1030
+  },
+  {
+    "id": "01-R09",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "je prikazan na slici 13",
+    "new": "je prikazan na slici~\\ref{fig:zadatak4r}.",
+    "why": "Ručni broj zamenjen referencom.",
+    "type": "reference",
+    "original_line": 1078
+  },
+  {
+    "id": "01-R10",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "Na slici\n14 je",
+    "new": "Na slici~\\ref{fig:kmap-zad4} je",
+    "why": "Ručni broj zamenjen referencom.",
+    "type": "reference",
+    "original_line": 1098
+  },
+  {
+    "id": "01-R11",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "Na\nslici 21 su obeleženi svi prelazi koji mogu dovesti do pojave lažnih jedinica",
+    "new": "Na slici~\\ref{fig:kmap-zad6-marked} obeleženi su svi takvi prelazi.",
+    "why": "Ručni broj zamenjen referencom.",
+    "type": "reference",
+    "original_line": 1450
+  },
+  {
+    "id": "01-R12",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "koji potencijalno mogu uzrokovati pojavu lažnih nula i jedinica.",
+    "new": "koji potencijalno mogu uzrokovati pojavu lažnih nula.",
+    "why": "Zadatak 5 analizira statički hazard 1 u realizaciji ZP, ne tvrdi i statički hazard 0.",
+    "type": "stručna",
+    "original_line": 1297
+  },
+  {
+    "id": "01-R13",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "To su svi\nprelazi između dve susedne konture, koji se mogu desiti pri promeni najviše jednog od ulaznih\nsignala.",
+    "new": "To su prelazi između susednih polja sa jedinicom koja nisu pokrivena nijednim zajedničkim proizvodom, pri promeni tačno jednog ulaznog signala.",
+    "why": "Blizina ili preklapanje kontura samo po sebi nije kriterijum; bitno je zajedničko pokrivanje konkretnog para polja.",
+    "type": "stručna",
+    "original_line": 1284
+  },
+  {
+    "id": "01-R14",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "ima više\npotencijalno opasnih prelaza u pogledu pojave statičkih hazarda, odnosno generisanja lažne\njedinice na izlazu kola, u odnosu na realizaciju mreže u obliku zbira logičkih proizvoda.",
+    "new": "ima četiri para susednih nula bez zajedničkog pokrivanja, odnosno osam usmerenih prelaza sa mogućnošću pojave lažne jedinice. To su parovi $(3,11)$, $(4,5)$, $(7,15)$ i $(12,14)$, gde brojevi označavaju dekadne vrednosti ulaza $ABCD$.",
+    "why": "Iscrpno nabrajanje susednih nula precizira odgovor; ZP i PZ zahtevaju različitu proveru statičkih hazarda.",
+    "type": "stručna",
+    "original_line": 1446
+  },
+  {
+    "id": "01-R15",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "\\begin{tikzpicture}\n    % Put the Karnaugh map as a node\n    \\node (km) {\n      \\begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]\n        \\minterms{3,7,8,9,10,11,14,15}\n        \\maxterms{0,1,2,4,5,6,12,13}\n        % Groups of ones\n        \\implicant{8}{10}\n        \\implicant{3}{11}\n        \\implicant{14}{10}\n      \\end{karnaugh-map}\n    };\n\n    % Now draw an arrow roughly from “cell 15” to “cell 14”\n    % (tune the shifts until it hits exactly where you like)\n    \\draw[->,orange,line width=1.2pt]\n      ([xshift=-2.0cm,yshift=2.3cm]km.south east)  % near cell 15\n      -- ++(-0.4cm,0);                             % point toward cell 14\n    \\draw[<-,red,line width=1.2pt]\n      ([xshift=-2.0cm,yshift=2.6cm]km.south east)  % near cell 15\n      -- ++(-0.4cm,0);                             % point toward cell 14\n  \\end{tikzpicture}",
+    "new": "\\begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]\n        \\minterms{3,7,8,9,10,11,14,15}\n        \\maxterms{0,1,2,4,5,6,12,13}\n        % Groups of ones\n        \\implicant{8}{10}\n        \\implicant{3}{11}\n        \\implicant{14}{10}\n      \n\\draw[<->,blue!70!black,thick] ([yshift=2mm]001111.center) -- ([yshift=2mm]001110.center);\n\\end{karnaugh-map}",
+    "why": "Strelice su vezane za stvarna polja Karnoove karte; skup prelaza proveren iscrpnim nabrajanjem. Oba rubna nastavka označavaju isti par, ne dodatne prelaze.",
+    "type": "grafička",
+    "original_line": 1106,
+    "resolution": "Povučena izmena: izvorni prikaz nije bio stručna greška. Po zahtevu korisnika vraćen je originalni blok sa obe jednosmerne strelice, bojama, položajima i rubnim nastavcima.",
+    "superseded_by": "01-S07; vezbe/01/IZVESTAJ_ISPRAVKI.md",
+    "final": "\\begin{tikzpicture}\n    % Put the Karnaugh map as a node\n    \\node (km) {\n      \\begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]\n        \\minterms{3,7,8,9,10,11,14,15}\n        \\maxterms{0,1,2,4,5,6,12,13}\n        % Groups of ones\n        \\implicant{8}{10}\n        \\implicant{3}{11}\n        \\implicant{14}{10}\n      \\end{karnaugh-map}\n    };\n\n    % Now draw an arrow roughly from “cell 15” to “cell 14”\n    % (tune the shifts until it hits exactly where you like)\n    \\draw[->,orange,line width=1.2pt]\n      ([xshift=-2.0cm,yshift=2.3cm]km.south east)  % near cell 15\n      -- ++(-0.4cm,0);                             % point toward cell 14\n    \\draw[<-,red,line width=1.2pt]\n      ([xshift=-2.0cm,yshift=2.6cm]km.south east)  % near cell 15\n      -- ++(-0.4cm,0);                             % point toward cell 14\n  \\end{tikzpicture}"
+  },
+  {
+    "id": "01-R16",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "\\begin{tikzpicture}\n    % Put the Karnaugh map as a node\n    \\node (km) {\n      \\begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]\n        \\minterms{0,1,3,4,5,6,7,11,14,15}\n        \\maxterms{2,8,9,10,12,13}\n        % Groups of ones\n        \\implicant{0}{5}\n        \\implicant{3}{11}\n        \\implicant{6}{14}\n      \\end{karnaugh-map}\n    };\n\n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-2.0cm,yshift=2.4cm]km.south east)  % near cell 15\n      -- ++(-0.4cm,0);                             % point toward cell 14\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-2.0cm,yshift=2.7cm]km.south east)  % near cell 15\n      -- ++(-0.4cm,0);                             % point toward cell 14\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-2.0cm,yshift=3.3cm]km.south east)  % near cell 7\n      -- ++(-0.4cm,0);                             % point toward cell 6\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-2.0cm,yshift=3.6cm]km.south east)  % near cell 7\n      -- ++(-0.4cm,0);                             % point toward cell 6\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-1.0cm,yshift=3.3cm]km.south east)  % near cell 6\n      -- ++(-0.4cm,0);                             % point toward cell 4\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-1.0cm,yshift=3.6cm]km.south east)  % near cell 6\n      -- ++(-0.4cm,0);                             % point toward cell 4\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-5.0cm,yshift=3.3cm]km.south east)  % near cell 4\n      -- ++(-0.4cm,0);                             % point toward cell 6\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-5.0cm,yshift=3.6cm]km.south east)  % near cell 4\n      -- ++(-0.4cm,0);                             % point toward cell 6\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-3.0cm,yshift=3.3cm]km.south east)  % near cell 5\n      -- ++(-0.4cm,0);                             % point toward cell 7\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-3.0cm,yshift=3.6cm]km.south east)  % near cell 5\n      -- ++(-0.4cm,0);                             % point toward cell 7\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-3.0cm,yshift=4.3cm]km.south east)  % near cell 2\n      -- ++(-0.4cm,0);                             % point toward cell 3\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-3.0cm,yshift=4.6cm]km.south east)  % near cell 2\n      -- ++(-0.4cm,0);                             % point toward cell 3\n  \\end{tikzpicture}",
+    "new": "\\begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]\n        \\minterms{0,1,3,4,5,6,7,11,14,15}\n        \\maxterms{2,8,9,10,12,13}\n        % Groups of ones\n        \\implicant{0}{5}\n        \\implicant{3}{11}\n        \\implicant{6}{14}\n      \n\\draw[<->,blue!70!black,thick] ([yshift=2mm]000001.center) -- ([yshift=2mm]000011.center);\n\\draw[<->,blue!70!black,thick] ([yshift=2mm]000100.west) -- ++(-0.30,0);\n\\draw[<->,blue!70!black,thick] ([yshift=2mm]000110.east) -- ++(0.30,0);\n\\draw[<->,blue!70!black,thick] ([yshift=2mm]000101.center) -- ([yshift=2mm]000111.center);\n\\draw[<->,blue!70!black,thick] ([yshift=2mm]000110.center) -- ([yshift=2mm]000111.center);\n\\draw[<->,blue!70!black,thick] ([yshift=2mm]001110.center) -- ([yshift=2mm]001111.center);\n\\end{karnaugh-map}",
+    "why": "Strelice su vezane za stvarna polja Karnoove karte; skup prelaza proveren iscrpnim nabrajanjem. Oba rubna nastavka označavaju isti par, ne dodatne prelaze.",
+    "type": "grafička",
+    "original_line": 1210,
+    "resolution": "Povučena izmena: izvorni prikaz nije bio stručna greška. Po zahtevu korisnika vraćen je originalni blok sa obe jednosmerne strelice, bojama, položajima i rubnim nastavcima.",
+    "superseded_by": "01-S07; vezbe/01/IZVESTAJ_ISPRAVKI.md",
+    "final": "\\begin{tikzpicture}\n    % Put the Karnaugh map as a node\n    \\node (km) {\n      \\begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]\n        \\minterms{0,1,3,4,5,6,7,11,14,15}\n        \\maxterms{2,8,9,10,12,13}\n        % Groups of ones\n        \\implicant{0}{5}\n        \\implicant{3}{11}\n        \\implicant{6}{14}\n      \\end{karnaugh-map}\n    };\n\n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-2.0cm,yshift=2.4cm]km.south east)  % near cell 15\n      -- ++(-0.4cm,0);                             % point toward cell 14\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-2.0cm,yshift=2.7cm]km.south east)  % near cell 15\n      -- ++(-0.4cm,0);                             % point toward cell 14\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-2.0cm,yshift=3.3cm]km.south east)  % near cell 7\n      -- ++(-0.4cm,0);                             % point toward cell 6\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-2.0cm,yshift=3.6cm]km.south east)  % near cell 7\n      -- ++(-0.4cm,0);                             % point toward cell 6\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-1.0cm,yshift=3.3cm]km.south east)  % near cell 6\n      -- ++(-0.4cm,0);                             % point toward cell 4\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-1.0cm,yshift=3.6cm]km.south east)  % near cell 6\n      -- ++(-0.4cm,0);                             % point toward cell 4\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-5.0cm,yshift=3.3cm]km.south east)  % near cell 4\n      -- ++(-0.4cm,0);                             % point toward cell 6\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-5.0cm,yshift=3.6cm]km.south east)  % near cell 4\n      -- ++(-0.4cm,0);                             % point toward cell 6\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-3.0cm,yshift=3.3cm]km.south east)  % near cell 5\n      -- ++(-0.4cm,0);                             % point toward cell 7\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-3.0cm,yshift=3.6cm]km.south east)  % near cell 5\n      -- ++(-0.4cm,0);                             % point toward cell 7\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-3.0cm,yshift=4.3cm]km.south east)  % near cell 2\n      -- ++(-0.4cm,0);                             % point toward cell 3\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-3.0cm,yshift=4.6cm]km.south east)  % near cell 2\n      -- ++(-0.4cm,0);                             % point toward cell 3\n  \\end{tikzpicture}"
+  },
+  {
+    "id": "01-R17",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "\\begin{tikzpicture}\n    % Put the Karnaugh map as a node\n    \\node (km) {\n      \\begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]\n        \\minterms{0,1,3,4,5,6,7,11,14,15}\n        \\maxterms{2,8,9,10,12,13}\n        % Groups of ones\n        \\implicant{0}{5}\n        \\implicant{3}{11}\n        \\implicant{7}{14}\n      \\end{karnaugh-map}\n    };\n \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-1.0cm,yshift=3.3cm]km.south east)  % near cell 6\n      -- ++(-0.4cm,0);                             % point toward cell 4\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-1.0cm,yshift=3.6cm]km.south east)  % near cell 6\n      -- ++(-0.4cm,0);                             % point toward cell 4\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-5.0cm,yshift=3.3cm]km.south east)  % near cell 4\n      -- ++(-0.4cm,0);                             % point toward cell 6\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-5.0cm,yshift=3.6cm]km.south east)  % near cell 4\n      -- ++(-0.4cm,0);                             % point toward cell 6\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-3.0cm,yshift=3.3cm]km.south east)  % near cell 5\n      -- ++(-0.4cm,0);                             % point toward cell 7\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-3.0cm,yshift=3.6cm]km.south east)  % near cell 5\n      -- ++(-0.4cm,0);                             % point toward cell 7\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-3.0cm,yshift=4.3cm]km.south east)  % near cell 2\n      -- ++(-0.4cm,0);                             % point toward cell 3\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-3.0cm,yshift=4.6cm]km.south east)  % near cell 2\n      -- ++(-0.4cm,0);                             % point toward cell 3\n  \\end{tikzpicture}",
+    "new": "\\begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]\n        \\minterms{0,1,3,4,5,6,7,11,14,15}\n        \\maxterms{2,8,9,10,12,13}\n        % Groups of ones\n        \\implicant{0}{5}\n        \\implicant{3}{11}\n        \\implicant{7}{14}\n      \n\\draw[<->,blue!70!black,thick] ([yshift=2mm]000001.center) -- ([yshift=2mm]000011.center);\n\\draw[<->,blue!70!black,thick] ([yshift=2mm]000100.west) -- ++(-0.30,0);\n\\draw[<->,blue!70!black,thick] ([yshift=2mm]000110.east) -- ++(0.30,0);\n\\draw[<->,blue!70!black,thick] ([yshift=2mm]000101.center) -- ([yshift=2mm]000111.center);\n\\end{karnaugh-map}",
+    "why": "Strelice su vezane za stvarna polja Karnoove karte; skup prelaza proveren iscrpnim nabrajanjem. Oba rubna nastavka označavaju isti par, ne dodatne prelaze.",
+    "type": "grafička",
+    "original_line": 1248,
+    "resolution": "Povučena izmena: izvorni prikaz nije bio stručna greška. Po zahtevu korisnika vraćen je originalni blok sa obe jednosmerne strelice, bojama, položajima i rubnim nastavcima.",
+    "superseded_by": "01-S07; vezbe/01/IZVESTAJ_ISPRAVKI.md",
+    "final": "\\begin{tikzpicture}\n    % Put the Karnaugh map as a node\n    \\node (km) {\n      \\begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]\n        \\minterms{0,1,3,4,5,6,7,11,14,15}\n        \\maxterms{2,8,9,10,12,13}\n        % Groups of ones\n        \\implicant{0}{5}\n        \\implicant{3}{11}\n        \\implicant{7}{14}\n      \\end{karnaugh-map}\n    };\n \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-1.0cm,yshift=3.3cm]km.south east)  % near cell 6\n      -- ++(-0.4cm,0);                             % point toward cell 4\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-1.0cm,yshift=3.6cm]km.south east)  % near cell 6\n      -- ++(-0.4cm,0);                             % point toward cell 4\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-5.0cm,yshift=3.3cm]km.south east)  % near cell 4\n      -- ++(-0.4cm,0);                             % point toward cell 6\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-5.0cm,yshift=3.6cm]km.south east)  % near cell 4\n      -- ++(-0.4cm,0);                             % point toward cell 6\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-3.0cm,yshift=3.3cm]km.south east)  % near cell 5\n      -- ++(-0.4cm,0);                             % point toward cell 7\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-3.0cm,yshift=3.6cm]km.south east)  % near cell 5\n      -- ++(-0.4cm,0);                             % point toward cell 7\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-3.0cm,yshift=4.3cm]km.south east)  % near cell 2\n      -- ++(-0.4cm,0);                             % point toward cell 3\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-3.0cm,yshift=4.6cm]km.south east)  % near cell 2\n      -- ++(-0.4cm,0);                             % point toward cell 3\n  \\end{tikzpicture}"
+  },
+  {
+    "id": "01-R18",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "\\begin{tikzpicture}\n    % Put the Karnaugh map as a node\n    \\node (km) {\n      \\begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]\n        \\minterms{0,2,6,8,9,13}\n        \\maxterms{1,3,4,5,7,10,11,12,14,15}\n        % Groups of zeros\n        \\implicant{4}{12}\n        \\implicant{1}{7}\n        \\implicant{15}{10}\n      \\end{karnaugh-map}\n    };\n \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-1.0cm,yshift=2.45cm]km.south east)  % near cell 14\n      -- ++(-0.4cm,0);                             % point toward cell 12\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-1.0cm,yshift=2.65cm]km.south east)  % near cell 14\n      -- ++(-0.4cm,0);                             % point toward cell 12\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-5.0cm,yshift=2.45cm]km.south east)  % near cell 12\n      -- ++(-0.4cm,0);                             % point toward cell 14\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-5.0cm,yshift=2.65cm]km.south east)  % near cell 12\n      -- ++(-0.4cm,0);                             % point toward cell 14\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-4.0cm,yshift=3.45cm]km.south east)  % near cell 4\n      -- ++(-0.4cm,0);                             % point toward cell 5\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-4.0cm,yshift=3.65cm]km.south east)  % near cell 4\n      -- ++(-0.4cm,0);                             % point toward cell 5\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-2.6cm,yshift=3.2cm]km.south east)  % near cell 7\n      -- ++(0,-0.4cm);                             % point toward cell 15\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-2.8cm,yshift=3.2cm]km.south east)  % near cell 7\n      -- ++(0,-0.4cm);                             % point toward cell 15\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-2.6cm,yshift=5.2cm]km.south east)  % near cell 3\n      -- ++(0,-0.4cm);                             % point toward cell 11\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-2.8cm,yshift=5.2cm]km.south east)  % near cell 3\n      -- ++(0,-0.4cm);                             % point toward cell 11\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-2.6cm,yshift=1.2cm]km.south east)  % near cell 11\n      -- ++(0,-0.4cm);                             % point toward cell 3\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-2.8cm,yshift=1.2cm]km.south east)  % near cell 11\n      -- ++(0,-0.4cm);                             % point toward cell 3\n  \\end{tikzpicture}",
+    "new": "\\begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]\n        \\minterms{0,2,6,8,9,13}\n        \\maxterms{1,3,4,5,7,10,11,12,14,15}\n        % Groups of zeros\n        \\implicant{4}{12}\n        \\implicant{1}{7}\n        \\implicant{15}{10}\n      \n\\draw[<->,blue!70!black,thick] ([xshift=2mm]000011.north) -- ++(0,0.30);\n\\draw[<->,blue!70!black,thick] ([xshift=2mm]001011.south) -- ++(0,-0.30);\n\\draw[<->,blue!70!black,thick] ([yshift=2mm]000100.center) -- ([yshift=2mm]000101.center);\n\\draw[<->,blue!70!black,thick] ([yshift=2mm]000111.center) -- ([yshift=2mm]001111.center);\n\\draw[<->,blue!70!black,thick] ([yshift=2mm]001100.west) -- ++(-0.30,0);\n\\draw[<->,blue!70!black,thick] ([yshift=2mm]001110.east) -- ++(0.30,0);\n\\end{karnaugh-map}",
+    "why": "Strelice su vezane za stvarna polja Karnoove karte; skup prelaza proveren iscrpnim nabrajanjem. Oba rubna nastavka označavaju isti par, ne dodatne prelaze.",
+    "type": "grafička",
+    "original_line": 1372,
+    "resolution": "Povučena izmena: izvorni prikaz nije bio stručna greška. Po zahtevu korisnika vraćen je originalni blok sa obe jednosmerne strelice, bojama, položajima i rubnim nastavcima.",
+    "superseded_by": "01-S07; vezbe/01/IZVESTAJ_ISPRAVKI.md",
+    "final": "\\begin{tikzpicture}\n    % Put the Karnaugh map as a node\n    \\node (km) {\n      \\begin{karnaugh-map}(label=corner)[4][4][1][$D$][$C$][$B$][$A$]\n        \\minterms{0,2,6,8,9,13}\n        \\maxterms{1,3,4,5,7,10,11,12,14,15}\n        % Groups of zeros\n        \\implicant{4}{12}\n        \\implicant{1}{7}\n        \\implicant{15}{10}\n      \\end{karnaugh-map}\n    };\n \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-1.0cm,yshift=2.45cm]km.south east)  % near cell 14\n      -- ++(-0.4cm,0);                             % point toward cell 12\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-1.0cm,yshift=2.65cm]km.south east)  % near cell 14\n      -- ++(-0.4cm,0);                             % point toward cell 12\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-5.0cm,yshift=2.45cm]km.south east)  % near cell 12\n      -- ++(-0.4cm,0);                             % point toward cell 14\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-5.0cm,yshift=2.65cm]km.south east)  % near cell 12\n      -- ++(-0.4cm,0);                             % point toward cell 14\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-4.0cm,yshift=3.45cm]km.south east)  % near cell 4\n      -- ++(-0.4cm,0);                             % point toward cell 5\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-4.0cm,yshift=3.65cm]km.south east)  % near cell 4\n      -- ++(-0.4cm,0);                             % point toward cell 5\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-2.6cm,yshift=3.2cm]km.south east)  % near cell 7\n      -- ++(0,-0.4cm);                             % point toward cell 15\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-2.8cm,yshift=3.2cm]km.south east)  % near cell 7\n      -- ++(0,-0.4cm);                             % point toward cell 15\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-2.6cm,yshift=5.2cm]km.south east)  % near cell 3\n      -- ++(0,-0.4cm);                             % point toward cell 11\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-2.8cm,yshift=5.2cm]km.south east)  % near cell 3\n      -- ++(0,-0.4cm);                             % point toward cell 11\n      \n    \\draw[->,blue,line width=1.2pt]\n      ([xshift=-2.6cm,yshift=1.2cm]km.south east)  % near cell 11\n      -- ++(0,-0.4cm);                             % point toward cell 3\n    \\draw[<-,blue,line width=1.2pt]\n      ([xshift=-2.8cm,yshift=1.2cm]km.south east)  % near cell 11\n      -- ++(0,-0.4cm);                             % point toward cell 3\n  \\end{tikzpicture}"
+  },
+  {
+    "id": "01-R19",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "\\textbf{Napomena:} Kašnjenja dodata u kod se koriste samo za simulacije!",
+    "new": "\\textbf{Napomena:} Kašnjenja služe samo simulaciji. Zapis \\texttt{after T}\npodrazumeva inertno kašnjenje: kraći impulsi mogu biti potisnuti.\nTransportno kašnjenje (\\texttt{transport}) prenosi i takve impulse.\nZa zadati prelaz iz zadatka 4 ulazni impuls izlaznog kola traje tačno $T$;\nprikazani izlazni impuls traje od $2T$ do $3T$ posle promene $D$.\nOdsustvo impulsa u jednoj simulaciji nije opšti dokaz odsustva hazarda.",
+    "why": "VHDL podrazumeva inertno kašnjenje. GHDL provera će posebno obuhvatiti rub trajanja T i oba smera; navod o zadatku 4 eksplicitno je vezan za taj primer.",
+    "type": "pojašnjenje",
+    "original_line": 1176
+  },
+  {
+    "id": "01-R20",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "stepena integracija",
+    "new": "stepena integracije",
+    "why": "Pravopis, slaganje reči ili stručna terminologija.",
+    "type": "jezička",
+    "original_line": 152
+  },
+  {
+    "id": "01-R21",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "pravila koji važe",
+    "new": "pravila koja važe",
+    "why": "Pravopis, slaganje reči ili stručna terminologija.",
+    "type": "jezička",
+    "original_line": 376
+  },
+  {
+    "id": "01-R22",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "predstavljan su",
+    "new": "predstavljena su",
+    "why": "Pravopis, slaganje reči ili stručna terminologija.",
+    "type": "jezička",
+    "original_line": 376
+  },
+  {
+    "id": "01-R23",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "što minimalnijoj",
+    "new": "minimalnoj",
+    "why": "Pravopis, slaganje reči ili stručna terminologija.",
+    "type": "jezička",
+    "original_line": 424
+  },
+  {
+    "id": "01-R24",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "minimizaiciju",
+    "new": "minimizaciju",
+    "why": "Pravopis, slaganje reči ili stručna terminologija.",
+    "type": "jezička",
+    "original_line": 497
+  },
+  {
+    "id": "01-R25",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "formazbira",
+    "new": "forma zbira",
+    "why": "Pravopis, slaganje reči ili stručna terminologija.",
+    "type": "jezička",
+    "original_line": 547
+  },
+  {
+    "id": "01-R26",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "Daljim transformacija",
+    "new": "Daljim transformacijama",
+    "why": "Pravopis, slaganje reči ili stručna terminologija.",
+    "type": "jezička",
+    "original_line": 556
+  },
+  {
+    "id": "01-R27",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "Duplim komplementiranje",
+    "new": "Dvostrukim komplementiranjem",
+    "why": "Pravopis, slaganje reči ili stručna terminologija.",
+    "type": "jezička",
+    "original_line": 670
+  },
+  {
+    "id": "01-R28",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "Na osnovu primena",
+    "new": "Na osnovu primene",
+    "why": "Pravopis, slaganje reči ili stručna terminologija.",
+    "type": "jezička",
+    "original_line": 662
+  },
+  {
+    "id": "01-R29",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "slike slike",
+    "new": "slike",
+    "why": "Pravopis, slaganje reči ili stručna terminologija.",
+    "type": "jezička",
+    "original_line": 833
+  },
+  {
+    "id": "01-R30",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "Karnoova mape",
+    "new": "Karnoova karta",
+    "why": "Pravopis, slaganje reči ili stručna terminologija.",
+    "type": "jezička",
+    "original_line": 827
+  },
+  {
+    "id": "01-R31",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "Karnoove karta",
+    "new": "Karnoova karta",
+    "why": "Pravopis, slaganje reči ili stručna terminologija.",
+    "type": "jezička",
+    "original_line": 1169
+  },
+  {
+    "id": "01-R32",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "Karnove karte",
+    "new": "Karnoove karte",
+    "why": "Pravopis, slaganje reči ili stručna terminologija.",
+    "type": "jezička",
+    "original_line": 769
+  },
+  {
+    "id": "01-R33",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "Da bi smo",
+    "new": "Da bismo",
+    "why": "Pravopis, slaganje reči ili stručna terminologija.",
+    "type": "jezička",
+    "original_line": 1310
+  },
+  {
+    "id": "01-R34",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "brinarni",
+    "new": "binarni",
+    "why": "Pravopis, slaganje reči ili stručna terminologija.",
+    "type": "jezička",
+    "original_line": 1455
+  },
+  {
+    "id": "01-R35",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "vremenski dijagam",
+    "new": "vremenski dijagram",
+    "why": "Pravopis, slaganje reči ili stručna terminologija.",
+    "type": "jezička",
+    "original_line": 1056
+  },
+  {
+    "id": "01-R36",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "poroblem",
+    "new": "problem",
+    "why": "Pravopis, slaganje reči ili stručna terminologija.",
+    "type": "jezička",
+    "original_line": 1094
+  },
+  {
+    "id": "01-R37",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "funkcije defini\\v{s}e jedna\\v{c}ina",
+    "new": "funkcije definisane jednačinom",
+    "why": "Pravopis, slaganje reči ili stručna terminologija.",
+    "type": "jezička",
+    "original_line": 1088
+  },
+  {
+    "id": "01-R38",
+    "path": "vezbe/01/01_kombinacione_hazardi.tex",
+    "old": "postaje jednak logičkoj nuli",
+    "new": "postaje jednaka logičkoj nuli",
+    "why": "Pravopis, slaganje reči ili stručna terminologija.",
+    "type": "jezička",
+    "original_line": 1091
+  }
+]

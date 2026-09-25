@@ -1,0 +1,112 @@
+[
+  {
+    "line": 77,
+    "before": "U opštem slučaju, binarni kodovi se mogu razvrstati u 4 grupe:",
+    "after": "U ovim vežbama razmatramo sledeće vrste kodova. To nije podela na međusobno isključive grupe: svojstvo detekcije greške može imati i težinski, netežinski ili alfanumerički kod."
+  },
+  {
+    "line": 253,
+    "before": "Ukoliko je n=1, broju 0 odgovara Grejova kodna reč 0 dok broju 1 odgovara Grejova kodna reč 1",
+    "after": "Ukoliko je $n=1$, broju 0 odgovara Grejova kodna reč 0, a broju 1 kodna reč 1."
+  },
+  {
+    "line": 258,
+    "before": "prva polovina 2\\textsuperscript{n-1} kodnih reči se dobija",
+    "after": "prva polovina, koja sadrži $2^{n-1}$ kodnih reči, dobija se"
+  },
+  {
+    "line": 260,
+    "before": "druga polovina 2\\textsuperscript{n-1} kodnih reči se dobija",
+    "after": "druga polovina, koja sadrži $2^{n-1}$ kodnih reči, dobija se"
+  },
+  {
+    "line": 258,
+    "before": "za bit najveće težine",
+    "after": "za krajnji levi bit"
+  },
+  {
+    "line": 371,
+    "before": "s desna na levo",
+    "after": "zdesna nalevo"
+  },
+  {
+    "line": 389,
+    "before": "Cifra najveće težine se prepisuje",
+    "after": "Krajnji levi bit se prepisuje."
+  },
+  {
+    "line": 463,
+    "before": "Kao deo odgovora na postavljeno pitanje neophodno je uvesti termin",
+    "after": "Za opis razlike između dve reči uvodimo"
+  },
+  {
+    "line": 463,
+    "before": "dve binarne predstave date na istoj dužini bita",
+    "after": "dve binarne reči iste dužine"
+  },
+  {
+    "line": 582,
+    "before": "Broj kontrolnih bita $r$ za $m$ informacionih bita mora zadovoljiti:",
+    "after": "Za osnovni Hamingov kod (pre dodavanja opšteg bita parnosti), broj kontrolnih bita $r$ za $m$ informacionih bita mora zadovoljiti:"
+  },
+  {
+    "line": 602,
+    "before": "moguće zaštiti",
+    "after": "moguće zaštititi"
+  },
+  {
+    "line": 619,
+    "before": "Pozicije bita u kodnoj reči se obeležavaju polazeći od 1 i predstavljaju se u binarnoj formi",
+    "after": "Pozicije bita u kodnoj reči numerišu se zdesna nalevo, počev od 1, i zapisuju se binarno."
+  },
+  {
+    "line": 671,
+    "before": "Svaki od kontrolnih bita kontroliše odgovarajuće bite kodne reči tako što predstavlja njihov bit parnosti. Kontrolni bit na poziciji \\emph{i} kontroliše one bite koji se nalaze na pozicijama čija binarna vrednost ima jedinice na mestima gde i kontrolni bit ima jedinice.",
+    "after": "Kontrolni bit na poziciji $i=2^k$ pripada grupi svih pozicija čiji binarni indeks ima jedinicu na mestu $k$. Pri kodovanju bira se tako da cela grupa, uključujući njega, ima zadatu parnost. Pri proveri se računa parnost cele grupe; kontrolni bit se ne izračunava XOR-om grupe koja već uključuje njega samog."
+  },
+  {
+    "line": 775,
+    "before": "Kod „više 3“ i oba Grejova koda su netežinski; na primer, reč 0011 u kodu „više 3“ predstavlja nulu i ne može se tumačiti običnim nenegativnim pozicionim težinama.",
+    "after": "Kod „više 3“ i oba ovde korišćena Grejova koda nemaju fiksne aditivne težine. Za „više 3“, reči za cifre $0,1,2,3$ zahtevale bi redom $w_1+w_0=0$, $w_2=1$, $w_2+w_0=2$, $w_2+w_1=3$. Poslednje tri daju $w_0=1$, $w_1=2$, suprotno prvom uslovu. Za oba Grejova koda početne reči $00,01,11,10$ za brojeve $0,1,2,3$ zahtevale bi $w_0=1$, $w_1+w_0=2$ i $w_1=3$, što je takođe protivrečno. Vodeće nule ne utiču na ovaj dokaz."
+  },
+  {
+    "line": 744,
+    "before": "101001.100101, 10010011.1110101, 1011.101001",
+    "after": "101001.100101, 10010011.1110101, 1011.101001\n\n\\napomena{Za kodove decimalnih cifara usvajamo da su izostavljene samo spoljne nule: nepotpunu četvorku celog dela dopunjujemo sleva, a razlomljenog dela zdesna. To je pretpostavka o datim nizovima, a ne opšte pravilo očuvanja vrednosti pri produžavanju kodnih reči. Za binarni Grejov kod primenjujemo Grejovo kodovanje celog niza bita kao neoznačenog skaliranog celog broja; po dekodiranju zadržavamo izvorni broj razlomljenih bita.}"
+  },
+  {
+    "line": 780,
+    "before": "Kodovi decimalnih cifara grupišu se u četvorke od tačke ulevo i udesno; nepotpune spoljne grupe dopunjuju se nulama. Svaka grupa mora biti dozvoljena kodna reč. Za binarni Grejov kod ovde koristimo zapis sa fiksnom tačkom: dekodiramo ceo izvorni niz i zadržavamo izvorni broj razlomljenih bita. U tom postupku se razlomljeni deo ne dopunjava nulama radi grupisanja.",
+    "after": "Primenom pretpostavki iz postavke dobijamo tabelu~\\ref{tab:dekodiranje}. Svaka četvorka decimalnog koda mora biti dozvoljena; znak „--“ označava nedozvoljenu reč. Kod binarnog Grejovog zapisa tačka se vraća tek posle dekodiranja celog niza, bez dopisivanja bita."
+  },
+  {
+    "line": 935,
+    "before": "\\noindent\\textbf{BCD}: $23",
+    "after": "Za kodove decimalnih cifara koristimo osam bita, a za binarni Grejov kod pet bita. Skup suseda zavisi od te širine; vodeće nule u većoj širini dale bi dodatne susede.\\par\n\\noindent\\textbf{BCD}: $23"
+  },
+  {
+    "line": 1068,
+    "before": "mogu se korigovati do jedne i detektovati do tri greške",
+    "after": "može se korigovati jedna i detektovati do tri greške"
+  },
+  {
+    "line": 1095,
+    "before": "sa parnom parnosti",
+    "after": "sa parnom parnošću"
+  },
+  {
+    "line": 1095,
+    "before": "sa neparnom parnosti",
+    "after": "sa neparnom parnošću"
+  },
+  {
+    "line": 1176,
+    "before": "kodom sa H\\textsubscript{d} = 4",
+    "after": "kodom sa $d_{\\min}=4$"
+  },
+  {
+    "line": 756,
+    "before": "u \\ref{sec:",
+    "after": "u odeljku~\\ref{sec:"
+  }
+]

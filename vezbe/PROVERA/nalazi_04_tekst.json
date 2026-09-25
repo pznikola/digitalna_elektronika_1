@@ -1,0 +1,116 @@
+[
+  {
+    "before": "\\left( x_{i}\\  + \\ y_{i}\\  + c_{i} \\right)\\ mod\\ r",
+    "after": "\\left( x_i+y_i+c_i \\right)\\bmod r",
+    "reason": "mod je matematički operator, ne proizvod slova m, o, d.",
+    "line": 83
+  },
+  {
+    "before": "\\left( x_{i} - \\ y_{i} - b_{i} \\right)\\ mod\\ r",
+    "after": "\\left( x_i-y_i-b_i \\right)\\bmod r",
+    "reason": "Isto za oduzimanje.",
+    "line": 115
+  },
+  {
+    "before": "\\emph{d}\\textsubscript{n+1} & \\emph{d}\\textsubscript{n}",
+    "after": "$-b_{n+1}$ & \\emph{d}\\textsubscript{n}",
+    "reason": "Prva kolona nije dodatna neoznačena cifra: negativan koeficijent poslednje pozajmice daje matematičku razliku.",
+    "line": 128
+  },
+  {
+    "before": "Početna pozajmica je $b_0$, dok $b_{n+1}=1$ označava da je umanjenik manji od umanjioca (uz ulaznu pozajmicu).",
+    "after": "Početna pozajmica je $b_0$, dok $b_{n+1}=1$ označava da je $X<Y+b_0$. Ako je $N=n+1$ broj celih cifara, tada je $X-Y-b_0=\\sum_{i=0}^{n}d_i r^i-b_{n+1}r^N$. Prva kolona poslednjeg reda zato prikazuje koeficijent $-b_{n+1}$, a ne neoznačenu cifru rezultata.",
+    "reason": "Razjašnjen vodeći koeficijent negativne razlike u opštoj tabeli.",
+    "line": 133
+  },
+  {
+    "before": "{\\emph{s}\\textsubscript{n+1}} & \\emph{s}\\textsubscript{n}",
+    "after": "--- & \\emph{s}\\textsubscript{n}",
+    "reason": "U KO izlazni prenos nije deo rezultata zadate širine.",
+    "line": 171
+  },
+  {
+    "before": "Oduzimanje brojeva u komplementu osnove se svodi na sabiranje u komplementu osnove gde se umesto umanjioca uzima njegova suprotna vrednost.",
+    "after": "Oduzimanje se svodi na sabiranje sa komplementiranom kodnom reči umanjioca, modulo $r^N$. Ako se pojavi najmanji predstavljivi broj, njegova pozitivna suprotna vrednost ne staje u istu širinu: modularno oduzimanje i dalje važi, ali prekoračenje treba odrediti za prvobitnu operaciju $X-Y$, a ne po znaku tog međukoda. Za binarni KO važi $\\mathrm{OF}=(x_n\\oplus y_n)(s_n\\oplus x_n)$, gde je $s_n$ znak razlike.",
+    "reason": "Pravilo sabiranja znakova nije dovoljan test za oduzimanje kada negacija minimalnog KO broja ne staje.",
+    "line": 176
+  },
+  {
+    "before": "Iako je prvi način zastupljeniji u slučaju standardnog množenja u decimalnom brojnom sistemu, takav pristup dovoljno tačno ne oslikava implementaciju množenja u digitalnoj logici. Alternativa, koja je pogodnija za implementaciju u digitalnoj logici, podrazumeva postupno određivanje međurezultata sabiranja.",
+    "after": "Parcijalne proizvode možemo sabrati odjednom ili postupno, čuvajući međuzbir posle svakog koraka. Prvi postupak odgovara paralelnom sabiranju parcijalnih proizvoda, a drugi uzastopnom sabiranju i pomeranju; oba imaju realizacije u digitalnoj logici. U zadacima su prikazana oba računska postupka.",
+    "reason": "Netačno je tvrditi da paralelno sabiranje parcijalnih proizvoda ne oslikava digitalnu implementaciju; množači postoje u oba oblika.",
+    "line": 219
+  },
+  {
+    "before": "brojeva brojnom u sistemu",
+    "after": "brojeva u brojnom sistemu",
+    "reason": "Red reči.",
+    "line": 256
+  },
+  {
+    "before": "u levo",
+    "after": "ulevo",
+    "reason": "Pravopis.",
+    "line": 1105
+  },
+  {
+    "before": "predstavljena realizacije",
+    "after": "predstavljena realizacija",
+    "reason": "Padež.",
+    "line": 1110
+  },
+  {
+    "before": "se bit najmanje težine setuje",
+    "after": "se bit najmanje težine postavlja",
+    "reason": "Terminologija.",
+    "line": 1105
+  },
+  {
+    "before": "Operacija deljenja neoznačenih binarnih brojeva se realizuje na isti način kao operacija deljenja neoznačenih decimalnih brojeva",
+    "after": "Postupak pisanog deljenja neoznačenih binarnih brojeva zasniva se na istom principu kao pisano decimalno deljenje. Delilac mora biti različit od nule. U celobrojnom deljenju određujemo količnik $Q$ i ostatak $R$ tako da je $X=YQ+R$, uz $0\\le R<Y$.",
+    "reason": "Uslovi deljenja i značenje ostatka; tvrdnja se odnosi na pisani algoritam, ne na sve hardverske realizacije.",
+    "line": 239
+  },
+  {
+    "before": "$(11)_{2}+(110)_{2}$ & $\\begin{array}{r}c:\\ 00000\\\\0000\\\\+1110\\\\\\hline 1110\\\\+0000\\\\\\hline 1110\\end{array}$",
+    "after": "$(11)_{2}+(110)_{2}$ & $\\begin{array}{r}c:\\ 11100\\\\1111\\\\+1110\\\\\\hline 1101\\\\+0001\\\\\\hline 1110\\end{array}$",
+    "reason": "KMV negativna nula 11 proširuje se u 1111; završni rezultat je nepromenjen, koraci sada čuvaju ulazni znak nule.",
+    "line": 523
+  },
+  {
+    "before": "$(11)_{2}-(010)_{2}$ & $\\begin{array}{r}c:\\ 00000\\\\0000\\\\+1101\\\\\\hline 1101\\\\+0000\\\\\\hline 1101\\end{array}$",
+    "after": "$(11)_{2}-(010)_{2}$ & $\\begin{array}{r}c:\\ 11110\\\\1111\\\\+1101\\\\\\hline 1100\\\\+0001\\\\\\hline 1101\\end{array}$",
+    "reason": "Isto za oduzimanje od negativne nule u KMV.",
+    "line": 555
+  },
+  {
+    "before": "Za sabiranje brojeva istog znaka sabiraju se apsolutne vrednosti i zadržava znak.",
+    "after": "Za sabiranje brojeva istog znaka sabiraju se apsolutne vrednosti i zadržava znak. Zbir mora stati u raspoloživo polje apsolutne vrednosti; inače postoji prekoračenje. Ako oduzimanje jednakih apsolutnih vrednosti daje nulu, unapred se bira jedan od dva zapisa nule.",
+    "reason": "Nedostajao je uslov širine i dogovor za znak nultog rezultata u ZA.",
+    "line": 149
+  },
+  {
+    "before": "Završni NILI može se realizovati",
+    "after": "Jednake oznake na odvojenim priključcima označavaju isti signal. Završni NILI može se realizovati",
+    "reason": "Eksplicitna konvencija imenovanih veza u komparatoru.",
+    "line": 950
+  },
+  {
+    "before": "Zajednički signal $p_1=a_1\\oplus b_1$ koristi se i za $s_1$ i za prenos:",
+    "after": "Zajednički signal $p_1=a_1\\oplus b_1$ koristi se i za $s_1$ i za prenos. Prenos iz bita 0 u bit 1 označavamo sa $c_1=a_0b_0$; ulazni prenos $c_0$ je nula. Jednake oznake u šemi predstavljaju isti signal:",
+    "reason": "Prenos u šemi ranije nazvan c0 sukobljavao se sa definicijom ulaznog prenosa c0 iz uvoda.",
+    "line": 1057
+  },
+  {
+    "before": "\\caption{Realizacija $X=(A+1)(B+1)$.}",
+    "after": "\\caption{Realizacija $X=(A+1)(B+1)$; raspored bita na granama označava pomeranje i dopunu nulama.}",
+    "reason": "Jasna konvencija prikaza magistrala; komplementi A imaju nacrtane invertore.",
+    "line": 1190
+  },
+  {
+    "before": "\\section{Zadaci za samostalni rad}",
+    "after": "\\clearpage\n\\section{Zadaci za samostalni rad}",
+    "reason": "Zasebna celina na novoj strani radi jasne pripadnosti zadataka.",
+    "line": 835
+  }
+]

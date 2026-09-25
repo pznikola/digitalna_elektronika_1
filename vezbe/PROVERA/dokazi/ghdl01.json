@@ -1,0 +1,56 @@
+[
+  {
+    "task": 1,
+    "mode": "zero-delay",
+    "states_or_transitions": 16,
+    "result": "pass"
+  },
+  {
+    "task": 2,
+    "mode": "zero-delay",
+    "states_or_transitions": 16,
+    "result": "pass"
+  },
+  {
+    "task": 3,
+    "mode": "zero-delay",
+    "states_or_transitions": 16,
+    "result": "pass"
+  },
+  {
+    "task": 4,
+    "mode": "inertial",
+    "states_or_transitions": 64,
+    "result": "pass"
+  },
+  {
+    "task": 4,
+    "mode": "transport",
+    "states_or_transitions": 64,
+    "result": "pass"
+  },
+  {
+    "task": 5,
+    "mode": "inertial",
+    "states_or_transitions": 64,
+    "result": "pass"
+  },
+  {
+    "task": 5,
+    "mode": "transport",
+    "states_or_transitions": 64,
+    "result": "pass"
+  },
+  {
+    "task": 6,
+    "mode": "inertial",
+    "states_or_transitions": 64,
+    "result": "pass"
+  },
+  {
+    "task": 6,
+    "mode": "transport",
+    "states_or_transitions": 64,
+    "result": "pass"
+  }
+]

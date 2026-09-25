@@ -1,0 +1,790 @@
+{
+  "schematics": {
+    "Images/Zadatak_1/Zadatak1_NI2Ulaza.drawio": {
+      "sha256": "a34a683315a0fb99355033b454f1af47913d555b09581a2ab52b54b269a220ce",
+      "method": "Ručno praćenje svih horizontalnih i vertikalnih vodova, tačaka spoja i negacionih kružića u izvornoj šemi i novom PDF izvozu; iscrpno računanje dobijene liste veza. Otisak poništava potvrdu ako se crtež promeni.",
+      "primary": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gates": [
+        {
+          "id": "wV_ZLbL0jdBk-8mqeLHV-85",
+          "output": "nA",
+          "op": "nand",
+          "inputs": [
+            "A_in",
+            "A_in"
+          ]
+        },
+        {
+          "id": "wV_ZLbL0jdBk-8mqeLHV-69",
+          "output": "A",
+          "op": "nand",
+          "inputs": [
+            "nA",
+            "nA"
+          ]
+        },
+        {
+          "id": "wV_ZLbL0jdBk-8mqeLHV-89",
+          "output": "nB",
+          "op": "nand",
+          "inputs": [
+            "B_in",
+            "B_in"
+          ]
+        },
+        {
+          "id": "wV_ZLbL0jdBk-8mqeLHV-73",
+          "output": "B",
+          "op": "nand",
+          "inputs": [
+            "nB",
+            "nB"
+          ]
+        },
+        {
+          "id": "wV_ZLbL0jdBk-8mqeLHV-93",
+          "output": "nC",
+          "op": "nand",
+          "inputs": [
+            "C_in",
+            "C_in"
+          ]
+        },
+        {
+          "id": "wV_ZLbL0jdBk-8mqeLHV-77",
+          "output": "C",
+          "op": "nand",
+          "inputs": [
+            "nC",
+            "nC"
+          ]
+        },
+        {
+          "id": "wV_ZLbL0jdBk-8mqeLHV-97",
+          "output": "nD",
+          "op": "nand",
+          "inputs": [
+            "D_in",
+            "D_in"
+          ]
+        },
+        {
+          "id": "wV_ZLbL0jdBk-8mqeLHV-81",
+          "output": "D",
+          "op": "nand",
+          "inputs": [
+            "nD",
+            "nD"
+          ]
+        },
+        {
+          "id": "wV_ZLbL0jdBk-8mqeLHV-107",
+          "output": "L",
+          "op": "nand",
+          "inputs": [
+            "nA",
+            "D"
+          ]
+        },
+        {
+          "id": "wV_ZLbL0jdBk-8mqeLHV-114",
+          "output": "M",
+          "op": "nand",
+          "inputs": [
+            "A",
+            "nD"
+          ]
+        },
+        {
+          "id": "wV_ZLbL0jdBk-8mqeLHV-115",
+          "output": "R",
+          "op": "nand",
+          "inputs": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "id": "wV_ZLbL0jdBk-8mqeLHV-116",
+          "output": "S",
+          "op": "nand",
+          "inputs": [
+            "L",
+            "M"
+          ]
+        },
+        {
+          "id": "wV_ZLbL0jdBk-8mqeLHV-119",
+          "output": "T",
+          "op": "nand",
+          "inputs": [
+            "nC",
+            "S"
+          ]
+        },
+        {
+          "id": "wV_ZLbL0jdBk-8mqeLHV-142",
+          "output": "Y",
+          "op": "nand",
+          "inputs": [
+            "T",
+            "R"
+          ]
+        }
+      ]
+    },
+    "Images/Zadatak_1/Zadatak1_NILI2Ulaza.drawio": {
+      "sha256": "469f7dbf56bfb81fa44aa1e1cdca7f20c9dc188c3029dc03dba7127dc8813e5b",
+      "method": "Ručno praćenje svih horizontalnih i vertikalnih vodova, tačaka spoja i negacionih kružića u izvornoj šemi i novom PDF izvozu; iscrpno računanje dobijene liste veza. Otisak poništava potvrdu ako se crtež promeni.",
+      "primary": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gates": [
+        {
+          "id": "mHVWQVWo2qXx4BTNTiwC-132",
+          "output": "nA",
+          "op": "nor",
+          "inputs": [
+            "A_in",
+            "A_in"
+          ]
+        },
+        {
+          "id": "mHVWQVWo2qXx4BTNTiwC-116",
+          "output": "A",
+          "op": "nor",
+          "inputs": [
+            "nA",
+            "nA"
+          ]
+        },
+        {
+          "id": "mHVWQVWo2qXx4BTNTiwC-137",
+          "output": "nB",
+          "op": "nor",
+          "inputs": [
+            "B_in",
+            "B_in"
+          ]
+        },
+        {
+          "id": "mHVWQVWo2qXx4BTNTiwC-119",
+          "output": "B",
+          "op": "nor",
+          "inputs": [
+            "nB",
+            "nB"
+          ]
+        },
+        {
+          "id": "mHVWQVWo2qXx4BTNTiwC-142",
+          "output": "nC",
+          "op": "nor",
+          "inputs": [
+            "C_in",
+            "C_in"
+          ]
+        },
+        {
+          "id": "mHVWQVWo2qXx4BTNTiwC-124",
+          "output": "C",
+          "op": "nor",
+          "inputs": [
+            "nC",
+            "nC"
+          ]
+        },
+        {
+          "id": "mHVWQVWo2qXx4BTNTiwC-147",
+          "output": "nD",
+          "op": "nor",
+          "inputs": [
+            "D_in",
+            "D_in"
+          ]
+        },
+        {
+          "id": "mHVWQVWo2qXx4BTNTiwC-128",
+          "output": "D",
+          "op": "nor",
+          "inputs": [
+            "nD",
+            "nD"
+          ]
+        },
+        {
+          "id": "mHVWQVWo2qXx4BTNTiwC-149",
+          "output": "L",
+          "op": "nor",
+          "inputs": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "id": "mHVWQVWo2qXx4BTNTiwC-152",
+          "output": "M",
+          "op": "nor",
+          "inputs": [
+            "nA",
+            "nD"
+          ]
+        },
+        {
+          "id": "mHVWQVWo2qXx4BTNTiwC-155",
+          "output": "R",
+          "op": "nor",
+          "inputs": [
+            "B",
+            "nC"
+          ]
+        },
+        {
+          "id": "mHVWQVWo2qXx4BTNTiwC-158",
+          "output": "S",
+          "op": "nor",
+          "inputs": [
+            "L",
+            "M"
+          ]
+        },
+        {
+          "id": "mHVWQVWo2qXx4BTNTiwC-162",
+          "output": "T",
+          "op": "nor",
+          "inputs": [
+            "C",
+            "S"
+          ]
+        },
+        {
+          "id": "mHVWQVWo2qXx4BTNTiwC-179",
+          "output": "Y",
+          "op": "nor",
+          "inputs": [
+            "T",
+            "R"
+          ]
+        }
+      ]
+    },
+    "Images/Zadatak_1/Zadatak1_NIProizInput.drawio": {
+      "sha256": "c2053275abcf76d22207db521ba3ad3504bf2670ec4f60f4bd7902ca7f80fe90",
+      "method": "Ručno praćenje svih horizontalnih i vertikalnih vodova, tačaka spoja i negacionih kružića u izvornoj šemi i novom PDF izvozu; iscrpno računanje dobijene liste veza. Otisak poništava potvrdu ako se crtež promeni.",
+      "primary": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gates": [
+        {
+          "id": "NCowYKzVjmd-w4KoS3Ua-111",
+          "output": "nA",
+          "op": "nand",
+          "inputs": [
+            "A_in",
+            "A_in"
+          ]
+        },
+        {
+          "id": "NCowYKzVjmd-w4KoS3Ua-90",
+          "output": "A",
+          "op": "nand",
+          "inputs": [
+            "nA",
+            "nA"
+          ]
+        },
+        {
+          "id": "NCowYKzVjmd-w4KoS3Ua-115",
+          "output": "nB",
+          "op": "nand",
+          "inputs": [
+            "B_in",
+            "B_in"
+          ]
+        },
+        {
+          "id": "NCowYKzVjmd-w4KoS3Ua-99",
+          "output": "B",
+          "op": "nand",
+          "inputs": [
+            "nB",
+            "nB"
+          ]
+        },
+        {
+          "id": "NCowYKzVjmd-w4KoS3Ua-119",
+          "output": "nC",
+          "op": "nand",
+          "inputs": [
+            "C_in",
+            "C_in"
+          ]
+        },
+        {
+          "id": "NCowYKzVjmd-w4KoS3Ua-103",
+          "output": "C",
+          "op": "nand",
+          "inputs": [
+            "nC",
+            "nC"
+          ]
+        },
+        {
+          "id": "NCowYKzVjmd-w4KoS3Ua-123",
+          "output": "nD",
+          "op": "nand",
+          "inputs": [
+            "D_in",
+            "D_in"
+          ]
+        },
+        {
+          "id": "NCowYKzVjmd-w4KoS3Ua-107",
+          "output": "D",
+          "op": "nand",
+          "inputs": [
+            "nD",
+            "nD"
+          ]
+        },
+        {
+          "id": "NCowYKzVjmd-w4KoS3Ua-26",
+          "output": "L",
+          "op": "nand",
+          "inputs": [
+            "nA",
+            "nC",
+            "D"
+          ]
+        },
+        {
+          "id": "NCowYKzVjmd-w4KoS3Ua-41",
+          "output": "M",
+          "op": "nand",
+          "inputs": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "id": "NCowYKzVjmd-w4KoS3Ua-45",
+          "output": "R",
+          "op": "nand",
+          "inputs": [
+            "A",
+            "nC",
+            "nD"
+          ]
+        },
+        {
+          "id": "NCowYKzVjmd-w4KoS3Ua-133",
+          "output": "Y",
+          "op": "nand",
+          "inputs": [
+            "L",
+            "M",
+            "R"
+          ]
+        }
+      ],
+      "separate_inversion_bubbles": {
+        "NCowYKzVjmd-w4KoS3Ua-26": "NCowYKzVjmd-w4KoS3Ua-130",
+        "NCowYKzVjmd-w4KoS3Ua-41": "NCowYKzVjmd-w4KoS3Ua-131",
+        "NCowYKzVjmd-w4KoS3Ua-45": "NCowYKzVjmd-w4KoS3Ua-132",
+        "NCowYKzVjmd-w4KoS3Ua-133": "NCowYKzVjmd-w4KoS3Ua-135"
+      }
+    },
+    "Images/Zadatak_1/Zadatak1_ZP.drawio": {
+      "sha256": "3a09ecdfe0915d77da051832467c9c1ff064cc1e431fed2d659ceadb7db6d410",
+      "method": "Ručno praćenje svih horizontalnih i vertikalnih vodova, tačaka spoja i negacionih kružića u izvornoj šemi i novom PDF izvozu; iscrpno računanje dobijene liste veza. Otisak poništava potvrdu ako se crtež promeni.",
+      "primary": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gates": [
+        {
+          "id": "TxPCVyMBjYZP4vXcv2qF-43",
+          "output": "nA",
+          "op": "not",
+          "inputs": [
+            "A_in"
+          ]
+        },
+        {
+          "id": "TxPCVyMBjYZP4vXcv2qF-8",
+          "output": "A",
+          "op": "not",
+          "inputs": [
+            "nA"
+          ]
+        },
+        {
+          "id": "TxPCVyMBjYZP4vXcv2qF-45",
+          "output": "nB",
+          "op": "not",
+          "inputs": [
+            "B_in"
+          ]
+        },
+        {
+          "id": "TxPCVyMBjYZP4vXcv2qF-44",
+          "output": "B",
+          "op": "not",
+          "inputs": [
+            "nB"
+          ]
+        },
+        {
+          "id": "TxPCVyMBjYZP4vXcv2qF-47",
+          "output": "nC",
+          "op": "not",
+          "inputs": [
+            "C_in"
+          ]
+        },
+        {
+          "id": "TxPCVyMBjYZP4vXcv2qF-46",
+          "output": "C",
+          "op": "not",
+          "inputs": [
+            "nC"
+          ]
+        },
+        {
+          "id": "TxPCVyMBjYZP4vXcv2qF-49",
+          "output": "nD",
+          "op": "not",
+          "inputs": [
+            "D_in"
+          ]
+        },
+        {
+          "id": "TxPCVyMBjYZP4vXcv2qF-48",
+          "output": "D",
+          "op": "not",
+          "inputs": [
+            "nD"
+          ]
+        },
+        {
+          "id": "TxPCVyMBjYZP4vXcv2qF-36",
+          "output": "L",
+          "op": "and",
+          "inputs": [
+            "nA",
+            "nC",
+            "D"
+          ]
+        },
+        {
+          "id": "TxPCVyMBjYZP4vXcv2qF-60",
+          "output": "M",
+          "op": "and",
+          "inputs": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "id": "TxPCVyMBjYZP4vXcv2qF-71",
+          "output": "R",
+          "op": "and",
+          "inputs": [
+            "A",
+            "nC",
+            "nD"
+          ]
+        },
+        {
+          "id": "TxPCVyMBjYZP4vXcv2qF-96",
+          "output": "Y",
+          "op": "or",
+          "inputs": [
+            "L",
+            "M",
+            "R"
+          ]
+        }
+      ]
+    },
+    "Images/Zadatak_2/Zadatak2.drawio": {
+      "sha256": "97a2b9bf06fa307a28e0b500d8a3bcb59d9cd9e74469e640d8fb8f994cdde150",
+      "method": "Ručno praćenje svih horizontalnih i vertikalnih vodova, tačaka spoja i negacionih kružića u izvornoj šemi i novom PDF izvozu; iscrpno računanje dobijene liste veza. Otisak poništava potvrdu ako se crtež promeni.",
+      "primary": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gates": [
+        {
+          "id": "ijOWaGkUfRqiDG663DNU-129",
+          "output": "nA",
+          "op": "not",
+          "inputs": [
+            "A_in"
+          ]
+        },
+        {
+          "id": "ijOWaGkUfRqiDG663DNU-107",
+          "output": "A",
+          "op": "not",
+          "inputs": [
+            "nA"
+          ]
+        },
+        {
+          "id": "ijOWaGkUfRqiDG663DNU-131",
+          "output": "nB",
+          "op": "not",
+          "inputs": [
+            "B_in"
+          ]
+        },
+        {
+          "id": "ijOWaGkUfRqiDG663DNU-130",
+          "output": "B",
+          "op": "not",
+          "inputs": [
+            "nB"
+          ]
+        },
+        {
+          "id": "ijOWaGkUfRqiDG663DNU-133",
+          "output": "nC",
+          "op": "not",
+          "inputs": [
+            "C_in"
+          ]
+        },
+        {
+          "id": "ijOWaGkUfRqiDG663DNU-132",
+          "output": "C",
+          "op": "not",
+          "inputs": [
+            "nC"
+          ]
+        },
+        {
+          "id": "ijOWaGkUfRqiDG663DNU-135",
+          "output": "nD",
+          "op": "not",
+          "inputs": [
+            "D_in"
+          ]
+        },
+        {
+          "id": "ijOWaGkUfRqiDG663DNU-134",
+          "output": "D",
+          "op": "not",
+          "inputs": [
+            "nD"
+          ]
+        },
+        {
+          "id": "ijOWaGkUfRqiDG663DNU-183",
+          "output": "L",
+          "op": "and",
+          "inputs": [
+            "nC",
+            "nD"
+          ]
+        },
+        {
+          "id": "ijOWaGkUfRqiDG663DNU-143",
+          "output": "M",
+          "op": "and",
+          "inputs": [
+            "nB",
+            "nC"
+          ]
+        },
+        {
+          "id": "ijOWaGkUfRqiDG663DNU-194",
+          "output": "R",
+          "op": "and",
+          "inputs": [
+            "nA",
+            "nB"
+          ]
+        },
+        {
+          "id": "ijOWaGkUfRqiDG663DNU-164",
+          "output": "Z",
+          "op": "or",
+          "inputs": [
+            "L",
+            "M",
+            "R"
+          ]
+        }
+      ]
+    },
+    "Images/Zadatak_3/Zadatak3.drawio": {
+      "sha256": "75c45b1e195227090532cc2a8c0a9365cc35e76b1ea943cdf16342f43b869a61",
+      "method": "Ručno praćenje svih horizontalnih i vertikalnih vodova, tačaka spoja i negacionih kružića u izvornoj šemi i novom PDF izvozu; iscrpno računanje dobijene liste veza. Otisak poništava potvrdu ako se crtež promeni.",
+      "primary": [
+        "A0",
+        "A1",
+        "B0",
+        "B1"
+      ],
+      "gates": [
+        {
+          "id": "SMTIic9FkEGded7NxiMj-27",
+          "output": "nA0",
+          "op": "not",
+          "inputs": [
+            "A0_in"
+          ]
+        },
+        {
+          "id": "SMTIic9FkEGded7NxiMj-11",
+          "output": "A0",
+          "op": "not",
+          "inputs": [
+            "nA0"
+          ]
+        },
+        {
+          "id": "SMTIic9FkEGded7NxiMj-29",
+          "output": "nA1",
+          "op": "not",
+          "inputs": [
+            "A1_in"
+          ]
+        },
+        {
+          "id": "SMTIic9FkEGded7NxiMj-28",
+          "output": "A1",
+          "op": "not",
+          "inputs": [
+            "nA1"
+          ]
+        },
+        {
+          "id": "SMTIic9FkEGded7NxiMj-31",
+          "output": "nB0",
+          "op": "not",
+          "inputs": [
+            "B0_in"
+          ]
+        },
+        {
+          "id": "SMTIic9FkEGded7NxiMj-30",
+          "output": "B0",
+          "op": "not",
+          "inputs": [
+            "nB0"
+          ]
+        },
+        {
+          "id": "SMTIic9FkEGded7NxiMj-33",
+          "output": "nB1",
+          "op": "not",
+          "inputs": [
+            "B1_in"
+          ]
+        },
+        {
+          "id": "SMTIic9FkEGded7NxiMj-32",
+          "output": "B1",
+          "op": "not",
+          "inputs": [
+            "nB1"
+          ]
+        },
+        {
+          "id": "SMTIic9FkEGded7NxiMj-1",
+          "output": "L",
+          "op": "nand",
+          "inputs": [
+            "A0",
+            "B0"
+          ]
+        },
+        {
+          "id": "SMTIic9FkEGded7NxiMj-104",
+          "output": "M",
+          "op": "and",
+          "inputs": [
+            "A1",
+            "B1"
+          ]
+        },
+        {
+          "id": "SMTIic9FkEGded7NxiMj-107",
+          "output": "R",
+          "op": "and",
+          "inputs": [
+            "A0",
+            "B1"
+          ]
+        },
+        {
+          "id": "SMTIic9FkEGded7NxiMj-110",
+          "output": "S",
+          "op": "and",
+          "inputs": [
+            "A1",
+            "B0"
+          ]
+        },
+        {
+          "id": "SMTIic9FkEGded7NxiMj-135",
+          "output": "C1",
+          "op": "xor",
+          "inputs": [
+            "R",
+            "S"
+          ]
+        },
+        {
+          "id": "SMTIic9FkEGded7NxiMj-138",
+          "output": "C3",
+          "op": "and",
+          "inputs": [
+            "R",
+            "S"
+          ]
+        },
+        {
+          "id": "SMTIic9FkEGded7NxiMj-141",
+          "output": "C2",
+          "op": "and",
+          "inputs": [
+            "L",
+            "M"
+          ]
+        },
+        {
+          "id": "SMTIic9FkEGded7NxiMj-144",
+          "output": "C0",
+          "op": "not",
+          "inputs": [
+            "L"
+          ]
+        }
+      ]
+    }
+  },
+  "original_arrow_figures": {
+    "fig:kmap-zad4": "50d921470c0badfc6faf453cf9daf5d6bd3578f7951c58d50de1d8af4082e607",
+    "fig:kmap-5": "d84000a523aec076b8d8f4eba6b37b6a5ffbcdd421d5ae6b61194c280d33a939",
+    "fig:kmap-zad5": "e6cc79f713c8844594bde2f6d4efd455662d5e822b8fa1b68bb03f3126086d44",
+    "fig:kmap-zad6-marked": "ec6629961af0125dcfb40ab12d9767860712748b6d25d80639fd5866cd1f78b2"
+  }
+}

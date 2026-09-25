@@ -31,8 +31,8 @@ begin
             when "111" =>
                 Y <= "10000000";  -- Y7
             when others =>
-                -- Ne bi trebalo da se desi nikad
-                Y <= (others => '0');
+                -- Nebinarni ulaz, npr. neinicijalizovan signal
+                Y <= (others => 'X');
         end case;
     end process;
 

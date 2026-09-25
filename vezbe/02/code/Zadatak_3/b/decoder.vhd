@@ -20,7 +20,7 @@ begin
         if E = '0' then
             -- When disabled: all outputs are 1
             Y <= (others => '1');
-        else
+        elsif E = '1' then
             -- When enabled: active-low one-hot decoding
             case A is
                 when "000" =>
@@ -37,9 +37,12 @@ begin
                     Y <= "11011111";  -- Y5 active
                 when "110" =>
                     Y <= "10111111";  -- Y6 active
-                when others =>
+                when "111" =>
                     Y <= "01111111";  -- Y7 active
+                when others => Y <= (others => 'X');
             end case;
+        else
+            Y <= (others => 'X'); -- Neodredjena dozvola rada
         end if;
     end process;
 

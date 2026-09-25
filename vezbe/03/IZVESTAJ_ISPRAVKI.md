@@ -806,3 +806,49 @@ U zadacima za samostalni rad rešenja nisu dodata u studentski tekst. Proverena 
 ## Dodatna provera izgleda nakon konverzije
 
 Diskretna siva linija razdvaja susedne redove podataka. Uz `\toprule`, `\midrule` i `\bottomrule` ne dodaje se druga, tanka linija. Vidljivi tekst „oprule“ bio je artefakt konverzije: Python je početak `\toprule` protumačio kao tabulator (`\t`). Ispravljen je LaTeX zapis komande; sama komanda iz paketa booktabs crta gornju ivicu tabele i ne treba da se vidi kao tekst. Ovo su ispravke nastalog LaTeX dokumenta, a ne greške DOCX izvornika.
+
+## Ponovna potpuna provera — 25. septembar 2026.
+
+Prethodni odeljci ostaju istorija konverzije. Novi nalazi odnose se na LaTeX stanje pre ove provere; mesta su data stabilnim oznakama i izvornim DOCX blokovima. Potpuni tekstualni parovi pre/posle su u `../PROVERA/nalazi_03_tekst.json` (brojevi redova u njemu odnose se na trenutak pojedinačne izmene). Matematički dokazi su u [PREGLED_DOKAZA.md](code/PREGLED_DOKAZA.md), a otisci svih 134 numerisanih formula u [pregled_formula.json](code/pregled_formula.json).
+
+### 03-A01 — Konačnost zapisa pri konverziji
+
+**Mesto:** blokovi 42–44, 60 i 62; `eq:1.1.1.3`, `eq:1.1.1.8`, `eq:1.1.1.9`. **Vrsta:** stručna nepreciznost izvornika/prenosa. Pre: „U opštem slučaju“ praćeno jednakosti dve konačne sume. Posle: konačna jednakost zahteva konačnost oba zapisa, inače je ciljna suma beskonačan red. Rezultati konačnog algoritma izričito zahtevaju ostatak `f_j=0`. **Zašto:** 0.1 u osnovi deset nije konačan binarni zapis. Dodata granica greške odsecanja `<p^-K`, izvedena u dokazu P1. **Uticaj:** objašnjenje periodičnog primera 254.61₇ sada je usklađeno sa uvodom; njegov već ispravan rezultat je sačuvan. **Ponovna provera:** tačno deljenje 43/49, najkraći period i tolerancija prikazanih decimala prolaze.
+
+### 03-A02 — Bit znaka i dve nule
+
+**Mesto:** blok 70, `sec:1.2.1`; blokovi 201–204, `sec:2.6`. **Vrsta:** stručna nepreciznost. Pre: znak 0/1 sam po sebi znači „pozitivan/negativan broj“. Posle: označava znak plus/minus, uz izričito izdvojenu vrednost nula; negativni znak u KMV obuhvata i negativnu nulu. **Zašto:** 1000000 u ZA i 1111 u četvorobitnom KMV imaju brojnu vrednost 0. **Uticaj:** tačne kodne reči i rasponi nisu menjani. **Ponovna provera:** dokaz P2, dekodiranje obe nule i iscrpne provere proširenja.
+
+### 03-A03 — Čije se cifre komplementiraju
+
+**Mesto:** blokovi 79 i 81, `eq:1.2.2.3`. **Vrsta:** stručna/jezička nepreciznost izvornika. Pre: oduzimanje „cifre negativnog broja“. Posle: oduzimanje cifre apsolutne vrednosti `D` od `r−1`. **Zašto:** komplementiranje već kodiranog negativnog broja vraća suprotnu vrednost. **Uticaj:** formula ostaje ista, a njeni operandi su jednoznačno definisani. **Ponovna provera:** P2 i računski primeri svih četiri osnove.
+
+### 03-A04 — Donja granica KO ne postoji u KMV
+
+**Mesto:** blokovi 90–92, `eq:1.2.3.2`. **Vrsta:** stručna nepreciznost. Pre: predstava KO dobijala se iz `KMV_n(−D)+1` bez uslova predstavljivosti; prose je dodatno pogrešno nazivao rezultat „apsolutnom vrednošću“. Posle: `(r^n−1−D+1) mod r^n`, uz objašnjenje kada je međuvrednost zaista KMV kod iste vrednosti. **Zašto:** na četiri bita −8 staje u KO, a KMV ima opseg [−7,7]. Ipak komplement cifara `1000` daje `0111`, a dodavanjem jedinice dobijamo ispravan KO kod `1000`. **Uticaj:** svi raniji numerički rezultati ostaju isti; uklonjeno je neopravdano tumačenje međuvrednosti. **Ponovna provera:** P2 i iscrpna provera prenosa pri komplementiranju za r=2,8,10,16 i n=1,2,3.
+
+### 03-A05 — Vrednost i kodna reč
+
+**Mesto:** `eq:2.3.3`–`eq:2.3.8`, `eq:2.3.10`–`eq:2.3.14`; strelice u zadacima 4–7; dodatni primer u 2.7b. **Vrsta:** neprecizne oznake. Pre: npr. `−5=1000101`, `1000000=0`, odnosno `100_2=−4`. Posle: eksplicitna oznaka osnove i predstave ZA/KO i strelica za kodiranje; dekodiranje se i dalje piše jednakosti uz označenu interpretaciju. **Zašto:** neoznačeni binarni 100₂ znači +4, dok isti trobitni niz u KO znači −4. Nedefinisano `≡` u postupcima kodiranja zamenjeno je strelicom, po već postojećem stilu dokumenta. **Uticaj:** brojčane vrednosti sačuvane. **Ponovna provera:** svi ZA izlazi čitaju se iz LaTeX-a i nezavisno dekodiraju; ostali koraci po P5/P6.
+
+### 03-A06 — Skup nije samo par krajeva
+
+**Mesto:** blok 155, `eq:2.4.1`. **Vrsta:** matematička notacija. Pre: `{−(10^4/2−1), +(10^4/2−1)}`. Posle: između krajeva dodato `\ldots`. **Zašto:** prethodni zapis doslovno sadrži samo dve vrednosti, iako se traži svih 9.999 celih vrednosti od −4999 do +4999. **Uticaj:** naredni pravilno ispisani skup i rezultati nisu menjani. **Ponovna provera:** P5.
+
+### 03-A07 — Tumačenje ulaza zadatka 6
+
+**Mesto:** blokovi 195 i 197; `eq:2.6.3`–`eq:2.6.10`. **Vrsta:** dopunsko pojašnjenje pretpostavke, bez promene namere izvornog rešenja. Pre: postavka kaže samo „označeni brojevi“, a objašnjenje kodiranih ulaza dolazi tek u rešenju. Posle: već postavka navodi da su to kodne reči odgovarajuće predstave i šta znači spoljašnji minus. **Zašto:** običan decimalni −54 i negativ kodne reči 54 u KMV nisu ista vrednost. Izvorno rešenje koristi drugo tumačenje; ta pretpostavka sada nije skrivena. **Uticaj:** sačuvani su svi ulazi i rezultati; kodna interpretacija je naznačena i u formulama. **Ponovna provera:** P6 i proširenja svih kodnih reči u konačnim domenima.
+
+### 03-A08 — Poznati koren zapisan u nepoznatoj osnovi
+
+**Mesto:** blok 129, između `eq:2.2.2` i `eq:2.2.3`. **Vrsta:** neprecizna matematička notacija. Pre: `x=12=r+2`. Posle: `x=(12)_r=r+2`. **Zašto:** broj 12 u nepoznatoj osnovi nije nužno decimalno dvanaest; nedostajala je oznaka na mestu zamene. **Uticaj:** simbolički postupak i jedina dozvoljena osnova 7 ostaju isti. **Ponovna provera:** P4.
+
+### 03-A09 — Jezik i navigacija
+
+**Mesto:** blokovi 54, 72, 76, 94, 140, 152, 200, 203, 205, 208, 212, 218, 222, 233 i 235; nenazvane jednačine iz blokova 33, 113 i poslednjeg dela 249. **Vrsta:** jezička/formaterska. Ispravljeno „količnik različito“→„različit“, „zapisati i komplementu“→„u komplementu“, „nejveće“→„najveće“, „da bi dobili“→„da bismo dobili“, padež reči „sistemu“, navodnici i nedostajuća završna interpunkcija. Dodate su oznake `eq:zapis`, `eq:13-375`, `eq:2.7.13` bez promene numerisanog sadržaja. Samostalni rad počinje na novoj stranici. **Ponovna provera:** kompilacija i pregled svih 17 konačnih PDF stranica, uključujući ponovni pregled šest stranica promenjenih poslednjim jezičkim ispravkama; preostalih 11 rendera ostalo je identično.
+
+### Obuhvat i rezultat
+
+Pročitani su svi teorijski pasusi, devet zadataka sa svim pottačkama, sva postojeća rešenja i svih 134 numerisanih jednačina. Dokument nema sadržinske ilustracije; obe računske tabele proverene su red po red. Horizontalni razdelnici ostali su diskretni, bez tanke linije uz istaknute granice. Nema teksta `oprule`.
+
+`make check` sada obuhvata 18.894 provere: postojeće regresione primere, stvarne numeričke izraze i ćelije iz TeX-a, iscrpne konačne domene i proveru otisaka ručno dokazanih formula. Broj provera nije zamena za navedene dokaze. Samostalni zadaci provereni su u P7; njihova rešenja nisu dopisana u studentski dokument. Ograničenja su izričito navedena: konačan zapis naspram aproksimacije, zadati format, tumačenje ulaza zadatka 6 i posebna konvencija za neparne osnove.

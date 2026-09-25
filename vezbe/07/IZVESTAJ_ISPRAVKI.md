@@ -79,3 +79,39 @@ Ispravljeni su „obzirom“, „izazima“, „proizodača“, „karakteristik
 ## Završna provera crteža
 
 Razmaknute su oznake osa i numeričkih podeoka, povećan je razmak između prikaza četiri iteracije i sprečen je prelom kratke napomene preko stranica. Vodovi između invertora i mesta unošenja šuma povezani su sa imenovanim priključcima simbola.
+
+## Ponovni pregled — 25. 9. 2026.
+
+Pregledani su ceo izvornik od 10 stranica i konačni LaTeX/PDF. Raniji nalazi iznad ponovo su potvrđeni; potpuni [dokazi i obuhvat](code/PREGLED_DOKAZA.md), [otisci formula/crteža](code/pregled_izvora.json) i [tačni tekstualni zapisi pre/posle](../PROVERA/nalazi_07_tekst.json) dopunjuju istoriju.
+
+### 07-A01 — presek nije dovoljan za stabilnost
+
+**Mesto:** zadatak 1, pasus pre `eq:1.2`. **Pre:** „preseci van dijagonale određuju par stabilnih nivoa“ bez uslova. **Posle:** iskaz vezan za prikazanu karakteristiku; dodati uslovi |f′(VL)f′(VH)|<1 za dvociklus i |f′(VS)|<1 za fiksnu tačku. **Vrsta:** stručna dopuna. Izvod kompozicije daje proizvod nagiba; par preseka sa proizvodom >1 je nestabilan. Zadatak 3, kolo 1, daje upravo protivprimer (proizvod 4). Granica zadatka 1 nije promenjena. Ponovna provera obuhvatila sve parne fiksne tačke komadnih funkcija i njihove multiplikatore.
+
+### 07-A02 — lokalno slabljenje i garancija konačnog šuma
+
+**Mesto:** zadatak 2, pasusi uz `eq:2.1`–`eq:2.8`. **Pre:** ulazi „moraju ostati u oblastima malog pojačanja“; vrsta/domen šuma i stabilizovan prethodni lanac nisu bili izričiti. **Posle:** statički šum, prethodno stabilni nivoi za SSNM, konvencionalne granice za S karakteristiku, dovoljni uslovi invarijantnosti intervala i domen napajanja. **Vrsta:** stručno pojašnjenje pretpostavki. |f′|<1 je lokalni uslov, a konačna amplituda zahteva poređenje granica intervala. Ne daje se neosnovana garancija o impulsima ili ulazima izvan poznate krive. Sve postojeće nejednakosti i numeričke margine ostaju iste. Potvrđeno dedukcijom i zamenom stvarnih krajnjih vrednosti; MIT Lecture 11, slajdovi 4–7.
+
+### 07-A03 — krajnje fiksne tačke prvog bafera
+
+**Mesto:** zadatak 4b. **Pre:** „Prvo kolo privlači tačke sredini“. **Posle:** privlači unutrašnje tačke, dok tačni ulazi 0 i 5 V ostaju na nestabilnim krajnjim fiksnim tačkama. **Vrsta:** stručna korekcija preširokog iskaza. Direktno b₁(0)=0,b₁(5)=5, uz jednostrane nagibe 2. Rezultat za 2.7 V ostaje 2.5 V; usklađeno sa istim izuzetkom već navedenim kod invertora. Ponovna provera iz stvarnih segmenata nalazi sva tri fiksna korena.
+
+### 07-A04 — mesto unošenja šuma kod kompozicije
+
+**Mesto:** početak rešenja zadatka 5, rezultati `eq:5.2`. **Pre:** „margine ... kaskade“ bez izričitog razgraničenja unutrašnje veze. **Posle:** jedan stepen je ceo par invertor–bafer; šum je na međuvezi kopija, unutrašnja veza idealna. **Vrsta:** potrebna pretpostavka. Kompozicija b(f(x)) nije model b(f(x)+e₁)+e₂ sa dva nezavisna poremećaja. Rezultat 1.5 V važi pod sada navedenim uslovom. Ne uvode se nove proizvoljne amplitude unutrašnjeg šuma. Tačna kompozicija, svi prelomi i margine ponovo izvedeni racionalno.
+
+### 07-A05 — obnova pomoćnih projekcija iz originala
+
+**Mesta:** originalne slike 3.1,4.1,5.1,5.3 → `Zadatak_3/karakteristike`, `Zadatak_4/karakteristike`, `Zadatak_5/karakteristike`, `Zadatak_5/rezultat`. **Pre:** krive su imale tačne koordinate, ali su nedostajale isprekidane projekcije originalnih preloma. **Posle:** vraćene diskretne projekcije na ose, bez promene krivih. **Vrsta:** grafički propust konverzije. Olakšano je očitavanje tačaka na kojima se zasnivaju jednačine. Svaka koordinata crteža poredi se sa stvarnim segmentima; svih pet izmenjenih izvoza (uključujući lanac iz naredne stavke) regenerisano.
+
+### 07-A06 — oznaka napona na izlazu četvrtog bloka
+
+**Mesto:** `Images/Zadatak_4/lanac.tex`, slika `fig:4.2`. **Pre:** y₄,…,yₙ uz jednu istu žicu. **Posle:** y₄ na toj žici, a odvojene tri tačke označavaju nastavak lanca. **Vrsta:** grafička dvosmislenost. Naponi različitih stepena uopšte nisu jednaki. Sve četiri blokovske veze praćene su od izlaza do narednog ulaza; matematička rekurzija nije promenjena.
+
+### 07-A07 — čitljivost oznaka i imenovanje tabele
+
+**Mesta:** `fig:1.4`, `fig:5.3`, tabela pre `eq:5.1`. **Pre:** oznake (VL,VH)/(VH,VL) dodirivale su odraženu krivu; tri poslednje strelice imale su praktično nultu dužinu i zaklanjale presek. Tabela nije imala broj/naslov. **Posle:** oznake pomerene van krivih; očuvana dva razlučiva koraka približavanja; oznake T₁–T₄ imaju belu podlogu prema pomoćnim linijama; tabela dobila `tab:prelomi` i naslov. **Vrsta:** formatiranje/grafika. Ne menja se geometrijski postupak ni rezultat. Svi konačni crteži provereni na PDF stranama; svaka od 14 stranica pregledana nakon završnih izmena.
+
+### Ograničenje 07-L01 — preciznost prvog zadatka
+
+Izvornik i dalje nema dovoljno podataka za tačnu numeričku graničnu vrednost. Potvrđen je grafički zaključak i doslednost četiri prikaza, ali numerički parametri pomoćne Bézier krive nisu proglašeni zadatim tehnološkim modelom. Ograničenje je vidljivo u studentskom tekstu i zasebno u dokazima.

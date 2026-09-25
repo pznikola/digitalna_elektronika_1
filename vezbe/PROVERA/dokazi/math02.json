@@ -1,0 +1,130 @@
+{
+  "checks": 76685,
+  "proof": [
+    {
+      "homework_select": "DC",
+      "cofactors": {
+        "00": [
+          false,
+          true,
+          false,
+          true
+        ],
+        "01": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "10": [
+          false,
+          true,
+          false,
+          true
+        ],
+        "11": [
+          false,
+          true,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "homework_select": "BA",
+      "cofactors": {
+        "00": [
+          false,
+          true,
+          false,
+          false
+        ],
+        "01": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "10": [
+          false,
+          true,
+          false,
+          false
+        ],
+        "11": [
+          true,
+          false,
+          true,
+          false
+        ]
+      }
+    },
+    {
+      "homework_select": "DB",
+      "cofactors": {
+        "00": [
+          false,
+          true,
+          true,
+          true
+        ],
+        "01": [
+          false,
+          true,
+          true,
+          false
+        ],
+        "10": [
+          false,
+          true,
+          false,
+          true
+        ],
+        "11": [
+          false,
+          true,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "homework_select": "CA",
+      "cofactors": {
+        "00": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "01": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "10": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "11": [
+          true,
+          false,
+          true,
+          false
+        ]
+      }
+    },
+    {
+      "homework_minima": {
+        "CA": 2,
+        "DC": 3,
+        "BA": 3,
+        "DB": 5
+      },
+      "library": "NOT, arbitrary-fan-in AND/OR; constants and wires free"
+    }
+  ]
+}

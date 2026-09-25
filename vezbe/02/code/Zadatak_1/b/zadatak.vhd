@@ -14,8 +14,7 @@ architecture Structural of zadatak is
     signal D_Y0 : STD_LOGIC_VECTOR(3 downto 0);  -- D ulazi za MUX 0
     signal axb  : STD_LOGIC;                     -- A xor B
 begin
-    axb <= A xor B;
-    --------------------------------------------------------------------
+    axb <= (A and not B) or (not A and B);
     -- C1C0 = 00 : Y0 =  A xor B    -> D_Y0(0)
     -- C1C0 = 01 : Y0 = ¬(A xor B)  -> D_Y0(1)
     -- C1C0 = 10 : Y0 = ¬A · B      -> D_Y0(2)
@@ -24,7 +23,6 @@ begin
     D_Y0(1) <= not axb;
     D_Y0(2) <= (not A) and B;
     D_Y0(3) <= A and (not B);
-    --------------------------------------------------------------------
     -- C1C0 = 00 : Y1 = ¬(A xor B)  -> D_Y1(0)
     -- C1C0 = 01 : Y1 =  A xor B    -> D_Y1(1)
     -- C1C0 = 10 : Y1 = ¬A · ¬B     -> D_Y1(2)
@@ -33,7 +31,6 @@ begin
     D_Y1(1) <= axb;
     D_Y1(2) <= (not A) and (not B);
     D_Y1(3) <= A and B;
-    --------------------------------------------------------------------
     -- Instanciranje dva multipleksera
     mux_Y1 : entity work.mux4
         port map (

@@ -1,0 +1,176 @@
+{
+  "figures": {
+    "Images/Zadatak_1/karakteristika.tex": {
+      "sha256": "5a4810d6bf6d1aa5e479bd2300cd3558bb2e4c33604b0ef90d45d413b5c23aac",
+      "review": "Ilustrativna Bézier kriva: isti oblik kao original, nije analitički zadatak; nema tvrdnje o preciznom numeričkom VL. Jednovrednost x(t) i iteracije proverene.",
+      "proof": "code/PREGLED_DOKAZA.md"
+    },
+    "Images/Zadatak_1/iteracije.tex": {
+      "sha256": "4a157183405f79e21bc03b87f2edaa9d99acc5453c1784be678f87ba14a83e8c",
+      "review": "Četiri kopije iste krive; svaka crvena projekcija prati izlaz prethodnog stepena. Numeričke koordinate čitaju se iz stvarnog izvora i proveravaju do njihove preciznosti.",
+      "proof": "code/PREGLED_DOKAZA.md"
+    },
+    "Images/Zadatak_1/rotacija.tex": {
+      "sha256": "e62c3e2408e29943052c07a74df5262d9155c23663e7fa9a25b6d6d470badecb",
+      "review": "Rotacije 0,90,180,270 spajaju izlaznu osu sa sledećom ulaznom; sve četiri tačke crvenog puta proverene, poslednja projekcija vraća v4 na pozitivnu horizontalu.",
+      "proof": "code/PREGLED_DOKAZA.md"
+    },
+    "Images/Zadatak_1/preslikavanje.tex": {
+      "sha256": "cf05a73868cb4468f468d32efe5063d90af9047b4ea77a0c0d776526acbc0e7d",
+      "review": "Narandžasta kriva tačan odraz svih kontrolnih tačaka; stepenasti put alternira između kriva, obeleženi su stabilni par i nestabilni prag. Dva razlučiva koraka su očuvana; završne tri strelice koje se svode na tačku pri ispisanoj preciznosti uklonjene, a natpisi stabilnih nivoa pomereni van krivih.",
+      "proof": "code/PREGLED_DOKAZA.md"
+    },
+    "Images/Zadatak_2/nivoi.tex": {
+      "sha256": "ffdddebe2eabf558b6140abb5dfca6656f202c56930ee571e10b7a089fd2167d",
+      "review": "Ilustrativna treća izlomljena karakteristika: VIL=2,VOL=1; VIH=3,VOH=4; VL=0,VH=5,VS=2.5. Sve projekcije/oznake odgovaraju tačkama.",
+      "proof": "code/PREGLED_DOKAZA.md"
+    },
+    "Images/Zadatak_2/jednostruki.tex": {
+      "sha256": "1eb615fa8f1683b239cd7feaaa2ff619e55e88b1d66184d01cf6f6fe0394d481",
+      "review": "g0.output → s0.west, s0.east → g1.input, g1.output → g2.input, g2.output → g3.input. Svi g su NOT, VL vodi g0.input; jedina smetnja −VN dolazi s0.south, na visokom izlazu prvog invertora.",
+      "proof": "code/PREGLED_DOKAZA.md"
+    },
+    "Images/Zadatak_2/visestruki.tex": {
+      "sha256": "2298c455f0f221f66e2342ccac102b8f798d80927b21a2778a30eae4fff455ac",
+      "review": "Četiri NOT; s0,s1,s2 se nalaze redno na svakoj od tri međuveze, nisu kratko spojeni sa masom. Donji izvori su redom −VN,+VN,−VN, najnepovoljnije za početni niski nivo.",
+      "proof": "code/PREGLED_DOKAZA.md"
+    },
+    "Images/Zadatak_3/karakteristike.tex": {
+      "sha256": "c5d6effb60baefe970f2af252d7dc0424dc1b3b6ac57721d642ac1f4073cefda",
+      "review": "Tri nacrtane izlomljene linije upoređene sa stvarnim formulama f1,f2,f3; pomoćne projekcije obnovljene po originalu.",
+      "proof": "code/PREGLED_DOKAZA.md"
+    },
+    "Images/Zadatak_3/preslikavanje.tex": {
+      "sha256": "a25e50c9172d0eed571581afbff661780fa3d3937ab6d9202deff4a97aee9eb7",
+      "review": "Sve tačke odraza zamenjuju x/y, dijagonala je y=x; tačke 2/4 i 3/1 označavaju garantovane granice.",
+      "proof": "code/PREGLED_DOKAZA.md"
+    },
+    "Images/Zadatak_4/karakteristike.tex": {
+      "sha256": "b627b0ad47f5e0815c989ef7bcab4a44864ffdfebd5902ba4566f96b4c555cc8",
+      "review": "Tri rastuće linije upoređene sa stvarnim b1,b2,b3; obnovljene projekcije na 5,5 i unutrašnjim prelomima.",
+      "proof": "code/PREGLED_DOKAZA.md"
+    },
+    "Images/Zadatak_4/lanac.tex": {
+      "sha256": "365f798aabb8c898ddb4b228f05b7a755469265611b7403f1d3b4a2723057b14",
+      "review": "Četiri bloka y=kx+C: x0 → b1.west; izlazi b1/b2/b3 → sledeći .west. Izlaz b4 je samo y4; tri tačke označavaju nastavak lanca, ne različite napone na istoj vezi.",
+      "proof": "code/PREGLED_DOKAZA.md"
+    },
+    "Images/Zadatak_5/karakteristike.tex": {
+      "sha256": "27a8cd07767342242845f560b88e8f616610a4bcd12a574ffe643a43f5558f9e",
+      "review": "Invertor f3 pa bafer b3; oba skupa prelomnih tačaka proverena prema formulama, projekcije obnovljene.",
+      "proof": "code/PREGLED_DOKAZA.md"
+    },
+    "Images/Zadatak_5/rotacija.tex": {
+      "sha256": "047f05331027227c297d8a84b53f98cccd9b1f0e72fd0e78b870048b79cddb9a",
+      "review": "Druga kriva ima koordinate (−b3(x),x); svaka od četiri horizontalne konstrukcije vodi od f3 do nje, pa do leve izlazne ose. Svi brojevi provereni do 6 decimala u crtežu.",
+      "proof": "code/PREGLED_DOKAZA.md"
+    },
+    "Images/Zadatak_5/rezultat.tex": {
+      "sha256": "e1d3e34a83e14355e2d2088b4e074badfd116633c63f660060dedbc2aa31e730",
+      "review": "Šest temena kompozicije h; 4 unutrašnje tačke T1..T4, pet segmenata i dijagonala. Obnovljene pomoćne projekcije. Sve koordinate i nagibi odgovaraju tačnoj racionalnoj kompoziciji. Bele podloge samo iza T oznaka razdvajaju tekst od pomoćnih linija.",
+      "proof": "code/PREGLED_DOKAZA.md"
+    }
+  },
+  "equations": {
+    "eq:1.1": {
+      "sha256": "39d4bff0f5e877153552bd37dd1782fb85f2a15d4b659e8d849e203b327df945",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled svih pretpostavki i jedinica; segmenti i konkretni rezultati dodatno čitani iz LaTeX-a."
+    },
+    "eq:1.2": {
+      "sha256": "5272ef7b6d033c7dc1eeec22dfa9259b1b035e445ebc9d66a272e8c84503f1a9",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled svih pretpostavki i jedinica; segmenti i konkretni rezultati dodatno čitani iz LaTeX-a."
+    },
+    "eq:2.1": {
+      "sha256": "92cb433be7d535d3771b7f2b61cf25f1e4b52457e7415341afc84662a898524e",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled svih pretpostavki i jedinica; segmenti i konkretni rezultati dodatno čitani iz LaTeX-a."
+    },
+    "eq:2.2": {
+      "sha256": "7c18dc543c22f02cc703d97025ca66c31bd7d9bfb8c315a1e62a07c2dd384727",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled svih pretpostavki i jedinica; segmenti i konkretni rezultati dodatno čitani iz LaTeX-a."
+    },
+    "eq:2.6": {
+      "sha256": "d1a423ee48cf5e2f008f69c9c83a4834380b0e1555bc9e737d7c3496c4bb7169",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled svih pretpostavki i jedinica; segmenti i konkretni rezultati dodatno čitani iz LaTeX-a."
+    },
+    "eq:2.3": {
+      "sha256": "6c2b63e9ff22ba343f23053fb93eed45aa9a1adc56d15023ec3ca3991ccc62d3",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled svih pretpostavki i jedinica; segmenti i konkretni rezultati dodatno čitani iz LaTeX-a."
+    },
+    "eq:2.4": {
+      "sha256": "8bafdce6c22d214bbaa325f574cee624d9b09ca0af7c959175ca2e267e57da52",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled svih pretpostavki i jedinica; segmenti i konkretni rezultati dodatno čitani iz LaTeX-a."
+    },
+    "eq:2.5": {
+      "sha256": "6f7370c1a4c4b95099062b1f59fdf03f71c99d78659fb1bfab73157c6125dcdb",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled svih pretpostavki i jedinica; segmenti i konkretni rezultati dodatno čitani iz LaTeX-a."
+    },
+    "eq:2.7": {
+      "sha256": "1f0d19bd0f13c1d8701d52e1bbb83ec48cae5e3a210888ebbf643c53a1e78d1e",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled svih pretpostavki i jedinica; segmenti i konkretni rezultati dodatno čitani iz LaTeX-a."
+    },
+    "eq:2.8": {
+      "sha256": "eb8046f98b5577294d0ed557152d454109e564294dea9061c12abf222073ceb6",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled svih pretpostavki i jedinica; segmenti i konkretni rezultati dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.1": {
+      "sha256": "0c56acedc6c117d9363e3c49178cb7a0fe23970a379bc8b4d3b1b8af1a66f538",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled svih pretpostavki i jedinica; segmenti i konkretni rezultati dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.2": {
+      "sha256": "359d68e2a0e8a98dc598d1fa32424f63c3bf6c53905f74c9f49b9067df3edeb1",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled svih pretpostavki i jedinica; segmenti i konkretni rezultati dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.3": {
+      "sha256": "d8dcfb57918c748558e640cab6774e7a5a51e3e41ec9a90eb0575bcbdbc5db86",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled svih pretpostavki i jedinica; segmenti i konkretni rezultati dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.4": {
+      "sha256": "ac69dc049eb9a69cd2b3062d3aec7761e1304f56421a48e18e19fee97e30e379",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled svih pretpostavki i jedinica; segmenti i konkretni rezultati dodatno čitani iz LaTeX-a."
+    },
+    "eq:3.5": {
+      "sha256": "9eddf39f659a5172aef60afde978754fa935bd8e1f93d61898197adf6076f9fd",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled svih pretpostavki i jedinica; segmenti i konkretni rezultati dodatno čitani iz LaTeX-a."
+    },
+    "eq:4.1": {
+      "sha256": "732f13f6e2c7f4f918d2d5ff4384a5e8ccdae8996961e8f3e4f14f2eed0fd91a",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled svih pretpostavki i jedinica; segmenti i konkretni rezultati dodatno čitani iz LaTeX-a."
+    },
+    "eq:4.2": {
+      "sha256": "537cc89b6908121126b993a3169176d41c52e83ba8c56b17a9868b87a7dec785",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled svih pretpostavki i jedinica; segmenti i konkretni rezultati dodatno čitani iz LaTeX-a."
+    },
+    "eq:4.3": {
+      "sha256": "7464bcf36bee1df7724237a7276ff267f80fc276e7364e94ac477a59a30a3017",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled svih pretpostavki i jedinica; segmenti i konkretni rezultati dodatno čitani iz LaTeX-a."
+    },
+    "eq:5.1": {
+      "sha256": "7744a6d50017a4739f319a98564c12afd12ec4322aa822a674463198f27973df",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled svih pretpostavki i jedinica; segmenti i konkretni rezultati dodatno čitani iz LaTeX-a."
+    },
+    "eq:5.2": {
+      "sha256": "9b1c50b4a4f9884291ade8f6012892061e2f7b6c9c9b4b7aec3cbb4be5424fa7",
+      "proof": "code/PREGLED_DOKAZA.md",
+      "method": "Deduktivni pregled svih pretpostavki i jedinica; segmenti i konkretni rezultati dodatno čitani iz LaTeX-a."
+    }
+  }
+}

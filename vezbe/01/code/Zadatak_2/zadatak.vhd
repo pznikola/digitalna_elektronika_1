@@ -12,19 +12,13 @@ architecture Behavioral of zadatak is
     -- interni signali
     signal A_n, B_n, C_n, D_n : STD_LOGIC;
 begin
-    --------------------------------------------------------------------
-    -- Invertovane vrednost signala
-    --------------------------------------------------------------------
+    -- Invertovane vrednosti signala
     A_n <= not A;
     B_n <= not B;
     C_n <= not C;
     D_n <= not D;
-    --------------------------------------------------------------------
     -- Y_ZP = C_n D_n + A_n B_n + B_n C_n
-    --------------------------------------------------------------------
     Y_ZP <= (C_n and D_n) or (A_n and B_n) or (B_n and C_n);
-    --------------------------------------------------------------------
     -- Y_PZ = (B_n + C_n)(B_n + D_n)(A_n + C_n)
-    --------------------------------------------------------------------
     Y_PZ <= (B_n or C_n) and (B_n or D_n) and (A_n or C_n);
 end Behavioral;

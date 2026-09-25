@@ -102,4 +102,7 @@ for prefix,n in [('a',1),('b',2),('c',3)]:
     edges=re.findall(r'\('+prefix+r'([01]+)\)--\('+prefix+r'([01]+)\)',cube)
     check(len(edges)==n*2**(n-1))
     for a,b in edges:check(hdist(a,b)==1)
+from audit_math import run
+run(root,check,data)
+
 print(f'Vežbe 05: {checks} provera uspešno završeno.')

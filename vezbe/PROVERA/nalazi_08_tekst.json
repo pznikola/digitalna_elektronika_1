@@ -1,0 +1,74 @@
+[
+  {
+    "id": "08-A07",
+    "path": "vezbe/08/08_mos.tex",
+    "line": 10,
+    "old": "\\usepackage{graphicx,adjustbox,placeins}",
+    "new": "\\usepackage{graphicx,adjustbox,placeins,needspace}",
+    "why": "Kontrola preloma naslova i tabela."
+  },
+  {
+    "id": "08-A01",
+    "path": "vezbe/08/08_mos.tex",
+    "line": 66,
+    "old": "Struje u omskoj oblasti i zasićenju su",
+    "new": "Za $u\\le0$ je $I_D=0$. Za $u>0$ i $V_{DS}\\ge0$, struje u omskoj oblasti i zasićenju su",
+    "why": "Izrazi za struju važe samo za uključen tranzistor; kvadrat negativnog prenapona ne označava provodnost."
+  },
+  {
+    "id": "08-A02",
+    "path": "vezbe/08/08_mos.tex",
+    "line": 71,
+    "old": "Model je aproksimacija efekata kratkog kanala; nije zamena za model konkretne tehnologije.",
+    "new": "To je zadati aproksimativni model, a ne model konkretne tehnologije. Struja je na toj granici neprekidna, ali nagib omskog izraza po $V_{DS}$ postaje negativan pre granice i ne spaja se glatko sa konstantnom strujom zasićenja. Zato ovaj izraz ne daje fizički pouzdanu karakteristiku u celoj okolini prelaska u zasićenje. U nastavku se čuvaju zadate jednačine i posebno označavaju dodatne aproksimacije.",
+    "why": "Direktan izvod omske struje na granici je negativan; kontinuitet sam ne potvrđuje fizičku doslednost interpolacionog modela."
+  },
+  {
+    "id": "08-A03",
+    "path": "vezbe/08/08_mos.tex",
+    "line": 262,
+    "old": "Suprotne stroge nejednakosti određuju omske oblasti; jednakosti su granice. Isključene oblasti određuju samo uslovi gejta. Na $v_U=v_I=V_S$ oba tranzistora su u zasićenju.",
+    "new": "Suprotne stroge nejednakosti određuju omske oblasti; jednakosti su granice. Isključene oblasti određuju samo uslovi gejta. Na $v_U=v_I=V_S$ oba tranzistora su u zasićenju. Oznake I--V na slici prate karakteristiku prenosa; za proizvoljnu tačku van nje koriste se prethodne nejednakosti. Bez modulacije dužine kanala srednji deo idealizovane karakteristike je vertikalan: pri jednakim strujama zasićenja statičke jednačine ne izdvajaju jedan izlazni napon. Crna linija prikazuje samo redosled oblasti, a brojna vrednost $V_S$ računa se u tački b).",
+    "why": "Razlikovanje svih tačaka naponske ravni od oblasti duž karakteristike; izostala modulacija zahteva vertikalni deo i nivoe na šinama."
+  },
+  {
+    "id": "08-A04",
+    "path": "vezbe/08/08_mos.tex",
+    "line": 304,
+    "old": "Minimalnost se ovde odnosi na uobičajene komplementarne statičke CMOS mreže; nije tvrdnja o svim tranzistorskim porodicama.",
+    "new": "Broj deset je minimalan u acikličnim mrežama komplementarnih statičkih CMOS kola sa dualnim redno-paralelnim PDN/PUN mrežama, uz direktne primarne ulaze. Svaki od četiri bitna ulaza mora upravljati bar jednim NMOS-om i odgovarajućim PMOS-om. Jedan takav stepen sa direktnim ulazima daje nerastuću funkciju svakog ulaza, dok je tražena funkcija rastuća, pa je potreban i unutrašnji signal između stepena. On upravlja bar još jednim parom tranzistora: ukupno najmanje $2(4+1)=10$. Prikazana realizacija dostiže ovu granicu.",
+    "why": "Dokaz donje granice uz eksplicitnu biblioteku i merilo broja tranzistora."
+  },
+  {
+    "id": "08-A05",
+    "path": "vezbe/08/08_mos.tex",
+    "line": 381,
+    "old": "Izbegavaju se padovi koji bi nepovratno ispraznili naredni dinamički čvor.",
+    "new": "Ako je prethodna jedinica već ispraznila dinamički čvor, kasniji pad ulaza može prekinuti provodnu putanju, ali ne može ponovo napuniti čvor tokom iste evaluacije. Zato bi tadašnja kombinaciona vrednost mogla da se razlikuje od zapamćenog stanja.",
+    "why": "Pražnjenje prouzrokuje prethodna provodna putanja, a ne sama opadajuća ivica."
+  },
+  {
+    "id": "08-A06",
+    "path": "vezbe/08/08_mos.tex",
+    "line": 337,
+    "old": "referentni invertor sa normalizovanim odnosima",
+    "new": "referentni invertor sa istim oksidom, približno jednakim apsolutnim pragovima i normalizovanim odnosima",
+    "why": "Jednačina otpornosti referentnog n/p para zahteva uporediv prenapon i oksid, ne samo odnos pokretljivosti."
+  },
+  {
+    "id": "08-A07",
+    "path": "vezbe/08/08_mos.tex",
+    "line": 133,
+    "old": "\\begin{center}\\begin{tabular}",
+    "new": "\\begin{center}\\begin{minipage}{\\linewidth}\\centering\\captionof{table}{Aproksimativni nivoi invertora sa otpornim opterećenjem.}\\label{tab:1.nivoi}\\begin{tabular}",
+    "why": "Numeracija i nedvosmislena pripadnost numeričke tabele zadatku."
+  },
+  {
+    "id": "08-A07",
+    "path": "vezbe/08/08_mos.tex",
+    "line": 274,
+    "old": "\\begin{center}\\begin{tabular}",
+    "new": "\\begin{center}\\begin{minipage}{\\linewidth}\\centering\\captionof{table}{Prag CMOS invertora za dve širine PMOS tranzistora.}\\label{tab:4.prag}\\begin{tabular}",
+    "why": "Numeracija i nedvosmislena pripadnost numeričke tabele zadatku."
+  }
+]

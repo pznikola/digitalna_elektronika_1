@@ -5,9 +5,9 @@ FIGPDF := $(FIGURES:.tex=.pdf)
 .PHONY: all check clean
 all: $(MAIN).pdf
 $(MAIN).pdf: $(MAIN).tex $(FIGPDF)
-	latexmk -pdf -interaction=nonstopmode -halt-on-error -file-line-error $(MAIN).tex
+	latexmk -pdf -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error $(MAIN).tex
 Images/%.pdf: Images/%.tex
-	cd $(dir $<) && latexmk -pdf -interaction=nonstopmode -halt-on-error -file-line-error $(notdir $<)
+	cd $(dir $<) && latexmk -pdf -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error $(notdir $<)
 check:
 	$(PYTHON) code/provera.py
 clean:

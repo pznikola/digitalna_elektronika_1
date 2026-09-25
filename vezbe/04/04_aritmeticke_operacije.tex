@@ -8,6 +8,8 @@
 \usepackage{amsmath,amssymb,mathtools}
 \numberwithin{equation}{section}
 \usepackage{graphicx,adjustbox,placeins}
+\usepackage{tikz}
+\usetikzlibrary{tikzmark,arrows.meta}
 \graphicspath{{Images/}}
 \usepackage{booktabs,tabularx,longtable,array,multirow,makecell}
 \usepackage{caption,subcaption}
@@ -15,7 +17,7 @@
 \usepackage{siunitx}
 \sisetup{detect-all}
 \usepackage[most]{tcolorbox}
-\usepackage{enumitem}
+\usepackage{enumitem,needspace}
 \setlist{nosep}
 \usepackage{fancyhdr}
 \definecolor{Primary}{HTML}{1F77B4}
@@ -74,13 +76,13 @@ Haris Turkmanović & \href{mailto:haris@etf.bg.ac.rs}{\texttt{haris@etf.bg.ac.rs
 
 
 % Izvor DOCX: blok 33
-Sabiranje neoznačenih brojeva X = \emph{x}\textsubscript{n} \emph{x}\textsubscript{n-1} \emph{x}\textsubscript{n-2} \ldots{} \emph{x}\textsubscript{1} \emph{x}\textsubscript{0} i Y = \emph{y}\textsubscript{n} \emph{y}\textsubscript{n-1} \emph{y}\textsubscript{n-2} \ldots{} \emph{y}\textsubscript{1} \emph{y}\textsubscript{0} u brojnom sistemu sa osnovom \emph{r} se realizuje sabiranjem svake od cifara brojeva X i Y u brojnom sistemu \emph{r}, počevši od cifre najmanje težine, i dodavanjem cifara ulaznog prenosa . Dakle, cifra \emph{s}\textsubscript{i} zbira S se određuje primenom sledeće formule:
+Sabiranje neoznačenih brojeva X = \emph{x}\textsubscript{n} \emph{x}\textsubscript{n-1} \emph{x}\textsubscript{n-2} \ldots{} \emph{x}\textsubscript{1} \emph{x}\textsubscript{0} i Y = \emph{y}\textsubscript{n} \emph{y}\textsubscript{n-1} \emph{y}\textsubscript{n-2} \ldots{} \emph{y}\textsubscript{1} \emph{y}\textsubscript{0} u brojnom sistemu sa osnovom \emph{r} se realizuje sabiranjem svake od cifara brojeva X i Y u brojnom sistemu \emph{r}, počevši od cifre najmanje težine, i dodavanjem cifara ulaznog prenosa. Dakle, cifra \emph{s}\textsubscript{i} zbira S se određuje primenom sledeće formule:
 
 
 
 % Izvor DOCX: blok 34
 \begin{equation}\label{eq:1.1.1}
-s_{i} = \left( x_{i}\  + \ y_{i}\  + c_{i} \right)\ mod\ r
+s_{i} = \left( x_i+y_i+c_i \right)\bmod r
 \end{equation}
 
 
@@ -112,7 +114,7 @@ Oduzimanje neoznačenih brojeva X = \emph{x}\textsubscript{n} \emph{x}\textsubsc
 
 % Izvor DOCX: blok 39
 \begin{equation}\label{eq:1.2.1}
-d_{i} = \left( x_{i} - \ y_{i} - b_{i} \right)\ mod\ r
+d_{i} = \left( x_i-y_i-b_i \right)\bmod r
 \end{equation}
 
 
@@ -125,12 +127,12 @@ d_{i} = \left( x_{i} - \ y_{i} - b_{i} \right)\ mod\ r
 \redlinija
 - & \emph{y}\textsubscript{n} & \emph{y}\textsubscript{n-1} & \emph{y}\textsubscript{n-2} & \ldots{} & \emph{y}\textsubscript{1} & \emph{y}\textsubscript{0} \\
 \redlinija
-\emph{d}\textsubscript{n+1} & \emph{d}\textsubscript{n} & \emph{d}\textsubscript{n-1} & \emph{d}\textsubscript{n-2} & \ldots{} & \emph{d}\textsubscript{1} & \emph{d}\textsubscript{0} \\
+$-b_{n+1}$ & \emph{d}\textsubscript{n} & \emph{d}\textsubscript{n-1} & \emph{d}\textsubscript{n-2} & \ldots{} & \emph{d}\textsubscript{1} & \emph{d}\textsubscript{0} \\
 \bottomrule\end{tabular}\end{adjustbox}\end{center}
 
 
 % Izvor DOCX: blok 41
-Ulazna pozajmica je $b_i$. Izlazna pozajmica je $b_{i+1}=1$ ako je $x_i-y_i-b_i<0$, a inače je nula. Početna pozajmica je $b_0$, dok $b_{n+1}=1$ označava da je umanjenik manji od umanjioca (uz ulaznu pozajmicu).
+Ulazna pozajmica je $b_i$. Izlazna pozajmica je $b_{i+1}=1$ ako je $x_i-y_i-b_i<0$, a inače je nula. Početna pozajmica je $b_0$, dok $b_{n+1}=1$ označava da je $X<Y+b_0$. Ako je $N=n+1$ broj celih cifara, tada je $X-Y-b_0=\sum_{i=0}^{n}d_i r^i-b_{n+1}r^N$. Prva kolona poslednjeg reda zato prikazuje koeficijent $-b_{n+1}$, a ne neoznačenu cifru rezultata.
 
 % Izvor DOCX: blok 42
 Pre oduzimanja izjednačavamo broj cifara vodećim nulama i poravnavamo tačke. Ako je umanjenik manji od umanjioca, matematička razlika je negativna i nije predstavljiva kao neoznačen broj; zapis na ograničenoj širini predstavlja ostatak modulo $r^N$.
@@ -146,7 +148,7 @@ Prilikom aritmetičkih operacija sa brojevima X = \emph{x}\textsubscript{n} \emp
 
 
 % Izvor DOCX: blok 45
-Za sabiranje brojeva istog znaka sabiraju se apsolutne vrednosti i zadržava znak. Za suprotne znake oduzima se manja apsolutna vrednost od veće, a znak se preuzima od operanda veće apsolutne vrednosti. Oduzimanje $X-Y$ svodi se na $X+(-Y)$. Tvrdnja da iz $|X|<|Y|$ sledi $X-Y<0$ važi kada su $X$ i $Y$ nenegativni; nije opšte pravilo za označene operande.
+Za sabiranje brojeva istog znaka sabiraju se apsolutne vrednosti i zadržava znak. Zbir mora stati u raspoloživo polje apsolutne vrednosti; inače postoji prekoračenje. Ako oduzimanje jednakih apsolutnih vrednosti daje nulu, unapred se bira jedan od dva zapisa nule. Za suprotne znake oduzima se manja apsolutna vrednost od veće, a znak se preuzima od operanda veće apsolutne vrednosti. Oduzimanje $X-Y$ svodi se na $X+(-Y)$. Tvrdnja da iz $|X|<|Y|$ sledi $X-Y<0$ važi kada su $X$ i $Y$ nenegativni; nije opšte pravilo za označene operande.
 
 % Izvor DOCX: blok 46
 \FloatBarrier
@@ -168,12 +170,12 @@ I neoznačena i označena aritmetika imaju ograničen opseg. Kod neoznačenog sa
 \redlinija
 + & \emph{y}\textsubscript{n} & \emph{y}\textsubscript{n-1} & \emph{y}\textsubscript{n-2} & \ldots{} & \emph{y}\textsubscript{1} & \emph{y}\textsubscript{0} \\
 \redlinija
-{\emph{s}\textsubscript{n+1}} & \emph{s}\textsubscript{n} & \emph{s}\textsubscript{n-1} & \emph{s}\textsubscript{n-2} & \ldots{} & \emph{s}\textsubscript{1} & \emph{s}\textsubscript{0} \\
+--- & \emph{s}\textsubscript{n} & \emph{s}\textsubscript{n-1} & \emph{s}\textsubscript{n-2} & \ldots{} & \emph{s}\textsubscript{1} & \emph{s}\textsubscript{0} \\
 \bottomrule\end{tabular}\end{adjustbox}\end{center}
 
 
 % Izvor DOCX: blok 50
-Oduzimanje brojeva u komplementu osnove se svodi na sabiranje u komplementu osnove gde se umesto umanjioca uzima njegova suprotna vrednost.
+Oduzimanje se svodi na sabiranje sa komplementiranom kodnom reči umanjioca, modulo $r^N$. Ako se pojavi najmanji predstavljivi broj, njegova pozitivna suprotna vrednost ne staje u istu širinu: modularno oduzimanje i dalje važi, ali prekoračenje treba odrediti za prvobitnu operaciju $X-Y$, a ne po znaku tog međukoda. Za binarni KO važi $\mathrm{OF}=(x_n\oplus y_n)(s_n\oplus x_n)$, gde je $s_n$ znak razlike.
 
 
 
@@ -186,7 +188,7 @@ Oduzimanje brojeva u komplementu osnove se svodi na sabiranje u komplementu osno
 Sabiranje u komplementu maksimalne vrednosti izvodi se cifru po cifru. Izlazni prenos dodaje se na cifru najmanje težine (kružni prenos). Kod razlomljenih zapisa to znači dodavanje jedinice poslednjeg mesta, a ne celog broja 1.
 
 % Izvor DOCX: blok 53
-\begin{center}\begin{adjustbox}{max width=\linewidth}
+\begin{center}
 \begin{tabular}{ccccccc}\toprule
 \emph{c}\textsubscript{n+1} & \emph{c}\textsubscript{n} & \emph{c}\textsubscript{n-1} & \emph{c}\textsubscript{n-2} & \ldots{} & \emph{c}\textsubscript{1} & \emph{c}\textsubscript{0} \\
 \midrule
@@ -194,12 +196,17 @@ Sabiranje u komplementu maksimalne vrednosti izvodi se cifru po cifru. Izlazni p
 \redlinija
 + & \emph{y}\textsubscript{n} & \emph{y}\textsubscript{n-1} & \emph{y}\textsubscript{n-2} & \ldots{} & \emph{y}\textsubscript{1} & \emph{y}\textsubscript{0} \\
 \redlinija
-\emph{t}\textsubscript{n+1} & \emph{t}\textsubscript{n} & \emph{t}\textsubscript{n-1} & \emph{t}\textsubscript{n-2} & \ldots{} & \emph{t}\textsubscript{1} & \emph{t}\textsubscript{0} \\
-\redlinija
- &  &  &  &  &  & \emph{t}\textsubscript{n+1} \\
+\tikzmarknode{kmv-izlaz}{$t_{n+1}$} & \emph{t}\textsubscript{n} & \emph{t}\textsubscript{n-1} & \emph{t}\textsubscript{n-2} & \ldots{} & \emph{t}\textsubscript{1} & \emph{t}\textsubscript{0} \\
+\arrayrulecolor{black!28}\cmidrule{2-7}\arrayrulecolor{black}
+ &  &  &  &  &  & \tikzmarknode{kmv-ulaz}{$t_{n+1}$} \\
 \redlinija
  & \emph{s}\textsubscript{n} & \emph{s}\textsubscript{n-1} & \emph{s}\textsubscript{n-2} & \ldots{} & \emph{s}\textsubscript{1} & \emph{s}\textsubscript{0} \\
-\bottomrule\end{tabular}\end{adjustbox}\end{center}
+\bottomrule\end{tabular}
+\begin{tikzpicture}[remember picture,overlay]
+\draw[Primary,semithick,-{Latex[length=2mm]}]
+  (kmv-izlaz.south) |- ([xshift=-2pt]kmv-ulaz.west);
+\end{tikzpicture}
+\end{center}
 
 
 % Izvor DOCX: blok 54
@@ -216,7 +223,7 @@ Oduzimanje označenih brojeva u komplementu maksimalne vrednosti se najčešće 
 Pri množenju neoznačenih brojeva najpre privremeno uklanjamo tačke i množimo celobrojne kodne reči. Ako operandi imaju $k_X$ i $k_Y$ razlomljenih cifara, proizvod ima $k_X+k_Y$ razlomljenih cifara.
 
 % Izvor DOCX: blok 57
-Iako je prvi način zastupljeniji u slučaju standardnog množenja u decimalnom brojnom sistemu, takav pristup dovoljno tačno ne oslikava implementaciju množenja u digitalnoj logici. Alternativa, koja je pogodnija za implementaciju u digitalnoj logici, podrazumeva postupno određivanje međurezultata sabiranja.
+Parcijalne proizvode možemo sabrati odjednom ili postupno, čuvajući međuzbir posle svakog koraka. Prvi postupak odgovara paralelnom sabiranju parcijalnih proizvoda, a drugi uzastopnom sabiranju i pomeranju; oba imaju realizacije u digitalnoj logici. U zadacima su prikazana oba računska postupka.
 
 
 
@@ -236,7 +243,7 @@ Zato poslednji parcijalni proizvod ima negativnu težinu, dok se ostali sabiraju
 
 
 % Izvor DOCX: blok 61
-Operacija deljenja neoznačenih binarnih brojeva se realizuje na isti način kao operacija deljenja neoznačenih decimalnih brojeva
+Postupak pisanog deljenja neoznačenih binarnih brojeva zasniva se na istom principu kao pisano decimalno deljenje. Delilac mora biti različit od nule. U celobrojnom deljenju određujemo količnik $Q$ i ostatak $R$ tako da je $X=YQ+R$, uz $0\le R<Y$.
 
 
 \napomena{U zadacima sa označenim brojevima svaki operand najpre se tumači na svojoj izvornoj širini. Zatim se proširuje na širinu rezultata, uz očuvanje vrednosti. Za $R=r^N$ i celobrojnu kodnu reč $U$, KO ima vrednost $U$ kada je $U<\lceil R/2\rceil$, a inače $U-R$. Za KMV uzimamo simetričan opseg $[-\lfloor(R-2)/2\rfloor,\lfloor(R-2)/2\rfloor]$, sa obe nule; negativna vrednost ima kod $R-1-|D|$. Kada je $r$ neparno, srednja samokomplementarna reč $(R-1)/2$ se ne koristi. Za $k$ razlomljenih cifara sve vrednosti skaliraju se sa $r^{-k}$. Ova konvencija uklanja neodređenost primera u osnovi 7.}
@@ -253,7 +260,7 @@ Operacija deljenja neoznačenih binarnih brojeva se realizuje na isti način kao
 
 % Izvor DOCX: blok 64
 \begin{enumerate}[label=\alph*),start=1,leftmargin=*]
-\item Izvršiti sabiranje neoznačenih brojeva brojnom u sistemu sa osnovom u kome su dati i odrediti sve cifre prenosa:
+\item Izvršiti sabiranje neoznačenih brojeva u brojnom sistemu sa osnovom u kome su dati i odrediti sve cifre prenosa:
 
 \end{enumerate}
 
@@ -283,7 +290,12 @@ b) Izvršiti oduzimanje neoznačenih brojeva u osnovi u kojoj su dati i odrediti
 
 
 % Izvor DOCX: blok 70
-\begin{longtable}{p{0.33\linewidth} p{0.36\linewidth} p{0.23\linewidth}}\toprule
+\begin{longtable}{p{0.33\linewidth} p{0.36\linewidth} p{0.23\linewidth}}
+\caption{Sabiranje neoznačenih brojeva.}\label{tab:postupak-1}\\
+\toprule
+Izraz & Postupak & Rezultat\\\midrule\endfirsthead
+\caption[]{Sabiranje neoznačenih brojeva. (nastavak)}\\
+\toprule
 Izraz & Postupak & Rezultat\\\midrule\endhead
 $(100.11)_{2}+(10.01)_{2}$ & $\begin{array}{r}\text{c}:\ 000110\\100.11\\+010.01\\\hline 111.00\end{array}$ & $111.00$\\[5pt]
 \redlinija
@@ -307,7 +319,12 @@ $(26417)_{8}+(13140)_{8}$ & $\begin{array}{r}\text{c}:\ 010000\\26417\\+13140\\\
 
 
 % Izvor DOCX: blok 72
-\begin{longtable}{p{0.33\linewidth} p{0.36\linewidth} p{0.23\linewidth}}\toprule
+\begin{longtable}{p{0.33\linewidth} p{0.36\linewidth} p{0.23\linewidth}}
+\caption{Oduzimanje neoznačenih brojeva.}\label{tab:postupak-2}\\
+\toprule
+Izraz & Postupak & Rezultat\\\midrule\endfirsthead
+\caption[]{Oduzimanje neoznačenih brojeva. (nastavak)}\\
+\toprule
 Izraz & Postupak & Rezultat\\\midrule\endhead
 $(110101)_{2}-(10110)_{2}$ & $\begin{array}{r}\text{b}:\ 0111100\\110101\\-010110\\\hline 011111\end{array}$ & $\begin{array}{r}011111\\b_{N}=0\end{array}$\\[5pt]
 \redlinija
@@ -356,7 +373,12 @@ Za realizaciju operacija u ovom zadatku, koristimo algoritam opisan u \ref{sec:1
 
 
 % Izvor DOCX: blok 79
-\begin{longtable}{p{0.2\linewidth} p{0.48\linewidth} p{0.24\linewidth}}\toprule
+\begin{longtable}{p{0.2\linewidth} p{0.48\linewidth} p{0.24\linewidth}}
+\caption{Operacije u predstavi znak i apsolutna vrednost.}\label{tab:postupak-3}\\
+\toprule
+Izraz & Postupak nad apsolutnim vrednostima & Rezultat\\\midrule\endfirsthead
+\caption[]{Operacije u predstavi znak i apsolutna vrednost. (nastavak)}\\
+\toprule
 Izraz & Postupak nad apsolutnim vrednostima & Rezultat\\\midrule\endhead
 $A+B$ & Znak $+$; $|R|=10010+01010$ & $011100_{\mathrm{ZA}}$\\[5pt]
 \redlinija
@@ -417,7 +439,12 @@ $A-B+C-D$ & \multicolumn{2}{c}{Za samostalni rad}\\[5pt]
 
 
 % Izvor DOCX: blok 87
-\begin{longtable}{p{0.34\linewidth} p{0.34\linewidth} p{0.23\linewidth}}\toprule
+\begin{longtable}{p{0.34\linewidth} p{0.34\linewidth} p{0.23\linewidth}}
+\caption{Sabiranje u KO sa četiri cifre.}\label{tab:postupak-4}\\
+\toprule
+Izraz & Sabiranje kodnih reči & Rezultat\\\midrule\endfirsthead
+\caption[]{Sabiranje u KO sa četiri cifre. (nastavak)}\\
+\toprule
 Izraz & Sabiranje kodnih reči & Rezultat\\\midrule\endhead
 $(010)_{2}+(0011)_{2}$ & $\begin{array}{r}c:\ 00100\\0010\\+0011\\\hline 0101\end{array}$ & $0101$\newline OF = 0\\[5pt]
 \redlinija
@@ -449,7 +476,12 @@ $(324)_{7}+(365)_{7}$ & $\begin{array}{r}c:\ 11110\\0324\\+6365\\\hline 0022\end
 
 
 % Izvor DOCX: blok 89
-\begin{longtable}{p{0.34\linewidth} p{0.34\linewidth} p{0.23\linewidth}}\toprule
+\begin{longtable}{p{0.34\linewidth} p{0.34\linewidth} p{0.23\linewidth}}
+\caption{Oduzimanje u KO sa četiri cifre.}\label{tab:postupak-5}\\
+\toprule
+Izraz & Sabiranje kodnih reči & Rezultat\\\midrule\endfirsthead
+\caption[]{Oduzimanje u KO sa četiri cifre. (nastavak)}\\
+\toprule
 Izraz & Sabiranje kodnih reči & Rezultat\\\midrule\endhead
 $(010)_{2}-(1101)_{2}$ & $\begin{array}{r}c:\ 00100\\0010\\+0011\\\hline 0101\end{array}$ & $0101$\newline OF = 0\\[5pt]
 \redlinija
@@ -516,11 +548,16 @@ $(364)_{7}-(302)_{7}$ & $\begin{array}{r}c:\ 11110\\6364\\+6365\\\hline 6062\end
 
 
 % Izvor DOCX: blok 97
-\begin{longtable}{p{0.34\linewidth} p{0.34\linewidth} p{0.23\linewidth}}\toprule
+\begin{longtable}{p{0.34\linewidth} p{0.34\linewidth} p{0.23\linewidth}}
+\caption{Sabiranje u KMV sa četiri cifre.}\label{tab:postupak-6}\\
+\toprule
+Izraz & Sabiranje kodnih reči & Rezultat\\\midrule\endfirsthead
+\caption[]{Sabiranje u KMV sa četiri cifre. (nastavak)}\\
+\toprule
 Izraz & Sabiranje kodnih reči & Rezultat\\\midrule\endhead
 $(010)_{2}+(0011)_{2}$ & $\begin{array}{r}c:\ 00100\\0010\\+0011\\\hline 0101\\+0000\\\hline 0101\end{array}$ & $0101$\newline OF = 0\\[5pt]
 \redlinija
-$(11)_{2}+(110)_{2}$ & $\begin{array}{r}c:\ 00000\\0000\\+1110\\\hline 1110\\+0000\\\hline 1110\end{array}$ & $1110$\newline OF = 0\\[5pt]
+$(11)_{2}+(110)_{2}$ & $\begin{array}{r}c:\ 11100\\1111\\+1110\\\hline 1101\\+0001\\\hline 1110\end{array}$ & $1110$\newline OF = 0\\[5pt]
 \redlinija
 $(0110)_{2}+(1011)_{2}$ & $\begin{array}{r}c:\ 11100\\0110\\+1011\\\hline 0001\\+0001\\\hline 0010\end{array}$ & $0010$\newline OF = 0\\[5pt]
 \redlinija
@@ -548,11 +585,16 @@ $(324)_{7}+(365)_{7}$ & $\begin{array}{r}c:\ 11110\\0324\\+6365\\\hline 0022\\+0
 
 
 % Izvor DOCX: blok 99
-\begin{longtable}{p{0.34\linewidth} p{0.34\linewidth} p{0.23\linewidth}}\toprule
+\begin{longtable}{p{0.34\linewidth} p{0.34\linewidth} p{0.23\linewidth}}
+\caption{Oduzimanje u KMV sa četiri cifre.}\label{tab:postupak-7}\\
+\toprule
+Izraz & Sabiranje kodnih reči & Rezultat\\\midrule\endfirsthead
+\caption[]{Oduzimanje u KMV sa četiri cifre. (nastavak)}\\
+\toprule
 Izraz & Sabiranje kodnih reči & Rezultat\\\midrule\endhead
 $(010)_{2}-(1101)_{2}$ & $\begin{array}{r}c:\ 00100\\0010\\+0010\\\hline 0100\\+0000\\\hline 0100\end{array}$ & $0100$\newline OF = 0\\[5pt]
 \redlinija
-$(11)_{2}-(010)_{2}$ & $\begin{array}{r}c:\ 00000\\0000\\+1101\\\hline 1101\\+0000\\\hline 1101\end{array}$ & $1101$\newline OF = 0\\[5pt]
+$(11)_{2}-(010)_{2}$ & $\begin{array}{r}c:\ 11110\\1111\\+1101\\\hline 1100\\+0001\\\hline 1101\end{array}$ & $1101$\newline OF = 0\\[5pt]
 \redlinija
 $(0110)_{2}-(0101)_{2}$ & $\begin{array}{r}c:\ 11100\\0110\\+1010\\\hline 0000\\+0001\\\hline 0001\end{array}$ & $0001$\newline OF = 0\\[5pt]
 \redlinija
@@ -618,63 +660,136 @@ $(364)_{7}-(302)_{7}$ & $\begin{array}{r}c:\ 11110\\6364\\+6364\\\hline 6061\\+0
 \begin{enumerate}[label=\Roman*),start=1,leftmargin=*]
 \item pristup koji isključuje međuzbirove
 
-\item pristup koji podrazumeva generisanje međurezultata (pogodniji za implementaciju u digitalnoj logici)
+\item postupno sabiranje parcijalnih proizvoda uz čuvanje međuzbirova
 
 \end{enumerate}
 
 
 % Izvor DOCX: blok 108
-\noindent\textbf{$(10110)_{2}\times (01010)_{2}$}\par
-\begin{longtable}{ccccc}\toprule
-$j$ & $y_j$ & Težina & I: parcijalni proizvod & II: međuzbir\\\midrule\endhead
-0 & 0 & 1 & $0000000000$ & $0000000000$\\[5pt]
+U oba postupka cifre iste težine stoje u istoj koloni. Parcijalni proizvod za bit $y_j$ pomera se za $j$ mesta ulevo; prazna mesta desno predstavljaju nule.
+U postupku II svaki red ispod računske crte prikazuje novi međuzbir $S_j$.
+Tačka se vraća u konačnom rezultatu, sa ukupno onoliko razlomljenih bita koliko ih imaju oba operanda zajedno.\par
+
+\par\addvspace{\medskipamount}\noindent\begin{minipage}{\linewidth}
+\centering\captionsetup{type=table}
+\caption{Množenje neoznačenih brojeva: $(10110)_{2}\times (01010)_{2}$.}\label{tab:postupak-8}
+\begingroup\small\setlength{\arraycolsep}{2pt}\renewcommand{\arraystretch}{1.02}
+\begin{tabular}{@{}cl@{}}\toprule
+Postupak & Pisani račun\\\midrule
+I & $\begin{array}[t]{r@{\,}*{10}{c}@{\quad}l}
+ &  &  &  &  &  & 0 & 0 & 0 & 0 & 0 & (10110)_2\times 0\quad(j=0) \\
+ &  &  &  &  & 1 & 0 & 1 & 1 & 0 &  & (10110)_2\times 1\quad(j=1) \\
+ &  &  &  & 0 & 0 & 0 & 0 & 0 &  &  & (10110)_2\times 0\quad(j=2) \\
+ &  &  & 1 & 0 & 1 & 1 & 0 &  &  &  & (10110)_2\times 1\quad(j=3) \\
++ &  & 0 & 0 & 0 & 0 & 0 &  &  &  &  & (10110)_2\times 0\quad(j=4) \\
+\cline{1-11}
+ & 0 & 0 & 1 & 1 & 0 & 1 & 1 & 1 & 0 & 0 & \text{proizvod bez tačke} \\
+\end{array}$\quad\\[5pt]
 \redlinija
-1 & 1 & 2 & $0000101100$ & $0000101100$\\[5pt]
-\redlinija
-2 & 0 & 4 & $0000000000$ & $0000101100$\\[5pt]
-\redlinija
-3 & 1 & 8 & $0010110000$ & $0011011100$\\[5pt]
-\redlinija
-4 & 0 & 16 & $0000000000$ & $0011011100$\\[5pt]
-\bottomrule\end{longtable}
-\begin{equation}
+II & $\begin{array}[t]{r@{\,}*{10}{c}@{\quad}l}
+ & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \text{početni zbir }0 \\
++ &  &  &  &  &  & 0 & 0 & 0 & 0 & 0 & (10110)_2\times 0\quad(j=0) \\
+\cline{1-11}
+ & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & S_0 \\
++ &  &  &  &  & 1 & 0 & 1 & 1 & 0 &  & (10110)_2\times 1\quad(j=1) \\
+\cline{1-11}
+ & 0 & 0 & 0 & 0 & 1 & 0 & 1 & 1 & 0 & 0 & S_1 \\
++ &  &  &  & 0 & 0 & 0 & 0 & 0 &  &  & (10110)_2\times 0\quad(j=2) \\
+\cline{1-11}
+ & 0 & 0 & 0 & 0 & 1 & 0 & 1 & 1 & 0 & 0 & S_2 \\
++ &  &  & 1 & 0 & 1 & 1 & 0 &  &  &  & (10110)_2\times 1\quad(j=3) \\
+\cline{1-11}
+ & 0 & 0 & 1 & 1 & 0 & 1 & 1 & 1 & 0 & 0 & S_3 \\
++ &  & 0 & 0 & 0 & 0 & 0 &  &  &  &  & (10110)_2\times 0\quad(j=4) \\
+\cline{1-11}
+ & 0 & 0 & 1 & 1 & 0 & 1 & 1 & 1 & 0 & 0 & S_4\;\text{(proizvod bez tačke)} \\
+\end{array}$\quad\\[5pt]
+\bottomrule\end{tabular}\endgroup
+\begin{equation}\label{eq:racun-1}
 (10110)_{2}\times (01010)_{2}=(0011011100)_{2}
 \end{equation}
-\noindent\textbf{$(110.01)_{2}\times (10.111)_{2}$}\par
-\begin{longtable}{ccccc}\toprule
-$j$ & $y_j$ & Težina & I: parcijalni proizvod & II: međuzbir\\\midrule\endhead
-0 & 1 & 1 & $0000011001$ & $0000011001$\\[5pt]
+\end{minipage}
+\par\addvspace{\medskipamount}\noindent\begin{minipage}{\linewidth}
+\centering\captionsetup{type=table}
+\caption{Množenje neoznačenih brojeva: $(110.01)_{2}\times (10.111)_{2}$.}\label{tab:postupak-9}
+\begingroup\small\setlength{\arraycolsep}{2pt}\renewcommand{\arraystretch}{1.02}
+\begin{tabular}{@{}cl@{}}\toprule
+Postupak & Pisani račun\\\midrule
+I & $\begin{array}[t]{r@{\,}*{10}{c}@{\quad}l}
+ &  &  &  &  &  & 1 & 1 & 0 & 0 & 1 & (11001)_2\times 1\quad(j=0) \\
+ &  &  &  &  & 1 & 1 & 0 & 0 & 1 &  & (11001)_2\times 1\quad(j=1) \\
+ &  &  &  & 1 & 1 & 0 & 0 & 1 &  &  & (11001)_2\times 1\quad(j=2) \\
+ &  &  & 0 & 0 & 0 & 0 & 0 &  &  &  & (11001)_2\times 0\quad(j=3) \\
++ &  & 1 & 1 & 0 & 0 & 1 &  &  &  &  & (11001)_2\times 1\quad(j=4) \\
+\cline{1-11}
+ & 1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 1 & 1 & \text{proizvod bez tačke} \\
+\end{array}$\quad\\[5pt]
 \redlinija
-1 & 1 & 2 & $0000110010$ & $0001001011$\\[5pt]
-\redlinija
-2 & 1 & 4 & $0001100100$ & $0010101111$\\[5pt]
-\redlinija
-3 & 0 & 8 & $0000000000$ & $0010101111$\\[5pt]
-\redlinija
-4 & 1 & 16 & $0110010000$ & $1000111111$\\[5pt]
-\bottomrule\end{longtable}
-\begin{equation}
+II & $\begin{array}[t]{r@{\,}*{10}{c}@{\quad}l}
+ & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \text{početni zbir }0 \\
++ &  &  &  &  &  & 1 & 1 & 0 & 0 & 1 & (11001)_2\times 1\quad(j=0) \\
+\cline{1-11}
+ & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 1 & S_0 \\
++ &  &  &  &  & 1 & 1 & 0 & 0 & 1 &  & (11001)_2\times 1\quad(j=1) \\
+\cline{1-11}
+ & 0 & 0 & 0 & 1 & 0 & 0 & 1 & 0 & 1 & 1 & S_1 \\
++ &  &  &  & 1 & 1 & 0 & 0 & 1 &  &  & (11001)_2\times 1\quad(j=2) \\
+\cline{1-11}
+ & 0 & 0 & 1 & 0 & 1 & 0 & 1 & 1 & 1 & 1 & S_2 \\
++ &  &  & 0 & 0 & 0 & 0 & 0 &  &  &  & (11001)_2\times 0\quad(j=3) \\
+\cline{1-11}
+ & 0 & 0 & 1 & 0 & 1 & 0 & 1 & 1 & 1 & 1 & S_3 \\
++ &  & 1 & 1 & 0 & 0 & 1 &  &  &  &  & (11001)_2\times 1\quad(j=4) \\
+\cline{1-11}
+ & 1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 1 & 1 & S_4\;\text{(proizvod bez tačke)} \\
+\end{array}$\quad\\[5pt]
+\bottomrule\end{tabular}\endgroup
+\begin{equation}\label{eq:racun-2}
 (110.01)_{2}\times (10.111)_{2}=(10001.11111)_{2}
 \end{equation}
-\noindent\textbf{$(0110.1)_{2}\times (1.0110)_{2}$}\par
-\begin{longtable}{ccccc}\toprule
-$j$ & $y_j$ & Težina & I: parcijalni proizvod & II: međuzbir\\\midrule\endhead
-0 & 0 & 1 & $0000000000$ & $0000000000$\\[5pt]
+\end{minipage}
+\par\addvspace{\medskipamount}\noindent\begin{minipage}{\linewidth}
+\centering\captionsetup{type=table}
+\caption{Množenje neoznačenih brojeva: $(0110.1)_{2}\times (1.0110)_{2}$.}\label{tab:postupak-10}
+\begingroup\small\setlength{\arraycolsep}{2pt}\renewcommand{\arraystretch}{1.02}
+\begin{tabular}{@{}cl@{}}\toprule
+Postupak & Pisani račun\\\midrule
+I & $\begin{array}[t]{r@{\,}*{10}{c}@{\quad}l}
+ &  &  &  &  &  & 0 & 0 & 0 & 0 & 0 & (01101)_2\times 0\quad(j=0) \\
+ &  &  &  &  & 0 & 1 & 1 & 0 & 1 &  & (01101)_2\times 1\quad(j=1) \\
+ &  &  &  & 0 & 1 & 1 & 0 & 1 &  &  & (01101)_2\times 1\quad(j=2) \\
+ &  &  & 0 & 0 & 0 & 0 & 0 &  &  &  & (01101)_2\times 0\quad(j=3) \\
++ &  & 0 & 1 & 1 & 0 & 1 &  &  &  &  & (01101)_2\times 1\quad(j=4) \\
+\cline{1-11}
+ & 0 & 1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 0 & \text{proizvod bez tačke} \\
+\end{array}$\quad\\[5pt]
 \redlinija
-1 & 1 & 2 & $0000011010$ & $0000011010$\\[5pt]
-\redlinija
-2 & 1 & 4 & $0000110100$ & $0001001110$\\[5pt]
-\redlinija
-3 & 0 & 8 & $0000000000$ & $0001001110$\\[5pt]
-\redlinija
-4 & 1 & 16 & $0011010000$ & $0100011110$\\[5pt]
-\bottomrule\end{longtable}
-\begin{equation}
+II & $\begin{array}[t]{r@{\,}*{10}{c}@{\quad}l}
+ & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \text{početni zbir }0 \\
++ &  &  &  &  &  & 0 & 0 & 0 & 0 & 0 & (01101)_2\times 0\quad(j=0) \\
+\cline{1-11}
+ & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & S_0 \\
++ &  &  &  &  & 0 & 1 & 1 & 0 & 1 &  & (01101)_2\times 1\quad(j=1) \\
+\cline{1-11}
+ & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 1 & 0 & S_1 \\
++ &  &  &  & 0 & 1 & 1 & 0 & 1 &  &  & (01101)_2\times 1\quad(j=2) \\
+\cline{1-11}
+ & 0 & 0 & 0 & 1 & 0 & 0 & 1 & 1 & 1 & 0 & S_2 \\
++ &  &  & 0 & 0 & 0 & 0 & 0 &  &  &  & (01101)_2\times 0\quad(j=3) \\
+\cline{1-11}
+ & 0 & 0 & 0 & 1 & 0 & 0 & 1 & 1 & 1 & 0 & S_3 \\
++ &  & 0 & 1 & 1 & 0 & 1 &  &  &  &  & (01101)_2\times 1\quad(j=4) \\
+\cline{1-11}
+ & 0 & 1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 0 & S_4\;\text{(proizvod bez tačke)} \\
+\end{array}$\quad\\[5pt]
+\bottomrule\end{tabular}\endgroup
+\begin{equation}\label{eq:racun-3}
 (0110.1)_{2}\times (1.0110)_{2}=(01000.11110)_{2}
 \end{equation}
-
+\end{minipage}
 
 % Izvor DOCX: blok 109
+\Needspace{22\baselineskip}
 \begin{enumerate}[label=\alph*),start=2,leftmargin=*]
 \item Na osnovu postupka objašnjenog u \ref{sec:1.6} važi:
 
@@ -682,56 +797,127 @@ $j$ & $y_j$ & Težina & I: parcijalni proizvod & II: međuzbir\\\midrule\endhead
 
 
 % Izvor DOCX: blok 110
-\noindent\textbf{$(10110)_{2}\times (01010)_{2}$}\par
-\begin{longtable}{ccccc}\toprule
-$j$ & $y_j$ & Težina & I: parcijalni proizvod & II: međuzbir\\\midrule\endhead
-0 & 0 & 1 & $0000000000$ & $0000000000$\\[5pt]
+EZ označava proširenje znaka (plava polja), a DK drugi komplement (crvena polja).
+Znak se proširuje pre pomeranja na raspoloživih $10-j$ bita; poslednji parcijalni proizvod ima negativnu težinu, pa se za $j=4$ uzima DK.
+Svi međuzbirovi imaju deset bita; izlazni prenosi se odbacuju.\par
+
+\par\addvspace{\medskipamount}\noindent\begin{minipage}{\linewidth}
+\centering\captionsetup{type=table}
+\caption{Množenje u KO: $(10110)_{2}\times (01010)_{2}$.}\label{tab:postupak-11}
+\begingroup\small\setlength{\arraycolsep}{2pt}\renewcommand{\arraystretch}{1.02}
+\begin{tabular}{@{}cl@{}}\toprule
+Postupak & Pisani račun\\\midrule
+I & $\begin{array}[t]{r@{\,}*{10}{c}@{\quad}l}
+ & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & 0 & 0 & 0 & 0 & 0 & (10110)_2\times 0,\ \mathrm{EZ}\quad(j=0) \\
+ & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & 1 & 0 & 1 & 1 & 0 &  & (10110)_2\times 1,\ \mathrm{EZ}\quad(j=1) \\
+ & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & 0 & 0 & 0 & 0 & 0 &  &  & (10110)_2\times 0,\ \mathrm{EZ}\quad(j=2) \\
+ & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & 1 & 0 & 1 & 1 & 0 &  &  &  & (10110)_2\times 1,\ \mathrm{EZ}\quad(j=3) \\
++ & \cellcolor{red!13}0 & \cellcolor{red!13}0 & \cellcolor{red!13}0 & \cellcolor{red!13}0 & \cellcolor{red!13}0 & \cellcolor{red!13}0 &  &  &  &  & (10110)_2\times 0\;\to\;\mathrm{DK},\ \mathrm{EZ}\quad(j=4) \\
+\cline{1-11}
+ & 1 & 1 & 1 & 0 & 0 & 1 & 1 & 1 & 0 & 0 & \text{proizvod bez tačke} \\
+\end{array}$\quad\\[5pt]
 \redlinija
-1 & 1 & 2 & $1111101100$ & $1111101100$\\[5pt]
-\redlinija
-2 & 0 & 4 & $0000000000$ & $1111101100$\\[5pt]
-\redlinija
-3 & 1 & 8 & $1110110000$ & $1110011100$\\[5pt]
-\redlinija
-4 & 0 & -16 & $0000000000$ & $1110011100$\\[5pt]
-\bottomrule\end{longtable}
-\begin{equation}
+II & $\begin{array}[t]{r@{\,}*{10}{c}@{\quad}l}
+ & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \text{početni zbir }0 \\
++ & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & 0 & 0 & 0 & 0 & 0 & (10110)_2\times 0,\ \mathrm{EZ}\quad(j=0) \\
+\cline{1-11}
+ & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & S_0 \\
++ & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & 1 & 0 & 1 & 1 & 0 &  & (10110)_2\times 1,\ \mathrm{EZ}\quad(j=1) \\
+\cline{1-11}
+ & 1 & 1 & 1 & 1 & 1 & 0 & 1 & 1 & 0 & 0 & S_1 \\
++ & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & 0 & 0 & 0 & 0 & 0 &  &  & (10110)_2\times 0,\ \mathrm{EZ}\quad(j=2) \\
+\cline{1-11}
+ & 1 & 1 & 1 & 1 & 1 & 0 & 1 & 1 & 0 & 0 & S_2 \\
++ & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & 1 & 0 & 1 & 1 & 0 &  &  &  & (10110)_2\times 1,\ \mathrm{EZ}\quad(j=3) \\
+\cline{1-11}
+ & 1 & 1 & 1 & 0 & 0 & 1 & 1 & 1 & 0 & 0 & S_3 \\
++ & \cellcolor{red!13}0 & \cellcolor{red!13}0 & \cellcolor{red!13}0 & \cellcolor{red!13}0 & \cellcolor{red!13}0 & \cellcolor{red!13}0 &  &  &  &  & (10110)_2\times 0\;\to\;\mathrm{DK},\ \mathrm{EZ}\quad(j=4) \\
+\cline{1-11}
+ & 1 & 1 & 1 & 0 & 0 & 1 & 1 & 1 & 0 & 0 & S_4\;\text{(proizvod bez tačke)} \\
+\end{array}$\quad\\[5pt]
+\bottomrule\end{tabular}\endgroup
+\begin{equation}\label{eq:racun-4}
 (10110)_{2}\times (01010)_{2}=(1110011100)_{2}\quad(\mathrm{KO})
 \end{equation}
-\noindent\textbf{$(110.01)_{2}\times (10.111)_{2}$}\par
-\begin{longtable}{ccccc}\toprule
-$j$ & $y_j$ & Težina & I: parcijalni proizvod & II: međuzbir\\\midrule\endhead
-0 & 1 & 1 & $1111111001$ & $1111111001$\\[5pt]
+\end{minipage}
+\par\addvspace{\medskipamount}\noindent\begin{minipage}{\linewidth}
+\centering\captionsetup{type=table}
+\caption{Množenje u KO: $(110.01)_{2}\times (10.111)_{2}$.}\label{tab:postupak-12}
+\begingroup\small\setlength{\arraycolsep}{2pt}\renewcommand{\arraystretch}{1.02}
+\begin{tabular}{@{}cl@{}}\toprule
+Postupak & Pisani račun\\\midrule
+I & $\begin{array}[t]{r@{\,}*{10}{c}@{\quad}l}
+ & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & 1 & 1 & 0 & 0 & 1 & (11001)_2\times 1,\ \mathrm{EZ}\quad(j=0) \\
+ & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & 1 & 1 & 0 & 0 & 1 &  & (11001)_2\times 1,\ \mathrm{EZ}\quad(j=1) \\
+ & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & 1 & 1 & 0 & 0 & 1 &  &  & (11001)_2\times 1,\ \mathrm{EZ}\quad(j=2) \\
+ & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & 0 & 0 & 0 & 0 & 0 &  &  &  & (11001)_2\times 0,\ \mathrm{EZ}\quad(j=3) \\
++ & \cellcolor{red!13}0 & \cellcolor{red!13}0 & \cellcolor{red!13}0 & \cellcolor{red!13}1 & \cellcolor{red!13}1 & \cellcolor{red!13}1 &  &  &  &  & (11001)_2\times 1\;\to\;\mathrm{DK},\ \mathrm{EZ}\quad(j=4) \\
+\cline{1-11}
+ & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 1 & 1 & \text{proizvod bez tačke} \\
+\end{array}$\quad\\[5pt]
 \redlinija
-1 & 1 & 2 & $1111110010$ & $1111101011$\\[5pt]
-\redlinija
-2 & 1 & 4 & $1111100100$ & $1111001111$\\[5pt]
-\redlinija
-3 & 0 & 8 & $0000000000$ & $1111001111$\\[5pt]
-\redlinija
-4 & 1 & -16 & $0001110000$ & $0000111111$\\[5pt]
-\bottomrule\end{longtable}
-\begin{equation}
+II & $\begin{array}[t]{r@{\,}*{10}{c}@{\quad}l}
+ & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \text{početni zbir }0 \\
++ & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & 1 & 1 & 0 & 0 & 1 & (11001)_2\times 1,\ \mathrm{EZ}\quad(j=0) \\
+\cline{1-11}
+ & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 0 & 0 & 1 & S_0 \\
++ & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & 1 & 1 & 0 & 0 & 1 &  & (11001)_2\times 1,\ \mathrm{EZ}\quad(j=1) \\
+\cline{1-11}
+ & 1 & 1 & 1 & 1 & 1 & 0 & 1 & 0 & 1 & 1 & S_1 \\
++ & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & \cellcolor{Primary!15}1 & 1 & 1 & 0 & 0 & 1 &  &  & (11001)_2\times 1,\ \mathrm{EZ}\quad(j=2) \\
+\cline{1-11}
+ & 1 & 1 & 1 & 1 & 0 & 0 & 1 & 1 & 1 & 1 & S_2 \\
++ & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & 0 & 0 & 0 & 0 & 0 &  &  &  & (11001)_2\times 0,\ \mathrm{EZ}\quad(j=3) \\
+\cline{1-11}
+ & 1 & 1 & 1 & 1 & 0 & 0 & 1 & 1 & 1 & 1 & S_3 \\
++ & \cellcolor{red!13}0 & \cellcolor{red!13}0 & \cellcolor{red!13}0 & \cellcolor{red!13}1 & \cellcolor{red!13}1 & \cellcolor{red!13}1 &  &  &  &  & (11001)_2\times 1\;\to\;\mathrm{DK},\ \mathrm{EZ}\quad(j=4) \\
+\cline{1-11}
+ & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 1 & 1 & S_4\;\text{(proizvod bez tačke)} \\
+\end{array}$\quad\\[5pt]
+\bottomrule\end{tabular}\endgroup
+\begin{equation}\label{eq:racun-5}
 (110.01)_{2}\times (10.111)_{2}=(00001.11111)_{2}\quad(\mathrm{KO})
 \end{equation}
-\noindent\textbf{$(0110.1)_{2}\times (1.0110)_{2}$}\par
-\begin{longtable}{ccccc}\toprule
-$j$ & $y_j$ & Težina & I: parcijalni proizvod & II: međuzbir\\\midrule\endhead
-0 & 0 & 1 & $0000000000$ & $0000000000$\\[5pt]
+\end{minipage}
+\par\addvspace{\medskipamount}\noindent\begin{minipage}{\linewidth}
+\centering\captionsetup{type=table}
+\caption{Množenje u KO: $(0110.1)_{2}\times (1.0110)_{2}$.}\label{tab:postupak-13}
+\begingroup\small\setlength{\arraycolsep}{2pt}\renewcommand{\arraystretch}{1.02}
+\begin{tabular}{@{}cl@{}}\toprule
+Postupak & Pisani račun\\\midrule
+I & $\begin{array}[t]{r@{\,}*{10}{c}@{\quad}l}
+ & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & 0 & 0 & 0 & 0 & 0 & (01101)_2\times 0,\ \mathrm{EZ}\quad(j=0) \\
+ & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & 0 & 1 & 1 & 0 & 1 &  & (01101)_2\times 1,\ \mathrm{EZ}\quad(j=1) \\
+ & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & 0 & 1 & 1 & 0 & 1 &  &  & (01101)_2\times 1,\ \mathrm{EZ}\quad(j=2) \\
+ & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & 0 & 0 & 0 & 0 & 0 &  &  &  & (01101)_2\times 0,\ \mathrm{EZ}\quad(j=3) \\
++ & \cellcolor{red!13}1 & \cellcolor{red!13}1 & \cellcolor{red!13}0 & \cellcolor{red!13}0 & \cellcolor{red!13}1 & \cellcolor{red!13}1 &  &  &  &  & (01101)_2\times 1\;\to\;\mathrm{DK},\ \mathrm{EZ}\quad(j=4) \\
+\cline{1-11}
+ & 1 & 1 & 0 & 1 & 1 & 1 & 1 & 1 & 1 & 0 & \text{proizvod bez tačke} \\
+\end{array}$\quad\\[5pt]
 \redlinija
-1 & 1 & 2 & $0000011010$ & $0000011010$\\[5pt]
-\redlinija
-2 & 1 & 4 & $0000110100$ & $0001001110$\\[5pt]
-\redlinija
-3 & 0 & 8 & $0000000000$ & $0001001110$\\[5pt]
-\redlinija
-4 & 1 & -16 & $1100110000$ & $1101111110$\\[5pt]
-\bottomrule\end{longtable}
-\begin{equation}
+II & $\begin{array}[t]{r@{\,}*{10}{c}@{\quad}l}
+ & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \text{početni zbir }0 \\
++ & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & 0 & 0 & 0 & 0 & 0 & (01101)_2\times 0,\ \mathrm{EZ}\quad(j=0) \\
+\cline{1-11}
+ & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & S_0 \\
++ & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & 0 & 1 & 1 & 0 & 1 &  & (01101)_2\times 1,\ \mathrm{EZ}\quad(j=1) \\
+\cline{1-11}
+ & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 1 & 0 & S_1 \\
++ & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & 0 & 1 & 1 & 0 & 1 &  &  & (01101)_2\times 1,\ \mathrm{EZ}\quad(j=2) \\
+\cline{1-11}
+ & 0 & 0 & 0 & 1 & 0 & 0 & 1 & 1 & 1 & 0 & S_2 \\
++ & \cellcolor{Primary!15}0 & \cellcolor{Primary!15}0 & 0 & 0 & 0 & 0 & 0 &  &  &  & (01101)_2\times 0,\ \mathrm{EZ}\quad(j=3) \\
+\cline{1-11}
+ & 0 & 0 & 0 & 1 & 0 & 0 & 1 & 1 & 1 & 0 & S_3 \\
++ & \cellcolor{red!13}1 & \cellcolor{red!13}1 & \cellcolor{red!13}0 & \cellcolor{red!13}0 & \cellcolor{red!13}1 & \cellcolor{red!13}1 &  &  &  &  & (01101)_2\times 1\;\to\;\mathrm{DK},\ \mathrm{EZ}\quad(j=4) \\
+\cline{1-11}
+ & 1 & 1 & 0 & 1 & 1 & 1 & 1 & 1 & 1 & 0 & S_4\;\text{(proizvod bez tačke)} \\
+\end{array}$\quad\\[5pt]
+\bottomrule\end{tabular}\endgroup
+\begin{equation}\label{eq:racun-6}
 (0110.1)_{2}\times (1.0110)_{2}=(11011.11110)_{2}\quad(\mathrm{KO})
 \end{equation}
-
-EZ označava proširenje znaka, a DK drugi komplement. U gornjim tabelama EZ je već urađen na deset bita. Kod označenog množenja težina bita $y_4$ je $-16$, pa je poslednji parcijalni proizvod negiran. Prikazane reči predstavljaju ostatke modulo $2^{10}$; tačka se vraća tek u konačnom rezultatu.\par
+\end{minipage}
 
 % Izvor DOCX: blok 111
 \FloatBarrier
@@ -758,80 +944,123 @@ Na osnovu postupka opisanog u \ref{sec:1.7} važi:
 
 
 % Izvor DOCX: blok 116
-\noindent\textbf{$11010111:1011$}\par
-\begin{longtable}{ccccc}\toprule
-Korak & Dopisani bit & Pre oduzimanja & Bit količnika & Ostatak\\\midrule\endhead
-1 & 1 & $1$ & 0 & $1$\\[5pt]
-\redlinija
-2 & 1 & $11$ & 0 & $11$\\[5pt]
-\redlinija
-3 & 0 & $110$ & 0 & $110$\\[5pt]
-\redlinija
-4 & 1 & $1101$ & 1 & $10$\\[5pt]
-\redlinija
-5 & 0 & $100$ & 0 & $100$\\[5pt]
-\redlinija
-6 & 1 & $1001$ & 0 & $1001$\\[5pt]
-\redlinija
-7 & 1 & $10011$ & 1 & $1000$\\[5pt]
-\redlinija
-8 & 1 & $10001$ & 1 & $110$\\[5pt]
-\bottomrule\end{longtable}
-\begin{equation}
+U svakom koraku oduzimamo delilac pomnožen izabranim bitom količnika, zatim dopisujemo sledeći bit deljenika (plavo polje). I oduzimanje nule je prikazano. Vodeća nula količnika može se izostaviti u konačnom zapisu.\par
+
+\par\addvspace{\medskipamount}\noindent\begin{minipage}{\linewidth}
+\centering\captionsetup{type=table}
+\caption{Deljenje neoznačenih brojeva: $11010111:1011$.}\label{tab:postupak-14}
+\begingroup\small\setlength{\arraycolsep}{3pt}\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{@{}l@{}}\toprule
+Pisani postupak deljenja\\\midrule
+$\begin{array}[t]{r@{\,}*{10}{c}@{\quad}l}
+ & 1 & 1 & 0 & 1 & 0 & 1 & 1 & 1 &  &  & :\ (1011)_2=(10011)_2 \\
+- & 1 & 0 & 1 & 1 &  &  &  &  &  &  & (1011)_2\times 1 \\
+\cline{1-11}
+ &  &  & 1 & 0 &  &  &  &  &  &  & \text{međuostatak} \\
+ &  &  & 1 & 0 & \cellcolor{Primary!15}0 &  &  &  &  &  & \text{dopisuje se }0 \\
+- &  & 0 & 0 & 0 & 0 &  &  &  &  &  & (1011)_2\times 0 \\
+\cline{1-11}
+ &  &  & 1 & 0 & 0 &  &  &  &  &  & \text{međuostatak} \\
+ &  &  & 1 & 0 & 0 & \cellcolor{Primary!15}1 &  &  &  &  & \text{dopisuje se }1 \\
+- &  &  & 0 & 0 & 0 & 0 &  &  &  &  & (1011)_2\times 0 \\
+\cline{1-11}
+ &  &  & 1 & 0 & 0 & 1 &  &  &  &  & \text{međuostatak} \\
+ &  &  & 1 & 0 & 0 & 1 & \cellcolor{Primary!15}1 &  &  &  & \text{dopisuje se }1 \\
+- &  &  &  & 1 & 0 & 1 & 1 &  &  &  & (1011)_2\times 1 \\
+\cline{1-11}
+ &  &  &  & 1 & 0 & 0 & 0 &  &  &  & \text{međuostatak} \\
+ &  &  &  & 1 & 0 & 0 & 0 & \cellcolor{Primary!15}1 &  &  & \text{dopisuje se }1 \\
+- &  &  &  &  & 1 & 0 & 1 & 1 &  &  & (1011)_2\times 1 \\
+\cline{1-11}
+ &  &  &  &  &  & 1 & 1 & 0 &  &  & \text{ostatak} \\
+\end{array}$\\[5pt]
+\bottomrule\end{tabular}\endgroup
+\begin{equation}\label{eq:racun-7}
 (11010111)_2=(1011)_2\cdot(10011)_2+(110)_2
 \end{equation}
-\noindent\textbf{$1001101001:101$}\par
-\begin{longtable}{ccccc}\toprule
-Korak & Dopisani bit & Pre oduzimanja & Bit količnika & Ostatak\\\midrule\endhead
-1 & 1 & $1$ & 0 & $1$\\[5pt]
-\redlinija
-2 & 0 & $10$ & 0 & $10$\\[5pt]
-\redlinija
-3 & 0 & $100$ & 0 & $100$\\[5pt]
-\redlinija
-4 & 1 & $1001$ & 1 & $100$\\[5pt]
-\redlinija
-5 & 1 & $1001$ & 1 & $100$\\[5pt]
-\redlinija
-6 & 0 & $1000$ & 1 & $11$\\[5pt]
-\redlinija
-7 & 1 & $111$ & 1 & $10$\\[5pt]
-\redlinija
-8 & 0 & $100$ & 0 & $100$\\[5pt]
-\redlinija
-9 & 0 & $1000$ & 1 & $11$\\[5pt]
-\redlinija
-10 & 1 & $111$ & 1 & $10$\\[5pt]
-\bottomrule\end{longtable}
-\begin{equation}
+\end{minipage}
+\par\addvspace{\medskipamount}\noindent\begin{minipage}{\linewidth}
+\centering\captionsetup{type=table}
+\caption{Deljenje neoznačenih brojeva: $1001101001:101$.}\label{tab:postupak-15}
+\begingroup\small\setlength{\arraycolsep}{3pt}\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{@{}l@{}}\toprule
+Pisani postupak deljenja\\\midrule
+$\begin{array}[t]{r@{\,}*{10}{c}@{\quad}l}
+ & 1 & 0 & 0 & 1 & 1 & 0 & 1 & 0 & 0 & 1 & :\ (101)_2=(01111011)_2 \\
+- & 0 & 0 & 0 &  &  &  &  &  &  &  & (101)_2\times 0 \\
+\cline{1-11}
+ & 1 & 0 & 0 &  &  &  &  &  &  &  & \text{međuostatak} \\
+ & 1 & 0 & 0 & \cellcolor{Primary!15}1 &  &  &  &  &  &  & \text{dopisuje se }1 \\
+- &  & 1 & 0 & 1 &  &  &  &  &  &  & (101)_2\times 1 \\
+\cline{1-11}
+ &  & 1 & 0 & 0 &  &  &  &  &  &  & \text{međuostatak} \\
+ &  & 1 & 0 & 0 & \cellcolor{Primary!15}1 &  &  &  &  &  & \text{dopisuje se }1 \\
+- &  &  & 1 & 0 & 1 &  &  &  &  &  & (101)_2\times 1 \\
+\cline{1-11}
+ &  &  & 1 & 0 & 0 &  &  &  &  &  & \text{međuostatak} \\
+ &  &  & 1 & 0 & 0 & \cellcolor{Primary!15}0 &  &  &  &  & \text{dopisuje se }0 \\
+- &  &  &  & 1 & 0 & 1 &  &  &  &  & (101)_2\times 1 \\
+\cline{1-11}
+ &  &  &  &  & 1 & 1 &  &  &  &  & \text{međuostatak} \\
+ &  &  &  &  & 1 & 1 & \cellcolor{Primary!15}1 &  &  &  & \text{dopisuje se }1 \\
+- &  &  &  &  & 1 & 0 & 1 &  &  &  & (101)_2\times 1 \\
+\cline{1-11}
+ &  &  &  &  &  & 1 & 0 &  &  &  & \text{međuostatak} \\
+ &  &  &  &  &  & 1 & 0 & \cellcolor{Primary!15}0 &  &  & \text{dopisuje se }0 \\
+- &  &  &  &  &  & 0 & 0 & 0 &  &  & (101)_2\times 0 \\
+\cline{1-11}
+ &  &  &  &  &  & 1 & 0 & 0 &  &  & \text{međuostatak} \\
+ &  &  &  &  &  & 1 & 0 & 0 & \cellcolor{Primary!15}0 &  & \text{dopisuje se }0 \\
+- &  &  &  &  &  &  & 1 & 0 & 1 &  & (101)_2\times 1 \\
+\cline{1-11}
+ &  &  &  &  &  &  &  & 1 & 1 &  & \text{međuostatak} \\
+ &  &  &  &  &  &  &  & 1 & 1 & \cellcolor{Primary!15}1 & \text{dopisuje se }1 \\
+- &  &  &  &  &  &  &  & 1 & 0 & 1 & (101)_2\times 1 \\
+\cline{1-11}
+ &  &  &  &  &  &  &  &  & 1 & 0 & \text{ostatak} \\
+\end{array}$\\[5pt]
+\bottomrule\end{tabular}\endgroup
+\begin{equation}\label{eq:racun-8}
 (1001101001)_2=(101)_2\cdot(1111011)_2+(10)_2
 \end{equation}
-\noindent\textbf{$10001011:1101$}\par
-\begin{longtable}{ccccc}\toprule
-Korak & Dopisani bit & Pre oduzimanja & Bit količnika & Ostatak\\\midrule\endhead
-1 & 1 & $1$ & 0 & $1$\\[5pt]
-\redlinija
-2 & 0 & $10$ & 0 & $10$\\[5pt]
-\redlinija
-3 & 0 & $100$ & 0 & $100$\\[5pt]
-\redlinija
-4 & 0 & $1000$ & 0 & $1000$\\[5pt]
-\redlinija
-5 & 1 & $10001$ & 1 & $100$\\[5pt]
-\redlinija
-6 & 0 & $1000$ & 0 & $1000$\\[5pt]
-\redlinija
-7 & 1 & $10001$ & 1 & $100$\\[5pt]
-\redlinija
-8 & 1 & $1001$ & 0 & $1001$\\[5pt]
-\bottomrule\end{longtable}
-\begin{equation}
+\end{minipage}
+\par\addvspace{\medskipamount}\noindent\begin{minipage}{\linewidth}
+\centering\captionsetup{type=table}
+\caption{Deljenje neoznačenih brojeva: $10001011:1101$.}\label{tab:postupak-16}
+\begingroup\small\setlength{\arraycolsep}{3pt}\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{@{}l@{}}\toprule
+Pisani postupak deljenja\\\midrule
+$\begin{array}[t]{r@{\,}*{10}{c}@{\quad}l}
+ & 1 & 0 & 0 & 0 & 1 & 0 & 1 & 1 &  &  & :\ (1101)_2=(01010)_2 \\
+- & 0 & 0 & 0 & 0 &  &  &  &  &  &  & (1101)_2\times 0 \\
+\cline{1-11}
+ & 1 & 0 & 0 & 0 &  &  &  &  &  &  & \text{međuostatak} \\
+ & 1 & 0 & 0 & 0 & \cellcolor{Primary!15}1 &  &  &  &  &  & \text{dopisuje se }1 \\
+- &  & 1 & 1 & 0 & 1 &  &  &  &  &  & (1101)_2\times 1 \\
+\cline{1-11}
+ &  &  & 1 & 0 & 0 &  &  &  &  &  & \text{međuostatak} \\
+ &  &  & 1 & 0 & 0 & \cellcolor{Primary!15}0 &  &  &  &  & \text{dopisuje se }0 \\
+- &  &  & 0 & 0 & 0 & 0 &  &  &  &  & (1101)_2\times 0 \\
+\cline{1-11}
+ &  &  & 1 & 0 & 0 & 0 &  &  &  &  & \text{međuostatak} \\
+ &  &  & 1 & 0 & 0 & 0 & \cellcolor{Primary!15}1 &  &  &  & \text{dopisuje se }1 \\
+- &  &  &  & 1 & 1 & 0 & 1 &  &  &  & (1101)_2\times 1 \\
+\cline{1-11}
+ &  &  &  &  & 1 & 0 & 0 &  &  &  & \text{međuostatak} \\
+ &  &  &  &  & 1 & 0 & 0 & \cellcolor{Primary!15}1 &  &  & \text{dopisuje se }1 \\
+- &  &  &  &  & 0 & 0 & 0 & 0 &  &  & (1101)_2\times 0 \\
+\cline{1-11}
+ &  &  &  &  & 1 & 0 & 0 & 1 &  &  & \text{ostatak} \\
+\end{array}$\\[5pt]
+\bottomrule\end{tabular}\endgroup
+\begin{equation}\label{eq:racun-9}
 (10001011)_2=(1101)_2\cdot(1010)_2+(1001)_2
 \end{equation}
-
+\end{minipage}
 
 % Izvor DOCX: blok 117
 \FloatBarrier
+\clearpage
 \section{Zadaci za samostalni rad}\label{sec:3}
 
 
@@ -841,7 +1070,7 @@ Korak & Dopisani bit & Pre oduzimanja & Bit količnika & Ostatak\\\midrule\endhe
 
 
 % Izvor DOCX: blok 119
-Algoritamskim računanjem, korak po korak, izračunati vrednosti brojeva A, B i C a zatim ih sortirati u opadajućem redosledu:
+Algoritamskim računanjem, korak po korak, izračunati vrednosti brojeva A, B i C a zatim ih sortirati u opadajućem redosledu. Za rezultate koristiti dovoljan broj cifara da ne dođe do prekoračenja:
 
 
 
@@ -869,10 +1098,10 @@ C = 3321\textsubscript{4KO} – 3320\textsubscript{4KO}
 a) Odrediti $X$ i $Y$. Za $X$ koristiti pet heksadecimalnih cifara, od toga dve razlomljene; za $Y$ zadržati šest ternarnih cifara:
 
 % Izvor DOCX: blok 125
-\begin{equation}
+\begin{equation}\label{eq:racun-10}
 X_{16,\mathrm{KO}}=-13.3125_{10}
 \end{equation}
-\begin{equation}
+\begin{equation}\label{eq:racun-11}
 Y_{3,\mathrm{KMV}}=(520)_{9,\mathrm{KO}}
 \end{equation}
 
@@ -881,13 +1110,13 @@ Y_{3,\mathrm{KMV}}=(520)_{9,\mathrm{KO}}
 b) Naznačiti da li je sledeći iskaz tačan, uz pet bita za rezultate:
 
 % Izvor DOCX: blok 127
-\begin{equation}
+\begin{equation}\label{eq:racun-12}
 (10011)_{\mathrm{KMV}}+(11111)_{\mathrm{KMV}}=(10111)_{\mathrm{ZA}}-(01011)_{\mathrm{ZA}}
 \end{equation}
 
 
 % Izvor DOCX: blok 128
-\emph{Napomena:} Ukoliko dođe do prekoračenja, naznačiti to i nastaviti sa petobitnim dobijenim rezultatom.
+\emph{Napomena:} Ukoliko dođe do prekoračenja, naznačiti to i nastaviti sa petobitnim dobijenim rezultatom. U ZA se pri prekoračenju zadržavaju znak i četiri najniža bita apsolutne vrednosti; rezultat se tada ne tumači kao tačna matematička razlika.
 
 
 
@@ -895,10 +1124,10 @@ b) Naznačiti da li je sledeći iskaz tačan, uz pet bita za rezultate:
 c) Naznačiti da li su sledeći iskazi tačni, uz dovoljan broj cifara za rezultate:
 
 % Izvor DOCX: blok 130
-\begin{equation}
+\begin{equation}\label{eq:racun-13}
 (243)_{5,\mathrm{KO}}+(304)_{5,\mathrm{KO}}>(10100)_{2,\mathrm{KO}}\cdot(111000)_{2,\mathrm{KO}}
 \end{equation}
-\begin{equation}
+\begin{equation}\label{eq:racun-14}
 (F243)_{16,\mathrm{KMV}}-(F279)_{16,\mathrm{KMV}}=(111100)_{\mathrm{ZA}}-(100111)_{\mathrm{ZA}}
 \end{equation}
 
@@ -947,7 +1176,7 @@ gde su A, B i C neoznačeni četvorobitni brojevi. Na raspolaganju su četvorobi
 % Izvor DOCX: blok 139
 a) Višu polovinu brojeva poredimo komparatorom H, a nižu komparatorom L. Ako su njihove zastavice $G$, $L$ i $E$ redom „veće“, „manje“ i „jednako“, važi
 \[G=G_H+E_HG_L,\qquad E=E_HE_L,\qquad L=\overline{G+E}.\]
-Realizacija je prikazana na slici~\ref{fig:comp4}. Završni NILI može se realizovati ILI kolom i NI kolom sa spojenim ulazima, pa se poštuje zadati skup kola.
+Realizacija je prikazana na slici~\ref{fig:comp4}. Jednake oznake na odvojenim priključcima označavaju isti signal. Završni NILI može se realizovati ILI kolom i NI kolom sa spojenim ulazima, pa se poštuje zadati skup kola.
 
 % Izvor DOCX: blok 140
 \begin{figure}[!htbp]\centering
@@ -956,7 +1185,7 @@ Realizacija je prikazana na slici~\ref{fig:comp4}. Završni NILI može se realiz
 \end{figure}
 
 % Izvor DOCX: blok 141
-b) Neka je $X=A$, $Y=\lfloor C/2\rfloor$ i $Z=2B$. Prvi četvorobitni komparator i multiplekser određuju $M=\max(X,Y)$. Drugi poredi $M$ sa $Z_{3:0}$. Petobitni izlaz bira $Z$ kada je $Z_4=1$ ili $Z_{3:0}>M$, a inače bira $0M$. Tako visoki bit broja $2B$ ne može biti izgubljen.
+b) Neka je $X=A$, $Y=\lfloor C/2\rfloor$ i $Z=2B$. Prvi četvorobitni komparator i multiplekser određuju $M=\max(X,Y)$. Drugi poredi $M$ sa $Z_{3:0}$. Petobitni izlaz bira $Z$ kada je $Z_4=1$ ili $Z_{3:0}>M$, a inače bira $0M$. Tako visoki bit broja $2B$ ne može biti izgubljen. U natpisima multipleksera $s?U:V$ označava izbor $U$ kada je $s=1$, odnosno $V$ kada je $s=0$.
 
 % Izvor DOCX: blok 142
 \begin{figure}[!htbp]\centering
@@ -1054,7 +1283,7 @@ s_{2} = \ b_{1}a_{1} + a_{1}a_{0}b_{0} + b_{1}b_{0}a_{0}
 
 
 % Izvor DOCX: blok 153
-Kada su na raspolaganju XOR kola, dobijamo kompaktniju realizaciju. Zajednički signal $p_1=a_1\oplus b_1$ koristi se i za $s_1$ i za prenos:
+Kada su na raspolaganju XOR kola, dobijamo kompaktniju realizaciju. Zajednički signal $p_1=a_1\oplus b_1$ koristi se i za $s_1$ i za prenos. Prenos iz bita 0 u bit 1 označavamo sa $c_1=a_0b_0$; ulazni prenos $c_0$ je nula. Jednake oznake u šemi predstavljaju isti signal:
 
 % Izvor DOCX: blok 154
 \begin{equation}\label{eq:3.4.5}
@@ -1102,12 +1331,12 @@ S=A+1,\qquad X=S(B+1)
 
 
 % Izvor DOCX: blok 161
-Dakle, funkcija X se koristi i u slučaju $A > B$ i u slučaju $A < B$. U slučaju $A < B$ se koristi neizmenjena vrednost funkcije a u slučaju $A > B$ koristi se vrednost funkcije pomerena za 1 bit u levo dok se bit najmanje težine setuje na logičku nulu.
+Dakle, funkcija X se koristi i u slučaju $A > B$ i u slučaju $A < B$. U slučaju $A < B$ se koristi neizmenjena vrednost funkcije a u slučaju $A > B$ koristi se vrednost funkcije pomerena za 1 bit ulevo dok se bit najmanje težine postavlja na logičku nulu.
 
 
 
 % Izvor DOCX: blok 162
-Postoje mnogobrojni načini za realizaciju funkcije X, međutim, u ovom primeru će biti predstavljena realizacije funkcije X dobijena korišćenjem kola srednjeg stepena integracije.
+Postoje mnogobrojni načini za realizaciju funkcije X, međutim, u ovom primeru će biti predstavljena realizacija funkcije X dobijena korišćenjem kola srednjeg stepena integracije.
 
 
 
@@ -1187,7 +1416,7 @@ Na slici~\ref{fig:x} prikazano je generisanje funkcije $X$.
 % Izvor DOCX: blok 172
 \begin{figure}[!htbp]\centering
 \includegraphics[width=0.9\linewidth]{Zadatak_4/proizvod}
-\caption{Realizacija $X=(A+1)(B+1)$.}\label{fig:x}
+\caption{Realizacija $X=(A+1)(B+1)$; raspored bita na granama označava pomeranje i dopunu nulama.}\label{fig:x}
 \end{figure}
 
 % Izvor DOCX: blok 173

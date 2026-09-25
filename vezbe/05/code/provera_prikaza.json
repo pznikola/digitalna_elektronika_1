@@ -1,0 +1,132 @@
+{
+  "findings": [
+    "05-A15",
+    "05-A16"
+  ],
+  "date": "2026-09-25",
+  "build": "make -C vezbe/05 (redovna izgradnja, nije nova čista kopija)",
+  "checks": 256757,
+  "structure": "structure.py 05: uspešno",
+  "source_sha256": {
+    "05_kodovi.tex": "d0dfe29e3a186530dc78ace1a3d62a0f853c05513191b2c1beb67b4bbc179e68",
+    "code/audit_math.py": "dc33c0d276232547181a988be485497d86da9a9a6f2ad39525513abe058f912b",
+    "code/rezultati.json": "baed6e6dad4f8a98f2b8dcc4728b039085f20169d0f90010e589271ab2b46a59"
+  },
+  "original_docx_sha256": "59c016362bbc9e2426510107820a1703d7addc4ee07eb65089d4812f8e1b7405",
+  "original_pages_reviewed": [
+    13,
+    14
+  ],
+  "pdf_sha256": "bdcec0b58a07dc82b43ba3a95ea71112d342b3b4e702a631f8df9d9c965a8e3c",
+  "previous_pdf_sha256": "793359c328b9a79bc70652566197215f400a5d80f4b1d4070f6429965ef12506",
+  "pdf_pages": 17,
+  "reviewed_changed_pages": [
+    2,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "manual_review_dpi": 130,
+  "comparison_dpi": 110,
+  "unchanged_pages": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "page_images": {
+    "1": "932ef88a35848898ea317e4e01e80796cc434897859ad86a6c5389a2a022db1e",
+    "2": "b0127e716431daf262b16c5630b39b580d04aa0016907376d14537bd6e74b8eb",
+    "3": "6a40ec36738bdea3e5dd71af72a7334d9c80a1d3b0b0c3a8fb0a75158cdd7e10",
+    "4": "11131d0a7d318cc4a1424068b6311cfec25acddfa181ee50c346b1acf3b8eece",
+    "5": "cedc0bdf6bcbaf4000137b15cd03d78715529638d5ca09877f67e70c276ab022",
+    "6": "409429e5d68891e5f439ca573ec6e408918e95f4ce355714a848221b2ab1a44a",
+    "7": "557e419e0dd86546c68f199aeccb6696bcdf712027b50d937667175659b30f40",
+    "8": "1d6cc4acc66fe9c33022fd85e1d53f77f68f4774954a37d3a56b9064fdd50f77",
+    "9": "c61b8fecd9b4c4bf37665a217c2960225bb666021d6cbddec168327e8fdebf2b",
+    "10": "2c648b907d349a353bc7a40326ad4932d26e393c063a9e2944b96fe1cfc8d6c5",
+    "11": "f83bd44e6b51686989e68abe545f7e8502768e33d1c02e3a7b421c0f75e8b36e",
+    "12": "ba577a027417eaea38233afe0168d43c8fe2c93a3ac11422afc9aee009eaa855",
+    "13": "5654267b209efdd915c74b17bd41c9fd06fa3bbd55279219602618130742df49",
+    "14": "49b2b072fe822733989caa85d4022a2edef3fbf70a4cb49a76e94b2e372530d8",
+    "15": "cdf93857acfaf34f3c7dcfb913f8b5e3b7ef87e80bb4dedc384740109d9ed900",
+    "16": "c600462a6980989e210399e2ada44265c0e928515b7fa11271e350380161ad18",
+    "17": "0f173c9311f0bc959c287dd832c9fb14d4d3bcbbf71b414ca8296d41a74619b0"
+  },
+  "negative_probes": [
+    {
+      "case": "pogresan_medjuzbir",
+      "mutation_before": " &  &  &  &  & 0 & 0 & 1 & 1 & 1 & \\text{Nema korekcije; }c_1=0 \\\\",
+      "mutation_after": " &  &  &  &  & 0 & 0 & 1 & 1 & 0 & \\text{Nema korekcije; }c_1=0 \\\\",
+      "expected_failure": "actual uncorrected sum with completed low digits",
+      "rejected": true
+    },
+    {
+      "case": "pogresna_korekcija",
+      "mutation_before": "\\istaknutbit{0} & \\istaknutbit{1} & \\istaknutbit{1} & \\istaknutbit{0}",
+      "mutation_after": "\\istaknutbit{0} & \\istaknutbit{1} & \\istaknutbit{1} & \\istaknutbit{1}",
+      "expected_failure": "actual aligned 0110 correction",
+      "rejected": true
+    },
+    {
+      "case": "pogresan_binarni_medjukorak",
+      "mutation_before": "\\to01000_2=8_{10}",
+      "mutation_after": "\\to01001_2=8_{10}",
+      "expected_failure": "Gray to binary to decimal steps",
+      "rejected": true
+    },
+    {
+      "case": "izostavljena_oznaka_promene",
+      "mutation_before": "\\mathtt{\\istaknutbit{1}010\\,0011}",
+      "mutation_after": "\\mathtt{1010\\,0011}",
+      "expected_failure": "actual flipped bit and emphasis",
+      "rejected": true
+    }
+  ],
+  "subsequent_layout_reviews": [
+    {
+      "finding": "05-A17",
+      "pdf_sha256": "ddb951255ae6e7e1bd66ac02df10934668a0284be75baa719b572af0d54953f6",
+      "source_sha256": {
+        "05_kodovi.tex": "43d7dcfe9b13186dd090f1713d5d4c97ac46b1e2d6317a75f018c7cc4fe1bfc9",
+        "code/audit_math.py": "fbf23cc85d0838c8377999f071198c1bec608912f58e1a760fbf9cf5aec4b020"
+      },
+      "build": "make -C vezbe/05, redovna izgradnja",
+      "check": 256757,
+      "structure": "uspešno",
+      "reviewed_changed_pages": [
+        12,
+        13
+      ],
+      "manual_review_dpi": 130,
+      "comparison_dpi": 110,
+      "unchanged_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17
+      ],
+      "note": "Razdelna prazna kolona 8 mm. Matematički sadržaj ostaje isti; prethodni zapis i negativne probe su istorijski."
+    }
+  ]
+}

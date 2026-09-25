@@ -25,8 +25,6 @@ begin
             A     => A_dec,
             Y     => Y_dec
         );
-
-    --------------------------------------------------------------------------------------
     -- Y_comb    = (C + B + A)(C + ¬B + A)(¬C + ¬B + ¬A)
     -- Y_dekoder = ¬Y0 ¬Y2 ¬Y7 (ovi izlazi vec imaju komplement zbog dekodera)
     Y_comb    <= (C or B or A) and (C or not B or A) and (not C or not B or not A);

@@ -1281,3 +1281,94 @@ Postavka samostalnog zadatka 3.2 je dopunjena širinom zapisa X, jer ga izvor ne
 Diskretna siva linija razdvaja susedne redove podataka. Uz `\toprule`, `\midrule` i `\bottomrule` ne dodaje se druga, tanka linija. Vidljivi tekst „oprule“ bio je artefakt konverzije: Python je početak `\toprule` protumačio kao tabulator (`\t`). Ispravljen je LaTeX zapis komande; sama komanda iz paketa booktabs crta gornju ivicu tabele i ne treba da se vidi kao tekst. Ovo su ispravke nastalog LaTeX dokumenta, a ne greške DOCX izvornika.
 
 Karnoove karte imaju tačno četiri reda i četiri kolone; mreža je usklađena sa skalom koordinata. Razmaknute su ulazne oznake logičkih kola i oznake grana D₂/D₃ na slici realizacije proizvoda. Funkcije su proverene za sve ulaze.
+
+## Ponovna potpuna provera — 25. septembar 2026.
+
+Prethodni izveštaj ostaje istorija konverzije. Dokazi i privatna provera nerešenih zadataka nalaze se u [code/PREGLED_DOKAZA.md](code/PREGLED_DOKAZA.md). [code/pregled_izvora.json](code/pregled_izvora.json) vezuje pregled svih 35 numerisanih formula i osam izmenjivih ilustracija za njihove tačne izvore, uz trag stvarno nacrtanih veza. Dodatni tekstualni parovi pre/posle su u `../PROVERA/nalazi_04_tekst.json`; njihovi brojevi redova beleže trenutak izmene, a stabilne lokacije su sledeće.
+
+### 04-A01 — Dodatna cifra pri oduzimanju
+
+**Mesto:** uvod 1.1, blokovi 40–41. **Pre:** u opštoj tabeli pojavljuje se neobjašnjena neoznačena cifra dₙ₊₁. **Posle:** koeficijent −bₙ₊₁, uz izvedenu jednakost X−Y−b₀=Σdᵢrⁱ−bₙ₊₁rᴺ. **Vrsta/razlog:** stručna notacija; negativna razlika ne dobija dodatnu običnu neoznačenu cifru. **Uticaj/provera:** objašnjen odnos matematičke razlike i modularnog ostatka, bez promene rezultata; dokaz poništavanjem unutrašnjih pozajmica i iscrpne jednocifrene provere.
+
+### 04-A02 — Izlazni prenos nije dodatna KO cifra
+
+**Mesto:** uvod 1.3, blok 49. **Pre:** rezultat u opštoj tabeli sadrži sₙ₊₁. **Posle:** na tom mestu crta označava da se prenos odbacuje. **Vrsta/razlog:** stručna/grafička neusaglašenost; tekst već propisuje zadatu širinu i račun modulo rᴺ. **Uticaj/provera:** tabele i opseg rezultata sada se slažu. Svih 21 prikazanih KO operacija provereno je kolonu po kolonu.
+
+### 04-A03 — Prekoračenje pri oduzimanju minimalnog KO broja
+
+**Mesto:** uvod 1.3, blok 50. **Pre:** bezuslovno uzimanje suprotne vrednosti umanjioca, bez upozorenja na neprikazivu negaciju u istoj širini. **Posle:** modularni postupak i poseban test OF=(xₙ XOR yₙ)(sₙ XOR xₙ). **Vrsta/razlog:** stručna dopuna graničnog slučaja. Četvorobitno 0−(−8) preliva, ali posle modularnog negiranja 1000 sabiranje ima različite znakove i opšte pravilo za sabiranje ne detektuje taj preliv. **Uticaj/provera:** rezultati postojećih primera sačuvani; stvarno upisana formula za oduzimanje proverena je za svih 256 parova ulaza.
+
+### 04-A04 — Paralelno i uzastopno množenje
+
+**Mesto:** uvod 1.5, blok 57, i zadatak 2.5, blok 107. **Pre:** prvi postupak ne oslikava digitalnu implementaciju, dok je drugi načelno pogodniji. **Posle:** oba su ispravna načina realizacije, sa paralelnim sabiranjem parcijalnih proizvoda odnosno čuvanjem međuzbira. **Vrsta/razlog:** preširoka teorijska tvrdnja; distributivnost dopušta obe mreže sabiranja. **Uticaj/provera:** svih šest tabela i oba njihova računska stupca sačuvani i provereni iz izvora, uključujući negativnu težinu najvišeg KO bita.
+
+### 04-A05 — Negativna nula u dva KMV postupka
+
+**Mesto:** zadatak 2.4, blokovi 97 i 99, redovi `11₂+110₂` i `11₂−010₂`; tabele `tab:postupak-6/7`. **Pre:** ulazna negativna nula `11` prećutno je normalizovana u `0000`. **Posle:** dosledno proširenje u `1111`, odgovarajući prenosi, međurezultat i kružni prenos. Za sabiranje sada stoji `1111+1110→1101`, pa `+0001→1110`; za oduzimanje `1111+1101→1100`, pa `+0001→1101`. **Vrsta/razlog:** neusaglašenost prikazanog postupka sa pravilom proširenja znaka, a ne greška konačne vrednosti. **Uticaj/provera:** završni rezultati nepromenjeni; usklađen `rezultati.json`, proverena svaka kolona i očuvanje znaka nule.
+
+### 04-A06 — Nedostajuće veze i ILI u maksimumu
+
+**Mesto:** `Images/Zadatak_3/maksimum.tex`, `fig:max`. **Pre:** prvi MUX ima nacrtanu samo kontrolu; na izlazu drugog komparatora piše `s=Z₄ OR g₂`, bez nacrtanog ILI kola i ulaza Z₄. **Posle:** dodati podatkovni ulazi X/Y i stvarno ILI kolo sa oba signala. **Vrsta/razlog:** grafička greška prenosa; naziv veze ne izvršava logičku operaciju. Bez Z₄, npr. B=8 i A=C=0, mogao bi se izgubiti izlaz 16. **Uticaj/provera:** sačuvan raspored blokova, regenerisan PDF; praćenje nacrtane mreže provereno za svih 4096 ulaza. Objašnjena je i oznaka uslovnog izbora u natpisima MUX-a.
+
+### 04-A07 — Invertori u granama proizvoda
+
+**Mesto:** `Images/Zadatak_4/proizvod.tex`, `fig:x`. **Pre:** veza A samo je označena konkatenacijom koja koristi njegove komplemente. **Posle:** dva invertora generišu komplementarne bite A. **Vrsta/razlog:** grafička greška prenosa; promena natpisa ne menja signal. **Uticaj/provera:** isti osnovni raspored i funkcija; eksplicitna realizacija ranije samo podrazumevanih operacija. Izvoz regenerisan, sve veze praćene i svih 16 ulaza provereno. Dodata je tačka zajedničke grane S i pojašnjeno da natpisi na magistralama definišu raspored/dopunu bita. Prvobitno objedinjeni nalaz o konačnoj maski izdvojen je kao 04-A12.
+
+### 04-A08 — Oznaka prenosa dvobitnog sabirača
+
+**Mesto:** `Images/Zadatak_4/sabirac.tex`, `fig:adder`, tekst uz `eq:3.4.5`–`eq:3.4.7`. **Pre:** a₀b₀ nosi oznaku c₀, iako uvod c₀ rezerviše za ulazni prenos. **Posle:** c₁=a₀b₀, uz c₀=0. **Vrsta/razlog:** nedosledne oznake; preimenovanje usklađuje isti pojam kroz dokument. **Uticaj/provera:** izlazi i broj kola nepromenjeni, svih 16 ulaza provereno. U ovoj šemi i četvorobitnom komparatoru kolena dve veze odmaknuta su od simbola kapije radi jasnijeg ulaza; električka funkcija nije promenjena.
+
+### 04-A09 — Potrebni uslovi aritmetike
+
+**Mesta:** uvod 1.2/1.7 (blokovi 45/61), samostalni rad 3.1 (blok 119) i 3.2b (blok 128). **Dopune:** za ZA navedeni su opseg magnitude i izbor zapisa nule; za deljenje nenulti delilac i 0≤ostatak<delilac; za sortiranje u 3.1 dovoljna širina rezultata; za nastavak posle OF u petobitnom ZA izričito zadržavanje znaka i četiri niža bita magnitude. **Zašto:** bez tih uslova operacija ili način nastavka nije jednoznačan. Poslednji dogovor je dopunska konvencija, ne tvrdnja da je odsečeni rezultat tačna razlika. **Uticaj/provera:** rešivost svih nerešenih zadataka proverena privatno; namerno netačni iskazi ostali su netačni, a nova rešenja nisu dodata studentskom tekstu.
+
+### 04-A10 — Nazivi tabela i prelom
+
+**Mesta:** svih 16 `longtable` postupaka iz blokova 70,72,79,87,89,97,99,108,110,116; oznake `tab:postupak-1`–`tab:postupak-16`. **Pre:** računskim tabelama nije prikazan naziv/broj, iako su pomerale LaTeX brojač, pa se prvi vidljivi naziv javljao tek kao Tabela 17; dva naslova množenja bila su odvojena od svojih tabela na prelomu. **Posle:** dodati nazivi i stabilne oznake, zaglavlja nastavaka i čuvanje naziva uz početak postupka. **Vrsta/razlog:** formaterska/čitalačka; jasno se vidi kojoj operaciji i predstavi redovi pripadaju. **Uticaj/provera:** brojevi prethodno označenih tabela ostali su 17 i 18; dodatni naslovi popunjavaju ranije nevidljive brojeve. Diskretne linije su sačuvane bez dupliranja uz naglašene granice. Konačni PDF ima 27 stranica i svaka je pregledana posle poslednje izmene.
+
+### 04-A11 — Jezik i matematičke komande
+
+**Mesta:** `eq:1.1.1`, `eq:1.2.1`, blokovi 33,64,161,162 i ranije nenazvane numerisane formule. **Pre/posle:** obična slova `mod`→operator `\bmod`; „brojnom u sistemu“→„u brojnom sistemu“, „u levo“→„ulevo“, „realizacije“→„realizacija“, „setuje“→„postavlja“, uklonjen razmak pre tačke. Dodatim oznakama `eq:racun-1`–`eq:racun-14` obuhvaćene su već postojeće numerisane jednačine. **Uticaj/provera:** numerički sadržaj i namerno netačni iskazi nepromenjeni; kompilacija bez nedostajućih slika, nedefinisanih referenci ili odsečenih elemenata.
+
+### 04-A12 — Invertor pre konačne maske
+
+**Mesto:** `Images/Zadatak_4/kompletna.tex`, `fig:y`. **Pre:** E iz komparatora na istoj vezi postaje označen kao negirano E bez invertora. **Posle:** dodat je invertor između izlaza komparatora i šest I kola maske. **Vrsta/razlog:** grafička greška prenosa; obična veza ne negira signal. **Uticaj/provera:** funkcija opisana tekstom nije promenjena; šema sada eksplicitno realizuje tu funkciju. PDF regenerisan, sve veze praćene i svih 16 kombinacija ulaza provereno. Ovaj nalaz je ranije bio obuhvaćen sa 04-A07; izdvojen je radi zasebne sledljivosti.
+
+### Rezultat ponovne provere
+
+`make check` prolazi 13.174 provere. Obuhvaćeni su stvarni redovi i međukoraci, svi relevantni konačni logički domeni, oba postupka množenja, svi koraci deljenja, privatne provere svih nerešenih pottačaka i svih 42 petocifrenih operacija. Potvrđena je minimalnost prikazanih pojedinačnih suma proizvoda iscrpnim pretraživanjem pokrivanja. Karnoove karte nisu menjane. Svih osam konačnih ilustracija i svih 27 PDF stranica vizuelno su pregledani. Prolazak provera ne zamenjuje ručne dokaze i praćenje veza dokumentovano u navedenim fajlovima.
+
+
+## Dopuna prema primedbama na prikaz — 25. septembar 2026.
+
+### 04-A13 — Vraćena strelica kružnog prenosa
+
+**Mesto:** originalni DOCX, odeljak 1.4, Pandoc blok 53 (Word XML tabela 67); `sec:1.4`, prva tabela. **Pre:** oba zapisa tₙ₊₁ postojala su, ali nije bilo strelice između njih. **Posle:** plava pravougaona strelica polazi od tₙ₊₁ u koloni cₙ₊₁ i završava se kod istog simbola u koloni c₀, kao u originalu. **Vrsta/razlog:** grafički propust pri prenosu; nedostajao je vizuelni prikaz dodavanja izlaznog prenosa na najniže mesto. **Provera:** poređenje sa originalnim DOCX prikazom, matematičko pravilo rᴺ≡1 (mod rᴺ−1) i pregled konačne PDF stranice 4. Razdelnik iznad strelice skraćen je za prvu kolonu da ne preseče njen vertikalni deo; ostale linije nisu udvostručene.
+
+### 04-A14 — Vraćeni pisani postupci množenja i deljenja
+
+**Mesto:** DOCX zadaci 2.5/2.6, Pandoc blokovi 108/110/116 (Word XML tabele 156/159/168); `sec:2.5`, `sec:2.6`, `tab:postupak-8`, `tab:postupak-9`, `tab:postupak-10`, `tab:postupak-11`, `tab:postupak-12`, `tab:postupak-13`, `tab:postupak-14`, `tab:postupak-15`, `tab:postupak-16`.
+
+**Pre:** kolone „j / bit / težina / parcijalni proizvod / međuzbir“, odnosno „korak / dopisani bit / pre oduzimanja / bit količnika / ostatak“. Brojčani rezultati bili su provereni, ali je izostavljen izvorni pisani postupak sa poravnatim ciframa, znacima operacija i računskim crtama. Ranija tvrdnja da su preneti svi detalji prikaza bila je preširoka: matematički sled nije isto što i potpun didaktički prikaz. Ovo uprošćavanje nije bilo potrebno.
+
+**Posle:** svih šest množenja ponovo ima odvojene postupke I i II. Prvi prikazuje pet pomerenih parcijalnih proizvoda i zbir; drugi početnu nulu, svako dodavanje, računsku crtu i novi međuzbir. KO prikazi označavaju proširenje znaka plavom i drugi komplement crvenom ispunom. Svaki postupak završava se ranije proverenim rezultatom sa pravilno vraćenom tačkom. Sva tri deljenja imaju poravnate cifre, svako oduzimanje (uključujući nulu), međuostatak i posebno označeno dopisivanje sledećeg bita. Grupe početnih cifara i početne nule količnika prate izvorni pisani postupak. Ranije ispravljene greške originalnih parcijalnih proizvoda nisu vraćene.
+
+**Vrsta/razlog:** nepotpun grafički/didaktički prenos. Postupak treba da pokaže kako se dobija rezultat, a ne samo tabelarni pregled stanja. **Uticaj/provera:** rezultati i svih devet oznaka tabela/jednačina sačuvani. `code/audit_math.py` sada čita stvarne ćelije pisanog računa: položaj svake cifre, prazna mesta pomeranja, znakove operacija, EZ/DK oznake, svaki međuzbir, svako oduzimanje i svaki dopisani bit. Postupci ostaju izmenjivi LaTeX; svaki komplet sa naslovom i rezultatom ostaje na istoj stranici. Ova dopuna zamenjuje opis sažetih tabela u prethodnim odeljcima izveštaja.
+
+### 04-A15 — Obojene oblasti Karnoovih grupa
+
+**Mesto:** `fig:kmap`, `Images/Zadatak_4/karno.tex`. **Pre:** samo obojene konture, bez ispune. **Posle:** svaka od 13 kontura ima providnu ispunu iste boje, u pozadinskom sloju. **Vrsta/razlog:** usklađivanje sa prikazom grupa u vežbama 01/02 na zahtev korisnika. **Uticaj/provera:** 48 ćelija, 11 grupa (dve rubne grupe sastoje se od po dve oblasti), boje i koordinate nisu promenjeni. Cifre i mreža ostaju iznad ispuna. Postojeća iscrpna provera grupa i minimalnosti prolazi; izvoz pregledan uvećano.
+
+### 04-A16 — Neposredne veze dvobitnog sabirača
+
+**Mesto:** Slika 5, `fig:adder`, `Images/Zadatak_4/sabirac.tex`. **Pre:** prenos i izlaz XOR kola završavali su se oznakama c₁/p₁, koje su ponovljene na odvojenim ulaznim vodovima. **Posle:** izlazi su neprekinutim vodovima povezani sa oba odgovarajuća kola. Na zahtev korisnika zamenjen je raspored ulaza desnog I kola: prenos dolazi na gornji, a izlaz XOR kola na donji ulaz. Stvarni spojevi imaju tačke, a presek nezavisnih vodova most. **Vrsta/razlog:** grafičko poboljšanje čitljivosti; funkcija je komutativna, pa zamena ulaza I kola ne menja rezultat. **Uticaj/provera:** praćene sve nove veze od izvora do priključka i ponovo provereno svih 16 kombinacija A/B. Izmenjeni izvor i njegov PDF izvoz sačuvani su zajedno; ažuriran je dokaz praćenja mreže u `code/pregled_izvora.json`.
+
+
+### 04-A17 — Pravougaono vođenje magistrale D₁
+
+**Mesto:** Slika 7, `fig:x`, `Images/Zadatak_4/proizvod.tex`. **Pre:** D₁ je vođen dijagonalno od (3,1) do (7,1.5). **Posle:** izlazi horizontalno iz postojeće vertikale S u tački (3,1.5), sa jasno označenim spojem. **Vrsta/razlog:** grafičko poboljšanje na zahtev korisnika; svi vodovi između komponenti sada su horizontalni ili vertikalni. **Uticaj/provera:** D₁ i dalje predstavlja 0S0, tj. 2(A+1). Ostale grane, invertori, raspored bita i selekcija MUX-a nisu promenjeni. Pregledani izmenjivi izvor, uvećani izvoz i fizička PDF stranica 26; provera realizacije za svih 16 kombinacija A/B ponovo prolazi.
+
+
+### 04-A18 — Poravnati ulazni priključci srednjih kola
+
+**Mesto:** Slika 5, `fig:adder`, `Images/Zadatak_4/sabirac.tex`. **Pre:** centri desnih XOR/I kola bili su na visinama izlaza levih kola, pa su veze do njihovih ulaznih priključaka imale kratka kolena. **Posle:** gornji ulaz XOR kola koje daje s₁ poravnat je sa izlazom I kola a₀b₀; donji ulaz desnog I kola poravnat je sa izlazom XOR kola a₁⊕b₁. Oba voda sada su potpuno horizontalna. Prilagođene su visine izlaznih vodova kako ni tu ne bi nastale dijagonale. **Vrsta/razlog:** grafičko poboljšanje prema zahtevu korisnika. **Uticaj/provera:** ista mreža, grananja i ulazni raspored; vizuelno pregledani izvoz na 1500 px i fizička PDF stranica 24. Ostalih 26 stranica ima identične rendere kao prethodno pregledana verzija. Postojeće provere svih 16 kombinacija sabirača i računske provere vežbe ponovo prolaze.

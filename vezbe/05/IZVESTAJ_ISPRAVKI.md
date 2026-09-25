@@ -351,6 +351,8 @@ D\textsubscript{10} & D\textsubscript{9} & D\textsubscript{8} & D\textsubscript{
 
 ### 05-30 — blok 112
 
+**Istorijska odluka, zamenjena nalazima 05-A12 i 05-A13:** po naknadnom zahtevu korisnika sada su i postavka i prvi red rešenja za broj 43, a međukoraci binarnog Grejovog kodovanja vraćeni su. Raniji zapis ispod sačuvan je radi sledljivosti.
+
 **Novo mesto:** [LaTeX](05_kodovi.tex), red 759; `% Izvor DOCX: blok 112`.
 
 **Izvor:** Broj | BCD | BCD2421 | Više 3 | Gray BCD | Gray binarni
@@ -415,6 +417,8 @@ Izvorna reč & BCD & BCD2421 & Više 3 & Grej BCD & Grej binarni\\\midrule
 **Obrazloženje i uticaj:** Izvor izostavlja korekciju kada postoji prenos iz četvorobitnog sabiranja, a donja četiri bita nisu veća od 9.
 
 ### 05-34 — blok 121
+
+**Istorijski prikaz, zamenjen nalazom 05-A15:** sažeta tabela je čuvala rezultate po ciframa, ali nije prenela sve pisane međukorake izvornika. Tvrdnja ispod da je prenet svaki korak bila je preširoka. Sada je vraćen pisani postupak.
 
 **Novo mesto:** [LaTeX](05_kodovi.tex), red 818; `% Izvor DOCX: blok 121`.
 
@@ -513,6 +517,8 @@ Poz. & $a_i$ & $b_i$ & $c_i$ & Binarni zbir & Korekcija & BCD cifra & $c_{i+1}$\
 **Obrazloženje i uticaj:** Prenet svaki korak BCD sabiranja, korekcija i prenos; sačuvani rezultati 47, 121, 1218 i 961. Izvorni mešoviti bitni prikaz zamenjen čitljivom tabelom po decimalnim pozicijama.
 
 ### 05-35 — zadatak 2.3 b, tabela suseda
+
+**Dopunjeno nalazom 05-A16:** ispravni susedi i rezultati zadržani su, a vraćeni su izostavljeni međukoraci dekodovanja i isticanje bitova.
 
 **Novo mesto:** [LaTeX](05_kodovi.tex), celina navedena u naslovu stavke.
 
@@ -774,3 +780,107 @@ Vraćene su oznake horizontalne ose i upareni redovi BCD2421 tabele (izvor 1.1.1
 Diskretna siva linija razdvaja susedne redove podataka. Uz `\toprule`, `\midrule` i `\bottomrule` ne dodaje se druga, tanka linija. Vidljivi tekst „oprule“ bio je artefakt konverzije: Python je početak `\toprule` protumačio kao tabulator (`\t`). Ispravljen je LaTeX zapis komande; sama komanda iz paketa booktabs crta gornju ivicu tabele i ne treba da se vidi kao tekst. Ovo su ispravke nastalog LaTeX dokumenta, a ne greške DOCX izvornika.
 
 Dodatno su ujednačeni nazivi „Grejov“ i „Hamingov“ u blokovima 44, 48, 59 i 123; u bloku 66 opis kanala koristi termine predajnik i prijemnik umesto mešavine srpskih i engleskih naziva. Tabele sa simetrijom i slika Hamingovog rastojanja opisane su zasebno u ovom izveštaju.
+
+## Ponovna potpuna provera — 25. 9. 2026.
+
+Ranija istorija iznad je sačuvana. Novi nalazi odnose se na stanje LaTeX-a pri početku ove provere. Tačni tekstualni zapisi pre/posle nalaze se i u [nalazi_05_tekst.json](../PROVERA/nalazi_05_tekst.json); trajna mesta ispod određena su DOCX blokom ili LaTeX oznakom. [Dokazi](code/PREGLED_DOKAZA.md) razdvajaju dedukciju, iscrpne provere i usvojene pretpostavke.
+
+### 05-A01 — vrste kodova nisu disjunktna klasifikacija
+
+**Mesto:** blok 24, odeljak 1.1. **Pre:** „binarni kodovi se mogu razvrstati u 4 grupe“. **Posle:** navedene su razmatrane vrste uz objašnjenje preklapanja. **Vrsta:** stručno pojašnjenje. Težinski kod takođe može imati detekciju greške (npr. težine 1,1,1,1 i reči sa tačno dve jedinice); klasifikacija po nameni i po težinama nije ista. Nijedna kodna tabela nije promenjena.
+
+### 05-A02 — nepotpuno obrazloženje netežinskosti
+
+**Mesto:** blok 112, zadatak 1a. **Pre:** „0011 ... predstavlja nulu i ne može se tumačiti običnim nenegativnim pozicionim težinama“. **Posle:** izvedena su dva protivrečna sistema za prve četiri kodne reči. **Vrsta:** stručna dopuna dokaza. Samo jedna reč za nulu ne isključuje sve fiksne težine; novi dokaz isključuje čak i proizvoljne realne aditivne težine za date višebitne kodove. Kod „više 3“ zahteva w₀=1,w₁=2 i w₀+w₁=0, a oba Grejova koda w₁=1 i w₁=3. Rezultati konverzija ostaju isti. Ponovo provereno direktnom zamenom svih navedenih reči.
+
+### 05-A03 — pretpostavke razlomljenog kodnog zapisa
+
+**Mesto:** blokovi 109/113, zadatak 1b i `tab:dekodiranje`. **Pre:** nepotpune grupe se „dopunjuju nulama“, a konvencija fiksne tačke uvedena tek u rešenju. **Posle:** pretpostavke jasno navedene uz postavku; objašnjeno da to nije opšte produžavanje kodnih reči uz očuvanje vrednosti. **Vrsta:** ograničenje nepotpune postavke, dopuna. Npr. 0000 nije nula koda „više 3“. Binarni Grejov kod ne definiše sam po sebi nezavisno kodovanje dva dela oko tačke. Sa izričito usvojenom konvencijom svi postojeći rezultati ostaju tačni; provereni tačnom racionalnom aritmetikom. Bez nje problem nema jednoznačno tumačenje.
+
+### 05-A04 — širina određuje sve jednobitne susede
+
+**Mesto:** blok 132, zadatak 3b, `tab:susedi-*`. **Pre:** širine su bile samo vidljive u tabelama. **Posle:** izričito osam bita za dve decimalne cifre i pet za binarni Grejov kod. **Vrsta:** dopunska pretpostavka. Dodavanje vodećeg bita proširuje skup mogućih jednobitnih promena. Sve 37 prikazane reči ponovo su proverene i nijedna vrednost nije promenjena.
+
+### 05-A05 — formiranje i provera kontrolnog bita
+
+**Mesto:** blokovi 85/92/98, uvod o Hamingovom kodu. **Pre:** kontrolni bit „predstavlja njihov bit parnosti“ uz grupu koja sadrži i njega; nije neposredno naglašeno da se r odnosi na osnovni kod. **Posle:** razlikuju se izbor bita prema ostalim bitovima i provera cele grupe; r je pre opšte parnosti, numeracija ide zdesna nalevo. **Vrsta:** stručno pojašnjenje, uklanjanje mogućeg kružnog tumačenja. Matrica ima jedinične kolone na stepenima dvojke. Sve stvarne kontrolne grupe i pozicije automatski su pročitane i proverene; nema promene sindroma ni konačnih reči. Primarni izvor ponovo pročitan: Hamming (1950), odeljak 3, str. 150–153; opšta parnost odeljak 4, str. 153–154.
+
+### 05-A06 — nazivi, reference i prelomi tabela
+
+**Mesto:** blokovi 93,95,97,99,112,114,121,132,147. **Pre:** 17 sadržinskih tabela bilo je bez naslova/broja, uz odvojene nazive kodova i ponovljene naslove sabiranja. **Posle:** `\captionof{table}` i jedinstvene oznake; naslov ostaje uz tabelu, sabiranja su imenovana u naslovu, susedne liste imaju vertikalni razmak. Dodate oznake za šest ranije neoznačenih jednačina, bez promene njihovih izraza. **Vrsta:** formatiranje. Uvodni naslov „Više 3“ više nije sam na dnu stranice; plivajuća BCD2421 tabela ostaje pre nove teorijske celine. Nema tankih duplih linija uz naglašene granice. Svih 17 konačnih stranica pregledano je posle poslednje izgradnje.
+
+### 05-A07 — jezik i oznake
+
+**Mesta:** blokovi 48,53,56,67,89,111,127,139,144,146,158. „s desna na levo“ → „zdesna nalevo“, „zaštiti“ → „zaštititi“, „sa parnom/neparnom parnosti“ → „parnošću“, „do jedne“ → „jedna“, automatskim referencama dodat naziv odeljka. „Bit najveće težine“ u netežinskom kodu zamenjen je krajnjim levim bitom; matematičke promenljive i eksponenti pravilno su složeni. U zadatku 6b H_d=4 zamenjeno je preciznim d_min=4. **Vrsta:** jezička/terminološka. Ponovni pregled potvrdio da značenje postavki nije izmenjeno.
+
+### Ponovna potvrda ranijih ispravki i vizuelnih zahteva
+
+Provereni su i ostaju ispravni: d(0001,0101)=1, decimalni Grejov kod za 9, osnovni Hamingov kod kao SEC ili samo detekcija dve greške, prošireni SECDED, sindrom 101 → pozicija 5, 1001100 i 10011001. BCD2421 osa i svi parovi boja su očuvani. Grejova tabela prikazuje sva četiri koraka i razlikuje refleksiju donjih bita od komplementiranja MSB-a. Kocke imaju kompletne jedinstvene skupove 1/4/12 ivica, bez preklopljenih oznaka; četiri slikovna izvora nisu precrtavana tokom ove provere. Venove grupe proverene su iz stvarnih koordinata krugova i oznaka.
+
+Automatska provera sada vezuje rezultate za stvarne ćelije/formule, uključuje sve 2048 poruke prikazane konstrukcije (15,11) sa svim pojedinačnim i dvobitnim greškama, i sve maske greške za (7,4)/(8,4). Broj uspešnih računskih provera nije zamena za zasebno dokumentovan teorijski i vizuelni pregled.
+
+## Dopune prema izvornim tabelama i primedbama — 25. 9. 2026.
+
+### 05-A08 — različiti biti u Tabeli 6
+
+**Mesto pre/posle:** DOCX blok 73, XML tabela 8 (brojanje od nule); `tab:distances`, Tabela 6. **Pre:** svih 14 izraza bilo je bez istaknutih različitih bita, iako DOCX koristi crveno označavanje. **Posle:** različite pozicije u obe reči označene su tamnoplavom bojom i podebljanjem (`\istaknutbit`). **Vrsta:** propust pri prenosu grafičkog objašnjenja. Boja prati postojeću boju Primary; podebljanje pomaže i pri štampi u sivim tonovima. Obeležena su oba bita svakog različitog para, uključujući poslednju nulu u drugoj reči izraza d(0001,0000), koju izvornik nije obojio. Ranije ispravljen rezultat d(0001,0101)=1 ostaje. **Provera:** za svaki par automatski se porede skupovi označenih pozicija sa mestima razlike, kao i broj razlika sa prikazanim rastojanjem. Vrednosti reči i rezultati nisu promenjeni.
+
+### 05-A09 — dodatni biti parnosti u Tabeli 7
+
+**Mesto pre/posle:** DOCX blok 81, XML tabela 10; `tab:parity3`, Tabela 7. **Pre:** sve cifre imale su isti izgled. **Posle:** samo četvrti, dodati bit u kolonama parne i neparne parnosti istaknut je kao u Tabeli 6. **Vrsta:** propust pri prenosu označavanja iz DOCX-a. **Provera:** svih osam poruka ima neobeležena tri informaciona bita i po jedan označen završni bit u obe kodne reči; ponovo je proverena parnost svih 16 reči. Nema promene vrednosti.
+
+### 05-A10 — strelice kontrolnih grupa u Tabeli 11
+
+**Mesto pre/posle:** DOCX blok 99, XML tabela 17, dno 10. strane; `tab:raspored-provera`, Tabela 11, i povezana `tab:grupe`. **Pre:** ostao je samo raspored pozicija, bez strelica iz originala. **Posle:** TikZ vodovi ispod tabele vode od svakog kontrolnog bita do pripadajućih informacionih pozicija. Kontrolne ćelije i strelice imaju usklađene boje; različite grupe su vertikalno razmaknute. **Vrsta:** grafički propust pri prenosu. Original prikazuje strelice za C₁, C₂ i C₄; dopunjena je i grupa C₈ da svih 15 pozicija i četiri kontrole budu prikazani dosledno. Grupa obuhvata i svoj kontrolni bit, od kog vod polazi; strelice pokazuju preostalih sedam pozicija.
+
+**Obrazloženje/provera:** za kontrolu p∈{1,2,4,8} cilj i pripada grupi ako i AND p ≠ 0. Iz LaTeX-a se čitaju položaji svih 15 priključnih oznaka i četiri liste od po sedam ciljeva, pa porede sa ovim pravilom i Tabelom 12. Ručno je ispraćeno da svaka vodoravna linija polazi od odgovarajuće kontrolne ćelije i da su sve strelice izvučene naviše do pravilnih kolona. Postojeći raspored C/D i vrednosti nisu menjani. Tabela sa svim strelicama ostaje u jednom bloku na stranici.
+
+### 05-A11 — oznaka d₃ u Venovom dijagramu
+
+**Mesto pre/posle:** `Images/Uvod/ven.tex`, `fig:venn`, Slika 3. **Pre:** centar oznake d₃ bio je na (0; 0,9), pa je njen donji deo dodirivao gornju kružnicu grupe c₄. **Posle:** centar je (0; 1,15). **Vrsta:** grafička ispravka. **Provera:** pregled izvoza i konačne stranice potvrđuje slobodan razmak; oznaka i dalje pripada c₁∩c₂, van c₄. Za leve/desne krugove kvadrat rastojanja je 0,8²+0,65²=1,0625 < 1,65²=2,7225, a za donji je 2,05²=4,2025 > 2,7225. Sve ostale oznake i geometrija ostaju isti; ažuriran je otisak pregledanog izvora.
+
+### 05-A12 — usklađivanje prvog primera na broj 43
+
+**Mesto pre/posle:** DOCX blokovi 106 i 112, `sec:2.1`, `tab:kodiranje`, prvi red Tabele 13; raniji nalaz 05-30. **Izvorna nedoslednost:** postavka navodi 13, a prvi red rešenja broj 43; kolona Grej BCD čak zadržava kod za 13. Ranija konverzija je sve uskladila na 13 prema postavci. **Sada, po izričitom zahtevu korisnika:** i postavka i rešenje koriste 43. **Vrsta:** razrešenje nedoslednosti izvornika prema potvrđenoj nameri korisnika, uz stručnu ispravku jedne izvorne kodne reči.
+
+**Proverene vrednosti za 43:** BCD8421 `0100 0011`; BCD2421 `0100 0011`; „više 3“ `0111 0110`; Grej BCD `0110 0010`; binarni Grej `111110`. Cifre 4 i 3 koduju se zasebno prema odgovarajućim tabelama. Posebno, izvorno `0001 0010` u Grej BCD koloni koduje 13, pa je zamenjeno sa `0110 0010`. Za binarni Grej važi 43=101011₂ i 101011 XOR 010101=111110. Ažurirani su ulaz i svih pet rezultata u dokumentu i računskom prilogu; preostala četiri primera nisu promenjena. Provera sada vezuje i spisak operanada iz postavke sa redovima tabele, a ne samo rezultate međusobno.
+
+### 05-A13 — vraćen početni binarni zapis u Tabeli 13
+
+**Mesto pre/posle:** DOCX blok 112, kolona „Gray binarni“; `tab:kodiranje`. **Pre:** prikazivana je samo konačna Grejova reč. **Posle:** svaki red prikazuje početni šestobitni binarni zapis i strelicu ka šestobitnoj Grejovoj reči. Po dodatnom zahtevu kolona je proširena na 4,3 cm da ceo prelaz stane u jedan red, bez prelamanja. Indeks 2 označava binarni broj, a oznaka G kodnu reč; značenje je navedeno ispod tabele. **Vrsta:** izgubljen didaktički međukorak tokom konverzije. Strelica zamenjuje izvorni znak jednakosti između zapisa različitog značenja.
+
+**Provereni prelazi:** `101011→111110`, `000000→000000`, `001111→001000`, `110001→101001`, `111110→100001`, redom za 43, 0, 15, 49 i 62. Za svaki stvarno prikazan početni zapis proverena je decimalna vrednost i formula g=b XOR (b>>1). Ujednačene vodeće nule ne menjaju brojeve. Tabela zadržava sve ostale kolone i diskretne razdelnike redova.
+
+**Ponovna provera ove dopune:** `make -C vezbe/05` i `make -C vezbe/05 check` uspešni (256.515 računskih/logičkih provera), kao i `structure.py 05`. Konačni dokument i dalje ima 17 stranica. Promenjene stranice pregledane su pojedinačno, uz poređenje ostalih rendera sa prethodnim PDF-om. Prethodni zapis čiste izgradnje ostaje istorijski; ova dopuna je proverena redovnom izgradnjom i novim vizuelnim pregledom.
+
+### 05-A14 — binarna i decimalna predstava u istom redu Tabele 14
+
+**Mesto pre/posle:** DOCX blok 114, `tab:dekodiranje`, kolona „Grej binarni“. **Pre:** dekodirani binarni zapis i njegova decimalna vrednost bili su prelomljeni u dva reda komandom `\shortstack`. **Posle:** kolona ima zadatu širinu 6,3 cm, a oba zapisa povezana su znakom jednakosti u jednom redu, uz oznake osnova 2 i 10. Razmak uz ivice ćelija ove tabele smanjen je na 4 pt da tabela ostane unutar margina. **Vrsta:** poboljšanje čitljivosti po zahtevu korisnika.
+
+**Obrazloženje i provera:** binarni i decimalni zapis predstavljaju istu dekodiranu vrednost; jedinstven red čini tu vezu neposrednom. Nijedan bit niti računski rezultat nije promenjen. Postojeći parser prilagođen je novom prikazu, uz očuvane nezavisne provere sva tri dekodovanja i tačnih racionalnih vrednosti. `make -C vezbe/05`, `make -C vezbe/05 check` (256.515 provera) i `structure.py 05` prolaze; nova stranica pregledana je na 140 dpi, bez prelamanja ili prekoračenja širine tabele.
+
+### 05-A15 — vraćeni pisani međukoraci BCD sabiranja u zadatku 2.2
+
+**Mesto pre/posle:** DOCX blok 121, XML tabela 20 sa ugnježdenim tabelama 21–24 (indeksi od nule), izvorne strane 13–14; `sec:2.2`, `tab:zbir-1`, `tab:zbir-2`, `tab:zbir-3`, `tab:zbir-4` i jednačine `eq:bcd-zbir-1`–`eq:bcd-zbir-4`.
+
+**Pre:** četiri sažete tabele prikazivale su po jedan red za decimalnu poziciju: cifre, ulazni prenos, zbir, korekciju i rezultat. To jeste prenosilo brojčane rezultate, ali je uklonilo originalni pisani postupak, položaj korekcije i nastajanje međurezultata. **Posle:** svako sabiranje ponovo ima poravnate bitove početnih sabiraka, obradu zdesna nalevo, crte sabiranja, nekorigovani zbir, dodavanje 0110 gde je potrebno i korigovani međurezultat. Već dobijene niže BCD cifre ostaju vidljive. Ulazni prenos je posebno ispisan na pravom bitnom mestu; prenos i korekcija istaknuti su plavom bojom. Nulti viši delovi poravnati su vodećim nulama.
+
+**Vrsta i razlog:** propust u prenosu didaktičkih detalja; ranija zamena originala previše sažetim tabelama bila je nepotrebna. U okviru pisanog računa horizontalne crte označavaju sabiranje; odvojene decimalne pozicije imaju dodatni vertikalni razmak. Svaka tabela ostaje sa svojim naslovom i završnom jednačinom. Oznake i konačni rezultati 47, 121, 1218 i 961 nisu promenjeni.
+
+**Provera:** sva četiri postupka ukupno imaju 11 decimalnih pozicija i 44 računska reda (6, 11, 15 i 12), uključujući četiri korekcije 0110 i tri eksplicitna ulazna prenosa 1. Iz stvarnog LaTeX-a provereni su svaki bit, prazne pozicije, širina, operator, prenos, poravnanje korekcije, prepisani niži deo i odluka o korekciji. Rezultati su izvedeni iz operanada postavke i provereni konačnim jednakostima. Na privremenim kopijama promena bita međuzbira i zamena 0110 sa 0111 pravilno obaraju proveru. Izvorne stranice upoređene su vizuelno i preko Word XML-a; dodatni eksplicitni redovi prenosa pojašnjavaju prenose koji su u originalu sadržani u prethodnom međurezultatu.
+
+### 05-A16 — vraćeni koraci i označavanje u zadatku 2.3
+
+**Mesto pre/posle:** DOCX blokovi 128–132, XML tabela 25, izvorna strana 14; `sec:2.3`, `tab:susedi-bcd`, `tab:susedi-2421`, `tab:susedi-excess`, `tab:susedi-graybcd`, `tab:susedi-gray`.
+
+**Pre:** u 2.3a različiti biti ostali su neobeleženi; u 2.3b tabele su sadržale samo promenjenu reč i konačnu decimalnu vrednost. Posebno je nestao izvorni korak Grej → običan binarni zapis → decimalna vrednost. **Posle:** različite pozicije u sva tri para 2.3a ponovo su istaknute. Svaki sused u 2.3b ima broj promenjenog bita i obojen upravo taj bit; decimalne četvorke su vizuelno razdvojene. Za dozvoljene decimalne kodove prikazano je dekodovanje obe četvorke u cifre, a za nedozvoljene navedena konkretna nevažeća četvorka. Kod binarnog Grejovog koda vraćen je početni prelaz 23₁₀=10111₂→11100_G, kao i oba koraka za svih pet suseda, u jednom redu.
+
+**Vrsta i razlog:** izgubljeni didaktički detalji pri konverziji. Dekodovanje obe decimalne cifre i numeracija promenjenog bita predstavljaju dodatna pojašnjenja, dok su binarni međuzapisi Grejovih suseda prisutni u izvorniku. Ranije ispravke pogrešnih/nedozvoljenih reči ostaju: sama početna reč 23 nije sused na rastojanju 1; odgovarajući Grej BCD sused je 0011 0000 → 20. Promene ne vraćaju tu grešku. „Na osnovu odeljku“ ispravljeno je u „Na osnovu odeljka“. Naslov rešenja ostaje uz uvod i prikazane korake.
+
+**Provera:** ostaje svih 37 jedinstvenih jednobitnih suseda (četiri puta osam i pet binarnih Grejovih). Za svaki red provereni su bitni indeks, istaknuta pozicija, rastojanje 1, dozvoljenost i sve prikazane faze dekodovanja. Pet binarnih prelaza, u redosledu tabele, glasi 01100_G→01000₂=8, 10100_G→11000₂=24, 11000_G→10000₂=16, 11110_G→10100₂=20, 11101_G→10110₂=22. Vodeća nula u prvom binarnom rezultatu čuva zadatu širinu pet bita. Privremene promene binarnog međukoraka i izostavljanje oznake promenjenog bita pravilno obaraju proveru.
+
+**Ponovna potvrda 05-A15/A16:** lokalna izgradnja, 256.757 računskih/logičkih provera i strukturna provera prolaze. Vizuelno su pregledane fizičke stranice 2 i 12–17 na 130 dpi (sadržaj i stranice čiji se prelom promenio); preostalih deset identično je prethodno potvrđenom PDF-u na 110 dpi. Dokument ostaje na 17 stranica. [Zapis provere prikaza](code/provera_prikaza.json) sadrži otiske izvora, poređenje stranica i četiri provereno otkrivene namerne greške. Ovo je redovna izgradnja ove dopune; istorijska čista izgradnja nije predstavljena kao provera nove verzije.
+
+### 05-A17 — razmak između postupka i objašnjenja u tabelama 15–18
+
+**Mesto:** `tab:zbir-1`–`tab:zbir-4`, DOCX blok 121. **Pre:** razmak u definiciji kolona pripadao je poslednjoj računskoj koloni, pa su crte sabiranja dopirale do objašnjenja. **Posle:** posebna prazna kolona širine 8 mm razdvaja račun od teksta; crte ostaju u računskom delu. **Vrsta:** poboljšanje čitljivosti po zahtevu korisnika. Svi bitovi, prenosi, korekcije i brojevi ostaju isti. Parser je prilagođen praznoj razdelnoj koloni. Lokalna izgradnja, 256.757 provera i strukturna provera prolaze. Konačne fizičke stranice 12 i 13 pregledane su na 130 dpi; ostalih 15 stranica identično je prethodnom PDF-u na 110 dpi.

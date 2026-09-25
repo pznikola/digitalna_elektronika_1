@@ -1,0 +1,82 @@
+[
+  {
+    "fault": "formula",
+    "detected": true,
+    "evidence": "eq:zad2-b1"
+  },
+  {
+    "fault": "table bit",
+    "detected": true,
+    "evidence": "tab:bcd-7seg-e"
+  },
+  {
+    "fault": "reference",
+    "detected": true,
+    "evidence": "undefined source references"
+  },
+  {
+    "fault": "drawn wire source",
+    "detected": true,
+    "evidence": "source SHA differs from manually traced source"
+  },
+  {
+    "fault": "03 arithmetic result",
+    "detected": true,
+    "evidence": "eq:2.1.3 intermediate step"
+  },
+  {
+    "fault": "03 table digit",
+    "detected": true,
+    "evidence": "table arithmetic"
+  },
+  {
+    "fault": "04 carry digit",
+    "detected": true,
+    "evidence": "actual TeX carry vector differs"
+  },
+  {
+    "fault": "04 K-map value",
+    "detected": true,
+    "evidence": "actual cell differs from addition"
+  },
+  {
+    "fault": "04 selector wire",
+    "detected": true,
+    "evidence": "reviewed source SHA mismatch"
+  },
+  {
+    "fault": "05 BCD2421 code bit",
+    "detected": true,
+    "evidence": "actual table differs from verified code"
+  },
+  {
+    "fault": "05 missing cube edge replaced by duplicate",
+    "detected": true,
+    "evidence": "actual unique cube edge set differs"
+  },
+  {
+    "fault": "07 slope sign",
+    "detected": true,
+    "evidence": "actual cascade segment differs"
+  },
+  {
+    "fault": "07 graph ordinate",
+    "detected": true,
+    "evidence": "drawn curve coordinate differs from formula"
+  },
+  {
+    "fault": "08 CMOS threshold",
+    "detected": true,
+    "evidence": "actual numerical value"
+  },
+  {
+    "fault": "08 TG row 0101",
+    "detected": true,
+    "evidence": "actual TG truth table"
+  },
+  {
+    "fault": "08 disconnected inverter input",
+    "detected": true,
+    "evidence": "graph has distinct electrical nodes"
+  }
+]

@@ -1,0 +1,9 @@
+?? PREDAVANJA.md
+?? predavanja/
+?? vezbe/03_brojni_sistemi_i_predstave_binarnih_brojeva_azurirano.docx
+?? vezbe/04_aritmeticke_operacije.docx
+?? vezbe/05_kodovi_azurirano.docx
+?? vezbe/07_staticke_karakteristike.pdf
+?? vezbe/08_mos.pdf
+?? vezbe/IZVESTAJ_KONVERZIJE.md
+?? vezbe/README_KONVERZIJA.md

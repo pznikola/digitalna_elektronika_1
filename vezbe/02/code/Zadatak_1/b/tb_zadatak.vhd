@@ -27,7 +27,7 @@ begin
         variable expY : std_logic_vector(1 downto 0);
         variable axb  : std_logic;
     begin
-        -- Iteracija svih kombinacija A, B, C (16 ukupno)
+        -- Iteracija svih kombinacija A, B, C (8 ukupno)
         for a_val in 0 to 1 loop
             for b_val in 0 to 1 loop
                 for c_val in 0 to 3 loop

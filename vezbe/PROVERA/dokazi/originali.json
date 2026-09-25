@@ -1,0 +1,44 @@
+[
+  {
+    "source": "03_brojni_sistemi_i_predstave_binarnih_brojeva_azurirano.docx",
+    "sha256": "e165d708903fab09f00087f13517d119c81947491f578c999b81f9e3b15073a6",
+    "initial_snapshot_sha256": null,
+    "comparison": "original not edited; initial inventory covered exercise subfolders only"
+  },
+  {
+    "source": "05_kodovi_azurirano.docx",
+    "sha256": "59c016362bbc9e2426510107820a1703d7addc4ee07eb65089d4812f8e1b7405",
+    "initial_snapshot_sha256": null,
+    "comparison": "original not edited; initial inventory covered exercise subfolders only"
+  },
+  {
+    "source": "04_aritmeticke_operacije.docx",
+    "sha256": "d3540cbc242008737dd2c8797069f3f7c02ad43ee5328c44716a91b9b54e691c",
+    "initial_snapshot_sha256": null,
+    "comparison": "original not edited; initial inventory covered exercise subfolders only"
+  },
+  {
+    "source": "08_mos.pdf",
+    "sha256": "facc693502f6da3d29951ca59503b0e2f858460ffe25ecc70ec0de5bdea862f8",
+    "initial_snapshot_sha256": null,
+    "comparison": "original not edited; initial inventory covered exercise subfolders only"
+  },
+  {
+    "source": "07_staticke_karakteristike.pdf",
+    "sha256": "c824fce450a135adc143807da7c8eddbf95c504d180da6069e1d0c227c7da99d",
+    "initial_snapshot_sha256": null,
+    "comparison": "original not edited; initial inventory covered exercise subfolders only"
+  },
+  {
+    "source": "01/01_Kombinacione_Hazardi.pdf",
+    "sha256": "e3cbd8b373cc5ec911035cace07f2da3636148424eaf389a66ed99cb53142810",
+    "initial_snapshot_sha256": "e3cbd8b373cc5ec911035cace07f2da3636148424eaf389a66ed99cb53142810",
+    "comparison": "identical"
+  },
+  {
+    "source": "02/02_Sinteza_kola_srednjeg_stepena_integracije.pdf",
+    "sha256": "2fe30366c3eeb2ccca468e98c45342e8b428e24f402bbf5f6212e68a095ae60e",
+    "initial_snapshot_sha256": "2fe30366c3eeb2ccca468e98c45342e8b428e24f402bbf5f6212e68a095ae60e",
+    "comparison": "identical"
+  }
+]

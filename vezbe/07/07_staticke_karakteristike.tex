@@ -82,7 +82,7 @@ Prvo očitamo $v_1=f(v_0)$, zatim $v_2=f(v_1)$, pa $v_3$ i $v_4$. Konstrukcija j
 \includegraphics[width=.7\linewidth]{Zadatak_1/rotacija}
 \caption{Grafička iteracija sa četiri zarotirane karakteristike.}\label{fig:1.3}
 \end{figure}
-Još pregledniji prikaz dobija se preslikavanjem karakteristike u odnosu na pravu $v_I=v_U$ (slika~\ref{fig:1.4}). Preseci van dijagonale određuju par stabilnih nivoa $(V_L,V_H)$ i $(V_H,V_L)$, za koje važi $f(V_L)=V_H$, $f(V_H)=V_L$. Presek na dijagonali određuje prag $V_S=f(V_S)$; za prikazanu karakteristiku on je nestabilan. Oblasti između krive i njenog odraza usmeravaju iteraciju ka stabilnim nivoima, što predstavlja regeneraciju.
+Još pregledniji prikaz dobija se preslikavanjem karakteristike u odnosu na pravu $v_I=v_U$ (slika~\ref{fig:1.4}). Za prikazanu karakteristiku preseci van dijagonale određuju par stabilnih nivoa $(V_L,V_H)$ i $(V_H,V_L)$, za koje važi $f(V_L)=V_H$, $f(V_H)=V_L$. Presek na dijagonali određuje prag $V_S=f(V_S)$; za prikazanu karakteristiku on je nestabilan. Oblasti između krive i njenog odraza usmeravaju iteraciju ka stabilnim nivoima, što predstavlja regeneraciju. Sam presek ne dokazuje stabilnost: za gladak dvociklus lokalni uslov je $|f^\prime(V_L)f^\prime(V_H)|<1$, dok je za fiksnu tačku uslov $|f^\prime(V_S)|<1$. Kada je odgovarajući modul veći od 1, tačka je nestabilna; granični slučaj jednakosti zahteva dodatnu analizu.
 Pošto je zadati ulaz ispod praga, neparni izlazi teže visokom, a parni niskom nivou:
 \begin{equation}\label{eq:1.2}
 \lim_{n\to\infty}v_{2n}=V_L,\qquad \lim_{n\to\infty}v_{2n+1}=V_H.
@@ -102,7 +102,7 @@ Koristimo oznake $V_L,V_H$ za stabilne nivoe u lancu bez šuma. Oznake $V_{OL},V
 \caption{Ulazni pragovi, garantovani izlazni nivoi i stabilni nivoi (ilustrativna karakteristika).}\label{fig:2.1}
 \end{figure}
 \paragraph{a) Jednostruki izvor šuma (SSNM).}
-Šum amplitude $V_N$ deluje na ulazu samo jednog invertora. Ako je prethodni izlaz visok, najnepovoljniji šum ga umanjuje; ako je nizak, uvećava ga. Za očuvanje logičke informacije potrebno je ostati sa odgovarajuće strane praga:
+Posmatramo statički poremećaj amplitude $V_N\ge0$ na ulazu samo jednog invertora; prethodni deo lanca već je dostigao stabilne nivoe. Ne razmatramo trajanje impulsa šuma niti vremenski odziv. Ako je prethodni izlaz visok, najnepovoljniji šum ga umanjuje; ako je nizak, uvećava ga. Za očuvanje logičke informacije potrebno je ostati sa odgovarajuće strane praga:
 \begin{equation}\label{eq:2.1}
 V_H-V_N>V_S,
 \end{equation}
@@ -120,12 +120,12 @@ NM_{0,\mathrm{SS}}=V_S-V_L,\qquad NM_{1,\mathrm{SS}}=V_H-V_S.
 
 Jednakost sa pragom ne garantuje odluku; u idealnom modelu može zadržati radnu tačku na nestabilnom preseku.
 \paragraph{b) Višestruki izvori šuma (MSNM).}
-Kada šum postoji na svakoj međuvezi, prihvatljivi ulazi moraju ostati u oblastima malog pojačanja. Lokalni uslov slabljenja perturbacije je
+Za garantovano prenošenje logičke informacije pri šumu na svakoj međuvezi biramo ulazne intervale koji se preslikavaju u odgovarajuće izlazne intervale i obezbeđuju rezervu za šum. Lokalni uslov slabljenja male perturbacije u jednom stepenu je
 \begin{equation}\label{eq:2.3}
 \left|\frac{\mathrm d f}{\mathrm d v_U}\right|<1.
 \end{equation}
 
-Za glatku karakteristiku granice $V_{IL},V_{IH}$ određene su nagibom $-1$. Kod izlomljene karakteristike uzimaju se prelomi na kojima modul nagiba prelazi jedinicu. Uslovi očuvanja dozvoljenih intervala su
+Za uobičajenu glatku invertorsku karakteristiku sa dve krajnje oblasti malog pojačanja, konvencionalne granice $V_{IL},V_{IH}$ određuju se nagibom $-1$. Kod izlomljene karakteristike uzimaju se prelomi na kojima modul nagiba prelazi jedinicu. Za takve izabrane granice dovoljni uslovi očuvanja dozvoljenih intervala su
 \begin{equation}\label{eq:2.4}
 f(V_{IH})+V_N<V_{IL},
 \end{equation}
@@ -146,7 +146,7 @@ Ako su krajnji delovi skoro horizontalni, dozvoljena je dodatna aproksimacija $f
 NM_0\approx V_{IL}-V_L,\qquad NM_1\approx V_H-V_{IH}.
 \end{equation}
 
-Ovo nisu opšte tačne jednakosti. SSNM je koristan za razumevanje regeneracije i projektovanje samog kola; garantovane margine pri poremećajima na svim međuspojevima koriste se pri povezivanju kola. U svim sledećim zadacima prikazane su i tačne vrednosti prema~\eqref{eq:2.7} i procene prema~\eqref{eq:2.8} iz izvornika.
+Ovo nisu opšte tačne jednakosti. SSNM opisuje regeneraciju nakon jednog lokalnog statičkog poremećaja; garantovane margine dozvoljenih intervala koriste se pri povezivanju kola. U svim formulama pretpostavlja se da ulazi ostaju u domenu zadate karakteristike; ponašanje izvan opsega napajanja ovde nije zadato. U svim sledećim zadacima prikazane su i tačne vrednosti prema~\eqref{eq:2.7} i procene prema~\eqref{eq:2.8} iz izvornika.
 \FloatBarrier\section{Zadatak 3: tri invertorske karakteristike}\label{sec:3}
 Tri tipa kola sa slike~\ref{fig:3.1} napajaju se sa $5\,\mathrm V$. U svakom lancu nalaze se ista kola. Za ulaz $2.7\,\mathrm V$: a) odrediti izlaze posle beskonačno mnogo parova kola; b) oceniti pogodnost za logičko NE kolo; c) za pogodno kolo odrediti nivoe, prag i obe vrste margina šuma.
 \begin{figure}[!htbp]\centering
@@ -210,7 +210,7 @@ Uz istu normalizaciju kao ranije,
 
 Prvi lanac teži $2.5\,\mathrm V$, drugi ostaje na $2.7\,\mathrm V$, a treći teži $5\,\mathrm V$.
 \paragraph{b) Regeneracija.}
-Prvo kolo privlači tačke sredini, a drugo zadržava svaku ulaznu vrednost. Treće kolo obnavlja niski ili visoki nivo, jer je nagib $1/2$ u krajnjim oblastima, a $3$ oko praga. Samo ono je pogodno kao logički bafer.
+Prvo kolo privlači unutrašnje tačke sredini; izuzeci su tačne vrednosti $0$ i $5\,\mathrm V$, koje ostaju na nestabilnim krajnjim fiksnim tačkama. Drugo kolo zadržava svaku ulaznu vrednost. Treće kolo obnavlja niski ili visoki nivo, jer je nagib $1/2$ u krajnjim oblastima, a $3$ oko praga. Samo ono je pogodno kao logički bafer.
 \paragraph{c) Nivoi i margine.}
 Stabilni nivoi su $V_L=0$, $V_H=5\,\mathrm V$, prag $V_S=2.5\,\mathrm V$, a granice $V_{IL}=2\,\mathrm V$, $V_{IH}=3\,\mathrm V$. Obe SSNM margine iznose $2.5\,\mathrm V$. Za rastuću karakteristiku garantovane izlaze računamo na istoimenim ulaznim granicama:
 \begin{equation}\label{eq:4.3}
@@ -225,13 +225,15 @@ Odrediti karakteristiku kaskade dva kola sa slike~\ref{fig:5.1}, redom invertora
 \caption{Invertor i bafer koji se povezuju redno.}\label{fig:5.1}
 \end{figure}
 \subsection*{Rešenje}
+Margine određujemo za lanac čiji je jedan stepen cela novodobijena kaskada. Izvori šuma su na međuspojevima takvih stepena; unutrašnja veza invertora i bafera smatra se idealnom. Šum i na toj unutrašnjoj vezi zahteva zaseban model dva poremećena kola.
+
 Prvo kolo ima karakteristiku $f_3$, a drugo $b_3$ iz~\eqref{eq:3.1} i~\eqref{eq:4.2}. Njihovi segmenti su redom $5-x/2$, $10-3x$, $(5-x)/2$, odnosno $x/2$, $3x-5$, $(x+5)/2$. Rotacijom druge karakteristike za $90^\circ$ dobija se grafička konstrukcija sa slike~\ref{fig:5.2}.
 \begin{figure}[!htbp]\centering
 \includegraphics[width=0.9\linewidth]{Zadatak_5/rotacija}
 \caption{Preslikavanje karakterističnih tačaka kroz oba kola.}\label{fig:5.2}
 \end{figure}
 Pošto su obe karakteristike deo po deo linearne, dovoljno je odrediti sve prelomne tačke kompozicije $h=b_3\circ f_3$ i spojiti susedne tačke:
-\begin{center}\begin{tabular}{cccc}\toprule
+\begin{center}\begin{minipage}{\linewidth}\centering\captionsetup{hypcap=false}\captionof{table}{Prelomne tačke kompozicije invertora i bafera.}\label{tab:prelomi}\begin{tabular}{cccc}\toprule
 Tačka & $v_U\,[\mathrm V]$ & $v_{I1}\,[\mathrm V]$ & $v_I\,[\mathrm V]$\\
 \midrule
 Početak & 0 & 5 & 5\\
@@ -245,7 +247,7 @@ $T_3$ & $8/3$ & 2 & 1\\
 $T_4$ & 3 & 1 & $1/2$\\
 \redlinija
 Kraj & 5 & 0 & 0\\
-\bottomrule\end{tabular}\end{center}
+\bottomrule\end{tabular}\end{minipage}\end{center}
 Za $T_1$ ulaz $2\,\mathrm V$ daje međunapon $4\,\mathrm V$, pa izlaz $4.5\,\mathrm V$. Za $T_2$ međunapon mora biti $3\,\mathrm V$, otuda $10-3x=3$ i $x=7/3$. Analogno se dobijaju $T_3$ i $T_4$. Dobijena karakteristika je
 \begin{equation}\label{eq:5.1}
 h(x)=\begin{cases}5-x/4,&0\le x\le2,\\15/2-3x/2,&2\le x\le7/3,\\25-9x,&7/3\le x\le8/3,\\5-3x/2,&8/3\le x\le3,\\5/4-x/4,&3\le x\le5.\end{cases}

@@ -27,6 +27,8 @@ begin
         for i in 0 to 15 loop
             A <= std_logic_vector(to_unsigned(i, 4));
             wait for 10 ns;
+        assert Y = not std_logic_vector(shift_left(to_unsigned(1, 16), i))
+            report "Neocekivan izlaz" severity error;
         end loop;
 
         -- End simulation

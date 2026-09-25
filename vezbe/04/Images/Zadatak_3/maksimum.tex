@@ -8,13 +8,18 @@
 \usetikzlibrary{circuits.logic.US,positioning,calc,arrows.meta,patterns,shapes.geometric}
 \definecolor{Primary}{HTML}{1F77B4}
 \begin{document}
-\begin{tikzpicture}[thick,>=Latex,b/.style={draw,minimum width=2.6cm,minimum height=1.25cm,align=center}]
+\begin{tikzpicture}[circuit logic US,thick,>=Latex,b/.style={draw,minimum width=2.6cm,minimum height=1.25cm,align=center}]
 \node[b](c1)at(0,0){Komparator 4 bita\\$g_1=(X>Y)$};\node[b](m1)at(4,0){MUX 2/1\\$M=g_1?X:Y$};
 \node[b](c2)at(4,-2.7){Komparator 4 bita\\$g_2=(Z_{3:0}>M)$};\node[b](m2)at(8.5,0){MUX 2/1, 5 bita\\$s?Z:0M$};
 \draw[->](-2,1)node[left]{$X=A$}--(c1.north west);\draw[->](-2,-1)node[left]{$Y=0C_{3:1}$}--(c1.south west);
 \draw[->](c1)--(m1)node[midway,above]{$g_1$};\draw[->](m1)--(m2)node[midway,above]{$0M$};
 \draw[->](m1.south)--(c2.north)node[midway,right]{$M$};\draw[->](2,-2.7)node[left]{$Z_{3:0}$}--(c2.west);
-\draw[->](c2.east)--(8.5,-2.7)--(m2.south)node[midway,right]{$s=Z_4\lor g_2$};
+\node[or gate US,draw,logic gate inputs=nn] (select) at (7,-2.7){};
+\draw[->](c2.east)--(6,-2.7) |- (select.input 1) node[pos=.2,above]{$g_2$};
+\draw (5.8,-3.6) node[left]{$Z_4$} -| (6.2,-3.1) |- (select.input 2);
+\draw[->](select.output)--(8.5,-2.7)--(m2.south)node[midway,right]{$s$};
+\draw[->](3.1,1.8)node[above]{$X[3:0]$}--(3.1,.625);
+\draw[->](4.9,1.8)node[above]{$Y[3:0]$}--(4.9,.625);
 \draw[->](8.5,1.9)node[above]{$Z=B_{3:0}0$}--(m2.north);\draw[->](m2.east)--++(1.2,0)node[right]{$\mathrm{RES}$};
 \end{tikzpicture}
 \end{document}

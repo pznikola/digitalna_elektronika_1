@@ -7,7 +7,7 @@
 \usepackage{lmodern,microtype}
 \usepackage{amsmath,amssymb,mathtools}
 \numberwithin{equation}{section}
-\usepackage{graphicx,adjustbox,placeins}
+\usepackage{graphicx,adjustbox,placeins,needspace}
 \graphicspath{{Images/}}
 \usepackage{booktabs,tabularx,longtable,array,multirow,makecell}
 \usepackage{caption,subcaption}
@@ -15,6 +15,7 @@
 \usepackage{siunitx}
 \sisetup{detect-all}
 \usepackage[most]{tcolorbox}
+\usetikzlibrary{tikzmark,arrows.meta,calc}
 \usepackage{enumitem}
 \setlist{nosep}
 \usepackage{fancyhdr}
@@ -34,6 +35,7 @@
 \newcommand{\napomena}[1]{\begin{tcolorbox}[colback=gray!10,colframe=black,boxrule=0.5pt,breakable]#1\end{tcolorbox}}
 \newcommand{\redlinija}{\arrayrulecolor{black!28}\specialrule{0.3pt}{2pt}{2pt}\arrayrulecolor{black}}
 \newcommand{\kod}[1]{\ensuremath{\mathtt{#1}}}
+\newcommand{\istaknutbit}[1]{\textcolor{Primary!85!black}{\ifmmode\mathbf{#1}\else\textbf{#1}\fi}}
 \begin{document}
 \hypersetup{pageanchor=false}
 \begin{titlepage}
@@ -74,7 +76,7 @@ Haris Turkmanović & \href{mailto:haris@etf.bg.ac.rs}{\texttt{haris@etf.bg.ac.rs
 
 
 % Izvor DOCX: blok 24
-U digitalnim sistemima se mogu koristiti različiti kodovi za predstavljanje decimalnih brojeva. U opštem slučaju, binarni kodovi se mogu razvrstati u 4 grupe:
+U digitalnim sistemima se mogu koristiti različiti kodovi za predstavljanje decimalnih brojeva. U ovim vežbama razmatramo sledeće vrste kodova. To nije podela na međusobno isključive grupe: svojstvo detekcije greške može imati i težinski, netežinski ili alfanumerički kod.
 
 
 
@@ -101,6 +103,7 @@ U okviru računskih vežbi obrađivaćemo bar jedan od kodova iz svake od grupa,
 
 
 % Izvor DOCX: blok 28
+\Needspace{6\baselineskip}
 \textbf{BCD8421}
 
 
@@ -142,6 +145,7 @@ Cifra & Kodna reč\\\midrule
 Za kodovanje decimalnog broja svaka cifra se zasebno zamenjuje četvorobitnom reči iz tabele~\ref{tab:bcd}.
 
 % Izvor DOCX: blok 33
+\Needspace{6\baselineskip}
 \textbf{BCD2421}
 
 
@@ -185,10 +189,12 @@ Cifra $d$ & Kodna reč $c(d)$ & Uparena cifra $9-d$\\
 Jednako obojeni redovi u tabeli~\ref{tab:2421} nalaze se na jednakom rastojanju od crvene horizontalne ose. Njihove kodne reči su bit po bit komplementarne: $c(9-d)=\overline{c(d)}$. Parovi su $0\leftrightarrow9$, $1\leftrightarrow8$, $2\leftrightarrow7$, $3\leftrightarrow6$, $4\leftrightarrow5$. To je antisimetrija vrednosti bita ($0\leftrightarrow1$), odnosno samokomplementarnost koda. Za cifre 0–4 kod se poklapa sa BCD8421.
 
 % Izvor DOCX: blok 38
+\FloatBarrier\Needspace{7\baselineskip}
 \subsubsection{Netežinski kodovi}\label{sec:1.1.2}
 
 
 % Izvor DOCX: blok 39
+\Needspace{6\baselineskip}
 \textbf{Više 3}
 
 
@@ -230,6 +236,7 @@ Cifra & Kodna reč\\\midrule
 Kod je samokomplementaran: $15-(d+3)=(9-d)+3$. Pri dekodiranju se od binarne vrednosti svake dozvoljene četvorobitne reči oduzima 3.
 
 % Izvor DOCX: blok 44
+\Needspace{6\baselineskip}
 \textbf{Binarni Grejov kod}
 
 
@@ -250,14 +257,14 @@ Prvi pristup je reflektovana konstrukcija:
 \begin{enumerate}[label=\arabic*.,start=1,leftmargin=*]
 \item Odredi se potrebna dužina kodne reči \emph{n} za predstavu brojeva
 
-\item Ukoliko je n=1, broju 0 odgovara Grejova kodna reč 0 dok broju 1 odgovara Grejova kodna reč 1
+\item Ukoliko je $n=1$, broju 0 odgovara Grejova kodna reč 0, a broju 1 kodna reč 1.
 
 \item Ukoliko je dužina kodne reči veća od 1, kodne reči dužine \emph{n} dobijamo iterativnim postupkom koji podrazumeva postepeno određivanje kodnih reči dužine 2, 3 \ldots{} sve do \emph{n} i to tako što:
 
 \begin{enumerate}[label=\arabic*.,start=1,leftmargin=*]
-\item prva polovina 2\textsuperscript{n-1} kodnih reči se dobija tako što se za bit najveće težine uzme 0 dok preostali biti predstavljaju kodne reči Grejovog koda dužine $n-1$.
+\item prva polovina, koja sadrži $2^{n-1}$ kodnih reči, dobija se tako što se za krajnji levi bit uzme 0 dok preostali biti predstavljaju kodne reči Grejovog koda dužine $n-1$.
 
-\item druga polovina 2\textsuperscript{n-1} kodnih reči se dobija tako što se za bit najveće težine uzme 1 dok preostali biti predstavljaju kodne reči Grejovog koda dužine $n-1$ zapisane u obrnutom poretku.
+\item druga polovina, koja sadrži $2^{n-1}$ kodnih reči, dobija se tako što se za krajnji levi bit uzme 1 dok preostali biti predstavljaju kodne reči Grejovog koda dužine $n-1$ zapisane u obrnutom poretku.
 
 \end{enumerate}
 \end{enumerate}
@@ -360,6 +367,7 @@ Za $n=2$, LSB je niz $0,1,1,0$, a MSB $0,0,1,1$. Za $n=3$, donja dva bita idu $0
 
 
 % Izvor DOCX: blok 52
+\Needspace{9\baselineskip}
 \begin{enumerate}[label=\Roman*),start=2,leftmargin=*]
 \item Drugi pristup za određivanje kodne reči dužine \emph{n} u slučaju binarnog Grejovog koda podrazumeva sledeće korake:
 
@@ -368,7 +376,7 @@ Za $n=2$, LSB je niz $0,1,1,0$, a MSB $0,0,1,1$. Za $n=3$, donja dva bita idu $0
 
 % Izvor DOCX: blok 53
 \begin{enumerate}[label=\arabic*.,start=1,leftmargin=*]
-\item Biti \emph{b\textsubscript{i}} binarne predstave odgovarajućeg decimalnog broja se posmatraju s desna na levo i numerišu sa 0 \ldots{} \emph{n-1}. Smatramo da se na poziciji \emph{n} nalazi 0.
+\item Biti \emph{b\textsubscript{i}} binarne predstave odgovarajućeg decimalnog broja se posmatraju zdesna nalevo i numerišu sa 0 \ldots{} \emph{n-1}. Smatramo da se na poziciji \emph{n} nalazi 0.
 
 \item Bit na poziciji \emph{i} u kodnoj reči se dobija realizacijom operacije XOR cifara na mestima \emph{i} i \emph{i+1} odgovarajuće binarne predstave
 
@@ -376,7 +384,7 @@ Za $n=2$, LSB je niz $0,1,1,0$, a MSB $0,0,1,1$. Za $n=3$, donja dva bita idu $0
 
 
 % Izvor DOCX: blok 54
-\begin{equation}
+\begin{equation}\label{eq:gray-kodiranje}
 g_{n-1}=b_{n-1},\qquad g_i=b_{i+1}\oplus b_i\quad(0\le i<n-1).
 \end{equation}
 
@@ -386,7 +394,7 @@ Za dekodiranje Grejove reči $g_{n-1}\dots g_0$ u binarnu reč $b_{n-1}\dots b_0
 
 % Izvor DOCX: blok 56
 \begin{enumerate}[label=\arabic*.,start=1,leftmargin=*]
-\item Cifra najveće težine se prepisuje
+\item Krajnji levi bit se prepisuje.
 
 \item Cifra na poziciji \emph{i} binarne predstave vrednosti se određuje tako što se realizuje operacija XOR prethodno dobijene cifre na poziciji \emph{i+1} i cifre koja se nalazi na poziciji \emph{i} u kodnoj reči
 
@@ -394,12 +402,13 @@ Za dekodiranje Grejove reči $g_{n-1}\dots g_0$ u binarnu reč $b_{n-1}\dots b_0
 
 
 % Izvor DOCX: blok 57
-\begin{equation}
+\begin{equation}\label{eq:gray-dekodiranje}
 b_{n-1}=g_{n-1},\qquad b_i=b_{i+1}\oplus g_i\quad(i=n-2,\dots,0).
 \end{equation}
 
 
 % Izvor DOCX: blok 58
+\Needspace{6\baselineskip}
 \textbf{Decimalni Grejov kod}
 
 
@@ -460,7 +469,7 @@ Na primer, neka se koristi binarni Grejov kod i neka predajnik šalje reč $000_
 
 
 % Izvor DOCX: blok 67
-Kao deo odgovora na postavljeno pitanje neophodno je uvesti termin \textbf{Hamingovo rastojanje (H\textsubscript{d})} koje predstavlja broj mesta na kojima se razlikuju dve binarne predstave date na istoj dužini bita. Na primer, ako imamo binarnu predstavu broja A koja je jednaka 0110110\textsubscript{2} i broja B koja je jednaka 0110010\textsubscript{2}, Hamingovo rastojanje je jednako 1, što zapisujemo:
+Za opis razlike između dve reči uvodimo \textbf{Hamingovo rastojanje (H\textsubscript{d})} koje predstavlja broj mesta na kojima se razlikuju dve binarne reči iste dužine. Na primer, ako imamo binarnu predstavu broja A koja je jednaka 0110110\textsubscript{2} i broja B koja je jednaka 0110010\textsubscript{2}, Hamingovo rastojanje je jednako 1, što zapisujemo:
 
 
 
@@ -490,23 +499,23 @@ Minimalno Hamingovo rastojanje $d_{\min}$ je najmanje rastojanje između dve \em
 \begin{table}[!htbp]\centering\caption{Primeri Hamingovih rastojanja u BCD kodu.}\label{tab:distances}
 \begin{adjustbox}{max width=\linewidth}\begin{tabular}{cc}\toprule
 Prva grupa & Druga grupa\\\midrule
-$d(0000,0001)=1$ & $d(0001,0000)=1$\\
+$d(000\istaknutbit{0},000\istaknutbit{1})=1$ & $d(000\istaknutbit{1},000\istaknutbit{0})=1$\\
 \redlinija
-$d(0000,0010)=1$ & $d(0001,0010)=2$\\
+$d(00\istaknutbit{0}0,00\istaknutbit{1}0)=1$ & $d(00\istaknutbit{0}\istaknutbit{1},00\istaknutbit{1}\istaknutbit{0})=2$\\
 \redlinija
-$d(0000,0011)=2$ & $d(0001,0011)=1$\\
+$d(00\istaknutbit{0}\istaknutbit{0},00\istaknutbit{1}\istaknutbit{1})=2$ & $d(00\istaknutbit{0}1,00\istaknutbit{1}1)=1$\\
 \redlinija
-$d(0000,0100)=1$ & $d(0001,0100)=2$\\
+$d(0\istaknutbit{0}00,0\istaknutbit{1}00)=1$ & $d(0\istaknutbit{0}0\istaknutbit{1},0\istaknutbit{1}0\istaknutbit{0})=2$\\
 \redlinija
-$d(0000,0101)=2$ & $d(0001,0101)=1$\\
+$d(0\istaknutbit{0}0\istaknutbit{0},0\istaknutbit{1}0\istaknutbit{1})=2$ & $d(0\istaknutbit{0}01,0\istaknutbit{1}01)=1$\\
 \redlinija
-$d(0000,0110)=2$ & $\cdots$\\
+$d(0\istaknutbit{0}\istaknutbit{0}0,0\istaknutbit{1}\istaknutbit{1}0)=2$ & $\cdots$\\
 \redlinija
-$d(0000,0111)=3$ & \\
+$d(0\istaknutbit{0}\istaknutbit{0}\istaknutbit{0},0\istaknutbit{1}\istaknutbit{1}\istaknutbit{1})=3$ & \\
 \redlinija
-$d(0000,1000)=1$ & \\
+$d(\istaknutbit{0}000,\istaknutbit{1}000)=1$ & \\
 \redlinija
-$d(0000,1001)=2$ & \\
+$d(\istaknutbit{0}00\istaknutbit{0},\istaknutbit{1}00\istaknutbit{1})=2$ & \\
 \bottomrule\end{tabular}\end{adjustbox}
 \end{table}
 
@@ -536,6 +545,7 @@ gde je
 Da bi reč sa najviše $n_d$ grešaka bila pogrešno korigovana u drugu reč udaljenu najviše $n_c$, dve dozvoljene reči morale bi biti udaljene najviše $n_c+n_d$, što navedeni uslov isključuje.
 
 % Izvor DOCX: blok 79
+\Needspace{6\baselineskip}
 \textbf{Kod sa parnom i neparnom parnošću}
 
 
@@ -548,21 +558,21 @@ Kod parne parnosti ukupan broj jedinica je paran, a kod neparne neparan. U ovim 
 \begin{table}[!htbp]\centering\caption{Kodiranje trobitnih poruka bitom parnosti.}\label{tab:parity3}
 \begin{adjustbox}{max width=\linewidth}\begin{tabular}{ccc}\toprule
 Informacioni biti & Parna parnost & Neparna parnost\\\midrule
-000 & 0000 & 0001\\
+000 & 000\istaknutbit{0} & 000\istaknutbit{1}\\
 \redlinija
-001 & 0011 & 0010\\
+001 & 001\istaknutbit{1} & 001\istaknutbit{0}\\
 \redlinija
-010 & 0101 & 0100\\
+010 & 010\istaknutbit{1} & 010\istaknutbit{0}\\
 \redlinija
-011 & 0110 & 0111\\
+011 & 011\istaknutbit{0} & 011\istaknutbit{1}\\
 \redlinija
-100 & 1001 & 1000\\
+100 & 100\istaknutbit{1} & 100\istaknutbit{0}\\
 \redlinija
-101 & 1010 & 1011\\
+101 & 101\istaknutbit{0} & 101\istaknutbit{1}\\
 \redlinija
-110 & 1100 & 1101\\
+110 & 110\istaknutbit{0} & 110\istaknutbit{1}\\
 \redlinija
-111 & 1111 & 1110\\
+111 & 111\istaknutbit{1} & 111\istaknutbit{0}\\
 \bottomrule\end{tabular}\end{adjustbox}
 \end{table}
 
@@ -574,12 +584,13 @@ Informacioni biti & Parna parnost & Neparna parnost\\\midrule
 Za fiksnu dužinu poruke oba koda imaju $d_{\min}=2$. Otkrivaju svaku grešku sa neparnim brojem promenjenih bita, ali ne i greške sa parnim brojem. Sam bit parnosti ne određuje položaj greške i ne omogućava njenu korekciju.
 
 % Izvor DOCX: blok 84
+\Needspace{6\baselineskip}
 \textbf{Hamingov kod}
 
 
 
 % Izvor DOCX: blok 85
-Osnovni Hamingov kod ima $d_{\min}=3$: koriguje jednu grešku, ili detektuje do dve greške kada se koristi samo detekcija. Sam sindrom ne razlikuje svaku dvobitnu grešku od jednobitne. Za istovremenu korekciju jedne i detekciju dve greške dodaje se opšti bit parnosti, čime se dobija prošireni kod sa $d_{\min}=4$. Broj kontrolnih bita $r$ za $m$ informacionih bita mora zadovoljiti:
+Osnovni Hamingov kod ima $d_{\min}=3$: koriguje jednu grešku, ili detektuje do dve greške kada se koristi samo detekcija. Sam sindrom ne razlikuje svaku dvobitnu grešku od jednobitne. Za istovremenu korekciju jedne i detekciju dve greške dodaje se opšti bit parnosti, čime se dobija prošireni kod sa $d_{\min}=4$. Za osnovni Hamingov kod (pre dodavanja opšteg bita parnosti), broj kontrolnih bita $r$ za $m$ informacionih bita mora zadovoljiti:
 
 % Izvor DOCX: blok 86
 \begin{equation}\label{eq:1.1.3.3}
@@ -599,7 +610,7 @@ n=m+r\le2^r-1
 
 
 % Izvor DOCX: blok 89
-Na osnovu \eqref{eq:1.1.3.3} dobijamo da je maksimalan broj informacionih bita \emph{m} koje je moguće zaštiti sa \emph{r} kontrolnih bita definisan relacijom:
+Na osnovu \eqref{eq:1.1.3.3} dobijamo da je maksimalan broj informacionih bita \emph{m} koje je moguće zaštititi sa \emph{r} kontrolnih bita definisan relacijom:
 
 
 
@@ -616,18 +627,20 @@ Kodna reč se formira na sledeći način:
 
 % Izvor DOCX: blok 92
 \begin{enumerate}[label=\arabic*.,start=1,leftmargin=*]
-\item Pozicije bita u kodnoj reči se obeležavaju polazeći od 1 i predstavljaju se u binarnoj formi
+\item Pozicije bita u kodnoj reči numerišu se zdesna nalevo, počev od 1, i zapisuju se binarno.
 
 \end{enumerate}
 
 
 % Izvor DOCX: blok 93
-\begin{center}\begin{adjustbox}{max width=\linewidth}
+\begin{center}\begin{minipage}{\linewidth}\centering\captionsetup{hypcap=false}
+\captionof{table}{Numeracija pozicija u petnaestobitnoj reči.}\label{tab:pozicije}
+\begin{adjustbox}{max width=\linewidth}
 \begin{tabular}{ccccccccccccccc}\toprule
 15 & 14 & 13 & 12 & 11 & 10 & 9 & 8 & 7 & 6 & 5 & 4 & 3 & 2 & 1 \\
 \midrule
 1111 & 1110 & 1101 & 1100 & 1011 & 1010 & 1001 & 1000 & 0111 & 0110 & 0101 & 0100 & 0011 & 0010 & 0001 \\
-\bottomrule\end{tabular}\end{adjustbox}\end{center}
+\bottomrule\end{tabular}\end{adjustbox}\end{minipage}\end{center}
 
 
 % Izvor DOCX: blok 94
@@ -638,14 +651,16 @@ Kodna reč se formira na sledeći način:
 
 
 % Izvor DOCX: blok 95
-\begin{center}\begin{adjustbox}{max width=\linewidth}
+\begin{center}\begin{minipage}{\linewidth}\centering\captionsetup{hypcap=false}
+\captionof{table}{Kontrolni biti na pozicijama koje su stepeni broja 2.}\label{tab:kontrolni}
+\begin{adjustbox}{max width=\linewidth}
 \begin{tabular}{ccccccccccccccc}\toprule
 15 & 14 & 13 & 12 & 11 & 10 & 9 & 8 & 7 & 6 & 5 & 4 & 3 & 2 & 1 \\
 \midrule
 1111 & 1110 & 1101 & 1100 & 1011 & 1010 & 1001 & 1000 & 0111 & 0110 & 0101 & 0100 & 0011 & 0010 & 0001 \\
 \redlinija
  &  &  &  &  &  &  & C\textsubscript{8} &  &  &  & C\textsubscript{4} &  & C\textsubscript{2} & C\textsubscript{1} \\
-\bottomrule\end{tabular}\end{adjustbox}\end{center}
+\bottomrule\end{tabular}\end{adjustbox}\end{minipage}\end{center}
 
 
 % Izvor DOCX: blok 96
@@ -656,34 +671,60 @@ Kodna reč se formira na sledeći način:
 
 
 % Izvor DOCX: blok 97
-\begin{center}\begin{adjustbox}{max width=\linewidth}
+\begin{center}\begin{minipage}{\linewidth}\centering\captionsetup{hypcap=false}
+\captionof{table}{Raspored kontrolnih i informacionih bita.}\label{tab:informacioni}
+\begin{adjustbox}{max width=\linewidth}
 \begin{tabular}{ccccccccccccccc}\toprule
 15 & 14 & 13 & 12 & 11 & 10 & 9 & 8 & 7 & 6 & 5 & 4 & 3 & 2 & 1 \\
 \midrule
 1111 & 1110 & 1101 & 1100 & 1011 & 1010 & 1001 & 1000 & 0111 & 0110 & 0101 & 0100 & 0011 & 0010 & 0001 \\
 \redlinija
 D\textsubscript{10} & D\textsubscript{9} & D\textsubscript{8} & D\textsubscript{7} & D\textsubscript{6} & D\textsubscript{5} & D\textsubscript{4} & C\textsubscript{8} & D\textsubscript{3} & D\textsubscript{2} & D\textsubscript{1} & C\textsubscript{4} & D\textsubscript{0} & C\textsubscript{2} & C\textsubscript{1} \\
-\bottomrule\end{tabular}\end{adjustbox}\end{center}
+\bottomrule\end{tabular}\end{adjustbox}\end{minipage}\end{center}
 
 
 % Izvor DOCX: blok 98
 \begin{enumerate}[label=\arabic*.,start=4,leftmargin=*]
-\item Svaki od kontrolnih bita kontroliše odgovarajuće bite kodne reči tako što predstavlja njihov bit parnosti. Kontrolni bit na poziciji \emph{i} kontroliše one bite koji se nalaze na pozicijama čija binarna vrednost ima jedinice na mestima gde i kontrolni bit ima jedinice.
+\item Kontrolni bit na poziciji $i=2^k$ pripada grupi svih pozicija čiji binarni indeks ima jedinicu na mestu $k$. Pri kodovanju bira se tako da cela grupa, uključujući njega, ima zadatu parnost. Pri proveri se računa parnost cele grupe; kontrolni bit se ne izračunava XOR-om grupe koja već uključuje njega samog.
 
 \end{enumerate}
 
 
 % Izvor DOCX: blok 99
-\begin{center}\begin{adjustbox}{max width=\linewidth}
+\begin{center}\begin{minipage}{\linewidth}\centering\captionsetup{hypcap=false}
+\captionof{table}{Raspored bita za formiranje kontrolnih grupa.}\label{tab:raspored-provera}
+\begingroup\small\setlength{\tabcolsep}{3pt}
 \begin{tabular}{ccccccccccccccc}\toprule
 15 & 14 & 13 & 12 & 11 & 10 & 9 & 8 & 7 & 6 & 5 & 4 & 3 & 2 & 1 \\
 \midrule
 1111 & 1110 & 1101 & 1100 & 1011 & 1010 & 1001 & 1000 & 0111 & 0110 & 0101 & 0100 & 0011 & 0010 & 0001 \\
 \redlinija
-D\textsubscript{10} & D\textsubscript{9} & D\textsubscript{8} & D\textsubscript{7} & D\textsubscript{6} & D\textsubscript{5} & D\textsubscript{4} & C\textsubscript{8} & D\textsubscript{3} & D\textsubscript{2} & D\textsubscript{1} & C\textsubscript{4} & D\textsubscript{0} & C\textsubscript{2} & C\textsubscript{1} \\
-\bottomrule\end{tabular}\end{adjustbox}\end{center}
+\tikzmarknode[inner sep=0pt]{hamming-15}{\strut D\textsubscript{10}} & \tikzmarknode[inner sep=0pt]{hamming-14}{\strut D\textsubscript{9}} & \tikzmarknode[inner sep=0pt]{hamming-13}{\strut D\textsubscript{8}} & \tikzmarknode[inner sep=0pt]{hamming-12}{\strut D\textsubscript{7}} & \tikzmarknode[inner sep=0pt]{hamming-11}{\strut D\textsubscript{6}} & \tikzmarknode[inner sep=0pt]{hamming-10}{\strut D\textsubscript{5}} & \tikzmarknode[inner sep=0pt]{hamming-9}{\strut D\textsubscript{4}} & \cellcolor{violet!12}\tikzmarknode[inner sep=0pt]{hamming-8}{\strut C\textsubscript{8}} & \tikzmarknode[inner sep=0pt]{hamming-7}{\strut D\textsubscript{3}} & \tikzmarknode[inner sep=0pt]{hamming-6}{\strut D\textsubscript{2}} & \tikzmarknode[inner sep=0pt]{hamming-5}{\strut D\textsubscript{1}} & \cellcolor{orange!16}\tikzmarknode[inner sep=0pt]{hamming-4}{\strut C\textsubscript{4}} & \tikzmarknode[inner sep=0pt]{hamming-3}{\strut D\textsubscript{0}} & \cellcolor{teal!12}\tikzmarknode[inner sep=0pt]{hamming-2}{\strut C\textsubscript{2}} & \cellcolor{Primary!15}\tikzmarknode[inner sep=0pt]{hamming-1}{\strut C\textsubscript{1}} \\
+\bottomrule\end{tabular}
+\begin{tikzpicture}[remember picture,overlay,line width=.55pt,>={Latex[length=1.4mm,width=1mm]}]
+% The source control bit belongs to its group; arrows show the other positions.
+\foreach \control/\level/\offset/\groupcolor/\targets in {
+  1/.35/.15/Primary/{3,5,7,9,11,13,15},
+  2/.70/.05/teal!75!black/{3,6,7,10,11,14,15},
+  4/1.05/-.05/orange!85!black/{5,6,7,12,13,14,15},
+  8/1.40/-.15/violet!75!black/{9,10,11,12,13,14,15}}
+{
+  \coordinate (group-start) at ([yshift=-5pt]hamming-\control.south);
+  \coordinate (group-bus) at ([yshift=-\level cm]group-start);
+  \coordinate (group-end) at ([xshift=\offset cm]hamming-15.south);
+  \draw[\groupcolor] (group-start)--(group-bus)--(group-end |- group-bus);
+  \foreach \position in \targets {
+    \coordinate (group-target) at ([xshift=\offset cm,yshift=-5pt]hamming-\position.south);
+    \draw[\groupcolor,->] (group-target |- group-bus)--(group-target);
+  }
+}
+\end{tikzpicture}
+\par\vspace{1.65cm}\endgroup
+\end{minipage}\end{center}
 
-\begin{center}
+\begin{center}\begin{minipage}{\linewidth}\centering\captionsetup{hypcap=false}
+\captionof{table}{Pozicije uključene u svaku proveru parnosti.}\label{tab:grupe}
+
 \begin{adjustbox}{max width=\linewidth}\begin{tabular}{cc}\toprule
 Kontrolni bit & Pozicije koje učestvuju u proveri\\\midrule
 $c_1$ & 1, 3, 5, 7, 9, 11, 13, 15\\
@@ -694,7 +735,7 @@ $c_4$ & 4, 5, 6, 7, 12, 13, 14, 15\\
 \redlinija
 $c_8$ & 8, 9, 10, 11, 12, 13, 14, 15\\
 \bottomrule\end{tabular}\end{adjustbox}
-\end{center}
+\end{minipage}\end{center}
 
 % Izvor DOCX: blok 100
 Za Hamingov kod dužine 7, Venov dijagram na slici~\ref{fig:venn} prikazuje koje kontrolne grupe sadrže pojedine pozicije. Oznake $d_3,d_5,d_6,d_7$ ovde sadrže \emph{pozicije u reči}, dok $D_0,\dots,D_{10}$ u prethodnim tabelama označavaju redne brojeve informacionih bita.
@@ -710,6 +751,7 @@ Sindrom se dobija ponovnim izračunavanjem parnosti svake kontrolne grupe: $s_j=
 
 % Izvor DOCX: blok 103
 \FloatBarrier
+\clearpage
 \section{Zadaci sa časova vežbi}\label{sec:2}
 
 
@@ -726,7 +768,7 @@ Sindrom se dobija ponovnim izračunavanjem parnosti svake kontrolne grupe: $s_j=
 
 
 % Izvor DOCX: blok 106
-13, 0, 15, 49, 62
+43, 0, 15, 49, 62
 
 
 
@@ -743,6 +785,8 @@ Navesti težine bita za težinske kodove i obrazložiti zašto ostali navedeni k
 % Izvor DOCX: blok 109
 101001.100101, 10010011.1110101, 1011.101001
 
+\napomena{Za kodove decimalnih cifara usvajamo da su izostavljene samo spoljne nule: nepotpunu četvorku celog dela dopunjujemo sleva, a razlomljenog dela zdesna. To je pretpostavka o datim nizovima, a ne opšte pravilo očuvanja vrednosti pri produžavanju kodnih reči. Za binarni Grejov kod primenjujemo Grejovo kodovanje celog niza bita kao neoznačenog skaliranog celog broja; po dekodiranju zadržavamo izvorni broj razlomljenih bita.}
+
 
 
 % Izvor DOCX: blok 110
@@ -751,43 +795,48 @@ Navesti težine bita za težinske kodove i obrazložiti zašto ostali navedeni k
 
 % Izvor DOCX: blok 111
 \begin{enumerate}[label=\alph*),start=1,leftmargin=*]
-\item Na osnovu postupka opisanog u \ref{sec:1.1} dobijamo:
+\item Na osnovu postupka opisanog u odeljku~\ref{sec:1.1} dobijamo:
 
 \end{enumerate}
 
 
 % Izvor DOCX: blok 112
-\begin{center}
-\begin{adjustbox}{max width=\linewidth}\begin{tabular}{cccccc}\toprule
-Broj & BCD & BCD2421 & Više 3 & Grej BCD & Grej binarni\\\midrule
-13 & 0001 0011 & 0001 0011 & 0100 0110 & 0001 0010 & 001011\\
-\redlinija
-0 & 0000 & 0000 & 0011 & 0000 & 000000\\
-\redlinija
-15 & 0001 0101 & 0001 1011 & 0100 1000 & 0001 0111 & 001000\\
-\redlinija
-49 & 0100 1001 & 0100 1111 & 0111 1100 & 0110 1000 & 101001\\
-\redlinija
-62 & 0110 0010 & 1100 0010 & 1001 0101 & 0101 0011 & 100001\\
-\bottomrule\end{tabular}\end{adjustbox}
-\end{center}
+\begin{center}\begin{minipage}{\linewidth}\centering\captionsetup{hypcap=false}
+\captionof{table}{Kodovanje zadatih decimalnih brojeva.}\label{tab:kodiranje}
 
-Za BCD8421 težine su $(8,4,2,1)$, a za BCD2421 $(2,4,2,1)$. Kod „više 3“ i oba Grejova koda su netežinski; na primer, reč 0011 u kodu „više 3“ predstavlja nulu i ne može se tumačiti običnim nenegativnim pozicionim težinama. Binarni Grejov kod ovde ima šest bita, dovoljno za sve zadate brojeve.\par
+\begin{adjustbox}{max width=\linewidth}\begin{tabular}{ccccc>{\centering\arraybackslash}p{4.3cm}}\toprule
+Broj & BCD & BCD2421 & Više 3 & Grej BCD & Grej binarni\\\midrule
+43 & 0100 0011 & 0100 0011 & 0111 0110 & 0110 0010 & $101011_2\;\to\;111110_{\mathrm{G}}$\\
+\redlinija
+0 & 0000 & 0000 & 0011 & 0000 & $000000_2\;\to\;000000_{\mathrm{G}}$\\
+\redlinija
+15 & 0001 0101 & 0001 1011 & 0100 1000 & 0001 0111 & $001111_2\;\to\;001000_{\mathrm{G}}$\\
+\redlinija
+49 & 0100 1001 & 0100 1111 & 0111 1100 & 0110 1000 & $110001_2\;\to\;101001_{\mathrm{G}}$\\
+\redlinija
+62 & 0110 0010 & 1100 0010 & 1001 0101 & 0101 0011 & $111110_2\;\to\;100001_{\mathrm{G}}$\\
+\bottomrule\end{tabular}\end{adjustbox}
+\end{minipage}\end{center}
+
+Za BCD8421 težine su $(8,4,2,1)$, a za BCD2421 $(2,4,2,1)$. Kod „više 3“ i oba ovde korišćena Grejova koda nemaju fiksne aditivne težine. Za „više 3“, reči za cifre $0,1,2,3$ zahtevale bi redom $w_1+w_0=0$, $w_2=1$, $w_2+w_0=2$, $w_2+w_1=3$. Poslednje tri daju $w_0=1$, $w_1=2$, suprotno prvom uslovu. Za oba Grejova koda početne reči $00,01,11,10$ za brojeve $0,1,2,3$ zahtevale bi $w_0=1$, $w_1+w_0=2$ i $w_1=3$, što je takođe protivrečno. Vodeće nule ne utiču na ovaj dokaz. Binarni Grejov kod ovde ima šest bita, dovoljno za sve zadate brojeve. U poslednjoj koloni prikazani su početni binarni zapis (indeks 2) i dobijena Grejova kodna reč (oznaka G).\par
 
 % Izvor DOCX: blok 113
-Kodovi decimalnih cifara grupišu se u četvorke od tačke ulevo i udesno; nepotpune spoljne grupe dopunjuju se nulama. Svaka grupa mora biti dozvoljena kodna reč. Za binarni Grejov kod ovde koristimo zapis sa fiksnom tačkom: dekodiramo ceo izvorni niz i zadržavamo izvorni broj razlomljenih bita. U tom postupku se razlomljeni deo ne dopunjava nulama radi grupisanja.
+Primenom pretpostavki iz postavke dobijamo tabelu~\ref{tab:dekodiranje}. Svaka četvorka decimalnog koda mora biti dozvoljena; znak „--“ označava nedozvoljenu reč. Kod binarnog Grejovog zapisa tačka se vraća tek posle dekodiranja celog niza, bez dopisivanja bita.
 
 % Izvor DOCX: blok 114
-\begin{center}
-\begin{adjustbox}{max width=\linewidth}\begin{tabular}{cccccc}\toprule
+\begin{center}\begin{minipage}{\linewidth}\centering\captionsetup{hypcap=false}
+\captionof{table}{Dekodiranje zadatih nizova uz usvojene pretpostavke.}\label{tab:dekodiranje}
+
+\begingroup\setlength{\tabcolsep}{4pt}
+\begin{adjustbox}{max width=\linewidth}\begin{tabular}{ccccc>{\centering\arraybackslash}p{6.3cm}}\toprule
 Izvorna reč & BCD & BCD2421 & Više 3 & Grej BCD & Grej binarni\\\midrule
-101001.100101 & 29.94 & -- & -- & -- & \shortstack{110001.000110\\49.09375}\\
+101001.100101 & 29.94 & -- & -- & -- & $110001.000110_2=49.09375_{10}$\\
 \redlinija
-10010011.1110101 & -- & -- & -- & -- & \shortstack{11100010.1011001\\226.6953125}\\
+10010011.1110101 & -- & -- & -- & -- & $11100010.1011001_2=226.6953125_{10}$\\
 \redlinija
-1011.101001 & -- & -- & 8.71 & -- & \shortstack{1101.001110\\13.21875}\\
-\bottomrule\end{tabular}\end{adjustbox}
-\end{center}
+1011.101001 & -- & -- & 8.71 & -- & $1101.001110_2=13.21875_{10}$\\
+\bottomrule\end{tabular}\end{adjustbox}\endgroup
+\end{minipage}\end{center}
 
 
 % Izvor DOCX: blok 115
@@ -813,63 +862,137 @@ Izvršiti sledeća sabiranja decimalnih brojeva u BCD kodu:
 
 
 % Izvor DOCX: blok 120
-Sabiraju se po dve BCD cifre sa ulaznim decimalnim prenosom. Ako puni binarni zbir prelazi 9, tj. ako je četvorobitni rezultat veći od 1001 \emph{ili} postoji izlazni binarni prenos, dodaje se korekcija 0110. Zatim se cifra i decimalni prenos prosleđuju u sledeći korak.
+Sabiraju se po dve BCD cifre sa ulaznim decimalnim prenosom. Ako puni binarni zbir prelazi 9, tj. ako je četvorobitni rezultat veći od 1001 \emph{ili} postoji izlazni binarni prenos, dodaje se korekcija 0110. Zatim se cifra i decimalni prenos prosleđuju u sledeći korak. Postupak ide zdesna nalevo, od pozicije $i=0$. U međurezultatima se već dobijene niže BCD cifre prepisuju; plavom bojom istaknuti su ulazni prenos i korekcija.
 
 % Izvor DOCX: blok 121
-\noindent\textbf{$34+13$}\par
-\begin{center}
-\begin{adjustbox}{max width=\linewidth}\begin{tabular}{cccccccc}\toprule
-Poz. & $a_i$ & $b_i$ & $c_i$ & Binarni zbir & Korekcija & BCD cifra & $c_{i+1}$\\\midrule
-0 & 4 & 3 & 0 & 00111 & 0000 & 0111 & 0\\
-\redlinija
-1 & 3 & 1 & 0 & 00100 & 0000 & 0100 & 0\\
-\bottomrule\end{tabular}\end{adjustbox}
-\end{center}
-\begin{equation}
+\begin{center}\begin{minipage}{\linewidth}\centering\captionsetup{hypcap=false}
+\captionof{table}{BCD sabiranje $34+13$ — pisani postupak.}\label{tab:zbir-1}
+\begingroup\small\setlength{\arraycolsep}{2pt}\renewcommand{\arraystretch}{1.12}
+\begin{adjustbox}{max width=\linewidth}\begin{tabular}{@{}c@{}}\toprule
+$\begin{array}{r*{9}{c}@{}c@{}l}
+\multicolumn{10}{c}{\text{Pisani postupak}} & \rule{8mm}{0pt} & \text{Objašnjenje}\\\midrule
+% BCD korak 0
+ &  & 0 & 0 & 1 & 1 & 0 & 1 & 0 & 0 & & i=0:\ \text{prvi sabirak} \\
++ &  & 0 & 0 & 0 & 1 & 0 & 0 & 1 & 1 & & \text{Drugi sabirak} \\
+\cline{6-10}
+ &  &  &  &  & 0 & 0 & 1 & 1 & 1 & & \text{Nema korekcije; }c_1=0 \\
+\noalign{\vskip 5pt}
+% BCD korak 1
+ &  & 0 & 0 & 1 & 1 &  &  &  &  & & i=1:\ \text{prvi sabirak} \\
++ &  & 0 & 0 & 0 & 1 &  &  &  &  & & \text{Drugi sabirak} \\
+\cline{2-10}
+ & 0 & 0 & 1 & 0 & 0 & 0 & 1 & 1 & 1 & & \text{Nema korekcije; }c_2=0 \\
+\end{array}$\\\bottomrule\end{tabular}
+\end{adjustbox}\endgroup
+\begin{equation}\label{eq:bcd-zbir-1}
 34+13=47\quad\longleftrightarrow\quad \mathtt{0100\,0111}
 \end{equation}
-\noindent\textbf{$35+86$}\par
-\begin{center}
-\begin{adjustbox}{max width=\linewidth}\begin{tabular}{cccccccc}\toprule
-Poz. & $a_i$ & $b_i$ & $c_i$ & Binarni zbir & Korekcija & BCD cifra & $c_{i+1}$\\\midrule
-0 & 5 & 6 & 0 & 01011 & 0110 & 0001 & 1\\
-\redlinija
-1 & 3 & 8 & 1 & 01100 & 0110 & 0010 & 1\\
-\bottomrule\end{tabular}\end{adjustbox}
-\end{center}
-\begin{equation}
+\end{minipage}\end{center}
+
+\begin{center}\begin{minipage}{\linewidth}\centering\captionsetup{hypcap=false}
+\captionof{table}{BCD sabiranje $35+86$ — pisani postupak.}\label{tab:zbir-2}
+\begingroup\small\setlength{\arraycolsep}{2pt}\renewcommand{\arraystretch}{1.12}
+\begin{adjustbox}{max width=\linewidth}\begin{tabular}{@{}c@{}}\toprule
+$\begin{array}{r*{9}{c}@{}c@{}l}
+\multicolumn{10}{c}{\text{Pisani postupak}} & \rule{8mm}{0pt} & \text{Objašnjenje}\\\midrule
+% BCD korak 0
+ &  & 0 & 0 & 1 & 1 & 0 & 1 & 0 & 1 & & i=0:\ \text{prvi sabirak} \\
++ &  & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & & \text{Drugi sabirak} \\
+\cline{6-10}
+ &  &  &  &  & 0 & 1 & 0 & 1 & 1 & & \text{Binarni zbir; potrebna korekcija} \\
++ &  &  &  &  &  & \istaknutbit{0} & \istaknutbit{1} & \istaknutbit{1} & \istaknutbit{0} & & \text{Korekcija }0110_2 \\
+\cline{6-10}
+ &  &  &  &  & 1 & 0 & 0 & 0 & 1 & & \text{Korigovana cifra; }c_1=1 \\
+\noalign{\vskip 5pt}
+% BCD korak 1
+ &  & 0 & 0 & 1 & 1 &  &  &  &  & & i=1:\ \text{prvi sabirak} \\
++ &  & 1 & 0 & 0 & 0 &  &  &  &  & & \text{Drugi sabirak} \\
++ &  &  &  &  & \istaknutbit{1} &  &  &  &  & & \text{Ulazni prenos }c_1=1 \\
+\cline{2-10}
+ & 0 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1 & & \text{Binarni zbir; potrebna korekcija} \\
++ &  & \istaknutbit{0} & \istaknutbit{1} & \istaknutbit{1} & \istaknutbit{0} &  &  &  &  & & \text{Korekcija }0110_2 \\
+\cline{2-10}
+ & 1 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 1 & & \text{Korigovana cifra; }c_2=1 \\
+\end{array}$\\\bottomrule\end{tabular}
+\end{adjustbox}\endgroup
+\begin{equation}\label{eq:bcd-zbir-2}
 35+86=121\quad\longleftrightarrow\quad \mathtt{0001\,0010\,0001}
 \end{equation}
-\noindent\textbf{$1026+192$}\par
-\begin{center}
-\begin{adjustbox}{max width=\linewidth}\begin{tabular}{cccccccc}\toprule
-Poz. & $a_i$ & $b_i$ & $c_i$ & Binarni zbir & Korekcija & BCD cifra & $c_{i+1}$\\\midrule
-0 & 6 & 2 & 0 & 01000 & 0000 & 1000 & 0\\
-\redlinija
-1 & 2 & 9 & 0 & 01011 & 0110 & 0001 & 1\\
-\redlinija
-2 & 0 & 1 & 1 & 00010 & 0000 & 0010 & 0\\
-\redlinija
-3 & 1 & 0 & 0 & 00001 & 0000 & 0001 & 0\\
-\bottomrule\end{tabular}\end{adjustbox}
-\end{center}
-\begin{equation}
+\end{minipage}\end{center}
+
+\begin{center}\begin{minipage}{\linewidth}\centering\captionsetup{hypcap=false}
+\captionof{table}{BCD sabiranje $1026+192$ — pisani postupak.}\label{tab:zbir-3}
+\begingroup\small\setlength{\arraycolsep}{2pt}\renewcommand{\arraystretch}{1.12}
+\begin{adjustbox}{max width=\linewidth}\begin{tabular}{@{}c@{}}\toprule
+$\begin{array}{r*{17}{c}@{}c@{}l}
+\multicolumn{18}{c}{\text{Pisani postupak}} & \rule{8mm}{0pt} & \text{Objašnjenje}\\\midrule
+% BCD korak 0
+ &  & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 1 & 1 & 0 & & i=0:\ \text{prvi sabirak} \\
++ &  & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 0 & 0 & 1 & 0 & & \text{Drugi sabirak} \\
+\cline{14-18}
+ &  &  &  &  &  &  &  &  &  &  &  &  & 0 & 1 & 0 & 0 & 0 & & \text{Nema korekcije; }c_1=0 \\
+\noalign{\vskip 5pt}
+% BCD korak 1
+ &  &  &  &  &  &  &  &  &  & 0 & 0 & 1 & 0 &  &  &  &  & & i=1:\ \text{prvi sabirak} \\
++ &  &  &  &  &  &  &  &  &  & 1 & 0 & 0 & 1 &  &  &  &  & & \text{Drugi sabirak} \\
+\cline{10-18}
+ &  &  &  &  &  &  &  &  & 0 & 1 & 0 & 1 & 1 & 1 & 0 & 0 & 0 & & \text{Binarni zbir; potrebna korekcija} \\
++ &  &  &  &  &  &  &  &  &  & \istaknutbit{0} & \istaknutbit{1} & \istaknutbit{1} & \istaknutbit{0} &  &  &  &  & & \text{Korekcija }0110_2 \\
+\cline{10-18}
+ &  &  &  &  &  &  &  &  & 1 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 0 & & \text{Korigovana cifra; }c_2=1 \\
+\noalign{\vskip 5pt}
+% BCD korak 2
+ &  &  &  &  &  & 0 & 0 & 0 & 0 &  &  &  &  &  &  &  &  & & i=2:\ \text{prvi sabirak} \\
++ &  &  &  &  &  & 0 & 0 & 0 & 1 &  &  &  &  &  &  &  &  & & \text{Drugi sabirak} \\
++ &  &  &  &  &  &  &  &  & \istaknutbit{1} &  &  &  &  &  &  &  &  & & \text{Ulazni prenos }c_2=1 \\
+\cline{6-18}
+ &  &  &  &  & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 0 & & \text{Nema korekcije; }c_3=0 \\
+\noalign{\vskip 5pt}
+% BCD korak 3
+ &  & 0 & 0 & 0 & 1 &  &  &  &  &  &  &  &  &  &  &  &  & & i=3:\ \text{prvi sabirak} \\
++ &  & 0 & 0 & 0 & 0 &  &  &  &  &  &  &  &  &  &  &  &  & & \text{Drugi sabirak} \\
+\cline{2-18}
+ & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 0 & & \text{Nema korekcije; }c_4=0 \\
+\end{array}$\\\bottomrule\end{tabular}
+\end{adjustbox}\endgroup
+\begin{equation}\label{eq:bcd-zbir-3}
 1026+192=1218\quad\longleftrightarrow\quad \mathtt{0001\,0010\,0001\,1000}
 \end{equation}
-\noindent\textbf{$529+432$}\par
-\begin{center}
-\begin{adjustbox}{max width=\linewidth}\begin{tabular}{cccccccc}\toprule
-Poz. & $a_i$ & $b_i$ & $c_i$ & Binarni zbir & Korekcija & BCD cifra & $c_{i+1}$\\\midrule
-0 & 9 & 2 & 0 & 01011 & 0110 & 0001 & 1\\
-\redlinija
-1 & 2 & 3 & 1 & 00110 & 0000 & 0110 & 0\\
-\redlinija
-2 & 5 & 4 & 0 & 01001 & 0000 & 1001 & 0\\
-\bottomrule\end{tabular}\end{adjustbox}
-\end{center}
-\begin{equation}
+\end{minipage}\end{center}
+
+\begin{center}\begin{minipage}{\linewidth}\centering\captionsetup{hypcap=false}
+\captionof{table}{BCD sabiranje $529+432$ — pisani postupak.}\label{tab:zbir-4}
+\begingroup\small\setlength{\arraycolsep}{2pt}\renewcommand{\arraystretch}{1.12}
+\begin{adjustbox}{max width=\linewidth}\begin{tabular}{@{}c@{}}\toprule
+$\begin{array}{r*{13}{c}@{}c@{}l}
+\multicolumn{14}{c}{\text{Pisani postupak}} & \rule{8mm}{0pt} & \text{Objašnjenje}\\\midrule
+% BCD korak 0
+ &  & 0 & 1 & 0 & 1 & 0 & 0 & 1 & 0 & 1 & 0 & 0 & 1 & & i=0:\ \text{prvi sabirak} \\
++ &  & 0 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 0 & & \text{Drugi sabirak} \\
+\cline{10-14}
+ &  &  &  &  &  &  &  &  & 0 & 1 & 0 & 1 & 1 & & \text{Binarni zbir; potrebna korekcija} \\
++ &  &  &  &  &  &  &  &  &  & \istaknutbit{0} & \istaknutbit{1} & \istaknutbit{1} & \istaknutbit{0} & & \text{Korekcija }0110_2 \\
+\cline{10-14}
+ &  &  &  &  &  &  &  &  & 1 & 0 & 0 & 0 & 1 & & \text{Korigovana cifra; }c_1=1 \\
+\noalign{\vskip 5pt}
+% BCD korak 1
+ &  &  &  &  &  & 0 & 0 & 1 & 0 &  &  &  &  & & i=1:\ \text{prvi sabirak} \\
++ &  &  &  &  &  & 0 & 0 & 1 & 1 &  &  &  &  & & \text{Drugi sabirak} \\
++ &  &  &  &  &  &  &  &  & \istaknutbit{1} &  &  &  &  & & \text{Ulazni prenos }c_1=1 \\
+\cline{6-14}
+ &  &  &  &  & 0 & 0 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & & \text{Nema korekcije; }c_2=0 \\
+\noalign{\vskip 5pt}
+% BCD korak 2
+ &  & 0 & 1 & 0 & 1 &  &  &  &  &  &  &  &  & & i=2:\ \text{prvi sabirak} \\
++ &  & 0 & 1 & 0 & 0 &  &  &  &  &  &  &  &  & & \text{Drugi sabirak} \\
+\cline{2-14}
+ & 0 & 1 & 0 & 0 & 1 & 0 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & & \text{Nema korekcije; }c_3=0 \\
+\end{array}$\\\bottomrule\end{tabular}
+\end{adjustbox}\endgroup
+\begin{equation}\label{eq:bcd-zbir-4}
 529+432=961\quad\longleftrightarrow\quad \mathtt{1001\,0110\,0001}
 \end{equation}
+\end{minipage}\end{center}
 
 
 % Izvor DOCX: blok 122
@@ -897,139 +1020,153 @@ Poz. & $a_i$ & $b_i$ & $c_i$ & Binarni zbir & Korekcija & BCD cifra & $c_{i+1}$\
 
 
 % Izvor DOCX: blok 126
+\Needspace{10\baselineskip}
 \subsubsection*{Rešenje:}
 
 
 % Izvor DOCX: blok 127
 \begin{enumerate}[label=\alph*),start=1,leftmargin=*]
-\item Na osnovu definicije Hamingovog rastojanja predstavljene u \ref{sec:1.1.3} važi:
+\item Na osnovu definicije Hamingovog rastojanja predstavljene u odeljku~\ref{sec:1.1.3} važi:
 
 \end{enumerate}
 
 
 % Izvor DOCX: blok 128
-10{0} : 10{1} \ensuremath{\to} H\textsubscript{d} = 1
-
-
+10\istaknutbit{0} : 10\istaknutbit{1} \ensuremath{\to} H\textsubscript{d} = 1
 
 % Izvor DOCX: blok 129
-{1}1{0} : {0}1{1} \ensuremath{\to} H\textsubscript{d} = 2
-
-
+\istaknutbit{1}1\istaknutbit{0} : \istaknutbit{0}1\istaknutbit{1} \ensuremath{\to} H\textsubscript{d} = 2
 
 % Izvor DOCX: blok 130
-{011} : {100} \ensuremath{\to} H\textsubscript{d} = 3
-
-
+\istaknutbit{0}\istaknutbit{1}\istaknutbit{1} : \istaknutbit{1}\istaknutbit{0}\istaknutbit{0} \ensuremath{\to} H\textsubscript{d} = 3
 
 % Izvor DOCX: blok 131
 \begin{enumerate}[label=\alph*),start=2,leftmargin=*]
-\item Na osnovu \ref{sec:1.1.3} važi:
+\item Na osnovu odeljka~\ref{sec:1.1.3} važi:
 
 \end{enumerate}
 
-
 % Izvor DOCX: blok 132
-\noindent\textbf{BCD}: $23\leftrightarrow\mathtt{00100011}$.\par
-\begin{center}
-\begin{adjustbox}{max width=\linewidth}\begin{tabular}{cc}\toprule
-Promenjena reč & Decimalna vrednost\\\midrule
-$\mathtt{10100011}$ & Nedozvoljena reč\\
-\redlinija
-$\mathtt{01100011}$ & 63\\
-\redlinija
-$\mathtt{00000011}$ & 03\\
-\redlinija
-$\mathtt{00110011}$ & 33\\
-\redlinija
-$\mathtt{00101011}$ & Nedozvoljena reč\\
-\redlinija
-$\mathtt{00100111}$ & 27\\
-\redlinija
-$\mathtt{00100001}$ & 21\\
-\redlinija
-$\mathtt{00100010}$ & 22\\
-\bottomrule\end{tabular}\end{adjustbox}
-\end{center}
-\noindent\textbf{BCD2421}: $23\leftrightarrow\mathtt{00100011}$.\par
-\begin{center}
-\begin{adjustbox}{max width=\linewidth}\begin{tabular}{cc}\toprule
-Promenjena reč & Decimalna vrednost\\\midrule
-$\mathtt{10100011}$ & Nedozvoljena reč\\
-\redlinija
-$\mathtt{01100011}$ & Nedozvoljena reč\\
-\redlinija
-$\mathtt{00000011}$ & 03\\
-\redlinija
-$\mathtt{00110011}$ & 33\\
-\redlinija
-$\mathtt{00101011}$ & 25\\
-\redlinija
-$\mathtt{00100111}$ & Nedozvoljena reč\\
-\redlinija
-$\mathtt{00100001}$ & 21\\
-\redlinija
-$\mathtt{00100010}$ & 22\\
-\bottomrule\end{tabular}\end{adjustbox}
-\end{center}
-\noindent\textbf{Više 3}: $23\leftrightarrow\mathtt{01010110}$.\par
-\begin{center}
-\begin{adjustbox}{max width=\linewidth}\begin{tabular}{cc}\toprule
-Promenjena reč & Decimalna vrednost\\\midrule
-$\mathtt{11010110}$ & Nedozvoljena reč\\
-\redlinija
-$\mathtt{00010110}$ & Nedozvoljena reč\\
-\redlinija
-$\mathtt{01110110}$ & 43\\
-\redlinija
-$\mathtt{01000110}$ & 13\\
-\redlinija
-$\mathtt{01011110}$ & Nedozvoljena reč\\
-\redlinija
-$\mathtt{01010010}$ & Nedozvoljena reč\\
-\redlinija
-$\mathtt{01010100}$ & 21\\
-\redlinija
-$\mathtt{01010111}$ & 24\\
-\bottomrule\end{tabular}\end{adjustbox}
-\end{center}
-\noindent\textbf{Grej BCD}: $23\leftrightarrow\mathtt{00110010}$.\par
-\begin{center}
-\begin{adjustbox}{max width=\linewidth}\begin{tabular}{cc}\toprule
-Promenjena reč & Decimalna vrednost\\\midrule
-$\mathtt{10110010}$ & Nedozvoljena reč\\
-\redlinija
-$\mathtt{01110010}$ & 53\\
-\redlinija
-$\mathtt{00010010}$ & 13\\
-\redlinija
-$\mathtt{00100010}$ & 33\\
-\redlinija
-$\mathtt{00111010}$ & Nedozvoljena reč\\
-\redlinija
-$\mathtt{00110110}$ & 24\\
-\redlinija
-$\mathtt{00110000}$ & 20\\
-\redlinija
-$\mathtt{00110011}$ & 22\\
-\bottomrule\end{tabular}\end{adjustbox}
-\end{center}
-\noindent\textbf{Grej binarni}: $23\leftrightarrow\mathtt{11100}$.\par
-\begin{center}
-\begin{adjustbox}{max width=\linewidth}\begin{tabular}{cc}\toprule
-Promenjena reč & Decimalna vrednost\\\midrule
-$\mathtt{01100}$ & 8\\
-\redlinija
-$\mathtt{10100}$ & 24\\
-\redlinija
-$\mathtt{11000}$ & 16\\
-\redlinija
-$\mathtt{11110}$ & 20\\
-\redlinija
-$\mathtt{11101}$ & 22\\
-\bottomrule\end{tabular}\end{adjustbox}
-\end{center}
+Za kodove decimalnih cifara koristimo osam bita, a za binarni Grejov kod pet bita. Skup suseda zavisi od te širine; vodeće nule u većoj širini dale bi dodatne susede. Biti su numerisani zdesna nalevo, počev od 0; plavom bojom označen je promenjeni bit. Svaki red prikazuje jednu promenu početne reči, a zatim njeno dekodovanje.\par
 
+\par\noindent\begin{minipage}{\linewidth}
+\textbf{BCD}: $23\leftrightarrow\mathtt{0010\,0011}$.\par
+\begin{center}\centering\captionsetup{hypcap=false}
+\captionof{table}{Jednobitni susedi broja 23 u kodu BCD8421.}\label{tab:susedi-bcd}
+\begin{adjustbox}{max width=\linewidth}\begin{tabular}{ccc}\toprule
+Promenjen bit & Promenjena reč & Dekodovanje\\\midrule
+7 & $\mathtt{\istaknutbit{1}010\,0011}$ & Nedozvoljena reč: $\mathtt{1010}$ nije kod cifre\\
+\redlinija
+6 & $\mathtt{0\istaknutbit{1}10\,0011}$ & $\mathtt{0110}\to6,\;\mathtt{0011}\to3\;\Rightarrow 63$\\
+\redlinija
+5 & $\mathtt{00\istaknutbit{0}0\,0011}$ & $\mathtt{0000}\to0,\;\mathtt{0011}\to3\;\Rightarrow 03$\\
+\redlinija
+4 & $\mathtt{001\istaknutbit{1}\,0011}$ & $\mathtt{0011}\to3,\;\mathtt{0011}\to3\;\Rightarrow 33$\\
+\redlinija
+3 & $\mathtt{0010\,\istaknutbit{1}011}$ & Nedozvoljena reč: $\mathtt{1011}$ nije kod cifre\\
+\redlinija
+2 & $\mathtt{0010\,0\istaknutbit{1}11}$ & $\mathtt{0010}\to2,\;\mathtt{0111}\to7\;\Rightarrow 27$\\
+\redlinija
+1 & $\mathtt{0010\,00\istaknutbit{0}1}$ & $\mathtt{0010}\to2,\;\mathtt{0001}\to1\;\Rightarrow 21$\\
+\redlinija
+0 & $\mathtt{0010\,001\istaknutbit{0}}$ & $\mathtt{0010}\to2,\;\mathtt{0010}\to2\;\Rightarrow 22$\\
+\bottomrule\end{tabular}\end{adjustbox}
+\end{center}
+\end{minipage}\par\medskip
+
+\par\noindent\begin{minipage}{\linewidth}
+\textbf{BCD2421}: $23\leftrightarrow\mathtt{0010\,0011}$.\par
+\begin{center}\centering\captionsetup{hypcap=false}
+\captionof{table}{Jednobitni susedi broja 23 u kodu BCD2421.}\label{tab:susedi-2421}
+\begin{adjustbox}{max width=\linewidth}\begin{tabular}{ccc}\toprule
+Promenjen bit & Promenjena reč & Dekodovanje\\\midrule
+7 & $\mathtt{\istaknutbit{1}010\,0011}$ & Nedozvoljena reč: $\mathtt{1010}$ nije kod cifre\\
+\redlinija
+6 & $\mathtt{0\istaknutbit{1}10\,0011}$ & Nedozvoljena reč: $\mathtt{0110}$ nije kod cifre\\
+\redlinija
+5 & $\mathtt{00\istaknutbit{0}0\,0011}$ & $\mathtt{0000}\to0,\;\mathtt{0011}\to3\;\Rightarrow 03$\\
+\redlinija
+4 & $\mathtt{001\istaknutbit{1}\,0011}$ & $\mathtt{0011}\to3,\;\mathtt{0011}\to3\;\Rightarrow 33$\\
+\redlinija
+3 & $\mathtt{0010\,\istaknutbit{1}011}$ & $\mathtt{0010}\to2,\;\mathtt{1011}\to5\;\Rightarrow 25$\\
+\redlinija
+2 & $\mathtt{0010\,0\istaknutbit{1}11}$ & Nedozvoljena reč: $\mathtt{0111}$ nije kod cifre\\
+\redlinija
+1 & $\mathtt{0010\,00\istaknutbit{0}1}$ & $\mathtt{0010}\to2,\;\mathtt{0001}\to1\;\Rightarrow 21$\\
+\redlinija
+0 & $\mathtt{0010\,001\istaknutbit{0}}$ & $\mathtt{0010}\to2,\;\mathtt{0010}\to2\;\Rightarrow 22$\\
+\bottomrule\end{tabular}\end{adjustbox}
+\end{center}
+\end{minipage}\par\medskip
+
+\par\noindent\begin{minipage}{\linewidth}
+\textbf{Više 3}: $23\leftrightarrow\mathtt{0101\,0110}$.\par
+\begin{center}\centering\captionsetup{hypcap=false}
+\captionof{table}{Jednobitni susedi broja 23 u kodu „više 3“.}\label{tab:susedi-excess}
+\begin{adjustbox}{max width=\linewidth}\begin{tabular}{ccc}\toprule
+Promenjen bit & Promenjena reč & Dekodovanje\\\midrule
+7 & $\mathtt{\istaknutbit{1}101\,0110}$ & Nedozvoljena reč: $\mathtt{1101}$ nije kod cifre\\
+\redlinija
+6 & $\mathtt{0\istaknutbit{0}01\,0110}$ & Nedozvoljena reč: $\mathtt{0001}$ nije kod cifre\\
+\redlinija
+5 & $\mathtt{01\istaknutbit{1}1\,0110}$ & $\mathtt{0111}\to4,\;\mathtt{0110}\to3\;\Rightarrow 43$\\
+\redlinija
+4 & $\mathtt{010\istaknutbit{0}\,0110}$ & $\mathtt{0100}\to1,\;\mathtt{0110}\to3\;\Rightarrow 13$\\
+\redlinija
+3 & $\mathtt{0101\,\istaknutbit{1}110}$ & Nedozvoljena reč: $\mathtt{1110}$ nije kod cifre\\
+\redlinija
+2 & $\mathtt{0101\,0\istaknutbit{0}10}$ & Nedozvoljena reč: $\mathtt{0010}$ nije kod cifre\\
+\redlinija
+1 & $\mathtt{0101\,01\istaknutbit{0}0}$ & $\mathtt{0101}\to2,\;\mathtt{0100}\to1\;\Rightarrow 21$\\
+\redlinija
+0 & $\mathtt{0101\,011\istaknutbit{1}}$ & $\mathtt{0101}\to2,\;\mathtt{0111}\to4\;\Rightarrow 24$\\
+\bottomrule\end{tabular}\end{adjustbox}
+\end{center}
+\end{minipage}\par\medskip
+
+\par\noindent\begin{minipage}{\linewidth}
+\textbf{Grej BCD}: $23\leftrightarrow\mathtt{0011\,0010}$.\par
+\begin{center}\centering\captionsetup{hypcap=false}
+\captionof{table}{Jednobitni susedi broja 23 u decimalnom Grejovom kodu.}\label{tab:susedi-graybcd}
+\begin{adjustbox}{max width=\linewidth}\begin{tabular}{ccc}\toprule
+Promenjen bit & Promenjena reč & Dekodovanje\\\midrule
+7 & $\mathtt{\istaknutbit{1}011\,0010}$ & Nedozvoljena reč: $\mathtt{1011}$ nije kod cifre\\
+\redlinija
+6 & $\mathtt{0\istaknutbit{1}11\,0010}$ & $\mathtt{0111}\to5,\;\mathtt{0010}\to3\;\Rightarrow 53$\\
+\redlinija
+5 & $\mathtt{00\istaknutbit{0}1\,0010}$ & $\mathtt{0001}\to1,\;\mathtt{0010}\to3\;\Rightarrow 13$\\
+\redlinija
+4 & $\mathtt{001\istaknutbit{0}\,0010}$ & $\mathtt{0010}\to3,\;\mathtt{0010}\to3\;\Rightarrow 33$\\
+\redlinija
+3 & $\mathtt{0011\,\istaknutbit{1}010}$ & Nedozvoljena reč: $\mathtt{1010}$ nije kod cifre\\
+\redlinija
+2 & $\mathtt{0011\,0\istaknutbit{1}10}$ & $\mathtt{0011}\to2,\;\mathtt{0110}\to4\;\Rightarrow 24$\\
+\redlinija
+1 & $\mathtt{0011\,00\istaknutbit{0}0}$ & $\mathtt{0011}\to2,\;\mathtt{0000}\to0\;\Rightarrow 20$\\
+\redlinija
+0 & $\mathtt{0011\,001\istaknutbit{1}}$ & $\mathtt{0011}\to2,\;\mathtt{0011}\to2\;\Rightarrow 22$\\
+\bottomrule\end{tabular}\end{adjustbox}
+\end{center}
+\end{minipage}\par\medskip
+
+\par\noindent\begin{minipage}{\linewidth}
+\textbf{Grej binarni}: $23_{10}=10111_2\to\mathtt{11100}_{\mathrm{G}}$.\par
+\begin{center}\centering\captionsetup{hypcap=false}
+\captionof{table}{Jednobitni susedi broja 23 u petobitnom binarnom Grejovom kodu.}\label{tab:susedi-gray}
+\begin{adjustbox}{max width=\linewidth}\begin{tabular}{ccc}\toprule
+Promenjen bit & Promenjena reč & Dekodovanje\\\midrule
+4 & $\mathtt{\istaknutbit{0}1100}_{\mathrm{G}}$ & $\to01000_2=8_{10}$\\
+\redlinija
+3 & $\mathtt{1\istaknutbit{0}100}_{\mathrm{G}}$ & $\to11000_2=24_{10}$\\
+\redlinija
+2 & $\mathtt{11\istaknutbit{0}00}_{\mathrm{G}}$ & $\to10000_2=16_{10}$\\
+\redlinija
+1 & $\mathtt{111\istaknutbit{1}0}_{\mathrm{G}}$ & $\to10100_2=20_{10}$\\
+\redlinija
+0 & $\mathtt{1110\istaknutbit{1}}_{\mathrm{G}}$ & $\to10110_2=22_{10}$\\
+\bottomrule\end{tabular}\end{adjustbox}
+\end{center}
+\end{minipage}\par\medskip
 
 % Izvor DOCX: blok 133
 \FloatBarrier
@@ -1062,7 +1199,7 @@ b) Za $d_{\min}=5$ važe sledeće mogućnosti:
 \begin{itemize}[leftmargin=*]
 \item Samo detekcija: garantovano se otkrivaju sve greške sa jednom, dve, tri ili četiri promenjena bita.
 \item Samo korekcija: garantovano se koriguju do dve greške.
-\item Istovremeno: mogu se korigovati do jedne i detektovati do tri greške, ili korigovati do dve i detektovati do dve ($n_c=n_d=2$), bez garancije detekcije dodatnih trobitnih grešaka u drugom režimu.
+\item Istovremeno: može se korigovati jedna i detektovati do tri greške, ili korigovati do dve i detektovati do dve ($n_c=n_d=2$), bez garancije detekcije dodatnih trobitnih grešaka u drugom režimu.
 \end{itemize}
 
 % Izvor DOCX: blok 140
@@ -1089,7 +1226,7 @@ b) Za $d_{\min}=5$ važe sledeće mogućnosti:
 \begin{enumerate}[label=\alph*),start=2,leftmargin=*]
 \item Koliko iznosi minimalno rastojanje između dve kodne reči date u kodu sa parnom parnošću?
 
-\item Da li kod sa parnom parnosti ima mogućnost detekcije greške? Da li kod sa neparnom parnosti ima mogućnost detekcije greške?
+\item Da li kod sa parnom parnošću ima mogućnost detekcije greške? Da li kod sa neparnom parnošću ima mogućnost detekcije greške?
 
 \end{enumerate}
 
@@ -1100,13 +1237,15 @@ b) Za $d_{\min}=5$ važe sledeće mogućnosti:
 
 % Izvor DOCX: blok 146
 \begin{enumerate}[label=\alph*),start=1,leftmargin=*]
-\item Na osnovu opisa koda sa parnom i neparnom parnošću predstavljenog u \ref{sec:1.1.3}, dobijamo:
+\item Na osnovu opisa koda sa parnom i neparnom parnošću predstavljenog u odeljku~\ref{sec:1.1.3}, dobijamo:
 
 \end{enumerate}
 
 
 % Izvor DOCX: blok 147
-\begin{center}\begin{adjustbox}{max width=\linewidth}
+\begin{center}\begin{minipage}{\linewidth}\centering\captionsetup{hypcap=false}
+\captionof{table}{Kodovanje zadatih poruka bitom parnosti.}\label{tab:parnost-zadatak}
+\begin{adjustbox}{max width=\linewidth}
 \begin{tabular}{ccc}\toprule
 Vrednost & Kod sa parnom parnošću & Kod sa neparnom parnošću \\
 \midrule
@@ -1117,7 +1256,7 @@ Vrednost & Kod sa parnom parnošću & Kod sa neparnom parnošću \\
 1101011 & 11010111 & 11010110 \\
 \redlinija
 110100101 & 1101001011 & 1101001010 \\
-\bottomrule\end{tabular}\end{adjustbox}\end{center}
+\bottomrule\end{tabular}\end{adjustbox}\end{minipage}\end{center}
 
 
 % Izvor DOCX: blok 148
@@ -1170,7 +1309,7 @@ Pozicije 5 i 7 pripadaju i grupi $c_1$ i grupi $c_4$. Pozicija 7 pripada i grupi
 
 % Izvor DOCX: blok 158
 \begin{enumerate}[label=\alph*),start=2,leftmargin=*]
-\item Da bi se zaštitila ova ista sekvenca kodom sa H\textsubscript{d} = 4, potrebno je dodati kontrolni bit, a to je najjednostavnije učiniti ako se doda bit parnosti za celu sekvencu. U tom slučaju ispravna sekvenca izgleda
+\item Da bi se zaštitila ova ista sekvenca kodom sa $d_{\min}=4$, potrebno je dodati kontrolni bit, a to je najjednostavnije učiniti ako se doda bit parnosti za celu sekvencu. U tom slučaju ispravna sekvenca izgleda
 
 \end{enumerate}
 

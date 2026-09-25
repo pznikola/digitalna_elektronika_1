@@ -1,0 +1,57 @@
+[
+  {
+    "line": 85,
+    "before": "Preseci van dijagonale određuju par stabilnih nivoa",
+    "after": "Za prikazanu karakteristiku preseci van dijagonale određuju par stabilnih nivoa"
+  },
+  {
+    "line": 85,
+    "before": "Oblasti između krive i njenog odraza usmeravaju iteraciju ka stabilnim nivoima, što predstavlja regeneraciju.",
+    "after": "Oblasti između krive i njenog odraza usmeravaju iteraciju ka stabilnim nivoima, što predstavlja regeneraciju. Sam presek ne dokazuje stabilnost: za gladak dvociklus lokalni uslov je $|f\\prime(V_L)f\\prime(V_H)|<1$, dok je za fiksnu tačku uslov $|f\\prime(V_S)|<1$. Kada je odgovarajući modul veći od 1, tačka je nestabilna; granični slučaj jednakosti zahteva dodatnu analizu."
+  },
+  {
+    "line": 105,
+    "before": "Šum amplitude $V_N$ deluje na ulazu samo jednog invertora.",
+    "after": "Posmatramo statički poremećaj amplitude $V_N\\ge0$ na ulazu samo jednog invertora; prethodni deo lanca već je dostigao stabilne nivoe. Ne razmatramo trajanje impulsa šuma niti vremenski odziv."
+  },
+  {
+    "line": 123,
+    "before": "Kada šum postoji na svakoj međuvezi, prihvatljivi ulazi moraju ostati u oblastima malog pojačanja. Lokalni uslov slabljenja perturbacije je",
+    "after": "Za garantovano prenošenje logičke informacije pri šumu na svakoj međuvezi biramo ulazne intervale koji se preslikavaju u odgovarajuće izlazne intervale i obezbeđuju rezervu za šum. Lokalni uslov slabljenja male perturbacije u jednom stepenu je"
+  },
+  {
+    "line": 128,
+    "before": "Za glatku karakteristiku granice $V_{IL},V_{IH}$ određene su nagibom $-1$.",
+    "after": "Za uobičajenu glatku invertorsku karakteristiku sa dve krajnje oblasti malog pojačanja, konvencionalne granice $V_{IL},V_{IH}$ određuju se nagibom $-1$."
+  },
+  {
+    "line": 128,
+    "before": "Uslovi očuvanja dozvoljenih intervala su",
+    "after": "Za takve izabrane granice dovoljni uslovi očuvanja dozvoljenih intervala su"
+  },
+  {
+    "line": 149,
+    "before": "SSNM je koristan za razumevanje regeneracije i projektovanje samog kola; garantovane margine pri poremećajima na svim međuspojevima koriste se pri povezivanju kola.",
+    "after": "SSNM opisuje regeneraciju nakon jednog lokalnog statičkog poremećaja; garantovane margine dozvoljenih intervala koriste se pri povezivanju kola. U svim formulama pretpostavlja se da ulazi ostaju u domenu zadate karakteristike; ponašanje izvan opsega napajanja ovde nije zadato."
+  },
+  {
+    "line": 213,
+    "before": "Prvo kolo privlači tačke sredini, a drugo zadržava svaku ulaznu vrednost.",
+    "after": "Prvo kolo privlači unutrašnje tačke sredini; izuzeci su tačne vrednosti $0$ i $5\\,\\mathrm V$, koje ostaju na nestabilnim krajnjim fiksnim tačkama. Drugo kolo zadržava svaku ulaznu vrednost."
+  },
+  {
+    "line": 228,
+    "before": "Prvo kolo ima karakteristiku $f_3$,",
+    "after": "Margine određujemo za lanac čiji je jedan stepen cela novodobijena kaskada. Izvori šuma su na međuspojevima takvih stepena; unutrašnja veza invertora i bafera smatra se idealnom. Šum i na toj unutrašnjoj vezi zahteva zaseban model dva poremećena kola.\n\nPrvo kolo ima karakteristiku $f_3$,"
+  },
+  {
+    "line": 236,
+    "before": "\\begin{center}\\begin{tabular}{cccc}\\toprule",
+    "after": "\\begin{center}\\begin{minipage}{\\linewidth}\\centering\\captionsetup{hypcap=false}\\captionof{table}{Prelomne tačke kompozicije invertora i bafera.}\\label{tab:prelomi}\\begin{tabular}{cccc}\\toprule"
+  },
+  {
+    "line": 250,
+    "before": "\\bottomrule\\end{tabular}\\end{center}",
+    "after": "\\bottomrule\\end{tabular}\\end{minipage}\\end{center}"
+  }
+]

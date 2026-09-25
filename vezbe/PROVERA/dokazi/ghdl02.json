@@ -1,0 +1,93 @@
+[
+  {
+    "part": "1/a",
+    "entity": "zadatak",
+    "mode": "inertial/default",
+    "assertions": 64,
+    "result": "pass"
+  },
+  {
+    "part": "1/b",
+    "entity": "zadatak",
+    "mode": "inertial/default",
+    "assertions": 16,
+    "result": "pass"
+  },
+  {
+    "part": "2/a",
+    "entity": "zadatak",
+    "mode": "inertial/default",
+    "assertions": 48,
+    "result": "pass"
+  },
+  {
+    "part": "2/a",
+    "entity": "zadatak",
+    "mode": "transport",
+    "assertions": 48,
+    "result": "pass"
+  },
+  {
+    "part": "2/b",
+    "entity": "zadatak",
+    "mode": "inertial/default",
+    "assertions": 48,
+    "result": "pass"
+  },
+  {
+    "part": "2/b",
+    "entity": "zadatak",
+    "mode": "transport",
+    "assertions": 48,
+    "result": "pass"
+  },
+  {
+    "part": "2/d",
+    "entity": "zadatak",
+    "mode": "inertial/default",
+    "assertions": 48,
+    "result": "pass"
+  },
+  {
+    "part": "2/d",
+    "entity": "zadatak",
+    "mode": "transport",
+    "assertions": 48,
+    "result": "pass"
+  },
+  {
+    "part": "3/a",
+    "entity": "zadatak",
+    "mode": "inertial/default",
+    "assertions": 9,
+    "result": "pass"
+  },
+  {
+    "part": "3/b",
+    "entity": "zadatak",
+    "mode": "inertial/default",
+    "assertions": 17,
+    "result": "pass"
+  },
+  {
+    "part": "3/c",
+    "entity": "zadatak",
+    "mode": "inertial/default",
+    "assertions": 8,
+    "result": "pass"
+  },
+  {
+    "part": "3/b",
+    "entity": "decoder",
+    "mode": "inertial/default",
+    "assertions": 68,
+    "result": "pass"
+  },
+  {
+    "part": "3/c",
+    "entity": "decoder",
+    "mode": "inertial/default",
+    "assertions": 68,
+    "result": "pass"
+  }
+]

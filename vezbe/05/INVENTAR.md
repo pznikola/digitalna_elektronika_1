@@ -49,3 +49,13 @@ Svih šest zadataka 2.1–2.6 preneto je redom (`sec:2.1`–`sec:2.6`), sa posto
 Duplirana izvorna oznaka 1.1.3.1 više ne dovodi do dvosmislenih referenci. Računske tabele zadataka, raspored informacionih i kontrolnih bita, sindromi, susedi broja 23 i postojeći primer proširenog Hamingovog koda ostaju uz svoje izvorne blokove. Tabele koje su služile samo kao raspored jednačina zamenjene su matematičkim okruženjima.
 
 Izvorni blokovi tabela (uključujući Word raspored formula): 30, 35, 42, 50, 54, 57, 61, 68, 73, 76, 81, 86, 88, 90, 93, 95, 97, 99, 112, 114, 121, 132, 147, 161. Svaki ima komentar porekla u glavnom LaTeX fajlu.
+
+## Ponovni pregled 25. 9. 2026.
+
+Preneto i pregledano svih šest zadataka sa svim pottačkama/rešenjima, 12 numerisanih jednačina i svi nenumerisani izrazi, 24 sadržinske tabele (27 tabularnih delova jer Grejova konstrukcija sadrži četiri) i četiri slike. Sedamnaest ranije neimenovanih tabela sada ima naslove i `tab:*` oznake. Naslovna tabela kontakata je element izgleda, nije kodna tabela. Svih 17 konačnih stranica pregledano pojedinačno, kocke i Venove grupe dodatno proverene po geometriji. Dokazi i tačan obuhvat su u `code/PREGLED_DOKAZA.md`; istorija iznad ostaje veza sa izvornim DOCX blokovima.
+
+## Dopuna pisanih postupaka 05-A15/A16
+
+Izvorni blok 121 (strane 13–14 DOCX-a) sada ima četiri pisana BCD postupka sa 44 računska reda kroz 11 decimalnih pozicija; ranije sažete tabele po ciframa nisu bile potpuni prenos prikaza izvornika. Oznake `tab:zbir-1`–`tab:zbir-4` i završne jednačine sačuvane su. Svaka od četiri korekcije i sva tri nenulta ulazna prenosa posebno su prikazani.
+
+Izvorni blokovi 128–132 (strana 14) ponovo pokazuju različite bitove i binarne međukorake Grejovih suseda. Svih 37 ispravnih suseda ostaje u pet tabela, sa numeracijom promenjenog bita, dekodovanjem cifara ili konkretnim razlogom nedozvoljenosti. Pet Grejovih suseda ima ceo prelaz do običnog binarnog i decimalnog zapisa. Nisu izostavljeni ranije dodati nedostajući susedi niti vraćene greške originala. Broj numerisanih tabela i stranica ostaje 24 i 17; broj sintaktičkih matematičkih redova povećan je zbog vraćenih postupaka.

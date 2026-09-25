@@ -4,9 +4,9 @@ from fractions import Fraction as Q
 from pathlib import Path
 import re
 count=0
-def check(ok):
+def check(ok,msg=""):
  global count
- assert ok
+ assert ok,msg
  count+=1
 F=[[(Q(0),Q(1),Q(-2),Q(5)),(Q(1),Q(4),Q(-1,3),Q(10,3)),(Q(4),Q(5),Q(-2),Q(10))],[(Q(0),Q(5),Q(-1),Q(5))],[(Q(0),Q(2),Q(-1,2),Q(5)),(Q(2),Q(3),Q(-3),Q(10)),(Q(3),Q(5),Q(-1,2),Q(5,2))]]
 B=[[(a,b,-k,5-c) for a,b,k,c in segments] for segments in F]
@@ -43,4 +43,6 @@ for k,c,x0 in [(Q(-1,3),Q(10,3),Q(27,10)),(Q(1,3),Q(5,3),Q(27,10)),(Q(2),Q(-5),Q
 root=Path(__file__).resolve().parents[1];tex=(root/'07_staticke_karakteristike.tex').read_text()
 labels=re.findall(r'\\label\{([^}]+)\}',tex);refs=re.findall(r'\\(?:eqref|ref)\{([^}]+)\}',tex)
 check(len(labels)==len(set(labels)));check(set(refs)<=set(labels));check(len(re.findall(r'\\section\{Zadatak',tex))==5)
+from audit_math import run
+run(root,check,F,B,H,val)
 print(f'07: {count} provera prošlo (racionalni segmenti, kompozicija, iteracije, margine).')

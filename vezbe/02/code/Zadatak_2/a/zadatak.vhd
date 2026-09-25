@@ -25,7 +25,7 @@ begin
     -- Instanciranje multipleksera
     UMUX : entity work.mux4
         generic map (
-            T => 20 ns -- Staviti zeljeno kasnjenje
+            T => T -- Prosledi parametar spoljasnjeg kola
         )
         port map (
             S => S,

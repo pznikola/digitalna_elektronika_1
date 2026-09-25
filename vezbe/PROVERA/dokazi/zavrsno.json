@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-25",
+  "command": "make -C vezbe audit",
+  "exit_code": 0,
+  "log": "PROVERA/dokazi/final-audit.log",
+  "log_sha256": "82241b36e9269e37ab400aea515eaa02074cc06e4f705019ae94ea87512c00e5",
+  "clean_build": "PROVERA/dokazi/clean_build.json",
+  "negative_faults_detected": 16,
+  "registry_mechanism_cases_passed": 7,
+  "inventory_items": 4551,
+  "status_counts": {
+    "potvrđeno": 3705,
+    "ispravljeno i ponovo provereno": 235,
+    "ograničeno nedostajućim podacima": 611
+  },
+  "documents": {
+    "01": {
+      "pages": 25,
+      "reviewed_pdf_sha256": "6e9d69e806147f512e97be09578f8b42e5cb9665a244f23dc11bdc3e9f4d5b1d",
+      "content_review_current": true,
+      "visual_review_current": true
+    },
+    "02": {
+      "pages": 29,
+      "reviewed_pdf_sha256": "89a3ee99608872acd4ae8b368004c22367a1f9949e83e4d2abdf0ff46251cee3",
+      "content_review_current": true,
+      "visual_review_current": true
+    },
+    "03": {
+      "pages": 17,
+      "reviewed_pdf_sha256": "be9c6a86e7aca27d782490c62fe6d609fed8a14e33e3056eb395e55c9800f644",
+      "content_review_current": true,
+      "visual_review_current": true
+    },
+    "04": {
+      "pages": 27,
+      "reviewed_pdf_sha256": "bfb950ced1baf210ca575a601effb8aa68f046deb206674ab02b50a8cf35ce46",
+      "content_review_current": true,
+      "visual_review_current": true
+    },
+    "05": {
+      "pages": 17,
+      "reviewed_pdf_sha256": "676f337a9d8bf195ae1ff5997532bf0ec2582ee30316d2bada24797b7af19907",
+      "content_review_current": true,
+      "visual_review_current": true
+    },
+    "07": {
+      "pages": 14,
+      "reviewed_pdf_sha256": "866787b97e27f06a12fa5f3dc426e288cf5f3e625990f165f96d40431cc7eb5e",
+      "content_review_current": true,
+      "visual_review_current": true
+    },
+    "08": {
+      "pages": 25,
+      "reviewed_pdf_sha256": "4067b1436c7d029971cbdbb769029c4d0f4492789dca47c779f232c289befa04",
+      "content_review_current": true,
+      "visual_review_current": true
+    }
+  },
+  "check_counts": {
+    "01": 2863,
+    "02": 76685,
+    "03": 18894,
+    "04": 13174,
+    "05": 256409,
+    "07": 2230,
+    "08": 1395
+  },
+  "scope_note": "Test counts do not substitute for manual content and page review; limited items retain their explicit assumptions."
+}

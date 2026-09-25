@@ -29,6 +29,7 @@
 \usepackage{minted}
 
 %---- Flush floats
+\usepackage{needspace}
 \usepackage{placeins} % preamble
 
 %---- Karnaugh map
@@ -149,7 +150,7 @@
 \section{Uvod}
 U okviru prvog dela ovih računskih vežbi obrađivaćemo praktične primere vezane za
 sintezu kombinacionih mreža korišćenjem kola niskog stepena integracije. Pod kolima niskog
-stepena integracija, za potrebe ovog kursa, podrazumevaćemo grupu osnovnih logičkih kola
+stepena integracije, za potrebe ovog kursa, podrazumevaćemo grupu osnovnih logičkih kola
 predstavljenih u tabeli~\ref{tab:osnovna-kola}.
 
 
@@ -373,7 +374,7 @@ dobro poznavanje ove oblasti koja je odrađena na časovima predavanja.
 
 Pored poznavanja funkcionalnosti osnovnih logičkih kola, kao i poznavanja metoda za
 minimizaciju logičkih funkcija, u toku izrade zadataka potrebno je poznavanje određenih
-algebarskih pravila koji važe u slučaju Bulove algebre. U tabeli~\ref{tab:pravila-logike} predstavljan su neka od
+algebarskih pravila koja važe u slučaju Bulove algebre. U tabeli~\ref{tab:pravila-logike} predstavljena su neka od
 osnovnih pravila Bulove algebre koja će biti korišćena kroz izradu zadataka.
 
 
@@ -399,11 +400,15 @@ osnovnih pravila Bulove algebre koja će biti korišćena kroz izradu zadataka.
   \end{tabularx}
 \end{table}
 
-U drugom delu računskih vežbi obrađivaćemo jednu vrstu hazarda karakterističnih za
-sekvencijalne mreže. Ta vrsta hazarda naziva statički hazardi i manifestuje se pojavom lažnih
-nula i jedinica na izlazu logičkog kola. U okiru praktičnih primera predstavićemo pristup koji
-se može iskoristiti za uklanjanje statičkih hazarda. Međutim, treba imati u vidu da se u većini
-praktičnih situacija statički hazardi rešavaju korišćenjem metoda simulacije digitalnih kola.
+U drugom delu vežbi proučavamo statičke hazarde u kombinacionim mrežama:
+kratkotrajnu lažnu nulu kada izlaz treba da ostane na jedinici (statički hazard 1),
+odnosno lažnu jedinicu kada treba da ostane na nuli (statički hazard 0).
+Uzrok su različita kašnjenja rekonvergentnih putanja. Simulacija može da otkrije
+impuls za ispitane prelaze i kašnjenja; sama simulacija ne uklanja hazard niti
+odsustvo impulsa u jednom modelu dokazuje odsustvo hazarda.
+U dvonivojskoj realizaciji ZP/PZ, uz promenu samo jednog ulaza, statički hazard
+sprečavamo zajedničkim pokrivanjem svakog para susednih jedinica/nula odgovarajućim
+implikantom/implikatom. Ova garancija ne obuhvata proizvoljne istovremene promene više ulaza.
 
 \pagebreak
 
@@ -417,7 +422,7 @@ Funkciju
 Y = (A + C + D)\cdot(\bar{A} + C + \bar{D}) \cdot (B + \bar{C})
 \label{eq:zad21}
 \end{equation}
-realizovati u što minimalnijoj formi:
+realizovati u minimalnoj formi:
 
 \begin{enumerate}[label=\alph*) , leftmargin=*, itemsep=2pt]
   \item Korišćenjem osnovnih logičkih kola sa proizvoljnim brojem ulaza
@@ -428,11 +433,12 @@ realizovati u što minimalnijoj formi:
 
 \subsubsection*{Rešenje:} 
 
-a) Pošto se u okviru postavke zadatka traži realizacija u što minimalnijoj formi neophodno
+a) Pošto se u okviru postavke zadatka traži realizacija u minimalnoj formi neophodno
 je izvršiti minimizaciju logičke funkcije korišćenjem nekih od dostupnih metoda za
-minimizaciju. U okviru ovog kursa, koristićemo metodu Karnoovih karti. Rezultat dobijen
-primenom ove metode garantuje minimalnost po pitanju broja logičkih kola ali i po pitanju
-broja ulaza.
+minimizaciju. U okviru ovog kursa, koristićemo metodu Karnoovih karti. Karnoova karta omogućava nalaženje minimalnog dvonivojskog pokrivanja u formi
+ZP ili PZ (najpre broj članova, zatim broj literala). To nije dokaz globalno
+najmanjeg broja kola u proizvoljnoj višenivojskoj realizaciji ili biblioteci koja
+sadrži i XOR kola. Pri poređenju realizacija posebno računamo invertore i broj ulaza kola.
 
 
 \begin{figure}[!ht]
@@ -489,15 +495,22 @@ broja ulaza.
   \end{subfigure}
 
   \caption{Sadržaj Karnoove karte za funkciju~\eqref{eq:zad21}, gde je a) označena oblast za minimizaciju u formi proizvoda zbirova b)
-označena oblast za minimizaiciju u formi zbira proizvoda}
+označena oblast za minimizaciju u formi zbira proizvoda}
   \label{fig:kmap-both}
 \end{figure}
 
 
 Nakon minimizacije dobijaju se minimalne funkcije u formi zbira proizvoda~\eqref{eq:zad21_min_zp} i u
-formi proizvoda zbirova~\eqref{eq:zad21_min_pz}. Za realizaciju funkcije~\eqref{eq:zad21_min_zp} potrebna su 3 I i 2 ILI logička
-kola. Isti broj kola potreban je i za realizaciju funcije~\eqref{eq:zad21_min_pz}. Dakle, obe minimalne forme daju
-isti broj logičkih kola.
+formi proizvoda zbirova~\eqref{eq:zad21_min_pz}. Za realizaciju funkcije~\eqref{eq:zad21_min_zp} potrebna su tri I kola i jedno
+troulazno ILI kolo; za~\eqref{eq:zad21_min_pz} tri ILI kola i jedno troulazno I kolo.
+Obe realizacije dodatno zahtevaju tri invertora za $A$, $C$ i $D$, ako negacije
+nisu dostupne: ukupno sedam kola. Na šemama je radi prikaza zajedničkog ulaznog razvoda zadržano po dva
+invertujuća kola za svaki ulaz: prvo daje komplement, a drugo direktni signal.
+Taj razvod nije minimalan i ne pripada navedenom broju od sedam kola;
+prikazana šema ZP sa celim razvodom ima dvanaest kola. Pri minimizaciji
+hardvera direktni signali se uzimaju sa ulaza, a generišu se samo potrebne negacije.
+Horizontalni vodovi nose označene signale, a tačke označavaju njihove spojeve
+sa vertikalnim vodovima; ukrštanje bez tačke nije spoj.
 
 \begin{equation}
 Y_{MIN\_ZP} = \bar{A} \bar{C} D + A \bar{C} \bar{D} + BC
@@ -535,10 +548,10 @@ dobijenog u koraku 1
 \vspace{1em}
 Korak (1) obuhvata niz transformacija koje za cilj imaju dobijanje algebarskog zapisa u kome
 isključivo figurišu komplementirani proizvodi. U slučaju da se zahteva realizacija isključivo
-korišćenjem NI kola sa n ulaza, proizvodi moraju sadržati tačno n činioca. U okviru ove tačke
+korišćenjem NI kola sa n ulaza, proizvodi moraju sadržati tačno n činilaca. U okviru ove tačke
 broj ulaza nije definisan tako da ne postoji ograničenje po pitanju broja dostupnih ulaza u NI
-logičko kolo. Kao polazni izraz, nad kojim će se vršiti dalje transformacije, koristi se formazbira proizvoda funkcije dobijene primenom Karnoove karte. Za slučaj funkcije~\eqref{eq:zad21} polazni
-izraz predstavlja~\eqref{eq:zad21_min_zp} odnosno zbir proizvoda. Na osnovu pravila Bulove algebre, koji kaže da se vrednost funkcije
+logičko kolo. Kao polazni izraz, nad kojim će se vršiti dalje transformacije, koristi se forma zbira proizvoda funkcije dobijene primenom Karnoove karte. Za slučaj funkcije~\eqref{eq:zad21} polazni
+izraz predstavlja~\eqref{eq:zad21_min_zp} odnosno zbir proizvoda. Na osnovu pravila Bulove algebre po kome se vrednost funkcije
 ne menja dvostrukim komplementiranjem iste, dobijamo:
 
 
@@ -546,7 +559,7 @@ ne menja dvostrukim komplementiranjem iste, dobijamo:
 Y = \overline{\overline{Y}} = \overline{\overline{\bar{A} \bar{C} D + A \bar{C} \bar{D} + BC}}
 \label{eq:zad21_min_zp_1}
 \end{equation}
-Daljim transformacija kao krajnji rezultat dobijamo:
+Daljim transformacijama kao krajnji rezultat dobijamo:
 \begin{equation}
 Y = \overline{\overline{Y}} = \overline{\color{red}{\overline{\bar{A} \bar{C} D}} \cdot \color{blue}{\overline{A \bar{C} \bar{D}}} \cdot \color{ForestGreen}{\overline{BC}}}
 \label{eq:zad21_min_zp_2}
@@ -652,7 +665,7 @@ Y = (A + C + D)(\bar{A} + C + \bar{D})( B + \bar{C})
 \label{eq:zad21_min_pz_again}
 \end{equation}
 
-Na osnovu primena pravila 7 Bulove algebre definisanog u Tabeli~\ref{tab:pravila-logike} moguće je
+Na osnovu primene pravila 7 Bulove algebre definisanog u Tabeli~\ref{tab:pravila-logike} moguće je
 transformisati~\eqref{eq:zad21_min_pz_again} u:
 
 \begin{equation}
@@ -660,7 +673,7 @@ Y = (C + (A + D)(\bar{A} + \bar{D}))( B + \bar{C})
 \label{eq:zad21_pz_tran_1}
 \end{equation}
 
-Duplim komplementiranje izraza~\eqref{eq:zad21_pz_tran_1} dobija se
+Dvostrukim komplementiranjem izraza~\eqref{eq:zad21_pz_tran_1} dobija se
 
 \begin{equation}
 Y = \overline{\overline{Y}} = \overline{\overline{ (C + (A + D)(\bar{A} + \bar{D}))( B + \bar{C}) }}
@@ -678,34 +691,15 @@ Y =
 \end{equation}
 
 \begin{equation}
-Y = 
-\overline{
-\overline{ (C + 
-\overline{ \overline{ (A + D)(\bar{A} + \bar{D})) }}
-} 
-+ 
-\overline{ ( B + \bar{C}) }
-}
+Y = \overline{\overline{C + \overline{\overline{(A+D)(\bar A+\bar D)}}} + \overline{B+\bar C}}
 \label{eq:zad21_pz_tran_4}
 \end{equation}
 
 \begin{equation}
-Y = 
-\overline{
-\color{Bittersweet}{ \overline{ (C + 
-\color{ForestGreen}{ \overline{ 
-\color{red}{ \overline{ (A + D) } }
-\color{ForestGreen}{ + }
-\color{blue}{ \overline{ (\bar{A} + \bar{D})) } }
-}}
-} }
-\color{black}{ + }
-\color{Plum}{ \overline{ ( B + \bar{C}) } }
-}
+Y = \overline{\overline{C + \overline{\overline{A+D}+\overline{\bar A+\bar D}}} + \overline{B+\bar C}}
 \label{eq:zad21_pz_tran_5}
 \end{equation}
 
-\newpage
 \noindent
 Na slici~\ref{fig:zadatak1-2-nili} je predstavljena implementacija funkcije~\eqref{eq:zad21_pz_tran_5}.
 
@@ -717,13 +711,15 @@ Na slici~\ref{fig:zadatak1-2-nili} je predstavljena implementacija funkcije~\eqr
 \end{figure}
 
 %\FloatBarrier   % place all pending floats before carrying on
-\noindent
+\FloatBarrier
+\noindent\begin{minipage}{\linewidth}
 VHDL kod koji implementira funkcije~\eqref{eq:zad21_min_zp} i~\eqref{eq:zad21_min_pz}.
 \inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_1/zadatak.vhd}
 
 %\newpage
 \noindent
 Testbench koji simulira date funkcije je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_1/tb_zadatak.vhd}{OVDE}.
+\end{minipage}
 
 \clearpage
 
@@ -777,7 +773,7 @@ A & B & C & D & Z \\ \hline
 
 \noindent
 b) Pošto se postavkom zadatka zahteva da broj upotrebljenih kola bude minimalan,
-realizaciju ove logičke funkcije potrebno je započeti korišćenjem metode minimizacije bazirane na upotrebi Karnoovih karti. Sadržaj Karnove karte za funkcionalnu tabelu~\ref{tab:zad22} iz
+realizaciju ove logičke funkcije potrebno je započeti korišćenjem metode minimizacije bazirane na upotrebi Karnoovih karti. Sadržaj Karnoove karte za funkcionalnu tabelu~\ref{tab:zad22} iz
 prethodne tačke je prikazan na slici \ref{fig:kmap-adjacent-zeros}.
 
 \begin{figure}[!ht]
@@ -835,26 +831,27 @@ Funkciju $Z$ ćemo najpre izraziti u obe forme (zbir proizvoda i proizvod zbirov
     \label{fig:kmap-adjones}
   \end{subfigure}
 
-  \caption{Karnoova mape za funkciju $Z$ gde je a) označena oblast za minimizaciju u formi proizvoda zbirova b)
-označena oblast za minimizaiciju u formi zbira proizvoda.}
+  \caption{Karnoova karta za funkciju $Z$ gde je a) označena oblast za minimizaciju u formi proizvoda zbirova b)
+označena oblast za minimizaciju u formi zbira proizvoda.}
   \label{fig:kmap-adj-both}
 \end{figure}
 
 \noindent
-Na osnovu slike slike~\ref{fig:kmap-adj-both} dobijamo sledeće funkcije:
+Na osnovu slike~\ref{fig:kmap-adj-both} dobijamo sledeće funkcije:
 
 \begin{equation}
-Y_{MIN\_ZP} = \bar{C}\bar{D} + \bar{A}\bar{B} + \bar{B}\bar{C}
+Z_{MIN\_ZP} = \bar{C}\bar{D} + \bar{A}\bar{B} + \bar{B}\bar{C}
 \label{eq:zad22_min_zp}
 \end{equation}
 
 \begin{equation}
-Y_{MIN\_PZ} = (\bar{B} + \bar{C})(\bar{B} + \bar{D})(\bar{A} + \bar{C})
+Z_{MIN\_PZ} = (\bar{B} + \bar{C})(\bar{B} + \bar{D})(\bar{A} + \bar{C})
 \label{eq:zad22_min_pz}
 \end{equation}
 
-Na osnovu dobijenih logičkih funkcija možemo zaključiti da je isti broj logičkih kola
-potreban za realizaciju obe forme logičke funkcije $Z$. 
+Obe prikazane dvonivojske forme zahtevaju po četiri glavna kola i četiri invertora. To poređenje ne dokazuje minimalnost među svim višenivojskim realizacijama. Na slici je, kao u zadatku 1, zadržan potpun ulazni razvod sa osam invertora,
+pa prikazana šema sa razvodom ima dvanaest kola. Za realizaciju sa osam kola
+dovoljno je po jedno invertovanje svakog ulaza.
 
 \FloatBarrier   % place all pending floats before carrying on
 
@@ -869,13 +866,16 @@ funkcije~\eqref{eq:zad22_min_zp}.
 \end{figure}
 
 %\FloatBarrier   % place all pending floats before carrying on
-\noindent
+\FloatBarrier
+\noindent\begin{minipage}{\linewidth}
 VHDL kod koji implementira funkcije~\eqref{eq:zad22_min_zp} i~\eqref{eq:zad22_min_pz}.
+U VHDL kodu portovi \texttt{Y\_ZP} i \texttt{Y\_PZ} predstavljaju izlaz $Z$ u dve realizacije.
 \inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_2/zadatak.vhd}
 
 %\newpage
 \noindent
 Testbench koji simulira funkcije~\eqref{eq:zad22_min_zp} i~\eqref{eq:zad22_min_pz} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_2/tb_zadatak.vhd}{OVDE}.
+\end{minipage}
 
 \newpage
 
@@ -898,7 +898,7 @@ Prvi korak u rešavanju ovog zadatka predstavlja kreiranje sadržaja funkcionaln
 \begin{tabular}{|c:c||c:c||c:c:c:c|}
 \hline
 \rowcolor{gray!40}
-$A_1$ & $A_0$ & $B_1$ & $B_0$ & $C_3$ & $C_2$ & $C_1$ & $C_0$ \\ \hline\hline
+$A_1$ & $A_0$ & $B_1$ & $B_0$ & $C_3$ & $C_2$ & $C_1$ & $C_0$ \\ \hline
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 \\ \hline
 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 \\ \hline
@@ -1038,7 +1038,10 @@ C_1
 C_0 = A_0 B_0
 \end{equation}
 
-Na slici 11 je predstavljena implementacija funkcije $C = A \cdot B$.
+Na slici~\ref{fig:zadatak3} je predstavljena implementacija funkcije $C = A \cdot B$.
+Ulazni razvod zadržan je radi istog načina prikaza kao u prethodnim zadacima;
+pošto se koriste samo direktni ulazi, njegovih osam invertora nije potrebno
+u minimalnoj realizaciji.
 
 \begin{figure}[!h]
   \centering
@@ -1048,13 +1051,15 @@ Na slici 11 je predstavljena implementacija funkcije $C = A \cdot B$.
 \end{figure}
 
 %\FloatBarrier   % place all pending floats before carrying on
-\noindent
+\FloatBarrier
+\noindent\begin{minipage}{\linewidth}
 VHDL kod koji implementira funkciju $C = A \cdot B$.
 \inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_3/zadatak.vhd}
 
 %\newpage
 \noindent
 Testbench koji simulira funkciju $C = A \cdot B$ je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_3/tb_zadatak.vhd}{OVDE}.
+\end{minipage}
 
 \newpage
 
@@ -1064,7 +1069,7 @@ Testbench koji simulira funkciju $C = A \cdot B$ je dat \href{https://github.com
 Za kolo predstavljeno na slici~\ref{fig:zadatak4}:
 \begin{enumerate}[label=\alph*), leftmargin=*, itemsep=2pt]
 \item  Odrediti logičku funkciju
-\item Nacrtati vremenski dijagam prelaza ABCD: $1111$ \textrightarrow~$1110$ za signale $D$, $I_1$, $I_2$, $I_3$, $I_4$ i $Y$ ako je kašnjenje svakog logičkog kola jednako T. Komentarisati dobijene
+\item Nacrtati vremenski dijagram prelaza ABCD: $1111$ \textrightarrow~$1110$ za signale $D$, $I_1$, $I_2$, $I_3$, $I_4$ i $Y$ ako je kašnjenje svakog logičkog kola jednako T. Komentarisati dobijene
 vremenske dijagrame.
 \item Predložiti realizaciju koja rešava probleme uočene pod b)
 \end{enumerate}
@@ -1086,7 +1091,7 @@ Y = A \bar{B} + C D + A C \bar{D}
 \noindent\makebox[\linewidth]{\dotfill}
 
 \noindent
-b) Vremenski dijagram prelaza ABCD: $1111$ \textrightarrow~$1110$ je prikazan na slici 13
+b) Vremenski dijagram prelaza ABCD: $1111$ \textrightarrow~$1110$ je prikazan na slici~\ref{fig:zadatak4r}.
 
 \begin{figure}[!h]
   \centering
@@ -1096,18 +1101,17 @@ b) Vremenski dijagram prelaza ABCD: $1111$ \textrightarrow~$1110$ je prikazan na
 \end{figure}
 
 
-Ako posmatramo vrednost funkcije defini\v{s}e jedna\v{c}ina~\eqref{eq:zad4} videćemo da za obe
+Ako posmatramo vrednost funkcije definisane jednačinom~\eqref{eq:zad4} videćemo da za obe
 kombinacije ulaza $ABCD = 1111$ i $ABCD = 1110$ dobijamo istu vrednost. Međutim, uvidom
 u vremenski dijagram možemo uočiti da postoji jedan vremenski interval, jednak kašnjenju
-logičkog kola, u okviru koga vrednost izlaza $Y$ postaje jednak logičkoj nuli. Takvo
-ponašanje nije poželjno u logičkim kolima koje realizujemo jer se potencijalno može
+logičkog kola, u okviru koga vrednost izlaza $Y$ postaje jednaka logičkoj nuli. Takvo
+ponašanje nije poželjno u logičkim kolima koja realizujemo jer se potencijalno može
 degradirati funkcionalnost ostatka digitalnog sistema koji koristi takvu realizaciju. Zbog toga
-se postavlja pitanje kako rešiti uočeni poroblem u ovom konkretnom slučaju i još mnogo bitnije pitanje, kako uopšteno detektovati da postoji problem u nekom kolu a zatim ga sistematično
+se postavlja pitanje kako rešiti uočeni problem u ovom konkretnom slučaju i još mnogo bitnije pitanje, kako uopšteno detektovati da postoji problem u nekom kolu a zatim ga sistematično
 rešavati?
 
 Na putu do odgovora na postavljena pitanja, potrebno je analizirati sadržaj Karnoove
-karte kao i odgovarajućih oblasti koje u toj Karnoovoj karti pokriva funkcija~\eqref{eq:zad4}. Na slici
-14 je predstavljen sadržaj Karnoove karte sa naznačenim odgovarajućim oblastima:
+karte kao i odgovarajućih oblasti koje u toj Karnoovoj karti pokriva funkcija~\eqref{eq:zad4}. Na slici~\ref{fig:kmap-zad4} je predstavljen sadržaj Karnoove karte sa naznačenim odgovarajućim oblastima:
 
 \begin{figure}[!ht]
   \centering
@@ -1142,13 +1146,13 @@ karte kao i odgovarajućih oblasti koje u toj Karnoovoj karti pokriva funkcija~\
   \label{fig:kmap-zad4}
 \end{figure}
 
-Na osnovu sadržaja Karnoove karte ali i prikazanih oblasti možemo uočiti da se
-posmatrani prelaz, koji dovodi do pojave logičke nule, nalazi između dve nepreklopljene
-oblasti u Karnoovoj karti. U opštem slučaju se ovaj problem naziva problem lažne nule (ili
-lažne jedinice za slučaj funkcije izražene koristeći formu PZ) a javlja se, kao i ovom
-konkretnom slučaju, pri prelazima iz oblasti u Karnoovoj karti koje nisu preklopljene. U
-opštem slučaju problem pojave lažne nule (ili lažne jedinice za slučaj funkcije izražene
-koristeći formu PZ) se može javiti u oba smera.
+Polja $1111$ i $1110$ imaju izlaznu jedinicu, ali ih nijedan isti proizvod
+u realizaciji~\eqref{eq:zad4} ne pokriva. Pri promeni $D$ jedan proizvod može
+prestati da vodi pre nego što drugi počne da vodi, pa se javlja lažna nula.
+Za dvonivojsku realizaciju ZP proverava se zajedničko pokrivanje svakog para
+susednih jedinica, a za PZ svakog para susednih nula. Sama blizina ili
+preklapanje kontura nije dovoljan kriterijum. Mogućnost impulsa razmatra se
+za oba smera prelaza; njegova stvarna pojava zavisi od modela i odnosa kašnjenja.
 
 \begin{tcolorbox}[colback=gray!10, colframe=black, boxrule=0.5pt]
 \textbf{Za samostalni rad:} Nacrtati vremenske dijagrame za prelaz ABCD: 1110 $\rightarrow$ 1111.
@@ -1157,8 +1161,7 @@ koristeći formu PZ) se može javiti u oba smera.
 \noindent\makebox[\linewidth]{\dotfill}
 
 \noindent
-c) Jedan od načina za rešavanje ovog problema predstavlja preklapanje prelaza koje
-potencijalno može dovesti do pojave lažne nule ili lažne jedinice. Za slučaj u ovom zadatku
+c) Problem rešavamo dodavanjem ili proširivanjem člana koji zajednički pokriva oba kraja opasnog prelaza. Za slučaj u ovom zadatku
 dobijamo oblasti kao što je prikazano na slici~\ref{fig:kmap-zad4_2}.
 
 Na osnovu Karnoove karte sa slike~\ref{fig:kmap-zad4_2}, izvodimo sledeću funkciju:
@@ -1190,19 +1193,26 @@ dodatnoj minimizaciji logičke funkcije~\eqref{eq:zad4} što \textbf{NE MORA} uv
     \implicant{15}{10}
   \end{karnaugh-map}
 
-  \caption{Karnoove karta za funkciju~\eqref{eq:zad4}.}
+  \caption{Karnoova karta za funkciju~\eqref{eq:zad4}.}
   \label{fig:kmap-zad4_2}
 \end{figure}
 
 \FloatBarrier   % place all pending floats before carrying on
-\noindent
+\FloatBarrier
+\noindent\begin{minipage}{\linewidth}
 VHDL kod koji implementira funkciju~\eqref{eq:zad4} sa ka\v{s}njenjem T.\\
-\textbf{Napomena:} Kašnjenja dodata u kod se koriste samo za simulacije!
+\textbf{Napomena:} Kašnjenja služe samo simulaciji. Zapis \texttt{after T}
+podrazumeva inertno kašnjenje: kraći impulsi mogu biti potisnuti.
+Transportno kašnjenje (\texttt{transport}) prenosi i takve impulse.
+Za zadati prelaz iz zadatka 4 ulazni impuls izlaznog kola traje tačno $T$;
+prikazani izlazni impuls traje od $2T$ do $3T$ posle promene $D$.
+Odsustvo impulsa u jednoj simulaciji nije opšti dokaz odsustva hazarda.
 \inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_4/zadatak.vhd}
 
 %\newpage
 \noindent
 Testbench koji simulira prelazak $ABCD = 1111$ \textrightarrow~$ABCD = 1110$ je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_4/tb_zadatak.vhd}{OVDE}.
+\end{minipage}
 %\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_4/tb_zadatak.vhd}
 
 
@@ -1293,9 +1303,7 @@ Na slici~\ref{fig:kmap-5} je prikazan sadržaj Karnoove karte za funkciju~\eqref
 
 Na osnovu obeleženih kontura koje odgovaraju pojedinačnim logičkim proizvodima iz
 logičke funkcije~\eqref{eq:zad5}, vidimo da funkcija nije data u minimalnoj formi. Takođe, uočavamo
-potencijalne prelaze koji mogu dovesti do generisanja lažne nule na izlazu kola. To su svi
-prelazi između dve susedne konture, koji se mogu desiti pri promeni najviše jednog od ulaznih
-signala. Na slici~\ref{fig:kmap-5} su ovi prelazi označeni parom strelica na levu i desnu stranu. Prema tabeli
+potencijalne prelaze koji mogu dovesti do generisanja lažne nule na izlazu kola. To su prelazi između susednih polja sa jedinicom koja nisu pokrivena nijednim zajedničkim proizvodom, pri promeni tačno jednog ulaznog signala. Na slici~\ref{fig:kmap-5} su ovi prelazi označeni parom strelica na levu i desnu stranu. Prema tabeli
 sa slike~\ref{fig:kmap-5} uočavamo da postoji ukupno 10 prelaza koji mogu dovesti do pojave lažne nule na
 izlazu kola. Kao što je obeleženo u Karnoovoj karti na slici~\ref{fig:kmap-5}, polja $ABCD = 0100$ i $ABCD
 = 0110$ predstavljaju susedna polja u Karnoovoj karti.
@@ -1306,7 +1314,7 @@ izlazu kola. Kao što je obeleženo u Karnoovoj karti na slici~\ref{fig:kmap-5},
 \noindent
 b) Na slici~\ref{fig:kmap-zad5} je predstavljen sadržaj Karnoove karte sa označenim oblastima za slučaj
 minimalne forme funkcije~\eqref{eq:zad5}. Kao što se sa slike~\ref{fig:kmap-zad5} može primetiti, minimalna forma funkcije i dalje sadrži prelaze
-koji potencijalno mogu uzrokovati pojavu lažnih nula i jedinica.
+koji potencijalno mogu uzrokovati pojavu lažnih nula.
 
 \begin{figure}[!ht]
   \centering
@@ -1396,19 +1404,21 @@ Y = \bar{A} \bar{C} + CD + BC + \bar{A} B + \bar{A} D
 
 Dakle, polazeći od funkcije~\eqref{eq:zad5} najpre smo u tački b) izveli izraz koji predstavlja
 funkciju~\eqref{eq:zad5} u minimalnoj formi~\eqref{eq:zad5-min}. Međutim tako dobijena forma je i dalje potencijalno
-generisala lažne nule. Da bi smo sprečili generisanje lažnih nula, na osnovu preklapanja oblasti
+generisala lažne nule. Da bismo sprečili generisanje lažnih nula, na osnovu preklapanja oblasti
 u Karnoovoj karti dobili smo formu~\eqref{eq:zad5-fin}. Za razliku od~\eqref{eq:zad5-min}, forma predstavljena u okviru~\eqref{eq:zad5-fin} sadrži veći broj logičkih kola ali sprečava pojavu lažnih nula.
 
 \newpage
 
-\noindent
+\FloatBarrier
+\noindent\begin{minipage}{\linewidth}
 VHDL kod koji implementira funkcije~\eqref{eq:zad5-min} i~\eqref{eq:zad5-fin} sa ka\v{s}njenjem T.\\
-\textbf{Napomena:} Kašnjenja dodata u kod se koriste samo za simulacije!
+\textbf{Napomena:} Kašnjenja služe samo simulaciji; \texttt{after T} koristi inertni model, objašnjen uz zadatak~\ref{zad_4}.
 \inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_5/zadatak.vhd}
 
 %\newpage
 \noindent
 Testbench koji simulira funkcije~\eqref{eq:zad5-min} i~\eqref{eq:zad5-fin} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_5/tb_zadatak.vhd}{OVDE}.
+\end{minipage}
 
 \newpage
 
@@ -1457,10 +1467,7 @@ u minimalnoj formi u obliku proizvoda logičkih zbirova:
 Y = (\bar{B} + C + D) (A + \bar{D}) (\bar{A} + \bar{C})
 \end{equation}
 
-Sa slike~\ref{fig:kmap-6} uočavamo da logička funkcija~\eqref{eq:kmap-6-pz} u traženom obliku ima više
-potencijalno opasnih prelaza u pogledu pojave statičkih hazarda, odnosno generisanja lažne
-jedinice na izlazu kola, u odnosu na realizaciju mreže u obliku zbira logičkih proizvoda. Na
-slici 21 su obeleženi svi prelazi koji mogu dovesti do pojave lažnih jedinica
+Sa slike~\ref{fig:kmap-6} uočavamo da logička funkcija~\eqref{eq:kmap-6-pz} u traženom obliku ima četiri para susednih nula bez zajedničkog pokrivanja, odnosno osam usmerenih prelaza sa mogućnošću pojave lažne jedinice. To su parovi $(3,11)$, $(4,5)$, $(7,15)$ i $(12,14)$, gde brojevi označavaju dekadne vrednosti ulaza $ABCD$. Na slici~\ref{fig:kmap-zad6-marked} obeleženi su svi takvi prelazi.
 
 
 \begin{figure}[!ht]
@@ -1531,7 +1538,7 @@ slici 21 su obeleženi svi prelazi koji mogu dovesti do pojave lažnih jedinica
 
 \noindent
 b) Nova forma funkcije~\eqref{eq:zad6} koja ne dovodi do pojave lažnih jedinica dobija se na
-osnovu Karnoove karte prikazane na slici~\ref{fig:kmap-zad6-final}
+osnovu Karnoove karte prikazane na slici~\ref{fig:kmap-zad6-final}.
 
 \begin{figure}[!ht]
   \centering
@@ -1549,7 +1556,7 @@ osnovu Karnoove karte prikazane na slici~\ref{fig:kmap-zad6-final}
         \implicant{3}{11}
       \end{karnaugh-map}
 
-  \caption{Karnoova karta funkcije~\eqref{eq:zad6} sa naznačenim prelazima koji ne dovode do pojave lažnih jedinica.}
+  \caption{Karnoova karta funkcije~\eqref{eq:zad6} sa dodatnim oblastima koje zajednički pokrivaju susedne nule i sprečavaju statički hazard 0 pri promeni jednog ulaza.}
   \label{fig:kmap-zad6-final}
 \end{figure}
 
@@ -1561,26 +1568,29 @@ Y = (\bar{B} + C + D) (A + \bar{D}) (\bar{A} + \bar{C}) (\bar{C} + \bar{D}) (A +
 
 \newpage 
 
-\noindent
+\FloatBarrier
+\noindent\begin{minipage}{\linewidth}
 VHDL kod koji implementira funkcije~\eqref{eq:kmap-6-pz} i~\eqref{eq:zad6-final} sa ka\v{s}njenjem T.\\
-\textbf{Napomena:} Kašnjenja dodata u kod se koriste samo za simulacije!
+\textbf{Napomena:} Kašnjenja služe samo simulaciji; \texttt{after T} koristi inertni model, objašnjen uz zadatak~\ref{zad_4}.
 \inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_6/zadatak.vhd}
 
 %\newpage
 \noindent
 Testbench koji simulira funkcije~\eqref{eq:kmap-6-pz} i~\eqref{eq:zad6-final} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_6/tb_zadatak.vhd}{OVDE}.
+\end{minipage}
 
+\clearpage
 \section{Zadaci za samostalni rad}
 
 \subsection{Zadatak 1}
 Projektovati kombinacionu mrežu koja na ulazima prihvata dva dvobitna neoznačena
-binarna broja, a na izlazima generiše brinarni broj koji predstavlja zbir kvadrata ulaznih
+binarna broja, a na izlazima generiše binarni broj koji predstavlja zbir kvadrata ulaznih
 brojeva. Na raspolaganju su proizvoljna logička kola niskog stepena integracije. Težiti da
 broj upotrebljenih logičkih kola bude minimalan.
 
 \subsection{Zadatak 2}
 Projektovati kombinacionu mrežu koja za četvorobitni binarni broj na ulazu generiše
-brinarni broj koji predstavlja broj pojavljivanja jedinice u ulaznom binarnom broju. Na
+binarni broj koji predstavlja broj pojavljivanja jedinice u ulaznom binarnom broju. Na
 raspolaganju su proizvoljna logička kola. Težiti da broj upotrebljenih logičkih kola bude
 minimalan.
 

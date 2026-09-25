@@ -5,3 +5,5 @@
 Zavisnosti: GNU Make, Python 3, pdfLaTeX, latexmk i TeX Live paketi za srpski jezik, Latin Modern, AMS, TikZ/Circuitikz, PGFPlots, standalone, tcolorbox, adjustbox i siunitx. Provere koje koriste SymPy zahtevaju i taj Python paket. Mreža, Pandoc i Word nisu potrebni za izgradnju.
 
 Glavni `.tex` i izvori crteža u `Images/` ručno su izmenjivi. Izvorni dokument ostaje u roditeljskom folderu. `INVENTAR.md` povezuje izvorne celine i LaTeX oznake, a `IZVESTAJ_ISPRAVKI.md` obrazlaže izmene.
+
+Ponovna provera: `code/audit_math.py` čita stvarne redove postupaka, funkcionalne tabele, izraze i ćelije/grupe Karnoovih karata. Ručno praćene šeme i deduktivni pregled vezani su za izvore kroz `code/pregled_izvora.json` i `code/PREGLED_DOKAZA.md`. Potreban je i zajednički `../PROVERA/logic.py`; nije potreban dodatni Python paket. Za sprečavanje odvajanja naziva od tabela koristi se LaTeX paket `needspace`. Kompilacija generiše SyncTeX. Konačni dokument nakon ove provere ima 27 stranica. Ne osvežavati otiske pregleda automatski posle izmene matematike ili veze.

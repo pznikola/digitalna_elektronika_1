@@ -1,0 +1,338 @@
+[
+  {
+    "id": "02-T01",
+    "line": 162,
+    "old": "logičkih funkcijama",
+    "new": "logičkim funkcijama",
+    "why": "Slaganje prideva i imenice."
+  },
+  {
+    "id": "02-T02",
+    "line": 185,
+    "old": "mutlipleksera",
+    "new": "multipleksera",
+    "why": "Pravopis i stručna terminologija; sve pojave iste greške."
+  },
+  {
+    "id": "02-T03",
+    "line": 234,
+    "old": "jednacinom",
+    "new": "jednačinom",
+    "why": "Pravopis i stručna terminologija; sve pojave iste greške."
+  },
+  {
+    "id": "02-T04",
+    "line": 268,
+    "old": "otklanjanju",
+    "new": "otklanjaju",
+    "why": "Pravopis i stručna terminologija; sve pojave iste greške."
+  },
+  {
+    "id": "02-T05",
+    "line": 304,
+    "old": "ukoliko su ako selekcioni",
+    "new": "ukoliko su kao selekcioni",
+    "why": "Pravopis i stručna terminologija; sve pojave iste greške."
+  },
+  {
+    "id": "02-T06",
+    "line": 1142,
+    "old": "najkopleksnijih",
+    "new": "najsloženijih",
+    "why": "Pravopis i stručna terminologija; sve pojave iste greške."
+  },
+  {
+    "id": "02-T07",
+    "line": 1146,
+    "old": "vodećin",
+    "new": "vodećih",
+    "why": "Pravopis i stručna terminologija; sve pojave iste greške."
+  },
+  {
+    "id": "02-T08",
+    "line": 1207,
+    "old": "vodeći nula",
+    "new": "vodećih nula",
+    "why": "Pravopis i stručna terminologija; sve pojave iste greške."
+  },
+  {
+    "id": "02-T09",
+    "line": 1184,
+    "old": "sadrđaj",
+    "new": "sadržaj",
+    "why": "Pravopis i stručna terminologija; sve pojave iste greške."
+  },
+  {
+    "id": "02-T10",
+    "line": 1184,
+    "old": "ospegu",
+    "new": "opsegu",
+    "why": "Pravopis i stručna terminologija; sve pojave iste greške."
+  },
+  {
+    "id": "02-T11",
+    "line": 1279,
+    "old": "postavlje na",
+    "new": "postavljen na",
+    "why": "Pravopis i stručna terminologija; sve pojave iste greške."
+  },
+  {
+    "id": "02-T12",
+    "line": 613,
+    "old": "Naraspolaganju",
+    "new": "Na raspolaganju",
+    "why": "Pravopis i stručna terminologija; sve pojave iste greške."
+  },
+  {
+    "id": "02-T13",
+    "line": 613,
+    "old": "idikatoru",
+    "new": "indikatoru",
+    "why": "Pravopis i stručna terminologija; sve pojave iste greške."
+  },
+  {
+    "id": "02-T14",
+    "line": 933,
+    "old": "u oviru",
+    "new": "u okviru",
+    "why": "Pravopis i stručna terminologija; sve pojave iste greške."
+  },
+  {
+    "id": "02-T15",
+    "line": 626,
+    "old": "LE disple",
+    "new": "LED disple",
+    "why": "Pravopis i stručna terminologija; sve pojave iste greške."
+  },
+  {
+    "id": "02-T16",
+    "line": 645,
+    "old": "Obzirom da",
+    "new": "S obzirom na to da",
+    "why": "Pravopis i stručna terminologija; sve pojave iste greške."
+  },
+  {
+    "id": "02-T17",
+    "line": 1296,
+    "old": "doulazna",
+    "new": "dvoulazna",
+    "why": "Pravopis i stručna terminologija; sve pojave iste greške."
+  },
+  {
+    "id": "02-T18",
+    "line": 1258,
+    "old": "funcionalni",
+    "new": "funkcionalni",
+    "why": "Pravopis i stručna terminologija; sve pojave iste greške."
+  },
+  {
+    "id": "02-T19",
+    "line": 245,
+    "old": "\\eqref{tab:zad1}",
+    "new": "\\ref{tab:zad1}",
+    "why": "Tabela nije jednačina."
+  },
+  {
+    "id": "02-T20",
+    "line": 250,
+    "old": "Testbench koji simulira funkciju datu u tabeli~\\ref{tab:zad1} je dat \\href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_1/a/tb_zadatak.vhd}",
+    "new": "Testbench koji simulira funkciju datu u tabeli~\\ref{tab:zad1} je dat \\href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_1/b/tb_zadatak.vhd}",
+    "why": "Veza je vodila na test drugog kola."
+  },
+  {
+    "id": "02-T21",
+    "line": 276,
+    "old": "a) Prilikom realizacije logičke funkcije koja podrazumeva korišćenje isključivo\nmultipleksera, za signale na selekcionim linijama S\\textsubscript{1}S\\textsubscript{0} (u slučaju multipleksera 4/1) treba\npostaviti one ulaze koji su u logičkoj funkciji zastupljeni sa najviše različitih kombinacija. U slučaju funkcije~\\eqref{eq:zad2} možemo primetiti da su AB i AC podjednako zastupljeni i u nastavku ćemo za selekcione ulaze uzeti AB.\n\n",
+    "new": "a) Selekcione ulaze biramo poređenjem kofaktora funkcije za moguće parove promenljivih. Primenom Šenonovog razvoja svaki kofaktor postaje jedan podatkovni ulaz multipleksera. Povoljan je izbor koji zahteva najmanje dodatnih kola; broj pojavljivanja promenljivih u početnom zapisu sam po sebi ne garantuje minimum. Ovde uzimamo $S_1S_0=AB$: svi kofaktori biće konstante ili neposredno signal $C$.\n\n",
+    "why": "Zastupljenost promenljivih nije opšti algoritam optimalnog izbora selekcije."
+  },
+  {
+    "id": "02-T22",
+    "line": 337,
+    "old": "Pošto se zahteva minimalna realizacija korišćenjem isključivo dvoulaznih NI kola,",
+    "new": "Za realizaciju korišćenjem isključivo dvoulaznih NI kola,",
+    "why": "Minimalnost višestepene mreže ne sledi samo iz minimizacije zbira proizvoda."
+  },
+  {
+    "id": "02-T23",
+    "line": 356,
+    "old": "Zadatak_2/Zadatak_2b.png",
+    "new": "Zadatak_2/Zadatak_2b",
+    "why": "Jedini raster zamenjen izmenjivom vektorskom TikZ šemom istog kola."
+  },
+  {
+    "id": "02-T24",
+    "line": 373,
+    "old": "c) Kako se u standardnom 14-pinskom integrisanom kolu mogu naći 4 dvoulazna NI kola, potreban broj integrisanih kola za realizaciju u tački a) i b) je isti i znosi 1. Međutim, sa strane kašnjenja postoje izvesne razlike. U slučaju realizacije iz tačke a) kašnjenje iznosi $t_{d-Y} = t_{d-mux} = 20$ns, dok u slučaju realizacije pod b) kašnjenje iznosi $t_{d-Y} = 3t_{d-l} = 30$ns. Takođe, realizacije pod a) ne zahteva dodatnu minimizaciju date funkcije obzirom da se vrednosti ulaza multipleksera određuju na osnovu konkretnih vrednosti ulaza A i B.\n\n",
+    "new": "c) Broj kućišta zavisi od izabrane biblioteke: uz četvorostruko NI2 kolo (npr.\\ 74HC00) i kućište koje sadrži multiplekser 4/1 (npr.\\ 74HC153), obe realizacije staju u po jedno kućište. To nisu ista kola niti nužno isti broj priključaka: navedeni primeri imaju 14, odnosno 16 priključaka. NI realizacija sadrži četiri dvoulazna NI kola, uključujući invertovanje $B$ vezivanjem dva ulaza istog kola. Iscrpno poređenje acikličnih mreža sa najviše tri NI2 kola, bez unapred dostupnih komplementarnih ulaza, ne daje ovu funkciju.\n\nZa zadati model kašnjenja multiplekser daje $t_{d,Y}=t_{d,\\mathrm{mux}}=20\\,\\mathrm{ns}$. Najduža putanja NI realizacije polazi od $B$ i prolazi kroz tri kola, pa je najgore kašnjenje $3t_{d,l}=30\\,\\mathrm{ns}$; putanje od $A$ i $C$ prolaze kroz dva kola. Ove vrednosti su pretpostavke zadatka, a ne kataloške vrednosti navedenih integrisanih kola.\n\n",
+    "why": "Precizirani biblioteka, merilo minimuma i najgora putanja; ne mešaju se brojevi kućišta i osnovnih kola."
+  },
+  {
+    "id": "02-T25",
+    "line": 380,
+    "old": "d) Prelaz pri kojem može doći do pojave lažne nule je označen na slici~\\ref{fig:kmap-zad2-d}.",
+    "new": "d) Mogućnost lažne nule postoji kada je $A=C=1$, a menja se $B$: susedna polja $CBA=101$ i $111$ nemaju zajedničku oblast. Oba smera označena su izvornim strelicama na slici~\\ref{fig:kmap-zad2-d}. Pri jednakim kašnjenjima $T$ svih NI kola, za $B:1\\to0$ izlaz pada posle $2T$ i vraća se posle $3T$. Za obrnuti smer u tom modelu nema impulsa; drugačiji odnosi kašnjenja zahtevaju zasebnu analizu. Strelice označavaju strukturno rizičnu susednost, a ne garanciju impulsa pri svakom modelu kašnjenja.",
+    "why": "Razlikovanje strukturnog hazarda od vremenskog odziva pri zadatim kašnjenjima."
+  },
+  {
+    "id": "02-T26",
+    "line": 435,
+    "old": "VHDL kod koji implementira jedna\\v{c}inu~\\eqref{eq:zad2-d1}.\\\\",
+    "new": "VHDL kod koji implementira jedna\\v{c}inu~\\eqref{eq:zad2-d1}. Svaki proizvod modelovan je jednom dodelom sa inertnim kašnjenjem $T$; zasebno kašnjenje invertora $B$ ovde nije uvedeno. Član $CA$ pokriva rizičnu susednost i sprečava lažnu nulu pri promeni samo jednog ulaza.\\\\",
+    "why": "Eksplicitno naveden nivo apstrakcije simulacionog modela."
+  },
+  {
+    "id": "02-T27",
+    "line": 451,
+    "old": "(osim EN\\textsubscript{1} u EN\\textsubscript{2})",
+    "new": "(osim EN\\textsubscript{1} i EN\\textsubscript{2})",
+    "why": "Veznik u nabrajanju."
+  },
+  {
+    "id": "02-T28",
+    "line": 516,
+    "old": "Funkcije kojima se opisuju izlazni signali ovog dekodera predstavljaju komplemente funkcija datih jednačinom~\\eqref{eq:zad3-a1}.",
+    "new": "Ako je $E=\\mathrm{EN}_0\\overline{\\mathrm{EN}_1}\\,\\overline{\\mathrm{EN}_2}=1$, izlazi predstavljaju komplemente funkcija iz~\\eqref{eq:zad3-a1}. Opšti izraz je $Y_{i,\\mathrm{akt.\\,0}}=\\overline{E Y_i}$: kada je $E=0$, svi izlazi su jedinice. Za $A_3=0$ omogućen je donji skup izlaza $0$--$7$, a za $A_3=1$ gornji skup $8$--$15$. Magistrala od 16 bita na slici objedinjuje dva različita skupa vodova; ne spaja izlaze međusobno.",
+    "why": "U izvornom opisu nedostajao je uslov dozvole rada."
+  },
+  {
+    "id": "02-T29",
+    "line": 537,
+    "old": "na slici 2.3.2",
+    "new": "na slici~\\ref{fig:kmap-zad3-c1}.",
+    "why": "Ručno upisan netačan broj slike."
+  },
+  {
+    "id": "02-T30",
+    "line": 591,
+    "old": "d) Na slici~\\ref{fig:zadatak3-d} je prikazana realizacija dekodera 6/64 korišćenjem dekodera 3/8.\n\n\\begin{figure}[!ht]\n  \\centering\n  \\includegraphics[width=0.6\\linewidth]{Zadatak_3/Zadatak_3c}% adjust path if needed\n  \\caption{Kombinaciona mreža funkcije~\\eqref{eq:zad3} realizovana korišćenjem dekodera 3/8.}\n  \\label{fig:zadatak3-d}\n\\end{figure}\n\n",
+    "new": "d) Dekoder iz tačke a) nema ulaze za dozvolu rada. Zato se prikazana kaskada sa signalima \\textit{enable} ne može neposredno sastaviti od tih blokova. Za doslovnu postavku najpre dva dekodera iz a) dekodiraju $A_5A_4A_3$ i $A_2A_1A_0$ u signale $H_i$ i $L_j$. Izlazi dekodera 6/64 aktivni u jedinici određeni su izrazom\n\\begin{equation}\\label{eq:zad3-d}\nY_{8i+j}=H_iL_j,\\qquad i,j\\in\\{0,\\ldots,7\\}.\n\\end{equation}\nPotrebna su 64 dvoulazna I kola. Ako su dozvoljeni isključivo dekoderi iz a), svaki proizvod $pq$ može se dobiti sa izlaza $Y_3$ dodatnog dekodera čiji su ulazi $A_2A_1A_0=0pq$; time se dobija realizacija sa 66 dekodera. Ne tvrdi se da je ovaj broj minimalan.\n\nIzvorna šema na slici~\\ref{fig:zadatak3-d} zadržana je kao druga varijanta, koja koristi devet dekodera sa ulazima za dozvolu i izlazima aktivnim u nuli iz tačke b). Prvi dekoder aktivira tačno jedan od osam dekodera drugog stepena preko ulaza $\\overline{\\mathrm{EN}_1}$. Izlaz $j$ grane $i$ predstavlja globalni izlaz $8i+j$, aktivan u nuli. Ova varijanta zahteva drugačiji tip dekodera od onog navedenog u tački d).\n\n\\begin{figure}[!ht]\n  \\centering\n  \\includegraphics[width=0.6\\linewidth]{Zadatak_3/Zadatak_3c}\n  \\caption{Alternativna realizacija dekodera 6/64 pomoću dekodera iz tačke b), sa izlazima aktivnim u nuli.}\n  \\label{fig:zadatak3-d}\n\\end{figure}\n\n",
+    "why": "Postavka traži dekodere bez enable, ali izvorno rešenje koristi enable. Postavka i crtež sačuvani; dodato ispravno rešenje za tražene blokove, a stara šema jasno označena kao uslovna alternativa."
+  },
+  {
+    "id": "02-T31",
+    "line": 620,
+    "old": "ulazni podatak je u sigurno u opsegu 0000-1001,",
+    "new": "ulazni podatak je sigurno u opsegu 0000--1001.",
+    "why": "Pravopis i višak reči."
+  },
+  {
+    "id": "02-T32",
+    "line": 621,
+    "old": "Kako treba modifikovati dobijenu šemu pod tačkom a) da bi se, u slučaju kada se konvertora koristi u više cifarskom indikatoru, obezbedilo gašenje vodećih nula, i slova E, u slučaju da je na ulazu bilo kog indikatora, nalazi neka od nedozvoljenih kombinacija. Na raspolaganju su logička kola proizvoljnog tipa.\n",
+    "new": "Kako treba modifikovati dobijenu šemu pod tačkom a) da bi se u višecifrenom indikatoru gasile vodeće nule i prikazivalo samo jedno slovo E kada se na ulazu bilo koje cifre pojavi nedozvoljena kombinacija? Na raspolaganju su logička kola proizvoljnog tipa.\n",
+    "why": "Izvorna rečenica dvosmislena; primer 00A5→E određuje traženo ponašanje."
+  },
+  {
+    "id": "02-T33",
+    "line": 628,
+    "old": "\\begin{tabular}{|c|c|}",
+    "new": "\\begin{tabularx}{\\linewidth}{|C|C|}",
+    "why": "Duga zaglavlja primera moraju da se prelamaju unutar margina."
+  },
+  {
+    "id": "02-T34",
+    "line": 636,
+    "old": "\\end{tabular}\n\\end{table}",
+    "new": "\\end{tabularx}\n\\end{table}",
+    "why": "Odgovarajuće zatvaranje tabularx tabele."
+  },
+  {
+    "id": "02-T35",
+    "line": 885,
+    "old": "Na slici~\\ref{fig:Zadatak4_a} je ilustrovana",
+    "new": "Inverzije u razvodu ulaznih signala prikazane su uobičajenim trougaonim simbolom. Za ograničenje na NILI kola svaki takav invertor ostvaruje se NILI kolom sa spojenim ulazima; $\\overline{X+X}=\\bar X$. Dodatni invertori koji ponovo stvaraju direktan signal služe preglednom razvodu i nisu obavezni u minimalnoj realizaciji.\n\nNa slici~\\ref{fig:Zadatak4_a} je ilustrovana",
+    "why": "Crtež sadrži simbole invertora uprkos zahtevu za isključivo NILI kolima; objašnjen način realizacije bez precrtavanja distribucionih vodova."
+  },
+  {
+    "id": "02-T36",
+    "line": 910,
+    "old": "određivanja logičke funkcije minimalne kompleksnosti.",
+    "new": "određivanja jednostavnijeg zbira proizvoda. Oznaka $b$ u ćeliji znači „bilo šta“ (don’t care), a ne izlazni segment $b$. Takve ćelije smeju se koristiti samo uz navedenu garanciju da ulaz nikada nije 10--15; u varijanti a) izlazi za te ulaze moraju dati slovo E. Minimum broja članova i literala dvostepene forme ne garantuje minimum broja kola u svakoj biblioteci, naročito uz deljenje međurezultata između segmenata.",
+    "why": "Razdvojeni domeni BCD sa i bez greške i kriterijumi minimalnosti."
+  },
+  {
+    "id": "02-T37",
+    "line": 1175,
+    "old": "Kada je postavljen na „0“ svi segmenti su isključeni,",
+    "new": "Kada je postavljen na „1“, svi segmenti su isključeni,",
+    "why": "OFF je aktivan u jedinici i na šemi i u tabeli."
+  },
+  {
+    "id": "02-T38",
+    "line": 1180,
+    "old": "Ukoliko su vodeće nule isključene signal je postavljen na jedinicu,\n    dok je u suprotnom postavljen na nulu.",
+    "new": "Jedinica znači da su sve više cifre nule; nula znači da je već naišla nenulta cifra.",
+    "why": "Precizirana semantika LZ_IN."
+  },
+  {
+    "id": "02-T39",
+    "line": 1184,
+    "old": "Ukoliko su vodeće nule isključene signal je postavljen na jedinicu od strane BCD konvertora više cifre,\n    dok je u suprotnom postavljen na nulu.",
+    "new": "Jedinica znači da su trenutna i sve više cifre nule; inače je signal nula.",
+    "why": "Precizirana semantika LZ_OUT."
+  },
+  {
+    "id": "02-T40",
+    "line": 1194,
+    "old": "\\begin{equation}\nERROR",
+    "new": "\\begin{equation}\\label{eq:error}\nERROR",
+    "why": "Dodavanje oznake radi praćenja formule."
+  },
+  {
+    "id": "02-T41",
+    "line": 1216,
+    "old": "do je implementacija predstavljena na slici 2.4.7.",
+    "new": "dok je implementacija predstavljena na slici~\\ref{fig:Zadatak_4c_Lzout}.",
+    "why": "Gramatika i automatska referenca."
+  },
+  {
+    "id": "02-T42",
+    "line": 1246,
+    "old": "Na slici~\\ref{fig:Zadatak_4c_CompleteBCDLogic} je predstavljena logička šema BCD konvertora koja implementira set\nfunkcionalnosti potreban za realizaciju višecifrenog BCD konvertora.",
+    "new": "Na slici~\\ref{fig:Zadatak_4c_CompleteBCDLogic} proširena je logika samo segmenta $a$: $a'=a\\,\\overline{\\mathrm{OFF}+\\mathrm{LZ}_{\\mathrm{OUT}}}$. Izlazi dva NILI kola kombinuju se ILI kolom, pa završno NILI kolo daje negaciju njihovog zbira i signala za gašenje. Izlaz ERROR i segmenti $b'$--$g'$ nisu razrađeni na ovoj slici.",
+    "why": "Slika nije kompletan sedmosegmentni konvertor; objašnjen ispravljen ILI čvor."
+  },
+  {
+    "id": "02-T43",
+    "line": 1252,
+    "old": "Logika jednog BCD konvertora sa dodatnim kontrolnim signalima iz tabele.",
+    "new": "Razrađena logika segmenta $a$ sa kontrolom gašenja.",
+    "why": "Tačan obim šeme."
+  },
+  {
+    "id": "02-T44",
+    "line": 1262,
+    "old": "Logika predstavljena na slici~\\ref{fig:Zadatak_4c_CompleteBCDLogic} je enkapsulirana u funkcionalni blok BCD\nkonvertora",
+    "new": "Logika segmenta $a$ sa slike~\\ref{fig:Zadatak_4c_CompleteBCDLogic}, zajedno sa logikom ostalih segmenata i signala ERROR, objedinjena je u funkcionalni blok BCD konvertora",
+    "why": "Funkcionalni blok obuhvata i elemente koji nisu razrađeni na prethodnoj slici."
+  },
+  {
+    "id": "02-T45",
+    "line": 1277,
+    "old": "Višebitni BCD konvertor.",
+    "new": "Višecifreni BCD konvertor sa povratnom spregom i signalom inicijalizacije.",
+    "why": "Precizan naziv."
+  },
+  {
+    "id": "02-T46",
+    "line": 1283,
+    "old": "što označava da je bilo nedozvoljene kombinacije na nekom od ulaza BCD konvertora koji odgovaraju višim\nciframa",
+    "new": "što označava nedozvoljenu kombinaciju na bilo kojoj cifri ili ranije zapamćenu grešku",
+    "why": "Globalna greška uključuje i najnižu cifru i prethodno stanje."
+  },
+  {
+    "id": "02-T47",
+    "line": 1287,
+    "old": "Zbog pojave povratne sprege (na primer signal \\texttt{ERROR} je, sa izlaza BCD\nkonvertora najniže cifre, posredstvom logičkih kola 3, 4, 2 ili 3,4,1 vraćen na ulaz istog BCD konvertora) može doći do pojave ''pamćenja'' vrednosti u povratnoj sprezi koja za posledicu ima nemogućnost promene ispisa na LED displeju najniže cifre. O ovoj pojavi će biti više reči na kursu Digitalna Elektronika 2 . Da bi se kolo izvelo iz navedenog stanja, uvodimo kontrolni signal $\\overline{\\text{\\texttt{INIT}}}$ koji ima za cilj da resetuje vrednost zapamćenu u okviru povratne sprege kombinacione mreže.\n",
+    "new": "Povratna sprega preko najniže cifre čuva prethodnu grešku. Neka je $F$ izlaz kola 4, $I=\\overline{\\mathrm{INIT}}$ stvarni logički nivo na priključku inicijalizacije, a $R$ ILI zbir detekcija greške na \\emph{izvornim} četvorobitnim ulazima, pre kola 1 i 2. Pošto se najnižoj cifri nameće $C_0'=C_0+F$, $D_0'=D_0+F$, njena detekcija greške postaje $\\mathrm{ERROR}_0'=\\mathrm{ERROR}_0+F$. Stacionarno važi\n\\begin{equation}\\label{eq:feedback}\nF=I(R+F).\n\\end{equation}\nZa $I=1$, $R=0$ postoje dva moguća stanja, $F=0$ i $F=1$. Uklanjanje neispravnog ulaza zato samo po sebi ne uklanja zapamćeno slovo E. Ovo kolo sa povratnom spregom nema izlaz određen isključivo trenutnim ulaznim brojem.\n\nDa bi prikaz odgovarao novom broju, potrebno je pri uključivanju i pri \\emph{svakoj promeni ulaznog podatka} postaviti $I=0$, držati ulaze stabilnim do smirivanja kola, pa vratiti $I=1$. Potrebno trajanje impulsa zavisi od kašnjenja putanje i nije brojčano zadato. Ako neispravan ulaz ostane prisutan, greška će se posle otpuštanja ponovo aktivirati. Prikaz tokom promene i inicijalizacije nije garantovan.\n\nSignal $\\mathrm{LZ}_{\\mathrm{IN}}$ najviše cifre vezan je na 1. Kod najniže cifre vezan je na 0, kao i njen OFF, tako da se broj 0000 prikazuje kao jedna nula. Unutrašnje nule, poput nule u 0504, ostaju vidljive.\n",
+    "why": "Izvor je upozorio na memoriju ali nije definisao protokol. Izvedena jednačina povratne sprege i navedeni nedostajući vremenski uslovi."
+  },
+  {
+    "id": "02-T48",
+    "line": 1302,
+    "old": "$(n+m)/2^(n+m)$ .Na",
+    "new": "$(n+m)/2^{n+m}$. Na",
+    "why": "Pogrešna dužina eksponenta u LaTeX-u."
+  }
+]

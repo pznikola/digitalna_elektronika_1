@@ -82,7 +82,7 @@ Konverzije brojeva iz jednih u druge brojne sisteme, kao i različite interpreta
 Broj $D$ sa $n$ cifara celog i $k$ cifara razlomljenog dela u osnovi $r$ zapisujemo kao:
 
 % Izvor DOCX: blok 33
-\begin{equation}
+\begin{equation}\label{eq:zapis}
 D=(d_{n-1}\dots d_0.d_{-1}\dots d_{-k})_r
 \end{equation}
 
@@ -135,7 +135,7 @@ Opšta definicija težinskog brojnog sistema je data sledećom formulom:
 
 
 % Izvor DOCX: blok 42
-U opštem slučaju, za broj D predstavljen u dva brojna sistema sa osnovom \emph{r} i \emph{p} važi:
+Za broj $D$ koji ima konačan zapis u obe osnove, $r$ i $p$, važi:
 
 
 
@@ -146,7 +146,9 @@ U opštem slučaju, za broj D predstavljen u dva brojna sistema sa osnovom \emph
 
 
 % Izvor DOCX: blok 44
-Ukoliko su poznate cifre broja u brojnom sistemu sa osnovom \emph{r}, cifre broja u brojnom sistemu sa osnovom \emph{p} dobijamo razvojem sume sa leve strane jednačine \eqref{eq:1.1.1.3} i izvođenjem operacija sabiranja i stepenovanja u brojnom sistemu sa osnovom \emph{p}. Zbog toga što je operacije sabiranja i stepenovanja najlakše izvesti u brojnom sistemu sa osnovom 10, formula \eqref{eq:1.1.1.3} se može iskoristiti za transformaciju broja iz brojnog sistema sa osnovom \emph{r} u dekadni brojni sistem i to na sledeći način:
+Ako je zapis u osnovi $p$ beskonačan, desnu sumu u~\eqref{eq:1.1.1.3} treba zameniti redom sa donjom granicom $j\to-\infty$. Odsecanjem posle $K$ razlomljenih cifara dobija se aproksimacija, čija je greška za nenegativan broj manja od $p^{-K}$.
+
+Ukoliko su poznate cifre broja u osnovi $r$, vrednost sume računamo u ciljnoj osnovi $p$. U praksi najčešće prvo izračunamo vrednost u decimalnom sistemu:
 
 
 
@@ -208,7 +210,7 @@ Na osnovu ove relacije možemo zaključiti da se algoritam za prebacivanje celog
 \begin{enumerate}[label=\arabic*),start=1,leftmargin=*]
 \item ceo deo broja u osnovi 10 se podeli sa brojem \emph{r} čime se dobija količnik \emph{k}\textsubscript{1} i ostatak \emph{o}\textsubscript{1}
 
-\item ukoliko je \emph{k}\textsubscript{1} različito od 0, u sledećem koraku se \emph{k}\textsubscript{1} deli sa \emph{r}, čime se dobija količnik \emph{k}\textsubscript{2} i ostatak \emph{o}\textsubscript{2}
+\item ukoliko je \emph{k}\textsubscript{1} različit od 0, u sledećem koraku se \emph{k}\textsubscript{1} deli sa \emph{r}, čime se dobija količnik \emph{k}\textsubscript{2} i ostatak \emph{o}\textsubscript{2}
 
 \item postupak se nastavlja sve dok količnik \emph{k}\textsubscript{i} ne bude jednak 0 kada će ostatak biti jednak \emph{o\textsubscript{i}}
 
@@ -247,7 +249,7 @@ Na osnovu ove relacije možemo zaključiti da se algoritam za prebacivanje razlo
 
 % Izvor DOCX: blok 60
 \begin{equation}\label{eq:1.1.1.8}
-F=(0.s_1s_2\dots s_j)_r
+F=(0.s_1s_2\dots s_j)_r\qquad(f_j=0)
 \end{equation}
 
 
@@ -258,7 +260,7 @@ Nakon određivanja cifara celog i razlomljenog dela, predstava dekadnog broja D 
 
 % Izvor DOCX: blok 62
 \begin{equation}\label{eq:1.1.1.9}
-D=(o_io_{i-1}\dots o_1.s_1s_2\dots s_j)_r
+D=(o_io_{i-1}\dots o_1.s_1s_2\dots s_j)_r\qquad(f_j=0)
 \end{equation}
 
 
@@ -304,7 +306,7 @@ U slučaju da digitalni sistem implementira funkcionalnosti koje su u vezi sa zn
 
 
 % Izvor DOCX: blok 70
-U slučaju da digitalni sistem koristi ovaj način za predstavu označenih brojeva, bit najveće težine predstavlja znak dok preostali biti predstavljaju apsolutnu vrednost broja. Dakle, posmatrani broj \textbf{D}, koji je predstavljen na \emph{n} bita (\emph{D\textsubscript{n-1}D\textsubscript{n-2}\ldots{}D\textsubscript{1}D\textsubscript{0}}), se interpretira kao pozitivan ukoliko bit najveće težine \emph{D\textsubscript{n-1}} ima vrednost 0 dok se u suprotnom broj D interpretira kao negativan. Preostalih \emph{n-1} bita se koriste za predstavu apsolutne vrednosti broja D. Dakle, skup vrednosti koje je moguće predstaviti ukoliko digitalni sistem koristi predstavu „Znak i apsolutna vrednost“ je:
+U predstavi znak i apsolutna vrednost (ZA) prvi od $n$ bita određuje znak: 0 označava znak plus, a 1 znak minus. Preostalih $n-1$ bita predstavlja apsolutnu vrednost. Ako su svi oni nule, dobijamo pozitivnu ili negativnu nulu; oba zapisa imaju brojnu vrednost 0. Skup predstavljivih celih vrednosti je:
 
 
 
@@ -315,7 +317,7 @@ D\in\{-(2^{n-1}-1),\dots,0,\dots,2^{n-1}-1\}
 
 
 % Izvor DOCX: blok 72
-Jedna od mana ovog načina interpretacije označenih brojeva je nepostojanje jednoznačnosti u slučaju predstave broja 0
+Jedna od mana ovog načina interpretacije označenih brojeva je nepostojanje jednoznačnosti u slučaju predstave broja 0.
 
 
 
@@ -324,7 +326,7 @@ Jedna od mana ovog načina interpretacije označenih brojeva je nepostojanje jed
 
 
 % Izvor DOCX: blok 74
-Za nenegativnu apsolutnu vrednost $D$ i $n$ cifara u osnovi $r$, kodna reč negativnog broja u komplementu maksimalne vrednosti (KMV) dobija se kao:
+Za nenegativnu apsolutnu vrednost $D$ u predstavljivom opsegu i $n$ cifara u osnovi $r$, kodna reč negativnog broja u komplementu maksimalne vrednosti (KMV) dobija se kao:
 
 % Izvor DOCX: blok 75
 \begin{equation}\label{eq:1.2.2.1}
@@ -333,7 +335,7 @@ Za nenegativnu apsolutnu vrednost $D$ i $n$ cifara u osnovi $r$, kodna reč nega
 
 
 % Izvor DOCX: blok 76
-gde M predstavlja maksimalnu vrednost broja koji je moguće predstaviti u datoj osnovi sa datim brojem cifara. Dakle, vrednost M je definisana sledećom relacijom
+gde M predstavlja maksimalnu vrednost broja koji je moguće predstaviti u datoj osnovi sa datim brojem cifara. Dakle, vrednost M je definisana sledećom relacijom:
 
 
 
@@ -349,7 +351,7 @@ Na osnovu relacija \eqref{eq:1.2.2.1} i \eqref{eq:1.2.2.2} jasno se može zaklju
 
 
 % Izvor DOCX: blok 79
-Jednačina \eqref{eq:1.2.2.1} se može tumačiti i na sledeći način: Ukoliko je negativna vrednost -D predstavljena na nivou cifara jednaka -d\textsubscript{n-1}d\textsubscript{n-2}\ldots{}d\textsubscript{1}d\textsubscript{0} i ako je maksimalna vrednost M predstavljena na nivou cifara jednaka mm\ldots{}mm tada za cifre negativnog broja D važi:
+Neka su $d_i$ cifre apsolutne vrednosti $D$, a $m=r-1$ najveća cifra osnove $r$. Pošto je $M=(mm\dots m)_r$, oduzimanje $M-D$ ne zahteva pozajmice. Cifre komplementirane kodne reči su:
 
 
 
@@ -360,7 +362,7 @@ Jednačina \eqref{eq:1.2.2.1} se može tumačiti i na sledeći način: Ukoliko j
 
 
 % Izvor DOCX: blok 81
-Dakle, na osnovu \eqref{eq:1.2.2.3} zaključujemo da se u slučaju predstave negativnog broja D u komplementu maksimalne vrednosti vrednost svake cifre predstave broja dobija oduzimanjem odgovarajuće cifre negativnog broja od maksimalne cifre koju je moguće prikazati u datoj osnovi.
+Dakle, od cifre $r-1$ oduzima se odgovarajuća cifra apsolutne vrednosti $D$.
 
 
 
@@ -405,18 +407,18 @@ Za brojni sistem sa osnovom \emph{r} i datim brojem cifara \emph{n}, predstava n
 
 
 % Izvor DOCX: blok 90
-gde M predstavlja maksimalnu vrednost broja koji je moguće predstaviti u datoj osnovi sa datim brojem cifara i definisana je relacijom \eqref{eq:1.2.2.2}. Dakle, na osnovu \eqref{eq:1.2.3.1}, predstavu apsolutne vrednosti broja -D na osnovu predstave u komplementu maksimalne vrednosti moguće je izraziti na sledeći način:
+Ovde se računa nenegativan ostatak pri deljenju sa $r^n$, pa je kodna reč za nulu jednaka nuli. Za $D>0$ dobijamo $r^n-D$. Komplementiranje cifara daje $M-D$, a zatim se dodaje jedinica:
 
 
 
 % Izvor DOCX: blok 91
 \begin{equation}\label{eq:1.2.3.2}
-\operatorname{KO}_n(-D)=\bigl(\operatorname{KMV}_n(-D)+1\bigr)\bmod r^n
+\operatorname{KO}_n(-D)=\bigl((r^n-1-D)+1\bigr)\bmod r^n
 \end{equation}
 
 
 % Izvor DOCX: blok 92
-Najpre se svaka cifra apsolutne vrednosti zameni cifrom $r-1-d_i$, a zatim se celoj reči doda jedinica. Prenos se propagira od cifre najmanje težine:
+Za vrednosti koje staju i u KMV, izraz $r^n-1-D$ jeste kodna reč $\operatorname{KMV}_n(-D)$. Na donjoj granici KO, $-r^n/2$ za parno $r$, ta vrednost nema KMV predstavu; komplementiranje cifara i dodavanje jedinice ipak važe. Najpre se svaka cifra apsolutne vrednosti zameni cifrom $r-1-d_i$, a zatim se celoj reči doda jedinica. Prenos se propagira od cifre najmanje težine:
 
 % Izvor DOCX: blok 93
 \begin{equation}\label{eq:1.2.3.3}
@@ -425,7 +427,7 @@ Najpre se svaka cifra apsolutne vrednosti zameni cifrom $r-1-d_i$, a zatim se ce
 
 
 % Izvor DOCX: blok 94
-Skup brojeva koje je moguće zapisati i komplementu osnove, ukoliko je na raspolaganju \emph{n} cifara u osnovi \emph{r}, definisan je sledećom relacijom:
+Skup brojeva koje je moguće zapisati u komplementu osnove, ukoliko je na raspolaganju \emph{n} cifara u osnovi \emph{r}, definisan je sledećom relacijom:
 
 
 
@@ -551,7 +553,7 @@ Na osnovu prikazane procedure dobijamo da je ceo deo broja u binarnom brojnom si
 Razlomljeni deo je $(0.011)_2$, jer se izdvojeni celi delovi proizvoda čitaju redom: 0, 1, 1.
 
 % Izvor DOCX: blok 113
-\begin{equation}
+\begin{equation}\label{eq:13-375}
 (13.375)_{10}=(1101.011)_2
 \end{equation}
 
@@ -641,7 +643,7 @@ i jedno njeno rešenje \emph{x} =12
 
 
 % Izvor DOCX: blok 129
-Ukoliko u ovu jednačinu zamenimo poznato rešenje x=12=r+2 dobijamo:
+Ukoliko u ovu jednačinu zamenimo poznato rešenje $x=(12)_r=r+2$, dobijamo:
 
 
 
@@ -702,7 +704,7 @@ Rešenja su $r=-2$ i $r=7$. Osnova mora biti ceo broj veći od najveće korišć
 
 % Izvor DOCX: blok 140
 \begin{enumerate}[label=\alph*),start=1,leftmargin=*]
-\item Na osnovu \eqref{eq:1.2.1.1}. važi da je skup brojeva koje je moguće predstaviti, koristeći predstavu znak i apsolutna vrednost, jednak:
+\item Na osnovu \eqref{eq:1.2.1.1} važi da je skup brojeva koje je moguće predstaviti, koristeći predstavu znak i apsolutna vrednost, jednak:
 
 \end{enumerate}
 
@@ -741,22 +743,22 @@ Dakle, korak 1) je odrađen u tački a) i \eqref{eq:2.3.2} definiše skup brojev
 
 % Izvor DOCX: blok 145
 \begin{equation}\label{eq:2.3.3}
-11\  = 0001011
+11\ \longmapsto\ (0001011)_{2,\mathrm{ZA}}
 \end{equation}
 \begin{equation}\label{eq:2.3.4}
-- 5 = 1000101
+-5\ \longmapsto\ (1000101)_{2,\mathrm{ZA}}
 \end{equation}
 \begin{equation}\label{eq:2.3.5}
-- 9 = 1001001
+-9\ \longmapsto\ (1001001)_{2,\mathrm{ZA}}
 \end{equation}
 \begin{equation}\label{eq:2.3.6}
-\ \ \ \ 0 = 0000000
+0\ \longmapsto\ (0000000)_{2,\mathrm{ZA}}
 \end{equation}
 \begin{equation}\label{eq:2.3.7}
-\ \ 31 = 0011111
+31\ \longmapsto\ (0011111)_{2,\mathrm{ZA}}
 \end{equation}
 \begin{equation}\label{eq:2.3.8}
-- 29 = 1011101
+-29\ \longmapsto\ (1011101)_{2,\mathrm{ZA}}
 \end{equation}
 \begin{equation}\label{eq:2.3.9}
 \text{74 – Nije moguće predstaviti}
@@ -768,19 +770,19 @@ c) U svakom zadatom zapisu prvi bit je bit znaka, a preostali biti predstavljaju
 
 % Izvor DOCX: blok 147
 \begin{equation}\label{eq:2.3.10}
-(101110)_{\mathrm{ZA}}=(1001110)_{\mathrm{ZA}}=-14
+(101110)_{2,\mathrm{ZA}}=(1001110)_{2,\mathrm{ZA}}=-14
 \end{equation}
 \begin{equation}\label{eq:2.3.11}
-(010100)_{\mathrm{ZA}}=(0010100)_{\mathrm{ZA}}=20
+(010100)_{2,\mathrm{ZA}}=(0010100)_{2,\mathrm{ZA}}=20
 \end{equation}
 \begin{equation}\label{eq:2.3.12}
-1000000 = 0\ \ \ \ \
+(1000000)_{2,\mathrm{ZA}}=0
 \end{equation}
 \begin{equation}\label{eq:2.3.13}
-\ 0000000 = 0\ \ \ \ \ \
+(0000000)_{2,\mathrm{ZA}}=0
 \end{equation}
 \begin{equation}\label{eq:2.3.14}
-\ 1000001 = - 1\ \
+(1000001)_{2,\mathrm{ZA}}=-1
 \end{equation}
 
 
@@ -815,7 +817,7 @@ Algoritam za predstavljanje brojeva u komplementu maksimalne vrednosti uključuj
 \begin{enumerate}[label=\arabic*),start=1,leftmargin=*]
 \item Provera da li se zadati broj nalazi u skupu brojeva koje je moguće predstaviti na datom broju cifara \emph{n} – koristimo \eqref{eq:1.2.2.4}. Ukoliko je broj moguće predstaviti koristeći \emph{n} cifara u posmatranom brojnom sistemu, prelazimo na korak 2
 
-\item Koristimo formulu \eqref{eq:1.2.2.1} da bi dobili predstavu negativnog broja
+\item Koristimo formulu \eqref{eq:1.2.2.1} da bismo dobili predstavu negativnog broja
 
 \end{enumerate}
 
@@ -834,7 +836,7 @@ Primenom navedenih koraka dobijamo:
 
 % Izvor DOCX: blok 155
 \begin{equation}\label{eq:2.4.1}
-\{ - \left( \frac{10^{4}}{2} - 1 \right),\  + \left( \frac{10^{4}}{2} - 1 \right)\}
+\{ - \left( \frac{10^{4}}{2} - 1 \right),\ldots, + \left( \frac{10^{4}}{2} - 1 \right)\}
 \end{equation}
 \begin{equation}\label{eq:2.4.2}
 \{ - 4999, - 4998,\ldots,4998,\ 4999\ \}
@@ -848,19 +850,19 @@ Odgovarajuće predstave vrednosti u komplementu maksimalne vrednosti su:
 
 % Izvor DOCX: blok 157
 \begin{equation}\label{eq:2.4.3}
-\ \ \ \  - 1952 \equiv 9999 - 1952 = 8047_{KMV}
+\ \ \ \  - 1952 \longmapsto 9999 - 1952 = 8047_{KMV}
 \end{equation}
 \begin{equation}\label{eq:2.4.4}
-\ \ \ \  - 4399 \equiv 9999 - 4399 = 5600_{KMV}
+\ \ \ \  - 4399 \longmapsto 9999 - 4399 = 5600_{KMV}
 \end{equation}
 \begin{equation}\label{eq:2.4.5}
-\ \ \ \  - 34 \equiv 9999 - 34 = 9965_{KMV}
+\ \ \ \  - 34 \longmapsto 9999 - 34 = 9965_{KMV}
 \end{equation}
 \begin{equation}\label{eq:2.4.6}
-\ \ \ \ \ \ \ 0 \equiv 9999 - 0 = 9999_{KMV}
+\ \ \ \ \ \ \ 0 \longmapsto 9999 - 0 = 9999_{KMV}
 \end{equation}
 \begin{equation}\label{eq:2.4.7}
--1 \equiv 9999 - 1 = 9998_{KMV}
+-1 \longmapsto 9999 - 1 = 9998_{KMV}
 \end{equation}
 
 
@@ -893,16 +895,16 @@ Odgovarajuće predstave vrednosti u komplementu maksimalne vrednosti su:
 \text{\(- B2A4\) – izlazi iz skupa i nije moguće predstaviti}
 \end{equation}
 \begin{equation}\label{eq:2.4.12}
-\ \ \ \  - F24 \equiv FFFF - F24 = {F0DB}_{KMV}
+\ \ \ \  - F24 \longmapsto FFFF - F24 = {F0DB}_{KMV}
 \end{equation}
 \begin{equation}\label{eq:2.4.13}
-\ \ \ \  - 1E \equiv FFFF - 1E = {FFE1}_{KMV}
+\ \ \ \  - 1E \longmapsto FFFF - 1E = {FFE1}_{KMV}
 \end{equation}
 \begin{equation}\label{eq:2.4.14}
-\ \ \ \ \ \ \ 0 \equiv FFFF - 0 = {FFFF}_{KMV}
+\ \ \ \ \ \ \ 0 \longmapsto FFFF - 0 = {FFFF}_{KMV}
 \end{equation}
 \begin{equation}\label{eq:2.4.15}
--1 \equiv FFFF - 1 = {FFFE}_{KMV}
+-1 \longmapsto FFFF - 1 = {FFFE}_{KMV}
 \end{equation}
 
 
@@ -939,13 +941,13 @@ Odgovarajuće predstave vrednosti u komplementu maksimalne vrednosti su:
 \text{\(- 7377\) - Izlazi iz skupa}
 \end{equation}
 \begin{equation}\label{eq:2.4.21}
-\ \ \ \  - 42 \equiv 7777 - 42 = 7735_{KMV}
+\ \ \ \  - 42 \longmapsto 7777 - 42 = 7735_{KMV}
 \end{equation}
 \begin{equation}\label{eq:2.4.22}
-\ \ \ \ \ \ \ 0\  \equiv 7777 - 0 = 7777_{KMV}
+\ \ \ \ \ \ \ 0\  \longmapsto 7777 - 0 = 7777_{KMV}
 \end{equation}
 \begin{equation}\label{eq:2.4.23}
--1 \equiv 7777 - 1 = 7776_{KMV}
+-1 \longmapsto 7777 - 1 = 7776_{KMV}
 \end{equation}
 
 
@@ -978,16 +980,16 @@ Odgovarajuće predstave vrednosti u komplementu maksimalne vrednosti su:
 \text{\(- 1011\) - Izlazi iz skupa}
 \end{equation}
 \begin{equation}\label{eq:2.4.28}
-\ \ \ \  - 0101 \equiv 1111 - 0101 = 1010_{KMV}
+\ \ \ \  - 0101 \longmapsto 1111 - 0101 = 1010_{KMV}
 \end{equation}
 \begin{equation}\label{eq:2.4.29}
 -(11)_2\ \longmapsto\ (1111)_2-(0011)_2=(1100)_{2,\mathrm{KMV}}
 \end{equation}
 \begin{equation}\label{eq:2.4.30}
-\ \ \ \ \ \ \ \ \ 0 \equiv 1111 - 0 = 1111_{KMV}
+\ \ \ \ \ \ \ \ \ 0 \longmapsto 1111 - 0 = 1111_{KMV}
 \end{equation}
 \begin{equation}\label{eq:2.4.31}
--1 \equiv 1111 - 1 = 1110_{KMV}
+-1 \longmapsto 1111 - 1 = 1110_{KMV}
 \end{equation}
 
 
@@ -1057,16 +1059,16 @@ Odgovarajuće predstave vrednosti u komplementu osnove su:
 -1952\ \longmapsto\ 10000-1952=8048_{\mathrm{KO}}=8047_{\mathrm{KMV}}+1
 \end{equation}
 \begin{equation}\label{eq:2.5.4}
-\ \ \ \  - 4399 \equiv 10000 - 4399 = 5601_{KO} = 5600_{KMV} + 1
+\ \ \ \  - 4399 \longmapsto 10000 - 4399 = 5601_{KO} = 5600_{KMV} + 1
 \end{equation}
 \begin{equation}\label{eq:2.5.5}
-\ \ \ \  - 34 \equiv 10000 - 34 = 9966_{KO} = 9965_{KMV} + 1
+\ \ \ \  - 34 \longmapsto 10000 - 34 = 9966_{KO} = 9965_{KMV} + 1
 \end{equation}
 \begin{equation}\label{eq:2.5.6}
 0\ \longmapsto\ (10000-0)\bmod10000=0000_{\mathrm{KO}}
 \end{equation}
 \begin{equation}\label{eq:2.5.7}
--1 \equiv 10000 - 1 = 9999_{KO} = 9998_{KMV} + 1
+-1 \longmapsto 10000 - 1 = 9999_{KO} = 9998_{KMV} + 1
 \end{equation}
 
 
@@ -1099,16 +1101,16 @@ Odgovarajuće predstave vrednosti u komplementu osnove su:
 \text{\(- B2A4\) – izlazi iz skupa i nije moguće predstaviti}
 \end{equation}
 \begin{equation}\label{eq:2.5.12}
-\ \ \ \  - F24 \equiv 10000 - F24 = {F0DC}_{KO} = {F0DB}_{KMV} + 1
+\ \ \ \  - F24 \longmapsto 10000 - F24 = {F0DC}_{KO} = {F0DB}_{KMV} + 1
 \end{equation}
 \begin{equation}\label{eq:2.5.13}
-\ \ \ \  - 1E \equiv 10000 - 1E = {FFE2}_{KO} = {FFE1}_{KMV} + 1
+\ \ \ \  - 1E \longmapsto 10000 - 1E = {FFE2}_{KO} = {FFE1}_{KMV} + 1
 \end{equation}
 \begin{equation}\label{eq:2.5.14}
 0\ \longmapsto\ (10000_{16}-0)\bmod16^4=0000_{\mathrm{KO}}
 \end{equation}
 \begin{equation}\label{eq:2.5.15}
--1 \equiv 10000 - 1 = {FFFF}_{KO} = {FFFE}_{KMV} + 1
+-1 \longmapsto 10000 - 1 = {FFFF}_{KO} = {FFFE}_{KMV} + 1
 \end{equation}
 
 
@@ -1145,13 +1147,13 @@ Odgovarajuće predstave vrednosti u komplementu osnove su:
 \text{\(- 7377\) - Izlazi iz skupa}
 \end{equation}
 \begin{equation}\label{eq:2.5.21}
-\ \ \ \ \ \  - 42 \equiv 10000 - 42 = 7736_{KO} = 7735_{KMV} + 1
+\ \ \ \ \ \  - 42 \longmapsto 10000 - 42 = 7736_{KO} = 7735_{KMV} + 1
 \end{equation}
 \begin{equation}\label{eq:2.5.22}
 0\ \longmapsto\ (10000_8-0)\bmod8^4=0000_{\mathrm{KO}}
 \end{equation}
 \begin{equation}\label{eq:2.5.23}
--1 \equiv 10000 - 1 = 7777_{KO} = 7776_{KMV} + 1
+-1 \longmapsto 10000 - 1 = 7777_{KO} = 7776_{KMV} + 1
 \end{equation}
 
 
@@ -1209,7 +1211,7 @@ Potrebno je primetiti da se u slučaju binarnih vrednosti predstava u komplement
 
 % Izvor DOCX: blok 195
 \begin{enumerate}[label=\alph*),start=1,leftmargin=*]
-\item Predstaviti sledeće označene brojeve u komplementu osnove sa 4 cifre:
+\item Proširiti sledeće kodne reči u komplementu osnove na četiri cifre. Spoljašnji minus označava negiranje vrednosti kodne reči:
 
 \end{enumerate}
 
@@ -1220,7 +1222,7 @@ Potrebno je primetiti da se u slučaju binarnih vrednosti predstava u komplement
 
 
 % Izvor DOCX: blok 197
-b) Predstaviti sledeće označene brojeve u komplementu maksimalne vrednosti sa 4 cifre:
+b) Proširiti sledeće kodne reči u komplementu maksimalne vrednosti na četiri cifre. Spoljašnji minus označava negiranje vrednosti kodne reči:
 
 
 
@@ -1235,13 +1237,13 @@ b) Predstaviti sledeće označene brojeve u komplementu maksimalne vrednosti sa 
 \napomena{U ovom zadatku zapisi su već kodne reči u predstavi iz odgovarajuće tačke (KO u a, KMV u b). Spoljašnji minus znači negiranje dekodirane vrednosti. Zato $-(54)_{10,\mathrm{KMV}}$ označava suprotnu vrednost kodne reči 54, koja predstavlja $-45$; rezultat je $+45$. To nije običan decimalni broj $-54$.}
 
 % Izvor DOCX: blok 200
-U zavisnosti od toga da li ispred broja stoji znak „+“ ili „-“, predstava označenih brojeva u istoj osnovi se određuje na jedan od sledećih načina
+U zavisnosti od toga da li ispred broja stoji znak „+“ ili „-“, predstava označenih brojeva u istoj osnovi se određuje na jedan od sledećih načina:
 
 
 
 % Izvor DOCX: blok 201
 \begin{enumerate}[label=\arabic*),start=1,leftmargin=*]
-\item Ako ispred broja \textbf{stoji znak „-“} potrebno je napisati njegovu suprotnu vrednost. Ukoliko broj ima manje od traženog broja cifara, neophodno je izvršiti ekstenziju znaka pre određivanja suprotne vrednosti. Prilikom ekstenzije, ukoliko se broj tumači kao pozitivan, dodaje se potreban broj nula, dok ukoliko se broj tumači kao negativan dodaje se potreban broj najvećih cifara koje je moguće zapisati u datoj osnovi (m = r - 1). Broj se tumači kao pozitivan ako je cifra najveće težine iz skupa vrednosti:
+\item Ako ispred broja \textbf{stoji znak „-“} potrebno je napisati njegovu suprotnu vrednost. Ukoliko broj ima manje od traženog broja cifara, neophodno je izvršiti ekstenziju znaka pre određivanja suprotne vrednosti. Prilikom ekstenzije, ukoliko se broj tumači kao pozitivan, dodaje se potreban broj nula, dok ukoliko se broj tumači kao negativan dodaje se potreban broj najvećih cifara koje je moguće zapisati u datoj osnovi (m = r - 1). Za parnu osnovu, kodna reč ima nenegativan znak ako je cifra najveće težine iz skupa vrednosti:
 
 \end{enumerate}
 
@@ -1253,7 +1255,7 @@ U zavisnosti od toga da li ispred broja stoji znak „+“ ili „-“, predstav
 
 
 % Izvor DOCX: blok 203
-a kao negativan ako je cifra nejveće težine iz skupa:
+a negativan znak ako je cifra najveće težine iz skupa (u KMV to uključuje i negativnu nulu):
 
 
 
@@ -1264,7 +1266,7 @@ a kao negativan ako je cifra nejveće težine iz skupa:
 
 
 % Izvor DOCX: blok 205
-Ako je osnova neparan broj, prilikom određivanja da li se broj tumači kao pozitivan ili negativan, potrebno je uzeti u obzir i ostale cifre
+Ako je osnova neparan broj, prilikom određivanja da li se broj tumači kao pozitivan ili negativan, potrebno je uzeti u obzir i ostale cifre.
 
 
 
@@ -1285,13 +1287,13 @@ Ako je osnova neparan broj, prilikom određivanja da li se broj tumači kao pozi
 
 
 % Izvor DOCX: blok 208
-\textbf{-45\textsubscript{10}}: pošto broj sadrži znak „-“ potrebno je odrediti njegovu suprotnu vrednost. Broj sadrži dve cifre dok su za predstavu suprotne vrednosti na raspolaganju četiri cifre. Dakle, pre određivanja suprotne vrednosti neophodno je izvršiti ekstenziju znaka. Pošto je broj predstavljen u osnovi 10, a cifra najveće težine je jednaka 4, jasno je da se deo broja iza znaka „-„ tumači kao pozitivan jer pripada skupu definisanom sa \eqref{eq:2.6.1}. Dakle, ekstenziju znaka treba realizovati dodavanjem dve vodeće nule između znaka „-“ i 45. Nakon toga, koristeći već dobro poznati algoritam za predstavu brojeva u komplementu osnove (sekcija \ref{sec:1.2.3}) dobijamo:
+\textbf{-45\textsubscript{10}}: pošto broj sadrži znak „-“ potrebno je odrediti njegovu suprotnu vrednost. Broj sadrži dve cifre dok su za predstavu suprotne vrednosti na raspolaganju četiri cifre. Dakle, pre određivanja suprotne vrednosti neophodno je izvršiti ekstenziju znaka. Pošto je broj predstavljen u osnovi 10, a cifra najveće težine je jednaka 4, jasno je da se deo broja iza znaka „$-$“ tumači kao pozitivan jer pripada skupu definisanom sa \eqref{eq:2.6.1}. Dakle, ekstenziju znaka treba realizovati dodavanjem dve vodeće nule između znaka „-“ i 45. Nakon toga, koristeći već dobro poznati algoritam za predstavu brojeva u komplementu osnove (sekcija \ref{sec:1.2.3}) dobijamo:
 
 
 
 % Izvor DOCX: blok 209
 \begin{equation}\label{eq:2.6.3}
-- 45_{10} \equiv 10000 - 0045 = 9955_{10 - KO}
+- 45_{10,\mathrm{KO}} \longmapsto 10000 - 0045 = 9955_{10,\mathrm{KO}}
 \end{equation}
 
 
@@ -1302,12 +1304,12 @@ Ako je osnova neparan broj, prilikom određivanja da li se broj tumači kao pozi
 
 % Izvor DOCX: blok 211
 \begin{equation}\label{eq:2.6.4}
-14_{8} \equiv 0014_{8 - KO}
+14_{8,\mathrm{KO}} \longmapsto 0014_{8,\mathrm{KO}}
 \end{equation}
 
 
 % Izvor DOCX: blok 212
-\textbf{1010\textsubscript{2}}: broj je već napisan sa odgovarajućim brojem cifara što znači da ostaje nepromenjen
+\textbf{1010\textsubscript{2}}: broj je već napisan sa odgovarajućim brojem cifara što znači da ostaje nepromenjen.
 
 
 
@@ -1318,7 +1320,7 @@ Ako je osnova neparan broj, prilikom određivanja da li se broj tumači kao pozi
 
 % Izvor DOCX: blok 214
 \begin{equation}\label{eq:2.6.5}
-01_{2} \equiv 0001_{2 - KO}
+01_{2,\mathrm{KO}} \longmapsto 0001_{2,\mathrm{KO}}
 \end{equation}
 
 
@@ -1329,7 +1331,7 @@ Ako je osnova neparan broj, prilikom određivanja da li se broj tumači kao pozi
 
 % Izvor DOCX: blok 216
 \begin{equation}\label{eq:2.6.6}
-10_{2} \equiv 1110_{2 - KO}
+10_{2,\mathrm{KO}} \longmapsto 1110_{2,\mathrm{KO}}
 \end{equation}
 
 
@@ -1341,13 +1343,13 @@ Ako je osnova neparan broj, prilikom određivanja da li se broj tumači kao pozi
 
 
 % Izvor DOCX: blok 218
-\textbf{-54\textsubscript{10}}: pošto broj sadrži znak „-“ potrebno je odrediti njegovu suprotnu vrednost. Broj sadrži dve cifre dok su za predstavu suprotne vrednosti na raspolaganju četiri cifre. Dakle, pre određivanja suprotne vrednosti neophodno je izvršiti ekstenziju znaka. Pošto je broj predstavljen u osnovi 10, a cifra najveće težine je jednaka 5, jasno je da se deo broja iza znaka „-„ tumači kao negativan jer pripada skupu definisanom sa \eqref{eq:2.6.2}. Dakle, ekstenziju znaka treba realizovati dodavanjem dve maksimalne cifre koje je moguće predstaviti u osnovi 10, a to su cifre 9. Dakle, predstava broja u komplementu maksimalne vrednosti je:
+\textbf{-54\textsubscript{10}}: pošto broj sadrži znak „-“ potrebno je odrediti njegovu suprotnu vrednost. Broj sadrži dve cifre dok su za predstavu suprotne vrednosti na raspolaganju četiri cifre. Dakle, pre određivanja suprotne vrednosti neophodno je izvršiti ekstenziju znaka. Pošto je broj predstavljen u osnovi 10, a cifra najveće težine je jednaka 5, jasno je da se deo broja iza znaka „$-$“ tumači kao negativan jer pripada skupu definisanom sa \eqref{eq:2.6.2}. Dakle, ekstenziju znaka treba realizovati dodavanjem dve maksimalne cifre koje je moguće predstaviti u osnovi 10, a to su cifre 9. Dakle, predstava broja u komplementu maksimalne vrednosti je:
 
 
 
 % Izvor DOCX: blok 219
 \begin{equation}\label{eq:2.6.7}
-- 54_{10} \equiv 9999 - 9954 = 0045_{10 - KMV}
+- 54_{10,\mathrm{KMV}} \longmapsto 9999 - 9954 = 0045_{10,\mathrm{KMV}}
 \end{equation}
 
 
@@ -1363,7 +1365,7 @@ Ako je osnova neparan broj, prilikom određivanja da li se broj tumači kao pozi
 
 
 % Izvor DOCX: blok 222
-\textbf{1010\textsubscript{2}}: broj ne sadrži znak „-“ i broj cifara je jednak traženom broju što znači da broj ostaje nepromenjen
+\textbf{1010\textsubscript{2}}: broj ne sadrži znak „-“ i broj cifara je jednak traženom broju što znači da broj ostaje nepromenjen.
 
 
 
@@ -1374,7 +1376,7 @@ Ako je osnova neparan broj, prilikom određivanja da li se broj tumači kao pozi
 
 % Izvor DOCX: blok 224
 \begin{equation}\label{eq:2.6.9}
-01_{2} \equiv 0001_{2 - KMV}
+01_{2,\mathrm{KMV}} \longmapsto 0001_{2,\mathrm{KMV}}
 \end{equation}
 
 
@@ -1385,7 +1387,7 @@ Ako je osnova neparan broj, prilikom određivanja da li se broj tumači kao pozi
 
 % Izvor DOCX: blok 226
 \begin{equation}\label{eq:2.6.10}
-10_{2} \equiv 1110_{2 - KMV}
+10_{2,\mathrm{KMV}} \longmapsto 1110_{2,\mathrm{KMV}}
 \end{equation}
 
 
@@ -1417,7 +1419,7 @@ b) Odrediti suprotne vrednosti sledećih trobitnih brojeva datih u drugom komple
 
 
 % Izvor DOCX: blok 233
-\textbf{-18}: Pošto je broj dat u osnovi 10 a zahteva se predstava broja u osnovi 2, najpre je neophodno izvršiti konverziju broja, iza znaka „-“, iz jednog u drugi brojni sistem pri čemu se u binarnom brojnom sistem, deo broja iza znaka „-“ predstavlja na traženom broju bita. Dakle, predstava u binarnom brojnom sistemu, na traženom broju bita, je:
+\textbf{-18}: Pošto je broj dat u osnovi 10 a zahteva se predstava broja u osnovi 2, najpre je neophodno izvršiti konverziju broja, iza znaka „-“, iz jednog u drugi brojni sistem pri čemu se u binarnom brojnom sistemu, deo broja iza znaka „-“ predstavlja na traženom broju bita. Dakle, predstava u binarnom brojnom sistemu, na traženom broju bita, je:
 
 
 
@@ -1428,13 +1430,13 @@ b) Odrediti suprotne vrednosti sledećih trobitnih brojeva datih u drugom komple
 
 
 % Izvor DOCX: blok 235
-Pošto se ispred broja nalazi znak “-”, neophodno je odrediti njegovu suprotnu vrednost u binarnom brojnom sistemu
+Pošto se ispred broja nalazi znak “-”, neophodno je odrediti njegovu suprotnu vrednost u binarnom brojnom sistemu.
 
 
 
 % Izvor DOCX: blok 236
 \begin{equation}\label{eq:2.7.2}
-- \ 00010010 \equiv 11111111 - 00010010 + 1 = 11101110
+- \ 00010010 \longmapsto 11111111 - 00010010 + 1 = 11101110
 \end{equation}
 
 
@@ -1445,7 +1447,7 @@ Pošto se ispred broja nalazi znak “-”, neophodno je odrediti njegovu suprot
 
 % Izvor DOCX: blok 238
 \begin{equation}\label{eq:2.7.3}
-- \ 01111000 \equiv 11111111 - 01111000 + 1 = 10001000
+- \ 01111000 \longmapsto 11111111 - 01111000 + 1 = 10001000
 \end{equation}
 
 
@@ -1456,7 +1458,7 @@ Pošto se ispred broja nalazi znak “-”, neophodno je odrediti njegovu suprot
 
 % Izvor DOCX: blok 240
 \begin{equation}\label{eq:2.7.4}
-0 \equiv 00000000
+0 \longmapsto 00000000
 \end{equation}
 
 
@@ -1495,7 +1497,7 @@ Pošto se ispred broja nalazi znak “-”, neophodno je odrediti njegovu suprot
 128: nije moguće predstaviti na osam bita u drugom komplementu, čiji je opseg $[-128,127]$.
 
 % Izvor DOCX: blok 248
-b) Najpre proširimo znak sa tri na šest bita, a zatim odredimo drugi komplement na šest bita. Time postupak ostaje ispravan i za najmanji trobitni broj $100_2=-4$, čija suprotna vrednost ne staje na tri bita.
+b) Najpre proširimo znak sa tri na šest bita, a zatim odredimo drugi komplement na šest bita. Time postupak ostaje ispravan i za najmanji trobitni broj $(100)_{2,\mathrm{KO}}=-4$, čija suprotna vrednost ne staje na tri bita.
 
 % Izvor DOCX: blok 249
 \begin{equation}\label{eq:2.7.9}
@@ -1511,12 +1513,13 @@ b) Najpre proširimo znak sa tri na šest bita, a zatim odredimo drugi komplemen
 -(000001)_{2,\mathrm{KO}}\ \longmapsto\ (111111)_{2,\mathrm{KO}}
 \end{equation}
 
-\begin{equation}
+\begin{equation}\label{eq:2.7.13}
 -(000)_{2,\mathrm{KO}}=0\ \longmapsto\ (000000)_{2,\mathrm{KO}}
 \end{equation}
 
 % Izvor DOCX: blok 250
 \FloatBarrier
+\clearpage
 \section{Zadaci za samostalni rad}\label{sec:3}
 
 

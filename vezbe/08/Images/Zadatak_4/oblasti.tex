@@ -15,9 +15,10 @@
 \draw[Primary,thick](.4,0)--(1.2,.8)node[right]{$v_I=v_U-V_{TN}$};
 \draw[orange,thick](0,.4)--(.8,1.2)node[above]{$v_I=v_U+|V_{TP}|$};
 \foreach\x in{.4,.8,1.2}\node[below]at(\x,0){\x};
-\draw[black,very thick] (0,1.17)--(.35,1.17)
- .. controls (.55,1.17) and (.59,1.0) .. (.6,.6)
- .. controls (.61,.15) and (.7,.04) .. (.9,.04)--(1.2,.04);
+\draw[black,very thick] (0,1.2)--(.4,1.2)
+ .. controls (.53,1.2) and (.59,1.13) .. (.6,1)
+ --(.6,.2)
+ .. controls (.61,.07) and (.67,0) .. (.8,0)--(1.2,0);
 \node at(.18,.92){I};
 \node at(.48,1.08){II};
 \node at(.46,.60){III};
@@ -27,6 +28,7 @@
  I: N ne vodi, P omski\qquad II: N zasićen, P omski\\
  III: oba zasićena\qquad IV: N omski, P zasićen\\
  V: N omski, P ne vodi\\[3pt]
- Crna kriva ilustruje oblik karakteristike prenosa.};
+ I--V: oblasti duž karakteristike prenosa.\\
+ Crna linija je shematska; $V_S$ zavisi od odnosa geometrija.};
 \end{tikzpicture}
 \end{document}
