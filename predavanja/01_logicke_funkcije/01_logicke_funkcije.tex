@@ -1,7 +1,18 @@
 % Jedan izvorni slajd = jedan frame = jedna PDF strana.
 \documentclass[aspectratio=169,11pt]{beamer}
-\usepackage{../_zajednicko/stil}
-\usepackage{../_zajednicko/dijagrami}
+\newcommand{\ETFTemaPutanja}{../_zajednicko/etf-v1}
+\makeatletter
+\edef\input@path{{\ETFTemaPutanja/}}
+\makeatother
+\usepackage{stil,dijagrami}
+% Nastavno isticanje u predavanju 01; nije zvanična ETF paleta.
+\definecolor{DEisticanje}{HTML}{A32638}
+\colorlet{DEcrvena}{DEisticanje}
+\input{slike/tikz/komponente.tex}
+\title[Digitalna elektronika 1 · 2021/22]{Logičke funkcije}
+\author{prof. dr Lazar Saranovac}
+\institute{Katedra za elektroniku, Elektrotehnički fakultet}
+\date{2021/22}
 \begin{document}
 \input{slajdovi/s001_logicke_funkcije.tex}
 \input{slajdovi/s002_digitalni_sistem.tex}

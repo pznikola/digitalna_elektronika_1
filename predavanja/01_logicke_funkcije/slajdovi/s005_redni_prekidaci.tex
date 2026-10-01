@@ -1,27 +1,26 @@
+% Izvor: PDF strana 3, gornji slajd. Redizajn B / etf-v1.
 \slajdid{01-s005}
-\begin{frame}[label=01-s005]{PRIMER}
-\centering
-\input{slike/tikz/s005_redni_prekidaci.tex}
+\begin{frame}[label=01-s005]{Redna veza prekidača}
+% element: 01-s005:e01
 \begin{columns}[T,onlytextwidth]
-\begin{column}{.49\textwidth}
-\gusttekst
-TVRDNJA1 – PREKIDAČ P1 ZATVOREN\\
-TVRDNJA2 – PREKIDAČ P2 ZATVOREN\\
-TVRDNJA3 – SIJALICA S SVETLI
-
+\begin{column}{.57\textwidth}
+{\centering\input{slike/tikz/s005_redni_prekidaci.tex}\par}
 \vspace{2mm}
-TVRDNJA TAČNA - \(\top\)\\
-TVRDNJA NETAČNA - \(\bot\)
+% element: 01-s005:e02
+{\fontsize{11}{13}\selectfont\setlength{\parskip}{0pt}
+Tvrdnja 1 – prekidač P1 zatvoren\par
+Tvrdnja 2 – prekidač P2 zatvoren\par
+Tvrdnja 3 – sijalica S svetli\par}
 \end{column}
-\begin{column}{.49\textwidth}
-\centering
-\input{tabele/s005_redna_veza.tex}
-\par \( \mathrm{S}=\mathrm{P1}\land\mathrm{P2} \)
+\begin{column}{.38\textwidth}
+{\centering\input{tabele/s005_redna_veza.tex}\par}
+\vspace{2mm}
+{\centering\fontsize{11}{13}\selectfont\setlength{\parskip}{0pt}
+Tvrdnja tačna – \(\top\)\par
+Tvrdnja netačna – \(\bot\)\par}
 \end{column}
 \end{columns}
 \vspace{2mm}
-\raggedright\gusttekst
-P1 – promenljiva kojoj je pridruženo „stanje“ prekidača P1\\
-P2 – promenljiva kojoj je pridruženo „stanje“ prekidača P2\\
-S – promenljiva kojoj je pridruženo „stanje“ sijalice S
+% element: 01-s005:e03
+\Rezultat{\centering \(\mathrm{S}=\mathrm{P1}\land\mathrm{P2}\)}
 \end{frame}

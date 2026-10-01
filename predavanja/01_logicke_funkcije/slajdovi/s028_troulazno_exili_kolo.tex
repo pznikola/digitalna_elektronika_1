@@ -1,17 +1,18 @@
+% Izvor: PDF strana 14, donji slajd. Redizajn B / etf-v1.
 \slajdid{01-s028}
-\begin{frame}[label=01-s028]{Višeulazna logička kola}
-Troulazno EXILI kolo \hfill \input{slike/tikz/s028_troulazni_exili.tex}
-
-Za dvoulazno
-\[
-y=x_1\oplus x_2=x_1\cdot\overline{x_2}+\overline{x_1}\cdot x_2
-\]
-Za troulazno da li važi
-\[
-y=x_1\oplus x_2\oplus x_3=(x_1\oplus x_2)\oplus x_3=x_1\oplus(x_2\oplus x_3)
-\]
-\centering
-Ako važi jednačina onda važi i
-
-\input{slike/tikz/s028_kaskada_exili.tex}
+\begin{frame}[label=01-s028]{Troulazno EXILI i kaskada}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.44\textwidth}
+% element: 01-s028:e01
+\Oznaka{Direktno troulazno EXILI kolo}\centering\input{slike/tikz/s028_troulazni_exili.tex}
+\end{column}
+\begin{column}{.52\textwidth}
+% element: 01-s028:e02
+\Oznaka{Dvoulazna funkcija}
+\[x_1\oplus x_2=x_1\bar{x}_2+\bar{x}_1x_2\]
+\end{column}\end{columns}
+% element: 01-s028:e03
+\Oznaka{Asocijativnost i kaskadna realizacija}
+\[y=x_1\oplus x_2\oplus x_3=(x_1\oplus x_2)\oplus x_3=x_1\oplus(x_2\oplus x_3)\]
+\centering\input{slike/tikz/s028_kaskada_exili.tex}\par
 \end{frame}

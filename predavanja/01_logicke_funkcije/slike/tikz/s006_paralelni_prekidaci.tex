@@ -1,8 +1,10 @@
-\begin{circuitikz}[DEoznaka,scale=.8]
-\draw[DEvod] (0,0) to[battery1,invert,l=E] (0,1.5) -- (1,1.5);
-\draw[DEvod] (1,1.5) -- (1,1.9) to[nos,l=P1] (3,1.9) -- (3,1.5);
-\draw[DEvod] (1,1.5) -- (1,1.1) to[nos,l=P2] (3,1.1) -- (3,1.5) -- (4,1.5) -- (4,1.05);
-\node[circle,draw,minimum size=7mm,inner sep=0pt] (s) at (4,.7) {S};
-\draw[DEvod] (s.south) -- (4,0) -- (0,0);
-\node at (.35,.95) {\(+\)};
-\end{circuitikz}
+\begin{tikzpicture}[labeltext,wire/.style={draw=black,line width=.8pt}]
+\draw[wire] (0,0)--(0,.64) (0,.94)--(0,1.8) (0,0)--(4.2,0)--(4.2,.55);
+\draw[wire] (-.24,.94)--(.24,.94) (-.13,.64)--(.13,.64);
+\node[left] at (-.24,.79) {E};\node[right] at (.24,1.12) {\(+\)};
+\node[circle,draw=black,line width=.8pt,minimum size=7mm,inner sep=0pt] (s) at (4.2,.9) {S};
+\draw[wire] (s.north)--(4.2,1.8);
+\draw[wire] (0,1.8)--(.8,1.8) (.8,1.25)--(.8,2.35) (3.2,1.25)--(3.2,2.35) (3.2,1.8)--(4.2,1.8);
+\foreach \y/\lab in {2.35/P1,1.25/P2}{\draw[wire] (.8,\y)--(1.65,\y)--(2.25,\y+.22) (2.35,\y)--(3.2,\y);\draw[wire,fill=white] (1.65,\y) circle(1.4pt) (2.35,\y) circle(1.4pt);\node[above] at (2,\y+.22) {\lab};}
+\fill (.8,1.8) circle(1.4pt) (3.2,1.8) circle(1.4pt);
+\end{tikzpicture}

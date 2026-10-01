@@ -1,16 +1,14 @@
+% Izvor: PDF strana 13, donji slajd. Redizajn B / etf-v1.
 \slajdid{01-s026}
-\begin{frame}[label=01-s026]{Višeulazna logička kola}
-Troulazno NI kolo
+\begin{frame}[label=01-s026]{Troulazno NI: pogrešna i ispravna kaskada}
+\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}
+% element: 01-s026:e01
+\Oznaka{Dva NI kola u kaskadi nisu isto što i direktno troulazno NI.}
+\centering\input{slike/tikz/s026_pogresna_kaskada.tex}\par
+\[\overline{x_1x_2x_3}\ne\overline{\overline{x_1x_2}\,x_3}\]
+% element: 01-s026:e02
+\Oznaka{Ispravno: I kolo pa NI kolo.}
+\centering\input{slike/tikz/s026_ispravna_kaskada.tex}\par
+\[y=\overline{x_1x_2x_3}=\overline{(x_1x_2)x_3}\]
 
-\centering
-\input{slike/tikz/s026_pogresna_kaskada.tex}
-\[
-y=\overline{x_1\cdot x_2\cdot x_3}
-\ne \overline{\overline{(x_1\cdot x_2)}\cdot x_3}
-\]
-\[
-y=\overline{x_1\cdot x_2\cdot x_3}
-=\overline{(x_1\cdot x_2)\cdot x_3}
-\]
-\input{slike/tikz/s026_ispravna_kaskada.tex}
 \end{frame}

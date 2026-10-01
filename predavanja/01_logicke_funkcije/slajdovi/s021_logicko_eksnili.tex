@@ -1,29 +1,13 @@
+% Izvor: PDF strana 11, gornji slajd. Redizajn B / etf-v1.
 \slajdid{01-s021}
-\begin{frame}[label=01-s021]
-\input{tabele/s021_sve_binarne_operacije.tex}
-
-\centering\vspace{3mm}Logičko EKSNILI kolo (EXNOR)
-
-\vspace{3mm}
+\begin{frame}[label=01-s021]{Ekskluzivno NILI (EXNOR)}
+% element: 01-s021:e03
+\Oznaka{Negirano ekskluzivno ILI kolo. Izlaz je 1 kada su ulazi jednaki.}
+% element: 01-s021:e01
+\centering{\renewcommand{\arraystretch}{1.0}\input{tabele/s021_sve_binarne_operacije.tex}}\par\vspace{4mm}
+% element: 01-s021:e02
 \begin{columns}[T,onlytextwidth]
-\begin{column}{.30\textwidth}\centering
-Funkcionalna tabela
-
-\input{tabele/s021_funkcionalna_tabela.tex}
-\end{column}
-\begin{column}{.31\textwidth}\centering
-Jednačine
-\[\alert{z=\overline{x\oplus y}}\]
-
-\end{column}
-\begin{column}{.35\textwidth}\centering
-Električne šeme
-
-\input{slike/tikz/s021_xnor.tex}
-
-Logičko EKSNILI kolo
-\par\vspace{4mm}\input{slike/tikz/s021_razlozeno_kolo.tex}
-\end{column}
-\end{columns}
-
+\begin{column}{.29\textwidth}\centering\Oznaka{Funkcionalna tabela}\vspace{2mm}{\renewcommand{\arraystretch}{1.0}\input{tabele/s021_funkcionalna_tabela.tex}}\end{column}
+\begin{column}{.33\textwidth}\centering\Oznaka{Jednačina}\vspace{1mm}\[\boxed{z=\overline{x\oplus y}}\]\end{column}
+\begin{column}{.35\textwidth}\centering\Oznaka{Šematski simbol}\vspace{1mm}\input{slike/tikz/s021_xnor.tex}\par\vspace{2mm}\Oznaka{Razloženo kolo}\input{slike/tikz/s021_razlozeno_kolo.tex}\end{column}\end{columns}
 \end{frame}

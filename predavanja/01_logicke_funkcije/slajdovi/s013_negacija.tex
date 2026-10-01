@@ -1,32 +1,34 @@
+% Izvor: PDF strana 7, gornji slajd. Redizajn B / etf-v1.
 \slajdid{01-s013}
-\begin{frame}[label=01-s013]
-\centering
-\input{tabele/s013_unarne_negacija.tex}
-
-Negacija, Inverzija, Logička „NE“ operacija (NOT)
+\begin{frame}[label=01-s013]{Negacija (NOT)}
+% element: 01-s013:e03
+\begin{center}\fontsize{11}{13}\selectfont\textbf{Negacija, inverzija, logička „NE“ operacija (NOT)}\end{center}
+\vspace{-3mm}
+% element: 01-s013:e01
+\begin{center}\fontsize{9}{11}\selectfont\renewcommand{\arraystretch}{.9}
+\input{tabele/s013_unarne_negacija.tex}\end{center}
+% element: 01-s013:e02
+\vspace{2mm}
 \begin{columns}[T,onlytextwidth]
-\begin{column}{.32\textwidth}\centering
-Funkcionalna tabela
-
-\input{tabele/s013_negacija.tex}
+\begin{column}{.32\textwidth}
+\centering\setlength{\parskip}{0pt}
+\Oznaka{Funkcionalna tabela}\vspace{4mm}
+\input{tabele/s013_negacija.tex}\par
 \end{column}
-\begin{column}{.32\textwidth}\centering
-Jednačine
-\[\alert{y=\bar{x}}\]
-\[y=\neg x\]
-\[y=\mathord{\sim}x\]
+\begin{column}{.24\textwidth}
+\centering\setlength{\parskip}{0pt}
+\Oznaka{Jednačine}\vspace{7mm}
+\(\textcolor{DEcrvena}{y=\bar{x}}\)\par
+\(y=\neg x\)\par
+\(y=\sim x\)\par
 \end{column}
-\begin{column}{.32\textwidth}\centering
-Simbol za električne šeme
-
-\input{slike/tikz/s013_invertor.tex}
-
-Invertor
-\end{column}
-\end{columns}
-\vspace{3mm}
-\begin{beamercolorbox}[sep=2mm,center]{block body}
-digresija \qquad
-\input{slike/tikz/s013_digresija.tex}
-\end{beamercolorbox}
+\begin{column}{.40\textwidth}
+\centering\setlength{\parskip}{0pt}
+\Oznaka{Simbol za električne šeme}\vspace{3mm}
+\textbf{Invertor}\par\vspace{3mm}
+\input{slike/tikz/s013_invertor.tex}\par
+% element: 01-s013:e04
+\textbf{Digresija}\par\vspace{2mm}
+\input{slike/tikz/s013_digresija.tex}\par
+\end{column}\end{columns}
 \end{frame}

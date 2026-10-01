@@ -1,27 +1,13 @@
+% Izvor: PDF strana 17, gornji slajd. Redizajn B / etf-v1.
 \slajdid{01-s033}
-\begin{frame}[label=01-s033]{Aktivan logički nivo}
-\gusttekst
-Kao što smo razmišljali o izlazima možemo da razmišljamo i o ulazima
+\begin{frame}[label=01-s033]{Aktivan nivo na ulazima}
+% element: 01-s033:e01
+\Oznaka{I kolo sa invertiranim ulazima}
+\centering\input{slike/tikz/s033_invertovani_ulazi.tex}\par
+\[\boxed{z=\bar{x}\,\bar{y}}\]
+% element: 01-s033:e02
+Izlaz je \(1\) kada su oba ulaza I kola \(\bar{x}=\bar{y}=1\), što znači \(x=y=0\).
+% element: 01-s033:e03
+\ETFTekstSlika{\Rezultat{I kolo: aktivna \(1\) na izlazu, aktivne \(0\) na ulazima.}}{\input{slike/tikz/s033_aktivne_nule.tex}}
 
-\centering
-\input{slike/tikz/s033_invertovani_ulazi.tex}
-
-\raggedright
-Funkcija koju kolo radi je \quad \(z=\bar{x}\cdot\bar{y}\)
-
-I funkcija: na izlazu logička jedinica kada su na oba ulaza logičke jedinice
-
-Da bi signal \(\bar{x}\) bio logička jedinica \(x\) mora biti logička kola
-
-\begin{columns}[c,onlytextwidth]
-\begin{column}{.73\textwidth}\gusttekst
-Gledajući kompletno kolo\\
-na izlazu logička jedinica kada su na oba ulaza logičke nule
-\end{column}
-\begin{column}{.25\textwidth}
-\input{slike/tikz/s033_aktivne_nule.tex}
-\end{column}
-\end{columns}
-
-Logičko I kolo sa aktivnim nivoom logičke jedinice na izlazu i aktivnim nivoima logičke nule na ulazima
 \end{frame}

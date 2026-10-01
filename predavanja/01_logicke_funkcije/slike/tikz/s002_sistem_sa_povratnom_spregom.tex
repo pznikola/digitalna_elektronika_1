@@ -1,7 +1,9 @@
-\begin{tikzpicture}[DEoznaka]
-  \node[DEblok,minimum width=32mm,minimum height=13mm,fill=DEplava!8] (s) at (0,0) {SISTEM};
-  \draw[DEstrelica,line width=1.2pt] (-3.3,0) node[left] {ULAZI} -- (s.west);
-  \draw[DEstrelica,line width=1.2pt] (s.east) -- (3.3,0) node[right] {IZLAZI};
-  \draw[DEstrelica,draw=DEcrvena] (2.5,0) -- (2.5,-1.2) -- (-2.5,-1.2) -- (-2.5,0);
-  \node[below] at (0,-1.2) {POVRATNA SPREGA};
+\begin{tikzpicture}[labeltext]
+\node[DEblok,minimum width=30mm,minimum height=10mm,fill=Pale] (s) {Sistem};
+\draw[wire,-{Latex[length=2mm]}] (-2.6,0) node[left] {Ulazi} -- (s.west);
+\draw[wire,-{Latex[length=2mm]}] (s.east) -- (2.6,0) node[right] {Izlazi};
+\draw[flow] (2.1,0) -- (2.1,-.8) -- (-2.1,-.8) -- (-2.1,0);
+\node[junction] at (2.1,0) {};
+\node[junction] at (-2.1,0) {};
+\node[below,annotation] at (0,-.8) {Povratna sprega};
 \end{tikzpicture}

@@ -1,29 +1,13 @@
+% Izvor: PDF strana 10, gornji slajd. Redizajn B / etf-v1.
 \slajdid{01-s019}
-\begin{frame}[label=01-s019]
-\input{tabele/s019_sve_binarne_operacije.tex}
-
-\centering\vspace{3mm}Logičko NI kolo (NAND)
-
-\vspace{3mm}
+\begin{frame}[label=01-s019]{Logičko NI (NAND)}
+% element: 01-s019:e03
+\Oznaka{Negirano I kolo. Izlaz je 0 samo za x=y=1.}
+% element: 01-s019:e01
+\centering{\renewcommand{\arraystretch}{1.0}\input{tabele/s019_sve_binarne_operacije.tex}}\par\vspace{4mm}
+% element: 01-s019:e02
 \begin{columns}[T,onlytextwidth]
-\begin{column}{.30\textwidth}\centering
-Funkcionalna tabela
-
-\input{tabele/s019_funkcionalna_tabela.tex}
-\end{column}
-\begin{column}{.31\textwidth}\centering
-Jednačine
-\[\alert{z=\overline{x\cdot y}}\]
-
-\end{column}
-\begin{column}{.35\textwidth}\centering
-Električne šeme
-
-\input{slike/tikz/s019_nand.tex}
-
-Logičko NI kolo
-\par\vspace{4mm}\input{slike/tikz/s019_razlozeno_kolo.tex}
-\end{column}
-\end{columns}
-
+\begin{column}{.29\textwidth}\centering\Oznaka{Funkcionalna tabela}\vspace{2mm}{\renewcommand{\arraystretch}{1.0}\input{tabele/s019_funkcionalna_tabela.tex}}\end{column}
+\begin{column}{.33\textwidth}\centering\Oznaka{Jednačina}\vspace{1mm}\[\boxed{z=\overline{x\cdot y}}\]\end{column}
+\begin{column}{.35\textwidth}\centering\Oznaka{Šematski simbol}\vspace{1mm}\input{slike/tikz/s019_nand.tex}\par\vspace{2mm}\Oznaka{Razloženo kolo}\input{slike/tikz/s019_razlozeno_kolo.tex}\end{column}\end{columns}
 \end{frame}

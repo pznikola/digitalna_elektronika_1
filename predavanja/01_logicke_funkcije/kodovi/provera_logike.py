@@ -29,6 +29,8 @@ def main():
         assert (not (x and y)) == ((not x) or (not y))
         assert (not (x or y)) == ((not x) and (not y))
         assert ((x != y) != z) == (x != (y != z))
+        # Na s032: EXILI(x, y) pa EXNILI sa z daje troulazni EXNILI.
+        assert ((x != y) == z) == (not ((x != y) != z))
         assert (not ((x and y) and z)) == (not (x and y and z))
     assert any((not (x and y and z)) != (not ((not (x and y)) and z))
                for x, y, z in itertools.product((False, True), repeat=3))
@@ -36,7 +38,7 @@ def main():
         original = (x1 and x2) or (x3 and x4)
         nand_network = not ((not (x1 and x2)) and (not (x3 and x4)))
         assert original == nand_network
-    print("Provereno: 24 reda tabela, Bulovi identiteti, neekvivalentna NI kaskada i NI realizacija sa slajda 37.")
+    print("Provereno: 24 reda tabela, Bulovi identiteti, EXNILI kaskada s032, neekvivalentna NI kaskada i NI realizacija sa slajda 37.")
 
 
 if __name__ == "__main__":

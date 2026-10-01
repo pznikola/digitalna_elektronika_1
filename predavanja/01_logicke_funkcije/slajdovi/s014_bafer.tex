@@ -1,26 +1,29 @@
+% Izvor: PDF strana 7, donji slajd. Redizajn B / etf-v1.
 \slajdid{01-s014}
-\begin{frame}[label=01-s014]
-\centering
-\input{tabele/s014_unarne_bafer.tex}
-
-\vspace{3mm} Bafer
-
+\begin{frame}[label=01-s014]{Bafer}
+% element: 01-s014:e01
+\begin{center}\fontsize{9}{11}\selectfont\renewcommand{\arraystretch}{.9}
+\input{tabele/s014_unarne_bafer.tex}\end{center}
+% element: 01-s014:e02
+\vspace{4mm}
 \begin{columns}[T,onlytextwidth]
-\begin{column}{.32\textwidth}\centering
-Funkcionalna tabela
-
-\input{tabele/s014_bafer.tex}
+\begin{column}{.32\textwidth}
+\centering\setlength{\parskip}{0pt}
+\Oznaka{Funkcionalna tabela}\vspace{4mm}
+\input{tabele/s014_bafer.tex}\par
 \end{column}
-\begin{column}{.32\textwidth}\centering
-Jednačine
-\[\alert{y=x}\]
+\begin{column}{.24\textwidth}
+\centering\setlength{\parskip}{0pt}
+\Oznaka{Jednačina}\vspace{10mm}
+\(\textcolor{DEcrvena}{y=x}\)\par
 \end{column}
-\begin{column}{.32\textwidth}\centering
-Simbol za električne šeme
+\begin{column}{.40\textwidth}
+\centering\setlength{\parskip}{0pt}
+\Oznaka{Simbol za električne šeme}\vspace{3mm}
+\textbf{Bafer}\par\vspace{3mm}
+\input{slike/tikz/s014_bafer.tex}\par
+\end{column}\end{columns}
+% element: 01-s014:e03
+\vspace{5mm}\Rezultat{Bafer čuva logičku vrednost ulaza.}
 
-\input{slike/tikz/s014_bafer.tex}
-
-Bafer
-\end{column}
-\end{columns}
 \end{frame}

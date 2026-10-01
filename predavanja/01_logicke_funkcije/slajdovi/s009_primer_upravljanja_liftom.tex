@@ -1,25 +1,35 @@
+% Izvor: PDF strana 5, gornji slajd. Redizajn B / etf-v1.
 \slajdid{01-s009}
-\begin{frame}[label=01-s009]
-\centering\gusttekst
-REDNIM, PARALELNIM POVEZIVANJEM OVAKVIH PREKIDAČA\\
-MOGU DA SE RAZREŠE SVI „LOGIČKI“ PROBLEMI U\\
-REALIZACIJI REALNIH SISTEMA
+\begin{frame}[label=01-s009]{Logički opis upravljanja liftom}
+% element: 01-s009:e01
+\Rezultat{Rednim i paralelnim povezivanjem prekidača mogu se razrešiti svi „logički“ problemi pri realizaciji realnih sistema.}
+% element: 01-s009:e02
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.48\textwidth}\Oznaka{Uslovi}\begin{enumerate}
+\item Lift je na 3. spratu.
+\item Poziv sa 2. sprata „za dole“.
+\item Poziv sa 4. sprata „za gore“.
+\end{enumerate}\end{column}
+\begin{column}{.48\textwidth}\Oznaka{Akcije}\begin{enumerate}
+\setcounter{enumi}{3}
+\item Pokrenuti lift nagore.
+\item Zaustaviti ga na 4. spratu.
+\item Otvoriti vrata lifta.
+\end{enumerate}\end{column}\end{columns}
+% element: 01-s009:e03
+\par\vspace{5mm}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.43\textwidth}
+{\setlength{\parskip}{0pt}Možemo predstaviti promenljivama:\par
+\hspace{3mm}\(A\) — položaj na 3. spratu,\par
+\hspace{3mm}\(B\) — poziv sa 2. sprata,\par
+\hspace{3mm}\(\ldots\)\par
+\hspace{3mm}\(Y\) — komanda za kretanje nagore.\par}
+\end{column}
+\begin{column}{.54\textwidth}
+\centering\vspace{12mm}
+\(\boxed{Y=f(A,B,\ldots)}\;\longrightarrow\;\text{šema sa prekidačima}\)
+\end{column}
+\end{columns}
 
-\raggedright
-\begin{enumerate}
-\item LIFT JE NA 3. SPRATU
-\item DOBIJEN JE POZIV SA DRUGOG SPRATA „ZA DOLE“
-\item DOBIJEN JE POZIV SA ČETVRTOG SPRATA „ZA GORE“
-\item LIFT TREBA POKRENUTI NA GORE
-\item LIFT TREBA ZAUSTAVITI NA ČETVRTOM SPRATU
-\item OTVORITI VRATA LIFTA
-\end{enumerate}
-\hspace*{5mm} …
-
-1. TVRDNJA LIFT JE NA 3. SPRATU – PROMENLJIVA A\\
-2. TVRDNJA DOBIJEN JE POZIV SA DRUGOG SPRATA „ZA DOLE“ - PROMENLJIVA B\\
-…\\
-k. POKRETANJE LIFTA GORE – PROMENLJIVA Y
-
-\centering \(Y=f(A,B,\ldots)\) \quad \alert{\(\longrightarrow\)} \quad Šema sa prekidačima
 \end{frame}

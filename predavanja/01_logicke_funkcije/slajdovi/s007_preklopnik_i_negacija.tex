@@ -1,32 +1,10 @@
+% Izvor: PDF strana 4, gornji slajd. Redizajn B / etf-v1.
 \slajdid{01-s007}
-\begin{frame}[label=01-s007]{PRIMER}
-\centering
-\input{slike/tikz/s007_preklopnik_p1_p2.tex}
-\begin{columns}[T,onlytextwidth]
-\begin{column}{.63\textwidth}
-\gusttekst
-TVRDNJA1 – PREKIDAČ P1 ZATVOREN\\
-TVRDNJA2 – PREKIDAČ P2 ZATVOREN
-
-TVRDNJA TAČNA - \(\top\)\\
-TVRDNJA NETAČNA - \(\bot\)
-\end{column}
-\begin{column}{.33\textwidth}
-\centering
-\input{tabele/s007_preklopnik.tex}
-\par \(\mathrm{P2}=\overline{\mathrm{P1}}\)
-\end{column}
-\end{columns}
-\vspace{2mm}
-ZA P2 JE UVEK „SUPROTNA“ TVRDNJA OD P1
-
-\begin{columns}[c,onlytextwidth]
-\begin{column}{.35\textwidth}\centering
-\input{slike/tikz/s007_preklopnik_negacija.tex}
-\end{column}
-\begin{column}{.63\textwidth}\gusttekst
-NE TREBAJU NAM DVE PROMENLJIVE\\
-ZA OPIS STANJA OVOG PREKIDAČA
-\end{column}
-\end{columns}
+\begin{frame}[label=01-s007]{Preklopnik i negacija}
+% element: 01-s007:e01
+\begin{columns}[c,onlytextwidth]\begin{column}{.54\textwidth}\centering \input{slike/tikz/s007_preklopnik_p1_p2.tex}\par{\fontsize{11}{13}\selectfont Tvrdnja 1 – prekidač P1 zatvoren\par Tvrdnja 2 – prekidač P2 zatvoren\par}\end{column}\begin{column}{.41\textwidth}\centering \input{tabele/s007_preklopnik.tex}\par\vspace{2mm}{\fontsize{11}{13}\selectfont Tvrdnja tačna – \(\top\)\par Tvrdnja netačna – \(\bot\)\par}\end{column}\end{columns}
+% element: 01-s007:e02
+\medskip\Rezultat{\centering\(\mathrm{P2}=\overline{\mathrm{P1}}\)\quad — P2 je suprotna tvrdnja od P1.}
+% element: 01-s007:e03
+\medskip\begin{columns}[c,onlytextwidth]\begin{column}{.38\textwidth}\centering \input{slike/tikz/s007_preklopnik_negacija.tex}\end{column}\begin{column}{.58\textwidth}Za opis stanja ovog preklopnika dovoljna je \textbf{jedna promenljiva}.\end{column}\end{columns}
 \end{frame}

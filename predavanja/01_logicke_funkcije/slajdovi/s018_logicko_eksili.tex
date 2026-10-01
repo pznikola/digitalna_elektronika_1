@@ -1,29 +1,17 @@
+% Izvor: PDF strana 9, donji slajd. Redizajn B / etf-v1.
 \slajdid{01-s018}
-\begin{frame}[label=01-s018]
-\input{tabele/s018_sve_binarne_operacije.tex}
-
-\centering\vspace{3mm}Logička EKSILI operacija (EXOR)
-
-\vspace{3mm}
+\begin{frame}[label=01-s018]{Ekskluzivno ILI (EXOR)}
+% element: 01-s018:e03
+\Oznaka{Logičko ekskluzivno sabiranje}
+% element: 01-s018:e01
+\centering{\renewcommand{\arraystretch}{1.0}\input{tabele/s018_sve_binarne_operacije.tex}}\par\vspace{4mm}
+% element: 01-s018:e02
 \begin{columns}[T,onlytextwidth]
-\begin{column}{.30\textwidth}\centering
-Funkcionalna tabela
-
-\input{tabele/s018_funkcionalna_tabela.tex}
+\begin{column}{.29\textwidth}\centering\Oznaka{Funkcionalna tabela}\vspace{2mm}{\renewcommand{\arraystretch}{1.0}\input{tabele/s018_funkcionalna_tabela.tex}}\end{column}
+\begin{column}{.33\textwidth}\centering\Oznaka{Jednačine}\vspace{6mm}
+\(\displaystyle\textcolor{DEcrvena}{z=x\oplus y}\)\par\vspace{3mm}
+\(\displaystyle z=x\mathbin{\text{\textasciicircum}}y\)
 \end{column}
-\begin{column}{.31\textwidth}\centering
-Jednačine
-\[\alert{z=x\oplus y}\]
-\[z=x\mathbin{\text{\textasciicircum}}y\]
-\end{column}
-\begin{column}{.35\textwidth}\centering
-Električne šeme
-
-\input{slike/tikz/s018_xor.tex}
-
-Logičko EKSILI kolo
-\par\smallskip digresija\par DVOULAZNO
-\end{column}
-\end{columns}
-\vspace{3mm}logičko eksluzivno sabiranje
+\begin{column}{.35\textwidth}\centering\Oznaka{Šematski simbol}\vspace{1mm}\input{slike/tikz/s018_xor.tex}\par\vspace{1mm}
+\fbox{\parbox[c][10mm][c]{.72\linewidth}{\centering\textbf{digresija: dvoulazno}}}\end{column}\end{columns}
 \end{frame}
