@@ -1,0 +1,29 @@
+% Zajednički preambulum za dokument za čitanje; nije Beamer tema.
+\usepackage[a4paper,margin=20mm,headheight=15pt]{geometry}
+\usepackage{lmodern,fontspec}
+\usepackage[serbian]{babel}
+\setmainfont{Latin Modern Sans}
+\setsansfont{Latin Modern Sans}
+\setmonofont{Latin Modern Mono}
+\usepackage{amsmath,amssymb,mathtools,graphicx,xcolor}
+\usepackage{array,booktabs,tabularx,multirow,makecell,listings,fancyhdr}
+\pagestyle{fancy}\fancyhf{}
+\newcommand{\BeleskeTekuciID}{NEOZNACEN}
+\fancyhead[L]{\small Beleške uz slajd \texttt{\expandafter\detokenize\expandafter{\BeleskeTekuciID}}}
+\fancyfoot[R]{\small\thepage}
+\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}
+\newwrite\BeleskeMapa
+\immediate\openout\BeleskeMapa=\jobname.notes-map.tsv
+\AddToHook{shipout/before}{%
+  \immediate\write\BeleskeMapa{\BeleskeTekuciID\space\thepage}}
+\AddToHook{enddocument/afterlastpage}{\immediate\closeout\BeleskeMapa}
+\newcommand{\BeleskeID}[1]{%
+  \def\BeleskeZadatiID{#1}%
+  \ifx\BeleskeTekuciID\BeleskeZadatiID\else
+    \PackageError{beleske}{Pogresan ID beleske: #1}{Proveri mapiranje slajda.}%
+  \fi}
+\newcommand{\BeleskaSlajda}[4]{%
+  \clearpage\gdef\BeleskeTekuciID{#1}%
+  {\Large\bfseries Slajd \textnormal{\texttt{\detokenize{#1}}}: #3\par}\medskip
+  \includegraphics[page=#2,width=\linewidth]{\BeleskePrezentacija}\par\medskip
+  \input{#4}}

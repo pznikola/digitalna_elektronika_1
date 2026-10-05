@@ -57,6 +57,9 @@ def review_errors(slide, review, current):
 
 
 def check(folder, compile_pdf=True):
+    from redizajn import active, check as check_redesign
+    if active(folder):
+        return check_redesign(folder, compile_pdf)
     data = read_json(folder / "provera/mapa.json")
     expected = catalog_row(folder)[4]
     errors = structure_errors(data, expected)
@@ -115,8 +118,10 @@ def check(folder, compile_pdf=True):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--lecture", default="")
+    parser.add_argument("--lecture", required=True)
     args = parser.parse_args()
+    if not args.lecture.strip():
+        parser.error("Obavezan je izbor jednog predavanja.")
     failures = 0
     for folder in lectures(args.lecture):
         try:

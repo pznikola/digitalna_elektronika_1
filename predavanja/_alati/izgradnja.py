@@ -11,6 +11,11 @@ from zajednicko import ROOT, lectures, read_json, write_json, dependency_digest,
 
 def build(folder, preview=False):
     folder = Path(folder)
+    from redizajn import active, build_slides
+    if active(folder):
+        if preview:
+            raise ValueError("Redizajn čuva sve slajdove; koristi all umesto preview.")
+        return build_slides(folder)
     data = read_json(folder / "provera/mapa.json")
     if sha256(ROOT / data["source_pdf"]) != data["source_sha256"]:
         raise ValueError(f"Original je promenjen: {data['source_pdf']}")
@@ -42,7 +47,7 @@ def build(folder, preview=False):
     env.setdefault("TEXMFVAR", str(output / "texmf-var"))
     env.setdefault("SOURCE_DATE_EPOCH", "1790208000")
     env.setdefault("FORCE_SOURCE_DATE", "1")
-    command = ["latexmk", "-r", "../_zajednicko/latexmkrc", "-lualatex", "-outdir=build", main]
+    command = ["latexmk", "-r", "../_zajednicko/latexmkrc", "-lualatex", "-recorder", "-outdir=build", main]
     log = output / f"{name}.build.log"
     with log.open("w", encoding="utf-8") as stream:
         result = subprocess.run(command, cwd=folder, env=env, stdout=stream, stderr=subprocess.STDOUT)
@@ -57,6 +62,8 @@ def build(folder, preview=False):
 
 def clean(folder):
     path = Path(folder) / "build"
+    if (path / "redizajn/pre").exists():
+        raise ValueError("Čišćenje bi obrisalo sačuvan početni prikaz redizajna; prvo ga arhiviraj izvan build/.")
     if path.is_symlink():
         raise ValueError(f"Odbijeno čišćenje simboličkog linka: {path}")
     if path.exists():
@@ -65,10 +72,12 @@ def clean(folder):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--lecture", default="")
+    parser.add_argument("--lecture", required=True)
     parser.add_argument("--preview", action="store_true")
     parser.add_argument("--clean", action="store_true")
     args = parser.parse_args()
+    if not args.lecture.strip():
+        parser.error("Obavezan je izbor jednog predavanja.")
     failed = False
     try:
         folders = lectures(args.lecture)

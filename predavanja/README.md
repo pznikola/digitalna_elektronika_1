@@ -1,11 +1,13 @@
 # Predavanja — LaTeX Beamer
 
-Plan i pravila sadržinskog prenosa: [PREDAVANJA.md](../PREDAVANJA.md).
+Aktuelna faza unapređenja: [PLAN_PREDAVANJA.md](../PLAN_PREDAVANJA.md), [status redizajna](../STATUS_PREDAVANJA.md) i [alati za beleške i provere](./_alati/REDIZAJN.md). Radi se jedno odobreno predavanje u datom trenutku. Stil B je izabran, a priprema infrastrukture ne označava početak predavanja 01.
+
+Istorijski plan rekonstrukcije: [PREDAVANJA.md](../PREDAVANJA.md). Njegova suprotstavljena pravila za beleške i ETF identitet zamenjena su aktuelnim planom.
 
 Izvori obuhvataju 12 PDF-ova, 314 PDF strana i **620 originalnih slajdova**.
 Originali ostaju neizmenjeni u ovom folderu. Materijal u `vezbe` se ne menja.
 
-## Status
+## Status završene rekonstrukcije
 
 Završeno je svih **12 prezentacija sa ukupno 620 slajdova**. Svaki slajd ima
 sadržinski i vizuelni pregled, vezan kontrolnim sumama za originalni i novi prikaz.
@@ -38,12 +40,14 @@ Nedostajući slajdovi se ne zamenjuju praznim okvirima ili slikama originalnih s
 Pokrenuti iz korena repozitorijuma:
 
 ```sh
-make -C predavanja all
 make -C predavanja LECTURE=01_logicke_funkcije all
-make -C predavanja check
-make -C predavanja review
+make -C predavanja LECTURE=01_logicke_funkcije check
+make -C predavanja LECTURE=01_logicke_funkcije review
+# Za predavanje koje ima manifest nove faze:
+make -C predavanja LECTURE=01_logicke_funkcije notes
 make -C predavanja test
-make -C predavanja clean
+make -C predavanja test-redizajn
+make -C predavanja LECTURE=01_logicke_funkcije clean
 ```
 
 Za rekonstrukciju u toku postoji poseban radni prikaz:
@@ -60,7 +64,9 @@ Uporedni pregled: `<predavanje>/build/pregled/index.html`.
 
 `make inventory` stvara samo inventare koji ne postoje. Ne prepisuje postojeće
 inventare ili potvrde pregleda i odbija promenjen original.
-`make clean` uklanja samo `build` podfoldere poznatih predavanja.
+Izbor `LECTURE` obavezan je za komande nad predavanjem. `make clean` uklanja samo `build` izabranog predavanja i odbija brisanje sačuvanog početnog prikaza redizajna.
+
+U režimu `phase: redizajn` uporedni pregled je u `build/redizajn/pregled/index.html`, a odvojene potvrde u `provera/redizajn/`. Proverava se sadržaj slajda zajedno sa njegovim beleškama. Detaljan postupak i formati su u [uputstvu](./_alati/REDIZAJN.md).
 
 ## Organizacija i rad
 
@@ -99,5 +105,5 @@ Tema i stilovi nalaze se u `_zajednicko`; `build` sadržaj se ne verzioniše.
 
 Originalni slajdovi nose oznake „Digitalna elektronika 1 - 2021/22“,
 „Katedra za elektroniku“ i „prof dr Lazar Saranovac“.
-Ovi ponavljajući elementi i ETF logo uklanjaju se iz novih slajdova prema planu.
+U prethodnoj rekonstrukciji ovi ponavljajući elementi i ETF logo uklonjeni su prema tadašnjem planu. Redizajn primenjuje aktuelna pravila o očuvanju autorstva i odobrenom ETF identitetu.
 Greške izvornog sadržaja evidentiraju se zasebno i ne ispravljaju prećutno.

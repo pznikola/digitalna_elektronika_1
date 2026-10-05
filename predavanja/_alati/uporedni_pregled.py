@@ -42,6 +42,10 @@ def compiled_map(folder, name):
 
 
 def generate(folder):
+    from redizajn import active, build_notes, generate as generate_redesign
+    if active(folder):
+        build_notes(folder)
+        return generate_redesign(folder)
     data = read_json(folder / "provera/mapa.json")
     original = ROOT / data["source_pdf"]
     if sha256(original) != data["source_sha256"]:
@@ -103,7 +107,9 @@ Ovaj dokument ne potvrđuje vernost prenosa. Radni prikaz može sadržati samo d
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--lecture", default="")
+    parser.add_argument("--lecture", required=True)
     args = parser.parse_args()
+    if not args.lecture.strip():
+        parser.error("Obavezan je izbor jednog predavanja.")
     for folder in lectures(args.lecture):
         generate(folder)
