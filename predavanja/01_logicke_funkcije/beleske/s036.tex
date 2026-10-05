@@ -1,19 +1,17 @@
 \BeleskeID{01-s036}
-
-\section*{Objašnjenje iz originala}
-
-Izvor: predavanje 01, PDF strana 18, donji slajd.
-
 % element: 01-s036:e01
-
-Sačuvane su sve tri izvorne šeme koje treba uporediti: standardni EXILI, EXILI sa aktivnim nulama na oba ulaza i EXNILI sa jednom aktivnom nulom.
-
 % element: 01-s036:e02
 
-Sačuvane su sve tri izvorne šeme koje treba uporediti: standardni EXNILI, EXNILI sa aktivnim nulama na oba ulaza i EXILI sa jednom aktivnom nulom.
-
-\section*{Dopunsko objašnjenje}
-
 % element: 01-s036:d01
-
-Za svaki simbol napišite funkciju izlaza. Dve negacije ulaza u EXILI se poništavaju, a jedna negacija ulaza menja EXILI u EXNILI; isto važi sa zamenjenim nazivima.
+Najpre za svaki kružić na ulazu zamenimo odgovarajuću promenljivu njenim komplementom, a za izlazni kružić negiramo ceo rezultat. Za gornji red tako dobijamo
+\[
+x\oplus y=\bar{x}\oplus\bar{y}
+  =\overline{\bar{x}\oplus y}.
+\]
+Za donji red dobijamo
+\[
+\overline{x\oplus y}
+ =\overline{\bar{x}\oplus\bar{y}}
+ =\bar{x}\oplus y.
+\]
+Negiranje jednog ulaza preokreće paritet, a negiranje dva ulaza ga vraća. Dodatna negacija izlaza ponovo ga preokreće. Zato su tri šeme u svakom redu ekvivalentne. Proveru je dovoljno obaviti za četiri para \((0,0)\), \((0,1)\), \((1,0)\) i \((1,1)\).

@@ -1,19 +1,18 @@
 \BeleskeID{01-s029}
-
-\section*{Objašnjenje iz originala}
-
-Izvor: predavanje 01, PDF strana 15, gornji slajd.
-
 % element: 01-s029:e01
-
-Prikazan je direktan troulazni simbol sa izlaznom negacijom.
-
 % element: 01-s029:e02
 
-Prikazana je kaskada dva dvoulazna EXNILI kola. Original postavlja pitanje da li je funkcija jednaka direktnom troulaznom EXNILI kolu.
-
-\section*{Dopunsko objašnjenje}
-
 % element: 01-s029:d01
+Uvedimo \(p=x_1\oplus x_2\). Prvo EXNILI daje \(\bar{p}\), a drugo negira EXILI između tog međusignala i \(x_3\):
+\[
+y_{\mathrm{kaskada}}
+ =\overline{\bar{p}\oplus x_3}
+ =p\oplus x_3.
+\]
+Dve negacije u ovoj kaskadi se poništavaju, pa ona daje neparni paritet. Direktno troulazno EXNILI daje njegov komplement,
+\[
+y_{\mathrm{direktno}}=\overline{p\oplus x_3}.
+\]
+Za tri nule kaskada daje 0, a direktno kolo 1. Zato odgovor na pitanje ekvivalentnosti glasi: nisu jednaka.
 
-Dva uzastopna EXNILI kola daju isti rezultat kao trostruki EXILI: dve negacije se poništavaju. Direktni troulazni EXNILI daje njegov komplement. Na primer, za sve ulaze 0 kaskada daje 0, a direktni EXNILI daje 1.
+Kod tri ulaza EXNILI prepoznaje paran broj jedinica, a ne nužno jednakost svih ulaza. Na primer, ulazi \((0,1,1)\) daju 1 iako nisu svi jednaki.

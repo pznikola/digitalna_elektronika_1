@@ -1,0 +1,2146 @@
+{
+  "date": "2026-10-02",
+  "scope": "Dorada samo beležaka 01 po koraku 6 aktuelnog PLAN_PREDAVANJA.md.",
+  "slides": {
+    "01-s001": {
+      "source": "Originalni PDF strana 1, gornji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Nema dodatnog nastavnog sadržaja; fajl sadrži samo ID i nevidljivo sidro.",
+      "notes_path": "beleske/s001.tex",
+      "original_anchors": [],
+      "supplement_anchor": null,
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "e23b44c4a96bc078acddfbd433011250614aeae3e48c153b8a4198cdc23cb147",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s002": {
+      "source": "Originalni PDF strana 1, donji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Povratna sprega; sinhroni i asinhroni događaji; razlika stanja i fizičkog prelaza.",
+      "notes_path": "beleske/s002.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s002:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "e72e3c42a63eb9c077ef894222729edc7c3b8efb848ed40ae651d540113cd79f",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s003": {
+      "source": "Originalni PDF strana 2, gornji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Razlika informacije i fizičkog nosioca; primer tvrdnje o prekidaču.",
+      "notes_path": "beleske/s003.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s003:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "c07b52742f46dc12863c485a8d76df884cae174edb3cbd810139a3de7233d8b7",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s004": {
+      "source": "Originalni PDF strana 2, donji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Smer postupaka analize i sinteze na primeru redne veze.",
+      "notes_path": "beleske/s004.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s004:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "80debbb7b7e8fcbff22e5242811a7595e063fce0d2215e57c19f845c2757a9b4",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s005": {
+      "source": "Originalni PDF strana 3, gornji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Potpuno pridruživanje P1, P2 i S fizičkim stanjima: prvi pasus beleške.",
+      "supplement": "Pratiti zatvorenu putanju za četiri kombinacije rednih prekidača.",
+      "notes_path": "beleske/s005.tex",
+      "original_anchors": [
+        "% element: 01-s005:e04"
+      ],
+      "supplement_anchor": "% element: 01-s005:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "f66e19616a93b0570caaf29541dbdc15e45590fadcb372b3b23a8155066042ce",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s006": {
+      "source": "Originalni PDF strana 3, donji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Potpuno pridruživanje P1, P2 i S fizičkim stanjima: prvi pasus beleške.",
+      "supplement": "Pratiti alternativne paralelne putanje; uključivo ILI.",
+      "notes_path": "beleske/s006.tex",
+      "original_anchors": [
+        "% element: 01-s006:e04"
+      ],
+      "supplement_anchor": "% element: 01-s006:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "4b9c1e81c62bf8c105dd64b8ea8d88f9ccb585946e156af2107ccd01bcd17d82",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s007": {
+      "source": "Originalni PDF strana 4, gornji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Zavisnost kontakata istog preklopnika u stabilnim položajima.",
+      "notes_path": "beleske/s007.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s007:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "2a951c6c771d8f0bb4da108c1a120a8a4ebd9ee405509e3fa01b9f8f70c8edc4",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s008": {
+      "source": "Originalni PDF strana 4, donji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Izvođenje zbira proizvoda za gornju i donju putanju; različiti položaji.",
+      "notes_path": "beleske/s008.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s008:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "5f66aa3a314bf205959829a593916f7cb69fa4160d9060cebef82b115f8b1166",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s009": {
+      "source": "Originalni PDF strana 5, gornji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Preciziranje poziva B kao poziva sa drugog sprata „za dole“: prvi pasus.",
+      "supplement": "Granice zadatog modela lifta i razlika ulaznih tvrdnji od sleda izlaznih radnji.",
+      "notes_path": "beleske/s009.tex",
+      "original_anchors": [
+        "% element: 01-s009:e03"
+      ],
+      "supplement_anchor": "% element: 01-s009:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "4ce6c855bd7642ea451e612b932620e2cfddaba72f199acd2e5d01c83d240c96",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s010": {
+      "source": "Originalni PDF strana 5, donji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Jedinstven izlaz ne zahteva različite izlaze; tumačenje A^n i prikaza funkcije.",
+      "notes_path": "beleske/s010.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s010:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "05bbca875f6545537263ddcb243e2aded8ecc96e2651c7560f4edf7c04c93619",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s011": {
+      "source": "Originalni PDF strana 6, gornji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Logička vrednost kao istinitost, a ne fizička jedinica; konvencija pridruživanja.",
+      "notes_path": "beleske/s011.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s011:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "9243fc35e49028460b95cf384a40764f7f60263c31f077f43988664cf632b455",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s012": {
+      "source": "Originalni PDF strana 6, donji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Nezavisni izbori dva izlazna reda i značenje konstantnosti.",
+      "notes_path": "beleske/s012.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s012:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "4d1bed75df4d95e9018bfb6978a1a0fe0ce9c84d9645b46ef2de08bf1c7c0634",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s013": {
+      "source": "Originalni PDF strana 7, gornji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Odnos oznaka y i komplementa x; negacioni kružić i notacije.",
+      "notes_path": "beleske/s013.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s013:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "d8e0549e3b02f0ab85c303a1e589231029b0dbacc61da2777e333aefe6877cac",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s014": {
+      "source": "Originalni PDF strana 7, donji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Razlika bafera i invertora; logička jednakost ne opisuje vreme.",
+      "notes_path": "beleske/s014.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s014:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "89bbb7e51ab627d4420eba3cc6854b21ed602bcbb3f883502c378ac994996657",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s015": {
+      "source": "Originalni PDF strana 8, gornji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Nezavisni izbori četiri izlazna reda; indeks kolone označava funkciju.",
+      "notes_path": "beleske/s015.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s015:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "04688516618ec452406f59f2bbbef756d73ac84ac5845026f03208c1044d4e91",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s016": {
+      "source": "Originalni PDF strana 8, donji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Uslov redne putanje, apsorbujuća nula i neutralna jedinica.",
+      "notes_path": "beleske/s016.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s016:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "d4616d7214185b9b0dd27f73ed9128e1141feea0d0623e81545e45bbf885f64c",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s017": {
+      "source": "Originalni PDF strana 9, gornji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Uključivo ILI; logički zbir i neutralna nula.",
+      "notes_path": "beleske/s017.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s017:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "7b1c44d92d0a1472a776ce80301623001dabd0f39e03be982dafbf727e60baeb",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s018": {
+      "source": "Originalni PDF strana 9, donji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Izvođenje EXILI kao zbira dva proizvoda; razlika prema ILI i višeulaznom paritetu.",
+      "notes_path": "beleske/s018.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s018:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "663dfe722d6d5ccfa0834015c46bdd5d8f6182504011540e52c5807ab984c0ac",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s019": {
+      "source": "Originalni PDF strana 10, gornji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Negacija celog proizvoda; ponašanje NI sa stalnim ulazom.",
+      "notes_path": "beleske/s019.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s019:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "75a114fe557a9c0da4d6184a10ec06cb022a5311c63f155a717e0664b0c80a7e",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s020": {
+      "source": "Originalni PDF strana 10, donji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Negacija celog zbira; ponašanje NILI sa stalnim ulazom.",
+      "notes_path": "beleske/s020.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s020:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "19b83ede1a88a36716dbf7341d3f6fda21e33e411257b453b2d11db16f769ac2",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s021": {
+      "source": "Originalni PDF strana 11, gornji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Izvođenje EXNILI kao detektora jednakosti dva bita.",
+      "notes_path": "beleske/s021.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s021:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "a0f97188b7986ef8041b310b1b63ce38a715d1f74317aee8570011e3ecc3f3a5",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s022": {
+      "source": "Originalni PDF strana 11, donji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Uloga aksioma i teorema; iscrpnost binarne tabele i logičko sabiranje.",
+      "notes_path": "beleske/s022.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s022:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "8c1342f8780e3ace0d1620293fda625706c8509fa1de9b1b363173814d03a7a2",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s023": {
+      "source": "Originalni PDF strana 12, gornji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Uloge neutralnog/nula elementa; značenje idempotencije, komutativnosti i asocijativnosti.",
+      "notes_path": "beleske/s023.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s023:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "e15e0db9f9e26f184148141daa4ff8556478794c2cedfe9e35e1b56a94554da9",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s024": {
+      "source": "Originalni PDF strana 12, donji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Izvorni termin involutivnost i njegovo značenje: prvi pasus.",
+      "supplement": "Provera drugog distributivnog obrasca, međukoraci apsorpcije i tumačenje De Morgana.",
+      "notes_path": "beleske/s024.tex",
+      "original_anchors": [
+        "% element: 01-s024:e01"
+      ],
+      "supplement_anchor": "% element: 01-s024:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "e8ba977eb3a988286f752f320b8182f4cd3bd8cfbdef891c8e316d7f6449fbac",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s025": {
+      "source": "Originalni PDF strana 13, gornji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Međusignali I i ILI kaskade; ekvivalentnost funkcije i razlika broja nivoa.",
+      "notes_path": "beleske/s025.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s025:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "95098727baee14d8367c04cf25a8369c508015a5bb2e1d9f68d775de9079895b",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s026": {
+      "source": "Originalni PDF strana 13, donji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Međusignal NI; konkretan protivprimer i tumačenje ispravne kaskade.",
+      "notes_path": "beleske/s026.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s026:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "c466701281e6df045315da0db62f5d22b7094b349cc84028e6cef5079010fb73",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s027": {
+      "source": "Originalni PDF strana 14, gornji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Međusignali četiri realizacije; mesto negacije i broj nivoa.",
+      "notes_path": "beleske/s027.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s027:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "8778026c8a962cffdd648391f305f2b0e6a29f062ce3ad99585f75d937fd94df",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s028": {
+      "source": "Originalni PDF strana 14, donji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Neparni paritet kao obrazloženje asocijativnosti; primer tri jedinice.",
+      "notes_path": "beleske/s028.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s028:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "ea5aa4948832779cb8f96fda748cb52d9c98d1d495a1dc46a3bdb2e7bc0b3cf4",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s029": {
+      "source": "Originalni PDF strana 15, gornji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Izvođenje izlaza dva EXNILI i direktnog kola; protivprimer i parni paritet.",
+      "notes_path": "beleske/s029.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s029:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "ddd538d56775728092239d4156dc0c7926adadb9c60abe37d05142944baefe1c",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s030": {
+      "source": "Originalni PDF strana 15, donji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Izvorno verbalno ulančavanje uslova „i na prvom...“ / „ili na prvom...“: prvi pasus.",
+      "supplement": "Aktivan nivo kao oznaka ispunjenja uslova, a ne uključivanje rada kola.",
+      "notes_path": "beleske/s030.tex",
+      "original_anchors": [
+        "% element: 01-s030:e02"
+      ],
+      "supplement_anchor": "% element: 01-s030:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "61d265ce503b9b8e347885494a85b11e1af8194fca67f661f0500352c20cce9e",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s031": {
+      "source": "Originalni PDF strana 16, gornji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Obrazloženje zašto aktivna izlazna nula ne zamenjuje uslov aktivne jedinice narednog NI ulaza: drugi pasus.",
+      "supplement": "Polaritet međusignala kao razlog neispravne kaskade NI.",
+      "notes_path": "beleske/s031.tex",
+      "original_anchors": [
+        "% element: 01-s031:e04"
+      ],
+      "supplement_anchor": "% element: 01-s031:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "7880a4939b1b91a1c87351add49dc5ae442410eba57c89b099d8b86a9519e875",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s032": {
+      "source": "Originalni PDF strana 16, donji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Preciziranje aktivnog izlaza 1 za EXILI i 0 za EXNILI pri neparnom broju jedinica: prvi pasus.",
+      "supplement": "Izvođenje ekvivalentnosti EXILI–EXNILI; provera prema broju jedinica.",
+      "notes_path": "beleske/s032.tex",
+      "original_anchors": [
+        "% element: 01-s032:e01"
+      ],
+      "supplement_anchor": "% element: 01-s032:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "2a81173cd396e3858606600839eddd8b3735caecae734a1615c3918d8334d6ef",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s033": {
+      "source": "Originalni PDF strana 17, gornji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Spoljašnji i unutrašnji signali; značenje ulaznih kružića.",
+      "notes_path": "beleske/s033.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s033:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "8b5e163e998441fb455bf75cd1771722446228856df703e5770919f0d2284790",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s034": {
+      "source": "Originalni PDF strana 17, donji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "De Morganova zamena simbola uz promenu svih negacija.",
+      "notes_path": "beleske/s034.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s034:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "1c42c979bc372b6d7fe51a0a342654dd603eea14da8d22720114bc87817602a4",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s035": {
+      "source": "Originalni PDF strana 18, gornji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Algebarsko čitanje dvoulaznih i troulaznih dualnih simbola.",
+      "notes_path": "beleske/s035.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s035:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "b8d32bef9ac21bc7fc25b86b2a32c967012dce28f4a5c9e5a9953d41c02cfb24",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s036": {
+      "source": "Originalni PDF strana 18, donji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Svi izvorni nastavni elementi već su pokriveni vidljivim slajdom.",
+      "supplement": "Izlazni izrazi svih šest šema i provera poništavanja dve ulazne negacije.",
+      "notes_path": "beleske/s036.tex",
+      "original_anchors": [],
+      "supplement_anchor": "% element: 01-s036:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "767e1c7d17f12919daacea4e84eca60075a0d91cf5a7e6eef6b56e5f08be8eb4",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    },
+    "01-s037": {
+      "source": "Originalni PDF strana 19, gornji slajd; odobreni slajd istog ID-ja.",
+      "original_details_in_notes": "Motivacija o nezgodnoj/skupoj upotrebi dva tipa; tip = funkcija i broj ulaza: završni pasus.",
+      "supplement": "Međukoraci NI–NI realizacije zbira proizvoda; tumačenje tipa i izbora kola.",
+      "notes_path": "beleske/s037.tex",
+      "original_anchors": [
+        "% element: 01-s037:e04"
+      ],
+      "supplement_anchor": "% element: 01-s037:d01",
+      "verification": "Čitanje originala i odobrenog slajda; tumačenje modela ili algebra u beleškama; enumeracija gde je primenljiva.",
+      "status": "provereno",
+      "notes_sha256": "e7c261869279517e3ae736f42c91813788f014ac8da8b030428ccee5c2b239e2",
+      "visual_review": "Pregledana cela A4 strana u konačnom prikazu: odgovarajući slajd, ID i naslov; čitljiv tekst i matematički znaci; bez preklapanja/odsecanja i uredničkih oznaka.",
+      "content_review": "Upoređeni originalni slajd i odobreni slajd; proverena potpunost dodatnog objašnjenja, veza sa istim ID-jem, odsustvo nepotrebnog prepisivanja i stručna tačnost."
+    }
+  },
+  "logical_checks": [
+    {
+      "name": "s008/s021: EXNILI = zbir dva proizvoda",
+      "cases": 4,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            0,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        }
+      ]
+    },
+    {
+      "name": "s018: EXILI = zbir isključivih proizvoda",
+      "cases": 4,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "name": "s019: NI sa jedinicom je negacija",
+      "cases": 2,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1
+          ],
+          "left": 0,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "name": "s020: NILI sa nulom je negacija",
+      "cases": 2,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1
+          ],
+          "left": 0,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "name": "s024: distributivnost I prema ILI",
+      "cases": 8,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            0,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        }
+      ]
+    },
+    {
+      "name": "s024: distributivnost ILI prema I",
+      "cases": 8,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            0,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        }
+      ]
+    },
+    {
+      "name": "s024: apsorpcija I",
+      "cases": 4,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        }
+      ]
+    },
+    {
+      "name": "s024: apsorpcija ILI",
+      "cases": 4,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        }
+      ]
+    },
+    {
+      "name": "s025: asocijativnost I",
+      "cases": 8,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            0,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        }
+      ]
+    },
+    {
+      "name": "s025: asocijativnost ILI",
+      "cases": 8,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            0,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        }
+      ]
+    },
+    {
+      "name": "s026: ispravna kaskada I–NI",
+      "cases": 8,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            0,
+            0,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "name": "s028: asocijativnost EXILI",
+      "cases": 8,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            0,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        }
+      ]
+    },
+    {
+      "name": "s028/s032: neparni paritet",
+      "cases": 8,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            0,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        }
+      ]
+    },
+    {
+      "name": "s029: dva EXNILI daju EXILI",
+      "cases": 8,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            0,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        }
+      ]
+    },
+    {
+      "name": "s029/s032: direktni EXNILI je paran paritet",
+      "cases": 8,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            0,
+            0,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "name": "s032: EXILI–EXNILI ekvivalentno direktnom EXNILI",
+      "cases": 8,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            0,
+            0,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "name": "s034: De Morgan NI",
+      "cases": 4,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            0,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "name": "s034: De Morgan NILI",
+      "cases": 4,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            0,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "name": "s035: I kao NILI negiranih ulaza",
+      "cases": 4,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        }
+      ]
+    },
+    {
+      "name": "s035: ILI kao NI negiranih ulaza",
+      "cases": 4,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        }
+      ]
+    },
+    {
+      "name": "s035: troulazna I dualnost",
+      "cases": 8,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            0,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        }
+      ]
+    },
+    {
+      "name": "s035: troulazna ILI dualnost",
+      "cases": 8,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            0,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        }
+      ]
+    },
+    {
+      "name": "s036: EXILI sa dva negirana ulaza",
+      "cases": 4,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "name": "s036: EXNILI sa jednim negiranim ulazom",
+      "cases": 4,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "name": "s036: EXNILI sa dva negirana ulaza",
+      "cases": 4,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            0,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        }
+      ]
+    },
+    {
+      "name": "s036: EXILI sa jednim negiranim ulazom",
+      "cases": 4,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            0,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        }
+      ]
+    },
+    {
+      "name": "s037: mreža samo NI",
+      "cases": 16,
+      "status": "provereno",
+      "rows": [
+        {
+          "inputs": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "left": 0,
+          "right": 0
+        },
+        {
+          "inputs": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "left": 1,
+          "right": 1
+        },
+        {
+          "inputs": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "left": 1,
+          "right": 1
+        }
+      ]
+    },
+    {
+      "name": "s026: protivprimer NI–NI pri 001",
+      "cases": 1,
+      "status": "provereno",
+      "direct": 1,
+      "cascade": 0
+    },
+    {
+      "name": "s029: protivprimer EXNILI–EXNILI pri 000",
+      "cases": 1,
+      "status": "provereno",
+      "direct": 1,
+      "cascade": 0
+    }
+  ],
+  "logical_cases": 166,
+  "original_pdf_sha256": "0bfe99550e77b8985d47b80bcce3ffeb66a55f32dcf991690fe5c0e707c39f8a"
+}

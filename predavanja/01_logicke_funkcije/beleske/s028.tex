@@ -1,23 +1,9 @@
 \BeleskeID{01-s028}
-
-\section*{Objašnjenje iz originala}
-
-Izvor: predavanje 01, PDF strana 14, donji slajd.
-
 % element: 01-s028:e01
-
-Prikazan je troulazni simbol EXILI sa tri ulaza.
-
 % element: 01-s028:e02
-
-XOR dva ulaza je jedinica upravo kada su ulazi različiti: x1·neg x2 + neg x1·x2.
-
 % element: 01-s028:e03
 
-Na slajdu se proverava da li trostruki EXILI može da se računa kao \((x_1\oplus x_2)\oplus x_3\) ili \(x_1\oplus(x_2\oplus x_3)\). Prikazana je kaskada dva dvoulazna EXILI kola.
-
-\section*{Dopunsko objašnjenje}
-
 % element: 01-s028:d01
+EXILI sa više ulaza daje jedinicu za neparan broj ulaznih jedinica. Dodavanje ulaza čija je vrednost 0 ne menja paritet, a dodavanje jedinice ga preokreće. Zbog toga grupisanje dva uzastopna EXILI računanja ne menja konačan paritet.
 
-EXILI je asocijativan: izlaz je 1 za neparan broj jedinica na ulazima. To potvrđuje ekvivalentnost direktnog simbola i kaskade.
+Za tri ulaza jedna jedinica daje izlaz 1, dve jedinice daju 0, a tri jedinice ponovo daju 1. Prema tome, višeulazno EXILI ne znači „tačno jedan ulaz je 1“. Na primer, za \((1,1,1)\) kaskada računa \((1\oplus1)\oplus1=0\oplus1=1\), isto kao direktno troulazno kolo.

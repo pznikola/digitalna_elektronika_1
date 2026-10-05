@@ -1,19 +1,10 @@
 \BeleskeID{01-s026}
-
-\section*{Objašnjenje iz originala}
-
-Izvor: predavanje 01, PDF strana 13, donji slajd.
-
 % element: 01-s026:e01
-
-Na međuspoju prvog NI kola nastaje negirani proizvod x1 i x2; drugo NI kolo zatim negira proizvod tog signala i x3. To nije trostruki NAND.
-
 % element: 01-s026:e02
 
-Prvo I kolo daje x1x2, drugo NI računa negaciju (x1x2)x3. Izlaz je tačno NAND tri ulaza.
-
-\section*{Dopunsko objašnjenje}
-
 % element: 01-s026:d01
+Izlaz prvog NI kola je \(u=\overline{x_1x_2}\). Drugo NI kolo zato prima negirani međurezultat, pa računa \(\overline{ux_3}\). Njegova izlazna negacija ne uklanja prvu negaciju iz proizvoda sa \(x_3\).
 
-Za x1=x2=0 i x3=1 direktni trostruki NI daje 1, dok kaskada NI–NI daje 0; to pokazuje razliku bez oslanjanja samo na crtež.
+Za \(x_1=x_2=0\) i \(x_3=1\) direktno troulazno NI daje \(\overline{0\cdot0\cdot1}=1\). U kaskadi prvo NI daje 1, a drugo \(\overline{1\cdot1}=0\). Jedna ulazna kombinacija sa različitim rezultatima dovoljna je da pokaže neekvivalentnost.
+
+U ispravnoj kaskadi prvo I kolo daje nenegirani proizvod. Negacija se uvodi tek na izlazu poslednjeg kola, nakon uključivanja sva tri ulaza.

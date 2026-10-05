@@ -1,23 +1,13 @@
 \BeleskeID{01-s008}
-
-\section*{Objašnjenje iz originala}
-
-Izvor: predavanje 01, PDF strana 4, donji slajd.
-
 % element: 01-s008:e01
-
-Šema čuva izvor E, sijalicu S i oba preklopnika. Gornji kontakti su P1 i P2, a donji \(\overline{\mathrm{P1}}\) i \(\overline{\mathrm{P2}}\).
-
-
-
 % element: 01-s008:e02
 
-Oba uslova ostaju vidljiva: oba gornja kontakta zatvorena ili oba donja kontakta zatvorena. Reči I i ILI označavaju logičko povezivanje tvrdnji.
-
-
-
-\section*{Dopunsko objašnjenje}
-
 % element: 01-s008:d01
+Promenljive \(\mathrm{P1}\) i \(\mathrm{P2}\) odnose se na zatvorenost gornjih kontakata. Donji kontakti imaju komplementarna stanja. Zbog toga „P1 isključen“ u ovom primeru znači da je donji kontakt prvog preklopnika zatvoren, a isto važi za P2.
 
-Kada su preklopnici u različitim položajima, putanja kroz sijalicu nije zatvorena. Razlikovati stanje preklopnika od stanja pojedinačnog kontakta.
+Gornja putanja kroz sijalicu zatvorena je kada su oba gornja kontakta zatvorena. Donja putanja zatvorena je kada su oba donja kontakta zatvorena. Logički opis obe putanje glasi
+\[
+\mathrm{S}=\mathrm{P1}\,\mathrm{P2}
+  +\overline{\mathrm{P1}}\,\overline{\mathrm{P2}}.
+\]
+Svaka putanja daje jedan proizvod uslova, a alternativne putanje povezuju se logičkim zbirom. Kada su položaji preklopnika različiti, nijedna putanja nije zatvorena. Funkcija prepoznaje jednakost njihovih položaja.
