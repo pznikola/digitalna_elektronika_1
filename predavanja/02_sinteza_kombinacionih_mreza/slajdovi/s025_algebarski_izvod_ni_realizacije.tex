@@ -1,11 +1,16 @@
+% Original: PDF strana 13, gornji slajd.
 \slajdid{02-s025}
-\begin{frame}[label=02-s025]
-Znači moguće je bilo koju kombinacionu mrežu realizovati, izuzimajući invertore samo pomoću NI logičkih kola. Ili generalnije ako invertor smatramo NI logičkim kolom sa jednim ulazom: Bilo koju kombinacionu mrežu možemo realizovati korišćenjem samo NI logičkih kola. Do istog rezultata smo mogli doći i preko izraza Bulove algebre i De Morganovih obrazaca:
-\[
-\begin{aligned}
-F&=\bar CBA+C\bar BA+CB\bar A\\
-&=\overline{\overline{\bar CBA+C\bar BA+CB\bar A}}
-=\overline{\overline{\bar CBA}\cdot\overline{C\bar BA}\cdot\overline{CB\bar A}}
-\end{aligned}
-\]
+\begin{frame}[label=02-s025]{NI kola su funkcionalno potpuna}
+% element: 02-s025:e01
+\par\Rezultat{Svaka kombinaciona mreža može se realizovati samo NI kolima, ako i invertor posmatramo kao NI kolo sa jednim ulazom.}
+\par\vspace{6mm}
+% element: 02-s025:e02
+\Oznaka{Za realizaciju funkcije u obliku zbira proizvoda}
+\[\begin{aligned}
+F&=\bar CBA+C\bar BA+CB\bar A\\[2mm]
+ &=\overline{\overline{\bar CBA+C\bar BA+CB\bar A}}\\[2mm]
+ &=\overline{\overline{\bar CBA}\cdot\overline{C\bar BA}\cdot\overline{CB\bar A}}.
+\end{aligned}\]
+\par\vspace{4mm}
+Prvi nivo proizvodi negirane članove, a završno NI kolo vraća njihov zbir.
 \end{frame}

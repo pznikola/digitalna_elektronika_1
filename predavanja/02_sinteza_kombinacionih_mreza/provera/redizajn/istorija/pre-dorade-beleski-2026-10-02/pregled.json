@@ -1,0 +1,1408 @@
+{
+  "slides": {
+    "02-s001": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "c1eacbea51e9fe5d7a6bb572db0653b4fed737457e1d3a0d4455ea37690c8157",
+        "baseline_render_sha256": "600347e7fc994ee9c58699b667ada26b48d2c1b15147dd59b5506927cdcc1f71",
+        "new_render_sha256": "fc3ed5792a9eff83595f954b4188265fea9fd6e4bb60a108153cfad61b46672d",
+        "notes_render_sha256": "9780c8b62c1d02ef15e7b2bc975d9289ac654a36be87f9d2739fe9b5e41e9dbd",
+        "slide_sources_sha256": "df7d2beee7522b980b0662f16d565e6de6d57a0fcdc84ce75fb0108df27584b7",
+        "notes_sources_sha256": "b0cfd7ff81d1abcc04da322730ffd0977fb2c25321189df4062b761072d0bead",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "4dbc62f20bf781cff978c227121c02cebab37f0ee734a29ac1316dced5464d4d",
+        "coverage_sha256": "e04ea586f3b24a472d5da21f45d2a7cbf45d15e283188434ddba3deb61bc336b"
+      }
+    },
+    "02-s002": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "471422a0d83edef22a772f7c023786ac48882f06d3dfc12501d2c3628ac59911",
+        "baseline_render_sha256": "3cf2eff3950602c2a8e0d3cb026069e7ddf0df8485b413b7cf05e48cf1a8bac3",
+        "new_render_sha256": "6e8105e3967fa6145851fe25676bbf7fe08d2da6d9cf7c91c633b57d75ba623b",
+        "notes_render_sha256": "810d4c656609fcf9eed9029cf6aedb5fcfdfb5550e75403e1c943da0b3b48752",
+        "slide_sources_sha256": "aef97c022f89c9bae7569cc7ff18b888860fd264bd8cad5b686e5134f9c640b1",
+        "notes_sources_sha256": "e449d130bef98ca801d42e03f0b8538c1155e34dd2b3baad0524797c4043398e",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "27d68c70c197b04ed4b25d10da05e569868b1739ea91562dea870f596d5081ec",
+        "coverage_sha256": "5142eb8e477b0bd92b8982d2d647591cde6d0864451337e944b1fe793b9f5099"
+      }
+    },
+    "02-s003": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Razdvojeni opisi kašnjenja i naslovi vremenskih dijagrama; t_pHL/t_pLH ne dodiruju talasne oblike.",
+      "evidence": {
+        "source_render_sha256": "5ad8c75a12e69b2b417946d547cff11afacb26bca506dcbdd7fc8d5359202f1c",
+        "baseline_render_sha256": "604f17bcba5432c5f853543d6864d81cd7c7fa9c4430cf7eb4adf59f41ead5a3",
+        "new_render_sha256": "1040ef95a73c779d69954b876cf13e8639ee0b3552cf603bcbe76a5168ef65fa",
+        "notes_render_sha256": "79ce526b87e881fd7d0fd0cd2b91623e2099d1fa5b7937f5e64a983e6e4cc9ff",
+        "slide_sources_sha256": "022dd72cc9117f91f0d8ee1c611d61258a1b9290ad50c1ea65305a40e89ad600",
+        "notes_sources_sha256": "b3a6ecd16651113644c70a0935cc0d99592bde84373cdf13a68da2fb4e8fd199",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "01fb904dec2d0d058701b933a89e7f3a04744cadad2d8a8d604f460a89179fc5",
+        "coverage_sha256": "76c400c3abcf7872643cccc00d9350021dc87558897ac31d5e2c20042a29c6e3"
+      }
+    },
+    "02-s004": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "f04c28b3eb5e63e2099a2cbeb0b59a5ce18194f920a64f1ab5f897d81587a91a",
+        "baseline_render_sha256": "dd74e14992aa3992023169b54028c88c7716a659704419c7d717826d4b66f879",
+        "new_render_sha256": "23f0cc6012b4c0fcfed893a9fba04f1d85420c74d713889113de4e65eb771dec",
+        "notes_render_sha256": "8127740a4ee3b9885542a85871466caed6910a6ea5a34c5773cdbfa43292322b",
+        "slide_sources_sha256": "dec83ff96f46b8e4bab6d94f54ae248825b5d1810864b94972710f8063847c6f",
+        "notes_sources_sha256": "da4b8dd25c159f35337e830dc684d5225af30de44764f2783fd3f00a2c841ed5",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "968afa630852e5e100c7d353c45281fef9308b4bfb5d5b488e868671f534295a",
+        "coverage_sha256": "5a1a3e005df25a560efc0087dde9069586969a8360363ca0e2549bfcce060cc4"
+      }
+    },
+    "02-s005": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "e448846b35a72fa4680e98a9b6c92b9f80f9b8f3461bd411beb91bdeec9557bf",
+        "baseline_render_sha256": "14204309f3205418180720380c570c94526cc59b5af20175ed50e81f039f359b",
+        "new_render_sha256": "b67646d843acc6aef0a6da11baa153b7684555d50f8196ada68479ab9282b662",
+        "notes_render_sha256": "ca1a9d998ed3e6dd17b8e553b9ab8af3b8adafbea7b4f50299e5049794ebcf35",
+        "slide_sources_sha256": "559d6b06d3f938223b275c7f2e1ff65ab81c269dbe34a246b09d616a67e9130e",
+        "notes_sources_sha256": "9780469dae7e20101a0f20a2dfa7429fb0a0fdeeb5bf317c6c232cdd49ec219e",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "6daa9be6c59bc48bcc747f516f8063f8b3a81ebf73754fcf0e8a58a0a901f954",
+        "coverage_sha256": "e5ebe3242128a0816201cf7d1dd6aea10686dfa0f6a1d54e8cedc3c2b2dde6ab"
+      }
+    },
+    "02-s006": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "589e96d6efbf9ef66e2912ce5b0a2e76cdc2ef9c19ac35749b1fbf62690a9a84",
+        "baseline_render_sha256": "acb88a202d60a46b29422ebd6366cdc4602268d6932e0e21261f8aaa5e419779",
+        "new_render_sha256": "7497e9fc7e306d26d2c389fd105573e88a8a08f4b85072f996234f5bff2c5380",
+        "notes_render_sha256": "d29886e1d92927ab382349dd4d78cbda11c773206a80a2dc00b55d40f974cecd",
+        "slide_sources_sha256": "15ead0c1c0089640714410dcdd675d9d6baf59ad20da3fc813869aa087892e71",
+        "notes_sources_sha256": "97ce2ee40ed456b76c79d0dc6600f187ca24d3c493de0634b74fc181ef15c3b6",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "8af93d0bc61e588cfbedc09ec258203a005da31783752f4d13299db99ab1bf08",
+        "coverage_sha256": "c1109e5178c152f8b2a15df1a7629ebbf50c17565e5456e357ad5d45052e4630"
+      }
+    },
+    "02-s007": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "6dd8317dba5b92577482cc5aee00bce53a2ca090ef82e5ce4c36aaf6d3e431d6",
+        "baseline_render_sha256": "82daf13bf24d02cc034685b02627d8ca681e3e89b88e6ef57807f81227320807",
+        "new_render_sha256": "56e5eade1fd3098005dc4182119a8e53104c00526725a5b6fc59c88b1615aad5",
+        "notes_render_sha256": "db6bfc80c7c108a351b3fda086ad746222c4dee63eb1f590f058916e92ae7693",
+        "slide_sources_sha256": "102bc466736c0e5c16a664aaee818822e38e511c9a16d5164ee72a9b47300a47",
+        "notes_sources_sha256": "bcc0d9fe54d1903c2402f7359d06da051d9d55434f004498327cdf9643cfc7b7",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "1595c16dccd1ac07f75944a38cf9b191de4a8743a1ba0b6bd1a961cf655f2e6c",
+        "coverage_sha256": "a8684444b7d239dd75a6aa79ea82b64d156e76f5e978962a8223600a66204695"
+      }
+    },
+    "02-s008": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Očuvani fizički pinovi i simetrični vodovi četiri I kola; razmaknuti DIP prikazi i mere.",
+      "evidence": {
+        "source_render_sha256": "c3d0601f6549c04bbaeeecca0d1bf9727323385a8cc04671caf0f9f6a35006eb",
+        "baseline_render_sha256": "94d6d1804dbb49ff613249188572a38e15b3f6fd54cc7ba5bc563dd7637515c4",
+        "new_render_sha256": "5af0c9fe81e5e025ba4c70d0cd94f84a1d7b80dea85d24cef54902af54e72d58",
+        "notes_render_sha256": "cf2a4d2666d4c02583d98407f9a5a8e53ebd9a5edc02daa89295a344beb4fd84",
+        "slide_sources_sha256": "0d303db83256fda520353bfba70790d70d92ffd341ac090ac7ccd5c5bfb0ae52",
+        "notes_sources_sha256": "3cff944cbcf080239f3d9323c0feebb244ed5b8542ab696f744a1ee43bcf81df",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "6ce3402222a8985c7105bbefd36f9b4d1c81d66006296abda40561b5768ab404",
+        "coverage_sha256": "a1885f58a5f1028498c8db55c2b603e36e2cf32e3c14c42b655719f90f619cec"
+      }
+    },
+    "02-s009": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Definicije i pravila indeksiranja razdvojeni u poravnate oblasti; primeri provereni prema originalu.",
+      "evidence": {
+        "source_render_sha256": "bf33fa58eba4e1f4714b5430e00960f74a4383a0522472853e015dafe1f12249",
+        "baseline_render_sha256": "62357c7ec882a8f786991ffb6587fbf65ed8d8c0ce44438c636519878a797ea5",
+        "new_render_sha256": "10e21e052cc11f253ec1511bcb87fe691d571fedb0cf2f5e83cab175ffaba282",
+        "notes_render_sha256": "d98a52db7baa753ef02f4c7eb99f5a2b3cda426060d69ff6716ec136a9bc7848",
+        "slide_sources_sha256": "87108a21c58445f833dce3ff036375dd9d5638c6816b6783b54c93ae94e40897",
+        "notes_sources_sha256": "89528d34ca167030dfa1ff85e9240a266a62d2a36c574b092b28ef70d608a806",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "31cc1a88343ad8b6929d572859f3eb3456ac1800b19ea5f53550450953654443",
+        "coverage_sha256": "c359518c6c2f7f007098c2347b3b20727fe2c732dd2b3ec922782302abf9dc7e"
+      }
+    },
+    "02-s010": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Vraćen izvorni kriterijum „broj kola iste vrste“ umesto pogrešnog preformulisanja o različitim vrstama.",
+      "evidence": {
+        "source_render_sha256": "adcab7d17571e880daa2f7d6dc0baf5dadaa3738b5c79af79b88383e2f6fdb93",
+        "baseline_render_sha256": "5c3d411eb6050c9d6cf4588a81f2e9c24565cd5eb633cf70a913ece638c318a5",
+        "new_render_sha256": "65a402777f44f6ca57559575200948537352d3f94368c0158cb652968fb5438c",
+        "notes_render_sha256": "4931f7a0e8cd9802abfc0280aeed870cabb75c3fb5a61c6853ec1954046e0e97",
+        "slide_sources_sha256": "d2175060162ef9b22b798528b4f55c5937a31ecb6d53a13706ed58bf9aadc137",
+        "notes_sources_sha256": "cb8db27f69a037df93e5c2e632fcf1bb47b809be4d10bc4f6df841c5951f885c",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "92cc6fa469a29c4029e0a3b57c31ae14e499621417a34f4489d18ffbafd52732",
+        "coverage_sha256": "479305eb9986101026d4078cdcc62bccdc6f20892d49a3b7acebae930519c727"
+      }
+    },
+    "02-s011": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Uslov tačno dva od tri ulaza ostaje vidljiv; svi redovi tabele provereni.",
+      "evidence": {
+        "source_render_sha256": "cc88e12855a75f4920c134dad9bd35796834c208033d7f06d020b468dde4f206",
+        "baseline_render_sha256": "7499a077c2665be294173324d9f777cbc03899f40cf610bd0fd6d8d67c3cf0da",
+        "new_render_sha256": "2fee4cdb7542c1560ab73c559853a5e1b96b783072e2254e1d045d122de6c64b",
+        "notes_render_sha256": "607b189eb1fc677085cac6bd37a7b0f2ad54a54ba948143006ba8dabee4d90e8",
+        "slide_sources_sha256": "ff02d123b3e46edc84922395f316e2354f7b9c605b6b730eec1fa21f0de8e4a7",
+        "notes_sources_sha256": "5b52465f337b748b6738fa7da574e6c47f8d47d59de83848dd1541b3547922c3",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "81fc2834aa29fac01b51bdc20f819741e0f5a6d9de96ee35232bcb51e742e43b",
+        "coverage_sha256": "ae63a4e634ae125fb23c528de41aefb53a8f27725587825b72c9f934d07bcb0c"
+      }
+    },
+    "02-s012": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "7e870880a6a8f5bc2031569fc70f89c02561249979fae271ceed828797cffdef",
+        "baseline_render_sha256": "17b0f5a9fa1381d13b64c79e434c59a9354004e62045230e50c4772427d09924",
+        "new_render_sha256": "36d8ebd5ededf111d2c8229477fece2bf0e2c21b0b6edb2b4de33e2e8b06461e",
+        "notes_render_sha256": "97cfd6a8770f6fd3c2a49576cbe6abaad6c4c5d81826733806133a4b2b5f7352",
+        "slide_sources_sha256": "50e960c259a7d0df4034caa6d2d474f9333768940dd28a343fb7b684910924be",
+        "notes_sources_sha256": "1d810ffbd3836ec71cef0cec603ac5fa7b8320d11371ca272f5b791c5c31b689",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "9da13601c93ed3f8ddad4692922cfb40cf75e32c9715c306f465c3f7c3ed283d",
+        "coverage_sha256": "dbfb2f2bf5eaee1917184cb8e1b55b37cec643bc5e2ffd82af6f023176b0d7a0"
+      }
+    },
+    "02-s013": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Jednačine i izdvojeni redovi tabele usklađeni; veći razmak između zaglavlja i prikaza.",
+      "evidence": {
+        "source_render_sha256": "4e2c58618edbb3646c416a154673224f32b336adf37d181f84141e9625073912",
+        "baseline_render_sha256": "f6d02a9ea321763cf2eb7a3065d0e1ba90fb3905ab5d1fc5ef5a6f3d7cbbf67c",
+        "new_render_sha256": "f4d14d4038919b5e948ccdcef7872fb719606e5618afe089ce1fd03e910f714c",
+        "notes_render_sha256": "c43aba218ccba9c66787d4ae97d8897782995b599716e3f8df14ab17142409d6",
+        "slide_sources_sha256": "c4ad5f6614b5106d97b2ca28e2087c12bea11b1bf1e98714ff8e20176b4e8e0d",
+        "notes_sources_sha256": "fa46a2e337a70d832fb2530b1e1a575ec8e4a10608d777ce5d12c46e2fac841d",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "05d58b17dc63d225d1cd732fd79961b4ee4d6f71f76f57db6550946ac7e91105",
+        "coverage_sha256": "7626169c33a1b5c63df2035a94d0bb5f23ec0c1e9f0f67334b5982fff1cf5d78"
+      }
+    },
+    "02-s014": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "228b3c5d599348bb81a72f2b4e6eb5c39c1b116a54eaf4e4240c1e63ccea0c78",
+        "baseline_render_sha256": "385ff86c0a6553ed1a4993c7e92489166c03988a66d560037b865c22c4ecfec2",
+        "new_render_sha256": "3773e9ad0175a8e6da952ca8d7e9062fb6533e1ab03dd4348e2cf41d3bc4bab9",
+        "notes_render_sha256": "27364ab66b2dd64ced8fb1f4a3fa17e3127a28becdcfde193ce2f69d78da5e55",
+        "slide_sources_sha256": "81354744a0faf7487d2a806eec4aae167ce6e227ebbebfc14e3af35041ac9b14",
+        "notes_sources_sha256": "fe694104a2eed944e79073ea1ce5d6d6aab0d97ba573900477dedb339719eaf2",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "250b92a18a0a59fcef97f444fd7bc7e8b7dc7591b1f059a2ea196f878bfe2694",
+        "coverage_sha256": "d7ab5cff9ccbae4c29f587ca11e3b71c680924504e3d7624ca964354114fd30b"
+      }
+    },
+    "02-s015": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Pet nultih redova i svih pet činilaca provereni; u belešci ispravljen broj preostalih redova na tri.",
+      "evidence": {
+        "source_render_sha256": "0419aed8e243f17948c0fa7429f158c0ac6ee2990b66c4f71e0343f660541617",
+        "baseline_render_sha256": "93f13530351f1c52e870228900ae08d8a470a232360644717aa7c7e62bde0bcd",
+        "new_render_sha256": "e98c79f95a5e696d73d2ffde2fab863089ea7171257574bd625050a25e43acc4",
+        "notes_render_sha256": "63acabd7d1dd081085cae20e3fe941aa10d6b745920d490f2106389f83ba7634",
+        "slide_sources_sha256": "f94f33435a9b222fe516c426f0e2745fbc782551a8b79a188a8c15db6e466f84",
+        "notes_sources_sha256": "f197d16e658557deca2d5f95ec25236e83e029a118c2af605695fc1ab34155d1",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "02789b41238eed880c4b287d571844f37045e7c98323a41cc091c8abae8bd855",
+        "coverage_sha256": "0a280cd99866b6dd60a041d79fd282b6aa4f6d8b9366d6e5eef03b5bebf5d1d1"
+      }
+    },
+    "02-s016": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Usklađeni izvodi komplementarne funkcije i pet činilaca POS; tabela proverena red po red.",
+      "evidence": {
+        "source_render_sha256": "59c09d8747bf4e6bb57c4820aa49d18ed4b2047845313aca4d3afd45f3ebcdda",
+        "baseline_render_sha256": "b0d5eaffce2a55f8d5c5ba01705c320a800aa4a22f3524311ebb08bb917171c2",
+        "new_render_sha256": "15259d70304fd59fc0c424d40a265f78a2ba5c392366717f975c5b28be4e2ad5",
+        "notes_render_sha256": "7f2dbaf87f2d43f9483b1b996a9704944142e26c1563f59361d0b629a9d892c1",
+        "slide_sources_sha256": "db61b33eea97fc194697560f1e21f236c7b93151ce6864eadc7eedd93d295964",
+        "notes_sources_sha256": "dc95d692259763824f3a15a57b5aa3310367287d7abff943ea7828ec2ec36ce2",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "45457505c87c6104e3945d9ae150dd573c11e90153d5e49d9d90d52d5e85919e",
+        "coverage_sha256": "8459141be1fabf8a4ed7b66049c5f22763c9d203a335240cfff0d0f0a2ee34f1"
+      }
+    },
+    "02-s017": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "189aa1361d4ed1ad49f9b4fc3252e5f40487417ca51e40e42feb415df552d25a",
+        "baseline_render_sha256": "e0dcb9ad290d01d56f600991b55cc4095fad55d1e18b704687542d264af0a9fd",
+        "new_render_sha256": "b64ae46599254064791e0744847b3a01a9e613d91464f72a9e7100042acaf378",
+        "notes_render_sha256": "f5bc09a20476646e49fff8638be4e6720f4173bc90d4d5836823b242b05d19ba",
+        "slide_sources_sha256": "741a63db424bc31126dd78e4af4a6dd6e6e1af023da63f77709bbd7747d1728f",
+        "notes_sources_sha256": "9cb91751efdc58aa06723b68137c247fb79db2fdd17249b43c18d8623f5f5324",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "9510bee8aea635c656cc7d0f81fc19b2ed8ad50fd94d98108c1a6a5ed95a78e2",
+        "coverage_sha256": "2ca09bf000ea9808c33662e89fdff7a82f0b5f75853f88dfec5b4e83b410c1e0"
+      }
+    },
+    "02-s018": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Provereni indeksi, tabela i potpuna formula vrednosti binarnog broja.",
+      "evidence": {
+        "source_render_sha256": "cec6f2610dd93a6f730ff36fef6eef98611f7774efc6c544624e49d16e494161",
+        "baseline_render_sha256": "b358c106d371dbbeb6ad16a699a126475160bc73cb1f1d571f901036676cc03c",
+        "new_render_sha256": "23b996439c585872146ab22c9ffb585394f5ec9d611fa9c2b55b98151604d7b1",
+        "notes_render_sha256": "0a5d74472dadf4c39fcca0bc892001ccc8091d821953e8bbaff66aa47f9d897c",
+        "slide_sources_sha256": "fd20217dd59be3511637821cf528db116780abcdcb79cfc9cf8763b344a40280",
+        "notes_sources_sha256": "db265d89e4258483454fa8492af38722c22b1d0cdc004567229d44f91c93570c",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "e6029e285eb06ef77d63f8c1b352753184d5c1fff9908cd66020fe7b611da472",
+        "coverage_sha256": "0423b6f4d27bf1c5c2fa488ed05a12332f4e005e603511306e71f21a8e6d905a"
+      }
+    },
+    "02-s019": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "7275a0965d41e29d148adc3b5e01240b6b7e1d2150bd435c23c1f5e7c58a4c78",
+        "baseline_render_sha256": "42a269a89e8bb3db3cf93d78b92b8deb5e5ff87dcc29ef99506eb80382cdf08f",
+        "new_render_sha256": "0ec8e015caf0a81f9b28f13dd0f4a7ce0263d10e2b193f2d5cf4e488f4614a66",
+        "notes_render_sha256": "f59ed81f27d58e223dcec3ac82a6943fe8166b709e945f053d33732e397a7892",
+        "slide_sources_sha256": "9674f6b5da8999a4d98490dd7aebf17d9d1ae748990be843e52b9f2799b999af",
+        "notes_sources_sha256": "ff5fa3c8074fa24636182fd7219e1cb40bfd4ef88d5f128a7a4ddaf1dc2010b9",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "b372e081c0349e14e2ecb36d0ddd2199ef7ea850e496a615591ddb98d1e87285",
+        "coverage_sha256": "b2c83e92ed0ce9ec0e1d47f2e315f0d46a4b3c12533f2e7491b4681474e630fd"
+      }
+    },
+    "02-s020": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Crveno istaknuti stvarni vodovi A, uključujući inverter i dva I ulaza; spojevi sa tačkama.",
+      "evidence": {
+        "source_render_sha256": "c837e4adf3cd313189ff41f0cc15020b5e898bff73d3cfeffb89ecd3889b0d09",
+        "baseline_render_sha256": "42ce381c03d0c0ba5556abc54530715b9002d26296fc34190e1c399ed1b2109f",
+        "new_render_sha256": "57a74aa0f15e17a6385d43a9aa34d1f50e27e42e75a9267a716ef58e73d9258b",
+        "notes_render_sha256": "bdb93fd2bd59ed3e236027c7abb7aabe8cc31c52856c789608d9e2b27f3c9394",
+        "slide_sources_sha256": "4140e03db2cfdc174d973782e61d9d68448e30863f0753bbb121eb66c59fda1e",
+        "notes_sources_sha256": "6bc2e49eaf6a1c28ef7fe33c8e052c075cc93fb7cda67db5fcd2a3af9fee52e1",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "7dfd32188bedd8f90837a96deae9ba2c52999053d252b68156904a31fc1b801f",
+        "coverage_sha256": "7151ccdf2db1e84163aa4a78a2ef3c7519090a996b6c928f4d942a8a54c2d0b0"
+      }
+    },
+    "02-s021": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Odvojeni tekst i šema, očuvane grane pravih/komplementnih ulaza i svih devet veza prvog nivoa.",
+      "evidence": {
+        "source_render_sha256": "d8053752b1c801ffdcc5cd966cf42f12d2f1ae041ce0eb5de2c60fdd5d4e0d42",
+        "baseline_render_sha256": "e9d5873d603a18a123edc548dcf0dc909fdb3bb97fb1e051209224771e3e63d3",
+        "new_render_sha256": "f15fce12c757f3cbba724d4c7c5c59aee9917868062c27bdb0c22e926a4f7d16",
+        "notes_render_sha256": "71f60ff58ae2f0af2c4d882f8eedf69d5bab53b8b7e8b1e051c0e956ec2b41b7",
+        "slide_sources_sha256": "0f46fb10322ad6da336f958991e0deb7b5acb042fe98f8189ce46d35155f0bb9",
+        "notes_sources_sha256": "e9c2b9a9d5319b3b8318b429c40f7b87f49ba5e3230f2af17c3172bd7887258f",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "d49eac2ae5f82177fa243db83e118afbe2172768a4b3be3b40772b6f18dd4925",
+        "coverage_sha256": "cb9f176e8f221ca5edd450cc3356aa58e3cda23367f567caffbca4600675a8e2"
+      }
+    },
+    "02-s022": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Pet odobrenih POS činilaca, pet ILI kola i uredno vođenih pet ulaza završnog I kola.",
+      "evidence": {
+        "source_render_sha256": "3f68d1b080f1adf98a0c40a9a02acc0425477841447b40d2fed7134d64c45ab9",
+        "baseline_render_sha256": "89261724df1641aa951df7defdbbad6bec9d817b72605ef958b8ae7c29ac757c",
+        "new_render_sha256": "b9af00d21bcb6df7d4a74f76b145879d9b4a48ea553e3fea1fd1e18574c06e67",
+        "notes_render_sha256": "8c3c6e7f63ae4900879bbeac9c0a38c9739282092eee2bede034a9154d47c911",
+        "slide_sources_sha256": "183721766d35d173a1a63f504f84d4debb48fe999c9096c2f0eb0b6f05b421c8",
+        "notes_sources_sha256": "76a1ce8ae8689e4f0714fc4703939791df0c3d7a1565727d4242d4a306f66366",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "797cef31cd13a415a2e5fa913e60b27834f745716c7f44c5ce856ddc76914d4e",
+        "coverage_sha256": "3eca9fc77f2e1f37104a91d3ffb9f69b8a03f727c394261f47b445f7f580c92e"
+      }
+    },
+    "02-s023": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "1c5091247741bfbff4dcc1d3a123c0a20ff41b7c5da1bb287ffeccf850bbc1cf",
+        "baseline_render_sha256": "52224a52fe0e14138d9e7220779617273d445040e31a89d33a9f0ede22869e3a",
+        "new_render_sha256": "1906a5da610d4ab85faeccf77dfeb675cff19c968a678fef6ca105f71d04c46b",
+        "notes_render_sha256": "eb9dd07075ba82a7f25e244ee8db66e2b3eba4d31d3ca9618495a46229f1c43f",
+        "slide_sources_sha256": "52b56dc1c9ee80a2ec8fe3955812f98556bd016557e1684bff671082748e223f",
+        "notes_sources_sha256": "c28c4465afff930479172be690037d9b863f6ff63a584a174d3ce8ca19f58202",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "6c57af5e069bdb0b3534d60b62e73cffe520719f0a5be7aaf666bbfc5ab74db7",
+        "coverage_sha256": "5411666750e3b1097e41779f4be5c80d24b07cdbb89282b74a48f3cb138c33ff"
+      }
+    },
+    "02-s024": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "8ca9a92a046e0cd108d6da4e08033d496da08000c8f2c3d5af26b812c2c5c23b",
+        "baseline_render_sha256": "c4becd46d005a2e986c043edda37d82fac98a7ad55f87316d95edacd66fe5e4e",
+        "new_render_sha256": "bc606be5ed64cb50149f24c2f3c4ffe57292348fffe219303e17170e49d2292a",
+        "notes_render_sha256": "e774994e07b2f7fa0b31a582fe48f8d56afceda02e6ed7092c547f446936da2d",
+        "slide_sources_sha256": "8d6a3bf7ffc6f3ed97787470803a18d633351ac80b151167e6c66d2cf7182d9e",
+        "notes_sources_sha256": "793c52c0cab3e2aa66aa48703efd1c5a6cc6d873fe4b5c8c5c04ece1af56f031",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "6d0bafd9eeac241f650d73f5d272d378d5c2a9a8fc71d3422057e7fc2c397a7b",
+        "coverage_sha256": "17b28b6bd45f3f9abeafa1b7f5ae7939bfe253de444b959f2c7c0222643e031f"
+      }
+    },
+    "02-s025": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "09d5d2ce98d79338c9571dcc55cd7e30dbd89236427374569e215dfaebd90748",
+        "baseline_render_sha256": "85e066e2f8956fc1d870bbf43ffc978af92200697b6c3925986e060d2378cece",
+        "new_render_sha256": "c787d4bc2f1a28d3cf311741fb72968cc454a71664bfc23088a3dc1d2ddc5982",
+        "notes_render_sha256": "9819334b493568516cf51214b4d99862a7c803c476a0d19687db0b59db7bbbea",
+        "slide_sources_sha256": "d681b235c411614e1c5b00170ccc74c12c2110f6f5576b50db9ff97e83e28a56",
+        "notes_sources_sha256": "c5fdd55a9058f4e6f9b55bd4ef2d142807e05e5bd316b93bc59956faff4450fa",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "3f2a6cae2be4e0e3a0d80228a8ac375e7784af2a380d583455a4b95e3c885875",
+        "coverage_sha256": "327e5f0e71460ec498ee5c36e2fe7717aa6218e93e507e39ae82c8e5fb87d43c"
+      }
+    },
+    "02-s026": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Izvod odvojen od crteža, očuvano pet zbirova i NILI transformacija; eksplicitni međukoraci u beleškama.",
+      "evidence": {
+        "source_render_sha256": "91adae98636f3b497556089f2af82b51b175779bfa4903cc2cc7cd1f9f045c73",
+        "baseline_render_sha256": "6992c5f148c9bd375cb882f875ad3cf2ac2670eadb2eb9587ddd70e21640a5b1",
+        "new_render_sha256": "8fb5cabcce04f500aa7f1caf0718bbbb2119b29c26cc92bf1094437d0ffdc958",
+        "notes_render_sha256": "fbd908a727e3c90756991d05227bd4b5433cb22e465f6e6d2ad19cace92045d4",
+        "slide_sources_sha256": "98aba41c4f8a054d4438fc4f8e55a4718ea43760d22a8bdb9dc90578b090ff10",
+        "notes_sources_sha256": "7faaccd815e7a5130d6f19a9c4595d02262bf4eedf39175c4b978e1520b8a731",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "e49330b94af5d9234052d1a27d892208670ab4243bd040c6da5edc1a19ea6b38",
+        "coverage_sha256": "486eac8f76ace0bc3fea4b3f9ddceed22e0711af590ffe7ba84dbc58aa2bd30f"
+      }
+    },
+    "02-s027": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "f908f47907eaaa1631f0adc63af9c095dc083c6baf14ab23967e42ababce8d65",
+        "baseline_render_sha256": "32db68b0d93a129c5b8ffecb833238d7eacc4466e7c368ec7290962b1868aef2",
+        "new_render_sha256": "d90210b1c75e38c6b3673613b8054750564a203503d561adb47ad19d478d8a28",
+        "notes_render_sha256": "a7297367ac89c86f3becc5e92c87b13b524da44747ecbfaf52d5d79ddc878ce5",
+        "slide_sources_sha256": "0549039727b6aa8a7763e89f9c4d4cd5d117e94c7e3c5c52bd5c9fd0d279c9cb",
+        "notes_sources_sha256": "11d075dc5e6dc1598d77c51d398b32d977e2e5a4ab92f8b40605648d7fb3cc74",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "163b0d6ef458dda48ded263acb562d476b5e1bac45391b6baa2b715290106466",
+        "coverage_sha256": "d3e87264a8c18e63917381a8a9953f9906bddfd92b596c753033d1a768aa3bdf"
+      }
+    },
+    "02-s028": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Kritična putanja istaknuta na stvarnim vodovima, bez dodatnih vodova preko simbola.",
+      "evidence": {
+        "source_render_sha256": "5ba21a3450489157e99e102322014d772386da23d1aae16491003898586df7d8",
+        "baseline_render_sha256": "c2a23c82ca91987fe0d83db761797035efde3a190595fd3b14640ef061314102",
+        "new_render_sha256": "ac1ab54afd747bbb86900805aa8adb9e32995be70d2ec5f9d7f6850075e4a9c9",
+        "notes_render_sha256": "a462d9ebbe15bec9e1c806fe36b3bdcbe7be32f848e246316a854d0be5e38c8c",
+        "slide_sources_sha256": "3cee355924ecdd3304d9df933ea2808eca1bb3d7c58c73708ab050804953ef10",
+        "notes_sources_sha256": "b4dc27adc331c1ce62367006b3dbe398d0de2b8530c226dcc578721601f55bad",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "06b94edf6ec3c3575fb6e6d49566218d06886d7d0cef37bae111cf2879f394e5",
+        "coverage_sha256": "f682bc796df4b78310f18440a9227c79b81221d00f68ecea9dc14e268869ba8c"
+      }
+    },
+    "02-s029": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sačuvan izvorni sadržaj po korisnikovoj odluci; bez novih stručnih izmena.",
+      "evidence": {
+        "source_render_sha256": "1ed3d77186cf00db66d0d2a52cd99cbd0ebdd6907818b2f5043b1b4e16442a24",
+        "baseline_render_sha256": "744f147d3e946da84b603ea3ff6a3397ac0044e6a9f9bfbdb67d22b9cb139f59",
+        "new_render_sha256": "2da0c5cb4c2cf6fd67a4efd6222b44a4a93799fd41881fec02b52af5ffe1c5e2",
+        "notes_render_sha256": "cb0583972660dae8f1c85d8d2c26a05e179a11bb1359ae2cf6333d229746c120",
+        "slide_sources_sha256": "e2fb50ecb91da09b3e6f7d4032bd5046d4542e9f1acedcb366e33c99e88a4657",
+        "notes_sources_sha256": "f66c181d641b582cd5f6da339f543cf3c240b85bceaab32ec7743c3b16567056",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "cf7df26435405b684a48e7dc9d4f98b09a03dbb2a6db175bd2f2c853118add38",
+        "coverage_sha256": "fe3b26729dabd9158fa897cb493e8a4c93fe4d4fd5ae865a1a4a54abcf799572"
+      }
+    },
+    "02-s030": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Zadržane obe neekvivalentnosti; balansirano NI stablo kompaktno prikazano bez izmene s029.",
+      "evidence": {
+        "source_render_sha256": "d4314453a5991b249bdcf0ad14930d0bb5ff10f1003b060930c93a41046c85fc",
+        "baseline_render_sha256": "89d6ea5e8336861a81f4026b44c41f52c200b6e64267cdd1148084f067ac657a",
+        "new_render_sha256": "7c249fe2c864386d6e531b8baa4c8e8ba9668033b15f3649926ad1d6793cece0",
+        "notes_render_sha256": "00d9284d9c5bd915d07270edd79291895c0af784a120c9268a74f54bff50b940",
+        "slide_sources_sha256": "71f955923788dc37a55d1211697e78b5f8cb05026f81c94d001896a3e180e5b1",
+        "notes_sources_sha256": "1bc5890b166969121186191820086ab1097eb4c7c0d054a1f713c332ce6f579d",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "05ab1ba5f05a590e0f61a248e2a5d3106ac39c6fbc4cb9b7f8005273ba8ff897",
+        "coverage_sha256": "f193c118c34f35bcd726eb5268c8ce05053cff48a3fea650d468a745f3126cf0"
+      }
+    },
+    "02-s031": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Ujednačene veličine dvoulaznih kola; tačka na izlaznom grananju u inverter i uredne veze.",
+      "evidence": {
+        "source_render_sha256": "d731f3e93637349dd7f9a8d7cb0d7f739cf56ddba4d0db910b5447241d841f04",
+        "baseline_render_sha256": "b41ff0397788a718204e103626f7cff20351bbc5eae36790483c1cf9cc65ef14",
+        "new_render_sha256": "644cb2df9d19ead31ab061166d30ec9813fcd132bdff91321d30c0e96c6d1daa",
+        "notes_render_sha256": "3c6bdad4d4021993f74859413510a6d5f76e335c1cab9c27fd19a26599d45a26",
+        "slide_sources_sha256": "a78a2c38be38e1716ce085ce8521ffcc9705e31861dc4fdbae9a3690f298a0ec",
+        "notes_sources_sha256": "73f298cceefa46f09b0ddd9fbd1a66f0676eba058c0b9c82dc4b473595279051",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "7184797eaeeeb7fb34154344fb2a254b37c71c323291d7eb3b56e7406a1bfbd4",
+        "coverage_sha256": "fce6dd01ff2c4d6c9205cd1f7edd9203d5e9c8b6f09f0cb5cdc2b23885fe9af3"
+      }
+    },
+    "02-s032": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "704677f281086b0b82680fd6cde81c95c95b02c52b08030a64830b54bf0d1b83",
+        "baseline_render_sha256": "ce44c044b9e85c0f22eda9e09a084c98d14e342b666739c689136545ccbb5eaa",
+        "new_render_sha256": "cdcc804e9b9a8ca39e3952f3999c348f0bb8f52b66ce54eb89bdc3b2f8d329c8",
+        "notes_render_sha256": "923ae1f7fe8c1dad150f9bb2682a876df03b2e4e66677b83ef951f014e383e22",
+        "slide_sources_sha256": "48e8a77faf64196b4a1c2e59ea6e6127ad9dff5568ebc03c83864d2cc16d7ffd",
+        "notes_sources_sha256": "969d2807652f09177eeea66e2a751ac4ae486e5ac6d428cbb78f3bdc7accd2c6",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "3be9ff5fda9c77dc29cb804a6e8f130c7be2b6c329ef9eb7438dca9aaedffffd",
+        "coverage_sha256": "d030ccc31d645a9c3ce3ea5c221b3eea934a87253ef16269f8ff47bb9c23ebb6"
+      }
+    },
+    "02-s033": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "6677c202955e054c982f3dc0a9f217f140a73a12fde1adc0d9c4468e47f5b356",
+        "baseline_render_sha256": "8a109f405f572f7768586d6939579a24c7b263542f5c802f2c8e04728b87c22b",
+        "new_render_sha256": "89bd6ad78a530648d26b040e73b3354c0b8f57d40a4549dd908e7ea004d5c970",
+        "notes_render_sha256": "d84687db73d40ea737f753405db29485933e122b388f326958362a9ede8cfaaf",
+        "slide_sources_sha256": "3152097821cf24bed4778b63487eb9e78d4bf12278f37db49af6be60a0d323f1",
+        "notes_sources_sha256": "21486f01234480d0d6b9847b70914f40d71719b56a96b40ba61ef47a146ba2de",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "e6a2bc1e13ecfcba259756806148679764446fec859f6eb923fefa28bbd46c50",
+        "coverage_sha256": "c1cf96aa357e023300d22e375a2c136f1849c29dc3dd4791ab31a364409233cd"
+      }
+    },
+    "02-s034": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Pregledana sva dva jednopro­menljiva i tri dvopromenljiva prikaza; strelice/oznake odvojene, indeksi 0/1 po odobrenju.",
+      "evidence": {
+        "source_render_sha256": "de9ffd607ec1ee4a86534af79ff4444f92f58f65c566c629ef2d3ef851deb9c8",
+        "baseline_render_sha256": "c45881cd96a4b4394c180e5a3ce5200f6aebd04ae3b7ba25d741304fb70fb96f",
+        "new_render_sha256": "518e340c0112ade4205c05f6a51a0265d680581e46cef755aaa28bd2434c922e",
+        "notes_render_sha256": "1b14a2bbdcb88726ca46a761c5996d3a8b2064994c375f7418936916ef2e2aaf",
+        "slide_sources_sha256": "06edfa5fbc4445b9a3e32bb0fdfb313e93f82c710caff6d3aabe2bf4fe9d47dc",
+        "notes_sources_sha256": "d4822310ad9ea21a3a31b8ac8b1045d98e3b431f75f47de13aff80355aa96b47",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "faccad913d80dd3623f4f0ee942a1bbb593ce2d0763f9a28cbc55dc2655924f2",
+        "coverage_sha256": "3a3ed1277c988527c0e26c6ad5cfbe5a2a571df85c46ac2f4e369611ba3f186b"
+      }
+    },
+    "02-s035": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Levo dve kolone/četiri reda, desno četiri kolone/dva reda, kao u originalu; odgovarajući granični parovi.",
+      "evidence": {
+        "source_render_sha256": "496fc6984778e54671840bb9ed4b018af3d83cac2d09c9c77b068c5b5a5f134c",
+        "baseline_render_sha256": "2c4366e2da3256c5f55f89a8627a14ee1e687efbc01e553df6bb14c91000d65d",
+        "new_render_sha256": "4eddc89c9ac9237f046620402b66b7d9ee5529c3c2949c2cbb4c025bcf39db62",
+        "notes_render_sha256": "343afab0e38fc1e2b1fec1c3a223890dccde33fde78046b62eb462648b9b50e0",
+        "slide_sources_sha256": "fd1b6a7f4eec0253b92774022dd202c2e3bc8e302705b07305eddf2070e865f7",
+        "notes_sources_sha256": "bc500c2472adfed4addfb27de4ff6796b2c3ee1f8cfdc5d2e10242801411f296",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "ea1c2bb132e6591f80e7fd14b911ce448b646b983a80352ecc0dce766528831a",
+        "coverage_sha256": "69e2b606b3b4e3d3c7ea399413fa69f2d6ce6efe8cf7a6c3d20a9eba1d8c02b6"
+      }
+    },
+    "02-s036": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Svi izvorni parovi susedstva preko ivica vraćeni na slajd; oznake čitljive.",
+      "evidence": {
+        "source_render_sha256": "4a8680a3c3b9a47f817aa409d4c4bd77f28c465e1b07619a417bcd2848b75e51",
+        "baseline_render_sha256": "5800e31582eb5b8b32283def7456722cdf54190e45460a69ec77b15ecf4b4731",
+        "new_render_sha256": "271e3b5e7c1d0855e29c299d5c615d89eda0ad15afbfeb13ab03dfa7e0cfae69",
+        "notes_render_sha256": "878d43faf23587c987b2d7de5ada60ea2389beb8256c80cf7cfdf0f261829f23",
+        "slide_sources_sha256": "eb116c0ab08e5a8739147a2d278055b1f25df6c6288b9c7b75dd5c76b89a1405",
+        "notes_sources_sha256": "cba22910b5f22909a706eabe5af3e2249987af9c33094180e529f0efbb8f8020",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "ecd5d0e28ef9eb78b420cc4b28fed7272e852d29df674e0638dfc8dab3c8322b",
+        "coverage_sha256": "1cec13c37915310cf3decfb8a543d340a571c89773b82fdc33e36b4f11522a94"
+      }
+    },
+    "02-s037": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "d6708b4bba342ee4931a681b89c97186ec69106866dbaeb4bf20c277732dfd23",
+        "baseline_render_sha256": "39549259e9fc6cce07dce93b159e4d596dea13f01c5bf9788d1f85eb7d6c4846",
+        "new_render_sha256": "54f72c353b60b2fa7e93c7297926af48c531b32d915534c56e2ba11d52edd857",
+        "notes_render_sha256": "53e8585b431f1b53ff887b35756e2a6423ae05ed1f8e7d788c6eeccd1ba8a675",
+        "slide_sources_sha256": "94c80bd4dfdb8fdd8b8a9935120832876e04b28481763ba292d1b980d924c319",
+        "notes_sources_sha256": "6c394c1579da4d6ee0dcf5d65fe9a7ce4fa4f833bbc30b10168ec18fd9c7912c",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "e5d547654ffe6bcbdc1eda16555e6f592c102edf96aa9d8a5c31b3b067b0f52b",
+        "coverage_sha256": "a1ccda74378fdd75f988491c864787c06290ae27f52c691246d3d8d8a0ba55cc"
+      }
+    },
+    "02-s038": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sve četiri karte precrtane sa širim ćelijama i čitljivim 9 pt indeksima; svih 64 indeksa i navedeni parovi provereni.",
+      "evidence": {
+        "source_render_sha256": "801a1934160497c58044d98ea2f5cac7c38c70e7c2db4d9ba8efe76b6d677dff",
+        "baseline_render_sha256": "e35e991119c720baf68f35254204984e24c4d82f4adf4199b1a1582f0710b7ff",
+        "new_render_sha256": "ac8174f7e5c5096742195bd805252b080299ce34e306d7d7903c365b3722f5d6",
+        "notes_render_sha256": "38a61b7f3ad52f05f154c5933cc17f03a84cb01941a2d396c6d040ada7c18a9e",
+        "slide_sources_sha256": "0caa92ff12ddc7b7f14cf0e2fecdcc3e2276f5d0f58603362506f34be78dfdf5",
+        "notes_sources_sha256": "0e512857e7dd40b4a2f23ac137e995d97a441c63abddc1100edbda6ad5babd50",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "e8811aa7f4bfb4a2541746d31e0371feb4983f9b473f1ecf26950f6785368447",
+        "coverage_sha256": "1826b416ef75b315925911e8a3cd3c628685d608c62c8513bf52e3981af20d61"
+      }
+    },
+    "02-s039": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "05e20f35c86c4f72a25133a44b629f6c624fe8635ff1a7e549303828daf7eeeb",
+        "baseline_render_sha256": "d23c563d0c74a8f3302b8f9d912b2005cfe648f414e919cf7bc2477d2224457c",
+        "new_render_sha256": "3d0549eeccc4e704e265663dc682ee6c8e40833ed90b2b46b69890a013f085b6",
+        "notes_render_sha256": "c161a64f6ecc216ddd7759daf65fdaf1b2aa1a295b6062d7f7d3e3a609796f7e",
+        "slide_sources_sha256": "28f20b3c90f934b3170682a131fe7a18f039910f47131217268c339de1e641d6",
+        "notes_sources_sha256": "20fb86b917d526c6bcca2f7b2aea2d0b05100a87f6a74378b0a511dcb0133b85",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "3c5269b000d2f660e6191a6893f047520a1a0d29676196ea664b2b7feec6b0be",
+        "coverage_sha256": "3aaeecfbaad1f2feb15e55f2064d5eddafd434cc5f787f1b3d66ff07368ec8f4"
+      }
+    },
+    "02-s040": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Očuvane izvorne karte i grupe, zaglavlja C=1 su 0/1 po odobrenju; oznake najmanje 9 pt.",
+      "evidence": {
+        "source_render_sha256": "d1aa23f2362a28da21f9df9c22958f487b4b8021142076618fe5593deae25531",
+        "baseline_render_sha256": "65494954b25c42a32105410505463733d2e7a22cd2c0401274ff4b2ba87c2d8b",
+        "new_render_sha256": "d019a4d6d7c0cf93520ab7c638c3540958a2ff85676528031b34984d9a02937b",
+        "notes_render_sha256": "1fd267857efc0a651ca6ef3d2f2fd151c4aaa553c1d311ba5fc7f85c0f226fae",
+        "slide_sources_sha256": "c3599382eb0b623e8ad1d55dbd3fe910b410ee4c276159797ab06b329f3405e3",
+        "notes_sources_sha256": "096ab394580d182af7d794531dd5684c9f65b43d90238a81974c7df328921ef1",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "bb8d034e7185f06e73ec0828b961e4f9080a140a5b13aee1774edbb00d4308bd",
+        "coverage_sha256": "c6febc5f63a541a8bdad2b552496f5fde6d5a221c2a9b348a2cbc9e31ece9ce6"
+      }
+    },
+    "02-s041": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "00e10b9ae87ba413d592fe0ed4535c2743c8359af46f765e74d2b63b0db25d0a",
+        "baseline_render_sha256": "5299c9b3d3a4726be8e5b99ae4e4bf11d32390b1b55e7061091b19f6e068de14",
+        "new_render_sha256": "448dc1fe7c783865007302417a39f4d07b9ea908fb1dc5be32e227cae8f8ba0c",
+        "notes_render_sha256": "18a0b4ed937ead57c8ead8b88fbfaa91a5a2439e915e80f3bfa7cea88d8c5f69",
+        "slide_sources_sha256": "ffd4d06e7165983a7e819e2451c5057d559fd3b5d3524fb0b74101dfbe738883",
+        "notes_sources_sha256": "f47b39a8e5655f6d7bb62c7c26e2f892e786cfa57ed85abac8887f1cebb06a04",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "679179b60dd5559cdee9ee5cee0559f6736f8294708f63810d65ca1e42aeee6a",
+        "coverage_sha256": "a852882b49c93fe9a47179272c5b7002ab13e75b15f90f1ffeb51ebac871bb13"
+      }
+    },
+    "02-s042": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "fb18aa46fe84b61f305ce526fbb792e634a5e506e1fa4b620fb91442e18517ee",
+        "baseline_render_sha256": "a542a6bf0d25360ba2fcdd9180e9bb5068b7d1a276e0d6831e477689dba66989",
+        "new_render_sha256": "73d6543611579fc3012cb3d8a6ce2b15333bd1ae336801e054fcdfb67aaea2cf",
+        "notes_render_sha256": "d4292405b4749044df22e3f908a7c6e4eddcdfe856ddcff43d8b12228d1d6825",
+        "slide_sources_sha256": "05fc49363012523b37a95a5f9b777f5052c78cd34d8638dc7efa2899eee1f101",
+        "notes_sources_sha256": "619a4f226a490de3836ee1b0a99a608da6d81b08919e7978bf5d91161da9d940",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "01e5f958731ada70cd42d8c4299f57d38e06c0e1c9b6aef2a3046509f45df3a6",
+        "coverage_sha256": "1beeb8ebc2403f9ca76121ca42747065b3c859a4ca61e054a8f5dcc3bded4ed0"
+      }
+    },
+    "02-s043": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Dve grupe tamnocrvene, druga isprekidana; proverene vrednosti i neodređeno stanje b.",
+      "evidence": {
+        "source_render_sha256": "ac8cbbc032674a59be67f32658851bce97274fa904cc4da89303aed7fcc9e2bf",
+        "baseline_render_sha256": "030fa8f3ec22c6e02f182c0b5cfb6e03cdd07c92e3e868d26d88615539d4561a",
+        "new_render_sha256": "c96feaf5ef9302915b870dcd76e5ebfebf8e700903fa724b0b3a1ef981930957",
+        "notes_render_sha256": "3520e71d0e0eff0d3b210f74b612b4e8b6bbfeaa9d7589d67e6e3f9c58c1f9bf",
+        "slide_sources_sha256": "7e3aea056df0dae6429510ca78704027be71ed8004a17d4616e9f5e6154baf8b",
+        "notes_sources_sha256": "cf66b3662f5f52408691f9499b29ed1de0df065da923a8fd9f6e41501f4a4f2b",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "91a19c4131a8036e76eb4c614ce674c0d03df78c5d13f794d63ce000b5464ddd",
+        "coverage_sha256": "fc331941001dd5f03170cb410bfc2405a8e5b887e96e893df55c0a1ae04b22bd"
+      }
+    },
+    "02-s044": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Očuvana jedna nacrtana grupa; beleška ispravljena da ne tvrdi da su nacrtane tri grupe.",
+      "evidence": {
+        "source_render_sha256": "dfeff094129390dea98cbc1f2a5b4e7f94c92dced7d67b4164adf5efe9d1b543",
+        "baseline_render_sha256": "d0b2589e205d3bdfa9a9d0789a8a8cd7fe175964a45f1d7b5be1cbbf54e6786e",
+        "new_render_sha256": "b6f5814f30bd73725336587a4490b76dcb30d1a3d0ed469dc3236564608e3a43",
+        "notes_render_sha256": "f29bd9a758045c79cb9f9b6454164dbd57a3e5ad732c632d8bcf85b965810027",
+        "slide_sources_sha256": "5a4c7571955b942dd39e813fab51f0b07454d4eeed81f2beaa3100677a39fbff",
+        "notes_sources_sha256": "9f40cb8aa54a78f57e13d05df469d835a759a758ed17bc47bd88835770d71eae",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "9ce2157440d746d8773bcc31396756c72589a66c918c34ad9787495e7dfeb0fe",
+        "coverage_sha256": "1057fbfcd78fa00d2a6b5b81efcad627c9f1aa6502be87c201cd5063817e4b56"
+      }
+    },
+    "02-s045": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "ff88ea21cbd3bc947027d2ac13e70db0ad02ba658982e2eb01868bebcd8ee85e",
+        "baseline_render_sha256": "9ad6ac5cb108c509d39bed1f5d2676c44efb05dd4209d1f9affb6e0a168d7a66",
+        "new_render_sha256": "dec0e470f7f0cdcfa4d2070692d0c3c19cab2ed2ba6ef742cdb180b6e13b5f11",
+        "notes_render_sha256": "01a3cfbe8a719f50efc15cdaa0f1e6e8dd47bcb30163d8c5901286edf65f838f",
+        "slide_sources_sha256": "4863954a7f0057d1685df42e10714976aaf382638983f2c761fa911d1e40bc4d",
+        "notes_sources_sha256": "0de486dbd2a5729a6ecf47557e0a2c427826d8cd082924fcff25bf2f440605ee",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "dd7d6e94564fa087808e8d43d9aa5d39393b423534723c700efa48fbd37114b4",
+        "coverage_sha256": "d76a3372c1fbaad230437fa4d6a0dabec7f5e6935fd0ca57015354eceaee67fd"
+      }
+    },
+    "02-s046": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "1a35bf10275e8988ad129e9406a4a98a890761725aebcfc34dd64f403a49174e",
+        "baseline_render_sha256": "4227a5f4cc750ecf066289561ca20cc5f52d51d6a97f1775233157d76e7ac74d",
+        "new_render_sha256": "f1076ef4011387a7a86ac7880e74cfac2830367abb180f528006ef18473577db",
+        "notes_render_sha256": "e7ac3f4e38d3b594b4479d30dffe699f2fce502a290bff1ba9d4cbb5ae71c891",
+        "slide_sources_sha256": "175cb71ec8c7c9d78964999ba66e33a84d814cf5688f9a7d5a39828d3e70e6cd",
+        "notes_sources_sha256": "3b66ea654e1b81858d9d07e6990948970ec70450fb6d999d26a256b4fa850217",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "cf584e0de8d92d908a9937f747250e5e5bb8037aea03a7cf4352c2a91e94ea10",
+        "coverage_sha256": "122251992d18b0799659040831c28c21f3dbbcf4299d6f30afa5ff0b50bba011"
+      }
+    },
+    "02-s047": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "2be338b8c9e28b11d3c4268e3eaf6b511028831eff51f50671447b7d599396aa",
+        "baseline_render_sha256": "7cc57323747738caedf162e4ecfff13b63f93d04247ab0c1a11bb0157efc98b0",
+        "new_render_sha256": "fc5f9489647508ffb9de42381d8c6cd11b672319f2bb2e502bb29f0a7e6eee15",
+        "notes_render_sha256": "077a5ff109cafaebebb53d01f956515298d5f891c02707c17e74e21ff176cc12",
+        "slide_sources_sha256": "e43bd347309ec170ff8f77c8a9abb11f11f02e1db2d0bf47939b578d82fac87f",
+        "notes_sources_sha256": "ff6e4f65afdf60e1406b40d0238d7dec77055398c183d948846cf040b8f19e06",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "10992242488572e822531aa3dd52f94fb80cd62a46b6782601af1b9d07424c30",
+        "coverage_sha256": "257d9df3fbb5eb22aec6e78c2ce589b8b1ae2aaa77a6d6a6d6f5318c5f0fe287"
+      }
+    },
+    "02-s048": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "a359ea9718cbc1bb5b1c03dea90ded292ddbdd67f4031d38bcb1c28e34f378bb",
+        "baseline_render_sha256": "c5bdb88710e6a4ffeb87edb05dd0cd468d5f2d72ef8cdda6a4242f96686aabc0",
+        "new_render_sha256": "6010d9f551dd1ec4eff8fbeed0eb4586e76c92047de0e854bd36a93225ae12bc",
+        "notes_render_sha256": "c8624bc66312cdf23f9580bf8fd7ae0d0b68f55c43d287df109f973953b6b20e",
+        "slide_sources_sha256": "b56238f4d6644173e61a75142783cfa18f689c13cafe599704d8581e68379060",
+        "notes_sources_sha256": "2063e79721c8489ac1c152f6bda85747169f9d77e2f681d4a6465e4cc542fb3a",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "2acbd629eccb9837dd6334152589df880b287b2fa4883695517556fc539a14c0",
+        "coverage_sha256": "c2e15cf1d72223600cfe340d5c5c2b11fbc74d65f8ee71a9125b2290cb1ff79d"
+      }
+    },
+    "02-s049": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Vraćen izvorni kriterijum klasične minimizacije; broj kola/čipova i CMOS zadatak očuvani.",
+      "evidence": {
+        "source_render_sha256": "d5625a5e8e112d69893e95d356aa5d250f4933e4fc003aa9e542a800cc41df5c",
+        "baseline_render_sha256": "d1ee3ac051cffaba425096e61cc8ae0d7a885d0574dddddc216a1b281666743e",
+        "new_render_sha256": "275681a2b310a34d5ab6339adedf163b99791eff923bc7b0c349138c49fc5044",
+        "notes_render_sha256": "3db4facc444cded45d94a94418c836c1a86a07c1d3e90bc7c34f32ad758d58e6",
+        "slide_sources_sha256": "e1aaf16bcb4c994a1a0451535b23ea886fb759646a63dcc7358e15d5420d07c7",
+        "notes_sources_sha256": "13f3318767f1f65afe79783e9dffac85765c8af66814d0301857571c99a0f27f",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "118a55faf6d3f30f35cea855fe67c6dae0c292ea671ad52192a3ca89ae5ee540",
+        "coverage_sha256": "84e36643a45e22b8c7ecdc93b4c57d3609031cae1fe634b77d6152f21cf37e3e"
+      }
+    },
+    "02-s050": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "0fdc3df0da12080f1e17785890887ed813c027054fc82f470be140eccf971f70",
+        "baseline_render_sha256": "e743158bf1b58757eee12a670d024dcda2c4143c9570e1d0f763c742f1570f43",
+        "new_render_sha256": "95ebcecece32fe23bf8aa3cfb23a5793bd58084a4678d8411f0ad0a3d6591504",
+        "notes_render_sha256": "fd5b88fb1dc6ab0c6933e2efe665c7c742019b80aba33ee38fb445824036a9a8",
+        "slide_sources_sha256": "e8d3abf047dfa6754b058d5f27f8d2f5ce3dd0c1f9795a44c491b1d5b5bd2a1b",
+        "notes_sources_sha256": "64e215c9b37302e981fffa33faa83878aae46ce78a7ad2e9e08e91de1d950c9b",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "e307ba7a606137bf96e4b077cebddd43a39fc2bd34f62d50d48ce8507367f183",
+        "coverage_sha256": "ca62af4accfb21a9fb980235f3676f4bcac129990c4912875560138388a8af29"
+      }
+    },
+    "02-s051": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. t_p iznad svih talasnih oblika; ne dodiruje dijagram; pretpostavka i prelaz B=1→0 ostaju vidljivi.",
+      "evidence": {
+        "source_render_sha256": "be3ad87805947b90896c1280d95a240fc90511229469becf69523e9cea87a291",
+        "baseline_render_sha256": "1a215519a24fbf1e3083df4a6c316a2a788de198a3fc8489232529b1b33d967a",
+        "new_render_sha256": "b81fa72106d969af5e1865ce5221649f1073c272259cb1526b8519c32ac7b1d0",
+        "notes_render_sha256": "bc37cd2121c15ff77427a8fae61c5f2586144ca56d6e6bf9644132e4c3ad206a",
+        "slide_sources_sha256": "ee71f72a1bc3f86928962b7875e62da87fde02ac2aa0f4a94c056151b9c8b11f",
+        "notes_sources_sha256": "7a3dd28ab1a4cfa427846198673d8391e60da36f06ddb4b2dc9697ec96e7fd51",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "8c6de803d0540dfd17a5d67a0e53d8fdcd7777560ef1fb3c11851d426816cdd6",
+        "coverage_sha256": "9fc236b3d21c195d2ba331677617384e1a64896f3c8cf251a0b3b860c406b36a"
+      }
+    },
+    "02-s052": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Očuvane tri karte; odobrena F=bar C bar B+BA, urednički uvod uklonjen iz projektovanog teksta.",
+      "evidence": {
+        "source_render_sha256": "5f5fe9601e9fcc3139f1e8de6ebf6e49ed29bb8cb1af32ba8cec647132ef0308",
+        "baseline_render_sha256": "d78664a81ae8d95d85d1585bf196f7c867bd60bf9926d6fbc96a74e8a636473e",
+        "new_render_sha256": "6951b9bd1d2759beabd0d1cdd6a96c75c4ede6b8a168851fb3c2feeb48756782",
+        "notes_render_sha256": "5aff761e40268ccdeeb01e1b0ab8fadc3625f3c856b7456a94a207d20db82046",
+        "slide_sources_sha256": "78c73f6899fc79ed251aceb908cff8a112af7cf7483a754ea3fa9e7c79518963",
+        "notes_sources_sha256": "b151464c851d6e927ccbd1d46352e52478af9930035186d99910f444f3b07088",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "82f3c58b07cef061b3c0f361af90095ea326934a0dbc93cff248acf1c4727fe2",
+        "coverage_sha256": "dfa61af0254a9dc1807279970881cb20d15d6ea20aaaafe4963959d5f3dcc8a1"
+      }
+    },
+    "02-s053": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Očuvane karte i korisnikova korekcija funkcije; dodatna grupa i član bar C A jasno izdvojeni.",
+      "evidence": {
+        "source_render_sha256": "2ed4406359459d1596bb8ba3ff552a3ce834f1abb3104fb1c0431dccc13d242c",
+        "baseline_render_sha256": "a74975eb82a8ff578b03db6a72bc905864d60c3f03407da2c57afc09f2407b94",
+        "new_render_sha256": "ad28dae2a6088a3685774fc3e3b770d8c25c2bff2db6764484acbeb58120a599",
+        "notes_render_sha256": "d0c9274656a1bc9a0293b41e1d39a4edd580c983b775a4ef2a4c08cef1189557",
+        "slide_sources_sha256": "8370c3b7fa1c12b2d4403637bc5176e0360cfce23ba819fc006b7cbfac9eebbd",
+        "notes_sources_sha256": "fad8cfcc0af2269b2ec5229fad2493b4bc5d2685b7b514b19518f86b3491c168",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "fc0b276f63153449df92682f5bd8d545c92c4863b79f897f965c08c1ae952c25",
+        "coverage_sha256": "7750f6ae19a8588b9365d50977c78957c29573a3bf5d494cfac232de0b43195c"
+      }
+    },
+    "02-s054": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovo upoređeni originalni PDF, prethodna isporuka 02, završni slajd u punoj veličini i A4 beleška istog ID-ja. Provereni sadržaj, razmaci, tamnocrveno isticanje i pokrivenost; istorijska rekonstrukcija nije korišćena kao zamena za novi pregled. Sadržaj originala očuvan; završni prikaz i pripadajuća beleška čitljivi, bez preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "75089deded5ef615b41b9b429cbf806ad2a679067d861657313ab86ef7124edf",
+        "baseline_render_sha256": "22a4a1a81ac441a2ae1fdffa88d10d033ad4babe0ae95bb54c05d91471be9425",
+        "new_render_sha256": "1db8b46246566717d0b3c76d0f30d9d43bcb32ea597bb066d63804eed21faefa",
+        "notes_render_sha256": "238a3bdcca800bf4353a155469385b0ddbe2584546356b36e7e554908a014516",
+        "slide_sources_sha256": "f7ffbb2af8bc71ffa44177e0da013616ff81ccb5414894df78f90b7a7e086616",
+        "notes_sources_sha256": "efca8c0b3d1582c65f05b66285b36f92caeeb545bd31422606ff74927aba1099",
+        "shared_sha256": "f79323da2d423c8ba3ba75c723d7dabf7d13c853e2708173f83eb8592671a1f8",
+        "mapping_sha256": "db699d17306b82ad84510021c98ed81b4d76476753a72d68df919f7301a10352",
+        "coverage_sha256": "ae9eadd112a65b34220abd923df679d06f363f93f2fed808e1cd156fec215814"
+      }
+    }
+  }
+}

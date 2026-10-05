@@ -1,16 +1,17 @@
 \begingroup
 \setlength{\tabcolsep}{3pt}
-\renewcommand{\arraystretch}{1.2}
+\setlength{\aboverulesep}{1pt}\setlength{\belowrulesep}{1pt}
+\renewcommand{\arraystretch}{1.05}
 \par\noindent
 \begin{tabularx}{\linewidth}{*{4}{>{\centering\arraybackslash}X}}
 \toprule C&B&A&F\\\midrule
-0&0&0&0\\
-0&0&1&0\\
-0&1&0&0\\
-\textcolor{DEcrvena}{0}&\textcolor{DEcrvena}{1}&\textcolor{DEcrvena}{1}&\textcolor{DEcrvena}{1}\\
-1&0&0&0\\
-\textcolor{DEcrvena}{1}&\textcolor{DEcrvena}{0}&\textcolor{DEcrvena}{1}&\textcolor{DEcrvena}{1}\\
-\textcolor{DEcrvena}{1}&\textcolor{DEcrvena}{1}&\textcolor{DEcrvena}{0}&\textcolor{DEcrvena}{1}\\
+0&0&0&0\\\cmidrule[.2pt](lr){1-4}
+0&0&1&0\\\cmidrule[.2pt](lr){1-4}
+0&1&0&0\\\cmidrule[.2pt](lr){1-4}
+\textcolor{DEcrvena}{0}&\textcolor{DEcrvena}{1}&\textcolor{DEcrvena}{1}&\textcolor{DEcrvena}{1}\\\cmidrule[.2pt](lr){1-4}
+1&0&0&0\\\cmidrule[.2pt](lr){1-4}
+\textcolor{DEcrvena}{1}&\textcolor{DEcrvena}{0}&\textcolor{DEcrvena}{1}&\textcolor{DEcrvena}{1}\\\cmidrule[.2pt](lr){1-4}
+\textcolor{DEcrvena}{1}&\textcolor{DEcrvena}{1}&\textcolor{DEcrvena}{0}&\textcolor{DEcrvena}{1}\\\cmidrule[.2pt](lr){1-4}
 1&1&1&0\\\bottomrule
 \end{tabularx}\par
 \endgroup

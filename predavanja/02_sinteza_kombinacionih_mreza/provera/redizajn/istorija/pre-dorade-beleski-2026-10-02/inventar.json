@@ -1,0 +1,1338 @@
+{
+  "slides": {
+    "02-s001": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s001:e01",
+          "description": "Naslov predavanja",
+          "source": "PDF strana 1, gornji; Naslov predavanja",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s002": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s002:e01",
+          "description": "Definicija kombinacione mreže i trenutnog stanja",
+          "source": "PDF strana 1, donji; Definicija kombinacione mreže i trenutnog stanja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s002:e02",
+          "description": "Razlika apstraktnog i fizičkog trenutka; kašnjenje kola",
+          "source": "PDF strana 1, donji; Razlika apstraktnog i fizičkog trenutka; kašnjenje kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s002:e03",
+          "description": "Nepoznato stanje izlaza u prelaznom intervalu",
+          "source": "PDF strana 1, donji; Nepoznato stanje izlaza u prelaznom intervalu",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s003": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s003:e01",
+          "description": "Signal, invertor i promenljivi x(t), y(t)",
+          "source": "PDF strana 2, gornji; Signal, invertor i promenljivi x(t), y(t)",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s003:e02",
+          "description": "Idealizovani i stvarni vremenski odziv invertora",
+          "source": "PDF strana 2, gornji; Idealizovani i stvarni vremenski odziv invertora",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s003:e03",
+          "description": "Značenje t_pHL, t_pLH i oznaka p, H, L",
+          "source": "PDF strana 2, gornji; Značenje t_pHL, t_pLH i oznaka p, H, L",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s004": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s004:e01",
+          "description": "Nejednakost dva smerna kašnjenja",
+          "source": "PDF strana 2, donji; Nejednakost dva smerna kašnjenja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s004:e02",
+          "description": "Srednje kašnjenje i pretpostavka jednakih kašnjenja",
+          "source": "PDF strana 2, donji; Srednje kašnjenje i pretpostavka jednakih kašnjenja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s004:e03",
+          "description": "Vremenski prikaz kratkog impulsa",
+          "source": "PDF strana 2, donji; Vremenski prikaz kratkog impulsa",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s004:e04",
+          "description": "Promena trajanja ili izostanak izlaznog impulsa",
+          "source": "PDF strana 2, donji; Promena trajanja ili izostanak izlaznog impulsa",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s005": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s005:e01",
+          "description": "Vremenski dijagram maksimalnih kašnjenja i neodređenih intervala",
+          "source": "PDF strana 3, gornji; Vremenski dijagram maksimalnih kašnjenja i neodređenih intervala",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s005:e02",
+          "description": "Zavisnost stvarnog kašnjenja od uslova i primerka",
+          "source": "PDF strana 3, gornji; Zavisnost stvarnog kašnjenja od uslova i primerka",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s005:e03",
+          "description": "Specifikacija maksimalnih vremena za tip kola",
+          "source": "PDF strana 3, gornji; Specifikacija maksimalnih vremena za tip kola",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s006": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s006:e01",
+          "description": "Važenje definicije posle prelaznih procesa",
+          "source": "PDF strana 3, donji; Važenje definicije posle prelaznih procesa",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s006:e02",
+          "description": "Kašnjenja na putanjama kroz kola",
+          "source": "PDF strana 3, donji; Kašnjenja na putanjama kroz kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s006:e03",
+          "description": "Lažne nule i jedinice kao neželjena stanja",
+          "source": "PDF strana 3, donji; Lažne nule i jedinice kao neželjena stanja",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s007": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s007:e01",
+          "description": "Minimizacija broja kola i ukupnog broja ulaza",
+          "source": "PDF strana 4, gornji; Minimizacija broja kola i ukupnog broja ulaza",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s007:e02",
+          "description": "Minimizacija komponenti, kašnjenja i drugih zahteva",
+          "source": "PDF strana 4, gornji; Minimizacija komponenti, kašnjenja i drugih zahteva",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s008": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s008:e01",
+          "description": "SSI, broj komponenti i gejtova; definicija gejta",
+          "source": "PDF strana 4, donji; SSI, broj komponenti i gejtova; definicija gejta",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s008:e02",
+          "description": "Fotografija čipa, raspored pinova i dimenzije DIP14",
+          "source": "PDF strana 4, donji; Fotografija čipa, raspored pinova i dimenzije DIP14",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s008:e03",
+          "description": "Pretvaranje inča i milova u milimetre",
+          "source": "PDF strana 4, donji; Pretvaranje inča i milova u milimetre",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s008:e04",
+          "description": "Ekonomski faktor serijske nabavke",
+          "source": "PDF strana 4, donji; Ekonomski faktor serijske nabavke",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s009": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s009:e01",
+          "description": "Literal, proizvod i zbir",
+          "source": "PDF strana 5, gornji; Literal, proizvod i zbir",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s009:e02",
+          "description": "Normalni i potpuni proizvodi i zbirovi",
+          "source": "PDF strana 5, gornji; Normalni i potpuni proizvodi i zbirovi",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s009:e03",
+          "description": "Indeksi potpunog proizvoda i zbira",
+          "source": "PDF strana 5, gornji; Indeksi potpunog proizvoda i zbira",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s009:e04",
+          "description": "Zbir proizvoda i proizvod zbirova",
+          "source": "PDF strana 5, gornji; Zbir proizvoda i proizvod zbirova",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s010": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s010:e01",
+          "description": "Uobičajeni koraci sinteze",
+          "source": "PDF strana 5, donji; Uobičajeni koraci sinteze",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s010:e02",
+          "description": "Mogućnost preskakanja posrednih koraka",
+          "source": "PDF strana 5, donji; Mogućnost preskakanja posrednih koraka",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s010:e03",
+          "description": "Električna šema i realno kolo",
+          "source": "PDF strana 5, donji; Električna šema i realno kolo",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s010:e04",
+          "description": "Minimizacija kao međukorak i kriterijumi",
+          "source": "PDF strana 5, donji; Minimizacija kao međukorak i kriterijumi",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s011": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s011:e01",
+          "description": "Zahtev za tri ulaza, jedan izlaz i tabelu",
+          "source": "PDF strana 6, gornji; Zahtev za tri ulaza, jedan izlaz i tabelu",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s011:e02",
+          "description": "Dodela promenljivih i pozitivna logika",
+          "source": "PDF strana 6, gornji; Dodela promenljivih i pozitivna logika",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s011:e03",
+          "description": "Funkcionalna tabela svih osam ulaznih stanja",
+          "source": "PDF strana 6, gornji; Funkcionalna tabela svih osam ulaznih stanja",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s012": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s012:e01",
+          "description": "Drugi zahtev: bar jedan ulaz jednak 1",
+          "source": "PDF strana 6, donji; Drugi zahtev: bar jedan ulaz jednak 1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s012:e02",
+          "description": "Skraćena tabela sa četiri reda",
+          "source": "PDF strana 6, donji; Skraćena tabela sa četiri reda",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s012:e03",
+          "description": "Značenje simbola b i X",
+          "source": "PDF strana 6, donji; Značenje simbola b i X",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s012:e04",
+          "description": "Pokrivenost svih ulaznih stanja",
+          "source": "PDF strana 6, donji; Pokrivenost svih ulaznih stanja",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s013": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s013:e01",
+          "description": "Tri reda sa F=1 i potpuni proizvodi",
+          "source": "PDF strana 7, gornji; Tri reda sa F=1 i potpuni proizvodi",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s013:e02",
+          "description": "I i ILI povezivanje uslova; komplement za nulu",
+          "source": "PDF strana 7, gornji; I i ILI povezivanje uslova; komplement za nulu",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s013:e03",
+          "description": "Formula zbira proizvoda",
+          "source": "PDF strana 7, gornji; Formula zbira proizvoda",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s014": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s014:e01",
+          "description": "Formula F kao zbir proizvoda",
+          "source": "PDF strana 7, donji; Formula F kao zbir proizvoda",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s014:e02",
+          "description": "Definicija normalne disjunktivne forme",
+          "source": "PDF strana 7, donji; Definicija normalne disjunktivne forme",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s014:e03",
+          "description": "Realizacija pomoću I i ILI kola",
+          "source": "PDF strana 7, donji; Realizacija pomoću I i ILI kola",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s015": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s015:e01",
+          "description": "Pet redova sa F=0 i pravilo proizvoda zbirova",
+          "source": "PDF strana 8, gornji; Pet redova sa F=0 i pravilo proizvoda zbirova",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s015:e02",
+          "description": "Prvi red 000 i dualnost NI/ILI",
+          "source": "PDF strana 8, gornji; Prvi red 000 i dualnost NI/ILI",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s015:e03",
+          "description": "Pet potpunih zbirova i konačna formula",
+          "source": "PDF strana 8, gornji; Pet potpunih zbirova i konačna formula",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s016": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s016:e01",
+          "description": "Komplementarna funkcija i pet minterma",
+          "source": "PDF strana 8, donji; Komplementarna funkcija i pet minterma",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s016:e02",
+          "description": "Negiranje zbira pomoću De Morganovog pravila",
+          "source": "PDF strana 8, donji; Negiranje zbira pomoću De Morganovog pravila",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s016:e03",
+          "description": "Isti proizvod potpunih zbirova",
+          "source": "PDF strana 8, donji; Isti proizvod potpunih zbirova",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s017": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s017:e01",
+          "description": "Formula proizvoda potpunih zbirova",
+          "source": "PDF strana 9, gornji; Formula proizvoda potpunih zbirova",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s017:e02",
+          "description": "Definicija kanoničke konjunktivne forme",
+          "source": "PDF strana 9, gornji; Definicija kanoničke konjunktivne forme",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s017:e03",
+          "description": "Pravilo za formiranje maxterma iz redova sa nulom",
+          "source": "PDF strana 9, gornji; Pravilo za formiranje maxterma iz redova sa nulom",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s018": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s018:e01",
+          "description": "Indeksi redova CBA i sum/product zapis",
+          "source": "PDF strana 9, donji; Indeksi redova CBA i sum/product zapis",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s018:e02",
+          "description": "Funkcionalna tabela sa indeksima",
+          "source": "PDF strana 9, donji; Funkcionalna tabela sa indeksima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s018:e03",
+          "description": "Vrednost opšteg binarnog broja",
+          "source": "PDF strana 9, donji; Vrednost opšteg binarnog broja",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s019": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s019:e01",
+          "description": "SOP izraz i mreža I–ILI",
+          "source": "PDF strana 10, gornji; SOP izraz i mreža I–ILI",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s019:e02",
+          "description": "Šema tri I kola i završnog ILI kola",
+          "source": "PDF strana 10, gornji; Šema tri I kola i završnog ILI kola",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s020": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s020:e01",
+          "description": "Potreba za invertorima zbog komplementnih ulaza",
+          "source": "PDF strana 10, donji; Potreba za invertorima zbog komplementnih ulaza",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s020:e02",
+          "description": "Šema SOP sa invertorima",
+          "source": "PDF strana 10, donji; Šema SOP sa invertorima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s020:e03",
+          "description": "Opterećenje izvora signala A",
+          "source": "PDF strana 10, donji; Opterećenje izvora signala A",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s021": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s021:e01",
+          "description": "Neizmenjena SOP funkcija",
+          "source": "PDF strana 11, gornji; Neizmenjena SOP funkcija",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s021:e02",
+          "description": "Rasterećenje ulaza parovima invertora i šema",
+          "source": "PDF strana 11, gornji; Rasterećenje ulaza parovima invertora i šema",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s022": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s022:e01",
+          "description": "Izvorni opis šeme kao zbira proizvoda",
+          "source": "PDF strana 11, donji; Izvorni opis šeme kao zbira proizvoda",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s022:e02",
+          "description": "Šema ILI–I i formula sa nesaglasnim prvim činiocem",
+          "source": "PDF strana 11, donji; Šema ILI–I i formula sa nesaglasnim prvim činiocem",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s023": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s023:e01",
+          "description": "Konvencija crtanja ukrštanja i spojeva",
+          "source": "PDF strana 12, gornji; Konvencija crtanja ukrštanja i spojeva",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s023:e02",
+          "description": "Resursi SOP 12 ulaza naspram POS 20 ulaza",
+          "source": "PDF strana 12, gornji; Resursi SOP 12 ulaza naspram POS 20 ulaza",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s023:e03",
+          "description": "I/ILI potpunost i najviše dva nivoa direktne forme",
+          "source": "PDF strana 12, gornji; I/ILI potpunost i najviše dva nivoa direktne forme",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s024": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s024:e01",
+          "description": "Dvostruko negiranje i De Morganova dualnost",
+          "source": "PDF strana 12, donji; Dvostruko negiranje i De Morganova dualnost",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s024:e02",
+          "description": "Električne šeme pre i posle NI transformacije",
+          "source": "PDF strana 12, donji; Električne šeme pre i posle NI transformacije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s024:e03",
+          "description": "SOP NI i dualna POS NILI ekvivalencija",
+          "source": "PDF strana 12, donji; SOP NI i dualna POS NILI ekvivalencija",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s025": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s025:e01",
+          "description": "Funkcionalna potpunost NI kola",
+          "source": "PDF strana 13, gornji; Funkcionalna potpunost NI kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s025:e02",
+          "description": "Algebarski izvod NI realizacije",
+          "source": "PDF strana 13, gornji; Algebarski izvod NI realizacije",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s026": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s026:e01",
+          "description": "Polazni proizvod pet zbirova",
+          "source": "PDF strana 13, donji; Polazni proizvod pet zbirova",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s026:e02",
+          "description": "De Morganovo pravilo za NILI transformaciju",
+          "source": "PDF strana 13, donji; De Morganovo pravilo za NILI transformaciju",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s026:e03",
+          "description": "Šeme pre i posle NILI transformacije",
+          "source": "PDF strana 13, donji; Šeme pre i posle NILI transformacije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s026:e04",
+          "description": "Funkcionalna potpunost NILI kola",
+          "source": "PDF strana 13, donji; Funkcionalna potpunost NILI kola",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s027": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s027:e01",
+          "description": "Isti broj kola i ulaza posle transformacije",
+          "source": "PDF strana 14, gornji; Isti broj kola i ulaza posle transformacije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s027:e02",
+          "description": "CMOS broj ulaza, tranzistori i površina",
+          "source": "PDF strana 14, gornji; CMOS broj ulaza, tranzistori i površina",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s027:e03",
+          "description": "Prednost NI kola u razmatranom kontekstu",
+          "source": "PDF strana 14, gornji; Prednost NI kola u razmatranom kontekstu",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s028": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s028:e01",
+          "description": "Mogućnost realizacije dvoulaznim kolima",
+          "source": "PDF strana 14, donji; Mogućnost realizacije dvoulaznim kolima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s028:e02",
+          "description": "Invertori od dvoulaznih kola",
+          "source": "PDF strana 14, donji; Invertori od dvoulaznih kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s028:e03",
+          "description": "Kaskade I i ILI i kritična putanja",
+          "source": "PDF strana 14, donji; Kaskade I i ILI i kritična putanja",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s029": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s029:e01",
+          "description": "Kritična putanja i ekonomski razlog za dvoulazna kola",
+          "source": "PDF strana 15, gornji; Kritična putanja i ekonomski razlog za dvoulazna kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s029:e02",
+          "description": "Uravnoteženo stablo i sporna tvrdnja o broju kola",
+          "source": "PDF strana 15, gornji; Uravnoteženo stablo i sporna tvrdnja o broju kola",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s030": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s030:e01",
+          "description": "Oprez kod aktivnih nula NI/NILI kola",
+          "source": "PDF strana 15, donji; Oprez kod aktivnih nula NI/NILI kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s030:e02",
+          "description": "Neekvivalentne kaskade NI kola",
+          "source": "PDF strana 15, donji; Neekvivalentne kaskade NI kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s030:e03",
+          "description": "Analogno upozorenje za NILI kola",
+          "source": "PDF strana 15, donji; Analogno upozorenje za NILI kola",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s031": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s031:e01",
+          "description": "Formula troulaznog NI kola",
+          "source": "PDF strana 16, gornji; Formula troulaznog NI kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s031:e02",
+          "description": "Pravilna šema od dvoulaznih NI kola",
+          "source": "PDF strana 16, gornji; Pravilna šema od dvoulaznih NI kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s031:e03",
+          "description": "Funkcionalna potpunost dvoulaznih NI/NILI kola",
+          "source": "PDF strana 16, gornji; Funkcionalna potpunost dvoulaznih NI/NILI kola",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s032": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s032:e01",
+          "description": "Hemingovo rastojanje jedan između indeksa 4 i 6",
+          "source": "PDF strana 16, donji; Hemingovo rastojanje jedan između indeksa 4 i 6",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s032:e02",
+          "description": "Spajanje dva minterma u C bar A",
+          "source": "PDF strana 16, donji; Spajanje dva minterma u C bar A",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s032:e03",
+          "description": "Smanjenje ulaza sa 8 na 3 i broja kola",
+          "source": "PDF strana 16, donji; Smanjenje ulaza sa 8 na 3 i broja kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s032:e04",
+          "description": "Kriterijumi fizičke i ekonomske realizacije",
+          "source": "PDF strana 16, donji; Kriterijumi fizičke i ekonomske realizacije",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s033": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s033:e01",
+          "description": "Ručna naspram mašinske minimizacije",
+          "source": "PDF strana 17, gornji; Ručna naspram mašinske minimizacije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s033:e02",
+          "description": "Praktičnost Karnoove karte prema broju promenljivih",
+          "source": "PDF strana 17, gornji; Praktičnost Karnoove karte prema broju promenljivih",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s034": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s034:e01",
+          "description": "Karnoove karte jedne i dve promenljive; Hemingovo rastojanje",
+          "source": "PDF strana 17, donji; Karnoove karte jedne i dve promenljive; Hemingovo rastojanje",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s034:e02",
+          "description": "Zamenjeni indeksi u uspravnoj karti jedne promenljive",
+          "source": "PDF strana 17, donji; Zamenjeni indeksi u uspravnoj karti jedne promenljive",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s035": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s035:e01",
+          "description": "Dve orijentacije karte za tri promenljive",
+          "source": "PDF strana 18, gornji; Dve orijentacije karte za tri promenljive",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s035:e02",
+          "description": "Susedstvo preko naspramnih ivica",
+          "source": "PDF strana 18, gornji; Susedstvo preko naspramnih ivica",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s036": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s036:e01",
+          "description": "Karta za četiri promenljive",
+          "source": "PDF strana 18, donji; Karta za četiri promenljive",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s036:e02",
+          "description": "Parovi susednih polja preko ivica",
+          "source": "PDF strana 18, donji; Parovi susednih polja preko ivica",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s037": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s037:e01",
+          "description": "Dve karte za pet promenljivih",
+          "source": "PDF strana 19, gornji; Dve karte za pet promenljivih",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s037:e02",
+          "description": "Susedstvo parova preko dva sloja",
+          "source": "PDF strana 19, gornji; Susedstvo parova preko dva sloja",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s038": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s038:e01",
+          "description": "Četiri karte za šest promenljivih",
+          "source": "PDF strana 19, donji; Četiri karte za šest promenljivih",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s038:e02",
+          "description": "Susedstvo između odgovarajućih karata",
+          "source": "PDF strana 19, donji; Susedstvo između odgovarajućih karata",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s039": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s039:e01",
+          "description": "Redovi površina 0–6 i broj 2^k polja",
+          "source": "PDF strana 20, gornji; Redovi površina 0–6 i broj 2^k polja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s039:e02",
+          "description": "Pravilni oblici površina u 2D,3D i višim dimenzijama",
+          "source": "PDF strana 20, gornji; Pravilni oblici površina u 2D,3D i višim dimenzijama",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s040": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s040:e01",
+          "description": "Preklapanje dve karte tri promenljive",
+          "source": "PDF strana 20, donji; Preklapanje dve karte tri promenljive",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s040:e02",
+          "description": "Grupe 0/4 i 0/1/4/5",
+          "source": "PDF strana 20, donji; Grupe 0/4 i 0/1/4/5",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s040:e03",
+          "description": "Neusaglašeno zaglavlje A u karti C=1",
+          "source": "PDF strana 20, donji; Neusaglašeno zaglavlje A u karti C=1",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s041": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s041:e01",
+          "description": "Prenos funkcije u Karnoovu kartu",
+          "source": "PDF strana 21, gornji; Prenos funkcije u Karnoovu kartu",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s041:e02",
+          "description": "Pravila grupisanja jedinica i nula",
+          "source": "PDF strana 21, gornji; Pravila grupisanja jedinica i nula",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s041:e03",
+          "description": "Uslov minimalnosti za I/ILI realizaciju",
+          "source": "PDF strana 21, gornji; Uslov minimalnosti za I/ILI realizaciju",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s042": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s042:e01",
+          "description": "Neodređena polja b/X",
+          "source": "PDF strana 21, donji; Neodređena polja b/X",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s042:e02",
+          "description": "Stalni literali u SOP i POS",
+          "source": "PDF strana 21, donji; Stalni literali u SOP i POS",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s042:e03",
+          "description": "Promenljive koje se menjaju ispadaju iz člana",
+          "source": "PDF strana 21, donji; Promenljive koje se menjaju ispadaju iz člana",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s043": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s043:e01",
+          "description": "Polazna karta sa neodređenim poljima",
+          "source": "PDF strana 22, gornji; Polazna karta sa neodređenim poljima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s043:e02",
+          "description": "Pravilo pokrivanja jedinica",
+          "source": "PDF strana 22, gornji; Pravilo pokrivanja jedinica",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s043:e03",
+          "description": "Nacrtane grupe na karti",
+          "source": "PDF strana 22, gornji; Nacrtane grupe na karti",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s043:e04",
+          "description": "Izraz F kao zbir proizvoda",
+          "source": "PDF strana 22, gornji; Izraz F kao zbir proizvoda",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s044": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s044:e01",
+          "description": "Pravilo pokrivanja nula",
+          "source": "PDF strana 22, donji; Pravilo pokrivanja nula",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s044:e02",
+          "description": "Karta sa grupama nula",
+          "source": "PDF strana 22, donji; Karta sa grupama nula",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s044:e03",
+          "description": "Stalni komplementi literala",
+          "source": "PDF strana 22, donji; Stalni komplementi literala",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s044:e04",
+          "description": "Izraz F kao proizvod zbirova",
+          "source": "PDF strana 22, donji; Izraz F kao proizvod zbirova",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s045": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s045:e01",
+          "description": "Dva izraza i račun 7 naspram 9 ulaza",
+          "source": "PDF strana 23, gornji; Dva izraza i račun 7 naspram 9 ulaza",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s045:e02",
+          "description": "Zaključak o minimalnom obliku po ulazima",
+          "source": "PDF strana 23, gornji; Zaključak o minimalnom obliku po ulazima",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s046": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s046:e01",
+          "description": "SOP raspored kola u četiri čipa",
+          "source": "PDF strana 23, donji; SOP raspored kola u četiri čipa",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s046:e02",
+          "description": "POS raspored kola u tri čipa",
+          "source": "PDF strana 23, donji; POS raspored kola u tri čipa",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s046:e03",
+          "description": "Razlika kriterijuma broja čipova i ulaza",
+          "source": "PDF strana 23, donji; Razlika kriterijuma broja čipova i ulaza",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s047": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s047:e01",
+          "description": "Algebarsko grupisanje SOP",
+          "source": "PDF strana 24, gornji; Algebarsko grupisanje SOP",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s047:e02",
+          "description": "Povećano kašnjenje i nabavka dvoulaznih kola",
+          "source": "PDF strana 24, gornji; Povećano kašnjenje i nabavka dvoulaznih kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s047:e03",
+          "description": "Ukupno tri čipa",
+          "source": "PDF strana 24, gornji; Ukupno tri čipa",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s048": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s048:e01",
+          "description": "NI transformacija SOP izraza",
+          "source": "PDF strana 24, donji; NI transformacija SOP izraza",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s048:e02",
+          "description": "Broj različitih i istih NI čipova",
+          "source": "PDF strana 24, donji; Broj različitih i istih NI čipova",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s048:e03",
+          "description": "Alternativa sa dva čipa i ekonomski izbor",
+          "source": "PDF strana 24, donji; Alternativa sa dva čipa i ekonomski izbor",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s049": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s049:e01",
+          "description": "NILI transformacija POS izraza",
+          "source": "PDF strana 25, gornji; NILI transformacija POS izraza",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s049:e02",
+          "description": "Tri čipa ili deset dvoulaznih NILI kola",
+          "source": "PDF strana 25, gornji; Tri čipa ili deset dvoulaznih NILI kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s049:e03",
+          "description": "Otvoreno poređenje sa složenim CMOS kolom",
+          "source": "PDF strana 25, gornji; Otvoreno poređenje sa složenim CMOS kolom",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s050": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s050:e01",
+          "description": "Pojava lažnih nula i jedinica zbog kašnjenja",
+          "source": "PDF strana 25, donji; Pojava lažnih nula i jedinica zbog kašnjenja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s050:e02",
+          "description": "Primer funkcije F=C barB+BA i šema",
+          "source": "PDF strana 25, donji; Primer funkcije F=C barB+BA i šema",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s051": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s051:e01",
+          "description": "Stabilni izlaz F=1 pri promeni B",
+          "source": "PDF strana 26, gornji; Stabilni izlaz F=1 pri promeni B",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s051:e02",
+          "description": "Šema sa kašnjenjem invertora",
+          "source": "PDF strana 26, gornji; Šema sa kašnjenjem invertora",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s051:e03",
+          "description": "Vremenski dijagram lažne nule",
+          "source": "PDF strana 26, gornji; Vremenski dijagram lažne nule",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s052": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s052:e01",
+          "description": "Primer formule C barB+BA",
+          "source": "PDF strana 26, donji; Primer formule C barB+BA",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s052:e02",
+          "description": "Dve grupe i karta koje ne odgovaraju formuli",
+          "source": "PDF strana 26, donji; Dve grupe i karta koje ne odgovaraju formuli",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s053": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s053:e01",
+          "description": "Prelaz B=1 na B=0 i hazard",
+          "source": "PDF strana 27, gornji; Prelaz B=1 na B=0 i hazard",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s053:e02",
+          "description": "Dodata grupa CA i nesaglasna polazna karta",
+          "source": "PDF strana 27, gornji; Dodata grupa CA i nesaglasna polazna karta",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "02-s054": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s054:e01",
+          "description": "Hazard lažne jedinice u POS mreži",
+          "source": "PDF strana 27, donji; Hazard lažne jedinice u POS mreži",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s054:e02",
+          "description": "Složenost pri istovremenoj promeni više ulaza",
+          "source": "PDF strana 27, donji; Složenost pri istovremenoj promeni više ulaza",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s054:e03",
+          "description": "Ujednačavanje kašnjenja, preuređivanje i simulacija",
+          "source": "PDF strana 27, donji; Ujednačavanje kašnjenja, preuređivanje i simulacija",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    }
+  }
+}

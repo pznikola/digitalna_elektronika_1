@@ -1,5 +1,8 @@
 % Gornji vod para je prava vrednost; donji je komplementna.
-\foreach \y/\low/\lab in {6.5/5.9/C,5.3/4.7/B,4.1/3.5/A}{
+\ifdefined\DEparoviVodova\else
+\def\DEparoviVodova{7.9/7.1/C,6.0/5.2/B,4.1/3.3/A}
+\fi
+\foreach \y/\low/\lab in \DEparoviVodova{
  \node[DEinvertor] (n\lab) at (.65,\y) {};
  \node[DEinvertor] (m\lab) at (2.0,\y) {};
  \draw[DEvod] (0,\y) node[left] {\(\lab\)}--(n\lab.input);
@@ -7,4 +10,5 @@
  \draw[DEvod] (m\lab.output)--(\DEkrajvodova,\y);
  \coordinate (t\lab) at ($(n\lab.output)!.5!(m\lab.input)$);
  \draw[DEvod] (t\lab)--(t\lab |- 0,\low)--(\DEkrajvodova,\low);
+ \node[junction] at (t\lab) {};
 }

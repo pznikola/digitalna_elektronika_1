@@ -1,12 +1,19 @@
+% Original: PDF strana 21, gornji slajd.
 \slajdid{02-s041}
-\begin{frame}[label=02-s041]
-\gusttekst
-Iz funkcionalne tabele, ili iz specifikacije kombinacione mreže, se u Karnoovu tabelu unose vrednosti funkcije za stanja ulaznih promenljivih u odgovarajuće polje.
-
-Algoritam minimizacije
+\begin{frame}[label=02-s041]{Algoritam minimizacije}
+\setlength{\parskip}{0pt}
+% element: 02-s041:e01
+Iz funkcionalne tabele ili specifikacije kombinacione mreže unosimo vrednosti funkcije u odgovarajuća polja Karnoove karte, prema stanjima ulaznih promenljivih.
+\par\vspace{1.5mm}
+% element: 02-s041:e02
 \begin{enumerate}
-\item Da bi dobili funkciju u obliku zbira proizvoda potrebno je sve logičke jedinice koje se pojavljuju u Karnoovoj tabeli prekriti sa \alert{što manjim brojem površina što višeg reda}.
-\item Da bi dobili funkciju u obliku proizvoda zbirova potrebno je sve logičke nule koje se pojavljuju u Karnoovoj tabeli prekriti sa \alert{što manjim brojem površina što višeg reda}.
+\item Za funkciju u obliku \textbf{zbira proizvoda}, sve logičke jedinice u karti treba prekriti \alert{što manjim brojem površina što višeg reda}.
+\item Za funkciju u obliku \textbf{proizvoda zbirova}, sve logičke nule u karti treba prekriti \alert{što manjim brojem površina što višeg reda}.
 \end{enumerate}
-Ako je ispunjen uslov da je broj površina minimalan sa najvećim mogućim površinama, algoritam garantuje da će i dobijene funkcije biti minimalne i da minimalnije od toga nije moguće realizovati funkcije korišćenjem I i ILI logičkih kola, podrazumevajući da raspolažemo i sa pravim i komplementnim vrednostima signala na ulazu u kombinacionu mrežu.
+\par\vspace{2mm}
+% element: 02-s041:e03
+\Oznaka{Uslov minimalnosti}\par\vspace{1mm}
+Ako je broj površina minimalan, a površine najveće moguće, algoritam garantuje minimalnu funkciju. Pod tim uslovom nije moguća jednostavnija realizacija pomoću I i ILI logičkih kola.
+\par\vspace{1.5mm}
+\Rezultat{Podrazumevamo da su na ulazu kombinacione mreže dostupne i prave i komplementne vrednosti signala.}
 \end{frame}

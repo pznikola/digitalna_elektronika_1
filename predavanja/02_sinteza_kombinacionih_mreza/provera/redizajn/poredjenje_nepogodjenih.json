@@ -1,0 +1,329 @@
+{
+  "date": "2026-10-04",
+  "baseline": "istorija/pre-dorade-s003-s022-2026-10-03/izvori-i-evidencija.tar.gz",
+  "unchanged": {
+    "02-s001": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 1,
+      "current_page": 1,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s002": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 2,
+      "current_page": 2,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s002b": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 3,
+      "current_page": 3,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s004": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 5,
+      "current_page": 5,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s005": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 6,
+      "current_page": 6,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s006": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 7,
+      "current_page": 7,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s007": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 8,
+      "current_page": 8,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s008": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 9,
+      "current_page": 9,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s009": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 10,
+      "current_page": 10,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s009b": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 11,
+      "current_page": 11,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s010": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 12,
+      "current_page": 12,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s011": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 13,
+      "current_page": 13,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s012": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 14,
+      "current_page": 14,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s014": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 16,
+      "current_page": 16,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s023": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 25,
+      "current_page": 26,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s025": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 27,
+      "current_page": 28,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s027": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 29,
+      "current_page": 30,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s028": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 30,
+      "current_page": 31,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s029": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 31,
+      "current_page": 32,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s030": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 32,
+      "current_page": 33,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s031": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 33,
+      "current_page": 34,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s032": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 34,
+      "current_page": 35,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s033": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 35,
+      "current_page": 36,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s034": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 36,
+      "current_page": 37,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s035": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 37,
+      "current_page": 38,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s036": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 38,
+      "current_page": 39,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s037": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 39,
+      "current_page": 40,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s038": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 40,
+      "current_page": 41,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s039": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 41,
+      "current_page": 42,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s040": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 42,
+      "current_page": 43,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s041": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 43,
+      "current_page": 44,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s042": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 44,
+      "current_page": 45,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s043": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 45,
+      "current_page": 46,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s044": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 46,
+      "current_page": 47,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s045": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 47,
+      "current_page": 48,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s046": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 48,
+      "current_page": 49,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s047": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 49,
+      "current_page": 50,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s048": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 50,
+      "current_page": 51,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s049": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 51,
+      "current_page": 52,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s050": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 52,
+      "current_page": 53,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s051": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 53,
+      "current_page": 54,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s052": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 54,
+      "current_page": 55,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s053": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 55,
+      "current_page": 56,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    },
+    "02-s054": {
+      "slide_render_identical": true,
+      "a4_body_identical": true,
+      "previous_page": 56,
+      "current_page": 57,
+      "a4_footer": "Dozvoljena razlika samo u numeraciji A4 podnožja."
+    }
+  },
+  "reviewed_changed_ids": [
+    "02-s015b",
+    "02-s003",
+    "02-s022",
+    "02-s013",
+    "02-s024",
+    "02-s020",
+    "02-s017",
+    "02-s021",
+    "02-s015",
+    "02-s016",
+    "02-s018",
+    "02-s026",
+    "02-s019"
+  ]
+}

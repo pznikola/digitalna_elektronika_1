@@ -1,24 +1,28 @@
+% Original: PDF strana 19, donji slajd.
 \slajdid{02-s038}
-\begin{frame}[t,label=02-s038]
-\gusttekst
-\setlength{\parskip}{1pt}
-\begin{columns}[c,onlytextwidth]
-\begin{column}{.27\textwidth}
-Tabela sa 6. promenljivih
+\begin{frame}[label=02-s038]{Karnoova karta za šest promenljivih}
+\setlength{\parskip}{0pt}
+% element: 02-s038:e01
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.24\textwidth}\centering
+\Oznaka{\(FE=00\)}\par\vspace{1mm}
+\input{slike/tikz/s038_fe00.tex}
 \end{column}
-\begin{column}{.35\textwidth}\centering
-\(FE=00\)\par
-\input{slike/tikz/s038_fe00.tex}\par
-\(FE=10\)\par
+\begin{column}{.24\textwidth}\centering
+\Oznaka{\(FE=01\)}\par\vspace{1mm}
+\input{slike/tikz/s038_fe01.tex}
+\end{column}
+\begin{column}{.24\textwidth}\centering
+\Oznaka{\(FE=10\)}\par\vspace{1mm}
 \input{slike/tikz/s038_fe10.tex}
 \end{column}
-\begin{column}{.35\textwidth}\centering
-\(FE=01\)\par
-\input{slike/tikz/s038_fe01.tex}\par
-\(FE=11\)\par
+\begin{column}{.24\textwidth}\centering
+\Oznaka{\(FE=11\)}\par\vspace{1mm}
 \input{slike/tikz/s038_fe11.tex}
 \end{column}
 \end{columns}
-
-Pored već uvedenih susednih polja, susedna polja su i ona koja se u 4D prostoru dobijaju preklapanjem pojedinih tabela, na primer 0 i 32, 1 i 33, \ldots, 16 i 48, 17 i 49 itd\ldots
+\par\vspace{3mm}
+% element: 02-s038:e02
+\Oznaka{Susedstvo između karata}
+Pored susedstva unutar svake karte, u 4D prostoru susedna polja dobijamo i preklapanjem odgovarajućih karata: \(0\leftrightarrow32\), \(1\leftrightarrow33\), \(16\leftrightarrow48\), \(17\leftrightarrow49\), itd.
 \end{frame}

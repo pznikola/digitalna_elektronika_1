@@ -1,0 +1,1460 @@
+{
+  "slides": {
+    "02-s001": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "c1eacbea51e9fe5d7a6bb572db0653b4fed737457e1d3a0d4455ea37690c8157",
+        "baseline_render_sha256": "600347e7fc994ee9c58699b667ada26b48d2c1b15147dd59b5506927cdcc1f71",
+        "new_render_sha256": "fc3ed5792a9eff83595f954b4188265fea9fd6e4bb60a108153cfad61b46672d",
+        "notes_render_sha256": "3f01d1c62b052aaa0cb4e66cdcd04d9b7a7827d5653d7c219c66946f6a4851de",
+        "slide_sources_sha256": "df7d2beee7522b980b0662f16d565e6de6d57a0fcdc84ce75fb0108df27584b7",
+        "notes_sources_sha256": "3e5833345febc20b6de13348cdf0a0723614ec10aa58d65c289e337e3a71a603",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "41477a60dcd4ee3072bdf0e37599e30ed3755565d99197355e45880e45e0f6da",
+        "coverage_sha256": "192518ae12dd0a4900d9a22039cbb12911d325068ff12e389cf64d6d73ba7267"
+      }
+    },
+    "02-s002": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Pročitan originalni prvi deo s002 i novi s002; pregledana vremenska pitanja, definicija i oba isticanja „trenutno“, bez gubitka obrazloženja. Pročitani izvori, upoređena pokrivenost sa originalom i prethodnom isporukom; pojedinačno pregledani konačni projektovani slajd i puna A4 strana sa istim ID-jem. Nema preklapanja, odsecanja niti uredničkih komentara.",
+      "evidence": {
+        "source_render_sha256": "471422a0d83edef22a772f7c023786ac48882f06d3dfc12501d2c3628ac59911",
+        "baseline_render_sha256": "3cf2eff3950602c2a8e0d3cb026069e7ddf0df8485b413b7cf05e48cf1a8bac3",
+        "new_render_sha256": "01104a4c29ddeccb2b9a92b094f3126c2d78fb2610926f867cb2635a97180f99",
+        "notes_render_sha256": "08d4bf8eefdeaf82433ef2aaefb1b5a62b3ed5fe54008aca4711a4ba2e8cac61",
+        "slide_sources_sha256": "fb27c50f937d5cb329e611d4fb613288fdb3793bb538707cdee2d4c35e48412e",
+        "notes_sources_sha256": "f51d9c8208d83596aa0685a65ca326ad008382bcd9aac190fdae22bd253decba",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "a26756cb33f2a33121a93c7994b53bdfb15b21e1a9fffb18f854329cbab08893",
+        "coverage_sha256": "123af783cc874b0bbb14a3582feac4f22bb8a8aff59367935e3712c66dce88d0"
+      }
+    },
+    "02-s002b": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Pročitan ostatak originalnog s002 i novi nastavak: nepoznato prelazno stanje, pitanje zašto i fizičko kašnjenje; napomene o funkcionalnoj tabeli samo u beleškama. Pročitani izvori, upoređena pokrivenost sa originalom i prethodnom isporukom; pojedinačno pregledani konačni projektovani slajd i puna A4 strana sa istim ID-jem. Nema preklapanja, odsecanja niti uredničkih komentara.",
+      "evidence": {
+        "source_render_sha256": "471422a0d83edef22a772f7c023786ac48882f06d3dfc12501d2c3628ac59911",
+        "baseline_render_sha256": "3cf2eff3950602c2a8e0d3cb026069e7ddf0df8485b413b7cf05e48cf1a8bac3",
+        "new_render_sha256": "de56e9497f569ed34c0af82a5bc77ab145696b1039cb5b7e4ed4dc40f7f98a19",
+        "notes_render_sha256": "4fbbcc4ef7442716069cb07444d6cc5b2a4a0d38f01c3ef64568faa4b3917bf2",
+        "slide_sources_sha256": "9ffb6ebfd0b26f6d2451d629d1c2617c04c79de26351361a98b4e6c1c3b8ed98",
+        "notes_sources_sha256": "9c52e8feacecdbe3f81b6f446dd5add41acc45a817ed84590055a7ebfba4264d",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "3ceef73ad2e2f2e41cff03dc2812f842fe3f3ecd9aca82197984bedc3d2cd070",
+        "coverage_sha256": "2a4a6444f8ddb0dce88130c920fbb55d0bdd53d769b3ba71a0c376bfe6abb2c8"
+      }
+    },
+    "02-s003": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Pregledana oba para dijagrama: veći međusobni razmak, odvojene strelice T_ul/T_izl izvan signala i ispravni krajevi t_pHL/t_pLH. Račun širine u beleškama proveren. Pročitani izvori, upoređena pokrivenost sa originalom i prethodnom isporukom; pojedinačno pregledani konačni projektovani slajd i puna A4 strana sa istim ID-jem. Nema preklapanja, odsecanja niti uredničkih komentara.",
+      "evidence": {
+        "source_render_sha256": "5ad8c75a12e69b2b417946d547cff11afacb26bca506dcbdd7fc8d5359202f1c",
+        "baseline_render_sha256": "604f17bcba5432c5f853543d6864d81cd7c7fa9c4430cf7eb4adf59f41ead5a3",
+        "new_render_sha256": "9c7bb8d35de5f3add5ee1b18c0cf83829ccb3a91dd2a026cb3803feb8dc64352",
+        "notes_render_sha256": "b98f5f22b4c0fea3cc7694ccfaec5fd971eb7a9eda129944399439b01bf2755f",
+        "slide_sources_sha256": "be2262c5c216a612ba16e9d153113564e7e79eced166accd85be6027b8661f7e",
+        "notes_sources_sha256": "96b5f8fb6cbfba121bc9ced0d1ddb475110eb0f363c42aa7abbf8dd91f949078",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "f9ce8ecf3bedd6c176e8c4593249666bf7d1b9532bd34bf842e3e96384f1321f",
+        "coverage_sha256": "99b12444a0b95d976a491aad8f99ddd6d78829120b16b0fb4d81dd99fc090309"
+      }
+    },
+    "02-s004": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Naglašeno „nekih“, proširena leva kolona sa rečenicom u jednom redu; pregledani pitanje, dva moguća ishoda i uslov trajanja prema kašnjenjima. Desni crtež i oznake čitljivi. Pročitani izvori, upoređena pokrivenost sa originalom i prethodnom isporukom; pojedinačno pregledani konačni projektovani slajd i puna A4 strana sa istim ID-jem. Nema preklapanja, odsecanja niti uredničkih komentara.",
+      "evidence": {
+        "source_render_sha256": "f04c28b3eb5e63e2099a2cbeb0b59a5ce18194f920a64f1ab5f897d81587a91a",
+        "baseline_render_sha256": "dd74e14992aa3992023169b54028c88c7716a659704419c7d717826d4b66f879",
+        "new_render_sha256": "853248eeb26c328b95b983610e2565b1cf2d3bf0e2fcc6c4bf9c34f6f08a6fed",
+        "notes_render_sha256": "d297208ad37730a037463d94ed7c5f557f01355399b52b7c259d2f8300d32207",
+        "slide_sources_sha256": "8222dd7bc2adbc6733ca8de1300195ec7f91203c2d0a02d6698155cbf41dd99a",
+        "notes_sources_sha256": "4de2e990901a10fd658aa291b02156747308cc3e8760c8f9a96ff561cc471dea",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "0bc7ee2d43af7627672ca6f88cc69e306a66c0d089282a0c68778806f9d12196",
+        "coverage_sha256": "3363129072f7eb6991c61714cd25e3a14c45da27f92e2c75d05d250bf7ecaaa9"
+      }
+    },
+    "02-s005": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Pregledane odvojene strelice „Sigurno 0/1“, izlazne granice i šrafure. Proširena desna kolona i izvorni naglasci maksimuma, sigurnosti, tipa i svih primeraka; bez preklapanja. Pročitani izvori, upoređena pokrivenost sa originalom i prethodnom isporukom; pojedinačno pregledani konačni projektovani slajd i puna A4 strana sa istim ID-jem. Nema preklapanja, odsecanja niti uredničkih komentara.",
+      "evidence": {
+        "source_render_sha256": "e448846b35a72fa4680e98a9b6c92b9f80f9b8f3461bd411beb91bdeec9557bf",
+        "baseline_render_sha256": "14204309f3205418180720380c570c94526cc59b5af20175ed50e81f039f359b",
+        "new_render_sha256": "053bb4380606f2c3b2c333ec9982b5a027ff074e05cd058bb7aa6ef380d4cd3c",
+        "notes_render_sha256": "c7a079bb76579fd39500a10d1f89933fa7a5c6b28d4a9c7c354a49e8ff2c1819",
+        "slide_sources_sha256": "9d359cbfdbb3bf34a4afa4f26ffc5d8f603ed0e0e7656c9117a4d3e7d5fd9609",
+        "notes_sources_sha256": "307e0b4d7ef98c2c6fa33c9e93c1123f26bdc0698e4ad72418e15a731abc274f",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "ec1c4e2f2891e8aa6b821a0bc67066003282e65403e3cecd28b54421b5c5a27d",
+        "coverage_sha256": "1ecf0eedb86fd87e4084894de73468d5cf1b9c22d44b4faebd611a8f575565e0"
+      }
+    },
+    "02-s006": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Dodata izvorna najava posebne pažnje lažnim nulama i jedinicama; beleške objašnjavaju različita kašnjenja grana bez nepotrebnog ponavljanja. Pročitani izvori, upoređena pokrivenost sa originalom i prethodnom isporukom; pojedinačno pregledani konačni projektovani slajd i puna A4 strana sa istim ID-jem. Nema preklapanja, odsecanja niti uredničkih komentara.",
+      "evidence": {
+        "source_render_sha256": "589e96d6efbf9ef66e2912ce5b0a2e76cdc2ef9c19ac35749b1fbf62690a9a84",
+        "baseline_render_sha256": "acb88a202d60a46b29422ebd6366cdc4602268d6932e0e21261f8aaa5e419779",
+        "new_render_sha256": "5e75916658d01923bea1c42906d74d539844911128c9e1b937834901d455e27b",
+        "notes_render_sha256": "10c06512483f07ea3981061b171ef7594adfd5d3416e18d5537f7f6cac26c92c",
+        "slide_sources_sha256": "c2ba864e0c13ab5d10694eea00bcb0a3392db7442b67e9f0e5917901a6229c56",
+        "notes_sources_sha256": "72bb989039bdca1d2b7ad6087870abf8cd2ab60c9523d32f234d45c00642b678",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "e92b4feb2f119f3e0bfea692f88e938e1cc88ff1aa795074bf8d738c5d170ee0",
+        "coverage_sha256": "8a540bcf3510a6569a21a40e760d7489db846671522fd9941a699f4ba3b66f43"
+      }
+    },
+    "02-s007": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "6dd8317dba5b92577482cc5aee00bce53a2ca090ef82e5ce4c36aaf6d3e431d6",
+        "baseline_render_sha256": "82daf13bf24d02cc034685b02627d8ca681e3e89b88e6ef57807f81227320807",
+        "new_render_sha256": "56e5eade1fd3098005dc4182119a8e53104c00526725a5b6fc59c88b1615aad5",
+        "notes_render_sha256": "47bf50063537f6cc6bd214f8bd3fcd51649cef04175b455cc3dc4631caee8d1a",
+        "slide_sources_sha256": "102bc466736c0e5c16a664aaee818822e38e511c9a16d5164ee72a9b47300a47",
+        "notes_sources_sha256": "ccfc191a0b74eaeaa4248478e21982934cec314849af8bdeb7fb9e6c1fb3e20f",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "b8e4ece44c4bc13327c120cdb30ef355512ef3a891f5928c761f8d639ea048fb",
+        "coverage_sha256": "122f11f6ed69c24e9a0fa019e829ba92e9eaae6d5030f01d03cf6cc040e29a0c"
+      }
+    },
+    "02-s008": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "SSI u zasebnoj rečenici sa punim nazivom; tri odvojena reda, očuvane veze i simetrični ulazi I kola. Pregledane obe DIP kote 2.54: korak centriran ispod strelice, visina pomerena udesno. Fotografija, jedinice i ekonomski detalji očuvani. Pročitani izvori, upoređena pokrivenost sa originalom i prethodnom isporukom; pojedinačno pregledani konačni projektovani slajd i puna A4 strana sa istim ID-jem. Nema preklapanja, odsecanja niti uredničkih komentara.",
+      "evidence": {
+        "source_render_sha256": "c3d0601f6549c04bbaeeecca0d1bf9727323385a8cc04671caf0f9f6a35006eb",
+        "baseline_render_sha256": "94d6d1804dbb49ff613249188572a38e15b3f6fd54cc7ba5bc563dd7637515c4",
+        "new_render_sha256": "04f640ac44f6a8712e2bde17d57cf5e6ba39c857efa1d10e4a03c4c07bace163",
+        "notes_render_sha256": "9b5413b279192e0bf4b5d9f730ea2419b19cbeaaa46b00a3812adce9f91d5289",
+        "slide_sources_sha256": "66db0e63df18017df234460e46387e2bbcde3c94a1ba4a63808006206c1238f1",
+        "notes_sources_sha256": "cdd36f909d67b9e8ed10a883f03a8ac23ea4aacdb5028ab8c9e67c103bda2bd9",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "f3bc212deb97c1c4dc6e1abeb1bdcb71dd09e6726aa3de6bbc888d81c04d7c6c",
+        "coverage_sha256": "02377903434e4dca4e516ebafd2022fd8048790dbf0eddccd19c992f0103ce27"
+      }
+    },
+    "02-s009": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Prema originalu pregledane definicije literala/proizvoda/zbira, normalnih i potpunih članova u rasporedu bez kolona; beleške daju samo dodatne primere. Pročitani izvori, upoređena pokrivenost sa originalom i prethodnom isporukom; pojedinačno pregledani konačni projektovani slajd i puna A4 strana sa istim ID-jem. Nema preklapanja, odsecanja niti uredničkih komentara.",
+      "evidence": {
+        "source_render_sha256": "bf33fa58eba4e1f4714b5430e00960f74a4383a0522472853e015dafe1f12249",
+        "baseline_render_sha256": "62357c7ec882a8f786991ffb6587fbf65ed8d8c0ce44438c636519878a797ea5",
+        "new_render_sha256": "67772b3ad383c9eddac52b3ffe2d0a28aa2ee2d9523d140d76fd86de402dd9f2",
+        "notes_render_sha256": "9fb96e833085c3dcd9592937cfe32e20d45a7a28f946b6405862570b2dbdcdc0",
+        "slide_sources_sha256": "d0ddd47b60905678aff688fe7dcab78dd87d21303a25a1b27fa0f2ae073ea00a",
+        "notes_sources_sha256": "099dc7bb8cdac0caafa3b63589c5436d108e51b90c31c885646a23ff9ecfefc7",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "c70b5753d4bbf0c16a60a604d93ced8b647a83d5acb0fd1049e69554bfdceff2",
+        "coverage_sha256": "165acbf8c855a73a4333c9dda3ddd25a76053aafe27bc2f0bf749848759a96e8"
+      }
+    },
+    "02-s009b": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Prema istom originalu pregledani redosled promenljivih, suprotna pravila indeksa, SOP i POS; primer 011 i indeks 3 provereni. Pročitani izvori, upoređena pokrivenost sa originalom i prethodnom isporukom; pojedinačno pregledani konačni projektovani slajd i puna A4 strana sa istim ID-jem. Nema preklapanja, odsecanja niti uredničkih komentara.",
+      "evidence": {
+        "source_render_sha256": "bf33fa58eba4e1f4714b5430e00960f74a4383a0522472853e015dafe1f12249",
+        "baseline_render_sha256": "62357c7ec882a8f786991ffb6587fbf65ed8d8c0ce44438c636519878a797ea5",
+        "new_render_sha256": "3b1aa333277b2de50cc6025debee9267dbed1f522a5df1123fb53588789db5cd",
+        "notes_render_sha256": "edebea64bd4416d970248a4c9163a9937946c80131eb8604d442332e4a48f987",
+        "slide_sources_sha256": "7017cc46f3adc1a05489d8d80ceff31d9a474432499bfa92d05095ed078f6f94",
+        "notes_sources_sha256": "2fcb8f550009307d1d2674e4714891cdcd530edef3cc9d5c768467b76e56aadc",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "facc78861e60600070986b47ba5ce2304ea5dd1c386448e9da2fc7d1b3857af2",
+        "coverage_sha256": "999d5d6c012e0da4786139708957bd93c02bf2d05e60106609f468eb3ad15cbd"
+      }
+    },
+    "02-s010": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "adcab7d17571e880daa2f7d6dc0baf5dadaa3738b5c79af79b88383e2f6fdb93",
+        "baseline_render_sha256": "5c3d411eb6050c9d6cf4588a81f2e9c24565cd5eb633cf70a913ece638c318a5",
+        "new_render_sha256": "65a402777f44f6ca57559575200948537352d3f94368c0158cb652968fb5438c",
+        "notes_render_sha256": "ba6941129906fff996c61dafdcd3c668b0a571dd9ce5e25476784c6e3b80fb55",
+        "slide_sources_sha256": "d2175060162ef9b22b798528b4f55c5937a31ecb6d53a13706ed58bf9aadc137",
+        "notes_sources_sha256": "0784481fd4c47c15ba4571c44fadcdcace0ba166ee7833d22d43345a9d6daa00",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "05b6ef5fd931ca15840e5d9918b1fbdc2588b200f9a07c0cec1b4d1b8d427489",
+        "coverage_sha256": "edf533b04574613757cfe496d5a70f82655a053ae01dce466f2b81362f199af9"
+      }
+    },
+    "02-s011": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Pregledana sva tri zahteva, dodela promenljivih, pozitivna logika i svih osam redova tabele sa blagim linijama. Beleške potpuno objašnjavaju formiranje tabele i tačno dva naspram najmanje dva ulaza. Pročitani izvori, upoređena pokrivenost sa originalom i prethodnom isporukom; pojedinačno pregledani konačni projektovani slajd i puna A4 strana sa istim ID-jem. Nema preklapanja, odsecanja niti uredničkih komentara.",
+      "evidence": {
+        "source_render_sha256": "cc88e12855a75f4920c134dad9bd35796834c208033d7f06d020b468dde4f206",
+        "baseline_render_sha256": "7499a077c2665be294173324d9f777cbc03899f40cf610bd0fd6d8d67c3cf0da",
+        "new_render_sha256": "159f53499ec4791a309b5372c7430ee115dc5ab3abe7a79356df43770f856e68",
+        "notes_render_sha256": "2eea0ac6b66acdceeb416de62ec2516459e80d76ee6254cf6e0085859244ac76",
+        "slide_sources_sha256": "d90114dad9bb01bc1684ea1fb705a8f305e459794af3bbd344f7a9ef799a4f5f",
+        "notes_sources_sha256": "3edcc5b88502b2fe42e1abe11ee14e6157d2d839cb24edd5ccee7c6a3525af11",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "713d27c3774f9c6b3cafa719d7e5af81561916b45db8dce19b8c2e18b7393781",
+        "coverage_sha256": "d6ac3fdcf1de1c0f4251bfdf1608b780461cdb0c53e1be95ca194a4f5000d720"
+      }
+    },
+    "02-s012": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Vraćen uvod o svim ulaznim vrednostima i skraćenoj formi; isti sistem sa novim zahtevom, istaknuti b/bilo šta/X i četiri razdvojena reda. Svih osam kombinacija razrađeno u beleškama. Pročitani izvori, upoređena pokrivenost sa originalom i prethodnom isporukom; pojedinačno pregledani konačni projektovani slajd i puna A4 strana sa istim ID-jem. Nema preklapanja, odsecanja niti uredničkih komentara.",
+      "evidence": {
+        "source_render_sha256": "7e870880a6a8f5bc2031569fc70f89c02561249979fae271ceed828797cffdef",
+        "baseline_render_sha256": "17b0f5a9fa1381d13b64c79e434c59a9354004e62045230e50c4772427d09924",
+        "new_render_sha256": "a4a28231773be239d158e1c08fe0dd4eea95c8263309701445a96e15a01d33d5",
+        "notes_render_sha256": "b82d53a5c7761e023b48b40d391287da46794dc11cf3a5278c884f69de4dedd7",
+        "slide_sources_sha256": "cfc5d59c0bfc3aecef98476ac3ba3fff52f7dbfee5336eb85b1d3930635fc81e",
+        "notes_sources_sha256": "3b87d0276e89c1da1a8f5c89b050156be2f432335997b138c37e23a5160830e8",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "5e42e3f1e8893d55ebff12e17f352c5b0b1aad761854cbff266d1d0acec88734",
+        "coverage_sha256": "b6fcfee30445d530e22f9ae9925fc9459e7c1d59330c68579e7d69a5a8cae050"
+      }
+    },
+    "02-s013": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Dodat izvorni uvod o pisanju funkcije iz tabele; uklonjena oznaka „Tri reda sa jedinicom“. Pregledana formula, označeni redovi i I/ILI veze, uz potpune nastavne detalje u beleškama. Pročitani izvori, upoređena pokrivenost sa originalom i prethodnom isporukom; pojedinačno pregledani konačni projektovani slajd i puna A4 strana sa istim ID-jem. Nema preklapanja, odsecanja niti uredničkih komentara.",
+      "evidence": {
+        "source_render_sha256": "4e2c58618edbb3646c416a154673224f32b336adf37d181f84141e9625073912",
+        "baseline_render_sha256": "f6d02a9ea321763cf2eb7a3065d0e1ba90fb3905ab5d1fc5ef5a6f3d7cbbf67c",
+        "new_render_sha256": "27a8f4e01f787b218f6fc7a9c958c9d5f67010a721d4ddd78f3c29160e896c8b",
+        "notes_render_sha256": "424f10f84a94579b7891c0a914e8f3c53e271fa4fc8c5e580edb4f33770973b7",
+        "slide_sources_sha256": "11d40937aea4c663866a545c903a33a31a952a376f48d6c16b4c8b5d22124f39",
+        "notes_sources_sha256": "fe44340a348418ded3958fb3c1731fbdffe2e6a8c4ebf06f25be1b5cb1f6fd6f",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "3351119b6afc0d979d1cda03e1dea6095be192458bf41516fb0db5d83c3f42c1",
+        "coverage_sha256": "f1160b8ae2ad6322cbb2afafdb2b69a9f1a524060c889822f21f4e6ec1db1b84"
+      }
+    },
+    "02-s014": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "228b3c5d599348bb81a72f2b4e6eb5c39c1b116a54eaf4e4240c1e63ccea0c78",
+        "baseline_render_sha256": "385ff86c0a6553ed1a4993c7e92489166c03988a66d560037b865c22c4ecfec2",
+        "new_render_sha256": "3773e9ad0175a8e6da952ca8d7e9062fb6533e1ab03dd4348e2cf41d3bc4bab9",
+        "notes_render_sha256": "3eb2f39b1be942cf46cd303ec0dd2a40a2a8f9eca187b586386abdb1212c3a12",
+        "slide_sources_sha256": "81354744a0faf7487d2a806eec4aae167ce6e227ebbebfc14e3af35041ac9b14",
+        "notes_sources_sha256": "64848cbaafb3626c987bdd3458a49ca26c4a2da19c9e0e265791e44f20a2905c",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "9e6567210207136e3f725794f33cdb8665817659126705606620d9e0fda13157",
+        "coverage_sha256": "58400572f37b0c92c1945ed73477a90de3f6cf2b1f623723e02662ae870a23d2"
+      }
+    },
+    "02-s015": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "0419aed8e243f17948c0fa7429f158c0ac6ee2990b66c4f71e0343f660541617",
+        "baseline_render_sha256": "93f13530351f1c52e870228900ae08d8a470a232360644717aa7c7e62bde0bcd",
+        "new_render_sha256": "e98c79f95a5e696d73d2ffde2fab863089ea7171257574bd625050a25e43acc4",
+        "notes_render_sha256": "54a5b096aecb446d5ed132da09ed0a7f503aa2b227db40aa693c946caedc0ab0",
+        "slide_sources_sha256": "f94f33435a9b222fe516c426f0e2745fbc782551a8b79a188a8c15db6e466f84",
+        "notes_sources_sha256": "2df4fea3f1e4afdf1d2936ac02cce461c9e5f0fd19c929eb72a7dfd9197b9874",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "593413f617ef4988a61d140acb480f925e792f6197008ddab801c72189140f66",
+        "coverage_sha256": "f8146a5272faa8fe68e2644f286a3918c6eea29624a632efc53ec9a6e882191a"
+      }
+    },
+    "02-s016": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "59c09d8747bf4e6bb57c4820aa49d18ed4b2047845313aca4d3afd45f3ebcdda",
+        "baseline_render_sha256": "b0d5eaffce2a55f8d5c5ba01705c320a800aa4a22f3524311ebb08bb917171c2",
+        "new_render_sha256": "15259d70304fd59fc0c424d40a265f78a2ba5c392366717f975c5b28be4e2ad5",
+        "notes_render_sha256": "ab71d85c69c0ae2074953ae4f58392de220c5cc9daf3ecf09842035f63f3f830",
+        "slide_sources_sha256": "db61b33eea97fc194697560f1e21f236c7b93151ce6864eadc7eedd93d295964",
+        "notes_sources_sha256": "ed3d35b148b54e73215421a9ed88b52ccc98cdf8e324ccecfcdcf0d1aa93730c",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "bc9308fca284ec15aacb1374d57a0818a612c747a89403fee808f0e7976d0996",
+        "coverage_sha256": "6e0999719e6ac29c747c94f679b2e8450fba29ebf8f9fd386a620fd9f2fb8445"
+      }
+    },
+    "02-s017": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "189aa1361d4ed1ad49f9b4fc3252e5f40487417ca51e40e42feb415df552d25a",
+        "baseline_render_sha256": "e0dcb9ad290d01d56f600991b55cc4095fad55d1e18b704687542d264af0a9fd",
+        "new_render_sha256": "b64ae46599254064791e0744847b3a01a9e613d91464f72a9e7100042acaf378",
+        "notes_render_sha256": "9a8caf60c874d7f6c273740fdd07ba26c4581ba0a76c2115d09faba15a7afce3",
+        "slide_sources_sha256": "741a63db424bc31126dd78e4af4a6dd6e6e1af023da63f77709bbd7747d1728f",
+        "notes_sources_sha256": "7fce86b71864447d202148ae740084b4264cafda000920948f3200a6e3d803a1",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "b90e49c0cf9ab0df1631b7aad1ebf77b46ed213c09ac522b8621716b073ababc",
+        "coverage_sha256": "5bc1850fb2f5cf2a53466052f38c715b41e8ead960a198d02bc7d2a6c3822151"
+      }
+    },
+    "02-s018": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "cec6f2610dd93a6f730ff36fef6eef98611f7774efc6c544624e49d16e494161",
+        "baseline_render_sha256": "b358c106d371dbbeb6ad16a699a126475160bc73cb1f1d571f901036676cc03c",
+        "new_render_sha256": "23b996439c585872146ab22c9ffb585394f5ec9d611fa9c2b55b98151604d7b1",
+        "notes_render_sha256": "83cb28cdb81a31ed6d93c3121f36be840f382deb7064be58387542aabe2dec91",
+        "slide_sources_sha256": "fd20217dd59be3511637821cf528db116780abcdcb79cfc9cf8763b344a40280",
+        "notes_sources_sha256": "e0a57611dc9743d3533e79c15addee84224d6bf795421c3e6cd9d028c46babff",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "b0889f1e4ed92f917cef51a197859a4ae3d7d959f54a0d225f5eefdbffffa292",
+        "coverage_sha256": "d970067b47a24bdc18885349bfc4b7a22ebb375dc9f46f57e2e42bdd36f69fad"
+      }
+    },
+    "02-s019": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "7275a0965d41e29d148adc3b5e01240b6b7e1d2150bd435c23c1f5e7c58a4c78",
+        "baseline_render_sha256": "42a269a89e8bb3db3cf93d78b92b8deb5e5ff87dcc29ef99506eb80382cdf08f",
+        "new_render_sha256": "0ec8e015caf0a81f9b28f13dd0f4a7ce0263d10e2b193f2d5cf4e488f4614a66",
+        "notes_render_sha256": "f0b4b51926ec14151a54141c554a02a9119327f0eae02a299398b5cb4b5335d2",
+        "slide_sources_sha256": "9674f6b5da8999a4d98490dd7aebf17d9d1ae748990be843e52b9f2799b999af",
+        "notes_sources_sha256": "d42421a2b599be3ffc1c7439c1acc760ed39b524b9dbdd110d6ed88063ce32b5",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "b532a33d21769710a61ad759a3ad60839e97972e322ced3d51df1b4b84c71b21",
+        "coverage_sha256": "a70c7005722c34a7953d635e47142c0e8188d0fd12bb35bdd1fdd816558106bd"
+      }
+    },
+    "02-s020": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "c837e4adf3cd313189ff41f0cc15020b5e898bff73d3cfeffb89ecd3889b0d09",
+        "baseline_render_sha256": "42ce381c03d0c0ba5556abc54530715b9002d26296fc34190e1c399ed1b2109f",
+        "new_render_sha256": "57a74aa0f15e17a6385d43a9aa34d1f50e27e42e75a9267a716ef58e73d9258b",
+        "notes_render_sha256": "3b4a56ab4861da243b4d34496c76cdb53fa1770a41421f6b35aaed4e2dbbe417",
+        "slide_sources_sha256": "4140e03db2cfdc174d973782e61d9d68448e30863f0753bbb121eb66c59fda1e",
+        "notes_sources_sha256": "171def682ec74eaa3d2f5835dc714e6a343374adb64c1733b12fbcb70e387a0d",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "6c965c316d5521c1638085e33ef86f46321e9b690831ea72936796328a5a022d",
+        "coverage_sha256": "649db5d1ac80c3b00bfc68966a11f8063fdd326ded81b1e4b7a93f399c31991e"
+      }
+    },
+    "02-s021": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "d8053752b1c801ffdcc5cd966cf42f12d2f1ae041ce0eb5de2c60fdd5d4e0d42",
+        "baseline_render_sha256": "e9d5873d603a18a123edc548dcf0dc909fdb3bb97fb1e051209224771e3e63d3",
+        "new_render_sha256": "f15fce12c757f3cbba724d4c7c5c59aee9917868062c27bdb0c22e926a4f7d16",
+        "notes_render_sha256": "495709cb989f5e6166fdce14362eb656981bc195f80068e6affc897db9d2130b",
+        "slide_sources_sha256": "0f46fb10322ad6da336f958991e0deb7b5acb042fe98f8189ce46d35155f0bb9",
+        "notes_sources_sha256": "2cb52a99e35cbe26d2cb74306f0836ca1d8582cd7b796b72d6ac53f497b3a9f2",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "e94d2d78c141cb93b196a4bb22ea388cf6883f7cdf9fa6b58b032edfc332606c",
+        "coverage_sha256": "58032680c0c0eda4d0c1bc1acc4fbfdd1ad4d9a30b45bcb4ea197d364b0097f9"
+      }
+    },
+    "02-s022": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "3f68d1b080f1adf98a0c40a9a02acc0425477841447b40d2fed7134d64c45ab9",
+        "baseline_render_sha256": "89261724df1641aa951df7defdbbad6bec9d817b72605ef958b8ae7c29ac757c",
+        "new_render_sha256": "b9af00d21bcb6df7d4a74f76b145879d9b4a48ea553e3fea1fd1e18574c06e67",
+        "notes_render_sha256": "351947c369f82b43b2803dedfd1d0ad87105ca2ce7e29680f4bb5236255b693b",
+        "slide_sources_sha256": "183721766d35d173a1a63f504f84d4debb48fe999c9096c2f0eb0b6f05b421c8",
+        "notes_sources_sha256": "a782275f461597aa212b645a2344a66f36aac19fc92caa3e464abf2250d49472",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "4fd94ef1f3f16f36832fe8557d9ed1b74b80e851f7b6fa46fbd9a8ba915ecede",
+        "coverage_sha256": "f33c6c1ff1369e678cdf45c767328163f0d22e2686e730b8fc20eb0655239d8f"
+      }
+    },
+    "02-s023": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "1c5091247741bfbff4dcc1d3a123c0a20ff41b7c5da1bb287ffeccf850bbc1cf",
+        "baseline_render_sha256": "52224a52fe0e14138d9e7220779617273d445040e31a89d33a9f0ede22869e3a",
+        "new_render_sha256": "1906a5da610d4ab85faeccf77dfeb675cff19c968a678fef6ca105f71d04c46b",
+        "notes_render_sha256": "05fb8538a22bda43d260a85ace7bbdbc05843e903f5bb4ac863220452ed63947",
+        "slide_sources_sha256": "52b56dc1c9ee80a2ec8fe3955812f98556bd016557e1684bff671082748e223f",
+        "notes_sources_sha256": "104c047ee62986f2202c46d7f64b498eeec4b3ed702772b91b5459abd465bf51",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "cd73de5cfc3a14da40312638f25e75ce53bc5f5b919d9205b3ebbf7c8dc4742d",
+        "coverage_sha256": "a4c997b95df1f98834cee9aa53568c6a847e18152358109c15582f848afc0f92"
+      }
+    },
+    "02-s024": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "8ca9a92a046e0cd108d6da4e08033d496da08000c8f2c3d5af26b812c2c5c23b",
+        "baseline_render_sha256": "c4becd46d005a2e986c043edda37d82fac98a7ad55f87316d95edacd66fe5e4e",
+        "new_render_sha256": "bc606be5ed64cb50149f24c2f3c4ffe57292348fffe219303e17170e49d2292a",
+        "notes_render_sha256": "4c59ea7a76ed7c2807d8aa96e47b1ccb18529910f8686d9a8fc1c3459ff2c934",
+        "slide_sources_sha256": "8d6a3bf7ffc6f3ed97787470803a18d633351ac80b151167e6c66d2cf7182d9e",
+        "notes_sources_sha256": "da42e70628f7c601eb7cf180e949e689767d869daf74120382df243bd5073a4d",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "8bb13a059c8cf09ce04613bc563631a22bdc194d21f2f951bd267e8d896be016",
+        "coverage_sha256": "2560ed8a58402e2a18518ed605d0c77b2d1541461f8f099873f30ee894d99d79"
+      }
+    },
+    "02-s025": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "09d5d2ce98d79338c9571dcc55cd7e30dbd89236427374569e215dfaebd90748",
+        "baseline_render_sha256": "85e066e2f8956fc1d870bbf43ffc978af92200697b6c3925986e060d2378cece",
+        "new_render_sha256": "c787d4bc2f1a28d3cf311741fb72968cc454a71664bfc23088a3dc1d2ddc5982",
+        "notes_render_sha256": "16308e43a44ed5d022d51174d74dec2ccb80681eff9581373409344b5c4223c4",
+        "slide_sources_sha256": "d681b235c411614e1c5b00170ccc74c12c2110f6f5576b50db9ff97e83e28a56",
+        "notes_sources_sha256": "39b78d6bc552cd1ecd19a88f0d433b117e701f1c2a40c6f34877e3764595c7bd",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "414d58bb70e00d7f1370dd09268c0a1a0239f346b22a77d102c9366bfff9868a",
+        "coverage_sha256": "934f9412d2377566709469e51c087b78671e06cfc83d67cf72323d74e1673294"
+      }
+    },
+    "02-s026": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "91adae98636f3b497556089f2af82b51b175779bfa4903cc2cc7cd1f9f045c73",
+        "baseline_render_sha256": "6992c5f148c9bd375cb882f875ad3cf2ac2670eadb2eb9587ddd70e21640a5b1",
+        "new_render_sha256": "8fb5cabcce04f500aa7f1caf0718bbbb2119b29c26cc92bf1094437d0ffdc958",
+        "notes_render_sha256": "f8733d6865cac82b23b140e3ccd2ec4ebe4a8d0ddcee27980b86581cf79d89b6",
+        "slide_sources_sha256": "98aba41c4f8a054d4438fc4f8e55a4718ea43760d22a8bdb9dc90578b090ff10",
+        "notes_sources_sha256": "e57211553924ab46f73fb29ff12a4804847878c8633b93806d7f122180bae3d2",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "41b87d4df907cf7ed20cdf7914713257af9df2a6db4dffeb4510ae6c2e51dcff",
+        "coverage_sha256": "e779ca9c90878456530053de40bd50a6cfe056d03ff1dd51f7c93f4ce15e721e"
+      }
+    },
+    "02-s027": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "f908f47907eaaa1631f0adc63af9c095dc083c6baf14ab23967e42ababce8d65",
+        "baseline_render_sha256": "32db68b0d93a129c5b8ffecb833238d7eacc4466e7c368ec7290962b1868aef2",
+        "new_render_sha256": "d90210b1c75e38c6b3673613b8054750564a203503d561adb47ad19d478d8a28",
+        "notes_render_sha256": "5330c42bbe394d77e0f97bb519abbe2055b9efc048662f305bd42379e148db93",
+        "slide_sources_sha256": "0549039727b6aa8a7763e89f9c4d4cd5d117e94c7e3c5c52bd5c9fd0d279c9cb",
+        "notes_sources_sha256": "abab8e4bd9d43aa92cb90550ab8b23aa8c1c82ad366fe306f9e44c6a2f5723e3",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "68840c98877622a47cc0ff7cbe97498a74a7a7aa0ebd4626497b19277202253e",
+        "coverage_sha256": "a16fb774d1a7d9becc12fd9b6bb49af4ea587f80b01461c425f661eee0c5b0c0"
+      }
+    },
+    "02-s028": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "5ba21a3450489157e99e102322014d772386da23d1aae16491003898586df7d8",
+        "baseline_render_sha256": "c2a23c82ca91987fe0d83db761797035efde3a190595fd3b14640ef061314102",
+        "new_render_sha256": "ac1ab54afd747bbb86900805aa8adb9e32995be70d2ec5f9d7f6850075e4a9c9",
+        "notes_render_sha256": "dfefbae43825247570a4a1bcb0364d834fa550638096b9fe1acaf020d05c90e0",
+        "slide_sources_sha256": "3cee355924ecdd3304d9df933ea2808eca1bb3d7c58c73708ab050804953ef10",
+        "notes_sources_sha256": "eef62ddc4915d152c301e4876cc59e8fbb6906ca4b45a107f03e0b9809e54d4b",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "8e2d035f7de141ca1a1cddb7b27e6a0aa81f7b987ecf15071caa060deb2c732d",
+        "coverage_sha256": "9f25e1314409f1588df59f055c27c242508fc6b31fa576a365bbe57f4974b0c1"
+      }
+    },
+    "02-s029": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "1ed3d77186cf00db66d0d2a52cd99cbd0ebdd6907818b2f5043b1b4e16442a24",
+        "baseline_render_sha256": "744f147d3e946da84b603ea3ff6a3397ac0044e6a9f9bfbdb67d22b9cb139f59",
+        "new_render_sha256": "2da0c5cb4c2cf6fd67a4efd6222b44a4a93799fd41881fec02b52af5ffe1c5e2",
+        "notes_render_sha256": "dc301253d416cd8035f6741ddb0b637240ed47fb3c681f81ed49928e974e8ed2",
+        "slide_sources_sha256": "e2fb50ecb91da09b3e6f7d4032bd5046d4542e9f1acedcb366e33c99e88a4657",
+        "notes_sources_sha256": "2ba82439d8ce044e083fb1560cf37e2b22a169f46a18406ab8fcf06dab8f30cd",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "359c6768e4fd6436b7f349c9f0d0e84899d19147c9eea26f553b5bdf355e34cf",
+        "coverage_sha256": "f56d4dec91f367ea179dfc9c5a639949002fca8d0234f42a67d40ca46b7040ae"
+      }
+    },
+    "02-s030": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "d4314453a5991b249bdcf0ad14930d0bb5ff10f1003b060930c93a41046c85fc",
+        "baseline_render_sha256": "89d6ea5e8336861a81f4026b44c41f52c200b6e64267cdd1148084f067ac657a",
+        "new_render_sha256": "7c249fe2c864386d6e531b8baa4c8e8ba9668033b15f3649926ad1d6793cece0",
+        "notes_render_sha256": "9bc42b5ad4524f06aa5f3b09e66e29e2e1b504508170795af261e9d5c21ca3b4",
+        "slide_sources_sha256": "71f955923788dc37a55d1211697e78b5f8cb05026f81c94d001896a3e180e5b1",
+        "notes_sources_sha256": "6cd341e1aeaf56e285db25f6c0efd48fb36b8cbe8a61c96fbd649c6ae7d63169",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "cffb38fae991d35d6bfde450a3232520de708aa85bf32088b7648818c54cd384",
+        "coverage_sha256": "2e06af0a00c7e2b590d5b86bb39eb7131c492b519774863a953e70d1201cbd5c"
+      }
+    },
+    "02-s031": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "d731f3e93637349dd7f9a8d7cb0d7f739cf56ddba4d0db910b5447241d841f04",
+        "baseline_render_sha256": "b41ff0397788a718204e103626f7cff20351bbc5eae36790483c1cf9cc65ef14",
+        "new_render_sha256": "644cb2df9d19ead31ab061166d30ec9813fcd132bdff91321d30c0e96c6d1daa",
+        "notes_render_sha256": "462faca10f95d5d5a78ca5f96d3d8fd04ce928cbd0da29ff6c28234a1d10d2bd",
+        "slide_sources_sha256": "a78a2c38be38e1716ce085ce8521ffcc9705e31861dc4fdbae9a3690f298a0ec",
+        "notes_sources_sha256": "c88188d79e4b93fc64278b81e42b0280cf57226d5e24d0179200b3d043cceb71",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "0038152ef145c07caabd794424477699d664542e034d607792ee981ff15e08ed",
+        "coverage_sha256": "a9e3ae0f19fc60fd3caa83431466490991e8ba1539cb3eb5eab6bf7e2cf66211"
+      }
+    },
+    "02-s032": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "704677f281086b0b82680fd6cde81c95c95b02c52b08030a64830b54bf0d1b83",
+        "baseline_render_sha256": "ce44c044b9e85c0f22eda9e09a084c98d14e342b666739c689136545ccbb5eaa",
+        "new_render_sha256": "cdcc804e9b9a8ca39e3952f3999c348f0bb8f52b66ce54eb89bdc3b2f8d329c8",
+        "notes_render_sha256": "2631b61e3e6c7ea22ef32b6738f14fa469a3dda0fc8810d0f80733e92ef05429",
+        "slide_sources_sha256": "48e8a77faf64196b4a1c2e59ea6e6127ad9dff5568ebc03c83864d2cc16d7ffd",
+        "notes_sources_sha256": "46aeb7ea271239ad9b192c31a4d4364ae4afb3e0e6674ccb700e38ce76c27476",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "cebd23d52463929a4062db7ea57105a5168806f30abbb5cdda64912420354038",
+        "coverage_sha256": "f459daf21fb630c5df4e225d698ee74271f850467057dd04b67c7f3f08ceed3b"
+      }
+    },
+    "02-s033": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "6677c202955e054c982f3dc0a9f217f140a73a12fde1adc0d9c4468e47f5b356",
+        "baseline_render_sha256": "8a109f405f572f7768586d6939579a24c7b263542f5c802f2c8e04728b87c22b",
+        "new_render_sha256": "89bd6ad78a530648d26b040e73b3354c0b8f57d40a4549dd908e7ea004d5c970",
+        "notes_render_sha256": "18b017a5e8175c2f5b8d81eaf0194251bc96f88f4663a8d6510aee275c929869",
+        "slide_sources_sha256": "3152097821cf24bed4778b63487eb9e78d4bf12278f37db49af6be60a0d323f1",
+        "notes_sources_sha256": "abd5824591a77d554740db0626283fbe157cc87408964b71b329940062f849c0",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "d9f615b02245d5d88eab1ccce89c5ca935bd7547f7dbbc74052d261f7e77a3f0",
+        "coverage_sha256": "a12c430aebbdfa0e804b81137a6180cf23015aeb4346406efde471433734481a"
+      }
+    },
+    "02-s034": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "de9ffd607ec1ee4a86534af79ff4444f92f58f65c566c629ef2d3ef851deb9c8",
+        "baseline_render_sha256": "c45881cd96a4b4394c180e5a3ce5200f6aebd04ae3b7ba25d741304fb70fb96f",
+        "new_render_sha256": "518e340c0112ade4205c05f6a51a0265d680581e46cef755aaa28bd2434c922e",
+        "notes_render_sha256": "64868a4cceef8a3d8fb336261f62e3e72717bb2ee1fdf0548459f80dedf31341",
+        "slide_sources_sha256": "06edfa5fbc4445b9a3e32bb0fdfb313e93f82c710caff6d3aabe2bf4fe9d47dc",
+        "notes_sources_sha256": "5f7cfaccf9cf336dde6ea80d4bcb5c2b0f9f9ed07e379b8f14139aa2f9c911ea",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "14edd75160a6f4459e0db3349b8bab5c39159b75c165902e6cd78648e6bf7250",
+        "coverage_sha256": "39397b462f7f7af6758104938b700856648e06f76a9479a111d654dbffe52196"
+      }
+    },
+    "02-s035": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "496fc6984778e54671840bb9ed4b018af3d83cac2d09c9c77b068c5b5a5f134c",
+        "baseline_render_sha256": "2c4366e2da3256c5f55f89a8627a14ee1e687efbc01e553df6bb14c91000d65d",
+        "new_render_sha256": "4eddc89c9ac9237f046620402b66b7d9ee5529c3c2949c2cbb4c025bcf39db62",
+        "notes_render_sha256": "da4809a6c605321093dcff8bc6d990760125089e93fef2ac393c4930052bcf52",
+        "slide_sources_sha256": "fd1b6a7f4eec0253b92774022dd202c2e3bc8e302705b07305eddf2070e865f7",
+        "notes_sources_sha256": "275f71e71c1e7510060b799368b2d6ff564011d9fcaa63966f86e01daaec6bb3",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "ea7e630f988ed57a9a36d1eb51a09da9ba7596a9afc82ae1d8c2c113de52c343",
+        "coverage_sha256": "906793f24634d2e770fd7075da4d3aac88b09a6a79bfaddb73f848bd2fab7cb6"
+      }
+    },
+    "02-s036": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "4a8680a3c3b9a47f817aa409d4c4bd77f28c465e1b07619a417bcd2848b75e51",
+        "baseline_render_sha256": "5800e31582eb5b8b32283def7456722cdf54190e45460a69ec77b15ecf4b4731",
+        "new_render_sha256": "271e3b5e7c1d0855e29c299d5c615d89eda0ad15afbfeb13ab03dfa7e0cfae69",
+        "notes_render_sha256": "68f2d9abd84b0bdcb37f5ecc514ecb64062f7cfb51e7cccd6ed42b5d6e93fa4c",
+        "slide_sources_sha256": "eb116c0ab08e5a8739147a2d278055b1f25df6c6288b9c7b75dd5c76b89a1405",
+        "notes_sources_sha256": "94cebee4fe627712097a9ccd11f6f46066cbe9737f227f39900b1351e528b0fd",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "32eec55869e51dca5bd518dddce32b1d21bcc0d150006a1960b8f1180f26f497",
+        "coverage_sha256": "ba19fbb1e6752d9f74b468f7344f0ec62bac22a4e99a41761cd9e94344d21054"
+      }
+    },
+    "02-s037": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "d6708b4bba342ee4931a681b89c97186ec69106866dbaeb4bf20c277732dfd23",
+        "baseline_render_sha256": "39549259e9fc6cce07dce93b159e4d596dea13f01c5bf9788d1f85eb7d6c4846",
+        "new_render_sha256": "54f72c353b60b2fa7e93c7297926af48c531b32d915534c56e2ba11d52edd857",
+        "notes_render_sha256": "e465b46a1ad9f82cec1a915f70054520c9cb32746224c99acb93c51747601c61",
+        "slide_sources_sha256": "94c80bd4dfdb8fdd8b8a9935120832876e04b28481763ba292d1b980d924c319",
+        "notes_sources_sha256": "6d6ebee19ca3425985c950b06c71fc5734f2ebbaa7ec0e6334ff5bf20bfdac90",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "1f55f3e05c6b8efdf7fe7957454d7ce2c879ba50cad52b3c03dac853c68e72d5",
+        "coverage_sha256": "328029fb8eeb398772c2c5c5b5ba179f2820dc0ae602a813ddaf99cb33924090"
+      }
+    },
+    "02-s038": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "801a1934160497c58044d98ea2f5cac7c38c70e7c2db4d9ba8efe76b6d677dff",
+        "baseline_render_sha256": "e35e991119c720baf68f35254204984e24c4d82f4adf4199b1a1582f0710b7ff",
+        "new_render_sha256": "ac8174f7e5c5096742195bd805252b080299ce34e306d7d7903c365b3722f5d6",
+        "notes_render_sha256": "98422522c02dbf2dd6ab5b4dfd7a772338d3392ca4f07759e2292f22ec063f18",
+        "slide_sources_sha256": "0caa92ff12ddc7b7f14cf0e2fecdcc3e2276f5d0f58603362506f34be78dfdf5",
+        "notes_sources_sha256": "733c59c576715f3a3a7ee13441394601ca047d7e4428fb6a652b06e51620386d",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "24b1df71d38d2252d1b9eaf1ee90cd9aec28b0d3b20c8f40a2fef057efaae630",
+        "coverage_sha256": "b6ea64ce223e9935aea6a23ee1e96080daa5224b3941652856cdc25e8379edfb"
+      }
+    },
+    "02-s039": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "05e20f35c86c4f72a25133a44b629f6c624fe8635ff1a7e549303828daf7eeeb",
+        "baseline_render_sha256": "d23c563d0c74a8f3302b8f9d912b2005cfe648f414e919cf7bc2477d2224457c",
+        "new_render_sha256": "3d0549eeccc4e704e265663dc682ee6c8e40833ed90b2b46b69890a013f085b6",
+        "notes_render_sha256": "c7e9795166cbd22c35e7455912f789687a789a4ae98dd0aaf655b7ad6afe24a4",
+        "slide_sources_sha256": "28f20b3c90f934b3170682a131fe7a18f039910f47131217268c339de1e641d6",
+        "notes_sources_sha256": "004df08ca3bc4bd1013f1c4cae296206eea419f43615749be92ed1d6d687a33b",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "4e5cddf35c58f7c2d7a01ee7e92ce01b453dd4a5b90b970ecc111b45895676c8",
+        "coverage_sha256": "e20dfdcb541db92377d04e24d9af7418df19f84746e8d399ece42643a29939de"
+      }
+    },
+    "02-s040": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "d1aa23f2362a28da21f9df9c22958f487b4b8021142076618fe5593deae25531",
+        "baseline_render_sha256": "65494954b25c42a32105410505463733d2e7a22cd2c0401274ff4b2ba87c2d8b",
+        "new_render_sha256": "d019a4d6d7c0cf93520ab7c638c3540958a2ff85676528031b34984d9a02937b",
+        "notes_render_sha256": "740047bb51b95cdb22a925eee1cf3a321369d33156bb2b5de020fa712acb310f",
+        "slide_sources_sha256": "c3599382eb0b623e8ad1d55dbd3fe910b410ee4c276159797ab06b329f3405e3",
+        "notes_sources_sha256": "10c860e8ffa42e5b502973c4a376585ee5008dc16fad7c2c3666acd4805ad1e3",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "e537f16f477aee0079872ecdf713fb9fcc4ca00c0c00672ef3e528875961bfb1",
+        "coverage_sha256": "35319ad34fa7640b4e78032c06416cdbeda3a91843c359a7bff80639a9604064"
+      }
+    },
+    "02-s041": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "00e10b9ae87ba413d592fe0ed4535c2743c8359af46f765e74d2b63b0db25d0a",
+        "baseline_render_sha256": "5299c9b3d3a4726be8e5b99ae4e4bf11d32390b1b55e7061091b19f6e068de14",
+        "new_render_sha256": "448dc1fe7c783865007302417a39f4d07b9ea908fb1dc5be32e227cae8f8ba0c",
+        "notes_render_sha256": "70ad1b0f17faeb540fd480260274226fc0bbb38b128155aedd429ee01a8d2f16",
+        "slide_sources_sha256": "ffd4d06e7165983a7e819e2451c5057d559fd3b5d3524fb0b74101dfbe738883",
+        "notes_sources_sha256": "e361b7c5acb2a9e21763e9feca6dd93ef7ce58fab27c40170e52d54af554fc35",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "02b479781c6dc04c155c6d2b1500be2174a777e124d489bafacf2c61853b4b66",
+        "coverage_sha256": "eb4885a987ed97b2387d43837fa586cf144aa5d2e89f6ce09aeb8df1b3d15170"
+      }
+    },
+    "02-s042": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "fb18aa46fe84b61f305ce526fbb792e634a5e506e1fa4b620fb91442e18517ee",
+        "baseline_render_sha256": "a542a6bf0d25360ba2fcdd9180e9bb5068b7d1a276e0d6831e477689dba66989",
+        "new_render_sha256": "73d6543611579fc3012cb3d8a6ce2b15333bd1ae336801e054fcdfb67aaea2cf",
+        "notes_render_sha256": "2987444fad8a70c1ed83327d5674e2b20b10d75283da31aea77d30002e5d4462",
+        "slide_sources_sha256": "05fc49363012523b37a95a5f9b777f5052c78cd34d8638dc7efa2899eee1f101",
+        "notes_sources_sha256": "dc9a73a5dcda2b54330a1fd0790fea1edf43b13fffdfaf6c26c9e0e71c8254bd",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "c2c312821effc2a9d871a6540fe22863b5821e387a468db6e86fd8971e06d02d",
+        "coverage_sha256": "b5ee44bd06b1a7f357bf887cf79a603eb2777ed962b38aef2c97ed15636ddebe"
+      }
+    },
+    "02-s043": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "ac8cbbc032674a59be67f32658851bce97274fa904cc4da89303aed7fcc9e2bf",
+        "baseline_render_sha256": "030fa8f3ec22c6e02f182c0b5cfb6e03cdd07c92e3e868d26d88615539d4561a",
+        "new_render_sha256": "c96feaf5ef9302915b870dcd76e5ebfebf8e700903fa724b0b3a1ef981930957",
+        "notes_render_sha256": "4c4dba52f85d67f64aa749e5c16cfe50e2e2ecaa98c4d078438d8ca119da7ed4",
+        "slide_sources_sha256": "7e3aea056df0dae6429510ca78704027be71ed8004a17d4616e9f5e6154baf8b",
+        "notes_sources_sha256": "508e9c7943f0d1d0d332e0caf8d835b8c170784859f3ce1402feaf3b02205818",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "5b6f2d07a3b768fa158f44d302789b825bfbcf08ddea91335104e6888ed5f4e2",
+        "coverage_sha256": "c9e5e9b189e48b791c74c2197240ee4823fda10c2340a22303debad2204c9253"
+      }
+    },
+    "02-s044": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "dfeff094129390dea98cbc1f2a5b4e7f94c92dced7d67b4164adf5efe9d1b543",
+        "baseline_render_sha256": "d0b2589e205d3bdfa9a9d0789a8a8cd7fe175964a45f1d7b5be1cbbf54e6786e",
+        "new_render_sha256": "b6f5814f30bd73725336587a4490b76dcb30d1a3d0ed469dc3236564608e3a43",
+        "notes_render_sha256": "7e7b13fcaf12faca4865ebe8169c5b771de9a95f95697a143ff8b180f3e3fd9e",
+        "slide_sources_sha256": "5a4c7571955b942dd39e813fab51f0b07454d4eeed81f2beaa3100677a39fbff",
+        "notes_sources_sha256": "26a00af2708d7ab1dbd14653dbe3cff10b6c3e0d5b7171ba97aeac8c28c78a9f",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "487cb40a78e1866b1e4650bb17b36d5ec3d8f6738f8e6e49cc7244fe07949731",
+        "coverage_sha256": "98939549478e9819a81c612dfcf9ed2be85a800082ec4b8d2e1791932845a2c6"
+      }
+    },
+    "02-s045": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "ff88ea21cbd3bc947027d2ac13e70db0ad02ba658982e2eb01868bebcd8ee85e",
+        "baseline_render_sha256": "9ad6ac5cb108c509d39bed1f5d2676c44efb05dd4209d1f9affb6e0a168d7a66",
+        "new_render_sha256": "dec0e470f7f0cdcfa4d2070692d0c3c19cab2ed2ba6ef742cdb180b6e13b5f11",
+        "notes_render_sha256": "ec371e63757a6ca6649f4e6f817af72b427bb291474e2ab36a1b7651dc917998",
+        "slide_sources_sha256": "4863954a7f0057d1685df42e10714976aaf382638983f2c761fa911d1e40bc4d",
+        "notes_sources_sha256": "626e667bbf39b1bda2c0cb745951ef669f3a9675178211556bf11ed2d4bc087e",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "8985563611b4c80c06064277f2416449f9f9d6d1f03b07f9e3deafcfe051f9c4",
+        "coverage_sha256": "11cf970495d781f8dab49221baac2319ef5165875889636ae1a234578ec81649"
+      }
+    },
+    "02-s046": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "1a35bf10275e8988ad129e9406a4a98a890761725aebcfc34dd64f403a49174e",
+        "baseline_render_sha256": "4227a5f4cc750ecf066289561ca20cc5f52d51d6a97f1775233157d76e7ac74d",
+        "new_render_sha256": "f1076ef4011387a7a86ac7880e74cfac2830367abb180f528006ef18473577db",
+        "notes_render_sha256": "281ba3e2924bd1286d57770e1f5d6caeb92b374a14cf6f611ca4661330a660b9",
+        "slide_sources_sha256": "175cb71ec8c7c9d78964999ba66e33a84d814cf5688f9a7d5a39828d3e70e6cd",
+        "notes_sources_sha256": "2bcc7ee2a745a88c77bd729fe5332fc7d5f6e4042ecd1eaa57ee680794371c73",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "f77c49884c7c71a9be163a855d114813468446954f96e0e4359bb90e24f093b1",
+        "coverage_sha256": "a671a8b3e721ca239af81c42cde2d8e5ea17dfddfc65cb75ff38fff571f60675"
+      }
+    },
+    "02-s047": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "2be338b8c9e28b11d3c4268e3eaf6b511028831eff51f50671447b7d599396aa",
+        "baseline_render_sha256": "7cc57323747738caedf162e4ecfff13b63f93d04247ab0c1a11bb0157efc98b0",
+        "new_render_sha256": "fc5f9489647508ffb9de42381d8c6cd11b672319f2bb2e502bb29f0a7e6eee15",
+        "notes_render_sha256": "cbd6eb969a75a389378dd5e54b4e934e52a6f667b93cdbd1234dde754d8e17ac",
+        "slide_sources_sha256": "e43bd347309ec170ff8f77c8a9abb11f11f02e1db2d0bf47939b578d82fac87f",
+        "notes_sources_sha256": "ee8599c4e6fe464c80392e3a32860b9b6d4cedc22eca6e9945d26aac177ea019",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "36be068819157b28bc10426219c9dc93eab9ae49d59afc3ee5b0d2939e3034e0",
+        "coverage_sha256": "bab229c6b70da56e2f969244cbd0f0d82bf168168b56cc9f3917a24774d3ded8"
+      }
+    },
+    "02-s048": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "a359ea9718cbc1bb5b1c03dea90ded292ddbdd67f4031d38bcb1c28e34f378bb",
+        "baseline_render_sha256": "c5bdb88710e6a4ffeb87edb05dd0cd468d5f2d72ef8cdda6a4242f96686aabc0",
+        "new_render_sha256": "6010d9f551dd1ec4eff8fbeed0eb4586e76c92047de0e854bd36a93225ae12bc",
+        "notes_render_sha256": "f42f6bd5a6e704a632c9503d1868586117fb9789ab5f81cbeadce1783be2210a",
+        "slide_sources_sha256": "b56238f4d6644173e61a75142783cfa18f689c13cafe599704d8581e68379060",
+        "notes_sources_sha256": "6bb63feba9bddbbff2490268128b7399fc3199b853de030fa19128314c63f5c8",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "77d0349a09515b9b09cf1b9ffd3085c5e806d33165b9d55ebc016b6d6a77710a",
+        "coverage_sha256": "ff885a851b4c258f93057c02ab59e58f6e80c87c5a1cf3d80b87a3ee4d34c4df"
+      }
+    },
+    "02-s049": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "d5625a5e8e112d69893e95d356aa5d250f4933e4fc003aa9e542a800cc41df5c",
+        "baseline_render_sha256": "d1ee3ac051cffaba425096e61cc8ae0d7a885d0574dddddc216a1b281666743e",
+        "new_render_sha256": "275681a2b310a34d5ab6339adedf163b99791eff923bc7b0c349138c49fc5044",
+        "notes_render_sha256": "c0703c63dc7113b712399789a74b639d3db02d977f6413db9e3b1da652e69a29",
+        "slide_sources_sha256": "e1aaf16bcb4c994a1a0451535b23ea886fb759646a63dcc7358e15d5420d07c7",
+        "notes_sources_sha256": "a5a8ed42148f6da86bd2e1e48a542af7a6a76e6e748c13fb2566d39eadde35b6",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "a92c699ae452f6bf8919d47231c2b87eb5d65f0572737aa03f89cd66c68b5fe1",
+        "coverage_sha256": "0a54e40815dbfac746981d70c661ba59b3f6f8906ed42e14742ab7865e7497d3"
+      }
+    },
+    "02-s050": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "0fdc3df0da12080f1e17785890887ed813c027054fc82f470be140eccf971f70",
+        "baseline_render_sha256": "e743158bf1b58757eee12a670d024dcda2c4143c9570e1d0f763c742f1570f43",
+        "new_render_sha256": "95ebcecece32fe23bf8aa3cfb23a5793bd58084a4678d8411f0ad0a3d6591504",
+        "notes_render_sha256": "4f32024251077c29752f943ca8a87e10a3a0db8beba083be80c9d90058a1781a",
+        "slide_sources_sha256": "e8d3abf047dfa6754b058d5f27f8d2f5ce3dd0c1f9795a44c491b1d5b5bd2a1b",
+        "notes_sources_sha256": "79132f095a030bdcd92d8e97a7fef4b515a873d24da749cb1a8ac12d8fef059c",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "dd40f39c9b26e1ca7f97d6f214844f18e1282878cb8a84f066e8939010c0b7d2",
+        "coverage_sha256": "adbb7720fb5656ec0504b25db0d6edfe84d353429c5b6f81e11d44ba95fbcbba"
+      }
+    },
+    "02-s051": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "be3ad87805947b90896c1280d95a240fc90511229469becf69523e9cea87a291",
+        "baseline_render_sha256": "1a215519a24fbf1e3083df4a6c316a2a788de198a3fc8489232529b1b33d967a",
+        "new_render_sha256": "b81fa72106d969af5e1865ce5221649f1073c272259cb1526b8519c32ac7b1d0",
+        "notes_render_sha256": "7ebf1cdfeac9080e2fc34c7f25dc4aa5cda91c6f1604d6eb846ebbd17611722f",
+        "slide_sources_sha256": "ee71f72a1bc3f86928962b7875e62da87fde02ac2aa0f4a94c056151b9c8b11f",
+        "notes_sources_sha256": "94196f77157155726e98e2376e4b5654dc4cbadd77b9c13f3c29e3a0b87b09f7",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "db30c6e9d88409464c94219f7c06779363b60ee1a923938c454aa5b272693f9f",
+        "coverage_sha256": "61e5508310ce39939ed0d29eab6b11aec5bffe53155660a2ba8a85a8c1007700"
+      }
+    },
+    "02-s052": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "5f5fe9601e9fcc3139f1e8de6ebf6e49ed29bb8cb1af32ba8cec647132ef0308",
+        "baseline_render_sha256": "d78664a81ae8d95d85d1585bf196f7c867bd60bf9926d6fbc96a74e8a636473e",
+        "new_render_sha256": "6951b9bd1d2759beabd0d1cdd6a96c75c4ede6b8a168851fb3c2feeb48756782",
+        "notes_render_sha256": "db7cb7b659dc48b27d9fb82ccc9d60ba8492694a0a9d06cc3e6be9a1b512c464",
+        "slide_sources_sha256": "78c73f6899fc79ed251aceb908cff8a112af7cf7483a754ea3fa9e7c79518963",
+        "notes_sources_sha256": "02b8fec1f5bb2f185aad806c8ee833df413118a1e2aa0dc5e595b144871b2d79",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "9ae87132d3d0de3c2ec93b4d7f2e59f05b9703edc634f075677cff7b9ceeab72",
+        "coverage_sha256": "6f46a50166cd600342b477904bc83ebe2eb4a93d940f84890bd81eb8888277b0"
+      }
+    },
+    "02-s053": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "2ed4406359459d1596bb8ba3ff552a3ce834f1abb3104fb1c0431dccc13d242c",
+        "baseline_render_sha256": "a74975eb82a8ff578b03db6a72bc905864d60c3f03407da2c57afc09f2407b94",
+        "new_render_sha256": "ad28dae2a6088a3685774fc3e3b770d8c25c2bff2db6764484acbeb58120a599",
+        "notes_render_sha256": "9f0a898b566d0f5c53f57bb997df7a98112ae4bd95a8af01cd1575b91227521d",
+        "slide_sources_sha256": "8370c3b7fa1c12b2d4403637bc5176e0360cfce23ba819fc006b7cbfac9eebbd",
+        "notes_sources_sha256": "43d691afaadef747f7909edb85a27ad9ed7e17458a3080a7bb659dc0906c4d83",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "e2dca05225e8e5d07e065c8dd400b1c857a0f4c24503eea4254f951b873cb486",
+        "coverage_sha256": "e2f784b9c8a794a55c16dfe9aa9d143d1de6786c0c927070fd02e273f6687259"
+      }
+    },
+    "02-s054": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-03",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni sadržinski i vizuelni pregled od 2026-10-02. U ovom ciklusu dokazano da su projektovani prikaz i celo telo A4 beležaka pikselno identični prethodnoj isporuci; proverena nova izlazna pozicija i numeracija A4 podnožja. Izvori, nastavne celine i beleške nepogođeni; evidencija poredjenje_nepogodjenih.json. Nova potvrda vezana za aktuelne alate i mapiranje odobrene podele.",
+      "evidence": {
+        "source_render_sha256": "75089deded5ef615b41b9b429cbf806ad2a679067d861657313ab86ef7124edf",
+        "baseline_render_sha256": "22a4a1a81ac441a2ae1fdffa88d10d033ad4babe0ae95bb54c05d91471be9425",
+        "new_render_sha256": "1db8b46246566717d0b3c76d0f30d9d43bcb32ea597bb066d63804eed21faefa",
+        "notes_render_sha256": "6ba2e15e0395a9a397f3f8e4065e7a5e53f498512a553dc80b99d4b45c58c05e",
+        "slide_sources_sha256": "f7ffbb2af8bc71ffa44177e0da013616ff81ccb5414894df78f90b7a7e086616",
+        "notes_sources_sha256": "52f96ef67c55ed884c5fd0b32fe484b13fc5ad1ce9f6f074415525f322eb12fc",
+        "shared_sha256": "cf164a807adae440f62b41aca69b5c016d0319ce88d71e2347ebc098594fd508",
+        "mapping_sha256": "03afda5ccb137e50dfd876a8dbc85e577ec165243d03e30ea7ded419de18e6c4",
+        "coverage_sha256": "21e351bc04a3740d45d8c6dee3c741306984190e4ca936fe6d2e28a31e8eca7f"
+      }
+    }
+  }
+}

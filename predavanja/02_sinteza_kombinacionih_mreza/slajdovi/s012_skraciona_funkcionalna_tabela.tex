@@ -1,20 +1,23 @@
 \slajdid{02-s012}
-\begin{frame}[label=02-s012]
-\gusttekst
-Po pravilu u funkcionalnu tabelu se unose sve moguće vrednosti koje mogu da imaju ulazni signali odnosno logičke promenljive. Ponekad je moguće funkcionalnu tabelu napisati i u „skraćenoj“ formi, ali ona opet suštinski pokriva sve moguće situacije.
-
-Neka je isti digitalni sistem sa tri ulaza i izlaza, ali je zahtev drugačiji.
-
-Izlazni signal je na nivou logičke jedinice ako je bar jedan ulaz na nivou logičke jedinice.
-
+\begin{frame}[label=02-s012]{Skraćena funkcionalna tabela}
+% element: 02-s012:e04
+Po pravilu, funkcionalna tabela sadrži sve moguće vrednosti ulaznih signala, odnosno logičkih promenljivih. Ponekad je možemo napisati u \textbf{skraćenoj formi}, koja i dalje pokriva sve moguće situacije.
+\par\vspace{2mm}
+% element: 02-s012:e01
+Isti sistem sa tri ulaza i jednim izlazom, ali sa drugačijim zahtevom:
+\par\vspace{1mm}
+\Rezultat{Izlaz je na nivou logičke jedinice ako je \alert{bar jedan ulaz} na nivou logičke jedinice.}
+\par\vspace{2mm}
 \begin{columns}[c,onlytextwidth]
-\begin{column}{.23\textwidth}
+\begin{column}{.31\textwidth}\centering
+% element: 02-s012:e02
 \input{tabele/s012_skracena_tabela.tex}
 \end{column}
-\begin{column}{.72\textwidth}
-U ovoj skraćenoj formi upotrebljen je simbol \alert{b – bilo šta}, u smislu da ta logička promenjiva može uzeti i vrednost logičke jedinice i vrednost logičke nule, i da to neće uticati na izlaznu logičku promenljivu.
-
-Ponekad ćemo tu situaciju označavati i sa \alert{X} sa istim značenjem.
+\begin{column}{.65\textwidth}
+% element: 02-s012:e03
+\textcolor{DEcrvena}{\textbf{\(b\) — „bilo šta“}}: ta promenljiva može biti 0 ili 1, bez uticaja na izlaz za navedeni red.
+\par\vspace{2mm}
+Ponekad koristimo i oznaku \(\textcolor{DEcrvena}{X}\), sa istim značenjem.
 \end{column}
 \end{columns}
 \end{frame}

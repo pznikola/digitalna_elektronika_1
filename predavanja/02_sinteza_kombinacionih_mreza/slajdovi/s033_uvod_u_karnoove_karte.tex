@@ -1,8 +1,20 @@
+% Original: PDF strana 17, gornji slajd.
 \slajdid{02-s033}
-\begin{frame}[label=02-s033]
-Mnogi algoritmi minimizacije su pogodni za mašinsku implementaciju ali nisu baš za ručnu sintezu.
-
-Najpoznatiji algoritam za ručnu minimizaciju je minimizacija putem Karnoovih tabela, karti, koja je limitirana sa brojem ulaznih promenljivih za koje ima smisla raditi minimizaciju na taj način.
-
-Do 4 ulazne promenljive jako jednostavno, radi se sve u 2D prostoru, sa 5 promenljivih se već prelazi u 3D prostor, sa 6 promenljivih u 4D prostor gde već postoji problem da se ispravno prati proces minimizacije, a za 7 već praktično postaje neupotrebljiv.
+\begin{frame}[label=02-s033]{Karnoova karta za ručnu minimizaciju}
+% element: 02-s033:e01
+Mnogi algoritmi pogodni za mašinsku minimizaciju nisu praktični za ručnu sintezu. Karnoova karta je postupak za ručni rad.
+\par\vspace{5mm}
+% element: 02-s033:e02
+\begin{center}
+\begin{tabular}{ll}
+\toprule
+Broj promenljivih & Preglednost prikaza \\
+\midrule
+Do 4 & Jednostavan 2D prikaz \\
+5 & Potrebno posmatrati 3D susedstvo \\
+6 & Susedstvo u 4D postaje teško pratiti \\
+7 i više & Praktično neupotrebljivo za ručnu minimizaciju \\
+\bottomrule
+\end{tabular}
+\end{center}
 \end{frame}

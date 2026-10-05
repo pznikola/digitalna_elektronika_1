@@ -17,13 +17,16 @@ def main():
         sop = ((not c) and b and a) or (c and (not b) and a) or (c and b and (not a))
         pos = (c or b or a) and (c or b or not a) and (c or not b or a) and (not c or b or a) and (not c or not b or not a)
         assert bool(f) == expected == bool(sop) == bool(pos)
-    # Izvorni slajd 22 ponavlja četvrti maxterm na prvom mestu.
-    mismatches = []
+    # Odobrena formula na slajdu 22 je proizvod zbirova iz funkcionalne tabele.
+    slide_22 = (ROOT / "slajdovi/s022_mreza_ili_i.tex").read_text()
+    # Raspored po redovima i boja formule ne menjaju pet uređenih činilaca.
+    assert re.findall(r"\(([^()]+)\)", slide_22) == [
+        "C+B+A", r"C+B+\bar A", r"C+\bar B+A",
+        r"\bar C+B+A", r"\bar C+\bar B+\bar A",
+    ]
     for c, b, a in itertools.product((0, 1), repeat=3):
-        shown = (not c or b or a) and (c or b or not a) and (c or not b or a) and (not c or b or a) and (not c or not b or not a)
-        if bool(shown) != ((a + b + c) == 2):
-            mismatches.append((c, b, a))
-    assert mismatches == [(0, 0, 0)]
+        shown = (c or b or a) and (c or b or not a) and (c or not b or a) and (not c or b or a) and (not c or not b or not a)
+        assert bool(shown) == ((a + b + c) == 2)
     # Nezavisan popis sa originalne karte 43/44; b na indeksu 1.
     ones, dont_care = {0, 4, 5, 8, 10}, {1}
     for d, c, b, a in itertools.product((0, 1), repeat=4):
@@ -37,19 +40,22 @@ def main():
     for c, b, a in itertools.product((0, 1), repeat=3):
         f = (c and not b) or (b and a)
         assert bool(f) == bool(f or (c and a))
-    # Karte 52/53 prikazuju barC barB + BA, iako formula navodi C barB + BA.
-    source_ones = {0, 1, 3, 7}
-    map_mismatches = []
+    # Karte 52/53 i usklađene formule čine drugi primer hazarda.
+    map_ones = {0, 1, 3, 7}
+    assert r"F=\bar C\bar B+BA" in (ROOT / "slajdovi/s052_karte_funkcije_sa_hazardom.tex").read_text()
+    assert r"\implicant{1}{3}" in (ROOT / "slike/tikz/s053_zajednicka_povrsina.tex").read_text()
     for c, b, a in itertools.product((0, 1), repeat=3):
         index = 4*c + 2*b + a
-        assert (index in source_ones) == bool(((not c) and (not b)) or (b and a))
-        if (index in source_ones) != bool((c and not b) or (b and a)):
-            map_mismatches.append(index)
-    assert map_mismatches == [0, 1, 4, 5]
-    # Prelaz B:1→0, C=A=1, samo invertor kasni: pre/sredina/posle.
+        f = ((not c) and (not b)) or (b and a)
+        assert (index in map_ones) == bool(f)
+        assert bool(f) == bool(f or ((not c) and a))
+    # Prelaz B:1→0, C=A=1, samo invertor kasni: pre/sredina/posle (slajdovi 50–51).
     outputs = [((1 and inv_b) or (b and 1)) for b, inv_b in [(1, 0), (0, 0), (0, 1)]]
     assert outputs == [1, 0, 1]
-    print("Provereni: tabela 8 redova, SOP/POS za 16 ulaza, konsenzus i glič; potvrđena dva dokumentovana nesklada originala.")
+    # Isti hazard za kartirani primer pri C=0, A=1.
+    mapped_outputs = [((1 and inv_b) or (b and 1)) for b, inv_b in [(1, 0), (0, 0), (0, 1)]]
+    assert mapped_outputs == [1, 0, 1]
+    print("Provereni: tabela 8 redova, SOP/POS za 16 ulaza, obe konsenzus jednakosti i oba primera gliča.")
 
 
 if __name__ == "__main__":

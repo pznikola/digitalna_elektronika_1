@@ -1,25 +1,31 @@
 \slajdid{02-s008}
-\begin{frame}[label=02-s008]
-\gusttekst
-Standardna logička kola i delovi digitalnih sistema su raspoloživi u obliku integrisanih komponenti.
-
-SSI - Small Scale Integration do 100 komponenti (tranzistora, dioda, otpornika, \ldots) odnosno 10 gejtova u jednom čipu
-
-Gejt – standardno logičko kolo
-
-\begin{columns}[c,onlytextwidth]
-\begin{column}{.28\textwidth}\centering
-Čip\\[1mm]
-\includegraphics[width=\linewidth]{slike/izvorne/s008_integrisana_kola.jpg}
+\begin{frame}[label=02-s008]{Integrisana kola, čip i DIP kućište}
+% element: 02-s008:e01
+Standardna logička kola dostupna su kao integrisane komponente.\par
+\textbf{SSI} (\emph{Small Scale Integration}): do 100 komponenti, odnosno oko 10 gejtova u jednom čipu.\par
+Gejt je standardno logičko kolo.
+\par\vspace{3mm}
+% element: 02-s008:e02
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.24\textwidth}\centering
+\Oznaka{Čip}\par\vspace{3mm}
+\includegraphics[width=.78\linewidth]{slike/izvorne/s008_integrisana_kola.jpg}
+\par\vspace{1mm}
+% element: 02-s008:e03
+\Oznaka{\(1\,\mathrm{inch}=25{,}4\,\mathrm{mm}\)\\[1mm]
+\(1\,\mathrm{mil}=10^{-3}\,\mathrm{inch}\)}
 \end{column}
-\begin{column}{.33\textwidth}\centering
-\input{slike/tikz/s008_raspored_prikljucaka.tex}
+\begin{column}{.37\textwidth}\centering
+\Oznaka{Raspored priključaka}\par\vspace{2mm}
+\makebox[\linewidth][c]{\input{slike/tikz/s008_raspored_prikljucaka.tex}}
 \end{column}
-\begin{column}{.35\textwidth}\centering
-\input{slike/tikz/s008_dip14_dimenzije.tex}\\
-inch=25.4mm\\
-mils=inch/1000
+\begin{column}{.04\textwidth}\end{column}
+\begin{column}{.31\textwidth}\centering
+\Oznaka{14-pinski DIP}\par
+\makebox[\linewidth][c]{\input{slike/tikz/s008_dip14_dimenzije.tex}}
 \end{column}
 \end{columns}
-Sa stanovišta minimizacije treba uzeti u obzir ekonomski faktor. U većini slučajeva je ekonomski isplativije kupiti na primer 10000 integrisanih komponenti iste vrste, sa istim sadržajem, nego 5000+5000 komponenti integrisanih komponenti sa različitim sadržajem.
+\par\vspace{1mm}
+% element: 02-s008:e04
+\Oznaka{Ekonomski faktor: nabavka iste vrste čipa može biti isplativija.}
 \end{frame}

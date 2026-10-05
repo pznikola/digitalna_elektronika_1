@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-03",
+  "lecture": "02",
+  "action": "split_into_two",
+  "source_ids": [
+    "02-s002",
+    "02-s009",
+    "02-s015",
+    "02-s023",
+    "02-s024",
+    "02-s032",
+    "02-s048",
+    "02-s049"
+  ],
+  "user_message": "s002: Trenutni slajd zameni sa originalni slajdom. Ali, umesto jednog natrpanog slajda, originalni slajd razdvoji na 2 slajda.\n\ndrugi deo je ostatak.\n\ns009: Razdvojiti u 2 slajda i gledati da ovi slajdovi ne budu podeljeni na dve kolone. Razdvojiti tako da se naprave dve smislene celine. Dva nova slajda treba da se naprave u odnosu na originalno predavanje a ne na generisani slajd.\n\ns015: treba razbiti originalni slajd na 2 slajda. Slobodno ponovi funkcionalnu tabelu na oba slajda. Dakle procitaj originalno predavanje i ovaj slajd podeli na dve logicne celine. Mozes da preformulises tekst ali logika treba da ostane ista.",
+  "additional_decisions": [
+    {
+      "date": "2026-10-04",
+      "source_ids": [
+        "02-s023",
+        "02-s024"
+      ],
+      "user_message": "s023: Sadrzaj slajda ne odgovara orginalnom predavanju. Sadrzaj originalnog slajda podeliti u 2 logicne celine. Imas pravo da ulepsas i preformulises tekst tako da ima vise smisla. Vodi racuna da obelezis ekvivalentni tekst kao sto je to uradjeno na originalnom slajdu.\n\ns024: Potrebno je razdvojiti originalni slajd na dve logicne celine. Na prvom slajdu neka bude lepse formulisan tekst sa originalnog slajda a na drugom slajdu neka bude sema sa primerom dualnosti kao sto si vec uradio na kreiranom slajdu. Seme koje si nacrtao su dobre i zadrzi ih."
+    },
+    {
+      "date": "2026-10-04",
+      "source_ids": [
+        "02-s032"
+      ],
+      "user_message": "s032: Originalan slajd podeli u 2 logicne celine. Funkcije zadrzi tako da budu u jednom redu. Obelezi ekvivalentne stvari koje su obelezene na originalnom predavanju. Imas slobodu da preformulises i unapredis tekst i organizaciju slajdove."
+    },
+    {
+      "date": "2026-10-05",
+      "source_ids": [
+        "02-s048"
+      ],
+      "user_message": "s048: Previse informacija je izgubljeno na ovom slajdu. Razbiti originalni slajd u 2 slajda, preformulisati i lepse napraviti lejaut za oba nova slajda."
+    },
+    {
+      "date": "2026-10-05",
+      "source_ids": [
+        "02-s049"
+      ],
+      "user_message": "s049: slicno kao i za s048",
+      "context": "Nastavak naloga: s048 podeliti na dva slajda uz potpuniji izvorni sadržaj i lepši raspored. Za s049 korisnik traži isti postupak."
+    }
+  ]
+}

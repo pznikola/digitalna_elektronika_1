@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "phase": "redizajn",
+  "lecture": "02",
+  "selected_style": "B",
+  "theme": "etf-v1",
+  "theme_manifest_sha256": "87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41",
+  "source_sha256": "f631914c9f32a0472f4fa3af11115abaadb9316dfcf6f1528cd91ef4d28868f4",
+  "slide_ids": [
+    "02-s001",
+    "02-s002",
+    "02-s003",
+    "02-s004",
+    "02-s005",
+    "02-s006",
+    "02-s007",
+    "02-s008",
+    "02-s009",
+    "02-s010",
+    "02-s011",
+    "02-s012",
+    "02-s013",
+    "02-s014",
+    "02-s015",
+    "02-s016",
+    "02-s017",
+    "02-s018",
+    "02-s019",
+    "02-s020",
+    "02-s021",
+    "02-s022",
+    "02-s023",
+    "02-s024",
+    "02-s025",
+    "02-s026",
+    "02-s027",
+    "02-s028",
+    "02-s029",
+    "02-s030",
+    "02-s031",
+    "02-s032",
+    "02-s033",
+    "02-s034",
+    "02-s035",
+    "02-s036",
+    "02-s037",
+    "02-s038",
+    "02-s039",
+    "02-s040",
+    "02-s041",
+    "02-s042",
+    "02-s043",
+    "02-s044",
+    "02-s045",
+    "02-s046",
+    "02-s047",
+    "02-s048",
+    "02-s049",
+    "02-s050",
+    "02-s051",
+    "02-s052",
+    "02-s053",
+    "02-s054"
+  ],
+  "baseline_sha256": "9c1b67e1a5259a095d9f51c7cbd57cf5cb08841f87e2c76b6717113a3ac5ed95",
+  "created": "2026-09-27T13:55:23.409902+00:00",
+  "build_record": "provera/redizajn/izgradnja.json",
+  "notes": {
+    "02-s001": {
+      "path": "beleske/s001.tex",
+      "title": "02-s001"
+    },
+    "02-s002": {
+      "path": "beleske/s002.tex",
+      "title": "02-s002"
+    },
+    "02-s003": {
+      "path": "beleske/s003.tex",
+      "title": "02-s003"
+    },
+    "02-s004": {
+      "path": "beleske/s004.tex",
+      "title": "02-s004"
+    },
+    "02-s005": {
+      "path": "beleske/s005.tex",
+      "title": "02-s005"
+    },
+    "02-s006": {
+      "path": "beleske/s006.tex",
+      "title": "02-s006"
+    },
+    "02-s007": {
+      "path": "beleske/s007.tex",
+      "title": "02-s007"
+    },
+    "02-s008": {
+      "path": "beleske/s008.tex",
+      "title": "02-s008"
+    },
+    "02-s009": {
+      "path": "beleske/s009.tex",
+      "title": "02-s009"
+    },
+    "02-s010": {
+      "path": "beleske/s010.tex",
+      "title": "02-s010"
+    },
+    "02-s011": {
+      "path": "beleske/s011.tex",
+      "title": "02-s011"
+    },
+    "02-s012": {
+      "path": "beleske/s012.tex",
+      "title": "02-s012"
+    },
+    "02-s013": {
+      "path": "beleske/s013.tex",
+      "title": "02-s013"
+    },
+    "02-s014": {
+      "path": "beleske/s014.tex",
+      "title": "02-s014"
+    },
+    "02-s015": {
+      "path": "beleske/s015.tex",
+      "title": "02-s015"
+    },
+    "02-s016": {
+      "path": "beleske/s016.tex",
+      "title": "02-s016"
+    },
+    "02-s017": {
+      "path": "beleske/s017.tex",
+      "title": "02-s017"
+    },
+    "02-s018": {
+      "path": "beleske/s018.tex",
+      "title": "02-s018"
+    },
+    "02-s019": {
+      "path": "beleske/s019.tex",
+      "title": "02-s019"
+    },
+    "02-s020": {
+      "path": "beleske/s020.tex",
+      "title": "02-s020"
+    },
+    "02-s021": {
+      "path": "beleske/s021.tex",
+      "title": "02-s021"
+    },
+    "02-s022": {
+      "path": "beleske/s022.tex",
+      "title": "02-s022"
+    },
+    "02-s023": {
+      "path": "beleske/s023.tex",
+      "title": "02-s023"
+    },
+    "02-s024": {
+      "path": "beleske/s024.tex",
+      "title": "02-s024"
+    },
+    "02-s025": {
+      "path": "beleske/s025.tex",
+      "title": "02-s025"
+    },
+    "02-s026": {
+      "path": "beleske/s026.tex",
+      "title": "02-s026"
+    },
+    "02-s027": {
+      "path": "beleske/s027.tex",
+      "title": "02-s027"
+    },
+    "02-s028": {
+      "path": "beleske/s028.tex",
+      "title": "02-s028"
+    },
+    "02-s029": {
+      "path": "beleske/s029.tex",
+      "title": "02-s029"
+    },
+    "02-s030": {
+      "path": "beleske/s030.tex",
+      "title": "02-s030"
+    },
+    "02-s031": {
+      "path": "beleske/s031.tex",
+      "title": "02-s031"
+    },
+    "02-s032": {
+      "path": "beleske/s032.tex",
+      "title": "02-s032"
+    },
+    "02-s033": {
+      "path": "beleske/s033.tex",
+      "title": "02-s033"
+    },
+    "02-s034": {
+      "path": "beleske/s034.tex",
+      "title": "02-s034"
+    },
+    "02-s035": {
+      "path": "beleske/s035.tex",
+      "title": "02-s035"
+    },
+    "02-s036": {
+      "path": "beleske/s036.tex",
+      "title": "02-s036"
+    },
+    "02-s037": {
+      "path": "beleske/s037.tex",
+      "title": "02-s037"
+    },
+    "02-s038": {
+      "path": "beleske/s038.tex",
+      "title": "02-s038"
+    },
+    "02-s039": {
+      "path": "beleske/s039.tex",
+      "title": "02-s039"
+    },
+    "02-s040": {
+      "path": "beleske/s040.tex",
+      "title": "02-s040"
+    },
+    "02-s041": {
+      "path": "beleske/s041.tex",
+      "title": "02-s041"
+    },
+    "02-s042": {
+      "path": "beleske/s042.tex",
+      "title": "02-s042"
+    },
+    "02-s043": {
+      "path": "beleske/s043.tex",
+      "title": "02-s043"
+    },
+    "02-s044": {
+      "path": "beleske/s044.tex",
+      "title": "02-s044"
+    },
+    "02-s045": {
+      "path": "beleske/s045.tex",
+      "title": "02-s045"
+    },
+    "02-s046": {
+      "path": "beleske/s046.tex",
+      "title": "02-s046"
+    },
+    "02-s047": {
+      "path": "beleske/s047.tex",
+      "title": "02-s047"
+    },
+    "02-s048": {
+      "path": "beleske/s048.tex",
+      "title": "02-s048"
+    },
+    "02-s049": {
+      "path": "beleske/s049.tex",
+      "title": "02-s049"
+    },
+    "02-s050": {
+      "path": "beleske/s050.tex",
+      "title": "02-s050"
+    },
+    "02-s051": {
+      "path": "beleske/s051.tex",
+      "title": "02-s051"
+    },
+    "02-s052": {
+      "path": "beleske/s052.tex",
+      "title": "02-s052"
+    },
+    "02-s053": {
+      "path": "beleske/s053.tex",
+      "title": "02-s053"
+    },
+    "02-s054": {
+      "path": "beleske/s054.tex",
+      "title": "02-s054"
+    }
+  }
+}

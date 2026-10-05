@@ -1,31 +1,41 @@
+% Original: PDF strana 2, gornji slajd.
 \slajdid{02-s003}
-\begin{frame}[label=02-s003]{Ulazni signal u logičko kolo se menja u vremenu}
-\gusttekst
-Signal – fizička veličina koja nosi informaciju o logičkim jedinicama i nulama.\\
-Za sada još uvek razmišljamo na apstraktnom nivou sa logičkim jedincama i nulama
-
-\centering
-\begin{tikzpicture}[DEoznaka,baseline=(current bounding box.center)]
-\node[not gate US,draw,minimum width=6mm,minimum height=5mm] (g) at (0,0) {};
-\draw[DEvod] (g.input)--++(-.5,0) node[left] {\(x(t)\)};
-\draw[DEvod] (g.output)--++(.5,0) node[right] {\(y(t)\)};
-\end{tikzpicture}\par
+\begin{frame}[label=02-s003]{Kašnjenje invertora pri promeni signala}
+% element: 02-s003:e01
 \begin{columns}[c,onlytextwidth]
-\begin{column}{.40\textwidth}\centering
-\input{slike/tikz/s003_bez_kasnjenja.tex}
+\begin{column}{.72\textwidth}
+Signal je fizička veličina koja nosi informaciju o logičkim nulama i jedinicama.
 \end{column}
-\begin{column}{.42\textwidth}\centering
-\input{slike/tikz/s003_sa_kasnjenjem.tex}
-\end{column}
-\begin{column}{.16\textwidth}\gusttekst
-p – propagation\\
-H – high\\
-L – low
+\begin{column}{.24\textwidth}\centering
+\begin{tikzpicture}[DEoznaka]
+\node[not gate US,draw,minimum width=8mm,minimum height=7mm] (g) at (0,0) {};
+\draw[DEvod] (g.input)--++(-.35,0) node[left] {\(x(t)\)};
+\draw[DEvod] (g.output)--++(.35,0) node[right] {\(y(t)\)};
+\end{tikzpicture}
 \end{column}
 \end{columns}
-\raggedright
-\(t_{pHL}\) - kašnjenje izlaznog signala u odnosu na promenu ulaznog signala prilikom prelaska IZLAZNOG signala sa „nivoa“ H na L
-
-\(t_{pLH}\) - kašnjenje izlaznog signala u odnosu na promenu ulaznog signala prilikom prelaska IZLAZNOG signala sa „nivoa“ L na H\\
-H = 1, L = 0
+\par\vspace{2mm}
+% element: 02-s003:e02
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.43\textwidth}\centering
+\Oznaka{Idealizovani odziv}\vspace{3mm}
+\input{slike/tikz/s003_bez_kasnjenja.tex}
+\end{column}
+\begin{column}{.53\textwidth}\centering
+\Oznaka{Odziv sa kašnjenjem}\vspace{3mm}
+\input{slike/tikz/s003_sa_kasnjenjem.tex}
+\end{column}
+\end{columns}
+\par\vspace{2mm}
+% element: 02-s003:e03
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.47\textwidth}
+\(\textcolor{DEcrvena}{t_{pHL}}\): kašnjenje pri prelazu izlaza \(H\to L\).
+\end{column}
+\begin{column}{.49\textwidth}
+\(\textcolor{DEcrvena}{t_{pLH}}\): kašnjenje pri prelazu izlaza \(L\to H\).
+\end{column}
+\end{columns}
+\par\vspace{1mm}
+\Oznaka{\(p\) — propagation; \(H\) — high, \(H=1\); \(L\) — low, \(L=0\).}
 \end{frame}

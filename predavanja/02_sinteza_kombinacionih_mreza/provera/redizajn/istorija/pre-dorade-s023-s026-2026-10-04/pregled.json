@@ -1,0 +1,1486 @@
+{
+  "slides": {
+    "02-s001": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "c1eacbea51e9fe5d7a6bb572db0653b4fed737457e1d3a0d4455ea37690c8157",
+        "baseline_render_sha256": "600347e7fc994ee9c58699b667ada26b48d2c1b15147dd59b5506927cdcc1f71",
+        "new_render_sha256": "fc3ed5792a9eff83595f954b4188265fea9fd6e4bb60a108153cfad61b46672d",
+        "notes_render_sha256": "3f01d1c62b052aaa0cb4e66cdcd04d9b7a7827d5653d7c219c66946f6a4851de",
+        "slide_sources_sha256": "df7d2beee7522b980b0662f16d565e6de6d57a0fcdc84ce75fb0108df27584b7",
+        "notes_sources_sha256": "3e5833345febc20b6de13348cdf0a0723614ec10aa58d65c289e337e3a71a603",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "41477a60dcd4ee3072bdf0e37599e30ed3755565d99197355e45880e45e0f6da",
+        "coverage_sha256": "192518ae12dd0a4900d9a22039cbb12911d325068ff12e389cf64d6d73ba7267"
+      }
+    },
+    "02-s002": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "471422a0d83edef22a772f7c023786ac48882f06d3dfc12501d2c3628ac59911",
+        "baseline_render_sha256": "3cf2eff3950602c2a8e0d3cb026069e7ddf0df8485b413b7cf05e48cf1a8bac3",
+        "new_render_sha256": "01104a4c29ddeccb2b9a92b094f3126c2d78fb2610926f867cb2635a97180f99",
+        "notes_render_sha256": "08d4bf8eefdeaf82433ef2aaefb1b5a62b3ed5fe54008aca4711a4ba2e8cac61",
+        "slide_sources_sha256": "fb27c50f937d5cb329e611d4fb613288fdb3793bb538707cdee2d4c35e48412e",
+        "notes_sources_sha256": "f51d9c8208d83596aa0685a65ca326ad008382bcd9aac190fdae22bd253decba",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "a26756cb33f2a33121a93c7994b53bdfb15b21e1a9fffb18f854329cbab08893",
+        "coverage_sha256": "123af783cc874b0bbb14a3582feac4f22bb8a8aff59367935e3712c66dce88d0"
+      }
+    },
+    "02-s002b": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "471422a0d83edef22a772f7c023786ac48882f06d3dfc12501d2c3628ac59911",
+        "baseline_render_sha256": "3cf2eff3950602c2a8e0d3cb026069e7ddf0df8485b413b7cf05e48cf1a8bac3",
+        "new_render_sha256": "de56e9497f569ed34c0af82a5bc77ab145696b1039cb5b7e4ed4dc40f7f98a19",
+        "notes_render_sha256": "4fbbcc4ef7442716069cb07444d6cc5b2a4a0d38f01c3ef64568faa4b3917bf2",
+        "slide_sources_sha256": "9ffb6ebfd0b26f6d2451d629d1c2617c04c79de26351361a98b4e6c1c3b8ed98",
+        "notes_sources_sha256": "9c52e8feacecdbe3f81b6f446dd5add41acc45a817ed84590055a7ebfba4264d",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "3ceef73ad2e2f2e41cff03dc2812f842fe3f3ecd9aca82197984bedc3d2cd070",
+        "coverage_sha256": "2a4a6444f8ddb0dce88130c920fbb55d0bdd53d769b3ba71a0c376bfe6abb2c8"
+      }
+    },
+    "02-s003": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Pitanje T_ul=T_izl ??? desno od vremenskog dijagrama, bez dodira sa osama ili strelicama; puna algebra širine u beleškama. Pročitani izvorni PDF i lokalni izvori; pregledani konačni slajd u punoj veličini i cela A4 strana, sadržinske veze i dodatni nastavni tekst. Nema uredničke evidencije, izostavljenog sadržaja, preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "5ad8c75a12e69b2b417946d547cff11afacb26bca506dcbdd7fc8d5359202f1c",
+        "baseline_render_sha256": "604f17bcba5432c5f853543d6864d81cd7c7fa9c4430cf7eb4adf59f41ead5a3",
+        "new_render_sha256": "568d5e5b3d4b3baf94d57516481a4b6185b751a657588ae0290402895543a64d",
+        "notes_render_sha256": "e52d211f42d43d5a27f229aa3c79800a05b53b526477c2c5adbc30f8bf6665a9",
+        "slide_sources_sha256": "2f22098eb132b59cfebdcad317ebd998c0754a515ffe14f4e7ea0ad5d186365b",
+        "notes_sources_sha256": "96b5f8fb6cbfba121bc9ced0d1ddb475110eb0f363c42aa7abbf8dd91f949078",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "f9ce8ecf3bedd6c176e8c4593249666bf7d1b9532bd34bf842e3e96384f1321f",
+        "coverage_sha256": "cecec8318aecadd14e271ebcce3d181819ea16a7382a4edb1953af3d37425f46"
+      }
+    },
+    "02-s004": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "f04c28b3eb5e63e2099a2cbeb0b59a5ce18194f920a64f1ab5f897d81587a91a",
+        "baseline_render_sha256": "dd74e14992aa3992023169b54028c88c7716a659704419c7d717826d4b66f879",
+        "new_render_sha256": "853248eeb26c328b95b983610e2565b1cf2d3bf0e2fcc6c4bf9c34f6f08a6fed",
+        "notes_render_sha256": "d297208ad37730a037463d94ed7c5f557f01355399b52b7c259d2f8300d32207",
+        "slide_sources_sha256": "8222dd7bc2adbc6733ca8de1300195ec7f91203c2d0a02d6698155cbf41dd99a",
+        "notes_sources_sha256": "4de2e990901a10fd658aa291b02156747308cc3e8760c8f9a96ff561cc471dea",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "0bc7ee2d43af7627672ca6f88cc69e306a66c0d089282a0c68778806f9d12196",
+        "coverage_sha256": "3363129072f7eb6991c61714cd25e3a14c45da27f92e2c75d05d250bf7ecaaa9"
+      }
+    },
+    "02-s005": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "e448846b35a72fa4680e98a9b6c92b9f80f9b8f3461bd411beb91bdeec9557bf",
+        "baseline_render_sha256": "14204309f3205418180720380c570c94526cc59b5af20175ed50e81f039f359b",
+        "new_render_sha256": "053bb4380606f2c3b2c333ec9982b5a027ff074e05cd058bb7aa6ef380d4cd3c",
+        "notes_render_sha256": "c7a079bb76579fd39500a10d1f89933fa7a5c6b28d4a9c7c354a49e8ff2c1819",
+        "slide_sources_sha256": "9d359cbfdbb3bf34a4afa4f26ffc5d8f603ed0e0e7656c9117a4d3e7d5fd9609",
+        "notes_sources_sha256": "307e0b4d7ef98c2c6fa33c9e93c1123f26bdc0698e4ad72418e15a731abc274f",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "ec1c4e2f2891e8aa6b821a0bc67066003282e65403e3cecd28b54421b5c5a27d",
+        "coverage_sha256": "1ecf0eedb86fd87e4084894de73468d5cf1b9c22d44b4faebd611a8f575565e0"
+      }
+    },
+    "02-s006": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "589e96d6efbf9ef66e2912ce5b0a2e76cdc2ef9c19ac35749b1fbf62690a9a84",
+        "baseline_render_sha256": "acb88a202d60a46b29422ebd6366cdc4602268d6932e0e21261f8aaa5e419779",
+        "new_render_sha256": "5e75916658d01923bea1c42906d74d539844911128c9e1b937834901d455e27b",
+        "notes_render_sha256": "10c06512483f07ea3981061b171ef7594adfd5d3416e18d5537f7f6cac26c92c",
+        "slide_sources_sha256": "c2ba864e0c13ab5d10694eea00bcb0a3392db7442b67e9f0e5917901a6229c56",
+        "notes_sources_sha256": "72bb989039bdca1d2b7ad6087870abf8cd2ab60c9523d32f234d45c00642b678",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "e92b4feb2f119f3e0bfea692f88e938e1cc88ff1aa795074bf8d738c5d170ee0",
+        "coverage_sha256": "8a540bcf3510a6569a21a40e760d7489db846671522fd9941a699f4ba3b66f43"
+      }
+    },
+    "02-s007": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "6dd8317dba5b92577482cc5aee00bce53a2ca090ef82e5ce4c36aaf6d3e431d6",
+        "baseline_render_sha256": "82daf13bf24d02cc034685b02627d8ca681e3e89b88e6ef57807f81227320807",
+        "new_render_sha256": "56e5eade1fd3098005dc4182119a8e53104c00526725a5b6fc59c88b1615aad5",
+        "notes_render_sha256": "47bf50063537f6cc6bd214f8bd3fcd51649cef04175b455cc3dc4631caee8d1a",
+        "slide_sources_sha256": "102bc466736c0e5c16a664aaee818822e38e511c9a16d5164ee72a9b47300a47",
+        "notes_sources_sha256": "ccfc191a0b74eaeaa4248478e21982934cec314849af8bdeb7fb9e6c1fb3e20f",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "b8e4ece44c4bc13327c120cdb30ef355512ef3a891f5928c761f8d639ea048fb",
+        "coverage_sha256": "122f11f6ed69c24e9a0fa019e829ba92e9eaae6d5030f01d03cf6cc040e29a0c"
+      }
+    },
+    "02-s008": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "c3d0601f6549c04bbaeeecca0d1bf9727323385a8cc04671caf0f9f6a35006eb",
+        "baseline_render_sha256": "94d6d1804dbb49ff613249188572a38e15b3f6fd54cc7ba5bc563dd7637515c4",
+        "new_render_sha256": "04f640ac44f6a8712e2bde17d57cf5e6ba39c857efa1d10e4a03c4c07bace163",
+        "notes_render_sha256": "9b5413b279192e0bf4b5d9f730ea2419b19cbeaaa46b00a3812adce9f91d5289",
+        "slide_sources_sha256": "66db0e63df18017df234460e46387e2bbcde3c94a1ba4a63808006206c1238f1",
+        "notes_sources_sha256": "cdd36f909d67b9e8ed10a883f03a8ac23ea4aacdb5028ab8c9e67c103bda2bd9",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "f3bc212deb97c1c4dc6e1abeb1bdcb71dd09e6726aa3de6bbc888d81c04d7c6c",
+        "coverage_sha256": "02377903434e4dca4e516ebafd2022fd8048790dbf0eddccd19c992f0103ce27"
+      }
+    },
+    "02-s009": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "bf33fa58eba4e1f4714b5430e00960f74a4383a0522472853e015dafe1f12249",
+        "baseline_render_sha256": "62357c7ec882a8f786991ffb6587fbf65ed8d8c0ce44438c636519878a797ea5",
+        "new_render_sha256": "67772b3ad383c9eddac52b3ffe2d0a28aa2ee2d9523d140d76fd86de402dd9f2",
+        "notes_render_sha256": "9fb96e833085c3dcd9592937cfe32e20d45a7a28f946b6405862570b2dbdcdc0",
+        "slide_sources_sha256": "d0ddd47b60905678aff688fe7dcab78dd87d21303a25a1b27fa0f2ae073ea00a",
+        "notes_sources_sha256": "099dc7bb8cdac0caafa3b63589c5436d108e51b90c31c885646a23ff9ecfefc7",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "c70b5753d4bbf0c16a60a604d93ced8b647a83d5acb0fd1049e69554bfdceff2",
+        "coverage_sha256": "165acbf8c855a73a4333c9dda3ddd25a76053aafe27bc2f0bf749848759a96e8"
+      }
+    },
+    "02-s009b": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "bf33fa58eba4e1f4714b5430e00960f74a4383a0522472853e015dafe1f12249",
+        "baseline_render_sha256": "62357c7ec882a8f786991ffb6587fbf65ed8d8c0ce44438c636519878a797ea5",
+        "new_render_sha256": "3b1aa333277b2de50cc6025debee9267dbed1f522a5df1123fb53588789db5cd",
+        "notes_render_sha256": "edebea64bd4416d970248a4c9163a9937946c80131eb8604d442332e4a48f987",
+        "slide_sources_sha256": "7017cc46f3adc1a05489d8d80ceff31d9a474432499bfa92d05095ed078f6f94",
+        "notes_sources_sha256": "2fcb8f550009307d1d2674e4714891cdcd530edef3cc9d5c768467b76e56aadc",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "facc78861e60600070986b47ba5ce2304ea5dd1c386448e9da2fc7d1b3857af2",
+        "coverage_sha256": "999d5d6c012e0da4786139708957bd93c02bf2d05e60106609f468eb3ad15cbd"
+      }
+    },
+    "02-s010": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "adcab7d17571e880daa2f7d6dc0baf5dadaa3738b5c79af79b88383e2f6fdb93",
+        "baseline_render_sha256": "5c3d411eb6050c9d6cf4588a81f2e9c24565cd5eb633cf70a913ece638c318a5",
+        "new_render_sha256": "65a402777f44f6ca57559575200948537352d3f94368c0158cb652968fb5438c",
+        "notes_render_sha256": "ba6941129906fff996c61dafdcd3c668b0a571dd9ce5e25476784c6e3b80fb55",
+        "slide_sources_sha256": "d2175060162ef9b22b798528b4f55c5937a31ecb6d53a13706ed58bf9aadc137",
+        "notes_sources_sha256": "0784481fd4c47c15ba4571c44fadcdcace0ba166ee7833d22d43345a9d6daa00",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "05b6ef5fd931ca15840e5d9918b1fbdc2588b200f9a07c0cec1b4d1b8d427489",
+        "coverage_sha256": "edf533b04574613757cfe496d5a70f82655a053ae01dce466f2b81362f199af9"
+      }
+    },
+    "02-s011": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "cc88e12855a75f4920c134dad9bd35796834c208033d7f06d020b468dde4f206",
+        "baseline_render_sha256": "7499a077c2665be294173324d9f777cbc03899f40cf610bd0fd6d8d67c3cf0da",
+        "new_render_sha256": "159f53499ec4791a309b5372c7430ee115dc5ab3abe7a79356df43770f856e68",
+        "notes_render_sha256": "2eea0ac6b66acdceeb416de62ec2516459e80d76ee6254cf6e0085859244ac76",
+        "slide_sources_sha256": "d90114dad9bb01bc1684ea1fb705a8f305e459794af3bbd344f7a9ef799a4f5f",
+        "notes_sources_sha256": "3edcc5b88502b2fe42e1abe11ee14e6157d2d839cb24edd5ccee7c6a3525af11",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "713d27c3774f9c6b3cafa719d7e5af81561916b45db8dce19b8c2e18b7393781",
+        "coverage_sha256": "d6ac3fdcf1de1c0f4251bfdf1608b780461cdb0c53e1be95ca194a4f5000d720"
+      }
+    },
+    "02-s012": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "7e870880a6a8f5bc2031569fc70f89c02561249979fae271ceed828797cffdef",
+        "baseline_render_sha256": "17b0f5a9fa1381d13b64c79e434c59a9354004e62045230e50c4772427d09924",
+        "new_render_sha256": "a4a28231773be239d158e1c08fe0dd4eea95c8263309701445a96e15a01d33d5",
+        "notes_render_sha256": "b82d53a5c7761e023b48b40d391287da46794dc11cf3a5278c884f69de4dedd7",
+        "slide_sources_sha256": "cfc5d59c0bfc3aecef98476ac3ba3fff52f7dbfee5336eb85b1d3930635fc81e",
+        "notes_sources_sha256": "3b87d0276e89c1da1a8f5c89b050156be2f432335997b138c37e23a5160830e8",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "5e42e3f1e8893d55ebff12e17f352c5b0b1aad761854cbff266d1d0acec88734",
+        "coverage_sha256": "b6fcfee30445d530e22f9ae9925fc9459e7c1d59330c68579e7d69a5a8cae050"
+      }
+    },
+    "02-s013": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Blage horizontalne linije svih osam redova funkcionalne tabele; nepromenjene vrednosti i crveno označeni redovi. Pročitani izvorni PDF i lokalni izvori; pregledani konačni slajd u punoj veličini i cela A4 strana, sadržinske veze i dodatni nastavni tekst. Nema uredničke evidencije, izostavljenog sadržaja, preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "4e2c58618edbb3646c416a154673224f32b336adf37d181f84141e9625073912",
+        "baseline_render_sha256": "f6d02a9ea321763cf2eb7a3065d0e1ba90fb3905ab5d1fc5ef5a6f3d7cbbf67c",
+        "new_render_sha256": "d68461530e68be80759e596c040810eeb0041c8bc5a93dfe061649d51089b2ad",
+        "notes_render_sha256": "f7f491bdbc8a316574376eb9e84fb8d70f2236310ec6177c833900bef80495fd",
+        "slide_sources_sha256": "ab8a9ef2f9e21151b5bd8cc250748e28864aca9a25df25f0acdc4559c1609d61",
+        "notes_sources_sha256": "fe44340a348418ded3958fb3c1731fbdffe2e6a8c4ebf06f25be1b5cb1f6fd6f",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "3351119b6afc0d979d1cda03e1dea6095be192458bf41516fb0db5d83c3f42c1",
+        "coverage_sha256": "a333498f84f84ee36784d49c7ab18a9da4a9fa4d77ae6e3054458a226ada81c5"
+      }
+    },
+    "02-s014": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "228b3c5d599348bb81a72f2b4e6eb5c39c1b116a54eaf4e4240c1e63ccea0c78",
+        "baseline_render_sha256": "385ff86c0a6553ed1a4993c7e92489166c03988a66d560037b865c22c4ecfec2",
+        "new_render_sha256": "3773e9ad0175a8e6da952ca8d7e9062fb6533e1ab03dd4348e2cf41d3bc4bab9",
+        "notes_render_sha256": "3eb2f39b1be942cf46cd303ec0dd2a40a2a8f9eca187b586386abdb1212c3a12",
+        "slide_sources_sha256": "81354744a0faf7487d2a806eec4aae167ce6e227ebbebfc14e3af35041ac9b14",
+        "notes_sources_sha256": "64848cbaafb3626c987bdd3458a49ca26c4a2da19c9e0e265791e44f20a2905c",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "9e6567210207136e3f725794f33cdb8665817659126705606620d9e0fda13157",
+        "coverage_sha256": "58400572f37b0c92c1945ed73477a90de3f6cf2b1f623723e02662ae870a23d2"
+      }
+    },
+    "02-s015": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Prvi deo originalnog s015: red 000, prepoznavanje kombinacije i činilac sa aktivnom nulom, dualnost NI/ILI; ponovljena cela tabela. Beleške razrađuju puni argument. Pročitani izvorni PDF i lokalni izvori; pregledani konačni slajd u punoj veličini i cela A4 strana, sadržinske veze i dodatni nastavni tekst. Nema uredničke evidencije, izostavljenog sadržaja, preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "0419aed8e243f17948c0fa7429f158c0ac6ee2990b66c4f71e0343f660541617",
+        "baseline_render_sha256": "93f13530351f1c52e870228900ae08d8a470a232360644717aa7c7e62bde0bcd",
+        "new_render_sha256": "50bcea119da0c8e72cb022cc1c612203693237e103e7bd63c92232c6977c3245",
+        "notes_render_sha256": "826da3649588acee98e3d925bf6648324026de52ff35a2e5a0dc9d3c849f8b92",
+        "slide_sources_sha256": "8f73f086cb83ebc549ac73adfe28b18b00968be3301eb1548938d50ad55ce608",
+        "notes_sources_sha256": "3ddfe3222e244510ec1cd06e2261c4dbc1eed9b1401c0e871166ec23394a9934",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "5d0c35cb7e37afbba20d535e4efdc08ab636c9a59ccaf3cca45187c64c5c5397",
+        "coverage_sha256": "27f422016b098607a7369d0d61884657ea152f55b881f020d4128b8e69e17c48"
+      }
+    },
+    "02-s015b": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Drugi deo originalnog s015: red 001, svih pet uslova i njihovo povezivanje I kolom, konačna formula; ponovljena cela tabela. Beleške čuvaju međukorak pet negiranih proizvoda, preostale nulte i jedinične redove. Pročitani izvorni PDF i lokalni izvori; pregledani konačni slajd u punoj veličini i cela A4 strana, sadržinske veze i dodatni nastavni tekst. Nema uredničke evidencije, izostavljenog sadržaja, preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "0419aed8e243f17948c0fa7429f158c0ac6ee2990b66c4f71e0343f660541617",
+        "baseline_render_sha256": "93f13530351f1c52e870228900ae08d8a470a232360644717aa7c7e62bde0bcd",
+        "new_render_sha256": "628e471f6f6aafbeac0036b2e8d67e8884c6ef68ee221e88f54fd5fe37310043",
+        "notes_render_sha256": "5b1107706455f4e6075e31b88ca01fabe5989b93f784708638f1cdf93e2368ad",
+        "slide_sources_sha256": "5ddf8e3687269d64e5b499a7a7ae6b8b7833dd63041ede5aaff5b5645813e2eb",
+        "notes_sources_sha256": "4e70c1e99ed5ef10a15033abf9189656b3e62157932cb15e44500a82553285c9",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "1e28a7ea7e8ed0ce2367c871fc73cf1608fe085facc7ae6368dc822787f10610",
+        "coverage_sha256": "5e97c6f8571626b5cb2c8aa4c7333114dcea2ac52ee836c1e16caa4e68e357f8"
+      }
+    },
+    "02-s016": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Fbar i F jednačine pojedinačno u jednom redu; tabela F/Fbar i ceo De Morganov međukorak pokriveni slajdom/beleškama. Pročitani izvorni PDF i lokalni izvori; pregledani konačni slajd u punoj veličini i cela A4 strana, sadržinske veze i dodatni nastavni tekst. Nema uredničke evidencije, izostavljenog sadržaja, preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "59c09d8747bf4e6bb57c4820aa49d18ed4b2047845313aca4d3afd45f3ebcdda",
+        "baseline_render_sha256": "b0d5eaffce2a55f8d5c5ba01705c320a800aa4a22f3524311ebb08bb917171c2",
+        "new_render_sha256": "faa1dff2760ffb3820e6600f6c7ee634531856105be889642aefaf8d6b401263",
+        "notes_render_sha256": "a878fc9d09e42b37dd5c793c095636749e8c5ff52bf72b951a66e75f96e2d61e",
+        "slide_sources_sha256": "130c89c229a3fca04825479c78b6796a85bedaab04e49aea700423dfabb0502c",
+        "notes_sources_sha256": "ed3d35b148b54e73215421a9ed88b52ccc98cdf8e324ccecfcdcf0d1aa93730c",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "fac6279dfdeda50bc072a4626959ded1ebfd66be5ec32e03c3a00e5b3b3de605",
+        "coverage_sha256": "b72a43676d51e517b190701711dc4ec7e5b15651c721f477ac2ad63f80f84948"
+      }
+    },
+    "02-s017": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Cela F jednačina u jednom redu; očuvani naziv kanoničke konjunktivne forme i pravilo iz nultog reda. Pročitani izvorni PDF i lokalni izvori; pregledani konačni slajd u punoj veličini i cela A4 strana, sadržinske veze i dodatni nastavni tekst. Nema uredničke evidencije, izostavljenog sadržaja, preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "189aa1361d4ed1ad49f9b4fc3252e5f40487417ca51e40e42feb415df552d25a",
+        "baseline_render_sha256": "e0dcb9ad290d01d56f600991b55cc4095fad55d1e18b704687542d264af0a9fd",
+        "new_render_sha256": "9c80f7ba82e34e41715a31364e0a4e6f8fc34c9e1b56299a468b6dc8e0e807cb",
+        "notes_render_sha256": "365f567ebba4c96859ceaacf27062067159036f23c3e3bbafb797db4d689fc55",
+        "slide_sources_sha256": "5f8b674f7a9667590ff1b2eb5b7508f179c42bd915164119a0b02efad79b5f8b",
+        "notes_sources_sha256": "7fce86b71864447d202148ae740084b4264cafda000920948f3200a6e3d803a1",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "de3e88ee033109b1344e32118b269c52822b6deb10b0cc14616e03ab05df6a63",
+        "coverage_sha256": "b519c5c58b48e56f88a94913c75923bd7c0c4502a0b9e16260ce607c72f2a78f"
+      }
+    },
+    "02-s018": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Linije funkcionalne tabele, uvod o jednostavnijem zapisu oba oblika indeksima i značenju binarnih cifara, originalna opšta B formula. Beleške koriste potpuni proizvod/zbir, primer indeks 5, bez neobjašnjenih minterm/maxterm termina. Pročitani izvorni PDF i lokalni izvori; pregledani konačni slajd u punoj veličini i cela A4 strana, sadržinske veze i dodatni nastavni tekst. Nema uredničke evidencije, izostavljenog sadržaja, preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "cec6f2610dd93a6f730ff36fef6eef98611f7774efc6c544624e49d16e494161",
+        "baseline_render_sha256": "b358c106d371dbbeb6ad16a699a126475160bc73cb1f1d571f901036676cc03c",
+        "new_render_sha256": "19be6defaa91ebb722314cc72f890e6cc793f73f1c98b04a10bc660d934ffb27",
+        "notes_render_sha256": "e5878ff05d802308728a1493fa41c908d2c5cd80ef60f21e703a26a6f33e49f6",
+        "slide_sources_sha256": "f8ef5046bc173a4b9117d94450dae8facf7c2437e68089cb7d0de4106bd42d7a",
+        "notes_sources_sha256": "9f69ad6d18683287786936a0ea770ede73f0599e7fbe983f8b52a6f0eede7ae6",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "e3f23254cd76b3516bf94776dd72f8deb039d59555570bcdb359c29245eecacc",
+        "coverage_sha256": "7d28aaae5fa62378602cbb90ee541464c1f2ad524190047b63c59687bf1d5c64"
+      }
+    },
+    "02-s019": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Naslov šeme zbira proizvoda; veći razmak između parova sabirnica, očuvani svi ulazi i tačke spojeva. Simetrična putanja ispred spuštenog završnog ILI kola. Pročitani izvorni PDF i lokalni izvori; pregledani konačni slajd u punoj veličini i cela A4 strana, sadržinske veze i dodatni nastavni tekst. Nema uredničke evidencije, izostavljenog sadržaja, preklapanja ili odsecanja.",
+      "evidence": {
+        "source_render_sha256": "7275a0965d41e29d148adc3b5e01240b6b7e1d2150bd435c23c1f5e7c58a4c78",
+        "baseline_render_sha256": "42a269a89e8bb3db3cf93d78b92b8deb5e5ff87dcc29ef99506eb80382cdf08f",
+        "new_render_sha256": "e8b2ac7e6cdf49edf0527ef39bde2d3ec88d7d1d6af57b92f1af151ff381f3b6",
+        "notes_render_sha256": "19d62e3f58d2803667742ed2b7ad946f912fa10d99381990d76f680005371a6c",
+        "slide_sources_sha256": "031e68baac5b5853b0ca67949d15f3e857f12a139a4990eaa2df4256760976b4",
+        "notes_sources_sha256": "d42421a2b599be3ffc1c7439c1acc760ed39b524b9dbdd110d6ed88063ce32b5",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "6b71e9b80766ff97899a977f68cfe401f749dfdf32f8cf2cce8e73374ec57011",
+        "coverage_sha256": "551645e6474008e0d464bf97dc249f77253575a74d8bf764978819c63b33345a"
+      }
+    },
+    "02-s020": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Izvorno pitanje o dostupnosti oba polariteta, potreba za invertorima i naglašena izvorna tvrdnja o tri opterećenja. Veći razmak između invertora i vodova ispod njih, dodatno spuštena I kola dalje od A sabirnice i završno ILI kolo još niže; simetrične veze i crvene stvarno povezane A grane. Pročitani izvorni PDF i lokalni izvori; pregledani konačni slajd u punoj veličini i cela A4 strana, sadržinske veze i dodatni nastavni tekst. Nema uredničke evidencije, izostavljenog sadržaja, preklapanja ili odsecanja. Dopunski pregled 2026-10-04: Dodatno razdvojeni parovi ulaznih vodova: donji vod C ne dodiruje invertor B, donji vod B ne dodiruje invertor A; ostaje slobodan prostor ispod svakog invertora i iznad I kola. Priključci, negacije, crvene A grane i stvarni spojevi poređeni sa originalom i arhivom. Pregledani konačan projekcioni prikaz i cela A4 strana; tekst beležaka ostaje nepromenjen, čitljiv i potpun.",
+      "evidence": {
+        "source_render_sha256": "c837e4adf3cd313189ff41f0cc15020b5e898bff73d3cfeffb89ecd3889b0d09",
+        "baseline_render_sha256": "42ce381c03d0c0ba5556abc54530715b9002d26296fc34190e1c399ed1b2109f",
+        "new_render_sha256": "22a5213981ec4da90455530555c0e47e4e615eda394ea9d7f3919a1a73c2cc89",
+        "notes_render_sha256": "4233200c927897be9675f77456529aebb1e552e6f270825e22e4b0c8d30aea43",
+        "slide_sources_sha256": "9bff5eaadab856310ddc4baadffb34d1355c382a380436948fc7f43d9b63c422",
+        "notes_sources_sha256": "171def682ec74eaa3d2f5835dc714e6a343374adb64c1733b12fbcb70e387a0d",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "1cab6ab99d166d28c9fcaa2279036b5102f2e359f573c4db750a3b38ed78b28c",
+        "coverage_sha256": "32791c9e79ccd13bc61777d07f744140babdf0566545ff1d00f26e8631da3fe3"
+      }
+    },
+    "02-s021": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Razdvojeni invertori i dva polariteta, spušten završni ILI nivo; simetrični prelom između izlaza I kola i ulaza ILI kola; bez prelaska preko simbola. Pročitani izvorni PDF i lokalni izvori; pregledani konačni slajd u punoj veličini i cela A4 strana, sadržinske veze i dodatni nastavni tekst. Nema uredničke evidencije, izostavljenog sadržaja, preklapanja ili odsecanja. Dopunska provera 2026-10-04: zajednički izvori dobili su opcione lokalne koordinate; podrazumevane vrednosti su iste. Ceo slajd i cela A4 strana pikselno su identični prethodno pregledanoj verziji; dokaz u poredjenje_razmaka_s020_s022.json.",
+      "evidence": {
+        "source_render_sha256": "d8053752b1c801ffdcc5cd966cf42f12d2f1ae041ce0eb5de2c60fdd5d4e0d42",
+        "baseline_render_sha256": "e9d5873d603a18a123edc548dcf0dc909fdb3bb97fb1e051209224771e3e63d3",
+        "new_render_sha256": "9ae04467da7466673579ebbaf104bb8bc3d57f7ed6c2cfc9235e66fe140cf34e",
+        "notes_render_sha256": "5cf9172e1d959fa246327b2913cabb541a5cfa20c2dbb3dbdd9019d8ea89f045",
+        "slide_sources_sha256": "6b60be5db40987d2e0148eda27112426e7056d26a794deabd5b8591f79492860",
+        "notes_sources_sha256": "2cb52a99e35cbe26d2cb74306f0836ca1d8582cd7b796b72d6ac53f497b3a9f2",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "62e71ea0a460de7eefdcfe8d5c096654cc266a567f8d045a71fcbd962d72bc5d",
+        "coverage_sha256": "9fc41cdf8e5ec6e27acb9b95faf65a731766440f7a7f4c728f1f5dc442892e88"
+      }
+    },
+    "02-s022": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Tačan naslov proizvoda zbirova prema ranijoj odluci; cela F formula u jednom redu iznad dominantne šeme. Razdvojeni invertori, niže završno I kolo i dva simetrična nivoa veza van simbola ILI/I kola. Pročitani izvorni PDF i lokalni izvori; pregledani konačni slajd u punoj veličini i cela A4 strana, sadržinske veze i dodatni nastavni tekst. Nema uredničke evidencije, izostavljenog sadržaja, preklapanja ili odsecanja. Dopunski pregled 2026-10-04: Dodatno razdvojeni parovi vodova od invertora iznad i ispod; prvi nivo ILI i završno I kolo spušteni, dovodi i izlazne veze ostaju van simbola. Formula u jednom redu, vidljive tačke stvarnih spojeva, svi polariteti i pet priključnih grupa poređeni sa originalom i arhivom. Pregledani konačan projekcioni prikaz i cela A4 strana; tekst beležaka nepromenjen i čitljiv.",
+      "evidence": {
+        "source_render_sha256": "3f68d1b080f1adf98a0c40a9a02acc0425477841447b40d2fed7134d64c45ab9",
+        "baseline_render_sha256": "89261724df1641aa951df7defdbbad6bec9d817b72605ef958b8ae7c29ac757c",
+        "new_render_sha256": "3a41359033910528d4e47ebe253f3655d44546d59fc3d1f3bb35393637c259c6",
+        "notes_render_sha256": "b99fc712ec10e11266f894df2f2be515325f06b780cd4cd84b562e135178bab4",
+        "slide_sources_sha256": "1a240a33394bfbf5fe864012dd233d7746e37560d10a1fc836e3d456863ddde7",
+        "notes_sources_sha256": "a782275f461597aa212b645a2344a66f36aac19fc92caa3e464abf2250d49472",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "93375faa64d96c0500c5aca53a7f8704d6cc39f18fa7c9a7c5db43d81c1032fb",
+        "coverage_sha256": "dcf63eefea9bb89ce50d217048bcb173d0b75da70ce406bb3e47d06b280b519a"
+      }
+    },
+    "02-s023": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "1c5091247741bfbff4dcc1d3a123c0a20ff41b7c5da1bb287ffeccf850bbc1cf",
+        "baseline_render_sha256": "52224a52fe0e14138d9e7220779617273d445040e31a89d33a9f0ede22869e3a",
+        "new_render_sha256": "1906a5da610d4ab85faeccf77dfeb675cff19c968a678fef6ca105f71d04c46b",
+        "notes_render_sha256": "0284d09c73c7447ff96b1364b83ad68e79b81caa9fc3d171a26db420f8a5795e",
+        "slide_sources_sha256": "52b56dc1c9ee80a2ec8fe3955812f98556bd016557e1684bff671082748e223f",
+        "notes_sources_sha256": "104c047ee62986f2202c46d7f64b498eeec4b3ed702772b91b5459abd465bf51",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "8ecb150bfdd6dc27e31b30a1564d90a30295d1fb75e14dc428d97402b08e51e5",
+        "coverage_sha256": "a4c997b95df1f98834cee9aa53568c6a847e18152358109c15582f848afc0f92"
+      }
+    },
+    "02-s024": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Iste zajedničke promene razmaka invertora; oba NI/dualna crteža pregledana, sabirnice odvojene od simbola prvog nivoa i simetrične izlazne veze; logička ekvivalencija očuvana. Pročitani izvorni PDF i lokalni izvori; pregledani konačni slajd u punoj veličini i cela A4 strana, sadržinske veze i dodatni nastavni tekst. Nema uredničke evidencije, izostavljenog sadržaja, preklapanja ili odsecanja. Dopunska provera 2026-10-04: zajednički izvori dobili su opcione lokalne koordinate; podrazumevane vrednosti su iste. Ceo slajd i cela A4 strana pikselno su identični prethodno pregledanoj verziji; dokaz u poredjenje_razmaka_s020_s022.json.",
+      "evidence": {
+        "source_render_sha256": "8ca9a92a046e0cd108d6da4e08033d496da08000c8f2c3d5af26b812c2c5c23b",
+        "baseline_render_sha256": "c4becd46d005a2e986c043edda37d82fac98a7ad55f87316d95edacd66fe5e4e",
+        "new_render_sha256": "7622e4bef2adc2b3dbbbb447854db1716fdbc84ee084621a930ca3a6028a6308",
+        "notes_render_sha256": "bec8aeba31c6c3487229bc9cd8b79d149b0266b68f05c8aeeb8b7965ff36be4e",
+        "slide_sources_sha256": "5e941af4eb0805b6e7415d7a28811a1e62efd61613c675fdddbc1de43347f04a",
+        "notes_sources_sha256": "da42e70628f7c601eb7cf180e949e689767d869daf74120382df243bd5073a4d",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "44ebfc610c7c866f692676e171ba1e898cca7932229310edb571275bb6e0c4cd",
+        "coverage_sha256": "bfa50d1fb52e72b512171c9e004edb45bd5b87cab86382610f678850cf5d039c"
+      }
+    },
+    "02-s025": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "09d5d2ce98d79338c9571dcc55cd7e30dbd89236427374569e215dfaebd90748",
+        "baseline_render_sha256": "85e066e2f8956fc1d870bbf43ffc978af92200697b6c3925986e060d2378cece",
+        "new_render_sha256": "c787d4bc2f1a28d3cf311741fb72968cc454a71664bfc23088a3dc1d2ddc5982",
+        "notes_render_sha256": "4a2bc2c322ffe000fa61103f914051957d2161e0d6a05e14cf8cd804e3e88d2c",
+        "slide_sources_sha256": "d681b235c411614e1c5b00170ccc74c12c2110f6f5576b50db9ff97e83e28a56",
+        "notes_sources_sha256": "39b78d6bc552cd1ecd19a88f0d433b117e701f1c2a40c6f34877e3764595c7bd",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "0db1bcc5e93be67036bafadaafee1ee53dc4a66fa4ed595ef47d0f5570a0828b",
+        "coverage_sha256": "934f9412d2377566709469e51c087b78671e06cfc83d67cf72323d74e1673294"
+      }
+    },
+    "02-s026": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Iste zajedničke promene razmaka invertora; oba NILI/dualna crteža sa vodovima izvan simbola prvog/drugog nivoa. Jednačina u jednom redu oslobađa prostor za razmak; sve negacije i pet članova očuvani. Pročitani izvorni PDF i lokalni izvori; pregledani konačni slajd u punoj veličini i cela A4 strana, sadržinske veze i dodatni nastavni tekst. Nema uredničke evidencije, izostavljenog sadržaja, preklapanja ili odsecanja. Dopunska provera 2026-10-04: zajednički izvori dobili su opcione lokalne koordinate; podrazumevane vrednosti su iste. Ceo slajd i cela A4 strana pikselno su identični prethodno pregledanoj verziji; dokaz u poredjenje_razmaka_s020_s022.json.",
+      "evidence": {
+        "source_render_sha256": "91adae98636f3b497556089f2af82b51b175779bfa4903cc2cc7cd1f9f045c73",
+        "baseline_render_sha256": "6992c5f148c9bd375cb882f875ad3cf2ac2670eadb2eb9587ddd70e21640a5b1",
+        "new_render_sha256": "597187f9fab46a0a61fba25794a2832869b02bf01bcdd8134df6005b8b8390e5",
+        "notes_render_sha256": "7f5c2f1d4bdad022f52937e06de647eb870bece091aa6ada5c2801d2f80d03ec",
+        "slide_sources_sha256": "8f726be9d798eb2225f58b0e2bf14ddce8f227efa8db615178fbd5e20b2cc01b",
+        "notes_sources_sha256": "e57211553924ab46f73fb29ff12a4804847878c8633b93806d7f122180bae3d2",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "54a16273c94c8b378a40189d8ecc1005bf7e98648b704b914596289e47ff0e64",
+        "coverage_sha256": "e0d8c56b9673e54602c7ba084a94f637e342617d85f49f43c33aa9a17b775e4a"
+      }
+    },
+    "02-s027": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "f908f47907eaaa1631f0adc63af9c095dc083c6baf14ab23967e42ababce8d65",
+        "baseline_render_sha256": "32db68b0d93a129c5b8ffecb833238d7eacc4466e7c368ec7290962b1868aef2",
+        "new_render_sha256": "d90210b1c75e38c6b3673613b8054750564a203503d561adb47ad19d478d8a28",
+        "notes_render_sha256": "753e771c29274b466968121a75061e04dc9329b894bfcfaf75ba0875124822b1",
+        "slide_sources_sha256": "0549039727b6aa8a7763e89f9c4d4cd5d117e94c7e3c5c52bd5c9fd0d279c9cb",
+        "notes_sources_sha256": "abab8e4bd9d43aa92cb90550ab8b23aa8c1c82ad366fe306f9e44c6a2f5723e3",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "d0fa7e99b7a9bf04c54b605540f875153c379512c36903331f40f29a0e5bf244",
+        "coverage_sha256": "a16fb774d1a7d9becc12fd9b6bb49af4ea587f80b01461c425f661eee0c5b0c0"
+      }
+    },
+    "02-s028": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "5ba21a3450489157e99e102322014d772386da23d1aae16491003898586df7d8",
+        "baseline_render_sha256": "c2a23c82ca91987fe0d83db761797035efde3a190595fd3b14640ef061314102",
+        "new_render_sha256": "ac1ab54afd747bbb86900805aa8adb9e32995be70d2ec5f9d7f6850075e4a9c9",
+        "notes_render_sha256": "818b2391818b0059d5a1d7d0f033baf0ba8130a0517b09c94ac13f0cb55d945e",
+        "slide_sources_sha256": "3cee355924ecdd3304d9df933ea2808eca1bb3d7c58c73708ab050804953ef10",
+        "notes_sources_sha256": "eef62ddc4915d152c301e4876cc59e8fbb6906ca4b45a107f03e0b9809e54d4b",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "1057de46acf299aac54b6c217c5a6640f3d7377321642d45d9940e48fcb7728e",
+        "coverage_sha256": "9f25e1314409f1588df59f055c27c242508fc6b31fa576a365bbe57f4974b0c1"
+      }
+    },
+    "02-s029": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "1ed3d77186cf00db66d0d2a52cd99cbd0ebdd6907818b2f5043b1b4e16442a24",
+        "baseline_render_sha256": "744f147d3e946da84b603ea3ff6a3397ac0044e6a9f9bfbdb67d22b9cb139f59",
+        "new_render_sha256": "2da0c5cb4c2cf6fd67a4efd6222b44a4a93799fd41881fec02b52af5ffe1c5e2",
+        "notes_render_sha256": "e149e9aeac0e53ff200d544a6f30481c06533b14488286ac87cef490441555e6",
+        "slide_sources_sha256": "e2fb50ecb91da09b3e6f7d4032bd5046d4542e9f1acedcb366e33c99e88a4657",
+        "notes_sources_sha256": "2ba82439d8ce044e083fb1560cf37e2b22a169f46a18406ab8fcf06dab8f30cd",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "b3ab0e1c6c1ec49cd168533ceade31f5283c48fa9a917193b2fb215dde410f74",
+        "coverage_sha256": "f56d4dec91f367ea179dfc9c5a639949002fca8d0234f42a67d40ca46b7040ae"
+      }
+    },
+    "02-s030": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "d4314453a5991b249bdcf0ad14930d0bb5ff10f1003b060930c93a41046c85fc",
+        "baseline_render_sha256": "89d6ea5e8336861a81f4026b44c41f52c200b6e64267cdd1148084f067ac657a",
+        "new_render_sha256": "7c249fe2c864386d6e531b8baa4c8e8ba9668033b15f3649926ad1d6793cece0",
+        "notes_render_sha256": "e51faf202d8d05b7195385e57c5d188b62a6f0527583d0b3dab08f43f1781fc4",
+        "slide_sources_sha256": "71f955923788dc37a55d1211697e78b5f8cb05026f81c94d001896a3e180e5b1",
+        "notes_sources_sha256": "6cd341e1aeaf56e285db25f6c0efd48fb36b8cbe8a61c96fbd649c6ae7d63169",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "4b1c396b32157e6d6ab462f6323eac45f446e98cd80b2eb49ef36c29d070b3f1",
+        "coverage_sha256": "2e06af0a00c7e2b590d5b86bb39eb7131c492b519774863a953e70d1201cbd5c"
+      }
+    },
+    "02-s031": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "d731f3e93637349dd7f9a8d7cb0d7f739cf56ddba4d0db910b5447241d841f04",
+        "baseline_render_sha256": "b41ff0397788a718204e103626f7cff20351bbc5eae36790483c1cf9cc65ef14",
+        "new_render_sha256": "644cb2df9d19ead31ab061166d30ec9813fcd132bdff91321d30c0e96c6d1daa",
+        "notes_render_sha256": "7079ebbf07ecc1fc3584e347f31fa76b0afcd46db11eadcb1cd4cf6063dbf5d4",
+        "slide_sources_sha256": "a78a2c38be38e1716ce085ce8521ffcc9705e31861dc4fdbae9a3690f298a0ec",
+        "notes_sources_sha256": "c88188d79e4b93fc64278b81e42b0280cf57226d5e24d0179200b3d043cceb71",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "4b0694ac6da45683de4376ca8f61763c3ad3c46f51c55a06f27ead18bc80fe31",
+        "coverage_sha256": "a9e3ae0f19fc60fd3caa83431466490991e8ba1539cb3eb5eab6bf7e2cf66211"
+      }
+    },
+    "02-s032": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "704677f281086b0b82680fd6cde81c95c95b02c52b08030a64830b54bf0d1b83",
+        "baseline_render_sha256": "ce44c044b9e85c0f22eda9e09a084c98d14e342b666739c689136545ccbb5eaa",
+        "new_render_sha256": "cdcc804e9b9a8ca39e3952f3999c348f0bb8f52b66ce54eb89bdc3b2f8d329c8",
+        "notes_render_sha256": "e59bbbd8cb7b438c5c09119b5467f519aecc2d604292414bc5b8e0d7606c27c6",
+        "slide_sources_sha256": "48e8a77faf64196b4a1c2e59ea6e6127ad9dff5568ebc03c83864d2cc16d7ffd",
+        "notes_sources_sha256": "46aeb7ea271239ad9b192c31a4d4364ae4afb3e0e6674ccb700e38ce76c27476",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "b937c38dff0da248ad6527da0c13aa6504e9f75ae0c4465bbfa3db43a2323c40",
+        "coverage_sha256": "f459daf21fb630c5df4e225d698ee74271f850467057dd04b67c7f3f08ceed3b"
+      }
+    },
+    "02-s033": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "6677c202955e054c982f3dc0a9f217f140a73a12fde1adc0d9c4468e47f5b356",
+        "baseline_render_sha256": "8a109f405f572f7768586d6939579a24c7b263542f5c802f2c8e04728b87c22b",
+        "new_render_sha256": "89bd6ad78a530648d26b040e73b3354c0b8f57d40a4549dd908e7ea004d5c970",
+        "notes_render_sha256": "59989a10f7b3cc07a7cdcddd9859c0ef6e2c3204a39d679bdd444dead8aa50df",
+        "slide_sources_sha256": "3152097821cf24bed4778b63487eb9e78d4bf12278f37db49af6be60a0d323f1",
+        "notes_sources_sha256": "abd5824591a77d554740db0626283fbe157cc87408964b71b329940062f849c0",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "1dbb41f3b23b885c685d98f1d7fd7c2743151842e10b69be946a4fa893f5ba94",
+        "coverage_sha256": "a12c430aebbdfa0e804b81137a6180cf23015aeb4346406efde471433734481a"
+      }
+    },
+    "02-s034": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "de9ffd607ec1ee4a86534af79ff4444f92f58f65c566c629ef2d3ef851deb9c8",
+        "baseline_render_sha256": "c45881cd96a4b4394c180e5a3ce5200f6aebd04ae3b7ba25d741304fb70fb96f",
+        "new_render_sha256": "518e340c0112ade4205c05f6a51a0265d680581e46cef755aaa28bd2434c922e",
+        "notes_render_sha256": "e9d694f176d3c0c2331beb985315c7f20b34e5be7f8120386b4f39a1bb5b64f4",
+        "slide_sources_sha256": "06edfa5fbc4445b9a3e32bb0fdfb313e93f82c710caff6d3aabe2bf4fe9d47dc",
+        "notes_sources_sha256": "5f7cfaccf9cf336dde6ea80d4bcb5c2b0f9f9ed07e379b8f14139aa2f9c911ea",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "d01f4c851b6b5425b76c6b700e28defc28789209e5a6ac7bde605de6a2badd48",
+        "coverage_sha256": "39397b462f7f7af6758104938b700856648e06f76a9479a111d654dbffe52196"
+      }
+    },
+    "02-s035": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "496fc6984778e54671840bb9ed4b018af3d83cac2d09c9c77b068c5b5a5f134c",
+        "baseline_render_sha256": "2c4366e2da3256c5f55f89a8627a14ee1e687efbc01e553df6bb14c91000d65d",
+        "new_render_sha256": "4eddc89c9ac9237f046620402b66b7d9ee5529c3c2949c2cbb4c025bcf39db62",
+        "notes_render_sha256": "4cb2d3ef1185c3c5263a757db95b031ebd6d8c512003032a8ff5c1dcdddac5eb",
+        "slide_sources_sha256": "fd1b6a7f4eec0253b92774022dd202c2e3bc8e302705b07305eddf2070e865f7",
+        "notes_sources_sha256": "275f71e71c1e7510060b799368b2d6ff564011d9fcaa63966f86e01daaec6bb3",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "cb0c41fc076e3f30d4331fe7c63f1f6cc096b7c921a6b4314da60dceb690b6b6",
+        "coverage_sha256": "906793f24634d2e770fd7075da4d3aac88b09a6a79bfaddb73f848bd2fab7cb6"
+      }
+    },
+    "02-s036": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "4a8680a3c3b9a47f817aa409d4c4bd77f28c465e1b07619a417bcd2848b75e51",
+        "baseline_render_sha256": "5800e31582eb5b8b32283def7456722cdf54190e45460a69ec77b15ecf4b4731",
+        "new_render_sha256": "271e3b5e7c1d0855e29c299d5c615d89eda0ad15afbfeb13ab03dfa7e0cfae69",
+        "notes_render_sha256": "e89bc8f3634338518de093ee13ad8f40fffacd47a42a784746ffb3c6b70675b0",
+        "slide_sources_sha256": "eb116c0ab08e5a8739147a2d278055b1f25df6c6288b9c7b75dd5c76b89a1405",
+        "notes_sources_sha256": "94cebee4fe627712097a9ccd11f6f46066cbe9737f227f39900b1351e528b0fd",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "c1f3c7b2cc911c0e534deb966ea06c98f8c98a4fa464294de372b4515a0dec22",
+        "coverage_sha256": "ba19fbb1e6752d9f74b468f7344f0ec62bac22a4e99a41761cd9e94344d21054"
+      }
+    },
+    "02-s037": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "d6708b4bba342ee4931a681b89c97186ec69106866dbaeb4bf20c277732dfd23",
+        "baseline_render_sha256": "39549259e9fc6cce07dce93b159e4d596dea13f01c5bf9788d1f85eb7d6c4846",
+        "new_render_sha256": "54f72c353b60b2fa7e93c7297926af48c531b32d915534c56e2ba11d52edd857",
+        "notes_render_sha256": "6677d01abc8f95f634505dcfa28aac39bc3d48eab65b0122ef1213d5d5d11dcc",
+        "slide_sources_sha256": "94c80bd4dfdb8fdd8b8a9935120832876e04b28481763ba292d1b980d924c319",
+        "notes_sources_sha256": "6d6ebee19ca3425985c950b06c71fc5734f2ebbaa7ec0e6334ff5bf20bfdac90",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "f0cba7ed23cc6c5e90ccda283130aa95d530533c6dad13d14041ea0ea8ff900f",
+        "coverage_sha256": "328029fb8eeb398772c2c5c5b5ba179f2820dc0ae602a813ddaf99cb33924090"
+      }
+    },
+    "02-s038": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "801a1934160497c58044d98ea2f5cac7c38c70e7c2db4d9ba8efe76b6d677dff",
+        "baseline_render_sha256": "e35e991119c720baf68f35254204984e24c4d82f4adf4199b1a1582f0710b7ff",
+        "new_render_sha256": "ac8174f7e5c5096742195bd805252b080299ce34e306d7d7903c365b3722f5d6",
+        "notes_render_sha256": "b4cd7a28a0d191a4079eef58d7a5b85cd8282a4d864f80cdec9b664cd515d7ca",
+        "slide_sources_sha256": "0caa92ff12ddc7b7f14cf0e2fecdcc3e2276f5d0f58603362506f34be78dfdf5",
+        "notes_sources_sha256": "733c59c576715f3a3a7ee13441394601ca047d7e4428fb6a652b06e51620386d",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "79f4e11b1345b804e1b5e573374e46e8b0c45fa4f520d9c78e1670c4eccc424f",
+        "coverage_sha256": "b6ea64ce223e9935aea6a23ee1e96080daa5224b3941652856cdc25e8379edfb"
+      }
+    },
+    "02-s039": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "05e20f35c86c4f72a25133a44b629f6c624fe8635ff1a7e549303828daf7eeeb",
+        "baseline_render_sha256": "d23c563d0c74a8f3302b8f9d912b2005cfe648f414e919cf7bc2477d2224457c",
+        "new_render_sha256": "3d0549eeccc4e704e265663dc682ee6c8e40833ed90b2b46b69890a013f085b6",
+        "notes_render_sha256": "3e6dc3ac34c707745792817e0efabc7f161b4e6c129b4dcf411a5ceea94b4291",
+        "slide_sources_sha256": "28f20b3c90f934b3170682a131fe7a18f039910f47131217268c339de1e641d6",
+        "notes_sources_sha256": "004df08ca3bc4bd1013f1c4cae296206eea419f43615749be92ed1d6d687a33b",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "8ecb57ded6548b0b8388b2ad450a60de704e5243a328f6e006cf3034c2317e40",
+        "coverage_sha256": "e20dfdcb541db92377d04e24d9af7418df19f84746e8d399ece42643a29939de"
+      }
+    },
+    "02-s040": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "d1aa23f2362a28da21f9df9c22958f487b4b8021142076618fe5593deae25531",
+        "baseline_render_sha256": "65494954b25c42a32105410505463733d2e7a22cd2c0401274ff4b2ba87c2d8b",
+        "new_render_sha256": "d019a4d6d7c0cf93520ab7c638c3540958a2ff85676528031b34984d9a02937b",
+        "notes_render_sha256": "ffc30073e791e3f015bce2f1360df6fad8049ea652100196ace4c7865933a97b",
+        "slide_sources_sha256": "c3599382eb0b623e8ad1d55dbd3fe910b410ee4c276159797ab06b329f3405e3",
+        "notes_sources_sha256": "10c860e8ffa42e5b502973c4a376585ee5008dc16fad7c2c3666acd4805ad1e3",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "6939165b3be105f84a7ca0e969dda9583dd4d06e084a536897fba97049259332",
+        "coverage_sha256": "35319ad34fa7640b4e78032c06416cdbeda3a91843c359a7bff80639a9604064"
+      }
+    },
+    "02-s041": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "00e10b9ae87ba413d592fe0ed4535c2743c8359af46f765e74d2b63b0db25d0a",
+        "baseline_render_sha256": "5299c9b3d3a4726be8e5b99ae4e4bf11d32390b1b55e7061091b19f6e068de14",
+        "new_render_sha256": "448dc1fe7c783865007302417a39f4d07b9ea908fb1dc5be32e227cae8f8ba0c",
+        "notes_render_sha256": "c0d0315b5cb4228190dbe16c8635f5d25bc687bb22ce94b8592fa5d2dd2b2879",
+        "slide_sources_sha256": "ffd4d06e7165983a7e819e2451c5057d559fd3b5d3524fb0b74101dfbe738883",
+        "notes_sources_sha256": "e361b7c5acb2a9e21763e9feca6dd93ef7ce58fab27c40170e52d54af554fc35",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "9f1fbdd6a8c36e05e4bdc35c3fb875ad3cb2d7a9bc061fa3b2d3979f34c3fca1",
+        "coverage_sha256": "eb4885a987ed97b2387d43837fa586cf144aa5d2e89f6ce09aeb8df1b3d15170"
+      }
+    },
+    "02-s042": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "fb18aa46fe84b61f305ce526fbb792e634a5e506e1fa4b620fb91442e18517ee",
+        "baseline_render_sha256": "a542a6bf0d25360ba2fcdd9180e9bb5068b7d1a276e0d6831e477689dba66989",
+        "new_render_sha256": "73d6543611579fc3012cb3d8a6ce2b15333bd1ae336801e054fcdfb67aaea2cf",
+        "notes_render_sha256": "d7740636a13507f09260790bb4ba2064790a2e55d5b642f3aebe43b34d2ca26d",
+        "slide_sources_sha256": "05fc49363012523b37a95a5f9b777f5052c78cd34d8638dc7efa2899eee1f101",
+        "notes_sources_sha256": "dc9a73a5dcda2b54330a1fd0790fea1edf43b13fffdfaf6c26c9e0e71c8254bd",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "7087121f3c4970ddab4f99f7986724bd5ccbfce7f346eced2290b152de75039a",
+        "coverage_sha256": "b5ee44bd06b1a7f357bf887cf79a603eb2777ed962b38aef2c97ed15636ddebe"
+      }
+    },
+    "02-s043": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "ac8cbbc032674a59be67f32658851bce97274fa904cc4da89303aed7fcc9e2bf",
+        "baseline_render_sha256": "030fa8f3ec22c6e02f182c0b5cfb6e03cdd07c92e3e868d26d88615539d4561a",
+        "new_render_sha256": "c96feaf5ef9302915b870dcd76e5ebfebf8e700903fa724b0b3a1ef981930957",
+        "notes_render_sha256": "1e2dae1488886befb2414f99f831db78c8a3cad216ddc8f7a3bf14b25e82e443",
+        "slide_sources_sha256": "7e3aea056df0dae6429510ca78704027be71ed8004a17d4616e9f5e6154baf8b",
+        "notes_sources_sha256": "508e9c7943f0d1d0d332e0caf8d835b8c170784859f3ce1402feaf3b02205818",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "6e56d6b308885ee5744bcd45b5463b5845e0a436e9c87324c80566e295c3dbab",
+        "coverage_sha256": "c9e5e9b189e48b791c74c2197240ee4823fda10c2340a22303debad2204c9253"
+      }
+    },
+    "02-s044": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "dfeff094129390dea98cbc1f2a5b4e7f94c92dced7d67b4164adf5efe9d1b543",
+        "baseline_render_sha256": "d0b2589e205d3bdfa9a9d0789a8a8cd7fe175964a45f1d7b5be1cbbf54e6786e",
+        "new_render_sha256": "b6f5814f30bd73725336587a4490b76dcb30d1a3d0ed469dc3236564608e3a43",
+        "notes_render_sha256": "30c51b17e6b22f73082fb0b0640e003dcc971ba79e562f052ed3fa1ef6d27b66",
+        "slide_sources_sha256": "5a4c7571955b942dd39e813fab51f0b07454d4eeed81f2beaa3100677a39fbff",
+        "notes_sources_sha256": "26a00af2708d7ab1dbd14653dbe3cff10b6c3e0d5b7171ba97aeac8c28c78a9f",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "394e7a8a07219bf69bf42b5fb6a8a5977153dd912f109abfec7bf5b61b5b8dd3",
+        "coverage_sha256": "98939549478e9819a81c612dfcf9ed2be85a800082ec4b8d2e1791932845a2c6"
+      }
+    },
+    "02-s045": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "ff88ea21cbd3bc947027d2ac13e70db0ad02ba658982e2eb01868bebcd8ee85e",
+        "baseline_render_sha256": "9ad6ac5cb108c509d39bed1f5d2676c44efb05dd4209d1f9affb6e0a168d7a66",
+        "new_render_sha256": "dec0e470f7f0cdcfa4d2070692d0c3c19cab2ed2ba6ef742cdb180b6e13b5f11",
+        "notes_render_sha256": "a1b6c507d85d6ba8a9aecb6e796224540658f2bec92efac1ea580379e993e0f1",
+        "slide_sources_sha256": "4863954a7f0057d1685df42e10714976aaf382638983f2c761fa911d1e40bc4d",
+        "notes_sources_sha256": "626e667bbf39b1bda2c0cb745951ef669f3a9675178211556bf11ed2d4bc087e",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "47c07b0a356d9d44ecc45e6541b8d79de161d4c07afda4c1ebb92aa25669b7f2",
+        "coverage_sha256": "11cf970495d781f8dab49221baac2319ef5165875889636ae1a234578ec81649"
+      }
+    },
+    "02-s046": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "1a35bf10275e8988ad129e9406a4a98a890761725aebcfc34dd64f403a49174e",
+        "baseline_render_sha256": "4227a5f4cc750ecf066289561ca20cc5f52d51d6a97f1775233157d76e7ac74d",
+        "new_render_sha256": "f1076ef4011387a7a86ac7880e74cfac2830367abb180f528006ef18473577db",
+        "notes_render_sha256": "7290896435fc8877c2522cfeef40245fce2698b81df52c4bfc0d24419831ba89",
+        "slide_sources_sha256": "175cb71ec8c7c9d78964999ba66e33a84d814cf5688f9a7d5a39828d3e70e6cd",
+        "notes_sources_sha256": "2bcc7ee2a745a88c77bd729fe5332fc7d5f6e4042ecd1eaa57ee680794371c73",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "af6842b708607223d29da0adb22372c62c2d4cfaa9cc354299043fd2cbc38a2a",
+        "coverage_sha256": "a671a8b3e721ca239af81c42cde2d8e5ea17dfddfc65cb75ff38fff571f60675"
+      }
+    },
+    "02-s047": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "2be338b8c9e28b11d3c4268e3eaf6b511028831eff51f50671447b7d599396aa",
+        "baseline_render_sha256": "7cc57323747738caedf162e4ecfff13b63f93d04247ab0c1a11bb0157efc98b0",
+        "new_render_sha256": "fc5f9489647508ffb9de42381d8c6cd11b672319f2bb2e502bb29f0a7e6eee15",
+        "notes_render_sha256": "3a9547a6a48773baece34cb82cfb0ff89b5038a7587d6976c45a0249addf9298",
+        "slide_sources_sha256": "e43bd347309ec170ff8f77c8a9abb11f11f02e1db2d0bf47939b578d82fac87f",
+        "notes_sources_sha256": "ee8599c4e6fe464c80392e3a32860b9b6d4cedc22eca6e9945d26aac177ea019",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "30a1ea962c92c1024fa05955ca73f720826c814f7e7a141fe8e434134b8fed5f",
+        "coverage_sha256": "bab229c6b70da56e2f969244cbd0f0d82bf168168b56cc9f3917a24774d3ded8"
+      }
+    },
+    "02-s048": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "a359ea9718cbc1bb5b1c03dea90ded292ddbdd67f4031d38bcb1c28e34f378bb",
+        "baseline_render_sha256": "c5bdb88710e6a4ffeb87edb05dd0cd468d5f2d72ef8cdda6a4242f96686aabc0",
+        "new_render_sha256": "6010d9f551dd1ec4eff8fbeed0eb4586e76c92047de0e854bd36a93225ae12bc",
+        "notes_render_sha256": "276a868362b30af17da79e84b9d5a888a7c39a141d9ab812fed2847fcbe8e634",
+        "slide_sources_sha256": "b56238f4d6644173e61a75142783cfa18f689c13cafe599704d8581e68379060",
+        "notes_sources_sha256": "6bb63feba9bddbbff2490268128b7399fc3199b853de030fa19128314c63f5c8",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "a19fd8a4e979287e98634d7b50767e34ed2917c7bd200374d4b2ae0b20bb5bc5",
+        "coverage_sha256": "ff885a851b4c258f93057c02ab59e58f6e80c87c5a1cf3d80b87a3ee4d34c4df"
+      }
+    },
+    "02-s049": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "d5625a5e8e112d69893e95d356aa5d250f4933e4fc003aa9e542a800cc41df5c",
+        "baseline_render_sha256": "d1ee3ac051cffaba425096e61cc8ae0d7a885d0574dddddc216a1b281666743e",
+        "new_render_sha256": "275681a2b310a34d5ab6339adedf163b99791eff923bc7b0c349138c49fc5044",
+        "notes_render_sha256": "6b113543ce2d984ff45e986ce22f5c9e90e74a622d4e1bf07834e8cd6dfd8b95",
+        "slide_sources_sha256": "e1aaf16bcb4c994a1a0451535b23ea886fb759646a63dcc7358e15d5420d07c7",
+        "notes_sources_sha256": "a5a8ed42148f6da86bd2e1e48a542af7a6a76e6e748c13fb2566d39eadde35b6",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "42557f76d4c10099fe84cb698a12440b5f6ac53d72e5817998c51985523209da",
+        "coverage_sha256": "0a54e40815dbfac746981d70c661ba59b3f6f8906ed42e14742ab7865e7497d3"
+      }
+    },
+    "02-s050": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "0fdc3df0da12080f1e17785890887ed813c027054fc82f470be140eccf971f70",
+        "baseline_render_sha256": "e743158bf1b58757eee12a670d024dcda2c4143c9570e1d0f763c742f1570f43",
+        "new_render_sha256": "95ebcecece32fe23bf8aa3cfb23a5793bd58084a4678d8411f0ad0a3d6591504",
+        "notes_render_sha256": "fc9f07b453575f237fdc247c9edbfe24ec3e430217c1696258edc30aa971bc14",
+        "slide_sources_sha256": "e8d3abf047dfa6754b058d5f27f8d2f5ce3dd0c1f9795a44c491b1d5b5bd2a1b",
+        "notes_sources_sha256": "79132f095a030bdcd92d8e97a7fef4b515a873d24da749cb1a8ac12d8fef059c",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "5d889a1a84a60b13cd9ae6f07fac6a3f29c4f7fccfd91d9cfb55d7074ffc230c",
+        "coverage_sha256": "adbb7720fb5656ec0504b25db0d6edfe84d353429c5b6f81e11d44ba95fbcbba"
+      }
+    },
+    "02-s051": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "be3ad87805947b90896c1280d95a240fc90511229469becf69523e9cea87a291",
+        "baseline_render_sha256": "1a215519a24fbf1e3083df4a6c316a2a788de198a3fc8489232529b1b33d967a",
+        "new_render_sha256": "b81fa72106d969af5e1865ce5221649f1073c272259cb1526b8519c32ac7b1d0",
+        "notes_render_sha256": "5cace7801821f8d210fcbc33b5aba29e756b031a9f1c14bba2c8f0569bd7f4bb",
+        "slide_sources_sha256": "ee71f72a1bc3f86928962b7875e62da87fde02ac2aa0f4a94c056151b9c8b11f",
+        "notes_sources_sha256": "94196f77157155726e98e2376e4b5654dc4cbadd77b9c13f3c29e3a0b87b09f7",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "878b17f382d217d317b9a7cc3ceb55466e1ef5dadddb30a58f26be3f2a4f1001",
+        "coverage_sha256": "61e5508310ce39939ed0d29eab6b11aec5bffe53155660a2ba8a85a8c1007700"
+      }
+    },
+    "02-s052": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "5f5fe9601e9fcc3139f1e8de6ebf6e49ed29bb8cb1af32ba8cec647132ef0308",
+        "baseline_render_sha256": "d78664a81ae8d95d85d1585bf196f7c867bd60bf9926d6fbc96a74e8a636473e",
+        "new_render_sha256": "6951b9bd1d2759beabd0d1cdd6a96c75c4ede6b8a168851fb3c2feeb48756782",
+        "notes_render_sha256": "dad4972a24cd87e96e0ba32f8a502a180d66641805ec53e9ca195ce015a0cf06",
+        "slide_sources_sha256": "78c73f6899fc79ed251aceb908cff8a112af7cf7483a754ea3fa9e7c79518963",
+        "notes_sources_sha256": "02b8fec1f5bb2f185aad806c8ee833df413118a1e2aa0dc5e595b144871b2d79",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "8a66e3cde27cca7c9c8211a1d2bad09f0a4c20242753bff7afe0d73a571ef122",
+        "coverage_sha256": "6f46a50166cd600342b477904bc83ebe2eb4a93d940f84890bd81eb8888277b0"
+      }
+    },
+    "02-s053": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "2ed4406359459d1596bb8ba3ff552a3ce834f1abb3104fb1c0431dccc13d242c",
+        "baseline_render_sha256": "a74975eb82a8ff578b03db6a72bc905864d60c3f03407da2c57afc09f2407b94",
+        "new_render_sha256": "ad28dae2a6088a3685774fc3e3b770d8c25c2bff2db6764484acbeb58120a599",
+        "notes_render_sha256": "ffe56912db549d9a65cd26906bd7250dbbc3961ebdef3c47547403760f1e1de5",
+        "slide_sources_sha256": "8370c3b7fa1c12b2d4403637bc5176e0360cfce23ba819fc006b7cbfac9eebbd",
+        "notes_sources_sha256": "43d691afaadef747f7909edb85a27ad9ed7e17458a3080a7bb659dc0906c4d83",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "21e340b524163498f4d3a9488628114c0dbfbb9feea1bf9d56f64cb00402e5a0",
+        "coverage_sha256": "e2f784b9c8a794a55c16dfe9aa9d143d1de6786c0c927070fd02e273f6687259"
+      }
+    },
+    "02-s054": {
+      "categories": {
+        "tekst": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo"
+      },
+      "date": "2026-10-04",
+      "reviewer": "Codex",
+      "notes": "Zadržan prethodni stvarni pregled: izvori, potpuni projektovani prikaz i telo A4 beležaka pikselno su identični prethodnoj isporuci; provereni novi redosled i numeracija. Dokaz u poredjenje_nepogodjenih.json; samo podnožje A4 strane može promeniti broj.",
+      "evidence": {
+        "source_render_sha256": "75089deded5ef615b41b9b429cbf806ad2a679067d861657313ab86ef7124edf",
+        "baseline_render_sha256": "22a4a1a81ac441a2ae1fdffa88d10d033ad4babe0ae95bb54c05d91471be9425",
+        "new_render_sha256": "1db8b46246566717d0b3c76d0f30d9d43bcb32ea597bb066d63804eed21faefa",
+        "notes_render_sha256": "f7fcff23f476e8f03f4028adf426405a40619277d3f41cb94e6d7b7d3ee90ff8",
+        "slide_sources_sha256": "f7ffbb2af8bc71ffa44177e0da013616ff81ccb5414894df78f90b7a7e086616",
+        "notes_sources_sha256": "52f96ef67c55ed884c5fd0b32fe484b13fc5ad1ce9f6f074415525f322eb12fc",
+        "shared_sha256": "1ba066ebff953651c675c9bfbf248bc825056f5e687d6da00653d34ebe1daa05",
+        "mapping_sha256": "b1f159982788bf1ce5e9b894cf7dbefc0d9918a22572a3922082fd9ab392757f",
+        "coverage_sha256": "21e351bc04a3740d45d8c6dee3c741306984190e4ca936fe6d2e28a31e8eca7f"
+      }
+    }
+  }
+}

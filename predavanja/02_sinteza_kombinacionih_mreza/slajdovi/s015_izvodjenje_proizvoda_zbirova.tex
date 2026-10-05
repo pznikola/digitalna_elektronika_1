@@ -1,28 +1,22 @@
+% Original: PDF strana 8, gornji slajd; prvi deo odobrene podele.
 \slajdid{02-s015}
-\begin{frame}[t,label=02-s015]
-\gusttekst
-\fontsize{9}{10.2}\selectfont
-\setlength{\parskip}{2pt}
-Isto tako smo funkciju mogli posmatrati i kada njena vrednost ima vrednost logičke nule. Za formiranje izlazne funkcije ćemo upotrebili I logičko kolo zbog osobine da će na izlazu dati logičku nulu ako je bilo koji ulaz na logičkoj nuli, a za uslove ćemo upotrebili ILI logičko kolo zbog osobine da na izlazu daje logičku nulu samo ako su svi ulazi na logičkoj nuli. Pa su izrazi rečima počevši od vrha funkcionalne tabele:
-\begin{columns}[c,onlytextwidth]
-\begin{column}{.79\textwidth}
-\begin{enumerate}\setlength{\itemsep}{0pt}\setlength{\topsep}{0pt}
-\item Funkcija ima vrednost logičke nule ako promenjiva C ima vrednost logičke nule I promenjiva B vrednost logičke nule I promenjiva A vrednost logičke nule. Ovde je iskaz namerno napisan na ovaj način preko I logičkog kola, da bi bilo lakše praćenje. Međutim treba uočiti da je na „izlazu“ ovog iskaza aktivna logička nula odnosno da je u pitanju NI funkcija. Dualnost logičkih kola kaže da je to identično ILI logičkom kolu sa aktivnim logičkim nulama ili napisano preko jednačina Bulove algebre ovaj iskaz je \(\overline{\bar C\bar B\bar A}=C+B+A\). (da se podsetimo kada promenjiva treba da ima vrednost logičke nule njena komplementna vrednost ima vrednost logičke jedinice). Znači gledajući ILI logičku funkciju potrebno je da bi ona imala vrednost logičke nule da svi ulazi budu na nivou logičke nule.
-\item I - funkcija ima vrednost logičke nule ako promenjiva C ima vrednost logičke nule I promenjiva B vrednost logičke nule I promenjiva A vrednost logičke jedinice
-\item I - itd\ldots
-\end{enumerate}
+\begin{frame}[label=02-s015]{Uslov za red sa logičkom nulom}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.66\textwidth}
+% element: 02-s015:e01
+Funkciju možemo formirati polazeći od redova u kojima je \(F=0\).
+\par\vspace{3mm}
+% element: 02-s015:e02
+\Oznaka{Prvi red: \((C,B,A)=(0,0,0)\)}\vspace{2mm}
+Uslov je ispunjen kada je \(C=0\) \alert{I} \(B=0\) \alert{I} \(A=0\).
+\par\vspace{2mm}
+Proizvod \(\bar C\bar B\bar A\) tada je 1. Za činilac koji treba da bude \alert{0} uzimamo njegovu negaciju:
+\[\textcolor{DEcrvena}{\overline{\bar C\bar B\bar A}=C+B+A}.\]
+\Rezultat{NI uslov sa aktivnom nulom odgovara ILI funkciji: zbir je 0 samo kada su svi njegovi ulazi 0.}
 \end{column}
-\begin{column}{.19\textwidth}
-\input{tabele/s015_nule_funkcije.tex}
+\begin{column}{.29\textwidth}\centering
+\Oznaka{Funkcionalna tabela}\vspace{3mm}
+{\fontsize{9}{11}\selectfont\input{tabele/s015_nule_funkcije.tex}}
 \end{column}
 \end{columns}
-\setlength{\abovedisplayskip}{2pt}
-\setlength{\belowdisplayskip}{0pt}
-\[
-\begin{aligned}
-F&=\overline{\bar C\bar B\bar A}\cdot\overline{\bar C\bar BA}\cdot
-\overline{\bar CB\bar A}\cdot\overline{C\bar B\bar A}\cdot\overline{CBA}\\
-&=(C+B+A)(C+B+\bar A)(C+\bar B+A)(\bar C+B+A)(\bar C+\bar B+\bar A)
-\end{aligned}
-\]
 \end{frame}

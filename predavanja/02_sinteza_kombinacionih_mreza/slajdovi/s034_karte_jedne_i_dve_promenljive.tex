@@ -1,20 +1,26 @@
 \slajdid{02-s034}
-\begin{frame}[label=02-s034]
-\gusttekst
-\alert{Osnova minimizacije putem Karnoovih tabela i jesu specifično napravljene tabele u kojima je lako uočiti proizvode ili zbirove sa Hemingovim rastojanjem 1.}
-
-\begin{columns}[c,onlytextwidth]
-\begin{column}{.60\textwidth}
-Tabela sa 1 promenljivom
-
+\begin{frame}[label=02-s034]{Karnoove karte jedne i dve promenljive}
+\setlength{\parskip}{0pt}
+% element: 02-s034:e01
+\alert{Susedna polja imaju Hemingovo rastojanje 1.}
+\par\vspace{3mm}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.50\textwidth}\centering
+% element: 02-s034:e02
+\Oznaka{Tabela sa jednom promenljivom}\vspace{2mm}
 \input{slike/tikz/s034_jedna_promenljiva.tex}
-
-Tabela sa 2 promenljive
-
-\input{slike/tikz/s034_dve_promenljive.tex}
+\par\vspace{2mm}
+\raggedright
+Indeks polja je binarna vrednost stanja promenljivih.
 \end{column}
-\begin{column}{.38\textwidth}
-Uočite da indeksi kao i ranije odgovaraju vrednosti binarnog broja kojeg čine stanja promenljivih. Razlog zbog kojeg su indeksi odnosno stanja promenljivih prikazani na ovaj način je taj što sada susedna polja po indeksu imaju Hemingovo rastojanje 1. \alert{\underline{Susedna} \underline{polja} \underline{su} \underline{ona} \underline{koja} \underline{imaju} \underline{najmanje} \underline{jednu} \underline{zajedničku} \underline{stranicu.}} (u 2D prostoru to je jedna, dok će u 3D i 4D prostoru biti više zajedničkih stranica) U 1. Primeru je to zadovoljeno bez razmeštaja stanja promenljivih, dok je u 2. i 3. praktično raspored promenljivih preuređen.
+\begin{column}{.46\textwidth}\centering
+\Oznaka{Tabela sa dve promenljive}\vspace{2mm}
+\input{slike/tikz/s034_dve_promenljive.tex}
+\par\vspace{2mm}
+\raggedright
+\alert{Susedna polja imaju najmanje jednu zajedničku stranicu.}
+\par\vspace{2mm}
+Naspramne ivice karte se povezuju.
 \end{column}
 \end{columns}
 \end{frame}

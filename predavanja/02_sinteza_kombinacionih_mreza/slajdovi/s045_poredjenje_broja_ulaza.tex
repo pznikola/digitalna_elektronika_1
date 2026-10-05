@@ -1,15 +1,25 @@
+% Original: PDF strana 23, gornji slajd.
 \slajdid{02-s045}
-\begin{frame}[label=02-s045]
-\gusttekst
-Za realizaciju u obliku zbira proizvoda
-\[
-F=\bar D\bar B+D\bar C\bar A
-\]
-potrebno je 1 dvoulazno I kolo, 1 troulazno I kolo i 1 dvoulazno ILI kola, odnosno ukupan broj potrebnih ulaza je 7. Za realizaciju u obliku proizvoda zbirova
-\[
-F=(D+\bar B)(\bar D+\bar C)(\bar D+\bar A)
-\]
-potrebno je 3 dvoulazna ILI kola i 1 troulazno I kolo, odnosno ukupan broj potrebnih ulaza je 9. Sa stanovišta klasične minimizacije je minimalnija realizacija u obliku zbira proizvoda.
-
-\alert{U startu se ne zna koja je realizacija minimalnija. Treba izvesti obe pa na osnovu njihovih minimalnih izraza izvesti zaključak šta je zapravo minimalna realizacija.}
+\begin{frame}[label=02-s045]{Poređenje po broju ulaza kola}
+\setlength{\parskip}{0pt}
+% element: 02-s045:e01
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.48\textwidth}
+\Oznaka{Zbir proizvoda}
+\[F=\bar D\bar B+D\bar C\bar A\]
+Jedno dvoulazno I, jedno troulazno I i jedno dvoulazno ILI kolo.
+\[2+3+2=\mathbf{7}\text{ ulaza}\]
+\end{column}
+\begin{column}{.48\textwidth}
+\Oznaka{Proizvod zbirova}
+\[F=(D+\bar B)(\bar D+\bar C)(\bar D+\bar A)\]
+Tri dvoulazna ILI i jedno troulazno I kolo.
+\[3\cdot2+3=\mathbf{9}\text{ ulaza}\]
+\end{column}
+\end{columns}
+\par\vspace{3mm}
+% element: 02-s045:e02
+Za ovaj primer zbir proizvoda je povoljniji prema ukupnom broju ulaza I i ILI kola.
+\par\vspace{2mm}
+\Rezultat{\alert{\textbf{Unapred se ne zna koja je realizacija povoljnija.}} Treba izvesti \alert{\textbf{oba minimalna izraza}} — zbir proizvoda i proizvod zbirova — pa njihovim poređenjem zaključiti koja je realizacija minimalna prema izabranom kriterijumu.}
 \end{frame}

@@ -1,21 +1,46 @@
-\begin{tikzpicture}[font=\fontsize{8}{9.5}\selectfont,x=8mm,y=6mm]
-\draw[DEvod] (0,0) rectangle (3,5.4);
-\draw[DEvod] (1.15,5.4) arc[start angle=180,end angle=360,x radius=2.8mm,y radius=1.8mm];
-\foreach \n/\lab [count=\k] in {1/A_0,2/B_0,3/O_0,4/A_1,5/B_1,6/O_1,7/\mathrm{GND}}{
- \coordinate (p\n) at (0,{5.2-.65*\k});
- \draw[DEvod] (p\n)--++(-.5,0) node[left] {\(\lab\)};
- \node[above,inner sep=1pt] at (-.22,{5.2-.65*\k}) {\n};
+% Pogled odozgo: četiri dvoulazna I kola u DIP-14 kućištu.
+% Svaki vod se završava na odgovarajućem fizičkom pinu; napajanje i masa
+% ostaju posebni priključci kućišta, bez prikaza unutrašnjih naponskih vodova.
+\begin{tikzpicture}[font=\fontsize{9}{10.5}\selectfont,x=8mm,y=5.5mm,
+  DEunutrasnje/.style={and gate US,draw,logic gate inputs=nn,
+    minimum width=6mm,minimum height=5mm}]
+% Zarez je deo spoljne konture, ne dodatna linija preko kućišta.
+\draw[DEvod] (0,0)--(3.6,0)--(3.6,6)--(2.1,6)
+ arc[start angle=0,end angle=-180,x radius=2.4mm,y radius=1.5mm]
+ --(0,6)--cycle;
+\foreach \pin/\oznaka [count=\k] in
+ {1/A_0,2/B_0,3/O_0,4/A_1,5/B_1,6/O_1,7/\mathrm{GND}}{
+  \pgfmathsetmacro{\visina}{5.55-.78*(\k-1)}
+  \coordinate (p\pin) at (0,\visina);
+  \draw[DEvod] (p\pin)--(-.3,\visina);
+  \node[anchor=east,inner sep=1pt] at (-.38,\visina) {\(\pin\)};
+  \node[anchor=east,inner sep=1pt] at (-.85,\visina) {\(\oznaka\)};
 }
-\foreach \n/\lab [count=\k] in {14/V_{\mathrm{CC}},13/A_2,12/B_2,11/O_2,10/A_3,9/B_3,8/O_3}{
- \coordinate (p\n) at (3,{5.2-.65*\k});
- \draw[DEvod] (p\n)--++(.5,0) node[right] {\(\lab\)};
- \node[above,inner sep=1pt] at (3.22,{5.2-.65*\k}) {\n};
+\foreach \pin/\oznaka [count=\k] in
+ {14/V_{\mathrm{CC}},13/A_2,12/B_2,11/O_2,10/A_3,9/B_3,8/O_3}{
+  \pgfmathsetmacro{\visina}{5.55-.78*(\k-1)}
+  \coordinate (p\pin) at (3.6,\visina);
+  \draw[DEvod] (p\pin)--(3.9,\visina);
+  \node[anchor=west,inner sep=1pt] at (3.98,\visina) {\(\pin\)};
+  \node[anchor=west,inner sep=1pt] at (4.5,\visina) {\(\oznaka\)};
 }
-\foreach \name/\xx/\yy in {a/1/3.8,b/1/1.7,c/2/3.15,d/2/1.05}{
- \node[and gate US,draw,rotate=-90,logic gate inputs=nn,minimum width=4mm,minimum height=4mm] (\name) at (\xx,\yy) {};
-}
-\draw[DEvod] (p1)-|(a.input 1) (p2)--++(.4,0)|-(a.input 2) (a.output)|-(p3);
-\draw[DEvod] (p4)-|(b.input 1) (p5)--++(.4,0)|-(b.input 2) (b.output)|-(p6);
-\draw[DEvod] (p13)-|(c.input 1) (p12)--++(-.4,0)|-(c.input 2) (c.output)|-(p11);
-\draw[DEvod] (p10)-|(d.input 1) (p9)--++(-.4,0)|-(d.input 2) (d.output)|-(p8);
+\node[DEunutrasnje] (g0) at (1.05,5.13) {};
+\node[DEunutrasnje] (g1) at (1.05,2.79) {};
+\node[DEunutrasnje,rotate=180] (g2) at (2.55,4.35) {};
+\node[DEunutrasnje,rotate=180] (g3) at (2.55,2.01) {};
+% Leva dva kola: 1,2 -> 3 i 4,5 -> 6.
+\draw[DEvod] (p1)--(.5,5.55)|-(g0.input 1);
+\draw[DEvod] (p2)--(.5,4.77)|-(g0.input 2);
+\draw[DEvod] (g0.output)--(1.7,5.13)|-(p3);
+\draw[DEvod] (p4)--(.5,3.21)|-(g1.input 1);
+\draw[DEvod] (p5)--(.5,2.43)|-(g1.input 2);
+\draw[DEvod] (g1.output)--(1.7,2.79)|-(p6);
+% Desna dva kola: 13,12 -> 11 i 10,9 -> 8.
+% Redosled dva ulaza na istom I kolu je električno ravnopravan.
+\draw[DEvod] (p13)--(3.24,4.77)|-(g2.input 2);
+\draw[DEvod] (p12)--(3.24,3.99)|-(g2.input 1);
+\draw[DEvod] (g2.output)--(1.9,4.35)|-(p11);
+\draw[DEvod] (p10)--(3.24,2.43)|-(g3.input 2);
+\draw[DEvod] (p9)--(3.24,1.65)|-(g3.input 1);
+\draw[DEvod] (g3.output)--(1.9,2.01)|-(p8);
 \end{tikzpicture}

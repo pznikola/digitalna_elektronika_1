@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "phase": "redizajn",
+  "lecture": "02",
+  "selected_style": "B",
+  "theme": "etf-v1",
+  "theme_manifest_sha256": "87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41",
+  "source_sha256": "f631914c9f32a0472f4fa3af11115abaadb9316dfcf6f1528cd91ef4d28868f4",
+  "slide_ids": [
+    "02-s001",
+    "02-s002",
+    "02-s002b",
+    "02-s003",
+    "02-s004",
+    "02-s005",
+    "02-s006",
+    "02-s007",
+    "02-s008",
+    "02-s009",
+    "02-s009b",
+    "02-s010",
+    "02-s011",
+    "02-s012",
+    "02-s013",
+    "02-s014",
+    "02-s015",
+    "02-s016",
+    "02-s017",
+    "02-s018",
+    "02-s019",
+    "02-s020",
+    "02-s021",
+    "02-s022",
+    "02-s023",
+    "02-s024",
+    "02-s025",
+    "02-s026",
+    "02-s027",
+    "02-s028",
+    "02-s029",
+    "02-s030",
+    "02-s031",
+    "02-s032",
+    "02-s033",
+    "02-s034",
+    "02-s035",
+    "02-s036",
+    "02-s037",
+    "02-s038",
+    "02-s039",
+    "02-s040",
+    "02-s041",
+    "02-s042",
+    "02-s043",
+    "02-s044",
+    "02-s045",
+    "02-s046",
+    "02-s047",
+    "02-s048",
+    "02-s049",
+    "02-s050",
+    "02-s051",
+    "02-s052",
+    "02-s053",
+    "02-s054"
+  ],
+  "baseline_sha256": "9c1b67e1a5259a095d9f51c7cbd57cf5cb08841f87e2c76b6717113a3ac5ed95",
+  "created": "2026-09-27T13:55:23.409902+00:00",
+  "build_record": "provera/redizajn/izgradnja.json",
+  "notes": {
+    "02-s001": {
+      "path": "beleske/s001.tex",
+      "title": "Sinteza kombinacionih mreža"
+    },
+    "02-s002": {
+      "path": "beleske/s002.tex",
+      "title": "Šta znači „trenutno“ stanje ulaza?"
+    },
+    "02-s002b": {
+      "path": "beleske/s002b.tex",
+      "title": "Promena ulaza i kašnjenje logičkog kola"
+    },
+    "02-s003": {
+      "path": "beleske/s003.tex",
+      "title": "Kašnjenje invertora pri promeni signala"
+    },
+    "02-s004": {
+      "path": "beleske/s004.tex",
+      "title": "Srednje kašnjenje i kratak impuls"
+    },
+    "02-s005": {
+      "path": "beleske/s005.tex",
+      "title": "Maksimalna specificirana kašnjenja"
+    },
+    "02-s006": {
+      "path": "beleske/s006.tex",
+      "title": "Kada je izlaz kombinacione mreže važeći?"
+    },
+    "02-s007": {
+      "path": "beleske/s007.tex",
+      "title": "Sinteza i kriterijumi minimizacije"
+    },
+    "02-s008": {
+      "path": "beleske/s008.tex",
+      "title": "Integrisana kola, čip i DIP kućište"
+    },
+    "02-s009": {
+      "path": "beleske/s009.tex",
+      "title": "Literal, proizvod i zbir"
+    },
+    "02-s009b": {
+      "path": "beleske/s009b.tex",
+      "title": "Indeksi članova i oblici logičke funkcije"
+    },
+    "02-s010": {
+      "path": "beleske/s010.tex",
+      "title": "Koraci sinteze kombinacione mreže"
+    },
+    "02-s011": {
+      "path": "beleske/s011.tex",
+      "title": "Od zahteva do funkcionalne tabele"
+    },
+    "02-s012": {
+      "path": "beleske/s012.tex",
+      "title": "Skraćena funkcionalna tabela"
+    },
+    "02-s013": {
+      "path": "beleske/s013.tex",
+      "title": "Zbir proizvoda iz redova sa F=1"
+    },
+    "02-s014": {
+      "path": "beleske/s014.tex",
+      "title": "Kanonička disjunktivna forma"
+    },
+    "02-s015": {
+      "path": "beleske/s015.tex",
+      "title": "Proizvod zbirova iz redova sa F=0"
+    },
+    "02-s016": {
+      "path": "beleske/s016.tex",
+      "title": "Drugi put: komplementarna funkcija"
+    },
+    "02-s017": {
+      "path": "beleske/s017.tex",
+      "title": "Kanonička konjunktivna forma"
+    },
+    "02-s018": {
+      "path": "beleske/s018.tex",
+      "title": "Indeksi potpunih proizvoda i zbirova"
+    },
+    "02-s019": {
+      "path": "beleske/s019.tex",
+      "title": "Direktna mreža I–ILI za zbir proizvoda"
+    },
+    "02-s020": {
+      "path": "beleske/s020.tex",
+      "title": "Invertori i opterećenje izvora signala"
+    },
+    "02-s021": {
+      "path": "beleske/s021.tex",
+      "title": "Rasterećenje ulaza"
+    },
+    "02-s022": {
+      "path": "beleske/s022.tex",
+      "title": "Mreža ILI–I za proizvod zbirova"
+    },
+    "02-s023": {
+      "path": "beleske/s023.tex",
+      "title": "Resursi direktne realizacije"
+    },
+    "02-s024": {
+      "path": "beleske/s024.tex",
+      "title": "Dualnost: transformacija u NI mrežu"
+    },
+    "02-s025": {
+      "path": "beleske/s025.tex",
+      "title": "NI kola su funkcionalno potpuna"
+    },
+    "02-s026": {
+      "path": "beleske/s026.tex",
+      "title": "NILI kola su funkcionalno potpuna"
+    },
+    "02-s027": {
+      "path": "beleske/s027.tex",
+      "title": "Šta se menja NI/NILI transformacijom?"
+    },
+    "02-s028": {
+      "path": "beleske/s028.tex",
+      "title": "Višeulazna funkcija od dvoulaznih kola"
+    },
+    "02-s029": {
+      "path": "beleske/s029.tex",
+      "title": "Uravnotežena realizacija petoulazne I funkcije"
+    },
+    "02-s030": {
+      "path": "beleske/s030.tex",
+      "title": "Oprez: NI kaskade nisu obične I kaskade"
+    },
+    "02-s031": {
+      "path": "beleske/s031.tex",
+      "title": "Troulazno NI kolo iz dvoulaznih"
+    },
+    "02-s032": {
+      "path": "beleske/s032.tex",
+      "title": "Spajanje minterma koji se razlikuju u jednom bitu"
+    },
+    "02-s033": {
+      "path": "beleske/s033.tex",
+      "title": "Karnoova karta za ručnu minimizaciju"
+    },
+    "02-s034": {
+      "path": "beleske/s034.tex",
+      "title": "Karnoove karte jedne i dve promenljive"
+    },
+    "02-s035": {
+      "path": "beleske/s035.tex",
+      "title": "Karnoove karte za tri promenljive"
+    },
+    "02-s036": {
+      "path": "beleske/s036.tex",
+      "title": "Karnoova karta za četiri promenljive"
+    },
+    "02-s037": {
+      "path": "beleske/s037.tex",
+      "title": "Karnoova karta za pet promenljivih"
+    },
+    "02-s038": {
+      "path": "beleske/s038.tex",
+      "title": "Karnoova karta za šest promenljivih"
+    },
+    "02-s039": {
+      "path": "beleske/s039.tex",
+      "title": "Površine reda k u Karnoovoj karti"
+    },
+    "02-s040": {
+      "path": "beleske/s040.tex",
+      "title": "Susedstvo preko ivica i između slojeva"
+    },
+    "02-s041": {
+      "path": "beleske/s041.tex",
+      "title": "Pokrivanje Karnoove karte"
+    },
+    "02-s042": {
+      "path": "beleske/s042.tex",
+      "title": "Neodređena stanja i stalni literali"
+    },
+    "02-s043": {
+      "path": "beleske/s043.tex",
+      "title": "Primer: minimalni zbir proizvoda"
+    },
+    "02-s044": {
+      "path": "beleske/s044.tex",
+      "title": "Primer: minimalni proizvod zbirova"
+    },
+    "02-s045": {
+      "path": "beleske/s045.tex",
+      "title": "Poređenje po broju ulaza kola"
+    },
+    "02-s046": {
+      "path": "beleske/s046.tex",
+      "title": "Ista funkcija: drugačiji broj čipova"
+    },
+    "02-s047": {
+      "path": "beleske/s047.tex",
+      "title": "Grupisanje SOP za manje vrsta čipova"
+    },
+    "02-s048": {
+      "path": "beleske/s048.tex",
+      "title": "SOP realizacija NI kolima: čipovi i kašnjenje"
+    },
+    "02-s049": {
+      "path": "beleske/s049.tex",
+      "title": "POS realizacija NILI kolima"
+    },
+    "02-s050": {
+      "path": "beleske/s050.tex",
+      "title": "Lažne nule i jedinice — glič"
+    },
+    "02-s051": {
+      "path": "beleske/s051.tex",
+      "title": "Statički hazard: izlaz treba da ostane 1"
+    },
+    "02-s052": {
+      "path": "beleske/s052.tex",
+      "title": "Minimizacija i prelaz između površina"
+    },
+    "02-s053": {
+      "path": "beleske/s053.tex",
+      "title": "Povezivanje površina: uklanjanje lažne nule"
+    },
+    "02-s054": {
+      "path": "beleske/s054.tex",
+      "title": "Hazardi, kašnjenja i cena realizacije"
+    }
+  },
+  "approved_splits": {
+    "approval_path": "provera/redizajn/odobrenje_podela.json",
+    "approval_sha256": "91b1d17866e4bb3252738a0280d881bf91e7739e62bbcd6e46702a97e238f8a4",
+    "continuations": {
+      "02-s002": "slajdovi/s002b_nastavak.tex",
+      "02-s009": "slajdovi/s009b_nastavak.tex"
+    }
+  }
+}

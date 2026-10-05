@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-05",
+  "timezone": "Europe/Belgrade",
+  "lecture": "02",
+  "status": "odobreno",
+  "user_message": "ok, prihvati 02 prezentaciju. Zavrsili smo sa njom",
+  "scope": "Aktuelna isporuka predavanja 02: 62 prezentaciona slajda i prateće beleške, posle završenih dorada do s054.",
+  "selected_style": "B",
+  "theme": "etf-v1",
+  "slide_ids": [
+    "02-s001",
+    "02-s002",
+    "02-s002b",
+    "02-s003",
+    "02-s004",
+    "02-s005",
+    "02-s006",
+    "02-s007",
+    "02-s008",
+    "02-s009",
+    "02-s009b",
+    "02-s010",
+    "02-s011",
+    "02-s012",
+    "02-s013",
+    "02-s014",
+    "02-s015",
+    "02-s015b",
+    "02-s016",
+    "02-s017",
+    "02-s018",
+    "02-s019",
+    "02-s020",
+    "02-s021",
+    "02-s022",
+    "02-s023",
+    "02-s023b",
+    "02-s024",
+    "02-s024b",
+    "02-s025",
+    "02-s026",
+    "02-s027",
+    "02-s028",
+    "02-s029",
+    "02-s030",
+    "02-s031",
+    "02-s032",
+    "02-s032b",
+    "02-s033",
+    "02-s034",
+    "02-s035",
+    "02-s036",
+    "02-s037",
+    "02-s038",
+    "02-s039",
+    "02-s040",
+    "02-s041",
+    "02-s042",
+    "02-s043",
+    "02-s044",
+    "02-s045",
+    "02-s046",
+    "02-s047",
+    "02-s048",
+    "02-s048b",
+    "02-s049",
+    "02-s049b",
+    "02-s050",
+    "02-s051",
+    "02-s052",
+    "02-s053",
+    "02-s054"
+  ],
+  "artifacts": {
+    "manifest": {
+      "path": "predavanja/02_sinteza_kombinacionih_mreza/provera/redizajn/manifest.json",
+      "sha256": "9cee4786e297b7979acf11d39a44f004dfa586e1623d55b92a62b968a812755f"
+    },
+    "original_pdf": {
+      "path": "predavanja/02 Sinteza kombinacionih mreza.pdf",
+      "sha256": "f631914c9f32a0472f4fa3af11115abaadb9316dfcf6f1528cd91ef4d28868f4"
+    },
+    "original_mapping": {
+      "path": "predavanja/02_sinteza_kombinacionih_mreza/provera/mapa.json",
+      "sha256": "b2c8e07fa123a40da68c8b89b1b1c6ce88112e90c7417792cdec341d60136ca2"
+    },
+    "presentation_pdf": {
+      "path": "predavanja/02_sinteza_kombinacionih_mreza/build/02_sinteza_kombinacionih_mreza.pdf",
+      "sha256": "e2bce5e724ce41cce7c7df3ab52f7503349fa1505e13196c2e3dc27ebd8481c3"
+    },
+    "notes_pdf": {
+      "path": "predavanja/02_sinteza_kombinacionih_mreza/build/02_sinteza_kombinacionih_mreza_beleske.pdf",
+      "sha256": "460ed29d80122ddfb70099770bab41eb6a70aa039b07c5a09d691c87e6ec432e"
+    },
+    "build_record": {
+      "path": "predavanja/02_sinteza_kombinacionih_mreza/provera/redizajn/izgradnja.json",
+      "sha256": "b7cebc207fa99e1bdc80bc90d080377e77f3027c68bfe6877ed74044900e37e5"
+    },
+    "review_confirmations": {
+      "path": "predavanja/02_sinteza_kombinacionih_mreza/provera/redizajn/pregled.json",
+      "sha256": "b601434886d3f5cef4bcde593e84a3f45cbe9b04fb10323ff05027c019006fd1"
+    },
+    "notes_evidence": {
+      "path": "predavanja/02_sinteza_kombinacionih_mreza/provera/redizajn/evidencija_beleski.json",
+      "sha256": "5ccd5f4578909d6f9310855c2643bc5e9af6947f460e936b43c9a63ddb99df57"
+    },
+    "coverage": {
+      "path": "predavanja/02_sinteza_kombinacionih_mreza/provera/redizajn/pokrivenost.json",
+      "sha256": "925a6b3e41a28c2c7a018372d466b604775c6e3b836527a54275a03d2bbf3339"
+    },
+    "inventory": {
+      "path": "predavanja/02_sinteza_kombinacionih_mreza/provera/redizajn/inventar.json",
+      "sha256": "883b9b672a6d67c2b5cb3243541f19556f7cb36372217fe0164c6c1a66bd4c58"
+    },
+    "split_approval": {
+      "path": "predavanja/02_sinteza_kombinacionih_mreza/provera/redizajn/odobrenje_podela.json",
+      "sha256": "8ccd96066474d679f2c64c0ff94d88608bf082ab96c4bd408342f598e9c7867f"
+    },
+    "comparison": {
+      "path": "predavanja/02_sinteza_kombinacionih_mreza/provera/redizajn/poredjenje_dorade_s047_s054.json",
+      "sha256": "b974d4054d2a987f1f75de20c35c28a654ed722ffb1a931c33db6c5a91d9e3d2"
+    },
+    "theme_manifest": {
+      "path": "predavanja/_zajednicko/etf-v1/manifest.json",
+      "sha256": "87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41"
+    }
+  },
+  "reviewed_report": {
+    "path": "predavanja/02_sinteza_kombinacionih_mreza/provera/redizajn/istorija/pre-odobrenja-2026-10-05/izvestaj.md",
+    "sha256": "34c9ad3da800a210f1337ab525eb06d1da57d1d27943a297b6e42775bd26576a"
+  },
+  "verification": "Otisci svih zabeleženih izvora, zavisnosti i izlaza odgovaraju poslednjoj provereno isporučenoj verziji; prethodni notes/review/check prošli. Nastavni izvori nisu menjani pri prihvatanju.",
+  "next_lecture": "Ovom porukom nije doneta nova odluka o sledećem predavanju; ranija zasebna dozvola za početak 03 ostaje važeća.",
+  "resume_rule": "Ne ponavljati završenu analizu 02 dok se relevantni izvori ili zavisnosti nisu promenili; doradu odobrene verzije raditi po novom korisnikovom nalogu."
+}

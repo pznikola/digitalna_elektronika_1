@@ -1,20 +1,27 @@
 \slajdid{02-s011}
-\begin{frame}[label=02-s011]
-\gusttekst
-\begin{columns}[c,onlytextwidth]
-\begin{column}{.74\textwidth}
-Neka je na primer zahtevima za digitalni sistem definisano
+\begin{frame}[label=02-s011]{Od zahteva do funkcionalne tabele}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.62\textwidth}
+% element: 02-s011:e01
+Neka je zahtevima za digitalni sistem definisano:
+\par\vspace{2mm}
 \begin{enumerate}
-\item Digitalni sistem ima tri ulazna digitalna signala i jedan izlazni digitalni signal
-\item Izlazni digitalni signal je na nivou logičke jedinice samo ako su dva ulaza digitalnih signala na nivou logičke jedinice.
-\item U svim ostalim slučajevima izlazni digitalni signal je na nivou logičke nule
+\item Sistem ima tri ulazna i jedan izlazni digitalni signal.
+\item Izlaz je 1 tačno kada su \alert{dva od tri ulaza} na 1.
+\item U svim ostalim slučajevima izlaz je 0.
 \end{enumerate}
-Prvi korak je da ulaznim i izlaznim digitalnim signalima dodelimo logičke promenljive. Ulaznim digitalnim signalima ćemo dodeliti logičke promenljive C, B i A, dok ćemo izlaznom digitalnom signalu dodeliti logičku promenljivu F. Radićemo u pozitivnoj logici tako da kada je na primer nivo ulaznog signal jednak logičkoj jedinici odgovarajuća logička promenjiva ima vrednost logičke jedinice.
-
-Na osnovu zahteva koji su postavljeni pred digitalni sistem možemo formirati funkcionalnu tabelu.
+\par\vspace{3mm}
+% element: 02-s011:e02
+\Oznaka{Prvi korak: signalima pridružujemo logičke promenljive}\par\vspace{1mm}
+Ulazi: \(C\), \(B\), \(A\). Izlaz: \(F\).\par
+Pozitivna logika: nivo logičke jedinice odgovara vrednosti promenljive 1.
+\par\vspace{3mm}
+% element: 02-s011:e03
+Na osnovu zahteva formiramo funkcionalnu tabelu sa svih osam kombinacija ulaza.
 \end{column}
-\begin{column}{.23\textwidth}
-\input{tabele/s011_funkcionalna_tabela.tex}
+\begin{column}{.32\textwidth}\centering
+\Oznaka{Funkcionalna tabela}\par\vspace{3mm}
+{\fontsize{9}{11}\selectfont \input{tabele/s011_funkcionalna_tabela.tex}}
 \end{column}
 \end{columns}
 \end{frame}
