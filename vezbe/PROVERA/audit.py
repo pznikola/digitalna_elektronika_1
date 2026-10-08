@@ -76,7 +76,8 @@ def inventory(n):
   add('naslov pottačke',m.start(),brace(s,m.end()-1))
  # Include native assets and generated exports, with explicit main-file uses.
  for asset in sorted(folder.rglob('*')):
-  if not asset.is_file() or asset==main or asset.suffix not in ['.tex','.drawio','.png','.vhd','.pdf']:continue
+  if not asset.is_file() or asset==main or asset.suffix not in ['.tex','.drawio','.png','.vhd','.sv','.pdf']:continue
+  if '.build' in asset.parts or 'obj_dir' in asset.parts:continue
   if '_minted-' in str(asset) or asset==main.with_suffix('.pdf'):continue
   rel=asset.relative_to(folder).as_posix();stem=asset.with_suffix('').relative_to(folder).as_posix()
   needles=[rel,stem]
@@ -86,11 +87,11 @@ def inventory(n):
    if u['kind']=='uključeni fajl' and any(x in u['text'] for x in needles):uses.append(u['line_start'])
   # Alternate PNG is historical; a .tex sibling supplies the current image.
   if asset.suffix=='.png' and asset.with_suffix('.tex').exists():uses=[]
-  associated=asset.suffix=='.vhd' and ('/'+rel in source or 'code/' in rel)
-  kind='izvor ilustracije' if asset.suffix in ['.drawio','.tex','.png'] else 'izvoz ilustracije' if asset.suffix=='.pdf' else 'VHDL izvor'
-  role='uključen' if uses else 'prateći VHDL modul/testbench' if associated else 'nekorišćen materijal'
-  raw=asset.read_text() if asset.suffix in ['.tex','.drawio','.vhd'] else ''
-  units.append({'kind':kind,'source':str(asset.relative_to(ROOT)),'line_start':1,'line_end':len(raw.splitlines()) if raw else None,'offset':0,'text':raw if asset.suffix in ['.tex','.vhd'] else f'{role}: {rel}','content_sha256':sha(asset),'label':None,'parent_hint':None,'main_uses':uses,'role':role,'context':rel,'section_number':None})
+  associated=asset.suffix in ['.vhd','.sv'] and ('/'+rel in source or 'code/' in rel)
+  kind='izvor ilustracije' if asset.suffix in ['.drawio','.tex','.png'] else 'izvoz ilustracije' if asset.suffix=='.pdf' else 'SystemVerilog izvor' if asset.suffix=='.sv' else 'VHDL izvor'
+  role='uključen' if uses else 'sačuvani VHDL referentni izvor' if asset.suffix=='.vhd' else 'prateći SystemVerilog modul/testbench' if associated else 'nekorišćen materijal'
+  raw=asset.read_text() if asset.suffix in ['.tex','.drawio','.vhd','.sv'] else ''
+  units.append({'kind':kind,'source':str(asset.relative_to(ROOT)),'line_start':1,'line_end':len(raw.splitlines()) if raw else None,'offset':0,'text':raw if asset.suffix in ['.tex','.vhd','.sv'] else f'{role}: {rel}','content_sha256':sha(asset),'label':None,'parent_hint':None,'main_uses':uses,'role':role,'context':rel,'section_number':None})
  # Stable IDs are persistent, assigned independently of current line numbers.
  oldpath=HERE/'registar.json';old=[]
  if oldpath.exists():old=[u for u in json.loads(oldpath.read_text())['items'] if u['exercise']==n]
@@ -118,7 +119,7 @@ def inventory(n):
 
 def dependencies(n):
  folder=ROOT/n
- return {str(p.relative_to(ROOT)):sha(p) for p in sorted(folder.rglob('*')) if p.is_file() and '_minted-' not in str(p) and '__pycache__' not in p.parts and (p.suffix in ['.tex','.drawio','.png','.vhd','.py','.json'] or p.name=='Makefile')}
+ return {str(p.relative_to(ROOT)):sha(p) for p in sorted(folder.rglob('*')) if p.is_file() and '_minted-' not in str(p) and not any(part in p.parts for part in ['__pycache__','.build','obj_dir']) and (p.suffix in ['.tex','.drawio','.png','.vhd','.sv','.py','.json','.tcl','.do','.sh'] or p.name=='Makefile')}
 
 def evidence_dependencies(n):
  """Separate from historical local-source attestations; changes invalidate review."""
@@ -127,6 +128,7 @@ def evidence_dependencies(n):
  paths += [p for p in (ROOT/n).glob('*.pdf') if p!=main.with_suffix('.pdf')]
  paths += [p for p in ROOT.glob(n+'_*') if p.suffix in ['.docx','.pdf']]
  helpers=['audit.py','build.py','logic.py','structure.py','negative_checks.py','registry_check.py','clean_build.py']+(['vhdl_check.py'] if n=='01' else ['vhdl02.py'] if n=='02' else [])
+ if n in ['01','02']:helpers += ['hdl_runtime.py','simulacija.py','systemverilog_check.py','vendor_check.py','pdf_code_check.py']
  paths += [HERE/k for k in helpers]
  paths += [ROOT/'Makefile']
  # Historical findings and portable execution records are evidence too.
@@ -181,6 +183,7 @@ METHODS={
  'izvor ilustracije':'Praćenje izmenjivih veza/koordinata i oznaka; algoritamska provera gde je parsirana, inače ručni dokaz vezan SHA256 otiskom.',
  'izvoz ilustracije':'Regenerisanje iz izmenjivog izvora i vizuelno poređenje u dokumentu; čista izgradnja.',
  'VHDL izvor':'GHDL u izolovanom direktorijumu; automatska očekivanja i vremenski događaji, uz pregled izvora.',
+ 'SystemVerilog izvor':'Verilator i Icarus u Dockeru; iscrpno poređenje VHDL/SV signala i fizičkih vremena, uz pregled izvora.',
  'Karnoova karta':'Sve ćelije, implicirane grupe i rubna susednost; originalne strelice sačuvane i proverene.',
 }
 

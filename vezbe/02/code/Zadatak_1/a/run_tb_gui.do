@@ -1,15 +1,15 @@
 # run_tb_gui.do
 
 # Create / map the work library
-vlib work
-vmap work work
+vlib work_sv
+vmap work_sv work_sv
 
 # Compile design and testbench
-vcom zadatak.vhd
-vcom tb_zadatak.vhd
+vlog -sv -timescale 1ns/1ps -work work_sv zadatak.sv
+vlog -sv -timescale 1ns/1ps -work work_sv tb_zadatak.sv
 
 # Start simulation of testbench top
-vsim -voptargs=+acc tb_zadatak
+vsim -voptargs=+acc work_sv.tb_zadatak
 
 # Set A, B, C to binary radix
 radix signal sim:/tb_zadatak/D -binary
@@ -19,7 +19,7 @@ radix signal sim:/tb_zadatak/S -binary
 add wave -position insertpoint sim:/tb_zadatak/*
 
 # Run for some time so you get some activity
-run 200 ns
+run -all
 
 # Do NOT quit here – leave GUI + waves open
 # quit -f

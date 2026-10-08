@@ -19,15 +19,19 @@ def main():
  target=Path(tempfile.mkdtemp(prefix='de1-clean-audit-'));w=target/'vezbe';w.mkdir();source_hashes={}
  for n in DOCS:
   for p in sorted((ROOT/n).rglob('*')):
-   if p.is_file() and (p.suffix in ['.tex','.drawio','.png','.vhd','.py','.json','.md'] or p.name=='Makefile') and '_minted-' not in str(p) and '__pycache__' not in p.parts:
+   if p.is_file() and (p.suffix in ['.tex','.drawio','.png','.vhd','.sv','.py','.json','.md','.tcl','.do','.sh'] or p.name=='Makefile') and '_minted-' not in str(p) and not any(part in p.parts for part in ['__pycache__','.build','obj_dir']):
     dst=w/p.relative_to(ROOT);dst.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,dst);source_hashes[str(p.relative_to(ROOT))]=sha(p)
  (w/'PROVERA').mkdir()
  for p in HERE.glob('*.py'):shutil.copy2(p,w/'PROVERA'/p.name);source_hashes[str(p.relative_to(ROOT))]=sha(p)
+ for p in HERE.glob('*.json'):shutil.copy2(p,w/'PROVERA'/p.name)
+ shutil.copytree(HERE/'dokazi',w/'PROVERA/dokazi')
  shutil.copy2(ROOT/'Makefile',w/'Makefile');source_hashes['Makefile']=sha(ROOT/'Makefile')
  assert not list(w.rglob('*.pdf')) and not list(w.rglob('*.aux')) and not list(w.rglob('_minted-*'))
  print(f'Clean source tree: {w}',flush=True)
  run(['make'],w,target/'build.log');print('Fresh build passed for all seven documents.',flush=True)
  run(['python3','PROVERA/structure.py'],w,target/'structure.log')
+ run(['make','check'],w,target/'checks.log')
+ print('Fresh mathematical, HDL, negative and registry checks passed.',flush=True)
  documents={}
  for n in DOCS:
   pdf=next((w/n).glob(n+'_*.pdf'));current=ROOT/n/pdf.name
@@ -36,7 +40,7 @@ def main():
   aa={p.name:sha(p) for p in a.glob('*.png')};bb={p.name:sha(p) for p in b.glob('*.png')}
   documents[n]={'fresh_pdf_sha256':sha(pdf),'reviewed_pdf_sha256':sha(current),'page_count':len(aa),'pixels_identical':aa==bb,'different_pages':sorted(k for k in aa.keys()|bb.keys() if aa.get(k)!=bb.get(k))}
   print(n,documents[n],flush=True)
- result={'source_tree':str(w),'sources':source_hashes,'no_generated_inputs':True,'documents':documents,'log':str(target/'build.log')}
+ result={'source_tree':str(w),'sources':source_hashes,'no_generated_inputs':True,'documents':documents,'log':str(target/'build.log'),'checks_log':str(target/'checks.log'),'fresh_checks':'pass'}
  (HERE/'_build').mkdir(exist_ok=True);(HERE/'_build/clean_build.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
  if not all(d['pixels_identical'] for d in documents.values()):raise SystemExit('Fresh PDFs differ visually; review listed pages.')
  print('Clean build and all page comparisons passed.',flush=True)

@@ -3,9 +3,8 @@ from pathlib import Path
 import itertools,subprocess,tempfile,re,json
 
 def run(args,cwd):
- p=subprocess.run(args,cwd=cwd,capture_output=True,text=True)
- if p.returncode:raise AssertionError(' '.join(args)+'\n'+p.stdout+p.stderr)
- return p.stdout
+ from hdl_runtime import run as run_hdl
+ return run_hdl(args,cwd)
 
 def vcd(path):
  names={};traces={};time=0;scale=1

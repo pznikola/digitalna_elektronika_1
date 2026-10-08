@@ -27,6 +27,14 @@
 
 %---- for code
 \usepackage{minted}
+\usepackage{accsupp,stringenc}
+% Copy the original UTF-8 source, including spaces and newlines, from a listing.
+\newcommand{\BeginVerilogCopy}[1]{%
+  \EdefUnescapeHex\CodeCopyRaw{\pdffiledump length\pdffilesize{#1} {#1}}%
+  \StringEncodingConvert\CodeCopyUnicode{\CodeCopyRaw}{utf8}{utf16be}%
+  \EdefEscapeHex\CodeCopyHex{\CodeCopyUnicode}%
+  \BeginAccSupp{method=hex,unicode,ActualText=\CodeCopyHex}%
+}
 
 %---- Flush floats
 \usepackage{needspace}
@@ -713,12 +721,15 @@ Na slici~\ref{fig:zadatak1-2-nili} je predstavljena implementacija funkcije~\eqr
 %\FloatBarrier   % place all pending floats before carrying on
 \FloatBarrier
 \noindent\begin{minipage}{\linewidth}
-VHDL kod koji implementira funkcije~\eqref{eq:zad21_min_zp} i~\eqref{eq:zad21_min_pz}.
-\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_1/zadatak.vhd}
+Primeri su napisani u SystemVerilogu (fajlovi \texttt{.sv}) i simuliraju se Verilatorom.\par
+Verilog kod koji implementira funkcije~\eqref{eq:zad21_min_zp} i~\eqref{eq:zad21_min_pz}.
+\BeginVerilogCopy{code/Zadatak_1/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_1/zadatak.sv}
+\EndAccSupp{}
 
 %\newpage
 \noindent
-Testbench koji simulira date funkcije je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_1/tb_zadatak.vhd}{OVDE}.
+Testbench koji simulira date funkcije je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_1/tb_zadatak.sv}{OVDE}.
 \end{minipage}
 
 \clearpage
@@ -868,13 +879,15 @@ funkcije~\eqref{eq:zad22_min_zp}.
 %\FloatBarrier   % place all pending floats before carrying on
 \FloatBarrier
 \noindent\begin{minipage}{\linewidth}
-VHDL kod koji implementira funkcije~\eqref{eq:zad22_min_zp} i~\eqref{eq:zad22_min_pz}.
-U VHDL kodu portovi \texttt{Y\_ZP} i \texttt{Y\_PZ} predstavljaju izlaz $Z$ u dve realizacije.
-\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_2/zadatak.vhd}
+Verilog kod koji implementira funkcije~\eqref{eq:zad22_min_zp} i~\eqref{eq:zad22_min_pz}.
+U Verilog kodu portovi \texttt{Y\_ZP} i \texttt{Y\_PZ} predstavljaju izlaz $Z$ u dve realizacije.
+\BeginVerilogCopy{code/Zadatak_2/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_2/zadatak.sv}
+\EndAccSupp{}
 
 %\newpage
 \noindent
-Testbench koji simulira funkcije~\eqref{eq:zad22_min_zp} i~\eqref{eq:zad22_min_pz} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_2/tb_zadatak.vhd}{OVDE}.
+Testbench koji simulira funkcije~\eqref{eq:zad22_min_zp} i~\eqref{eq:zad22_min_pz} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_2/tb_zadatak.sv}{OVDE}.
 \end{minipage}
 
 \newpage
@@ -1053,12 +1066,14 @@ u minimalnoj realizaciji.
 %\FloatBarrier   % place all pending floats before carrying on
 \FloatBarrier
 \noindent\begin{minipage}{\linewidth}
-VHDL kod koji implementira funkciju $C = A \cdot B$.
-\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_3/zadatak.vhd}
+Verilog kod koji implementira funkciju $C = A \cdot B$.
+\BeginVerilogCopy{code/Zadatak_3/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_3/zadatak.sv}
+\EndAccSupp{}
 
 %\newpage
 \noindent
-Testbench koji simulira funkciju $C = A \cdot B$ je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_3/tb_zadatak.vhd}{OVDE}.
+Testbench koji simulira funkciju $C = A \cdot B$ je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_3/tb_zadatak.sv}{OVDE}.
 \end{minipage}
 
 \newpage
@@ -1200,20 +1215,22 @@ dodatnoj minimizaciji logičke funkcije~\eqref{eq:zad4} što \textbf{NE MORA} uv
 \FloatBarrier   % place all pending floats before carrying on
 \FloatBarrier
 \noindent\begin{minipage}{\linewidth}
-VHDL kod koji implementira funkciju~\eqref{eq:zad4} sa ka\v{s}njenjem T.\\
-\textbf{Napomena:} Kašnjenja služe samo simulaciji. Zapis \texttt{after T}
+Verilog kod koji implementira funkciju~\eqref{eq:zad4} sa ka\v{s}njenjem T.\\
+\textbf{Napomena:} Kašnjenja služe samo simulaciji. Zapis \texttt{assign \#(T)}
 podrazumeva inertno kašnjenje: kraći impulsi mogu biti potisnuti.
-Transportno kašnjenje (\texttt{transport}) prenosi i takve impulse.
+Transportni model prenosi i takve impulse; prikazani primer koristi inertni model.
 Za zadati prelaz iz zadatka 4 ulazni impuls izlaznog kola traje tačno $T$;
 prikazani izlazni impuls traje od $2T$ do $3T$ posle promene $D$.
 Odsustvo impulsa u jednoj simulaciji nije opšti dokaz odsustva hazarda.
-\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_4/zadatak.vhd}
+\BeginVerilogCopy{code/Zadatak_4/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_4/zadatak.sv}
+\EndAccSupp{}
 
 %\newpage
 \noindent
-Testbench koji simulira prelazak $ABCD = 1111$ \textrightarrow~$ABCD = 1110$ je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_4/tb_zadatak.vhd}{OVDE}.
+Testbench koji simulira prelazak $ABCD = 1111$ \textrightarrow~$ABCD = 1110$ je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_4/tb_zadatak.sv}{OVDE}.
 \end{minipage}
-%\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_4/tb_zadatak.vhd}
+%\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_4/tb_zadatak.sv}
 
 
 \newpage
@@ -1411,13 +1428,15 @@ u Karnoovoj karti dobili smo formu~\eqref{eq:zad5-fin}. Za razliku od~\eqref{eq:
 
 \FloatBarrier
 \noindent\begin{minipage}{\linewidth}
-VHDL kod koji implementira funkcije~\eqref{eq:zad5-min} i~\eqref{eq:zad5-fin} sa ka\v{s}njenjem T.\\
-\textbf{Napomena:} Kašnjenja služe samo simulaciji; \texttt{after T} koristi inertni model, objašnjen uz zadatak~\ref{zad_4}.
-\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_5/zadatak.vhd}
+Verilog kod koji implementira funkcije~\eqref{eq:zad5-min} i~\eqref{eq:zad5-fin} sa ka\v{s}njenjem T.\\
+\textbf{Napomena:} Kašnjenja služe samo simulaciji; \texttt{assign \#(T)} koristi inertni model, objašnjen uz zadatak~\ref{zad_4}.
+\BeginVerilogCopy{code/Zadatak_5/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_5/zadatak.sv}
+\EndAccSupp{}
 
 %\newpage
 \noindent
-Testbench koji simulira funkcije~\eqref{eq:zad5-min} i~\eqref{eq:zad5-fin} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_5/tb_zadatak.vhd}{OVDE}.
+Testbench koji simulira funkcije~\eqref{eq:zad5-min} i~\eqref{eq:zad5-fin} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_5/tb_zadatak.sv}{OVDE}.
 \end{minipage}
 
 \newpage
@@ -1570,13 +1589,15 @@ Y = (\bar{B} + C + D) (A + \bar{D}) (\bar{A} + \bar{C}) (\bar{C} + \bar{D}) (A +
 
 \FloatBarrier
 \noindent\begin{minipage}{\linewidth}
-VHDL kod koji implementira funkcije~\eqref{eq:kmap-6-pz} i~\eqref{eq:zad6-final} sa ka\v{s}njenjem T.\\
-\textbf{Napomena:} Kašnjenja služe samo simulaciji; \texttt{after T} koristi inertni model, objašnjen uz zadatak~\ref{zad_4}.
-\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_6/zadatak.vhd}
+Verilog kod koji implementira funkcije~\eqref{eq:kmap-6-pz} i~\eqref{eq:zad6-final} sa ka\v{s}njenjem T.\\
+\textbf{Napomena:} Kašnjenja služe samo simulaciji; \texttt{assign \#(T)} koristi inertni model, objašnjen uz zadatak~\ref{zad_4}.
+\BeginVerilogCopy{code/Zadatak_6/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_6/zadatak.sv}
+\EndAccSupp{}
 
 %\newpage
 \noindent
-Testbench koji simulira funkcije~\eqref{eq:kmap-6-pz} i~\eqref{eq:zad6-final} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_6/tb_zadatak.vhd}{OVDE}.
+Testbench koji simulira funkcije~\eqref{eq:kmap-6-pz} i~\eqref{eq:zad6-final} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_6/tb_zadatak.sv}{OVDE}.
 \end{minipage}
 
 \clearpage

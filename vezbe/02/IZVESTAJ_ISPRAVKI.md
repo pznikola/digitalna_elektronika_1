@@ -57,3 +57,15 @@ Primarni izvori:
 - MIT 6.004, [Combinational Logic, odeljak 4.1](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c4/c4s1/), delovi o multiplekserima i „Glitches”: funkcionalna realizacija i uslovi pojave prolaznih grešaka. Konkretni prelazi u ovom materijalu provereni su zasebno, iz stvarnih VHDL putanja.
 
 Mašinski dokazi izvršavanja: `../PROVERA/_build/math02.json`, `../PROVERA/_build/ghdl02.json` (ponovo se generišu, nisu zamena za izvore). Konačni vizuelni status određen je isključivo važećom potvrdom u `../PROVERA/rucni_pregled.json`.
+
+## 02-SV01 — SystemVerilog primeri i Verilator
+
+RTL primeri ne sadrže `timeunit` ili `timeprecision`: jedinica i preciznost podešene su u simulacionim skriptama. Vremenske deklaracije zadržane su u testbenchovima.
+
+Osam aktivnih listinga i njihovih testbench linkova koristi `.sv`. Svih 20 VHDL izvora sačuvano je neizmenjeno, uz početne SHA-256 otiske. Prevedena su i četiri pomoćna modula, sa zasebnim testbenchovima. Sačuvani su eksplicitni izrazi multipleksera, NI kola sa vezanim ulazima, hijerarhija, redosled bitova, polaritet dekodera i prosleđivanje parametra T.
+
+Dekoderi zadržavaju sve binarne grane i neodređeni rezultat za nepoznatu adresu/dozvolu, uz poznato isključenje koje daje sve jedinice. Verilator proverava binarne slučajeve; Icarus dodatno proverava X/Z i poredi se sa originalnim GHDL modelom, uz preslikavanje U u X. To nije dokaz pune devetovrednosne VHDL semantike. Studentski testbenchovi čuvaju originalne stimuluse i vremenske razmake.
+
+Zajedničke provere pokrivaju sve binarne kombinacije, jednoulazne prelaze, interne signalne putanje i kašnjenja, uz podrazumevani T i 7 ns i kratke impulse. Aktivne Quartus/Questa skripte koriste SystemVerilog; VHDL varijante imaju sufiks `_vhdl`. Formule, šeme i Karnoove karte nisu menjane ovom dopunom. Raniji odeljci izveštaja zadržani su kao istorija prethodne verzije.
+
+PDF listinzi imaju `ActualText` sa izvornim tekstom, tako da kopiranje celog koda čuva znakove, obične razmake, uvlačenje i nove redove. Zajednička provera poredi izvučeni tekst sa `.sv` izvorom i simulira kopirani kod; vizuelni prikaz listinga nije promenjen.

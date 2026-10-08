@@ -1,38 +1,34 @@
-#!/usr/bin/env bash
+# SystemVerilog je aktivni primer; VHDL izvori i ciljevi su sacuvani.
+.DEFAULT_GOAL := run_verilator
+PYTHON ?= python3
+PROVERA := ../../../PROVERA
+EXAMPLE := 01/code/Zadatak_1
+TOP ?= tb_zadatak
+.PHONY: run_verilator run_iverilog view_wave run_ghdl run_vsim run_vsim_vhdl run_schematic run_schematic_vhdl clean
 
-DESIGN = zadatak
+run_verilator:
+	$(PYTHON) $(PROVERA)/simulacija.py $(EXAMPLE) --top $(TOP)
 
-# Clean old stuff
-clean:
-	rm -rf *.o *.cf *.vcd tb_${DESIGN} transcript *.qpf *.qsf *.wlf *.qws modelsim.ini ./db/ ./incremental_db/ ./output_files/ ./work/
+run_iverilog:
+	$(PYTHON) $(PROVERA)/simulacija.py $(EXAMPLE) --top $(TOP) --engine iverilog
 
-# Run the simulation using GHDL
+view_wave:
+	gtkwave .build/verilator/$(TOP).vcd
+
 run_ghdl:
-# Clean all
-	make clean
-# Analyze (compile) VHDL files
-	ghdl -a --std=08 ${DESIGN}.vhd
-	ghdl -a --std=08 tb_${DESIGN}.vhd
-# Elaborate the testbench
-	ghdl -e --std=08 tb_${DESIGN}
-# Run the simulation, dump VCD waveform
-	ghdl -r --std=08 tb_${DESIGN} \
-		--vcd=${DESIGN}.vcd \
-		--stop-time=200ns
-# Show waveform
-	gtkwave ${DESIGN}.vcd &
+	$(PYTHON) $(PROVERA)/simulacija.py $(EXAMPLE) --engine ghdl
 
-# Run the simulation using Quartus
 run_vsim:
-# Clean all
-	make clean
-# Run simulation
 	vsim -do run_tb_gui.do
 
+run_vsim_vhdl:
+	vsim -do run_tb_gui_vhdl.do
 
-# Create Quartus project, elaborate it and open the project in order to inspect RTL schematic
 run_schematic:
-# Clean all
-	make clean
-# Build project
-	./build_and_open.sh &
+	./build_and_open.sh
+
+run_schematic_vhdl:
+	./build_and_open_vhdl.sh
+
+clean:
+	rm -rf .build/

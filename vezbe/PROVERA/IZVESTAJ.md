@@ -4,8 +4,8 @@ Automatski cilj ne potvrđuje ručni pregled. Potvrde su vezane za pregledane iz
 
 | Vežba | Stavke | Stranice | Sadržaj | Svaka stranica | Izveštaj |
 |---|---:|---:|---|---|---|
-| 01 | 782 | 25 | pregledan | pregledana | [ispravke](../01/IZVESTAJ_ISPRAVKI.md) |
-| 02 | 651 | 29 | pregledan | pregledana | [ispravke](../02/IZVESTAJ_ISPRAVKI.md) |
+| 01 | 793 | 25 | pregledan | pregledana | [ispravke](../01/IZVESTAJ_ISPRAVKI.md) |
+| 02 | 675 | 26 | pregledan | pregledana | [ispravke](../02/IZVESTAJ_ISPRAVKI.md) |
 | 03 | 640 | 17 | pregledan | pregledana | [ispravke](../03/IZVESTAJ_ISPRAVKI.md) |
 | 04 | 973 | 27 | pregledan | pregledana | [ispravke](../04/IZVESTAJ_ISPRAVKI.md) |
 | 05 | 839 | 17 | pregledan | pregledana | [ispravke](../05/IZVESTAJ_ISPRAVKI.md) |
@@ -19,10 +19,11 @@ Brojevi predstavljaju inventarske celine koje se namerno preklapaju (npr. tabela
 | Vežba | Kategorija | Sve | Potvrđene | Ispravljene | Ograničene | Neproverene |
 |---|---|---:|---:|---:|---:|---:|
 | 01 | Karnoova karta | 18 | 18 | 0 | 0 | 0 |
+| 01 | SystemVerilog izvor | 12 | 12 | 0 | 0 | 0 |
 | 01 | TikZ crtež | 12 | 12 | 0 | 0 | 0 |
 | 01 | VHDL izvor | 12 | 12 | 0 | 0 | 0 |
 | 01 | izvor ilustracije | 8 | 8 | 0 | 0 | 0 |
-| 01 | izvoz ilustracije | 9 | 9 | 0 | 0 | 0 |
+| 01 | izvoz ilustracije | 8 | 8 | 0 | 0 | 0 |
 | 01 | jednačina | 30 | 26 | 4 | 0 | 0 |
 | 01 | matematika u tekstu | 213 | 213 | 0 | 0 | 0 |
 | 01 | napomena | 2 | 2 | 0 | 0 | 0 |
@@ -35,6 +36,7 @@ Brojevi predstavljaju inventarske celine koje se namerno preklapaju (npr. tabela
 | 01 | tekst | 250 | 239 | 11 | 0 | 0 |
 | 01 | uključeni fajl | 14 | 14 | 0 | 0 | 0 |
 | 02 | Karnoova karta | 18 | 4 | 0 | 14 | 0 |
+| 02 | SystemVerilog izvor | 24 | 24 | 0 | 0 | 0 |
 | 02 | TikZ crtež | 1 | 1 | 0 | 0 | 0 |
 | 02 | VHDL izvor | 20 | 20 | 0 | 0 | 0 |
 | 02 | izvor ilustracije | 21 | 21 | 0 | 0 | 0 |
@@ -115,9 +117,13 @@ Brojevi predstavljaju inventarske celine koje se namerno preklapaju (npr. tabela
 
 ## Ograničenja izvornika
 
+- **01:** Verilator X/Z provere delegirane Icarusu; početno smirivanje izuzeto iz VCD poređenja.
+- **01:** PDF kopiranje provereno Popplerom uz ActualText; zavisi od podrške preglednika.
 - **02:** 02-S05: sačuvano alternativno rešenje 6/64 koristi dekodere sa enable iz b); dodat ispravan uslov za doslovnu a).
 - **02:** 02-S09: trajanje resetovanja BCD kaskade zavisi od nezadatih kašnjenja. Stacionarna funkcija proverena uz izričito naveden protokol.
 - **02:** Minimum broja kola u samostalnom zadatku 2 zavisi od biblioteke; računski dokaz navodi pretpostavke.
+- **02:** Verilator X/Z provere delegirane Icarusu; početno smirivanje izuzeto iz VCD poređenja.
+- **02:** PDF kopiranje provereno Popplerom uz ActualText; zavisi od podrške preglednika.
 - **07:** 07-L01: Tačna numerička granica nije određena crtežom bez analitičke karakteristike; grafički zaključak i sve iterativne konstrukcije provereni.
 - **08:** 08-L01: Nije zadat EC L; brojni odgovor je aproksimativan.
 - **08:** 08-L02: Dati parametri blago neusaglašeni; dva označena tumačenja.

@@ -1,5 +1,50 @@
 # Rezultati potpune provere vežbi
 
+## SystemVerilog i Verilator — 09.10.2026.
+
+Važeća verzija obuhvata svih sedam vežbi i **151 PDF stranicu**. U vežbama 01/02 dodato je **36 SystemVerilog fajlova: 18 modula i 18 testbenchova**. Svaki od 32 VHDL fajla ima `.sv` parnjak, uz četiri dodatna testbencha za pomoćne module. Svih 32 originala ima nepromenjen SHA-256. Studentski primeri zadržavaju eksplicitne izraze, pojedinačne bitove proizvoda, interne mreže, polaritete, instanciranje i logičke stepene originalnih kola.
+
+RTL nema deklaracije `timeunit` ni `timeprecision`. Vremenske jedinice podešavaju simulatori i testbenchovi, kako je opisano u [README-u](../README.md). Podrazumevani Make cilj je `run_verilator`; prikaz talasa je zaseban cilj. GHDL i `_vhdl` varijante Quartus/Questa skripti su sačuvani. Aktivne skripte koriste `.sv`, odvojene projekte/biblioteke i `SYSTEMVERILOG_FILE`.
+
+| Vežba | Stranice | RTL / testbench | Verilog listinzi | Ponovljene postojeće računske provere |
+|---|---:|---:|---:|---:|
+| 01 | 25 | 6 / 6 | 6 | 2.863 |
+| 02 | 26 | 12 / 12 | 8 | 76.685 |
+| 03 | 17 | 0 / 0 | 0 | 18.894 |
+| 04 | 27 | 0 / 0 | 0 | 13.842 |
+| 05 | 17 | 0 / 0 | 0 | 256.757 |
+| 07 | 14 | 0 / 0 | 0 | 2.230 |
+| 08 | 25 | 0 / 0 | 0 | 1.395 |
+
+U 03/04/05/07/08 nema HDL primera za prevođenje. Njihovi lokalni izvori i prethodno provereni teorijski sadržaj ostali su nepromenjeni; dokumenti su ponovo izgrađeni i pregledani.
+
+### Prva provera: funkcija i vreme
+
+- Svih 18 testbenchova prolazi na Verilatoru i Icarusu: **36 uspešnih simulacija**.
+- Iscrpna VHDL/SV provera svih 18 modula obuhvata **488 binarnih ulaznih kombinacija**, **2.552 usmerenih jednoulaznih prelaza** i **20.149 poređenih fizičkih vremenskih trenutaka**. Porede se izlazi i interne mreže kroz pune hijerarhijske putanje i normalizovane vremenske jedinice. Kašnjenja su proverena sa podrazumevanim `T` i 7 ns, uključujući prosleđivanje parametra i impulse trajanja `T−1 ps`, `T`, `T+1 ps` i `2T`.
+- Dodatnih **738 vremenskih poređenja** GHDL/Icarus proverava X/Z adrese i dozvole dekodera, uključujući sigurno isključenje; VHDL `U` se poredi sa SV `X`. Posebno je potvrđena podudarnost originalnih stimulusa svih 14 studentskih VHDL/SV testbenchova.
+- Ponovljene GHDL referentne provere prolaze: **1.616** za 01 i **606** za 02.
+- Četiri namerne HDL greške otkrivene su: negacija u množaču, veza multipleksera, prosleđivanje `T` i kašnjenje invertora.
+- **14 Quartus elaboracija i 14 Questa simulacija bez GUI-ja** prolazi. U ovoj proveri nije bilo ograničenja licence.
+
+Docker image je `hdlview-tools:2025.12`: Verilator **5.042**, GHDL **6.0.0-dev** i Icarus **13.0 devel**. Dodatno su korišćeni Quartus Prime **24.1std SC Lite** i Questa Intel Starter **2023.3**. Verzije i rezultati svakog primera sačuvani su u [dokaznom zapisu](dokazi/systemverilog_provera.json).
+
+### Druga provera: materijali, kopiranje i čista izgradnja
+
+Svih 14 aktivnih LaTeX listinga koristi SystemVerilog lexer i `.sv` izvore; testbench linkovi takođe vode na `.sv`. U tekstu stoji „Verilog kod“, uz objašnjenje jezika i simulatora. Aktivni listinzi i linkovi nemaju zaostale VHDL putanje.
+
+PDF `ActualText` uz svaki listing sadrži stvarni UTF-8 tekst izvora. Kopiranje celog bloka čuva uvlačenje, obične razmake, komentare i nove redove. `make -C vezbe check-pdf-code` potvrđuje **tačno podudaranje svih 14 listinga** u Poppler režimima `-raw` i `-layout`, a zatim uspešno simulira upravo izvučeni RTL Icarusom. Ne normalizuje unutrašnje razmake niti prelama redove radi poređenja. Dodatak za kopiranje nije promenio izgled nijedne od 51 stranice vežbi 01/02.
+
+Završna nova privremena kopija započela je bez generisanih PDF-ova, TeX pomoćnih fajlova i minted keša. Ponovo su izgrađena sva dokumenta i ilustracije i izvršen ceo `make check`, uključujući postojeće računske provere, strukturu svih sedam dokumenata, PDF kopiranje, HDL simulacije, ekvivalenciju, **16 postojećih negativnih proba**, **7 proba registra** i četiri nove HDL negativne probe. **Svih 151 stranica** čiste izgradnje poređeno je na 110 dpi sa radnim PDF-ovima; prikaz je identičan.
+
+Codex je pregledao prevode prema izvornim VHDL izrazima i šemama, svih sedam dokumenata kroz renderovane stranice i svih 14 listinga u punoj veličini na 150 dpi. Prikaz dodatka za kopiranje potvrđen je poređenjem piksela. Ranije izvođenje nepromenjene teorije ostaje vezano za [sačuvanu prethodnu evidenciju](dokazi/rucni_pregled_pre_systemverilog.json), uz ponovljene postojeće računske provere; ovaj pregled nije predstavljen kao novi ljudski potpis. Važeća evidencija je u [rucni_pregled.json](rucni_pregled.json), a [registar](registar.json) obuhvata **4.642 inventarske celine**.
+
+Verilator nema punu četvorovrednosnu semantiku; zato X/Z proverava Icarus. Poređenje počinje posle početnog smirivanja, a delta ciklusi se porede kroz završnu vrednost u istom fizičkom trenutku. VHDL slabi nivoi nisu posebna SV stanja. Vrednosti parametra `T` u ovim primerima su celobrojni nanosekundni intervali. Kopiranje zahteva PDF preglednik koji podržava `ActualText`; provereno je Popplerom, bez tvrdnje da je testiran clipboard svakog GUI preglednika. Lokalni izvori testbench linkova postoje; dostupnost novih GitHub putanja zavisi od kasnijeg slanja izmena u repozitorijum.
+
+### Istorijska evidencija pre prelaska na SystemVerilog
+
+Tekst ispod čuva ranije rezultate i broj stranica prethodne VHDL verzije. Za trenutno stanje merodavni su rezultati iznad i `dokazi/systemverilog_provera.json`.
+
 Pregled obuhvata vežbe **01, 02, 03, 04, 05, 07 i 08**. Sačuvani su izvorni dokumenti i obim studentskih rešenja. Sadržaj zadataka za samostalni rad proveren je u dokaznim prilozima i skriptama; nova rešenja nisu dodata studentskim dokumentima.
 
 Završni PDF-ovi imaju **154 stranice**. Svaka stranica pregledana je u čitljivom prikazu, a guste šeme dodatno uvećano. Posle promena ponovo su pregledane promenjene stranice; za ostale je potvrđena identičnost rendera. Tačne pregledane verzije i stranice zabeležene su u [`rucni_pregled.json`](rucni_pregled.json). Automatska izgradnja ne izdaje te potvrde.

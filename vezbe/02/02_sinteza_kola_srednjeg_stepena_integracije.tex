@@ -27,6 +27,14 @@
 
 %---- for code
 \usepackage{minted}
+\usepackage{accsupp,stringenc}
+% Copy the original UTF-8 source, including spaces and newlines, from a listing.
+\newcommand{\BeginVerilogCopy}[1]{%
+  \EdefUnescapeHex\CodeCopyRaw{\pdffiledump length\pdffilesize{#1} {#1}}%
+  \StringEncodingConvert\CodeCopyUnicode{\CodeCopyRaw}{utf8}{utf16be}%
+  \EdefEscapeHex\CodeCopyHex{\CodeCopyUnicode}%
+  \BeginAccSupp{method=hex,unicode,ActualText=\CodeCopyHex}%
+}
 
 %---- Flush floats
 \usepackage{placeins} % preamble
@@ -233,12 +241,15 @@ slici~\ref{fig:zadatak1-a}.
 \FloatBarrier
 \noindent\begin{minipage}{\linewidth}
 \noindent
-VHDL kod koji implementira multiplekser dat jednačinom~\eqref{eq:zad1_b}.
-\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_1/a/zadatak.vhd}
+Primeri su napisani u SystemVerilogu (fajlovi \texttt{.sv}) i simuliraju se Verilatorom.\par
+Verilog kod koji implementira multiplekser dat jednačinom~\eqref{eq:zad1_b}.
+\BeginVerilogCopy{code/Zadatak_1/a/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_1/a/zadatak.sv}
+\EndAccSupp{}
 
 
 \noindent
-Testbench koji simulira multiplekser dat jednačinom~\eqref{eq:zad1_b} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_1/a/tb_zadatak.vhd}{OVDE}.
+Testbench koji simulira multiplekser dat jednačinom~\eqref{eq:zad1_b} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_1/a/tb_zadatak.sv}{OVDE}.
 \end{minipage}
 
 \newpage
@@ -247,12 +258,14 @@ Testbench koji simulira multiplekser dat jednačinom~\eqref{eq:zad1_b} je dat \h
 \FloatBarrier
 \noindent\begin{minipage}{\linewidth}
 \noindent
-VHDL kod koji implementira funkciju datu u tabeli~\ref{tab:zad1}.
-\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_1/b/zadatak.vhd}
+Verilog kod koji implementira funkciju datu u tabeli~\ref{tab:zad1}.
+\BeginVerilogCopy{code/Zadatak_1/b/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_1/b/zadatak.sv}
+\EndAccSupp{}
 
 
 \noindent
-Testbench koji simulira funkciju datu u tabeli~\ref{tab:zad1} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_1/b/tb_zadatak.vhd}{OVDE}.
+Testbench koji simulira funkciju datu u tabeli~\ref{tab:zad1} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_1/b/tb_zadatak.sv}{OVDE}.
 \end{minipage}
 
 
@@ -313,13 +326,15 @@ Na osnovu niza jednakosti~\eqref{eq:zad2-a2} dobijamo realizaciju prikazanu na s
 \FloatBarrier
 \noindent\begin{minipage}{\linewidth}
 \noindent
-VHDL kod koji implementira kolo sa slike~\ref{fig:zadatak2-a}.\\
+Verilog kod koji implementira kolo sa slike~\ref{fig:zadatak2-a}.\\
 \textbf{Napomena:} Kašnjenja dodata u kod se koriste samo za simulacije!
-\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_2/a/zadatak.vhd}
+\BeginVerilogCopy{code/Zadatak_2/a/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_2/a/zadatak.sv}
+\EndAccSupp{}
 
 
 \noindent
-Testbench koji simulira kolo sa slike~\ref{fig:zadatak2-a} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_2/a/tb_zadatak.vhd}{OVDE}.
+Testbench koji simulira kolo sa slike~\ref{fig:zadatak2-a} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_2/a/tb_zadatak.sv}{OVDE}.
 \end{minipage}
 
 \noindent\makebox[\linewidth]{\dotfill}
@@ -370,13 +385,15 @@ Na osnovu~\eqref{eq:zad2-b2} moguće je realizovati logičku funkciju Y kao što
 \FloatBarrier
 \noindent\begin{minipage}{\linewidth}
 \noindent
-VHDL kod koji implementira kolo sa slike~\ref{fig:zadatak2-b}.\\
+Verilog kod koji implementira kolo sa slike~\ref{fig:zadatak2-b}.\\
 \textbf{Napomena:} Kašnjenja dodata u kod se koriste samo za simulacije!
-\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_2/b/zadatak.vhd}
+\BeginVerilogCopy{code/Zadatak_2/b/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_2/b/zadatak.sv}
+\EndAccSupp{}
 
 
 \noindent
-Testbench koji simulira kolo sa slike~\ref{fig:zadatak2-b} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_2/b/tb_zadatak.vhd}{OVDE}.
+Testbench koji simulira kolo sa slike~\ref{fig:zadatak2-b} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_2/b/tb_zadatak.sv}{OVDE}.
 \end{minipage}
 
 
@@ -446,13 +463,15 @@ Y = C B + \bar{B} A + C A
 \FloatBarrier
 \noindent\begin{minipage}{\linewidth}
 \noindent
-VHDL kod koji implementira jedna\v{c}inu~\eqref{eq:zad2-d1}. Svaki proizvod modelovan je jednom dodelom sa inertnim kašnjenjem $T$; zasebno kašnjenje invertora $B$ ovde nije uvedeno. Član $CA$ pokriva rizičnu susednost i sprečava lažnu nulu pri promeni samo jednog ulaza.\\
+Verilog kod koji implementira jedna\v{c}inu~\eqref{eq:zad2-d1}. Svaki proizvod modelovan je jednom dodelom sa inertnim kašnjenjem $T$; zasebno kašnjenje invertora $B$ ovde nije uvedeno. Član $CA$ pokriva rizičnu susednost i sprečava lažnu nulu pri promeni samo jednog ulaza.\\
 \textbf{Napomena:} Kašnjenja dodata u kod se koriste samo za simulacije!
-\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_2/d/zadatak.vhd}
+\BeginVerilogCopy{code/Zadatak_2/d/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_2/d/zadatak.sv}
+\EndAccSupp{}
 
 
 \noindent
-Testbench koji simulira jedna\v{c}inu~\eqref{eq:zad2-d1} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_2/d/tb_zadatak.vhd}{OVDE}.
+Testbench koji simulira jedna\v{c}inu~\eqref{eq:zad2-d1} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_2/d/tb_zadatak.sv}{OVDE}.
 \end{minipage}
 
 \newpage
@@ -520,12 +539,14 @@ Y_7 = {A_2} {A_1} {A_0}
 \FloatBarrier
 \noindent\begin{minipage}{\linewidth}
 \noindent
-VHDL kod koji implementira dekoder opisan tabelom~\ref{tab:decoder3to8}.
-\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_3/a/zadatak.vhd}
+Verilog kod koji implementira dekoder opisan tabelom~\ref{tab:decoder3to8}.
+\BeginVerilogCopy{code/Zadatak_3/a/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_3/a/zadatak.sv}
+\EndAccSupp{}
 
 
 \noindent
-Testbench koji simulira dekoder opisan tabelom~\ref{tab:decoder3to8} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_3/a/tb_zadatak.vhd}{OVDE}.
+Testbench koji simulira dekoder opisan tabelom~\ref{tab:decoder3to8} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_3/a/tb_zadatak.sv}{OVDE}.
 \end{minipage}
 
 \newpage
@@ -543,12 +564,14 @@ b) U ovoj tački se zahteva realizacija dekodera 4/16 korišćenjem dekodera 3/8
 \FloatBarrier
 \noindent\begin{minipage}{\linewidth}
 \noindent
-VHDL kod koji implementira kolo sa slike~\ref{fig:zadatak3-a}.
-\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_3/b/zadatak.vhd}
+Verilog kod koji implementira kolo sa slike~\ref{fig:zadatak3-a}.
+\BeginVerilogCopy{code/Zadatak_3/b/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_3/b/zadatak.sv}
+\EndAccSupp{}
 
 
 \noindent
-Testbench koji simulira kolo sa slike~\ref{fig:zadatak3-a} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_3/b/tb_zadatak.vhd}{OVDE}.
+Testbench koji simulira kolo sa slike~\ref{fig:zadatak3-a} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_3/b/tb_zadatak.sv}{OVDE}.
 \end{minipage}
 
 
@@ -601,12 +624,14 @@ Na osnovu~\eqref{eq:zad3-c2} realizujemo kombinacionu mrežu prikazanu na slici~
 \FloatBarrier
 \noindent\begin{minipage}{\linewidth}
 \noindent
-VHDL kod koji implementira jedna\v{c}inu~\eqref{eq:zad3-c2} i kolo sa slike~\ref{fig:zadatak3-c}.
-\inputminted[fontsize=\small, frame=single]{vhdl}{code/Zadatak_3/c/zadatak.vhd}
+Verilog kod koji implementira jedna\v{c}inu~\eqref{eq:zad3-c2} i kolo sa slike~\ref{fig:zadatak3-c}.
+\BeginVerilogCopy{code/Zadatak_3/c/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_3/c/zadatak.sv}
+\EndAccSupp{}
 
 
 \noindent
-Testbench koji simulira jedna\v{c}inu~\eqref{eq:zad3-c2} i kolo sa slike~\ref{fig:zadatak3-c} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_3/c/tb_zadatak.vhd}{OVDE}.
+Testbench koji simulira jedna\v{c}inu~\eqref{eq:zad3-c2} i kolo sa slike~\ref{fig:zadatak3-c} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_3/c/tb_zadatak.sv}{OVDE}.
 \end{minipage}
 
 \newpage

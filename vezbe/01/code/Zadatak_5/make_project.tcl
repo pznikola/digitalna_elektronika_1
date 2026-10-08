@@ -1,7 +1,7 @@
 package require ::quartus::project
 
-set proj_name "zadatak"
-set rev_name  "zadatak"
+set proj_name "zadatak_sv"
+set rev_name  "zadatak_sv"
 
 if {[project_exists $proj_name]} {
     project_open -revision $rev_name $proj_name
@@ -14,7 +14,7 @@ set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE "5CSEMA5F31C6"
 
 # Source file and top entity
-set_global_assignment -name VHDL_FILE "zadatak.vhd"
+set_global_assignment -name SYSTEMVERILOG_FILE "zadatak.sv"
 set_global_assignment -name TOP_LEVEL_ENTITY "zadatak"
 
 # Put all compilation outputs under tmp/

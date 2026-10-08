@@ -68,3 +68,8 @@ Svih 20 fajlova obuhvaćeno je pregledom; GHDL ih prevodi u odvojenim privremeni
 - `code/Zadatak_3/c/zadatak.vhd`
 
 Precizne lokacije i otisci izvora evidentiraju se u `../PROVERA/registar.json`. Završena provera sadržaja ne zamenjuje konačni vizuelni pregled svakog PDF lista.
+
+## Aktivni SystemVerilog materijali
+
+Vežba 02 sadrži osam `.sv` realizacija, četiri pomoćna modula, osam studentskih i četiri pomoćna testbencha; svih 20 VHDL izvora ostalo je sačuvano.
+Aktivni listing i testbench linkovi koriste SystemVerilog. Registar prati `.sv` izvore i odvojeno sačuvane VHDL reference; stari brojevi VHDL listinga u inventaru odnose se na istorijsku verziju.

@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parents[1]
 proof=[]
 with tempfile.TemporaryDirectory(prefix='de1-negative-') as td:
  w=Path(td);shutil.copytree(ROOT/'02',w/'02');(w/'PROVERA').mkdir()
- for name in ['logic.py','vhdl_check.py','vhdl02.py','structure.py']:
+ for name in ['logic.py','vhdl_check.py','vhdl02.py','structure.py','hdl_runtime.py']:
   shutil.copy(ROOT/'PROVERA'/name,w/'PROVERA'/name)
  main=next((w/'02').glob('*.tex'));original=main.read_text()
  for kind,old,new,tool,needle in [

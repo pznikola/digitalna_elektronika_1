@@ -24,7 +24,15 @@ def inspect(n):
   assert found,(n,'missing image',name)
   p=found[0];native=next((p.with_suffix(ext) for ext in ['.tex','.drawio'] if p.with_suffix(ext).exists()),None)
   assets.append({'export':str(p.relative_to(folder)),'source':str(native.relative_to(folder)) if native else None})
- for file in re.findall(r'\\inputminted(?:\[[^]]*\])?\{[^}]+\}\{([^}]+)\}',s):assert (folder/file).exists(),(n,'missing VHDL include',file)
+ for lexer,file in re.findall(r'\\inputminted(?:\[[^]]*\])?\{([^}]+)\}\{([^}]+)\}',s):
+  assert (folder/file).exists(),(n,'missing HDL include',file)
+  assert lexer=='systemverilog' and file.endswith('.sv'),(n,'active listing is not SystemVerilog',lexer,file)
+ for url in re.findall(r'\\href\{([^}]+)\}',s):
+  if '/vezbe/' in url and '/code/' in url:
+   rel=url.split('/vezbe/',1)[1]
+   assert rel.endswith('.sv') and (ROOT/rel).is_file(),(n,'old or missing testbench link',url)
+ if n in ['01','02']:
+  assert 'VHDL' not in s and '.vhd' not in s,(n,'active VHDL text remains')
  for file in re.findall(r'\\(?:input|include)\{([^}]+)\}',s):
   p=folder/file
   assert p.exists() or p.with_suffix('.tex').exists(),(n,'missing include',file)

@@ -2,6 +2,9 @@
 # korenskim .gitignore fajlom. PDF izdanja i izvori ostaju dostupni Gitu.
 
 # Python provere
+.build/
+obj_dir/
+**/code/**/work_sv/
 __pycache__/
 *.py[cod]
 .venv/

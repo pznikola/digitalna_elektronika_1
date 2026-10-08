@@ -78,3 +78,15 @@ Odbačena je nova realizacija pomoću odvojenih kola sa imenovanim mrežama. Vra
 ## Čista izgradnja — provera izvozâ
 
 Izgradnja iz prazne kopije izvora našla je razliku samo na PDF stranici 16: dva stara Draw.io izvoza zadatka 4 imala su nešto drugačiju granicu obrezivanja. Izvorna šema postavke i izvorni vremenski dijagram nisu menjani, uključujući sve veze i strelice. PDF izvozi su obnovljeni iz istih `.drawio` fajlova, a stranica ponovo pregledana. Razlika je u obrezivanju izvoza, ne u načinu crtanja ili sadržaju postavke. Karnoove karte i njihovi originalni TikZ blokovi ostaju identični originalu.
+
+## 01-SV01 — SystemVerilog primeri i Verilator
+
+Šest aktivnih listinga i linkova ka testbenchovima prebačeno je na `.sv`. Svih 12 VHDL izvora sačuvano je neizmenjeno, sa početnim SHA-256 otiscima u `../PROVERA/dokazi/systemverilog_originals.json`. Novi modeli čuvaju interne signale, pojedinačne bitove proizvoda, logičke izraze i stepene kola. `assign #(T)` čuva inertni model; objašnjenje u dokumentu koristi njegovu SystemVerilog sintaksu.
+
+Studentski stimulusi i ukupni vremenski razmaci su sačuvani. Novi testbenchovi imaju automatske provere i završavaju sa `$finish`. Zajednička provera poredi sve interne i izlazne signale sa originalnim GHDL modelima za iscrpne binarne domene, sve jednoulazne prelaze, podrazumevani T i 7 ns, kao i impulse T−1 ps, T, T+1 ps i 2T. Početno smirivanje i delta ciklusi obrađuju se eksplicitno. Primeri su provereni Verilatorom, Icarusom, Quartus elaboracijom i Questa simulacijom.
+
+Postojeće formule, šeme i strelice Karnoovih karata nisu menjane ovom dopunom. Raniji odeljci izveštaja opisuju prethodnu VHDL verziju; važeća uputstva za aktivni SystemVerilog su u README-u.
+
+RTL primeri ne sadrže `timeunit` ili `timeprecision`: jedinica i preciznost podešene su u simulacionim skriptama. Vremenske deklaracije zadržane su u testbenchovima.
+
+PDF listinzi imaju `ActualText` sa izvornim tekstom, tako da kopiranje celog koda čuva znakove, obične razmake, uvlačenje i nove redove. Zajednička provera poredi izvučeni tekst sa `.sv` izvorom i simulira kopirani kod; vizuelni prikaz listinga nije promenjen.

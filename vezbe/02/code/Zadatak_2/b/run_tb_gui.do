@@ -1,15 +1,15 @@
 # run_tb_gui.do
 
 # Create / map the work library
-vlib work
-vmap work work
+vlib work_sv
+vmap work_sv work_sv
 
 # Compile design and testbench
-vcom zadatak.vhd
-vcom tb_zadatak.vhd
+vlog -sv -timescale 1ns/1ps -work work_sv zadatak.sv
+vlog -sv -timescale 1ns/1ps -work work_sv tb_zadatak.sv
 
 # Start simulation of testbench top
-vsim -voptargs=+acc tb_zadatak
+vsim -voptargs=+acc work_sv.tb_zadatak
 
 # Add all TB signals to the wave window
 add wave -position insertpoint sim:/tb_zadatak/*
