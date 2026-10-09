@@ -1,0 +1,628 @@
+{
+  "slides": {
+    "03-s001": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Stvarno upoređeni izdvojeni original i generisani slajd, pročitani LaTeX izvori i pregledana cela A4 strana novih beležaka. Slajdovi neizmenjeni. Nastavni detalji pokriveni slajdom i beleškama istog ID-ja; tekst bez uredničke evidencije i nepotrebnog prepisivanja. Naslovni slajd nema dodatnog teksta; bez veštačkog popunjavanja. Naknadno 2026-10-09: prethodna sadržinska potvrda sačuvana nakon provere identičnih izvora/pokrivenosti i pikselno istih projekcionih/A4 prikaza; postojeći alat ponovo evidentiran. Dokaz: poredjenje_terminologije_2026-10-09.json. 2026-10-09, dorada s004–s010: prethodna sadržinska potvrda sačuvana uz nepromenjene izvore slajda/beležaka i pokrivenost, pikselno jednaku projekciju i telo A4 beležaka. Novi A4 broj strane prati odobreni nastavak. Zajednički izvor dekodera ima parametre sa istim podrazumevanim prikazom. Dokaz: poredjenje_dorade_s004_s010.json. 2026-10-09, dorada s011–s015: prethodna sadržinska potvrda zadržana uz identične lokalne izvore, pokrivenost i sve piksele projekcije/cele A4 strane. Novi zajednički otisak evidentira lokalne parametre MUX-a sa očuvanim podrazumevanim prikazom. Dokaz: poredjenje_dorade_s011_s015.json. 2026-10-09, dorada s016–s021: potvrda sadržaja zadržana uz iste lokalne izvore, pokrivenost i pikselno identične projekcione/cele A4 prikaze. Zajednički otisak uključuje odobrene nastavke i lokalno uređene crteže; dokaz poredjenje_dorade_s016_s021.json.",
+      "evidence": {
+        "source_render_sha256": "bfaa019848e5df72a38fdbb51d4151e2c195062f52ef7f5d1585f888d443ffe1",
+        "baseline_render_sha256": "f08c2b5322218a72a560f9fc8146cae8a6f946af87e0e58e8f086b812af6287e",
+        "new_render_sha256": "012474105a6475d0b216ec29d80f1c064e9a1db4a58654512b4ad01ce0116e85",
+        "notes_render_sha256": "805991a846dd0e2192724871748648d5f4408501859b4c5d61699cda8d51ae2e",
+        "slide_sources_sha256": "328efa675edb33b0515db940b861dec85e98a8252f3461be6b2bbc407be378ac",
+        "notes_sources_sha256": "447515272e86fceaee214ab34475f4ea13057a0dc1e5044a15e9ddd96e4b8c3c",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "1e10534a5458bcc99c6ec1c8c0a55979fac66b28fe2da9dd9ee9117de41e70ec",
+        "coverage_sha256": "ab9d8bb869238c68328b5ce872baafb0ddd81a19ccadd81d1aa0b92dbce1ae87"
+      }
+    },
+    "03-s002": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Po izričitom korisnikovom odobrenju zamenjeni „logičkih kapija“ sa „logičkih gejtova“ i „Broj kapija“ sa „Broj gejtova“. Upoređeni original, prethodni i novi slajd; pregledan novi prikaz i cela A4 strana. Sve vrednosti klasifikacije, nastavni sadržaj i beleške očuvani; tekst i tabela čitljivi bez preklapanja/odsecanja. Dokaz: poredjenje_terminologije_2026-10-09.json. 2026-10-09, dorada s004–s010: prethodna sadržinska potvrda sačuvana uz nepromenjene izvore slajda/beležaka i pokrivenost, pikselno jednaku projekciju i telo A4 beležaka. Novi A4 broj strane prati odobreni nastavak. Zajednički izvor dekodera ima parametre sa istim podrazumevanim prikazom. Dokaz: poredjenje_dorade_s004_s010.json. 2026-10-09, dorada s011–s015: prethodna sadržinska potvrda zadržana uz identične lokalne izvore, pokrivenost i sve piksele projekcije/cele A4 strane. Novi zajednički otisak evidentira lokalne parametre MUX-a sa očuvanim podrazumevanim prikazom. Dokaz: poredjenje_dorade_s011_s015.json. 2026-10-09, dorada s016–s021: potvrda sadržaja zadržana uz iste lokalne izvore, pokrivenost i pikselno identične projekcione/cele A4 prikaze. Zajednički otisak uključuje odobrene nastavke i lokalno uređene crteže; dokaz poredjenje_dorade_s016_s021.json.",
+      "evidence": {
+        "source_render_sha256": "4feb7539585f73a26f89a036d1546a575e11a9d6fa00bacc1e98621ff7166b3b",
+        "baseline_render_sha256": "c6e479c029c6beb9816fa9e65dcf562a5d93d490a78eb1e123a148125faf7d7f",
+        "new_render_sha256": "70e26b2f056ad71385f3ab731fd1c57c26d92ba0d8716a0f8c839ed1701ae155",
+        "notes_render_sha256": "db384b73474d882cfe297b304db885459ea4d1ddd4e531982194032abd8bc366",
+        "slide_sources_sha256": "227d1d1c23adbe762319fc422ad6da439260bb991fdac9d028c3f17fca70696f",
+        "notes_sources_sha256": "c8c46e3f9a6c5d27628a946bcfd93e5b21cd5c2ad6e03e8ab04733a7503d27d7",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "1f31be9d7ddd3a62f300b0b11132b828770a4ed3fe5b2ad9405268a853d44ee1",
+        "coverage_sha256": "eb4c9bda9ec37bcc1aa861f3845bf9fdefc427def021c5b617ea641adca0e772"
+      }
+    },
+    "03-s003": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Stvarno upoređeni izdvojeni original i generisani slajd, pročitani LaTeX izvori i pregledana cela A4 strana novih beležaka. Slajdovi neizmenjeni. Nastavni detalji pokriveni slajdom i beleškama istog ID-ja; tekst bez uredničke evidencije i nepotrebnog prepisivanja. Razlika funkcije i kućišta, tumačenje fizičkih pinova prema konkretnoj komponenti. Naknadno 2026-10-09: prethodna sadržinska potvrda sačuvana nakon provere identičnih izvora/pokrivenosti i pikselno istih projekcionih/A4 prikaza; postojeći alat ponovo evidentiran. Dokaz: poredjenje_terminologije_2026-10-09.json. 2026-10-09, dorada s004–s010: prethodna sadržinska potvrda sačuvana uz nepromenjene izvore slajda/beležaka i pokrivenost, pikselno jednaku projekciju i telo A4 beležaka. Novi A4 broj strane prati odobreni nastavak. Zajednički izvor dekodera ima parametre sa istim podrazumevanim prikazom. Dokaz: poredjenje_dorade_s004_s010.json. 2026-10-09, dorada s011–s015: prethodna sadržinska potvrda zadržana uz identične lokalne izvore, pokrivenost i sve piksele projekcije/cele A4 strane. Novi zajednički otisak evidentira lokalne parametre MUX-a sa očuvanim podrazumevanim prikazom. Dokaz: poredjenje_dorade_s011_s015.json. 2026-10-09, dorada s016–s021: potvrda sadržaja zadržana uz iste lokalne izvore, pokrivenost i pikselno identične projekcione/cele A4 prikaze. Zajednički otisak uključuje odobrene nastavke i lokalno uređene crteže; dokaz poredjenje_dorade_s016_s021.json.",
+      "evidence": {
+        "source_render_sha256": "7c6912a4b34f1c694d85dbed8283a851c14c9b3d8cc1f39a3d0e5228c0bda33d",
+        "baseline_render_sha256": "6b21611c6e70e0392164886dfda5bdc625129e7dee4eb2e12bb58eacdd4f5ef8",
+        "new_render_sha256": "bde45589afb52ec9bc49cc74850b9162b106badeecb9359293f07c5bb689759f",
+        "notes_render_sha256": "806d828d3b81c00a3c022ff8da6c93b6652afb3fe17c0b0509af629e093ed6bf",
+        "slide_sources_sha256": "970ab7820234b3fcd1e6e1659c3f17d1418938d89be88da8750cb7632576f780",
+        "notes_sources_sha256": "24f0866b1e557eaea9acccd4fdb27400403d2e659152754a75cb0321abaa2e49",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "93bde7e0d954fce00edb7497ef0893568bea65ef1ec3f8860cad0f1f9d954050",
+        "coverage_sha256": "b8f3347b6ad3e4f88b66ec6cdd39bfe46996e62b511adb3eccce2ea20ebb5e6a"
+      }
+    },
+    "03-s004": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Stvarno pregledani originalni i prethodni prikaz, konačni slajd i cela A4 strana. Verniji tekst originala, neiskorišćeni ulazi i broj čipova; ranije odobrena I3=I2 kaskada očuvana. NI invertorski slučaj vidljiv, beleške pojašnjavaju brojanje i kritičnu putanju. Beleške čuvaju dodatna objašnjenja bez uredničke evidencije ili nepotrebnog prepisivanja. 2026-10-09, dorada s011–s015: prethodna sadržinska potvrda zadržana uz identične lokalne izvore, pokrivenost i sve piksele projekcije/cele A4 strane. Novi zajednički otisak evidentira lokalne parametre MUX-a sa očuvanim podrazumevanim prikazom. Dokaz: poredjenje_dorade_s011_s015.json. 2026-10-09, dorada s016–s021: potvrda sadržaja zadržana uz iste lokalne izvore, pokrivenost i pikselno identične projekcione/cele A4 prikaze. Zajednički otisak uključuje odobrene nastavke i lokalno uređene crteže; dokaz poredjenje_dorade_s016_s021.json.",
+      "evidence": {
+        "source_render_sha256": "4c536c82da0c7c7acd9af86759d796eb05cd2a1ccdfaec760bfc0496824936ab",
+        "baseline_render_sha256": "6cb56ad1f294408b08bd1b5032dd41c438c30d8d7afd80aef21937399b1164c9",
+        "new_render_sha256": "748f2fd155dcf00c15bc82f539503566693a1be0678705954560dfb5f10573dc",
+        "notes_render_sha256": "a4664e996112881cffa5ed858b924971dadf15d8e88a82fb1df5a4b37e6b0a4a",
+        "slide_sources_sha256": "09aaab2d516b0fa50a4576b563337732a4f226a9d33410cedd26858a2a0a8703",
+        "notes_sources_sha256": "5a0ce89e92a2c87682fb35437bac5e19892da70f29669cfdc428819a0082d738",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "a776b340308590b12da56ee28644b13935576cba57d4bb3224b4b681c2fbaf1d",
+        "coverage_sha256": "4d44fafa2c660cd8f999f7e1f0400f570bb6655849e062f841f5d05c17697bee"
+      }
+    },
+    "03-s005": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Stvarno upoređeni izdvojeni original i generisani slajd, pročitani LaTeX izvori i pregledana cela A4 strana novih beležaka. Slajdovi neizmenjeni. Nastavni detalji pokriveni slajdom i beleškama istog ID-ja; tekst bez uredničke evidencije i nepotrebnog prepisivanja. Dokaz jednog aktivnog minterma; primer adrese 10 i sinteza preko minterma. Naknadno 2026-10-09: prethodna sadržinska potvrda sačuvana nakon provere identičnih izvora/pokrivenosti i pikselno istih projekcionih/A4 prikaza; postojeći alat ponovo evidentiran. Dokaz: poredjenje_terminologije_2026-10-09.json. 2026-10-09, dorada s004–s010: prethodna sadržinska potvrda sačuvana uz nepromenjene izvore slajda/beležaka i pokrivenost, pikselno jednaku projekciju i telo A4 beležaka. Novi A4 broj strane prati odobreni nastavak. Zajednički izvor dekodera ima parametre sa istim podrazumevanim prikazom. Dokaz: poredjenje_dorade_s004_s010.json. 2026-10-09, dorada s011–s015: prethodna sadržinska potvrda zadržana uz identične lokalne izvore, pokrivenost i sve piksele projekcije/cele A4 strane. Novi zajednički otisak evidentira lokalne parametre MUX-a sa očuvanim podrazumevanim prikazom. Dokaz: poredjenje_dorade_s011_s015.json. 2026-10-09, dorada s016–s021: potvrda sadržaja zadržana uz iste lokalne izvore, pokrivenost i pikselno identične projekcione/cele A4 prikaze. Zajednički otisak uključuje odobrene nastavke i lokalno uređene crteže; dokaz poredjenje_dorade_s016_s021.json.",
+      "evidence": {
+        "source_render_sha256": "9bef37be4cebd87008d271848aa5730fff8b070fa50d80b5004377bd4b47153b",
+        "baseline_render_sha256": "655dc4f9d1e462519e185b0e6516867347fa828f6d3dbd316aefd189ae6e794a",
+        "new_render_sha256": "a58bd6aae03378104baaac42d496118013e4c71a258d01750e326f7e8dbccf2a",
+        "notes_render_sha256": "9b0557d156897c1a8a1226f307c37ffb96e8c9f4cf97559ea082e4780823d5d5",
+        "slide_sources_sha256": "7673cc9b589e72e697f897ebcdea2e30db06ecea2829759807cbb1779509f70e",
+        "notes_sources_sha256": "cfdd72bc09fcb710653c34fac2547ec1027a52644d8434b46ac2e0cc6f3e714b",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "d008a02ecbbb3e33c88204feeb9bddef48a3ece8f6bb4acb4c5e3817d508a48e",
+        "coverage_sha256": "35d792125885cbad85db5ae1a1cbd9545c2ce3eccda83b789fc9519b62efcc48"
+      }
+    },
+    "03-s006": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Stvarno upoređeni izdvojeni original i generisani slajd, pročitani LaTeX izvori i pregledana cela A4 strana novih beležaka. Slajdovi neizmenjeni. Nastavni detalji pokriveni slajdom i beleškama istog ID-ja; tekst bez uredničke evidencije i nepotrebnog prepisivanja. Izvođenje F=Y0+Y3 i prepoznavanje EXNILI funkcije za četiri kombinacije. Naknadno 2026-10-09: prethodna sadržinska potvrda sačuvana nakon provere identičnih izvora/pokrivenosti i pikselno istih projekcionih/A4 prikaza; postojeći alat ponovo evidentiran. Dokaz: poredjenje_terminologije_2026-10-09.json. 2026-10-09, dorada s004–s010: prethodna sadržinska potvrda sačuvana uz nepromenjene izvore slajda/beležaka i pokrivenost, pikselno jednaku projekciju i telo A4 beležaka. Novi A4 broj strane prati odobreni nastavak. Zajednički izvor dekodera ima parametre sa istim podrazumevanim prikazom. Dokaz: poredjenje_dorade_s004_s010.json. 2026-10-09, dorada s011–s015: prethodna sadržinska potvrda zadržana uz identične lokalne izvore, pokrivenost i sve piksele projekcije/cele A4 strane. Novi zajednički otisak evidentira lokalne parametre MUX-a sa očuvanim podrazumevanim prikazom. Dokaz: poredjenje_dorade_s011_s015.json. 2026-10-09, dorada s016–s021: potvrda sadržaja zadržana uz iste lokalne izvore, pokrivenost i pikselno identične projekcione/cele A4 prikaze. Zajednički otisak uključuje odobrene nastavke i lokalno uređene crteže; dokaz poredjenje_dorade_s016_s021.json.",
+      "evidence": {
+        "source_render_sha256": "33d6f0d7a2ba5fe40e19a5821b6975ad52d6190f6ec658d2774d13813cffb2cf",
+        "baseline_render_sha256": "5e9cfaefeb48db862280881e16171ba3f12fd7395ef3799ea8a140123ce02d81",
+        "new_render_sha256": "abbabdc09d6d7ec95527c3154ff80ad097bb45f1cc3b77f18ad30fa64b6b30e7",
+        "notes_render_sha256": "d51cc6db6e64dfa48ccc511006c2b80ae9ce328f86229b573637469d19906435",
+        "slide_sources_sha256": "a9ae6a3b0ebb7a6bfa2d48daad24fc4f7bf84379f643ca6b076f547770bf4460",
+        "notes_sources_sha256": "8c8d62f24747620e0a5b85d05bf7f5cf808d1f434a6616bd5ddc468c0060050e",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "84e9fc5950a23570083a856bd1f288b6bf6c78b84e328a3db3a0b175c53e8312",
+        "coverage_sha256": "eb2ca002e9d966ddc556e0e50383beb0e62dc7d85203aa11f5b73682d3224340"
+      }
+    },
+    "03-s007": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Stvarno pregledani originalni i prethodni prikaz, konačni slajd i cela A4 strana. Vraćena obavezna potpuna imena signala i napomena o tumačenju zadatka; svi priključci i mintermi provereni. Šema sa vodovima odvojenim od simbola, uz nesmanjena slova. Beleške čuvaju dodatna objašnjenja bez uredničke evidencije ili nepotrebnog prepisivanja. 2026-10-09, dorada s011–s015: prethodna sadržinska potvrda zadržana uz identične lokalne izvore, pokrivenost i sve piksele projekcije/cele A4 strane. Novi zajednički otisak evidentira lokalne parametre MUX-a sa očuvanim podrazumevanim prikazom. Dokaz: poredjenje_dorade_s011_s015.json. 2026-10-09, dorada s016–s021: potvrda sadržaja zadržana uz iste lokalne izvore, pokrivenost i pikselno identične projekcione/cele A4 prikaze. Zajednički otisak uključuje odobrene nastavke i lokalno uređene crteže; dokaz poredjenje_dorade_s016_s021.json.",
+      "evidence": {
+        "source_render_sha256": "2eb55bf56469d502b2a180d44744210ef7c1f4e7d34654ae6a28204dac78215f",
+        "baseline_render_sha256": "04d2e1eb420b8b780cb7f9dae3b437287d2d82675872d0770981906106052fb8",
+        "new_render_sha256": "c181899f6428a4b374404365582710fb9a319c8219e83d729265eba27bcd5903",
+        "notes_render_sha256": "42ac10c623cbbca140a6a22073fcf2e706392252de2853695d0be3681b9d9ed8",
+        "slide_sources_sha256": "d7c01ef04f5e69397aa5275621be8b3a50caca6bb7df690923b96974e23860c7",
+        "notes_sources_sha256": "14d834a5e5ba33af66fa475782c0c588d76b479432b074d98cf15dac6f4b1335",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "c5ca171a706424d7f2098340b3f51901172c59a63e94f4c647386631c06547b7",
+        "coverage_sha256": "72a0998d6ec956296accf19224e7954b2c6538710f1beb1ce16f9e57e38e9151"
+      }
+    },
+    "03-s008": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Stvarno pregledani originalni i prethodni prikaz, konačni slajd i cela A4 strana. Svrha CS, aktivna jedinica, neaktivna nula i I uslov više CS ulaza jasni. Proverene sve četiri kombinacije selektora i CS uslovi; bez preklapanja vodova sa simbolima. Beleške čuvaju dodatna objašnjenja bez uredničke evidencije ili nepotrebnog prepisivanja. 2026-10-09, dorada s011–s015: prethodna sadržinska potvrda zadržana uz identične lokalne izvore, pokrivenost i sve piksele projekcije/cele A4 strane. Novi zajednički otisak evidentira lokalne parametre MUX-a sa očuvanim podrazumevanim prikazom. Dokaz: poredjenje_dorade_s011_s015.json. 2026-10-09, dorada s016–s021: potvrda sadržaja zadržana uz iste lokalne izvore, pokrivenost i pikselno identične projekcione/cele A4 prikaze. Zajednički otisak uključuje odobrene nastavke i lokalno uređene crteže; dokaz poredjenje_dorade_s016_s021.json.",
+      "evidence": {
+        "source_render_sha256": "ad3b4e4a74db92e6f14d02e244a632a28d9dc0f67931ea61fa77e3a06051a7d0",
+        "baseline_render_sha256": "6ddaa285f250151707b95f124d073a833023adcabfb5ac37a5e9794861552bc7",
+        "new_render_sha256": "3646d19c948d008c3f061c467c240b985474bc085cd0e0e69e20f74569d67264",
+        "notes_render_sha256": "a0c92fdc636ee23a934b9fe9aadfc610bad4ab3fb82d7a8b36d1083d4e974670",
+        "slide_sources_sha256": "a5c84a0ad630216c42d341cebe2d69963e3b4255c4ee476b249bc7e65656f329",
+        "notes_sources_sha256": "bb4884e02bcf7742c3858fc567b8e7229e664125c2ca7c1c1ee8bebd8b98f265",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "9b7b3535e0218d2c3e1647fff89cd5c4dcdf257472ee117875585bddb0d23e53",
+        "coverage_sha256": "842b93d8e377851bdc09482a6fe04b9db587a8ba26d2d2002929c076ba435f48"
+      }
+    },
+    "03-s009": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Stvarno pregledani originalni i prethodni prikaz, konačni slajd i cela A4 strana. Šema 4/16 odgovara originalnoj topologiji: S3/S2 na prvom nivou, S1/S0 u izlaznom, grupe Y12–15/Y8–11/Y4–7/Y0–3. Tačke su samo na stvarnim grananjima; 32 logičke provere uključuju oba CS stanja. Beleške čuvaju dodatna objašnjenja bez uredničke evidencije ili nepotrebnog prepisivanja. 2026-10-09, dorada s011–s015: prethodna sadržinska potvrda zadržana uz identične lokalne izvore, pokrivenost i sve piksele projekcije/cele A4 strane. Novi zajednički otisak evidentira lokalne parametre MUX-a sa očuvanim podrazumevanim prikazom. Dokaz: poredjenje_dorade_s011_s015.json. 2026-10-09, dorada s016–s021: potvrda sadržaja zadržana uz iste lokalne izvore, pokrivenost i pikselno identične projekcione/cele A4 prikaze. Zajednički otisak uključuje odobrene nastavke i lokalno uređene crteže; dokaz poredjenje_dorade_s016_s021.json.",
+      "evidence": {
+        "source_render_sha256": "de482f8469b054288dd3cb0f9c505956470e11b691ecf58d03a87b2e7ad3319c",
+        "baseline_render_sha256": "aa38051904b4438700750c38e500d4001db7320bea28473c9429f791fd5f2389",
+        "new_render_sha256": "cc717ee5e0a9b991bc4bf93e5d3e32497c6343978d915697a550a3c544dc78aa",
+        "notes_render_sha256": "6bf1df2c746746b4de146daec0013297e196e11810ad0cf4241987244a22a52f",
+        "slide_sources_sha256": "a27d025ae3b30e0ad89b0f24cb575d3631f4f47c79f8d5486da65672edf8efda",
+        "notes_sources_sha256": "bae85ec52ff4f88b3c8a965388243ca5f68cce9f181e0c825ffe1e672454b8ed",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "c87fb50c9cdfc9b45b9a4740b37286f74b84f5a97a2bb1d3ab2a90e3727630ea",
+        "coverage_sha256": "0967832254dabae20aad3af7c68c51e0de3bf5e55f371627b922315fef2c384b"
+      }
+    },
+    "03-s010": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Stvarno pregledani originalni i prethodni prikaz, konačni slajd i cela A4 strana. Prvi deo originalnog s010: oba pomoćna dekodera, vrste/kolone, oba globalna CS, izdvojeni izlazni blok i indeksi16i+4j+k. Lokalna imena S1/S0 i veze globalnih selektora odgovaraju originalu. Matrična ukrštanja nisu spojevi; 256 logičkih provera. Beleške čuvaju dodatna objašnjenja bez uredničke evidencije ili nepotrebnog prepisivanja. 2026-10-09, dorada s011–s015: prethodna sadržinska potvrda zadržana uz identične lokalne izvore, pokrivenost i sve piksele projekcije/cele A4 strane. Novi zajednički otisak evidentira lokalne parametre MUX-a sa očuvanim podrazumevanim prikazom. Dokaz: poredjenje_dorade_s011_s015.json. 2026-10-09, dorada s016–s021: potvrda sadržaja zadržana uz iste lokalne izvore, pokrivenost i pikselno identične projekcione/cele A4 prikaze. Zajednički otisak uključuje odobrene nastavke i lokalno uređene crteže; dokaz poredjenje_dorade_s016_s021.json.",
+      "evidence": {
+        "source_render_sha256": "e1ecd6ecbdfcb4ce38447c2243313bef782e1bff60ad951b3004bcb40f353761",
+        "baseline_render_sha256": "fc69a5632e86ad997967be0854f8ed77e2c2562919a0b11f2e62e0b5f34e2cd3",
+        "new_render_sha256": "acbec1c7adecd0c810faca9fdaf87c178a3e3465b2e71a6d6de7e629f58fe028",
+        "notes_render_sha256": "0dbef52afcc8aad38cc83b600075ee6d330fb4ccc7d7c52354890761da174058",
+        "slide_sources_sha256": "0cb08188a0c6a33c48ab0d16c8eb79a7607d0578c8ba875d6d8b4db3e24b888f",
+        "notes_sources_sha256": "dae8bff4e196913b05cd329c1fea68cd12052f911e1362a728add29826c40243",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "23c006875a9313ee057bdfb87368b69ac1169417b9c362907d8b2a2378d3ecdf",
+        "coverage_sha256": "cf5af1d46d04b32ecc2e5a4f0837d35dc55d17a21a879ab76a298f6f9bf97fa0"
+      }
+    },
+    "03-s010b": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Stvarno pregledani originalni i prethodni prikaz, konačni slajd i cela A4 strana. Drugi deo originalnog s010: brojanje18/21, dva/tri nivoa, prednost pri većim kapacitetima, specifičnije CS komponente i mogućnost kombinovanja struktura. Sačuvani potrebni nastavni detalji uz čitljiv raspored. Beleške čuvaju dodatna objašnjenja bez uredničke evidencije ili nepotrebnog prepisivanja. Proverena je i pokrivenost izvornog crteža kroz odobrenu podelu: ceo crtež pripada prvom delu s010, dok s010b daje poređenje struktura. 2026-10-09, dorada s011–s015: prethodna sadržinska potvrda zadržana uz identične lokalne izvore, pokrivenost i sve piksele projekcije/cele A4 strane. Novi zajednički otisak evidentira lokalne parametre MUX-a sa očuvanim podrazumevanim prikazom. Dokaz: poredjenje_dorade_s011_s015.json. 2026-10-09, dorada s016–s021: potvrda sadržaja zadržana uz iste lokalne izvore, pokrivenost i pikselno identične projekcione/cele A4 prikaze. Zajednički otisak uključuje odobrene nastavke i lokalno uređene crteže; dokaz poredjenje_dorade_s016_s021.json.",
+      "evidence": {
+        "source_render_sha256": "e1ecd6ecbdfcb4ce38447c2243313bef782e1bff60ad951b3004bcb40f353761",
+        "baseline_render_sha256": "fc69a5632e86ad997967be0854f8ed77e2c2562919a0b11f2e62e0b5f34e2cd3",
+        "new_render_sha256": "fae30af235e512f7478c02d3d47316a3632b90fdae89150b6034ddb3260156af",
+        "notes_render_sha256": "a0f9c538ebb3e58e1b57ca135e9daa2ce1385693f0f59ed31c908d62c24292ba",
+        "slide_sources_sha256": "c7ada39e17478ba6e989df0392cc68498f159783fc3c392f6b7730e96fcf7cdb",
+        "notes_sources_sha256": "1e06a54e4515614eb1363b77df8d26669ab89bb530c7c8cbc48f3afcedae1dea",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "ae41fcd672e7a216c36750c13bc6f628546f8c1458de6d169978468fa20f39f0",
+        "coverage_sha256": "46aa88f6113f91f1097242a54cf6311871229fb5cc35b2d55e05a33fa637fd31"
+      }
+    },
+    "03-s011": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Aktivne nule, prvi/drugi/treći simbol i CS formula upoređeni sa originalom; šest simbola, sve negacije i oznake provereni. Beleške pojašnjavaju aktivni izlaz i uslove izbora. Stvarno upoređeni original, prethodni i konačni slajd i pročitana cela A4 strana. Proverene čitljivost, potpunost i stručna tačnost; beleške su nastavni dodatak bez uredničke istorije ili nepotrebnog ponavljanja. Nema odsecanja niti preklapanja. 2026-10-09, dorada s016–s021: potvrda sadržaja zadržana uz iste lokalne izvore, pokrivenost i pikselno identične projekcione/cele A4 prikaze. Zajednički otisak uključuje odobrene nastavke i lokalno uređene crteže; dokaz poredjenje_dorade_s016_s021.json.",
+      "evidence": {
+        "source_render_sha256": "ceb89323434cc32ac9942376e51e6e0aeb93795c6b6e253578c017d2103d0af9",
+        "baseline_render_sha256": "d59b1e5c5c5d3b18ab6bc7c4115d3e9c723605ee90a193f08d9cd764d4f7c57d",
+        "new_render_sha256": "149f12987f392adb010c42f7df15f8049f499ab8cdf06b1bef77b15542141972",
+        "notes_render_sha256": "cc4c35a0d664a7e679f9aa9f341a2a919200a5aa4d0a8f23af68070ae91f1c56",
+        "slide_sources_sha256": "1669e926e19e0326c5be9ee4e50ff0a608aaa5e841f777adc80e20f72f7dd9a7",
+        "notes_sources_sha256": "2a0a6e8a85f2c60a72997b3fa53454da9a118512a89c50194b2b1bab158d5859",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "daea0b9fbd0493d6c07717bb45ab5090b8b2e962c4a3d4638dffce6757c3bcb9",
+        "coverage_sha256": "d2bdca2dbfbd2a34ef235cd3f2bd6eba3ae7d07ab1f47fe397c5f5c3f7fa7849"
+      }
+    },
+    "03-s012": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Potpuna unutrašnja šema i simbol u stilu s008. Praćeni S1/S0, nenegirani I, sve četiri I3 grane, Y0–Y3 i tačke spojeva. Proizvođačka dokumentacija Nexperia potvrđuje izvođenje sa aktivno visokim podatkovnim enable-om. Osam stanja i sve jednačine provereni. Stvarno upoređeni original, prethodni i konačni slajd i pročitana cela A4 strana. Proverene čitljivost, potpunost i stručna tačnost; beleške su nastavni dodatak bez uredničke istorije ili nepotrebnog ponavljanja. Nema odsecanja niti preklapanja. 2026-10-09, dorada s016–s021: potvrda sadržaja zadržana uz iste lokalne izvore, pokrivenost i pikselno identične projekcione/cele A4 prikaze. Zajednički otisak uključuje odobrene nastavke i lokalno uređene crteže; dokaz poredjenje_dorade_s016_s021.json.",
+      "evidence": {
+        "source_render_sha256": "7c09ea2fa570a21ff473ebed8d39faf7f569da08a65172e9297dbe106900c226",
+        "baseline_render_sha256": "5135c1f65869dd427b1077495361eb65c61531f26f5050cc88a72f72a7684c54",
+        "new_render_sha256": "498a6648bcaa579a404ad1b8c1d4985000149002d578bee1e76c64939ec952f2",
+        "notes_render_sha256": "8ba9017922d97e057f97dea41d62aed1ed88e1d874edb8473842b433eef34294",
+        "slide_sources_sha256": "40626a03afae2e7d2d6e99ad114e02b5d9dd09e99f68785166aff3316f2b2e40",
+        "notes_sources_sha256": "e69dd08080f660dc9b8d520bf2b1e0ec057490a2df609594eb0e7ea1207062d0",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "3fa0c8185166e3e25f05ef9851fa14bcfe928d007972d4754d4ca1b85e603229",
+        "coverage_sha256": "8487c18822ac4ade311fca7da999a769465635ca8213c6736246dc0c2e270088"
+      }
+    },
+    "03-s013": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Vraćeni odnos ulaza/izlaza, smer prema DMUX-u i n/2^n/1. Unutrašnje minterm grane, podatkovni pinovi, ILI izlaz i izraz/primer 01 provereni pojedinačno. Stvarno upoređeni original, prethodni i konačni slajd i pročitana cela A4 strana. Proverene čitljivost, potpunost i stručna tačnost; beleške su nastavni dodatak bez uredničke istorije ili nepotrebnog ponavljanja. Nema odsecanja niti preklapanja. 2026-10-09, dorada s016–s021: potvrda sadržaja zadržana uz iste lokalne izvore, pokrivenost i pikselno identične projekcione/cele A4 prikaze. Zajednički otisak uključuje odobrene nastavke i lokalno uređene crteže; dokaz poredjenje_dorade_s016_s021.json.",
+      "evidence": {
+        "source_render_sha256": "778ee7611c3872205151d579086d7fa84deab14eec3d3a0cd2c4807442287cf4",
+        "baseline_render_sha256": "84cdec6cf252a4301cd9a8355ddcae9e8789c4752a5a94085800c1a23631041b",
+        "new_render_sha256": "c75db638401a137893e1bd81f7a801cb18a8a76f05ff436981443ea92af5963f",
+        "notes_render_sha256": "e5c9bd3011c5051f12acec31e84bbc251dc98f25813d9a31bdf3e61cd6cb2d47",
+        "slide_sources_sha256": "409341e16ae69d5eb01a09f07dde1c900168c68e57050319c64f5fa2d949f862",
+        "notes_sources_sha256": "6c4431b0b47bbfedbc2935c9a0e7a681bd11c426580188e6647f32435240eb7a",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "2b4404decd39c24f80b6cace3d935b285e1377ffa46f33af33f4f10810a0846f",
+        "coverage_sha256": "282f418826f3cc052c14780c962cd0898301f73171e54a5123e44985bcdb6ed5"
+      }
+    },
+    "03-s014": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Horizontalna strelica ide od opšteg MUX-a ka realizaciji desno; dijagonalna od formule F ka desnom MUX-u. Strelice ne ulaze u tela blokova. Proverene konstante I3/I2/I1/I0=1/0/0/1, selektori B/A i izvođenje Z=F. Stvarno upoređeni original, prethodni i konačni slajd i pročitana cela A4 strana. Proverene čitljivost, potpunost i stručna tačnost; beleške su nastavni dodatak bez uredničke istorije ili nepotrebnog ponavljanja. Nema odsecanja niti preklapanja. 2026-10-09, dorada s016–s021: potvrda sadržaja zadržana uz iste lokalne izvore, pokrivenost i pikselno identične projekcione/cele A4 prikaze. Zajednički otisak uključuje odobrene nastavke i lokalno uređene crteže; dokaz poredjenje_dorade_s016_s021.json.",
+      "evidence": {
+        "source_render_sha256": "ed78f306911a14499229b253bc5649e9b87c149af0b888c505f9f75a56ed3879",
+        "baseline_render_sha256": "cf63625b5fac12463e52bfe05dff34b0851e8ddf8558c07dc542c321ef9bb08b",
+        "new_render_sha256": "fa7320d43e68d2b85a2925aaebb4682d53720d59ca22eb8c48f4f4556a6b6109",
+        "notes_render_sha256": "8050475c572558a49325fc398f3aac8230328ae5d0874379da078d82e9d6b5ce",
+        "slide_sources_sha256": "f35fc6dc3853ff66b72fb3c5f75c060502836006d24ef3e44292a174901de3dd",
+        "notes_sources_sha256": "7c81aebc7d45aa0d9b3a114ef53c2869d9196b3490d053a41e6909f7e9a08f28",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "88bb91f9a0269fe5357c754370da35a04a99df087c7afb6cdcbb3faf3df35bda",
+        "coverage_sha256": "5680542d8325f7a1b368e0dd51bf8f3d79f0502d3c1ef67bdb8ba6a09a2e0f68"
+      }
+    },
+    "03-s015": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Lokalni font 10 pt po korisnikovoj dozvoli, oznake najmanje 9 pt. Osnovni MUX/CS, simbol i pet MUX-ova stabla odvojeni. Praćena svaka od 16 ulaznih veza, četiri izlaza, zajednički S1/S0, završni S3/S2 i tačke grananja. Primer I13 i neaktivni CS dodatno objašnjeni. Stvarno upoređeni original, prethodni i konačni slajd i pročitana cela A4 strana. Proverene čitljivost, potpunost i stručna tačnost; beleške su nastavni dodatak bez uredničke istorije ili nepotrebnog ponavljanja. Nema odsecanja niti preklapanja. 2026-10-09, dorada s016–s021: potvrda sadržaja zadržana uz iste lokalne izvore, pokrivenost i pikselno identične projekcione/cele A4 prikaze. Zajednički otisak uključuje odobrene nastavke i lokalno uređene crteže; dokaz poredjenje_dorade_s016_s021.json.",
+      "evidence": {
+        "source_render_sha256": "488f3dd15201bd600f82c4e15ab4a633562f049f316b23ea2f392f7067926da3",
+        "baseline_render_sha256": "f4eff75eafcaa6e612aa77f2fe8b7385fac457d597430b12eff0368f832e775c",
+        "new_render_sha256": "4f1572242fbeb16e2d1b0ebeb53d5eb16a02679f2ce703afa110a8d4f0ed7a50",
+        "notes_render_sha256": "522f9ab1d0e2a99e230a5bea6bda70e103d0258692eb52b09270524470e4ff2f",
+        "slide_sources_sha256": "61a92c17a7817b334f6d52fee033c3e91090a6593704ae22e02d85a22ba84897",
+        "notes_sources_sha256": "79057ee865c6246efac3945509b4861ec3dc4cd5611438d497b3e073083d118f",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "dd6592d7491e4dec6a6b2f5dc426c6ec1d2e5de79be796afd399b16f8818d627",
+        "coverage_sha256": "30f8d9da3d84dd8e4c7d20368c9046356cebb0df096b8e7bd62bc2bca051d10a"
+      }
+    },
+    "03-s016": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Stvarno upoređeni izdvojeni original, neposredno prethodni prikaz, novi slajd i cela A4 strana sa odgovarajućim ID-jem/naslovom. Tekst bliži originalu, sve celine očuvane; odobreni nastavci s020b/s021b povezani sa istim originalima. Pregledani sve veze, oznake, negacije i spojne tačke; nema prelaza kroz gejtove, preklapanja niti odsecanja. Beleške sadrže potpuno dodatno nastavno objašnjenje bez uredničkih komentara. Logičke provere prolaze, uključujući svih 65536 stanja mreže 16/4.",
+      "evidence": {
+        "source_render_sha256": "b9c5ea48654e129c1dce4394e017f3a775494f5e00c100d11474a00ed50c5fa1",
+        "baseline_render_sha256": "d8fc134afd2291446a713be42af5fc2b4c12d5e71ffbd28138a0844dec36885b",
+        "new_render_sha256": "4c90d2b57b78eb115f86e3258b9fc84fa425de51c42ae5ee61d1da69703e77d4",
+        "notes_render_sha256": "5e997479b0818912eeeb718c47f5e3112bca8ef86b50da0ccf28ac1c48c391f0",
+        "slide_sources_sha256": "076f649fff3e612bd7828c8c863a754a6af3a3309376598e35e737fa933ae549",
+        "notes_sources_sha256": "018f9b128a62afbd4de07032638b29bb552bab5d514311116f424e0c9903cff0",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "f3f3609cd0c3703168809fad6c9298a543b03b5fc02f4b07bc8a2c51676da478",
+        "coverage_sha256": "7a78b757453898b69528f15bec7e8b770061cd24e6480e993838d1c45555cfa7"
+      }
+    },
+    "03-s017": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Stvarno upoređeni izdvojeni original, neposredno prethodni prikaz, novi slajd i cela A4 strana sa odgovarajućim ID-jem/naslovom. Tekst bliži originalu, sve celine očuvane; odobreni nastavci s020b/s021b povezani sa istim originalima. Pregledani sve veze, oznake, negacije i spojne tačke; nema prelaza kroz gejtove, preklapanja niti odsecanja. Beleške sadrže potpuno dodatno nastavno objašnjenje bez uredničkih komentara. Logičke provere prolaze, uključujući svih 65536 stanja mreže 16/4.",
+      "evidence": {
+        "source_render_sha256": "25b233e53a69c49ebe0af63c281d4568d79d773b5a77f734dc4b804af23623bc",
+        "baseline_render_sha256": "17fb5a75eef1af1d386a5570616e26442c85233426cc73d5073a7bfbc5097750",
+        "new_render_sha256": "596c69c6f36eee9a292ac4b59ab4fec8360cf093ae35c1f5a3ec50b4bc302d9d",
+        "notes_render_sha256": "2c5b4f0b33c2f84741f8c19b7eb17c0fc09f020b9e64370d1cf490211f2f3a4b",
+        "slide_sources_sha256": "6ae2e655ef8cd2e55e5b19d64e73ea78dee3624af365c2baa1740c69c85c61a4",
+        "notes_sources_sha256": "9a33f523801ca77934a6b49a24b62bc9d09e5fa623afddda0d7b9ba800d173b1",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "aedbe625e5178a90e36c2545bcb7c0d2f188901c93788f9d53546e73405314db",
+        "coverage_sha256": "bed9cbdf173154cdabceeeb22347af69a3c1bf627efec200e43677b6df7a2c4b"
+      }
+    },
+    "03-s018": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Stvarno upoređeni izdvojeni original, neposredno prethodni prikaz, novi slajd i cela A4 strana sa odgovarajućim ID-jem/naslovom. Tekst bliži originalu, sve celine očuvane; odobreni nastavci s020b/s021b povezani sa istim originalima. Pregledani sve veze, oznake, negacije i spojne tačke; nema prelaza kroz gejtove, preklapanja niti odsecanja. Beleške sadrže potpuno dodatno nastavno objašnjenje bez uredničkih komentara. Logičke provere prolaze, uključujući svih 65536 stanja mreže 16/4.",
+      "evidence": {
+        "source_render_sha256": "5072dca768fd21ac71c14fc8a5900ef0116bbb559b4e585c5b4cbe5ee91bf87d",
+        "baseline_render_sha256": "8ff255700fc0d4dfe5f122519dde5933c9234847d21428c6c5a6a9d9a948ebfa",
+        "new_render_sha256": "ff5a62e66997dc8b477567e8ed24d07a4c21b0ebf42a60e122df318bf4ae0e2c",
+        "notes_render_sha256": "d6518dedea9b460bdcd2eed974ffd229c8060e35825031dd647536f29d9b240f",
+        "slide_sources_sha256": "3a04084f5b65becf128cf33b0385890fc171ad69563cdc55cb3d347fe1884e49",
+        "notes_sources_sha256": "e9841d6afcebb75bb12bd6e8cdc52463885685f62a020d6b381d9b3c0f95d186",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "ddd56ebc3f9e34eaa93ffb499a9e561610d732fbe33d2c0e55f2def42e12587e",
+        "coverage_sha256": "a60abec474ce9a3f3f87130809b57079c62898352e059d72afc62868e3f83b26"
+      }
+    },
+    "03-s019": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Pregledani novi projekcioni slajd s019 i cela A4 strana uz prethodni prikaz. Zamenjen redosled donje dve vertikalne GS putanje: sva četiri signala su razdvojena, bez ukrštanja, preklapanja, prolaska kroz blokove ili nenamernih spojeva. Veze grupa 3/2/1/0 ka I3/I2/I1/I0 drugog kodera su očuvane. Tekst slajda i beležaka, sve oznake i funkcija ostaju isti. Prikazi su čitljivi; ID/naslov A4 strane je ispravan. Ostale sadržinske potvrde ostaju važeće.",
+      "evidence": {
+        "source_render_sha256": "a3b61f10f34e64aaf1a71f03858f61277771a3f2c3f7066bfeca17af4bcbf54a",
+        "baseline_render_sha256": "395c0b7f1cf89d51fce2a209c7e5d4462ad635183bfe31803b5b25b773bd8e25",
+        "new_render_sha256": "9d8b7ec5574afc219232df974aa66a65dd4d2b93fb2fa1b2ad2bf813daada0f3",
+        "notes_render_sha256": "0cee7d34bcc800b596fd4d68e3c1ddebf759c3bc6cf9a7e448516863493c1698",
+        "slide_sources_sha256": "69c3306e9d6519b4fa1ea4c0e191aaefd61a3ca16580ac23daf5c81a182af99a",
+        "notes_sources_sha256": "c2befb99f1ce8e9b1502e3e7d0814c3c48a6a0125b592f4b94cd77f5b67a6f07",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "ffc9e0b6b2e6371694e2667d934921ac45c31f9bcd09817bacced6226c29bc6f",
+        "coverage_sha256": "bad968bf8fdfabf670c27b05900a1af053decc0115845f634b9aa5723ca9aeda"
+      }
+    },
+    "03-s020": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Stvarno upoređeni izdvojeni original, neposredno prethodni prikaz, novi slajd i cela A4 strana sa odgovarajućim ID-jem/naslovom. Tekst bliži originalu, sve celine očuvane; odobreni nastavci s020b/s021b povezani sa istim originalima. Pregledani sve veze, oznake, negacije i spojne tačke; nema prelaza kroz gejtove, preklapanja niti odsecanja. Beleške sadrže potpuno dodatno nastavno objašnjenje bez uredničkih komentara. Logičke provere prolaze, uključujući svih 65536 stanja mreže 16/4.",
+      "evidence": {
+        "source_render_sha256": "892e2c789ceae61c72f7a9e8a2273b4caa98d123383d4ffd855215a144cbc19f",
+        "baseline_render_sha256": "7a353a57ff81b8be747f642b79132bf1579792256cd58467f1885fad0a16bad1",
+        "new_render_sha256": "9a72e7118d70d787e727a3a48d679e25055e90fe741310528074368c8e9035ee",
+        "notes_render_sha256": "86b426bbe5e97169232c5006456059e966def28bd3f2b3bd0f3334b2d90b30e1",
+        "slide_sources_sha256": "da4b28e1824be313c74b481b4e5bf0182b5c04ad9be93983ecf91d8ed42b0937",
+        "notes_sources_sha256": "b8ba8e6ff560463a88668781075b88701e3b62f55d6ddec78aa848b692aadedc",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "ba2d736b1949535ff24dd8a362c8e245f3c3c4b6e963209ef3cea2dbf2cbaba3",
+        "coverage_sha256": "5599611eac41e079f39f20ef13e9fe8b965f5c5ea53d6b7680fa640d5053869b"
+      }
+    },
+    "03-s020b": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Stvarno upoređeni izdvojeni original, neposredno prethodni prikaz, novi slajd i cela A4 strana sa odgovarajućim ID-jem/naslovom. Tekst bliži originalu, sve celine očuvane; odobreni nastavci s020b/s021b povezani sa istim originalima. Pregledani sve veze, oznake, negacije i spojne tačke; nema prelaza kroz gejtove, preklapanja niti odsecanja. Beleške sadrže potpuno dodatno nastavno objašnjenje bez uredničkih komentara. Logičke provere prolaze, uključujući svih 65536 stanja mreže 16/4.",
+      "evidence": {
+        "source_render_sha256": "892e2c789ceae61c72f7a9e8a2273b4caa98d123383d4ffd855215a144cbc19f",
+        "baseline_render_sha256": "7a353a57ff81b8be747f642b79132bf1579792256cd58467f1885fad0a16bad1",
+        "new_render_sha256": "79b4f1ffd7c6c8c614ef952e456faa93d47a58c0ec146bb51d23cc195fa444e5",
+        "notes_render_sha256": "763ba74459da4e8bfc0fca2fdde1047612866c33e82d33ce63d24dcf124e92b4",
+        "slide_sources_sha256": "4ca1c80a4bec4078b8351c954534492d867e9ac3125df102f09920df8a2e5ecc",
+        "notes_sources_sha256": "a467da1c29f369e9c425473512f4fff6c06bf2cc293f99503d182736f5194783",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "0d511041d7c59736dbd1010938a59563edcb3ec8bf713284b05b6154d322bf4e",
+        "coverage_sha256": "d5fe8bfd6c3b9aadffd89bc6b908021e9439541e18b18d48c4fbd63bc0602ae7"
+      }
+    },
+    "03-s021": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Stvarno upoređeni izdvojeni original, neposredno prethodni prikaz, novi slajd i cela A4 strana sa odgovarajućim ID-jem/naslovom. Tekst bliži originalu, sve celine očuvane; odobreni nastavci s020b/s021b povezani sa istim originalima. Pregledani sve veze, oznake, negacije i spojne tačke; nema prelaza kroz gejtove, preklapanja niti odsecanja. Beleške sadrže potpuno dodatno nastavno objašnjenje bez uredničkih komentara. Logičke provere prolaze, uključujući svih 65536 stanja mreže 16/4.",
+      "evidence": {
+        "source_render_sha256": "45db8a3920192d7ffeb43f2a66442f4909c277bfbd0862cff5b6edaff30da3ea",
+        "baseline_render_sha256": "cdbe7bcc430fece3186436fd0ecb1a5b945734a69c271dec93c5420f51eb7217",
+        "new_render_sha256": "8b512d683cead1a55e021999a79c99f3104f8a9942480a5f5a02dc1ed4a167cf",
+        "notes_render_sha256": "e999b71e73b62c6dad7756e3e9d3039d2b2c088394d4a5b6415a7eff8ac6b5ea",
+        "slide_sources_sha256": "96bc887f2be7e84e14b6b6764d8042637ae3d52451a61a8ad5eca9ec3687b64c",
+        "notes_sources_sha256": "bef6f87b8d87dad257a316520b35edb15db8f59275952c223dfec24dbdc9cdf9",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "11206b3fa543bcc49e1a82737452afdf9137aaaff9eb2ef04cad64e0f7fe6539",
+        "coverage_sha256": "67b26f9e8173377179c668345ea8f4292a6177cadb0e2ad5424482f121c3bb33"
+      }
+    },
+    "03-s021b": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Stvarno upoređeni izdvojeni original, neposredno prethodni prikaz, novi slajd i cela A4 strana sa odgovarajućim ID-jem/naslovom. Tekst bliži originalu, sve celine očuvane; odobreni nastavci s020b/s021b povezani sa istim originalima. Pregledani sve veze, oznake, negacije i spojne tačke; nema prelaza kroz gejtove, preklapanja niti odsecanja. Beleške sadrže potpuno dodatno nastavno objašnjenje bez uredničkih komentara. Logičke provere prolaze, uključujući svih 65536 stanja mreže 16/4.",
+      "evidence": {
+        "source_render_sha256": "45db8a3920192d7ffeb43f2a66442f4909c277bfbd0862cff5b6edaff30da3ea",
+        "baseline_render_sha256": "cdbe7bcc430fece3186436fd0ecb1a5b945734a69c271dec93c5420f51eb7217",
+        "new_render_sha256": "fa45cadffd541469fd52af43d4103ece6afea2c81e056faab8e705c4d10f4048",
+        "notes_render_sha256": "059d568425700470e51617fcc53e3150a1a3488f55d2dd3858cf60406e546c9b",
+        "slide_sources_sha256": "39ab87767495067d743de45e123f30394aa6f617a2eb593f7a86404c448d25ce",
+        "notes_sources_sha256": "e9f4ab4aa8816cdf750259f8894a870c99fd656de15f87cc0253e410dd1af975",
+        "shared_sha256": "72e7cb522e3d77d874d8cb63cb2edc6fa37294be7ca96ae3c1d45b84fde5b31b",
+        "mapping_sha256": "7bfd4e3d8ee905bfccb9b01279821dd98e719e33f667ccd7ceb6df51b1b3a1b2",
+        "coverage_sha256": "a1dc5c0e7d4b19e586426f2f911882362702b8efd77b1f9bf1d682a1942fbd65"
+      }
+    }
+  }
+}

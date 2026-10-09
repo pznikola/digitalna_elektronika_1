@@ -1,0 +1,19 @@
+\BeleskeID{03-s017}
+% element: 03-s017:e01
+% element: 03-s017:e02
+% element: 03-s017:e03
+% element: 03-s017:d01
+
+Prioritetni deo najpre formira međusignale
+\[
+\begin{aligned}
+ P_3&=I_3, &P_2&=\overline{I_3}I_2,\\
+ P_1&=\overline{I_3}\overline{I_2}I_1,
+ &P_0&=\overline{I_3}\overline{I_2}\overline{I_1}I_0.
+\end{aligned}
+\]
+Svaki niži ulaz propušta se samo kada su svi viši neaktivni. Ako nema aktivnog ulaza, svi \(P_k\) su nula; ako postoji zahtev, tačno jedan je jedinica. Tako se problem više istovremenih zahteva svodi na kodovanje jednog aktivnog međusignala.
+
+Koderski deo zatim formira \(A_1=P_3+P_2\), \(A_0=P_3+P_1\) i \(GS=P_3+P_2+P_1+P_0\). Gornji bit je jedinica za indekse 2 i 3, a donji za indekse 1 i 3. Na primer, ako su aktivni \(I_2\) i \(I_1\), dobija se \(P_2=1,P_1=0\), pa je kod 10 i GS je jedan.
+
+Ovakvi uslovi neposredno vode do šeme, bez prethodne minimizacije. Iako se izraz može dodatno pojednostaviti, odvojen prioritetni i koderski deo jasno pokazuje kako se niži zahtevi potiskuju i olakšava dalje proširenje mreže.

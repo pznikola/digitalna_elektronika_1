@@ -1,0 +1,279 @@
+{
+  "date": "2026-10-09",
+  "reviewed_ids": [
+    "03-s004",
+    "03-s007",
+    "03-s008",
+    "03-s009",
+    "03-s010",
+    "03-s010b"
+  ],
+  "unchanged_slides": {
+    "03-s001": {
+      "before_page": 1,
+      "after_page": 1,
+      "projection_pixels_equal": true,
+      "a4_teaching_content_pixels_equal": true,
+      "a4_full_pixels_equal": true,
+      "a4_difference_bbox": null,
+      "difference_reason": "Nema razlike."
+    },
+    "03-s002": {
+      "before_page": 2,
+      "after_page": 2,
+      "projection_pixels_equal": true,
+      "a4_teaching_content_pixels_equal": true,
+      "a4_full_pixels_equal": true,
+      "a4_difference_bbox": null,
+      "difference_reason": "Nema razlike."
+    },
+    "03-s003": {
+      "before_page": 3,
+      "after_page": 3,
+      "projection_pixels_equal": true,
+      "a4_teaching_content_pixels_equal": true,
+      "a4_full_pixels_equal": true,
+      "a4_difference_bbox": null,
+      "difference_reason": "Nema razlike."
+    },
+    "03-s005": {
+      "before_page": 5,
+      "after_page": 5,
+      "projection_pixels_equal": true,
+      "a4_teaching_content_pixels_equal": true,
+      "a4_full_pixels_equal": true,
+      "a4_difference_bbox": null,
+      "difference_reason": "Nema razlike."
+    },
+    "03-s006": {
+      "before_page": 6,
+      "after_page": 6,
+      "projection_pixels_equal": true,
+      "a4_teaching_content_pixels_equal": true,
+      "a4_full_pixels_equal": true,
+      "a4_difference_bbox": null,
+      "difference_reason": "Nema razlike."
+    },
+    "03-s011": {
+      "before_page": 11,
+      "after_page": 12,
+      "projection_pixels_equal": true,
+      "a4_teaching_content_pixels_equal": true,
+      "a4_full_pixels_equal": false,
+      "a4_difference_bbox": [
+        1148,
+        1737,
+        1157,
+        1752
+      ],
+      "difference_reason": "Samo broj strane u A4 podnožju zbog odobrenog nastavka."
+    },
+    "03-s012": {
+      "before_page": 12,
+      "after_page": 13,
+      "projection_pixels_equal": true,
+      "a4_teaching_content_pixels_equal": true,
+      "a4_full_pixels_equal": false,
+      "a4_difference_bbox": [
+        1148,
+        1737,
+        1158,
+        1753
+      ],
+      "difference_reason": "Samo broj strane u A4 podnožju zbog odobrenog nastavka."
+    },
+    "03-s013": {
+      "before_page": 13,
+      "after_page": 14,
+      "projection_pixels_equal": true,
+      "a4_teaching_content_pixels_equal": true,
+      "a4_full_pixels_equal": false,
+      "a4_difference_bbox": [
+        1147,
+        1737,
+        1158,
+        1753
+      ],
+      "difference_reason": "Samo broj strane u A4 podnožju zbog odobrenog nastavka."
+    },
+    "03-s014": {
+      "before_page": 14,
+      "after_page": 15,
+      "projection_pixels_equal": true,
+      "a4_teaching_content_pixels_equal": true,
+      "a4_full_pixels_equal": false,
+      "a4_difference_bbox": [
+        1147,
+        1737,
+        1158,
+        1753
+      ],
+      "difference_reason": "Samo broj strane u A4 podnožju zbog odobrenog nastavka."
+    },
+    "03-s015": {
+      "before_page": 15,
+      "after_page": 16,
+      "projection_pixels_equal": true,
+      "a4_teaching_content_pixels_equal": true,
+      "a4_full_pixels_equal": false,
+      "a4_difference_bbox": [
+        1148,
+        1737,
+        1158,
+        1753
+      ],
+      "difference_reason": "Samo broj strane u A4 podnožju zbog odobrenog nastavka."
+    },
+    "03-s016": {
+      "before_page": 16,
+      "after_page": 17,
+      "projection_pixels_equal": true,
+      "a4_teaching_content_pixels_equal": true,
+      "a4_full_pixels_equal": false,
+      "a4_difference_bbox": [
+        1148,
+        1737,
+        1158,
+        1753
+      ],
+      "difference_reason": "Samo broj strane u A4 podnožju zbog odobrenog nastavka."
+    },
+    "03-s017": {
+      "before_page": 17,
+      "after_page": 18,
+      "projection_pixels_equal": true,
+      "a4_teaching_content_pixels_equal": true,
+      "a4_full_pixels_equal": false,
+      "a4_difference_bbox": [
+        1148,
+        1737,
+        1158,
+        1753
+      ],
+      "difference_reason": "Samo broj strane u A4 podnožju zbog odobrenog nastavka."
+    },
+    "03-s018": {
+      "before_page": 18,
+      "after_page": 19,
+      "projection_pixels_equal": true,
+      "a4_teaching_content_pixels_equal": true,
+      "a4_full_pixels_equal": false,
+      "a4_difference_bbox": [
+        1148,
+        1737,
+        1158,
+        1753
+      ],
+      "difference_reason": "Samo broj strane u A4 podnožju zbog odobrenog nastavka."
+    },
+    "03-s019": {
+      "before_page": 19,
+      "after_page": 20,
+      "projection_pixels_equal": true,
+      "a4_teaching_content_pixels_equal": true,
+      "a4_full_pixels_equal": false,
+      "a4_difference_bbox": [
+        1137,
+        1737,
+        1158,
+        1753
+      ],
+      "difference_reason": "Samo broj strane u A4 podnožju zbog odobrenog nastavka."
+    },
+    "03-s020": {
+      "before_page": 20,
+      "after_page": 21,
+      "projection_pixels_equal": true,
+      "a4_teaching_content_pixels_equal": true,
+      "a4_full_pixels_equal": false,
+      "a4_difference_bbox": [
+        1148,
+        1737,
+        1158,
+        1753
+      ],
+      "difference_reason": "Samo broj strane u A4 podnožju zbog odobrenog nastavka."
+    },
+    "03-s021": {
+      "before_page": 21,
+      "after_page": 22,
+      "projection_pixels_equal": true,
+      "a4_teaching_content_pixels_equal": true,
+      "a4_full_pixels_equal": false,
+      "a4_difference_bbox": [
+        1148,
+        1737,
+        1157,
+        1752
+      ],
+      "difference_reason": "Samo broj strane u A4 podnožju zbog odobrenog nastavka."
+    }
+  },
+  "original_count": 21,
+  "presentation_count": 22,
+  "notes_pages": 22,
+  "changed_source_files": [
+    "predavanja/03_kola_srednjeg_stepena_integracije/slajdovi/s007_simbol_dekodera.tex",
+    "predavanja/03_kola_srednjeg_stepena_integracije/slajdovi/s010_matricna_struktura_dekodera.tex",
+    "predavanja/03_kola_srednjeg_stepena_integracije/slajdovi/s004_izbor_kola_i_nekorisceni_ulazi.tex",
+    "predavanja/03_kola_srednjeg_stepena_integracije/slajdovi/s008_selekcija_komponente.tex",
+    "predavanja/03_kola_srednjeg_stepena_integracije/slajdovi/s009_piramidalna_struktura_dekodera.tex",
+    "predavanja/03_kola_srednjeg_stepena_integracije/beleske/s004.tex",
+    "predavanja/03_kola_srednjeg_stepena_integracije/beleske/s009.tex",
+    "predavanja/03_kola_srednjeg_stepena_integracije/beleske/s007.tex",
+    "predavanja/03_kola_srednjeg_stepena_integracije/beleske/s008.tex",
+    "predavanja/03_kola_srednjeg_stepena_integracije/beleske/s010.tex",
+    "predavanja/03_kola_srednjeg_stepena_integracije/slike/tikz/dekoder_jezgro.tex",
+    "predavanja/03_kola_srednjeg_stepena_integracije/slike/tikz/s009_piramidalni_dekoder.tex",
+    "predavanja/03_kola_srednjeg_stepena_integracije/slike/tikz/s010_matricni_dekoder.tex"
+  ],
+  "new_source_files": [
+    "slajdovi/s010b_nastavak.tex",
+    "beleske/s010b.tex"
+  ],
+  "preserved_hashes": {
+    "predavanja/03 Kola srednjeg stepena integracije.pdf": "5e68d267ca2f60c1ccdf073c2579fd64a4b05278955cc3d3f920cc54e123fd86",
+    "predavanja/03_kola_srednjeg_stepena_integracije/provera/mapa.json": "a3effdb79779d04df05ce98ece642a6068684e4b798018cc96122479136266cc",
+    "predavanja/_zajednicko/etf-v1/manifest.json": "87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41"
+  },
+  "logical_checks": [
+    {
+      "check": "Piramidalni 4/16: svih 16 adresa i oba CS stanja, isti globalni indeks 4g+k.",
+      "cases": 32,
+      "result": "provereno"
+    },
+    {
+      "check": "Matrični 6/64: svih 64 adresa i četiri stanja CS1/CS2; YiV→CS1, YjK→CS2 i indeksi16i+4j+k.",
+      "cases": 256,
+      "result": "provereno"
+    }
+  ],
+  "review_note": "Pogođeni originali, konačni slajdovi i cele A4 strane stvarno pregledani. Priključci, spojevi, polariteti, indeksi i razmaci provereni; svih 16 ostalih projekcija i nastavni sadržaj A4 strana pikselno su jednaki prethodnoj isporuci. Jedina promena nepogođenih A4 strana je broj strane.",
+  "commands": [
+    {
+      "command": "make -C predavanja LECTURE=03_kola_srednjeg_stepena_integracije notes",
+      "exit_code": 0,
+      "log": "build/redizajn/dorada-s004-s010-2026-10-09/notes.log"
+    },
+    {
+      "command": "make -C predavanja LECTURE=03_kola_srednjeg_stepena_integracije review",
+      "exit_code": 0,
+      "log": "build/redizajn/dorada-s004-s010-2026-10-09/review.log"
+    },
+    {
+      "command": "make -C predavanja LECTURE=03_kola_srednjeg_stepena_integracije check",
+      "exit_code": 0,
+      "log": "build/redizajn/dorada-s004-s010-2026-10-09/check.log"
+    }
+  ],
+  "artifact_sha256": {
+    "provera/redizajn/manifest.json": "72850e06c0f56c19b48e63cecbeafc78c51b42541927ec56d951ceae9ba513ea",
+    "provera/redizajn/izgradnja.json": "2ee61f085ed8053c903313d9b233e7f981199191891e10b822f22e3452fa534f",
+    "provera/redizajn/pregled.json": "b524195631abf614e89bc195c283afc121eca314e218225fd612d79779fff456",
+    "provera/redizajn/pokrivenost.json": "f08f8f4ad660387fb1ec2a04af134634ad197b3a98df3e4c736a856e1c388054",
+    "provera/redizajn/inventar.json": "c84fa136da989b198869c8f7b6f6b0e2854d4df0d767fe8f804a546bf5ef1906",
+    "provera/redizajn/evidencija_beleski.json": "7134a9d0a9161f183323c8b96b0499c2f20a8e3c8a31fac9725fb9b1b9c8d64f",
+    "build/03_kola_srednjeg_stepena_integracije.pdf": "fe62c56904db93ac2c5a7077b45258104f30626552e1bed6ad4a0f46490d8d0e",
+    "build/03_kola_srednjeg_stepena_integracije_beleske.pdf": "8515375ce38c61fb8f2616abf3a946a8755398ba2b37ee47d2fa506b57f1be18"
+  }
+}

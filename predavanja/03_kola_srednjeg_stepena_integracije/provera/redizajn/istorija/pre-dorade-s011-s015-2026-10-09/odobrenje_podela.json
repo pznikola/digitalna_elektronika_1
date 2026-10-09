@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-09",
+  "lecture": "03",
+  "action": "split_into_two",
+  "source_ids": [
+    "03-s010"
+  ],
+  "user_message": "za predavanje 03:\ns004: priblizi sadrzaj teksta generisanog slajda originalnom slajdu. naravno preformulisi i ulepsaj.\ns007: priblizi tekstualni sadrzaj originalu.\ns008: priblizi tekstualni sadrzaj originalu\ns009: sredi dijagram dekoder 4/6. Priblizi tekstualni sadrzaj originalu ali tako da sve i dalje moze da stane na jedan slajd.\ns10: Originalni slajd je potrebno podeliti na 2 slajda s obzirom da ima dosta teksta. Podeliti originalni slajd na 2 smislene celine. Srediti dijagram tako da se poklapa logicki sa originalnim dijagramom",
+  "interpretation": "s10 znači izvorni 03-s010; 4/6 u nalogu znači prikazani dekoder 4/16, potvrđen neposrednim pregledom originala."
+}

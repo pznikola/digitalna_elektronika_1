@@ -1,0 +1,29 @@
+% Sva četiri izlaza i priključci ostaju pojedinačno prikazani.
+\begin{tikzpicture}[x=1mm,y=1mm,font=\fontsize{9}{11}\selectfont]
+\foreach \k/\x in {0/0,1/42,2/84}{
+ \begin{scope}[shift={(\x,0)}]
+ \draw[DEvod] (0,0) rectangle (24,21.5);
+ \node at (12,18.8) {Dekoder};\node at (12,15.3) {2/4};
+ \foreach \n/\y in {3/11.3,2/8.0,1/4.7,0/1.4}{
+  \ifnum\k=1
+   \node[anchor=east,inner sep=1pt] at (24,\y) {Y\n};
+  \else
+   \node[anchor=east,inner sep=1pt] at (24,\y) {$\overline{\mathrm{Y\n}}$};
+  \fi
+  \ifnum\k=0
+   \draw[DEvod] (24,\y)--(27.5,\y);
+  \else
+   \draw[DEvod,fill=white] (24.7,\y) circle(.7);
+   \draw[DEvod] (25.4,\y)--(27.5,\y);
+  \fi
+ }
+ \node[anchor=west,inner sep=1pt] at (0,5) {CS};
+ \draw[DEvod] (-3,5)--(0,5);
+ \foreach \n/\xx in {1/7,0/14}{
+  \node[anchor=south,inner sep=1pt] at (\xx,0) {S\n};
+  \draw[DEvod] (\xx,0)--(\xx,-2.7);
+ }
+ \end{scope}
+}
+\node at (35,10) {$=$};\node[text=DEisticanje] at (77,10) {$\ne$};
+\end{tikzpicture}

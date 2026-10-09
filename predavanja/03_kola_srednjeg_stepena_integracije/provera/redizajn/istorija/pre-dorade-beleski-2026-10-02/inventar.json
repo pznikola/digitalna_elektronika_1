@@ -1,0 +1,599 @@
+{
+  "slides": {
+    "03-s001": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "03-s001:e01",
+          "description": "Naslov predavanja",
+          "source": "PDF strana 1, gornji; Naslov predavanja",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "03-s002": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "03-s002:e01",
+          "description": "Osnova podele integrisanih kola",
+          "source": "PDF strana 1, donji; Osnova podele integrisanih kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s002:e02",
+          "description": "Pragovi SSI, MSI, LSI, VLSI i ULSI",
+          "source": "PDF strana 1, donji; Pragovi SSI, MSI, LSI, VLSI i ULSI",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s002:e03",
+          "description": "Približnost granica i današnja upotreba VLSI",
+          "source": "PDF strana 1, donji; Približnost granica i današnja upotreba VLSI",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "03-s003": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "03-s003:e01",
+          "description": "Tipične veličine SSI pakovanja i PCB",
+          "source": "PDF strana 2, gornji; Tipične veličine SSI pakovanja i PCB",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s003:e02",
+          "description": "Uobičajeni pinovi mase i napajanja",
+          "source": "PDF strana 2, gornji; Uobičajeni pinovi mase i napajanja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s003:e03",
+          "description": "Ostali pinovi i izbor pakovanja",
+          "source": "PDF strana 2, gornji; Ostali pinovi i izbor pakovanja",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "03-s004": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "03-s004:e01",
+          "description": "Istovrsna kola u SSI pakovanju i broj potrebnih čipova",
+          "source": "PDF strana 2, donji; Istovrsna kola u SSI pakovanju i broj potrebnih čipova",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s004:e02",
+          "description": "Neiskorišćeni ulazi i delovi komponente",
+          "source": "PDF strana 2, donji; Neiskorišćeni ulazi i delovi komponente",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s004:e03",
+          "description": "Zamena troulaznog I kola dvama dvoulaznim I kolima; izvorna NI formulacija stručno ispravljena po korisnikovom nalogu",
+          "source": "PDF strana 2, donji; Zamena invertora i tvrdnja o troulaznom NI",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "03-s005": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "03-s005:e01",
+          "description": "Definicija dekodera i odnos ulaza/izlaza",
+          "source": "PDF strana 3, gornji; Definicija dekodera i odnos ulaza/izlaza",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s005:e02",
+          "description": "Šema dekodera 2/4",
+          "source": "PDF strana 3, gornji; Šema dekodera 2/4",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s005:e03",
+          "description": "Jednačine izlaza Y0 do Y3",
+          "source": "PDF strana 3, gornji; Jednačine izlaza Y0 do Y3",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s005:e04",
+          "description": "Selekcioni ulazi i sinteza pomoću izlaza",
+          "source": "PDF strana 3, gornji; Selekcioni ulazi i sinteza pomoću izlaza",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "03-s006": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "03-s006:e01",
+          "description": "Primer funkcije F = B̄Ā + BA",
+          "source": "PDF strana 3, donji; Primer F jednak Y0 plus Y3",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s006:e02",
+          "description": "Nedovršeni obris dekodera sa oznakama",
+          "source": "PDF strana 3, donji; Nedovršeni obris dekodera sa oznakama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s006:e03",
+          "description": "Zasebna oznaka F bez veze u originalu",
+          "source": "PDF strana 3, donji; Zasebna oznaka F bez veze u originalu",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "03-s007": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "03-s007:e01",
+          "description": "Pravougaoni simbol i potpune oznake",
+          "source": "PDF strana 4, gornji; Pravougaoni simbol i potpune oznake",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s007:e02",
+          "description": "Interna šema dekodera u simboličkom okviru",
+          "source": "PDF strana 4, gornji; Interna šema dekodera u simboličkom okviru",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s007:e03",
+          "description": "Spoljašnji simbol dekodera 2/4",
+          "source": "PDF strana 4, gornji; Spoljašnji simbol dekodera 2/4",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s007:e04",
+          "description": "Težine selektora i indeksi izlaza",
+          "source": "PDF strana 4, gornji; Težine selektora i indeksi izlaza",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "03-s008": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "03-s008:e01",
+          "description": "Značenje signala CS",
+          "source": "PDF strana 4, donji; Značenje signala CS",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s008:e02",
+          "description": "Interna realizacija dekodera sa CS",
+          "source": "PDF strana 4, donji; Interna realizacija dekodera sa CS",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s008:e03",
+          "description": "Spoljašnji simbol sa CS",
+          "source": "PDF strana 4, donji; Spoljašnji simbol sa CS",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s008:e04",
+          "description": "Neaktivan nivo izlaza i više CS ulaza",
+          "source": "PDF strana 4, donji; Neaktivan nivo izlaza i više CS ulaza",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "03-s009": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "03-s009:e01",
+          "description": "Piramidalna šema 4/16 iz dekodera 2/4",
+          "source": "PDF strana 5, gornji; Piramidalna šema 4/16 iz dekodera 2/4",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s009:e02",
+          "description": "Raspored selekcionih težina i jednog CS po komponenti",
+          "source": "PDF strana 5, gornji; Raspored selekcionih težina i jednog CS po komponenti",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s009:e03",
+          "description": "Uopštenje na dekoder 6/64",
+          "source": "PDF strana 5, gornji; Uopštenje na dekoder 6/64",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "03-s010": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "03-s010:e01",
+          "description": "Načelo matričnog dekodovanja",
+          "source": "PDF strana 5, donji; Načelo matričnog dekodovanja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s010:e02",
+          "description": "Šema izbora vrste i kolone",
+          "source": "PDF strana 5, donji; Šema izbora vrste i kolone",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s010:e03",
+          "description": "Poređenje broja komponenti",
+          "source": "PDF strana 5, donji; Poređenje broja komponenti",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s010:e04",
+          "description": "Kašnjenje i uslov dodatnih CS ulaza",
+          "source": "PDF strana 5, donji; Kašnjenje i uslov dodatnih CS ulaza",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "03-s011": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "03-s011:e01",
+          "description": "Aktivno-niski ulazi i izlazi",
+          "source": "PDF strana 6, gornji; Aktivno-niski ulazi i izlazi",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s011:e02",
+          "description": "Ekvivalentne i neekvivalentne oznake izlaza",
+          "source": "PDF strana 6, gornji; Ekvivalentne i neekvivalentne oznake izlaza",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s011:e03",
+          "description": "Dva selekciona signala različitog polariteta",
+          "source": "PDF strana 6, gornji; Dva selekciona signala različitog polariteta",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "03-s012": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "03-s012:e01",
+          "description": "Definicija demultipleksera",
+          "source": "PDF strana 6, donji; Definicija demultipleksera",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s012:e02",
+          "description": "Dva nedovršena prikaza demultipleksera",
+          "source": "PDF strana 6, donji; Dva nedovršena prikaza demultipleksera",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s012:e03",
+          "description": "Veza sa dekoderom i proširenje mreže",
+          "source": "PDF strana 6, donji; Veza sa dekoderom i proširenje mreže",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "03-s013": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "03-s013:e01",
+          "description": "Definicija multipleksera",
+          "source": "PDF strana 7, gornji; Definicija multipleksera",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s013:e02",
+          "description": "Interna realizacija MUX 4/1",
+          "source": "PDF strana 7, gornji; Interna realizacija MUX 4/1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s013:e03",
+          "description": "Spoljašnji simbol MUX 4/1",
+          "source": "PDF strana 7, gornji; Spoljašnji simbol MUX 4/1",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "03-s014": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "03-s014:e01",
+          "description": "Funkcija i izbor selektora",
+          "source": "PDF strana 7, donji; Funkcija i izbor selektora",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s014:e02",
+          "description": "Interni princip preko potpunih proizvoda",
+          "source": "PDF strana 7, donji; Interni princip preko potpunih proizvoda",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s014:e03",
+          "description": "Opšti simbol multipleksera",
+          "source": "PDF strana 7, donji; Opšti simbol multipleksera",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s014:e04",
+          "description": "Primer povezivanja ulaza za F",
+          "source": "PDF strana 7, donji; Primer povezivanja ulaza za F",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "03-s015": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "03-s015:e01",
+          "description": "CS i proširenje multipleksera",
+          "source": "PDF strana 8, gornji; CS i proširenje multipleksera",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s015:e02",
+          "description": "Interna šema MUX sa CS",
+          "source": "PDF strana 8, gornji; Interna šema MUX sa CS",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s015:e03",
+          "description": "Apstraktni simbol sa CS",
+          "source": "PDF strana 8, gornji; Apstraktni simbol sa CS",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s015:e04",
+          "description": "Šema MUX 16/1 od MUX 4/1",
+          "source": "PDF strana 8, gornji; Šema MUX 16/1 od MUX 4/1",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "03-s016": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "03-s016:e01",
+          "description": "Načelo prioriteta i broj izlaznih bita",
+          "source": "PDF strana 8, donji; Načelo prioriteta i broj izlaznih bita",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s016:e02",
+          "description": "Funkcionalna tabela bez GS",
+          "source": "PDF strana 8, donji; Funkcionalna tabela bez GS",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s016:e03",
+          "description": "Dvosmislenost koda 00 i GS",
+          "source": "PDF strana 8, donji; Dvosmislenost koda 00 i GS",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "03-s017": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "03-s017:e01",
+          "description": "Funkcionalna tabela sa GS",
+          "source": "PDF strana 9, gornji; Funkcionalna tabela sa GS",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s017:e02",
+          "description": "Razlog direktne realizacije",
+          "source": "PDF strana 9, gornji; Razlog direktne realizacije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s017:e03",
+          "description": "Prioritetna i koderska mreža",
+          "source": "PDF strana 9, gornji; Prioritetna i koderska mreža",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "03-s018": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "03-s018:e01",
+          "description": "Jedna aktivna grana najvišeg prioriteta",
+          "source": "PDF strana 9, donji; Jedna aktivna grana najvišeg prioriteta",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s018:e02",
+          "description": "Kompaktnija šema kodera",
+          "source": "PDF strana 9, donji; Kompaktnija šema kodera",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s018:e03",
+          "description": "Poređenje kompaktnosti i proširivosti",
+          "source": "PDF strana 9, donji; Poređenje kompaktnosti i proširivosti",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "03-s019": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "03-s019:e01",
+          "description": "Osnovna šema 16-ulaznog kodera",
+          "source": "PDF strana 10, gornji; Osnovna šema 16-ulaznog kodera",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s019:e02",
+          "description": "Određivanje viših bitova A3,A2",
+          "source": "PDF strana 10, gornji; Određivanje viših bitova A3,A2",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s019:e03",
+          "description": "Problem nižih bitova i zabrana kratkog spoja izlaza",
+          "source": "PDF strana 10, gornji; Problem nižih bitova i zabrana kratkog spoja izlaza",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s019:e04",
+          "description": "Potreba za dodatnim dozvolama i kombinovanjem",
+          "source": "PDF strana 10, gornji; Potreba za dodatnim dozvolama i kombinovanjem",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "03-s020": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "03-s020:e01",
+          "description": "Uloga signala EI",
+          "source": "PDF strana 10, donji; Uloga signala EI",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s020:e02",
+          "description": "Interna realizacija kodera sa EI i EO",
+          "source": "PDF strana 10, donji; Interna realizacija kodera sa EI i EO",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s020:e03",
+          "description": "Uloga signala EO",
+          "source": "PDF strana 10, donji; Uloga signala EO",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s020:e04",
+          "description": "Zašto invertovani GS nije EO",
+          "source": "PDF strana 10, donji; Zašto invertovani GS nije EO",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "03-s021": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "03-s021:e01",
+          "description": "Šema 16-ulaznog kodera sa EI/EO lancem",
+          "source": "PDF strana 11, gornji; Šema 16-ulaznog kodera sa EI/EO lancem",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s021:e02",
+          "description": "Logičko spajanje nižih bitova",
+          "source": "PDF strana 11, gornji; Logičko spajanje nižih bitova",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s021:e03",
+          "description": "Alternativa sa visokom impedansom",
+          "source": "PDF strana 11, gornji; Alternativa sa visokom impedansom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "03-s021:e04",
+          "description": "Konvencija crtanja simbola MSI",
+          "source": "PDF strana 11, gornji; Konvencija crtanja simbola MSI",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    }
+  }
+}

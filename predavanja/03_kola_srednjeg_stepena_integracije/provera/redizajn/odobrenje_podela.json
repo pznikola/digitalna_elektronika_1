@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-09",
+  "lecture": "03",
+  "action": "split_into_two",
+  "source_ids": [
+    "03-s010",
+    "03-s020",
+    "03-s021"
+  ],
+  "user_message": "za predavanje 03:\ns004: priblizi sadrzaj teksta generisanog slajda originalnom slajdu. naravno preformulisi i ulepsaj.\ns007: priblizi tekstualni sadrzaj originalu.\ns008: priblizi tekstualni sadrzaj originalu\ns009: sredi dijagram dekoder 4/6. Priblizi tekstualni sadrzaj originalu ali tako da sve i dalje moze da stane na jedan slajd.\ns10: Originalni slajd je potrebno podeliti na 2 slajda s obzirom da ima dosta teksta. Podeliti originalni slajd na 2 smislene celine. Srediti dijagram tako da se poklapa logicki sa originalnim dijagramom\n\nNovi nalog:\ns016: Priblizi tekst originalnom sadrzaju teksta\ns017: nacrtaj dijagram lepsa, smanji ga slobodno malo ako treba ali bitno je da su komponente i linije nacrtane lepo i citljivo. Pribliziti tekst originalnom slajdu\ns018: pribliziti tekst originalnom slajdu\ns019: Nacrtati lepse dijagram. Smanjiti font ako treba na dijagramu. Pribliziti sadrzaj teksta originalnom slajdu\ns020: Originalni slajd ima previse teksta. Razbiti originalni slajd na dve smislene celine. To ce nam ostaviti onda mesta da se dijagram lepse nacrta. Pribliziti tekstualni sadrzaj originalnom slajdu\ns021: Isto kao za s020. Za s021 ima smisla smanjiti font na dijagramu kako bi lepsi dijagram mogao da se nacrta",
+  "interpretation": "s10 znači izvorni 03-s010; 4/6 u nalogu znači prikazani dekoder 4/16, potvrđen neposrednim pregledom originala.",
+  "decisions": [
+    {
+      "date": "2026-10-09",
+      "lecture": "03",
+      "action": "split_into_two",
+      "source_ids": [
+        "03-s010"
+      ],
+      "user_message": "za predavanje 03:\ns004: priblizi sadrzaj teksta generisanog slajda originalnom slajdu. naravno preformulisi i ulepsaj.\ns007: priblizi tekstualni sadrzaj originalu.\ns008: priblizi tekstualni sadrzaj originalu\ns009: sredi dijagram dekoder 4/6. Priblizi tekstualni sadrzaj originalu ali tako da sve i dalje moze da stane na jedan slajd.\ns10: Originalni slajd je potrebno podeliti na 2 slajda s obzirom da ima dosta teksta. Podeliti originalni slajd na 2 smislene celine. Srediti dijagram tako da se poklapa logicki sa originalnim dijagramom",
+      "interpretation": "s10 znači izvorni 03-s010; 4/6 u nalogu znači prikazani dekoder 4/16, potvrđen neposrednim pregledom originala."
+    },
+    {
+      "date": "2026-10-09",
+      "source_ids": [
+        "03-s020",
+        "03-s021"
+      ],
+      "user_message": "s016: Priblizi tekst originalnom sadrzaju teksta\ns017: nacrtaj dijagram lepsa, smanji ga slobodno malo ako treba ali bitno je da su komponente i linije nacrtane lepo i citljivo. Pribliziti tekst originalnom slajdu\ns018: pribliziti tekst originalnom slajdu\ns019: Nacrtati lepse dijagram. Smanjiti font ako treba na dijagramu. Pribliziti sadrzaj teksta originalnom slajdu\ns020: Originalni slajd ima previse teksta. Razbiti originalni slajd na dve smislene celine. To ce nam ostaviti onda mesta da se dijagram lepse nacrta. Pribliziti tekstualni sadrzaj originalnom slajdu\ns021: Isto kao za s020. Za s021 ima smisla smanjiti font na dijagramu kako bi lepsi dijagram mogao da se nacrta",
+      "interpretation": "s021 isto kao s020 znači podeliti original u dve celine; s020b i s021b ostaju nastavci istih originala."
+    }
+  ]
+}

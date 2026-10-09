@@ -1,15 +1,22 @@
+% Original: PDF strana 11, gornji slajd; prvi deo.
 \slajdid{03-s021}
-\begin{frame}[label=03-s021]
-\gusttekst
-Sa ovako realizovanim koderom prioriteta mreža sa 16 ulaza postaje
+\begin{frame}[t,label=03-s021]{Lanac kodera prioriteta sa 16 ulaza}
+\setlength{\parskip}{0pt}
+% element: 03-s021:e02
+Sa ovako realizovanim koderom prioriteta mreža sa \textbf{16 ulaza} postaje:
+\par\vspace{1mm}
 \begin{columns}[c,onlytextwidth]
-\begin{column}{.48\textwidth}\centering
+\begin{column}{.47\textwidth}\centering
+% element: 03-s021:e01
 \input{slike/tikz/s021_koder_sa_enable_lancem.tex}
 \end{column}
-\begin{column}{.49\textwidth}
-Mogli smo još da pojednostavimo mrežu u smislu da izlaze A1 i A0 kada je koder neaktivan dovedemo u stanje visoke impedanse. U tom smislu mogli bi na izlazima da izvršimo direktno spajanje, ne bi nam trebala četvoroulazna ILI kola.
-
-\textcolor{DEplava}{Verovatno ste uočili da striktnih standarda za crtanje simbola kola srednjeg stepena integracije nema. Ono što je uobičajeno jeste da ulazi budu na jednoj strani simbola a izlazi na drugoj strani. Da se ne mešaju ulazi i izlazi na jednoj stranici simbola. I dosta često se ulazi crtaju sa leve strane simbola a izlazi sa desne strane simbola.}
+\begin{column}{.50\textwidth}
+% element: 03-s021:e03
+Mrežu možemo dodatno pojednostaviti: izlaze \(A_1,A_0\) neaktivnog kodera
+postavimo u \textcolor{DEisticanje}{\textbf{stanje visoke impedanse}}.
+\par\vspace{2mm}
+Tada odgovarajuće izlaze možemo \textbf{direktno spojiti},
+pa nam \textcolor{DEisticanje}{\textbf{četvoroulazni ILI gejtovi nisu potrebni}}.
 \end{column}
 \end{columns}
 \end{frame}

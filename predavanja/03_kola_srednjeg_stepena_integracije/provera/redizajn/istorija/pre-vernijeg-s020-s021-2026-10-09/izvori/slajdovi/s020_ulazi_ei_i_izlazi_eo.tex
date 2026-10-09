@@ -1,0 +1,26 @@
+% Original: PDF strana 10, donji slajd; prvi deo.
+\slajdid{03-s020}
+\begin{frame}[t,label=03-s020]{Dozvola kodovanja signalom EI}
+\setlength{\parskip}{0pt}
+\begin{columns}[c,onlytextwidth]
+\begin{column}{.31\textwidth}
+% element: 03-s020:e01
+Ulaz \textcolor{DEisticanje}{\textbf{EI}} (\emph{enable input})
+dozvoljava kodovanje:
+\begin{itemize}
+\item za \(EI=1\), kodovanje je dozvoljeno;
+\item za \(EI=0\), izlazi \(A_1,A_0\) postavljaju se na \textbf{logičku nulu}.
+\end{itemize}
+\par\vspace{1.5mm}
+Možemo usloviti i \(GS\). Tada \(GS=0\) znači da nema aktivnih ulaza
+ili da je komponenti \textbf{zabranjeno kodovanje} zbog višeg prioriteta.
+\end{column}
+\begin{column}{.66\textwidth}\centering
+% element: 03-s020:e02
+\begingroup
+\def\DEenable{1}\def\DEjedinica{.75cm}\def\DEvisinaPrioriteta{.70cm}\def\DEgejt{.55}
+\input{slike/tikz/prioritetno_jezgro.tex}
+\endgroup
+\end{column}
+\end{columns}
+\end{frame}

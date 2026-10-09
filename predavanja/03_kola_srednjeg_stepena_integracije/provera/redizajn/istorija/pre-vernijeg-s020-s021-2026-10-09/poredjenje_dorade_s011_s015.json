@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-09",
+  "changed_slides": [
+    "03-s011",
+    "03-s012",
+    "03-s013",
+    "03-s014",
+    "03-s015"
+  ],
+  "unchanged_slides": {
+    "03-s001": {
+      "slide_sources_sha256": "328efa675edb33b0515db940b861dec85e98a8252f3461be6b2bbc407be378ac",
+      "notes_sources_sha256": "447515272e86fceaee214ab34475f4ea13057a0dc1e5044a15e9ddd96e4b8c3c",
+      "coverage_sha256": "ab9d8bb869238c68328b5ce872baafb0ddd81a19ccadd81d1aa0b92dbce1ae87",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s002": {
+      "slide_sources_sha256": "227d1d1c23adbe762319fc422ad6da439260bb991fdac9d028c3f17fca70696f",
+      "notes_sources_sha256": "c8c46e3f9a6c5d27628a946bcfd93e5b21cd5c2ad6e03e8ab04733a7503d27d7",
+      "coverage_sha256": "eb4c9bda9ec37bcc1aa861f3845bf9fdefc427def021c5b617ea641adca0e772",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s003": {
+      "slide_sources_sha256": "970ab7820234b3fcd1e6e1659c3f17d1418938d89be88da8750cb7632576f780",
+      "notes_sources_sha256": "24f0866b1e557eaea9acccd4fdb27400403d2e659152754a75cb0321abaa2e49",
+      "coverage_sha256": "b8f3347b6ad3e4f88b66ec6cdd39bfe46996e62b511adb3eccce2ea20ebb5e6a",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s004": {
+      "slide_sources_sha256": "09aaab2d516b0fa50a4576b563337732a4f226a9d33410cedd26858a2a0a8703",
+      "notes_sources_sha256": "5a0ce89e92a2c87682fb35437bac5e19892da70f29669cfdc428819a0082d738",
+      "coverage_sha256": "4d44fafa2c660cd8f999f7e1f0400f570bb6655849e062f841f5d05c17697bee",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s005": {
+      "slide_sources_sha256": "7673cc9b589e72e697f897ebcdea2e30db06ecea2829759807cbb1779509f70e",
+      "notes_sources_sha256": "cfdd72bc09fcb710653c34fac2547ec1027a52644d8434b46ac2e0cc6f3e714b",
+      "coverage_sha256": "35d792125885cbad85db5ae1a1cbd9545c2ce3eccda83b789fc9519b62efcc48",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s006": {
+      "slide_sources_sha256": "a9ae6a3b0ebb7a6bfa2d48daad24fc4f7bf84379f643ca6b076f547770bf4460",
+      "notes_sources_sha256": "8c8d62f24747620e0a5b85d05bf7f5cf808d1f434a6616bd5ddc468c0060050e",
+      "coverage_sha256": "eb2ca002e9d966ddc556e0e50383beb0e62dc7d85203aa11f5b73682d3224340",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s007": {
+      "slide_sources_sha256": "d7c01ef04f5e69397aa5275621be8b3a50caca6bb7df690923b96974e23860c7",
+      "notes_sources_sha256": "14d834a5e5ba33af66fa475782c0c588d76b479432b074d98cf15dac6f4b1335",
+      "coverage_sha256": "72a0998d6ec956296accf19224e7954b2c6538710f1beb1ce16f9e57e38e9151",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s008": {
+      "slide_sources_sha256": "a5c84a0ad630216c42d341cebe2d69963e3b4255c4ee476b249bc7e65656f329",
+      "notes_sources_sha256": "bb4884e02bcf7742c3858fc567b8e7229e664125c2ca7c1c1ee8bebd8b98f265",
+      "coverage_sha256": "842b93d8e377851bdc09482a6fe04b9db587a8ba26d2d2002929c076ba435f48",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s009": {
+      "slide_sources_sha256": "a27d025ae3b30e0ad89b0f24cb575d3631f4f47c79f8d5486da65672edf8efda",
+      "notes_sources_sha256": "bae85ec52ff4f88b3c8a965388243ca5f68cce9f181e0c825ffe1e672454b8ed",
+      "coverage_sha256": "0967832254dabae20aad3af7c68c51e0de3bf5e55f371627b922315fef2c384b",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s010": {
+      "slide_sources_sha256": "0cb08188a0c6a33c48ab0d16c8eb79a7607d0578c8ba875d6d8b4db3e24b888f",
+      "notes_sources_sha256": "dae8bff4e196913b05cd329c1fea68cd12052f911e1362a728add29826c40243",
+      "coverage_sha256": "cf5af1d46d04b32ecc2e5a4f0837d35dc55d17a21a879ab76a298f6f9bf97fa0",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s010b": {
+      "slide_sources_sha256": "c7ada39e17478ba6e989df0392cc68498f159783fc3c392f6b7730e96fcf7cdb",
+      "notes_sources_sha256": "1e06a54e4515614eb1363b77df8d26669ab89bb530c7c8cbc48f3afcedae1dea",
+      "coverage_sha256": "46aa88f6113f91f1097242a54cf6311871229fb5cc35b2d55e05a33fa637fd31",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s016": {
+      "slide_sources_sha256": "0f0a0e702986a910199169f00aa05b098d7fa1435b692df7963f287cb256bc9c",
+      "notes_sources_sha256": "fe544f82d278f4e0c7ee0f21a3d20a1e25c128d493bdd7d640743b21d1ad14dc",
+      "coverage_sha256": "5ddc819be88397807e1c41f264d9286e354a81a373fccddb20a76a634c0cac47",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s017": {
+      "slide_sources_sha256": "b834f2b43ff783eb90b535ae3a8d30c90272dda9a4dba25bf8e45c0b54907488",
+      "notes_sources_sha256": "b4d1f4379da48a5576a446ad8ef3c7e884cb16a83fc04b0f797e1dacf4e4a8e7",
+      "coverage_sha256": "cf34df3297b9e4b3e84425699ffb767d935d36d3cf868766ad0ce795c20bfcfa",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s018": {
+      "slide_sources_sha256": "b436b219f1054f8cb0be56b9c710600fb708635832ff3ec96ffaa0a9276873ce",
+      "notes_sources_sha256": "e9841d6afcebb75bb12bd6e8cdc52463885685f62a020d6b381d9b3c0f95d186",
+      "coverage_sha256": "9f0173b3a3c3f67675ac858beb42bd800f07cddbbf8ea483243dbda85c3d6ac3",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s019": {
+      "slide_sources_sha256": "4772e7f5a1e40e9c2ab7ae9c29fd0288aad185e08881eef8d35c2028091808f2",
+      "notes_sources_sha256": "a2d4e61fc5dd97b46047562a7e732901c59688e8f050de9d22f48a4041c2e9f6",
+      "coverage_sha256": "df683c9008118adc0d376fbd2831722ee90e67c26151399830f15b08c1485d68",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s020": {
+      "slide_sources_sha256": "e3e1d4236b9bb368c4c6216a4cb46d80b034dcb3b9baf4a0b3f77513b905539b",
+      "notes_sources_sha256": "71ce894109629092a5f30ac3f1565abf4bc30570df8bd0cec87076cd2dcebeb5",
+      "coverage_sha256": "4697bf6340994880959620f714f12a3f1feec6ff74d1965d802bcc95027e0e9c",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s021": {
+      "slide_sources_sha256": "6ff34616876759b24f4410fb27d721f2ac88e8d663f3536b0d3ec23ed24e285b",
+      "notes_sources_sha256": "2569892da9cf600d247e64004d62cbeb38303c6992d96717c0235265d65f094b",
+      "coverage_sha256": "7dca5546aff959a60363f018cdf6b8c862cc9f64f8cd34296650b5280a9b63e9",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    }
+  },
+  "method": "Tačno poređenje svih piksela projekcione PNG slike i cele A4 strane po stabilnom ID-ju. Lokalni izvori slajdova/beležaka i sadržaj pokrivenosti poređeni sa arhivom pre dorade. Pet izmenjenih parova otvoreno i pregledano pojedinačno, uz proveru da završni review nije promenio njihove prikaze."
+}

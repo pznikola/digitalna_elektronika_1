@@ -1,0 +1,35 @@
+% Original: PDF strana 10, donji slajd; drugi deo.
+\slajdid{03-s020b}
+\begin{frame}[t,label=03-s020b]{Prenos dozvole signalom EO}
+\setlength{\parskip}{0pt}
+\fontsize{11}{13}\selectfont
+% element: 03-s020b:e04
+Na prvi pogled bismo umesto EO mogli koristiti invertovani GS.
+Međutim, dozvola mora da se prenese \textbf{od višeg ka nižem prioritetu},
+bez obzira na stanje pojedinačnog kodera.
+\par\vspace{2mm}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.53\textwidth}
+\textcolor{DEisticanje}{\textbf{Zašto invertovani GS nije dovoljan?}}
+\par\vspace{1.5mm}
+Uslovljeni GS može biti nula zato što je koderu \textbf{zabranjen rad}.
+Njegova inverzija tada bi dozvolila nižem koderu da radi, \textbf{a ne sme}.
+\par\vspace{1.5mm}
+GS možemo ostaviti i neuslovljen: to ne smeta drugom nivou kodera prioriteta.
+Ipak, ni on ne može zameniti EO. To što ova grupa nema šta da koduje
+ne znači da \textbf{grupe višeg prioriteta nisu imale zahtev}.
+\end{column}
+\begin{column}{.44\textwidth}
+\textcolor{DEisticanje}{\textbf{Suština izlaza EO}}
+\par\vspace{1.5mm}
+\textbf{Dozvoljeno mi je; nemam šta da kodujem:}
+dozvoljavam kodovanje nižem koderu.
+\par\vspace{2mm}
+\textbf{Dozvoljeno mi je; imam šta da kodujem:}
+zabranjujem kodovanje nižim koderima.
+\par\vspace{2mm}
+\textbf{Nije mi dozvoljeno da kodujem:}
+ne dozvoljavam ni nižim koderima da koduju.
+\end{column}
+\end{columns}
+\end{frame}

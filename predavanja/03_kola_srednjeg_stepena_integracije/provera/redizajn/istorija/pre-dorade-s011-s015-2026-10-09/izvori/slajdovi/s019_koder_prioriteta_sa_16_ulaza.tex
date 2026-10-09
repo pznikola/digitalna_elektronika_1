@@ -1,0 +1,20 @@
+% Original: PDF strana 10, gornji slajd.
+\slajdid{03-s019}
+\begin{frame}[label=03-s019]{Koder prioriteta sa 16 ulaza}
+\begin{columns}[c,onlytextwidth]
+\begin{column}{.56\textwidth}\centering
+% element: 03-s019:e01
+\input{slike/tikz/s019_koder_16_ulaza.tex}
+\end{column}
+\begin{column}{.40\textwidth}
+% element: 03-s019:e02
+Četiri osnovna kodera obrađuju po četiri ulaza. Signali \(GS\) dolaze na drugi nivo, koji bira grupu i daje \(A_3,A_2\).
+\par\vspace{3mm}
+% element: 03-s019:e03
+Niži bitovi \(A_1,A_0\) moraju poticati iz \emph{izabrane} grupe. \textcolor{DEisticanje}{\textbf{Izlazi se ne smeju kratko spojiti.}}
+\par\vspace{3mm}
+% element: 03-s019:e04
+\Rezultat{Potrebni su dodatni signali za izbor validnih \(A_1,A_0\) i njihovo logičko spajanje.}
+\end{column}
+\end{columns}
+\end{frame}

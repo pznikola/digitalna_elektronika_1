@@ -1,0 +1,27 @@
+\slajdid{03-s010b}
+\begin{frame}[label=03-s010b]{Matrična i piramidalna struktura: poređenje}
+% element: 03-s010b:e03
+Za dekoder \(6/64\) realizovan dekoderima 2/4:
+\par\vspace{2mm}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.475\textwidth}
+\textbf{Matrična struktura}\par\vspace{1mm}
+16 izlaznih dekodera + dekoder vrste + dekoder kolone
+\[\textcolor{DEisticanje}{16+1+1=18\text{ komponenti}}\]
+\end{column}
+\begin{column}{.475\textwidth}
+\textbf{Piramidalna struktura}\par\vspace{1mm}
+16 dekodera u izlaznom + 4 u srednjem + 1 u prvom nivou
+\[16+4+1=21\text{ komponenta}\]
+\end{column}
+\end{columns}
+\par\vspace{2mm}
+% element: 03-s010b:e04
+\Rezultat{\textbf{Matrična struktura ima dva nivoa, pa i manje kašnjenje.}
+U piramidalnoj strukturi broj nivoa zavisi od veličine dekodera;
+za ovaj primer potrebna su tri nivoa.}
+\par\vspace{2mm}
+Pri većem broju izlaza prednost matrične strukture u broju komponenti postaje značajnija,
+ali zahteva \textbf{specifičnije komponente sa više CS ulaza}.
+Moguće je kombinovati matričnu i piramidalnu strukturu.
+\end{frame}

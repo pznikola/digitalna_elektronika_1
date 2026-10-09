@@ -1,0 +1,17 @@
+\BeleskeID{03-s010}
+% element: 03-s010:e01
+% element: 03-s010:d01
+Podela šest selektora daje \(i=2S_5+S_4\), \(j=2S_3+S_2\) i \(k=2S_1+S_0\).
+Dekoder vrste aktivira \(Y_{iV}\), a dekoder kolone \(Y_{jK}\).
+Izlazni blok za polje \((i,j)\) radi kada su oba njegova CS uslova aktivna;
+\(k\) u njemu bira lokalni izlaz. Na primer, \(i=2,j=1,k=3\) daje indeks
+\(16\cdot2+4\cdot1+3=39\).
+
+% element: 03-s010:e02
+Horizontalni i vertikalni vodovi matrice nose nezavisne uslove za vrstu i kolonu:
+njihova ukrštanja nisu električni spojevi.
+Kružić i strelica izdvajaju jedno polje i njegov izlazni dekoder.
+Njegovi \(CS_1\) i \(CS_2\) priključci dobijaju \(Y_{iV}\) i \(Y_{jK}\),
+a globalni indeksi lokalnih izlaza su \(16i+4j+k\).
+Na pomoćnim dekoderima spoljni signali \(S_5,S_4\) odnosno \(S_3,S_2\)
+dolaze na lokalne adresne priključke \(S_1,S_0\).

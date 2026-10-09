@@ -1,0 +1,20 @@
+% Original: PDF strana 10, donji slajd.
+\slajdid{03-s020}
+\begin{frame}[label=03-s020]{Signali EI i EO u koderu prioriteta}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.54\textwidth}
+% element: 03-s020:e01
+\textcolor{DEisticanje}{\textbf{EI}} dozvoljava kodovanje. Za \(EI=0\), izlazi \(A_1,A_0,GS\) su neaktivni.
+\par\vspace{1mm}
+% element: 03-s020:e02
+\begin{center}\begingroup\def\DEenable{1}\def\DEjedinica{.60cm}\def\DEgejt{.55}\input{slike/tikz/prioritetno_jezgro.tex}\endgroup\end{center}
+\end{column}
+\begin{column}{.42\textwidth}
+% element: 03-s020:e03
+\textcolor{DEisticanje}{\textbf{EO}} prenosi dozvolu koderu nižeg prioriteta samo ako je tekući koder smeo da radi, ali nema aktivan ulaz.
+\par\vspace{3mm}
+% element: 03-s020:e04
+\Rezultat{Invertovani \(GS\) nije zamena za \(EO\): ne čuva informaciju da je kodovanje zabranio koder višeg prioriteta.}
+\end{column}
+\end{columns}
+\end{frame}

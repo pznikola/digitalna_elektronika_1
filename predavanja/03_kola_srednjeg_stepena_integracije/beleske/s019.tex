@@ -1,0 +1,12 @@
+\BeleskeID{03-s019}
+% element: 03-s019:e01
+% element: 03-s019:e02
+% element: 03-s019:e03
+% element: 03-s019:e04
+% element: 03-s019:d01
+
+Neka je \(g\) indeks grupe izabran pomoću signala GS, a \(k\) lokalni indeks pobedničkog ulaza u toj grupi. Globalni indeks je \(4g+k\): \(A_3,A_2\) koduju \(g\), dok \(A_1,A_0\) moraju kodovati \(k\) iz iste grupe. Aktivnost niže grupe ne sme da promeni niže bitove kada postoji zahtev u višoj.
+
+Na primer, ako su aktivni samo \(I_{12}\) i \(I_7\), drugi nivo bira grupu 3, pa su viši bitovi 11. Lokalni kod u izabranoj grupi je 00, te je ispravan ukupni kod 1100. Niža grupa daje lokalni kod 11. Čak bi i električno bezbedno ILI objedinjavanje neuslovljenih lokalnih kodova dalo pogrešan rezultat 1111. Potrebno je najpre sprečiti doprinos grupe koja nije izabrana.
+
+Direktno povezivanje običnih aktivnih izlaza ima i električni problem: jedan izlaz može zadavati jedinicu, a drugi nulu na istom vodu. Zato proširenje zahteva i izbor validne grupe i odgovarajući način objedinjavanja njenih adresnih bitova. Na šemi su prikazani samo viši bitovi: dobijanje nižih bitova zahteva dodatni mehanizam izbora.

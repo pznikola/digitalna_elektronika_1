@@ -1,0 +1,36 @@
+% \KPSimbol{ime}{x}{y}; pozivaoci koriste milimetarsku mrežu, font 9 pt.
+\newcommand{\KPSimbol}[3]{%
+\begin{scope}[shift={(#2,#3)}]
+\draw[DEvod] (0,0) rectangle (22,12);
+\ifnum\DEenable=1
+ \def\DEgsheight{9}
+ \node at (11,6.9) {KP};
+ \node[anchor=north,inner sep=.7pt] at (11,12) {EI};
+ \draw[DEvod] (11,12)--(11,12.6);
+ \coordinate (#1-ei) at (11,12.6);
+ \node[anchor=south,inner sep=.7pt] at (11,0) {EO};
+ \draw[DEvod] (11,0)--(11,-.6);
+ \coordinate (#1-eo) at (11,-.6);
+ \foreach \n/\y in {1/5.4,0/2.2}{
+  \node[anchor=east,inner sep=.7pt] at (22,\y) {A\n};
+  \draw[DEvod] (22,\y)--(24,\y);
+  \coordinate (#1-a\n) at (24,\y);
+ }
+\else
+ \def\DEgsheight{6.5}
+ \node at (11,10.5) {KP};
+ \foreach \n/\x in {1/8,0/15}{
+  \node[anchor=south,inner sep=.7pt] at (\x,0) {A\n};
+  \draw[DEvod] (\x,0)--(\x,-1.5);
+  \coordinate (#1-a\n) at (\x,-1.5);
+ }
+\fi
+\foreach \n/\y in {3/9.5,2/7,1/4.5,0/2}{
+ \node[anchor=west,inner sep=.7pt] at (0,\y) {I\n};
+ \draw[DEvod] (-2,\y)--(0,\y);
+ \coordinate (#1-i\n) at (-2,\y);
+}
+\node[anchor=east,inner sep=.7pt] at (22,\DEgsheight) {GS};
+\draw[DEvod] (22,\DEgsheight)--(24,\DEgsheight);
+\coordinate (#1-gs) at (24,\DEgsheight);
+\end{scope}}

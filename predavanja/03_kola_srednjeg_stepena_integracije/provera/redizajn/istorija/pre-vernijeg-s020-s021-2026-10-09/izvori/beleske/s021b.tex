@@ -1,0 +1,10 @@
+\BeleskeID{03-s021b}
+% element: 03-s021b:e03
+% element: 03-s021b:e04
+% element: 03-s021b:d02
+
+Visoka impedansa znači da izlaz ne nameće ni nulu ni jedinicu zajedničkom vodu. Direktno objedinjavanje bilo bi moguće sa izlazima koji zaista podržavaju to stanje, uz uslov da u datom trenutku samo izabrana grupa aktivno upravlja vodom, a sve ostale su u visokoj impedansi. Ako su svi izlazi u tom stanju, vod sam po sebi nema garantovan nivo; pri \(GS=0\) njegovu vrednost ne treba tumačiti kao validnu adresu. Običan neaktivan izlaz na logičkoj nuli nije izlaz visoke impedanse.
+
+Za ovu mogućnost potrebno je kolo sa odgovarajućim izlaznim stepenom i upravljanjem. Sam blokovski simbol KP sa EI i EO ne garantuje da izlazi imaju stanje visoke impedanse. U prethodnoj mreži neizabrani koderi daju logičku nulu, pa su za objedinjavanje njihovih bitova upotrebljeni ILI gejtovi.
+
+Oznake priključaka omogućavaju praćenje njihove uloge bez oslanjanja na položaj: I3--I0 su podaci koji se koduju, A1/A0 su kod, GS označava prisustvo validnog zahteva, EI dozvoljava obradu, a EO prenosi dozvolu ka nižem prioritetu. Promena rasporeda na simbolu ne menja te funkcije.

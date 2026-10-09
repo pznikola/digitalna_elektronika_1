@@ -1,0 +1,17 @@
+\BeleskeID{03-s014}
+% element: 03-s014:e01
+% element: 03-s014:e02
+% element: 03-s014:e03
+% element: 03-s014:e04
+% element: 03-s014:d01
+
+Kada su selektori povezani sa promenljivama funkcije, podatkovni ulaz indeksiran adresom \(BA\) dobija vrednost \(F(B,A)\) iz odgovarajućeg reda funkcionalne tabele. Redosled 00, 01, 10, 11 daje vrednosti 1, 0, 0, 1. Zato postavljene konstante ne predstavljaju nove promenljive: one zadaju šta multiplekser treba da vrati za svaku adresu.
+
+Uvrštavanjem u izraz za MUX dobija se
+\[
+ Z=1\cdot\overline B\overline A
+   +0\cdot\overline BA
+   +0\cdot B\overline A+1\cdot BA
+   =\overline B\overline A+BA=F.
+\]
+Dekoder formira potpune proizvode, pa se potrebni izlazi naknadno sabiraju. Multiplekser već sadrži uslovljavanje podatkovnih grana i njihovo ILI objedinjavanje; u ovom primeru nisu potrebni dodatni spoljašnji I i ILI gejtovi.

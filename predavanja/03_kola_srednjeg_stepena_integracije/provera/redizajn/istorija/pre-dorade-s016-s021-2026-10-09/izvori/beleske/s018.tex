@@ -1,0 +1,21 @@
+\BeleskeID{03-s018}
+% element: 03-s018:e01
+% element: 03-s018:e02
+% element: 03-s018:e03
+% element: 03-s018:d01
+
+Iz koderskog dela sledi
+\[
+ A_1=I_3+\overline{I_3}I_2=I_3+I_2.
+\]
+Za donji bit važi
+\[
+\begin{aligned}
+ A_0&=I_3+\overline{I_3}\overline{I_2}I_1
+      =I_3+\overline{I_2}I_1,\\
+ GS&=I_3+I_2+I_1+I_0.
+\end{aligned}
+\]
+U prva dva izraza upotrebljen je identitet \(X+\overline X Y=X+Y\). GS ostaje jedan čim postoji bilo koji aktivan ulaz, bez obzira na to koji od njih ima prednost.
+
+Inverzija \(I_2\) na putanji od \(I_1\) čuva prioritet: aktivni \(I_2\) blokira doprinos \(I_1\) donjem bitu. Ako je aktivan \(I_3\), njegov direktan doprinos postavlja oba adresna bita na jedan. Ulaz \(I_0\) menja samo GS, jer njegov indeks 0 ima oba adresna bita nula. Kompaktnija šema daje istu funkcionalnu tabelu, ali ne izdvaja sve međusignale prioriteta kao prethodna realizacija.

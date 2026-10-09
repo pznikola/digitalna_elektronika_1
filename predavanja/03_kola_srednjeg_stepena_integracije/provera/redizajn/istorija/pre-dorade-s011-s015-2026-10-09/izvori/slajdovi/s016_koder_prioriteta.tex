@@ -1,0 +1,21 @@
+% Original: PDF strana 8, donji slajd.
+\slajdid{03-s016}
+\begin{frame}[label=03-s016]{Koder prioriteta: potreba za signalom GS}
+% element: 03-s016:e01
+Koder prioriteta koduje \textbf{najveći indeks} među aktivnim ulazima. Četiri ulaza zahtevaju dva izlazna bita \(A_1,A_0\).
+\par\vspace{2mm}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.44\textwidth}\centering
+\Oznaka{Funkcionalna tabela}
+\vspace{2mm}
+% element: 03-s016:e02
+\input{tabele/s016_koder_prioriteta.tex}
+\end{column}
+\begin{column}{.51\textwidth}
+% element: 03-s016:e03
+Kombinacije \(I_0=1\) i „nijedan ulaz nije aktivan“ daju isti kod \textcolor{DEisticanje}{\(A_1A_0=00\)}.
+\par\vspace{3mm}
+\Rezultat{Dodatni izlaz \textcolor{DEisticanje}{\(GS\)} (group select) označava da li postoji bar jedan aktivan ulaz.}
+\end{column}
+\end{columns}
+\end{frame}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-09",
+  "method": "Ručno praćenje svake veze u TikZ izvorima i finalnim projekcionim/A4 prikazima, poređenje sa originalima. Postojeća nezavisna računska provera kodovi/provera_logike.py proverava logičku funkciju; ne zamenjuje vizuelni pregled.",
+  "s020_resource": "slike/tikz/s020_koder_ei_eo.tex",
+  "s020_resource_sha256": "98c5e02ea24261be6ee2d9e1ff478e057d730f4c3aed672c4e8835bef435a071",
+  "priority_terms": [
+    "P3=I3",
+    "P2=bar(I3) I2",
+    "P1=bar(I3) bar(I2) I1",
+    "P0=bar(I3) bar(I2) bar(I1) I0"
+  ],
+  "enabled_terms": "Qk=EI Pk za k=0,1,2,3",
+  "outputs": [
+    "A1=Q3+Q2",
+    "A0=Q3+Q1",
+    "GS=Q3+Q2+Q1+Q0",
+    "EO=EI bar(GS)"
+  ],
+  "s020_gs_branch": "Jedna vertikala iz izlaza ILI4; tačka gs-spoj razdvaja nastavak ka oznaci i desnu granu ka invertoru. Nema duplog crtanja segmenta ili ukrštanja sa oznakom.",
+  "s021_resource": "slike/tikz/s021_koder_sa_enable_lancem.tex",
+  "s021_resource_sha256": "9f334d26e9f913f3e0700274b5951be3eb9713a23f549f4da2f780f443beca99",
+  "s021_connections": {
+    "first_level": "Grupa g dobija I(4g+3),I(4g+2),I(4g+1),I(4g).",
+    "enable_chain": "EI najviše grupe=1; EO3→EI2, EO2→EI1, EO1→EI0.",
+    "group_selection": "GS3/GS2/GS1/GS0→I3/I2/I1/I0 drugog kodera; EI tog kodera=1.",
+    "high_bits": "A1/A0 drugog kodera su globalni A3/A2.",
+    "low_bits": "Četiri lokalna A1 ulaze u ILI4 za globalni A1; četiri lokalna A0 ulaze u drugi ILI4 za globalni A0.",
+    "unused_outputs": "EO poslednje grupe ostaje otvoren; EO drugog nivoa prikazan kao u originalu."
+  },
+  "wire_connections": "Tačke na stvarnim grananjima s020; nevezana ukrštanja s021 nemaju tačke. Nema vodova preko gejtova ili unutrašnjosti blokova.",
+  "expert_content_changed": false,
+  "status": "provereno"
+}

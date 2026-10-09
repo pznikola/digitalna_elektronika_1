@@ -1,0 +1,1176 @@
+{
+  "slides": {
+    "01-s001": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s001:e01",
+          "description": "Naslov predavanja",
+          "source": "PDF strana 1, gornji; Naslov predavanja",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "01-s002": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s002:e01",
+          "description": "Definicija sistema",
+          "source": "PDF strana 1, donji; Definicija sistema",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s002:e02",
+          "description": "Ulazi, izlazi i povratna sprega",
+          "source": "PDF strana 1, donji; Ulazi, izlazi i povratna sprega",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s002:e03",
+          "description": "Diskretne promene: asinhrona i sinhrona",
+          "source": "PDF strana 1, donji; Diskretne promene: asinhrona i sinhrona",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s002:e04",
+          "description": "Između diskretnih trenutaka nema promene",
+          "source": "PDF strana 1, donji; Između diskretnih trenutaka nema promene",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s002:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Povratna sprega; sinhroni i asinhroni događaji; razlika stanja i fizičkog prelaza.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s002; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s003": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s003:e01",
+          "description": "Apstraktne informacije i realni signali",
+          "source": "PDF strana 2, gornji; Apstraktne informacije i realni signali",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s003:e02",
+          "description": "Definicija signala",
+          "source": "PDF strana 2, gornji; Definicija signala",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s003:e03",
+          "description": "Značenje reči apstraktan",
+          "source": "PDF strana 2, gornji; Značenje reči apstraktan",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s003:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Razlika informacije i fizičkog nosioca; primer tvrdnje o prekidaču.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s003; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s004": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s004:e01",
+          "description": "Veza apstraktnog i realnog i namena alata",
+          "source": "PDF strana 2, donji; Veza apstraktnog i realnog i namena alata",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s004:e02",
+          "description": "Četiri naziva oblasti",
+          "source": "PDF strana 2, donji; Četiri naziva oblasti",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s004:e03",
+          "description": "Boole 1854 i Shannon 1938: naslovi radova",
+          "source": "PDF strana 2, donji; Boole 1854 i Shannon 1938: naslovi radova",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s004:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Smer postupaka analize i sinteze na primeru redne veze.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s004; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s005": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s005:e01",
+          "description": "Šema E, P1, P2, S",
+          "source": "PDF strana 3, gornji; Šema E, P1, P2, S",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s005:e02",
+          "description": "Tri tvrdnje i legenda tačno/netačno",
+          "source": "PDF strana 3, gornji; Tri tvrdnje i legenda tačno/netačno",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s005:e03",
+          "description": "Jednačina stanja sijalice",
+          "source": "PDF strana 3, gornji; Jednačina stanja sijalice",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s005:e04",
+          "description": "Pridruživanje promenljivih fizičkim stanjima",
+          "source": "PDF strana 3, gornji; Pridruživanje promenljivih fizičkim stanjima",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "01-s005:d01",
+          "description": "Pratiti zatvorenu putanju za četiri kombinacije rednih prekidača.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s005; dokaz: evidencija_beleski.json.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "01-s006": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s006:e01",
+          "description": "Šema E, P1, P2, S",
+          "source": "PDF strana 3, donji; Šema E, P1, P2, S",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s006:e02",
+          "description": "Tri tvrdnje i legenda tačno/netačno",
+          "source": "PDF strana 3, donji; Tri tvrdnje i legenda tačno/netačno",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s006:e03",
+          "description": "Jednačina stanja sijalice",
+          "source": "PDF strana 3, donji; Jednačina stanja sijalice",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s006:e04",
+          "description": "Pridruživanje promenljivih fizičkim stanjima",
+          "source": "PDF strana 3, donji; Pridruživanje promenljivih fizičkim stanjima",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "01-s006:d01",
+          "description": "Pratiti alternativne paralelne putanje; uključivo ILI.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s006; dokaz: evidencija_beleski.json.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "01-s007": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s007:e01",
+          "description": "Preklopnik sa oznakama P1 i P2 i dve tvrdnje",
+          "source": "PDF strana 4, gornji; Preklopnik sa oznakama P1 i P2 i dve tvrdnje",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s007:e02",
+          "description": "Negacija i suprotna tvrdnja",
+          "source": "PDF strana 4, gornji; Negacija i suprotna tvrdnja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s007:e03",
+          "description": "Drugi prikaz i dovoljna jedna promenljiva",
+          "source": "PDF strana 4, gornji; Drugi prikaz i dovoljna jedna promenljiva",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s007:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Zavisnost kontakata istog preklopnika u stabilnim položajima.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s007; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s008": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s008:e01",
+          "description": "Šema dva preklopnika sa komplementarnim kontaktima",
+          "source": "PDF strana 4, donji; Šema dva preklopnika sa komplementarnim kontaktima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s008:e02",
+          "description": "Oba uslova svetljenja sijalice",
+          "source": "PDF strana 4, donji; Oba uslova svetljenja sijalice",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s008:d01",
+          "description": "Izvođenje zbira proizvoda za gornju i donju putanju; različiti položaji.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s008; dokaz: evidencija_beleski.json.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "01-s009": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s009:e01",
+          "description": "Prekidačima se realizuju logički uslovi",
+          "source": "PDF strana 5, gornji; Prekidačima se realizuju logički uslovi",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s009:e02",
+          "description": "Šest uslova i radnji u primeru lifta",
+          "source": "PDF strana 5, gornji; Šest uslova i radnji u primeru lifta",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s009:e03",
+          "description": "Promenljive A, B, Y i funkcija Y=f(A,B,…)",
+          "source": "PDF strana 5, gornji; Promenljive A, B, Y i funkcija Y=f(A,B,…)",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s009:d01",
+          "description": "Granice zadatog modela lifta i razlika ulaznih tvrdnji od sleda izlaznih radnji.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s009; dokaz: evidencija_beleski.json.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "01-s010": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s010:e01",
+          "description": "Definicija funkcije f:A→B",
+          "source": "PDF strana 5, donji; Definicija funkcije f:A→B",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s010:e02",
+          "description": "Definicija operacije f:A^n→A",
+          "source": "PDF strana 5, donji; Definicija operacije f:A^n→A",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s010:e03",
+          "description": "Četiri načina prikaza",
+          "source": "PDF strana 5, donji; Četiri načina prikaza",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s010:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Jedinstven izlaz ne zahteva različite izlaze; tumačenje A^n i prikaza funkcije.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s010; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s011": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s011:e01",
+          "description": "Logičke vrednosti i skup A",
+          "source": "PDF strana 6, gornji; Logičke vrednosti i skup A",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s011:e02",
+          "description": "Pridruživanje stanju prekidača",
+          "source": "PDF strana 6, gornji; Pridruživanje stanju prekidača",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s011:e03",
+          "description": "Definicija binarne promenljive",
+          "source": "PDF strana 6, gornji; Definicija binarne promenljive",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s011:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Logička vrednost kao istinitost, a ne fizička jedinica; konvencija pridruživanja.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s011; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s012": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s012:e01",
+          "description": "Skup A, preslikavanje i četiri funkcije",
+          "source": "PDF strana 6, donji; Skup A, preslikavanje i četiri funkcije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s012:e02",
+          "description": "Potpuna tabela četiri unarne funkcije",
+          "source": "PDF strana 6, donji; Potpuna tabela četiri unarne funkcije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s012:e03",
+          "description": "Komentar o konstantnim funkcijama",
+          "source": "PDF strana 6, donji; Komentar o konstantnim funkcijama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s012:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Nezavisni izbori dva izlazna reda i značenje konstantnosti.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s012; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s013": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s013:e01",
+          "description": "Poređenje sve četiri unarne funkcije",
+          "source": "PDF strana 7, gornji; Poređenje sve četiri unarne funkcije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s013:e02",
+          "description": "Dvoredna tabela, notacije i simbol invertora",
+          "source": "PDF strana 7, gornji; Dvoredna tabela, notacije i simbol invertora",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s013:e03",
+          "description": "Tri naziva operacije",
+          "source": "PDF strana 7, gornji; Tri naziva operacije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s013:e04",
+          "description": "Digresija: dva simbola invertora",
+          "source": "PDF strana 7, gornji; Digresija: dva simbola invertora",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s013:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Odnos oznaka y i komplementa x; negacioni kružić i notacije.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s013; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s014": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s014:e01",
+          "description": "Poređenje sve četiri unarne funkcije",
+          "source": "PDF strana 7, donji; Poređenje sve četiri unarne funkcije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s014:e02",
+          "description": "Dvoredna tabela, jednačina i simbol bafera",
+          "source": "PDF strana 7, donji; Dvoredna tabela, jednačina i simbol bafera",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s014:e03",
+          "description": "Naziv bafer",
+          "source": "PDF strana 7, donji; Naziv bafer",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s014:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Razlika bafera i invertora; logička jednakost ne opisuje vreme.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s014; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s015": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s015:e01",
+          "description": "Dva ulaza i šesnaest funkcija",
+          "source": "PDF strana 8, gornji; Dva ulaza i šesnaest funkcija",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s015:e02",
+          "description": "Potpuna tabela šesnaest binarnih funkcija",
+          "source": "PDF strana 8, gornji; Potpuna tabela šesnaest binarnih funkcija",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s015:e03",
+          "description": "Komentar o konstantnim funkcijama",
+          "source": "PDF strana 8, gornji; Komentar o konstantnim funkcijama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s015:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Nezavisni izbori četiri izlazna reda; indeks kolone označava funkciju.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s015; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s016": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s016:e01",
+          "description": "Potpuna tabela binarnih funkcija sa istaknutom operacijom",
+          "source": "PDF strana 8, donji; Potpuna tabela binarnih funkcija sa istaknutom operacijom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s016:e02",
+          "description": "Funkcionalna tabela, jednačina i šematski simbol",
+          "source": "PDF strana 8, donji; Funkcionalna tabela, jednačina i šematski simbol",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s016:e03",
+          "description": "Terminologija i operativno značenje",
+          "source": "PDF strana 8, donji; Terminologija i operativno značenje",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s016:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Uslov redne putanje, apsorbujuća nula i neutralna jedinica.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s016; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s017": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s017:e01",
+          "description": "Potpuna tabela binarnih funkcija sa istaknutom operacijom",
+          "source": "PDF strana 9, gornji; Potpuna tabela binarnih funkcija sa istaknutom operacijom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s017:e02",
+          "description": "Funkcionalna tabela, jednačina i šematski simbol",
+          "source": "PDF strana 9, gornji; Funkcionalna tabela, jednačina i šematski simbol",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s017:e03",
+          "description": "Terminologija i operativno značenje",
+          "source": "PDF strana 9, gornji; Terminologija i operativno značenje",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s017:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Uključivo ILI; logički zbir i neutralna nula.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s017; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s018": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s018:e01",
+          "description": "Potpuna tabela binarnih funkcija sa istaknutom operacijom",
+          "source": "PDF strana 9, donji; Potpuna tabela binarnih funkcija sa istaknutom operacijom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s018:e02",
+          "description": "Funkcionalna tabela, jednačina i šematski simbol",
+          "source": "PDF strana 9, donji; Funkcionalna tabela, jednačina i šematski simbol",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s018:e03",
+          "description": "Terminologija i operativno značenje",
+          "source": "PDF strana 9, donji; Terminologija i operativno značenje",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s018:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Izvođenje EXILI kao zbira dva proizvoda; razlika prema ILI i višeulaznom paritetu.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s018; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s019": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s019:e01",
+          "description": "Potpuna tabela binarnih funkcija sa istaknutom operacijom",
+          "source": "PDF strana 10, gornji; Potpuna tabela binarnih funkcija sa istaknutom operacijom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s019:e02",
+          "description": "Funkcionalna tabela, jednačina i šematski simbol",
+          "source": "PDF strana 10, gornji; Funkcionalna tabela, jednačina i šematski simbol",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s019:e03",
+          "description": "Terminologija i operativno značenje",
+          "source": "PDF strana 10, gornji; Terminologija i operativno značenje",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s019:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Negacija celog proizvoda; ponašanje NI sa stalnim ulazom.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s019; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s020": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s020:e01",
+          "description": "Potpuna tabela binarnih funkcija sa istaknutom operacijom",
+          "source": "PDF strana 10, donji; Potpuna tabela binarnih funkcija sa istaknutom operacijom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s020:e02",
+          "description": "Funkcionalna tabela, jednačina i šematski simbol",
+          "source": "PDF strana 10, donji; Funkcionalna tabela, jednačina i šematski simbol",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s020:e03",
+          "description": "Terminologija i operativno značenje",
+          "source": "PDF strana 10, donji; Terminologija i operativno značenje",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s020:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Negacija celog zbira; ponašanje NILI sa stalnim ulazom.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s020; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s021": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s021:e01",
+          "description": "Potpuna tabela binarnih funkcija sa istaknutom operacijom",
+          "source": "PDF strana 11, gornji; Potpuna tabela binarnih funkcija sa istaknutom operacijom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s021:e02",
+          "description": "Funkcionalna tabela, jednačina i šematski simbol",
+          "source": "PDF strana 11, gornji; Funkcionalna tabela, jednačina i šematski simbol",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s021:e03",
+          "description": "Terminologija i operativno značenje",
+          "source": "PDF strana 11, gornji; Terminologija i operativno značenje",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s021:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Izvođenje EXNILI kao detektora jednakosti dva bita.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s021; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s022": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s022:e01",
+          "description": "Isključenje trećeg i kontradikcija",
+          "source": "PDF strana 11, donji; Isključenje trećeg i kontradikcija",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s022:e02",
+          "description": "Aksioma negacije",
+          "source": "PDF strana 11, donji; Aksioma negacije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s022:e03",
+          "description": "Aksiome konjunkcije i disjunkcije u tabeli",
+          "source": "PDF strana 11, donji; Aksiome konjunkcije i disjunkcije u tabeli",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s022:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Uloga aksioma i teorema; iscrpnost binarne tabele i logičko sabiranje.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s022; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s023": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s023:e01",
+          "description": "Neutralni i nula element; idempotencija, komutativnost, asocijativnost",
+          "source": "PDF strana 12, gornji; Neutralni i nula element; idempotencija, komutativnost, asocijativnost",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s023:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Uloge neutralnog/nula elementa; značenje idempotencije, komutativnosti i asocijativnosti.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s023; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s024": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s024:e01",
+          "description": "Involutivnost negacije",
+          "source": "PDF strana 12, donji; Involutivnost negacije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s024:e02",
+          "description": "Obe distributivne formule",
+          "source": "PDF strana 12, donji; Obe distributivne formule",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s024:e03",
+          "description": "Obe formule apsorpcije",
+          "source": "PDF strana 12, donji; Obe formule apsorpcije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s024:e04",
+          "description": "Oba De Morganova obrasca",
+          "source": "PDF strana 12, donji; Oba De Morganova obrasca",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s024:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Provera drugog distributivnog obrasca, međukoraci apsorpcije i tumačenje De Morgana.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s024; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s025": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s025:e01",
+          "description": "Troulazno I i ekvivalentna kaskada",
+          "source": "PDF strana 13, gornji; Troulazno I i ekvivalentna kaskada",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s025:e02",
+          "description": "Troulazno ILI i ekvivalentna kaskada",
+          "source": "PDF strana 13, gornji; Troulazno ILI i ekvivalentna kaskada",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s025:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Međusignali I i ILI kaskade; ekvivalentnost funkcije i razlika broja nivoa.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s025; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s026": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s026:e01",
+          "description": "Pogrešna kaskada dvaju NI kola i nejednakost",
+          "source": "PDF strana 13, donji; Pogrešna kaskada dvaju NI kola i nejednakost",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s026:e02",
+          "description": "Ispravna kaskada I zatim NI i jednakost",
+          "source": "PDF strana 13, donji; Ispravna kaskada I zatim NI i jednakost",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s026:d01",
+          "description": "Međusignal NI; konkretan protivprimer i tumačenje ispravne kaskade.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s026; dokaz: evidencija_beleski.json.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "01-s027": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s027:e01",
+          "description": "Sve četiri šeme realizacije troulaznog NI",
+          "source": "PDF strana 14, gornji; Sve četiri šeme realizacije troulaznog NI",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s027:e02",
+          "description": "Jednačina realizovane funkcije",
+          "source": "PDF strana 14, gornji; Jednačina realizovane funkcije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s027:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Međusignali četiri realizacije; mesto negacije i broj nivoa.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s027; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s028": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s028:e01",
+          "description": "Direktno troulazno EXILI kolo",
+          "source": "PDF strana 14, donji; Direktno troulazno EXILI kolo",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s028:e02",
+          "description": "Dvoulazni EXILI kao zbir proizvoda",
+          "source": "PDF strana 14, donji; Dvoulazni EXILI kao zbir proizvoda",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s028:e03",
+          "description": "Asocijativnost EXILI i kaskada dva kola",
+          "source": "PDF strana 14, donji; Asocijativnost EXILI i kaskada dva kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s028:d01",
+          "description": "Neparni paritet kao obrazloženje asocijativnosti; primer tri jedinice.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s028; dokaz: evidencija_beleski.json.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "01-s029": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s029:e01",
+          "description": "Direktni simbol troulaznog EXNILI kola",
+          "source": "PDF strana 15, gornji; Direktni simbol troulaznog EXNILI kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s029:e02",
+          "description": "Kaskada dva dvoulazna EXNILI i pitanje jednakosti",
+          "source": "PDF strana 15, gornji; Kaskada dva dvoulazna EXNILI i pitanje jednakosti",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s029:d01",
+          "description": "Izvođenje izlaza dva EXNILI i direktnog kola; protivprimer i parni paritet.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s029; dokaz: evidencija_beleski.json.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "01-s030": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s030:e01",
+          "description": "Pozitivna logika i aktivan nivo 1",
+          "source": "PDF strana 15, donji; Pozitivna logika i aktivan nivo 1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s030:e02",
+          "description": "Uslovi aktiviranja I i ILI",
+          "source": "PDF strana 15, donji; Uslovi aktiviranja I i ILI",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s030:e03",
+          "description": "Zaključak o aktivnoj jedinici",
+          "source": "PDF strana 15, donji; Zaključak o aktivnoj jedinici",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s030:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Aktivan nivo kao oznaka ispunjenja uslova, a ne uključivanje rada kola.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s030; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s031": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s031:e01",
+          "description": "Aktivan nivo NI i NILI",
+          "source": "PDF strana 16, gornji; Aktivan nivo NI i NILI",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s031:e02",
+          "description": "Uslovi aktiviranja oba kola",
+          "source": "PDF strana 16, gornji; Uslovi aktiviranja oba kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s031:e03",
+          "description": "Šeme I/ILI iza kojih sledi negacija",
+          "source": "PDF strana 16, gornji; Šeme I/ILI iza kojih sledi negacija",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s031:e04",
+          "description": "Zaključak i veza sa pogrešnom kaskadom",
+          "source": "PDF strana 16, gornji; Zaključak i veza sa pogrešnom kaskadom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s031:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Polaritet međusignala kao razlog neispravne kaskade NI.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s031; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s032": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s032:e01",
+          "description": "Pravilo neparnog broja jedinica",
+          "source": "PDF strana 16, donji; Pravilo neparnog broja jedinica",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s032:e02",
+          "description": "Poređenje direktnih i kaskadnih kola",
+          "source": "PDF strana 16, donji; Poređenje direktnih i kaskadnih kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s032:d01",
+          "description": "Izvođenje ekvivalentnosti EXILI–EXNILI; provera prema broju jedinica.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s032; dokaz: evidencija_beleski.json.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "01-s033": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s033:e01",
+          "description": "Šema sa invertorima i formula",
+          "source": "PDF strana 17, gornji; Šema sa invertorima i formula",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s033:e02",
+          "description": "Uslov za jedinicu na izlazu",
+          "source": "PDF strana 17, gornji; Uslov za jedinicu na izlazu",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s033:e03",
+          "description": "Ekvivalentna šema sa aktivnim nulama na ulazima",
+          "source": "PDF strana 17, gornji; Ekvivalentna šema sa aktivnim nulama na ulazima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s033:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Spoljašnji i unutrašnji signali; značenje ulaznih kružića.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s033; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s034": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s034:e01",
+          "description": "De Morganovi obrasci i četiri simbola",
+          "source": "PDF strana 17, donji; De Morganovi obrasci i četiri simbola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s034:e02",
+          "description": "Svrha dualnih prikaza",
+          "source": "PDF strana 17, donji; Svrha dualnih prikaza",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s034:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "De Morganova zamena simbola uz promenu svih negacija.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s034; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s035": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s035:e01",
+          "description": "Dvoulazna dualnost I↔NILI i ILI↔NI",
+          "source": "PDF strana 18, gornji; Dvoulazna dualnost I↔NILI i ILI↔NI",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s035:e02",
+          "description": "Analogni parovi troulaznih kola",
+          "source": "PDF strana 18, gornji; Analogni parovi troulaznih kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s035:d01",
+          "origin": "dopuna",
+          "must_remain_visible": false,
+          "description": "Algebarsko čitanje dvoulaznih i troulaznih dualnih simbola.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s035; dokaz: evidencija_beleski.json."
+        }
+      ]
+    },
+    "01-s036": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s036:e01",
+          "description": "Tri simbola u zadatku EXILI",
+          "source": "PDF strana 18, donji; Tri simbola u zadatku EXILI",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s036:e02",
+          "description": "Tri simbola u zadatku EXNILI",
+          "source": "PDF strana 18, donji; Tri simbola u zadatku EXNILI",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s036:d01",
+          "description": "Izlazni izrazi svih šest šema i provera poništavanja dve ulazne negacije.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s036; dokaz: evidencija_beleski.json.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "01-s037": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "01-s037:e01",
+          "description": "Početna mreža sa I i ILI kolima",
+          "source": "PDF strana 19, gornji; Početna mreža sa I i ILI kolima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s037:e02",
+          "description": "Dualna zamena drugog stepena",
+          "source": "PDF strana 19, gornji; Dualna zamena drugog stepena",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s037:e03",
+          "description": "Mreža samo sa NI kolima",
+          "source": "PDF strana 19, gornji; Mreža samo sa NI kolima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s037:e04",
+          "description": "Motivacija: tip i broj ulaza",
+          "source": "PDF strana 19, gornji; Motivacija: tip i broj ulaza",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "01-s037:d01",
+          "description": "Međukoraci NI–NI realizacije zbira proizvoda; tumačenje tipa i izbora kola.",
+          "source": "Izvođenje i tumačenje originalnog i odobrenog slajda 01-s037; dokaz: evidencija_beleski.json.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    }
+  }
+}

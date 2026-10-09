@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-09",
+  "changed_slides": [
+    "03-s020",
+    "03-s020b",
+    "03-s021",
+    "03-s021b"
+  ],
+  "actual_review": "Pojedinačno pregledani originali 03-s020/03-s021, prethodni prikazi, novi slajdovi i cele A4 strane. Tekstovi čuvaju sve izvorne tvrdnje i tri slučaja EO; dva odobrena para imaju potpunu pokrivenost. Proverene negacije, EI/EO dozvole, GS grananje i putanje, svi priključci, lokalne/globalne oznake i ILI4 ulazi. Vodovi ne prelaze preko simbola; tačke su samo na stvarnim grananjima. Nema preklapanja, odsecanja ili nečitljivih oznaka. Beleške su dodatni nastavni tekst, bez uredničke istorije i nepotrebnog ponavljanja. ID-jevi i ažurirani naslovi u A4 PDF-u odgovaraju slajdovima.",
+  "viewed_render_sha256": {
+    "03-s020": {
+      "novi": "0bfea134d4d02c40f2d567e067c5618d6da72953d77a343a0457fbb53fa3d53a",
+      "beleske": "d8ce5625b5d3f8895a5908fa80fa933c3d29ff63c012d43d16302988f60cde4e"
+    },
+    "03-s020b": {
+      "novi": "9585c46e1e589a3739738d02b4757b4e8f48669c464dd5d9924a1cd04912f207",
+      "beleske": "0c1afeed534348b2cb33b7fd31a7e8c3cf542b70de6af0ed00b10e13cb7a00be"
+    },
+    "03-s021": {
+      "novi": "9254f973abc398fa3a9a91e6531d6c709293dedf1fc38bf0b30cadb14a0bd4b8",
+      "beleske": "4d527a77367799409810f65d9b8af14adc07516132d8fa3a06dd963aae01e56e"
+    },
+    "03-s021b": {
+      "novi": "b17aeecbffcf391d38e1b480cbf57bd9abb958737b149702738d2b2ab33e64b1",
+      "beleske": "d20f223367164bee38a36f0410105a3f3eb85cad0c77f16ca52c9459ea23e53f"
+    }
+  },
+  "unchanged_slides": {
+    "03-s001": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s002": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s003": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s004": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s005": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s006": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s007": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s008": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s009": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s010": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s010b": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s011": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s012": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s013": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s014": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s015": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s016": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s017": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s018": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s019": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    }
+  },
+  "compared_with": "build/redizajn/pre-vernijeg-s020-s021-2026-10-09/pregled",
+  "projection_pages": 24,
+  "A4_pages": 24,
+  "original_pdf_sha256": "5e68d267ca2f60c1ccdf073c2579fd64a4b05278955cc3d3f920cc54e123fd86",
+  "historical_mapping_sha256": "a3effdb79779d04df05ce98ece642a6068684e4b798018cc96122479136266cc",
+  "theme_manifest_sha256": "87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41"
+}

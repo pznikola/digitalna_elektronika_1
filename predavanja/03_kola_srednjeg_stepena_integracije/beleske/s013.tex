@@ -1,0 +1,15 @@
+\BeleskeID{03-s013}
+% element: 03-s013:e01
+% element: 03-s013:e02
+% element: 03-s013:e03
+% element: 03-s013:d01
+
+Multiplekser ne koduje indeks aktivnog ulaza: adresu zadaju selektori, a izlaz prenosi \emph{vrednost} izabranog podatka. Zato više podatkovnih ulaza može istovremeno imati jedinicu, a da izbor i dalje bude jednoznačan.
+
+Svaka podatkovna grana uslovljena je svojim potpunim proizvodom selektora. Za MUX 4/1 važi
+\[
+ Z=I_0\overline{S_1}\overline{S_0}
+  +I_1\overline{S_1}S_0
+  +I_2S_1\overline{S_0}+I_3S_1S_0.
+\]
+Za svaku ustaljenu adresu samo jedan potpuni proizvod je jedinica, pa ILI kolo ne meša više podataka: propušta baš \(I_{2S_1+S_0}\). Na primer, adresa 01 bira \(I_1\), bez obzira na vrednosti ostala tri podatkovna ulaza.

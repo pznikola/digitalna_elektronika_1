@@ -1,0 +1,8 @@
+\BeleskeID{03-s020}
+% element: 03-s020:e01
+% element: 03-s020:e02
+% element: 03-s020:d01
+
+Označimo lokalno prisustvo zahteva sa \(H=I_3+I_2+I_1+I_0\). U prikazanoj realizaciji dozvola EI uslovljava i adresne bitove i GS, pa važi \(GS=EI\,H\). Prioritetni međusignali prolaze kroz dodatne I gejtove kojima je zajednički ulaz EI. Kada je EI nula, svi uslovljeni međusignali su nula; zato su i oba adresna bita i GS nula, čak i ako lokalno postoji aktivan zahtev.
+
+Za \(EI=1\) dobija se ista funkcionalna tabela kao kod kodera bez dozvole. Tada \(GS=1\) znači da postoji lokalni zahtev, a adresni bitovi daju njegov najviši indeks. Za \(EI=0\) GS ne govori da lokalnih zahteva nema: govori da nijedan ne sme da bude prosleđen. Tu razliku treba imati u vidu pri povezivanju više kodera.

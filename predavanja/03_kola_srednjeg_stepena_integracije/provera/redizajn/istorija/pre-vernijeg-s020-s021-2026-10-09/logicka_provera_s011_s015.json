@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-09",
+  "counts": {
+    "dmux_all_input_states": 8,
+    "mux16_all_selectors_and_data_words": 1048576,
+    "mux_function_F": 4
+  },
+  "status": "provereno",
+  "method": "DMUX: svi nivoi podataka i adrese poređeni sa prosleđivanjem na adresirani izlaz; MUX16: svi 16-bitni podaci i svih 16 adresa kroz dve grupe izbora naspram direktnog indeksiranja; F: konstante MUX-a naspram navedene formule. Vizuelna provera topologije vodi se odvojeno u pregled.json."
+}

@@ -1,35 +1,51 @@
-\begingroup
-\def\DEenable{1}
-\input{slike/tikz/koder_prioriteta_simbol.tex}
-\begin{tikzpicture}[circuit logic US,x=.74cm,y=.74cm,font=\fontsize{8}{9}\selectfont,
- zbir/.style={or gate US,draw,logic gate inputs=nnnn,minimum width=10mm,minimum height=12mm,scale=.45}]
-\foreach \k/\y in {3/6,2/4,1/2,0/0}{
- \KPSimbol{p\k}{0}{\y}
- \foreach \n in {3,2,1,0}{
-  \pgfmathtruncatemacro{\ii}{4*\k+\n}
-  \draw[DEvod] (p\k-i\n)--++(-.15,0) node[left,inner sep=1pt] {I\ii};
+\begin{tikzpicture}[circuit logic US,x=.82mm,y=.67mm,font=\fontsize{7.8}{9}\selectfont,
+ zbir/.style={or gate US,draw,line width=.8pt,logic gate inputs=nnnn,minimum width=4.8mm,minimum height=5mm,scale=.52}]
+\foreach \g/\yy in {3/54,2/36,1/18,0/0}{
+ \begin{scope}[shift={(0,\yy)}]
+ \draw[DEvod] (0,0) rectangle (16,16);
+ \node at (8,9) {KP};
+ \foreach \n/\yin in {3/12.5,2/9.4,1/6.3,0/3.2}{
+  \pgfmathtruncatemacro{\ii}{4*\g+\n}
+  \node[anchor=west,inner sep=.5pt] at (0,\yin) {I\n};
+  \draw[DEvod] (-2,\yin)--(0,\yin);
+  \node[anchor=east,inner sep=.5pt] at (-2,\yin) {I\ii};
  }
+ \foreach \port/\yout/\lab in {gs/10.8/GS,a1/6.5/A1,a0/3.2/A0}{
+  \node[anchor=east,inner sep=.5pt] at (16,\yout) {\lab};
+  \draw[DEvod] (16,\yout)--(18,\yout);
+  \coordinate (p\g-\port) at (18,\yout);
+ }
+ \node[anchor=north,inner sep=.5pt] at (8,16) {EI};
+ \draw[DEvod] (8,16)--(8,17);
+ \coordinate (p\g-ei) at (8,17);
+ \node[anchor=south,inner sep=.5pt] at (8,0) {EO};
+ \draw[DEvod] (8,0)--(8,-1);
+ \coordinate (p\g-eo) at (8,-1);
+ \end{scope}
 }
-\foreach \vis/\niz in {3/2,2/1,1/0}
- \draw[DEvod] (p\vis-eo)--(p\niz-ei);
-\draw[DEvod] (p3-ei)--++(0,.2) node[above] {1};
-\KPSimbol{f}{5.0}{3}
-\draw[DEvod] (f-ei)--++(0,.2) node[above] {1};
-\foreach \k/\x in {3/4.0,2/3.7,1/3.7,0/4.0}
- \draw[DEvod] (p\k-gs)--(\x,0 |- p\k-gs)|-(f-i\k);
-\draw[DEvod] (f-gs)--++(.2,0) node[right] {GS};
-\draw[DEvod] (f-a1)--++(.2,0) node[right] {A3};
-\draw[DEvod] (f-a0)--++(.2,0) node[right] {A2};
-\draw[DEvod] (f-eo)--++(0,-.1)--++(1.2,0) node[right] {EO};
-\node[zbir] (a1) at (5.2,.4) {};
-\node[zbir] (a0) at (5.2,-.8) {};
-\foreach \k/\pin/\xx in {3/1/3.35,2/2/3.1,1/3/2.85,0/4/2.6}{
- \draw[DEvod] (p\k-a1)--(\xx,0 |- p\k-a1)|-(a1.input \pin);
+\draw[DEvod,DEisticanje] (p3-ei)--++(-3,0) node[left,inner sep=.5pt] {1};
+\foreach \g/\next in {3/2,2/1,1/0}
+ \draw[DEvod,DEisticanje] (p\g-eo)--(p\next-ei);
+\draw[DEvod] (47,27) rectangle (63,43);
+\node at (55,36) {KP};
+\foreach \n/\yin in {3/39.5,2/36.4,1/33.3,0/30.2}
+ \node[anchor=west,inner sep=.5pt] at (47,\yin) {I\n};
+\foreach \g/\trunk/\yin in {3/43/39.5,2/41/36.4,1/37/33.3,0/39/30.2}
+ \draw[DEvod] (p\g-gs)--(\trunk,0 |- p\g-gs)|-(47,\yin);
+\node[anchor=north,inner sep=.5pt] at (55,43) {EI};
+\draw[DEvod,DEisticanje] (55,43)--(55,45) node[above,inner sep=.5pt] {1};
+\foreach \port/\yy/\inner/\outer in {gs/37.8/GS/GS,a1/33.5/A1/A3,a0/30.2/A0/A2}{
+ \node[anchor=east,inner sep=.5pt] at (63,\yy) {\inner};
+ \draw[DEvod] (63,\yy)--(65,\yy) node[right,inner sep=.5pt] {\outer};
 }
-\foreach \k/\pin/\xx in {3/1/3.75,2/2/3.5,1/3/3.25,0/4/3.0}{
- \draw[DEvod] (p\k-a0)--(\xx,0 |- p\k-a0)|-(a0.input \pin);
-}
-\draw[DEvod] (a1.output)--++(.3,0) node[right] {A1};
-\draw[DEvod] (a0.output)--++(.3,0) node[right] {A0};
+\node[anchor=south,inner sep=.5pt] at (55,27) {EO};
+\draw[DEvod] (55,27)--(55,25)--(65,25) node[right,inner sep=.5pt] {EO};
+\node[zbir] (a1) at (40,-1) {};
+\node[zbir] (a0) at (40,-10.5) {};
+\foreach \g/\pin/\xx in {3/1/31,2/2/27,1/3/23,0/4/19}
+ \draw[DEvod] (p\g-a1)--(\xx,0 |- p\g-a1)|-(a1.input \pin);
+\foreach \g/\pin/\xx in {3/1/33,2/2/29,1/3/25,0/4/21}
+ \draw[DEvod] (p\g-a0)--(\xx,0 |- p\g-a0)|-(a0.input \pin);
+\foreach \name/\lab in {a1/A1,a0/A0}
+ \draw[DEvod] (\name.output)--++(2,0) node[right,inner sep=.5pt] {\lab};
 \end{tikzpicture}
-\endgroup

@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-09",
+  "changed_slides": [
+    "03-s016",
+    "03-s017",
+    "03-s018",
+    "03-s019",
+    "03-s020",
+    "03-s020b",
+    "03-s021",
+    "03-s021b"
+  ],
+  "unchanged_slides": {
+    "03-s001": {
+      "slide_sources_sha256": "328efa675edb33b0515db940b861dec85e98a8252f3461be6b2bbc407be378ac",
+      "notes_sources_sha256": "447515272e86fceaee214ab34475f4ea13057a0dc1e5044a15e9ddd96e4b8c3c",
+      "coverage_sha256": "ab9d8bb869238c68328b5ce872baafb0ddd81a19ccadd81d1aa0b92dbce1ae87",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s002": {
+      "slide_sources_sha256": "227d1d1c23adbe762319fc422ad6da439260bb991fdac9d028c3f17fca70696f",
+      "notes_sources_sha256": "c8c46e3f9a6c5d27628a946bcfd93e5b21cd5c2ad6e03e8ab04733a7503d27d7",
+      "coverage_sha256": "eb4c9bda9ec37bcc1aa861f3845bf9fdefc427def021c5b617ea641adca0e772",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s003": {
+      "slide_sources_sha256": "970ab7820234b3fcd1e6e1659c3f17d1418938d89be88da8750cb7632576f780",
+      "notes_sources_sha256": "24f0866b1e557eaea9acccd4fdb27400403d2e659152754a75cb0321abaa2e49",
+      "coverage_sha256": "b8f3347b6ad3e4f88b66ec6cdd39bfe46996e62b511adb3eccce2ea20ebb5e6a",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s004": {
+      "slide_sources_sha256": "09aaab2d516b0fa50a4576b563337732a4f226a9d33410cedd26858a2a0a8703",
+      "notes_sources_sha256": "5a0ce89e92a2c87682fb35437bac5e19892da70f29669cfdc428819a0082d738",
+      "coverage_sha256": "4d44fafa2c660cd8f999f7e1f0400f570bb6655849e062f841f5d05c17697bee",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s005": {
+      "slide_sources_sha256": "7673cc9b589e72e697f897ebcdea2e30db06ecea2829759807cbb1779509f70e",
+      "notes_sources_sha256": "cfdd72bc09fcb710653c34fac2547ec1027a52644d8434b46ac2e0cc6f3e714b",
+      "coverage_sha256": "35d792125885cbad85db5ae1a1cbd9545c2ce3eccda83b789fc9519b62efcc48",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s006": {
+      "slide_sources_sha256": "a9ae6a3b0ebb7a6bfa2d48daad24fc4f7bf84379f643ca6b076f547770bf4460",
+      "notes_sources_sha256": "8c8d62f24747620e0a5b85d05bf7f5cf808d1f434a6616bd5ddc468c0060050e",
+      "coverage_sha256": "eb2ca002e9d966ddc556e0e50383beb0e62dc7d85203aa11f5b73682d3224340",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s007": {
+      "slide_sources_sha256": "d7c01ef04f5e69397aa5275621be8b3a50caca6bb7df690923b96974e23860c7",
+      "notes_sources_sha256": "14d834a5e5ba33af66fa475782c0c588d76b479432b074d98cf15dac6f4b1335",
+      "coverage_sha256": "72a0998d6ec956296accf19224e7954b2c6538710f1beb1ce16f9e57e38e9151",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s008": {
+      "slide_sources_sha256": "a5c84a0ad630216c42d341cebe2d69963e3b4255c4ee476b249bc7e65656f329",
+      "notes_sources_sha256": "bb4884e02bcf7742c3858fc567b8e7229e664125c2ca7c1c1ee8bebd8b98f265",
+      "coverage_sha256": "842b93d8e377851bdc09482a6fe04b9db587a8ba26d2d2002929c076ba435f48",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s009": {
+      "slide_sources_sha256": "a27d025ae3b30e0ad89b0f24cb575d3631f4f47c79f8d5486da65672edf8efda",
+      "notes_sources_sha256": "bae85ec52ff4f88b3c8a965388243ca5f68cce9f181e0c825ffe1e672454b8ed",
+      "coverage_sha256": "0967832254dabae20aad3af7c68c51e0de3bf5e55f371627b922315fef2c384b",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s010": {
+      "slide_sources_sha256": "0cb08188a0c6a33c48ab0d16c8eb79a7607d0578c8ba875d6d8b4db3e24b888f",
+      "notes_sources_sha256": "dae8bff4e196913b05cd329c1fea68cd12052f911e1362a728add29826c40243",
+      "coverage_sha256": "cf5af1d46d04b32ecc2e5a4f0837d35dc55d17a21a879ab76a298f6f9bf97fa0",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s010b": {
+      "slide_sources_sha256": "c7ada39e17478ba6e989df0392cc68498f159783fc3c392f6b7730e96fcf7cdb",
+      "notes_sources_sha256": "1e06a54e4515614eb1363b77df8d26669ab89bb530c7c8cbc48f3afcedae1dea",
+      "coverage_sha256": "46aa88f6113f91f1097242a54cf6311871229fb5cc35b2d55e05a33fa637fd31",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s011": {
+      "slide_sources_sha256": "1669e926e19e0326c5be9ee4e50ff0a608aaa5e841f777adc80e20f72f7dd9a7",
+      "notes_sources_sha256": "2a0a6e8a85f2c60a72997b3fa53454da9a118512a89c50194b2b1bab158d5859",
+      "coverage_sha256": "d2bdca2dbfbd2a34ef235cd3f2bd6eba3ae7d07ab1f47fe397c5f5c3f7fa7849",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s012": {
+      "slide_sources_sha256": "40626a03afae2e7d2d6e99ad114e02b5d9dd09e99f68785166aff3316f2b2e40",
+      "notes_sources_sha256": "e69dd08080f660dc9b8d520bf2b1e0ec057490a2df609594eb0e7ea1207062d0",
+      "coverage_sha256": "8487c18822ac4ade311fca7da999a769465635ca8213c6736246dc0c2e270088",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s013": {
+      "slide_sources_sha256": "409341e16ae69d5eb01a09f07dde1c900168c68e57050319c64f5fa2d949f862",
+      "notes_sources_sha256": "6c4431b0b47bbfedbc2935c9a0e7a681bd11c426580188e6647f32435240eb7a",
+      "coverage_sha256": "282f418826f3cc052c14780c962cd0898301f73171e54a5123e44985bcdb6ed5",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s014": {
+      "slide_sources_sha256": "f35fc6dc3853ff66b72fb3c5f75c060502836006d24ef3e44292a174901de3dd",
+      "notes_sources_sha256": "7c81aebc7d45aa0d9b3a114ef53c2869d9196b3490d053a41e6909f7e9a08f28",
+      "coverage_sha256": "5680542d8325f7a1b368e0dd51bf8f3d79f0502d3c1ef67bdb8ba6a09a2e0f68",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    },
+    "03-s015": {
+      "slide_sources_sha256": "61a92c17a7817b334f6d52fee033c3e91090a6593704ae22e02d85a22ba84897",
+      "notes_sources_sha256": "79057ee865c6246efac3945509b4861ec3dc4cd5611438d497b3e073083d118f",
+      "coverage_sha256": "30f8d9da3d84dd8e4c7d20368c9046356cebb0df096b8e7bd62bc2bca051d10a",
+      "projection_pixels_equal": true,
+      "whole_A4_pixels_equal": true
+    }
+  },
+  "compared_with": "build/redizajn/pre-dorade-s016-s021-2026-10-09/pregled",
+  "actual_review": "Osam novih projekcija i osam celih A4 strana pojedinačno su pregledane; njihove otiske ponovljena izgradnja nije promenila.",
+  "historical_mapping_unchanged": true,
+  "theme_manifest_unchanged": true
+}

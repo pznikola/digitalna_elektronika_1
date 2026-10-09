@@ -1,0 +1,532 @@
+{
+  "date": "2026-10-09",
+  "scope": "Aktuelni nastavni sadržaj svih beležaka 03, sa odobrenim nastavcima s010b/s020b/s021b. Poslednja dorada: s016–s021.",
+  "slides": {
+    "03-s001": {
+      "source": "Originalni PDF strana 1, gornji; postojeći LaTeX prikaz 03-s001.",
+      "notes_path": "beleske/s001.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "",
+      "supplement_anchor": null,
+      "notes_sha256": "fe9c0b97f5d88dc56f89810068045002259314c841b63a193fb165abb38e4ce9",
+      "verification": "Pročitani originalni slajd i LaTeX izvori; upoređena pokrivenost vidljivog sadržaja i prenetih detalja; provereni međukoraci i formule. Pregledana puna A4 strana sa odgovarajućim ID-jem i naslovom: čitljivo, bez preklapanja ili odsecanja, bez uredničke evidencije i nepotrebnog prepisivanja slajda.",
+      "status": "provereno"
+    },
+    "03-s002": {
+      "source": "Originalni PDF strana 1, donji; postojeći LaTeX prikaz 03-s002.",
+      "notes_path": "beleske/s002.tex",
+      "original_details_in_notes": {
+        "3": "Različite brojčane granice u literaturi."
+      },
+      "original_anchors": [
+        "% element: 03-s002:e03"
+      ],
+      "supplement": "Razlika brojanja tranzistora i kapija; približnost klasifikacije.",
+      "supplement_anchor": "% element: 03-s002:d01",
+      "notes_sha256": "389b7ed6ad1178e33ba38eb3fe751e8ba04819554b357f4fd38317b64aba98f1",
+      "verification": "Pročitani originalni slajd i LaTeX izvori; upoređena pokrivenost vidljivog sadržaja i prenetih detalja; provereni međukoraci i formule. Pregledana puna A4 strana sa odgovarajućim ID-jem i naslovom: čitljivo, bez preklapanja ili odsecanja, bez uredničke evidencije i nepotrebnog prepisivanja slajda.",
+      "status": "provereno"
+    },
+    "03-s003": {
+      "source": "Originalni PDF strana 2, gornji; postojeći LaTeX prikaz 03-s003.",
+      "notes_path": "beleske/s003.tex",
+      "original_details_in_notes": {
+        "1": "Puni engleski naziv PCB i veza sa vodovima ploče.",
+        "3": "Dostupna pakovanja i podaci o njima nalaze se u proizvođačkom opisu."
+      },
+      "original_anchors": [
+        "% element: 03-s003:e01",
+        "% element: 03-s003:e03"
+      ],
+      "supplement": "Razlika funkcije i kućišta, tumačenje fizičkih pinova prema konkretnoj komponenti.",
+      "supplement_anchor": "% element: 03-s003:d01",
+      "notes_sha256": "db31df21c22ca0af9b45a644c9f893842b1e7a81e39f80e20e77b859f36505a7",
+      "verification": "Pročitani originalni slajd i LaTeX izvori; upoređena pokrivenost vidljivog sadržaja i prenetih detalja; provereni međukoraci i formule. Pregledana puna A4 strana sa odgovarajućim ID-jem i naslovom: čitljivo, bez preklapanja ili odsecanja, bez uredničke evidencije i nepotrebnog prepisivanja slajda.",
+      "status": "provereno"
+    },
+    "03-s004": {
+      "source": "Originalni PDF strana 2, donji.",
+      "notes_path": "beleske/s004.tex",
+      "original_details_in_notes": {
+        "1": "Brojanje raspoloživih I2 kola pri smanjenju čipova.",
+        "2": "Proizvođački uslovi za odgovarajuće nivoe neiskorišćenih ulaza."
+      },
+      "original_anchors": [
+        "% element: 03-s004:e01",
+        "% element: 03-s004:e02"
+      ],
+      "supplement": "Brojanje četiri I2, kritična putanja i objašnjenje idempotentnosti I naspram NI invertora.",
+      "supplement_anchor": "% element: 03-s004:d01",
+      "notes_sha256": "9d5b5a272aadcb1bb5e2217f86c7a35f781249de96b55c43b65e3674d2f2b61e",
+      "verification": "Pročitani originalni slajd i konačni LaTeX izvori; pregledan ceo novi slajd i A4 blok sa tačnim ID-jem/naslovom. Svi nastavni detalji imaju odredište u delu slajda i njegovim beleškama. Proverene formule, priključci, spojevi i indeksi; beleške daju potpuno dodatno objašnjenje, bez uredničke evidencije ili nepotrebnog ponavljanja.",
+      "status": "provereno",
+      "date": "2026-10-09"
+    },
+    "03-s005": {
+      "source": "Originalni PDF strana 3, gornji; postojeći LaTeX prikaz 03-s005.",
+      "notes_path": "beleske/s005.tex",
+      "original_details_in_notes": {
+        "4": "Adresni ulazi često se označavaju slovom A."
+      },
+      "original_anchors": [
+        "% element: 03-s005:e04"
+      ],
+      "supplement": "Dokaz jednog aktivnog minterma; primer adrese 10 i sinteza preko minterma.",
+      "supplement_anchor": "% element: 03-s005:d01",
+      "notes_sha256": "17de19b300ebb0d2008f530529630fa291ca1fa28a867f0e1da7af5ec47f38cb",
+      "verification": "Pročitani originalni slajd i LaTeX izvori; upoređena pokrivenost vidljivog sadržaja i prenetih detalja; provereni međukoraci i formule. Pregledana puna A4 strana sa odgovarajućim ID-jem i naslovom: čitljivo, bez preklapanja ili odsecanja, bez uredničke evidencije i nepotrebnog prepisivanja slajda.",
+      "status": "provereno"
+    },
+    "03-s006": {
+      "source": "Originalni PDF strana 3, donji; postojeći LaTeX prikaz 03-s006.",
+      "notes_path": "beleske/s006.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Izvođenje F=Y0+Y3 i prepoznavanje EXNILI funkcije za četiri kombinacije.",
+      "supplement_anchor": "% element: 03-s006:d01",
+      "notes_sha256": "a76c5febe432dc8b287e543fa89ee286dc69e0d7497f681d78f8e0b72e87f0b3",
+      "verification": "Pročitani originalni slajd i LaTeX izvori; upoređena pokrivenost vidljivog sadržaja i prenetih detalja; provereni međukoraci i formule. Pregledana puna A4 strana sa odgovarajućim ID-jem i naslovom: čitljivo, bez preklapanja ili odsecanja, bez uredničke evidencije i nepotrebnog prepisivanja slajda.",
+      "status": "provereno"
+    },
+    "03-s007": {
+      "source": "Originalni PDF strana 4, gornji.",
+      "notes_path": "beleske/s007.tex",
+      "original_details_in_notes": {
+        "1": "Različit geometrijski raspored priključaka u internom prikazu i simbolu; obavezno praćenje lokalnih oznaka."
+      },
+      "original_anchors": [
+        "% element: 03-s007:e01"
+      ],
+      "supplement": "Indeks k=2S1+S0 i posledica zamene selektora.",
+      "supplement_anchor": "% element: 03-s007:d01",
+      "notes_sha256": "fa59f32a6d7ec8b8a1c89cef8d249d6f7dfa78c19cfefb8bebd238dfe94da61b",
+      "verification": "Pročitani originalni slajd i konačni LaTeX izvori; pregledan ceo novi slajd i A4 blok sa tačnim ID-jem/naslovom. Svi nastavni detalji imaju odredište u delu slajda i njegovim beleškama. Proverene formule, priključci, spojevi i indeksi; beleške daju potpuno dodatno objašnjenje, bez uredničke evidencije ili nepotrebnog ponavljanja.",
+      "status": "provereno",
+      "date": "2026-10-09"
+    },
+    "03-s008": {
+      "source": "Originalni PDF strana 4, donji.",
+      "notes_path": "beleske/s008.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Izvođenje Yk=CS mk, značenje adresnih/CS ulaza i razlikovanje nule od visoke impedanse.",
+      "supplement_anchor": "% element: 03-s008:d01",
+      "notes_sha256": "ef31196cff4ef327c66ba3b38dce9e67d2ac0dcf4f565711273346b6ea0a2d72",
+      "verification": "Pročitani originalni slajd i konačni LaTeX izvori; pregledan ceo novi slajd i A4 blok sa tačnim ID-jem/naslovom. Svi nastavni detalji imaju odredište u delu slajda i njegovim beleškama. Proverene formule, priključci, spojevi i indeksi; beleške daju potpuno dodatno objašnjenje, bez uredničke evidencije ili nepotrebnog ponavljanja.",
+      "status": "provereno",
+      "date": "2026-10-09"
+    },
+    "03-s009": {
+      "source": "Originalni PDF strana 5, gornji.",
+      "notes_path": "beleske/s009.tex",
+      "original_details_in_notes": {
+        "2": "Posledice drugačijeg rasporeda selektora za mapiranje indeksa."
+      },
+      "original_anchors": [
+        "% element: 03-s009:e02"
+      ],
+      "supplement": "Izvođenje indeksa 4g+k, primer 1011→11, brojanje 21 bloka za 6/64 i kritična putanja.",
+      "supplement_anchor": "% element: 03-s009:d01",
+      "notes_sha256": "6e77e2959bb201ad2a5cb7d86b74a846204bde3b43edfeb5d124057a6e46c465",
+      "verification": "Pročitani originalni slajd i konačni LaTeX izvori; pregledan ceo novi slajd i A4 blok sa tačnim ID-jem/naslovom. Svi nastavni detalji imaju odredište u delu slajda i njegovim beleškama. Proverene formule, priključci, spojevi i indeksi; beleške daju potpuno dodatno objašnjenje, bez uredničke evidencije ili nepotrebnog ponavljanja.",
+      "status": "provereno",
+      "date": "2026-10-09"
+    },
+    "03-s010": {
+      "source": "Originalni PDF strana 5, donji (odobrena podela s010/s010b).",
+      "notes_path": "beleske/s010.tex",
+      "original_details_in_notes": {
+        "2": "Tumačenje označenog polja, nezavisnih matričnih vodova i veza YiV/YjK sa CS priključcima."
+      },
+      "original_anchors": [
+        "% element: 03-s010:e02"
+      ],
+      "supplement": "Razlaganje i/j/k, primer indeksa 39 i veza spoljnih selektora sa lokalnim imenima S1/S0.",
+      "supplement_anchor": "% element: 03-s010:d01",
+      "notes_sha256": "5146a7c5250e36d7d9b828b27f895d9be8f0084878c2affe6e765aba8c5e93f7",
+      "verification": "Pročitani originalni slajd i konačni LaTeX izvori; pregledan ceo novi slajd i A4 blok sa tačnim ID-jem/naslovom. Svi nastavni detalji imaju odredište u delu slajda i njegovim beleškama. Proverene formule, priključci, spojevi i indeksi; beleške daju potpuno dodatno objašnjenje, bez uredničke evidencije ili nepotrebnog ponavljanja.",
+      "status": "provereno",
+      "date": "2026-10-09"
+    },
+    "03-s010b": {
+      "source": "Originalni PDF strana 5, donji (odobrena podela s010/s010b).",
+      "notes_path": "beleske/s010b.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Nastavak postojeće dopune: razlika pomoćnih komponenti, uporediva kašnjenja i uticaj opterećenja.",
+      "supplement_anchor": "% element: 03-s010b:d02",
+      "notes_sha256": "3807a88d2f01876f82b4e9809b5f37a7d1b8ff7e2f20f09e87e5d15024f80223",
+      "verification": "Pročitani originalni slajd i konačni LaTeX izvori; pregledan ceo novi slajd i A4 blok sa tačnim ID-jem/naslovom. Svi nastavni detalji imaju odredište u delu slajda i njegovim beleškama. Proverene formule, priključci, spojevi i indeksi; beleške daju potpuno dodatno objašnjenje, bez uredničke evidencije ili nepotrebnog ponavljanja.",
+      "status": "provereno",
+      "date": "2026-10-09"
+    },
+    "03-s011": {
+      "source": "Originalni PDF strana 6, gornji; postojeći LaTeX prikaz 03-s011.",
+      "notes_path": "beleske/s011.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Tumačenje potpunog proizvoda, primer aktivno niskog izlaza Y2 i dva različita uslova CS.",
+      "supplement_anchor": "% element: 03-s011:d01",
+      "notes_sha256": "f19f2c9194f3b4977624b035845e01102d6f71d2584a67d66551698ea4a6287a",
+      "verification": "Upoređeni original, prethodni i konačni slajd; pročitani izvori i cela A4 strana. Provereni polariteti, priključci, svi spojevi i odvojena ukrštanja, formule, razmaci i vidljivost teksta. Beleške su potpun nastavni dodatak bez uredničke istorije i nepotrebnog ponavljanja vraćenog teksta. Logički dokaz: logicka_provera_s011_s015.json; stručni izvor za DMUX naveden u external_verification.",
+      "status": "provereno",
+      "details_restored_to_slide": [
+        "Vraćena uvodna tvrdnja o aktivnim nulama na ulazima i izlazima.",
+        "Vidljivi objašnjenje ekvivalentnosti prvih simbola, najčešća upotreba drugog i aktivna jedinica posle dvostruke negacije; geometrija niža, bez promene priključaka.",
+        "Vraćen opis unutrašnjeg CS signala; jednačina i sve negacije očuvane."
+      ]
+    },
+    "03-s012": {
+      "source": "Originalni PDF strana 6, donji; postojeći LaTeX prikaz 03-s012.",
+      "notes_path": "beleske/s012.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Četiri izlazne jednačine, primer 10 za oba nivoa I, podatak na CS i provera polariteta konkretne komponente.",
+      "supplement_anchor": "% element: 03-s012:d01",
+      "notes_sha256": "261a99b79fef13ddfd3cbd9d242cf1f186656deaa84a060aa707cf21b195a8fe",
+      "verification": "Upoređeni original, prethodni i konačni slajd; pročitani izvori i cela A4 strana. Provereni polariteti, priključci, svi spojevi i odvojena ukrštanja, formule, razmaci i vidljivost teksta. Beleške su potpun nastavni dodatak bez uredničke istorije i nepotrebnog ponavljanja vraćenog teksta. Logički dokaz: logicka_provera_s011_s015.json; stručni izvor za DMUX naveden u external_verification.",
+      "status": "provereno",
+      "details_restored_to_slide": [
+        "Definicija prati original: nivo jednog ulaza ide na selektovani/adresirani izlaz.",
+        "Po korisnikovom nalogu dopunjena unutrašnja realizacija sa četiri I3 gejta i pun simbol 1/4, u stilu s008; polariteti provereni prema zvaničnoj dokumentaciji Nexperia 74HC238.",
+        "Na slajd vraćeni identična struktura, zajednički kataloški naziv i isti postupak proširenja."
+      ],
+      "external_verification": {
+        "url": "https://assets.nexperia.com/documents/data-sheet/74HC_HCT238.pdf",
+        "document": "74HC238; 74HCT238, Rev. 8, 21 March 2024",
+        "sections": "Fig. 3 (logic diagram), Table 3 (function table)",
+        "checked": "2026-10-09",
+        "derivation": "Za nenegirani DMUX podatak I ide na aktivno visoki E3; E1=E2=0, A2=0, A1=S1, A0=S0. Niža četiri izlaza ostvaruju I puta odgovarajući potpuni proizvod. To je izvođenje nastavne 1/4 šeme iz dokumentovanog 3/8 dekodera; ne predstavlja fizički pinout ovog IC-a. Primer sa aktivno niskim podatkovnim enable-om ne bi direktno odgovarao nenegiranom prikazu."
+      }
+    },
+    "03-s013": {
+      "source": "Originalni PDF strana 7, gornji; postojeći LaTeX prikaz 03-s013.",
+      "notes_path": "beleske/s013.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Razlika MUX-a prema koderu, puni izraz za Z, jedinstvena aktivna grana i primer 01.",
+      "supplement_anchor": "% element: 03-s013:d01",
+      "notes_sha256": "8ba03726cdcbdbbac8a8001927718c74d568cf8dd16d5f5558071c97f12e862b",
+      "verification": "Upoređeni original, prethodni i konačni slajd; pročitani izvori i cela A4 strana. Provereni polariteti, priključci, svi spojevi i odvojena ukrštanja, formule, razmaci i vidljivost teksta. Beleške su potpun nastavni dodatak bez uredničke istorije i nepotrebnog ponavljanja vraćenog teksta. Logički dokaz: logicka_provera_s011_s015.json; stručni izvor za DMUX naveden u external_verification.",
+      "status": "provereno",
+      "details_restored_to_slide": [
+        "Na slajd vraćeni specifična koderska mreža, obrnut smer od DMUX-a i broj signala; objašnjenje razlike prema koderu ostaje u beleškama.",
+        "Unutrašnja šema niža; izvorna funkcija, svi ulazi, spojevi i minterm grane očuvani.",
+        "Simbol očuvan, usklađen sa rasporedom unutrašnje šeme."
+      ]
+    },
+    "03-s014": {
+      "source": "Originalni PDF strana 7, donji; postojeći LaTeX prikaz 03-s014.",
+      "notes_path": "beleske/s014.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Pridruživanje vrednosti iz funkcionalne tabele, uvrštavanje konstanti i dokaz Z=F.",
+      "supplement_anchor": "% element: 03-s014:d01",
+      "notes_sha256": "76d431e6b7a5de6464c930f6e633c66c46e37c8f6f3e57b5bb25f12025160466",
+      "verification": "Upoređeni original, prethodni i konačni slajd; pročitani izvori i cela A4 strana. Provereni polariteti, priključci, svi spojevi i odvojena ukrštanja, formule, razmaci i vidljivost teksta. Beleške su potpun nastavni dodatak bez uredničke istorije i nepotrebnog ponavljanja vraćenog teksta. Logički dokaz: logicka_provera_s011_s015.json; stručni izvor za DMUX naveden u external_verification.",
+      "status": "provereno",
+      "details_restored_to_slide": [
+        "Vraćena prednost MUX-a u nekim situacijama i primer F; funkcija vidljiva u jednom redu.",
+        "Vraćeno načelo izbora potpunih proizvoda i dovođenja vrednosti funkcije; unutrašnja realizacija očuvana.",
+        "Horizontalna strelica vodi od opšteg MUX-a ka realizaciji desno, izvan tela oba bloka.",
+        "Dijagonalna strelica počinje na formuli F i pokazuje njenu realizaciju desnim MUX-om; B/A, 1/0/0/1 i F očuvani."
+      ]
+    },
+    "03-s015": {
+      "source": "Originalni PDF strana 8, gornji; postojeći LaTeX prikaz 03-s015.",
+      "notes_path": "beleske/s015.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Z=CS Z0, neaktivna nula prema visokoj impedansi, indeks 4g+k, primer I13 i razlikovanje lokalnih i globalnih ulaza.",
+      "supplement_anchor": "% element: 03-s015:d01",
+      "notes_sha256": "8bf651b52a54ae9c4ec0fb9ee206cd4dfef69b71842f79b69aeb99685906d7ef",
+      "verification": "Upoređeni original, prethodni i konačni slajd; pročitani izvori i cela A4 strana. Provereni polariteti, priključci, svi spojevi i odvojena ukrštanja, formule, razmaci i vidljivost teksta. Beleške su potpun nastavni dodatak bez uredničke istorije i nepotrebnog ponavljanja vraćenog teksta. Logički dokaz: logicka_provera_s011_s015.json; stručni izvor za DMUX naveden u external_verification.",
+      "status": "provereno",
+      "details_restored_to_slide": [
+        "Uvod bliži originalu; vidljivo objašnjenje mreže 16/1. Po izričitoj korisnikovoj dozvoli osnovni font lokalno 10/12 pt, bez skaliranja celog slajda.",
+        "Kompaktnija interna šema sa CS, oznake 9 pt i svi priključci očuvani.",
+        "Simbol sa CS odmaknut od unutrašnje šeme i proširenja; horizontalna strelica između celina.",
+        "Prošireni blokovi stabla radi razmaka teksta, vodovi i spojne tačke prilagođeni. Svih 16 ulaza, četiri prva i završni MUX, selektori i njihova mapiranja očuvani."
+      ]
+    },
+    "03-s016": {
+      "source": "Originalni PDF strana 8, donji; postojeći LaTeX prikaz 03-s016.",
+      "notes_path": "beleske/s016.tex",
+      "original_details_in_notes": {
+        "e01": "Razlika indeksa pobednika prema broju zahteva i zbiru indeksa.",
+        "e02": "Značenje X i potiskivanje nižih ulaza.",
+        "e03": "Tumačenje 00 uz GS=0/1."
+      },
+      "original_anchors": [
+        "% element: 03-s016:e01",
+        "% element: 03-s016:e02",
+        "% element: 03-s016:e03"
+      ],
+      "supplement": "X kao nevažna vrednost, prioritet i valjanost adrese uz GS.",
+      "supplement_anchor": "% element: 03-s016:d01",
+      "notes_sha256": "69388f1b08709e77d3812fa86b10bb44f56a88d8029e90bfe059cfa459a3ceac",
+      "verification": "Pojedinačno upoređeni izdvojeni original, prethodni prikaz, novi slajd i cela A4 strana. Sve vidljive veze i oznake proverene prema funkciji, bez prelaza vodova kroz gejtove; tačke samo na stvarnim spojevima. Pročitane beleške: potpuni dodatni nastavni detalji, tačne formule i primeri, bez uredničke evidencije. Postojeća računska provera prolazi, uključujući svih 65536 stanja mreže 16/4.",
+      "status": "provereno"
+    },
+    "03-s017": {
+      "source": "Originalni PDF strana 9, gornji; postojeći LaTeX prikaz 03-s017.",
+      "notes_path": "beleske/s017.tex",
+      "original_details_in_notes": {
+        "e02": "Kako pravilan oblik funkcija vodi do prioritetnih međusignala.",
+        "e03": "Sve jednačine P3–P0, A1/A0/GS i primer I2/I1."
+      },
+      "original_anchors": [
+        "% element: 03-s017:e02",
+        "% element: 03-s017:e03"
+      ],
+      "supplement": "Međusignali P3–P0, koderske jednačine i primer I2/I1.",
+      "supplement_anchor": "% element: 03-s017:d01",
+      "notes_sha256": "02f9b904e95b40125aa7617e43a4c1d3be9cd16012525240ff7580b2529cdf52",
+      "verification": "Pojedinačno upoređeni izdvojeni original, prethodni prikaz, novi slajd i cela A4 strana. Sve vidljive veze i oznake proverene prema funkciji, bez prelaza vodova kroz gejtove; tačke samo na stvarnim spojevima. Pročitane beleške: potpuni dodatni nastavni detalji, tačne formule i primeri, bez uredničke evidencije. Postojeća računska provera prolazi, uključujući svih 65536 stanja mreže 16/4.",
+      "status": "provereno"
+    },
+    "03-s018": {
+      "source": "Originalni PDF strana 9, donji; postojeći LaTeX prikaz 03-s018.",
+      "notes_path": "beleske/s018.tex",
+      "original_details_in_notes": {
+        "e01": "Zašto se kodovanje svodi na jedan međusignal.",
+        "e02": "Međukoraci minimizacije i uloga I0.",
+        "e03": "Razlika prema eksplicitno izdvojenim prioritetnim međusignalima."
+      },
+      "original_anchors": [
+        "% element: 03-s018:e01",
+        "% element: 03-s018:e02",
+        "% element: 03-s018:e03"
+      ],
+      "supplement": "Algebarsko izvođenje A1/A0/GS pomoću X+barX Y=X+Y i objašnjenje prioriteta.",
+      "supplement_anchor": "% element: 03-s018:d01",
+      "notes_sha256": "e971e803452a2f55744796297f64ba89cf448859e49c076b033620715b2dc042",
+      "verification": "Pojedinačno upoređeni izdvojeni original, prethodni prikaz, novi slajd i cela A4 strana. Sve vidljive veze i oznake proverene prema funkciji, bez prelaza vodova kroz gejtove; tačke samo na stvarnim spojevima. Pročitane beleške: potpuni dodatni nastavni detalji, tačne formule i primeri, bez uredničke evidencije. Postojeća računska provera prolazi, uključujući svih 65536 stanja mreže 16/4.",
+      "status": "provereno"
+    },
+    "03-s019": {
+      "source": "Originalni PDF strana 10, gornji; postojeći LaTeX prikaz 03-s019.",
+      "notes_path": "beleske/s019.tex",
+      "original_details_in_notes": {
+        "e02": "Globalni indeks 4g+k i izbor iste grupe za oba dela adrese.",
+        "e03": "Primer I12/I7 i konflikt običnih izlaza.",
+        "e04": "Potreba za izborom validne grupe."
+      },
+      "original_anchors": [
+        "% element: 03-s019:e02",
+        "% element: 03-s019:e03",
+        "% element: 03-s019:e04"
+      ],
+      "supplement": "Globalni indeks 4g+k i kontraprimer I12/I7 protiv spajanja neuslovljenih kodova.",
+      "supplement_anchor": "% element: 03-s019:d01",
+      "notes_sha256": "34e9828bd4065b2dbb2eb012ce6d21cb1ea4abd7312c2415d334734405bf5d81",
+      "verification": "Pojedinačno upoređeni izdvojeni original, prethodni prikaz, novi slajd i cela A4 strana. Sve vidljive veze i oznake proverene prema funkciji, bez prelaza vodova kroz gejtove; tačke samo na stvarnim spojevima. Pročitane beleške: potpuni dodatni nastavni detalji, tačne formule i primeri, bez uredničke evidencije. Postojeća računska provera prolazi, uključujući svih 65536 stanja mreže 16/4. Dorada GS veza 2026-10-09: pregledani novi slajd i cela A4 strana; četiri signala ne ukrštaju se niti se spajaju. Nastavni tekst beležaka ostaje identičan, odgovarajući ID i naslov su provereni.",
+      "status": "provereno"
+    },
+    "03-s020": {
+      "source": "Originalni PDF strana 10, donji; postojeći LaTeX prikaz 03-s020.",
+      "notes_path": "beleske/s020.tex",
+      "original_details_in_notes": {
+        "e01": "Zašto GS=0 može značiti zabranu uz lokalni zahtev.",
+        "e02": "EI uslovljava sve prioritetne međusignale i adresne bitove."
+      },
+      "original_anchors": [
+        "% element: 03-s020:e01",
+        "% element: 03-s020:e02"
+      ],
+      "supplement": "Lokalni zahtev H, GS=EI H i uslovljavanje međusignala.",
+      "supplement_anchor": "% element: 03-s020:d01",
+      "notes_sha256": "d3017180bda4fce18d5a03fa062ad6303683e2d11c97587bd55cc9faa9790fa9",
+      "verification": "Pojedinačno pregledani originali 03-s020/03-s021, prethodni prikazi, novi slajdovi i cele A4 strane. Tekstovi čuvaju sve izvorne tvrdnje i tri slučaja EO; dva odobrena para imaju potpunu pokrivenost. Proverene negacije, EI/EO dozvole, GS grananje i putanje, svi priključci, lokalne/globalne oznake i ILI4 ulazi. Vodovi ne prelaze preko simbola; tačke su samo na stvarnim grananjima. Nema preklapanja, odsecanja ili nečitljivih oznaka. Beleške su dodatni nastavni tekst, bez uredničke istorije i nepotrebnog ponavljanja. ID-jevi i ažurirani naslovi u A4 PDF-u odgovaraju slajdovima.",
+      "status": "provereno"
+    },
+    "03-s020b": {
+      "source": "Originalni PDF strana 10, donji; drugi deo odobrene podele.",
+      "notes_path": "beleske/s020b.tex",
+      "original_details_in_notes": {
+        "e04": "Primer prazne srednje grupe pri zabrani i uticaj neuslovljenog GS na drugi nivo; tri izvorna slučaja su sada potpuno vidljiva na slajdu."
+      },
+      "original_anchors": [
+        "% element: 03-s020b:e04"
+      ],
+      "supplement": "Odvođenje EO i potpuni slučajevi prenosa dozvole.",
+      "supplement_anchor": "% element: 03-s020b:d02",
+      "notes_sha256": "f849c5e7954718a2e37beedb87d5f78dcd36507a6abca44fd1ee522326321a59",
+      "verification": "Pojedinačno pregledani originali 03-s020/03-s021, prethodni prikazi, novi slajdovi i cele A4 strane. Tekstovi čuvaju sve izvorne tvrdnje i tri slučaja EO; dva odobrena para imaju potpunu pokrivenost. Proverene negacije, EI/EO dozvole, GS grananje i putanje, svi priključci, lokalne/globalne oznake i ILI4 ulazi. Vodovi ne prelaze preko simbola; tačke su samo na stvarnim grananjima. Nema preklapanja, odsecanja ili nečitljivih oznaka. Beleške su dodatni nastavni tekst, bez uredničke istorije i nepotrebnog ponavljanja. ID-jevi i ažurirani naslovi u A4 PDF-u odgovaraju slajdovima.",
+      "status": "provereno"
+    },
+    "03-s021": {
+      "source": "Originalni PDF strana 11, gornji; postojeći LaTeX prikaz 03-s021.",
+      "notes_path": "beleske/s021.tex",
+      "original_details_in_notes": {
+        "e01": "Primer I10/I5/I1 i tumačenje globalnih bitova.",
+        "e02": "Izbor pobedničke grupe i posledica bez ijednog zahteva.",
+        "e03": "Potpuni uslovi izlaza visoke impedanse: samo jedan aktivni drajver, ostali u visokoj impedansi, nevalidan nivo/adresa bez zahteva i razlika od obične logičke nule."
+      },
+      "original_anchors": [
+        "% element: 03-s021:e01",
+        "% element: 03-s021:e02",
+        "% element: 03-s021:e03"
+      ],
+      "supplement": "Izbor grupe, primer I10/I5/I1, lokalni/globalni bitovi i uslovi za objedinjavanje izlaza visoke impedanse.",
+      "supplement_anchor": "% element: 03-s021:d01",
+      "notes_sha256": "6ddbda91e228714464e20335eaa52d1098bed36907725f584550db6febf1b9c7",
+      "verification": "Pojedinačno pregledani originali 03-s020/03-s021, prethodni prikazi, novi slajdovi i cele A4 strane. Tekstovi čuvaju sve izvorne tvrdnje i tri slučaja EO; dva odobrena para imaju potpunu pokrivenost. Proverene negacije, EI/EO dozvole, GS grananje i putanje, svi priključci, lokalne/globalne oznake i ILI4 ulazi. Vodovi ne prelaze preko simbola; tačke su samo na stvarnim grananjima. Nema preklapanja, odsecanja ili nečitljivih oznaka. Beleške su dodatni nastavni tekst, bez uredničke istorije i nepotrebnog ponavljanja. ID-jevi i ažurirani naslovi u A4 PDF-u odgovaraju slajdovima.",
+      "status": "provereno"
+    },
+    "03-s021b": {
+      "source": "Originalni PDF strana 11, gornji; drugi deo odobrene podele.",
+      "notes_path": "beleske/s021b.tex",
+      "original_details_in_notes": {
+        "e04": "Tumačenje oznaka nezavisno od rasporeda priključaka."
+      },
+      "original_anchors": [
+        "% element: 03-s021b:e04"
+      ],
+      "supplement": "Uloge I3–I0, A1/A0, EI, GS, EO i tumačenje odnosa 4/2.",
+      "supplement_anchor": "% element: 03-s021b:d02",
+      "notes_sha256": "e84d9fab7bdec87bb1a1bf2d8e52bfeda1af9b2d43d43363173d485d62aacca8",
+      "verification": "Pojedinačno pregledani originali 03-s020/03-s021, prethodni prikazi, novi slajdovi i cele A4 strane. Tekstovi čuvaju sve izvorne tvrdnje i tri slučaja EO; dva odobrena para imaju potpunu pokrivenost. Proverene negacije, EI/EO dozvole, GS grananje i putanje, svi priključci, lokalne/globalne oznake i ILI4 ulazi. Vodovi ne prelaze preko simbola; tačke su samo na stvarnim grananjima. Nema preklapanja, odsecanja ili nečitljivih oznaka. Beleške su dodatni nastavni tekst, bez uredničke istorije i nepotrebnog ponavljanja. ID-jevi i ažurirani naslovi u A4 PDF-u odgovaraju slajdovima.",
+      "status": "provereno"
+    }
+  },
+  "editorial_records": {
+    "03-s001": [
+      "Autorstvo i godina postoje na slajdu; njihov urednički opis uklonjen iz beležaka."
+    ],
+    "03-s004": [
+      "NI tvrdnja u originalu nije ekvivalentna prikazanom ABC. Korisnik je odobrio I realizaciju; stare beleške sadržale su priču o tome. Istorija ostaje u odluke.md i arhiviranom izveštaju."
+    ],
+    "03-s006": [
+      "Izvorni dijagram nema veze izlaza do F; F=Y0+Y3 je stručno izvedena dopuna u beleškama, ne tvrdnja o sadržaju dijagrama. Slajd i crtež nisu menjani."
+    ],
+    "03-s010": [
+      "Strelica i kružić su oznaka izbora polja matrice, ne električni vod/spoj.",
+      "2026-10-09: originalni s010 podeljen po stvarnom korisnikovom nalogu; oba dela imaju zasebne beleške. Šema prati izvorne lokalne adresne priključke, polaritete, dva CS uslova i globalne indekse."
+    ],
+    "03-s011": [
+      "Treći donji simbol ima negirani CS1; obnovljeni nadcrt u prethodnoj doradi već odgovara originalu."
+    ],
+    "03-s012": [
+      "Unutrašnja mreža u originalu nije vidljiva; u beleškama dato funkcionalno tumačenje, bez izmene nepotpunog slajda."
+    ],
+    "svi": [
+      "Vidljivi naslovi Objašnjenje iz originala, Dopunsko objašnjenje i redovi Izvor: PDF strana uklonjeni; sva stara nevidljiva sidra sačuvana.",
+      "Prethodna evidencija arhivirana u istorija/pre-dorade-beleski-2026-10-02/. Jezičke ispravke iz prethodnog izveštaja ostaju važeće; nema nove stručne promene slajdova."
+    ],
+    "dorada_s016_s021_2026_10_09": {
+      "date": "2026-10-09",
+      "scope": [
+        "03-s016",
+        "03-s017",
+        "03-s018",
+        "03-s019",
+        "03-s020",
+        "03-s020b",
+        "03-s021",
+        "03-s021b"
+      ],
+      "record": "Odobrene podele originala s020/s021; izvorni tekst vraćen vidljivo, postojeće dopune raspodeljene bez gubitka. Izvorni PDF, mapa i tema neizmenjeni. Odobrenje i mapiranje vode se izvan beležaka.",
+      "approval": "odobrenje_podela.json",
+      "maps": [
+        "mapa_podele_s020.json",
+        "mapa_podele_s021.json"
+      ]
+    },
+    "verniji_s020_s021_2026_10_09": {
+      "scope": [
+        "03-s020",
+        "03-s020b",
+        "03-s021",
+        "03-s021b"
+      ],
+      "record": "Sadržaj e03 vraćen u prve delove oba odobrena para. Svi izvorni slučajevi EO vraćeni na slajd s020b; formula i primeri ostaju samo dodatno nastavno objašnjenje. Poreklo i odluke su u ovoj evidenciji, ne u beleškama."
+    }
+  },
+  "existing_expert_decisions": {
+    "03-s004": "Korisnik je tražio I kola umesto NI za F=ABC=A(BC). Odluka ostaje primenjena. Izvorni NI invertorski slučaj objašnjen kao zaseban tačan nastavni sadržaj, bez odobrenja/istorije u PDF-u."
+  },
+  "logical_checks": [
+    {
+      "check": "s004: asocijativnost I3=A(BC)",
+      "cases": 8,
+      "result": "provereno"
+    },
+    {
+      "check": "s004: spojeni NI ulazi invertuju, spojeni I ulazi ne invertuju",
+      "cases": 2,
+      "result": "provereno"
+    },
+    {
+      "check": "s005–s008: mintermi, Y0+Y3=EXNILI, CS i dva CS uslova",
+      "cases": 28,
+      "result": "provereno"
+    },
+    {
+      "check": "s009: indeks 4g+k i primer 1011→11",
+      "cases": 16,
+      "result": "provereno"
+    },
+    {
+      "check": "s010: sve adrese 16i+4j+k, primer 39, brojanje 18/21",
+      "cases": 64,
+      "result": "provereno"
+    },
+    {
+      "check": "s011: oba CS polariteta i dvostruka negacija",
+      "cases": 6,
+      "result": "provereno"
+    },
+    {
+      "check": "s012: Yk=I mk i neaktivni izlazi",
+      "cases": 8,
+      "result": "provereno"
+    },
+    {
+      "check": "s013/s015: polinomski MUX izraz i CS uslovljavanje",
+      "cases": 192,
+      "result": "provereno"
+    },
+    {
+      "check": "s014: uvrštavanje 1,0,0,1 i ista funkcija F",
+      "cases": 4,
+      "result": "provereno"
+    },
+    {
+      "check": "s015: svih 16 adresa × 65536 podataka stabla MUX 16/1",
+      "cases": 1048576,
+      "result": "provereno"
+    },
+    {
+      "check": "s016–s018/s020: prioritetski međusignali, minimalne jednačine, GS i EO",
+      "cases": 48,
+      "result": "provereno"
+    },
+    {
+      "check": "s018: X+barX Y=X+Y",
+      "cases": 4,
+      "result": "provereno"
+    },
+    {
+      "check": "s019: I12/I7 daje pogrešan OR-kod 1111 umesto 1100",
+      "cases": 1,
+      "result": "provereno"
+    },
+    {
+      "check": "s021: primer I10/I5/I1 i slučaj bez zahteva",
+      "cases": 2,
+      "result": "provereno"
+    },
+    {
+      "check": "Piramidalni 4/16: svih 16 adresa i oba CS stanja, isti globalni indeks 4g+k.",
+      "cases": 32,
+      "result": "provereno"
+    },
+    {
+      "check": "Matrični 6/64: svih 64 adresa i četiri stanja CS1/CS2; YiV→CS1, YjK→CS2 i indeksi16i+4j+k.",
+      "cases": 256,
+      "result": "provereno"
+    }
+  ]
+}

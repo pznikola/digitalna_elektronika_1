@@ -1,0 +1,15 @@
+\BeleskeID{03-s012}
+% element: 03-s012:e01
+% element: 03-s012:e02
+% element: 03-s012:e03
+% element: 03-s012:d01
+
+Ako je \(m_k\) potpuni proizvod selektora koji odgovara adresi \(k\), demultiplekser sa aktivnim jedinicama ostvaruje
+\[
+Y_0=I\overline{S_1}\overline{S_0},\quad
+Y_1=I\overline{S_1}S_0,\quad
+Y_2=IS_1\overline{S_0},\quad Y_3=IS_1S_0.
+\]
+Za \(S_1S_0=10\) izabrani \(Y_2\) prati ulaz \(I\), dok su ostali izlazi nula. Kada je \(I=0\), i izabrani izlaz je nula: izbor putanje ne znači da ona mora nositi jedinicu.
+
+U dekoderskoj upotrebi ulaz CS služi kao dozvola rada, a u demultiplekserskoj isti priključak nosi podatak \(I\) koji treba proslediti. U prikazanoj realizaciji ovaj ulaz i izlazi aktivni su na jedinici. Kod konkretne integrisane komponente treba proveriti polaritete: negirani podatkovni priključak ili negirani izlazi mogu promeniti odnos između ulaznog i izlaznog nivoa. Proširenje kapaciteta prati iste piramidalne ili matrične postupke izbora izlazne grupe i izlaza u grupi.

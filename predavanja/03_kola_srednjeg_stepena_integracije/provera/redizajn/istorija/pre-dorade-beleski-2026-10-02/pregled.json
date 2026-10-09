@@ -1,0 +1,550 @@
+{
+  "slides": {
+    "03-s001": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovni stvarni pregled: izdvojeni original, sačuvani prethodni prikaz, novi slajd u punoj veličini i sve A4 beleške istog ID-ja. Naslov, autorstvo i godina ostaju vidljivi; raspored usklađen sa odobrenom 01. Beleške evidentiraju poreklo materijala.",
+      "evidence": {
+        "source_render_sha256": "bfaa019848e5df72a38fdbb51d4151e2c195062f52ef7f5d1585f888d443ffe1",
+        "baseline_render_sha256": "f08c2b5322218a72a560f9fc8146cae8a6f946af87e0e58e8f086b812af6287e",
+        "new_render_sha256": "012474105a6475d0b216ec29d80f1c064e9a1db4a58654512b4ad01ce0116e85",
+        "notes_render_sha256": "4d4be81b19fa9c5aac1da399785f1425cabf4a345e8c7640b222b7cff489171a",
+        "slide_sources_sha256": "328efa675edb33b0515db940b861dec85e98a8252f3461be6b2bbc407be378ac",
+        "notes_sources_sha256": "7b4f91d9c92b557825e4c1d751fe34dfb7b756e18386288f4e2cfd706fae31ce",
+        "shared_sha256": "75637095f0f3dcef7fad8fd00c609cea5fc4f8ac7bc5295053b4869e8c6f8441",
+        "mapping_sha256": "1e10534a5458bcc99c6ec1c8c0a55979fac66b28fe2da9dd9ee9117de41e70ec",
+        "coverage_sha256": "77be519be7393f3dab1f31077633ef570b985d7d9223c03673a28daa1c5ef95a"
+      }
+    },
+    "03-s002": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovni stvarni pregled: izdvojeni original, sačuvani prethodni prikaz, novi slajd u punoj veličini i sve A4 beleške istog ID-ja. Svi engleski nazivi i izvorni pragovi vidljivi su u tabeli; obrazloženje približnih granica i upotrebe naziva VLSI detaljnije je u beleškama.",
+      "evidence": {
+        "source_render_sha256": "4feb7539585f73a26f89a036d1546a575e11a9d6fa00bacc1e98621ff7166b3b",
+        "baseline_render_sha256": "c6e479c029c6beb9816fa9e65dcf562a5d93d490a78eb1e123a148125faf7d7f",
+        "new_render_sha256": "fcefba706c4d43e8c4131c023f21d82d901e2273cc334cece643f9bda33c0170",
+        "notes_render_sha256": "70681ca09782ae474d254e2b13e7070fbb2bf4273b1235b3383c05a9ba862ee6",
+        "slide_sources_sha256": "c9820524b523608fc80691ada435ca08537d52a43e9dfb64c0a251191d0b2853",
+        "notes_sources_sha256": "59ff5366bffbe4b113f2961580f64f565f9ba6205c5868987bc976bd095f627b",
+        "shared_sha256": "75637095f0f3dcef7fad8fd00c609cea5fc4f8ac7bc5295053b4869e8c6f8441",
+        "mapping_sha256": "1f31be9d7ddd3a62f300b0b11132b828770a4ed3fe5b2ad9405268a853d44ee1",
+        "coverage_sha256": "fd24b084efdbc42e22288543f598832b4e0ed13d37858ee51c7cac56ceb22ee0"
+      }
+    },
+    "03-s003": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovni stvarni pregled: izdvojeni original, sačuvani prethodni prikaz, novi slajd u punoj veličini i sve A4 beleške istog ID-ja. Veličine pakovanja i raspored napajanja vidljivi su u odvojenoj tabeli; tumačenje PCB veza i izbora pakovanja prošireno je u beleškama.",
+      "evidence": {
+        "source_render_sha256": "7c6912a4b34f1c694d85dbed8283a851c14c9b3d8cc1f39a3d0e5228c0bda33d",
+        "baseline_render_sha256": "6b21611c6e70e0392164886dfda5bdc625129e7dee4eb2e12bb58eacdd4f5ef8",
+        "new_render_sha256": "bde45589afb52ec9bc49cc74850b9162b106badeecb9359293f07c5bb689759f",
+        "notes_render_sha256": "2d44bea035b083cfe2e3c8c3f8240ca9973cdf4ee2a901b22efd803126171225",
+        "slide_sources_sha256": "970ab7820234b3fcd1e6e1659c3f17d1418938d89be88da8750cb7632576f780",
+        "notes_sources_sha256": "57866d942313e46723c3889294b3f388886caef54683573c41008e95a626e44c",
+        "shared_sha256": "75637095f0f3dcef7fad8fd00c609cea5fc4f8ac7bc5295053b4869e8c6f8441",
+        "mapping_sha256": "93bde7e0d954fce00edb7497ef0893568bea65ef1ec3f8860cad0f1f9d954050",
+        "coverage_sha256": "318d7fa6fa760b6fcf0ff78700f80ee96792b4e0e49ae4e0bebe3dd4057c3569"
+      }
+    },
+    "03-s004": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovni stvarni pregled: izdvojeni original, sačuvani prethodni prikaz, novi slajd u punoj veličini i sve A4 beleške istog ID-ja. Sačuvani su korisnikom odobrena I realizacija, jednačina i upozorenje o neiskorišćenim ulazima. Izvorna NI formulacija i invertorski slučaj ostaju dokumentovani u beleškama, prema ranijoj odluci.",
+      "evidence": {
+        "source_render_sha256": "4c536c82da0c7c7acd9af86759d796eb05cd2a1ccdfaec760bfc0496824936ab",
+        "baseline_render_sha256": "6cb56ad1f294408b08bd1b5032dd41c438c30d8d7afd80aef21937399b1164c9",
+        "new_render_sha256": "8d16edae9b847bb74e7caf1b632838aef6cb452470666b7178ed426c9114c6a3",
+        "notes_render_sha256": "39fc36b3dc33bf12ac2e6af772aa45a8d98aaf8dcd9eb5cee03c1d809aa0ccd5",
+        "slide_sources_sha256": "4fe349a040a949b1617f19a3f0333139914ff9f328047f187f1a9ebddf44d2f6",
+        "notes_sources_sha256": "c5cbf4d56ab1130c38d2b7611df0290d098affceea4061feb60872023239552f",
+        "shared_sha256": "75637095f0f3dcef7fad8fd00c609cea5fc4f8ac7bc5295053b4869e8c6f8441",
+        "mapping_sha256": "a776b340308590b12da56ee28644b13935576cba57d4bb3224b4b681c2fbaf1d",
+        "coverage_sha256": "9fd5a590b0b20aa286e1110861a7a310705ce900f0c55819c24d943e11bdf461"
+      }
+    },
+    "03-s005": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovni stvarni pregled: izdvojeni original, sačuvani prethodni prikaz, novi slajd u punoj veličini i sve A4 beleške istog ID-ja. Definicija, kompletna šema, sve četiri jednačine i primena izlaza ostaju vidljivi; beleške razrađuju minterme, indeksiranje i grananje. Provereni su svi priključci, polariteti i indeksi; vodovi ne prelaze preko tela kola, stvarna grananja imaju tačke, ukrštanja bez veze nemaju tačke.",
+      "evidence": {
+        "source_render_sha256": "9bef37be4cebd87008d271848aa5730fff8b070fa50d80b5004377bd4b47153b",
+        "baseline_render_sha256": "655dc4f9d1e462519e185b0e6516867347fa828f6d3dbd316aefd189ae6e794a",
+        "new_render_sha256": "a58bd6aae03378104baaac42d496118013e4c71a258d01750e326f7e8dbccf2a",
+        "notes_render_sha256": "c1765edd4b1e70d05325c9fd0f91d04640884fd0bdac15fefc54dc03fb28c63b",
+        "slide_sources_sha256": "a2b3053930952af039e4ce9978eec7df13f019efaf52aeaaa18a40ee2e73377e",
+        "notes_sources_sha256": "c4a8cd8a6c5fe1ce8acb2c7a71b4693b12fcbb1c912dd6156e063f0d835b9dd1",
+        "shared_sha256": "75637095f0f3dcef7fad8fd00c609cea5fc4f8ac7bc5295053b4869e8c6f8441",
+        "mapping_sha256": "d008a02ecbbb3e33c88204feeb9bddef48a3ece8f6bb4acb4c5e3817d508a48e",
+        "coverage_sha256": "1a32758c60ab0c6ad1ffa4373c51a03a9b78238d7bae07f1acf233e5e90c088f"
+      }
+    },
+    "03-s006": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovni stvarni pregled: izdvojeni original, sačuvani prethodni prikaz, novi slajd u punoj veličini i sve A4 beleške istog ID-ja. Vidljivi su izvorna funkcija i nepotpuni obris bez dodavanja veza. F=Y0+Y3 označeno je kao dopunsko izvođenje u beleškama, a ne kao formula originala. Provereni su svi priključci, polariteti i indeksi; vodovi ne prelaze preko tela kola, stvarna grananja imaju tačke, ukrštanja bez veze nemaju tačke.",
+      "evidence": {
+        "source_render_sha256": "33d6f0d7a2ba5fe40e19a5821b6975ad52d6190f6ec658d2774d13813cffb2cf",
+        "baseline_render_sha256": "5e9cfaefeb48db862280881e16171ba3f12fd7395ef3799ea8a140123ce02d81",
+        "new_render_sha256": "abbabdc09d6d7ec95527c3154ff80ad097bb45f1cc3b77f18ad30fa64b6b30e7",
+        "notes_render_sha256": "f2bee80638ea3962763a6f58f8d275a939ca5211216af71a0de9e0e935a5da6b",
+        "slide_sources_sha256": "a9ae6a3b0ebb7a6bfa2d48daad24fc4f7bf84379f643ca6b076f547770bf4460",
+        "notes_sources_sha256": "88099e57970e474439b4484de371942b524c799015d7369126da140fb671e98d",
+        "shared_sha256": "75637095f0f3dcef7fad8fd00c609cea5fc4f8ac7bc5295053b4869e8c6f8441",
+        "mapping_sha256": "84e9fc5950a23570083a856bd1f288b6bf6c78b84e328a3db3a0b175c53e8312",
+        "coverage_sha256": "e4ee49af8bda356bddc15dda63bdd6ad53935dc98531aa8085d013a86879dda4"
+      }
+    },
+    "03-s007": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovni stvarni pregled: izdvojeni original, sačuvani prethodni prikaz, novi slajd u punoj veličini i sve A4 beleške istog ID-ja. Interna realizacija, apstraktni simbol i sve oznake ostaju vidljivi; pravila težina ulaza i indeksa izlaza razrađena su u beleškama. Provereni su svi priključci, polariteti i indeksi; vodovi ne prelaze preko tela kola, stvarna grananja imaju tačke, ukrštanja bez veze nemaju tačke.",
+      "evidence": {
+        "source_render_sha256": "2eb55bf56469d502b2a180d44744210ef7c1f4e7d34654ae6a28204dac78215f",
+        "baseline_render_sha256": "04d2e1eb420b8b780cb7f9dae3b437287d2d82675872d0770981906106052fb8",
+        "new_render_sha256": "9cfdd88f486a1c0bf98a7e4f8061608265732a8f7f8ec8bdb9d5645774838e94",
+        "notes_render_sha256": "c102e859db2bd244cd01c42c7681b2d0b188766f6804050c14830b5d39c4661e",
+        "slide_sources_sha256": "f6007dc31e6653bc3fccdc3553222435cdc40404758a09eeee74b52bc4df6e16",
+        "notes_sources_sha256": "e25774446c8be7a5e33f6a15be9799a14f52e5383122764f6a922d2ad94ea40a",
+        "shared_sha256": "75637095f0f3dcef7fad8fd00c609cea5fc4f8ac7bc5295053b4869e8c6f8441",
+        "mapping_sha256": "c5ca171a706424d7f2098340b3f51901172c59a63e94f4c647386631c06547b7",
+        "coverage_sha256": "09a489466939c1237f81dde5a38dc3d52932ab134351748520ca4b67fd2de41d"
+      }
+    },
+    "03-s008": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovni stvarni pregled: izdvojeni original, sačuvani prethodni prikaz, novi slajd u punoj veličini i sve A4 beleške istog ID-ja. CS ulaz, njegove veze, neaktivni izlazi i uslov CS=CS1 CS2 ostaju vidljivi; detaljno tumačenje izbora komponente je u beleškama. Provereni su svi priključci, polariteti i indeksi; vodovi ne prelaze preko tela kola, stvarna grananja imaju tačke, ukrštanja bez veze nemaju tačke.",
+      "evidence": {
+        "source_render_sha256": "ad3b4e4a74db92e6f14d02e244a632a28d9dc0f67931ea61fa77e3a06051a7d0",
+        "baseline_render_sha256": "6ddaa285f250151707b95f124d073a833023adcabfb5ac37a5e9794861552bc7",
+        "new_render_sha256": "a46a58ae0e0e1400d5ca0344915d6623ecfec3df8b39d92880c2de60c97ad5f4",
+        "notes_render_sha256": "fdf56116e7aedd1484948cdea3dce1d779b9af37f70d631a447efc44426025af",
+        "slide_sources_sha256": "342d10e05600ed9284351f65a65e001d44f9ec916d7032d5424698f002b8ba3d",
+        "notes_sources_sha256": "488e25994677e39c395ff2970589b74c95321f3123ae8e6bd55735713f450046",
+        "shared_sha256": "75637095f0f3dcef7fad8fd00c609cea5fc4f8ac7bc5295053b4869e8c6f8441",
+        "mapping_sha256": "9b7b3535e0218d2c3e1647fff89cd5c4dcdf257472ee117875585bddb0d23e53",
+        "coverage_sha256": "8416664d6a6b0828339d3fe9cd4094c87acb1c01f7d51414fbca472b4f0341f3"
+      }
+    },
+    "03-s009": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovni stvarni pregled: izdvojeni original, sačuvani prethodni prikaz, novi slajd u punoj veličini i sve A4 beleške istog ID-ja. Sve grane, zajednički S1/S0 vodovi i Y0–Y15 ostaju vidljivi; beleške objašnjavaju indeksiranje, tri nivoa za 6/64 i mogućnost drugačijeg povezivanja. Provereni su svi priključci, polariteti i indeksi; vodovi ne prelaze preko tela kola, stvarna grananja imaju tačke, ukrštanja bez veze nemaju tačke.",
+      "evidence": {
+        "source_render_sha256": "de482f8469b054288dd3cb0f9c505956470e11b691ecf58d03a87b2e7ad3319c",
+        "baseline_render_sha256": "aa38051904b4438700750c38e500d4001db7320bea28473c9429f791fd5f2389",
+        "new_render_sha256": "615ecc39bda27742dc17ab61d2612661b5c25f594d54d21f6572a4edf8fe5800",
+        "notes_render_sha256": "4bb3017f6c132e300d2c7971d0e62123b331811a5efbb218b2baa2ca15cd23d4",
+        "slide_sources_sha256": "743c4dd0a0d682f57c85169cabe08732b41ce867364fd1ff8345a653e567218f",
+        "notes_sources_sha256": "f214ef7e35b552a7c39f51c67396442133dd732c6ea9d03963584c726a483ca1",
+        "shared_sha256": "75637095f0f3dcef7fad8fd00c609cea5fc4f8ac7bc5295053b4869e8c6f8441",
+        "mapping_sha256": "c87fb50c9cdfc9b45b9a4740b37286f74b84f5a97a2bb1d3ab2a90e3727630ea",
+        "coverage_sha256": "19e7ea0234a622ab4c224c9b7965879ceaca11ae73eebe2910e9a3594cd14122"
+      }
+    },
+    "03-s010": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovni stvarni pregled: izdvojeni original, sačuvani prethodni prikaz, novi slajd u punoj veličini i sve A4 beleške istog ID-ja. Vidljivi su matrica vrsta/kolona, zajednički CS1/CS2, reprezentativni završni blok, indeksiranje, 18 naspram 21 komponente i dva nivoa. Trodimenziono proširenje, kombinacije struktura i detaljni indeksi su u beleškama; kružić i strelica izdvajaju polje, nisu električni spoj. Provereni su svi priključci, polariteti i indeksi; vodovi ne prelaze preko tela kola, stvarna grananja imaju tačke, ukrštanja bez veze nemaju tačke.",
+      "evidence": {
+        "source_render_sha256": "e1ecd6ecbdfcb4ce38447c2243313bef782e1bff60ad951b3004bcb40f353761",
+        "baseline_render_sha256": "fc69a5632e86ad997967be0854f8ed77e2c2562919a0b11f2e62e0b5f34e2cd3",
+        "new_render_sha256": "1031f02a8e695f3a31b3ad87672dada72721c47a718ebe2c6d076cc8afbee82c",
+        "notes_render_sha256": "c14b67f63052af9cd7af09ce97f1b13bad39e21bae4dd76458db37662a6ed766",
+        "slide_sources_sha256": "22797136a7414e2f512c4b942532f6f94dd35812619a4248d6b20bb212d9f45b",
+        "notes_sources_sha256": "22ad7bf93e37409525e9a0edfd9cbeb718f47886538f52b283f224f2148a76d1",
+        "shared_sha256": "75637095f0f3dcef7fad8fd00c609cea5fc4f8ac7bc5295053b4869e8c6f8441",
+        "mapping_sha256": "3a6fbfdcf900b66876854bc82328b99a1858d6b68610c22e94dfde80dcba4552",
+        "coverage_sha256": "c672ff1ddb3f3fc1129f05f0de7d22da91fe90c371bb8c690425e7da27c28d6c"
+      }
+    },
+    "03-s011": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovni stvarni pregled: izdvojeni original, sačuvani prethodni prikaz, novi slajd u punoj veličini i sve A4 beleške istog ID-ja. Svih šest izvornih simbola prikazano je sa pojedinačnim priključcima, negacijama i relacijama jednakosti. Objašnjenje dvostruke negacije i originalnog trećeg donjeg simbola razrađeno je u beleškama. Provereni su svi priključci, polariteti i indeksi; vodovi ne prelaze preko tela kola, stvarna grananja imaju tačke, ukrštanja bez veze nemaju tačke.",
+      "evidence": {
+        "source_render_sha256": "ceb89323434cc32ac9942376e51e6e0aeb93795c6b6e253578c017d2103d0af9",
+        "baseline_render_sha256": "d59b1e5c5c5d3b18ab6bc7c4115d3e9c723605ee90a193f08d9cd764d4f7c57d",
+        "new_render_sha256": "b51e80ac626a3d1415bd11973438f6e13f691618010367210e1182116deb6940",
+        "notes_render_sha256": "89fab01b710fb1c11749b4083ba38e8157f2cf53c3291a850178f543b4a1c344",
+        "slide_sources_sha256": "1dc03c7372ad915756ef53e9d3d4b0e976b52fe3e8124b552f1ab55368436a2f",
+        "notes_sources_sha256": "ef33c281502aed560c701ca6528fb663023687a1b8cfeaf4c1b2757dd51f6f47",
+        "shared_sha256": "75637095f0f3dcef7fad8fd00c609cea5fc4f8ac7bc5295053b4869e8c6f8441",
+        "mapping_sha256": "983ff0ba469d785352a31b9bf142fbfe776a322246bd9aea7258e2da2f2984ec",
+        "coverage_sha256": "5ee18c844b41fdfe5e3a36dd784ab2308db4b0ca001b0febe4b29ee96f0a6d8f"
+      }
+    },
+    "03-s012": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovni stvarni pregled: izdvojeni original, sačuvani prethodni prikaz, novi slajd u punoj veličini i sve A4 beleške istog ID-ja. Definicija, oba nepotpuna izvorna prikaza i mogućnost proširenja ostaju vidljivi. Beleške objašnjavaju funkcionalni odnos prema dekoderu bez izmišljanja unutrašnje šeme. Provereni su svi priključci, polariteti i indeksi; vodovi ne prelaze preko tela kola, stvarna grananja imaju tačke, ukrštanja bez veze nemaju tačke.",
+      "evidence": {
+        "source_render_sha256": "7c09ea2fa570a21ff473ebed8d39faf7f569da08a65172e9297dbe106900c226",
+        "baseline_render_sha256": "5135c1f65869dd427b1077495361eb65c61531f26f5050cc88a72f72a7684c54",
+        "new_render_sha256": "e9d2f9b60e67c830ed7de7078b26baea0970a1375d12fff0b9f5e7dc862911b7",
+        "notes_render_sha256": "77e1dffc8dae4d294e06670eabff68a99d00604ca06e7fb76ba928c89bc3ad4c",
+        "slide_sources_sha256": "4fa8d9291a3d4360656e8b88b39d95370f8647eaaf624bb6eae4ada914a6bb46",
+        "notes_sources_sha256": "e82e12e5dcdd917024eb89d1517e2cf14492b63a2fc5dc0bdea388633f58ef3a",
+        "shared_sha256": "75637095f0f3dcef7fad8fd00c609cea5fc4f8ac7bc5295053b4869e8c6f8441",
+        "mapping_sha256": "3771f7518e37ac3dd738dc66fbed293c69b76889897b6dacba38ed86331ffdac",
+        "coverage_sha256": "1152f58dd9b3e760c574ffc3ac6d3428a737b948a4f94527ded27d9f6237e12f"
+      }
+    },
+    "03-s013": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovni stvarni pregled: izdvojeni original, sačuvani prethodni prikaz, novi slajd u punoj veličini i sve A4 beleške istog ID-ja. Vidljivi su definicija, cela interna šema i apstraktni simbol sa svim signalima. Beleške razrađuju četiri grane i suprotan smer u odnosu na demultiplekser. Provereni su svi priključci, polariteti i indeksi; vodovi ne prelaze preko tela kola, stvarna grananja imaju tačke, ukrštanja bez veze nemaju tačke.",
+      "evidence": {
+        "source_render_sha256": "778ee7611c3872205151d579086d7fa84deab14eec3d3a0cd2c4807442287cf4",
+        "baseline_render_sha256": "84cdec6cf252a4301cd9a8355ddcae9e8789c4752a5a94085800c1a23631041b",
+        "new_render_sha256": "0094e438e47fa0b310d13e57b1edd9b57499bb5e81fcc226f092de7e5e2ea24b",
+        "notes_render_sha256": "56d521ddef5f504c662e7d4c68a4953fd987cd8a8197ca8b1106984ca2b71e74",
+        "slide_sources_sha256": "218e7260a3f56ae5f1a4ccc73f34b751941cfdd54eb21876d1c4b4f67134afe8",
+        "notes_sources_sha256": "c904ce32bd743a4768367ef15cece92aba2c8ca78ed563c10009b1878f1bc8b2",
+        "shared_sha256": "75637095f0f3dcef7fad8fd00c609cea5fc4f8ac7bc5295053b4869e8c6f8441",
+        "mapping_sha256": "a01d184f3e777ee78ec2182b48f9469a5ce8cca71c2aed4b7c1a18c72747f89f",
+        "coverage_sha256": "efda0c5291c6c3d768e9e1b2b1205883772c4942722b9525bdbe3fd18cdd6e88"
+      }
+    },
+    "03-s014": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovni stvarni pregled: izdvojeni original, sačuvani prethodni prikaz, novi slajd u punoj veličini i sve A4 beleške istog ID-ja. Izvorna funkcija, interna realizacija, simbol i konkretne vrednosti 1/0/0/1 ostaju vidljivi. Poređenje jednostavnosti sa dekoderom i izvođenje vrednosti su u beleškama. Provereni su svi priključci, polariteti i indeksi; vodovi ne prelaze preko tela kola, stvarna grananja imaju tačke, ukrštanja bez veze nemaju tačke.",
+      "evidence": {
+        "source_render_sha256": "ed78f306911a14499229b253bc5649e9b87c149af0b888c505f9f75a56ed3879",
+        "baseline_render_sha256": "cf63625b5fac12463e52bfe05dff34b0851e8ddf8558c07dc542c321ef9bb08b",
+        "new_render_sha256": "2c9e16dd350dbe220a48951222fb6bfa5cf8b3d5be2d239a5e94deeb6df65612",
+        "notes_render_sha256": "91d2d1c028e635efb6baa52d5e5c743cb578ae3cd6fcc58d8c2eb344bd00002d",
+        "slide_sources_sha256": "2e03b7fbb7e123a22be5a7c55206f2d24651d862c404a5286a78af0ca834501f",
+        "notes_sources_sha256": "a048456b0d8fb9ddac8af8d90ca0479bad04a9d1572f7236fd146dae25175cc5",
+        "shared_sha256": "75637095f0f3dcef7fad8fd00c609cea5fc4f8ac7bc5295053b4869e8c6f8441",
+        "mapping_sha256": "54f089c783b21eb134e21d6516fb3f0e6711fe9fcd7035d2312d5ebeca8d654e",
+        "coverage_sha256": "f54bfeae5ded5e52ab7f4236cad0bb975a0dbcb1a709c0781dc2358b3c795646"
+      }
+    },
+    "03-s015": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovni stvarni pregled: izdvojeni original, sačuvani prethodni prikaz, novi slajd u punoj veličini i sve A4 beleške istog ID-ja. Vidljivi su CS, unutrašnja šema, osnovni simbol i proširenje na svih 16 ulaza sa zajedničkim selektorima. Beleške razrađuju izbor osnovnog MUX-a i mapiranje globalnih na lokalne ulaze. Provereni su svi priključci, polariteti i indeksi; vodovi ne prelaze preko tela kola, stvarna grananja imaju tačke, ukrštanja bez veze nemaju tačke.",
+      "evidence": {
+        "source_render_sha256": "488f3dd15201bd600f82c4e15ab4a633562f049f316b23ea2f392f7067926da3",
+        "baseline_render_sha256": "f4eff75eafcaa6e612aa77f2fe8b7385fac457d597430b12eff0368f832e775c",
+        "new_render_sha256": "4d3345934141cedcfaed59066b999a14514f1955c5d52a466b6a5531dbc409a7",
+        "notes_render_sha256": "88636c0d8389be16c8413e29a3464bcbd34e1bce08c397f4d4f8dabd6c276ed0",
+        "slide_sources_sha256": "a86f705c9cb3abf51fa634b4124eca669f7b1d77f84fa5ef7fbaf5d126a521e3",
+        "notes_sources_sha256": "e8444626319141b398fccf06e2e38ea6016c2ca8f3faefd52e923379fd5766c0",
+        "shared_sha256": "75637095f0f3dcef7fad8fd00c609cea5fc4f8ac7bc5295053b4869e8c6f8441",
+        "mapping_sha256": "554bfcd587960252b788d5d0fb6fd719d6dd502157b65bb78c501ce1c6bf9dd5",
+        "coverage_sha256": "f9cad2405a5c37654ba39a1bf5c4eec7cc2e990c0c6bcb80ebe0921627a47996"
+      }
+    },
+    "03-s016": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovni stvarni pregled: izdvojeni original, sačuvani prethodni prikaz, novi slajd u punoj veličini i sve A4 beleške istog ID-ja. Cela funkcionalna tabela, kod 00 i definicija GS ostaju vidljivi. Primena u procesorskim sistemima i detaljno objašnjenje dvosmislenosti su u beleškama.",
+      "evidence": {
+        "source_render_sha256": "b9c5ea48654e129c1dce4394e017f3a775494f5e00c100d11474a00ed50c5fa1",
+        "baseline_render_sha256": "d8fc134afd2291446a713be42af5fc2b4c12d5e71ffbd28138a0844dec36885b",
+        "new_render_sha256": "afe30f356d566c61320b112a760c2853cd238458c20d6934ee597b3c2e262f8f",
+        "notes_render_sha256": "4a3decc2a5a9f33da9e4383d8a0e0bbe70b9ed0dc4acc27f8a9a6e1057f024b7",
+        "slide_sources_sha256": "0f0a0e702986a910199169f00aa05b098d7fa1435b692df7963f287cb256bc9c",
+        "notes_sources_sha256": "94c9a7aa75ce7427bffe5b4d490229523e509d805ceaf22053da29f62fd76b3a",
+        "shared_sha256": "75637095f0f3dcef7fad8fd00c609cea5fc4f8ac7bc5295053b4869e8c6f8441",
+        "mapping_sha256": "262f121bc609f9cc18435f1f7f40d72c58002100574bff5b44110080ff3eeda9",
+        "coverage_sha256": "535bcbc70a592f2d2497bba3e485ed1f65cf50fcdf19bb753a8803e2e84c0d43"
+      }
+    },
+    "03-s017": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovni stvarni pregled: izdvojeni original, sačuvani prethodni prikaz, novi slajd u punoj veličini i sve A4 beleške istog ID-ja. Tabela sa GS, prioritetska i koderska mreža ostaju vidljive, kao i neposredna realizacija bez minimizacije. Beleške razrađuju potiskivanje nižih prioriteta i mogućnost proširenja. Provereni su svi priključci, polariteti i indeksi; vodovi ne prelaze preko tela kola, stvarna grananja imaju tačke, ukrštanja bez veze nemaju tačke.",
+      "evidence": {
+        "source_render_sha256": "25b233e53a69c49ebe0af63c281d4568d79d773b5a77f734dc4b804af23623bc",
+        "baseline_render_sha256": "17fb5a75eef1af1d386a5570616e26442c85233426cc73d5073a7bfbc5097750",
+        "new_render_sha256": "48a250f8eb5c66c1dffaff80ad850afd79cdba3ce324e97309c488cffc0a62d5",
+        "notes_render_sha256": "b18703b73345fd79b4803ea10cfeca54002d4a6b13e7565928142341c2efdb2f",
+        "slide_sources_sha256": "b834f2b43ff783eb90b535ae3a8d30c90272dda9a4dba25bf8e45c0b54907488",
+        "notes_sources_sha256": "56411829369d153e0f41e472198a2520938ce2fb318464feb34a64092fb48bd3",
+        "shared_sha256": "75637095f0f3dcef7fad8fd00c609cea5fc4f8ac7bc5295053b4869e8c6f8441",
+        "mapping_sha256": "e04fe00c2e55ae3fb27fd1e8c54238303236ce8ce11ba0c272aa5b749a677f83",
+        "coverage_sha256": "5193c6755036682bd92d510e348592c8681bf35d5824d7265e6822ece2e02d14"
+      }
+    },
+    "03-s018": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovni stvarni pregled: izdvojeni original, sačuvani prethodni prikaz, novi slajd u punoj veličini i sve A4 beleške istog ID-ja. Vidljivi su cela kompaktna šema, princip prioriteta i poređenje proširivosti. Dopunske jednačine A1/A0/GS i tumačenje svih prioriteta jasno su odvojeni u beleškama. Provereni su svi priključci, polariteti i indeksi; vodovi ne prelaze preko tela kola, stvarna grananja imaju tačke, ukrštanja bez veze nemaju tačke.",
+      "evidence": {
+        "source_render_sha256": "5072dca768fd21ac71c14fc8a5900ef0116bbb559b4e585c5b4cbe5ee91bf87d",
+        "baseline_render_sha256": "8ff255700fc0d4dfe5f122519dde5933c9234847d21428c6c5a6a9d9a948ebfa",
+        "new_render_sha256": "097c82f790702c939d14d05bd32af81d0c28efed3f7a911ad88b4df3af7fedca",
+        "notes_render_sha256": "0ea6b679f836debf15246d03999c855259c111678e19557a479f972503a0dbd5",
+        "slide_sources_sha256": "b436b219f1054f8cb0be56b9c710600fb708635832ff3ec96ffaa0a9276873ce",
+        "notes_sources_sha256": "e6431a08271e85377501d3819710eb6c91b592c46793c5dd50dc20ba6c0212b9",
+        "shared_sha256": "75637095f0f3dcef7fad8fd00c609cea5fc4f8ac7bc5295053b4869e8c6f8441",
+        "mapping_sha256": "3e5a8ffb12d45b4777211d7ed9c142e9383d48a6d1fbe9e851ad1087abae57e8",
+        "coverage_sha256": "ec911feab0c613f75c927ad59d1c70230344afcb83fff59da25b932295f787f8"
+      }
+    },
+    "03-s019": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovni stvarni pregled: izdvojeni original, sačuvani prethodni prikaz, novi slajd u punoj veličini i sve A4 beleške istog ID-ja. Svih 16 ulaza, lokalni kodovi, GS i završni koder ostaju vidljivi. Upozorenje protiv kratkog spoja i potreba za izborom nižih bitova ostaju na slajdu; detaljno obrazloženje je u beleškama. Provereni su svi priključci, polariteti i indeksi; vodovi ne prelaze preko tela kola, stvarna grananja imaju tačke, ukrštanja bez veze nemaju tačke.",
+      "evidence": {
+        "source_render_sha256": "a3b61f10f34e64aaf1a71f03858f61277771a3f2c3f7066bfeca17af4bcbf54a",
+        "baseline_render_sha256": "395c0b7f1cf89d51fce2a209c7e5d4462ad635183bfe31803b5b25b773bd8e25",
+        "new_render_sha256": "3a1ff67d503da34a4ce44e0138be8c1323b13ceac793d7056ad05587b131bfac",
+        "notes_render_sha256": "68217df8839a00d6b49e94205b7779e56dd7689b15ea7b223abb86cf1d91760b",
+        "slide_sources_sha256": "4772e7f5a1e40e9c2ab7ae9c29fd0288aad185e08881eef8d35c2028091808f2",
+        "notes_sources_sha256": "323ba98e506c334c49c0b32b55b4690bebaf67b113c04a076e2c9985d0260da9",
+        "shared_sha256": "75637095f0f3dcef7fad8fd00c609cea5fc4f8ac7bc5295053b4869e8c6f8441",
+        "mapping_sha256": "d6890637019cc5f83dd3a583fdc86418dce176b3f459ee56400be42a51e8053d",
+        "coverage_sha256": "da9a766b90abb8febdc8104aba77933cfabb9abc3091ab8856e2c5e67ce614b1"
+      }
+    },
+    "03-s020": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovni stvarni pregled: izdvojeni original, sačuvani prethodni prikaz, novi slajd u punoj veličini i sve A4 beleške istog ID-ja. Cela uslovljena šema i uloge EI/EO i invertovanog GS ostaju vidljive. Tri slučaja prenosa dozvole i izvorna mogućnost neuslovljenog GS razrađeni su u beleškama. Provereni su svi priključci, polariteti i indeksi; vodovi ne prelaze preko tela kola, stvarna grananja imaju tačke, ukrštanja bez veze nemaju tačke.",
+      "evidence": {
+        "source_render_sha256": "892e2c789ceae61c72f7a9e8a2273b4caa98d123383d4ffd855215a144cbc19f",
+        "baseline_render_sha256": "7a353a57ff81b8be747f642b79132bf1579792256cd58467f1885fad0a16bad1",
+        "new_render_sha256": "f89ebacb8336c85b8813ea1ffe14d5d352b7f7ccb5f5ce867232b771db1c5572",
+        "notes_render_sha256": "4d71106badc049992fb1d72a601610816db05225a28f73ebffe909fd241e75d4",
+        "slide_sources_sha256": "e3e1d4236b9bb368c4c6216a4cb46d80b034dcb3b9baf4a0b3f77513b905539b",
+        "notes_sources_sha256": "048748b7b011b8cdd4640323af4aee6344b30b26019cc3b49383045e1622df2c",
+        "shared_sha256": "75637095f0f3dcef7fad8fd00c609cea5fc4f8ac7bc5295053b4869e8c6f8441",
+        "mapping_sha256": "729f50488a1593adba98f8535bc4dadff29cd464304bec28707ec5b0fd5c1c4f",
+        "coverage_sha256": "bca547b59d68edcd188919b46526fc9fa8b6a867b56aade6b0321ad558303db0"
+      }
+    },
+    "03-s021": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex",
+      "notes": "Ponovni stvarni pregled: izdvojeni original, sačuvani prethodni prikaz, novi slajd u punoj veličini i sve A4 beleške istog ID-ja. Vidljivi su svih 16 ulaza, EI/EO lanac, sve veze, završni koder i oba ILI kola, alternativa visoke impedanse i konvencija simbola. Beleške razrađuju uslove logičkog objedinjavanja i direktnog spajanja. Provereni su svi priključci, polariteti i indeksi; vodovi ne prelaze preko tela kola, stvarna grananja imaju tačke, ukrštanja bez veze nemaju tačke.",
+      "evidence": {
+        "source_render_sha256": "45db8a3920192d7ffeb43f2a66442f4909c277bfbd0862cff5b6edaff30da3ea",
+        "baseline_render_sha256": "cdbe7bcc430fece3186436fd0ecb1a5b945734a69c271dec93c5420f51eb7217",
+        "new_render_sha256": "b7042b0d41d4674a15d6d313c6cd98498c9cd649ed4cbadec2a2c50ce17cab3e",
+        "notes_render_sha256": "26322db4abe7e17311e3af1729784c1d066edcfc06cd4378b7ec80508fa5d5c0",
+        "slide_sources_sha256": "6ff34616876759b24f4410fb27d721f2ac88e8d663f3536b0d3ec23ed24e285b",
+        "notes_sources_sha256": "e96243c7aa14124c388adf8cafceadebcc9507690faeb3f3dad7ee504a835766",
+        "shared_sha256": "75637095f0f3dcef7fad8fd00c609cea5fc4f8ac7bc5295053b4869e8c6f8441",
+        "mapping_sha256": "06dafb14b31f2286ce088b3310da6b85ed6f0c2d2b46ba18c5b4b7288b99c779",
+        "coverage_sha256": "152a185253e1508641782edc8189fb076487935dff9189d4bc6706ba06adb054"
+      }
+    }
+  }
+}

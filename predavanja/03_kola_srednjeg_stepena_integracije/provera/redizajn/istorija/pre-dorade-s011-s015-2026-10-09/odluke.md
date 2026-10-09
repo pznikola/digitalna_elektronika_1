@@ -1,0 +1,52 @@
+# Odluke
+
+Datum evidentiranja: 2026-10-01T10:00:37.756128+00:00
+
+Korisnikova poruka o početku:
+
+> ako je 02 zavrseno kreni na 03
+
+Uslov je ispunjen: završni izveštaj 02 potvrđuje 54/54 slajda i 152/152 sadržajna elementa, a ponovljena komanda `make -C predavanja LECTURE=02_sinteza_kombinacionih_mreza check` dala je `PROVERENO`. Poruka odobrava početak 03; rezultat 02 nije zasebno prihvaćen.
+
+Odobrenje rezultata: nema. Prelazak na sledeće: nije odobren.
+
+Otvoreno pitanje zatraženo od korisnika tokom obrade 03 (nije odobrenje):
+
+> Na slajdu 03-s004 original tvrdi da dva dvoulazna NI kola mogu zameniti jedno troulazno NI kolo, ali prikazana jednačina važi za I kola, a ta NI kaskada nije ekvivalentna. Da li da ispravim tvrdnju i prikažem ispravnu realizaciju (uz dodatnu inverziju), ili da zadržim izvorni zapis i jasno označim grešku u beleškama?
+
+Korisnikova kasnija stručna odluka:
+
+> na slajdu s004 umesto NI kola stavi I kola. To ima vise smisla jer onda zaista 2 I kola menjaju jedno troulazno I kolo. Takodje, zamolio bih te da ne ostavljas komentare u prezentacijama. Prezentacije treba da sadrze samo ono sto PDF-ovi sadrze kao sto to pise u PLAN_PREDAVANJA.md
+
+Odluka je primenjena: na s004 stoje I kola i jednakost za kaskadu I kola; izvorna NI tvrdnja dokumentovana je u beleškama. Urednički komentari uklonjeni su iz projektovanih slajdova. Ovo nije odobrenje završene prezentacije niti prelaska na 04.
+
+## Ponovni pregled i dorada — 2026-10-02
+
+> Procitaj PLAN_PREDAVANJA.md i prodji kroz generisanu 03 prezentaciju i kroz originalno 03 predavanje.  Po uzoru na 01 prezentaciju sredi i 03
+
+Poruka odobrava ponovni pregled i doradu 03. Ranija ispravka I kola na s004 ostaje važeća. Ovo nije odobrenje rezultata 03 niti početka 04.
+
+## Dorada beležaka prema novom planu — 2026-10-02
+
+> procitaj PLAN_PREDAVANJA.md.  tvoj posao je da procitas PLAN, procitas slajdove 03, procitas originalna predavanja 03 i da napises beleske po planu
+
+Nalog odobrava čitanje originala i slajdova 03 i prepravku beležaka prema novom koraku 6. Ne odobrava novi rezultat niti doradu drugih predavanja. Odobrena I realizacija na s004 ostaje neizmenjena. Urednička istorija više nije deo PDF-a beležaka; raniji navod u ovom dokumentu o njenom smeštanju u beleške opisuje prethodnu verziju. Izvorni tačan NI invertorski slučaj ostaje kao nastavno objašnjenje, a poreklo ispravke u ovoj evidenciji i arhiviranom izveštaju.
+
+## Odobrena terminološka zamena — 2026-10-09
+
+Korisnikova stvarna poruka nakon liste tri pojavljivanja:
+
+> zameni sve
+
+Korisnik je zatim izričito zatražio primenu plana „Zamena termina „kapija“ u slajdovima“. Za 03 odobrene su samo zamene „logičkih kapija“ → „logičkih gejtova“ u uvodu i „Broj kapija“ → „Broj gejtova“ u zaglavlju tabele na 03-s002. Ovo je dozvola za te terminološke izmene i obnovu pogođenih potvrda; ne predstavlja prihvatanje cele prezentacije 03 ili novih beležaka.
+
+## Dorada s004/s007–s010 i odobrena podela — 2026-10-09
+
+> za predavanje 03:
+> s004: priblizi sadrzaj teksta generisanog slajda originalnom slajdu. naravno preformulisi i ulepsaj.
+> s007: priblizi tekstualni sadrzaj originalu.
+> s008: priblizi tekstualni sadrzaj originalu
+> s009: sredi dijagram dekoder 4/6. Priblizi tekstualni sadrzaj originalu ali tako da sve i dalje moze da stane na jedan slajd.
+> s10: Originalni slajd je potrebno podeliti na 2 slajda s obzirom da ima dosta teksta. Podeliti originalni slajd na 2 smislene celine. Srediti dijagram tako da se poklapa logicki sa originalnim dijagramom
+
+Odobrena je navedena dorada i podela isključivo 03-s010 na s010/s010b. Originalni dekoder s009 je 4/16 (četiri adresna ulaza, 16 izlaza); zapis „4/6“ u poruci tumači se prema prikazanom originalu. Sačuvana je ranija stručna odluka o I kolima na s004. Nalog nije prihvatanje završene prezentacije niti odobrenje drugih podela.

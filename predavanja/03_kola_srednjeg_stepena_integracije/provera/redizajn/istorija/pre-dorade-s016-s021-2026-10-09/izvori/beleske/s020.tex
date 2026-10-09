@@ -1,0 +1,24 @@
+\BeleskeID{03-s020}
+% element: 03-s020:e01
+% element: 03-s020:e02
+% element: 03-s020:e03
+% element: 03-s020:e04
+% element: 03-s020:d01
+
+Označimo lokalno prisustvo zahteva sa \(H=I_3+I_2+I_1+I_0\). U prikazanoj realizaciji dozvola EI uslovljava adresne bitove i GS, pa važi
+\[
+ GS=EI\,H,\qquad
+ EO=EI\,\overline{GS}=EI\,\overline H.
+\]
+Druga jednakost za EO sledi razmatranjem EI: kada je nula, EO je nula nezavisno od H; kada je jedinica, GS je jednak H.
+
+Postoje tri slučaja koja objašnjavaju prenos dozvole ka nižem prioritetu:
+\begin{itemize}
+\item Ako je \(EI=1,H=0\), koder sme da radi, ali nema šta da koduje; \(EO=1\) dozvoljava rad sledećem.
+\item Ako je \(EI=1,H=1\), koder obrađuje lokalni zahtev; \(EO=0\) sprečava niže kodere da doprinesu rezultatu.
+\item Ako je \(EI=0\), koder je izgubio dozvolu zbog višeg prioriteta; i njegov EO mora biti nula, bez obzira na lokalne ulaze.
+\end{itemize}
+
+Invertovani uslovljeni GS sam ne prenosi poslednji slučaj: za \(EI=0\) je \(GS=0\), pa bi \(\overline{GS}=1\) pogrešno ponovo dozvolio niži koder. Informacija o zabrani mora prolaziti od višeg ka nižem prioritetu i kroz komponente koje same nemaju zahtev.
+
+Moguće je i da GS ne bude uslovljen EI, nego da označava samo H. To ne smeta izboru grupe na drugom nivou kodera prioriteta, koji sam bira najveći indeks među aktivnim grupama. Međutim, ni takav \(\overline{GS}\) nije dovoljan za EO: grupa bez lokalnog zahteva mogla je već izgubiti dozvolu zbog zahteva u višoj grupi. I tada je za prenos dozvole potreban uslov \(EI\,\overline H\).

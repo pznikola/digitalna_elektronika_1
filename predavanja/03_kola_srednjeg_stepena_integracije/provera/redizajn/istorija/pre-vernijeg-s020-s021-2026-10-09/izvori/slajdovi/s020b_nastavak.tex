@@ -1,0 +1,31 @@
+% Original: PDF strana 10, donji slajd; drugi deo.
+\slajdid{03-s020b}
+\begin{frame}[t,label=03-s020b]{Prenos dozvole signalom EO}
+\setlength{\parskip}{0pt}
+% element: 03-s020b:e03
+Izlaz \textcolor{DEisticanje}{\textbf{EO}} (\emph{enable output})
+dozvoljava kodovanje nižem koderu samo ako tekući koder sme da radi,
+ali nema aktivan ulaz.
+\par\vspace{2mm}
+\begin{columns}[c,onlytextwidth]
+\begin{column}{.56\textwidth}
+% element: 03-s020b:e04
+\textcolor{DEisticanje}{\textbf{Invertovani GS nije zamena za EO.}}
+\par\vspace{1.5mm}
+Za \(EI=0\) uslovljeni GS je nula. Njegova inverzija pogrešno bi
+ponovo dozvolila rad nižem koderu.
+\par\vspace{1.5mm}
+Zabrana mora da se prenosi \textbf{od višeg ka nižem prioritetu},
+bez obzira na lokalne zahteve.
+\end{column}
+\begin{column}{.40\textwidth}\centering
+\input{slike/tikz/s020b_eo.tex}
+\par\vspace{1mm}
+% element: 03-s020b:d02
+\(EO=EI\cdot\overline{GS}\)
+\end{column}
+\end{columns}
+\par\vspace{2mm}
+Ni \textbf{neuslovljeni GS} nije dovoljan: to što grupa nema zahtev ne znači
+da joj neki viši koder nije već zabranio rad. EO mora čuvati i tu informaciju.
+\end{frame}

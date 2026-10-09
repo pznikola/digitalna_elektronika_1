@@ -1,0 +1,36 @@
+% Prva dva CS prikaza su ekvivalentna; treći sadrži i negiran CS1.
+\begin{tikzpicture}[x=1mm,y=1mm,font=\fontsize{9}{11}\selectfont]
+\foreach \k/\x in {0/0,1/42,2/84}{
+ \begin{scope}[shift={(\x,0)}]
+ \draw[DEvod] (0,0) rectangle (24,21.5);
+ \node at (12,18.8) {Dekoder};\node at (12,15.3) {2/4};
+ \foreach \n/\y in {3/11.3,2/8.0,1/4.7,0/1.4}{
+  \node[anchor=east,inner sep=1pt] at (24,\y) {Y\n};
+  \draw[DEvod] (24,\y)--(27.5,\y);
+ }
+ \draw[DEvod] (-3,4)--(0,4);
+ \ifnum\k=2
+  \node[anchor=west,inner sep=1pt] at (0,4) {$\overline{\mathrm{CS1}}$};
+ \else
+  \node[anchor=west,inner sep=1pt] at (0,4) {CS1};
+ \fi
+ \ifnum\k=0
+  \node[anchor=west,inner sep=1pt] at (0,8) {$\overline{\mathrm{CS2}}$};
+  \draw[DEvod] (-3,8)--(0,8);
+ \else
+  \draw[DEvod,fill=white] (-.7,8) circle(.7);
+  \draw[DEvod] (-3,8)--(-1.4,8);
+  \ifnum\k=1
+   \node[anchor=west,inner sep=1pt] at (0,8) {CS2};
+  \else
+   \node[anchor=west,inner sep=1pt] at (0,8) {$\overline{\mathrm{CS2}}$};
+  \fi
+ \fi
+ \foreach \n/\xx in {1/7,0/14}{
+  \node[anchor=south,inner sep=1pt] at (\xx,0) {S\n};
+  \draw[DEvod] (\xx,0)--(\xx,-2.7);
+ }
+ \end{scope}
+}
+\node at (35,10) {$=$};\node[text=DEisticanje] at (77,10) {$\ne$};
+\end{tikzpicture}

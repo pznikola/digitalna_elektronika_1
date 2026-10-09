@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "phase": "redizajn",
+  "lecture": "03",
+  "selected_style": "B",
+  "theme": "etf-v1",
+  "theme_manifest_sha256": "87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41",
+  "source_sha256": "5e68d267ca2f60c1ccdf073c2579fd64a4b05278955cc3d3f920cc54e123fd86",
+  "slide_ids": [
+    "03-s001",
+    "03-s002",
+    "03-s003",
+    "03-s004",
+    "03-s005",
+    "03-s006",
+    "03-s007",
+    "03-s008",
+    "03-s009",
+    "03-s010",
+    "03-s010b",
+    "03-s011",
+    "03-s012",
+    "03-s013",
+    "03-s014",
+    "03-s015",
+    "03-s016",
+    "03-s017",
+    "03-s018",
+    "03-s019",
+    "03-s020",
+    "03-s020b",
+    "03-s021",
+    "03-s021b"
+  ],
+  "baseline_sha256": "75b21203ec977d007f7c419acfa603c25077cf182127d63caeae61f4ca074183",
+  "created": "2026-10-01T10:00:37.755655+00:00",
+  "build_record": "provera/redizajn/izgradnja.json",
+  "notes": {
+    "03-s001": {
+      "path": "beleske/s001.tex",
+      "title": "Kola srednjeg stepena integracije"
+    },
+    "03-s002": {
+      "path": "beleske/s002.tex",
+      "title": "Stepeni integracije"
+    },
+    "03-s003": {
+      "path": "beleske/s003.tex",
+      "title": "Pakovanja i priključci integrisanih kola"
+    },
+    "03-s004": {
+      "path": "beleske/s004.tex",
+      "title": "Izbor kola i neiskorišćeni ulazi"
+    },
+    "03-s005": {
+      "path": "beleske/s005.tex",
+      "title": "Potpuni binarni dekoder 2/4"
+    },
+    "03-s006": {
+      "path": "beleske/s006.tex",
+      "title": "Primer funkcije sa dekoderom"
+    },
+    "03-s007": {
+      "path": "beleske/s007.tex",
+      "title": "Simbol dekodera i oznake signala"
+    },
+    "03-s008": {
+      "path": "beleske/s008.tex",
+      "title": "Izbor komponente signalom CS"
+    },
+    "03-s009": {
+      "path": "beleske/s009.tex",
+      "title": "Piramidalna struktura dekodera"
+    },
+    "03-s010": {
+      "path": "beleske/s010.tex",
+      "title": "Matrična struktura: povezivanje dekodera"
+    },
+    "03-s010b": {
+      "path": "beleske/s010b.tex",
+      "title": "Matrična i piramidalna struktura: poređenje"
+    },
+    "03-s011": {
+      "path": "beleske/s011.tex",
+      "title": "Aktivni nivoi i negacije"
+    },
+    "03-s012": {
+      "path": "beleske/s012.tex",
+      "title": "Demultipleksor 1/4"
+    },
+    "03-s013": {
+      "path": "beleske/s013.tex",
+      "title": "Multiplekser 4/1"
+    },
+    "03-s014": {
+      "path": "beleske/s014.tex",
+      "title": "Realizacija funkcije multiplekserom"
+    },
+    "03-s015": {
+      "path": "beleske/s015.tex",
+      "title": "Izbor i proširenje multipleksera"
+    },
+    "03-s016": {
+      "path": "beleske/s016.tex",
+      "title": "Koder prioriteta: potreba za signalom GS"
+    },
+    "03-s017": {
+      "path": "beleske/s017.tex",
+      "title": "Koder prioriteta sa izlazom GS"
+    },
+    "03-s018": {
+      "path": "beleske/s018.tex",
+      "title": "Kompaktnija realizacija kodera prioriteta"
+    },
+    "03-s019": {
+      "path": "beleske/s019.tex",
+      "title": "Koder prioriteta sa 16 ulaza"
+    },
+    "03-s020": {
+      "path": "beleske/s020.tex",
+      "title": "Ulaz EI i izlaz EO kodera prioriteta"
+    },
+    "03-s020b": {
+      "path": "beleske/s020b.tex",
+      "title": "Prenos dozvole signalom EO"
+    },
+    "03-s021": {
+      "path": "beleske/s021.tex",
+      "title": "Lanac kodera prioriteta sa 16 ulaza"
+    },
+    "03-s021b": {
+      "path": "beleske/s021b.tex",
+      "title": "Crtanje simbola kola srednjeg stepena integracije"
+    }
+  },
+  "approved_splits": {
+    "approval_path": "provera/redizajn/odobrenje_podela.json",
+    "approval_sha256": "8dd8718fd9e5358d432dbea86c837b2b9f5d06946e447b9570afa7669ad923bb",
+    "continuations": {
+      "03-s010": "slajdovi/s010b_nastavak.tex",
+      "03-s020": "slajdovi/s020b_nastavak.tex",
+      "03-s021": "slajdovi/s021b_nastavak.tex"
+    }
+  }
+}

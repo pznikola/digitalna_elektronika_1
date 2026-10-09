@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-09",
+  "scope": [
+    "03-s019"
+  ],
+  "changed_resource": "slike/tikz/s019_koder_16_ulaza.tex",
+  "change": "GS putanje grupa 1 i 0 koriste x=32 i x=34 umesto x=34 i x=32; odredišta I1/I0 su nepromenjena. Sve četiri veze sada su odvojene i nemaju ukrštanja.",
+  "projection_pages": 24,
+  "notes_pages": 24,
+  "actual_review": "Novi projekcioni slajd i cela A4 strana sa beleškama pregledani su pojedinačno; sadržaj beležaka nije menjan.",
+  "viewed_render_sha256": {
+    "novi": "9d8b7ec5574afc219232df974aa66a65dd4d2b93fb2fa1b2ad2bf813daada0f3",
+    "beleske": "53e366e4fa8846048506ff6d8a34c627f9bdf1dc0f875b54d9b33172c169de3a"
+  },
+  "unchanged_slides": {
+    "03-s001": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s002": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s003": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s004": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s005": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s006": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s007": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s008": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s009": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s010": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s010b": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s011": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s012": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s013": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s014": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s015": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s016": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s017": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s018": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s020": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s020b": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s021": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    },
+    "03-s021b": {
+      "all_evidence_unchanged": true,
+      "novi_pixels_equal": true,
+      "beleske_pixels_equal": true
+    }
+  },
+  "compared_with": "build/redizajn/pre-razdvajanja-gs-s019-2026-10-09/pregled",
+  "original_and_theme_unchanged": true
+}

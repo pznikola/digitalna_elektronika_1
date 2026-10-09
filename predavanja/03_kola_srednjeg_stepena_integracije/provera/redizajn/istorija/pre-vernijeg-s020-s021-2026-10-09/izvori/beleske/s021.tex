@@ -1,0 +1,10 @@
+\BeleskeID{03-s021}
+% element: 03-s021:e01
+% element: 03-s021:e02
+% element: 03-s021:d01
+
+Najviša grupa dobija \(EI=1\). Svaka sledeća preuzima EI sa EO prethodne grupe, pa dozvola prolazi samo kroz grupe bez zahteva. Grupa sa najvišim aktivnim ulazom zadržava dozvolu, koduje lokalni indeks i svojim EO zaustavlja sve niže grupe. Njihovi adresni bitovi tada su nula, pa dve četvoroulazne ILI grane propuštaju niže bitove samo pobedničke grupe.
+
+Na primer, za aktivne \(I_{10},I_5,I_1\), grupa 3 nema zahtev i propušta dozvolu grupi 2. U grupi 2 pobednik je lokalni ulaz 2, pa su niži bitovi 10. Dozvola za grupe 1 i 0 je nula; drugi nivo iz GS signala koduje grupu 2 kao 10. Ukupni kod je 1010, odnosno indeks 10. Ako nema zahteva, svi adresni bitovi i GS su nula, a dozvola prolazi kroz ceo lanac.
+
+Oznake A1 i A0 unutar kodera drugog nivoa predstavljaju njegove lokalne izlaze. U kompletnoj mreži ti isti vodovi nose globalne bitove A3 i A2. Niže globalne bitove A1 i A0 daju ILI gejtovi. Izlaz EO drugog nivoa i EO poslednje grupe nisu potrebni za formiranje četvorobitne adrese u ovoj mreži.

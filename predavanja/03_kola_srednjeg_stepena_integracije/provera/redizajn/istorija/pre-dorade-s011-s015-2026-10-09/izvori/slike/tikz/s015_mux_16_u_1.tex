@@ -1,0 +1,41 @@
+% Svih 16 ulaza, četiri osnovna MUX-a i stvarni zajednički selekcioni vodovi.
+\begin{tikzpicture}[x=.90mm,y=.88mm,font=\fontsize{9}{11}\selectfont]
+\foreach \g/\yb/\fy in {3/41.5/31,2/27.5/28,1/13.5/25,0/-.5/22}{
+ \begin{scope}[shift={(0,\yb)}]
+ \draw[DEvod] (9,0) rectangle (27,12);
+ \node[align=center] at (20,7.4) {MUX\\4/1};
+ \foreach \n/\y in {3/9.9,2/7.2,1/4.5,0/1.8}{
+  \pgfmathtruncatemacro{\ii}{4*\g+\n}
+  \node[anchor=west,inner sep=.6pt] at (9,\y) {I\n};
+  \draw[DEvod] (6.5,\y)--(9,\y);
+  \node[anchor=east,inner sep=.6pt] at (6,\y) {I\ii};
+ }
+ \node[anchor=east,inner sep=1pt] at (27,5.5) {Z};
+ \draw[DEvod] (27,5.5)--(28,5.5);
+ \coordinate (z\g) at (28,5.5);
+ \foreach \n/\x in {1/15,0/22}{
+  \node[anchor=south,inner sep=.6pt] at (\x,0) {S\n};
+  \draw[DEvod] (\x,0)--(\x,{-1.0-.7*(1-\n)})--({29+2*(1-\n)},{-1.0-.7*(1-\n)});
+ }
+ \end{scope}
+ \draw[DEvod] (z\g)--({34+\g},0 |- z\g)|-(43,\fy);
+}
+\draw[DEvod] (29,40.5)--(29,-4);
+\draw[DEvod] (31,39.8)--(31,-4);
+\foreach \g/\yb in {2/27.5,1/13.5,0/-.5}{
+ \node[junction] at (29,\yb-1) {};
+ \node[junction] at (31,\yb-1.7) {};
+}
+\node[anchor=north east,inner sep=1pt] at (29,-4) {S1};
+\node[anchor=north west,inner sep=1pt] at (31,-4) {S0};
+\draw[DEvod] (43,19) rectangle (61,36);
+\node[align=center] at (53,31.8) {MUX\\4/1};
+\foreach \n/\y in {3/31,2/28,1/25,0/22}
+ \node[anchor=west,inner sep=1pt] at (43,\y) {I\n};
+\foreach \lab/\xx/\ext in {S1/49/S3,S0/56/S2}{
+ \node[anchor=south,inner sep=1pt] at (\xx,19) {\lab};
+ \draw[DEvod] (\xx,19)--(\xx,16) node[below,inner sep=1pt] {\ext};
+}
+\node[anchor=east,inner sep=1pt] at (61,26.5) {Z};
+\draw[DEvod] (61,26.5)--(63.5,26.5) node[right,inner sep=1pt] {Z};
+\end{tikzpicture}

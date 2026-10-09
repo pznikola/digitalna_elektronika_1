@@ -1,0 +1,255 @@
+{
+  "date": "2026-10-09",
+  "lecture": "03",
+  "user_message": "zameni sve",
+  "reviewed_slide_ids": [
+    "03-s002"
+  ],
+  "replacements": {
+    "logičkih kapija": "logičkih gejtova",
+    "Broj kapija": "Broj gejtova"
+  },
+  "unchanged_slide_comparisons": [
+    {
+      "id": "03-s001",
+      "slide_pixel_equal": true,
+      "notes_pixel_equal": true,
+      "sources_mapping_coverage_equal": true
+    },
+    {
+      "id": "03-s003",
+      "slide_pixel_equal": true,
+      "notes_pixel_equal": true,
+      "sources_mapping_coverage_equal": true
+    },
+    {
+      "id": "03-s004",
+      "slide_pixel_equal": true,
+      "notes_pixel_equal": true,
+      "sources_mapping_coverage_equal": true
+    },
+    {
+      "id": "03-s005",
+      "slide_pixel_equal": true,
+      "notes_pixel_equal": true,
+      "sources_mapping_coverage_equal": true
+    },
+    {
+      "id": "03-s006",
+      "slide_pixel_equal": true,
+      "notes_pixel_equal": true,
+      "sources_mapping_coverage_equal": true
+    },
+    {
+      "id": "03-s007",
+      "slide_pixel_equal": true,
+      "notes_pixel_equal": true,
+      "sources_mapping_coverage_equal": true
+    },
+    {
+      "id": "03-s008",
+      "slide_pixel_equal": true,
+      "notes_pixel_equal": true,
+      "sources_mapping_coverage_equal": true
+    },
+    {
+      "id": "03-s009",
+      "slide_pixel_equal": true,
+      "notes_pixel_equal": true,
+      "sources_mapping_coverage_equal": true
+    },
+    {
+      "id": "03-s010",
+      "slide_pixel_equal": true,
+      "notes_pixel_equal": true,
+      "sources_mapping_coverage_equal": true
+    },
+    {
+      "id": "03-s011",
+      "slide_pixel_equal": true,
+      "notes_pixel_equal": true,
+      "sources_mapping_coverage_equal": true
+    },
+    {
+      "id": "03-s012",
+      "slide_pixel_equal": true,
+      "notes_pixel_equal": true,
+      "sources_mapping_coverage_equal": true
+    },
+    {
+      "id": "03-s013",
+      "slide_pixel_equal": true,
+      "notes_pixel_equal": true,
+      "sources_mapping_coverage_equal": true
+    },
+    {
+      "id": "03-s014",
+      "slide_pixel_equal": true,
+      "notes_pixel_equal": true,
+      "sources_mapping_coverage_equal": true
+    },
+    {
+      "id": "03-s015",
+      "slide_pixel_equal": true,
+      "notes_pixel_equal": true,
+      "sources_mapping_coverage_equal": true
+    },
+    {
+      "id": "03-s016",
+      "slide_pixel_equal": true,
+      "notes_pixel_equal": true,
+      "sources_mapping_coverage_equal": true
+    },
+    {
+      "id": "03-s017",
+      "slide_pixel_equal": true,
+      "notes_pixel_equal": true,
+      "sources_mapping_coverage_equal": true
+    },
+    {
+      "id": "03-s018",
+      "slide_pixel_equal": true,
+      "notes_pixel_equal": true,
+      "sources_mapping_coverage_equal": true
+    },
+    {
+      "id": "03-s019",
+      "slide_pixel_equal": true,
+      "notes_pixel_equal": true,
+      "sources_mapping_coverage_equal": true
+    },
+    {
+      "id": "03-s020",
+      "slide_pixel_equal": true,
+      "notes_pixel_equal": true,
+      "sources_mapping_coverage_equal": true
+    },
+    {
+      "id": "03-s021",
+      "slide_pixel_equal": true,
+      "notes_pixel_equal": true,
+      "sources_mapping_coverage_equal": true
+    }
+  ],
+  "input_changes": {
+    "03_kola_srednjeg_stepena_integracije": {
+      "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/03_kola_srednjeg_stepena_integracije/slajdovi/s002_stepeni_integracije.tex": {
+        "before": "0f77dd459e7ed4b203fc19ecd789a9342ac965d437091c68006bf981a73c63e3",
+        "after": "382311b64b5e47fbef36eddf9d230b2e68d8140ae95f10520c8e44530a99b201"
+      },
+      "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/_alati/redizajn.py": {
+        "before": "731db34942064b9bf04a1f3963baeaeca183a7d0c02c4723b817e15e93c020e8",
+        "after": "0771a2304d89a958b7907200119eedf4e3b2ceaa96ccdcfe26d7892135b7d633"
+      }
+    },
+    "03_kola_srednjeg_stepena_integracije_beleske": {
+      "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/03_kola_srednjeg_stepena_integracije/build/03_kola_srednjeg_stepena_integracije.pdf": {
+        "before": "4bcf5f421b2d32586028a3683d572bbf8077ca9ac088927a3e76180722cec9b9",
+        "after": "ceaae78a96629972b8b61b2e10fc1c51ba989722e206ab81f153c43595d599c6"
+      },
+      "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/_alati/redizajn.py": {
+        "before": "731db34942064b9bf04a1f3963baeaeca183a7d0c02c4723b817e15e93c020e8",
+        "after": "0771a2304d89a958b7907200119eedf4e3b2ceaa96ccdcfe26d7892135b7d633"
+      }
+    }
+  },
+  "shared_dependency_explanation": "Raniji zapisi izgradnje sadrže stariji otisak redizajn.py. Aktuelna izgradnja koristi postojeći alat; alat i tema nisu menjani ovim zadatkom. Potvrde neizmenjenih slajdova prenete su tek nakon provere identičnih izvora, pokrivenosti i pikselno istih projekcionih/A4 prikaza.",
+  "changed_teaching_sources": [
+    "slajdovi/s002_stepeni_integracije.tex"
+  ],
+  "original_unchanged": true,
+  "manifest_and_ids_unchanged": true,
+  "unchanged_count": 20,
+  "changed_slide_review": "Pregledan novi projekcioni 03-s002 i cela pripadajuća A4 strana uz prethodni prikaz i original. U uvodu stoji „logičkih gejtova“, a u zaglavlju tabele „Broj gejtova“. Sve vrednosti i stavke klasifikacije očuvane; tekst i tabela čitljivi bez preklapanja/odsecanja, tekst beležaka očuvan.",
+  "checks": {
+    "notes": {
+      "exit_code": 0,
+      "log": "../../build/redizajn/zamena-terminologije-2026-10-09/notes.log"
+    },
+    "review": {
+      "exit_code": 0,
+      "log": "../../build/redizajn/zamena-terminologije-2026-10-09/review.log"
+    },
+    "check": {
+      "exit_code": 0,
+      "result": "PROVERENO",
+      "log": "../../build/redizajn/zamena-terminologije-2026-10-09/check.log"
+    },
+    "presentation_pages": 21,
+    "notes_pages": 21,
+    "slide_and_notes_ids_and_order_verified": true,
+    "visible_kapija_occurrences": 0,
+    "final_pdf_replacements_verified": true,
+    "latex_warnings": []
+  },
+  "final_artifacts": {
+    "provera/redizajn/manifest.json": "043cfd60fc37b3776983018ddca3b715e03d99d8c679ea1e8de9df4306469213",
+    "provera/redizajn/izgradnja.json": "aee5fbaa05e12b1ba2ecdc312845e693f429c0a16c544c5a36dcab5c212e8e05",
+    "provera/redizajn/pregled.json": "c106d9effa6ee56342e611aa00796ad4034058187c2a446d20431ae09e9def57",
+    "provera/redizajn/pokrivenost.json": "59eb8e6c8348633b7fc28a00a6138f57fee75b9764fa70165ec999d1e9ca8791",
+    "build/03_kola_srednjeg_stepena_integracije.pdf": "ceaae78a96629972b8b61b2e10fc1c51ba989722e206ab81f153c43595d599c6",
+    "build/03_kola_srednjeg_stepena_integracije_beleske.pdf": "289c7be8bf05068ac271e99fd8f400450c7731c5de83b656c300f37787a85221"
+  },
+  "all_presentations_search": [
+    {
+      "lecture": "01",
+      "slides": 37,
+      "visible_kapija_occurrences": 0
+    },
+    {
+      "lecture": "02",
+      "slides": 62,
+      "visible_kapija_occurrences": 0
+    },
+    {
+      "lecture": "03",
+      "slides": 21,
+      "visible_kapija_occurrences": 0
+    },
+    {
+      "lecture": "04",
+      "slides": 39,
+      "visible_kapija_occurrences": 0
+    },
+    {
+      "lecture": "05",
+      "slides": 55,
+      "visible_kapija_occurrences": 0
+    },
+    {
+      "lecture": "06",
+      "slides": 30,
+      "visible_kapija_occurrences": 0
+    },
+    {
+      "lecture": "07",
+      "slides": 31,
+      "visible_kapija_occurrences": 0
+    },
+    {
+      "lecture": "08",
+      "slides": 67,
+      "visible_kapija_occurrences": 0
+    },
+    {
+      "lecture": "09_1",
+      "slides": 57,
+      "visible_kapija_occurrences": 0
+    },
+    {
+      "lecture": "09_2",
+      "slides": 62,
+      "visible_kapija_occurrences": 0
+    },
+    {
+      "lecture": "09_3",
+      "slides": 71,
+      "visible_kapija_occurrences": 0
+    },
+    {
+      "lecture": "10",
+      "slides": 96,
+      "visible_kapija_occurrences": 0
+    }
+  ]
+}

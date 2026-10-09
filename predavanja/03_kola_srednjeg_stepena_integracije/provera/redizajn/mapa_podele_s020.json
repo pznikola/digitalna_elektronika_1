@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-09",
+  "approval": "provera/redizajn/odobrenje_podela.json",
+  "source": "03-s020",
+  "parts": [
+    "03-s020",
+    "03-s020b"
+  ],
+  "elements": {
+    "03-s020:e01": "03-s020:e01",
+    "03-s020:e02": "03-s020:e02",
+    "03-s020:e03": "03-s020:e03",
+    "03-s020:e04": "03-s020b:e04"
+  },
+  "existing_supplement_split": {
+    "03-s020:d01": [
+      "03-s020:d01",
+      "03-s020b:d02"
+    ]
+  },
+  "partition_revision": "2026-10-09: e03 vraćen u prvu celinu po nalogu za verniji prikaz izvornog teksta."
+}

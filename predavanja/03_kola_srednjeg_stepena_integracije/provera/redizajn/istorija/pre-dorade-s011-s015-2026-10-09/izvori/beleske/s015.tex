@@ -1,0 +1,12 @@
+\BeleskeID{03-s015}
+% element: 03-s015:e01
+% element: 03-s015:e02
+% element: 03-s015:e03
+% element: 03-s015:e04
+% element: 03-s015:d01
+
+U prikazanom uslovljenom MUX-u CS dozvoljava rad dekoderskog dela. Ako je \(Z_0\) izlaz neuslovljenog multipleksera, izlaz ove realizacije je \(Z=CS\,Z_0\). Kada je CS neaktivan, izlaz je logička nula, a ne visoka impedansa. Zato se izlazi takvih komponenti ne spajaju direktno samo na osnovu toga što je jedan CS aktivan.
+
+U stablu 16/1 četiri početna multipleksera istovremeno biraju po jedan podatak iz svoje grupe pomoću zajedničkih \(S_1,S_0\). Završni multiplekser pomoću \(S_3,S_2\) bira jednu od te četiri grupe. Ako su \(g=2S_3+S_2\) i \(k=2S_1+S_0\), njegov izlaz je \(Z=I_{4g+k}\). Na primer, adresa 1101 bira grupu 3 i lokalni ulaz 1, odnosno globalni \(I_{13}\).
+
+Za ovu realizaciju potrebno je pet multipleksera 4/1: četiri na prvom i jedan na drugom nivou. Lokalni nazivi I3--I0 ponavljaju se u svakom bloku, ali predstavljaju različite globalne podatke. Izlaz svakog početnog bloka dolazi na poseban ulaz završnog bloka; njihove izlazne žice se ne objedinjuju kratkim spojem.

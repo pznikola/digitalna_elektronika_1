@@ -1,0 +1,11 @@
+\BeleskeID{03-s016}
+% element: 03-s016:e01
+% element: 03-s016:e02
+% element: 03-s016:e03
+% element: 03-s016:d01
+
+Izlaz kodera predstavlja indeks jednog pobedničkog zahteva. Ne predstavlja broj aktivnih ulaza niti zbir njihovih indeksa. Ako su istovremeno aktivni \(I_3\) i \(I_1\), uz dogovor da veći indeks ima veći prioritet, kod je 11.
+
+Oznaka X u tabeli znači da ulaz može biti i nula i jedinica bez uticaja na izlaz u datom redu. To nije neodređen električni nivo. Kada je \(I_3=1\), sva tri niža ulaza mogu proizvoljno menjati vrednost, a kod ostaje 11; tek kada viši ulazi nisu aktivni, niži može odrediti kod.
+
+Izlazna adresa ima smisao indeksa aktivnog ulaza samo uz aktivan GS. Za \(A_1A_0=00,GS=1\) izabran je ulaz \(I_0\); za isti kod i \(GS=0\) nema zahteva. Nula na adresnim bitovima zato nije sama po sebi znak da komponenta nema šta da koduje.

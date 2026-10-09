@@ -1,0 +1,16 @@
+\BeleskeID{03-s009}
+% element: 03-s009:e01
+% element: 03-s009:d01
+Neka je \(g=2S_3+S_2\) indeks grupe koju bira prvi dekoder,
+a \(k=2S_1+S_0\) lokalni indeks koji biraju izlazni dekoderi.
+Aktivira se samo dekoder grupe \(g\), pa je globalni indeks \(4g+k\).
+Za \(S_3S_2S_1S_0=1011\) biraju se grupa 2 i njen lokalni izlaz 3, odnosno \(Y_{11}\).
+
+% element: 03-s009:e02
+Ako promenimo raspored selektora po nivoima, moramo dosledno promeniti i mapiranje globalnih indeksa.
+Raspored sa najmanjim težinama u izlaznom nivou omogućava neposredno čitanje binarne adrese.
+
+% element: 03-s009:e03
+Za šest adresnih bitova, po dva na svakom nivou, koriste se \(1+4+16\) dekodera 2/4.
+Put od najviših adresnih bitova do izlaza prolazi kroz tri komponente,
+pa ukupno kašnjenje zavisi od kašnjenja svih komponenti na toj putanji.

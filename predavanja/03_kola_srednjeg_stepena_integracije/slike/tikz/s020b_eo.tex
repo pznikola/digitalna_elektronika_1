@@ -1,0 +1,10 @@
+\begin{tikzpicture}[circuit logic US,x=1mm,y=1mm,font=\fontsize{9}{11}\selectfont,
+ inv/.style={not gate US,draw,minimum width=8mm,minimum height=7mm},
+ gejt/.style={and gate US,draw,logic gate inputs=nn,minimum width=10mm,minimum height=10mm}]
+\node[inv] (n) at (11,0) {};
+\node[gejt,anchor=input 2] (eo) at (27,0) {};
+\draw[DEvod] (n.input)--++(-5,0) node[left] {GS};
+\draw[DEvod] (n.output)--(eo.input 2);
+\draw[DEvod] (eo.input 1)--++(-5,0)--++(0,11) node[above] {EI};
+\draw[DEvod] (eo.output)--++(5,0) node[right] {EO};
+\end{tikzpicture}

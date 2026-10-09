@@ -32,7 +32,7 @@
       "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/slajdovi/s024_teoreme_6_9.tex": "338a6fb9d41368b3899585df24b6a1e516c9a20e0116ef2c7eed33632ab1cec7",
       "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/slajdovi/s025_troulazna_i_i_ili_kola.tex": "a87d4d52a19117d9160f2cbae401181eafb1e992bfa3a011445060adbaa22786",
       "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/slajdovi/s026_troulazno_ni_kolo.tex": "5bc4f63a43193c57bd93571b7fe9d3e63920b1269e39b0d43bd731314f87e9d7",
-      "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/slajdovi/s027_realizacije_troulaznog_ni_kola.tex": "c07b8aba6b218e0a30652683ffdaa870f88c338e2b72810b094c1547efeb5ae4",
+      "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/slajdovi/s027_realizacije_troulaznog_ni_kola.tex": "a3d8674f8ea75009f02d6d33b9803f8a17b079977adbb9669ffcea0620d5a63c",
       "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/slajdovi/s028_troulazno_exili_kolo.tex": "d09e3f7e70730698ff9b109daa33cd3b96374dc80846fe1a4452b4be70342040",
       "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/slajdovi/s029_troulazno_exnili_kolo.tex": "7751040c7b1719d50c751c914b6e317f5cd84e08005d2e06bab243a81f692c57",
       "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/slajdovi/s030_aktivan_nivo_i_i_ili.tex": "6f20bee017c14dd2cc2b82f1922f1af4500119d0cbb4a4dd1d1274001e121caf",
@@ -507,8 +507,8 @@
       "/var/lib/texmf/web2c/luahbtex/lualatex.fmt": "d033ba6322cd75e960bdb6602fa262079c65722e959611b049b414d99b080c79"
     },
     "outputs": {
-      "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/build/01_logicke_funkcije.log": "12311755456dc9fd5922ae822c6eec67868f684bdd594b16f3be101c9adfb201",
-      "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/build/01_logicke_funkcije.pdf": "a95ebbd1af4c0e2c35feee1c4ae54c785599ac16646c1500aa201de642eaa2e0",
+      "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/build/01_logicke_funkcije.log": "7fa68d1a506519e5476e329a23681b05f5b71ffa70581855a73085e951792d2d",
+      "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/build/01_logicke_funkcije.pdf": "1c69bafda3965271b2a0b45526fe776b3faebc501d8ea7504f8bf1a64dc2902e",
       "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/build/01_logicke_funkcije.slide-map.tsv": "05d2b732d3a99a316b68935118d4ec2817993e614f70d78238cb71d668ec9862"
     },
     "tools": {
@@ -519,7 +519,6 @@
     },
     "command": [
       "latexmk",
-      "-g",
       "-r",
       "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/_zajednicko/etf-v1/latexmkrc",
       "-lualatex",
@@ -568,7 +567,7 @@
       "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/beleske/s035.tex": "b8d32bef9ac21bc7fc25b86b2a32c967012dce28f4a5c9e5a9953d41c02cfb24",
       "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/beleske/s036.tex": "767e1c7d17f12919daacea4e84eca60075a0d91cf5a7e6eef6b56e5f08be8eb4",
       "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/beleske/s037.tex": "e7c261869279517e3ae736f42c91813788f014ac8da8b030428ccee5c2b239e2",
-      "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/build/01_logicke_funkcije.pdf": "a95ebbd1af4c0e2c35feee1c4ae54c785599ac16646c1500aa201de642eaa2e0",
+      "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/build/01_logicke_funkcije.pdf": "1c69bafda3965271b2a0b45526fe776b3faebc501d8ea7504f8bf1a64dc2902e",
       "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/kodovi/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/kodovi/provera_logike.py": "9dbb64b83448ea57063f19b198d18dcc5690cd42f94e1b349917dccea6eee46b",
       "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/provera/mapa.json": "47c061f59920076b91f5a61be32a60c14d8b9416f44cc6e1c65574d75e27323a",
@@ -576,7 +575,7 @@
       "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/_alati/beleske-v1.tex": "27e602b276ea4162c4b4afa602c8ddb8fe9b1cf2997f7d5856cc20bf2dc18695",
       "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/_alati/izgradnja.py": "db941db0eb17569784aff6769146fe8bd88201c17ae4968a962fca5ecda74ccc",
       "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/_alati/provera.py": "2625e9fa19e47c3626a99396a3e1e6833130b5e0f1594e05ab114ce729d04d69",
-      "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/_alati/redizajn.py": "731db34942064b9bf04a1f3963baeaeca183a7d0c02c4723b817e15e93c020e8",
+      "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/_alati/redizajn.py": "0771a2304d89a958b7907200119eedf4e3b2ceaa96ccdcfe26d7892135b7d633",
       "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/_alati/uporedni_pregled.py": "97d8f5d8abaf9f28b295d26bbc6f4a6789b3fefd303e82d22a9f4ee2c6155b49",
       "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/_alati/zajednicko.py": "f54bf1f325f3280f1b2293229036af9cdafd48e973aa82cf85f476c9dc16f321",
       "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/_zajednicko/etf-v1/latexmkrc": "f50879ddd0d5a0b2aa4529cb56bcfc80cbcc606e70aa924d5c8f23c18bdea1a7",
@@ -703,9 +702,9 @@
       "/var/lib/texmf/web2c/luahbtex/lualatex.fmt": "d033ba6322cd75e960bdb6602fa262079c65722e959611b049b414d99b080c79"
     },
     "outputs": {
-      "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/build/01_logicke_funkcije_beleske.log": "3e2d0db6759698c1ef134f036dd59fe715d5c72e74402c9210226bda19f747b6",
+      "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/build/01_logicke_funkcije_beleske.log": "d54e55d17f365c6adf85e9f1fc095d82dbd6aa7a260e9c0230c7af93d6b270b2",
       "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/build/01_logicke_funkcije_beleske.notes-map.tsv": "05d2b732d3a99a316b68935118d4ec2817993e614f70d78238cb71d668ec9862",
-      "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/build/01_logicke_funkcije_beleske.pdf": "b34ec878de0df9a823c2ff9dee6a9cfd97166059f99c7d63946ec6097ba05811"
+      "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/01_logicke_funkcije/build/01_logicke_funkcije_beleske.pdf": "1cfbda51a3f6b52157cc6f01d77ac48d0218e98522c1bf2453c8f4fde1961bca"
     },
     "tools": {
       "lualatex": "This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)",

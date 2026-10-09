@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-09",
+  "status": "provereno",
+  "existing_check": "kodovi/provera_logike.py",
+  "existing_check_scope": "Obe funkcionalne tabele, 16 ulaznih stanja, kompaktne jednačine, zabrana EI i svih 65536 kombinacija proširene mreže 16/4.",
+  "EO_cases": [
+    {
+      "EI": 0,
+      "H": 0,
+      "GS": 0,
+      "EO": 0
+    },
+    {
+      "EI": 0,
+      "H": 1,
+      "GS": 0,
+      "EO": 0
+    },
+    {
+      "EI": 1,
+      "H": 0,
+      "GS": 0,
+      "EO": 1
+    },
+    {
+      "EI": 1,
+      "H": 1,
+      "GS": 1,
+      "EO": 0
+    }
+  ],
+  "examples": {
+    "I12_I7": {
+      "correct_code": "1100",
+      "incorrect_OR_of_local_codes": "1111"
+    },
+    "I10_I5_I1": {
+      "winning_group": 2,
+      "local_index": 2,
+      "global_code": "1010"
+    }
+  },
+  "visual_topology": "Stvarno proverene ulazne negacije, 2/3/4-ulazni I gejtovi, zajednički EI, ILI izlazi, četiri GS ulaza drugog nivoa, tri EO→EI veze, odvojeni lokalni/globalni A bitovi; nema prelaza kroz komponente niti tačaka na nevezanim ukrštanjima."
+}

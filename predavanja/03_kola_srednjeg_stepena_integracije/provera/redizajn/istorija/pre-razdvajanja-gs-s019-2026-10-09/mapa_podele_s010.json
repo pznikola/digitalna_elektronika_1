@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-09",
+  "source": "03-s010",
+  "approval": "provera/redizajn/odobrenje_podela.json",
+  "elements": {
+    "03-s010:e01": "03-s010:e01",
+    "03-s010:e02": "03-s010:e02",
+    "03-s010b:e03": "03-s010b:e03",
+    "03-s010b:e04": "03-s010b:e04",
+    "03-s010:d01": "03-s010:d01"
+  },
+  "existing_supplement_split": {
+    "03-s010:d01": [
+      "03-s010:d01",
+      "03-s010b:d02"
+    ]
+  }
+}

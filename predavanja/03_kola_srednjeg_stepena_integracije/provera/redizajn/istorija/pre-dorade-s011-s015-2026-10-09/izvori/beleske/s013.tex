@@ -1,0 +1,15 @@
+\BeleskeID{03-s013}
+% element: 03-s013:e01
+% element: 03-s013:e02
+% element: 03-s013:e03
+% element: 03-s013:d01
+
+Multiplekser vodi više podatkovnih ulaza ka jednom izlazu, pa se po odnosu njihovog broja može posmatrati kao posebna koderska mreža. On ipak ne koduje indeks aktivnog ulaza: adresu zadaju selektori, a izlaz prenosi \emph{vrednost} izabranog podatka. U odnosu na demultiplekser obrnut je smer izbora, više-prema-jedan umesto jedan-prema-više.
+
+Svaka podatkovna grana uslovljena je svojim mintermom selektora. Za MUX 4/1 važi
+\[
+ Z=I_0\overline{S_1}\overline{S_0}
+  +I_1\overline{S_1}S_0
+  +I_2S_1\overline{S_0}+I_3S_1S_0.
+\]
+Za svaku ustaljenu adresu samo jedan minterm je jedinica, pa ILI kolo ne meša više podataka: propušta baš \(I_{2S_1+S_0}\). Na primer, adresa 01 bira \(I_1\), bez obzira na vrednosti ostala tri podatkovna ulaza.

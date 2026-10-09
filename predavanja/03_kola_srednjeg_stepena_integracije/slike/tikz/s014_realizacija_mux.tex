@@ -1,0 +1,14 @@
+\begingroup
+\def\DEoznsize{9}\def\DEoblik{.55}\def\DEvisina{.51cm}
+\def\DEdekmod{1}\def\DEcs{0}\def\DEprimer{0}\def\DEjedinica{.70cm}
+\def\DEmuxX{.95cm}\def\DEmuxY{.85cm}\def\DEmuxFont{9}
+\begin{tikzpicture}[x=1mm,y=1mm]
+\node[inner sep=0pt] (jezgro) at (27,22) {\input{slike/tikz/mux_jezgro.tex}};
+\node[inner sep=0pt] (levo) at (78,22) {\input{slike/tikz/mux_simbol.tex}};
+\node[inner sep=0pt] (desno) at (128,22) {\def\DEprimer{1}\input{slike/tikz/mux_simbol.tex}};
+\node[text=DEisticanje,inner sep=1pt,font=\fontsize{11}{13}\selectfont]
+ (funkcija) at (78,43) {$F=\overline B\,\overline A+BA$};
+\draw[DEstrelica,DEisticanje] ($(levo.east)+(2mm,0)$)--($(desno.west)+(-2mm,0)$);
+\draw[DEstrelica,DEisticanje] (funkcija.south east)--($(desno.north west)+(-1mm,1mm)$);
+\end{tikzpicture}
+\endgroup

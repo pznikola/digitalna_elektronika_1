@@ -1,0 +1,12 @@
+\begin{tikzpicture}[x=1mm,y=1mm,font=\fontsize{9}{11}\selectfont]
+\draw[DEvod] (0,0) rectangle (28,32);
+\node at (14,23) {KP};\node at (14,18) {4/2};
+\foreach \lab/\yy in {I3/26,I2/21,I1/16,I0/11,EI/6}{
+ \node[anchor=west,inner sep=1pt] at (0,\yy) {\lab};
+ \draw[DEvod] (-3,\yy)--(0,\yy);
+}
+\foreach \lab/\yy in {GS/26,A1/20,A0/14,EO/6}{
+ \node[anchor=east,inner sep=1pt] at (28,\yy) {\lab};
+ \draw[DEvod] (28,\yy)--(31,\yy);
+}
+\end{tikzpicture}

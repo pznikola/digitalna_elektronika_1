@@ -1,0 +1,1139 @@
+{
+  "slides": {
+    "03-s001": [
+      {
+        "element": "03-s001:e01",
+        "slide": {
+          "path": "slajdovi/s001_kola_srednjeg_stepena_integracije.tex",
+          "anchor": "% element: 03-s001:e01"
+        },
+        "notes": null,
+        "change": "Slajd neizmenjen; bez dodatnog nastavnog teksta uz naslovni slajd.",
+        "status": "provereno"
+      }
+    ],
+    "03-s002": [
+      {
+        "element": "03-s002:e01",
+        "slide": {
+          "path": "slajdovi/s002_stepeni_integracije.tex",
+          "anchor": "% element: 03-s002:e01"
+        },
+        "notes": {
+          "path": "beleske/s002.tex",
+          "anchor": "% element: 03-s002:e01"
+        },
+        "change": "Nastavni sadržaj očuvan. Po korisnikovoj poruci „zameni sve“ od 2026-10-09, u uvodu je „logičkih kapija“ zamenjeno sa „logičkih gejtova“; dodatno objašnjenje u beleškama istog ID-ja ostaje isto.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s002:e02",
+        "slide": {
+          "path": "slajdovi/s002_stepeni_integracije.tex",
+          "anchor": "% element: 03-s002:e02"
+        },
+        "notes": null,
+        "change": "Tabela, svi nazivi, vrednosti i opseg klasifikacije očuvani. Po korisnikovoj poruci „zameni sve“ od 2026-10-09, zaglavlje „Broj kapija“ zamenjeno je sa „Broj gejtova“.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s002:e03",
+        "slide": {
+          "path": "slajdovi/s002_stepeni_integracije.tex",
+          "anchor": "% element: 03-s002:e03"
+        },
+        "notes": {
+          "path": "beleske/s002.tex",
+          "anchor": "% element: 03-s002:e03"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Razlika brojanja tranzistora i kapija; približnost klasifikacije.. Preneti izvorni detalj: Različite brojčane granice u literaturi.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s002:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s002.tex",
+          "anchor": "% element: 03-s002:d01"
+        },
+        "change": "Dopunsko nastavno objašnjenje; poreklo i provera vode se izvan PDF-a beležaka.",
+        "status": "provereno"
+      }
+    ],
+    "03-s003": [
+      {
+        "element": "03-s003:e01",
+        "slide": {
+          "path": "slajdovi/s003_pakovanja_i_prikljucci.tex",
+          "anchor": "% element: 03-s003:e01"
+        },
+        "notes": {
+          "path": "beleske/s003.tex",
+          "anchor": "% element: 03-s003:e01"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Razlika funkcije i kućišta, tumačenje fizičkih pinova prema konkretnoj komponenti.. Preneti izvorni detalj: Puni engleski naziv PCB i veza sa vodovima ploče.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s003:e02",
+        "slide": {
+          "path": "slajdovi/s003_pakovanja_i_prikljucci.tex",
+          "anchor": "% element: 03-s003:e02"
+        },
+        "notes": {
+          "path": "beleske/s003.tex",
+          "anchor": "% element: 03-s003:e02"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Razlika funkcije i kućišta, tumačenje fizičkih pinova prema konkretnoj komponenti..",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s003:e03",
+        "slide": {
+          "path": "slajdovi/s003_pakovanja_i_prikljucci.tex",
+          "anchor": "% element: 03-s003:e03"
+        },
+        "notes": {
+          "path": "beleske/s003.tex",
+          "anchor": "% element: 03-s003:e03"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Razlika funkcije i kućišta, tumačenje fizičkih pinova prema konkretnoj komponenti.. Preneti izvorni detalj: Dostupna pakovanja i podaci o njima nalaze se u proizvođačkom opisu.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s003:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s003.tex",
+          "anchor": "% element: 03-s003:d01"
+        },
+        "change": "Dopunsko nastavno objašnjenje; poreklo i provera vode se izvan PDF-a beležaka.",
+        "status": "provereno"
+      }
+    ],
+    "03-s004": [
+      {
+        "element": "03-s004:e01",
+        "slide": {
+          "path": "slajdovi/s004_izbor_kola_i_nekorisceni_ulazi.tex",
+          "anchor": "% element: 03-s004:e01"
+        },
+        "notes": {
+          "path": "beleske/s004.tex",
+          "anchor": "% element: 03-s004:e01"
+        },
+        "change": "Verniji tekst originala uz ranije odobrena I kola; istaknuto upozorenje o neiskorišćenim ulazima, broj čipova, uslov prihvatljivog kašnjenja i NI invertorski slučaj vidljivi. Beleške dopunjuju brojanje i kritičnu putanju.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s004:e02",
+        "slide": {
+          "path": "slajdovi/s004_izbor_kola_i_nekorisceni_ulazi.tex",
+          "anchor": "% element: 03-s004:e02"
+        },
+        "notes": {
+          "path": "beleske/s004.tex",
+          "anchor": "% element: 03-s004:e02"
+        },
+        "change": "Verniji tekst originala uz ranije odobrena I kola; istaknuto upozorenje o neiskorišćenim ulazima, broj čipova, uslov prihvatljivog kašnjenja i NI invertorski slučaj vidljivi. Beleške dopunjuju brojanje i kritičnu putanju.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s004:e03",
+        "slide": {
+          "path": "slajdovi/s004_izbor_kola_i_nekorisceni_ulazi.tex",
+          "anchor": "% element: 03-s004:e03"
+        },
+        "notes": {
+          "path": "beleske/s004.tex",
+          "anchor": "% element: 03-s004:e03"
+        },
+        "change": "Verniji tekst originala uz ranije odobrena I kola; istaknuto upozorenje o neiskorišćenim ulazima, broj čipova, uslov prihvatljivog kašnjenja i NI invertorski slučaj vidljivi. Beleške dopunjuju brojanje i kritičnu putanju.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s004:e04",
+        "slide": {
+          "path": "slajdovi/s004_izbor_kola_i_nekorisceni_ulazi.tex",
+          "anchor": "% element: 03-s004:e04"
+        },
+        "notes": {
+          "path": "beleske/s004.tex",
+          "anchor": "% element: 03-s004:e04"
+        },
+        "change": "Verniji tekst originala uz ranije odobrena I kola; istaknuto upozorenje o neiskorišćenim ulazima, broj čipova, uslov prihvatljivog kašnjenja i NI invertorski slučaj vidljivi. Beleške dopunjuju brojanje i kritičnu putanju.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s004:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s004.tex",
+          "anchor": "% element: 03-s004:d01"
+        },
+        "change": "Verniji tekst originala uz ranije odobrena I kola; istaknuto upozorenje o neiskorišćenim ulazima, broj čipova, uslov prihvatljivog kašnjenja i NI invertorski slučaj vidljivi. Beleške dopunjuju brojanje i kritičnu putanju.",
+        "status": "provereno"
+      }
+    ],
+    "03-s005": [
+      {
+        "element": "03-s005:e01",
+        "slide": {
+          "path": "slajdovi/s005_dekoder_2_u_4.tex",
+          "anchor": "% element: 03-s005:e01"
+        },
+        "notes": null,
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Dokaz jednog aktivnog minterma; primer adrese 10 i sinteza preko minterma..",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s005:e02",
+        "slide": {
+          "path": "slajdovi/s005_dekoder_2_u_4.tex",
+          "anchor": "% element: 03-s005:e02"
+        },
+        "notes": {
+          "path": "beleske/s005.tex",
+          "anchor": "% element: 03-s005:e02"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Dokaz jednog aktivnog minterma; primer adrese 10 i sinteza preko minterma..",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s005:e03",
+        "slide": {
+          "path": "slajdovi/s005_dekoder_2_u_4.tex",
+          "anchor": "% element: 03-s005:e03"
+        },
+        "notes": {
+          "path": "beleske/s005.tex",
+          "anchor": "% element: 03-s005:e03"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Dokaz jednog aktivnog minterma; primer adrese 10 i sinteza preko minterma..",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s005:e04",
+        "slide": {
+          "path": "slajdovi/s005_dekoder_2_u_4.tex",
+          "anchor": "% element: 03-s005:e04"
+        },
+        "notes": {
+          "path": "beleske/s005.tex",
+          "anchor": "% element: 03-s005:e04"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Dokaz jednog aktivnog minterma; primer adrese 10 i sinteza preko minterma.. Preneti izvorni detalj: Adresni ulazi često se označavaju slovom A.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s005:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s005.tex",
+          "anchor": "% element: 03-s005:d01"
+        },
+        "change": "Dopunsko nastavno objašnjenje; poreklo i provera vode se izvan PDF-a beležaka.",
+        "status": "provereno"
+      }
+    ],
+    "03-s006": [
+      {
+        "element": "03-s006:e01",
+        "slide": {
+          "path": "slajdovi/s006_primer_funkcije_i_obris_dekodera.tex",
+          "anchor": "% element: 03-s006:e01"
+        },
+        "notes": {
+          "path": "beleske/s006.tex",
+          "anchor": "% element: 03-s006:e01"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Izvođenje F=Y0+Y3 i prepoznavanje EXNILI funkcije za četiri kombinacije..",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s006:e02",
+        "slide": {
+          "path": "slajdovi/s006_primer_funkcije_i_obris_dekodera.tex",
+          "anchor": "% element: 03-s006:e02"
+        },
+        "notes": null,
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Izvođenje F=Y0+Y3 i prepoznavanje EXNILI funkcije za četiri kombinacije..",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s006:e03",
+        "slide": {
+          "path": "slike/tikz/s006_obris_dekodera.tex",
+          "anchor": "% element: 03-s006:e03"
+        },
+        "notes": null,
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Izvođenje F=Y0+Y3 i prepoznavanje EXNILI funkcije za četiri kombinacije..",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s006:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s006.tex",
+          "anchor": "% element: 03-s006:d01"
+        },
+        "change": "Dopunsko nastavno objašnjenje; poreklo i provera vode se izvan PDF-a beležaka.",
+        "status": "provereno"
+      }
+    ],
+    "03-s007": [
+      {
+        "element": "03-s007:e01",
+        "slide": {
+          "path": "slajdovi/s007_simbol_dekodera.tex",
+          "anchor": "% element: 03-s007:e01"
+        },
+        "notes": {
+          "path": "beleske/s007.tex",
+          "anchor": "% element: 03-s007:e01"
+        },
+        "change": "Vraćena nastavna napomena o oznakama unutar komponente i standardnoj indeksaciji; tekstualno rasterećene beleške čuvaju dodatno tumačenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s007:e02",
+        "slide": {
+          "path": "slajdovi/s007_simbol_dekodera.tex",
+          "anchor": "% element: 03-s007:e02"
+        },
+        "notes": null,
+        "change": "Vraćena nastavna napomena o oznakama unutar komponente i standardnoj indeksaciji; tekstualno rasterećene beleške čuvaju dodatno tumačenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s007:e03",
+        "slide": {
+          "path": "slajdovi/s007_simbol_dekodera.tex",
+          "anchor": "% element: 03-s007:e03"
+        },
+        "notes": null,
+        "change": "Vraćena nastavna napomena o oznakama unutar komponente i standardnoj indeksaciji; tekstualno rasterećene beleške čuvaju dodatno tumačenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s007:e04",
+        "slide": {
+          "path": "slajdovi/s007_simbol_dekodera.tex",
+          "anchor": "% element: 03-s007:e04"
+        },
+        "notes": {
+          "path": "beleske/s007.tex",
+          "anchor": "% element: 03-s007:e04"
+        },
+        "change": "Vraćena nastavna napomena o oznakama unutar komponente i standardnoj indeksaciji; tekstualno rasterećene beleške čuvaju dodatno tumačenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s007:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s007.tex",
+          "anchor": "% element: 03-s007:d01"
+        },
+        "change": "Vraćena nastavna napomena o oznakama unutar komponente i standardnoj indeksaciji; tekstualno rasterećene beleške čuvaju dodatno tumačenje.",
+        "status": "provereno"
+      }
+    ],
+    "03-s008": [
+      {
+        "element": "03-s008:e01",
+        "slide": {
+          "path": "slajdovi/s008_selekcija_komponente.tex",
+          "anchor": "% element: 03-s008:e01"
+        },
+        "notes": {
+          "path": "beleske/s008.tex",
+          "anchor": "% element: 03-s008:e01"
+        },
+        "change": "Vidljiva svrha proširenja, aktivna jedinica, neaktivna nula i I uslov više CS ulaza; beleške čuvaju izvođenje i razliku prema visokoj impedansi.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s008:e02",
+        "slide": {
+          "path": "slajdovi/s008_selekcija_komponente.tex",
+          "anchor": "% element: 03-s008:e02"
+        },
+        "notes": {
+          "path": "beleske/s008.tex",
+          "anchor": "% element: 03-s008:e02"
+        },
+        "change": "Vidljiva svrha proširenja, aktivna jedinica, neaktivna nula i I uslov više CS ulaza; beleške čuvaju izvođenje i razliku prema visokoj impedansi.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s008:e03",
+        "slide": {
+          "path": "slajdovi/s008_selekcija_komponente.tex",
+          "anchor": "% element: 03-s008:e03"
+        },
+        "notes": null,
+        "change": "Vidljiva svrha proširenja, aktivna jedinica, neaktivna nula i I uslov više CS ulaza; beleške čuvaju izvođenje i razliku prema visokoj impedansi.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s008:e04",
+        "slide": {
+          "path": "slajdovi/s008_selekcija_komponente.tex",
+          "anchor": "% element: 03-s008:e04"
+        },
+        "notes": {
+          "path": "beleske/s008.tex",
+          "anchor": "% element: 03-s008:e04"
+        },
+        "change": "Vidljiva svrha proširenja, aktivna jedinica, neaktivna nula i I uslov više CS ulaza; beleške čuvaju izvođenje i razliku prema visokoj impedansi.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s008:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s008.tex",
+          "anchor": "% element: 03-s008:d01"
+        },
+        "change": "Vidljiva svrha proširenja, aktivna jedinica, neaktivna nula i I uslov više CS ulaza; beleške čuvaju izvođenje i razliku prema visokoj impedansi.",
+        "status": "provereno"
+      }
+    ],
+    "03-s009": [
+      {
+        "element": "03-s009:e01",
+        "slide": {
+          "path": "slajdovi/s009_piramidalna_struktura_dekodera.tex",
+          "anchor": "% element: 03-s009:e01"
+        },
+        "notes": {
+          "path": "beleske/s009.tex",
+          "anchor": "% element: 03-s009:e01"
+        },
+        "change": "Precrtana šema 4/16 sa većim razmacima, lokalnim i globalnim oznakama, selektorima S3/S2 i S1/S0; vraćen tekst o težinama, drugačijim rasporedima, proširenju i nazivu piramidalna.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s009:e02",
+        "slide": {
+          "path": "slajdovi/s009_piramidalna_struktura_dekodera.tex",
+          "anchor": "% element: 03-s009:e02"
+        },
+        "notes": {
+          "path": "beleske/s009.tex",
+          "anchor": "% element: 03-s009:e02"
+        },
+        "change": "Precrtana šema 4/16 sa većim razmacima, lokalnim i globalnim oznakama, selektorima S3/S2 i S1/S0; vraćen tekst o težinama, drugačijim rasporedima, proširenju i nazivu piramidalna.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s009:e03",
+        "slide": {
+          "path": "slajdovi/s009_piramidalna_struktura_dekodera.tex",
+          "anchor": "% element: 03-s009:e03"
+        },
+        "notes": {
+          "path": "beleske/s009.tex",
+          "anchor": "% element: 03-s009:e03"
+        },
+        "change": "Precrtana šema 4/16 sa većim razmacima, lokalnim i globalnim oznakama, selektorima S3/S2 i S1/S0; vraćen tekst o težinama, drugačijim rasporedima, proširenju i nazivu piramidalna.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s009:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s009.tex",
+          "anchor": "% element: 03-s009:d01"
+        },
+        "change": "Precrtana šema 4/16 sa većim razmacima, lokalnim i globalnim oznakama, selektorima S3/S2 i S1/S0; vraćen tekst o težinama, drugačijim rasporedima, proširenju i nazivu piramidalna.",
+        "status": "provereno"
+      }
+    ],
+    "03-s010": [
+      {
+        "element": "03-s010:e01",
+        "slide": {
+          "path": "slajdovi/s010_matricna_struktura_dekodera.tex",
+          "anchor": "% element: 03-s010:e01"
+        },
+        "notes": {
+          "path": "beleske/s010.tex",
+          "anchor": "% element: 03-s010:e01"
+        },
+        "change": "Prvi deo odobrene podele: načelo izbora, potreban broj CS uslova i potpuna šema vrste/kolone i izlaznog bloka; beleške daju indeksiranje i primer 39.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s010:e02",
+        "slide": {
+          "path": "slajdovi/s010_matricna_struktura_dekodera.tex",
+          "anchor": "% element: 03-s010:e02"
+        },
+        "notes": {
+          "path": "beleske/s010.tex",
+          "anchor": "% element: 03-s010:e02"
+        },
+        "change": "Prvi deo odobrene podele: načelo izbora, potreban broj CS uslova i potpuna šema vrste/kolone i izlaznog bloka; beleške daju indeksiranje i primer 39.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s010:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s010.tex",
+          "anchor": "% element: 03-s010:d01"
+        },
+        "change": "Prvi deo odobrene podele: načelo izbora, potreban broj CS uslova i potpuna šema vrste/kolone i izlaznog bloka; beleške daju indeksiranje i primer 39.",
+        "status": "provereno"
+      }
+    ],
+    "03-s010b": [
+      {
+        "element": "03-s010b:e03",
+        "slide": {
+          "path": "slajdovi/s010b_nastavak.tex",
+          "anchor": "% element: 03-s010b:e03"
+        },
+        "notes": {
+          "path": "beleske/s010b.tex",
+          "anchor": "% element: 03-s010b:e03"
+        },
+        "change": "Raspoređeno v odobrené podeli: samostalna celina poređenja matrične i piramidalne strukture; detalji u beleškama istog dela.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s010b:e04",
+        "slide": {
+          "path": "slajdovi/s010b_nastavak.tex",
+          "anchor": "% element: 03-s010b:e04"
+        },
+        "notes": {
+          "path": "beleske/s010b.tex",
+          "anchor": "% element: 03-s010b:e04"
+        },
+        "change": "Raspoređeno v odobrené podeli: samostalna celina poređenja matrične i piramidalne strukture; detalji u beleškama istog dela.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s010b:d02",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s010b.tex",
+          "anchor": "% element: 03-s010b:d02"
+        },
+        "change": "Postojeća dopuna razdvojena prema nastavnoj celini poređenja kašnjenja, bez nove stručne tvrdnje.",
+        "status": "provereno"
+      }
+    ],
+    "03-s011": [
+      {
+        "element": "03-s011:e01",
+        "slide": {
+          "path": "slajdovi/s011_aktivni_nivoi_i_negacije.tex",
+          "anchor": "% element: 03-s011:e01"
+        },
+        "notes": {
+          "path": "beleske/s011.tex",
+          "anchor": "% element: 03-s011:e01"
+        },
+        "change": "Vraćena uvodna tvrdnja o aktivnim nulama na ulazima i izlazima.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s011:e02",
+        "slide": {
+          "path": "slajdovi/s011_aktivni_nivoi_i_negacije.tex",
+          "anchor": "% element: 03-s011:e02"
+        },
+        "notes": {
+          "path": "beleske/s011.tex",
+          "anchor": "% element: 03-s011:e02"
+        },
+        "change": "Vidljivi objašnjenje ekvivalentnosti prvih simbola, najčešća upotreba drugog i aktivna jedinica posle dvostruke negacije; geometrija niža, bez promene priključaka.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s011:e03",
+        "slide": {
+          "path": "slajdovi/s011_aktivni_nivoi_i_negacije.tex",
+          "anchor": "% element: 03-s011:e03"
+        },
+        "notes": {
+          "path": "beleske/s011.tex",
+          "anchor": "% element: 03-s011:e03"
+        },
+        "change": "Vraćen opis unutrašnjeg CS signala; jednačina i sve negacije očuvane.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s011:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s011.tex",
+          "anchor": "% element: 03-s011:d01"
+        },
+        "change": "Dodatno nastavno objašnjenje bez uredničke komentarske evidencije; poreklo i provera u evidencija_beleski.json.",
+        "status": "provereno"
+      }
+    ],
+    "03-s012": [
+      {
+        "element": "03-s012:e01",
+        "slide": {
+          "path": "slajdovi/s012_demultipleksor.tex",
+          "anchor": "% element: 03-s012:e01"
+        },
+        "notes": {
+          "path": "beleske/s012.tex",
+          "anchor": "% element: 03-s012:e01"
+        },
+        "change": "Definicija prati original: nivo jednog ulaza ide na selektovani/adresirani izlaz.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s012:e02",
+        "slide": {
+          "path": "slajdovi/s012_demultipleksor.tex",
+          "anchor": "% element: 03-s012:e02"
+        },
+        "notes": {
+          "path": "beleske/s012.tex",
+          "anchor": "% element: 03-s012:e02"
+        },
+        "change": "Po korisnikovom nalogu dopunjena unutrašnja realizacija sa četiri I3 gejta i pun simbol 1/4, u stilu s008; polariteti provereni prema zvaničnoj dokumentaciji Nexperia 74HC238.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s012:e03",
+        "slide": {
+          "path": "slajdovi/s012_demultipleksor.tex",
+          "anchor": "% element: 03-s012:e03"
+        },
+        "notes": {
+          "path": "beleske/s012.tex",
+          "anchor": "% element: 03-s012:e03"
+        },
+        "change": "Na slajd vraćeni identična struktura, zajednički kataloški naziv i isti postupak proširenja.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s012:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s012.tex",
+          "anchor": "% element: 03-s012:d01"
+        },
+        "change": "Dodatno nastavno objašnjenje bez uredničke komentarske evidencije; poreklo i provera u evidencija_beleski.json.",
+        "status": "provereno"
+      }
+    ],
+    "03-s013": [
+      {
+        "element": "03-s013:e01",
+        "slide": {
+          "path": "slajdovi/s013_multiplekser_4_u_1.tex",
+          "anchor": "% element: 03-s013:e01"
+        },
+        "notes": {
+          "path": "beleske/s013.tex",
+          "anchor": "% element: 03-s013:e01"
+        },
+        "change": "Na slajd vraćeni specifična koderska mreža, obrnut smer od DMUX-a i broj signala; objašnjenje razlike prema koderu ostaje u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s013:e02",
+        "slide": {
+          "path": "slajdovi/s013_multiplekser_4_u_1.tex",
+          "anchor": "% element: 03-s013:e02"
+        },
+        "notes": {
+          "path": "beleske/s013.tex",
+          "anchor": "% element: 03-s013:e02"
+        },
+        "change": "Unutrašnja šema niža; izvorna funkcija, svi ulazi, spojevi i minterm grane očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s013:e03",
+        "slide": {
+          "path": "slajdovi/s013_multiplekser_4_u_1.tex",
+          "anchor": "% element: 03-s013:e03"
+        },
+        "notes": null,
+        "change": "Simbol očuvan, usklađen sa rasporedom unutrašnje šeme.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s013:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s013.tex",
+          "anchor": "% element: 03-s013:d01"
+        },
+        "change": "Dodatno nastavno objašnjenje bez uredničke komentarske evidencije; poreklo i provera u evidencija_beleski.json.",
+        "status": "provereno"
+      }
+    ],
+    "03-s014": [
+      {
+        "element": "03-s014:e01",
+        "slide": {
+          "path": "slajdovi/s014_realizacija_funkcije_multiplekserom.tex",
+          "anchor": "% element: 03-s014:e01"
+        },
+        "notes": {
+          "path": "beleske/s014.tex",
+          "anchor": "% element: 03-s014:e01"
+        },
+        "change": "Vraćena prednost MUX-a u nekim situacijama i primer F; funkcija vidljiva u jednom redu.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s014:e02",
+        "slide": {
+          "path": "slajdovi/s014_realizacija_funkcije_multiplekserom.tex",
+          "anchor": "% element: 03-s014:e02"
+        },
+        "notes": {
+          "path": "beleske/s014.tex",
+          "anchor": "% element: 03-s014:e02"
+        },
+        "change": "Vraćeno načelo izbora potpunih proizvoda i dovođenja vrednosti funkcije; unutrašnja realizacija očuvana.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s014:e03",
+        "slide": {
+          "path": "slajdovi/s014_realizacija_funkcije_multiplekserom.tex",
+          "anchor": "% element: 03-s014:e03"
+        },
+        "notes": null,
+        "change": "Horizontalna strelica vodi od opšteg MUX-a ka realizaciji desno, izvan tela oba bloka.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s014:e04",
+        "slide": {
+          "path": "slajdovi/s014_realizacija_funkcije_multiplekserom.tex",
+          "anchor": "% element: 03-s014:e04"
+        },
+        "notes": {
+          "path": "beleske/s014.tex",
+          "anchor": "% element: 03-s014:e04"
+        },
+        "change": "Dijagonalna strelica počinje na formuli F i pokazuje njenu realizaciju desnim MUX-om; B/A, 1/0/0/1 i F očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s014:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s014.tex",
+          "anchor": "% element: 03-s014:d01"
+        },
+        "change": "Dodatno nastavno objašnjenje bez uredničke komentarske evidencije; poreklo i provera u evidencija_beleski.json.",
+        "status": "provereno"
+      }
+    ],
+    "03-s015": [
+      {
+        "element": "03-s015:e01",
+        "slide": {
+          "path": "slajdovi/s015_selekcija_i_prosirenje_multipleksera.tex",
+          "anchor": "% element: 03-s015:e01"
+        },
+        "notes": {
+          "path": "beleske/s015.tex",
+          "anchor": "% element: 03-s015:e01"
+        },
+        "change": "Uvod bliži originalu; vidljivo objašnjenje mreže 16/1. Po izričitoj korisnikovoj dozvoli osnovni font lokalno 10/12 pt, bez skaliranja celog slajda.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s015:e02",
+        "slide": {
+          "path": "slajdovi/s015_selekcija_i_prosirenje_multipleksera.tex",
+          "anchor": "% element: 03-s015:e02"
+        },
+        "notes": {
+          "path": "beleske/s015.tex",
+          "anchor": "% element: 03-s015:e02"
+        },
+        "change": "Kompaktnija interna šema sa CS, oznake 9 pt i svi priključci očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s015:e03",
+        "slide": {
+          "path": "slajdovi/s015_selekcija_i_prosirenje_multipleksera.tex",
+          "anchor": "% element: 03-s015:e03"
+        },
+        "notes": null,
+        "change": "Simbol sa CS odmaknut od unutrašnje šeme i proširenja; horizontalna strelica između celina.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s015:e04",
+        "slide": {
+          "path": "slajdovi/s015_selekcija_i_prosirenje_multipleksera.tex",
+          "anchor": "% element: 03-s015:e04"
+        },
+        "notes": {
+          "path": "beleske/s015.tex",
+          "anchor": "% element: 03-s015:e04"
+        },
+        "change": "Prošireni blokovi stabla radi razmaka teksta, vodovi i spojne tačke prilagođeni. Svih 16 ulaza, četiri prva i završni MUX, selektori i njihova mapiranja očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s015:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s015.tex",
+          "anchor": "% element: 03-s015:d01"
+        },
+        "change": "Dodatno nastavno objašnjenje bez uredničke komentarske evidencije; poreklo i provera u evidencija_beleski.json.",
+        "status": "provereno"
+      }
+    ],
+    "03-s016": [
+      {
+        "element": "03-s016:e01",
+        "slide": {
+          "path": "slajdovi/s016_koder_prioriteta.tex",
+          "anchor": "% element: 03-s016:e01"
+        },
+        "notes": {
+          "path": "beleske/s016.tex",
+          "anchor": "% element: 03-s016:e01"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: X kao nevažna vrednost, prioritet i valjanost adrese uz GS.. Preneti izvorni detalj: Upotreba u složenim i procesorskim digitalnim sistemima.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s016:e02",
+        "slide": {
+          "path": "slajdovi/s016_koder_prioriteta.tex",
+          "anchor": "% element: 03-s016:e02"
+        },
+        "notes": {
+          "path": "beleske/s016.tex",
+          "anchor": "% element: 03-s016:e02"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: X kao nevažna vrednost, prioritet i valjanost adrese uz GS..",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s016:e03",
+        "slide": {
+          "path": "slajdovi/s016_koder_prioriteta.tex",
+          "anchor": "% element: 03-s016:e03"
+        },
+        "notes": {
+          "path": "beleske/s016.tex",
+          "anchor": "% element: 03-s016:e03"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: X kao nevažna vrednost, prioritet i valjanost adrese uz GS..",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s016:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s016.tex",
+          "anchor": "% element: 03-s016:d01"
+        },
+        "change": "Dopunsko nastavno objašnjenje; poreklo i provera vode se izvan PDF-a beležaka.",
+        "status": "provereno"
+      }
+    ],
+    "03-s017": [
+      {
+        "element": "03-s017:e01",
+        "slide": {
+          "path": "slajdovi/s017_koder_prioriteta_sa_gs.tex",
+          "anchor": "% element: 03-s017:e01"
+        },
+        "notes": null,
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Međusignali P3–P0, koderske jednačine i primer I2/I1..",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s017:e02",
+        "slide": {
+          "path": "slajdovi/s017_koder_prioriteta_sa_gs.tex",
+          "anchor": "% element: 03-s017:e02"
+        },
+        "notes": {
+          "path": "beleske/s017.tex",
+          "anchor": "% element: 03-s017:e02"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Međusignali P3–P0, koderske jednačine i primer I2/I1.. Preneti izvorni detalj: Direktno crtanje iz preglednih uslova bez zahteva da realizacija bude minimalna.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s017:e03",
+        "slide": {
+          "path": "slajdovi/s017_koder_prioriteta_sa_gs.tex",
+          "anchor": "% element: 03-s017:e03"
+        },
+        "notes": {
+          "path": "beleske/s017.tex",
+          "anchor": "% element: 03-s017:e03"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Međusignali P3–P0, koderske jednačine i primer I2/I1..",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s017:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s017.tex",
+          "anchor": "% element: 03-s017:d01"
+        },
+        "change": "Dopunsko nastavno objašnjenje; poreklo i provera vode se izvan PDF-a beležaka.",
+        "status": "provereno"
+      }
+    ],
+    "03-s018": [
+      {
+        "element": "03-s018:e01",
+        "slide": {
+          "path": "slajdovi/s018_minimalnija_realizacija_kodera.tex",
+          "anchor": "% element: 03-s018:e01"
+        },
+        "notes": {
+          "path": "beleske/s018.tex",
+          "anchor": "% element: 03-s018:e01"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Algebarsko izvođenje A1/A0/GS pomoću X+barX Y=X+Y i objašnjenje prioriteta..",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s018:e02",
+        "slide": {
+          "path": "slajdovi/s018_minimalnija_realizacija_kodera.tex",
+          "anchor": "% element: 03-s018:e02"
+        },
+        "notes": {
+          "path": "beleske/s018.tex",
+          "anchor": "% element: 03-s018:e02"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Algebarsko izvođenje A1/A0/GS pomoću X+barX Y=X+Y i objašnjenje prioriteta..",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s018:e03",
+        "slide": {
+          "path": "slajdovi/s018_minimalnija_realizacija_kodera.tex",
+          "anchor": "% element: 03-s018:e03"
+        },
+        "notes": null,
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Algebarsko izvođenje A1/A0/GS pomoću X+barX Y=X+Y i objašnjenje prioriteta..",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s018:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s018.tex",
+          "anchor": "% element: 03-s018:d01"
+        },
+        "change": "Dopunsko nastavno objašnjenje; poreklo i provera vode se izvan PDF-a beležaka.",
+        "status": "provereno"
+      }
+    ],
+    "03-s019": [
+      {
+        "element": "03-s019:e01",
+        "slide": {
+          "path": "slajdovi/s019_koder_prioriteta_sa_16_ulaza.tex",
+          "anchor": "% element: 03-s019:e01"
+        },
+        "notes": null,
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Globalni indeks 4g+k i kontraprimer I12/I7 protiv spajanja neuslovljenih kodova..",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s019:e02",
+        "slide": {
+          "path": "slajdovi/s019_koder_prioriteta_sa_16_ulaza.tex",
+          "anchor": "% element: 03-s019:e02"
+        },
+        "notes": {
+          "path": "beleske/s019.tex",
+          "anchor": "% element: 03-s019:e02"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Globalni indeks 4g+k i kontraprimer I12/I7 protiv spajanja neuslovljenih kodova..",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s019:e03",
+        "slide": {
+          "path": "slajdovi/s019_koder_prioriteta_sa_16_ulaza.tex",
+          "anchor": "% element: 03-s019:e03"
+        },
+        "notes": {
+          "path": "beleske/s019.tex",
+          "anchor": "% element: 03-s019:e03"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Globalni indeks 4g+k i kontraprimer I12/I7 protiv spajanja neuslovljenih kodova.. Preneti izvorni detalj: Niži bitovi iz neizabrane grupe daju logički pogrešan kod, pored električkog problema direktnog spoja.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s019:e04",
+        "slide": {
+          "path": "slajdovi/s019_koder_prioriteta_sa_16_ulaza.tex",
+          "anchor": "% element: 03-s019:e04"
+        },
+        "notes": {
+          "path": "beleske/s019.tex",
+          "anchor": "% element: 03-s019:e04"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Globalni indeks 4g+k i kontraprimer I12/I7 protiv spajanja neuslovljenih kodova.. Preneti izvorni detalj: Dodatne dozvole služe identifikaciji validnih nižih bitova i njihovom logičkom objedinjavanju.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s019:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s019.tex",
+          "anchor": "% element: 03-s019:d01"
+        },
+        "change": "Dopunsko nastavno objašnjenje; poreklo i provera vode se izvan PDF-a beležaka.",
+        "status": "provereno"
+      }
+    ],
+    "03-s020": [
+      {
+        "element": "03-s020:e01",
+        "slide": {
+          "path": "slajdovi/s020_ulazi_ei_i_izlazi_eo.tex",
+          "anchor": "% element: 03-s020:e01"
+        },
+        "notes": {
+          "path": "beleske/s020.tex",
+          "anchor": "% element: 03-s020:e01"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: H kao lokalni zahtev, GS=EI H i EO=EI barH sa potpunim slučajevima.. Preneti izvorni detalj: Alternativa u kojoj GS nije uslovljen EI.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s020:e02",
+        "slide": {
+          "path": "slajdovi/s020_ulazi_ei_i_izlazi_eo.tex",
+          "anchor": "% element: 03-s020:e02"
+        },
+        "notes": {
+          "path": "beleske/s020.tex",
+          "anchor": "% element: 03-s020:e02"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: H kao lokalni zahtev, GS=EI H i EO=EI barH sa potpunim slučajevima..",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s020:e03",
+        "slide": {
+          "path": "slajdovi/s020_ulazi_ei_i_izlazi_eo.tex",
+          "anchor": "% element: 03-s020:e03"
+        },
+        "notes": {
+          "path": "beleske/s020.tex",
+          "anchor": "% element: 03-s020:e03"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: H kao lokalni zahtev, GS=EI H i EO=EI barH sa potpunim slučajevima.. Preneti izvorni detalj: Potpuno tumačenje sva tri slučaja prenosa dozvole.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s020:e04",
+        "slide": {
+          "path": "slajdovi/s020_ulazi_ei_i_izlazi_eo.tex",
+          "anchor": "% element: 03-s020:e04"
+        },
+        "notes": {
+          "path": "beleske/s020.tex",
+          "anchor": "% element: 03-s020:e04"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: H kao lokalni zahtev, GS=EI H i EO=EI barH sa potpunim slučajevima.. Preneti izvorni detalj: Zašto inverzija ne odgovara EO ni za uslovljeni ni za neuslovljeni GS.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s020:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s020.tex",
+          "anchor": "% element: 03-s020:d01"
+        },
+        "change": "Dopunsko nastavno objašnjenje; poreklo i provera vode se izvan PDF-a beležaka.",
+        "status": "provereno"
+      }
+    ],
+    "03-s021": [
+      {
+        "element": "03-s021:e01",
+        "slide": {
+          "path": "slajdovi/s021_lanac_kodera_prioriteta.tex",
+          "anchor": "% element: 03-s021:e01"
+        },
+        "notes": {
+          "path": "beleske/s021.tex",
+          "anchor": "% element: 03-s021:e01"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Primer I10/I5/I1, slučaj bez zahteva i uslov jedinstvenog drajvera visoke impedanse..",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s021:e02",
+        "slide": {
+          "path": "slajdovi/s021_lanac_kodera_prioriteta.tex",
+          "anchor": "% element: 03-s021:e02"
+        },
+        "notes": {
+          "path": "beleske/s021.tex",
+          "anchor": "% element: 03-s021:e02"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Primer I10/I5/I1, slučaj bez zahteva i uslov jedinstvenog drajvera visoke impedanse..",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s021:e03",
+        "slide": {
+          "path": "slajdovi/s021_lanac_kodera_prioriteta.tex",
+          "anchor": "% element: 03-s021:e03"
+        },
+        "notes": {
+          "path": "beleske/s021.tex",
+          "anchor": "% element: 03-s021:e03"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Primer I10/I5/I1, slučaj bez zahteva i uslov jedinstvenog drajvera visoke impedanse.. Preneti izvorni detalj: Direktno povezivanje izvodljivo je sa visokom impedansom neaktivnih izlaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s021:e04",
+        "slide": {
+          "path": "slajdovi/s021_lanac_kodera_prioriteta.tex",
+          "anchor": "% element: 03-s021:e04"
+        },
+        "notes": {
+          "path": "beleske/s021.tex",
+          "anchor": "% element: 03-s021:e04"
+        },
+        "change": "Slajd neizmenjen; puno dodatno nastavno tumačenje u beleškama istog ID-ja: Primer I10/I5/I1, slučaj bez zahteva i uslov jedinstvenog drajvera visoke impedanse.. Preneti izvorni detalj: Nema jednog strogo jedinstvenog rasporeda MSI simbola; uobičajeno razdvajanje ulaza i izlaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "03-s021:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s021.tex",
+          "anchor": "% element: 03-s021:d01"
+        },
+        "change": "Dopunsko nastavno objašnjenje; poreklo i provera vode se izvan PDF-a beležaka.",
+        "status": "provereno"
+      }
+    ]
+  }
+}

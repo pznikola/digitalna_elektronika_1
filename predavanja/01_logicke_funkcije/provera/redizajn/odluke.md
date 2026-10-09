@@ -30,3 +30,11 @@ Korisnikova stvarna poruka:
 > procitaj PLAN_PREDAVANJA.md. Kako je nacin pisanja beleski promenjen, tvoj posao je da procitas PLAN, procitas slajdove 01, procitas originalna predavanja 01 i da napises beleske po planu
 
 Nalog odobrava doradu beležaka 01 i obnovu pogođenih potvrda. Odobrenje „I approve 01“ ostaje za tadašnje izvore i prikaze; nije odobrenje novih beležaka. Projekcioni slajdovi, tema i originalni PDF ostaju isti. Pet pitanja 04 i statusi drugih predavanja ostaju nezavisni. Stara evidencija pregleda sačuvana je u `istorija/pre-dorade-beleski-2026-10-02/`.
+
+## Odobrena terminološka zamena — 2026-10-09
+
+Korisnikova stvarna poruka nakon liste tri pojavljivanja:
+
+> zameni sve
+
+Korisnik je zatim izričito zatražio primenu plana „Zamena termina „kapija“ u slajdovima“. Za 01 odobrena je samo zamena „dve I kapije + invertor“ → „dva I gejta + invertor“ na 01-s027. Ovo je dozvola za doradu tog izraza i obnovu pogođenih potvrda; ne predstavlja novo prihvatanje cele prezentacije ili novih beležaka. Odobrenje „I approve 01“ ostaje vezano za prethodno pregledanu verziju.
