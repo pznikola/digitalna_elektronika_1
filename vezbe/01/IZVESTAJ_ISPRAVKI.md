@@ -90,3 +90,14 @@ Postojeće formule, šeme i strelice Karnoovih karata nisu menjane ovom dopunom.
 RTL primeri ne sadrže `timeunit` ili `timeprecision`: jedinica i preciznost podešene su u simulacionim skriptama. Vremenske deklaracije zadržane su u testbenchovima.
 
 PDF listinzi imaju `ActualText` sa izvornim tekstom, tako da kopiranje celog koda čuva znakove, obične razmake, uvlačenje i nove redove. Zajednička provera poredi izvučeni tekst sa `.sv` izvorom i simulira kopirani kod; vizuelni prikaz listinga nije promenjen.
+
+## Dopuna Verilog primera — 09.10.2026.
+
+Dodato 4 novih glavnih primera, svaki sa testbenchom i lokalnim Makefile-om. Kod je uključen uz postojeća rešenja, bez promene njihovih formula i šema.
+
+- [code/Zadatak_1/b](code/Zadatak_1/b/zadatak.sv)
+- [code/Zadatak_1/c](code/Zadatak_1/c/zadatak.sv)
+- [code/Zadatak_1/d](code/Zadatak_1/d/zadatak.sv)
+- [code/Zadatak_4/c](code/Zadatak_4/c/zadatak.sv)
+
+Simulacija: `make` u folderu primera pokreće Verilator; `make run_iverilog` pokreće Icarus. Zajednički `make -C vezbe check-sv` obuhvata i ovu dopunu. Izvorni tekst listinga čuva PDF ActualText; `check-pdf-code` proverava kopiranje i simulaciju izvučenog koda.

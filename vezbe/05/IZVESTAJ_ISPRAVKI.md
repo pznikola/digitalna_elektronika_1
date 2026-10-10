@@ -884,3 +884,16 @@ Automatska provera sada vezuje rezultate za stvarne ćelije/formule, uključuje 
 ### 05-A17 — razmak između postupka i objašnjenja u tabelama 15–18
 
 **Mesto:** `tab:zbir-1`–`tab:zbir-4`, DOCX blok 121. **Pre:** razmak u definiciji kolona pripadao je poslednjoj računskoj koloni, pa su crte sabiranja dopirale do objašnjenja. **Posle:** posebna prazna kolona širine 8 mm razdvaja račun od teksta; crte ostaju u računskom delu. **Vrsta:** poboljšanje čitljivosti po zahtevu korisnika. Svi bitovi, prenosi, korekcije i brojevi ostaju isti. Parser je prilagođen praznoj razdelnoj koloni. Lokalna izgradnja, 256.757 provera i strukturna provera prolaze. Konačne fizičke stranice 12 i 13 pregledane su na 130 dpi; ostalih 15 stranica identično je prethodnom PDF-u na 110 dpi.
+
+## Dopuna Verilog primera — 09.10.2026.
+
+Dodato 6 novih glavnih primera, svaki sa testbenchom i lokalnim Makefile-om. Kod je uključen uz postojeća rešenja, bez promene njihovih formula i šema.
+
+- [code/Grej/koder](code/Grej/koder/zadatak.sv)
+- [code/Grej/dekoder](code/Grej/dekoder/zadatak.sv)
+- [code/BCD_sabirac](code/BCD_sabirac/zadatak.sv)
+- [code/Parnost](code/Parnost/zadatak.sv)
+- [code/Haming/koder](code/Haming/koder/zadatak.sv)
+- [code/Haming/korektor](code/Haming/korektor/zadatak.sv)
+
+Simulacija: `make` u folderu primera pokreće Verilator; `make run_iverilog` pokreće Icarus. Zajednički `make -C vezbe check-sv` obuhvata i ovu dopunu. Izvorni tekst listinga čuva PDF ActualText; `check-pdf-code` proverava kopiranje i simulaciju izvučenog koda.

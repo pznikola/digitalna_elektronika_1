@@ -211,7 +211,7 @@ def equivalent(case, work, engine='verilator', four_state=False):
              '--Mdir', str(work / 'obj_dir'), '-j', '2', *map(str, sv_designs), 'audit_tb.sv'], work)
         run([str(work / 'obj_dir/Vaudit_tb')], work)
     else:
-        run(['iverilog', '-g2012', '-s', 'audit_tb', '-o', 'audit', icarus_timescale(work),
+        run(['iverilog', '-g2012', '-s', 'audit_tb', '-o', 'audit', '-c', icarus_timescale(work),
              *map(str, sv_designs), 'audit_tb.sv'], work)
         run(['vvp', 'audit'], work)
     signals, events = compare(vcd(work / 'golden.vcd'), vcd(work / 'audit.vcd'), instances,
@@ -272,7 +272,7 @@ def check(n, output, students=True, equivalence=True, four_state=True):
                     simulate(tb.parent, tb.stem, work / f'student-{index}-{engine}', engine, engine == 'iverilog')
                     proof['student_testbenches'].append(dict(path=str(tb.relative_to(ROOT)), engine=engine, result='pass'))
                 print(n, str(tb.relative_to(ROOT)), 'Verilator + Icarus: pass', flush=True)
-        if equivalence:
+        if equivalence and n in ['01', '02']:
             for i, case in enumerate(cases(n)):
                 result = equivalent(case, work / f'equivalence-{i}')
                 proof['equivalence'].append(result)
@@ -289,7 +289,7 @@ def check(n, output, students=True, equivalence=True, four_state=True):
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('exercise', choices=['01', '02', 'negative'])
+    p.add_argument('exercise', choices=['01', '02', '04', '05', 'negative'])
     p.add_argument('--inside', action='store_true')
     p.add_argument('--output')
     p.add_argument('--only', choices=['students', 'equivalence', 'four-state'])

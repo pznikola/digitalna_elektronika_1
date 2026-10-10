@@ -18,4 +18,12 @@ Potvrda sadržaja važi samo kada se poklapaju lokalni izvori i dokazni/prateći
 
 Za ponavljanje komandi i zavisnosti videti [zajednički README](../README.md). Za ponovnu stručnu proveru polazi se od lokalnih izveštaja, `code/PREGLED_DOKAZA.md` (03–08) i iz izvora vezanih provera. Nerešeni studentski zadaci provereni su privatno u skriptama/dokaznim prilozima; studentska rešenja nisu dopisana.
 
-SystemVerilog dopuna koristi `systemverilog_check.py` za studentske/pomoćne testbenchove, iscrpne GHDL/Verilator tragove i GHDL/Icarus X/Z provere. `vendor_check.py` proverava stvarne Quartus/Questa skripte. `pdf_code_check.py` proverava tačan tekst svih 14 PDF listinga i simulira kopirani RTL. `clean_build.py` sada ponavlja i ceo `make check` iz nove kopije. Konačni zbirni dokaz dopune je `dokazi/systemverilog_provera.json`, a prethodna evidencija pregleda čuva se zasebno; istorijski dokazi nisu prepisani novim rezultatima.
+SystemVerilog dopuna koristi `systemverilog_check.py` za studentske/pomoćne testbenchove, iscrpne GHDL/Verilator tragove i GHDL/Icarus X/Z provere. `vendor_check.py` proverava stvarne Quartus/Questa skripte. `pdf_code_check.py` proverava tačan tekst svih 37 PDF listinga i simulira kopirani RTL. `clean_build.py` sada ponavlja i ceo `make check` iz nove kopije. Dokaz početnog prelaska je `dokazi/systemverilog_provera.json`; za 19 dodatnih primera merodavan je `dokazi/dopuna_provera.json`, a prethodna evidencija pregleda čuva se zasebno; istorijski dokazi nisu prepisani novim rezultatima.
+
+`dopuna_check.py` proverava očuvanje originala, kompletnost 19 novih primera i sedam namernih grešaka. HDL provere i PDF izdvajanje sada obuhvataju 01/02/04/05. `dokazi/dopuna_originals.json` sadrži zamrznute otiske i spisak novih primera; prethodna potvrda pregleda čuva se u `dokazi/rucni_pregled_pre_dopuna.json`.
+
+
+`zadatak4_check.py` proverava tri nova glavna modula i pomoćni konvertor vežbe 02, zadatka 4, odsustvo ciklusa kroz stvarne hijerarhijske zavisnosti i pet namernih grešaka u RTL-u. `dokazi/zadatak4_originals.json` čuva otiske svih 89 ranijih SV i 32 VHDL izvora; ranija zabrana izmene zadatka ostaje istorija u `dopuna_originals.json`. Prethodni pregled sačuvan je u `dokazi/rucni_pregled_pre_zadatak4.json`. Važeći rezultat nove izmene vodi se u `dokazi/zadatak4_provera.json` po završetku oba prolaza. PDF provera podržava i kompletan pomoćni modul sa njegovim testbenchom.
+
+
+Provere očuvanja izvora dopuštaju samo tri evidentirana brisanja komentara u testbenchovima; izvršivi SV sadržaj i VHDL otisci porede se sa prethodnim verzijama. Tačne izmene i prethodni izvori čuvaju se u `PROVERA/dokazi/student_text_cleanup.json` (putanja od foldera vezbe). Svaka druga promena ranijih programa poništava proveru.

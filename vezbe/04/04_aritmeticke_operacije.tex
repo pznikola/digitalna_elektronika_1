@@ -36,6 +36,14 @@
 \newcommand{\napomena}[1]{\begin{tcolorbox}[colback=gray!10,colframe=black,boxrule=0.5pt,breakable]#1\end{tcolorbox}}
 \newcommand{\redlinija}{\arrayrulecolor{black!28}\specialrule{0.3pt}{2pt}{2pt}\arrayrulecolor{black}}
 \newcommand{\kod}[1]{\ensuremath{\mathtt{#1}}}
+\usepackage{minted}
+\usepackage{accsupp,stringenc}
+\newcommand{\BeginVerilogCopy}[1]{%
+  \EdefUnescapeHex\CodeCopyRaw{\pdffiledump length\pdffilesize{#1} {#1}}%
+  \StringEncodingConvert\CodeCopyUnicode{\CodeCopyRaw}{utf8}{utf16be}%
+  \EdefEscapeHex\CodeCopyHex{\CodeCopyUnicode}%
+  \BeginAccSupp{method=hex,unicode,ActualText=\CodeCopyHex}%
+}
 \begin{document}
 \hypersetup{pageanchor=false}
 \begin{titlepage}
@@ -1184,6 +1192,21 @@ Realizacija je prikazana na slici~\ref{fig:comp4}. Jednake oznake na odvojenim p
 \caption{Četvorobitni komparator od dva dvobitna komparatora.}\label{fig:comp4}
 \end{figure}
 
+\FloatBarrier
+\Needspace{8\baselineskip}
+\noindent\begin{minipage}{\linewidth}
+Verilog kod: četvorobitni komparator sa slike~\ref{fig:comp4}. Primeri su napisani u SystemVerilogu (\texttt{.sv}) i simuliraju se Verilatorom. Dva pomoćna dvobitna komparatora porede polovine; završno invertovanje ostvareno je NI kolom sa vezanim ulazima.\par
+\BeginVerilogCopy{code/Samostalni/Zadatak_3/a/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Samostalni/Zadatak_3/a/zadatak.sv}
+\EndAccSupp{}
+
+Pomoćni moduli: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/04/code/Samostalni/Zadatak_3/a/komparator2.sv}{\texttt{komparator2.sv}}.\par
+
+Testbench i automatske provere: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/04/code/Samostalni/Zadatak_3/a/tb_zadatak.sv}{\texttt{tb\_zadatak.sv}}.\par
+\end{minipage}
+
+
+
 % Izvor DOCX: blok 141
 b) Neka je $X=A$, $Y=\lfloor C/2\rfloor$ i $Z=2B$. Prvi četvorobitni komparator i multiplekser određuju $M=\max(X,Y)$. Drugi poredi $M$ sa $Z_{3:0}$. Petobitni izlaz bira $Z$ kada je $Z_4=1$ ili $Z_{3:0}>M$, a inače bira $0M$. Tako visoki bit broja $2B$ ne može biti izgubljen. U natpisima multipleksera $s?U:V$ označava izbor $U$ kada je $s=1$, odnosno $V$ kada je $s=0$.
 
@@ -1192,6 +1215,21 @@ b) Neka je $X=A$, $Y=\lfloor C/2\rfloor$ i $Z=2B$. Prvi četvorobitni komparator
 \includegraphics[width=0.9\linewidth]{Zadatak_3/maksimum}
 \caption{Realizacija maksimuma tri neoznačene vrednosti.}\label{fig:max}
 \end{figure}
+
+\FloatBarrier
+\Needspace{8\baselineskip}
+\noindent\begin{minipage}{\linewidth}
+Verilog kod: mreža maksimuma sa slike~\ref{fig:max}. Pomeranja su opisana povezivanjem bita i dopunom nulama. Izrazi sa ponovljenim selekcionim bitom opisuju I kola na svim podatkovnim linijama multipleksera.\par
+\BeginVerilogCopy{code/Samostalni/Zadatak_3/b/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Samostalni/Zadatak_3/b/zadatak.sv}
+\EndAccSupp{}
+
+Pomoćni moduli: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/04/code/Samostalni/Zadatak_3/b/komparator2.sv}{\texttt{komparator2.sv}}, \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/04/code/Samostalni/Zadatak_3/b/komparator4.sv}{\texttt{komparator4.sv}}.\par
+
+Testbench i automatske provere: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/04/code/Samostalni/Zadatak_3/b/tb_zadatak.sv}{\texttt{tb\_zadatak.sv}}.\par
+\end{minipage}
+
+
 
 % Izvor DOCX: blok 143
 \FloatBarrier
@@ -1282,6 +1320,18 @@ s_{2} = \ b_{1}a_{1} + a_{1}a_{0}b_{0} + b_{1}b_{0}a_{0}
 \end{equation}
 
 
+
+\FloatBarrier
+\Needspace{8\baselineskip}
+\noindent\begin{minipage}{\linewidth}
+Verilog kod: dvobitni sabirač u formi minimizovanih zbirova proizvoda, prema jednačinama~\eqref{eq:3.4.2}--\eqref{eq:3.4.4}. Svaki izlazni bit opisan je zasebno.\par
+\BeginVerilogCopy{code/Samostalni/Zadatak_4/a_zp/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Samostalni/Zadatak_4/a_zp/zadatak.sv}
+\EndAccSupp{}
+
+Testbench i automatske provere: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/04/code/Samostalni/Zadatak_4/a_zp/tb_zadatak.sv}{\texttt{tb\_zadatak.sv}}.\par
+\end{minipage}
+
 % Izvor DOCX: blok 153
 Kada su na raspolaganju XOR kola, dobijamo kompaktniju realizaciju. Zajednički signal $p_1=a_1\oplus b_1$ koristi se i za $s_1$ i za prenos. Prenos iz bita 0 u bit 1 označavamo sa $c_1=a_0b_0$; ulazni prenos $c_0$ je nula. Jednake oznake u šemi predstavljaju isti signal:
 
@@ -1305,6 +1355,19 @@ Na slici~\ref{fig:adder} prikazana je realizacija sa tri XOR, tri I i jednim ILI
 \includegraphics[width=0.9\linewidth]{Zadatak_4/sabirac}
 \caption{Realizacija dvobitnog sabirača.}\label{fig:adder}
 \end{figure}
+
+\FloatBarrier
+\Needspace{8\baselineskip}
+\noindent\begin{minipage}{\linewidth}
+Verilog kod: XOR realizacija sabirača sa slike~\ref{fig:adder}. Prenos $c_1$, signal $p_1$ i izlazi I kola imaju zasebne međusignale.\par
+\BeginVerilogCopy{code/Samostalni/Zadatak_4/a_xor/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Samostalni/Zadatak_4/a_xor/zadatak.sv}
+\EndAccSupp{}
+
+Testbench i automatske provere: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/04/code/Samostalni/Zadatak_4/a_xor/tb_zadatak.sv}{\texttt{tb\_zadatak.sv}}.\par
+\end{minipage}
+
+
 
 % Izvor DOCX: blok 157
 \begin{enumerate}[label=\alph*),start=2,leftmargin=*]
@@ -1419,6 +1482,21 @@ Na slici~\ref{fig:x} prikazano je generisanje funkcije $X$.
 \caption{Realizacija $X=(A+1)(B+1)$; raspored bita na granama označava pomeranje i dopunu nulama.}\label{fig:x}
 \end{figure}
 
+\FloatBarrier
+\Needspace{8\baselineskip}
+\noindent\begin{minipage}{\linewidth}
+Verilog kod: mreža $X=(A+1)(B+1)$ sa slike~\ref{fig:x}. Nije upotrebljen operator množenja: sabirač, raspored bita i petobitni multiplekser prate nacrtanu realizaciju.\par
+\BeginVerilogCopy{code/Samostalni/Zadatak_4/b_x/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Samostalni/Zadatak_4/b_x/zadatak.sv}
+\EndAccSupp{}
+
+Pomoćni moduli: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/04/code/Samostalni/Zadatak_4/b_x/sabirac2.sv}{\texttt{sabirac2.sv}}.\par
+
+Testbench i automatske provere: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/04/code/Samostalni/Zadatak_4/b_x/tb_zadatak.sv}{\texttt{tb\_zadatak.sv}}.\par
+\end{minipage}
+
+
+
 % Izvor DOCX: blok 173
 Za konačan izlaz, šestobitni multiplekser bira $0X$ kada je $A\le B$, odnosno $X0=2X$ kada je $A>B$. Zatim se svih šest izlaznih bita maskira signalom $\overline{E}$, gde je $E=(A=B)$. Time je pri jednakosti izlaz nula, što je zasebna grana zadate funkcije. Šestobitna unutrašnja putanja omogućava neposredno pomeranje celog petobitnog $X$; za dozvoljene parove $A\ne B$ najveća izlazna vrednost je 24, pa je najviši izlazni bit uvek nula.
 
@@ -1430,6 +1508,21 @@ Kompletna realizacija prikazana je na slici~\ref{fig:y}.
 \includegraphics[width=0.9\linewidth]{Zadatak_4/kompletna}
 \caption{Kompletna realizacija funkcije $Y$, uključujući granu $A=B$.}\label{fig:y}
 \end{figure}
+
+\FloatBarrier
+\Needspace{8\baselineskip}
+\noindent\begin{minipage}{\linewidth}
+Verilog kod: kompletna mreža sa slike~\ref{fig:y}. Šestobitni multiplekser bira $X$ ili $2X$, a šest I kola postavlja izlaz na nulu pri $A=B$.\par
+\BeginVerilogCopy{code/Samostalni/Zadatak_4/b_y/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Samostalni/Zadatak_4/b_y/zadatak.sv}
+\EndAccSupp{}
+
+Pomoćni moduli: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/04/code/Samostalni/Zadatak_4/b_y/komparator2.sv}{\texttt{komparator2.sv}}, \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/04/code/Samostalni/Zadatak_4/b_y/proizvod.sv}{\texttt{proizvod.sv}}, \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/04/code/Samostalni/Zadatak_4/b_y/sabirac2.sv}{\texttt{sabirac2.sv}}.\par
+
+Testbench i automatske provere: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/04/code/Samostalni/Zadatak_4/b_y/tb_zadatak.sv}{\texttt{tb\_zadatak.sv}}.\par
+\end{minipage}
+
+
 
 % Izvor DOCX: blok 176
 \FloatBarrier

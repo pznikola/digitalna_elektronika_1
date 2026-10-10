@@ -512,7 +512,7 @@ Nakon minimizacije dobijaju se minimalne funkcije u formi zbira proizvoda~\eqref
 formi proizvoda zbirova~\eqref{eq:zad21_min_pz}. Za realizaciju funkcije~\eqref{eq:zad21_min_zp} potrebna su tri I kola i jedno
 troulazno ILI kolo; za~\eqref{eq:zad21_min_pz} tri ILI kola i jedno troulazno I kolo.
 Obe realizacije dodatno zahtevaju tri invertora za $A$, $C$ i $D$, ako negacije
-nisu dostupne: ukupno sedam kola. Na šemama je radi prikaza zajedničkog ulaznog razvoda zadržano po dva
+nisu dostupne: ukupno sedam kola. Na šemama je radi prikaza zajedničkog ulaznog razvoda prikazano po dva
 invertujuća kola za svaki ulaz: prvo daje komplement, a drugo direktni signal.
 Taj razvod nije minimalan i ne pripada navedenom broju od sedam kola;
 prikazana šema ZP sa celim razvodom ima dvanaest kola. Pri minimizaciji
@@ -591,6 +591,19 @@ Na slici~\ref{fig:zadatak1-proiz-ni} je predstavljena implementacija funkcije~\e
   \label{fig:zadatak1-proiz-ni}
 \end{figure}
 
+\FloatBarrier
+\Needspace{8\baselineskip}
+\noindent\begin{minipage}{\linewidth}
+Verilog kod: NI realizacija sa slike~\ref{fig:zadatak1-proiz-ni}. Svaka dodela predstavlja jedno NI kolo. Na šemi je prikazan potpun ulazni razvod sa osam invertora.\par
+\BeginVerilogCopy{code/Zadatak_1/b/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_1/b/zadatak.sv}
+\EndAccSupp{}
+
+Testbench i automatske provere: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_1/b/tb_zadatak.sv}{\texttt{tb\_zadatak.sv}}.\par
+\end{minipage}
+
+
+
 \noindent\makebox[\linewidth]{\dotfill}
 
 c) U okviru ove tačke se takođe zahteva realizacija funkcije~\eqref{eq:zad21} korišćenjem \textbf{isključivo
@@ -646,6 +659,19 @@ Na slici~\ref{fig:zadatak1-2-ni} je predstavljena implementacija funkcije~\eqref
   \caption{Implementacija funkcije~\eqref{eq:zad21} korišćenjem isključivo dvoulaznih NI kola.}
   \label{fig:zadatak1-2-ni}
 \end{figure}
+
+\FloatBarrier
+\Needspace{8\baselineskip}
+\noindent\begin{minipage}{\linewidth}
+Verilog kod: realizacija isključivo dvoulaznim NI kolima sa slike~\ref{fig:zadatak1-2-ni}. Međusignali prate izlaze pojedinačnih kola.\par
+\BeginVerilogCopy{code/Zadatak_1/c/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_1/c/zadatak.sv}
+\EndAccSupp{}
+
+Testbench i automatske provere: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_1/c/tb_zadatak.sv}{\texttt{tb\_zadatak.sv}}.\par
+\end{minipage}
+
+
 
 \FloatBarrier   % place all pending floats before carrying on
 
@@ -717,6 +743,19 @@ Na slici~\ref{fig:zadatak1-2-nili} je predstavljena implementacija funkcije~\eqr
   \caption{Implementacija funkcije~\eqref{eq:zad21} korišćenjem isključivo dvoulaznih NILI kola.}
   \label{fig:zadatak1-2-nili}
 \end{figure}
+
+\FloatBarrier
+\Needspace{8\baselineskip}
+\noindent\begin{minipage}{\linewidth}
+Verilog kod: realizacija isključivo dvoulaznim NILI kolima sa slike~\ref{fig:zadatak1-2-nili}. Inverzije se dobijaju vezivanjem oba ulaza istog kola.\par
+\BeginVerilogCopy{code/Zadatak_1/d/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_1/d/zadatak.sv}
+\EndAccSupp{}
+
+Testbench i automatske provere: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_1/d/tb_zadatak.sv}{\texttt{tb\_zadatak.sv}}.\par
+\end{minipage}
+
+
 
 %\FloatBarrier   % place all pending floats before carrying on
 \FloatBarrier
@@ -860,7 +899,7 @@ Z_{MIN\_PZ} = (\bar{B} + \bar{C})(\bar{B} + \bar{D})(\bar{A} + \bar{C})
 \label{eq:zad22_min_pz}
 \end{equation}
 
-Obe prikazane dvonivojske forme zahtevaju po četiri glavna kola i četiri invertora. To poređenje ne dokazuje minimalnost među svim višenivojskim realizacijama. Na slici je, kao u zadatku 1, zadržan potpun ulazni razvod sa osam invertora,
+Obe prikazane dvonivojske forme zahtevaju po četiri glavna kola i četiri invertora. To poređenje ne dokazuje minimalnost među svim višenivojskim realizacijama. Na slici je, kao u zadatku 1, prikazan potpun ulazni razvod sa osam invertora,
 pa prikazana šema sa razvodom ima dvanaest kola. Za realizaciju sa osam kola
 dovoljno je po jedno invertovanje svakog ulaza.
 
@@ -1052,7 +1091,7 @@ C_0 = A_0 B_0
 \end{equation}
 
 Na slici~\ref{fig:zadatak3} je predstavljena implementacija funkcije $C = A \cdot B$.
-Ulazni razvod zadržan je radi istog načina prikaza kao u prethodnim zadacima;
+Ulazni razvod daje komplement i direktni signal svakog ulaza;
 pošto se koriste samo direktni ulazi, njegovih osam invertora nije potrebno
 u minimalnoj realizaciji.
 
@@ -1234,6 +1273,20 @@ Testbench koji simulira prelazak $ABCD = 1111$ \textrightarrow~$ABCD = 1110$ je 
 
 
 \newpage
+
+
+\FloatBarrier
+\Needspace{8\baselineskip}
+\noindent\begin{minipage}{\linewidth}
+Verilog kod: proširena realizacija jednačine~\eqref{eq:zad4_2}. Član $AC$ ostaje aktivan tokom oba smera promene $D$ kada je $A=C=1$. Svaka dodela ima inertno kašnjenje $T$. Podrazumevano $T=1$ znači 1\,ns prema podešavanju simulatora, bez vremenskih deklaracija u RTL-u. Testbench poredi ovu mrežu sa mrežom koja ima hazard, uz $T=1\,\mathrm{ns}$ i $T=7\,\mathrm{ns}$.\par
+\BeginVerilogCopy{code/Zadatak_4/c/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_4/c/zadatak.sv}
+\EndAccSupp{}
+
+Pomoćni moduli: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_4/c/sa_hazardom.sv}{\texttt{sa\_hazardom.sv}}.\par
+
+Testbench i automatske provere: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/01/code/Zadatak_4/c/tb_zadatak.sv}{\texttt{tb\_zadatak.sv}}.\par
+\end{minipage}
 
 \subsection{Zadatak 5}\label{zad_5}
 

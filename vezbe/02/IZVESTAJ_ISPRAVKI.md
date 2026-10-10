@@ -1,6 +1,6 @@
 # Izveštaj provere — vežba 02
 
-Pregled obuhvata postojeći LaTeX, njegove uključene VHDL izvore i izmenjive crteže. Početne verzije sačuvane su u arhivi navedenoj u `../PROVERA/pocetno_stanje.json`. Originalni dokument izvan foldera 02 nije menjan. Brojevi stranica i otisci konačnog PDF-a vode se u zajedničkom registru, nakon završnog vizuelnog pregleda.
+Pregled obuhvata postojeći LaTeX, uključene SystemVerilog primere, sačuvane VHDL izvore i izmenjive crteže. Raniji nalazi čuvaju istoriju prethodnih rešenja; važeća izmena zadatka 4 opisana je u završnom odeljku. Početne verzije sačuvane su u arhivi navedenoj u `../PROVERA/pocetno_stanje.json`. Originalni dokument izvan foldera 02 nije menjan. Brojevi stranica i otisci konačnog PDF-a vode se u zajedničkom registru, nakon završnog vizuelnog pregleda.
 
 Provere se pokreću komandom `make check`. Čitaju se stvarne formule, redovi tabela i oblasti Karnoovih karata; proverava se kompajlirani VHDL. Logički opisi starijih Draw.io crteža ručno su izvedeni iz nacrtanih veza i vezani za SHA-256 izvora u `code/pregled_sema.json`. Promena crteža poništava tu potvrdu; Python ne predstavlja ručno izvedeni opis kao automatsko prepoznavanje svih slobodnih krajeva vodova.
 
@@ -22,7 +22,7 @@ Provere se pokreću komandom `make check`. Čitaju se stvarne formule, redovi ta
 | 02-S06 | Zadatak 4a/b, tekst uz `fig:Zadatak4_a` i `tab:bcd-7seg-b` | Objašnjeno da se simbol NE, uz ograničenje na NILI, ostvaruje spajanjem ulaza NILI kola. Oznaka b u nedozvoljenoj ćeliji razdvojena od segmenta b; don’t care se koristi samo uz garanciju ispravnog BCD ulaza. Precizirano merilo minimizacije i uklonjena preširoka tvrdnja pre `eq:zad4-a`. | Idempotentnost X+X=X; obe tabele, svi segmenti, sve formule i svih 14 karata za segmente. |
 | 02-S07 | Zadatak 4c, `tab:signali-bcd`, red OFF | „Kada je postavljen na 0 svi segmenti su isključeni” → **na 1**. Aktivni nivo u tabeli i nacrtana šema već su bili 1. | a′=a·¬off_int; svi ulazi kontrolnih šema. |
 | 02-S08 | Zadatak 4c, ista tabela, LZ_IN/LZ_OUT | Nejasno „vodeće nule isključene” → LZ_IN=1 označava da su sve više cifre nule; LZ_OUT=1 da su i trenutna i sve više cifre nule. Najniža cifra ima LZ_IN=OFF=0. | Izraz `eq:lzout`; 0000→0, 0231→231, 0504→504 i ceo četvorocifreni domen. |
-| 02-S09 | Zadatak 4c, napomena posle kaskade, `eq:feedback` | Izvor je pominjao pamćenje, ali nije zadao uslove ispravnog novog prikaza. Dodat stacionarni izraz F=I(R+F), gde R dolazi od izvornih ulaza, i protokol resetovanja pri uključivanju i svakoj promeni podatka. | Za R=0,I=1 i F=0 i F=1 zadovoljavaju jednačinu. Greška → ispravan ulaz bez resetovanja ostavlja E; reset briše F, a prisutna greška ga ponovo postavlja. Trajanje impulsa nije izmišljeno: zavisi od nezadatih kašnjenja. |
+| 02-S09 | Istorijska verzija zadatka 4c, uklonjena `eq:feedback`; zamenjeno nalazom 02-S11 | Izvor je pominjao pamćenje, ali nije zadao uslove ispravnog novog prikaza. Dodat stacionarni izraz F=I(R+F), gde R dolazi od izvornih ulaza, i protokol resetovanja pri uključivanju i svakoj promeni podatka. | Za R=0,I=1 i F=0 i F=1 zadovoljavaju jednačinu. Greška → ispravan ulaz bez resetovanja ostavlja E; reset briše F, a prisutna greška ga ponovo postavlja. Trajanje impulsa nije izmišljeno: zavisi od nezadatih kašnjenja. |
 | 02-S10 | Zadatak 4c, naslov i tekst uz `fig:Zadatak_4c_CompleteBCDLogic` | Šema koja razrađuje samo a′ bila je opisana kao kompletan konvertor. Naslov i tekst sada navode njen stvarni obim. ERROR i ostali segmenti deo su apstraktnog bloka, a rešenja samostalnih zadataka b′–g′ nisu dopisana. | Pregled svih oznaka i grana šeme. |
 | 02-V01 | `code/Zadatak_2/a/zadatak.vhd`, instanca UMUX | `T => 20 ns` → `T => T`; spoljni generički parametar ranije nije uticao na ponašanje. | GHDL sa T=7 ns: svaka promena očekivanog izlaza kasni 7 ns, i ne ostaje 20 ns. |
 | 02-V02 | `code/Zadatak_3/{b,c}/decoder.vhd` i `3/a/zadatak.vhd` | Grana `others` tretirala je nepoznatu adresu kao 111, a nepoznatu dozvolu kao omogućeno kolo. Sada je 111 eksplicitna grana, a nepoznati ulazi daju X; sigurno isključeno kolo daje sve jedinice. Model bez enable takođe ne skriva nepoznatu adresu nulama. | GHDL: svih 64 binarnih kombinacija dozvola/adrese, U i Z na adresi, nepoznata dozvola, sigurno isključenje. Binarna funkcija ostala ista. |
@@ -45,7 +45,7 @@ Tačni tekstualni zapisi pre/posle i pojedinačna obrazloženja nalaze se u [`na
 
 Šenonovo razlaganje, binarno dekodiranje, De Morganove transformacije, pokrivanje susednih polja Karnoove karte i logika BCD segmenata provereni su algebarski i iscrpnim konačnim domenima. Broj testova nije potvrda vizuelnog pregleda. Za stručne dopune razlikujemo dokaz od pretpostavke:
 
-1. **Kaskada BCD:** postavka traži kombinacionu funkciju trenutnog broja, a sačuvano izvorno rešenje ima povratnu spregu. Ono radi uz opisani protokol inicijalizacije. Predlog budućeg poboljšanja je da se globalna greška računa neposredno iz originalnih DCBA svake cifre, pre nametanja C0/D0. Time bi se izbegli pamćenje i potreba za INIT. Ta alternativa nije potajno uvedena u postojeću šemu.
+1. **Kaskada BCD:** u sadašnjem rešenju globalna greška potiče od izvornih DCBA ulaza. Više cifre daju ERROR neposredno; jedinice imaju zasebnu detekciju pre nametanja C0/D0. Mreža je kombinaciona, bez pamćenja i INIT-a. Ranije rešenje sa povratnom spregom i njegov reset protokol ostaju istorijski nalaz 02-S09, a ne važeće uputstvo.
 2. **Minimum u samostalnom zadatku 2:** postavka ne definiše potpuno biblioteku „osnovnih kola”. Dodat zahtev da se biblioteka i deljenje međurezultata navedu. Privatna računska provera koristi NE, I i ILI sa proizvoljnim brojem ulaza, zajedničke međurezultate i besplatne konstante. Studentskom dokumentu nisu dodata rešenja.
 3. **Dekoder 13 ulaza:** uravnoteženo stablo dvoulaznih I kola ima dovoljnu dubinu četiri, uz zanemareno kašnjenje invertora iz postavke. Provereno je svih 8192 minterma. To nije tvrdnja da je određena celokupna mreža globalno minimalna po broju kola.
 4. **Simulacije hazarda:** vremenski zaključci važe za navedeni model i promenu jednog ulaza. Inertna dodela `after T` i privremena transportna varijanta proverene su odvojeno; simulaciona kašnjenja nisu tvrdnja o sintetizovanom hardveru.
@@ -69,3 +69,28 @@ Dekoderi zadržavaju sve binarne grane i neodređeni rezultat za nepoznatu adres
 Zajedničke provere pokrivaju sve binarne kombinacije, jednoulazne prelaze, interne signalne putanje i kašnjenja, uz podrazumevani T i 7 ns i kratke impulse. Aktivne Quartus/Questa skripte koriste SystemVerilog; VHDL varijante imaju sufiks `_vhdl`. Formule, šeme i Karnoove karte nisu menjane ovom dopunom. Raniji odeljci izveštaja zadržani su kao istorija prethodne verzije.
 
 PDF listinzi imaju `ActualText` sa izvornim tekstom, tako da kopiranje celog koda čuva znakove, obične razmake, uvlačenje i nove redove. Zajednička provera poredi izvučeni tekst sa `.sv` izvorom i simulira kopirani kod; vizuelni prikaz listinga nije promenjen.
+
+## Dopuna Verilog primera — 09.10.2026.
+
+Dodato 3 novih glavnih primera, svaki sa testbenchom i lokalnim Makefile-om. Kod je uključen uz postojeća rešenja, bez promene njihovih formula i šema.
+
+- [code/Zadatak_3/d/and](code/Zadatak_3/d/and/zadatak.sv)
+- [code/Zadatak_3/d/only_decoders](code/Zadatak_3/d/only_decoders/zadatak.sv)
+- [code/Zadatak_3/d/cascade](code/Zadatak_3/d/cascade/zadatak.sv)
+
+Simulacija: `make` u folderu primera pokreće Verilator; `make run_iverilog` pokreće Icarus. Zajednički `make -C vezbe check-sv` obuhvata i ovu dopunu. Izvorni tekst listinga čuva PDF ActualText; `check-pdf-code` proverava kopiranje i simulaciju izvučenog koda.
+
+U toj dopuni zadatak 4 bio je odložen. Sada je obrađen sledećom zasebnom izmenom.
+
+
+## 02-S11 — Zadatak 4: kombinaciona kaskada i kompletan SV kod
+
+Izmenjena postavka c) izričito zahteva kombinacionu mrežu. U `fig:Zadatak_4c_4Digits` uklonjeni su kolo 4, INIT i veza ERROR jedinica ka ILI kolu 3. Dodata su ILI/I kola koja računaju R0=D0(C0+B0) iz istih originalnih ulaza jedinica, prikazanih ponovljenim oznakama. Izlaz kola 3 direktno postaje G. Sačuvana su ILI kola 1/2, četiri bloka i segmenti; nekadašnje oznake N−1/N−2 i tri tačke zamenjene su ciframa 3/2 i potpunim LZ lancem.
+
+Nove jednačine `eq:raw-error`, `eq:global-error` i `eq:force-e` proveravaju se iz stvarnog LaTeX-a. Svih 65.536 ulaza poredi se po svih sedam segmenata. Greška → 0504 prelazi na 504 bez inicijalizacije; 0000 prikazuje jednu nulu, a unutrašnje nule ostaju vidljive. Ne tvrdi se odsustvo prolaznih impulsa pri promeni više ulaza; funkcija se proverava nakon smirivanja kombinacione mreže.
+
+Dodati su `code/Zadatak_4/{a,b,c}/zadatak.sv`, pomoćni `c/bcd_cifra.sv` i četiri testbencha. Tačka a) prati proizvode zbirova kroz 26 NILI kola, uključujući četiri invertora sa spojenim ulazima i zajedničke članove. Broj 26 opisuje ovu mrežu, bez tvrdnje o globalnom minimumu. Tačka b) koristi EXNILI za a i postojeće pojednostavljene izraze za ostale segmente; ulazi 10–15 nisu deo njenog ugovora. Tačka c) eksplicitno povezuje četiri instance, sa nepovezanim ERROR jedinica. U RTL-u nema vremenskih deklaracija, kašnjenja ni dodatnih parametara.
+
+Četiri cela modula uključena su uz rešenja; isto izvorno uvlačenje i novi redovi dostupni su kroz ActualText. Automatska provera sada simulira i listing pomoćnog modula njegovim zasebnim testbenchom. Graph provera prati stvarne assign zavisnosti kroz portove svih instanci. Pet namernih grešaka mora završiti testbench assertion greškom: polaritet segmenta, R0 detekcija, gašenje jedinica, redosled segmenata i ERROR zavisan od OFF.
+
+Sačuvani su svi prethodni VHDL i SV izvori, stari dokazni zapisi i prethodni pregled. Završna funkcionalna, čista i vizuelna provera evidentira se u [novom dokaznom zapisu](../PROVERA/dokazi/zadatak4_provera.json); taj zapis ne zamenjuje prethodne rezultate retroaktivno.

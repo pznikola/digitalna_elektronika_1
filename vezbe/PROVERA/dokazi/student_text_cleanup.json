@@ -1,0 +1,136 @@
+{
+  "instruction": "Ukloniti istorijske komentare iz SV koda i studentskog teksta; zadržati tehnička objašnjenja.",
+  "text_changes": [
+    {
+      "path": "01/01_kombinacione_hazardi.tex",
+      "before_sha256": "8d583047d04c8745c73334e05d9f53e7d26f22838def23c158332122e5627463",
+      "after_sha256": "e50ce57b69a222bc330ce3063e9cf13d868c781d367e50a910a6ad90ecdb5707",
+      "edits": [
+        {
+          "before": "zajedničkog ulaznog razvoda zadržano po dva",
+          "after": "zajedničkog ulaznog razvoda prikazano po dva"
+        },
+        {
+          "before": "Potpun ulazni razvod sa osam invertora zadržan je kao na šemi.",
+          "after": "Na šemi je prikazan potpun ulazni razvod sa osam invertora."
+        },
+        {
+          "before": "zadržan potpun ulazni razvod sa osam invertora",
+          "after": "prikazan potpun ulazni razvod sa osam invertora"
+        },
+        {
+          "before": "Ulazni razvod zadržan je radi istog načina prikaza kao u prethodnim zadacima;",
+          "after": "Ulazni razvod daje komplement i direktni signal svakog ulaza;"
+        },
+        {
+          "before": "Testbench poredi ovu mrežu sa izvornom",
+          "after": "Testbench poredi ovu mrežu sa mrežom koja ima hazard"
+        }
+      ]
+    },
+    {
+      "path": "02/02_sinteza_kola_srednjeg_stepena_integracije.tex",
+      "before_sha256": "2c54b5b980a10746af8c630dcbe1709329931c825ee924b106a471d92afe7d0a",
+      "after_sha256": "2ab3313c2074fe6296b651af3e6835cd81797e3c5da05d4c341655712e2963b1",
+      "edits": [
+        {
+          "before": "izvornim strelicama na slici",
+          "after": "strelicama na slici"
+        },
+        {
+          "before": "Izvorna šema na slici~\\ref{fig:zadatak3-d} zadržana je kao druga varijanta, koja koristi",
+          "after": "Šema na slici~\\ref{fig:zadatak3-d} predstavlja alternativnu realizaciju koja koristi"
+        }
+      ]
+    },
+    {
+      "path": "07/07_staticke_karakteristike.tex",
+      "before_sha256": "09357e18f2f0b0300aab3c54367cd74a432c2bee61f8c7d438b86643163818be",
+      "after_sha256": "b8d17700bd006d22816e8815e2f2171a4f8364e048bc3c0870d731241d860d97",
+      "edits": [
+        {
+          "before": "Izvor daje samo crtež, bez analitičke funkcije ili dovoljno numeričkih tačaka.",
+          "after": "Za karakteristiku sa slike nije zadat analitički izraz niti dovoljno numeričkih tačaka."
+        },
+        {
+          "before": "Ponovo nacrtana kriva čuva oblik izvornika; iz nje se ne izvodi prividno precizan numerički rezultat.",
+          "after": "Grafički prikaz ne određuje precizne numeričke vrednosti ovih nivoa."
+        },
+        {
+          "before": "U izvorniku su obe vrste nivoa označene istim simbolima; razlika je važna kada krajnji segmenti nisu horizontalni.",
+          "after": "Razlikovanje stabilnih nivoa i garantovanih granica važno je kada krajnji segmenti nisu horizontalni."
+        },
+        {
+          "before": "procene prema~\\eqref{eq:2.8} iz izvornika.",
+          "after": "procene prema~\\eqref{eq:2.8}."
+        },
+        {
+          "before": "Izvorna procena zasnovana na stabilnim nivoima daje $2\\,\\mathrm V$; ovde nije tačna garantovana margina.",
+          "after": "Procena zasnovana na stabilnim nivoima daje $2\\,\\mathrm V$; ta vrednost nije garantovana margina."
+        }
+      ]
+    },
+    {
+      "path": "08/08_mos.tex",
+      "before_sha256": "069a5d9744315fcebd77ba292a1caa1911346e8492dcd357ecca3ca2aa518e39",
+      "after_sha256": "64c31b9ce66f73d54a25eebbcd5ea658ce3002226bb74af8613b64372042c143",
+      "edits": [
+        {
+          "before": "Koristimo pojednostavljeni model izvornika,",
+          "after": "Koristimo pojednostavljeni model,"
+        },
+        {
+          "before": "pomoću krajnjih nivoa iz izvornika",
+          "after": "pomoću krajnjih nivoa"
+        },
+        {
+          "before": "Broj $1.7$ u izvorniku ne zadovoljava datu jednačinu struja. ",
+          "after": ""
+        },
+        {
+          "before": "Izvorna procena zamenjuje $V_{OL},V_{OH}$ krajnjim nivoima $V_L,V_H$.",
+          "after": "Procena na osnovu stabilnih nivoa koristi $V_L,V_H$ umesto garantovanih granica $V_{OL},V_{OH}$."
+        },
+        {
+          "before": "U izvorniku se zanemaruje prenapon u PMOS imeniocu i NMOS imenilac zamenjuje konstantom; ovde za to nema potrebe. ",
+          "after": ""
+        },
+        {
+          "before": "Kao u izvorniku, uzimamo zajedničku dužinu kanala",
+          "after": "Uzimamo zajedničku dužinu kanala"
+        },
+        {
+          "before": "Izvor često označava $V_H,V_L$ simbolima $V_{OH},V_{OL}$ i njima aproksimira garantovane nivoe. Ta aproksimacija ovde je posebno naznačena.",
+          "after": "Aproksimacija garantovanih nivoa krajnjim/stabilnim nivoima posebno je naznačena."
+        },
+        {
+          "before": "za oba tipa, koju koristi i izvor, izjednačavaju se struje:",
+          "after": "za oba tipa izjednačavaju se struje:"
+        }
+      ]
+    }
+  ],
+  "comment_only_sv": {
+    "01/code/Zadatak_4/tb_zadatak.sv": {
+      "before_sha256": "b91ebb840b043a4d5ee7b1bfd614fb2bbf522acb76063b6f8f44b54db9f79ff6",
+      "after_sha256": "27b6a649332048a35509cdfbf93977bddb79189cf9050c0e6922ada1c11f742c",
+      "code_sha256": "ce8e2ee418b27e4562618e79305bf8128ecd630e9ac0c575b1bbedf10f68b34d",
+      "before_source": "module tb_zadatak;\n    timeunit 1ns;\n    timeprecision 1ps;\n\n    logic [3:0] ABCD;\n    logic Y;\n\n    // Isto kasnjenje kao u izvornom testbenchu.\n    zadatak #(.T(10ns)) UUT (\n        .A(ABCD[3]), .B(ABCD[2]), .C(ABCD[1]), .D(ABCD[0]),\n        .Y(Y)\n    );\n\n    initial begin\n        $dumpfile(\"tb_zadatak.vcd\");\n        $dumpvars(0, tb_zadatak);\n        ABCD = 4'b1111;\n        #50ns;\n        assert (Y === 1'b1) else $fatal(1, \"Pocetni izlaz\");\n        ABCD = 4'b1110;\n        #15ns;\n        assert (Y === 1'b1) else $fatal(1, \"Izlaz pre hazarda\");\n        #10ns;\n        assert (Y === 1'b0) else $fatal(1, \"Ocekivani hazard od 2T do 3T\");\n        #10ns;\n        assert (Y === 1'b1) else $fatal(1, \"Izlaz posle hazarda\");\n        #15ns;\n        $display(\"PASS: %m\");\n        $finish;\n    end\nendmodule\n",
+      "removed_comment": "// Isto kasnjenje kao u izvornom testbenchu."
+    },
+    "01/code/Zadatak_5/tb_zadatak.sv": {
+      "before_sha256": "6921888873d8af523e43d1546eaf55f361a8fb3c836544a16c69f092a3744fbf",
+      "after_sha256": "d748b9831a3395a436510b2938c1edeb17ead5c41c9127288d886cdb136029b6",
+      "code_sha256": "6d015fc74f4870cd7a59f8913e5d7477ee4443b0a60211112b83e83f7a187812",
+      "before_source": "module tb_zadatak;\n    timeunit 1ns;\n    timeprecision 1ps;\n\n    logic [3:0] ABCD;\n    logic Y_min, Y_no_hazard;\n\n    // Isto kasnjenje kao u izvornom testbenchu.\n    zadatak #(.T(10ns)) UUT (\n        .A(ABCD[3]), .B(ABCD[2]), .C(ABCD[1]), .D(ABCD[0]),\n        .Y_min(Y_min), .Y_no_hazard(Y_no_hazard)\n    );\n\n    initial begin\n        $dumpfile(\"tb_zadatak.vcd\");\n        $dumpvars(0, tb_zadatak);\n        ABCD = 4'b0000;\n        #50ns;\n        assert ((Y_min === ((~ABCD[3] & ~ABCD[1]) | (ABCD[1] & ABCD[0]) | (ABCD[2] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[3] & ~ABCD[1]) | (ABCD[1] & ABCD[0]) | (ABCD[2] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b0100;\n        #50ns;\n        assert ((Y_min === ((~ABCD[3] & ~ABCD[1]) | (ABCD[1] & ABCD[0]) | (ABCD[2] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[3] & ~ABCD[1]) | (ABCD[1] & ABCD[0]) | (ABCD[2] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b0110;\n        #50ns;\n        assert ((Y_min === ((~ABCD[3] & ~ABCD[1]) | (ABCD[1] & ABCD[0]) | (ABCD[2] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[3] & ~ABCD[1]) | (ABCD[1] & ABCD[0]) | (ABCD[2] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b0100;\n        #50ns;\n        assert ((Y_min === ((~ABCD[3] & ~ABCD[1]) | (ABCD[1] & ABCD[0]) | (ABCD[2] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[3] & ~ABCD[1]) | (ABCD[1] & ABCD[0]) | (ABCD[2] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b0101;\n        #50ns;\n        assert ((Y_min === ((~ABCD[3] & ~ABCD[1]) | (ABCD[1] & ABCD[0]) | (ABCD[2] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[3] & ~ABCD[1]) | (ABCD[1] & ABCD[0]) | (ABCD[2] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b0111;\n        #50ns;\n        assert ((Y_min === ((~ABCD[3] & ~ABCD[1]) | (ABCD[1] & ABCD[0]) | (ABCD[2] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[3] & ~ABCD[1]) | (ABCD[1] & ABCD[0]) | (ABCD[2] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b0101;\n        #50ns;\n        assert ((Y_min === ((~ABCD[3] & ~ABCD[1]) | (ABCD[1] & ABCD[0]) | (ABCD[2] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[3] & ~ABCD[1]) | (ABCD[1] & ABCD[0]) | (ABCD[2] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b0001;\n        #50ns;\n        assert ((Y_min === ((~ABCD[3] & ~ABCD[1]) | (ABCD[1] & ABCD[0]) | (ABCD[2] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[3] & ~ABCD[1]) | (ABCD[1] & ABCD[0]) | (ABCD[2] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b0011;\n        #50ns;\n        assert ((Y_min === ((~ABCD[3] & ~ABCD[1]) | (ABCD[1] & ABCD[0]) | (ABCD[2] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[3] & ~ABCD[1]) | (ABCD[1] & ABCD[0]) | (ABCD[2] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b0001;\n        #50ns;\n        assert ((Y_min === ((~ABCD[3] & ~ABCD[1]) | (ABCD[1] & ABCD[0]) | (ABCD[2] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[3] & ~ABCD[1]) | (ABCD[1] & ABCD[0]) | (ABCD[2] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        $display(\"PASS: %m\");\n        $finish;\n    end\nendmodule\n",
+      "removed_comment": "// Isto kasnjenje kao u izvornom testbenchu."
+    },
+    "01/code/Zadatak_6/tb_zadatak.sv": {
+      "before_sha256": "e4d2b8e927bed62b84632250e476897d08b98f9bf1e49e694721d0af9229859c",
+      "after_sha256": "64a3477c9510fbf1fdb7d3d8286f210826226866366304b4226e741a4160b637",
+      "code_sha256": "4c65e3e6ef7cb0664d56871668ac554a1227bd606415b60da17f351a27d62cb2",
+      "before_source": "module tb_zadatak;\n    timeunit 1ns;\n    timeprecision 1ps;\n\n    logic [3:0] ABCD;\n    logic Y_min, Y_no_hazard;\n\n    // Isto kasnjenje kao u izvornom testbenchu.\n    zadatak #(.T(10ns)) UUT (\n        .A(ABCD[3]), .B(ABCD[2]), .C(ABCD[1]), .D(ABCD[0]),\n        .Y_min(Y_min), .Y_no_hazard(Y_no_hazard)\n    );\n\n    initial begin\n        $dumpfile(\"tb_zadatak.vcd\");\n        $dumpvars(0, tb_zadatak);\n        ABCD = 4'b0101;\n        #50ns;\n        assert ((Y_min === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b0100;\n        #50ns;\n        assert ((Y_min === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b0101;\n        #50ns;\n        assert ((Y_min === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b0001;\n        #50ns;\n        assert ((Y_min === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b0011;\n        #50ns;\n        assert ((Y_min === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b1011;\n        #50ns;\n        assert ((Y_min === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b0011;\n        #50ns;\n        assert ((Y_min === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b0111;\n        #50ns;\n        assert ((Y_min === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b1111;\n        #50ns;\n        assert ((Y_min === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b0111;\n        #50ns;\n        assert ((Y_min === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b1111;\n        #50ns;\n        assert ((Y_min === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b1110;\n        #50ns;\n        assert ((Y_min === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b1100;\n        #50ns;\n        assert ((Y_min === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        ABCD = 4'b1110;\n        #50ns;\n        assert ((Y_min === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0]))) && (Y_no_hazard === ((~ABCD[2] & ~ABCD[1] & ~ABCD[0]) | (ABCD[3] & ~ABCD[1] & ABCD[0]) | (~ABCD[3] & ABCD[1] & ~ABCD[0])))) else $fatal(1, \"Neocekivani ustaljeni izlazi\");\n        $display(\"PASS: %m\");\n        $finish;\n    end\nendmodule\n",
+      "removed_comment": "// Isto kasnjenje kao u izvornom testbenchu."
+    }
+  }
+}

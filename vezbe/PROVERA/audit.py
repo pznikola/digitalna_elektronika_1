@@ -128,7 +128,7 @@ def evidence_dependencies(n):
  paths += [p for p in (ROOT/n).glob('*.pdf') if p!=main.with_suffix('.pdf')]
  paths += [p for p in ROOT.glob(n+'_*') if p.suffix in ['.docx','.pdf']]
  helpers=['audit.py','build.py','logic.py','structure.py','negative_checks.py','registry_check.py','clean_build.py']+(['vhdl_check.py'] if n=='01' else ['vhdl02.py'] if n=='02' else [])
- if n in ['01','02']:helpers += ['hdl_runtime.py','simulacija.py','systemverilog_check.py','vendor_check.py','pdf_code_check.py']
+ if n in ['01','02','04','05']:helpers += ['hdl_runtime.py','simulacija.py','systemverilog_check.py','vendor_check.py','pdf_code_check.py','dopuna_check.py','zadatak4_check.py']
  paths += [HERE/k for k in helpers]
  paths += [ROOT/'Makefile']
  # Historical findings and portable execution records are evidence too.
@@ -188,7 +188,7 @@ METHODS={
 }
 
 LIMITS={
- '02':[('Zadatak 4','02-S09','Trajanje inicijalizacije/povratne sprege zavisi od nezadatih kašnjenja; logika potvrđena uz opisani reset protokol.')],
+ '02':[],
  '07':[('Zadatak 1','07-L01','Izvorni graf nema analitički model za tačnu numeričku granicu.')],
  '08':[(f'Zadatak {task}:',f'08-L{i}',desc) for task,i,desc in [(1,'01','Nije zadat EC L; brojni odgovor je aproksimativan.'),(2,'02','Dati parametri blago neusaglašeni; dva označena tumačenja.'),(3,'03','Nedostaju napajanje, geometrije i tehnološki parametri.'),(4,'04','Odnos brzina zasićenja/oksida nije zadat; korišćena eksplicitna pretpostavka izvora.'),(7,'05','Dimenzije su normalizovane uz izabranu referencu; apsolutne nisu određene.')]],
 }

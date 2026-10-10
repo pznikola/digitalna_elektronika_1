@@ -16,8 +16,9 @@ def sources(folder, top):
 
 def icarus_timescale(output):
     # Compilation-unit defaults belong to simulation setup, outside student RTL.
-    config = Path(output) / 'simulation_timescale.sv'
-    config.write_text('`timescale 1ns/1ps\n')
+    config = Path(output) / 'simulation_timescale.f'
+    # Set the compiler default outside the student RTL.
+    config.write_text('+timescale+1ns/1ps\n')
     return str(config)
 
 
@@ -33,7 +34,7 @@ def simulate(folder, top, output, engine='verilator', four_state=False):
         text = run([str(output / 'obj_dir' / ('V' + top))], output)
     elif engine == 'iverilog':
         run(['iverilog', '-g2012', '-s', top, *(['-DFOUR_STATE'] if four_state else []),
-             '-o', str(output / 'testbench'), icarus_timescale(output), *files], output)
+             '-o', str(output / 'testbench'), '-c', icarus_timescale(output), *files], output)
         text = run(['vvp', str(output / 'testbench')], output)
     else:
         raise ValueError(engine)

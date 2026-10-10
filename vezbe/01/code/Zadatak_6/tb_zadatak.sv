@@ -5,7 +5,6 @@ module tb_zadatak;
     logic [3:0] ABCD;
     logic Y_min, Y_no_hazard;
 
-    // Isto kasnjenje kao u izvornom testbenchu.
     zadatak #(.T(10ns)) UUT (
         .A(ABCD[3]), .B(ABCD[2]), .C(ABCD[1]), .D(ABCD[0]),
         .Y_min(Y_min), .Y_no_hazard(Y_no_hazard)

@@ -56,3 +56,7 @@ Za deljenje, umesto prethodnih 26 pojedinačnih dopisivanja od praznog početnog
 U Sl. 5 stvarno nacrtani prenos sa levog I kola ulazi u gornje priključke desnih XOR/I kola, a izlaz levog XOR kola u oba donja. Most razlikuje ukrštanje od spoja; dve tačke označavaju grananja. Uslovi s₀=a₀ XOR b₀, s₁=(a₁ XOR b₁) XOR a₀b₀ i s₂=a₁b₁+(a₁ XOR b₁)a₀b₀ i dalje daju A+B za svih 16 ulaza. Karnoove karte zadržavaju iste ćelije i grupe, sa dodatom ispunom iza crnih oznaka.
 
 Slika 7, dopuna 04-A17: D₁ se odvaja u (3,1.5) sa iste vertikale S, pa nema promene logičkog grafa. D₀=S, D₁=2S, D₂=3(A+1), D₃=4S i dalje iscrpno daju X=(A+1)(B+1). Svi segmenti spojnih vodova provereni su u izvoru i uvećanom izvozu kao horizontalni/vertikalni.
+
+## HDL dopuna
+
+Novi SystemVerilog primeri direktno prate postojeće formule, redosled bita i šeme. Iscrpne provere koriste matematičke rezultate za komparator, maksimum i aritmetiku, odnosno kodne tabele, parnost i Hamingove kontrolne grupe. Nove dopune i zaseban pregled njihovih izvora/stranica vode se u [završnim rezultatima](../../PROVERA/REZULTATI.md) i [dokaznom zapisu](../../PROVERA/dokazi/dopuna_provera.json); prethodne formule i slike nisu prepravljene.

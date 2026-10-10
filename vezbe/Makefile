@@ -18,6 +18,10 @@ check:
 check-sv:
 	$(PYTHON) PROVERA/systemverilog_check.py 01 --only students
 	$(PYTHON) PROVERA/systemverilog_check.py 02 --only students
+	$(PYTHON) PROVERA/systemverilog_check.py 04 --only students
+	$(PYTHON) PROVERA/systemverilog_check.py 05 --only students
+	$(PYTHON) PROVERA/dopuna_check.py
+	$(PYTHON) PROVERA/zadatak4_check.py
 
 check-equivalence:
 	$(PYTHON) PROVERA/systemverilog_check.py 01 --only equivalence

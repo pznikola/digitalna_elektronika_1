@@ -70,3 +70,16 @@ Provereno je 12 zadataka, 35 numerisanih jednačina, 22 sadržinske tabele (čet
 Broj zadataka, 35 numerisanih jednačina, 22 sadržinske tabele i osam ilustracija nisu promenjeni. Tabele `tab:postupak-8`–`tab:postupak-16` sada sadrže pisani račun, umesto prethodnog sažetog pregleda po koracima. Šest množenja obuhvata oba izvorna postupka; tri deljenja imaju 18 oduzimanja i 15 dopisivanja, uz grupisanje početnog prefiksa kao u originalu. Sve vrednosti, početne cifre i konačni rezultati su obuhvaćeni. U prvoj tabeli odeljka 1.4 vraćena je strelica kružnog prenosa. U `fig:kmap` dodata je ispuna postojećih grupa; u `fig:adder` direktne veze i zamenjen raspored ulaza desnog I kola. Detalji i razlog su u nalazima 04-A13–A16. Prethodni brojevi koraka i opisi sažetih tabela odnose se na raniju verziju.
 
 Dopuna 04-A17: u Slici 7 (`fig:x`) D₁ je prebačen sa dijagonalnog voda na horizontalni odvod iste vertikale S, uz tačku spoja. Broj slika i funkcija nisu promenjeni.
+
+## Dopuna Verilog primera — 09.10.2026.
+
+Dodato 6 novih glavnih primera, svaki sa testbenchom i lokalnim Makefile-om. Kod je uključen uz postojeća rešenja, bez promene njihovih formula i šema.
+
+- [code/Samostalni/Zadatak_3/a](code/Samostalni/Zadatak_3/a/zadatak.sv)
+- [code/Samostalni/Zadatak_3/b](code/Samostalni/Zadatak_3/b/zadatak.sv)
+- [code/Samostalni/Zadatak_4/a_zp](code/Samostalni/Zadatak_4/a_zp/zadatak.sv)
+- [code/Samostalni/Zadatak_4/a_xor](code/Samostalni/Zadatak_4/a_xor/zadatak.sv)
+- [code/Samostalni/Zadatak_4/b_x](code/Samostalni/Zadatak_4/b_x/zadatak.sv)
+- [code/Samostalni/Zadatak_4/b_y](code/Samostalni/Zadatak_4/b_y/zadatak.sv)
+
+Simulacija: `make` u folderu primera pokreće Verilator; `make run_iverilog` pokreće Icarus. Zajednički `make -C vezbe check-sv` obuhvata i ovu dopunu. Izvorni tekst listinga čuva PDF ActualText; `check-pdf-code` proverava kopiranje i simulaciju izvučenog koda.

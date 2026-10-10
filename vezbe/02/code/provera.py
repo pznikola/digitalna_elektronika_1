@@ -55,10 +55,22 @@ for label,b in blocks.items():
   for i,l in itertools.product(range(16),range(2)):
    env=dict(zip('DCBA',map(int,f'{i:04b}')));env['L']=l
    check(evaluate(expr,env)==(i>9 if label=='eq:error' else l and i==0),label)
- elif label=='eq:feedback':
-  check('F=I(R+F).' in b,label)
-  for raw,I,F in itertools.product(range(2),repeat=3):
-   check(evaluate('I(R+F)',{'I':I,'R':raw,'F':F})==bool(I and(raw or F)),label)
+ elif label=='eq:raw-error':
+  expr=b.split('=')[1].split(r'\qquad')[0].rstrip(' ,').replace('_i','')
+  for word in range(16):
+   env=dict(zip('DCBA',map(int,f'{word:04b}')))
+   check(evaluate(expr,env)==(word>9),label)
+ elif label=='eq:global-error':
+  expr=re.sub(r'\\end\{[^}]+\}','',b.split('=')[1]).rstrip(' .\n')
+  for bits in itertools.product(range(2),repeat=4):
+   check(evaluate(expr,dict(zip(['R3','R2','R1','R0'],bits)))==any(bits),label)
+ elif label=='eq:force-e':
+  lines=[clean(line).strip() for line in re.split(r'\\\\',b) if '=' in line]
+  check(len(lines)==2,label)
+  for word,G in itertools.product(range(16),range(2)):
+   env=dict(zip('DCBA',map(int,f'{word:04b}')));env.update(C0=env['C'],D0=env['D'],G=G)
+   for line,bit in zip(lines,['C','D']):
+    check(evaluate(line.split('=')[1].rstrip(' .,'),env)==bool(env[bit] or G),label)
  elif label=='eq:zad3-d':
   check('Y_{8i+j}=H_iL_j' in b,label)
   for word in range(64):
@@ -110,23 +122,33 @@ for depth in range(1,4):
    z=255^(a&b);check(z!=target,('smaller NAND network',depth))
    if z not in state:nxt.add(tuple(sorted(state+(z,))))
  states=nxt
-# Every four-digit input; evaluate the drawn feedback after the stated reset.
-def cascade(digits):
- raw=any(d>9 for d in digits);F=False # INIT low clears the feedback
- F=raw or F # INIT high with stable data
- effective=digits[:-1]+[digits[-1]|(12 if F else 0)]
+# Every four-digit input, including all seven segments of each display.
+def cascade_segments(digits):
+ G=any(d>9 for d in digits)
+ effective=digits[:-1]+[digits[-1]|(12 if G else 0)]
  out=[];lz=True
  for k,d in enumerate(effective):
   incoming=lz if k<3 else False
-  lz=incoming and d==0;off=(F if k<3 else False)or lz
-  out.append('' if off else str(d) if d<10 else 'E')
- return ''.join(out)
+  lz=incoming and d==0;off=(G if k<3 else False)or lz
+  out.append('0000000' if off else segs[d])
+ return out
+
+def cascade(digits):
+ return ''.join('' if pattern=='0000000' else 'E' if pattern==segs[10] else str(segs.index(pattern)) for pattern in cascade_segments(digits))
+
 for digits in itertools.product(range(16),repeat=4):
- expected='E' if any(d>9 for d in digits) else str(sum(d*10**(3-j) for j,d in enumerate(digits)))
- check(cascade(list(digits))==expected,('cascade',digits))
-# Both feedback histories: removing an error alone need not clear it.
-for prior,raw,init in itertools.product(range(2),repeat=3):
- F=bool(init and(raw or prior));check(not init and not F or init and F==bool(raw or prior))
+ if any(d>9 for d in digits):expected=['0000000']*3+[segs[10]]
+ else:
+  text=str(sum(d*10**(3-j) for j,d in enumerate(digits)))
+  expected=['0000000']*(4-len(text))+[segs[int(d)] for d in text]
+ check(cascade_segments(list(digits))==expected,('cascade segments',digits))
+# Previous invalid data never needs initialization before a valid new display.
+for position,bad in itertools.product(range(4),range(10,16)):
+ digits=[1,2,3,4];digits[position]=bad
+ check(cascade(digits)=='E',('error position',position,bad))
+ check(cascade([0,5,0,4])=='504','recovery without reset')
+check(cascade([0,0,0,0])=='0','single zero')
+check('eq:feedback' not in blocks and 'INIT' not in s,'old feedback protocol remains')
 for text,want in re.findall(r'^\s*([0-9A-F]{4})\s*&\s*([0-9E]+)',tables['tab:bcd-konvertor'],re.M):check(cascade([int(x,16) for x in text])==want,'display example')
 # Homework: check feasibility and all selector choices privately, without adding solutions.
 # A 13-input decoder is feasible in four AND2 levels (inverters excluded).

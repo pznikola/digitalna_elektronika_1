@@ -59,3 +59,16 @@ Preneto i pregledano svih šest zadataka sa svim pottačkama/rešenjima, 12 nume
 Izvorni blok 121 (strane 13–14 DOCX-a) sada ima četiri pisana BCD postupka sa 44 računska reda kroz 11 decimalnih pozicija; ranije sažete tabele po ciframa nisu bile potpuni prenos prikaza izvornika. Oznake `tab:zbir-1`–`tab:zbir-4` i završne jednačine sačuvane su. Svaka od četiri korekcije i sva tri nenulta ulazna prenosa posebno su prikazani.
 
 Izvorni blokovi 128–132 (strana 14) ponovo pokazuju različite bitove i binarne međukorake Grejovih suseda. Svih 37 ispravnih suseda ostaje u pet tabela, sa numeracijom promenjenog bita, dekodovanjem cifara ili konkretnim razlogom nedozvoljenosti. Pet Grejovih suseda ima ceo prelaz do običnog binarnog i decimalnog zapisa. Nisu izostavljeni ranije dodati nedostajući susedi niti vraćene greške originala. Broj numerisanih tabela i stranica ostaje 24 i 17; broj sintaktičkih matematičkih redova povećan je zbog vraćenih postupaka.
+
+## Dopuna Verilog primera — 09.10.2026.
+
+Dodato 6 novih glavnih primera, svaki sa testbenchom i lokalnim Makefile-om. Kod je uključen uz postojeća rešenja, bez promene njihovih formula i šema.
+
+- [code/Grej/koder](code/Grej/koder/zadatak.sv)
+- [code/Grej/dekoder](code/Grej/dekoder/zadatak.sv)
+- [code/BCD_sabirac](code/BCD_sabirac/zadatak.sv)
+- [code/Parnost](code/Parnost/zadatak.sv)
+- [code/Haming/koder](code/Haming/koder/zadatak.sv)
+- [code/Haming/korektor](code/Haming/korektor/zadatak.sv)
+
+Simulacija: `make` u folderu primera pokreće Verilator; `make run_iverilog` pokreće Icarus. Zajednički `make -C vezbe check-sv` obuhvata i ovu dopunu. Izvorni tekst listinga čuva PDF ActualText; `check-pdf-code` proverava kopiranje i simulaciju izvučenog koda.

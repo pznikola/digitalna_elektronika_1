@@ -88,7 +88,7 @@ Pošto je zadati ulaz ispod praga, neparni izlazi teže visokom, a parni niskom 
 \lim_{n\to\infty}v_{2n}=V_L,\qquad \lim_{n\to\infty}v_{2n+1}=V_H.
 \end{equation}
 
-\napomena{Izvor daje samo crtež, bez analitičke funkcije ili dovoljno numeričkih tačaka. Zato je odgovor grafički: niski nivo iznosi nekoliko desetih delova volta. Ne treba ga poistovećivati sa tačno $0\,\mathrm V$, niti visoki nivo sa napajanjem $5\,\mathrm V$. Ponovo nacrtana kriva čuva oblik izvornika; iz nje se ne izvodi prividno precizan numerički rezultat.}
+\napomena{Za karakteristiku sa slike nije zadat analitički izraz niti dovoljno numeričkih tačaka. Zato je odgovor grafički: niski nivo iznosi nekoliko desetih delova volta. Ne treba ga poistovećivati sa tačno $0\,\mathrm V$, niti visoki nivo sa napajanjem $5\,\mathrm V$. Grafički prikaz ne određuje precizne numeričke vrednosti ovih nivoa.}
 \begin{figure}[!htbp]\centering
 \includegraphics[width=.65\linewidth]{Zadatak_1/preslikavanje}
 \caption{Karakteristika, njen odraz i približavanje stabilnom paru nivoa.}\label{fig:1.4}
@@ -96,7 +96,7 @@ Pošto je zadati ulaz ispod praga, neparni izlazi teže visokom, a parni niskom 
 \FloatBarrier\section{Zadatak 2: margine šuma}\label{sec:2}
 Za invertor u lancu istih kola odrediti margine šuma za: a) jedan izvor šuma; b) izvore šuma na svim međuspojevima. Karakteristični nivoi prikazani su na slici~\ref{fig:2.1}.
 \subsection*{Rešenje}
-Koristimo oznake $V_L,V_H$ za stabilne nivoe u lancu bez šuma. Oznake $V_{OL},V_{OH}$ rezervisane su za garantovane granice izlaza pri dozvoljenim ulazima. U izvorniku su obe vrste nivoa označene istim simbolima; razlika je važna kada krajnji segmenti nisu horizontalni.
+Koristimo oznake $V_L,V_H$ za stabilne nivoe u lancu bez šuma. Oznake $V_{OL},V_{OH}$ rezervisane su za garantovane granice izlaza pri dozvoljenim ulazima. Razlikovanje stabilnih nivoa i garantovanih granica važno je kada krajnji segmenti nisu horizontalni.
 \begin{figure}[!htbp]\centering
 \includegraphics[width=.7\linewidth]{Zadatak_2/nivoi}
 \caption{Ulazni pragovi, garantovani izlazni nivoi i stabilni nivoi (ilustrativna karakteristika).}\label{fig:2.1}
@@ -146,7 +146,7 @@ Ako su krajnji delovi skoro horizontalni, dozvoljena je dodatna aproksimacija $f
 NM_0\approx V_{IL}-V_L,\qquad NM_1\approx V_H-V_{IH}.
 \end{equation}
 
-Ovo nisu opšte tačne jednakosti. SSNM opisuje regeneraciju nakon jednog lokalnog statičkog poremećaja; garantovane margine dozvoljenih intervala koriste se pri povezivanju kola. U svim formulama pretpostavlja se da ulazi ostaju u domenu zadate karakteristike; ponašanje izvan opsega napajanja ovde nije zadato. U svim sledećim zadacima prikazane su i tačne vrednosti prema~\eqref{eq:2.7} i procene prema~\eqref{eq:2.8} iz izvornika.
+Ovo nisu opšte tačne jednakosti. SSNM opisuje regeneraciju nakon jednog lokalnog statičkog poremećaja; garantovane margine dozvoljenih intervala koriste se pri povezivanju kola. U svim formulama pretpostavlja se da ulazi ostaju u domenu zadate karakteristike; ponašanje izvan opsega napajanja ovde nije zadato. U svim sledećim zadacima prikazane su i tačne vrednosti prema~\eqref{eq:2.7} i procene prema~\eqref{eq:2.8}.
 \FloatBarrier\section{Zadatak 3: tri invertorske karakteristike}\label{sec:3}
 Tri tipa kola sa slike~\ref{fig:3.1} napajaju se sa $5\,\mathrm V$. U svakom lancu nalaze se ista kola. Za ulaz $2.7\,\mathrm V$: a) odrediti izlaze posle beskonačno mnogo parova kola; b) oceniti pogodnost za logičko NE kolo; c) za pogodno kolo odrediti nivoe, prag i obe vrste margina šuma.
 \begin{figure}[!htbp]\centering
@@ -217,7 +217,7 @@ Stabilni nivoi su $V_L=0$, $V_H=5\,\mathrm V$, prag $V_S=2.5\,\mathrm V$, a gran
 V_{OL}=b_3(2)\,\mathrm V=1\,\mathrm V,\quad V_{OH}=b_3(3)\,\mathrm V=4\,\mathrm V,\quad NM_0=NM_1=1\,\mathrm V.
 \end{equation}
 
-Izvorna procena zasnovana na stabilnim nivoima daje $2\,\mathrm V$; ovde nije tačna garantovana margina.
+Procena zasnovana na stabilnim nivoima daje $2\,\mathrm V$; ta vrednost nije garantovana margina.
 \FloatBarrier\section{Zadatak 5: karakteristika kaskade}\label{sec:5}
 Odrediti karakteristiku kaskade dva kola sa slike~\ref{fig:5.1}, redom invertora pa bafera, kao i nivoe, prag i margine za jednostruki i višestruke izvore šuma.
 \begin{figure}[!htbp]\centering

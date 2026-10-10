@@ -28,6 +28,7 @@
 %---- for code
 \usepackage{minted}
 \usepackage{accsupp,stringenc}
+\usepackage{needspace}
 % Copy the original UTF-8 source, including spaces and newlines, from a listing.
 \newcommand{\BeginVerilogCopy}[1]{%
   \EdefUnescapeHex\CodeCopyRaw{\pdffiledump length\pdffilesize{#1} {#1}}%
@@ -406,7 +407,7 @@ Za zadati model kašnjenja multiplekser daje $t_{d,Y}=t_{d,\mathrm{mux}}=20\,\ma
 \noindent\makebox[\linewidth]{\dotfill}
 
 \noindent
-d) Mogućnost lažne nule postoji kada je $A=C=1$, a menja se $B$: susedna polja $CBA=101$ i $111$ nemaju zajedničku oblast. Oba smera označena su izvornim strelicama na slici~\ref{fig:kmap-zad2-d}. Pri jednakim kašnjenjima $T$ svih NI kola, za $B:1\to0$ izlaz pada posle $2T$ i vraća se posle $3T$. Za obrnuti smer u tom modelu nema impulsa; drugačiji odnosi kašnjenja zahtevaju zasebnu analizu. Strelice označavaju strukturno rizičnu susednost, a ne garanciju impulsa pri svakom modelu kašnjenja.
+d) Mogućnost lažne nule postoji kada je $A=C=1$, a menja se $B$: susedna polja $CBA=101$ i $111$ nemaju zajedničku oblast. Oba smera označena su strelicama na slici~\ref{fig:kmap-zad2-d}. Pri jednakim kašnjenjima $T$ svih NI kola, za $B:1\to0$ izlaz pada posle $2T$ i vraća se posle $3T$. Za obrnuti smer u tom modelu nema impulsa; drugačiji odnosi kašnjenja zahtevaju zasebnu analizu. Strelice označavaju strukturno rizičnu susednost, a ne garanciju impulsa pri svakom modelu kašnjenja.
 
 
 \begin{figure}[!ht]
@@ -643,7 +644,7 @@ Y_{8i+j}=H_iL_j,\qquad i,j\in\{0,\ldots,7\}.
 \end{equation}
 Potrebna su 64 dvoulazna I kola. Ako su dozvoljeni isključivo dekoderi iz a), svaki proizvod $pq$ može se dobiti sa izlaza $Y_3$ dodatnog dekodera čiji su ulazi $A_2A_1A_0=0pq$; time se dobija realizacija sa 66 dekodera. Ne tvrdi se da je ovaj broj minimalan.
 
-Izvorna šema na slici~\ref{fig:zadatak3-d} zadržana je kao druga varijanta, koja koristi devet dekodera sa ulazima za dozvolu i izlazima aktivnim u nuli iz tačke b). Prvi dekoder aktivira tačno jedan od osam dekodera drugog stepena preko ulaza $\overline{\mathrm{EN}_1}$. Izlaz $j$ grane $i$ predstavlja globalni izlaz $8i+j$, aktivan u nuli. Ova varijanta zahteva drugačiji tip dekodera od onog navedenog u tački d).
+Šema na slici~\ref{fig:zadatak3-d} predstavlja alternativnu realizaciju koja koristi devet dekodera sa ulazima za dozvolu i izlazima aktivnim u nuli iz tačke b). Prvi dekoder aktivira tačno jedan od osam dekodera drugog stepena preko ulaza $\overline{\mathrm{EN}_1}$. Izlaz $j$ grane $i$ predstavlja globalni izlaz $8i+j$, aktivan u nuli. Ova varijanta zahteva drugačiji tip dekodera od onog navedenog u tački d).
 
 \begin{figure}[!ht]
   \centering
@@ -651,6 +652,51 @@ Izvorna šema na slici~\ref{fig:zadatak3-d} zadržana je kao druga varijanta, ko
   \caption{Alternativna realizacija dekodera 6/64 pomoću dekodera iz tačke b), sa izlazima aktivnim u nuli.}
   \label{fig:zadatak3-d}
 \end{figure}
+
+U narednim primerima indeks $8i+j$ povezuje adresu gornjeg i donjeg dekodera sa globalnim izlazom. Zapis \texttt{generate} ponavlja opis istog kola: pri elaboraciji nastaje zasebno kolo ili instanca za svaku vrednost indeksa, a ne petlja koja se izvršava tokom simulacije.\par
+
+\FloatBarrier
+\Needspace{8\baselineskip}
+\noindent\begin{minipage}{\linewidth}
+Verilog kod: dva dekodera 3/8 i 64 I kola, prema jednačini~\eqref{eq:zad3-d}. Izlazi su aktivni u jedinici. Ova varijanta zahteva I kola pored dekodera iz tačke a).\par
+\BeginVerilogCopy{code/Zadatak_3/d/and/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_3/d/and/zadatak.sv}
+\EndAccSupp{}
+
+Pomoćni moduli: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_3/d/and/decoder3.sv}{\texttt{decoder3.sv}}.\par
+
+Testbench i automatske provere: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_3/d/and/tb_zadatak.sv}{\texttt{tb\_zadatak.sv}}.\par
+\end{minipage}
+
+
+\FloatBarrier
+\Needspace{8\baselineskip}
+\noindent\begin{minipage}{\linewidth}
+Verilog kod: realizacija sa 66 dekodera iz tačke a), bez dodatnih I kola i bez ulaza za dozvolu rada. Izlaz 3 pomoćnog dekodera sa adresom $0H_iL_j$ daje proizvod $H_iL_j$, pa se doslovno poštuje zadati skup blokova.\par
+\BeginVerilogCopy{code/Zadatak_3/d/only_decoders/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_3/d/only_decoders/zadatak.sv}
+\EndAccSupp{}
+
+Pomoćni moduli: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_3/d/only_decoders/decoder3.sv}{\texttt{decoder3.sv}}.\par
+
+Testbench i automatske provere: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_3/d/only_decoders/tb_zadatak.sv}{\texttt{tb\_zadatak.sv}}.\par
+\end{minipage}
+
+
+\FloatBarrier
+\Needspace{8\baselineskip}
+\noindent\begin{minipage}{\linewidth}
+Verilog kod: alternativna kaskada sa slike~\ref{fig:zadatak3-d}. Koristi devet dekodera iz tačke b), sa dozvolom rada i izlazima aktivnim u nuli; nisu upotrebljeni dekoderi iz tačke a).\par
+\BeginVerilogCopy{code/Zadatak_3/d/cascade/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Zadatak_3/d/cascade/zadatak.sv}
+\EndAccSupp{}
+
+Pomoćni moduli: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_3/d/cascade/decoder.sv}{\texttt{decoder.sv}}.\par
+
+Testbench i automatske provere: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_3/d/cascade/tb_zadatak.sv}{\texttt{tb\_zadatak.sv}}.\par
+\end{minipage}
+
+
 
 \vspace{1em}
 \textcolor{white}{\shrug}
@@ -667,7 +713,7 @@ Izvorna šema na slici~\ref{fig:zadatak3-d} zadržana je kao druga varijanta, ko
 sedmosegmentnog LED indikatora sa zajedničkom katodom. Ako se na ulazu pojave
 kombinacije od 0000 do 1001 na indikatoru se prikazuju cifre 0-9. Ako se na ulazu pojave nedozvoljene kombinacije 1010-1111, na indikatoru se prikazuje slovo E (\textit{Error}). Na raspolaganju su samo NI i NILI logička kola. Težiti da broj upotrebljenih logičkih kola bude minimalan.
 \item Projektovati kombinacionu mrežu, ako je poznato da se na ulazu konvertora koda ne mogu pojaviti nedozvoljene kombinacije ulaza, tj. ulazni podatak je sigurno u opsegu 0000--1001. Na raspolaganju su logička kola proizvoljnog tipa.
-\item Kako treba modifikovati dobijenu šemu pod tačkom a) da bi se u višecifrenom indikatoru gasile vodeće nule i prikazivalo samo jedno slovo E kada se na ulazu bilo koje cifre pojavi nedozvoljena kombinacija? Na raspolaganju su logička kola proizvoljnog tipa.
+\item Kako treba modifikovati dobijenu šemu pod tačkom a) da bi se u višecifrenom indikatoru gasile vodeće nule i prikazivalo samo jedno slovo E kada se na ulazu bilo koje cifre pojavi nedozvoljena kombinacija? Na raspolaganju su logička kola proizvoljnog tipa. Projektovati kombinacionu mrežu bez povratnih putanja, tako da prikaz zavisi samo od trenutnih ulaza. Za broj 0000 prikazati jednu nulu, a slovo E prikazati na mestu jedinica.
 \end{enumerate}
 
 \begin{table}[!ht]
@@ -953,6 +999,18 @@ isključivo NI logičkih kola.
 \end{tcolorbox}
 
 
+
+\FloatBarrier
+\noindent\begin{minipage}{\linewidth}
+Verilog kod koji implementira svih sedam segmenata prema jednačini~\eqref{eq:zad4-a} korišćenjem NILI kola. Svaki međusignal predstavlja izlaz jednog kola; zajednički članovi koriste se u više segmenata.\par
+\BeginVerilogCopy{code/Zadatak_4/a/zadatak.sv}
+\inputminted[fontsize=\small, baselinestretch=0.85, frame=single]{systemverilog}{code/Zadatak_4/a/zadatak.sv}
+\EndAccSupp{}
+
+Testbench koji simulira konvertor dat jednačinom~\eqref{eq:zad4-a} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_4/a/tb_zadatak.sv}{OVDE}.\par
+\end{minipage}
+\par\bigskip
+
 \noindent
 b) Najpre određujemo kombinacionu tabelu koja definiše vrednosti izlaznih signala za sve kombinacije ulaznih logičkih nivoa. Na izlazu imamo sedmobitni binarni broj (abcdefg). Kako je poznato da na ulazu konvertora može biti samo neka od kombinacija 0000-1001, vrednosti izlaza, u slučaju nedozvoljene kombinacije signala na ulazu kola, mogu imati proizvoljnu vrednost (označenu sa bbbbbbb u funkcionalnoj tabeli) te ih je preporučljivo koristiti prilikom
 određivanja jednostavnijeg zbira proizvoda. Oznaka $b$ u ćeliji znači „bilo šta“ (don’t care), a ne izlazni segment $b$. Takve ćelije smeju se koristiti samo uz navedenu garanciju da ulaz nikada nije 10--15; u varijanti a) izlazi za te ulaze moraju dati slovo E. Minimum broja članova i literala dvostepene forme ne garantuje minimum broja kola u svakoj biblioteci, naročito uz deljenje međurezultata između segmenata.
@@ -1179,7 +1237,19 @@ tački a).
 
 \noindent\makebox[\linewidth]{\dotfill}
 
-\noindent
+
+\FloatBarrier
+\noindent\begin{minipage}{\linewidth}
+Verilog kod koji implementira konvertor za dozvoljene BCD ulaze. Segment $a$ prati šemu sa EXNILI kolom; ostali segmenti prate jednačinu~\eqref{eq:zad4-b}. Za ulaze 10--15 prikaz nije zadat.\par
+\BeginVerilogCopy{code/Zadatak_4/b/zadatak.sv}
+\inputminted[fontsize=\small, baselinestretch=0.85, frame=single]{systemverilog}{code/Zadatak_4/b/zadatak.sv}
+\EndAccSupp{}
+
+Testbench koji simulira konvertor za dozvoljene BCD ulaze je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_4/b/tb_zadatak.sv}{OVDE}.\par
+\end{minipage}
+\par\bigskip
+
+\noindent\begin{minipage}{\linewidth}
 c) Celokupnu funkcionalnost definisanu u okviru ove tačke zadatka moguće je
 dekomponovati na sledeće manje zahteve:
 \begin{enumerate}
@@ -1187,6 +1257,7 @@ dekomponovati na sledeće manje zahteve:
 \item Detekcija nedozvoljenog ulaza
 \item Detekcija vodećih nula
 \end{enumerate}
+\end{minipage}
 \vspace{1em}
 
 Zahtev (1) podrazumeva uvođenje dodatnog signala u okviru kombinacione mreže
@@ -1216,7 +1287,7 @@ signale u okviru svakog od BCD konvertora:
     Naziv signala & Ulazni/Izlazni & Aktivni logički nivo & Opis \\ \hline
 
     \texttt{ERROR} & Izlazni & 1 &
-    Označava da se na ulazu BCD konvertora pojavila nedozvoljena kombinacija bita. \\ \hline
+    Označava nedozvoljenu kombinaciju na podatkovnom ulazu tog bloka. Ne zavisi od signala OFF i LZ. Za globalnu grešku koriste se detekcije izvornih BCD podataka, pre nametanja slova E. \\ \hline
 
     \texttt{OFF} & Ulazni & 1 &
     Kontroliše uključenost segmenata. Kada je postavljen na „1“, svi segmenti su isključeni,
@@ -1316,31 +1387,61 @@ blok je predstavljen na slici~\ref{fig:Zadatak_4c_BCDComponent}.
   \label{fig:Zadatak_4c_BCDComponent}
 \end{figure}
 
-Funkcionalni blok predstavljen na slici~\ref{fig:Zadatak_4c_BCDComponent} je iskorišćen za realizaciju višecifrenog BCD konvertora kao što je prikazano na slici~\ref{fig:Zadatak_4c_4Digits}.
+Za prikaz četiri cifre povezujemo četiri ovakva bloka. Detekcija greške svake izvorne cifre označena je sa $R_i$, gde indeks 0 predstavlja jedinice:
+\begin{equation}\label{eq:raw-error}
+R_i = D_i(C_i+B_i),\qquad i\in\{0,1,2,3\}.
+\end{equation}
+Globalna greška računa se ILI kolom 3:
+\begin{equation}\label{eq:global-error}
+G = R_3 + R_2 + R_1 + R_0.
+\end{equation}
+Više cifre dobijaju $\mathrm{OFF}=G$. Njihovi podatkovni ulazi nisu izmenjeni, pa njihovi izlazi ERROR neposredno daju $R_3$, $R_2$ i $R_1$. Za jedinice posebno računamo $R_0$ iz \emph{izvornih} bitova, pre ILI kola 1 i 2. Ta kola nameću:
+\begin{equation}\label{eq:force-e}
+\begin{aligned}
+C_0' &= C_0 + G,\\
+D_0' &= D_0 + G.
+\end{aligned}
+\end{equation}
+Kada je $G=1$, ulaz konvertora jedinica ima oblik $11xx$, pa prema tački a) prikazuje E. ERROR izlaz tog konvertora nije povezan sa kolom 3: on ispituje već izmenjeni podatak i ne sme da određuje globalnu grešku. Ponovljene oznake $C_0$, $B_0$ i $D_0$ kod dodatnih kola na šemi označavaju iste izvorne ulaze jedinica.
 
 \begin{figure}[!ht]
   \centering
-  \includegraphics[width=\linewidth]{Zadatak_4/Zadatak_4c_4Digits}% adjust path if needed
-  \caption{Višecifreni BCD konvertor sa povratnom spregom i signalom inicijalizacije.}
+  \includegraphics[width=\linewidth]{Zadatak_4/Zadatak_4c_4Digits}
+  \caption{Četvorocifreni kombinacioni BCD konvertor: greška se detektuje pre nametanja slova E jedinicama.}
   \label{fig:Zadatak_4c_4Digits}
 \end{figure}
 
-Kao što se sa slike~\ref{fig:Zadatak_4c_4Digits} može videti, \texttt{ERROR} signali svih blokova su dovedeni na
-jedno ILI kolo (ozna\v{c}eno na slici~\ref{fig:Zadatak_4c_4Digits} sa 3) što funkcionalno označava da, ukoliko se pojavi nedozvoljena kombinacija
-na bilo kom ulazu, generisaće se globalni \texttt{OFF} signal. Ovaj signal kontroliše isključenje svih segmenata u okviru svakog od LED displeja osim displeja najniže cifre višecifrenog BCD konvertora. Najniža cifra je uvek uključena bez obzira šta je na ulazu BCD konvertora viših cifara. Međutim, u slučaju da je \texttt{OFF} signal postavljen na nivo logičke jedinice (što označava nedozvoljenu kombinaciju na bilo kojoj cifri ili ranije zapamćenu grešku), koristeći ILI logička kola (ozna\v{c}ena na slici~\ref{fig:Zadatak_4c_4Digits} sa 1 i 2) doći će do propagiranja te informacije i postavljanja nedozvoljene kombinacije na ulaz BCD konvertora najniže cifre što za posledicu ima ispis slova \texttt{E} na LED displej najniže cifre.
+Putanja ide od izvornih ulaza, preko detekcije greške, do upravljanja prikazom. Nema povratne putanje niti signala inicijalizacije. Posle promene 00A5 u 0504 prikaz se, nakon smirivanja kola, sam menja iz E u 504.
 
-\begin{tcolorbox}[colback=orange!10, colframe=black, boxrule=0.5pt]
-\textbf{Napomena:} 
-Povratna sprega preko najniže cifre čuva prethodnu grešku. Neka je $F$ izlaz kola 4, $I=\overline{\mathrm{INIT}}$ stvarni logički nivo na priključku inicijalizacije, a $R$ ILI zbir detekcija greške na \emph{izvornim} četvorobitnim ulazima, pre kola 1 i 2. Pošto se najnižoj cifri nameće $C_0'=C_0+F$, $D_0'=D_0+F$, njena detekcija greške postaje $\mathrm{ERROR}_0'=\mathrm{ERROR}_0+F$. Stacionarno važi
-\begin{equation}\label{eq:feedback}
-F=I(R+F).
-\end{equation}
-Za $I=1$, $R=0$ postoje dva moguća stanja, $F=0$ i $F=1$. Uklanjanje neispravnog ulaza zato samo po sebi ne uklanja zapamćeno slovo E. Ovo kolo sa povratnom spregom nema izlaz određen isključivo trenutnim ulaznim brojem.
+Signal $\mathrm{LZ}_{\mathrm{IN}}$ najviše cifre vezan je na 1; $\mathrm{LZ}_{\mathrm{OUT}}$ svake više cifre prosleđuje se sledećoj. Kod jedinica su $\mathrm{LZ}_{\mathrm{IN}}$ i OFF vezani na 0. Tako se 0000 prikazuje kao jedna nula, a unutrašnje nule, poput nule u 0504, ostaju vidljive. Izlaz $\mathrm{LZ}_{\mathrm{OUT}}$ cifre 1 i oba upravljačka izlaza jedinica nisu potrebni daljim blokovima.
 
-Da bi prikaz odgovarao novom broju, potrebno je pri uključivanju i pri \emph{svakoj promeni ulaznog podatka} postaviti $I=0$, držati ulaze stabilnim do smirivanja kola, pa vratiti $I=1$. Potrebno trajanje impulsa zavisi od kašnjenja putanje i nije brojčano zadato. Ako neispravan ulaz ostane prisutan, greška će se posle otpuštanja ponovo aktivirati. Prikaz tokom promene i inicijalizacije nije garantovan.
+Pomoćni modul u nastavku proširuje NILI mrežu iz tačke a). Signal \texttt{off\_int} dodat je završnom kolu svakog segmenta, dok ERROR ostaje nezavisan od gašenja.\par
 
-Signal $\mathrm{LZ}_{\mathrm{IN}}$ najviše cifre vezan je na 1. Kod najniže cifre vezan je na 0, kao i njen OFF, tako da se broj 0000 prikazuje kao jedna nula. Unutrašnje nule, poput nule u 0504, ostaju vidljive.
-\end{tcolorbox}
+\clearpage
+\FloatBarrier
+\noindent\begin{minipage}{\linewidth}
+Verilog kod koji implementira konvertor jedne cifre sa detekcijom greške i vodeće nule. Kod je grupisan po segmentima.\par
+\BeginVerilogCopy{code/Zadatak_4/c/bcd_cifra.sv}
+\inputminted[fontsize=\small, baselinestretch=0.85, frame=single]{systemverilog}{code/Zadatak_4/c/bcd_cifra.sv}
+\EndAccSupp{}
+
+Testbench koji simulira konvertor jedne cifre je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_4/c/tb_bcd_cifra.sv}{OVDE}.\par
+\end{minipage}
+\par\bigskip
+
+
+Glavni modul eksplicitno povezuje četiri instance pomoćnog modula. Ulazi \texttt{BCD3}--\texttt{BCD0} imaju redosled bitova $DCBA$, a izlazi \texttt{SEG3}--\texttt{SEG0} redosled $abcdefg$ od bita 6 do bita 0. Instanca \texttt{CIFRA0} predstavlja jedinice; prazni priključci \texttt{.ERROR()} i \texttt{.LZ\_OUT()} označavaju izlaze koji se ne koriste.\par
+
+\FloatBarrier
+\noindent\begin{minipage}{\linewidth}
+Verilog kod koji implementira četvorocifreni konvertor sa slike~\ref{fig:Zadatak_4c_4Digits}. Za simulaciju koristiti i prethodni pomoćni modul \texttt{bcd\_cifra.sv}.\par
+\BeginVerilogCopy{code/Zadatak_4/c/zadatak.sv}
+\inputminted[fontsize=\small, baselinestretch=0.85, frame=single]{systemverilog}{code/Zadatak_4/c/zadatak.sv}
+\EndAccSupp{}
+
+Testbench koji simulira konvertor sa slike~\ref{fig:Zadatak_4c_4Digits} je dat \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/02/code/Zadatak_4/c/tb_zadatak.sv}{OVDE}.\par
+\end{minipage}
+
 
 \clearpage
 \section{Zadaci za samostalni rad}

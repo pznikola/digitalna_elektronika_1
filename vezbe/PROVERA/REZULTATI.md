@@ -1,8 +1,74 @@
 # Rezultati potpune provere vežbi
 
-## SystemVerilog i Verilator — 09.10.2026.
+## Korekcija stila listinga u zadatku 02/4 — 09.10.2026.
 
-Važeća verzija obuhvata svih sedam vežbi i **151 PDF stranicu**. U vežbama 01/02 dodato je **36 SystemVerilog fajlova: 18 modula i 18 testbenchova**. Svaki od 32 VHDL fajla ima `.sv` parnjak, uz četiri dodatna testbencha za pomoćne module. Svih 32 originala ima nepromenjen SHA-256. Studentski primeri zadržavaju eksplicitne izraze, pojedinačne bitove proizvoda, interne mreže, polaritete, instanciranje i logičke stepene originalnih kola.
+Uz sva četiri listinga zadatka 4 koristi se postojeći stil „Verilog kod koji implementira …“ i „Testbench koji simulira … je dat OVDE“. Link ka testbenchu odvojen je razmakom od naredne pottačke; uvod i lista zahteva c) ostaju zajedno. Lokalna izgradnja i strukturne provere prolaze, svih 37 listinga kopira se tačno u raw/layout režimu, a svih sedam promenjenih stranica pregledano je na 150 dpi. Broj stranica ostaje 32 za 02, odnosno 166 ukupno. Važeći pregled i otisci ove verzije su u [potvrdi pregleda](rucni_pregled.json), u polju `02.presentation_update`. RTL i testbenchovi nisu menjani. Čista izgradnja opisana u narednom odeljku odnosi se na verziju pre ove korekcije prikaza.
+
+## Važeća provera zadatka 02/4 — 09.10.2026.
+
+Materijali imaju **166 PDF stranica**, **53 RTL modula**, **44 testbenchova** i **37 celih Verilog listinga**. Zadatak 02/4 ima tri glavna modula, pomoćni `bcd_cifra` i četiri testbencha. Globalna greška računa se iz izvornih BCD ulaza; ERROR jedinica ne određuje G. Kaskada je kombinaciona, bez INIT-a i povratne putanje. Prelaz 00A5 → 0504 daje E → 504 bez resetovanja; 0000 prikazuje jednu nulu.
+
+| Vežba | Stranice | RTL / testbench | Verilog listinzi | Računske i strukturne provere |
+|---|---:|---:|---:|---:|
+| 01 | 28 | 11 / 10 | 10 | 2.863 |
+| 02 | 32 | 22 / 20 | 15 | 76.879 |
+| 03 | 17 | 0 / 0 | 0 | 18.894 |
+| 04 | 30 | 13 / 8 | 6 | 13.849 |
+| 05 | 21 | 7 / 6 | 6 | 256.760 |
+| 07 | 13 | 0 / 0 | 0 | 2.230 |
+| 08 | 25 | 0 / 0 | 0 | 1.395 |
+
+Radno stablo i nova privremena kopija prolaze kompletan `make check`: **88 studentskih simulacija po prolazu**, 37 simulacija RTL-a kopiranog iz PDF-a, postojeće računske/GHDL provere, 18 VHDL/SV binarnih poređenja i pet X/Z poređenja. Prolaze 16 postojećih negativnih proba, sedam proba registra, četiri prethodne HDL i sedam negativnih proba dopune, kao i **pet novih namerno pogrešnih realizacija zadatka 4**.
+
+Verilatorom i Icarusom provereni su domeni 16 za a), 10 za b), 64 za pomoćni blok i svih 65.536 ulaza c), uz nezavisne tabele segmenata. Dodatno su provereni prelazi sa greške na ispravan broj i 17 Icarus X/Z slučajeva gašenja. Hijerarhijski graf stvarnih RTL zavisnosti nema kombinacionu petlju; ERROR ne zavisi od gašenja. Verzije u image-u `hdlview-tools:2025.12`: Verilator 5.042, GHDL 6.0.0-dev i Icarus 13.0 devel.
+
+Svih **37 listinga** kopira se tačno u režimima Poppler `-raw` i `-layout`, sa izvornim razmacima i novim redovima. Provera uključuje pomoćni modul i njegov zasebni testbench. Čista kopija bez PDF-ova, TeX pomoćnih fajlova i minted keša gradi svih sedam dokumenata; **svih 166 stranica ima identične piksele na 110 dpi** u odnosu na radne PDF-ove.
+
+Codex je pregledao novu šemu, četiri nova listinga na fizičkim stranicama 22, 25, 30 i 31 vežbe 02, ceo span zadatka 4 i sve promenjene stranice vežbi 01/07/08. Prethodno pregledan nepromenjen sadržaj ostaje vezan za sačuvanu evidenciju. Uklanjanje istorijskih napomena ne menja formule; naknadne dve tekstualne promene u 08 imaju dodatnu lokalnu izgradnju i računske/strukturne provere pre čiste izgradnje. Novi pregled nije predstavljen kao ljudski potpis.
+
+Sva **32 VHDL fajla** i svih **49 prethodnih RTL izvora** imaju nepromenjene SHA-256 otiske. Od 89 prethodnih SV fajlova, 86 je bajtovski identično, a u tri testbencha uklonjen je isključivo po jedan istorijski komentar prema zahtevu korisnika; izvršivi sadržaj svih 89 ostaje isti. Tačna dozvoljena brisanja čuva [zapis uklanjanja napomena](dokazi/student_text_cleanup.json). U studentskom tekstu i SV kodu nema napomena o toku ovog rada; objašnjenja funkcije kola ostaju.
+
+Važeći izvori, oba prolaza i stvarni pregled zabeleženi su u [dokazu zadatka 4](dokazi/zadatak4_provera.json) i [potvrdi pregleda](rucni_pregled.json). Raniji odeljci ispod su istorijski rezultati. Novi RTL nema kašnjenja, vremenske deklaracije, registre ni parametre. X/Z proverava Icarus; ActualText zahteva podršku PDF preglednika. Funkcija c) proverena je nakon smirivanja kola, bez garancije odsustva prolaznih impulsa. Novi primeri nisu proveravani Quartusom/Questom.
+
+## Istorijska evidencija dopune sa 19 novih primera — 09.10.2026.
+
+Tadašnja verzija sadržala je **163 PDF stranice**, **49 RTL modula**, **40 testbenchova** i **33 kompletna Verilog listinga**. Dopuna dodaje 19 glavnih primera, 12 pomoćnih modula i 22 testbencha (19 glavnih i tri dodatne provere pomoćnih modula). Kod prati postojeće formule i šeme, sa imenovanim međusignalima, eksplicitnim izrazima i povezivanjem portova. Originalnih 32 VHDL i 36 prethodnih SystemVerilog fajlova imaju nepromenjene SHA-256 otiske.
+
+| Vežba | Stranice | RTL / testbench | Verilog listinzi | Računske i strukturne provere |
+|---|---:|---:|---:|---:|
+| 01 | 28 | 11 / 10 | 10 | 2.863 |
+| 02 | 28 | 18 / 16 | 11 | 76.685 |
+| 03 | 17 | 0 / 0 | 0 | 18.894 |
+| 04 | 30 | 13 / 8 | 6 | 13.849 |
+| 05 | 21 | 7 / 6 | 6 | 256.760 |
+| 07 | 14 | 0 / 0 | 0 | 2.230 |
+| 08 | 25 | 0 / 0 | 0 | 1.395 |
+
+01 dobija tri NI/NILI mreže i realizaciju bez hazarda; 02 tri dekodera 6/64; 04 šest primera uz već rešene samostalne zadatke 3 i 4; 05 Grejov koder/dekoder, BCD sabirač, parnost i Hamingov koder/korektor. 03/07/08 nemaju dopune; njihovi PDF-ovi ostaju identični prethodnim. **Ceo zadatak 02/4, uključujući šeme i sedmosegmentne primere, ostaje neizmenjen i odložen.**
+
+### Dvostruka funkcionalna provera
+
+Radni izvori i nova privremena kopija prolaze ceo `make check`. U svakom prolazu svih 40 testbenchova završava uspešno na Verilatoru i Icarusu: **80 simulacija po prolazu**. Provereni su iscrpni mali binarni domeni, 256 ulaza četvorobitnog komparatora, 4.096 ulaza maksimuma, 200 dozvoljenih ulaza BCD sabirača, svih 64 Grejovih reči, parnost za zadate širine i svih 16 Hamingovih poruka bez greške i sa greškom na svakoj od sedam pozicija. Rastojanja osnovnog i proširenog Hamingovog koda proverena su za sve parove poruka.
+
+Hazard je proveravan u oba smera za podrazumevani T=1 i promenjeni T=7ns, uz poređenje sa prethodnom strukturom. Icarus proverava X/Z odzive novih dekodera i isključivanje neizabranih grana. Ponovljena je prethodna GHDL/SV ekvivalencija za 18 modula, uključujući interne mreže, kašnjenja i dodatne četvorovrednosne slučajeve. Prolaze 16 postojećih negativnih proba, sedam proba registra, četiri prethodne HDL negativne probe i **sedam novih namerno pokvarenih dizajna**.
+
+Image `hdlview-tools:2025.12` sadrži Verilator 5.042, GHDL 6.0.0-dev i Icarus 13.0 devel. Novi primeri nisu proveravani Quartusom/Questom; prethodni rezultati tih alata ostaju istorijska evidencija početnog prelaska.
+
+### PDF, čista izgradnja i pregled
+
+Sva **33 listinga** kopiraju se tačno preko PDF `ActualText`: Poppler `-raw` i `-layout` čuvaju izvorne razmake, uvlačenje, komentare i nove redove. Upravo izdvojeni RTL uspešno je simuliran Icarusom u oba prolaza.
+
+Iz nove kopije bez PDF-ova, pomoćnih TeX fajlova ili minted keša izgrađeno je svih sedam dokumenata i ponovljene su kompletne provere. **Svih 163 stranica ima identičan prikaz na 110 dpi** u odnosu na radne PDF-ove. Nakon kopiranja korigovani su linkovi u dva Markdown dokazna priloga i precizirana VHDL uputstva u dva README-a; svi kompajlirani izvori i skripte identični su svežoj kopiji.
+
+Codex je pregledao sedam pregleda svih stranica i svih **17 stranica novih listinga u punoj veličini na 150 dpi**, uključujući pogođene prelome. Izrazi i strukture provereni su prema postojećim formulama i šemama. Za nepromenjenu teoriju sačuvana je [prethodna evidencija](dokazi/rucni_pregled_pre_dopuna.json), uz dvaput ponovljene računske provere. Ova evidencija ne predstavlja novi ljudski potpis. Završni `audit.py --require-complete` potvrđuje svih sedam dokumenata i 4.783 inventarske celine, bez neproverenih stavki. Važeći otisci, rezultati oba prolaza i pregled listinga sačuvani su u [dokaznom zapisu dopune](dokazi/dopuna_provera.json) i [potvrdi pregleda](rucni_pregled.json).
+
+Novi RTL nema `timeunit`, `timeprecision` ni `timescale`. Vreme se podešava u simulatoru i testbenchu. Novi primer hazarda koristi T=1 za 1ns: Icarus iz navedenog image-a podrazumevani vremenski literal u zaglavlju parametra tumači kao nulu, dok eksplicitno prosleđeni T=7ns radi ispravno. Ograničenje i podešavanje opisani su u [README-u](../README.md). Verilator X/Z slučajeve proveravamo Icarusom. Kopiranje zahteva preglednik sa podrškom za ActualText; clipboard svih GUI preglednika nije testiran.
+
+Zadatak 02/4 bio je sledeći posao nakon te dopune; merodavno sadašnje stanje opisano je u novom završnom zapisu.
+
+## Istorijska evidencija početnog prelaska na SystemVerilog — 09.10.2026.
+
+Tadašnja verzija obuhvatala je svih sedam vežbi i **151 PDF stranicu**. U vežbama 01/02 dodato je **36 SystemVerilog fajlova: 18 modula i 18 testbenchova**. Svaki od 32 VHDL fajla ima `.sv` parnjak, uz četiri dodatna testbencha za pomoćne module. Svih 32 originala ima nepromenjen SHA-256. Studentski primeri zadržavaju eksplicitne izraze, pojedinačne bitove proizvoda, interne mreže, polaritete, instanciranje i logičke stepene originalnih kola.
 
 RTL nema deklaracije `timeunit` ni `timeprecision`. Vremenske jedinice podešavaju simulatori i testbenchovi, kako je opisano u [README-u](../README.md). Podrazumevani Make cilj je `run_verilator`; prikaz talasa je zaseban cilj. GHDL i `_vhdl` varijante Quartus/Questa skripti su sačuvani. Aktivne skripte koriste `.sv`, odvojene projekte/biblioteke i `SYSTEMVERILOG_FILE`.
 

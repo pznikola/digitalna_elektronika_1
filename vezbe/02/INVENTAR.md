@@ -1,17 +1,17 @@
 # Inventar — vežba 02
 
-Prethodni sadržaj sačuvan: 4 rešena zadatka, 2 zadatka za samostalni rad na kraju i svi dodatni zahtevi u okvirima. Rešenja ranije nerešenih zahteva nisu dopisana u studentski dokument. Neusklađeno rešenje 3d objašnjeno je uz očuvanje postavke i originalne šeme.
+Prethodni sadržaj sačuvan: 4 rešena zadatka, 2 zadatka za samostalni rad na kraju i svi dodatni zahtevi u okvirima. Studentski dokument sada sadrži kompletne SV realizacije sva tri sedmosegmentna konvertora. Neusklađeno rešenje 3d objašnjeno je uz očuvanje postavke i originalne šeme.
 
 | Celina | Sadržaj i dokaz provere |
 |---|---|
-| 1a/b | MUX4/1, četiri reda funkcionalne tabele, tri formule, dve šeme, dva VHDL primera. Domeni: 64 i 16 kombinacija. |
-| 2a–d | Šenonovi kofaktori; četiri NI2 kola; broj kućišta i kašnjenje; sve tri Karnoove karte, obe strelice, hazard i dodatni CA. Tri VHDL primera; oba modela kašnjenja; nerešeni zahtev selekcije AC sačuvan. |
-| 3a–d | Tabela i osam minterma dekodera; aktivni niski nivoi i sve dozvole; 4/16; funkcija preko izlaza 0,2,7; Karnoova karta; 6/64 i uslovljena alternativa. Tri VHDL primera plus dva pomoćna dekodera. |
-| 4a–c | Dve 16-redne tabele BCD; 14 Karnoovih karata; sve transformacije sedam segmenata; NOT/NILI konvencija; upravljačka tabela; ERROR, OFF, LZ; višecifrena kaskada, protokol i ograničenja povratne sprege. Svi dodatni zahtevi sačuvani. |
+| 1a/b | MUX4/1, četiri reda funkcionalne tabele, tri formule, dve šeme, dva Verilog primera, sa sačuvanim VHDL referencama. Domeni: 64 i 16 kombinacija. |
+| 2a–d | Šenonovi kofaktori; četiri NI2 kola; broj kućišta i kašnjenje; sve tri Karnoove karte, obe strelice, hazard i dodatni CA. Tri Verilog primera sa VHDL referencama; oba modela kašnjenja; nerešeni zahtev selekcije AC sačuvan. |
+| 3a–d | Tabela i osam minterma dekodera; aktivni niski nivoi i sve dozvole; 4/16; funkcija preko izlaza 0,2,7; Karnoova karta; 6/64 i uslovljena alternativa. Tri početna Verilog primera plus dva pomoćna dekodera i tri dopune za 6/64; VHDL reference su sačuvane. |
+| 4a–c | Dve 16-redne tabele BCD; 14 Karnoovih karata; sve transformacije sedam segmenata; NOT/NILI konvencija; upravljačka tabela; ERROR, OFF, LZ; četvorocifrena kombinaciona kaskada sa detekcijom greške iz izvornih ulaza, bez INIT-a; četiri kompletna SV listinga i četiri testbencha. Svi dodatni zahtevi sačuvani. |
 | Samostalni 1a–c | Sastavljanje dekodera; 4/16 iz I2/NE; mogućnost 13-ulaznog dekodera u četiri nivoa proverena iscrpno. Bez novih rešenja u PDF-u. |
 | Samostalni 2a–d | Sva četiri para selekcije i sva stanja; privatna provera minimuma uz izričito navedenu biblioteku. U tekstu naveden nedostajući uslov poređenja. |
 
-Ukupno: 6 tabela (uključujući opis upravljačkih signala), 18 Karnoovih karata, 22 numerisane slike (od toga 16 uključenih ilustracija i 14 podslika unutar dve zbirne slike), 8 uključenih VHDL listinga. Pored listinga pregledani su svi pomoćni moduli i testbenčevi.
+Ukupno: 6 tabela (uključujući opis upravljačkih signala), 18 Karnoovih karata, 22 numerisane slike (od toga 16 uključenih ilustracija i 14 podslika unutar dve zbirne slike), 15 uključenih SystemVerilog listinga (14 glavnih modula i jedan pomoćni konvertor). Pored listinga pregledani su svi pomoćni moduli i testbenčevi.
 
 ## Uključene ilustracije
 
@@ -71,5 +71,17 @@ Precizne lokacije i otisci izvora evidentiraju se u `../PROVERA/registar.json`. 
 
 ## Aktivni SystemVerilog materijali
 
-Vežba 02 sadrži osam `.sv` realizacija, četiri pomoćna modula, osam studentskih i četiri pomoćna testbencha; svih 20 VHDL izvora ostalo je sačuvano.
+Vežba 02 sadrži četrnaest glavnih `.sv` realizacija, osam pomoćnih modula, četrnaest studentskih i šest pomoćnih testbenchova; svih 20 VHDL izvora ostalo je sačuvano.
 Aktivni listing i testbench linkovi koriste SystemVerilog. Registar prati `.sv` izvore i odvojeno sačuvane VHDL reference; stari brojevi VHDL listinga u inventaru odnose se na istorijsku verziju.
+
+## Dopuna Verilog primera — 09.10.2026.
+
+Dodato 3 novih glavnih primera, svaki sa testbenchom i lokalnim Makefile-om. Kod je uključen uz postojeća rešenja, bez promene njihovih formula i šema.
+
+- [code/Zadatak_3/d/and](code/Zadatak_3/d/and/zadatak.sv)
+- [code/Zadatak_3/d/only_decoders](code/Zadatak_3/d/only_decoders/zadatak.sv)
+- [code/Zadatak_3/d/cascade](code/Zadatak_3/d/cascade/zadatak.sv)
+
+Simulacija: `make` u folderu primera pokreće Verilator; `make run_iverilog` pokreće Icarus. Zajednički `make -C vezbe check-sv` obuhvata i ovu dopunu. Izvorni tekst listinga čuva PDF ActualText; `check-pdf-code` proverava kopiranje i simulaciju izvučenog koda.
+
+Zadatak 4 obrađen je zasebnom dopunom: a) NILI konvertor, b) pojednostavljeni konvertor i c) četvorocifreni konvertor sa pomoćnim `bcd_cifra`. Svaki glavni primer ima `zadatak.sv`, `tb_zadatak.sv` i Makefile; pomoćni modul ima `tb_bcd_cifra.sv`. Ukupno je sada 22 RTL modula i 20 testbenchova. Svi izvorni VHDL fajlovi ostali su neizmenjeni.

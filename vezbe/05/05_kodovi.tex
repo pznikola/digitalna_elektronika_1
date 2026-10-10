@@ -36,6 +36,14 @@
 \newcommand{\redlinija}{\arrayrulecolor{black!28}\specialrule{0.3pt}{2pt}{2pt}\arrayrulecolor{black}}
 \newcommand{\kod}[1]{\ensuremath{\mathtt{#1}}}
 \newcommand{\istaknutbit}[1]{\textcolor{Primary!85!black}{\ifmmode\mathbf{#1}\else\textbf{#1}\fi}}
+\usepackage{minted}
+\usepackage{accsupp,stringenc}
+\newcommand{\BeginVerilogCopy}[1]{%
+  \EdefUnescapeHex\CodeCopyRaw{\pdffiledump length\pdffilesize{#1} {#1}}%
+  \StringEncodingConvert\CodeCopyUnicode{\CodeCopyRaw}{utf8}{utf16be}%
+  \EdefEscapeHex\CodeCopyHex{\CodeCopyUnicode}%
+  \BeginAccSupp{method=hex,unicode,ActualText=\CodeCopyHex}%
+}
 \begin{document}
 \hypersetup{pageanchor=false}
 \begin{titlepage}
@@ -406,6 +414,30 @@ Za dekodiranje Grejove reči $g_{n-1}\dots g_0$ u binarnu reč $b_{n-1}\dots b_0
 b_{n-1}=g_{n-1},\qquad b_i=b_{i+1}\oplus g_i\quad(i=n-2,\dots,0).
 \end{equation}
 
+
+
+\FloatBarrier
+\Needspace{8\baselineskip}
+\noindent\begin{minipage}{\linewidth}
+Verilog kod: šestobitni binarni Grejov koder prema jednačini~\eqref{eq:gray-kodiranje}. Primeri koriste SystemVerilog (\texttt{.sv}) i Verilator. Svaki XOR opisan je zasebnom dodelom. Ovo je binarni Grejov kod, a ne decimalni Grejov kod iz naredne tabele.\par
+\BeginVerilogCopy{code/Grej/koder/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Grej/koder/zadatak.sv}
+\EndAccSupp{}
+
+Testbench i automatske provere: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/05/code/Grej/koder/tb_zadatak.sv}{\texttt{tb\_zadatak.sv}}.\par
+\end{minipage}
+
+
+\FloatBarrier
+\Needspace{8\baselineskip}
+\noindent\begin{minipage}{\linewidth}
+Verilog kod: šestobitni binarni Grejov dekoder prema jednačini~\eqref{eq:gray-dekodiranje}. Veza sa prethodno dekodiranim višim bitom prikazuje lanac XOR kola.\par
+\BeginVerilogCopy{code/Grej/dekoder/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Grej/dekoder/zadatak.sv}
+\EndAccSupp{}
+
+Testbench i automatske provere: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/05/code/Grej/dekoder/tb_zadatak.sv}{\texttt{tb\_zadatak.sv}}.\par
+\end{minipage}
 
 % Izvor DOCX: blok 58
 \Needspace{6\baselineskip}
@@ -995,6 +1027,17 @@ $\begin{array}{r*{13}{c}@{}c@{}l}
 \end{minipage}\end{center}
 
 
+\FloatBarrier
+\Needspace{8\baselineskip}
+\noindent\begin{minipage}{\linewidth}
+Verilog kod: sabirač jedne BCD cifre sa ulaznim i izlaznim decimalnim prenosom. Ulazne cifre moraju biti 0--9. Dve dodele sa operatorom \texttt{+} predstavljaju dva binarna sabirača, između kojih je izdvojena logika korekcije $K$. Izlazni prenos je $K$, a ne samo prenos prvog sabirača.\par
+\BeginVerilogCopy{code/BCD_sabirac/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/BCD_sabirac/zadatak.sv}
+\EndAccSupp{}
+
+Testbench i automatske provere: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/05/code/BCD_sabirac/tb_zadatak.sv}{\texttt{tb\_zadatak.sv}}.\par
+\end{minipage}
+
 % Izvor DOCX: blok 122
 \FloatBarrier
 \subsection{Zadatak 3}\label{sec:2.3}
@@ -1033,6 +1076,7 @@ $\begin{array}{r*{13}{c}@{}c@{}l}
 
 % Izvor DOCX: blok 128
 10\istaknutbit{0} : 10\istaknutbit{1} \ensuremath{\to} H\textsubscript{d} = 1
+
 
 % Izvor DOCX: blok 129
 \istaknutbit{1}1\istaknutbit{0} : \istaknutbit{0}1\istaknutbit{1} \ensuremath{\to} H\textsubscript{d} = 2
@@ -1262,6 +1306,18 @@ Vrednost & Kod sa parnom parnošću & Kod sa neparnom parnošću \\
 % Izvor DOCX: blok 148
 b) Za fiksnu dužinu reči oba koda imaju minimalno rastojanje 2.\par c) Oba otkrivaju svaku promenu neparnog broja bita, a ne otkrivaju parne promene. Ne omogućavaju određivanje položaja ni korekciju jedne greške.
 
+
+\FloatBarrier
+\Needspace{8\baselineskip}
+\noindent\begin{minipage}{\linewidth}
+Verilog kod: kodovanje parnom i neparnom parnošću. Parametar $N$ određuje broj informacionih bita; podrazumevano je šest. Redukcioni XOR \texttt{\textasciicircum D} računa parnost svih bita, a dodatni bit nalazi se zdesna. Testbench proverava i sve četiri poruke iz tabele~\ref{tab:parnost-zadatak}.\par
+\BeginVerilogCopy{code/Parnost/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Parnost/zadatak.sv}
+\EndAccSupp{}
+
+Testbench i automatske provere: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/05/code/Parnost/tb_zadatak.sv}{\texttt{tb\_zadatak.sv}}.\par
+\end{minipage}
+
 % Izvor DOCX: blok 149
 \FloatBarrier
 \subsection{Zadatak 6}\label{sec:2.6}
@@ -1319,6 +1375,32 @@ Pozicije 5 i 7 pripadaju i grupi $c_1$ i grupi $c_4$. Pozicija 7 pripada i grupi
 
 
 Dodatni bit $p_0$ nalazi se krajnje desno i ne menja numeraciju prvobitnih sedam pozicija. Reč 1001100 ima tri jedinice, pa je za parnu parnost $p_0=1$. Dobija se prošireni Hamingov kod (8,4,4), koji koriguje jednu i detektuje dve greške.\par
+
+
+\FloatBarrier
+\Needspace{8\baselineskip}
+\noindent\begin{minipage}{\linewidth}
+Verilog kod: Hamingov koder za četiri informaciona bita. Opseg \texttt{[7:1]} prati pozicije iz zadatka; opseg \texttt{[7:0]} proširene reči uključuje dodatni bit $p_0$ na desnoj strani.\par
+\BeginVerilogCopy{code/Haming/koder/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Haming/koder/zadatak.sv}
+\EndAccSupp{}
+
+Testbench i automatske provere: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/05/code/Haming/koder/tb_zadatak.sv}{\texttt{tb\_zadatak.sv}}.\par
+\end{minipage}
+
+
+\FloatBarrier
+\Needspace{8\baselineskip}
+\noindent\begin{minipage}{\linewidth}
+Verilog kod: provera sindroma i korekcija osnovnog Hamingovog koda, uz pretpostavku da je promenjen najviše jedan bit. Sindrom $000$ tada znači da korekcija nije potrebna. Ovaj korektor nije SECDED dekoder i ne razlikuje svaku dvobitnu grešku od jednobitne.\par
+\BeginVerilogCopy{code/Haming/korektor/zadatak.sv}
+\inputminted[fontsize=\small, frame=single]{systemverilog}{code/Haming/korektor/zadatak.sv}
+\EndAccSupp{}
+
+Pomoćni moduli: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/05/code/Haming/korektor/haming_koder.sv}{\texttt{haming\_koder.sv}}.\par
+
+Testbench i automatske provere: \href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/vezbe/05/code/Haming/korektor/tb_zadatak.sv}{\texttt{tb\_zadatak.sv}}.\par
+\end{minipage}
 
 % Izvor DOCX: blok 160
 \begin{enumerate}[label=\alph*),start=3,leftmargin=*]

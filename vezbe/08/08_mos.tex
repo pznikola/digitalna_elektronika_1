@@ -63,13 +63,13 @@ Haris Turkmanović & \href{mailto:haris@etf.bg.ac.rs}{\texttt{haris@etf.bg.ac.rs
 \tableofcontents
 \newpage
 \section*{Modeli i oznake}\addcontentsline{toc}{section}{Modeli i oznake}
-Koristimo pojednostavljeni model izvornika, bez modulacije dužine kanala, struja curenja i parazitskih kapacitivnosti, osim gde su izričito potrebne. Za NMOS označimo $B=\mu_nC_{ox}W/L$, $E=E_C L$ i $u=V_{GS}-V_T$. Za $u\le0$ je $I_D=0$. Za $u>0$ i $V_{DS}\ge0$, struje u omskoj oblasti i zasićenju su
+Koristimo pojednostavljeni model, bez modulacije dužine kanala, struja curenja i parazitskih kapacitivnosti, osim gde su izričito potrebne. Za NMOS označimo $B=\mu_nC_{ox}W/L$, $E=E_C L$ i $u=V_{GS}-V_T$. Za $u\le0$ je $I_D=0$. Za $u>0$ i $V_{DS}\ge0$, struje u omskoj oblasti i zasićenju su
 \begin{equation}\label{eq:model}
 I_{D,\mathrm{lin}}=\frac{B}{1+V_{DS}/E}\left(uV_{DS}-\frac{V_{DS}^2}{2}\right),\qquad I_{D,\mathrm{sat}}=\frac{B}{2}\frac{u^2}{1+u/E}.
 \end{equation}
 
 U ovom modelu granica oblasti uzima se kao $V_{DS}=u$, a $v_{\mathrm{sat}}=\mu_nE_C/2$. To je zadati aproksimativni model, a ne model konkretne tehnologije. Struja je na toj granici neprekidna, ali nagib omskog izraza po $V_{DS}$ postaje negativan pre granice i ne spaja se glatko sa konstantnom strujom zasićenja. Zato ovaj izraz ne daje fizički pouzdanu karakteristiku u celoj okolini prelaska u zasićenje. U nastavku se čuvaju zadate jednačine i posebno označavaju dodatne aproksimacije. Za $V_{DS}/E\ll1$, odnosno $u/E\ll1$, odgovarajući imenilac može se aproksimirati jedinicom. Za PMOS se koriste pozitivni naponi $V_{SG},V_{SD}$ i prag $|V_{TP}|$.
-Kao u vežbi 07, $V_H,V_L$ označavaju krajnje/stabilne nivoe bez poremećaja; garantovane granice su $V_{OH}=f(V_{IL})$ i $V_{OL}=f(V_{IH})$. Izvor često označava $V_H,V_L$ simbolima $V_{OH},V_{OL}$ i njima aproksimira garantovane nivoe. Ta aproksimacija ovde je posebno naznačena.
+Kao u vežbi 07, $V_H,V_L$ označavaju krajnje/stabilne nivoe bez poremećaja; garantovane granice su $V_{OH}=f(V_{IL})$ i $V_{OL}=f(V_{IH})$. Aproksimacija garantovanih nivoa krajnjim/stabilnim nivoima posebno je naznačena.
 \section{Zadatak 1: NMOS invertor sa pasivnim opterećenjem}\label{sec:1}
 \begin{enumerate}[label=\alph*)]
 \item Za NMOS invertor sa kratkim kanalom i otpornim opterećenjem odrediti izraze za izlazne nivoe, $V_{IL},V_{IH}$ i napon prebacivanja $V_S$.
@@ -143,7 +143,7 @@ $V_{IL}$ & $0.458140\,\mathrm V$\\
 \redlinija
 $V_{IH}$ & $0.773192\,\mathrm V$\\
 \bottomrule\end{tabular}\end{minipage}\end{center}
-Procene margina pomoću krajnjih nivoa iz izvornika su $NM_0\approx0.376839\,\mathrm V\approx0.38\,\mathrm V$ i $NM_1\approx0.426808\,\mathrm V\approx0.43\,\mathrm V$. Ako se garantovani izlazi odrede u tačkama nagiba $-1$ u istom aproksimativnom modelu, sledi
+Procene margina pomoću krajnjih nivoa su $NM_0\approx0.376839\,\mathrm V\approx0.38\,\mathrm V$ i $NM_1\approx0.426808\,\mathrm V\approx0.43\,\mathrm V$. Ako se garantovani izlazi odrede u tačkama nagiba $-1$ u istom aproksimativnom modelu, sledi
 \begin{equation}\label{eq:1.11}
 \begin{aligned}V_{OH}&=V_{DD}-\alpha/2=1.170930\,\mathrm V,\\ V_{OL}&=\sqrt{2\alpha V_{DD}/3}=0.215666\,\mathrm V,\\ NM_0&=0.242474\,\mathrm V,\qquad NM_1=0.397739\,\mathrm V.\end{aligned}
 \end{equation}
@@ -179,7 +179,7 @@ Ovde je $V_{T1}=V_{T0}$ i $V_{T2}(0.1\,\mathrm V)=0.410373\,\mathrm V$. Obe pret
 K_R=\frac{v_{\mathrm{sat}}L_2}{\mu_n}\,\frac{(1+V_L/E_1)u_2^2}{(u_2+E_2)[(V_H-V_{T0})V_L-V_L^2/2]}\approx4.49558.
 \end{equation}
 
-\napomena{Broj $1.7$ u izvorniku ne zadovoljava datu jednačinu struja. Dati parametri su blago neusaglašeni: $2v_{\mathrm{sat}}L/\mu_n=0.592593\,\mathrm V$, dok je zadato $E_CL=0.6\,\mathrm V$. Direktna upotreba datih brojeva u~\eqref{eq:2.2} daje $K_R=4.49558$. Ako se nametne tačna relacija $v_{\mathrm{sat}}=\mu_nE_C/2$ uz $E_CL=0.6\,\mathrm V$, dobija se $K_R=4.55177$. Razlika je oko 1.25\%, pa su oba jasno označena tumačenja navedena.}
+\napomena{Dati parametri su blago neusaglašeni: $2v_{\mathrm{sat}}L/\mu_n=0.592593\,\mathrm V$, dok je zadato $E_CL=0.6\,\mathrm V$. Direktna upotreba datih brojeva u~\eqref{eq:2.2} daje $K_R=4.49558$. Ako se nametne tačna relacija $v_{\mathrm{sat}}=\mu_nE_C/2$ uz $E_CL=0.6\,\mathrm V$, dobija se $K_R=4.55177$. Razlika je oko 1.25\%, pa su oba jasno označena tumačenja navedena.}
 \FloatBarrier\Needspace{6\baselineskip}\paragraph{b) Povišeno upravljanje opterećenjem.}
 Uslov omskog rada je $V_{DS2}<V_{GS2}-V_{T2}$, odnosno
 \begin{equation}\label{eq:2.3}
@@ -245,7 +245,7 @@ K_R[2(V_H-V_{T1})V_L-V_L^2]=Q.
 \end{equation}
 
 Manji fizički koren je $V_L=(V_H-V_{T1})-\sqrt{(V_H-V_{T1})^2-Q/K_R}$. Ako se zanemari $V_L^2$, $V_L\approx Q/[2K_R(V_H-V_{T1})]$.
-Garantovane margine u navedenoj aproksimaciji su $NM_0=V_{IL}-V_{OL}$ i $NM_1=V_{OH}-V_{IH}$. Izvorna procena zamenjuje $V_{OL},V_{OH}$ krajnjim nivoima $V_L,V_H$.
+Garantovane margine u navedenoj aproksimaciji su $NM_0=V_{IL}-V_{OL}$ i $NM_1=V_{OH}-V_{IH}$. Procena na osnovu stabilnih nivoa koristi $V_L,V_H$ umesto garantovanih granica $V_{OL},V_{OH}$.
 \napomena{Nisu dati napajanje, geometrije ni parametri tranzistora. Zato se ne mogu navesti jedinstvene numeričke margine. Svako simboličko rešenje zahteva nenegativan diskriminant, napone između šina i proveru pretpostavljenih oblasti rada.}
 \clearpage\section{Zadatak 4: CMOS invertor}\label{sec:4}
 \begin{enumerate}[label=\alph*)]
@@ -265,7 +265,7 @@ Suprotne stroge nejednakosti određuju omske oblasti; jednakosti su granice. Isk
 \caption{Granice oblasti rada: N označava NMOS, P PMOS.}\label{fig:4.1}
 \end{figure}
 \FloatBarrier\Needspace{17\baselineskip}\paragraph{b) Napon prebacivanja.}
-Uz pretpostavku istog $v_{\mathrm{sat}}$ i $C_{ox}$ za oba tipa, koju koristi i izvor, izjednačavaju se struje:
+Uz pretpostavku istog $v_{\mathrm{sat}}$ i $C_{ox}$ za oba tipa izjednačavaju se struje:
 \begin{equation}\label{eq:4.2}
 \frac{W_n(V_S-V_{TN})^2}{V_S-V_{TN}+E_{CN}L_n}=\frac{W_p(V_{DD}-V_S-|V_{TP}|)^2}{V_{DD}-V_S-|V_{TP}|+E_{CP}L_p}.
 \end{equation}
@@ -279,7 +279,7 @@ $W_p\,[\mathrm{nm}]$ & $W_p/W_n$ & $V_S\,[\mathrm V]$\\
 100 & 1 & 0.537965\\
 \bottomrule\end{tabular}\end{minipage}\end{center}
 Rešenja su u intervalu $(0.4,0.8)\,\mathrm V$ i zadovoljavaju pretpostavljene oblasti rada. Jači PMOS pomera prag naviše: potreban je viši ulaz da NMOS uravnoteži njegovu struju.
-U izvorniku se zanemaruje prenapon u PMOS imeniocu i NMOS imenilac zamenjuje konstantom; ovde za to nema potrebe. Ako brzine zasićenja ili oksidne kapacitivnosti nisu jednake, njihov odnos mora ostati u~\eqref{eq:4.2}; bez njega prag nije jednoznačno zadat.
+Ako brzine zasićenja ili oksidne kapacitivnosti nisu jednake, njihov odnos mora ostati u~\eqref{eq:4.2}; bez njega prag nije jednoznačno zadat.
 \clearpage\section{Zadatak 5: sinteza statičkog CMOS kola}\label{sec:5}
 \begin{enumerate}[label=\alph*)]
 \item Realizovati $Y=(A+B)(C+D)$ jednostepenim statičkim CMOS kolom ako su negacije ulaza raspoložive.
@@ -334,7 +334,7 @@ Odrediti odnose $W/L$ tranzistora kola sa slike~\ref{fig:7.1}. Zanemaruju se kap
 \caption{Kolo koje se dimenzioniše.}\label{fig:7.1}
 \end{figure}
 \FloatBarrier\Needspace{10\baselineskip}\subsection*{Rešenje}
-Sama pokretljivost ne određuje apsolutne dimenzije. Kao u izvorniku, uzimamo zajedničku dužinu kanala, referentni invertor sa istim oksidom, približno jednakim apsolutnim pragovima i normalizovanim odnosima $(W/L)_n=1$, $(W/L)_p=2$ i približno izjednačavamo najgore otpornosti provodnih putanja. U nastavku $w$ označava normalizovani odnos $W/L$.
+Sama pokretljivost ne određuje apsolutne dimenzije. Uzimamo zajedničku dužinu kanala, referentni invertor sa istim oksidom, približno jednakim apsolutnim pragovima i normalizovanim odnosima $(W/L)_n=1$, $(W/L)_p=2$ i približno izjednačavamo najgore otpornosti provodnih putanja. U nastavku $w$ označava normalizovani odnos $W/L$.
 Za isti tip tranzistora $R\propto1/w$. Redna veza daje
 \begin{equation}\label{eq:7.1}
 \frac1{w_S}=\frac1{w_1}+\frac1{w_2},\qquad w_S=\frac{w_1w_2}{w_1+w_2}.
