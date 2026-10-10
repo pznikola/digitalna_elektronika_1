@@ -1,0 +1,10 @@
+\BeleskeID{06-s003}
+% element: 06-s003:e01
+% element: 06-s003:d01
+ISO je International Organization for Standardization. Kodovi znakova predstavljaju slova, cifre i druge znake u tekstu i na ekranu; razlikovati kodovanje znaka od brojne vrednosti koju taj znak prikazuje.
+
+U tabeli se kod dobija spajanjem tri bita kolone i četiri bita reda. Na primer, za cifru „1“ kolona je $011$, a red $0001$, pa je kod $0110001_2=0x31$. Za decimalne cifre od „0“ do „9“ oduzimanje koda $0x30$ daje brojnu vrednost cifre. To se odnosi na kod znaka, a ne na već izdvojen broj.
+
+Velika i mala latinična slova u prikazanoj tabeli razlikuju se u bitu vrednosti $0x20$. Tako kod „P“, $0x50$, prelazi u kod „p“, $0x70$. Ovaj postupak ne treba primenjivati na proizvoljne znake: na primer, dodavanje $0x20$ cifri „1“ ne daje malu verziju cifre.
+
+Kontrolne oznake, poput NUL, CR i LF, označavaju upravljačke kodove. Windows-1252, UTF-8 i porodica ISO 8859 predstavljaju druge načine kodovanja teksta; navedene nazive razlikovati od naziva institucija koje objavljuju standarde.

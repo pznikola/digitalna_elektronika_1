@@ -1,11 +1,13 @@
 
 \slajdid{05-s045}
-\begin{frame}[label=05-s045]
-\gusttekst\setlength{\parskip}{0pt}\setlength{\jot}{0pt}\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}
-Za označeno množenje često se koristi\par
-\begin{center}\textbf{\textcolor{DEplava}{Booth’s Algorithm}}\end{center}
-\[\begin{gathered}D=D_{n-1}D_{n-2}\ldots D_1D_0=D_{n-1}2^{n-1}+D^*\\D_{n-1}=0\Rightarrow D_t=D^*\\D_{n-1}=1\Rightarrow D_t=-(2^n-D)=-(2^n-D_{n-1}2^{n-1}-D^*)=-D_{n-1}2^{n-1}+D^*\end{gathered}\]
-\hfill Podsećanje\par
+% element: 05-s045:e01
+% element: 05-s045:e02
+% element: 05-s045:e03
+\begin{frame}[label=05-s045]{Boothov algoritam — izvođenje}
+\fontsize{10}{12}\selectfont\setlength{\parskip}{0pt}\setlength{\abovedisplayskip}{2pt}\setlength{\belowdisplayskip}{2pt}\setlength{\parskip}{0pt}\setlength{\jot}{0pt}\setlength{\abovedisplayskip}{2pt}\setlength{\belowdisplayskip}{2pt}
+Za označeno množenje često se koristi \alert{Booth’s Algorithm}.
+\[D=D_{n-1}2^{n-1}+D^*,\qquad D_t=\begin{cases}D^*,&D_{n-1}=0,\\-D_{n-1}2^{n-1}+D^*,&D_{n-1}=1.\end{cases}\]
+
 \alert{Za proizvod} $b*a$ \alert{formirajmo parcijalne proizvode na sledeći način}
 \[a=(a_{31}a_{30}a_{29}a_{28}\ldots a_3a_2a_1a_0)_2\]
 \begin{columns}[c,onlytextwidth]

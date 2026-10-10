@@ -1,13 +1,14 @@
 \slajdid{09_1-s052}
-\begin{frame}[label=09_1-s052]
-\gusttekst
-Ovaj iznenađujući rezultat pokazuje da suštinski u ovoj oblasti ne postoji tačka sa pojačanjem koje je jednako -1, ali isto tako i da je pojačanje konstantno (izraz važi za bilo koje $V_O$)\par\medskip
-Da se vratimo na polaznu jednačinu:
-\[k_{n,L}(V_{DD}-V_O-V_{Tn,L})^2=k_{n,D}(V_I-V_{Tn,D})^2\]
-Mada smo rekli da to nećemo raditi ali ovde na lak način možemo izraziti $V_O$ u funkciji $V_I$
-\[k_{n,L}(V_{DD}-V_O-V_{Tn,L})^2=k_{n,D}(V_I-V_{Tn,D})^2\]
-\[V_O=V_{DD}-V_{Tn,L}-\sqrt{\frac{k_{n,D}}{k_{n,L}}}(V_I-V_{Tn,D})\]
-pa je pojačanje u toj oblasti $\displaystyle a=\frac{dV_O}{dV_I}=-\sqrt{\frac{k_{n,D}}{k_{n,L}}}$ konstantno. I da bi dobili logičko kolo
-\[\sqrt{\frac{k_{n,D}}{k_{n,L}}}>1\]
-\[k_{n,D}>k_{n,L}\]
+\begin{frame}[label=09_1-s052]{Konstantno pojačanje u oblasti zasićenja}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{3pt}\setlength{\belowdisplayshortskip}{3pt}
+% element: 09_1-s052:e01
+% element: 09_1-s052:e02
+% element: 09_1-s052:e03
+% element: 09_1-s052:e04
+% element: 09_1-s052:e05
+U ovoj oblasti nema tačke sa pojačanjem $-1$; pojačanje je konstantno.\[k_{n,L}(V_{DD}-V_O-V_{Tn,L})^2=k_{n,D}(V_I-V_{Tn,D})^2\]
+Eksplicitna karakteristika:\[V_O=V_{DD}-V_{Tn,L}-\sqrt{\frac{k_{n,D}}{k_{n,L}}}(V_I-V_{Tn,D})\]
+\[a=\frac{dV_O}{dV_I}=-\sqrt{\frac{k_{n,D}}{k_{n,L}}}\]
+Za logičko kolo:\begin{columns}[T,onlytextwidth]\column{.48\textwidth}\[\sqrt{\frac{k_{n,D}}{k_{n,L}}}>1\]
+\column{.48\textwidth}\[k_{n,D}>k_{n,L}\]
+\end{columns}
 \end{frame}

@@ -1,14 +1,13 @@
 \slajdid{09_1-s008}
-\begin{frame}[label=09_1-s008]
-\gusttekst
-U literaturi se sreće zbog toga još jedna aproksimacija za struju tranzistora u zasićenju kada je napon $(V_{GSn}-V_{Tn})$ velik odnosno $(V_{GSn}-V_{Tn})\gg L_nE_{Cn}$. Uz još jednu dodatnu aproksimaciju
-\[v_n=\mu_nE\quad za\ E\leq E_{Cn}\qquad v_n=v_{nsat}\quad za\ E\geq E_{Cn}\]
-\[V_{DSnsat}=L_nE_{Cn}=L_n\frac{v_{nsat}}{\mu_n}\]
-\begin{columns}[c,onlytextwidth]\column{.44\textwidth}\centering
-\input{slike/tikz/s008_brzina_dugacak_kanal.tex}\hfill\input{slike/tikz/s008_brzina_kratak_kanal.tex}\par\medskip\input{slike/tikz/s008_brzina_dodatna_aproksimacija.tex}
-\column{.54\textwidth}
-\[I_{Dn}=\mu_nC_{oxn}\frac{W_n}{L_n}\left(V_{DSn}(V_{GSn}-V_{Tn})-\frac{V_{DSn}^2}{2}\right)\]
-\[I_{Dn}=\mu_nC_{oxn}\frac{W_n}{L_n}V_{DSnsat}\left(V_{GSn}-V_{Tn}-\frac{V_{DSnsat}}2\right)\]
+\begin{frame}[label=09_1-s008]{Dodatna aproksimacija brzine nosilaca}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{3pt}\setlength{\belowdisplayshortskip}{3pt}
+% element: 09_1-s008:e01
+% element: 09_1-s008:e02
+% element: 09_1-s008:e03
+% element: 09_1-s008:e04
+Pretpostavka: $(V_{GSn}-V_{Tn})\gg L_nE_{Cn}$.\[v_n=\mu_nE\ (E\leq E_{Cn}),\qquad v_n=v_{nsat}\ (E\geq E_{Cn})\]
+\par $V_{DSnsat}=L_nE_{Cn}=L_nv_{nsat}/\mu_n$.
+\begin{center}\input{slike/tikz/s008_brzina_dugacak_kanal.tex}\hspace{7mm}\input{slike/tikz/s008_brzina_kratak_kanal.tex}\hspace{7mm}\input{slike/tikz/s008_brzina_dodatna_aproksimacija.tex}\end{center}
+
 \[I_{Dn}=W_nC_{oxn}v_{nsat}\left(V_{GSn}-V_{Tn}-\frac{V_{DSnsat}}2\right)\]
-\end{columns}
+
 \end{frame}

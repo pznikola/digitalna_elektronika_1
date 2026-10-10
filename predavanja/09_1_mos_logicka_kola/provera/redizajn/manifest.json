@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "phase": "redizajn",
+  "lecture": "09_1",
+  "selected_style": "B",
+  "theme": "etf-v1",
+  "theme_manifest_sha256": "87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41",
+  "source_sha256": "9b3e0c4ed413f9ab40e4e7d31607960e3fc4abe2a4566a2e7f46a12fe84d69cb",
+  "slide_ids": [
+    "09_1-s001",
+    "09_1-s002",
+    "09_1-s003",
+    "09_1-s004",
+    "09_1-s005",
+    "09_1-s006",
+    "09_1-s007",
+    "09_1-s008",
+    "09_1-s009",
+    "09_1-s010",
+    "09_1-s011",
+    "09_1-s012",
+    "09_1-s013",
+    "09_1-s014",
+    "09_1-s015",
+    "09_1-s016",
+    "09_1-s017",
+    "09_1-s018",
+    "09_1-s019",
+    "09_1-s020",
+    "09_1-s021",
+    "09_1-s022",
+    "09_1-s023",
+    "09_1-s024",
+    "09_1-s025",
+    "09_1-s026",
+    "09_1-s027",
+    "09_1-s028",
+    "09_1-s029",
+    "09_1-s030",
+    "09_1-s031",
+    "09_1-s032",
+    "09_1-s033",
+    "09_1-s034",
+    "09_1-s035",
+    "09_1-s036",
+    "09_1-s037",
+    "09_1-s038",
+    "09_1-s039",
+    "09_1-s040",
+    "09_1-s041",
+    "09_1-s042",
+    "09_1-s043",
+    "09_1-s044",
+    "09_1-s045",
+    "09_1-s046",
+    "09_1-s047",
+    "09_1-s048",
+    "09_1-s049",
+    "09_1-s050",
+    "09_1-s051",
+    "09_1-s052",
+    "09_1-s053",
+    "09_1-s054",
+    "09_1-s055",
+    "09_1-s056",
+    "09_1-s057"
+  ],
+  "baseline_sha256": "930306bc817594b844ab6c45f96c28b5eb1d368ebb37d01e109adb2d3e18eb80",
+  "created": "2026-10-03T07:42:27.079618+00:00",
+  "build_record": "provera/redizajn/izgradnja.json",
+  "notes": {
+    "09_1-s001": {
+      "path": "beleske/s001.tex",
+      "title": "Logička kola sa MOS tranzistorima — 1. deo"
+    },
+    "09_1-s002": {
+      "path": "beleske/s002.tex",
+      "title": "Simboli MOS tranzistora"
+    },
+    "09_1-s003": {
+      "path": "beleske/s003.tex",
+      "title": "NMOS sa indukovanim dugačkim kanalom"
+    },
+    "09_1-s004": {
+      "path": "beleske/s004.tex",
+      "title": "Modulacija dužine kanala i granica modela"
+    },
+    "09_1-s005": {
+      "path": "beleske/s005.tex",
+      "title": "Brzina nosilaca: dugačak i kratak kanal"
+    },
+    "09_1-s006": {
+      "path": "beleske/s006.tex",
+      "title": "Efekat kratkog kanala"
+    },
+    "09_1-s007": {
+      "path": "beleske/s007.tex",
+      "title": "Parametri modela kratkog kanala"
+    },
+    "09_1-s008": {
+      "path": "beleske/s008.tex",
+      "title": "Dodatna aproksimacija brzine nosilaca"
+    },
+    "09_1-s009": {
+      "path": "beleske/s009.tex",
+      "title": "PUN i PDN mreže"
+    },
+    "09_1-s010": {
+      "path": "beleske/s010.tex",
+      "title": "PDN — moguće realizacije"
+    },
+    "09_1-s011": {
+      "path": "beleske/s011.tex",
+      "title": "PUN — moguće realizacije"
+    },
+    "09_1-s012": {
+      "path": "beleske/s012.tex",
+      "title": "Invertor sa pasivnim opterećenjem"
+    },
+    "09_1-s013": {
+      "path": "beleske/s013.tex",
+      "title": "Implicitna karakteristika prenosa"
+    },
+    "09_1-s014": {
+      "path": "beleske/s014.tex",
+      "title": "Granica zasićenja pogonskog tranzistora"
+    },
+    "09_1-s015": {
+      "path": "beleske/s015.tex",
+      "title": "Oblasti rada i pojačanje"
+    },
+    "09_1-s016": {
+      "path": "beleske/s016.tex",
+      "title": "Izlazni naponski nivoi"
+    },
+    "09_1-s017": {
+      "path": "beleske/s017.tex",
+      "title": "Aproksimacija napona logičke nule"
+    },
+    "09_1-s018": {
+      "path": "beleske/s018.tex",
+      "title": "Određivanje ulaznih pragova"
+    },
+    "09_1-s019": {
+      "path": "beleske/s019.tex",
+      "title": "Prag VIL: implicitno diferenciranje"
+    },
+    "09_1-s020": {
+      "path": "beleske/s020.tex",
+      "title": "Prag VIH: triodna oblast"
+    },
+    "09_1-s021": {
+      "path": "beleske/s021.tex",
+      "title": "Prag VIH: dve jednačine, dve nepoznate"
+    },
+    "09_1-s022": {
+      "path": "beleske/s022.tex",
+      "title": "Ispit: postupak analize"
+    },
+    "09_1-s023": {
+      "path": "beleske/s023.tex",
+      "title": "Održivost naponskih nivoa"
+    },
+    "09_1-s024": {
+      "path": "beleske/s024.tex",
+      "title": "Prag odlučivanja: kvadratna jednačina"
+    },
+    "09_1-s025": {
+      "path": "beleske/s025.tex",
+      "title": "Prag odlučivanja: približan račun"
+    },
+    "09_1-s026": {
+      "path": "beleske/s026.tex",
+      "title": "Ulazne struje i faktor grananja"
+    },
+    "09_1-s027": {
+      "path": "beleske/s027.tex",
+      "title": "Izlazni strujni kapaciteti"
+    },
+    "09_1-s028": {
+      "path": "beleske/s028.tex",
+      "title": "Dinamički režim: punjenje i pražnjenje"
+    },
+    "09_1-s029": {
+      "path": "beleske/s029.tex",
+      "title": "Uslov zasićenja pri pražnjenju"
+    },
+    "09_1-s030": {
+      "path": "beleske/s030.tex",
+      "title": "Dinamička otpornost MOS tranzistora"
+    },
+    "09_1-s031": {
+      "path": "beleske/s031.tex",
+      "title": "Srednja otpornost iz dve radne tačke"
+    },
+    "09_1-s032": {
+      "path": "beleske/s032.tex",
+      "title": "Aproksimacija srednje otpornosti"
+    },
+    "09_1-s033": {
+      "path": "beleske/s033.tex",
+      "title": "Integralna srednja otpornost"
+    },
+    "09_1-s034": {
+      "path": "beleske/s034.tex",
+      "title": "Ekvivalentna otpornost PMOS tranzistora"
+    },
+    "09_1-s035": {
+      "path": "beleske/s035.tex",
+      "title": "Aktivno opterećenje: izbor parametara"
+    },
+    "09_1-s036": {
+      "path": "beleske/s036.tex",
+      "title": "NMOS opterećenje sa kontrolnim naponom"
+    },
+    "09_1-s037": {
+      "path": "beleske/s037.tex",
+      "title": "Režim rada tranzistora opterećenja"
+    },
+    "09_1-s038": {
+      "path": "beleske/s038.tex",
+      "title": "Aktivno omsko opterećenje: logička jedinica"
+    },
+    "09_1-s039": {
+      "path": "beleske/s039.tex",
+      "title": "Početak provođenja pogonskog tranzistora"
+    },
+    "09_1-s040": {
+      "path": "beleske/s040.tex",
+      "title": "Prag VIL sa aktivnim omskim opterećenjem"
+    },
+    "09_1-s041": {
+      "path": "beleske/s041.tex",
+      "title": "Poseban slučaj i kvadratna jednačina"
+    },
+    "09_1-s042": {
+      "path": "beleske/s042.tex",
+      "title": "Rešenje za prag VIL"
+    },
+    "09_1-s043": {
+      "path": "beleske/s043.tex",
+      "title": "Oba tranzistora u omskoj oblasti"
+    },
+    "09_1-s044": {
+      "path": "beleske/s044.tex",
+      "title": "Prag VIH sa omskim opterećenjem"
+    },
+    "09_1-s045": {
+      "path": "beleske/s045.tex",
+      "title": "Rezultati za prag VIH"
+    },
+    "09_1-s046": {
+      "path": "beleske/s046.tex",
+      "title": "Logička nula sa omskim opterećenjem"
+    },
+    "09_1-s047": {
+      "path": "beleske/s047.tex",
+      "title": "Odnos dimenzija tranzistora"
+    },
+    "09_1-s048": {
+      "path": "beleske/s048.tex",
+      "title": "Karakteristika prenosa i kompromisi"
+    },
+    "09_1-s049": {
+      "path": "beleske/s049.tex",
+      "title": "Gejt opterećenja na napajanju"
+    },
+    "09_1-s050": {
+      "path": "beleske/s050.tex",
+      "title": "Logička jedinica sa zasićenim opterećenjem"
+    },
+    "09_1-s051": {
+      "path": "beleske/s051.tex",
+      "title": "Oba tranzistora u zasićenju"
+    },
+    "09_1-s052": {
+      "path": "beleske/s052.tex",
+      "title": "Konstantno pojačanje u oblasti zasićenja"
+    },
+    "09_1-s053": {
+      "path": "beleske/s053.tex",
+      "title": "Prelazak u omsku oblast i prag VIH"
+    },
+    "09_1-s054": {
+      "path": "beleske/s054.tex",
+      "title": "Rezultati za zasićeno opterećenje"
+    },
+    "09_1-s055": {
+      "path": "beleske/s055.tex",
+      "title": "Logička nula sa zasićenim opterećenjem"
+    },
+    "09_1-s056": {
+      "path": "beleske/s056.tex",
+      "title": "Uticaj zajedničke osnove"
+    },
+    "09_1-s057": {
+      "path": "beleske/s057.tex",
+      "title": "Obuhvat analize aktivnog opterećenja"
+    }
+  }
+}

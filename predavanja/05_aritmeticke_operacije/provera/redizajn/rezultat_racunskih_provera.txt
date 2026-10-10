@@ -1,0 +1,4 @@
+Komparatori: 16 dvobitnih i 256 četvorobitnih parova; slajd 11 svih 4096 parova. Izvorno pitanje na slajdu 7: 1344 neslaganja; primer A=0, B=1.
+Aritmetika 12–20: 12 redova tabela, 8 stanja alternativne sume, decimalni i binarni primeri, granice za osnove 2–36. Izvorna greška prenosa s14 sačuvana (001000; račun 011000).
+Aritmetika 26–55: 512 ADD/SUB stanja i OVF, 16 ekstenzija znaka, 256 pomeranja i INC/DEC, ćelije sedam tabela proizvoda, Boothova jednakost za širine 2–8 i svih 10 prikazanih stanja primera, greška odsecanja i 74:8=9 ostatak 2.
+Beleške 05: tačni decimalni koraci, komplementni zapisi, kružni prenos, 256 ASL uslova, ASR negativnog neparnog broja, sve Boothove iteracije, 256 odsecanja i deljenje 74:8.

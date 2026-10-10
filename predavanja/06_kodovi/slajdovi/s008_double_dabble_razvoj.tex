@@ -1,20 +1,28 @@
 \slajdid{06-s008}
-\begin{frame}[label=06-s008]{Double dabble algoritam}
-\gusttekst\setlength{\parskip}{1pt}\setlength{\jot}{0pt}
-Kako „čitati“, pretvarati binarnu vrednost u decimalnu.
-\begin{columns}[t,onlytextwidth]
-\column{.34\textwidth}Binarni broj se čita sa levo na desno.\\Duplira se ako se naiđe na 0.\\Duplira se i dodaje 1 ako se naiđe na 1
-\column{.64\textwidth}
-11110011\\
-\textcolor{DEcrvena}{1}1110011 - jedan\\
-\textcolor{DEcrvena}{11}110011 – jedan puta 2 plus 1 = tri\\
-\textcolor{DEcrvena}{111}10011 – tri puta 2 plus 1 = sedam\\
-\textcolor{DEcrvena}{1111}0011 – sedam puta 2 plus 1 = petnaest\\
-\textcolor{DEcrvena}{11110}011 – petnaest puta 2 = trideset\\
-\textcolor{DEcrvena}{111100}11 – trideset puta 2 = šezdeset\\
-\textcolor{DEcrvena}{1111001}1 – šezdeset puta 2 plus 1 = sto dvadeset jedan\\
-\textcolor{DEcrvena}{11110011} – sto dvadeset jedan puta 2 plus 1 = dvesto četrdeset tri
-\end{columns}
-\[c_{n-1}2^{n-1}+c_{n-2}2^{n-2}+c_{n-3}2^{n-3}+\cdots+c_2 2^2+c_1 2^1+c_0 2^0=\]
-\[\Bigl(\bigl(\ldots\bigl(\bigl(((c_{n-1}\times2)+c_{n-2})\times2\bigr)+c_{n-3}\bigr)\times2+\cdots+c_2\bigr)\times2+c_1\Bigr)\times2+c_0\]
+\begin{frame}[label=06-s008]{Double dabble — razvoj vrednosti}
+\vspace{1.5mm}
+\fontsize{10}{12}\selectfont\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}
+\begin{columns}[T,onlytextwidth]
+\column{.34\textwidth}
+Binarni broj čita se sa leve strane nadesno.\par\medskip
+Za bit 0: dupliraj vrednost.\par\medskip
+Za bit 1: dupliraj vrednost i dodaj 1.
+\column{.62\textwidth}\centering
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}lrl@{}}Pročitani prefiks & Vrednost & Korak\\\midrule
+\textcolor{DEcrvena}{1}1110011 & 1 & početak\\
+\textcolor{DEcrvena}{11}110011 & 3 & $1\times2+1$\\
+\textcolor{DEcrvena}{111}10011 & 7 & $3\times2+1$\\
+\textcolor{DEcrvena}{1111}0011 & 15 & $7\times2+1$\\
+\textcolor{DEcrvena}{11110}011 & 30 & $15\times2$\\
+\textcolor{DEcrvena}{111100}11 & 60 & $30\times2$\\
+\textcolor{DEcrvena}{1111001}1 & 121 & $60\times2+1$\\
+\textcolor{DEcrvena}{11110011} & 243 & $121\times2+1$\\\bottomrule
+\end{tabular}
+\end{columns}\medskip
+\[c_{n-1}2^{n-1}+c_{n-2}2^{n-2}+c_{n-3}2^{n-3}+\cdots+c_2 2^2+c_1 2+c_0\]
+\[=\Bigl(\bigl(\cdots((c_{n-1}\times2+c_{n-2})\times2+c_{n-3})\times2+\cdots+c_2\bigr)\times2+c_1\Bigr)\times2+c_0\]
+% element: 06-s008:e01
+% element: 06-s008:e02
+% element: 06-s008:e03
 \end{frame}

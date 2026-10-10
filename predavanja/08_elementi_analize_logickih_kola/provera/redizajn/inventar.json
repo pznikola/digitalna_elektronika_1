@@ -1,0 +1,1963 @@
+{
+  "slides": {
+    "08-s001": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s001:e01",
+          "description": "Naslov: Elementi analize logičkih kola",
+          "source": "PDF strana 1, gornji slajd: Naslov: Elementi analize logičkih kola",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "08-s002": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s002:e01",
+          "description": "A i B: apstraktne promenljive, skup {0,1}, odsustvo vremenske dimenzije",
+          "source": "PDF strana 1, donji slajd: A i B: apstraktne promenljive, skup {0,1}, odsustvo vremenske dimenzije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s002:e02",
+          "description": "Invertor, negacija i dva prikaza promene D3 sa nastavnim strelicama",
+          "source": "PDF strana 1, donji slajd: Invertor, negacija i dva prikaza promene D3 sa nastavnim strelicama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s002:e03",
+          "description": "Trenutan prelaz bez međustanja nije fizički ostvariv",
+          "source": "PDF strana 1, donji slajd: Trenutan prelaz bez međustanja nije fizički ostvariv",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s002:e04",
+          "description": "Tumačenje uspravne ivice i razlike apstraktnog i fizičkog prelaza",
+          "source": "PDF strana 1, donji slajd: Tumačenje uspravne ivice i razlike apstraktnog i fizičkog prelaza",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s003": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s003:e01",
+          "description": "Ulaz a, izlaz b; B kao negacija A i nelinearna funkcija b=f(a)",
+          "source": "PDF strana 2, gornji slajd: Ulaz a, izlaz b; B kao negacija A i nelinearna funkcija b=f(a)",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s003:e02",
+          "description": "Invertor ai(t)/bo(t) i dva dijagrama sa prelaznim zonama i označenim tumačenjem kola",
+          "source": "PDF strana 2, gornji slajd: Invertor ai(t)/bo(t) i dva dijagrama sa prelaznim zonama i označenim tumačenjem kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s003:e03",
+          "description": "Signal prolazi kroz sve vrednosti; fizička veličina nosi informaciju",
+          "source": "PDF strana 2, gornji slajd: Signal prolazi kroz sve vrednosti; fizička veličina nosi informaciju",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s003:e04",
+          "description": "Potpuna objašnjenja tumačenja i generisanja logičkih nivoa i indeksa input/output",
+          "source": "PDF strana 2, gornji slajd: Potpuna objašnjenja tumačenja i generisanja logičkih nivoa i indeksa input/output",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s004": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s004:e01",
+          "description": "Statičke karakteristike: nivoi bez vremenske analize i b=f(a)",
+          "source": "PDF strana 2, donji slajd: Statičke karakteristike: nivoi bez vremenske analize i b=f(a)",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s004:e02",
+          "description": "Dinamičke karakteristike: vremenska promena i b(t)=f(a(t))",
+          "source": "PDF strana 2, donji slajd: Dinamičke karakteristike: vremenska promena i b(t)=f(a(t))",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s004:e03",
+          "description": "Tumačenje svrhe dve analize",
+          "source": "PDF strana 2, donji slajd: Tumačenje svrhe dve analize",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s005": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s005:e01",
+          "description": "Izvor E, šema napajanja invertora i skraćeni prikaz VCC/VDD/DGND",
+          "source": "PDF strana 3, gornji slajd: Izvor E, šema napajanja invertora i skraćeni prikaz VCC/VDD/DGND",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s005:e02",
+          "description": "Pozitivno napajanje, bipolarna/MOS tehnologija i referentni nulti potencijal",
+          "source": "PDF strana 3, gornji slajd: Pozitivno napajanje, bipolarna/MOS tehnologija i referentni nulti potencijal",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s005:e03",
+          "description": "Potpun izbor referentnog kraja izvora, razlike potencijala i značenje mase",
+          "source": "PDF strana 3, gornji slajd: Potpun izbor referentnog kraja izvora, razlike potencijala i značenje mase",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s006": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s006:e01",
+          "description": "Kaskada kola, napojni i povratni vod sa Zp i svi naponi i smerovi struja",
+          "source": "PDF strana 3, donji slajd: Kaskada kola, napojni i povratni vod sa Zp i svi naponi i smerovi struja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s006:e02",
+          "description": "Otpornost i parazitni C/L vodova; a2=b1-Zp iDGND",
+          "source": "PDF strana 3, donji slajd: Otpornost i parazitni C/L vodova; a2=b1-Zp iDGND",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s006:e03",
+          "description": "Masa kao povratni put, mala impedansa, kratki vodovi bez rupa i uskih grla",
+          "source": "PDF strana 3, donji slajd: Masa kao povratni put, mala impedansa, kratki vodovi bez rupa i uskih grla",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s006:e04",
+          "description": "Fizička realizacija vodova i potpuna veza različitih lokalnih referentnih potencijala",
+          "source": "PDF strana 3, donji slajd: Fizička realizacija vodova i potpuna veza različitih lokalnih referentnih potencijala",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s007": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s007:e01",
+          "description": "Dva kola na zajedničkom napajanju i impedanse ZVCC/ZDGND sa strujama",
+          "source": "PDF strana 4, gornji slajd: Dva kola na zajedničkom napajanju i impedanse ZVCC/ZDGND sa strujama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s007:e02",
+          "description": "Primer promene potrošača 1000R na R u t0 i uticaj na drugo kolo",
+          "source": "PDF strana 4, gornji slajd: Primer promene potrošača 1000R na R u t0 i uticaj na drugo kolo",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s007:e03",
+          "description": "Napon pre i posle promene: 1000/1001 VCC i 1/2 VCC",
+          "source": "PDF strana 4, gornji slajd: Napon pre i posle promene: 1000/1001 VCC i 1/2 VCC",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s007:e04",
+          "description": "Značenje t0-/t0+ i svi međukoraci otpornog razdelnika",
+          "source": "PDF strana 4, gornji slajd: Značenje t0-/t0+ i svi međukoraci otpornog razdelnika",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s008": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s008:e01",
+          "description": "Šema potrošača sa CN/CTL i naponi neposredno pre/posle promene",
+          "source": "PDF strana 4, donji slajd: Šema potrošača sa CN/CTL i naponi neposredno pre/posle promene",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s008:e02",
+          "description": "Dva lokalna kondenzatora i lokalne petlje, impedanse vodova i struje",
+          "source": "PDF strana 4, donji slajd: Dva lokalna kondenzatora i lokalne petlje, impedanse vodova i struje",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s008:e03",
+          "description": "Funkcije CTL/CN, privremena baterija, keramički 100 nF i kratki priključni vodovi",
+          "source": "PDF strana 4, donji slajd: Funkcije CTL/CN, privremena baterija, keramički 100 nF i kratki priključni vodovi",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s008:e04",
+          "description": "Potpuno objašnjenje dopunjavanja, istog trenutnog napona, značaja i postavljanja kondenzatora i različitih impedansi vodova",
+          "source": "PDF strana 4, donji slajd: Potpuno objašnjenje dopunjavanja, istog trenutnog napona, značaja i postavljanja kondenzatora i različitih impedansi vodova",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s009": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s009:e01",
+          "description": "Unilateralni model bez povratne sprege",
+          "source": "PDF strana 5, gornji slajd: Unilateralni model bez povratne sprege",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s009:e02",
+          "description": "Četvoropol sa nelinearnim Zi/Zo i zavisnim izvorom f(Vi), svi portovi/polariteti/smerovi",
+          "source": "PDF strana 5, gornji slajd: Četvoropol sa nelinearnim Zi/Zo i zavisnim izvorom f(Vi), svi portovi/polariteti/smerovi",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s009:e03",
+          "description": "Objašnjenja Vi/Vo/Ii/Io/Zi/Zo/f(Vi)",
+          "source": "PDF strana 5, gornji slajd: Objašnjenja Vi/Vo/Ii/Io/Zi/Zo/f(Vi)",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s009:e04",
+          "description": "Tumačenje referentnih smerova, zajedničke mase i unilateralnosti",
+          "source": "PDF strana 5, gornji slajd: Tumačenje referentnih smerova, zajedničke mase i unilateralnosti",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s010": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s010:e01",
+          "description": "Postupak statičke analize i značaj transfer characteristic",
+          "source": "PDF strana 5, donji slajd: Postupak statičke analize i značaj transfer characteristic",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s010:e02",
+          "description": "Šrafirani dozvoljeni opseg karakteristike u napajanju",
+          "source": "PDF strana 5, donji slajd: Šrafirani dozvoljeni opseg karakteristike u napajanju",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s010:e03",
+          "description": "Potpuno objašnjenje čekanja prelaznih pojava i merenja/računanja parametara",
+          "source": "PDF strana 5, donji slajd: Potpuno objašnjenje čekanja prelaznih pojava i merenja/računanja parametara",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s011": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s011:e01",
+          "description": "Pozitivna logika i izvorna tvrdnja o jednakim verovatnoćama",
+          "source": "PDF strana 6, gornji slajd: Pozitivna logika i izvorna tvrdnja o jednakim verovatnoćama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s011:e02",
+          "description": "Idealni/neostvarivi i realni naponski opsezi; odstupanja R, betaF i VT",
+          "source": "PDF strana 6, gornji slajd: Idealni/neostvarivi i realni naponski opsezi; odstupanja R, betaF i VT",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s011:e03",
+          "description": "Prelazni opseg VCC/2-DeltaL do VCC/2+DeltaH i odsustvo garantovanog prepoznavanja",
+          "source": "PDF strana 6, gornji slajd: Prelazni opseg VCC/2-DeltaL do VCC/2+DeltaH i odsustvo garantovanog prepoznavanja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s011:e04",
+          "description": "Različita tumačenja i izlaz u istom opsegu; uticaj proizvodnih odstupanja",
+          "source": "PDF strana 6, gornji slajd: Različita tumačenja i izlaz u istom opsegu; uticaj proizvodnih odstupanja",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s012": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s012:e01",
+          "description": "Tipičan predstavnik familije i metoda najgoreg slučaja",
+          "source": "PDF strana 6, donji slajd: Tipičan predstavnik familije i metoda najgoreg slučaja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s012:e02",
+          "description": "Definicije i jednačine VIL/VIH",
+          "source": "PDF strana 6, donji slajd: Definicije i jednačine VIL/VIH",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s012:e03",
+          "description": "Kataloška tabela VILmax=0.8 V, VIHmin=2 V sa praznim Min/Typ/Max ćelijama",
+          "source": "PDF strana 6, donji slajd: Kataloška tabela VILmax=0.8 V, VIHmin=2 V sa praznim Min/Typ/Max ćelijama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s012:e04",
+          "description": "Izvorni crveni pasus o znacima DeltaL/DeltaH i polovini napajanja — čeka stručnu ispravku",
+          "source": "PDF strana 6, donji slajd: Izvorni crveni pasus o znacima DeltaL/DeltaH i polovini napajanja — čeka stručnu ispravku",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s012:e05",
+          "description": "Potpuno tumačenje kataloga, proizvođača, varijacija i graničnih uslova",
+          "source": "PDF strana 6, donji slajd: Potpuno tumačenje kataloga, proizvođača, varijacija i graničnih uslova",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s013": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s013:e01",
+          "description": "Nominalni izlazni nivoi VOL/VOH i izvorne definicije minimuma/maksimuma",
+          "source": "PDF strana 7, gornji slajd: Nominalni izlazni nivoi VOL/VOH i izvorne definicije minimuma/maksimuma",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s013:e02",
+          "description": "Naponska skala VCC/VOH/VIH/VIL/VOL/0 i opsezi",
+          "source": "PDF strana 7, gornji slajd: Naponska skala VCC/VOH/VIH/VIL/VOL/0 i opsezi",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s013:e03",
+          "description": "Sve četiri kaskade: dva neinvertujuća kola i dva invertora, za oba početna nivoa",
+          "source": "PDF strana 7, gornji slajd: Sve četiri kaskade: dva neinvertujuća kola i dva invertora, za oba početna nivoa",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s013:e04",
+          "description": "Potpuno objašnjenje realnih izlaznih nivoa i ulaza sledećeg kola",
+          "source": "PDF strana 7, gornji slajd: Potpuno objašnjenje realnih izlaznih nivoa i ulaza sledećeg kola",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s014": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s014:e01",
+          "description": "Margine NML=VIL-VOL i NMH=VOH-VIH i smerovi smetnji",
+          "source": "PDF strana 7, donji slajd: Margine NML=VIL-VOL i NMH=VOH-VIH i smerovi smetnji",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s014:e02",
+          "description": "NM=min, primer 2 V/1 V i zbir margina ne veći od VCC",
+          "source": "PDF strana 7, donji slajd: NM=min, primer 2 V/1 V i zbir margina ne veći od VCC",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s014:e03",
+          "description": "Izvođenje zbira i fizičko objašnjenje najnepovoljnije smetnje",
+          "source": "PDF strana 7, donji slajd: Izvođenje zbira i fizičko objašnjenje najnepovoljnije smetnje",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s015": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s015:e01",
+          "description": "Nelinearni četvoropol sa neopteretjenim izlazom Io=0",
+          "source": "PDF strana 8, gornji slajd: Nelinearni četvoropol sa neopteretjenim izlazom Io=0",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s015:e02",
+          "description": "Promena Vi od 0 do VCC i čekanje stacionarnog stanja",
+          "source": "PDF strana 8, gornji slajd: Promena Vi od 0 do VCC i čekanje stacionarnog stanja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s015:e03",
+          "description": "Grafički prikaz f(Vi)",
+          "source": "PDF strana 8, gornji slajd: Grafički prikaz f(Vi)",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s015:e04",
+          "description": "Potpuno objašnjenje uklanjanja uticaja Zo na merenje",
+          "source": "PDF strana 8, gornji slajd: Potpuno objašnjenje uklanjanja uticaja Zo na merenje",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s016": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s016:e01",
+          "description": "Kaskade po dva neinvertujuća i invertujuća kola sa svim oznakama napona",
+          "source": "PDF strana 8, donji slajd: Kaskade po dva neinvertujuća i invertujuća kola sa svim oznakama napona",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s016:e02",
+          "description": "Dve šrafirane karakteristike i granice održanja naponskih nivoa",
+          "source": "PDF strana 8, donji slajd: Dve šrafirane karakteristike i granice održanja naponskih nivoa",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s016:e03",
+          "description": "Održanje za proizvoljan broj kola i apsolutni nagib najviše jedan",
+          "source": "PDF strana 8, donji slajd: Održanje za proizvoljan broj kola i apsolutni nagib najviše jedan",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s016:e04",
+          "description": "Tumačenje šrafiranja i znaka nagiba kod invertora",
+          "source": "PDF strana 8, donji slajd: Tumačenje šrafiranja i znaka nagiba kod invertora",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s017": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s017:e01",
+          "description": "Dve karakteristike sa dozvoljenim/prelaznim oblastima, crvenim označenim granicama i oznakama 1/2/3",
+          "source": "PDF strana 9, gornji slajd: Dve karakteristike sa dozvoljenim/prelaznim oblastima, crvenim označenim granicama i oznakama 1/2/3",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s017:e02",
+          "description": "Malo pojačanje u dve logičke oblasti i veliko u uskoj prelaznoj zoni",
+          "source": "PDF strana 9, gornji slajd: Malo pojačanje u dve logičke oblasti i veliko u uskoj prelaznoj zoni",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s017:e03",
+          "description": "Potpuna motivacija uske prelazne zone, robusnosti i velikog pojačanja",
+          "source": "PDF strana 9, gornji slajd: Potpuna motivacija uske prelazne zone, robusnosti i velikog pojačanja",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s018": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s018:e01",
+          "description": "Neinvertujuća i invertujuća nelinearna karakteristika, sve granice, oblasti i tačke održanja",
+          "source": "PDF strana 9, donji slajd: Neinvertujuća i invertujuća nelinearna karakteristika, sve granice, oblasti i tačke održanja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s018:e02",
+          "description": "Značenje crvenih tačaka",
+          "source": "PDF strana 9, donji slajd: Značenje crvenih tačaka",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s018:e03",
+          "description": "Tumačenje ukrštenih parova i oblika prelazne zone",
+          "source": "PDF strana 9, donji slajd: Tumačenje ukrštenih parova i oblika prelazne zone",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s019": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s019:e01",
+          "description": "Dva invertora i svi naponi/priključci",
+          "source": "PDF strana 10, gornji slajd: Dva invertora i svi naponi/priključci",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s019:e02",
+          "description": "Dve uzastopne karakteristike, V1/V2/V3 i strelice praćenja",
+          "source": "PDF strana 10, gornji slajd: Dve uzastopne karakteristike, V1/V2/V3 i strelice praćenja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s019:e03",
+          "description": "Preklopljene karakteristike i H/M/L sa parovima VOL/VOH",
+          "source": "PDF strana 10, gornji slajd: Preklopljene karakteristike i H/M/L sa parovima VOL/VOH",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s019:e04",
+          "description": "Postupak zamenjenih osa i praćenja međunapona",
+          "source": "PDF strana 10, gornji slajd: Postupak zamenjenih osa i praćenja međunapona",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s020": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s020:e01",
+          "description": "Obe preklopljene karakteristike, invertujuća i neinvertujuća, crvena dijagonala i H/M/L",
+          "source": "PDF strana 10, donji slajd: Obe preklopljene karakteristike, invertujuća i neinvertujuća, crvena dijagonala i H/M/L",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s020:e02",
+          "description": "Značenje dijagonale i tačke M",
+          "source": "PDF strana 10, donji slajd: Značenje dijagonale i tačke M",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s021": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s021:e01",
+          "description": "Četiri invertora sa svim naponskim oznakama",
+          "source": "PDF strana 11, gornji slajd: Četiri invertora sa svim naponskim oznakama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s021:e02",
+          "description": "Četiri kvadranta, preseci, obojene putanje i strelice regeneracije",
+          "source": "PDF strana 11, gornji slajd: Četiri kvadranta, preseci, obojene putanje i strelice regeneracije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s021:e03",
+          "description": "Regenerabilnost, prag VM i krajnji nivoi VOH/VOL",
+          "source": "PDF strana 11, gornji slajd: Regenerabilnost, prag VM i krajnji nivoi VOH/VOL",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s021:e04",
+          "description": "Potpuno praćenje oba početna napona kroz kaskadu",
+          "source": "PDF strana 11, gornji slajd: Potpuno praćenje oba početna napona kroz kaskadu",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s022": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s022:e01",
+          "description": "SS: jedan izvor šuma, regeneracija i pomeranje praktično do VM",
+          "source": "PDF strana 11, donji slajd: SS: jedan izvor šuma, regeneracija i pomeranje praktično do VM",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s022:e02",
+          "description": "NMLSS i NMHSS jednačine",
+          "source": "PDF strana 11, donji slajd: NMLSS i NMHSS jednačine",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s022:e03",
+          "description": "Mogućnost više izvora šuma i pitanje određivanja VIL/VIH",
+          "source": "PDF strana 11, donji slajd: Mogućnost više izvora šuma i pitanje određivanja VIL/VIH",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s022:e04",
+          "description": "Razlika jednokratne i višestruke smetnje",
+          "source": "PDF strana 11, donji slajd: Razlika jednokratne i višestruke smetnje",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s023": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s023:e01",
+          "description": "Vo=f(Vi), izlaz kao ulaz sledećeg kola i kaskada sa dodatim šumom n",
+          "source": "PDF strana 12, gornji slajd: Vo=f(Vi), izlaz kao ulaz sledećeg kola i kaskada sa dodatim šumom n",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s023:e02",
+          "description": "VO1=f(Vi1+n), puni Tejlorov izraz i linearni član sa pojačanjem a — izvorne greške čekaju odluku",
+          "source": "PDF strana 12, gornji slajd: VO1=f(Vi1+n), puni Tejlorov izraz i linearni član sa pojačanjem a — izvorne greške čekaju odluku",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s023:e03",
+          "description": "Tumačenje malog signala i lokalnog nagiba",
+          "source": "PDF strana 12, gornji slajd: Tumačenje malog signala i lokalnog nagiba",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s024": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s024:e01",
+          "description": "Dva grafika nagiba -1 i karakterističnih VIL/VIH/VOLu/VOHu",
+          "source": "PDF strana 12, donji slajd: Dva grafika nagiba -1 i karakterističnih VIL/VIH/VOLu/VOHu",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s024:e02",
+          "description": "Definicije MSL/MSH margina i dve nejednakosti garantovanja",
+          "source": "PDF strana 12, donji slajd: Definicije MSL/MSH margina i dve nejednakosti garantovanja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s024:e03",
+          "description": "Metod određivanja granica i razlika nominalnog i pomerenog nivoa",
+          "source": "PDF strana 12, donji slajd: Metod određivanja granica i razlika nominalnog i pomerenog nivoa",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s025": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s025:e01",
+          "description": "Izvorna tvrdnja koja se u primeru opovrgava: proizvoljno ponavljanje šuma NM",
+          "source": "PDF strana 13, gornji slajd: Izvorna tvrdnja koja se u primeru opovrgava: proizvoljno ponavljanje šuma NM",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s025:e02",
+          "description": "Četiri invertora, četiri kvadranta i primeri N=9/N=10 sa svim putanjama",
+          "source": "PDF strana 13, gornji slajd: Četiri invertora, četiri kvadranta i primeri N=9/N=10 sa svim putanjama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s025:e03",
+          "description": "Potpuno objašnjenje nastavnog kontraprimera",
+          "source": "PDF strana 13, gornji slajd: Potpuno objašnjenje nastavnog kontraprimera",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s026": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s026:e01",
+          "description": "Strujni kapacitet, stvarni izlazni napon i član ZoIo",
+          "source": "PDF strana 13, donji slajd: Strujni kapacitet, stvarni izlazni napon i član ZoIo",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s026:e02",
+          "description": "VOHmin/VOLmax, varijacije parametara i ulazne/izlazne struje",
+          "source": "PDF strana 13, donji slajd: VOHmin/VOLmax, varijacije parametara i ulazne/izlazne struje",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s026:e03",
+          "description": "Porast logičke nule i pad logičke jedinice pod opterećenjem",
+          "source": "PDF strana 13, donji slajd: Porast logičke nule i pad logičke jedinice pod opterećenjem",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s026:e04",
+          "description": "Fizičko objašnjenje referentnog smera i opterećenja",
+          "source": "PDF strana 13, donji slajd: Fizičko objašnjenje referentnog smera i opterećenja",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s027": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s027:e01",
+          "description": "Model četvoropola sa strujama i kaskada dva invertora",
+          "source": "PDF strana 14, gornji slajd: Model četvoropola sa strujama i kaskada dva invertora",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s027:e02",
+          "description": "IILmax u opsegu nule i IIHmax u opsegu jedinice",
+          "source": "PDF strana 14, gornji slajd: IILmax u opsegu nule i IIHmax u opsegu jedinice",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s027:e03",
+          "description": "Sve izvorne napomene o širem opsegu smetnji, tipičnom kolu i nominalnim izlaznim nivoima",
+          "source": "PDF strana 14, gornji slajd: Sve izvorne napomene o širem opsegu smetnji, tipičnom kolu i nominalnim izlaznim nivoima",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s028": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s028:e01",
+          "description": "Kataloška tabela IIH/IIL sa napajanjem, uslovima Vi, strujama i jedinicama",
+          "source": "PDF strana 14, donji slajd: Kataloška tabela IIH/IIL sa napajanjem, uslovima Vi, strujama i jedinicama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s028:e02",
+          "description": "Uslovi merenja različiti od analize i korišćenje VOLmax umesto VIL",
+          "source": "PDF strana 14, donji slajd: Uslovi merenja različiti od analize i korišćenje VOLmax umesto VIL",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s028:e03",
+          "description": "Potpuno objašnjenje poređenja kataloškog i analiziranog testa",
+          "source": "PDF strana 14, donji slajd: Potpuno objašnjenje poređenja kataloškog i analiziranog testa",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s029": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s029:e01",
+          "description": "Dve realizacije invertora sa otpornim opterećenjem prema masi/napajanju i strujama",
+          "source": "PDF strana 15, gornji slajd: Dve realizacije invertora sa otpornim opterećenjem prema masi/napajanju i strujama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s029:e02",
+          "description": "Daje/prima struju, znak izlazne struje i pomeranje izlaznog napona",
+          "source": "PDF strana 15, gornji slajd: Daje/prima struju, znak izlazne struje i pomeranje izlaznog napona",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s029:e03",
+          "description": "Standardno kolo i izvorni izuzeci koji određuju smer struje",
+          "source": "PDF strana 15, gornji slajd: Standardno kolo i izvorni izuzeci koji određuju smer struje",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s030": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s030:e01",
+          "description": "Disipacija i ograničenje struje izlaznim naponima",
+          "source": "PDF strana 15, donji slajd: Disipacija i ograničenje struje izlaznim naponima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s030:e02",
+          "description": "Dve formule disipacije, parovi VOLmax/IOLmax i VOHmin/IOHmax i granice VIL/VIH",
+          "source": "PDF strana 15, donji slajd: Dve formule disipacije, parovi VOLmax/IOLmax i VOHmin/IOHmax i granice VIL/VIH",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s030:e03",
+          "description": "Izvorna napomena o minimalno IOHmax — čeka razjašnjenje",
+          "source": "PDF strana 15, donji slajd: Izvorna napomena o minimalno IOHmax — čeka razjašnjenje",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s030:e04",
+          "description": "Potpuno objašnjenje granica disipacije i izbora najgoreg ulaznog stanja",
+          "source": "PDF strana 15, donji slajd: Potpuno objašnjenje granica disipacije i izbora najgoreg ulaznog stanja",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s031": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s031:e01",
+          "description": "Kataloška tabela izlaznih napona, uslovi, VCC-2, 0.25/0.4 V i prazne ćelije",
+          "source": "PDF strana 16, gornji slajd: Kataloška tabela izlaznih napona, uslovi, VCC-2, 0.25/0.4 V i prazne ćelije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s031:e02",
+          "description": "Kataloška tabela IOH=-0.4 mA i IOL=4 mA",
+          "source": "PDF strana 16, gornji slajd: Kataloška tabela IOH=-0.4 mA i IOL=4 mA",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s031:e03",
+          "description": "Tumačenje dve tabele i oba znaka struje",
+          "source": "PDF strana 16, gornji slajd: Tumačenje dve tabele i oba znaka struje",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s032": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s032:e01",
+          "description": "Fan-out šema sa N ulaza, strujama, naponskim oznakama i tačkom grananja",
+          "source": "PDF strana 16, donji slajd: Fan-out šema sa N ulaza, strujama, naponskim oznakama i tačkom grananja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s032:e02",
+          "description": "Izvorne formule NL/NH i N=min — znak/faktor celog broja čekaju odluku",
+          "source": "PDF strana 16, donji slajd: Izvorne formule NL/NH i N=min — znak/faktor celog broja čekaju odluku",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s032:e03",
+          "description": "Potpuno objašnjenje oba logička stanja i sabiranja ulaznih struja",
+          "source": "PDF strana 16, donji slajd: Potpuno objašnjenje oba logička stanja i sabiranja ulaznih struja",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s033": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s033:e01",
+          "description": "MOS povezivanje i dinamički režim rada",
+          "source": "PDF strana 17, gornji slajd: MOS povezivanje i dinamički režim rada",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s033:e02",
+          "description": "Obe izvorne engleske definicije logical effort i poređenje sa invertorom",
+          "source": "PDF strana 17, gornji slajd: Obe izvorne engleske definicije logical effort i poređenje sa invertorom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s033:e03",
+          "description": "Srpsko tumačenje obe definicije i iste referentne veličine",
+          "source": "PDF strana 17, gornji slajd: Srpsko tumačenje obe definicije i iste referentne veličine",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s034": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s034:e01",
+          "description": "Idealna pravougaona karakteristika invertora i nivo VCC/2",
+          "source": "PDF strana 17, donji slajd: Idealna pravougaona karakteristika invertora i nivo VCC/2",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s034:e02",
+          "description": "Svih pet idealnih naponskih/strujnih jednakosti",
+          "source": "PDF strana 17, donji slajd: Svih pet idealnih naponskih/strujnih jednakosti",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s034:e03",
+          "description": "Fizičko tumačenje graničnog modela",
+          "source": "PDF strana 17, donji slajd: Fizičko tumačenje graničnog modela",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s035": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s035:e01",
+          "description": "Invertor i ai(t)/bo(t)",
+          "source": "PDF strana 18, gornji slajd: Invertor i ai(t)/bo(t)",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s035:e02",
+          "description": "Dijagram usponske/silazne ivice sa oba nivoa i strelicama",
+          "source": "PDF strana 18, gornji slajd: Dijagram usponske/silazne ivice sa oba nivoa i strelicama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s035:e03",
+          "description": "Amplituda A, dijagram 10/90% i tr/tf sa definicijama i napomenom o razlikama",
+          "source": "PDF strana 18, gornji slajd: Amplituda A, dijagram 10/90% i tr/tf sa definicijama i napomenom o razlikama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s035:e04",
+          "description": "Sve izvorne varijante termina rise/fall i merne granice u odnosu na VOL",
+          "source": "PDF strana 18, gornji slajd: Sve izvorne varijante termina rise/fall i merne granice u odnosu na VOL",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s036": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s036:e01",
+          "description": "Sva tri vremenska dijagrama sa naponskim nivoima, mernim nivoom 50%, TI/TP/T i kašnjenjima",
+          "source": "PDF strana 18, donji slajd: Sva tri vremenska dijagrama sa naponskim nivoima, mernim nivoom 50%, TI/TP/T i kašnjenjima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s036:e02",
+          "description": "Definicije T/TI/TP/tpHL/tpLH, propagation, HL i različitosti kašnjenja",
+          "source": "PDF strana 18, donji slajd: Definicije T/TI/TP/tpHL/tpLH, propagation, HL i različitosti kašnjenja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s036:e03",
+          "description": "Potpuno tumačenje izlaznog referentnog smera i vrste merene ivice",
+          "source": "PDF strana 18, donji slajd: Potpuno tumačenje izlaznog referentnog smera i vrste merene ivice",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s037": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s037:e01",
+          "description": "Srednje kašnjenje i maksimalno kašnjenje sa obe formule",
+          "source": "PDF strana 19, gornji slajd: Srednje kašnjenje i maksimalno kašnjenje sa obe formule",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s037:e02",
+          "description": "Cilj malih jednakih kašnjenja i promena trajanja impulsa/pauze",
+          "source": "PDF strana 19, gornji slajd: Cilj malih jednakih kašnjenja i promena trajanja impulsa/pauze",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s037:e03",
+          "description": "Potpuno objašnjenje poređenja kola i primene u najgorem slučaju",
+          "source": "PDF strana 19, gornji slajd: Potpuno objašnjenje poređenja kola i primene u najgorem slučaju",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s038": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s038:e01",
+          "description": "Dve aproksimativne formule kašnjenja invertora sa tr/2 i tf/2",
+          "source": "PDF strana 19, donji slajd: Dve aproksimativne formule kašnjenja invertora sa tr/2 i tf/2",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s038:e02",
+          "description": "Objašnjenja svih merenih i izračunavanih veličina",
+          "source": "PDF strana 19, donji slajd: Objašnjenja svih merenih i izračunavanih veličina",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s038:e03",
+          "description": "Potpuno objašnjenje neidealnog ulaza i značenja indeksa 0",
+          "source": "PDF strana 19, donji slajd: Potpuno objašnjenje neidealnog ulaza i značenja indeksa 0",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s039": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s039:e01",
+          "description": "Dve aproksimativne formule vremena ivice kao koren zbira kvadrata",
+          "source": "PDF strana 20, gornji slajd: Dve aproksimativne formule vremena ivice kao koren zbira kvadrata",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s039:e02",
+          "description": "Objašnjenja tfout/tfout0/tr i odgovarajuće usponske ivice",
+          "source": "PDF strana 20, gornji slajd: Objašnjenja tfout/tfout0/tr i odgovarajuće usponske ivice",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s039:e03",
+          "description": "Tumačenje kvadratnog sabiranja i suprotnih smerova ivice invertora",
+          "source": "PDF strana 20, gornji slajd: Tumačenje kvadratnog sabiranja i suprotnih smerova ivice invertora",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "08-s039:e04",
+          "description": "Računski primer izdvajanja doprinosa kola: 5 ns i 3 ns daju 4 ns, a ne 2 ns",
+          "source": "Proverena dopuna agenta; algebarska primena izvorne formule 08-s039:e01, dokaz u dodatna_provera.json",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s040": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s040:e01",
+          "description": "Idealna impulsna pobuda, oba naponska nivoa, signal i vreme",
+          "source": "PDF strana 20, donji slajd: Idealna impulsna pobuda, oba naponska nivoa, signal i vreme",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s040:e02",
+          "description": "Svrha idealnog signala pri posmatranju samo uticaja kola",
+          "source": "PDF strana 20, donji slajd: Svrha idealnog signala pri posmatranju samo uticaja kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s040:e03",
+          "description": "Razlika idealne pobude i realnog odziva",
+          "source": "PDF strana 20, donji slajd: Razlika idealne pobude i realnog odziva",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s041": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s041:e01",
+          "description": "RC šema sa izvorom, komponentama, izlaznim priključcima i polaritetima",
+          "source": "PDF strana 21, gornji slajd: RC šema sa izvorom, komponentama, izlaznim priključcima i polaritetima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s041:e02",
+          "description": "Pobuda U0 na U sa trenutkom t0",
+          "source": "PDF strana 21, gornji slajd: Pobuda U0 na U sa trenutkom t0",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s041:e03",
+          "description": "Početno stacionarno stanje i jedan akumulativni element",
+          "source": "PDF strana 21, gornji slajd: Početno stacionarno stanje i jedan akumulativni element",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s042": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s042:e01",
+          "description": "Izvorna prirodna jednačina kondenzatora bez C — čeka ispravku",
+          "source": "PDF strana 21, donji slajd: Izvorna prirodna jednačina kondenzatora bez C — čeka ispravku",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s042:e02",
+          "description": "Kontinuitet, beskonačna struja za skok i konačna promena napona",
+          "source": "PDF strana 21, donji slajd: Kontinuitet, beskonačna struja za skok i konačna promena napona",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s042:e03",
+          "description": "RC šema sa iR/iC i jednakosti struja i pada napona na R",
+          "source": "PDF strana 21, donji slajd: RC šema sa iR/iC i jednakosti struja i pada napona na R",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s042:e04",
+          "description": "Potpuna interpretacija usaglašenih smerova, konačne i impulsne struje",
+          "source": "PDF strana 21, donji slajd: Potpuna interpretacija usaglašenih smerova, konačne i impulsne struje",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s043": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s043:e01",
+          "description": "Dugotrajna pobuda U0 pre t0",
+          "source": "PDF strana 22, gornji slajd: Dugotrajna pobuda U0 pre t0",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s043:e02",
+          "description": "Izvorni granični lanac struje sa pogrešnim naponskim razlikama — čeka ispravku",
+          "source": "PDF strana 22, gornji slajd: Izvorni granični lanac struje sa pogrešnim naponskim razlikama — čeka ispravku",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s043:e03",
+          "description": "iC=0, izvod=0, konstanta i stacionarno stanje",
+          "source": "PDF strana 22, gornji slajd: iC=0, izvod=0, konstanta i stacionarno stanje",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s043:e04",
+          "description": "Izvorni intuitivni pasus o punjenju/pražnjenju i uspostavljanju stanja — sporna mogućnost preskoka zahteva odluku",
+          "source": "PDF strana 22, gornji slajd: Izvorni intuitivni pasus o punjenju/pražnjenju i uspostavljanju stanja — sporna mogućnost preskoka zahteva odluku",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s044": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s044:e01",
+          "description": "RC šema i svi smerovi",
+          "source": "PDF strana 22, donji slajd: RC šema i svi smerovi",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s044:e02",
+          "description": "Kompletno izvođenje KVL, KCL, RiR, RiC i RC duC/dt+uC=ui",
+          "source": "PDF strana 22, donji slajd: Kompletno izvođenje KVL, KCL, RiR, RiC i RC duC/dt+uC=ui",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s044:e03",
+          "description": "Hejvisajdova pobuda i izvođenje izlazne diferencijalne jednačine",
+          "source": "PDF strana 22, donji slajd: Hejvisajdova pobuda i izvođenje izlazne diferencijalne jednačine",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s044:e04",
+          "description": "Objašnjenje zamena i Hejvisajdove funkcije",
+          "source": "PDF strana 22, donji slajd: Objašnjenje zamena i Hejvisajdove funkcije",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s045": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s045:e01",
+          "description": "RC izlazna jednačina, opšte rešenje i tau=RC",
+          "source": "PDF strana 23, gornji slajd: RC izlazna jednačina, opšte rešenje i tau=RC",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s045:e02",
+          "description": "Dimenzija vremena i opšti način određivanja otpornosti uz deaktivan nezavisni izvor",
+          "source": "PDF strana 23, gornji slajd: Dimenzija vremena i opšti način određivanja otpornosti uz deaktivan nezavisni izvor",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s045:e03",
+          "description": "Puna pravila kratkog/otvorenog spoja i očuvanja zavisnih izvora",
+          "source": "PDF strana 23, gornji slajd: Puna pravila kratkog/otvorenog spoja i očuvanja zavisnih izvora",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s046": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s046:e01",
+          "description": "Složeno kolo bez akumulativnih elemenata sa C i uC",
+          "source": "PDF strana 23, donji slajd: Složeno kolo bez akumulativnih elemenata sa C i uC",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s046:e02",
+          "description": "Tevenenova strelica i RC ekvivalent uT/RT/C sa istim izlaznim naponom",
+          "source": "PDF strana 23, donji slajd: Tevenenova strelica i RC ekvivalent uT/RT/C sa istim izlaznim naponom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s046:e03",
+          "description": "Značenje zamene složene mreže",
+          "source": "PDF strana 23, donji slajd: Značenje zamene složene mreže",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s046:e04",
+          "description": "Uslovi linearnog ekvivalenta i očuvanje stanja kondenzatora",
+          "source": "PDF strana 23, donji slajd: Uslovi linearnog ekvivalenta i očuvanje stanja kondenzatora",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s047": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s047:e01",
+          "description": "Određivanje K1/K2 iz početnog napona i K1+K2=U0",
+          "source": "PDF strana 24, gornji slajd: Određivanje K1/K2 iz početnog napona i K1+K2=U0",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s047:e02",
+          "description": "Izvod iz ODE i početni nagib (U-Uo)/tau — indeks čeka ispravku",
+          "source": "PDF strana 24, gornji slajd: Izvod iz ODE i početni nagib (U-Uo)/tau — indeks čeka ispravku",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s047:e03",
+          "description": "Pun izvod opšteg rešenja i -K1/tau u t0",
+          "source": "PDF strana 24, gornji slajd: Pun izvod opšteg rešenja i -K1/tau u t0",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s047:e04",
+          "description": "Potpuno objašnjenje dva uslova i izvoda eksponencijale",
+          "source": "PDF strana 24, gornji slajd: Potpuno objašnjenje dva uslova i izvoda eksponencijale",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s048": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s048:e01",
+          "description": "Obe polazne jednakosti, K1/K2 i oba puna rešenja za t>=t0",
+          "source": "PDF strana 24, donji slajd: Obe polazne jednakosti, K1/K2 i oba puna rešenja za t>=t0",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s048:e02",
+          "description": "Algebarska jednakost i provera početne/krajnje vrednosti",
+          "source": "PDF strana 24, donji slajd: Algebarska jednakost i provera početne/krajnje vrednosti",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s049": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s049:e01",
+          "description": "Dva dijagrama pobude/odziva sa U0/U/t0 i krajnjom vrednošću",
+          "source": "PDF strana 25, gornji slajd: Dva dijagrama pobude/odziva sa U0/U/t0 i krajnjom vrednošću",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s049:e02",
+          "description": "Praktičan završetak 5 tau i 99.3% promene",
+          "source": "PDF strana 25, gornji slajd: Praktičan završetak 5 tau i 99.3% promene",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s049:e03",
+          "description": "Potpuno obrazloženje matematičkog beskonačnog trajanja i procenta promene",
+          "source": "PDF strana 25, gornji slajd: Potpuno obrazloženje matematičkog beskonačnog trajanja i procenta promene",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s050": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s050:e01",
+          "description": "Tačke 10/90%, vremena t1/t2, tr=tau ln9 i 2.2 tau",
+          "source": "PDF strana 25, donji slajd: Tačke 10/90%, vremena t1/t2, tr=tau ln9 i 2.2 tau",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s050:e02",
+          "description": "Tačka 50%, tp=tau ln2 i 0.69 tau",
+          "source": "PDF strana 25, donji slajd: Tačka 50%, tp=tau ln2 i 0.69 tau",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s050:e03",
+          "description": "Simetrični rezultati silazne ivice",
+          "source": "PDF strana 25, donji slajd: Simetrični rezultati silazne ivice",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s050:e04",
+          "description": "Svi uklonjeni članovi zamene izlaznog odziva, logaritmovanje i odgovarajući RL primer",
+          "source": "PDF strana 25, donji slajd: Svi uklonjeni članovi zamene izlaznog odziva, logaritmovanje i odgovarajući RL primer",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s051": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s051:e01",
+          "description": "Opšte rešenje i krajnja granica ux(infty)",
+          "source": "PDF strana 26, gornji slajd: Opšte rešenje i krajnja granica ux(infty)",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s051:e02",
+          "description": "Oznake t0-/t0+ i početni uslov sa eksponencijalom i K1+K2",
+          "source": "PDF strana 26, gornji slajd: Oznake t0-/t0+ i početni uslov sa eksponencijalom i K1+K2",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s051:e03",
+          "description": "Sve precizne definicije jednostranih graničnih trenutaka",
+          "source": "PDF strana 26, gornji slajd: Sve precizne definicije jednostranih graničnih trenutaka",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s052": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s052:e01",
+          "description": "Puna krajnja granica opšteg rešenja, K2 i izraz za K1",
+          "source": "PDF strana 26, donji slajd: Puna krajnja granica opšteg rešenja, K2 i izraz za K1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s052:e02",
+          "description": "Konačno rešenje u početnoj/krajnjoj vrednosti i interval važenja",
+          "source": "PDF strana 26, donji slajd: Konačno rešenje u početnoj/krajnjoj vrednosti i interval važenja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s052:e03",
+          "description": "Tumačenje stabilnosti i eksponencijalnog odstupanja",
+          "source": "PDF strana 26, donji slajd: Tumačenje stabilnosti i eksponencijalnog odstupanja",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s053": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s053:e01",
+          "description": "Gotovo rešenje p(t) sa intervalom važenja",
+          "source": "PDF strana 27, gornji slajd: Gotovo rešenje p(t) sa intervalom važenja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s053:e02",
+          "description": "Tri koraka: tau, početna i krajnja vrednost sa kontinuitetom i iC(infty)=0",
+          "source": "PDF strana 27, gornji slajd: Tri koraka: tau, početna i krajnja vrednost sa kontinuitetom i iC(infty)=0",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s053:e03",
+          "description": "Sva izvorna detaljna pravila deaktivacije izvora i računanja druge fizičke veličine",
+          "source": "PDF strana 27, gornji slajd: Sva izvorna detaljna pravila deaktivacije izvora i računanja druge fizičke veličine",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s054": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s054:e01",
+          "description": "RC integrator šema i dijagram pobude/odziva",
+          "source": "PDF strana 27, donji slajd: RC integrator šema i dijagram pobude/odziva",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s054:e02",
+          "description": "Integratorski efekat i paralelna kapacitivnost u putanji signala",
+          "source": "PDF strana 27, donji slajd: Integratorski efekat i paralelna kapacitivnost u putanji signala",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s054:e03",
+          "description": "Sva približna integralna izvođenja — diferencijali/uslovi čekaju ispravku",
+          "source": "PDF strana 27, donji slajd: Sva približna integralna izvođenja — diferencijali/uslovi čekaju ispravku",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s054:e04",
+          "description": "Potpuno tumačenje integratorskog efekta i ograničenog približenja",
+          "source": "PDF strana 27, donji slajd: Potpuno tumačenje integratorskog efekta i ograničenog približenja",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s055": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s055:e01",
+          "description": "CR diferencijator šema i opšte rešenje sa tau",
+          "source": "PDF strana 28, gornji slajd: CR diferencijator šema i opšte rešenje sa tau",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s055:e02",
+          "description": "Sve početne jednakosti, kontinuitet uC, struje pre promene i konačni početni izlaz U-U0",
+          "source": "PDF strana 28, gornji slajd: Sve početne jednakosti, kontinuitet uC, struje pre promene i konačni početni izlaz U-U0",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s055:e03",
+          "description": "Potpuno uklonjeno prozno objašnjenje svih početnih uslova",
+          "source": "PDF strana 28, gornji slajd: Potpuno uklonjeno prozno objašnjenje svih početnih uslova",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s056": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s056:e01",
+          "description": "Krajnje stanje i eksponencijalni izlaz diferencijatora",
+          "source": "PDF strana 28, donji slajd: Krajnje stanje i eksponencijalni izlaz diferencijatora",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s056:e02",
+          "description": "Dijagram pobude i odziva",
+          "source": "PDF strana 28, donji slajd: Dijagram pobude i odziva",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s056:e03",
+          "description": "Puno diferenciranje i približenje, završni ui=uR — čeka ispravku izlazne oznake",
+          "source": "PDF strana 28, donji slajd: Puno diferenciranje i približenje, završni ui=uR — čeka ispravku izlazne oznake",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s056:e04",
+          "description": "Potpuno objašnjenje krajnjeg stanja i ograničenog diferencijatorskog približenja",
+          "source": "PDF strana 28, donji slajd: Potpuno objašnjenje krajnjeg stanja i ograničenog diferencijatorskog približenja",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s057": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s057:e01",
+          "description": "Veza dva logička kola i model RO1/RI2/CI2 sa svim strelicama, granicama i oznakama",
+          "source": "PDF strana 29, gornji slajd: Veza dva logička kola i model RO1/RI2/CI2 sa svim strelicama, granicama i oznakama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s057:e02",
+          "description": "Model izlaza sa RO/CO/uOinterno i izlaznim naponom",
+          "source": "PDF strana 29, gornji slajd: Model izlaza sa RO/CO/uOinterno i izlaznim naponom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s057:e03",
+          "description": "Objašnjenje obe realne putanje punjenja kapacitivnosti",
+          "source": "PDF strana 29, gornji slajd: Objašnjenje obe realne putanje punjenja kapacitivnosti",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s058": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s058:e01",
+          "description": "RC šema i impulsna pobuda sa oba nivoa i t1/t2",
+          "source": "PDF strana 29, donji slajd: RC šema i impulsna pobuda sa oba nivoa i t1/t2",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s058:e02",
+          "description": "Gotovo rešenje i tri izvorna pogrešno primenjena koraka tau/početno/krajnje stanje",
+          "source": "PDF strana 29, donji slajd: Gotovo rešenje i tri izvorna pogrešno primenjena koraka tau/početno/krajnje stanje",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s058:e03",
+          "description": "Namerno pogrešan konstantni rezultat VOL i upitnici",
+          "source": "PDF strana 29, donji slajd: Namerno pogrešan konstantni rezultat VOL i upitnici",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s058:e04",
+          "description": "Ponovljeno opšte uvrštavanje sa izvornim t0+ i potpuno objašnjenje zašto nije dozvoljen jedan interval sa dve pobude",
+          "source": "PDF strana 29, donji slajd: Ponovljeno opšte uvrštavanje sa izvornim t0+ i potpuno objašnjenje zašto nije dozvoljen jedan interval sa dve pobude",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s059": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s059:e01",
+          "description": "Impuls kao suma pozitivne i negativne pobude sa svim nivoima/vremenima",
+          "source": "PDF strana 30, gornji slajd: Impuls kao suma pozitivne i negativne pobude sa svim nivoima/vremenima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s059:e02",
+          "description": "Oba parcijalna odziva i izvorna pogrešna suma/međuizraz — čekaju odluku",
+          "source": "PDF strana 30, gornji slajd: Oba parcijalna odziva i izvorna pogrešna suma/međuizraz — čekaju odluku",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s059:e03",
+          "description": "Završni ispravan odziv posle t2",
+          "source": "PDF strana 30, gornji slajd: Završni ispravan odziv posle t2",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s059:e04",
+          "description": "Puni uklonjeni izraz drugog odziva pre sređivanja, oba intervala pre t2 i tumačenje ostvarene promene",
+          "source": "PDF strana 30, gornji slajd: Puni uklonjeni izraz drugog odziva pre sređivanja, oba intervala pre t2 i tumačenje ostvarene promene",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s060": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s060:e01",
+          "description": "RC šema i dijagram sa t0 i novim t1",
+          "source": "PDF strana 30, donji slajd: RC šema i dijagram sa t0 i novim t1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s060:e02",
+          "description": "Originalni i novi odziv, U1, jednakost i konačni oblik sa novim početkom",
+          "source": "PDF strana 30, donji slajd: Originalni i novi odziv, U1, jednakost i konačni oblik sa novim početkom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s060:e03",
+          "description": "Obe uklonjene potpune zamene i umnožavanje eksponencijalnih faktora",
+          "source": "PDF strana 30, donji slajd: Obe uklonjene potpune zamene i umnožavanje eksponencijalnih faktora",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s061": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s061:e01",
+          "description": "Pre t1 i u prvom intervalu: obe formule",
+          "source": "PDF strana 31, gornji slajd: Pre t1 i u prvom intervalu: obe formule",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s061:e02",
+          "description": "Drugi interval: opšte rešenje, kontinuitet i puni početni/krajnji naponi",
+          "source": "PDF strana 31, gornji slajd: Drugi interval: opšte rešenje, kontinuitet i puni početni/krajnji naponi",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s061:e03",
+          "description": "Završni potpuni impulsni odziv",
+          "source": "PDF strana 31, gornji slajd: Završni potpuni impulsni odziv",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s061:e04",
+          "description": "Uklonjeno puno uvrštavanje dostignutog napona u drugi odziv",
+          "source": "PDF strana 31, gornji slajd: Uklonjeno puno uvrštavanje dostignutog napona u drugi odziv",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s062": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s062:e01",
+          "description": "Pobuda i sva tri RC odziva za TI mnogo veće/približno/mnogo manje tau",
+          "source": "PDF strana 31, donji slajd: Pobuda i sva tri RC odziva za TI mnogo veće/približno/mnogo manje tau",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s062:e02",
+          "description": "Izvorni primer pogrešnog razmišljanja o pukom kašnjenju impulsa sa tp",
+          "source": "PDF strana 31, donji slajd: Izvorni primer pogrešnog razmišljanja o pukom kašnjenju impulsa sa tp",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s062:e03",
+          "description": "Promena oblika/trajanja i moguće odsustvo logičkog impulsa",
+          "source": "PDF strana 31, donji slajd: Promena oblika/trajanja i moguće odsustvo logičkog impulsa",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s062:e04",
+          "description": "Potpuno objašnjenje analogne amplitude i praga prepoznavanja",
+          "source": "PDF strana 31, donji slajd: Potpuno objašnjenje analogne amplitude i praga prepoznavanja",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s063": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s063:e01",
+          "description": "Pobuda sa t1/t2/TI",
+          "source": "PDF strana 32, gornji slajd: Pobuda sa t1/t2/TI",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s063:e02",
+          "description": "Sva tri CR odziva i poređenje TI sa tau, pozitivni/negativni nivoi i skok VOH-VOL",
+          "source": "PDF strana 32, gornji slajd: Sva tri CR odziva i poređenje TI sa tau, pozitivni/negativni nivoi i skok VOH-VOL",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s063:e03",
+          "description": "Potpuno objašnjenje čuvanja stanja i trenutnih izlaznih skokova",
+          "source": "PDF strana 32, gornji slajd: Potpuno objašnjenje čuvanja stanja i trenutnih izlaznih skokova",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s064": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s064:e01",
+          "description": "RL šema sa iL/uL/polaritetima/uo i pobudom VOL na VOH u t0",
+          "source": "PDF strana 32, donji slajd: RL šema sa iL/uL/polaritetima/uo i pobudom VOL na VOH u t0",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s064:e02",
+          "description": "uL=L diL/dt, izvorna tvrdnja o beskonačnom naponu i postojanju napona — čeka reč trenutno",
+          "source": "PDF strana 32, donji slajd: uL=L diL/dt, izvorna tvrdnja o beskonačnom naponu i postojanju napona — čeka reč trenutno",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s064:e03",
+          "description": "Stacionarno stanje uL=0, iL=const",
+          "source": "PDF strana 32, donji slajd: Stacionarno stanje uL=0, iL=const",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s064:e04",
+          "description": "Tumačenje konačne brzine promene i kontinuiteta struje",
+          "source": "PDF strana 32, donji slajd: Tumačenje konačne brzine promene i kontinuiteta struje",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s065": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s065:e01",
+          "description": "Gotovo rešenje i tri koraka za kolo sa induktivnošću",
+          "source": "PDF strana 33, gornji slajd: Gotovo rešenje i tri koraka za kolo sa induktivnošću",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s065:e02",
+          "description": "tau kao L puta provodnost, kontinuitet iL i uL(infty)=0",
+          "source": "PDF strana 33, gornji slajd: tau kao L puta provodnost, kontinuitet iL i uL(infty)=0",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s065:e03",
+          "description": "Sva pravila za deaktivan izvor i određivanje početnog i krajnjeg stanja",
+          "source": "PDF strana 33, gornji slajd: Sva pravila za deaktivan izvor i određivanje početnog i krajnjeg stanja",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s066": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s066:e01",
+          "description": "tau=LG=L/R",
+          "source": "PDF strana 33, donji slajd: tau=LG=L/R",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s066:e02",
+          "description": "Puna početna stacionarna struja i izlazni uslovi",
+          "source": "PDF strana 33, donji slajd: Puna početna stacionarna struja i izlazni uslovi",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s066:e03",
+          "description": "Krajnji napon, puno izlazno rešenje i induktivnost redno u putanji signala",
+          "source": "PDF strana 33, donji slajd: Krajnji napon, puno izlazno rešenje i induktivnost redno u putanji signala",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s066:e04",
+          "description": "Potpuno objašnjenje svih zamena i integratorskog efekta",
+          "source": "PDF strana 33, donji slajd: Potpuno objašnjenje svih zamena i integratorskog efekta",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "08-s067": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "08-s067:e01",
+          "description": "Šema R1/C1/R2/C2, ulazni/izlazni priključci, polariteti i crveno C1",
+          "source": "PDF strana 34, gornji slajd: Šema R1/C1/R2/C2, ulazni/izlazni priključci, polariteti i crveno C1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s067:e02",
+          "description": "Početni/krajnji izlazni odnos i isti konačni ulaz — početni uslov čeka razjašnjenje",
+          "source": "PDF strana 34, gornji slajd: Početni/krajnji izlazni odnos i isti konačni ulaz — početni uslov čeka razjašnjenje",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s067:e03",
+          "description": "Kompenzacija: jednakost početnog/krajnjeg napona i C1R1=C2R2",
+          "source": "PDF strana 34, gornji slajd: Kompenzacija: jednakost početnog/krajnjeg napona i C1R1=C2R2",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s067:e04",
+          "description": "Pobuda i kompenzovan/podkompenzovan/prekompenzovan odziv sa tri odnosa proizvoda",
+          "source": "PDF strana 34, gornji slajd: Pobuda i kompenzovan/podkompenzovan/prekompenzovan odziv sa tri odnosa proizvoda",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "08-s067:e05",
+          "description": "Puna uklonjena zamena kapacitivnog i otpornog odnosa i izvođenje uslova",
+          "source": "PDF strana 34, gornji slajd: Puna uklonjena zamena kapacitivnog i otpornog odnosa i izvođenje uslova",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    }
+  }
+}

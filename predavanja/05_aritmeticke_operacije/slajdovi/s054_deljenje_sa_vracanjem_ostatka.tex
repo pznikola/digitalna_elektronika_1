@@ -1,12 +1,13 @@
 
 \slajdid{05-s054}
-\begin{frame}[label=05-s054]
-\gusttekst\setlength{\parskip}{0pt}
-\begin{center}DELJENJE\end{center}
+% element: 05-s054:e01
+% element: 05-s054:e02
+\begin{frame}[label=05-s054]{Deljenje — probno oduzimanje}
+\fontsize{10}{12}\selectfont\setlength{\parskip}{0pt}
+
 Primer 74:8=1001010:1000
 \begin{center}\input{tabele/s054_deljenje.tex}\end{center}
-Rezultat je 1 ako Delilac <= Deljenik, inače 0\\
-Kako ALU zna da li je ovo tačno?\\
-Oduzmi i ako je “rezultat” manji od nule rezultat je nula\\
-Pomeri i probaj ponovo
+Bit količnika je 1 ako je delilac $\leq$ deljenik, inače 0.\par
+ALU: oduzmi; negativan privremeni rezultat daje bit 0.\par
+Pomeri i probaj ponovo.
 \end{frame}

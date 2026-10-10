@@ -1,16 +1,15 @@
-
 \slajdid{05-s017}
-\begin{frame}[label=05-s017]
-\gusttekst\alert{Zašto sve ovo radimo?}
-\begin{center}Digitalni sistem – binarno sabiranje – sabirač – ideja iz algoritamskog sabiranja\par\vspace{2mm}
-\input{slike/tikz/s017_lanac_sabiraca.tex}
-\end{center}
+% element: 05-s017:e01
+% element: 05-s017:e02
+% element: 05-s017:e03
+\begin{frame}[label=05-s017]{Sabirač sa rednim prenosom}
+\alert{Zašto sve ovo radimo?}\par
+Binarno sabiranje: ideja iz algoritamskog sabiranja.
+\begin{center}\input{slike/tikz/s017_lanac_sabiraca.tex}\end{center}
 \begin{columns}[c,onlytextwidth]
-\column{.49\textwidth}\centering\textbf{Worst case kašnjenje}\par\textbf{Kašnjenje za najgori slučaj}
-\column{.48\textwidth}\centering
-$t_{adder}=(N-1)\textcolor{DEcrvena}{t_{carry}}+t_{sum}$
+\column{.48\textwidth}Kašnjenje za najgori slučaj\par\textit{Worst case}
+\column{.49\textwidth}\[t_{adder}=(N-1)\alert{t_{carry}}+t_{sum}\]
 \end{columns}
-\begin{center}\textbf{Raste linearno sa brojem bita}\end{center}
-\[t_{adder}=\mathrm{O}(\textcolor{DEcrvena}{N})\]
-\begin{center}\alert{Cilj: Napraviti što brži prenos carry bita}\end{center}
+\par\smallskip Raste linearno sa brojem bita: $t_{adder}=\mathrm{O}(\alert{N})$.\par\smallskip
+\textbf{Cilj: napraviti što brži prenos carry bita.}
 \end{frame}

@@ -1,0 +1,95 @@
+GHDL 6.0.0-dev (5.1.1.r569.g9f219f49f.dirty) [Dunoon edition]
+ Compiled with GNAT Version: 10.5.0
+ llvm 14.0.0 code generator
+Written by Tristan Gingold.
+
+Copyright (C) 2003 - 2026 Tristan Gingold.
+GHDL is free software, covered by the GNU General Public License.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+s028_dataflow_a.vhd (exit 1)
+/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/kodovi/s028_dataflow_a.vhd:2:18:error: can't match integer literal with type bit
+port (A: in BIT:=1; B: in BIT; Y,Z: out BIT);
+                 ^
+/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/kodovi/s028_dataflow_a.vhd:4:21:error: entity "ckt" was not analysed
+architecture ckt of ckt is
+                    ^
+/home/nikolap/Programs/oss-cad-suite/libexec/ghdl:error: compilation error
+
+s028_dataflow_b.vhd (exit 1)
+/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/kodovi/s028_dataflow_b.vhd:2:18:error: can't match integer literal with type bit
+port (A: in BIT:=1; B: in BIT; Y,Z: out BIT);
+                 ^
+/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/kodovi/s028_dataflow_b.vhd:4:21:error: entity "ckt" was not analysed
+architecture ckt of ckt is
+                    ^
+/home/nikolap/Programs/oss-cad-suite/libexec/ghdl:error: compilation error
+
+s027 simulacija --stop-delta=12
+/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/kodovi/s027_test_izvorne_greske.vhd:14:1:@0ms:(report note): delta=1 A=000 B=000 av='0' bv='0'
+/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/kodovi/s027_test_izvorne_greske.vhd:14:1:@0ms:(report note): delta=2 A=111 B=000 av='1' bv='0'
+/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/kodovi/s027_test_izvorne_greske.vhd:14:1:@0ms:(report note): delta=3 A=000 B=111 av='0' bv='1'
+/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/kodovi/s027_test_izvorne_greske.vhd:14:1:@0ms:(report note): delta=4 A=111 B=000 av='1' bv='0'
+/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/kodovi/s027_test_izvorne_greske.vhd:14:1:@0ms:(report note): delta=5 A=000 B=111 av='0' bv='1'
+/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/kodovi/s027_test_izvorne_greske.vhd:14:1:@0ms:(report note): delta=6 A=111 B=000 av='1' bv='0'
+/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/kodovi/s027_test_izvorne_greske.vhd:14:1:@0ms:(report note): delta=7 A=000 B=111 av='0' bv='1'
+/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/kodovi/s027_test_izvorne_greske.vhd:14:1:@0ms:(report note): delta=8 A=111 B=000 av='1' bv='0'
+./provera_vprior:info: simulation stopped @0ms by --stop-delta=12
+
+s021_entity.vhd GHDL --std=08: OK
+s021_architecture.vhd GHDL --std=08: OK
+s024_potpuni_sabirac.vhd GHDL --std=08: OK
+s029_latch.vhd GHDL --std=08: OK
+s031_mux_a.vhd (exit 0)
+
+s031_mux_b.vhd (exit 1)
+/tmp/hdl07-jtyox9gf/s031_mux_b.vhd:1:1:warning: entity "mux_test" was also defined in file "/tmp/hdl07-jtyox9gf/s031_mux_a.vhd" [-Wlibrary]
+entity mux_test is port (Sel,x1,x2: in bit; f:out bit); end; architecture test of mux_test is begin
+^
+/tmp/hdl07-jtyox9gf/s031_mux_b.vhd:5:10:error: no function declarations for operator "="
+  IF Sel = 1 THEN
+         ^
+/home/nikolap/Programs/oss-cad-suite/libexec/ghdl:error: compilation error
+
+s031_mux_c.vhd (exit 1)
+/tmp/hdl07-jtyox9gf/s031_mux_c.vhd:1:1:warning: entity "mux_test" was also defined in file "/tmp/hdl07-jtyox9gf/s031_mux_a.vhd" [-Wlibrary]
+entity mux_test is port (Sel,x1,x2: in bit; f:out bit); end; architecture test of mux_test is begin
+^
+/tmp/hdl07-jtyox9gf/s031_mux_c.vhd:4:10:error: no function declarations for operator "="
+  IF Sel = 1 THEN
+         ^
+/home/nikolap/Programs/oss-cad-suite/libexec/ghdl:error: compilation error
+
+
+NEPRIMENJENI PREDLOZI: odvojeno od prezentacije i njenih izvora
+$ ghdl -a --std=08 /tmp/hdl07-predlozi-nx418s_v/s028_samo_literal.vhd
+exit=1
+/tmp/hdl07-predlozi-nx418s_v/s028_samo_literal.vhd:6:1:error: port "B" can't be assigned
+B <= A and A;
+^
+/home/nikolap/Programs/oss-cad-suite/libexec/ghdl:error: compilation error
+
+$ ghdl -a --std=08 --ieee=synopsys /home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/provera/redizajn/predlozi/s027_prioritet.vhd
+exit=0
+
+$ ghdl -a --std=08 --ieee=synopsys /home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/provera/redizajn/predlozi/s027_test_predloga.vhd
+exit=0
+
+$ ghdl --elab-run --std=08 --ieee=synopsys test_predloga --stop-time=300ns
+exit=0
+/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/provera/redizajn/predlozi/s027_test_predloga.vhd:29:2:@256ns:(report note): PROVERENO: svih 256 kombinacija prioriteta i zastavica
+
+$ ghdl -a --std=08 /home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/provera/redizajn/predlozi/s028_dataflow_a.vhd
+exit=0
+
+$ ghdl -a --std=08 /home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/provera/redizajn/predlozi/s028_dataflow_b.vhd
+exit=0
+/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/provera/redizajn/predlozi/s028_dataflow_b.vhd:1:1:warning: entity "ckt" was also defined in file "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/provera/redizajn/predlozi/s028_dataflow_a.vhd" [-Wlibrary]
+entity ckt is
+^
+
+$ ghdl -a --std=08 /tmp/hdl07-predlozi-nx418s_v/mux_b.vhd
+exit=0
+
+$ ghdl -a --std=08 /tmp/hdl07-predlozi-nx418s_v/mux_c.vhd
+exit=0

@@ -1,16 +1,21 @@
 \slajdid{06-s026}
-\begin{frame}[label=06-s026]{Hemingov kod - Hamming code}
-\gusttekst\setlength{\parskip}{5pt}
-Hamming distance – Hemingovo rastojanje\\
-U binarnom svetu Hemingovo rastojanje dve kodne reči je broj različitih bita između te dve kodne reči.\\
-Hemingovo raastojanje koda je minimalno Hemingovo rastojanje posmatrajući bilo koje dve kodne reči.
-
-\hspace{5mm}\begin{tabular}{l}10\textcolor{DEcrvena}{0}1\textcolor{DEcrvena}{1}\\10\textcolor{DEcrvena}{1}1\textcolor{DEcrvena}{0}\\$d=2$\end{tabular}
-
-Hemnigovo rastojanje binarnog koda $d=1$\\
-Hemingovo rastojanje binarnog koda sa bitom parnosti $d=2$
-
-Na osnovu teorije kodovanja:\par
-\begin{center}U kodu je moguće otkrivanje $k$ grešaka ako je Hemingovo rastojanje koda $d\mathrel{>\kern0pt=}k+1$\par\vspace{3mm}
-U kodu je moguća korekcija $l$ grešaka ako je Hemingovo rastojanje koda $d\mathrel{>\kern0pt=}2l+1$\end{center}
+\begin{frame}[label=06-s026]{Hemingovo rastojanje}
+Hamming distance — Hemingovo rastojanje.\par\medskip
+\textbf{Rastojanje dve kodne reči}: broj različitih bita.
+\par\medskip
+\textbf{Rastojanje koda}: najmanje rastojanje između dve različite kodne reči.
+\medskip
+\begin{columns}[c,onlytextwidth]
+\column{.30\textwidth}\centering
+\begin{tabular}{c}10\textcolor{DEcrvena}{0}1\textcolor{DEcrvena}{1}\\[1mm]10\textcolor{DEcrvena}{1}1\textcolor{DEcrvena}{0}\\[2mm]$d=2$\end{tabular}
+\column{.66\textwidth}
+Binarni kod: $d=1$.\par\medskip
+Binarni kod sa bitom parnosti: $d=2$.
+\end{columns}\bigskip
+Na osnovu teorije kodovanja:
+\[\begin{aligned}\text{Otkrivanje }k\text{ grešaka:}\quad&d\ge k+1,\\[2mm]\text{Korekcija }l\text{ grešaka:}\quad&d\ge2l+1.\end{aligned}\]
+% element: 06-s026:e01
+% element: 06-s026:e02
+% element: 06-s026:e03
+% element: 06-s026:e04
 \end{frame}

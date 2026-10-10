@@ -1,0 +1,7 @@
+\BeleskeID{07-s031}
+% element: 07-s031:d01
+U prvom procesu svako izvršavanje dodeljuje izlaz: za Sel='0' bira se x1, a u drugoj grani x2. Sva tri signala koja utiču na odluku nalaze se u listi osetljivosti.
+
+U drugom zapisu prvo se zakazuje podrazumevana vrednost x1, a zatim se uslovno zakazuje x2. Ako se u istom izvršavanju istom signalu zada više dodela bez različitih kašnjenja, kasnija dodela određuje vrednost za odgovarajući trenutak ažuriranja. Signal se između tih naredbi ne menja odmah kao promenljiva.
+
+Treći proces se ponovo aktivira događajima na Sel ili x2; x1 se u njemu ne čita. Pri analizi uslovne dodele treba zasebno proveriti šta proces zakazuje u svakoj grani.

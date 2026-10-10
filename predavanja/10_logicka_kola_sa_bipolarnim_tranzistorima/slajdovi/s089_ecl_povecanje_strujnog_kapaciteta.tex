@@ -1,11 +1,10 @@
+% element: 10-s089:e01
+% element: 10-s089:e02
 \slajdid{10-s089}
-\begin{frame}[label=10-s089]
-\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[T,onlytextwidth]\column{.41\textwidth}\centering\input{slike/tikz/s089_ecl_bez_bafera.tex}\hfill\raisebox{1.7cm}{\tikz\draw[->,DEplava](0,0)--(.8,0);}\par\medskip\raggedright
-Ovde treba uočiti da će bilo kakva struja kroz izlaz poremetiti ove uslove, odnosno da se lako može desiti da tranzistori odu u zasićenje zbog izlaznih struja. Zbog toga se u realnom ECL kolu dodaju izlazni baferi koji će obezbediti povećane strujne kapacitete ali neće poremetiti naponske nivoe (pojačavač sa zajedničkim kolektorom)
-\column{.57\textwidth}\centering\input{slike/tikz/s089_ecl_izlazni_baferi.tex}\par\medskip\raggedright
-Tranzistori T3 i T4 će zbog svoje konfiguracije, podrazumevajući da postoji neka struja na izlazu, uvek raditi u aktivnom režimu. Menjaju se naponi logičke nule i jedinice
-\[V_{OL}=V_{CC}-R_C I_E-V_{BE}\]
-\[V_{OH}=V_{CC}-V_{BE}\]
-Uslovi za izbor elemenata se ne menjaju.
-\end{columns}
+\begin{frame}[label=10-s089]{ECL: izlazni baferi}
+\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{3pt}\setlength{\belowdisplayshortskip}{3pt}
+\begin{columns}[T,onlytextwidth]\column{.35\textwidth}\input{slike/tikz/s089_ecl_bez_bafera.tex}\column{.62\textwidth}\centering \input{slike/tikz/s089_ecl_izlazni_baferi.tex}\end{columns}\smallskip
+Pojačavači sa zajedničkim kolektorom povećavaju strujne kapacitete.
+\[V_{OL}=V_{CC}-R_CI_E-V_{BE},\qquad V_{OH}=V_{CC}-V_{BE}\]
+\centering Uslovi za izbor elemenata se ne menjaju.
 \end{frame}

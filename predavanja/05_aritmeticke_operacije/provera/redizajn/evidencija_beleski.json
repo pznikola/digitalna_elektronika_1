@@ -1,0 +1,337 @@
+{
+  "date": "2026-10-02",
+  "lecture": "05",
+  "policy": "PLAN_PREDAVANJA.md: korak 6; samo nastavno objašnjenje u beleškama",
+  "slides": {
+    "05-s001": {
+      "path": "beleske/s001.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Bez dopune.",
+      "expert_question": false
+    },
+    "05-s002": {
+      "path": "beleske/s002.tex",
+      "original_details": "Minimizacija pojedinačnih izlaza, komercijalne komponente i lakše praćenje/nadogradnja; šest oznaka lokalnih relacija uz kola",
+      "supplement": "Logičke jednačine lokalnih relacija i uloga dvostrukog invertiranja",
+      "expert_question": false
+    },
+    "05-s003": {
+      "path": "beleske/s003.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Zašto najviša razlika odlučuje",
+      "expert_question": false
+    },
+    "05-s004": {
+      "path": "beleske/s004.tex",
+      "original_details": "Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje",
+      "supplement": "Kodiranje tri relacije i neutralno proširenje",
+      "expert_question": false
+    },
+    "05-s005": {
+      "path": "beleske/s005.tex",
+      "original_details": "Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje",
+      "supplement": "Smer kaskade i uloga nepovezanog simbola",
+      "expert_question": false
+    },
+    "05-s006": {
+      "path": "beleske/s006.tex",
+      "original_details": "Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje",
+      "supplement": "Kodiranje izlaza prvog nivoa i uloga završnog komparatora",
+      "expert_question": false
+    },
+    "05-s007": {
+      "path": "beleske/s007.tex",
+      "original_details": "Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje",
+      "supplement": "Kontraprimer A=0,B=1; tumačenje lokalnih relacija",
+      "expert_question": false
+    },
+    "05-s008": {
+      "path": "beleske/s008.tex",
+      "original_details": "Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje",
+      "supplement": "Zašto viši lokalni deo nadjačava niži",
+      "expert_question": false
+    },
+    "05-s009": {
+      "path": "beleske/s009.tex",
+      "original_details": "Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje",
+      "supplement": "Smer kaskade i neutralni početak",
+      "expert_question": false
+    },
+    "05-s010": {
+      "path": "beleske/s010.tex",
+      "original_details": "Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje",
+      "supplement": "Uslov validnih kodiranih izlaza",
+      "expert_question": false
+    },
+    "05-s011": {
+      "path": "beleske/s011.tex",
+      "original_details": "Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje",
+      "supplement": "Zašto sirovi niski biti rade u ovom proširenju",
+      "expert_question": false
+    },
+    "05-s012": {
+      "path": "beleske/s012.tex",
+      "original_details": "Svi pojedinačni koraci prenosa 3+0,2+9,6+5+1,2+9+1,3+0+1",
+      "supplement": "Težine cifara pri poravnanju",
+      "expert_question": false
+    },
+    "05-s013": {
+      "path": "beleske/s013.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Količnik i ostatak digitnog zbira u osnovi r",
+      "expert_question": false
+    },
+    "05-s014": {
+      "path": "beleske/s014.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Razlika preloma i zasićenja",
+      "expert_question": true
+    },
+    "05-s015": {
+      "path": "beleske/s015.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Uloga polusabirača i topologija šeme",
+      "expert_question": false
+    },
+    "05-s016": {
+      "path": "beleske/s016.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Paritetna funkcija alternativne jednačine r i oznake prenosa",
+      "expert_question": false
+    },
+    "05-s017": {
+      "path": "beleske/s017.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Kritična putanja i redni prenos",
+      "expert_question": false
+    },
+    "05-s018": {
+      "path": "beleske/s018.tex",
+      "original_details": "Ceo niz pozajmica i objašnjenje ekvivalentnog prenosa 6−(5+1)=(6−1)−5",
+      "supplement": "Značenje prenete pozajmice",
+      "expert_question": false
+    },
+    "05-s019": {
+      "path": "beleske/s019.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Digitni algoritam i smisao izvornih upitnika",
+      "expert_question": false
+    },
+    "05-s020": {
+      "path": "beleske/s020.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Tumačenje donjeg 1001 u oba brojna opsega",
+      "expert_question": false
+    },
+    "05-s021": {
+      "path": "beleske/s021.tex",
+      "original_details": "Prethodno sabiranje i oduzimanje samo pozitivnih vrednosti, potreba oba postupka pri negativnim operandima",
+      "supplement": "Kako znaci menjaju potrebnu operaciju",
+      "expert_question": false
+    },
+    "05-s022": {
+      "path": "beleske/s022.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Račun po modulu 2^n",
+      "expert_question": false
+    },
+    "05-s023": {
+      "path": "beleske/s023.tex",
+      "original_details": "Potpuno tumačenje pojave/odsustva izlaznog prenosa i dodatog petog bita",
+      "supplement": "Čitanje 11001=−7 i ponovno komplementiranje",
+      "expert_question": false
+    },
+    "05-s024": {
+      "path": "beleske/s024.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Beskonačna pozajmica i decimalni komplement 78=−22",
+      "expert_question": true
+    },
+    "05-s025": {
+      "path": "beleske/s025.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Razlika instrukcije i sabiračkog sklopa",
+      "expert_question": false
+    },
+    "05-s026": {
+      "path": "beleske/s026.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Razlika označenog OVF i izlaznog prenosa",
+      "expert_question": true
+    },
+    "05-s027": {
+      "path": "beleske/s027.tex",
+      "original_details": "Potpuno objašnjenje korekcije još jednom jedinicom u oba navedena slučaja",
+      "supplement": "Proveren primer prvog komplementa −2+3=1",
+      "expert_question": false
+    },
+    "05-s028": {
+      "path": "beleske/s028.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Objašnjenje kontrole ADD/SUB i EKSILI detekcije OVF",
+      "expert_question": false
+    },
+    "05-s029": {
+      "path": "beleske/s029.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Proveren primer 7+1 i zasićenje",
+      "expert_question": false
+    },
+    "05-s030": {
+      "path": "beleske/s030.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Razlika proširenja i pomeranja",
+      "expert_question": false
+    },
+    "05-s031": {
+      "path": "beleske/s031.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Zašto ponavljanje znaka nije pravilo za znak i apsolutnu vrednost",
+      "expert_question": false
+    },
+    "05-s032": {
+      "path": "beleske/s032.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Primer −7, ASR=floor i uslov prekoračenja ASL",
+      "expert_question": false
+    },
+    "05-s033": {
+      "path": "beleske/s033.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Granična modularna ponašanja INC/DEC",
+      "expert_question": false
+    },
+    "05-s034": {
+      "path": "beleske/s034.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Maska i granično stanje samih jedinica",
+      "expert_question": false
+    },
+    "05-s035": {
+      "path": "beleske/s035.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Maska i granično stanje nule",
+      "expert_question": false
+    },
+    "05-s036": {
+      "path": "beleske/s036.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Uloga dve grane iste magistrale",
+      "expert_question": false
+    },
+    "05-s037": {
+      "path": "beleske/s037.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Razlaganje parcijalnih proizvoda i opseg",
+      "expert_question": false
+    },
+    "05-s038": {
+      "path": "beleske/s038.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Zašto je namerni primer netačan",
+      "expert_question": false
+    },
+    "05-s039": {
+      "path": "beleske/s039.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Odbacivanje sedmog prenosa i čitanje −9",
+      "expert_question": false
+    },
+    "05-s040": {
+      "path": "beleske/s040.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Negativna težina znaka, 3×5 umesto 3×(−3)",
+      "expert_question": false
+    },
+    "05-s041": {
+      "path": "beleske/s041.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Parcijalni proizvodi +3 i −12",
+      "expert_question": false
+    },
+    "05-s042": {
+      "path": "beleske/s042.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Parcijalni proizvodi −3 i +12, sedmi prenos",
+      "expert_question": false
+    },
+    "05-s043": {
+      "path": "beleske/s043.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Zašto tumačenje operanada menja operaciju",
+      "expert_question": false
+    },
+    "05-s044": {
+      "path": "beleske/s044.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Uslov predstavljivosti apsolutne vrednosti minimuma",
+      "expert_question": false
+    },
+    "05-s045": {
+      "path": "beleske/s045.tex",
+      "original_details": "Međukoraci D_t=−(2^n−D)=−(2^n−D_(n−1)2^(n−1)−D*) i označeno značenje zapisa",
+      "supplement": "Dokaz teleskopske jednakosti za n bitova",
+      "expert_question": false
+    },
+    "05-s046": {
+      "path": "beleske/s046.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Redosled para i proveren niz 001110=14",
+      "expert_question": false
+    },
+    "05-s047": {
+      "path": "beleske/s047.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Račun svih četiri iteracija sa zasebnim registrima, 2×6=12",
+      "expert_question": false
+    },
+    "05-s048": {
+      "path": "beleske/s048.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Smisao dva pomeranja i potrebna širina međurezultata",
+      "expert_question": false
+    },
+    "05-s049": {
+      "path": "beleske/s049.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Proveren primer −9 koji ne staje u četiri bita",
+      "expert_question": false
+    },
+    "05-s050": {
+      "path": "beleske/s050.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Opseg, težine pozicija i izuzetak (−1)×(−1)",
+      "expert_question": true
+    },
+    "05-s051": {
+      "path": "beleske/s051.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Proveren primer −1/16→−1/8 i smer odsecanja",
+      "expert_question": true
+    },
+    "05-s052": {
+      "path": "beleske/s052.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Smisao pet smerova i slučaj tačne polovine",
+      "expert_question": true
+    },
+    "05-s053": {
+      "path": "beleske/s053.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "74=8×9+2 i razlomljeni nastavak 9.25",
+      "expert_question": true
+    },
+    "05-s054": {
+      "path": "beleske/s054.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Razlika probnog rezultata i sačuvanog ostatka",
+      "expert_question": true
+    },
+    "05-s055": {
+      "path": "beleske/s055.tex",
+      "original_details": "Nema uklonjenog nastavnog detalja; originalne ključne celine su vidljive.",
+      "supplement": "Deljenje prema nuli, delilac nula i označeni minimum/−1",
+      "expert_question": false
+    }
+  }
+}

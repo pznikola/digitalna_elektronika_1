@@ -1,0 +1,7 @@
+\BeleskeID{06-s030}
+% element: 06-s030:d01
+Kod termometarskog zapisa susedne dopuštene reči razlikuju se u jednom bitu. Obrazac sa prekidom niza jedinica otkriva da je nastala greška, ali ne određuje jedinstveno iz koje je ispravne reči nastao. Promena na granici niza može dati drugi dopušten zapis, pa takva greška nije nužno otkrivena.
+
+Kod „jedan od“ svaka dopuštena reč ima jednu jedinicu. Reč 001000100 ima dve jedinice i zato nije dopuštena, ali iz nje se ne može jednoznačno izabrati koja jedinica je pogrešna. Ako se jedna aktivna pozicija ugasi, a druga uključi, nastaje druga dopuštena reč: to je promena dva bita koju provera jednog aktivnog položaja neće otkriti.
+
+Grejov kod ima rastojanje jedan i služi za smanjivanje neodređenosti tokom prelaza susednih vrednosti. To svojstvo ga samo po sebi ne čini kodom za otkrivanje grešaka.

@@ -1,16 +1,13 @@
+% element: 10-s027:e01
+% element: 10-s027:e02
+% element: 10-s027:e03
 \slajdid{10-s027}
-\begin{frame}[label=10-s027]
-\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}$V_I=V_{OHmin}>V_{IH}$?
-\[I_O<\beta_F I_{Bmin}-\frac{V_{CC}-V_{CES}}{R_C}=\beta_F\frac{V_{OHmin}-V_{BES}}{R_B}-\frac{V_{CC}-V_{CES}}{R_C}=I_{OL}\]
-Što manje $R_B$, što veće $R_C$. Opet kontradiktorni zahtevi u odnosu na neke ranije.
-\par\medskip\centering
-Šta bi na kraju stavili u katalog za minimalan napon logičke jedinice na ulazu,$V_{IH}$\par
-Ono koje smo ranije izračunali ili ovo $V_{OHmin}$\par\medskip
-\textcolor{DEcrvena}{Očigledno je $V_{OHmin}$}
+\begin{frame}[label=10-s027]{Faktor grananja RTL kola}
+\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{3pt}\setlength{\belowdisplayshortskip}{3pt}
+$V_I=V_{OH\min}>V_{IH}$? U katalog za minimalnu ulaznu jedinicu: $V_{OH\min}$.
+\[I_O<\beta_F\frac{V_{OH\min}-V_{BES}}{R_B}-\frac{V_{CC}-V_{CES}}{R_C}=I_{OL}\]
+Za $I_{OL}$: manje $R_B$, veće $R_C$.\par\bigskip
 \[N_L=\frac{I_{OL}}{I_{IL}}=\infty\]
-\raggedright Faktor granja
-\begin{columns}[c,onlytextwidth]\column{.8\textwidth}
-\[N_H=\frac{|I_{OH}|}{I_{IH}}=\frac{\dfrac{V_{CC}-V_{OHmin}}{R_C}}{\dfrac{V_{CC}-V_{BES}}{R_B}}=\frac{R_B}{R_C}\frac{V_{CC}-V_{OHmin}}{V_{CC}-V_{BES}}\sim\frac{R_B}{R_C}\]
-\column{.18\textwidth}\color{DEcrvena}Što veće\par Što manje\par ????\end{columns}
-\[N=\min(N_L,N_H)\]
+\[N_H=\frac{|I_{OH}|}{I_{IH}}=\frac{R_B}{R_C}\frac{V_{CC}-V_{OH\min}}{V_{CC}-V_{BES}}\sim\frac{R_B}{R_C}\]
+\Rezultat{Za veći $N_H$: veće $R_B$, manje $R_C$.\quad $N=\min(N_L,N_H)$.}
 \end{frame}

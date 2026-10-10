@@ -1,0 +1,8 @@
+\BeleskeID{09_3-s069}
+% element: 09_3-s069:e05
+% slide-id: 09_3-s069
+PDN mreža konstruiše se kao u složenom statičkom CMOS kolu, ali je njen rad uslovljen signalom CLK. Koristi se samo PDN, uz tranzistore za pripremu i izračunavanje.
+
+Za CLK na nuli P tranzistor provodi i puni izlaznu kapacitivnost do jedinice. To ne zavisi od stanja PDN: donji kraj mreže je odvojen od mase jer je N tranzistor zakočen. Ova pripremna faza zove se precharge.
+
+Za CLK na jedinici P je zakočen, dok N provodi i omogućava putanju PDN prema masi. Ako izlazna funkcija zahteva nulu, PDN prazni kapacitivnost. Ako zahteva jedinicu, PDN ne provodi i kapacitivnost zadržava napunjeno stanje. To je faza izračunavanja. Tek pri njenom kraju nivo je pouzdan, pod uslovom da trajanje faze odgovara brzini PDN mreže.

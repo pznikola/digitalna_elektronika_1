@@ -1,0 +1,11 @@
+% element: 10-s027:e04
+% element: 10-s027:e05
+\BeleskeID{10-s027}
+Izbor ulazne jedinice iznad prethodno izračunate granice, na $V_{OH\min}$, daje veću baznu struju i rezervu za izlazno opterećenje. Pitanje je da li u katalog za minimalan napon ulazne jedinice treba staviti ranije izračunatu granicu ili $V_{OH\min}$; ovde se bira $V_{OH\min}$.
+
+Za veći strujni kapacitet nule povoljni su manji $R_B$ i veći $R_C$, što je u suprotnosti sa nekim prethodnim zahtevima. Za faktor grananja na jedinici smer poželjne promene otpornika obrnut je: veći $R_B$ smanjuje ulazno opterećenje, a manji $R_C$ povećava raspoloživu izlaznu struju.
+
+Beskonačan $N_L$ potiče od nulte ulazne struje nule u ovom idealizovanom statičkom modelu; ne znači neograničen broj fizičkih ulaza pri promeni stanja. Konačni faktor grananja određuje manji od faktora za dva logička nivoa.
+
+Pre zamene bazne struje važi $I_O<\beta_FI_{B\min}-(V_{CC}-V_{CES})/R_C$. Pri računanju grananja na jedinici odnos struja razvijamo kao
+\[N_H=\frac{\dfrac{V_{CC}-V_{OH\min}}{R_C}}{\dfrac{V_{CC}-V_{BES}}{R_B}}.\]

@@ -1,8 +1,12 @@
 \slajdid{09_3-s023}
-\begin{frame}[label=09_3-s023]
-Ono što sigurno treba da uočite jeste da će ovakav lanac kada nije opterećen parazitnom kapacitivnošću imati interno kašnjenje mnogo veće nego jedinični invertor. Ili ako mu se iz nekog razloga smanji parazitna kapacitivnost, neće imati optimalno kašnjenje.
-\par\bigskip
-Zbog toga su se u realizaciji CMOS logičkih kola koristila i \alert{\underline{nebaferisna CMOS logička kola}} (ako očekujemo da parazitne kapacitivnosti na izlazu nisu velike treba nam malo kašnjenje),
-\par\bigskip
-ali i \alert{\underline{duplo baferisana CMOS logička kola}} gde su na izlaz standardnog logičkog kola dodavana dva invertora čije su tranzistora povećane 4 odnosno 16 puta u odnosu na tranzistore u osnovnom logikom kolu, čime je predviđena neka standardna parazitna kapacitivnost na izlazu 64 puta veća od ulazne kapacitivnosti u logičko kolo.
+\begin{frame}[label=09_3-s023]{Nebaferisana i dvostruko baferisana kola}
+% element: 09_3-s023:e01
+% element: 09_3-s023:e02
+% element: 09_3-s023:e03
+\begin{itemize}
+\item Lanac bez velikog spoljnog opterećenja ima znatno veće interno kašnjenje od jediničnog invertora.
+\item Ako se opterećenje smanji, prvobitno dimenzionisanje više nije optimalno.
+\item \alert{Nebaferisana kola:} malo izlazno opterećenje i malo kašnjenje.
+\item \alert{Dvostruko baferisana kola:} dva izlazna invertora veličine $4\times$ i $16\times$, za opterećenje $64\times$.
+\end{itemize}
 \end{frame}

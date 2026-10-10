@@ -1,0 +1,10 @@
+\BeleskeID{04-s015}
+% element: 04-s015:e01 — Svih sedam redova deljenja u osnovi 7
+% element: 04-s015:e02 — Strelica čitanja ostataka i rezultat 236_7=1111101_2
+% element: 04-s015:e03 — Decimalna provera oba zapisa, sa svim težinama
+% element: 04-s015:e04 — Sedam cifara, maksimum 127 i nedostajući član težine 2^1
+% element: 04-s015:d01
+
+Ostaci pri deljenju imaju vrednosti $0$ ili $1$ zato što je delilac dva, iako su količnici zapisani u osnovi $7$. Svaki red zadovoljava jednakost „deljenik = dva puta količnik + ostatak“. Na primer, $116_7=62_{10}$ i $43_7=31_{10}$, pa drugi red ima ostatak nula.
+
+Prvi dobijeni ostatak određuje bit najmanje težine; poslednji nenulti količnik daje vodeći bit. Čitanjem unazad dobijamo sedam cifara. Za svih sedam jedinica zbir težina bio bi $2^7-1=127$. Jedina nula u kodu $1111101_2$ zauzima mesto težine $2^1=2$, pa je vrednost $127-2=125$. Nulti član ne doprinosi zbiru, a njegova pozicija objašnjava koja težina nedostaje.

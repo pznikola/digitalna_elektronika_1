@@ -1,17 +1,18 @@
 \slajdid{04-s039}
-\begin{frame}[label=04-s039]
-\gusttekst
-\begin{center}
-SVE OVO DO SADA JE PRIKAZ BROJEVA SA FIKSNOM TAČKOM\par
-POSTOJI PRIKAZ BROJEVA I SA POKRETNOM TAČKOM\par
-FLOATING POINT NUMBER
-\end{center}
-Broj prikazan u formatu sa pokretnom tačkom ima dva registra ili jedna registar u kojem su dva dela\\
-Mantisa i eksponent
-\[V=\mathit{mantisa}\times\mathit{osnova}^{\mathit{eksponent}}\]
-U binarnom brojnom sistemu\\
-Mantisa - označeni binarni broj znak i apsolutna vrednost sa fiksnom tačkom iza MSB\\
-Eksponent – označeni binarni broj, celobrojna vrednost, sa ofsetom koji je definisan standardom
-
-Dozvoljava veće opsege i tačnost prikazivanja.
+\begin{frame}[label=04-s039]{Prikaz sa pokretnom tačkom}
+% element: 04-s039:e01 — Prethodni prikaz sa fiksnom tačkom i floating point
+% element: 04-s039:e02 — Dva registra ili dva dela jednog registra: mantisa i eksponent
+% element: 04-s039:e03 — Formula V=mantisa×osnova^eksponent
+% element: 04-s039:e04 — Binarna mantisa kao znak/apsolutna vrednost i fiksna tačka iza MSB-a
+% element: 04-s039:e05 — Eksponent kao označeni ceo broj sa ofsetom; veći opsezi i tačnost
+Do sada: \alert{fiksna tačka}. Postoji i prikaz sa \alert{pokretnom tačkom} — \textit{floating point number}.\par
+Broj ima dva registra ili jedan registar sa dva dela: mantisa i eksponent.
+\[\alert{V=\mathit{mantisa}\times\mathit{osnova}^{\mathit{eksponent}}}\]
+\begin{columns}[T,onlytextwidth]
+\column{.475\textwidth}\NaslovBloka{Mantisa\\u binarnom sistemu}
+Označeni binarni broj: znak i apsolutna vrednost, sa fiksnom tačkom iza MSB-a.
+\column{.475\textwidth}\NaslovBloka{Eksponent\\u binarnom sistemu}
+Označeni celobrojni binarni broj, sa ofsetom definisanim standardom.
+\end{columns}
+\par\vspace{4mm}\Rezultat{Dozvoljava veće opsege i tačnost prikazivanja.}
 \end{frame}

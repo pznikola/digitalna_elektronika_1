@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-09",
+  "scope": "Privremene kopije; nastavni izvori nisu menjani.",
+  "cases": [
+    {
+      "slide_id": "02-s021",
+      "design_sha256": "50ad0b79d40522e42fe609fb83adbe6f5c5b112bca7f04a4d26ba0f6b290f58f",
+      "testbench_sha256": "35a5a7b5112676c3d9f650816ece346b65ba755205f0b55f00d52881dfc35942",
+      "mutation": {
+        "before": "P1 = C_n & B_p & A_p",
+        "after": "P1 = C_p & B_p & A_p"
+      },
+      "result": "rejected_by_testbench",
+      "message": "FATAL: /tmp/de1-rtl-negative-hxs3spp5/src/tb_mreza_zp.sv:21: Pogresno F za CBA=011\n       Time: 40000  Scope: tb_mreza_zp.$ivl_for_loop0"
+    },
+    {
+      "slide_id": "02-s022",
+      "design_sha256": "d6c674ef22d2cea84190d342a4a432355ce74128ce2861265c04d74951fdaefa",
+      "testbench_sha256": "6fe77a80a81ea50f7c39877ed728e0acc34a70b3cdf708f5e4c85fe6feb668d0",
+      "mutation": {
+        "before": "F = Z0 & Z1 & Z2 & Z4 & Z7",
+        "after": "F = Z0 | Z1 | Z2 | Z4 | Z7"
+      },
+      "result": "rejected_by_testbench",
+      "message": "FATAL: /tmp/de1-rtl-negative-i4z3fbfx/src/tb_mreza_pz.sv:21: Pogresno F za CBA=000\n       Time: 10000  Scope: tb_mreza_pz.$ivl_for_loop0"
+    },
+    {
+      "slide_id": "02-s051",
+      "design_sha256": "ce3f49a91143be6a190807ae316dadf17879b58ae3fae87a21ac1a3386a13e99",
+      "testbench_sha256": "49efc132f1b31605c1d4c21db98cc86cd11adf53c439f9bd5dc03f3e893aff83",
+      "mutation": {
+        "before": "assign #(T) B_n = ~B",
+        "after": "assign B_n = ~B"
+      },
+      "result": "rejected_by_testbench",
+      "message": "FATAL: /tmp/de1-rtl-negative-i75hllcn/src/tb_mreza_sa_hazardom.sv:30: Lazna nula nije uocena\n       Time: 182000  Scope: tb_mreza_sa_hazardom"
+    }
+  ]
+}

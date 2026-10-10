@@ -1,15 +1,14 @@
 \slajdid{04-s025}
-\begin{frame}[label=04-s025]
-\gusttekst
-Ako naš digitalni sistem treba da obrađuje i čuva vrednosti u obliku brojeva onda je logično da „radi“ u binarnom brojnom sistemu.
-
-Logična je veza\\\hspace*{1cm}logička nula = binarna nula\\\hspace*{1cm}logička jedinica = binarna jedinica
-
-Iz tog razloga više nećemo stavljati apostrofe
-\par\noindent\input{tabele/s025_registar.tex}\par
-Kao što smo rekli u fazi projektovanja smo dali značenje tim bitima – logička informacija ili cifra
-
-Pa ako je to broj onda je njegova vrednost
-\[01101000_2=68_{16}=0x68=x68=68h=104_{10}\]
-\begin{center}\alert{JESTE LI SIGURNI?}\end{center}
+\begin{frame}[label=04-s025]{Registar kao binarni broj}
+% element: 04-s025:e01 — Digitalni sistem za brojeve i veza logičkih/binarnih 0 i 1
+% element: 04-s025:e02 — Izostavljanje apostrofa; osam cifara registra
+% element: 04-s025:e03 — Projektant određuje da li je sadržaj logička informacija ili cifra
+% element: 04-s025:e04 — Lanac ekvivalentnih zapisa 01101000, 68, 0x68, x68, 68h, 104 i pitanje sigurnosti
+Za obradu i čuvanje brojnih vrednosti logično je da digitalni sistem „radi“ u binarnom sistemu.
+\begin{center}logička nula = binarna nula\\logička jedinica = binarna jedinica\end{center}
+Zato izostavljamo apostrofe.
+\par\vspace{1.5mm}{\fontsize{10}{12}\selectfont\renewcommand{\arraystretch}{.95}\input{tabele/s025_registar.tex}\par}\par\vspace{1.5mm}
+Projektant određuje značenje: ako su biti cifre, vrednost je
+\[01101000_2=68_{16}=0x68=x68=68h=104_{10}.\]
+\centering\alert{Jeste li sigurni?}
 \end{frame}

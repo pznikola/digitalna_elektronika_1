@@ -1,0 +1,9 @@
+% element: 10-s030:e05
+\BeleskeID{10-s030}
+Pri uključenju tranzistora struja zavisnog izvora prazni izlazni kondenzator. Kondenzator vidi samo otpornost $R_C$: idealne naponske izvore $V_H$, $V_{CC}$ i $V_{BE}$ kratko spajamo pri određivanju vremenske konstante. Tada je $I_B=0$ i zavisni izvor $\beta_FI_B=0$, pa njegova grana predstavlja otvorenu vezu.
+
+Za asimptotski nastavak aktivnog modela koristimo
+\[\begin{aligned}v_0(\infty)&=V_{CC}-R_Ci_{RC}(t)\\
+&=V_{CC}-R_C\beta_FI_B\\
+&=V_{CC}-\frac{R_C\beta_F}{R_B}(V_H-V_{BE}).\end{aligned}\]
+Pojačanje zadovoljava $R_C\beta_F/R_B\gg1$, a u razmatranom slučaju i $[R_C\beta_F/R_B](V_H-V_{BE})\gg V_{CC}$, pa modelna asimptota leži daleko ispod nule. To nije stvarni konačan izlazni napon. Eksponencijalni izraz važi samo do trenutka $t_3$, kada tranzistor ulazi u zasićenje i mora da se promeni model.

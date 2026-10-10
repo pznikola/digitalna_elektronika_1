@@ -1,0 +1,8 @@
+% element: 10-s056:e03
+% element: 10-s056:e04
+\BeleskeID{10-s056}
+\subsection*{Zaštita ulaza}
+D1 i D2 su obavezni delovi TTL ulaza. Štite ga od napona ispod mase, kakvi se mogu javiti zbog diferencijatorskog efekta u toku signala. Veliki negativan napon na bilo kom ulazu doveo bi do velike struje kroz $T_1$ u direktnom zasićenju. Ta struja je direktno povezana sa ulaznim naponom i izazvala bi preveliku disipaciju u ulaznom delu, pa i njegovo pregorevanje. Pri normalnim režimima zaštitne diode nemaju funkciju u logičkom radu i u toj analizi ih zanemarujemo.
+
+\subsection*{Aktivni visoki izlaz}
+Konfiguracija $T_4$, $R_{C4}$ i D4 naziva se totem pole. Kolektorski otpornik pasivnog izlaza trebalo bi da bude mali radi velikog strujnog kapaciteta jedinice, a veliki radi većeg pojačanja karakteristike. Aktivni stepen rešava taj kompromis: $T_4$ radi samo kada izlaz treba da bude jedinica i obezbeđuje veliki strujni kapacitet. Pri izlaznoj nuli isključen je i ne smeta strujnom kapacitetu nule. Tranzistor $T_2$ obezbeđuje ovo upravljanje, što predstavlja njegovu drugu ulogu.

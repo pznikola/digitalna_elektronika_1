@@ -1,7 +1,20 @@
 % Jedan izvorni slajd = jedan frame = jedna PDF strana.
 \documentclass[aspectratio=169,11pt]{beamer}
-\usepackage{../_zajednicko/stil}
-\usepackage{../_zajednicko/dijagrami}
+\newcommand{\ETFTemaPutanja}{../_zajednicko/etf-v1}
+\makeatletter
+\edef\input@path{{\ETFTemaPutanja/}}
+\makeatother
+\usepackage{stil,dijagrami}
+\definecolor{DEcrvena}{HTML}{A32638}
+\colorlet{DEplava}{DEcrvena}
+\setbeamercolor{alerted text}{fg=DEcrvena}
+\renewcommand{\gusttekst}{\fontsize{11}{13}\selectfont}
+\title[Digitalna elektronika 1 — 2021/22]{Logička kola sa bipolarnim tranzistorima}
+\author{prof. dr Lazar Saranovac}
+\date{2021/22}
+\AtBeginEnvironment{frame}{\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{3pt}\setlength{\belowdisplayshortskip}{3pt}}
+\let\IzvorniRezultat\Rezultat
+\renewcommand{\Rezultat}[1]{\par\IzvorniRezultat{#1}\par}
 \begin{document}
 \input{slajdovi/s001_logicka_kola_bipolarni_tranzistori.tex}
 \input{slajdovi/s002_model_diode.tex}

@@ -1,10 +1,10 @@
-\begin{tikzpicture}[x=.88cm,y=.65cm,font=\fontsize{8}{9}\selectfont]
+\begin{tikzpicture}[x=.88cm,y=.52cm,font=\fontsize{9}{11}\selectfont]
 \foreach \name/\xx/\i in {a/0/{n-1},b/1.8/{n-2},c/5/i,d/8.2/1,e/10/0}{
 \node[draw=DEplava,fill=DEplava!15,minimum width=8mm,minimum height=9mm] (\name) at (\xx,0) {};
 \node[xor gate US,draw,logic gate inputs=nn,rotate=-90,scale=.55] (x\name) at (\xx+.3,1.7) {};
 \draw[DEplava,->] (x\name.output)--(\xx+.3,.70);
 \draw (x\name.input 1)--++(0,.55)node[above]{$b_{\i}$};
-\draw[orange] (x\name.input 2)--(x\name.input 2 |- 0,2.4);
+\draw[orange] (x\name.input 2)--(x\name.input 2 |- 0,2.4);\fill[orange] (x\name.input 2 |- 0,2.4) circle (1pt);
 \draw[DEplava,->] (\xx-.3,1.15)node[above,xshift=-1mm]{$a_{\i}$}--(\xx-.3,.70);
 \draw[DEplava,->] (\name.south)--++(0,-.3)node[below]{$s_{\i}$};}
 \node at (c.center) {\Large$\Sigma$};
@@ -17,6 +17,7 @@
 \draw[DEplava,->] (3.05,0)--(b.east);\draw[DEplava,->] (d.west)--++(-.6,0);
 \node at (3.65,0) {$\ldots$};\node at (6.7,0) {$\ldots$};
 \node[xor gate US,draw,logic gate inputs=nn,rotate=-90,scale=.55] (ov) at (0,-2.35) {};
+\fill (-.8,0) circle (1pt);\fill (.9,0) circle (1pt);
 \draw (-.8,0)--(-.8,-1.7)-|(ov.input 2);
 \draw (.9,0)--(.9,-1.7)-|(ov.input 1);
 \draw (ov.output)--++(0,-.15)node[below]{OVF};

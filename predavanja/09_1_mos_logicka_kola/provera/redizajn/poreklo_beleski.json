@@ -1,0 +1,432 @@
+{
+  "date": "2026-10-03",
+  "principle": "Nastavni izvori su originalni PDF i njegove relacije. Dopune samo razjašnjavaju oznake, topologiju i proverenu algebru. Sporne izvorne relacije ostaju označene u otvorena_pitanja.md, bez uredničkog teksta u beleškama.",
+  "slides": {
+    "09_1-s002": {
+      "content": "Tumačenje svih konvencija i tipova kanala",
+      "source_detail": "PDF strana 1, donji slajd",
+      "origin": "dopuna",
+      "additional_explanation": "Tumačenje oznaka, fizičkog smisla, pravila diferenciranja ili ograničenja već prisutnih u modelu. Nema zasebne kopije nastavnog teksta.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika."
+    },
+    "09_1-s003": {
+      "content": "Potpuna značenja parametara, veze brzine i polja, jedinice",
+      "source_detail": "PDF strana 2, gornji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Potpuna značenja parametara, veze brzine i polja, jedinice"
+    },
+    "09_1-s004": {
+      "content": "Dve pune granične zamene, diskontinuitet i obrazloženje izbora modela",
+      "source_detail": "PDF strana 2, donji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Dve pune granične zamene, diskontinuitet i obrazloženje izbora modela"
+    },
+    "09_1-s005": {
+      "content": "Eksperimentalno opažanje, nazivi dužina kanala i razlog ranijeg zasićenja",
+      "source_detail": "PDF strana 3, gornji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Eksperimentalno opažanje, nazivi dužina kanala i razlog ranijeg zasićenja"
+    },
+    "09_1-s006": {
+      "content": "Tumačenje korekcija, graničnog uslova i modulacije",
+      "source_detail": "PDF strana 3, donji slajd",
+      "origin": "dopuna",
+      "additional_explanation": "Tumačenje oznaka, fizičkog smisla, pravila diferenciranja ili ograničenja već prisutnih u modelu. Nema zasebne kopije nastavnog teksta.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika."
+    },
+    "09_1-s007": {
+      "content": "Algebra preuređivanja struje preko parametara",
+      "source_detail": "PDF strana 4, gornji slajd",
+      "origin": "dopuna",
+      "additional_explanation": "Tumačenje oznaka, fizičkog smisla, pravila diferenciranja ili ograničenja već prisutnih u modelu. Nema zasebne kopije nastavnog teksta.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika."
+    },
+    "09_1-s008": {
+      "content": "Početni omski izraz, zamena graničnog napona i međukorak",
+      "source_detail": "PDF strana 4, donji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Početni omski izraz, zamena graničnog napona i međukorak"
+    },
+    "09_1-s009": {
+      "content": "Dodatno tumačenje PUN, PDN i visokoomskog stanja",
+      "source_detail": "PDF strana 5, gornji slajd",
+      "origin": "dopuna",
+      "additional_explanation": "Tumačenje oznaka, fizičkog smisla, pravila diferenciranja ili ograničenja već prisutnih u modelu. Nema zasebne kopije nastavnog teksta.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika."
+    },
+    "09_1-s010": {
+      "content": "Tumačenje tri realizacije, paralelne i redne putanje",
+      "source_detail": "PDF strana 5, donji slajd",
+      "origin": "dopuna",
+      "additional_explanation": "Tumačenje oznaka, fizičkog smisla, pravila diferenciranja ili ograničenja već prisutnih u modelu. Nema zasebne kopije nastavnog teksta.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika."
+    },
+    "09_1-s011": {
+      "content": "Tumačenje PMOS upravljanja i dualnih funkcija",
+      "source_detail": "PDF strana 6, gornji slajd",
+      "origin": "dopuna",
+      "additional_explanation": "Tumačenje oznaka, fizičkog smisla, pravila diferenciranja ili ograničenja već prisutnih u modelu. Nema zasebne kopije nastavnog teksta.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika."
+    },
+    "09_1-s012": {
+      "content": "Početak provođenja, puna zamena za VDSsat, mali pad RL i VO<VDD; drive i load",
+      "source_detail": "PDF strana 6, donji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Početak provođenja, puna zamena za VDSsat, mali pad RL i VO<VDD; drive i load"
+    },
+    "09_1-s013": {
+      "content": "Razlog implicitnog pristupa i neopterećenost",
+      "source_detail": "PDF strana 7, gornji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Razlog implicitnog pristupa i neopterećenost"
+    },
+    "09_1-s014": {
+      "content": "Polazna ravnoteža i opis promene radne oblasti",
+      "source_detail": "PDF strana 7, donji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Polazna ravnoteža i opis promene radne oblasti"
+    },
+    "09_1-s015": {
+      "content": "Razlika dve podele i moguća pojačanja; ponovljeni omski izraz",
+      "source_detail": "PDF strana 8, gornji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Razlika dve podele i moguća pojačanja; ponovljeni omski izraz"
+    },
+    "09_1-s016": {
+      "content": "Obrazloženje kvalitativnog i kvantitativnog približenja",
+      "source_detail": "PDF strana 8, donji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Obrazloženje kvalitativnog i kvantitativnog približenja"
+    },
+    "09_1-s017": {
+      "content": "Potpuna dva zanemarivanja i prenos člana VOL/RL",
+      "source_detail": "PDF strana 9, gornji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Potpuna dva zanemarivanja i prenos člana VOL/RL"
+    },
+    "09_1-s018": {
+      "content": "Obrazloženje određivanja pragova i malo prekoračenje praga",
+      "source_detail": "PDF strana 9, donji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Obrazloženje određivanja pragova i malo prekoračenje praga"
+    },
+    "09_1-s019": {
+      "content": "Međukorak implicitnog izvoda i zamena praga",
+      "source_detail": "PDF strana 10, gornji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Međukorak implicitnog izvoda i zamena praga"
+    },
+    "09_1-s020": {
+      "content": "Ponovljena relacija i pravilo izvoda proizvoda",
+      "source_detail": "PDF strana 10, donji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Ponovljena relacija i pravilo izvoda proizvoda"
+    },
+    "09_1-s021": {
+      "content": "Međukorak sređivanja izvoda i način rešavanja sistema",
+      "source_detail": "PDF strana 11, gornji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Međukorak sređivanja izvoda i način rešavanja sistema"
+    },
+    "09_1-s022": {
+      "content": "Razlikovanje ispitnih zahteva i izuzetka",
+      "source_detail": "PDF strana 11, donji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Razlikovanje ispitnih zahteva i izuzetka"
+    },
+    "09_1-s023": {
+      "content": "Potpuno obrazloženje održivosti i ponovljeni uslov VOL<VTn",
+      "source_detail": "PDF strana 12, gornji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Potpuno obrazloženje održivosti i ponovljeni uslov VOL<VTn"
+    },
+    "09_1-s024": {
+      "content": "Početna ravnoteža, zamena VS, puna nenormalizovana kvadratna jednačina",
+      "source_detail": "PDF strana 12, donji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Početna ravnoteža, zamena VS, puna nenormalizovana kvadratna jednačina"
+    },
+    "09_1-s025": {
+      "content": "Obrazloženje aproksimacije i puna preporuka za ispit",
+      "source_detail": "PDF strana 13, gornji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Obrazloženje aproksimacije i puna preporuka za ispit"
+    },
+    "09_1-s026": {
+      "content": "Statičko idealizovanje i tumačenje ulazne kapacitivnosti",
+      "source_detail": "PDF strana 13, donji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Statičko idealizovanje i tumačenje ulazne kapacitivnosti"
+    },
+    "09_1-s027": {
+      "content": "Potpuno obrazloženje strujnog opterećenja, margine i izbora najgoreg ulaza",
+      "source_detail": "PDF strana 14, gornji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Potpuno obrazloženje strujnog opterećenja, margine i izbora najgoreg ulaza"
+    },
+    "09_1-s028": {
+      "content": "Potpuno obrazloženje RC modela, početne struje i formalnog negativnog krajnjeg nivoa",
+      "source_detail": "PDF strana 14, donji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Potpuno obrazloženje RC modela, početne struje i formalnog negativnog krajnjeg nivoa"
+    },
+    "09_1-s029": {
+      "content": "Obrazloženje pomeranja granice i provere pri kašnjenju",
+      "source_detail": "PDF strana 15, gornji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Obrazloženje pomeranja granice i provere pri kašnjenju"
+    },
+    "09_1-s030": {
+      "content": "Cilj RC zamene i puna izvorna tvrdnja o trajanju pražnjenja; savremena kola",
+      "source_detail": "PDF strana 15, donji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Cilj RC zamene i puna izvorna tvrdnja o trajanju pražnjenja; savremena kola"
+    },
+    "09_1-s031": {
+      "content": "Pune zamene kratkokanalne struje u RON1 i RON2",
+      "source_detail": "PDF strana 16, gornji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Pune zamene kratkokanalne struje u RON1 i RON2"
+    },
+    "09_1-s032": {
+      "content": "Puna aritmetička sredina i linearni međukorak koji daje 5/6",
+      "source_detail": "PDF strana 16, donji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Puna aritmetička sredina i linearni međukorak koji daje 5/6"
+    },
+    "09_1-s033": {
+      "content": "Puni RON i IDnsat, izdvajanje faktora, ponovljeni integral i poređenje",
+      "source_detail": "PDF strana 17, gornji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Puni RON i IDnsat, izdvajanje faktora, ponovljeni integral i poređenje"
+    },
+    "09_1-s034": {
+      "content": "Obrazloženje orijentacije i dva načina usrednjavanja",
+      "source_detail": "PDF strana 17, donji slajd",
+      "origin": "dopuna",
+      "additional_explanation": "Tumačenje oznaka, fizičkog smisla, pravila diferenciranja ili ograničenja već prisutnih u modelu. Nema zasebne kopije nastavnog teksta.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika."
+    },
+    "09_1-s035": {
+      "content": "Puno obrazloženje kompromisa, tehnologije, Lmin i projektovanja širine",
+      "source_detail": "PDF strana 18, gornji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Puno obrazloženje kompromisa, tehnologije, Lmin i projektovanja širine"
+    },
+    "09_1-s036": {
+      "content": "Obrazloženje izbora dugog kanala i kontrolnog napona",
+      "source_detail": "PDF strana 18, donji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Obrazloženje izbora dugog kanala i kontrolnog napona"
+    },
+    "09_1-s037": {
+      "content": "Dve pune zamene napona i poništavanje izlaza u uslovu",
+      "source_detail": "PDF strana 19, gornji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Dve pune zamene napona i poništavanje izlaza u uslovu"
+    },
+    "09_1-s038": {
+      "content": "Puna interpretacija jedine radne tačke pri nultoj struji",
+      "source_detail": "PDF strana 19, donji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Puna interpretacija jedine radne tačke pri nultoj struji"
+    },
+    "09_1-s039": {
+      "content": "Tumačenje rada, zamena napona i faktorizacija",
+      "source_detail": "PDF strana 20, gornji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Tumačenje rada, zamena napona i faktorizacija"
+    },
+    "09_1-s040": {
+      "content": "Obe pune zamene i skraćivanje do jednačine po izlazu",
+      "source_detail": "PDF strana 20, donji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Obe pune zamene i skraćivanje do jednačine po izlazu"
+    },
+    "09_1-s041": {
+      "content": "Povezivanje Δ=0 sa granicom zasićenja i kvadratnom jednačinom",
+      "source_detail": "PDF strana 21, gornji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Povezivanje Δ=0 sa granicom zasićenja i kvadratnom jednačinom"
+    },
+    "09_1-s042": {
+      "content": "Način upotrebe dvaju ekvivalentnih zapisa",
+      "source_detail": "PDF strana 21, donji slajd",
+      "origin": "dopuna",
+      "additional_explanation": "Tumačenje oznaka, fizičkog smisla, pravila diferenciranja ili ograničenja već prisutnih u modelu. Nema zasebne kopije nastavnog teksta.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika."
+    },
+    "09_1-s043": {
+      "content": "Puna ravnoteža pomnožena sa dva i zamena napona",
+      "source_detail": "PDF strana 22, gornji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Puna ravnoteža pomnožena sa dva i zamena napona"
+    },
+    "09_1-s044": {
+      "content": "Pravilo izvoda proizvoda i postupak eliminacije ulaza",
+      "source_detail": "PDF strana 22, donji slajd",
+      "origin": "dopuna",
+      "additional_explanation": "Tumačenje oznaka, fizičkog smisla, pravila diferenciranja ili ograničenja već prisutnih u modelu. Nema zasebne kopije nastavnog teksta.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika."
+    },
+    "09_1-s045": {
+      "content": "Uslovi primene rezultata i provera oblasti",
+      "source_detail": "PDF strana 23, gornji slajd",
+      "origin": "dopuna",
+      "additional_explanation": "Tumačenje oznaka, fizičkog smisla, pravila diferenciranja ili ograničenja već prisutnih u modelu. Nema zasebne kopije nastavnog teksta.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika."
+    },
+    "09_1-s046": {
+      "content": "Obrazloženje zanemarivanja i visokog ulaza",
+      "source_detail": "PDF strana 23, donji slajd",
+      "origin": "dopuna",
+      "additional_explanation": "Tumačenje oznaka, fizičkog smisla, pravila diferenciranja ili ograničenja već prisutnih u modelu. Nema zasebne kopije nastavnog teksta.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika."
+    },
+    "09_1-s047": {
+      "content": "Tumačenje poništavanja F i ograničenje statičkog zaključka",
+      "source_detail": "PDF strana 24, gornji slajd",
+      "origin": "dopuna",
+      "additional_explanation": "Tumačenje oznaka, fizičkog smisla, pravila diferenciranja ili ograničenja već prisutnih u modelu. Nema zasebne kopije nastavnog teksta.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika."
+    },
+    "09_1-s048": {
+      "content": "Puna objašnjenja dinamičke otpornosti u oba režima i kompromisa",
+      "source_detail": "PDF strana 24, donji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Puna objašnjenja dinamičke otpornosti u oba režima i kompromisa"
+    },
+    "09_1-s049": {
+      "content": "Razlog izostavljanja dodatnog napajanja i tumačenje stvarnog provođenja",
+      "source_detail": "PDF strana 25, gornji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Razlog izostavljanja dodatnog napajanja i tumačenje stvarnog provođenja"
+    },
+    "09_1-s050": {
+      "content": "Punjenje izlaza do praga opterećenja",
+      "source_detail": "PDF strana 25, donji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Punjenje izlaza do praga opterećenja"
+    },
+    "09_1-s051": {
+      "content": "Puna ravnoteža zasićenih modela i međukorak diferenciranja",
+      "source_detail": "PDF strana 26, gornji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Puna ravnoteža zasićenih modela i međukorak diferenciranja"
+    },
+    "09_1-s052": {
+      "content": "Ponovljena ravnoteža i izbor fizičke grane pri korenovanju",
+      "source_detail": "PDF strana 26, donji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Ponovljena ravnoteža i izbor fizičke grane pri korenovanju"
+    },
+    "09_1-s053": {
+      "content": "Puna ravnoteža modela i izvorni prvi red diferenciranja",
+      "source_detail": "PDF strana 27, gornji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Puna ravnoteža modela i izvorni prvi red diferenciranja"
+    },
+    "09_1-s054": {
+      "content": "Provera pretpostavljenog režima pri primeni rezultata",
+      "source_detail": "PDF strana 27, donji slajd",
+      "origin": "dopuna",
+      "additional_explanation": "Tumačenje oznaka, fizičkog smisla, pravila diferenciranja ili ograničenja već prisutnih u modelu. Nema zasebne kopije nastavnog teksta.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika."
+    },
+    "09_1-s055": {
+      "content": "Obrazloženje aproksimacije i smanjenog visokog nivoa",
+      "source_detail": "PDF strana 28, gornji slajd",
+      "origin": "dopuna",
+      "additional_explanation": "Tumačenje oznaka, fizičkog smisla, pravila diferenciranja ili ograničenja već prisutnih u modelu. Nema zasebne kopije nastavnog teksta.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika."
+    },
+    "09_1-s056": {
+      "content": "Opšta jednačina efekta osnove, VSB,L=VOH, postupci rešavanja i puna objašnjenja pragova",
+      "source_detail": "PDF strana 28, donji slajd",
+      "origin": "original",
+      "additional_explanation": "Povezivanje navedenih koraka, tumačenje oznaka i ograničenja istog modela; sadržajna grupa uključuje izvorno objašnjenje i ovakva razjašnjenja. Nastavni tekst nije dupliran u evidenciji.",
+      "verification": "Pojedinačno poređenje sa originalnim isečkom, slajdom i nastavnim prikazom beležaka; algebra proverena iz istih modela. Postojeća skripta proverava 231 računski slučaj i protivprimere u svom dokumentovanom obuhvatu; ne potvrđuje sve tvrdnje izvornika.",
+      "source_content": "Opšta jednačina efekta osnove, VSB,L=VOH, postupci rešavanja i puna objašnjenja pragova"
+    }
+  }
+}

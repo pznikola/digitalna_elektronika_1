@@ -1057,6 +1057,38 @@
         "status": "provereno"
       }
     ],
+    "02-s021-rtl01": [
+      {
+        "element": "02-s021-rtl01:d01",
+        "slide": {
+          "path": "slajdovi/s021_rtl01.tex",
+          "anchor": "% element: 02-s021-rtl01:d01"
+        },
+        "notes": null,
+        "change": "Nova odobrena nastavna dopuna; izvorni slajd i originalna mapa ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s021-rtl01:d02",
+        "slide": {
+          "path": "slajdovi/s021_rtl01.tex",
+          "anchor": "% element: 02-s021-rtl01:d02"
+        },
+        "notes": null,
+        "change": "Nova odobrena nastavna dopuna; izvorni slajd i originalna mapa ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s021-rtl01:d04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s021-rtl01.tex",
+          "anchor": "% element: 02-s021-rtl01:d04"
+        },
+        "change": "Nova odobrena nastavna dopuna; izvorni slajd i originalna mapa ostaju očuvani.",
+        "status": "provereno"
+      }
+    ],
     "02-s022": [
       {
         "element": "02-s022:e01",
@@ -1086,6 +1118,38 @@
           "anchor": "% element: 02-s022:d01"
         },
         "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      }
+    ],
+    "02-s022-rtl01": [
+      {
+        "element": "02-s022-rtl01:d01",
+        "slide": {
+          "path": "slajdovi/s022_rtl01.tex",
+          "anchor": "% element: 02-s022-rtl01:d01"
+        },
+        "notes": null,
+        "change": "Nova odobrena nastavna dopuna; izvorni slajd i originalna mapa ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s022-rtl01:d02",
+        "slide": {
+          "path": "slajdovi/s022_rtl01.tex",
+          "anchor": "% element: 02-s022-rtl01:d02"
+        },
+        "notes": null,
+        "change": "Nova odobrena nastavna dopuna; izvorni slajd i originalna mapa ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s022-rtl01:d04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s022-rtl01.tex",
+          "anchor": "% element: 02-s022-rtl01:d04"
+        },
+        "change": "Nova odobrena nastavna dopuna; izvorni slajd i originalna mapa ostaju očuvani.",
         "status": "provereno"
       }
     ],
@@ -2448,6 +2512,48 @@
           "anchor": "% element: 02-s051:d01"
         },
         "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s051-rtl01": [
+      {
+        "element": "02-s051-rtl01:d01",
+        "slide": {
+          "path": "slajdovi/s051_rtl01.tex",
+          "anchor": "% element: 02-s051-rtl01:d01"
+        },
+        "notes": null,
+        "change": "Nova odobrena nastavna dopuna; izvorni slajd i originalna mapa ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s051-rtl01:d02",
+        "slide": {
+          "path": "slajdovi/s051_rtl01.tex",
+          "anchor": "% element: 02-s051-rtl01:d02"
+        },
+        "notes": null,
+        "change": "Nova odobrena nastavna dopuna; izvorni slajd i originalna mapa ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s051-rtl01:d04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s051-rtl01.tex",
+          "anchor": "% element: 02-s051-rtl01:d04"
+        },
+        "change": "Nova odobrena nastavna dopuna; izvorni slajd i originalna mapa ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s051-rtl01:d03",
+        "slide": {
+          "path": "slajdovi/s051_rtl01.tex",
+          "anchor": "% element: 02-s051-rtl01:d03"
+        },
+        "notes": null,
+        "change": "Nova odobrena nastavna dopuna; izvorni slajd i originalna mapa ostaju očuvani.",
         "status": "provereno"
       }
     ],

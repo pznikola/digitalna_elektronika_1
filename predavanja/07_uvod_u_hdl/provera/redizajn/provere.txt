@@ -1,0 +1,49 @@
+Kontrolna tačka 2026-10-03 — 07 Uvod u HDL
+
+$ make -C predavanja all LECTURE=07_uvod_u_hdl
+make: Entering directory '/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja'
+python3 _alati/izgradnja.py --lecture "07_uvod_u_hdl"
+PDF redizajna: /home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/build/07_uvod_u_hdl.pdf
+make: Leaving directory '/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja'
+Izlazni kod: 0
+
+$ make -C predavanja notes LECTURE=07_uvod_u_hdl
+make: Entering directory '/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja'
+python3 _alati/redizajn.py notes --lecture "07_uvod_u_hdl"
+PDF redizajna: /home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/build/07_uvod_u_hdl.pdf
+PDF beležaka: /home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/build/07_uvod_u_hdl_beleske.pdf
+make: Leaving directory '/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja'
+Izlazni kod: 0
+
+$ make -C predavanja review LECTURE=07_uvod_u_hdl
+make: Entering directory '/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja'
+python3 _alati/uporedni_pregled.py --lecture "07_uvod_u_hdl"
+PDF redizajna: /home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/build/07_uvod_u_hdl.pdf
+PDF beležaka: /home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/build/07_uvod_u_hdl_beleske.pdf
+Pregled redizajna: /home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/build/redizajn/pregled/index.html
+make: Leaving directory '/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja'
+Izlazni kod: 0
+
+$ make -C predavanja check LECTURE=07_uvod_u_hdl
+make: Entering directory '/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja'
+python3 _alati/provera.py --lecture "07_uvod_u_hdl"
+PDF redizajna: /home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/build/07_uvod_u_hdl.pdf
+PDF beležaka: /home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/build/07_uvod_u_hdl_beleske.pdf
+Pregled redizajna: /home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/07_uvod_u_hdl/build/redizajn/pregled/index.html
+07_uvod_u_hdl: NEZAVRŠENO
+  - 07-s006/tekst: pregled nije potvrđen.
+  - 07-s006/crtezi: pregled nije potvrđen.
+  - 07-s023/kod: pregled nije potvrđen.
+  - 07-s027/kod: pregled nije potvrđen.
+  - 07-s028/kod: pregled nije potvrđen.
+  - 07-s030/tekst: pregled nije potvrđen.
+  - 07-s031/kod: pregled nije potvrđen.
+make: *** [Makefile:11: check] Error 1
+make: Leaving directory '/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja'
+Izlazni kod make: 2
+
+$ python3 predavanja/07_uvod_u_hdl/kodovi/provera_logike.py
+Provereno: 352 JEDEC bita prema ručnom inventaru, 4 AND vektora, 256 ABEL prioriteta, 12 MUX vektora, 8 punih sabiranja, 8 kombinacija logičke šeme, isti dataflow izrazi i 4 SR koraka. Izvorne HDL greške nisu ispravljene.
+Izlazni kod: 0
+
+Arhiva početnog prikaza bajtno proverena: 105 fajlova. Stabilni ID-jevi i broj strana potvrđeni: 31 slajd, 31 A4 strana. Bez Overfull/Underfull, Warning i Missing character u oba LaTeX loga.

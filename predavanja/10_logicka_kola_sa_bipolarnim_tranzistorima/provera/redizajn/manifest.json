@@ -1,0 +1,496 @@
+{
+  "schema_version": 1,
+  "phase": "redizajn",
+  "lecture": "10",
+  "selected_style": "B",
+  "theme": "etf-v1",
+  "theme_manifest_sha256": "87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41",
+  "source_sha256": "7740f5a6f67475059f7512c14d35e31ee4733bfa3bab3f74a7241cea832e14d7",
+  "slide_ids": [
+    "10-s001",
+    "10-s002",
+    "10-s003",
+    "10-s004",
+    "10-s005",
+    "10-s006",
+    "10-s007",
+    "10-s008",
+    "10-s009",
+    "10-s010",
+    "10-s011",
+    "10-s012",
+    "10-s013",
+    "10-s014",
+    "10-s015",
+    "10-s016",
+    "10-s017",
+    "10-s018",
+    "10-s019",
+    "10-s020",
+    "10-s021",
+    "10-s022",
+    "10-s023",
+    "10-s024",
+    "10-s025",
+    "10-s026",
+    "10-s027",
+    "10-s028",
+    "10-s029",
+    "10-s030",
+    "10-s031",
+    "10-s032",
+    "10-s033",
+    "10-s034",
+    "10-s035",
+    "10-s036",
+    "10-s037",
+    "10-s038",
+    "10-s039",
+    "10-s040",
+    "10-s041",
+    "10-s042",
+    "10-s043",
+    "10-s044",
+    "10-s045",
+    "10-s046",
+    "10-s047",
+    "10-s048",
+    "10-s049",
+    "10-s050",
+    "10-s051",
+    "10-s052",
+    "10-s053",
+    "10-s054",
+    "10-s055",
+    "10-s056",
+    "10-s057",
+    "10-s058",
+    "10-s059",
+    "10-s060",
+    "10-s061",
+    "10-s062",
+    "10-s063",
+    "10-s064",
+    "10-s065",
+    "10-s066",
+    "10-s067",
+    "10-s068",
+    "10-s069",
+    "10-s070",
+    "10-s071",
+    "10-s072",
+    "10-s073",
+    "10-s074",
+    "10-s075",
+    "10-s076",
+    "10-s077",
+    "10-s078",
+    "10-s079",
+    "10-s080",
+    "10-s081",
+    "10-s082",
+    "10-s083",
+    "10-s084",
+    "10-s085",
+    "10-s086",
+    "10-s087",
+    "10-s088",
+    "10-s089",
+    "10-s090",
+    "10-s091",
+    "10-s092",
+    "10-s093",
+    "10-s094",
+    "10-s095",
+    "10-s096"
+  ],
+  "baseline_sha256": "c16443969b649877cdcc247b94bbd7c8a456710c5cc8c0d0d250b2d41457271a",
+  "created": "2026-10-03T12:15:20.194708+00:00",
+  "build_record": "provera/redizajn/izgradnja.json",
+  "notes": {
+    "10-s001": {
+      "path": "beleske/s001.tex",
+      "title": "Logička kola sa bipolarnim tranzistorima"
+    },
+    "10-s002": {
+      "path": "beleske/s002.tex",
+      "title": "Model diode u logičkim kolima"
+    },
+    "10-s003": {
+      "path": "beleske/s003.tex",
+      "title": "Zener i Šotki dioda"
+    },
+    "10-s004": {
+      "path": "beleske/s004.tex",
+      "title": "Impulsni režim rada diode"
+    },
+    "10-s005": {
+      "path": "beleske/s005.tex",
+      "title": "Model bipolarnog tranzistora"
+    },
+    "10-s006": {
+      "path": "beleske/s006.tex",
+      "title": "Režimi bipolarnog tranzistora"
+    },
+    "10-s007": {
+      "path": "beleske/s007.tex",
+      "title": "Određivanje režima rada"
+    },
+    "10-s008": {
+      "path": "beleske/s008.tex",
+      "title": "Impulsni režim bipolarnog tranzistora"
+    },
+    "10-s009": {
+      "path": "beleske/s009.tex",
+      "title": "Kako ubrzati rad"
+    },
+    "10-s010": {
+      "path": "beleske/s010.tex",
+      "title": "RTL logička kola"
+    },
+    "10-s011": {
+      "path": "beleske/s011.tex",
+      "title": "Karakteristika prenosa: početak"
+    },
+    "10-s012": {
+      "path": "beleske/s012.tex",
+      "title": "Ivica provođenja"
+    },
+    "10-s013": {
+      "path": "beleske/s013.tex",
+      "title": "Ulazak u aktivni režim"
+    },
+    "10-s014": {
+      "path": "beleske/s014.tex",
+      "title": "Aktivna karakteristika RTL kola"
+    },
+    "10-s015": {
+      "path": "beleske/s015.tex",
+      "title": "Diskretni model i prekid karakteristike"
+    },
+    "10-s016": {
+      "path": "beleske/s016.tex",
+      "title": "Nagib aktivne oblasti"
+    },
+    "10-s017": {
+      "path": "beleske/s017.tex",
+      "title": "Zasićenje i margine šuma"
+    },
+    "10-s018": {
+      "path": "beleske/s018.tex",
+      "title": "Prag prebacivanja i margine"
+    },
+    "10-s019": {
+      "path": "beleske/s019.tex",
+      "title": "Drugi način određivanja visokog praga"
+    },
+    "10-s020": {
+      "path": "beleske/s020.tex",
+      "title": "Razlika diskretnih pragova"
+    },
+    "10-s021": {
+      "path": "beleske/s021.tex",
+      "title": "Ulazni strujni kapacitet RTL kola"
+    },
+    "10-s022": {
+      "path": "beleske/s022.tex",
+      "title": "Kompromis pri izboru baznog otpornika"
+    },
+    "10-s023": {
+      "path": "beleske/s023.tex",
+      "title": "Izlazni strujni kapacitet jedinice"
+    },
+    "10-s024": {
+      "path": "beleske/s024.tex",
+      "title": "Maksimalna struja i izbor kolektorskog otpornika"
+    },
+    "10-s025": {
+      "path": "beleske/s025.tex",
+      "title": "Izlazni strujni kapacitet nule"
+    },
+    "10-s026": {
+      "path": "beleske/s026.tex",
+      "title": "Nulti strujni kapacitet na granici"
+    },
+    "10-s027": {
+      "path": "beleske/s027.tex",
+      "title": "Faktor grananja RTL kola"
+    },
+    "10-s028": {
+      "path": "beleske/s028.tex",
+      "title": "Povećanje strujnog kapaciteta"
+    },
+    "10-s029": {
+      "path": "beleske/s029.tex",
+      "title": "Dinamičke karakteristike: punjenje"
+    },
+    "10-s030": {
+      "path": "beleske/s030.tex",
+      "title": "Dinamičke karakteristike: pražnjenje"
+    },
+    "10-s031": {
+      "path": "beleske/s031.tex",
+      "title": "Trenutak ulaska u zasićenje"
+    },
+    "10-s032": {
+      "path": "beleske/s032.tex",
+      "title": "Kašnjenje i vreme opadanja RTL izlaza"
+    },
+    "10-s033": {
+      "path": "beleske/s033.tex",
+      "title": "Integrisano RTL kolo"
+    },
+    "10-s034": {
+      "path": "beleske/s034.tex",
+      "title": "Višeulazna RTL kola"
+    },
+    "10-s035": {
+      "path": "beleske/s035.tex",
+      "title": "Logička kola sa otvorenim kolektorom"
+    },
+    "10-s036": {
+      "path": "beleske/s036.tex",
+      "title": "Otvoreni kolektor bez podiznog otpornika"
+    },
+    "10-s037": {
+      "path": "beleske/s037.tex",
+      "title": "Prikaz signala i visoke impedanse"
+    },
+    "10-s038": {
+      "path": "beleske/s038.tex",
+      "title": "Neiskorišćeni ulazi i terminacija"
+    },
+    "10-s039": {
+      "path": "beleske/s039.tex",
+      "title": "Diodna ILI funkcija: oba ulaza niska"
+    },
+    "10-s040": {
+      "path": "beleske/s040.tex",
+      "title": "Diodna ILI funkcija: jedan visok ulaz"
+    },
+    "10-s041": {
+      "path": "beleske/s041.tex",
+      "title": "Diodna ILI funkcija: zaključak"
+    },
+    "10-s042": {
+      "path": "beleske/s042.tex",
+      "title": "Diodna I funkcija"
+    },
+    "10-s043": {
+      "path": "beleske/s043.tex",
+      "title": "DTL logička kola"
+    },
+    "10-s044": {
+      "path": "beleske/s044.tex",
+      "title": "Uklanjanje negativnog napajanja"
+    },
+    "10-s045": {
+      "path": "beleske/s045.tex",
+      "title": "DTL: analiza na invertoru"
+    },
+    "10-s046": {
+      "path": "beleske/s046.tex",
+      "title": "Karakteristika prenosa DTL kola"
+    },
+    "10-s047": {
+      "path": "beleske/s047.tex",
+      "title": "DTL: pojačanje i margine šuma"
+    },
+    "10-s048": {
+      "path": "beleske/s048.tex",
+      "title": "Strujni kapacitet DTL kola"
+    },
+    "10-s049": {
+      "path": "beleske/s049.tex",
+      "title": "Dinamičke karakteristike DTL kola"
+    },
+    "10-s050": {
+      "path": "beleske/s050.tex",
+      "title": "TTL logička kola"
+    },
+    "10-s051": {
+      "path": "beleske/s051.tex",
+      "title": "Pomoćni prikaz TTL ulaznog tranzistora"
+    },
+    "10-s052": {
+      "path": "beleske/s052.tex",
+      "title": "Inverzni režim rada tranzistora"
+    },
+    "10-s053": {
+      "path": "beleske/s053.tex",
+      "title": "Višeulazna TTL kola"
+    },
+    "10-s054": {
+      "path": "beleske/s054.tex",
+      "title": "Prelaz na standardno TTL kolo"
+    },
+    "10-s055": {
+      "path": "beleske/s055.tex",
+      "title": "Standardno TTL logičko kolo"
+    },
+    "10-s056": {
+      "path": "beleske/s056.tex",
+      "title": "Zaštita ulaza i totem-pole izlaz"
+    },
+    "10-s057": {
+      "path": "beleske/s057.tex",
+      "title": "Karakteristika prenosa TTL kola"
+    },
+    "10-s058": {
+      "path": "beleske/s058.tex",
+      "title": "Neopterećeni totem-pole izlaz"
+    },
+    "10-s059": {
+      "path": "beleske/s059.tex",
+      "title": "TTL: naponski nivoi i margine"
+    },
+    "10-s060": {
+      "path": "beleske/s060.tex",
+      "title": "Strujni kapacitet TTL ulaza"
+    },
+    "10-s061": {
+      "path": "beleske/s061.tex",
+      "title": "Strujni kapacitet TTL izlaza"
+    },
+    "10-s062": {
+      "path": "beleske/s062.tex",
+      "title": "Totem pole: granica aktivnog režima"
+    },
+    "10-s063": {
+      "path": "beleske/s063.tex",
+      "title": "Punjenje izlaza: aktivni režim"
+    },
+    "10-s064": {
+      "path": "beleske/s064.tex",
+      "title": "Punjenje izlaza: zasićeni režim"
+    },
+    "10-s065": {
+      "path": "beleske/s065.tex",
+      "title": "Trenutak izlaska iz zasićenja"
+    },
+    "10-s066": {
+      "path": "beleske/s066.tex",
+      "title": "Dinamički režim TTL kola"
+    },
+    "10-s067": {
+      "path": "beleske/s067.tex",
+      "title": "Low power TTL"
+    },
+    "10-s068": {
+      "path": "beleske/s068.tex",
+      "title": "High power TTL"
+    },
+    "10-s069": {
+      "path": "beleske/s069.tex",
+      "title": "Schottky TTL"
+    },
+    "10-s070": {
+      "path": "beleske/s070.tex",
+      "title": "Schottky tranzistor"
+    },
+    "10-s071": {
+      "path": "beleske/s071.tex",
+      "title": "Schottky TTL sa aktivnim pražnjenjem"
+    },
+    "10-s072": {
+      "path": "beleske/s072.tex",
+      "title": "Low power Schottky TTL"
+    },
+    "10-s073": {
+      "path": "beleske/s073.tex",
+      "title": "Kataloški dozvoljeni opsezi"
+    },
+    "10-s074": {
+      "path": "beleske/s074.tex",
+      "title": "Kataloške DC i AC karakteristike"
+    },
+    "10-s075": {
+      "path": "beleske/s075.tex",
+      "title": "Pakovanje i oznake: 74LS00"
+    },
+    "10-s076": {
+      "path": "beleske/s076.tex",
+      "title": "Spajanje totem-pole izlaza"
+    },
+    "10-s077": {
+      "path": "beleske/s077.tex",
+      "title": "Zajednička magistrala i dozvola rada"
+    },
+    "10-s078": {
+      "path": "beleske/s078.tex",
+      "title": "Trostatički TTL izlaz"
+    },
+    "10-s079": {
+      "path": "beleske/s079.tex",
+      "title": "Kašnjenja prelaza u visoku impedansu"
+    },
+    "10-s080": {
+      "path": "beleske/s080.tex",
+      "title": "LS125A i LS126A: šema i kašnjenja"
+    },
+    "10-s081": {
+      "path": "beleske/s081.tex",
+      "title": "ECL — Emitter Coupled Logic"
+    },
+    "10-s082": {
+      "path": "beleske/s082.tex",
+      "title": "ECL: diferencijalni par"
+    },
+    "10-s083": {
+      "path": "beleske/s083.tex",
+      "title": "ECL: mali ulazni napon"
+    },
+    "10-s084": {
+      "path": "beleske/s084.tex",
+      "title": "ECL: preusmeravanje struje"
+    },
+    "10-s085": {
+      "path": "beleske/s085.tex",
+      "title": "ECL: granica zasićenja"
+    },
+    "10-s086": {
+      "path": "beleske/s086.tex",
+      "title": "ECL: prenosna karakteristika"
+    },
+    "10-s087": {
+      "path": "beleske/s087.tex",
+      "title": "ECL: izbor referentnog napona"
+    },
+    "10-s088": {
+      "path": "beleske/s088.tex",
+      "title": "ECL: precizan izbor elemenata"
+    },
+    "10-s089": {
+      "path": "beleske/s089.tex",
+      "title": "ECL: izlazni baferi"
+    },
+    "10-s090": {
+      "path": "beleske/s090.tex",
+      "title": "ECL: napajanje i smetnje"
+    },
+    "10-s091": {
+      "path": "beleske/s091.tex",
+      "title": "ECL: strujni kapaciteti"
+    },
+    "10-s092": {
+      "path": "beleske/s092.tex",
+      "title": "ECL: dinamički režim"
+    },
+    "10-s093": {
+      "path": "beleske/s093.tex",
+      "title": "Standardno dvoulazno ECL kolo"
+    },
+    "10-s094": {
+      "path": "beleske/s094.tex",
+      "title": "ECL: PECL DC karakteristike"
+    },
+    "10-s095": {
+      "path": "beleske/s095.tex",
+      "title": "ECL: NECL DC karakteristike"
+    },
+    "10-s096": {
+      "path": "beleske/s096.tex",
+      "title": "ECL: AC karakteristike"
+    }
+  }
+}

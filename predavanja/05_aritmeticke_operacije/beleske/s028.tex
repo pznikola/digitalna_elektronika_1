@@ -1,0 +1,5 @@
+\BeleskeID{05-s028}
+% element: 05-s028:d01
+Upravljački signal je nula za ADD i jedan za SUB. EKSILI sa nulom propušta $b_i$, a sa jedinicom daje $\overline{b_i}$. Isti signal dovodi se na početni prenos: za oduzimanje se zato sabira $a+\overline b+1$.
+
+Svaki blok je potpuni sabirač. Prenos se kreće od najmanje prema najvećoj težini, dok označeni zbir uzima samo $n$ izlaznih bitova. EKSILI nad prenosom u poziciju znaka i prenosom iz te pozicije daje OVF: prekoračenje nastaje kada se ti prenosi razlikuju. Tabela prikazuje oba slučaja prekoračenja: zbir pozitivnih operanada sa negativnim rezultatom i zbir negativnih operanada sa pozitivnim rezultatom. Takva detekcija odnosi se na drugi komplement; za prvi komplement prikazana veza ne važi bez drugačije obrade prenosa.

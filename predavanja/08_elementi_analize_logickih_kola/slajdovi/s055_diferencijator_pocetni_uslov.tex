@@ -1,19 +1,20 @@
 \slajdid{08-s055}
+% element: 08-s055:e01
+% element: 08-s055:e02
 \begin{frame}[label=08-s055]{Diferencijator}
-\gusttekst\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}
-\begin{columns}[c,onlytextwidth]\column{.32\textwidth}\centering\input{slike/tikz/s055_diferencijator.tex}
-\column{.66\textwidth}
-$\displaystyle u_o(t)=u_o(\infty)+\bigl(u_o(t_0^+)-u_o(\infty)\bigr)e^{-\frac{t-t_0}{\tau}}$\par
-\hfill $za\ t\geq t_0$\par
-1. $\tau$\qquad $\tau=C*R$\par
-2. $u_o(t_0^+)$
-\end{columns}
-Kako je izlazni napon istovremeno i napon na otporniku za koji važi
-\[u_0(t_0^+)=u_R(t_0^+)=u_i(t_0^+)-u_c(t_0^+)\]
-to je\qquad $u_0(t_0^+)=U-u_c(t_0^+)$\par
-Napon na kondenzatoru ne može trenutno da se promeni\quad $u_C(t_0^+)=u_c(t_0^-)$\par
-Kako smatramo da su pre trenutka $t_0$ završeni svi prethodni prelazni procesi
-\[i_C(t_0^-)=0=i_R(t_0^-)\]
-\[u_C(t_0^-)=u_i(t_0^-)-u_R(t_0^-)=u_i(t_0^-)-Ri_R(t_0^-)=U_0-0=U_0\]
-pa je\qquad $u_0(t_0^+)=U-U_0$
+\setlength{\parskip}{2pt}
+\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}
+\begin{columns}[c,onlytextwidth]
+\column{.35\textwidth}\centering\input{slike/tikz/s055_diferencijator.tex}
+\column{.61\textwidth}
+\[u_o(t)=u_o(\infty)+\bigl(u_o(t_0^+)-u_o(\infty)\bigr)e^{-\frac{t-t_0}{\tau}}\]
+\centering $t\geq t_0$,\qquad $\tau=CR$
+\end{columns}\smallskip
+\begin{align*}
+u_0(t_0^+)&=u_R(t_0^+)=u_i(t_0^+)-u_c(t_0^+)=U-u_c(t_0^+)\\
+u_C(t_0^+)&=u_c(t_0^-)\\
+i_C(t_0^-)&=0=i_R(t_0^-)\\
+u_C(t_0^-)&=u_i(t_0^-)-u_R(t_0^-)=u_i(t_0^-)-Ri_R(t_0^-)=U_0-0=U_0
+\end{align*}
+\[\alert{u_0(t_0^+)=U-U_0}\]
 \end{frame}

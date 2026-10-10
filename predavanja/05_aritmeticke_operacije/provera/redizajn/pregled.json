@@ -1,0 +1,1434 @@
+{
+  "slides": {
+    "05-s001": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Naslov, autorstvo, predmet i izvorna školska godina. Naslovna beleška zadržava samo ID; bez veštačkog teksta. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "a49910e4b264058e3e842042f2816dcf41d867d31a133de530c9a3650f5fa41d",
+        "baseline_render_sha256": "ba91c222c1050b440d87a740c3f75f4364bd26a32d848503112c1a5a2fe175bc",
+        "new_render_sha256": "9bca8fc2201c1e1aaff6a3e8f2a4bb8641115f4c7e78daddb31a6dfa2f3e9209",
+        "notes_render_sha256": "39507252bd9fcb92655220737a98a0c472ab18cd910a64eaf8f041c8392c096d",
+        "slide_sources_sha256": "5cfa29d3bfad5782cf09968204698b832af8a7bcc8dc6dbbfcbaba1031073a04",
+        "notes_sources_sha256": "42016fb1b82d1875f36749399973757b65698d7bfcd2ba3db470da0125944873",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "36073fe411a52e12328bd389c3215ca09e284ebf8886e3b952b7bd3116d661cd",
+        "coverage_sha256": "ba8946343f48935a0b9ed94e16b54b672f8bd9a92efc8a0abcc9ba10cb383e35"
+      }
+    },
+    "05-s002": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Definicija dvobitnog neoznačenog komparatora i tri izlazne relacije; Šema: osam invertora, četiri I za stroge relacije, dva NILI za jednakosti, dva uslovna I i završna ILI/ILI/I; Simbol komparatora: A1,A0,B1,B0 i tri izlaza; Minimizacija pojedinačnih izlaza, komercijalne komponente i lakše praćenje/nadogradnja; šest oznaka lokalnih relacija uz kola. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "aab01c22f3842e8990dc5ee2ef2e5601c698c4c84047e1c45ba8339cae6522b3",
+        "baseline_render_sha256": "3aaf8c939de6b718758654b981cb1e77ef5100a1bd846fb289982d51b3d9e7aa",
+        "new_render_sha256": "5745c802aac5e1a362577def8584e7a2aa5be372041d3142a38f8e4bddd6ea94",
+        "notes_render_sha256": "b06e87cdbeade1f617dff816ab8aac040d6d18e8f1fd3306aa8f269bfac859d2",
+        "slide_sources_sha256": "aeefbb8cef5154bd9530ce82d393b86192d0f064f4bfbcae8f1f88d5d369f834",
+        "notes_sources_sha256": "125841257695d5cdf1ec7485d3df2ca575beac1e5cd5bc633e3467a8c573be92",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "8bd38f050000c99803b0940226ad2861c56e95bc208129563ddebff6eb44a44b",
+        "coverage_sha256": "97a09624ae6eedcdd3f73ed9ea344652e97092ea6bfa815ec69256ae6dee4985"
+      }
+    },
+    "05-s003": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Proširenje na četiri bita i prioritet viših bitova; Slučajevi A1>B1, A1<B1, A1=B1; opšti uslov jednakosti viših bitova. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "4310ff8b377d7ce624f2e767cecea153affe9bb3dd6aaa5da1d8503f26961e55",
+        "baseline_render_sha256": "047953249ecdabbc6784cc52365381a4b1c96d707520d21461346b8b131e6a31",
+        "new_render_sha256": "18cda05c81bef158e6eed5d9626f23ec1426e6b818113a8b104c9a00a62d9118",
+        "notes_render_sha256": "fb805aac3593292259d34addd0090249264038cca6cac394ae652da6f5d61f0b",
+        "slide_sources_sha256": "78b9dbb29816ade5a047c68fb1e8dc7862218278bec3398d2a04c7fa9b9c10bc",
+        "notes_sources_sha256": "822f7271498e90fec47b65777d6dadc4193b2728691e06753919489ff47aacc9",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "28671275bb5d24250ad2f55186b4d82e1187e0467e2548e502f8c878eea36270",
+        "coverage_sha256": "8b5c5750ce7701e6d422c4b489d883245412167f5e7cf864e63d76e5409b1fec"
+      }
+    },
+    "05-s004": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Potpuno jezgro komparatora sa tri ulaza proširenja za više bite; Samostalan simbol sa sedam ulaza i tri izlaza; Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "50af570427669580407dac51d7fb64e9adfe1a7a18d567eb870e33cc72cf33ce",
+        "baseline_render_sha256": "041cbdeda3f6101420214965cac8f2073d603a47d368e9d784229e126eff1389",
+        "new_render_sha256": "b5c8499a05f7b5c30118e040b28fa7fbb87d1884888607a2ded5a0e44ed2f13a",
+        "notes_render_sha256": "00ef04f61b2342c256c8b9d967d101f5a3ea00dba74a25d492b4c116ce368e3f",
+        "slide_sources_sha256": "192c95ac65ac0c8257bf658fd59338f03abbb1e6d0215922085aa34837b2dcd4",
+        "notes_sources_sha256": "ce80787bbe41ddf0ce5cc33ec1369df34e0934bce58b546b5348b61960f5c339",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "30b68304fc67ec5134ecc2923011f2c322817853c2d9cc7dd99394abf1ae28d0",
+        "coverage_sha256": "7c85de6a7e9b6c54da35c6240e04139d0b7831dabe1dd3fa5fda9590626fa459"
+      }
+    },
+    "05-s005": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Potpuno jezgro proširenja za više bite; Kaskada: viši par pa niži, početni 0,0,1; sva tri međurezultata; Samostalan simbol komparatora; Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "ff017f4008a50a60c58fdc5412900edb84408075e0b66a983227b29bf535f714",
+        "baseline_render_sha256": "4fef96d2fd6ec9c0450ed16f76699983b3517f79aacc5c68f4ce4d26a74d6496",
+        "new_render_sha256": "1deb489381c7fb6f89c56d5192bf1e5d236382050c9bd942d47095e3ff2d7664",
+        "notes_render_sha256": "39cb2b99c9937d33e95a8cc6203da41b750c29b97874e8d42248dfd51f6b826a",
+        "slide_sources_sha256": "40be6967e6ab33339853aa88af2919c0317fecc73081c6e94ce4117921ad0453",
+        "notes_sources_sha256": "583a5e5bd8085112983fcceb70523d0642b7a936a7cd2d7abdd646f4afcd2dd1",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "07ae251a034cfe0eb59bc6159f15009946684f2fc9db9a3d4544fc7f8cd3785a",
+        "coverage_sha256": "2a53b020315632b0f6b7c7fbd31745465bdc43db42cddcd6283374866ccd09f0"
+      }
+    },
+    "05-s006": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Potpuno jezgro proširenja za više bite; Stablo: dva paralelna para i završni komparator kodiranih relacija, tačan raspored težina; Samostalan simbol komparatora; Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "e9046c4d51e6a3112a373a47dae3af023b23b27a21e3520e6d1babf415f3b53d",
+        "baseline_render_sha256": "04922477b875ba211f972b142f157419a825dfd93cb629c50f74193e25f67369",
+        "new_render_sha256": "a199fe8ebb979c84e3b4b598dac389bf7ad7e8ab0d3d5d3566a11f55ab8ccd09",
+        "notes_render_sha256": "7fb286bb0b1ed3837f7243de5542966f4b0fb307dbedd6f84f57bc7221ccf557",
+        "slide_sources_sha256": "7baf40dc50d65509e5291f6e09db6f543400bded10a2178d1a08ac5687a04729",
+        "notes_sources_sha256": "7449f40fc0e22f75ad8f85a1f5e347a90415552136c59049c484892fa76d4592",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "6753d12c58b1b2d00f9617fc1038b4eac0ad4f79060c9588d6776dc8b90675a1",
+        "coverage_sha256": "52e95343c5084fb64fa2095e59509bb0584729bb2d783f3ecea632b51e117810"
+      }
+    },
+    "05-s007": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Potpuno jezgro proširenja za više bite; Upitna šestobitna mreža: a5,b5,0 i a2,b2,0; originalne veze i pitanje „Da li radi?“; Samostalan simbol komparatora; Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "13009bc81b56371776a093d4098ac116bd05f5903eb64589d828c2242a719a47",
+        "baseline_render_sha256": "01588360ecc258d40bfe533df6a4b5fdbab001e98152c8cfae116bc4ea78b26f",
+        "new_render_sha256": "77383c4d8a16a92fb37692da237c2b3e80f2b91ada60c96a046f3ac519e6a7ff",
+        "notes_render_sha256": "e2f47cab7327f5a518d1622f21e4c8f2c101880f33f1135e23dd05babab5b1d5",
+        "slide_sources_sha256": "7b1e6833ee8f9815df4117dd36939e4bd7bd8943fec3abd9766195ec89e17a9e",
+        "notes_sources_sha256": "8c34554fa57410d873b324a039e7f731664dbe247441cf7c0cc8e9192fa33bb4",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "a29bd5ea9e83a846bbb1e0cb18caffa9dc18be80e52f96ede9328172da9afc97",
+        "coverage_sha256": "c3e6f8df6d4c304f9e6c9330775eeb92cccee5d3523087ec3081e59872850ac4"
+      }
+    },
+    "05-s008": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Poređenje odozdo nagore i uslov A1=B1 za preuzimanje A0>B0; Potpuno jezgro proširenja za niže bite; Samostalan simbol komparatora; Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "813b0d7051e154202de33514c69358b22b05c25f6f8a88aed4ba1f3339bfc9a8",
+        "baseline_render_sha256": "b57fc2c1b50115ef9b040e4252d10b8a1987e41781bf545f45e0cd7b6d1eb500",
+        "new_render_sha256": "aa1853efa4a1c927f7cd660ebbd588297433a09df3a9845e5136af1f9dcc2570",
+        "notes_render_sha256": "c2bfc0a114306d3f8bf51cc56261719180bc1f0ff3001ec19b8f1cfc35cce1d2",
+        "slide_sources_sha256": "f19ebf3447fe4176193b361358b0acc01dc5f7a470579e34ddd4935a7c0d4fb4",
+        "notes_sources_sha256": "a9f43e80f4033e924b10418808e0b9a32a541f11a95d04ba1d32188843657fa5",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "22f6972e8249209361b028481ad66a08cb2a890c17b0ea3237be52955905234e",
+        "coverage_sha256": "43afa59e3cbb62efca26cbcef267272ebf8f7f7f9b5627be4440c71a5089eb46"
+      }
+    },
+    "05-s009": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Potpuno jezgro proširenja za niže bite; Kaskada: niži par pa viši, početni 0,0,1; sva tri međurezultata; Samostalan simbol komparatora; Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "dedf510e32777cee4723c37dad38b3cdc6e70db1fa31c518fffdebb847b463b0",
+        "baseline_render_sha256": "80e4f8120366cbbed89beab0bfa5786e241a6f602d5a605190f2963a58112522",
+        "new_render_sha256": "bf019924ac85524e3d9fb003f4e2edd782b26f7ef9eb6d787f78d68e6afae8a8",
+        "notes_render_sha256": "3881b0c8e8ae4eec463ba1a4ae22bb4ea0ffce9f4493991908e7907aa213feb3",
+        "slide_sources_sha256": "f2104c19c209e3b25f3a859fd49e9b4de76db6637d676c6c786d20a25e52b3b7",
+        "notes_sources_sha256": "402367b387b808e57f2acddc6a5ca6f3e9aa4fd5f4596c46fa51e3fc9ccb7f99",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "0615893d66f10bba0d0cb34bcc10f62aed52c804c6724f74f23b8d532d251e28",
+        "coverage_sha256": "be52bc1be3a44b81abbcab7ca51f70e4459db92f153873470c0bcc52847c0e95"
+      }
+    },
+    "05-s010": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Potpuno jezgro proširenja za niže bite; Stablo sa neutralnim ulazima i dve grupe po dva bita; Samostalan simbol komparatora; Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "7b2d75af7665c11faac98130a43795f5f083d3aecdd933a0073d27bc4b932e8d",
+        "baseline_render_sha256": "5512c0bd15df73bc2d7005b7688e2a71efaf4abef9c19f90c9199ba40720974a",
+        "new_render_sha256": "38ad40eaac8850a51dcd17acbddd030b5d2e28c57af6296423f1c3947de93dfb",
+        "notes_render_sha256": "52ddbde5d2e48f50e5183581bd2005315be8fcdedba8b3dde488f715fbc86b85",
+        "slide_sources_sha256": "dc89a1a89ed0bb0e74babb2cdcd160fc44208a44300e32d302e43e4de1338302",
+        "notes_sources_sha256": "27f02e0c79d25e5b5a60a4b0dfcd7f87d38afd28892d865da42a8ce768e2e621",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "4298fe4ef651bc740527e1a66bd58ce849d7f85fa8722396f8129ba5611924c0",
+        "coverage_sha256": "55160acf0a7da00351bb8bb8357c10964d6c5ef0527d6d1e7877178e40cae670"
+      }
+    },
+    "05-s011": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Potpuno jezgro proširenja za niže bite; Šestobitna mreža: a3,b3,0 i a0,b0,0; crveno zaokružen izbor i pitanje „Da li sada radi?“; Samostalan simbol komparatora; Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "784035f7edbfe51019892eb29c6ac0ba1129f6eba84737a441ae4b64865218a3",
+        "baseline_render_sha256": "b325e4c3453ddf3b628b4f86dfa52420568fa93ce498b61838f2bddba8c3c99c",
+        "new_render_sha256": "8819c7a944e7a68d5ee48fb6ec44c0bbee79517829d263c733df4b23a13fee65",
+        "notes_render_sha256": "b6bbf0c565de2362d911a75a59c8ac20a35d6282ae4cd1c57efb9fa7e06b2f36",
+        "slide_sources_sha256": "0fd6430ef6fdcbb7c63979e805411f7dcb7b8c974877b78f19e49e12911b6e85",
+        "notes_sources_sha256": "660a6c08b4051f444e66ab750054e14a189762fb7f40af2398254dff2e3a17cc",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "f5972b8a7641270c7a64230e7c71d5d5391c7f90951756362a14292195a28af2",
+        "coverage_sha256": "0ad40185be93a535cc89a5fa25dcfdf9247b1c0f188e2a2cf15dee80725ed4d4"
+      }
+    },
+    "05-s012": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Primer 326.23+95.9 i rezultat 422.13; Tri prikaza poravnanja: usaglašavanje tačaka, vodeće/prateće nule i račun; Vidljiv početak prenosa i tok algoritma; Svi pojedinačni koraci prenosa 3+0,2+9,6+5+1,2+9+1,3+0+1. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "d200297b228293edceccde2d1b485d9ac097ef1ec06e3769f3c4f3aaaccffba8",
+        "baseline_render_sha256": "5a79b5a615fbbd3a5f977c55a0c21bf75c5c6f35ba6808629321af9082b2a56b",
+        "new_render_sha256": "64f1858f6b8ed4187ad7f3906906228495c36cc73a9107b12f01a5499ea5184f",
+        "notes_render_sha256": "9697993b02c7be0ae1bfad86c334dda503e6b595e3f410b409bbc0fcc35e6cac",
+        "slide_sources_sha256": "52fd888c3e1b67ce19c4cadb7ae684f8d9adaa4bf86967aa54bdd34d735ec16e",
+        "notes_sources_sha256": "a4dfcdf283342ecdf37112472d65547f7fbf6cfbbbab934c6a10ddf78d12d420",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "9eeddf0da266e000f095f7a4d5b7b7336a4792e25f5223387ffddd8ecc25df1e",
+        "coverage_sha256": "6bc6840fb68c6717ead54d733d724f4673aa33c97cac59cda105bbc6e4a71449"
+      }
+    },
+    "05-s013": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Tri pretpostavke, skup cifara i definicija prenosa; Opšta šema sabiranja n cifara; Maksimalni zbir 2r−1, razlaganje prenosa i dodatna cifra sn, uslov prekoračenja. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "33330f902d27b3f4e76bbc2476bde768261d7c602eb42d0c9d96f5affdf82e99",
+        "baseline_render_sha256": "5adbcad17bb7d2ee46270510285505b8588cb2e24db621abe73fca0dc9428cc0",
+        "new_render_sha256": "eae8f9a68ec69f88508557e1ccd4725876d333fa50f3e39a0e70a103cb58f440",
+        "notes_render_sha256": "b4a71190efdf85ef16c309dcaf71fe5965dae56e3b4fbc03c010632ab0ba3377",
+        "slide_sources_sha256": "e7d6af72e2784af65756a40ef9373f74228bfa71125444dce09fb6954b2c7cbb",
+        "notes_sources_sha256": "012677b886338a8b5d9530d06ffdf8891fac9e0d12f762c1539c97f1680decdb",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "0e19d9da068dedfc1fca06f83e454c7f3556724de4f39fb76c84f4f5627ddf6b",
+        "coverage_sha256": "d46590f5129888fd284be4f1ab3e817407339fd5ba6c05f352eac7f1a44af04f"
+      }
+    },
+    "05-s014": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Primer u osnovi 7: 326.23+45.4=404.63, sve cifre i izvorni prenosi; Dva binarna računa 0101+1101=10010 i izlazni C; Dijagram prelamanja i dijagram zasićenja; rezultat 0010 i zasićeni 1111. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Otvoreno: Red prenosa u osnovi 7: grupa 1. Detalji i dokazi: provera/redizajn/otvorena_pitanja.md. Originalni sporni zapis nije samovoljno promenjen.",
+      "evidence": {
+        "source_render_sha256": "92e706cb492158cb43cff41807484107e017f0146b25fdd4629ad59ba9e423f4",
+        "baseline_render_sha256": "897f753e7281198069553151069370f2eb8d2a2795fb43d443d18dabce2dd13e",
+        "new_render_sha256": "56a54a323482d0c13e96ab5384213bbdd88e3dce54946f9f7ac544d46dfd8ffd",
+        "notes_render_sha256": "bbb94639b5c17d5daa66ec5dca49901ae373ac9690d1ea0e5754de822b5477e6",
+        "slide_sources_sha256": "8772a44d5a47260d7d7e16effc6a32f69562457de8aa30c8beaeafc5b34ac26b",
+        "notes_sources_sha256": "a794a539fce0dea27c0c9f0abf0449b5c763b9315ce704d0a90f1b9cad413e24",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "527ad44267e672b55c7ab5c64c98ff15b71cf3a546ca6ec39972e1da133950fd",
+        "coverage_sha256": "bd86c09c9d1e5f5586e49621fabe292b118d64b625b3c448afc1db83e7dded21"
+      }
+    },
+    "05-s015": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Pitanje o svrsi realizacije; Potpuna funkcionalna tabela polusabirača, četiri reda; Blok polusabirača i EKSILI/I realizacija sa svim priključcima. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "7583b1ee33643b210254c395890919787251a044c6031a136fdf73a3b5add196",
+        "baseline_render_sha256": "2ddd0111d1a609e35e45082805ed01dc3c1ff505dc7b701f99dc1558cae276c1",
+        "new_render_sha256": "5dbf89e6bac472a7e839cdccc7fbe3d0a43c90dd1f5977a53bdae0d2bc167430",
+        "notes_render_sha256": "52541ff7a019d86793ed25b944dd562f91126020814a3b3296ce688fddf66b8d",
+        "slide_sources_sha256": "8b117d3ec7d3565dd5de562319689885836d472bb4f426606670f0ff980b1f57",
+        "notes_sources_sha256": "6a0f25e40f59934c4b80ea6d6fac6c6a772b8130a802dff87613c6aa0338fc71",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "d05df339845083a7a4e9c6a42b4e5fcad3de5ff732430f222a7a0c926e7e3791",
+        "coverage_sha256": "7013fa9e993ad26067a0e27e1e0d580fd289e0013ac4c6e352168a06b8ce6145"
+      }
+    },
+    "05-s016": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Potpuna funkcionalna tabela punog sabirača, osam redova; Blok i šema sa dva EKSILI, dva I i završnim ILI; Jednačine s, cout i originalna alternativna realizacija r. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "1be6c1ad9f1290b4d670a76d17ad5cc1d6f2de8e2c4976f3a46a6fa2559666f5",
+        "baseline_render_sha256": "8ab418082301daecad1c3da23c3a085918ea474c05b77fb3ae665ee6609b9386",
+        "new_render_sha256": "113b43f8e5cff9b5cd1ef69e2128e48384785e8640bd1cfe33d63ee0314aeca4",
+        "notes_render_sha256": "56b60224c492684d4a0fe1b67ea7c6ca7fc1cac5f366828b73c15ca910315e87",
+        "slide_sources_sha256": "43ff46bcd1d83af4623d80efb74774eedb517a445436bc3fc04ce8b5c9e76427",
+        "notes_sources_sha256": "e4bd490a3d7f526e8970de7e71c7e0c42d76e2d066e2802c564a8f0b8f1ccb68",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "dbf817077a6eaefbc30b10b880812c6ec76deecb9a5467acea156fb3abd310ec",
+        "coverage_sha256": "417d3b2baea309fdebd1b32864d4ed15a0cf73a2be2acb3b2bdcb3ac33983803"
+      }
+    },
+    "05-s017": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Pitanje o svrsi i algoritamsko binarno sabiranje; Lanac n potpunih sabirača sa početnim 0 i svim ulazima/izlazima/prenosima; Kašnjenje (N−1)tcarry+tsum, O(N), cilj ubrzanja prenosa. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "4a5afb8210baa3172e22dcc126a7b33b434babd9329b02305928ee6027118695",
+        "baseline_render_sha256": "79ff918ae1246152212e3d59bab155d334701fba1c141997f9b82302e066fc0b",
+        "new_render_sha256": "55faaecd4fb04408883e864d4f86d9f856536ed6c2179d438f71cf30206d551b",
+        "notes_render_sha256": "dde04ed2b91570852e49e8834e8caab48bb96e73e270edffcd498cf9c8643f43",
+        "slide_sources_sha256": "213514a76875547ed498409cc05d65571200c93a9e43360bf98ae80e5534dc46",
+        "notes_sources_sha256": "321a07483c619e5b1fd700d3e82a1ffc20625324fb95fccf463e1c22ae35673b",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "b323e5ce656074ee81de0130cbdfe53ecddde4e996a16cba13c3725c0653b499",
+        "coverage_sha256": "f373827201b2e3bea876fb8e8ba258bef919702025e8980d720c714be0e9645a"
+      }
+    },
+    "05-s018": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Primer 326.23−95.9 i rezultat 230.33; Tri prikaza poravnanja tačke, dopune nulama i računa; Vidljiv početak pozajmice i tok algoritma; Ceo niz pozajmica i objašnjenje ekvivalentnog prenosa 6−(5+1)=(6−1)−5. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "47ed83cdf8213b38b24237bce2423f69819e5cd66c19cd5db9f3adb0c36f4bd2",
+        "baseline_render_sha256": "f4d77a654c9beaa621bda73347d9f5ecb072495dc54b668d8e32c7a0b365706b",
+        "new_render_sha256": "9f6f3451c9b8c191db9770bb8cbc1b3a185acfd163f19efdc45900830060ef6b",
+        "notes_render_sha256": "f2c3bb6be989ecbe3b8c5295151068dbd705f251459dc2116f08fe551442ce24",
+        "slide_sources_sha256": "27feb9b686457682ac2315d9a5fcfe560bce45d2cf60edcc8b61a64b8b1db5cc",
+        "notes_sources_sha256": "8798e8e83df582410e7ea4266460a45549155fd312a7f115b4908926bbdd746e",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "6ec2f6594493e5a498154be6cf30f5e38b68cb85965d7c6d0f7b843658336223",
+        "coverage_sha256": "d5c97287444c2dfe61acb35351fb87005cd8bf50f613eec80b1c765b0ae844c3"
+      }
+    },
+    "05-s019": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Tri pretpostavke, skup cifara i definicija pozajmice; Opšta šema n-cifrenog postupka; Minimalna razlika −r, pozajmica, sn=0 ili −1 i izvorna nastavna pitanja pri a<b. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "1bf813ede8d5128179a4d59067dd8a948fee4381bf6ec9e38770d25092b65438",
+        "baseline_render_sha256": "2f1a25c6a120a44ad7122a34c164503c86c5833a31eaa046d7a5ad2c03f2dc7e",
+        "new_render_sha256": "380d948ad52f30e15df8a4a701ebc7944b8a25bbea7b87b8bba33baded729a53",
+        "notes_render_sha256": "f1a1cd7a0bb299bce4fd5a0a531d860b84efdcfa45e939288c409d1de5043c25",
+        "slide_sources_sha256": "09ed5d8c7d62ada48fb5b9a252d062603bd5c8225da12d3c5afccf7897b1dd27",
+        "notes_sources_sha256": "d9c4f1ac334078466ea92ebf469a87b4dcf24fe0dc378c29cb0e3b35cf4c1a9b",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "9f5f9aa0794a00c67c94fd2e38c0ea05545467a2db48719c60eae56b9390a701",
+        "coverage_sha256": "05318d897ee2cf03e211ac749f93dbe747e961382609546d84dae049a9d2a4c9"
+      }
+    },
+    "05-s020": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Račun u osnovi 7: 326.23−45.4=250.53 i pozajmice; Binarni račun 1100−0101=0111 i pozajmice; Binarni račun 0101−1100 sa vodećim jedinicama, donji 1001 i tumačenje 9 ili −7. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "b4a4c37412482bd06916cef39d09c94c66a4b6bc6aca4c16c5f602dbc7fb0b57",
+        "baseline_render_sha256": "65faa05b34c5e7112783f7991580108116bc7046e3b21d9350b8dda1c476cfd4",
+        "new_render_sha256": "bcddcdec275ee229e5bb8445305aa19466735ed8bb49f713c875261e4a5403b8",
+        "notes_render_sha256": "cde0d67ab3c0f89bc031c3b0b836616753b0e8f789f7b512b3bbc82d344866d3",
+        "slide_sources_sha256": "bcfd920662312f2e9d50a80f9fac7b84dd5cdb1141a932af88b68313d43bac11",
+        "notes_sources_sha256": "b0e4e884b539dcec8d6c733e41ad172086068fa0ba501ede8776667e6362891b",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "35ddfb0197368b3de0c1fe7cba51f05ba50e9a63cd0a0cdf5a431440ce3cb346",
+        "coverage_sha256": "af0cf1d903da00cba97038cc2b946fa5cce42b2cdd34eb49fc0a681f1a0250bd"
+      }
+    },
+    "05-s021": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Tri slučaja klasičnog oduzimanja i izbor komparatorom; Veza sabiranja i oduzimanja za sve kombinacije znakova, oba stupca i četiri strelice; Prethodno sabiranje i oduzimanje samo pozitivnih vrednosti, potreba oba postupka pri negativnim operandima. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "cc1e63385c6d6d3d87f472ab9a7e22531fcf13e40474add0da93030150d26d52",
+        "baseline_render_sha256": "98ab16553d5f41b147018b78b44078970a09a16803b8894684df016f924094c0",
+        "new_render_sha256": "079badcd4bfd1afa2b0378ddfc748d8c29caaccb2b79a8d24d17f494d0c4af3f",
+        "notes_render_sha256": "62644358a47b0aebf87ad761c2e9f6319b018296806d71ded837a7d79ff6a245",
+        "slide_sources_sha256": "c4423b0947b17887b15038c7dc4a150913068960249623fe00b6d353c041d906",
+        "notes_sources_sha256": "d326dcf7eabcc63ec624052f0788607a2c284449e2dcbd2363385725dc1366c9",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "d459f2b66b042bf1fcb0597407733a9a3cb9c1878013f807d8a06eddb9a71c2d",
+        "coverage_sha256": "aa9ca4fbccf90562999829d468b87ca2262b5a86a39a9446befbe3c05a6181e8"
+      }
+    },
+    "05-s022": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Sve četiri veze sabiranja i oduzimanja za nenegativne apsolutne vrednosti; Pitanje o potrebi oduzimača i a<b ⇒ a−b=−(b−a); Izvođenje drugog komplementa 2^n−(b−a)=a+(2^n−b) i rezultat. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "4e05e760a41cf41b8d5bb2c49202234841ee58981d21da99929122020ae79c06",
+        "baseline_render_sha256": "4af86249c7e25aa614cb1cfa0ea3e8090f0fe2efa175e7e77cf9d22073b2483e",
+        "new_render_sha256": "841e1d1a18003f794df817bec607d16cd80901b8552efd018839472ede8ef1ae",
+        "notes_render_sha256": "2f89d97f8e6e9fe13d2e743a24d4a4c8310d53d2f1a5929092220f260ae9803f",
+        "slide_sources_sha256": "307c561a2ccc413b6ada03cc35a0b00b495b769beabbbb1dda248a44509f7502",
+        "notes_sources_sha256": "b5be9b7f3de3b28d6a8b279273e5e0814b22f068cc8af2873c1e051745e6f753",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "72bd1c2c329ee617a6a9c2bf2567d7f886d4929addd9d5a1235c12167a0e658a",
+        "coverage_sha256": "74bc7bb703694a8e6d7cd85239ef4cf0a048eb3d205f1cc62b3621342ef271c2"
+      }
+    },
+    "05-s023": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Jednakost po modulu bez prethodnog poređenja a,b; Odvojeni slučajevi a<b i a>b, zapis rezultata i izlazni prenos; Petobitni primer 00101−01100, sabiranje 00101+10100=11001, rezultat −7; Tri zapisa komplementiranja: 11001,00110,00111; Potpuno tumačenje pojave/odsustva izlaznog prenosa i dodatog petog bita. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "5a9a4ecf331e6d3df81a10c0edc594ab2d6cca1737948d97f0b53676fdc40f10",
+        "baseline_render_sha256": "04e736d5065c0c1e38dc25fdd39e2461208862c28e7d3a328a7e5f759f5654a4",
+        "new_render_sha256": "c3c39d3d2b4805d54622e1af82c203c9400430b75efe6fabedee0e5657f4b275",
+        "notes_render_sha256": "660d7339f8bda08ec6938608b17949dc2f4afd830ce76c7ef0ab84b54b44611f",
+        "slide_sources_sha256": "0b1f3f900f34d31190bab6eb975081aeb8f1d364cf1c347c808dd3799f745418",
+        "notes_sources_sha256": "09f1ba83a33c877e4c8cab6c290f6548b8513f812946f62b39cc105d7e1c4ea4",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "ea746a989dfa8effa22210644344ec30f5778ee70eeaffcdfcda807b7651a737",
+        "coverage_sha256": "d6c198c2608b6a10e82739880610f3c21eb7c7ee2b712b8e02a9048148357b6b"
+      }
+    },
+    "05-s024": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Izvorni uvodni tekst o dodatku 100000 i prirodnom komplementu osnove; Potpun binarni račun, beskonačna pozajmica i prikazani dodatak 10000; Potpun decimalni račun 45−67, dodatak 100, komplement 78 i apsolutna vrednost 22. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Otvoreno: Tekst dodatka 100000: grupa 2. Detalji i dokazi: provera/redizajn/otvorena_pitanja.md. Originalni sporni zapis nije samovoljno promenjen.",
+      "evidence": {
+        "source_render_sha256": "41e8e46342a9fc5bfcd5cb9b0193243922e8fa0fcc4c5c11d5c8cc2fda598e35",
+        "baseline_render_sha256": "61a2354a0354a9b05e31caa450288878853a8c6425991fe3864c7b21bdbc8083",
+        "new_render_sha256": "b373f02b91fbe65c0e808d262f32cf8bb7e5ae67db68bb2c872d5420e6d6d64a",
+        "notes_render_sha256": "60130bbee21321b3a8d2213c20d977dfa62b024f99500a0644c4295662338a74",
+        "slide_sources_sha256": "6232d40c48e31eb159673e7084d3edd74c30bfa39abb02ad3a88a0a78d97cf67",
+        "notes_sources_sha256": "135704d7edae76018efd606c4ade51ef8e7e31e3b3d2d9e50fbbc30a85835216",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "0fb842f1c7089b83daef8fa57062be1d5cb86fbaa7d64576254cb67e9dee8538",
+        "coverage_sha256": "abeef6cc3db4267ae96faad13560adb5e22f27d2d75160cb356b4741c3035272"
+      }
+    },
+    "05-s025": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Oduzimanje sabiranjem komplementirane vrednosti, bez obzira na znake; Digresija b<0: a−b=a+|b| i ponovno komplementiranje; Operacije ADD/SUB na višem nivou; ne pravimo poseban oduzimač. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "450d116db7a63403213ef4c1332f85dc7fcdf600334034fb1b4eea4323a32c36",
+        "baseline_render_sha256": "59e4898f3c178c5911488b516887c2437c9d4fa7b3efc50d5ed05338b6821e0f",
+        "new_render_sha256": "1670697f93e6ec68ae6b4bda6b951a5f5aedd722cd6b6638d41fcb4c7653babf",
+        "notes_render_sha256": "937cd1bd9a090c31fa21d37365f93d14afaf09bc4293309939488ba5671ae228",
+        "slide_sources_sha256": "831fdedf97fd3e6c27e28d3c77f98327fdcb1c8bf4320991be9da7f80e3e3fdf",
+        "notes_sources_sha256": "d94cd599b820fb835fa7191a35ca3423c1d0fe405e2910ff800e5a2a90e12083",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "045411532d49beb4cde9cdbe4c0f37d392234637d69063da732e411decee0b69",
+        "coverage_sha256": "abd5c507cd1dcd5980cdeb317a281eedc0f288126c08b6292239f4504e6e6ee4"
+      }
+    },
+    "05-s026": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Četiri slučaja zbira označenih vrednosti, sve jednačine; Pravila OVF prema znacima; izlazni prenos ignorišemo u rezultatu; Obe granice n−1 cifara i znaka, zbir najvećih pozitivnih i najmanjih negativnih, izvorni prenosi. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Otvoreno: Obrnuti izlazni prenosi: grupa 3. Detalji i dokazi: provera/redizajn/otvorena_pitanja.md. Originalni sporni zapis nije samovoljno promenjen.",
+      "evidence": {
+        "source_render_sha256": "4d95efcad3f9c40ab497a438bcd8cf7b97029dbd499ca79b0f60c961c6d3e3f6",
+        "baseline_render_sha256": "318ea83a97bffe8a9ceabfd092d6fff20cbe1d8914046d0f568402930e982703",
+        "new_render_sha256": "71d431581308c398c0fb9073e94e6687b013fb26a2201aa606b0188204a138a3",
+        "notes_render_sha256": "5d8325717a22909d7c4242ac8db377682fddd2f8594defe5279dd361028b116b",
+        "slide_sources_sha256": "e6859b19f9f8af5d175b29bb911b14d363bf11da01c91f23d60e154ee1478ef3",
+        "notes_sources_sha256": "d1947f8d3687061b02cc86cedf10fb405f90fef318ba76121ffc423406a7da32",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "4c0d0a2aa4f5cf3ea64916aaac00ae5aeea33de200e7383af340220d64434fdf",
+        "coverage_sha256": "f47e0a8aec38a565504d0e2d3f7af33b580e6aa89d1d96f4c6bff372a4dcd6b5"
+      }
+    },
+    "05-s027": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Četiri jednačine sabiranja prvog komplementa i član 2^n−1; Pravila OVF prema znacima za mešovite i iste znake; Korekcija izlaznim prenosom za pozitivan mešovit i negativan zbir; opšte pravilo kružnog prenosa; Potpuno objašnjenje korekcije još jednom jedinicom u oba navedena slučaja. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "d199a39be66a0e10af3e4838a0eaac4d393216d864dcbd6a0024f9742844c6ea",
+        "baseline_render_sha256": "ff6e9ddef9619da5a9627abb3d033c738b39ce1dbc0e3f14c1ead5c5a139f558",
+        "new_render_sha256": "47f74bd665c81619cb70cd8be246168eadeea61ddf99e7df4c9d1b0a5b3c6eb0",
+        "notes_render_sha256": "e9fdcf14687c308a9718879b063a4d4a9ffc2dd070a655d0dc3630c24dd698e9",
+        "slide_sources_sha256": "d950ce9872f6e910c3155ffc8d0a783dbc29fb22136fcbc170fd5842fb5a2168",
+        "notes_sources_sha256": "fd431418a7d4b9da530a9af1c4f130dba070738797dcf1af11de183f213af462",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "f0746cd2a4c373d71158ac4fbd09475dadbdf92ea47c98d689e469b85625389a",
+        "coverage_sha256": "8bcd647eb7d286c660b2b08d1b899e55ec3c6c9cd70053b022f4beef7b0bb220"
+      }
+    },
+    "05-s028": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: EKSILI kao bafer i invertor; Potpuna ADD/SUB mreža: pet označenih sabirača, EKSILI na b, kontrola i početni prenos, OVF EKSILI; Izvođenje SUB=a+bar(b)+1 i ADD=a+b; Oba primera označenog OVF i upozorenje da za prvi komplement ne važi. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "d299688d1e4a95fc2c1b9b7ad3183d5950cc114be13ac9b9df789a30f63c3cea",
+        "baseline_render_sha256": "800becf4d3edf6dd26e6dd929872b0bd1685f37a25c0c93443b0714d871d44ee",
+        "new_render_sha256": "c96458e55e2bf992e06d56fb0243dea9db1e3362d1fee41b1e132815504cf74f",
+        "notes_render_sha256": "548fb3b567369d66ea2316fd424edcf72fe81552c5966ddae21610ec32ab14fb",
+        "slide_sources_sha256": "120484a61d3b049329c498ccfdf44981f660f1abdc87cecc1903bacfb9b594b9",
+        "notes_sources_sha256": "75bc04887a78fcb3b376797641a7528811225a5898d0a08a77a74af5c73a6770",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "a820b6e7c5be8d7b86657fb9f646873c28353357d338539954511472b4238ca6",
+        "coverage_sha256": "773849a6ff63f765a0c34bb79250d0d1491c40b948d3275daf4e4ddd28877f9d"
+      }
+    },
+    "05-s029": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Dijagram prekoračenja, regulardan interval i oba pogrešna znaka; Dijagram zasićenja i napomena o primeni u obradi signala. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "818ba960754973ed6dbde6db1fa60e2506494e65a783104597d18bb59c40d761",
+        "baseline_render_sha256": "5d20ce0bd6ab9ad4c6914eaf0a2cd935b84ba0da885f19e62d9ef0e9cc656016",
+        "new_render_sha256": "9b05071b5c4800afe6339fdbc6944ecbde11d9403300383e6aecd28f521c5811",
+        "notes_render_sha256": "db1960d27b265e98f591b67fc60020b493dc66fceaf38c4a368d68725b1ed0aa",
+        "slide_sources_sha256": "599ea12b268927264d49bc1183c79a7ca9ad1b8ddadd3a1ef50aa5c6fb731172",
+        "notes_sources_sha256": "531056fe8509fac1805f2cafd378563e0d1fcbc6f75fc4686264dd8139025077",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "bc13255526bd7fe9079d941eb197c41b2377203e6bbd5fa312facb3cbc27e59d",
+        "coverage_sha256": "c609bb0a171b193838301a5b34679e51fcdc6a5c168681ed66b9dd90585d4026"
+      }
+    },
+    "05-s030": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Opšti raspored registara 4→8 bitova; Oba neoznačena primera, dopuna vodećim nulama bez promene vrednosti. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "867098afbd259f9b4bdcf69f4806ad24387ae07b4fd9420bb56bf38508f79a83",
+        "baseline_render_sha256": "14d4adfda25aa963b98947f543c44953ece5ccaa805f7e418bfe6fec38ed7a81",
+        "new_render_sha256": "bb3f98fb45cc761382346bb1de6f253abe7e8b905905dd4fb19d64ecfe62811f",
+        "notes_render_sha256": "7e16c1fc1c4bb2c77eef631ba6fa28b3b5859e341aa9699bc05b9f4ae380fc24",
+        "slide_sources_sha256": "57af2807abd0d8206ded72d6c81e0a6c35f0829971b00fffa8b70f447795df8f",
+        "notes_sources_sha256": "178c93497bb8176d1e99cadb3234dd444786a291f6f8e8a5c5bac344fa280fe1",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "c802c184e21aa5997857e1fb1cf234eec8064df7c1ae01639e50938142069ee7",
+        "coverage_sha256": "66693f8981a49152f1037629db78029018a02a396c3d6bf7455d54786dc984a3"
+      }
+    },
+    "05-s031": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Pozitivan i negativan primer drugog komplementa sa proširenjem znaka; Potpuno izvođenje 2^8−a, faktor 2^4 i blok 1111 uz oznaku pomeranja za četiri mesta; Primer proširenja prikaza znak i apsolutna vrednost. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "667114ec6e8a7c8c10b3caab957efaaff344a52eccd1e2a681ff534d24e7be8f",
+        "baseline_render_sha256": "8b961ee2604a1ed08b88f196f8e8cffbd60be4cf9628cec217b4614e6d0822ae",
+        "new_render_sha256": "fa94e5ba0abcebd7847303802357006e6490deb082a38681131d192c24fd4037",
+        "notes_render_sha256": "85888f1fe4a3b58d98d991c1e79adb3ab147002ebdd05f4e6b064e9d289c4ca0",
+        "slide_sources_sha256": "6462fedcd304ba47442345434fe35a24bb038a8ef99d1ac8cc8d4fd15268c0d9",
+        "notes_sources_sha256": "0caf645e1f6568f9d8f44f14408c450f3332451576774a13ab721aae523941b9",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "fc7f70a0aab2de1616843b67628ccc55cdd5b62af04cb0562d9d3c8ab233b84e",
+        "coverage_sha256": "b9b7141975ba86061660e5340953f975e5177d3afb4c5c703a5b7a517027f4fd"
+      }
+    },
+    "05-s032": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Sve četiri operacije LSL,LSR,ASL,ASR: oba registra, svaka pozicija i novi bit; Veza pomeranja i množenja/deljenja sa dva; pitanje kada nastupa OVF. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "6b945842d99f4ee6e2097b74ff52de885618a6e2c4cb5c23918ec1cf469e9700",
+        "baseline_render_sha256": "e0341dea94e7b2effbf20ac9a62e804a066945a16617d0d2b863cc0b6d787597",
+        "new_render_sha256": "0a430eab4b4262abe3a3ad8dac23d808da53a2541538f5d62ccd1d4b66b585b5",
+        "notes_render_sha256": "d803c6272208c93897c3d34f04fe4021994333934a9ba10c42adb58f5e7a6184",
+        "slide_sources_sha256": "2e6c99d2e13103e396a7f3de2b8d61e2c08e4c8ec569cfa24ce8eeedd8c1a6a7",
+        "notes_sources_sha256": "cb0f9ffa33b6db00f875a80e9a0ff7117d73d557efbf73581d487a432f3b4f90",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "a6ba2f9584af34e69ac9c5cd0985d031d70bd24ce9054e00901cb87f474b812e",
+        "coverage_sha256": "ef7b8701d5e5a6264d8444804491ad56d07471ab213e9f13af33a74a43d792b6"
+      }
+    },
+    "05-s033": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Potpun osmobitni primer INC sa prenosom preko završnih jedinica; Potpun osmobitni primer DEC sa pozajmicom preko završnih nula. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "11d30a724f8b1b2fe7be7ec59ed3490e1cf97a2f9856c1bc216230c768ab98de",
+        "baseline_render_sha256": "68233cfeb183b8ce65919bcea02930d333ea6366fe8c4928bb4e052846600047",
+        "new_render_sha256": "0db44aa09ac9508f74114f0242a6afcb5297ba6d59d513d36f6a71b7158c6d49",
+        "notes_render_sha256": "9524e5b9691a0421361e2537a487eac99e8ab06ceae8f40757d820745ce56cbc",
+        "slide_sources_sha256": "0eb3168296982f3d3c0af14ade1dca838638f4d168525c707b770f32df740bd6",
+        "notes_sources_sha256": "de1d4f556415e83f40b3fcd6ccafab5bb89373e8e8fdfe64cf2346a03ee393a4",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "e3fd17e93b60580dcbfa0871aea33d3b11120f550fe1cdb1ff5f1e99b0ccdeb8",
+        "coverage_sha256": "d22ecd77a2450c2adf66ef8f43d0b2f81d0a2bc3782d7a4978ae391284d3904b"
+      }
+    },
+    "05-s034": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Pitanje o potrebi sabirača i INC +1; Detektor najniže nule, ulazni i izlazni osmobitni red, kontrola EKSILI kao bafer/invertor, originalna maska i strelice. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "662cdb95383bf725e4e877dfd9b5d237d4cca92960d4e0222c4a63b556e53a44",
+        "baseline_render_sha256": "a120b456c75a58e27df3de897444abc15c85373c1c07dc1d5614cda30fc534a4",
+        "new_render_sha256": "f5470559e67410378af5768d143de4fe06f1e0cf47f8c9e323c2dfb914d16598",
+        "notes_render_sha256": "ed44644545e95fd8059153d5c75d34f7e952856ca18c5cf17125f067bbc5764a",
+        "slide_sources_sha256": "e8cffb8d40b6a69ea208b14c284adee9ab9701c65c1eab6c43c6977b3984118a",
+        "notes_sources_sha256": "8de23e3b383fe32240b57f65aee7221c5356a0ab7123708fcec73d4927838c77",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "3c5f7d94699c5c3dcdf11adc403ddef39fd4a94e7b63af9d24e2f97a6f902573",
+        "coverage_sha256": "e8e5c37c1c0db0f8f7ec13ff935ed2673a2d237d7882dbe3e879e81815abfbbf"
+      }
+    },
+    "05-s035": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Pitanje o potrebi oduzimača i DEC −1; Detektor najniže jedinice, ulazni i izlazni osmobitni red, kontrola EKSILI kao bafer/invertor, originalna maska i strelice. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "0a8ae1f7ca12e1d6a9beffcecbd16c49cab0a5bbed63d9acd35ad29213fe5608",
+        "baseline_render_sha256": "4879976df3b4876c0e95bbd69dcbfaa72964b1ef33115412a1a44c5f51237ee3",
+        "new_render_sha256": "cc1b571993b1cfd16f5ac2ee4ada6694970ed5387d6fe1b55db174b890b616a4",
+        "notes_render_sha256": "707d661671843474bda64cd76371f9b528c6683b0d37c8dcf32271c7150f6ae8",
+        "slide_sources_sha256": "f5347085e2b91c6a801cec4bf4faa48e8b5b43a32ccb9ca3cef3461b5a75108f",
+        "notes_sources_sha256": "0a4f37c5a0ddc7a43cc1639525e1eb1b9f8c92c47c9911b5e6326278eb4ea960",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "35ce357a96510ee7a8d7b0dacd193276222106b00487f4ae8fc7a71855609251",
+        "coverage_sha256": "8712583ed9f67545dba561d6370bcc1b4712366edebc25f70f6c6c8c12f7ecbd"
+      }
+    },
+    "05-s036": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Pitanje o potrebi sabirača/oduzimača; Zajednička INC/DEC kontrola detektora, oba osmobitna registra, maska i sve grane. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "3f47ef7b955c649d82e05492ea0b782d620b9f2be1e5c24309ece2822d9b31b1",
+        "baseline_render_sha256": "e01c9c8f1430aba1d04f0ccfc2f5bf1b007676687490b9da7a44b7c2ce83b5f5",
+        "new_render_sha256": "ddfbcb942c78b45b9918dcb03f29634ea87ae5eb5711aa15e2292a81c072afe5",
+        "notes_render_sha256": "b2abb53d564eb23148207ca56d1c2a3e037adba793d0551b52bc919071583cf4",
+        "slide_sources_sha256": "2bd91564dac51c7d0e2048397db5bf38a7e92fcbfefddd49aa893800e71cdb95",
+        "notes_sources_sha256": "20d259b44b5d3da21a29cee99a72a704ff58e09dd14435f2111447d4431463ad",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "99e27b861817f9b5c687ad156fef5ce4b7e3cfe7f95c75deb17656ef63609861",
+        "coverage_sha256": "21a6db42710386d6d6c43202b440def540fc99cf80deaee518324031e3d6e76c"
+      }
+    },
+    "05-s037": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Neoznačeni primer 5×3, binarni i decimalni rezultat; Obe tabele parcijalnih proizvoda: osnovna i proširena, I operacija, dopune/pomeranje; Maksimalni proizvod i potreba za 2n mestâ. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "d42869e013462db5e480a7454a4d632929db327e158497038a546191348de23e",
+        "baseline_render_sha256": "294fd1eeb1d705a8b08ffd6c215c614e40255e309a5e021723d1ec7c95d550d0",
+        "new_render_sha256": "7df7959d94bee738e06412fd7d64708ecc5b60749b904f3bb8024f3d0a3df82a",
+        "notes_render_sha256": "68f6475aa8e7369bdcc4f5c99d6f36c3c48c2a54bac47f5db319d77b376dff1a",
+        "slide_sources_sha256": "c120472209ba4c6b92068deb7da925f68b54d58bfa687acfb73dbed043220156",
+        "notes_sources_sha256": "ecb9c3772ab7878530518019175de2e4ec99805f3609c2ddb19fc3cd5a9d9af9",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "5462a831cd3beab65133effd4e4b3a6010828c808dbf2a7fbba43c2227e7d8c5",
+        "coverage_sha256": "8166704b72f5921f11c5a57e9f5c41d02507852456c5e42db316105c2967f502"
+      }
+    },
+    "05-s038": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Označen trobitni primer (−3)×3=−9, očekivani 110111; Namerno nepravilni parcijalni proizvodi sa vodećim nulama, zbir 001111 i upitnik. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "1614687d5065cb2b6629e47ec6737348f4d1257d98161be7dd8df4aadf9297e1",
+        "baseline_render_sha256": "cd20e1953520dcc6d06bd3ee0897cf65b3b04ced97dc62c89c5debc91769cfff",
+        "new_render_sha256": "d5a01e02654d32fa9553864db4bb2f4848ca4d46355334c09eafd335fa1385c3",
+        "notes_render_sha256": "9713a3a3c5b83a1658fee543ca51ed4aa50ba53f85740aa1687a8fba2b5c4fe6",
+        "slide_sources_sha256": "adfc0467bbfeeaafc2cc09499de23ea032dc39ea9469d36c60652a2c8a8643ad",
+        "notes_sources_sha256": "8bbdf501f70769cedbd5ee35460c93718f0a52c2a0ebe72008c54b4e0b31cd55",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "e774fb418fe596f3d478fc1b26ddb2cf40abe780943f23385cf9edb7543606b4",
+        "coverage_sha256": "b401f8d4e6240e7e77dc67fc9785b0bdaaa990635c0319da9e85243e2d1b7fb8"
+      }
+    },
+    "05-s039": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Isti označeni primer (−3)×3=−9; Ispravna ekstenzija znaka svih parcijalnih proizvoda, zbir 1110111. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "bdea0013ac029b7f7d8cf720bc0a32269f2a39400b56dcf59fbf3c0630754653",
+        "baseline_render_sha256": "c03d9468efc3525830b329bce1698f69ee727367291c0d35a39acbd53f941a2b",
+        "new_render_sha256": "5babc26869f0e956f37b3e5b160469b63d804897b70b3297fdd77143e67e3b46",
+        "notes_render_sha256": "070a6baa1bcd338aa2a85cc1768aef7220ab9a2a9c7b725399c66c44802a1ff2",
+        "slide_sources_sha256": "353ae166d2e8798b50cbbd0ac57d1e4a53dff4b287f49203b2db71d020696ceb",
+        "notes_sources_sha256": "99e8020d02a138cb3c0e6010352bccd3d88090a80366f5877e5b7a4b8bac46e6",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "21957ed43393bf6d8212c15cf7190a735d44d6c1a4fc05ab37e5c2166d61cfd9",
+        "coverage_sha256": "1d7d20a28ded068068157fdd46c9c439c3f6c297abf040d7bf815d452843c7a4"
+      }
+    },
+    "05-s040": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Označen trobitni primer 3×(−3)=−9, očekivani 110111; Namerno nepravilna težina znaka množioca, sva ćelije i zbir 001111; pitanje uz ispravnu ekstenziju. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "193b2330831ce096daca1917412d9483494fe5d1d561877d482e9e80b8f43123",
+        "baseline_render_sha256": "ca1b82ef971a27e4d305a536d1b561e756359d99856d0aca22d01192de05c367",
+        "new_render_sha256": "756baebf06f9868d83fb517302cbdb23695f548246f36463823f217212e48b3c",
+        "notes_render_sha256": "5418b990d5b871f57f963a9267c15aa576b78e6bc3dd0a6d1bb18f0a86ab4454",
+        "slide_sources_sha256": "92535d2f55f16f41e2431f8ae59d3fb140b4d9e9981d033c9efd4595221a685f",
+        "notes_sources_sha256": "d578ee6138858f49eb20065abe1321a79f2984c3714a039b6d74993adc123871",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "f97d1061baca4ad976eb2a89c043983c70a651c1e9eae0aa7c6f528c33dd0611",
+        "coverage_sha256": "5a5558fd263b50f248536e627ca4196550f176c7bc381547e76199eb5aad797c"
+      }
+    },
+    "05-s041": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Isti označeni primer 3×(−3)=−9; Obe tabele: direktno oduzimanje i negativan parcijalni proizvod, rezultat 110111; Negativna težina najvišeg bita množioca i potreba negativnog parcijalnog proizvoda. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "68f4bedd296ea2efc48faba321952c80ba483723712162419ba510760a7d2923",
+        "baseline_render_sha256": "7c05161969467b8a5e0aa8de3a5b6070454b9a15e9b55f8808d0b321975466a8",
+        "new_render_sha256": "930ae5b97925e10f296879bf1dfd2b83ab9b7f8f315ec9d69f7af0ce14368e03",
+        "notes_render_sha256": "191fc65aaebb34211e6591d71ca2a137c3ac8d0202e8b9ba347c40b2e66e4f3e",
+        "slide_sources_sha256": "85464672a977026ef9dc8796116720d9d38b064abafe22817a23882bad8d8856",
+        "notes_sources_sha256": "5f5c817d731faed1c406747b3363dd9626870c0308e1e1816e98c85c18646d7c",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "2e7e171c6ff5ae070d54401cee96f515395375b3dac0fea0ff6cee3f45350376",
+        "coverage_sha256": "e7a358c5ea55320b9f6e01a805045b9512fce327f76de7d8b7331b274f60439e"
+      }
+    },
+    "05-s042": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Označen trobitni primer (−3)×(−3)=9, očekivani 001001; Potpuna tabela sa negativnim i pozitivnim parcijalnim proizvodima, zbir 1001001. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "32a906fb1b3d0afa38343da03a016efd25b454db0ced855cefc34951315841f7",
+        "baseline_render_sha256": "d2712653ddc7abbcbacaf7d9366af2174526f97521125ec2f8d1889081b2e284",
+        "new_render_sha256": "34fed27afe70526dd9e625f262ae21261b24fa718c777f93fdd83c6b66cc99d0",
+        "notes_render_sha256": "3c37f115aee60660b49564b9c2b37fa88608127d2e5a35026806ed3d299effe4",
+        "slide_sources_sha256": "2a5803611ee0dd96e6d3cbac9e1d5609af7477411038e52ad764499a16269e17",
+        "notes_sources_sha256": "405a1c4fcc871709fc183fe3f38129c26882ea133dc7dacce57c41cc3e75c2dc",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "7d23ff6169c7399a3fe417ac96f9e782b650c6f76a6876406bbc4dd7f3850429",
+        "coverage_sha256": "9df20a4f91d71396e7fdeff12f541c79c8e6a8cb3375c425e386413de796ea2a"
+      }
+    },
+    "05-s043": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Dve operacije procesora za označeno i neoznačeno množenje, MPY i MPYS. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "dd077e72b6975b70a097546e650ca7a99c449158f507d7324422b613fc940479",
+        "baseline_render_sha256": "3190e6c5d5056d2768d63e200a28d6d7ec70c16e6ecebeafb0de993941f1b344",
+        "new_render_sha256": "58b5a1161dfdb090b287323da48fbb448834b45051e08defd475a38a62c61117",
+        "notes_render_sha256": "849ac935b7636c1699ed87557f3e76266865a1fcf9856b2d4e24b8a2a5d7b8b1",
+        "slide_sources_sha256": "36eac4d0fcfdfa6e03939811f1fb6f724cafad7fd8b075b96c152e997280d289",
+        "notes_sources_sha256": "8b066c04f699d385b70f004644d574b51f3c90f8a70cd5ec1e05fe93383a5f43",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "d7f5a14a29b1d6c5d9a88c2ad3c4044b9284e2c952bcc8c76fb682967a4b54ef",
+        "coverage_sha256": "4acad74fb4e7531e7c33b70bd2e9e22380ca7a625ee6402bf9292feb99afa161"
+      }
+    },
+    "05-s044": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Četiri koraka označenog množenja preko apsolutnih vrednosti; Svih pet redova pseudokoda sa pamćenjem i obnovom znaka. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "e82d423c56985e86e2b70c2a4b0ee07c0d006f161d6081003e9f5847b6228877",
+        "baseline_render_sha256": "b52f89319857b326b45b979d96d564bd4ec268601fdeea3c9b0f5f9cb8ffad00",
+        "new_render_sha256": "1fadbf0c02666fccb5ea58149ee948711ca0fae987869ac82b99255dbcfee689",
+        "notes_render_sha256": "7713c8f4b85efa46d60b71393b060a86735f8ddd911a1f34e9a54385a99463dc",
+        "slide_sources_sha256": "65880f13370501306d0c20ba2dce6f6b020ad61f8ab39de2c170d64cda55ece2",
+        "notes_sources_sha256": "84c0840da8404495a689f16de8073cdaa8d6e9b74c46065e47e05c738845fc19",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "7d366d6dd018370951c8831f90330131ba838fecd83056d62c3814f4eb0d6ef7",
+        "coverage_sha256": "9b41a3ad2bc33c9f2f37bb1ce97eaff270237a6b0c15c5844698cfb6d1dfc7e8"
+      }
+    },
+    "05-s045": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Podsećanje na neoznačenu i označenu vrednost D i dva slučaja bita znaka; Svih šest prikazanih parcijalnih proizvoda za 32 bita, a−1=0 i zbir; Konačni teleskopski rezultat sa negativnom težinom a31; Međukoraci D_t=−(2^n−D)=−(2^n−D_(n−1)2^(n−1)−D*) i označeno značenje zapisa. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "c77c10b89d02cfbb761ca5226bfbb3c2750610fe98eee30c75317b8c8ab104d0",
+        "baseline_render_sha256": "638bc5879893ef20c118b54e2749d123fee3a27ac426f2945164d047e7e70859",
+        "new_render_sha256": "a50363b74396153e38293a4a08b07dd9c0666a38499d05975b8fae226399e495",
+        "notes_render_sha256": "1a546ed42edcd6d65639acfa86ecf39f8692aed485fb8c40fd074933972d0aac",
+        "slide_sources_sha256": "5830c65f811253a4007453d2026f3a2e5819112909582da7394ca3ae727b2caa",
+        "notes_sources_sha256": "2487bb05e9d2c09e85ad55d8b09239fd4b509fb5ff80dba83dff5c1dc1aba964",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "02d67b6a3ec9cafad89f7913e323f6bfa416401b81c3e687c76e165f83ca1f82",
+        "coverage_sha256": "d67322b2e1f4f6ce4a1759b2be543d20d7361bad1364f97086bfe72444825c64"
+      }
+    },
+    "05-s046": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: 32-bitni operand, svih šest parcijalnih proizvoda i početni a−1=0; Konačni teleskopski izraz; Sva četiri para susednih bitova i odluke NOP,ADD,SUB,NOP. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "27f929a458f32920ce5dd8e212123af0c909c342b119d150c94361efa8a48aec",
+        "baseline_render_sha256": "d31a09fbda1a6819be0fed7bd2af369fa062c99ba3509bc0efe1ceda0fbe0264",
+        "new_render_sha256": "77fc2dc0c839a0d8b7a6af45b60dd165d79344017d2006a38c00e3d220e24037",
+        "notes_render_sha256": "af455e52a8eb0a09cd3596df32c5c026c85f63d6753abf7402ecea4a189c2ae2",
+        "slide_sources_sha256": "76a60a46e9c2305707b451e7e7e0ff5d91631e1c6fb8717dd99469af451cca97",
+        "notes_sources_sha256": "8ee1e294d17ed310445416b01ef20848871cba2547f08ab9b6952a1987a6caa8",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "fa8460480a2cdbbd28890d535880c76647a25fb39a195d9c7c3b2b8a295a0ad8",
+        "coverage_sha256": "8ff329482ffea3426e43e10324df8d09c4cefdb43a075bf5a377091b28fc21b9"
+      }
+    },
+    "05-s047": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Potpuna tabela: b=0010,a=0110, R=0; N=4 do 0, svi operandni redovi i 10 stanja R; Sva četiri para bitova i operacije/pomeranja; završni 00001100. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "7ad88d6c699b0900ac270af5d7814a741522cc46c2ab82149f6b45e98dba2e3e",
+        "baseline_render_sha256": "ceebf38c108cce42de1f3232d2283d3991116f2338d0c6909beb4d66219b3b63",
+        "new_render_sha256": "55bc36a0dc74320bee7ef892e6b3305f7cf72028968765a94fdf80475b68aa83",
+        "notes_render_sha256": "37de6a4d9d654f97cf5bf9cdc406f1c848109cfd1a6815ba0e972b19dd92ec7d",
+        "slide_sources_sha256": "cc3e7e792a9b3ed0e83c098d67f0e90a5a9151f8fcbb3c435ee1a7f34fa932c2",
+        "notes_sources_sha256": "5ac8519722df7e2a482729b0aa26d0c20bfc6e24ebda87f94e49754ddf29b70d",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "04e8472a5e8a5dd4331aa77f1dd20e25fbcf91aa109e9ddf9b0c049d4369138f",
+        "coverage_sha256": "9f26198c429294e8a8de1dbce5b72be73a939eab831ee97356563ceb995c76f2"
+      }
+    },
+    "05-s048": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Ceo Boothov dijagram toka: inicijalizacija, tri odluke, oba zasebna aritmetička pomeranja, brojač i povratna grana. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "8a4e62a6caa5b99089b6b2aaf5644c8989317ef93032687733fd165067e52854",
+        "baseline_render_sha256": "b6afa30c4e735743e1a7d8cee4693561f23056795c60babaf25139cd8625fd4a",
+        "new_render_sha256": "d2fb40716a24c6d10ea3cfcbc53210761f89bf99c3ec180711cc3b4c6e3e63f4",
+        "notes_render_sha256": "738c29ef32f3b32cd19e64a5f4a2ff3d19daf9fae2b8f34c959299aa8eec8830",
+        "slide_sources_sha256": "015a5d2c93325ad59b698cbda3a41695839018f460b0674ade4f379cc6594d41",
+        "notes_sources_sha256": "571dc68657ddfa7df6618cf01272abfafd88faea8be0ceb12fa6e08ddfbb1992",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "d075f6633234a4955dc1a672029869174153cad86c75c13a5da62d34315ecc65",
+        "coverage_sha256": "d47b122dbdd9417ea0eaa6d8371bc2002fdac076df9c1f4b7c80074bd11d21e8"
+      }
+    },
+    "05-s049": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Celobrojni proizvod 2n bitova i donji n-bitni rezultat; Sva tri uslova gornjih bitova za pozitivan/negativan označen i neoznačen rezultat; Upozorenje na veliku grešku prekoračenja. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "9fc6ebfd871e15680d299e736281215bd3cd5660effbac145b65ce455ecfa9bb",
+        "baseline_render_sha256": "f81b45fc0345da91a565358fc2f95fa4e2592119c97caaaed45ca005dbcd234d",
+        "new_render_sha256": "4d8343e8c1179fb85b2df17ce3f6e43d0c23213cb7f0bd95c40ba95b006d4efa",
+        "notes_render_sha256": "3882b891b29aadbc8e91f23660efef7f240b9a52c469b8514cfc5fbecdd1f95c",
+        "slide_sources_sha256": "821ec31a738a6437b51d6f3bb2a391c34208d0f9dc539203003346e8921aa38f",
+        "notes_sources_sha256": "4c97bd9374450ba34c1656c2693fe7d787cb3dc9c7afb845e5b816eb4b35d59b",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "dc2c1245c911e19c81d92b00df5d16a8bbf542267752725497aff9d278217f6d",
+        "coverage_sha256": "dc0179c4253ed18f6cc7ed9e083e465f711701ec02f4fb30abc44124d24e3f88"
+      }
+    },
+    "05-s050": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Prikaz fiksne tačke operanada i izvorni raspored tačke proizvoda; Opseg −1≤a,b<1, proizvod i izuzetak oba operanda −1; Izvorni zadržani i odbačeni nizovi indeksa i primena u obradi signala. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Otvoreno: Binarna tačka i indeksi: grupa 5. Detalji i dokazi: provera/redizajn/otvorena_pitanja.md. Originalni sporni zapis nije samovoljno promenjen.",
+      "evidence": {
+        "source_render_sha256": "b9e2f182daae4fbdf2c9aef57bdad46407f236cfaa4a2c25898b9af0dc0f5db5",
+        "baseline_render_sha256": "4b4c944c6a4cf0d501b5cf29e9074d1d84fe5e1ac90df3a57859c302b5f4a488",
+        "new_render_sha256": "189889b697ab651a4b839fd79dd8cd9f92e3ee45cf0fb9f7530328ac2071a8f4",
+        "notes_render_sha256": "9e72c89fe2cb2b4ec8fe76e6446b798c6fa66f8686312491a67780e2c2eaf273",
+        "slide_sources_sha256": "354fa5e0ff1396f2d2fc45acd651ae2cb11eb65e567424da5482d17b36e24e0e",
+        "notes_sources_sha256": "f3ca06d164a9c58cdb87691012ed944547cd9827e51e1e1e8b307a2c8ff28fa8",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "8e9e468cf984b5780f015f618a0f6b2d2eb3fc2dfe276c027cc7acf4cf611208",
+        "coverage_sha256": "0f6a246bfef5aaf67c18230630de2d90c513d52a807b4270dad535c088153e2b"
+      }
+    },
+    "05-s051": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Izvorni primer odsecanja osmobitnog zapisa na četiri bita sa svim međuzapisima; Izvođenje razlike odbačenim delom i izvorna granica 15/128; Opšta izvorna granica (2^n−1)/2^(2n−1), sve jedinice i promena apsolutne vrednosti oba znaka. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Otvoreno: Preciznost proizvoda i granica: grupa 5. Detalji i dokazi: provera/redizajn/otvorena_pitanja.md. Originalni sporni zapis nije samovoljno promenjen.",
+      "evidence": {
+        "source_render_sha256": "d84a48d4cbb4e367f52429fe4bb56288d5f988ff5103a45a5e4eeb08486ed889",
+        "baseline_render_sha256": "f93c355a634cce0ae7c9f2d82b1722b91ad352b65bbaa8445528961fc586aad1",
+        "new_render_sha256": "5b67da70304fb4e1376f84cbce8d5b8a6989fc9be4aaedb9caba39ad5d6d3a85",
+        "notes_render_sha256": "9e96a0da1aa65e4f87dd2203247c85acbaf39b5380099939d1336211eacdfb0a",
+        "slide_sources_sha256": "b47fdbb248d395d70d956b5c932964e6b89eb3c6eecc6e5c767fe234d50dd28f",
+        "notes_sources_sha256": "1b27c3c7f6138603db8f66b7cd45bdc2c0dd0c522395e4111d5ebd2b20bbfadb",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "1f978315ff097828c17a34d7ae1f1c6735332111ea38e27fe0222ce5c4aff2f0",
+        "coverage_sha256": "4b8ed1775eff4edd13abc00d2f0ee5980f72caeead4c792a34830984e89ca86c"
+      }
+    },
+    "05-s052": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "problem"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Izvorni proizvod sa fiksnom tačkom i dodatak r, težina najmanjeg bita; Svih pet smerova zaokruživanja, izvorni dodaci i napomena o parnoj/neparnoj najbližoj vrednosti. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Otvoreno: Binarna tačka i dodatak r: grupe 5 i 6. Opšte objašnjenje zaokruživanja je provereno, ali izvorni dodatak bez uslova nije usklađen do odluke. Detalji i dokazi: provera/redizajn/otvorena_pitanja.md. Originalni sporni zapis nije samovoljno promenjen.",
+      "evidence": {
+        "source_render_sha256": "f7f0a6a924cbe06b62bdccf0dd897e0d960dc6e9fed05ef6236da257a0f3d89c",
+        "baseline_render_sha256": "0c177829176a05b3c3acc87bd0ed3319c7093183d6f5c85f085b52b31fcc02b5",
+        "new_render_sha256": "7a449b0b5a061e0792128a5e6a1245e23676b08cbb62400d19aed94f6401b469",
+        "notes_render_sha256": "5047d7736245b35215009586dbe248d600c4e3b0a10086635bcdabf4cdf515aa",
+        "slide_sources_sha256": "d9234a5e3064ee8d2d3aa55307e0ca8bbc4ce3c3682e4eb16f2cc8ea64e98bb0",
+        "notes_sources_sha256": "a08bd5edfa22bf968d9078cc7956f12a236659711ce30c72ea61417fe0af4476",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "dfc2e51b7a004497e92fa17570cf777553298e32d6d3ced205a21d9db533c5ab",
+        "coverage_sha256": "1237917db91406b5de749f4c9aa7197beb0c78181fa4c01b7ff11d9b0e15d332"
+      }
+    },
+    "05-s053": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "problem",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Potpuna tabela deljenja 74:8=1001010:1000: sva poravnanja, oznake M/N, izvorni uslovi i četiri strelice ka količniku; Količnik 1001 i ostatak 0010. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Otvoreno: Grana neuspeha R=<0: grupa 4. Preklapanje uslova za R=0: grupa 4. Detalji i dokazi: provera/redizajn/otvorena_pitanja.md. Originalni sporni zapis nije samovoljno promenjen.",
+      "evidence": {
+        "source_render_sha256": "6e4e5866c333b8112da891b6f95818f9918f6e684e4fa6e367abf7cf8bcd4a35",
+        "baseline_render_sha256": "74d5ae894b2baaa3501003f1a21846093b36f9b2a3f23bf304a63a4c883e0618",
+        "new_render_sha256": "0a82c98a3c2045472408c1d6a8204e439dfe89c056b2b7fcfa9dfd4561d9be21",
+        "notes_render_sha256": "17f4ee4f2d1a1041c21cd29a0a79568772c02d6bf58ec9d8e7514c00fc401f7d",
+        "slide_sources_sha256": "640bc9d6bf6c1793e5f9838588da9109a3c81ca63a494e885eaed4f64ffc27d4",
+        "notes_sources_sha256": "7cfc67407a239b65028f916fe5621ef14b11e46a15ba4ebfe2311e82dfa93e25",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "3f9d95aefed27284f7b80f05e72dc4810951e5c5852c9c3e5ca1d039c4f5d01c",
+        "coverage_sha256": "2751abebc208988e41f65b503ad1d89eedf46191df5db6ca46522ae85a0364d3"
+      }
+    },
+    "05-s054": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "problem",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Potpuna tabela probnog oduzimanja i vraćanja ostatka, sva poravnanja, izvorni uslovi, četiri strelice; Uslov za bit količnika i ALU postupak: oduzmi, ispitaј znak, pomeri i ponovi. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Otvoreno: Grana neuspeha R=<0: grupa 4. Preklapanje uslova za R=0: grupa 4. Detalji i dokazi: provera/redizajn/otvorena_pitanja.md. Originalni sporni zapis nije samovoljno promenjen.",
+      "evidence": {
+        "source_render_sha256": "5f60fd479e3c058bc4663065923e5290971ad6cad68d701e22b574287c64ddc9",
+        "baseline_render_sha256": "e5b03389b62c92c4eb942d16a3e2c8a82c430892c03fc6e72263425ce7566586",
+        "new_render_sha256": "704850afe74c147bde9df7495ce77816c7a9ce9fe69af5144edb1d204f06b2b1",
+        "notes_render_sha256": "db71f3291b076fffe382c1c0f26bda6a9bebd151bdb1333b5365932d82ba8ca6",
+        "slide_sources_sha256": "96775966c9d5a6621f34521de55310b26d927cf2d41d474caa0fb302b6aa84fb",
+        "notes_sources_sha256": "15aadb8ac8cefd4ffd277cd15e1f1adba775c29b31b8ed937815750f95bb01a9",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "936022aa00031e19e1499e586f7794b7ff3190aaa8b0b41297d244d92d70be3c",
+        "coverage_sha256": "63acdd7dd9f034e1b62e8455e87bae75fe6f7301eb1c61e8beecca608490e407"
+      }
+    },
+    "05-s055": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Vizuelno upoređeni originalni izdvojeni slajd, sačuvani početni prikaz, redizajnirana strana i A4 beleške istog ID-ja. Pročitani svi nastavnički tekstovi i proverena odredišta elemenata. Provereno: Četiri koraka označenog deljenja; Svih pet redova pseudokoda sa pamćenjem i obnovom znaka. Detalji i proverene dopune objašnjeni su nastavnim tekstom bez uredničke evidencije. Nema sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "0e854f16e70e7d956cbf1534881ead6af340fb74df6eb9b870506a4c7957544c",
+        "baseline_render_sha256": "160dc29f74583b2d733d4f7dc8f1a2e34d556d05e31e074be8bf27bbdde83a24",
+        "new_render_sha256": "21f996ca90573b3146eed01be643adbbbfc96f8bd3c4b4ca8a1f727b08c8e65f",
+        "notes_render_sha256": "5ddd5d6ddf44bc3c29b039f21f0c344432e2ab3b09b0a586a6f91af7593a63f2",
+        "slide_sources_sha256": "b95ef26772cfc678501302bb9914ef7228ed6f2acc0bf5ff6b8dd5b7e76ee3ad",
+        "notes_sources_sha256": "1baad5784cd6acc7ea7ed81ef3c03026835b34afab8bc64f63be2b177a533521",
+        "shared_sha256": "362eaa401a9787c91521cc08ac13533af73510a149c3d1b3ea3f3289a3c4c8d9",
+        "mapping_sha256": "c3bd6739035412a665972b0a37cd80d705c26873b16f72eb5685793a8511c14b",
+        "coverage_sha256": "95748f3f2b6d438a73fe0f32bdb2ca190dafa817ad324e72663b83d216d737c1"
+      }
+    }
+  }
+}

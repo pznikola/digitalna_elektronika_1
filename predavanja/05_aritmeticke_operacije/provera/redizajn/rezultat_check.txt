@@ -1,0 +1,19 @@
+make: Entering directory '/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja'
+python3 _alati/provera.py --lecture "05_aritmeticke_operacije"
+PDF redizajna: /home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/05_aritmeticke_operacije/build/05_aritmeticke_operacije.pdf
+PDF beležaka: /home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/05_aritmeticke_operacije/build/05_aritmeticke_operacije_beleske.pdf
+Pregled redizajna: /home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/05_aritmeticke_operacije/build/redizajn/pregled/index.html
+05_aritmeticke_operacije: NEZAVRŠENO
+  - 05-s014/formule: pregled nije potvrđen.
+  - 05-s024/tekst: pregled nije potvrđen.
+  - 05-s026/formule: pregled nije potvrđen.
+  - 05-s050/formule: pregled nije potvrđen.
+  - 05-s051/formule: pregled nije potvrđen.
+  - 05-s052/formule: pregled nije potvrđen.
+  - 05-s052/beleske: pregled nije potvrđen.
+  - 05-s053/formule: pregled nije potvrđen.
+  - 05-s053/tabele: pregled nije potvrđen.
+  - 05-s054/formule: pregled nije potvrđen.
+  - 05-s054/tabele: pregled nije potvrđen.
+make: *** [Makefile:11: check] Error 1
+make: Leaving directory '/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja'

@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "phase": "redizajn",
+  "lecture": "04",
+  "selected_style": "B",
+  "theme": "etf-v1",
+  "theme_manifest_sha256": "87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41",
+  "source_sha256": "e1f763084b19156c790ffe1f30b9d703081c8fbdc57e2ad9b2d9b73140ad1518",
+  "slide_ids": [
+    "04-s001",
+    "04-s002",
+    "04-s003",
+    "04-s004",
+    "04-s005",
+    "04-s006",
+    "04-s007",
+    "04-s008",
+    "04-s009",
+    "04-s010",
+    "04-s011",
+    "04-s012",
+    "04-s013",
+    "04-s014",
+    "04-s015",
+    "04-s016",
+    "04-s017",
+    "04-s018",
+    "04-s019",
+    "04-s020",
+    "04-s021",
+    "04-s022",
+    "04-s023",
+    "04-s024",
+    "04-s025",
+    "04-s026",
+    "04-s027",
+    "04-s028",
+    "04-s029",
+    "04-s030",
+    "04-s031",
+    "04-s032",
+    "04-s033",
+    "04-s034",
+    "04-s035",
+    "04-s036",
+    "04-s037",
+    "04-s038",
+    "04-s039"
+  ],
+  "baseline_sha256": "5bf89dc993feb89e00ac5efc6d03391bb135a660d1c4037f389c9d5de5367549",
+  "created": "2026-10-02T03:59:01.666455+00:00",
+  "build_record": "provera/redizajn/izgradnja.json",
+  "notes": {
+    "04-s001": {
+      "path": "beleske/s001.tex",
+      "title": "Brojni sistemi"
+    },
+    "04-s002": {
+      "path": "beleske/s002.tex",
+      "title": "Pozicioni brojni sistemi"
+    },
+    "04-s003": {
+      "path": "beleske/s003.tex",
+      "title": "Celobrojna i razlomljena vrednost"
+    },
+    "04-s004": {
+      "path": "beleske/s004.tex",
+      "title": "Granica razlomljene vrednosti"
+    },
+    "04-s005": {
+      "path": "beleske/s005.tex",
+      "title": "Prelazak u decimalni sistem"
+    },
+    "04-s006": {
+      "path": "beleske/s006.tex",
+      "title": "Primer: iz osnove 7 u osnovu 10"
+    },
+    "04-s007": {
+      "path": "beleske/s007.tex",
+      "title": "Prelazak iz decimalnog sistema"
+    },
+    "04-s008": {
+      "path": "beleske/s008.tex",
+      "title": "Celobrojni deo: uzastopno deljenje"
+    },
+    "04-s009": {
+      "path": "beleske/s009.tex",
+      "title": "Da li je celobrojni zapis uvek konačan?"
+    },
+    "04-s010": {
+      "path": "beleske/s010.tex",
+      "title": "Razlomljeni deo: uzastopno množenje"
+    },
+    "04-s011": {
+      "path": "beleske/s011.tex",
+      "title": "Da li je razlomljeni zapis uvek konačan?"
+    },
+    "04-s012": {
+      "path": "beleske/s012.tex",
+      "title": "Uslov konačnog razlomljenog zapisa"
+    },
+    "04-s013": {
+      "path": "beleske/s013.tex",
+      "title": "Primer: decimalni broj u binarnom sistemu"
+    },
+    "04-s014": {
+      "path": "beleske/s014.tex",
+      "title": "Deljenje u osnovi 7"
+    },
+    "04-s015": {
+      "path": "beleske/s015.tex",
+      "title": "Primer: uzastopno deljenje u osnovi 7"
+    },
+    "04-s016": {
+      "path": "beleske/s016.tex",
+      "title": "Kompatibilni brojni sistemi"
+    },
+    "04-s017": {
+      "path": "beleske/s017.tex",
+      "title": "Binarni, oktalni i heksadecimalni sistem"
+    },
+    "04-s018": {
+      "path": "beleske/s018.tex",
+      "title": "Cifre kompatibilnih sistema"
+    },
+    "04-s019": {
+      "path": "beleske/s019.tex",
+      "title": "Grupisanje celobrojnih cifara"
+    },
+    "04-s020": {
+      "path": "beleske/s020.tex",
+      "title": "Grupisanje razlomljenih cifara"
+    },
+    "04-s021": {
+      "path": "beleske/s021.tex",
+      "title": "Prikaz brojeva u digitalnom sistemu"
+    },
+    "04-s022": {
+      "path": "beleske/s022.tex",
+      "title": "Konačan broj informacija"
+    },
+    "04-s023": {
+      "path": "beleske/s023.tex",
+      "title": "Bit, bajt i reč"
+    },
+    "04-s024": {
+      "path": "beleske/s024.tex",
+      "title": "Koje informacije se nalaze u registru?"
+    },
+    "04-s025": {
+      "path": "beleske/s025.tex",
+      "title": "Registar kao binarni broj"
+    },
+    "04-s026": {
+      "path": "beleske/s026.tex",
+      "title": "Gde je binarna tačka?"
+    },
+    "04-s027": {
+      "path": "beleske/s027.tex",
+      "title": "Digresija: skaliranje vrednosti registra"
+    },
+    "04-s028": {
+      "path": "beleske/s028.tex",
+      "title": "Negativne vrednosti brojeva"
+    },
+    "04-s029": {
+      "path": "beleske/s029.tex",
+      "title": "Znak i apsolutna vrednost"
+    },
+    "04-s030": {
+      "path": "beleske/s030.tex",
+      "title": "Prikaz sa ofsetom"
+    },
+    "04-s031": {
+      "path": "beleske/s031.tex",
+      "title": "Prvi komplement"
+    },
+    "04-s032": {
+      "path": "beleske/s032.tex",
+      "title": "Drugi komplement"
+    },
+    "04-s033": {
+      "path": "beleske/s033.tex",
+      "title": "Komplement maksimalne vrednosti"
+    },
+    "04-s034": {
+      "path": "beleske/s034.tex",
+      "title": "Komplement osnove"
+    },
+    "04-s035": {
+      "path": "beleske/s035.tex",
+      "title": "Ponovljeno komplementiranje"
+    },
+    "04-s036": {
+      "path": "beleske/s036.tex",
+      "title": "Težina bita znaka u drugom komplementu"
+    },
+    "04-s037": {
+      "path": "beleske/s037.tex",
+      "title": "Drugi komplement i prikaz sa ofsetom"
+    },
+    "04-s038": {
+      "path": "beleske/s038.tex",
+      "title": "Negativna vrednost sa fiksnom tačkom"
+    },
+    "04-s039": {
+      "path": "beleske/s039.tex",
+      "title": "Prikaz sa pokretnom tačkom"
+    }
+  }
+}

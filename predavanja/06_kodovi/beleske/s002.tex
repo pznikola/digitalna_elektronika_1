@@ -1,0 +1,8 @@
+\BeleskeID{06-s002}
+% element: 06-s002:e04
+% element: 06-s002:d01
+Zastavice su informacije kodovane logičkim nulama i jedinicama, jednako kao i brojni podaci. Ista kodna reč rezultata može se tumačiti kao broj bez znaka ili kao broj u drugom komplementu, pa prenos i prekoračenje nisu ista pojava.
+
+Pri osmobitnom sabiranju $255+1$ rezultat u registru je $0$: zastavica nule je postavljena, a izlazni prenos ukazuje na prekoračenje neoznačenog opsega. Za označene operande $127+1$ nastaje kod $10000000$, pa je došlo do prekoračenja označenog opsega iako nema izlaznog prenosa.
+
+Sama aritmetička operacija ne donosi odluku šta program treba da uradi posle prekoračenja. Na višem programskom nivou korisnik proverava informacije kodovane u PSR-u i, ako je potrebno, preduzima odgovarajuću akciju. Pri oduzimanju tumačenje zastavice C kao prenosa ili pozajmice zavisi od dogovora konkretnog procesora.

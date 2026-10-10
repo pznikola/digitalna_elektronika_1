@@ -1,0 +1,16 @@
+\BeleskeID{04-s027}
+% element: 04-s027:e01 — Digresija i osmobitni registar 01101000
+% element: 04-s027:e02 — Razvijeni izraz RVr i rezultat skaliranja CVr/r^k
+% element: 04-s027:e03 — Tri položaja, zapisi i stvarne vrednosti CV/2^5, CV, CV/2^8; drugi položaji
+% element: 04-s027:e04 — Međukorak svođenja razlomljenih težina na zajednički imenilac
+% element: 04-s027:d01
+
+Svaku težinu sa negativnim eksponentom možemo prepisati sa zajedničkim imeniocem:
+\[\begin{aligned}
+RV_r&=c_{-1}r^{-1}+c_{-2}r^{-2}+\cdots+c_{-k+1}r^{-k+1}+c_{-k}r^{-k}\\
+&=\frac{c_{-1}r^{k-1}+c_{-2}r^{k-2}+\cdots+c_{-k+1}r^1+c_{-k}r^0}{r^k}\\
+&=\frac{CV_r}{r^k}.
+\end{aligned}\]
+Brojilac je vrednost istog niza cifara kada ga čitamo kao celobrojni zapis. Isti princip skaliranja primenjujemo na celu reč registra: ako je $k$ bitova desno od tačke, neoznačenu celobrojnu vrednost delimo sa $2^k$.
+
+Za sadržaj $01101000$ celobrojna vrednost je $104$. Tačka iza $D_5$ daje $104/2^5=3.25$; iza $D_0$ daje $104$; ispred $D_7$ daje $104/2^8=0.40625$. Različite vrednosti nastaju zbog položaja tačke, bez promene bitova.

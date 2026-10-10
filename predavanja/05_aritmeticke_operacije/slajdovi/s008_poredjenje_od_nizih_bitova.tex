@@ -1,9 +1,13 @@
 \input{slike/tikz/komparator_simbol.tex}
 \slajdid{05-s008}
-\begin{frame}[label=05-s008]
-\gusttekst
-Samu logiku možemo da posmatramo i „odozdo na gore“ u smislu: Ako je $A0>B0$ onda će rezultat zavisiti od viših bita, odnosno samo ako je $A1=B1$ „tek onda“ je $A>B$. Itd. Ovo možemo da proširimo u opštem slučaju. Poredimo bite $Ai,Bi$ i dotadašnji rezultat prosleđujemo na gore.
+% element: 05-s008:e01
+% element: 05-s008:e02
+% element: 05-s008:e03
+\begin{frame}[label=05-s008]{Poređenje od nižih bitova}
+\fontsize{10}{12}\selectfont
+Poređenje „odozdo na gore“: rezultat za niže bite prosleđujemo ka višim.
+Ako je $A0>B0$, tek uz $A1=B1$ sledi $A>B$.\par\vspace{2mm}
 \centering\setlength{\parskip}{0pt}
-\def\DEprosiren{2}\def\DEunit{.60cm}\input{slike/tikz/komparator_jezgro.tex}\par
-\input{slike/tikz/s008_komparator_vodoravni.tex}
+\def\DEprosiren{2}\def\DEunit{.64cm}\def\DEyunit{.35cm}\input{slike/tikz/komparator_jezgro.tex}\par
+\begin{tikzpicture}[x=.60cm,y=.55cm,font=\fontsize{9}{11}\selectfont]\Komparator{s}{0}{0}\end{tikzpicture}
 \end{frame}

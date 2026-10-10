@@ -1,0 +1,1179 @@
+{
+  "slides": {
+    "04-s001": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s001:e01",
+          "description": "Naslov Brojni sistemi",
+          "source": "PDF strana 1, gornji slajd; Naslov Brojni sistemi",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s001:e02",
+          "description": "Autor, katedra i školska godina u izvornom podnožju",
+          "source": "PDF strana 1, gornji slajd; Autor, katedra i školska godina u izvornom podnožju",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s002": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s002:e01",
+          "description": "Hindu/Indo-Arabik i istorijski razvoj: Aryabhata, Brahmagupta, al-Uqlidisi",
+          "source": "PDF strana 1, donji slajd; Hindu/Indo-Arabik i istorijski razvoj: Aryabhata, Brahmagupta, al-Uqlidisi",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s002:e02",
+          "description": "Precrtana digresija: vavilonski, rimski, majanski sistemi",
+          "source": "PDF strana 1, donji slajd; Precrtana digresija: vavilonski, rimski, majanski sistemi",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s002:e03",
+          "description": "Radiks r i celobrojna osnova; skup cifara ci i za sada pozitivna vrednost V",
+          "source": "PDF strana 1, donji slajd; Radiks r i celobrojna osnova; skup cifara ci i za sada pozitivna vrednost V",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s002:e04",
+          "description": "Pozicioni zapis, n celih i k razlomljenih mesta i tačka osnove",
+          "source": "PDF strana 1, donji slajd; Pozicioni zapis, n celih i k razlomljenih mesta i tačka osnove",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s002:e05",
+          "description": "Težinska suma V i težina ri",
+          "source": "PDF strana 1, donji slajd; Težinska suma V i težina ri",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s003": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s003:e01",
+          "description": "Rastavljanje sume V na CV i RV",
+          "source": "PDF strana 2, gornji slajd; Rastavljanje sume V na CV i RV",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s003:e02",
+          "description": "Zapisi celobrojnog i razlomljenog dela; značenje prefiksa 0.",
+          "source": "PDF strana 2, gornji slajd; Zapisi celobrojnog i razlomljenog dela; značenje prefiksa 0.",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s003:e03",
+          "description": "Vodeće nule celobrojnog dela sa parom ekvivalentnih zapisa",
+          "source": "PDF strana 2, gornji slajd; Vodeće nule celobrojnog dela sa parom ekvivalentnih zapisa",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s003:e04",
+          "description": "Prateće nule razlomljenog dela sa parom ekvivalentnih zapisa",
+          "source": "PDF strana 2, gornji slajd; Prateće nule razlomljenog dela sa parom ekvivalentnih zapisa",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s004": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s004:e01",
+          "description": "Suma RV i maksimalna cifra r−1 za zadati skup cifara",
+          "source": "PDF strana 2, donji slajd; Suma RV i maksimalna cifra r−1 za zadati skup cifara",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s004:e02",
+          "description": "Razvijanje maksimalne vrednosti i prikaz poništavanja članova",
+          "source": "PDF strana 2, donji slajd; Razvijanje maksimalne vrednosti i prikaz poništavanja članova",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s004:e03",
+          "description": "Rezultat RVmax=1−r^(−k)<1",
+          "source": "PDF strana 2, donji slajd; Rezultat RVmax=1−r^(−k)<1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s004:e04",
+          "description": "Uticaj broja mesta i osnove; uslov celobrojne osnove",
+          "source": "PDF strana 2, donji slajd; Uticaj broja mesta i osnove; uslov celobrojne osnove",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s005": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s005:e01",
+          "description": "Pozicioni zapis broja i zapis sa indeksom osnove r",
+          "source": "PDF strana 3, gornji slajd; Pozicioni zapis broja i zapis sa indeksom osnove r",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s005:e02",
+          "description": "Prelazak u osnovu 10 preko sume ci ri",
+          "source": "PDF strana 3, gornji slajd; Prelazak u osnovu 10 preko sume ci ri",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s005:e03",
+          "description": "Operacije se izvršavaju u decimalnom sistemu",
+          "source": "PDF strana 3, gornji slajd; Operacije se izvršavaju u decimalnom sistemu",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s006": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s006:e01",
+          "description": "Primer 326.23 u osnovi 7 i sva težinska množenja; 167+17/49",
+          "source": "PDF strana 3, donji slajd; Primer 326.23 u osnovi 7 i sva težinska množenja; 167+17/49",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s006:e02",
+          "description": "Oba decimalna niza iz originala za 17/49 i kompletnu vrednost",
+          "source": "PDF strana 3, donji slajd; Oba decimalna niza iz originala za 17/49 i kompletnu vrednost",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s006:e03",
+          "description": "Zaključak o konačnom ili beskonačnom zapisu pri promeni osnove",
+          "source": "PDF strana 3, donji slajd; Zaključak o konačnom ili beskonačnom zapisu pri promeni osnove",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s006:e04",
+          "description": "Komentar o školskom računanju razlomcima i želji za standardnim zapisom",
+          "source": "PDF strana 3, donji slajd; Komentar o školskom računanju razlomcima i želji za standardnim zapisom",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "04-s007": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s007:e01",
+          "description": "Traženje cifara u osnovi r i skup mogućih cifara",
+          "source": "PDF strana 4, gornji slajd; Traženje cifara u osnovi r i skup mogućih cifara",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s007:e02",
+          "description": "Suma V10 i razdvajanje na CV10+RV10",
+          "source": "PDF strana 4, gornji slajd; Suma V10 i razdvajanje na CV10+RV10",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s007:e03",
+          "description": "Razvijeni izrazi celobrojnog i razlomljenog dela",
+          "source": "PDF strana 4, gornji slajd; Razvijeni izrazi celobrojnog i razlomljenog dela",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s008": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s008:e01",
+          "description": "Deljenje CV10 sa r i izdvajanje ostatka c0, uz c0/r<1 i skup cifara",
+          "source": "PDF strana 4, donji slajd; Deljenje CV10 sa r i izdvajanje ostatka c0, uz c0/r<1 i skup cifara",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s008:e02",
+          "description": "Naredno deljenje količnika i ostatak c1",
+          "source": "PDF strana 4, donji slajd; Naredno deljenje količnika i ostatak c1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s008:e03",
+          "description": "Uslov zaustavljanja i vodeća cifra cn−1; nastavak daje vodeće nule",
+          "source": "PDF strana 4, donji slajd; Uslov zaustavljanja i vodeća cifra cn−1; nastavak daje vodeće nule",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s008:e04",
+          "description": "Početno razvijanje deljenika pre deljenja svih težina sa r",
+          "source": "PDF strana 4, donji slajd; Početno razvijanje deljenika pre deljenja svih težina sa r",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "04-s009": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s009:e01",
+          "description": "Pitanje konačnosti celobrojnog zapisa i uslov za poslednju cifru",
+          "source": "PDF strana 5, gornji slajd; Pitanje konačnosti celobrojnog zapisa i uslov za poslednju cifru",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s009:e02",
+          "description": "Uslov CV10/r^n<1 i CV10<r^n",
+          "source": "PDF strana 5, gornji slajd; Uslov CV10/r^n<1 i CV10<r^n",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s009:e03",
+          "description": "Izvorni logaritamski uslov n≥log_r CV10",
+          "source": "PDF strana 5, gornji slajd; Izvorni logaritamski uslov n≥log_r CV10",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s010": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s010:e01",
+          "description": "Množenje RV10 sa r i izdvajanje c−1; razvijene težine i skup cifara",
+          "source": "PDF strana 5, donji slajd; Množenje RV10 sa r i izdvajanje c−1; razvijene težine i skup cifara",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s010:e02",
+          "description": "Naredno množenje razlomljenog ostatka i izdvajanje c−2",
+          "source": "PDF strana 5, donji slajd; Naredno množenje razlomljenog ostatka i izdvajanje c−2",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s010:e03",
+          "description": "Uslov nultog ostatka i nastavak sa pratećim nulama",
+          "source": "PDF strana 5, donji slajd; Uslov nultog ostatka i nastavak sa pratećim nulama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s010:e04",
+          "description": "Početno razvijanje svih članova pre množenja sa r",
+          "source": "PDF strana 5, donji slajd; Početno razvijanje svih članova pre množenja sa r",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "04-s011": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s011:e01",
+          "description": "Ponovljeno pitanje o konačnom broju razlomljenih cifara",
+          "source": "PDF strana 6, gornji slajd; Ponovljeno pitanje o konačnom broju razlomljenih cifara",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s011:e02",
+          "description": "Uslov zaustavljanja: nulti ostatak i nulta sledeća cifra",
+          "source": "PDF strana 6, gornji slajd; Uslov zaustavljanja: nulti ostatak i nulta sledeća cifra",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s012": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s012:e01",
+          "description": "Razvijanje RVr preko težina i zajedničkog imenioca; RVr=CVr/r^k",
+          "source": "PDF strana 6, donji slajd; Razvijanje RVr preko težina i zajedničkog imenioca; RVr=CVr/r^k",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s012:e02",
+          "description": "Jednakost razlomaka sa l decimalnih i k cifara osnove r",
+          "source": "PDF strana 6, donji slajd; Jednakost razlomaka sa l decimalnih i k cifara osnove r",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s012:e03",
+          "description": "Izraz za traženu celobrojnu vrednost (CVr)k",
+          "source": "PDF strana 6, donji slajd; Izraz za traženu celobrojnu vrednost (CVr)k",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s012:e04",
+          "description": "Uslov nije uvek dostižan; nulti ostatak ili dovoljan broj cifara",
+          "source": "PDF strana 6, donji slajd; Uslov nije uvek dostižan; nulti ostatak ili dovoljan broj cifara",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s013": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s013:e01",
+          "description": "Tabelarni postupak 13:2 sa svih pet redova i naglašenim poslednjim nenultim korakom",
+          "source": "PDF strana 7, gornji slajd; Tabelarni postupak 13:2 sa svih pet redova i naglašenim poslednjim nenultim korakom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s013:e02",
+          "description": "Tabelarni postupak 0.2×2 sa svih devet koraka i oznakom nastavka",
+          "source": "PDF strana 7, gornji slajd; Tabelarni postupak 0.2×2 sa svih devet koraka i oznakom nastavka",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s013:e03",
+          "description": "Obe strelice čitanja cifara i rezultat 13.2=1101.001100110…",
+          "source": "PDF strana 7, gornji slajd; Obe strelice čitanja cifara i rezultat 13.2=1101.001100110…",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s013:e04",
+          "description": "Tačniji konačan zapis, dogovor broja cifara i tačni primeri 0.5, 0.25, 0.75",
+          "source": "PDF strana 7, gornji slajd; Tačniji konačan zapis, dogovor broja cifara i tačni primeri 0.5, 0.25, 0.75",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s014": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s014:e01",
+          "description": "Vp=Vq i mogućnost prelaska preko decimalnog sistema bez obaveze",
+          "source": "PDF strana 7, donji slajd; Vp=Vq i mogućnost prelaska preko decimalnog sistema bez obaveze",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s014:e02",
+          "description": "Primer 236 u osnovi 7 u binarni sistem",
+          "source": "PDF strana 7, donji slajd; Primer 236 u osnovi 7 u binarni sistem",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s014:e03",
+          "description": "Tri koraka deljenja, delovi broja, ostaci i količnik 116",
+          "source": "PDF strana 7, donji slajd; Tri koraka deljenja, delovi broja, ostaci i količnik 116",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s014:e04",
+          "description": "Navika na decimalne tablice i potreba ustanovljavanja algoritama",
+          "source": "PDF strana 7, donji slajd; Navika na decimalne tablice i potreba ustanovljavanja algoritama",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s015": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s015:e01",
+          "description": "Svih sedam redova deljenja u osnovi 7",
+          "source": "PDF strana 8, gornji slajd; Svih sedam redova deljenja u osnovi 7",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s015:e02",
+          "description": "Strelica čitanja ostataka i rezultat 236_7=1111101_2",
+          "source": "PDF strana 8, gornji slajd; Strelica čitanja ostataka i rezultat 236_7=1111101_2",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s015:e03",
+          "description": "Decimalna provera oba zapisa, sa svim težinama",
+          "source": "PDF strana 8, gornji slajd; Decimalna provera oba zapisa, sa svim težinama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s015:e04",
+          "description": "Sedam cifara, maksimum 127 i nedostajući član težine 2^1",
+          "source": "PDF strana 8, gornji slajd; Sedam cifara, maksimum 127 i nedostajući član težine 2^1",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s016": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s016:e01",
+          "description": "Odnos osnova p=q^k i transformacija svake cifre",
+          "source": "PDF strana 8, donji slajd; Odnos osnova p=q^k i transformacija svake cifre",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s016:e02",
+          "description": "Razvijanje CVp pomoću p i zamena stepenima q",
+          "source": "PDF strana 8, donji slajd; Razvijanje CVp pomoću p i zamena stepenima q",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s016:e03",
+          "description": "Skupovi cifara p i q; razrada jedne cifre preko k manjih cifara",
+          "source": "PDF strana 8, donji slajd; Skupovi cifara p i q; razrada jedne cifre preko k manjih cifara",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s016:e04",
+          "description": "Završni izraz CVq sa dvostrukim indeksima u izvornom zapisu",
+          "source": "PDF strana 8, donji slajd; Završni izraz CVq sa dvostrukim indeksima u izvornom zapisu",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s016:e05",
+          "description": "Obrnuti prelazak grupisanjem po k cifara",
+          "source": "PDF strana 8, donji slajd; Obrnuti prelazak grupisanjem po k cifara",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s017": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s017:e01",
+          "description": "Binarni, oktalni, heksadecimalni sistemi, osnove i svi skupovi cifara",
+          "source": "PDF strana 9, gornji slajd; Binarni, oktalni, heksadecimalni sistemi, osnove i svi skupovi cifara",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s017:e02",
+          "description": "Obe dvostrane veze kompatibilnosti",
+          "source": "PDF strana 9, gornji slajd; Obe dvostrane veze kompatibilnosti",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s018": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s018:e01",
+          "description": "Svih osam oktalnih cifara i trobitni zapisi; k=3",
+          "source": "PDF strana 9, donji slajd; Svih osam oktalnih cifara i trobitni zapisi; k=3",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s018:e02",
+          "description": "Svih šesnaest heksadecimalnih cifara i četvorobitni zapisi; k=4",
+          "source": "PDF strana 9, donji slajd; Svih šesnaest heksadecimalnih cifara i četvorobitni zapisi; k=4",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s019": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s019:e01",
+          "description": "Primer 1AC3_16: prevod svake cifre i uklanjanje tri vodeće nule",
+          "source": "PDF strana 10, gornji slajd; Primer 1AC3_16: prevod svake cifre i uklanjanje tri vodeće nule",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s019:e02",
+          "description": "Primer 10100010010101101_2: grupisanje zdesna i dodavanje nula",
+          "source": "PDF strana 10, gornji slajd; Primer 10100010010101101_2: grupisanje zdesna i dodavanje nula",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s019:e03",
+          "description": "Konačni rezultat 144AD_16 i analogija sa trocifrenim oktalnim grupama",
+          "source": "PDF strana 10, gornji slajd; Konačni rezultat 144AD_16 i analogija sa trocifrenim oktalnim grupama",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s020": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s020:e01",
+          "description": "Pravci grupisanja celobrojnih i razlomljenih cifara od tačke",
+          "source": "PDF strana 10, donji slajd; Pravci grupisanja celobrojnih i razlomljenih cifara od tačke",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s020:e02",
+          "description": "Primer 1A.3C_16 sa prevođenjem i uklanjanjem vodećih/pratećih nula",
+          "source": "PDF strana 10, donji slajd; Primer 1A.3C_16 sa prevođenjem i uklanjanjem vodećih/pratećih nula",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s020:e03",
+          "description": "Primer 101100.1011011_2 sa dopunom grupa i rezultatom 2C.B6_16",
+          "source": "PDF strana 10, donji slajd; Primer 101100.1011011_2 sa dopunom grupa i rezultatom 2C.B6_16",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s020:e04",
+          "description": "Oktalna analogija sa grupama po tri cifre",
+          "source": "PDF strana 10, donji slajd; Oktalna analogija sa grupama po tri cifre",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s021": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s021:e01",
+          "description": "Konačna dužina prikaza/reči i apstraktni signali A i S",
+          "source": "PDF strana 11, gornji slajd; Konačna dužina prikaza/reči i apstraktni signali A i S",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s021:e02",
+          "description": "Blok-prikaz dva registra i magistrale",
+          "source": "PDF strana 11, gornji slajd; Blok-prikaz dva registra i magistrale",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s021:e03",
+          "description": "Čuvanje informacija u registrima i razmena magistralom",
+          "source": "PDF strana 11, gornji slajd; Čuvanje informacija u registrima i razmena magistralom",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s022": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s022:e01",
+          "description": "Logičke nule/jedinice u registrima i magistrali; realan fizički svet",
+          "source": "PDF strana 11, donji slajd; Logičke nule/jedinice u registrima i magistrali; realan fizički svet",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s022:e02",
+          "description": "Tabela konačnog broja mesta registra, sa imenima i obe moguće vrednosti",
+          "source": "PDF strana 11, donji slajd; Tabela konačnog broja mesta registra, sa imenima i obe moguće vrednosti",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s022:e03",
+          "description": "Konačan broj informacija koje magistrala prenosi",
+          "source": "PDF strana 11, donji slajd; Konačan broj informacija koje magistrala prenosi",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s022:e04",
+          "description": "Prikaz tri fizičke linije sa oznakom nastavka, konačan N i 0/1",
+          "source": "PDF strana 11, donji slajd; Prikaz tri fizičke linije sa oznakom nastavka, konačan N i 0/1",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s023": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s023:e01",
+          "description": "Bit, nibble, byte, word, double word; dužine i grupisanje",
+          "source": "PDF strana 12, gornji slajd; Bit, nibble, byte, word, double word; dužine i grupisanje",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s023:e02",
+          "description": "Tabela osmobitnog registra Di/bi; isto važi za magistralu",
+          "source": "PDF strana 12, gornji slajd; Tabela osmobitnog registra Di/bi; isto važi za magistralu",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s023:e03",
+          "description": "Informacija na poziciji Di i tumačenje MSB/LSB",
+          "source": "PDF strana 12, gornji slajd; Informacija na poziciji Di i tumačenje MSB/LSB",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s024": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s024:e01",
+          "description": "Registar sa svih osam izvornih logičkih vrednosti",
+          "source": "PDF strana 12, donji slajd; Registar sa svih osam izvornih logičkih vrednosti",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s024:e02",
+          "description": "Pitanje značenja; primer toplote i uključenja svetla na D6",
+          "source": "PDF strana 12, donji slajd; Pitanje značenja; primer toplote i uključenja svetla na D6",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s024:e03",
+          "description": "Projektant daje značenje, način obrade i poziciju informacije",
+          "source": "PDF strana 12, donji slajd; Projektant daje značenje, način obrade i poziciju informacije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s024:e04",
+          "description": "Kompletna informacija može biti broj",
+          "source": "PDF strana 12, donji slajd; Kompletna informacija može biti broj",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s025": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s025:e01",
+          "description": "Digitalni sistem za brojeve i veza logičkih/binarnih 0 i 1",
+          "source": "PDF strana 13, gornji slajd; Digitalni sistem za brojeve i veza logičkih/binarnih 0 i 1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s025:e02",
+          "description": "Izostavljanje apostrofa; osam cifara registra",
+          "source": "PDF strana 13, gornji slajd; Izostavljanje apostrofa; osam cifara registra",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s025:e03",
+          "description": "Projektant određuje da li je sadržaj logička informacija ili cifra",
+          "source": "PDF strana 13, gornji slajd; Projektant određuje da li je sadržaj logička informacija ili cifra",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s025:e04",
+          "description": "Lanac ekvivalentnih zapisa 01101000, 68, 0x68, x68, 68h, 104 i pitanje sigurnosti",
+          "source": "PDF strana 13, gornji slajd; Lanac ekvivalentnih zapisa 01101000, 68, 0x68, x68, 68h, 104 i pitanje sigurnosti",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s026": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s026:e01",
+          "description": "Pitanje binarne tačke i mogućnost celobrojnog, razlomljenog ili mešovitog zapisa",
+          "source": "PDF strana 13, donji slajd; Pitanje binarne tačke i mogućnost celobrojnog, razlomljenog ili mešovitog zapisa",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s026:e02",
+          "description": "Registar 01101000 i nemogućnost posebnog koda tačke sa 0 i 1",
+          "source": "PDF strana 13, donji slajd; Registar 01101000 i nemogućnost posebnog koda tačke sa 0 i 1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s026:e03",
+          "description": "Projektant predviđa položaj; oba podatka o značenju moraju biti poznata",
+          "source": "PDF strana 13, donji slajd; Projektant predviđa položaj; oba podatka o značenju moraju biti poznata",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s026:e04",
+          "description": "Primeri tačke iza D5, iza D0, ispred D7 i drugi položaji",
+          "source": "PDF strana 13, donji slajd; Primeri tačke iza D5, iza D0, ispred D7 i drugi položaji",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s027": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s027:e01",
+          "description": "Digresija i osmobitni registar 01101000",
+          "source": "PDF strana 14, gornji slajd; Digresija i osmobitni registar 01101000",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s027:e02",
+          "description": "Razvijeni izraz RVr i rezultat skaliranja CVr/r^k",
+          "source": "PDF strana 14, gornji slajd; Razvijeni izraz RVr i rezultat skaliranja CVr/r^k",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s027:e03",
+          "description": "Tri položaja, zapisi i stvarne vrednosti CV/2^5, CV, CV/2^8; drugi položaji",
+          "source": "PDF strana 14, gornji slajd; Tri položaja, zapisi i stvarne vrednosti CV/2^5, CV, CV/2^8; drugi položaji",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s027:e04",
+          "description": "Međukorak svođenja razlomljenih težina na zajednički imenilac",
+          "source": "PDF strana 14, gornji slajd; Međukorak svođenja razlomljenih težina na zajednički imenilac",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "04-s028": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s028:e01",
+          "description": "Pitanje jednoznačnosti i negativnih brojeva",
+          "source": "PDF strana 14, donji slajd; Pitanje jednoznačnosti i negativnih brojeva",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s028:e02",
+          "description": "Prelazak −Vp=−(Vp)=−(Vq)=−Vq preko apsolutne vrednosti",
+          "source": "PDF strana 14, donji slajd; Prelazak −Vp=−(Vp)=−(Vq)=−Vq preko apsolutne vrednosti",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s028:e03",
+          "description": "Digitalni sistem nema poseban nivo za minus; potrebno kodovanje",
+          "source": "PDF strana 14, donji slajd; Digitalni sistem nema poseban nivo za minus; potrebno kodovanje",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s028:e04",
+          "description": "Četvorobitni sistem, 16 kodova, dve polovine i celobrojne vrednosti",
+          "source": "PDF strana 14, donji slajd; Četvorobitni sistem, 16 kodova, dve polovine i celobrojne vrednosti",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s029": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s029:e01",
+          "description": "Tabela svih 16 kodova, neoznačenih i označenih vrednosti, uključujući −0",
+          "source": "PDF strana 15, gornji slajd; Tabela svih 16 kodova, neoznačenih i označenih vrednosti, uključujući −0",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s029:e02",
+          "description": "Bit znaka D3 i njegova dva značenja",
+          "source": "PDF strana 15, gornji slajd; Bit znaka D3 i njegova dva značenja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s029:e03",
+          "description": "D2D1D0 predstavlja apsolutnu vrednost",
+          "source": "PDF strana 15, gornji slajd; D2D1D0 predstavlja apsolutnu vrednost",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s030": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s030:e01",
+          "description": "Tabela svih 16 kodova sa neoznačenom vrednošću i ofsetom −8",
+          "source": "PDF strana 15, donji slajd; Tabela svih 16 kodova sa neoznačenom vrednošću i ofsetom −8",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s030:e02",
+          "description": "Sva četiri bita predstavljaju neoznačeni pozitivan broj",
+          "source": "PDF strana 15, donji slajd; Sva četiri bita predstavljaju neoznačeni pozitivan broj",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s030:e03",
+          "description": "Dodavanje ofseta −8 daje stvarnu vrednost",
+          "source": "PDF strana 15, donji slajd; Dodavanje ofseta −8 daje stvarnu vrednost",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s031": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s031:e01",
+          "description": "Tabela prvog komplementa sa svih 16 kodova i obe nule",
+          "source": "PDF strana 16, gornji slajd; Tabela prvog komplementa sa svih 16 kodova i obe nule",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s031:e02",
+          "description": "Pozitivni D3=0 i prikaz negativnog oduzimanjem od maksimuma",
+          "source": "PDF strana 16, gornji slajd; Pozitivni D3=0 i prikaz negativnog oduzimanjem od maksimuma",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s031:e03",
+          "description": "Primer −3=1111−0011=1100 i bit znaka",
+          "source": "PDF strana 16, gornji slajd; Primer −3=1111−0011=1100 i bit znaka",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s032": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s032:e01",
+          "description": "Tabela drugog komplementa sa svih 16 kodova",
+          "source": "PDF strana 16, donji slajd; Tabela drugog komplementa sa svih 16 kodova",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s032:e02",
+          "description": "Pozitivni D3=0 i negativni prikaz od maksimuma+1",
+          "source": "PDF strana 16, donji slajd; Pozitivni D3=0 i negativni prikaz od maksimuma+1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s032:e03",
+          "description": "Primer −3=1111+1−0011=1100+1=1101 i bit znaka",
+          "source": "PDF strana 16, donji slajd; Primer −3=1111+1−0011=1100+1=1101 i bit znaka",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s033": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s033:e01",
+          "description": "Razlog uvođenja oba komplementa radi prikaza i aritmetike",
+          "source": "PDF strana 17, gornji slajd; Razlog uvođenja oba komplementa radi prikaza i aritmetike",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s033:e02",
+          "description": "Definicija komplementa maksimalne vrednosti za r i n",
+          "source": "PDF strana 17, gornji slajd; Definicija komplementa maksimalne vrednosti za r i n",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s033:e03",
+          "description": "Binarni prvi komplement i invertovanje svih bita sa formulom",
+          "source": "PDF strana 17, gornji slajd; Binarni prvi komplement i invertovanje svih bita sa formulom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s033:e04",
+          "description": "Decimalni primer: tri cifre, 1000 kodova, 0–499, −123=876, podela vodećih cifara",
+          "source": "PDF strana 17, gornji slajd; Decimalni primer: tri cifre, 1000 kodova, 0–499, −123=876, podela vodećih cifara",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s034": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s034:e01",
+          "description": "Definicija komplementa osnove i veza sa maksimumom+1 za r i n",
+          "source": "PDF strana 17, donji slajd; Definicija komplementa osnove i veza sa maksimumom+1 za r i n",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s034:e02",
+          "description": "Binarni drugi komplement invertovanjem bita+1 i formula",
+          "source": "PDF strana 17, donji slajd; Binarni drugi komplement invertovanjem bita+1 i formula",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s034:e03",
+          "description": "Decimalni primer: 1000 kodova, 0–499, −123=877 i podela vodećih cifara",
+          "source": "PDF strana 17, donji slajd; Decimalni primer: 1000 kodova, 0–499, −123=877 i podela vodećih cifara",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s034:e04",
+          "description": "Izvorni naziv decimalnog primera: komplement 9-tke",
+          "source": "PDF strana 17, donji slajd; Izvorni naziv decimalnog primera: komplement 9-tke",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s035": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s035:e01",
+          "description": "Dva prikaza nule kod komplementa maksimuma",
+          "source": "PDF strana 18, gornji slajd; Dva prikaza nule kod komplementa maksimuma",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s035:e02",
+          "description": "Asimetrija drugog komplementa i veća apsolutna negativna vrednost",
+          "source": "PDF strana 18, gornji slajd; Asimetrija drugog komplementa i veća apsolutna negativna vrednost",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s035:e03",
+          "description": "Isto komplementiranje za apsolutnu vrednost; potrebno poznavanje koda",
+          "source": "PDF strana 18, gornji slajd; Isto komplementiranje za apsolutnu vrednost; potrebno poznavanje koda",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s035:e04",
+          "description": "Obe izvorne formule ponovljenog komplementiranja",
+          "source": "PDF strana 18, gornji slajd; Obe izvorne formule ponovljenog komplementiranja",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s036": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s036:e01",
+          "description": "Negativna vrednost i komplementiranje sa minusom",
+          "source": "PDF strana 18, donji slajd; Negativna vrednost i komplementiranje sa minusom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s036:e02",
+          "description": "Početak izvođenja i rezultat preko bita najveće težine",
+          "source": "PDF strana 18, donji slajd; Početak izvođenja i rezultat preko bita najveće težine",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s036:e03",
+          "description": "Uslov bn−1=1 i negativna težina vodećeg bita",
+          "source": "PDF strana 18, donji slajd; Uslov bn−1=1 i negativna težina vodećeg bita",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s036:e04",
+          "description": "Naglašen zapis (−bn−1)bn−2…b0",
+          "source": "PDF strana 18, donji slajd; Naglašen zapis (−bn−1)bn−2…b0",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s036:e05",
+          "description": "Dva algebarska međukoraka izdvajanja faktora 2^(n−1)",
+          "source": "PDF strana 18, donji slajd; Dva algebarska međukoraka izdvajanja faktora 2^(n−1)",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "04-s037": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s037:e01",
+          "description": "Poređenje drugog komplementa i ofseta",
+          "source": "PDF strana 19, gornji slajd; Poređenje drugog komplementa i ofseta",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s037:e02",
+          "description": "Svih 16 vrednosti od −8 do 7 i oba četvorobitna koda",
+          "source": "PDF strana 19, gornji slajd; Svih 16 vrednosti od −8 do 7 i oba četvorobitna koda",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s038": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s038:e01",
+          "description": "MSB za znak i krajnji položaj tačke iza MSB-a",
+          "source": "PDF strana 19, donji slajd; MSB za znak i krajnji položaj tačke iza MSB-a",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s038:e02",
+          "description": "Komplementiranje kao celobrojno pa skaliranje RVr=CVr/r^k",
+          "source": "PDF strana 19, donji slajd; Komplementiranje kao celobrojno pa skaliranje RVr=CVr/r^k",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s038:e03",
+          "description": "Primer 4 bita: 0.75, 0.110, 0110 i negativni 1010",
+          "source": "PDF strana 19, donji slajd; Primer 4 bita: 0.75, 0.110, 0110 i negativni 1010",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s038:e04",
+          "description": "Težinska provera −0.75 sa sva četiri člana",
+          "source": "PDF strana 19, donji slajd; Težinska provera −0.75 sa sva četiri člana",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "04-s039": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "04-s039:e01",
+          "description": "Prethodni prikaz sa fiksnom tačkom i floating point",
+          "source": "PDF strana 20, gornji slajd; Prethodni prikaz sa fiksnom tačkom i floating point",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s039:e02",
+          "description": "Dva registra ili dva dela jednog registra: mantisa i eksponent",
+          "source": "PDF strana 20, gornji slajd; Dva registra ili dva dela jednog registra: mantisa i eksponent",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s039:e03",
+          "description": "Formula V=mantisa×osnova^eksponent",
+          "source": "PDF strana 20, gornji slajd; Formula V=mantisa×osnova^eksponent",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s039:e04",
+          "description": "Binarna mantisa kao znak/apsolutna vrednost i fiksna tačka iza MSB-a",
+          "source": "PDF strana 20, gornji slajd; Binarna mantisa kao znak/apsolutna vrednost i fiksna tačka iza MSB-a",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "04-s039:e05",
+          "description": "Eksponent kao označeni ceo broj sa ofsetom; veći opsezi i tačnost",
+          "source": "PDF strana 20, gornji slajd; Eksponent kao označeni ceo broj sa ofsetom; veći opsezi i tačnost",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    }
+  }
+}

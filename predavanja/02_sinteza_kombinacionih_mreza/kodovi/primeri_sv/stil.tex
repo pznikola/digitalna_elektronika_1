@@ -1,0 +1,16 @@
+\ifdefined\DErtlDefinisan\else
+\global\let\DErtlDefinisan\relax
+\lstdefinelanguage{DEsystemverilog}[]{Verilog}{
+ morekeywords={logic,always_comb,always_ff,timeunit,timeprecision}}
+\lstdefinestyle{DErtl}{
+ language=DEsystemverilog,
+ basicstyle=\ttfamily\fontsize{9}{10}\selectfont,
+ keywordstyle=\color{DEisticanje},
+ commentstyle=\color{Muted}\itshape,
+ stringstyle=\color{Ink},
+ numbers=left,numberstyle=\ttfamily\fontsize{8}{10}\selectfont\color{Muted},
+ numbersep=3pt,xleftmargin=10pt,
+ columns=fullflexible,keepspaces=true,showstringspaces=false,
+ tabsize=4,breaklines=false,numberblanklines=true,
+ aboveskip=0pt,belowskip=0pt}
+\fi

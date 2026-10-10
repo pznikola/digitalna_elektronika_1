@@ -1,0 +1,26 @@
+\slajdid{02-s021-rtl01}
+\begin{frame}[label=02-s021-rtl01]{RTL: mreža I–ILI}
+\setlength{\parskip}{0pt}
+\input{kodovi/primeri_sv/stil.tex}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.55\textwidth}
+% element: 02-s021-rtl01:d01
+\lstinputlisting[style=DErtl,firstnumber=1]{kodovi/primeri_sv/02-s021/mreza_zp.sv}
+\end{column}
+\begin{column}{.42\textwidth}
+\fontsize{10}{12}\selectfont
+\textbf{Zbir proizvoda}\par\vspace{2mm}
+Tri I gejta formiraju proizvode \(P1\), \(P2\) i \(P3\). Završni ILI gejt daje njihov zbir.\par\vspace{2mm}
+Dva invertora po ulazu daju prave i komplementne vodove, kao u šemi.\par\vspace{2mm}
+\texttt{\_n}: komplementni signal\par
+\texttt{\_p}: pravi signal
+\par\vspace{2mm}
+% element: 02-s021-rtl01:d02
+{\fontsize{9}{11}\selectfont
+Testbench:\par
+\href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/predavanja/02_sinteza_kombinacionih_mreza/kodovi/primeri_sv/02-s021/tb_mreza_zp.sv}{\texttt{tb\_mreza\_zp.sv}}\par
+Testbench bez provere:\par
+\href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/predavanja/02_sinteza_kombinacionih_mreza/kodovi/primeri_sv/02-s021/tb_mreza_zp_bez_provere.sv}{\texttt{tb\_mreza\_zp\_bez\_provere.sv}}\par}
+\end{column}
+\end{columns}
+\end{frame}

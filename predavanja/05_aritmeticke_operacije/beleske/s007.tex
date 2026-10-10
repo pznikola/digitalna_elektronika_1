@@ -1,0 +1,8 @@
+\BeleskeID{05-s007}
+% element: 05-s007:n01
+% element: 05-s007:d01
+Sirovi biti $a_5,b_5$ i $a_2,b_2$ nisu kodirano trostruko poređenje. Ako je ulaz jednakosti stalno nula, lokalni dvobitni deo nema mogućnost da odluči i njegovi biti ne utiču na izlaze.
+
+Za $A=0$ i $B=1$ sva četiri bita dovedena na ulaze strogog poređenja jednaka su nuli. Prvi nivo zato daje nule na izlazima veće i manje, a završni blok prijavljuje jednakost, iako je $A<B$. To je dovoljan kontraprimer za odgovor na pitanje.
+
+Pomoćni rezultati za svaku poziciju $i$ predstavljaju relacije $A_i>B_i$, $A_i<B_i$ i $A_i=B_i$. Prva dva dobijaju se I kolima kao $A_i\overline{B_i}$ i $\overline{A_i}B_i$, a treći NILI kolom nad tim rezultatima. U šemi su pozicije $i=1$ i $i=0$, pa treba razlikovati lokalnu jednakost bita od jednakosti celih reči.

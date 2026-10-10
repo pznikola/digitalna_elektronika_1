@@ -165,4 +165,6 @@ def extra_checks():
     assert min((a^b).bit_count() for a,b in combinations([2**i for i in range(8)],2))==2
     assert min((a^b).bit_count() for a,b in combinations([2**i-1 for i in range(8)],2))==1
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+    from provera_beleski import main as proveri_beleske
+    proveri_beleske()

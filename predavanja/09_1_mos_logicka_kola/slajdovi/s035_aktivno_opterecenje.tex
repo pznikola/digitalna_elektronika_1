@@ -1,13 +1,15 @@
 \slajdid{09_1-s035}
-\begin{frame}[label=09_1-s035]
-\gusttekst\alert{Invertor u nMOS tehnologiji sa aktivnim opterećenjem na izlazu\par u vidu nMOS tranzistora sa indukovanim kanalom}\par\medskip
-Kod invertora u nMOS tehnologiji sa pasivnim opterećenjem na izlazu nismo prodiskutovali izbor pasivnog opterećenja, odnosno otpornika $R_L$.
-\begin{enumerate}
-\item Otpornik $R_L$ treba da je što veći kako bi napon logičke nule bio što manji. Otpornik $R_L$ treba da bude što je veći, da bi što manje uticao na strujni kapacitet logičke nule.
-\item Otpornik $R_L$ treba da je što manji, da bi što brže punio kapacitivnosti na izlazu.
-\item Otpornik $R_L$ direktno utiče na $V_{IL}$ i $V_{IH}$. Što je manji $V_{IL}$ je veće, ali je $V_{IH}$ veće i obrnuto.
+\begin{frame}[label=09_1-s035]{Aktivno opterećenje: izbor parametara}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{3pt}\setlength{\belowdisplayshortskip}{3pt}
+% element: 09_1-s035:e01
+% element: 09_1-s035:e02
+% element: 09_1-s035:e03
+% element: 09_1-s035:e04
+\alert{NMOS invertor sa aktivnim opterećenjem: NMOS sa indukovanim kanalom.}\begin{enumerate}
+\item Veći $R_L$: manji napon logičke nule i manji uticaj na njen strujni kapacitet.
+\item Manji $R_L$: brže punjenje kapacitivnosti na izlazu.
+\item $R_L$ utiče na $V_{IL}$ i $V_{IH}$: manji $R_L$ daje veće pragove i obrnuto.
 \end{enumerate}
-Znači potreban je kompromis za izbor vrednosti pasivnog opterećenja. Uočite da se praktično u svim izrazima pojavljuje faktor $k_nR_L$, odnosno postavlja se pitanje izbora tog faktora. A na njega možemo kod MOS tranzistora da utičemo promenom faktora $k_n$. Da se podsetimo
+Potrebni su kompromis i izbor faktora $k_nR_L$.
 \[k_n=\mu_nC_{oxn}\frac{\alert{W_n}}{L_n}\]
-i ako su parametri $\mu_n$, $C_{oxn}$ i $L_n$ određeni tehnološkim mogućnostima i fiksni (želimo na primer tranzistore minimalnih dimenzija pa je $L_n=L_{nmin}$ koje tehnologija dopušta) onda promenom parametra $W_n$ na lak način možemo da utičemo na $k_n$. \alert{$W_n$ je širina kanala i nju u dizajnu možemo lako da kontrolišemo.}
+Za fiksne $\mu_n$, $C_{oxn}$ i $L_n$ kontrolišemo \alert{širinu kanala $W_n$}.
 \end{frame}

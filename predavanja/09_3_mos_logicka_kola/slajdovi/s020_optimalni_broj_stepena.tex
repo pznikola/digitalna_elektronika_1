@@ -1,13 +1,14 @@
 \slajdid{09_3-s020}
-\begin{frame}[label=09_3-s020]
-ukupno kašnjenje je
-\[t_p=Nt_{p0}\left(1+\frac f\gamma\right)=Nt_{p0}\left(1+\frac{\sqrt[N]F}\gamma\right)\]
-\alert{Tražimo broj invertora u nizu $N$ tako da dobijemo minimalno kašnjenje}.\par
-U tom slučaju
-\[t_p=Nt_{p0}\left(1+\frac f\gamma\right)=Nt_{p0}\left(1+\frac{\sqrt[N]F}\gamma\right)\]
-diferenciramo po $N$
+\begin{frame}[label=09_3-s020]{Optimalni broj stepena}
+% element: 09_3-s020:e01
+% element: 09_3-s020:e02
+% element: 09_3-s020:e03
+% element: 09_3-s020:e04
+\[t_p=Nt_{p0}\left(1+\frac f\gamma\right)
+=Nt_{p0}\left(1+\frac{\sqrt[N]F}\gamma\right)\]
+\alert{Tražimo $N$} za minimalno kašnjenje; diferenciramo po $N$.
 \[\gamma+\sqrt[N]F-\frac{\sqrt[N]F\ln F}N=0\]
-i rešenje je
-\[f=e^{\left(1+\frac\gamma f\right)}\]
-Na žalost ovo rešenje nema „zatvorenu formu“ i približno numeričkim izračunavanjem kada je $\gamma\approx1$ iznosi $f=3.6$.
+\[\alert{f=e^{1+\gamma/f}}\]
+Rešenje nema „zatvorenu formu“; numerički, za $\gamma\approx1$:
+\[\alert{f\approx3.6}\]
 \end{frame}

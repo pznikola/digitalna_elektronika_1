@@ -1,0 +1,1999 @@
+{
+  "phase": "redizajn",
+  "lecture": "09_2",
+  "date": "2026-10-03T10:02:31.434141+00:00",
+  "rules": "Samo nastavni tekst; poreklo, predlozi i potvrde van PDF-a. Jedini izvor teksta je beleske/sNNN.tex.",
+  "slides": {
+    "09_2-s001": {
+      "path": "beleske/s001.tex",
+      "source_page": 1,
+      "position": "gornji",
+      "notes_sha256": "908ac676c9661971764155621118cd8518751469d53d0aa1bba9201b70b0e812",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "9537058b3e656aacf5d6008f489842a07ce58450c69dbab61378ec8319798adc",
+        "baseline_render_sha256": "4b8ced7a31faa11d5e23ee10875d9461a97cad557a11889a949578c60d7638e3",
+        "new_render_sha256": "20f2a86851b42fd3fe06e161299d2236d6d33b44d55b3cbbe534fa2504cd1da0",
+        "notes_render_sha256": "dde7446eb91a8e1a28ef298bef2969230e9215cf591186bdd1b5f17d12e3cf2f",
+        "slide_sources_sha256": "dfbfc99b1b13cd14d0b25090cdc99174ab1c380fe576fdcc60c6045a3797a106",
+        "notes_sources_sha256": "6b6ebfe47df5f9ddbc7030e601020878a003b047e18780a9dd2c5ccf87207896",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "9dd5ac73188604c0f0e71b01dd92cf00be3c10b8b8ee744575a7a6fac3f704cb",
+        "coverage_sha256": "f4371f2ac316e6f690a596955fc68836d20bd75335b72cc9e80bade49cce2f63"
+      }
+    },
+    "09_2-s002": {
+      "path": "beleske/s002.tex",
+      "source_page": 1,
+      "position": "donji",
+      "notes_sha256": "f7ba65f532d7f09c546843b3ed7c65f9ca76781a37d285f157f7ce5c7639d8f3",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s002:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 1, donji slajd; vizuelni isečak 09_2-s002",
+          "description": "Provera nemogućnosti nulte struje u zasićenju TL i izbor radne tačke"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "1198589c56309d1a4d787593fc5d78b7f7ca56c0c409f3983d3b252dbb4072ff",
+        "baseline_render_sha256": "f0b774c6d643ac306d5d95409ea3f69b5a6e3ba91cc8a4b5c4b386be1205295c",
+        "new_render_sha256": "caa4963fd5b1779c59760af8c0e2421d199fdf0009b5738200b09bd2f12ea0b1",
+        "notes_render_sha256": "6743fd8ef3092986668062c9352c6591c9227649490937b3721f9efb8ca8658f",
+        "slide_sources_sha256": "4e4f47fa6937c918c6995c54e0b1146def384d2c179ae1a6255b89ff65dcc9ac",
+        "notes_sources_sha256": "bc29303a3a911a32044d97573c64f53f466bf58cfd277d283fdd9d2b6106ffbf",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "8fe68129ac88ae2f249744e6a3b67c419cbc31e9c71cf4432e01232a4ea17a32",
+        "coverage_sha256": "0f13b9e80ab712521143af40a181c599e65ba6ae8f1f8d752bf2a20d46f890b6"
+      }
+    },
+    "09_2-s003": {
+      "path": "beleske/s003.tex",
+      "source_page": 2,
+      "position": "gornji",
+      "notes_sha256": "815e2a9b1f0ecfdd40d6e0de6baa966b6259e1cb46e81d806296e0367ec23399",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s003:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 2, gornji slajd; vizuelni isečak 09_2-s003",
+          "description": "Ravnoteža pre i posle zamene napona priključaka i objašnjenje zamena"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "23d7a4019b8ec41c3a1d1184716d0bdd69a0261799afba54e4059fce6e0f4fd2",
+        "baseline_render_sha256": "18cdf63a1c5e9f4b6ccea38ba4a2d43125c5418ee3b9f81d96bc72c38fe22633",
+        "new_render_sha256": "6cf5149ba1cbed91ae994c20c6ff3ecbef3c4e5d3c87481e3380288ecfd841df",
+        "notes_render_sha256": "8c0423154108d30ad20d08086a0373a940d888e000b7f4a8b36cce3bf452eff8",
+        "slide_sources_sha256": "9fbd5b86b40523dd9279201b4720437a630a63476c798357191d1291cc18baef",
+        "notes_sources_sha256": "4c7bea309a30fa0a9603087a8f19986d22ae52b16674f0d9d5640c76e1624603",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "212bf276c01d7e7f800801ae20530cfef2fc07a10ebc6fede965814d36ac9f26",
+        "coverage_sha256": "b819550be9c129fdff392199afb55be3e58e27da8f11b1b5b15222c4393b8cd5"
+      }
+    },
+    "09_2-s004": {
+      "path": "beleske/s004.tex",
+      "source_page": 2,
+      "position": "donji",
+      "notes_sha256": "547d115f83df0283d157955ac6b60437582dc4d2126bc07d362fe0a5dd77345e",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [
+        "P01"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s004:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 2, donji slajd; vizuelni isečak 09_2-s004",
+          "description": "Polazna ravnoteža i oba reda diferenciranja, dve nepoznate"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "a7ac4be48ffa182eac0acb4305236d86614b47d74d808c0a175c000df79b291c",
+        "baseline_render_sha256": "e753863367ffb5b9c36cef24d1a85da54c73245d4901b0ffbfa15a0c77b8a934",
+        "new_render_sha256": "42d2713aa404cdad5133c887e378c787659a8a5553f367ff2a59c4679012001a",
+        "notes_render_sha256": "b7f6c0042f965e82c163f37d85115b9fc66ea6b9bb186ed85e65e2e9ed09a338",
+        "slide_sources_sha256": "7bdfb2f36fde1c840552b964c9322eb785942fed04190cd0df87c1178a37b8f2",
+        "notes_sources_sha256": "7e9c46df63cd71e6dc6eda8bfbd125ccc511af71b4daee6f270f802ecc7856b0",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "2f7354b2ece54160cd01fcc2f2afbaba0ef7a9268ea8fd470bd3b510bf1a81c0",
+        "coverage_sha256": "97cc2231b748ae7f7931d7a0177b1e26673dae122a7c1407c9f578bbd5770d4f"
+      }
+    },
+    "09_2-s005": {
+      "path": "beleske/s005.tex",
+      "source_page": 3,
+      "position": "gornji",
+      "notes_sha256": "5c4931492403e54f143a3bf617a6c72f5245248aa40f7e3d406b186e1df6ac4f",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s005:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 3, gornji slajd; vizuelni isečak 09_2-s005",
+          "description": "Promena radnih tačaka i naponski uslovi u oznakama priključaka"
+        },
+        {
+          "element": "09_2-s005:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 3, gornji slajd; vizuelni isečak 09_2-s005",
+          "description": "Ravnoteža pre zamene i izbor pozitivne grane korena"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "07a3e5422e5947ab44c1ec19ac46398bb9a10b54621828c32581c8cf9aef64e9",
+        "baseline_render_sha256": "ec507fa7eb83bda23af9e6307374b7ad79e4622219206aa859c453fc01b1f11c",
+        "new_render_sha256": "fe36774d97ddffac28594dfcf72df9556a017ec1b84e2f1ad1ad50bc2e3bee1d",
+        "notes_render_sha256": "38c983198282ec5f517fd1e28bda30c5fb5a1d030e9711238db2f52c7d3e3fc3",
+        "slide_sources_sha256": "5d503b822fdba57aff116c058bd4f59cd276c382fad66704f92759fafb62da3e",
+        "notes_sources_sha256": "4cadfd05796214f958018a780282b0d6d2808a77ae3d01855d1e728c39d4c5d7",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "be1627f5f36f758eae32538069b04037120df602eead164c98be6417b53ec725",
+        "coverage_sha256": "2d2b9223680cda89cf927272fc3d5d8af91bda2bef380aeb5f4fa9103f0f420b"
+      }
+    },
+    "09_2-s006": {
+      "path": "beleske/s006.tex",
+      "source_page": 3,
+      "position": "donji",
+      "notes_sha256": "531f61e790a1d7076d7b416501a60a622da6e01a064bea602bf3728f102a24be",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s006:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 3, donji slajd; vizuelni isečak 09_2-s006",
+          "description": "Razlozi idealizovane vertikale i fizičko značenje korekcija modela"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "8d938dc9a4b01003638b1cb8b77c88f1f370dafaa42edcc4f456cf684014d244",
+        "baseline_render_sha256": "706f114f8d982d7b225f342f3fa5b814ba0eebc5bc7513d8d8f9c60fa7c58bca",
+        "new_render_sha256": "1849abd78f395c3dcd23e304e19651e7f44fc26b23db628142e841fb975895d1",
+        "notes_render_sha256": "475b5ee14dcb0147d867cff6f9d656f2c337e21bf2e4b7a6ae6b1b9e5cc3ea64",
+        "slide_sources_sha256": "3ec6abf7c6c4b6da28225793f87a0d570d3dcddadc964aa30deaade1b109ec95",
+        "notes_sources_sha256": "2ba3e3dedae5048b1804c3d5b2a8e9a28b7130ff2138cc40d708702361a999f3",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "697bcea4e698c057e7215a30a62401ab05cb1a2bd3a157f593bee95a7be4c979",
+        "coverage_sha256": "85ba863711b40a83d51ed2137bae8d02dbca5d738f6f8f5dda5f77730b65aca3"
+      }
+    },
+    "09_2-s007": {
+      "path": "beleske/s007.tex",
+      "source_page": 4,
+      "position": "gornji",
+      "notes_sha256": "e1cb0f82ca198c173495b9632476031a3dbb36c24484149ab618bb5648d7d20a",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s007:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 4, gornji slajd; vizuelni isečak 09_2-s007",
+          "description": "Promena napona, ravnoteža priključaka i diferenciranje"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "f72e6dfaed33dbd26df038640e29a205a845bbcbb2fc8586abd47144150d5414",
+        "baseline_render_sha256": "42ce0ea13ffd82e0fd426c33e0857929598cfd77b4b53702a52be12c4a4af3e9",
+        "new_render_sha256": "f488435b45d33957148d8dad0e772f9ede045f3537e16bad128d2fcb43c021a5",
+        "notes_render_sha256": "f1890b6139186c8848625a7b953c792a446d4fe7c2f8e687f6ccf8028d1b2e2b",
+        "slide_sources_sha256": "8d8a78d37416fb96e61d2d9fc026fc4e3ab3ca769bc8165fac6e88c9f31f8a0a",
+        "notes_sources_sha256": "67c5fa6df3c7184d3fa098cfce6193c83a78b1872d9bea092dad8f227a306d13",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "d74c0bce53329cb0edda754da7594f49707900e66ec9b832d10e9be9a8b13168",
+        "coverage_sha256": "7cf381161f90a5fe234fbe406cb90e5abebacec661e90a9abee287d41df36201"
+      }
+    },
+    "09_2-s008": {
+      "path": "beleske/s008.tex",
+      "source_page": 4,
+      "position": "donji",
+      "notes_sha256": "6a499f60353d0b83694fd2a371c0a90eeda06d52e099ebe4ea67f576951b8b10",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s008:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 4, donji slajd; vizuelni isečak 09_2-s008",
+          "description": "Zamena ulazne logičke jedinice i obrazloženje zanemarenog kvadrata"
+        },
+        {
+          "element": "09_2-s008:d01",
+          "origin": "dopuna",
+          "source": "Proverljivo tumačenje modela na istom slajdu; obrazloženje u evidenciji beležaka",
+          "description": "Provera pretpostavke za zanemarivanje kvadratnog člana"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "d55916955f293e1d9f1a95a011cd28e3b735a8231c182f4946b1066f1ede677c",
+        "baseline_render_sha256": "d44cd63c580d645540c9a9cf4b3a72f5d5f1ba6e26e50b18e148d22d324d2391",
+        "new_render_sha256": "144c502425f9eef860f579c80d016a503998eecfc05558dd5c0481985b637ce3",
+        "notes_render_sha256": "59470933c756d6b9c84a86816306d7ddc7d6593d6c0716f6f2883816d60d1752",
+        "slide_sources_sha256": "c75f0d7c450181719b30cf5ea54f62e01964eb9deb2025c6855a3f8d51d82910",
+        "notes_sources_sha256": "6947f29feeafc7ba9c21fe1a25b541207835eb5c097e9477b3b40d3df887b704",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "d2ed46b6fbfd898893ac97e4bf25dc3d1fbab60c282f12302dd2a05346fbab6b",
+        "coverage_sha256": "af0617ff620810c42317a719bd7d56db1a26de0de391d6f3d6485e38c71edc09"
+      }
+    },
+    "09_2-s009": {
+      "path": "beleske/s009.tex",
+      "source_page": 5,
+      "position": "gornji",
+      "notes_sha256": "e01752d61806b34ee85c2098a6090d1c187cfc5ff02fad9b2612bd33d0353a86",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [
+        "P01",
+        "P03"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s009:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 5, gornji slajd; vizuelni isečak 09_2-s009",
+          "description": "Prvi parametarski uslov za VOL i objašnjenje regeneracije nivoa u kaskadi"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "35e8267f97ce2e613e60761e3a748ad736c03784180c27a4dc1a692d6d060381",
+        "baseline_render_sha256": "a1f8f59882ad44a2abd4b16eaa030d8ed6c8beff0e5ee0c69cb249162762f62b",
+        "new_render_sha256": "744b1250b5f64161dee50813f71b18c2aa3c87f946ae7dba4ae0ef48414f6a89",
+        "notes_render_sha256": "d1f9a77cfc3a9ea29c22b4951bf95cf980afc2d38fdf58dd1da1b012c36823a6",
+        "slide_sources_sha256": "74a7c5e579b3a6e36ce56f845599d002f6278b932da04b13d2e6eacb9af7f7e9",
+        "notes_sources_sha256": "4fcaf3ef875b1406e5045efe703885aa5e3d015b0b76a1875f69b30a69021027",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "d00933b457c6f9676aa69b41976c0f0f05c70038da2323931eb4ec49270e4a5e",
+        "coverage_sha256": "1e718871c0ccd510fdbbc1d4833f5524255b1878892092193a13a101a02c599c"
+      }
+    },
+    "09_2-s010": {
+      "path": "beleske/s010.tex",
+      "source_page": 5,
+      "position": "donji",
+      "notes_sha256": "0adbea13b31d40bd9e101871e6a3f88589fedc6d93d8a3dbad1c6908dcab89da",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s010:d01",
+          "origin": "dopuna",
+          "source": "Proverljivo tumačenje modela na istom slajdu; obrazloženje u evidenciji beležaka",
+          "description": "Čitanje osa i graničnih tačaka karakteristike"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "4cd0efd99711ae97377f4e69e85ef5d03103b4f385318ccd9bf92c5e817f824d",
+        "baseline_render_sha256": "f96d05ce65d847ac983b494d279fd42e7d6215aabfcb91c4bc60b824e8087083",
+        "new_render_sha256": "89af6f0dc55c66a3344366608a11aeae90166a851b5d35d03f32344c1dcfe1e1",
+        "notes_render_sha256": "377c3564dec459caac19fb0f7a0a5d11c9f7b2140cb7c703b6772dca042eeae2",
+        "slide_sources_sha256": "1e96c3af86f4e51225b43db2d58ce66cd2ebe2598f78ae021ec2f651e8034208",
+        "notes_sources_sha256": "f6d4e474cf5304a0373e4a606e2c0fa663a93c51f19dffdb2b9cab1086207ba7",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "1eb7cb75568d24868a053601b363426afae9e80fcb940578d819dc2cb049df8c",
+        "coverage_sha256": "74cce1de65a5edd77a89115986577be98bffeae23f7598b64d7ed268c9bcb4a5"
+      }
+    },
+    "09_2-s011": {
+      "path": "beleske/s011.tex",
+      "source_page": 6,
+      "position": "gornji",
+      "notes_sha256": "8c4f9d0d17db7fb3de556be2543c48eefc581878c38ef499b87a6f9832b21071",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s011:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 6, gornji slajd; vizuelni isečak 09_2-s011",
+          "description": "Obrazloženje odsustva problema polarizacije osnove"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "e202a1f5e13bfd110b8677816e2725630ebd6e5362367c9665d50b73a34b4838",
+        "baseline_render_sha256": "b2eafeb92eb017fcb6b129b216b0fe6aed99d25e6e515f022532e2898fb57cf4",
+        "new_render_sha256": "1ef7ab9cb5a8246c8ae640a22461e59b7aaa7e9ca491990c3cf87a3828172754",
+        "notes_render_sha256": "b36cd7d1a266e4359321e0c2846d4b5846397adbd569230e4b5080c299556c60",
+        "slide_sources_sha256": "665d8811edb139b32436d5964f53ed03ec6bfa62a5a5a6c56604dbd204dbb46f",
+        "notes_sources_sha256": "28c2791eb8db2a2a2467c4da917385e353be9ceeaeffcf278dd4f244942b24e5",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "51da9d2c04419e772b2aab01c4b2beae9f719e895949fc3ddf3ac99159f994a9",
+        "coverage_sha256": "ba97b985051cff675ae29595b9c44d9491edadb6867635382da06896ffe12dc8"
+      }
+    },
+    "09_2-s012": {
+      "path": "beleske/s012.tex",
+      "source_page": 6,
+      "position": "donji",
+      "notes_sha256": "42a9c21be3521ccbb3afc2461a99c9e2358b9020470c76308ad2ba4a67c63215",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s012:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 6, donji slajd; vizuelni isečak 09_2-s012",
+          "description": "Tumačenje predznaka i algebarsko preuređenje napona zasićenja"
+        },
+        {
+          "element": "09_2-s012:d01",
+          "origin": "dopuna",
+          "source": "Proverljivo tumačenje modela na istom slajdu; obrazloženje u evidenciji beležaka",
+          "description": "Algebarski postupak ekvivalentnosti oba napona zasićenja"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "ee469478b1f879ec1a94a3e2cd00d3bef33b689179eb5a3c4272313bdd5ec390",
+        "baseline_render_sha256": "799ef9ea42910879bef1c91e3caf75207bf32280e9d9257338982c2de475a9ba",
+        "new_render_sha256": "5038acb40df7a7b57ca3e0c5ce76f01d9f9950f451509aa582a13f8a3289a5d0",
+        "notes_render_sha256": "048a49a50eba6d36b1bdcbf4ae8d75bb9028722298a76982237b91f561373f9a",
+        "slide_sources_sha256": "704af512ea27012aad723cd2735eab1f0e4ebda80bba30f3f885bf52b6574350",
+        "notes_sources_sha256": "4ac2f0be475a5f6f11ea86a21b3238d3ef51ccf29ca596f66c235806d90ebbcf",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "92ba4917de9851619c9703032a86e270817e98f234d202f821f27aa564307f3f",
+        "coverage_sha256": "f85cb6806ee81bd25b97734c3599e2943640c438a4f30404ad40cc84f82b0abf"
+      }
+    },
+    "09_2-s013": {
+      "path": "beleske/s013.tex",
+      "source_page": 7,
+      "position": "gornji",
+      "notes_sha256": "143858030838a68a60c4c9b4d2b4cd65fe233f7ac6cdc6d85ace825624cd6293",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [
+        "P02"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s013:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 7, gornji slajd; vizuelni isečak 09_2-s013",
+          "description": "Tumačenje predznaka i izbor pogodnog oblika struje"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "c726e95201d5cd907e72d0edaf5772eed2410703c4cf854703f79dbe5063e9e6",
+        "baseline_render_sha256": "bb8bfa74538de599f8221122e226d3aae6a90519227c3899a4af865c69639460",
+        "new_render_sha256": "8aacec0a6427861cfb4a2d19c5f6c253b93c6fa73243a1edd2ac384d4a856248",
+        "notes_render_sha256": "dc0f197ecf95e14136bf57683c89adea538eddcd013110b75e142f2030340708",
+        "slide_sources_sha256": "e96342d00cd447dbda67175540bbfe5df409dc26102385b8c2c9e46e3f9251e2",
+        "notes_sources_sha256": "2f32035f6657dffbef0033d47aca5359c486d90c3950a8b14b53f12bce00fd10",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "943c30f1ad8cb104b1e9996122a42118b697fef46a819ac7d3dfcb0972d322f9",
+        "coverage_sha256": "8faa59c1e8c3c95eecaf3d3c1d23972cecbfcbfd0723d7fddd345fbd26e9638f"
+      }
+    },
+    "09_2-s014": {
+      "path": "beleske/s014.tex",
+      "source_page": 7,
+      "position": "donji",
+      "notes_sha256": "24e5f2d4de0a39f5956f4a721e78f6dc24b506f512e57967e85d0ac359ddbfb1",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s014:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 7, donji slajd; vizuelni isečak 09_2-s014",
+          "description": "Povezanost sa apsolutnim vrednostima negativnih napona"
+        },
+        {
+          "element": "09_2-s014:d01",
+          "origin": "dopuna",
+          "source": "Proverljivo tumačenje modela na istom slajdu; obrazloženje u evidenciji beležaka",
+          "description": "Eksplicitna veza napona VSG=−VGS i VSD=−VDS"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "a6c258bba523614601d2288a6d3dba90b3e125f1ea1bc6bf3c0da8eb3f5585fe",
+        "baseline_render_sha256": "989bd131e3cc4952941d538a6e794541c6970e9e725d0105434eb23eb652df8a",
+        "new_render_sha256": "947f221f5315218d24ecd1f096ec79c78e13cc32bd1858e3bf125b6a96686768",
+        "notes_render_sha256": "08c6a596dc312340b644878ab088c9c2a1a10e49d6bdd5c086fb4b6183c1ea48",
+        "slide_sources_sha256": "f68f5cb6c3e15849a9b25c1a22fc77f285556b7e8dfc9fc4adf00a90a96b858b",
+        "notes_sources_sha256": "c75ab41a525362d289c3bdb377b066f7591dc6f27c2aa73f8f65026e117bda7d",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "27041540d954ead47ffad7a1630628954976079b91286c4e432ad11fedd469f8",
+        "coverage_sha256": "4e5ada05abca0588dd4e9f39794c6082c6df3163b25bb02d4a6117867114f4f2"
+      }
+    },
+    "09_2-s015": {
+      "path": "beleske/s015.tex",
+      "source_page": 8,
+      "position": "gornji",
+      "notes_sha256": "a3579911dc5078fa220a4f8bc7d307d7eaeeadc0a67d32f6e286cd754cdaced6",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [
+        "P02"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s015:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 8, gornji slajd; vizuelni isečak 09_2-s015",
+          "description": "Izbor zapisa i potreba dosledne konvencije"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "3db6b6d15c7e4dd74f34dac62700bd8fba67ffad446f32961f0821b23667a844",
+        "baseline_render_sha256": "e5e0f8edb0d20c32c52be7627475e4e7d5cc2fc837a7c101682bd6e3e1ea2b52",
+        "new_render_sha256": "1d1d4120fd4fe84478b47df7c8f724f3f285ffe14ae379d9dd325f5613523cc0",
+        "notes_render_sha256": "88e353a18b67eee34c993dd291e306cc57728a0b972bfb471e852cbd4cdd71a2",
+        "slide_sources_sha256": "7f4f99352bc72a31385ebf68b5db1cb52d1bae6cefd14bc89de47e5286d8e204",
+        "notes_sources_sha256": "71569a97b658ae8c1cc7d2c57ff552820153f1260811b0d74dfed43a0859da1b",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "8087c390a694e1149baed8153d9aad5fe0d2e1ee80414b2eee07d44065d29dca",
+        "coverage_sha256": "47e3c53b7428c0a1c3a6e8849d0fa60febab326f78d0bdf559680ee28a06a517"
+      }
+    },
+    "09_2-s016": {
+      "path": "beleske/s016.tex",
+      "source_page": 8,
+      "position": "donji",
+      "notes_sha256": "7d27b06a039e477a305ef2667560272ecc572d33ef54a374315ac256d0523571",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s016:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 8, donji slajd; vizuelni isečak 09_2-s016",
+          "description": "Nulta radna tačka i odbacivanje zasićenja sa prikazanom nenultom strujom"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "0a34dbb18397e840c7f2436bd34d319afdf3ff6cc7fdb5346d0cd1af40a17aa4",
+        "baseline_render_sha256": "e24ceccd69c99a5a167947c4a63aa7411530d985ff8b8022e5e74f069e2e30ef",
+        "new_render_sha256": "d263be1785dd1f084c163c4b85c019e73dd1439e79ef8db3b32459543781532b",
+        "notes_render_sha256": "310e1ae48b318cc03effb4a5dedddd0242366f301876718918f4b3290236245f",
+        "slide_sources_sha256": "164a0c67684c295b4d4d9b5dc90cfa764fecb68bf40a88fdb00263345e882b35",
+        "notes_sources_sha256": "e8dc3662b077c246a22564a48abf9e887a1075d20f4378f4beb6ec6413733d44",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "1b21639028932c1609f483e2d5dfe625765db6e982f208da8ad9b19beb5c19d7",
+        "coverage_sha256": "8112030c9d2e975680f97d350e5d31b0ff6aa50b76cccb1850994baa25fb0dcb"
+      }
+    },
+    "09_2-s017": {
+      "path": "beleske/s017.tex",
+      "source_page": 9,
+      "position": "gornji",
+      "notes_sha256": "8524ac70327d6722e983434c4872c0deedb9d6c124c01ed2ba80e3ea1a18e4bb",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "problem",
+      "questions": [
+        "P03",
+        "P04"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s017:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 9, gornji slajd; vizuelni isečak 09_2-s017",
+          "description": "Ravnoteža pre zamene i oba reda diferenciranja"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "bd7b8bf0f66bb07312fdff868e09a262a022aa1cdcdb86c507d50f9a2d393012",
+        "baseline_render_sha256": "90cdec38a0d574dddeb3e6963716283a3ba722e94da57bab18409afa1e8ed964",
+        "new_render_sha256": "1282df0c3f03632d9c9b35f7be426442d2f6a59ac8fc3b075533fbbe4df8a6b7",
+        "notes_render_sha256": "007d73952ee12a4c2d04579dca5b747a80076ff815e8017e79e0ce2ac312c00a",
+        "slide_sources_sha256": "f16469b3db6842cce3d61f590f46e4900f5151ebdf9e2e338efb25591aa5b695",
+        "notes_sources_sha256": "9c7e0e3cc225b4d496718a8ed9831e88363a6bc9f5d63f591273be554e878144",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "e8f11c3437b20c0ce998c66b5ef41b4ad27616226605f46c3634e8d45a168657",
+        "coverage_sha256": "786652232cc37e6f8ad1b60f7ae1371839963f480afeb8b6b7f17faf09696a9a"
+      }
+    },
+    "09_2-s018": {
+      "path": "beleske/s018.tex",
+      "source_page": 9,
+      "position": "donji",
+      "notes_sha256": "a28c7031ba80596c16f00bf54006919a9711aef60766b34624608b72c5ca880e",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "problem",
+      "questions": [
+        "P04"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s018:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 9, donji slajd; vizuelni isečak 09_2-s018",
+          "description": "Ponovljeni i normalizovani zapis VIL i tumačenje svih odnosa"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "4a1c8a33e1d168719333cbd643448ebbab0cd27dce538f2f819f9ee5ff3d5423",
+        "baseline_render_sha256": "19ea468f3513ff745a5f320cb717165d959b0869aa0d90ef7c6f8774eea39cbb",
+        "new_render_sha256": "92d6be36e620a48b2c1a6dddf10920c43a9c7ccb2330a2faf44fba3f0ebcd103",
+        "notes_render_sha256": "6093a6466217cc8e4144e417aa8ce0da3833fb3e28afd2f2c883e93cffba4c14",
+        "slide_sources_sha256": "60e1ecf9f77d731f7479d49bb44be8ad0a6b52b0eafb3a2add3ddff8a2721109",
+        "notes_sources_sha256": "1a33d221a9848d7ff7ccdaff32acaa892c1b95ce1493f6c3c81e064daf288f49",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "99fbf8f92a42bb8655d6c2ed5d0b8734840c038f69792e237bcd699791a6e6b6",
+        "coverage_sha256": "93239f56dcc9bb5ae25279443cfeff5f588a90d130e58b98bd8fa232a2d6a395"
+      }
+    },
+    "09_2-s019": {
+      "path": "beleske/s019.tex",
+      "source_page": 10,
+      "position": "gornji",
+      "notes_sha256": "3b1dc1c1b158e28295dbe54b13a09587fabe21c2e1992ada4a6435d25a7e13e2",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "problem",
+      "questions": [
+        "P03"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s019:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 10, gornji slajd; vizuelni isečak 09_2-s019",
+          "description": "Uslovi priključaka, početni bilans i izvorne oznake T1/T2"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "1236c1b0dfcbb3979be34677becd8a45247308d255bd606926ab5510451848b9",
+        "baseline_render_sha256": "c8950dbf4cc85595c12fd8a7c696440c012cce7f87e8090f689f5aa3750a47b6",
+        "new_render_sha256": "4f1681c2b7581f1926cdc30f468ada9847d7ceb7e44c3657178b86b444638812",
+        "notes_render_sha256": "e984c26950d8eed202d3f04bcf7d76ee6a12f47ca7b304f7e0f81ec400ee2e03",
+        "slide_sources_sha256": "f4a744c0bede85e01fc260e48a3481d5486d9d8cb11a828bd62e864f3cc619d3",
+        "notes_sources_sha256": "7164be93b6eb6c5ade7d101a34134f5f3574ea7d3ed93b4650310cc952470c76",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "f1d1e113b59326655a2322ac0410f9b652ec21ce46b0e48db743c36107418761",
+        "coverage_sha256": "1e7f7b8671895f063f144212af78aba79f085ff0cb312d9d7dd8ffe0dff8dfa5"
+      }
+    },
+    "09_2-s020": {
+      "path": "beleske/s020.tex",
+      "source_page": 10,
+      "position": "donji",
+      "notes_sha256": "a751d20fe1568ce703715af2c2066459e7a5a79df47800681c1b009136b20f44",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s020:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 10, donji slajd; vizuelni isečak 09_2-s020",
+          "description": "Početna ravnoteža, diferenciranje i alternativni zapis VIH sa faktorom četiri"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "33a8942af4df1af3efd8ecb3738bd997059ef01da3de513758508906534df52c",
+        "baseline_render_sha256": "96ddf63a7f1f89e4599d4ee67302c292b19b417cae0c8f895657c8851afb02a0",
+        "new_render_sha256": "33c5875fbe8c97052fc9a25f07a5bb88ce9e49a3ec3ee337cfa06cfea0012cf7",
+        "notes_render_sha256": "dac8f8bb46867aa57fd70dab431961f57b5eb220a94e5c245b7f0618295a55a0",
+        "slide_sources_sha256": "144d4b224427ab2034f9a868fcca098de4576f0a0e51164f8ac2aa9e9d8046b7",
+        "notes_sources_sha256": "ef748e43dc53effc46a5814583e945b29f69ab9219e149b30d86bc83ff9ef9f9",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "a8f2cbd4caae21a20b1d3f9860c5986112e62abf936a4add9ebf7fc6a7ee9cbf",
+        "coverage_sha256": "6f5d9010ca1e3da2f12ed8a4abb1969226088ac580ad4ca3177653cc2d8a9684"
+      }
+    },
+    "09_2-s021": {
+      "path": "beleske/s021.tex",
+      "source_page": 11,
+      "position": "gornji",
+      "notes_sha256": "bc36687b5f57d5a3ffa761bee5a6c76df2f591d7dc510eaf6d931c1f8b7472d3",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s021:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 11, gornji slajd; vizuelni isečak 09_2-s021",
+          "description": "Opšta polazna ravnoteža, linearizacija i skraćivanje pri jednakim pragovima"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "0bfa1827e8b698e6b16ebeed3459ef94dece0b7c7e2887ec23b74e3e55ee9090",
+        "baseline_render_sha256": "436d9ad40f082d575f2afa0a5f6d147d41e113d32a921e2a921ff53dc253a23b",
+        "new_render_sha256": "878a2c5cd43d4624ccf6bf356178bb871b059b239780be27b923fc1a339fcc32",
+        "notes_render_sha256": "222a554cd5f12978167914358ba10e5fd36ca6e7d9b31a20d9393c621d37c340",
+        "slide_sources_sha256": "e03e87a6b7a60a67d9add10a3ffac327bba65c72eaa49a81fa519192c09a0654",
+        "notes_sources_sha256": "1dd1b28071b9b1e34bc69c850187a76e91e985467d318a74edca9d0becf9a093",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "48f697f8b78ffd7becd03ea0f1247160c05753dfb027a3da8bb22ec6a1051195",
+        "coverage_sha256": "72c48b5f65817609723960de3189f665ead21b59f21ccad8ea4903fd6b2cf21d"
+      }
+    },
+    "09_2-s022": {
+      "path": "beleske/s022.tex",
+      "source_page": 11,
+      "position": "donji",
+      "notes_sha256": "7d733de622e0d9a986bd5c45ef949f50d9ead960f9e0713fc9cbec0ac87b00ff",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [
+        "P03"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s022:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 11, donji slajd; vizuelni isečak 09_2-s022",
+          "description": "Nesređeni uslov VOL i objašnjenje oba kriterijuma održivosti"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "c24e4aca7f3cc15507ac87da485dc18e79bb5f0c5b54b1c8cb9fba3ef02d7bc4",
+        "baseline_render_sha256": "746f5f7bac05df7597d5fc27f10789854ff56eb9ed9a5ece26ade3282fac811b",
+        "new_render_sha256": "2f5e296f1f58451390196d5eed41c71909e1bea8cb85f94f90f339aa535c16cd",
+        "notes_render_sha256": "2ba8e8a4a9945b9c22044b628404b8725752789d427eaa8fe50070197424ac23",
+        "slide_sources_sha256": "87a353d39a0eda8f570f23c3bc090bd74e2fcf6d144c67dbca1b4b55bcf7bfd3",
+        "notes_sources_sha256": "4ac5caad7557108419b0bb1b170bb4a907eb673a007ef63d3d04ae5062aa85d5",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "9bcda94aab0cd7d21841fc37cb4ccbb7aa5d55b1068d7ec9ae9f179a8a7cfa18",
+        "coverage_sha256": "18c6ef5a68a82838c05baa08c504797a373a2835d6ad90b75b2e9dcfd8772386"
+      }
+    },
+    "09_2-s023": {
+      "path": "beleske/s023.tex",
+      "source_page": 12,
+      "position": "gornji",
+      "notes_sha256": "2d67fd0f8e2632f115cd3f2a22b0b17c59b8ad499990dacafa08c02e2bceadc1",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s023:d01",
+          "origin": "dopuna",
+          "source": "Proverljivo tumačenje modela na istom slajdu; obrazloženje u evidenciji beležaka",
+          "description": "Tumačenje zajedničkih gejtova i drejnova iz preseka"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "642451d4f5310988aabab6be4627b40e615391bc15eda0b4c99229ee520b4d2b",
+        "baseline_render_sha256": "570afa3e147ae1a1900dcc5f87b60dbf97e918e9c746e50a6c47ca96af21c1c7",
+        "new_render_sha256": "320de1f75e25f4f5150e6241b87f5474042d60027c11207d5925f1fd2adb7989",
+        "notes_render_sha256": "e89d979bac932bd5e675e89d70b6e475ca3115ce7a4d4a4c811547fff1cff5b9",
+        "slide_sources_sha256": "ce51ca6c6b84bb4aa0ba5afaffe04a7dddc46a6380949527150b845af95eb961",
+        "notes_sources_sha256": "ae088cb8b3c1d2f028604eae1be540ddfb2497077514c647facbef0f0adf5477",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "e7b9de60c95ec60272ded321474b372cb0edb04cbab1748ff1120cf52c3588d0",
+        "coverage_sha256": "6ff83129b9c70866e16f39bc44de6ee587f93301ac026492f1ba7240ea3a405d"
+      }
+    },
+    "09_2-s024": {
+      "path": "beleske/s024.tex",
+      "source_page": 12,
+      "position": "donji",
+      "notes_sha256": "8be69637c80965af1c29e3374ffc66d2ce200f7874e71ef993af6ef34ec5e499",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "problem",
+      "questions": [
+        "P05"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s024:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 12, donji slajd; vizuelni isečak 09_2-s024",
+          "description": "Odbacivanje zasićenja P, uključujući ceo izvorni izraz"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "fd91a69fbe81bd00fd15696b0443ab2c64475b29d8989b96a30f2fce94cfd148",
+        "baseline_render_sha256": "580464b519d9e80828d2d6ac19030cd62053fc315441c1fff5db7c1a0f90a918",
+        "new_render_sha256": "2c70fc17d8d55051bea29272cff5ced31ef143bdfb103041006fcd52be9d7c90",
+        "notes_render_sha256": "82ccadd61f0c2eb19197a5b4d1b5bc3f7c692282d97682b86f20e34593ab86f8",
+        "slide_sources_sha256": "5bb65064ec748586ebc5d66ddff29881f2fc6b03f75b502f8e32e6e48cd3e569",
+        "notes_sources_sha256": "e6080fdc4b9412b60cf4432f33a7b5308ef9829f78a5f8c15f680d278e2268db",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "239caa5bb92ae87d6f0fd1fb6dd8f87e2750516196d3e0079e2369b6126d721a",
+        "coverage_sha256": "affbde9386f56c4c9ad155624334b261fbf387e6c69b9fdd93d16d915d3d5d69"
+      }
+    },
+    "09_2-s025": {
+      "path": "beleske/s025.tex",
+      "source_page": 13,
+      "position": "gornji",
+      "notes_sha256": "a969e2f9391a1f47cff7672e730365dae45a842ca9fce939bdd59afe97fbf7b0",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s025:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 13, gornji slajd; vizuelni isečak 09_2-s025",
+          "description": "Početak provođenja, dugački kanal i uslovi oba tranzistora u oznakama priključaka"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "78c37083e664b68dbb541b7324b57c29e8d2392716b7d6e820c5b6c841e2a17c",
+        "baseline_render_sha256": "c2abc0f458d2d40734defd3642233f331a14f53b8297a3a4aa606bc55e942b60",
+        "new_render_sha256": "d5034286a6223a2b3c0d9bdfe1c6eebc7e644bc17f98311802766701305e5fee",
+        "notes_render_sha256": "7113f7af98ef24b661171be6471368a29e8b610650047d6929fc35e8fb3f7d5b",
+        "slide_sources_sha256": "300ca81d9741b5bc0fffea93ede966243d77c9c6e00b0b83b5ad148b319c6f44",
+        "notes_sources_sha256": "e11be61cc33ee7819c34232a492a379f081df46e52760a08ba1e2bf67aa5bed1",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "8456581867e18c3bc495d4afe0b9f81c431492346856b8e89fe2e7338f038ce6",
+        "coverage_sha256": "eb721426cf3dafa8c5de3cb7a8cf815fbbbd3abf1265548c49a5c4cc1262d109"
+      }
+    },
+    "09_2-s026": {
+      "path": "beleske/s026.tex",
+      "source_page": 13,
+      "position": "donji",
+      "notes_sha256": "6c99a96ea8f28dcd6eb6b99e9e907ece0d09d48791bed929cda06467b3a2acd6",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s026:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 13, donji slajd; vizuelni isečak 09_2-s026",
+          "description": "Negativna konvencija P i razlog smera nejednakosti"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "9ea5f3edaed05b6e17afb7143879cfa99d80b0e3b6a540363f379d8c7ee1e0a3",
+        "baseline_render_sha256": "2b3c34567930f6e961ccb967c8e667e9091afaa7c179acac78f531327b33eda2",
+        "new_render_sha256": "2630f654ac9c22f86c022adb494bca28f0c9f51f5584ec8ba6332f0e082f1ea2",
+        "notes_render_sha256": "05370341e22f256e3c99fd1bbbc8dc314f841171d8c5340ef6a86e5102e5cdf5",
+        "slide_sources_sha256": "c534ad998283d81d9181cbcd180a7fe3ad77882f519c125f5858c71c3eb64a13",
+        "notes_sources_sha256": "b80b3d02894a4cde8370e36ae0fecf371532ac8946f9ed5c4e355d6b37e9688f",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "b2b95161f7dea28eea25d98f26f8d40baf6e87d90c2439fb8491dcc8b7f855f9",
+        "coverage_sha256": "88372b5808200600c8f674de91a037b8331e8cfd85179ed0af3b48a8f424c96a"
+      }
+    },
+    "09_2-s027": {
+      "path": "beleske/s027.tex",
+      "source_page": 14,
+      "position": "gornji",
+      "notes_sha256": "4cf23cfc8eb7cf69445e0741726e6194e087666f14f64ed958d1c1e5107794e1",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "problem",
+      "questions": [
+        "P03"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s027:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 14, gornji slajd; vizuelni isečak 09_2-s027",
+          "description": "Puna polazna ravnoteža sa imeniteljima"
+        },
+        {
+          "element": "09_2-s027:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 14, gornji slajd; vizuelni isečak 09_2-s027",
+          "description": "Diferenciranje i nenormalizovani VI zajedno sa ekvivalentnim zapisom"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "eddb7f0e4d0d9fcc3799ea5d64cc0e3acdbac2976bdc27cea5d30bfe9a113dd1",
+        "baseline_render_sha256": "5174d4cce023ba9e09402303ea92be86caaf3592672086cdcdae96dbb08cd49d",
+        "new_render_sha256": "6ba62a87f0698255b331b396dcc8ce070fb5e31cb92a657d6433f08471844e7a",
+        "notes_render_sha256": "08d4034971f6b150625bf0d9205b415fb36537891c39ecfac445a7dd999eddcb",
+        "slide_sources_sha256": "b531bacaa2aba8bffba1024a4f4a972b589cf3d34d5fd642a372ba04c1ccb188",
+        "notes_sources_sha256": "d178d00575a5df80feff64caad225d662d1e58b9be32776d011ded7718e6bb58",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "84664a7e773862ed49cfd28d996f1e92c6b7ceee6b448842f8e42bd46734f3a2",
+        "coverage_sha256": "5652dd8958a3bc1e7a93449c6d9161f64c6c5f61c62704227dee4957cb989f51"
+      }
+    },
+    "09_2-s028": {
+      "path": "beleske/s028.tex",
+      "source_page": 14,
+      "position": "donji",
+      "notes_sha256": "c9569304b00e14cc40f30912b00db617e304ebf78b1548c1ccb4f5233fe1a9ae",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s028:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 14, donji slajd; vizuelni isečak 09_2-s028",
+          "description": "Razlog pojednostavljenja i tok zamene u ravnotežu"
+        },
+        {
+          "element": "09_2-s028:d01",
+          "origin": "dopuna",
+          "source": "Proverljivo tumačenje modela na istom slajdu; obrazloženje u evidenciji beležaka",
+          "description": "Tok zamene simetrije u jednačinu nagiba"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "421f5415e778625389bfd8d51b2654f88e57625e92c80e1c4251705f1900b3c0",
+        "baseline_render_sha256": "adc1a60b83c29ab663d71eea768e206bfc8273b78887d210d1e9713dfe2d3ae2",
+        "new_render_sha256": "c42761afa88287c18842074490e9f58363e88601ce06d8f42fcc7dbebe88c24a",
+        "notes_render_sha256": "f54fc03b6690e3e016d238c478cb517ac993266c3e7e38da5c2848e294850178",
+        "slide_sources_sha256": "6e2abfe4351de9e4ffc4d31bce7c051ee366efbac2940a2c27f57fcf58997974",
+        "notes_sources_sha256": "9f849dc33a48f3e0dc600b3eab39eacb29f587e6533d414a6d909f1ea3414232",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "a6986a95ac042c0fc1f480ccf8e8e843e935e1e115f91c1936b2174c269e14fb",
+        "coverage_sha256": "4ef334ad84ad13d6568c55a00750c0f5496b4bce59921bce1e257f28fe95b9df"
+      }
+    },
+    "09_2-s029": {
+      "path": "beleske/s029.tex",
+      "source_page": 15,
+      "position": "gornji",
+      "notes_sha256": "9960f8d15d0854c30ea3b924cba2016eac188a325c9c69aebc3de4d9e7456c25",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s029:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 15, gornji slajd; vizuelni isečak 09_2-s029",
+          "description": "Promena radnih tačaka i uslovi u oznakama priključaka"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "65fff4fd11615882d9605a1f5867405dde1f1783c104dd4adfe6524fd2126eca",
+        "baseline_render_sha256": "a1f1c3cb23d83a5a973281a031748a1d67bdc7df8a917ed61641bbea5c465736",
+        "new_render_sha256": "0eeb05721477b252fc078b68caa4d5cb097447e69e5b1bb6b65d9e3ce10b511b",
+        "notes_render_sha256": "2e6c0e480053c58fd937c036ba830dbc5d0059ad3d71dfa4199698341ca2eff7",
+        "slide_sources_sha256": "31f63102cbe17ce8c74a831b588f9b09dbe3573a5d85b5a2ef30d83075b46109",
+        "notes_sources_sha256": "dff297df28fd8832fffb612c9eee3ae1e4e56a5e08b7f5313175eb3cfa854b87",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "43f10e19b6ff2d64f3e970f9fe4cc9b5d39fa1161884d1a014ce3dc98fe9f8cf",
+        "coverage_sha256": "a3ab6e6577036ff5423ab7da91017cef9dadfcff3e9be8c7eac7afee88a22f0f"
+      }
+    },
+    "09_2-s030": {
+      "path": "beleske/s030.tex",
+      "source_page": 15,
+      "position": "donji",
+      "notes_sha256": "d31d71ac7e0ed40202c507c246fd4fa59989cae620f6da032b95a5d8115eb7e7",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s030:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 15, donji slajd; vizuelni isečak 09_2-s030",
+          "description": "Ravnoteža u oznakama priključaka"
+        },
+        {
+          "element": "09_2-s030:e06",
+          "origin": "original",
+          "source": "Originalni PDF strana 15, donji slajd; vizuelni isečak 09_2-s030",
+          "description": "Razjašnjenje realnog nagiba i veza sa posebnim izvođenjem za ispit"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "9643f1cf5aa3b5120e322e47d28fd875912c969dc3ad3f1406d2b0b65e759bc4",
+        "baseline_render_sha256": "1f9574112ef9ebc83f225d1edb94a7ecabed40d3560cb93485f5e4dfb3db09ba",
+        "new_render_sha256": "88706c529bbc9871aa253be43a70d3bff1d5d5555d0aea9e004d317e4638dc65",
+        "notes_render_sha256": "d2363e2065b73d180fecdbef8bdf4d7eb0141a17503b8a27a941ab8d4500b501",
+        "slide_sources_sha256": "b54cfa3dc3780d5bba94b14c397d5b5d943e00020c5f99a118f25bd3e7cfa633",
+        "notes_sources_sha256": "bbd3f515e2e864d6043e6776c29c58313cb784de2232e37d94ecefccd11093ed",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "f55052f7278af85992a3966bc3b630b23fc463c8d456138a2f8c8d1bdce0b97d",
+        "coverage_sha256": "24d2f2186e5f825501be250d6de767c7ec596d3c05365d371d0ca09821952761"
+      }
+    },
+    "09_2-s031": {
+      "path": "beleske/s031.tex",
+      "source_page": 16,
+      "position": "gornji",
+      "notes_sha256": "0a8fd4c384b16760dd902affd18d13fbd86cacdb10563814d922c242c386a252",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s031:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 16, gornji slajd; vizuelni isečak 09_2-s031",
+          "description": "Prelaz N u omsku oblast i uslovi u oznakama priključaka"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "cc9534bbe98c173ab93049b6577e1de0a42b14ca4b70a5d2e509a1292c7a3c84",
+        "baseline_render_sha256": "89b85c3ee8e1d50f8dee995c2d48db3b9de3cc0780c2b061cc64b8572c1df6fb",
+        "new_render_sha256": "2220cddbd4ab8106b9a78c2667aae74db4a43a8ea95ff8c15a4dde5bfd174765",
+        "notes_render_sha256": "6d23c4233f4b34d23a6dcb19b18aa81f7e9513a71347e010fa42fb7d8f01fef2",
+        "slide_sources_sha256": "df32958465c439917dfc71937d74d5dfa9331c435f0f2351faf070133b904dba",
+        "notes_sources_sha256": "86e3511994c88577456c5802f52345c24daebcbf86bb1c9271846a5d3e6b760d",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "be1d39bdf2f8649fb5eef8b8b3ec3278ac3d2fc0b8acb147040455d81056b0f1",
+        "coverage_sha256": "2cfd1da07fec4235282506437e259e1350006a07d594bf219fedc5e41811a842"
+      }
+    },
+    "09_2-s032": {
+      "path": "beleske/s032.tex",
+      "source_page": 16,
+      "position": "donji",
+      "notes_sha256": "5451fb0dbf1109a7eada799ddeacfed9228a838d539f61f193a3a6e15bd40d27",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [
+        "P06"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s032:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 16, donji slajd; vizuelni isečak 09_2-s032",
+          "description": "Početna ravnoteža priključaka i zamene napona"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "3bf396866775df113ea8728e83d6b9d3d041d0444409381877cfed9b4b723400",
+        "baseline_render_sha256": "8df544a537110f770d72b76012330e7abeca396bde8ce189502531d1c37450c3",
+        "new_render_sha256": "d4b1589047249685698916b20ae5394f50373383b4c938449de8a4a351b7d961",
+        "notes_render_sha256": "6290092d339f4c9cc80a64c49fd04af26ed5b0e597df3e13ea96fdc4c4e580cc",
+        "slide_sources_sha256": "0a40e2350755003374d8e76f1755a33ffe31a3bb16e001eaa28ea02ac6ed6684",
+        "notes_sources_sha256": "1107e5e8a6ce8b20df432ebbd7748be9292b69f3c57c95e29cfd2203d70f8c14",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "2539f3ff638107fca8b8a71936752eca7c85e7f3b815def0ca5dc12816f2bf66",
+        "coverage_sha256": "b04097dbb66ef5d1779b31f1dda1f25b08dd0611f22f7e9a5e8d4330f71d3250"
+      }
+    },
+    "09_2-s033": {
+      "path": "beleske/s033.tex",
+      "source_page": 17,
+      "position": "gornji",
+      "notes_sha256": "870eab955d0df837c0ab0882181bf2424c4fc985d44ba60db84a2aee3c84cf2c",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [
+        "P06"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s033:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 17, gornji slajd; vizuelni isečak 09_2-s033",
+          "description": "Puna ravnoteža kratkog kanala i obrazloženje aproksimacija"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "e9a82904a73a887b79f2834726249f23dbfc707b6bcf2ed827c5255afe1f1ed5",
+        "baseline_render_sha256": "09d354c862af3685acadec4f7e5cca7f6625b5361afe9ed990d40f44d55ab28a",
+        "new_render_sha256": "1227b7057d233db2f94675884f799de88e7cd388fd69d8128fdf045b6b91338d",
+        "notes_render_sha256": "55c23d06ad5cf0e0a8708cf04f32ae52bc2c557199164f5d8db5d468c50cf09c",
+        "slide_sources_sha256": "d3534b698a707f8c40fd591eab9fb65dba6f205a021d3edb0ed96d04ff9d821b",
+        "notes_sources_sha256": "5da4abd7e75339aa4ca4443e8ccc1559668ccf39164ca3a0abb117957fd73f73",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "a84dc4a0c320a91768d252eff169ef99249d0295ccdc86db189fc76bac357e95",
+        "coverage_sha256": "c0373a315d9813bc6f5649457258f323228ed05b55fda87d22295fa1e2f55eaf"
+      }
+    },
+    "09_2-s034": {
+      "path": "beleske/s034.tex",
+      "source_page": 17,
+      "position": "donji",
+      "notes_sha256": "8f14fbdde4fb52b82b5ca05754a976c9aaeac6663ad4a22ee670b619b2807065",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s034:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 17, donji slajd; vizuelni isečak 09_2-s034",
+          "description": "Zamena i oba međukoraka kvadratne jednačine, postupak rešavanja"
+        },
+        {
+          "element": "09_2-s034:d01",
+          "origin": "dopuna",
+          "source": "Proverljivo tumačenje modela na istom slajdu; obrazloženje u evidenciji beležaka",
+          "description": "Poništavanje kvadratnih članova pri rešavanju"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "72a76206169fd26cf61ed81cb6ebad5cfd6967d69af7e0f3fc80ec941172a185",
+        "baseline_render_sha256": "c6ecf91ca5835392601352094abb882fac12795a9eebb343c471e414ff40bf1c",
+        "new_render_sha256": "c8e94282e11e654fd5d21ab2ea1c2c244416715db2dbacf3257ef07a76d9de15",
+        "notes_render_sha256": "6c9b81a78ad1129f7a070289d3daec679ced398137fa6efdc907be818a26f48c",
+        "slide_sources_sha256": "b7a5bf489fb61af813984e5ea293b1f7e6fc2ce5c7255c7603ef21c5319bed61",
+        "notes_sources_sha256": "1e3b312f562eb9961da0dff3e667e03950f1c5c383ff9b75ea823659c7a18012",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "1226452ae173fc3596651b3e92107bfa20cd7ca076fff6484ddcc7d6c18ce4a7",
+        "coverage_sha256": "f960b965c5ee5d52692dc985f6671b0ecc08bc413e4ae66dcddab0c3b60326e2"
+      }
+    },
+    "09_2-s035": {
+      "path": "beleske/s035.tex",
+      "source_page": 18,
+      "position": "gornji",
+      "notes_sha256": "e7128924d345d63346a7de0616995b0df64734e36175216ab8c39e93570cab87",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [
+        "P06"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s035:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 18, gornji slajd; vizuelni isečak 09_2-s035",
+          "description": "Promena radne tačke N i značaj krajnjih nivoa"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "55bb006bc5336aa80701bdf12b25600639041a3af0ec5a06b44bff718fe2dae5",
+        "baseline_render_sha256": "e3133da3958cb9ca8253646ce67315b498d713b90335722206b9777b5ea1c9e4",
+        "new_render_sha256": "03bbe7f34a9a058e800fa09056d6d5bd03d61cce0c2cd45cf81c99655df77a73",
+        "notes_render_sha256": "c7166aa39bb33680a743ec62e990eedb2c446400a33ed13585e45a9e45f9ea5c",
+        "slide_sources_sha256": "8b240a2004827f706e5e12716f4720f3f6dc2312a488a606a48d1ab98cc7f335",
+        "notes_sources_sha256": "619f62c73e9eae0f9cadfacde4a16f065a7bf9a11deba414038c81ab9434ba80",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "45e021c3e711f805db0638e4242e13bc1498a273d6a28108d87f1bf65a0fb727",
+        "coverage_sha256": "cf9d7a30e8cea43fba2654b1f048fda3b85f7d43613436c2d7a0cfd2cb250808"
+      }
+    },
+    "09_2-s036": {
+      "path": "beleske/s036.tex",
+      "source_page": 18,
+      "position": "donji",
+      "notes_sha256": "252ba3a55fb1afbe684093a6b28ae6a9863cd29a157004859e2209448423643a",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [
+        "P03"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s036:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 18, donji slajd; vizuelni isečak 09_2-s036",
+          "description": "Tumačenje margina i zamena krajnjih napona"
+        },
+        {
+          "element": "09_2-s036:d01",
+          "origin": "dopuna",
+          "source": "Proverljivo tumačenje modela na istom slajdu; obrazloženje u evidenciji beležaka",
+          "description": "Tumačenje obe definicije margine šuma"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "4f36cff9a1f7cc57cdf8f9b523434fde4115270a88e750c9750441e6f1bfbf4a",
+        "baseline_render_sha256": "b437e85586370651502d9d95c755155ae5d62dc61419638211d2aa3ca29322e0",
+        "new_render_sha256": "28ecf96dd794576b7cc5e46cb0eba80b113d4854a339b2bb3f1546d0836e1c10",
+        "notes_render_sha256": "cd6ff83e989d1a80dd4deef22a9aaa3a899a048c674a4baafe20094df85a9771",
+        "slide_sources_sha256": "c5e5abcc0e7d63e53ddd17517bd95d7269159375473d6c51cce378e37d065336",
+        "notes_sources_sha256": "b4227eb9cffb07b72ae228d1738558eadce0cf8da2814c2c38557900316aa27a",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "388f07f65ed2d53be90e4d81db63fb9e4ed49a21ed6dcc040df9e8b6d4a89cec",
+        "coverage_sha256": "ae4b33a8a2b1c910a637995dc2b7cd93221dc4c41c53ad4e0903a0a0061cbd5e"
+      }
+    },
+    "09_2-s037": {
+      "path": "beleske/s037.tex",
+      "source_page": 19,
+      "position": "gornji",
+      "notes_sha256": "d8e9c3084070aee63755b86d31ceaad1debb03c99ec1a3b5ddc57b48489b711c",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s037:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 19, gornji slajd; vizuelni isečak 09_2-s037",
+          "description": "Tumačenje regeneracije nivoa i sređivanje obe nejednakosti"
+        },
+        {
+          "element": "09_2-s037:d01",
+          "origin": "dopuna",
+          "source": "Proverljivo tumačenje modela na istom slajdu; obrazloženje u evidenciji beležaka",
+          "description": "Međukoraci sređivanja nejednakosti održivosti"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "8baf78275727c507f2534dc081c9a517d67960bbe1c0172b6b1de3c11ac9df67",
+        "baseline_render_sha256": "cd9ce98f30d99a51c71eb3b3ba169ba172deea874133971e12cf9135e45dda73",
+        "new_render_sha256": "e91b427c15536e406aaa77c6c6a812ecc654a427aa535ee2037b4b11a6d52f2e",
+        "notes_render_sha256": "4a8a64fb282068108d7e22c813b02c195a922eb8301347bde235417a3fafc8de",
+        "slide_sources_sha256": "a0cea88b6f0d11d1f81685ac0d1c59a2df2391772091722d634c643e66272f41",
+        "notes_sources_sha256": "375c2cb86d781c913a892691b9c8d35df99467fea8ab170369d37d62d34147fc",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "ae626be31eaad970801921924071e725bc773d64ea3cb7852a31d1f083019d18",
+        "coverage_sha256": "24117332379f5e40bb6425daa3ab2a64c6ff68cb0bf326cef5fb08e042468b2a"
+      }
+    },
+    "09_2-s038": {
+      "path": "beleske/s038.tex",
+      "source_page": 19,
+      "position": "donji",
+      "notes_sha256": "2bc974fd3ae83feb69cfedb12517743c549d55d89fff759a3951752e2397a509",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [
+        "P03"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s038:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 19, donji slajd; vizuelni isečak 09_2-s038",
+          "description": "Tumačenje tačke prebacivanja i pristup tri naredna izvođenja"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "84d12385b3ac64fbc21fb20dd23ecc7856a6986f749cf4cd5155d89545a37698",
+        "baseline_render_sha256": "04982d1377c6bef382659aee6e27f0b1ba87f39f5a9df3c089ac0e8ebb98e8d8",
+        "new_render_sha256": "0318a88f696f624ebc2971652ce0cdd41ec48c41ee675676ab3184263132ce0a",
+        "notes_render_sha256": "876154e41c6597986ca6654b282d1c9373ea0b6f36b832a64c18d9ab893a7632",
+        "slide_sources_sha256": "09a533c31c707119e181197e5a894a12e311cd7913293715f6328da9054d3dc0",
+        "notes_sources_sha256": "07afc46cab975f0c3673d4ac0d754728449f3ec1636da9ca8c3914f516b82913",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "a319e665b0d4f80863d737636776104b255b7fb019ab038c76e0229e67f0944a",
+        "coverage_sha256": "58c44e196db35761757ebff86a5e698a972edce6a0314e00601672f1e7624fb7"
+      }
+    },
+    "09_2-s039": {
+      "path": "beleske/s039.tex",
+      "source_page": 20,
+      "position": "gornji",
+      "notes_sha256": "93d8556f777588ef778bce746edfd0b60511cef0b6a453c7b0be065d69bb9420",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s039:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 20, gornji slajd; vizuelni isečak 09_2-s039",
+          "description": "Objašnjenje predznaka i poreklo naziva ratio"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "7f911a6e1d7a596cbd7a6846e9bdb7ccfe8da2dbea366f09a7d27ffebc3b531e",
+        "baseline_render_sha256": "fa3c6c59e1ef9024f6ffa6e115e7b6095526bd9733eb86a6639abf77d1de4c9f",
+        "new_render_sha256": "3aa3d3b8f95b78cb01fc5a39c1e98858f641283daa060599104373ba6aacf12c",
+        "notes_render_sha256": "ba330f55aa7083da0032627e11e9f2f3ab1d3d9338a8b3e8824b5a79303fb26f",
+        "slide_sources_sha256": "259504de5bb0fb25cdcd0ad2210f56df7f402d202681d2f3cef0420aadc08f00",
+        "notes_sources_sha256": "e640401d76806af30ade16b4f3fa203a493c9995b19fef3f1e5b6f2e29af72c4",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "feede5a29434a15b20e124b78e0e2fdf2bc2254518b55ca0f7e9c6559248907c",
+        "coverage_sha256": "15af7b03b1ae3a9b8e7c7892e8388414432d0317798bf33f5ebdf91359747552"
+      }
+    },
+    "09_2-s040": {
+      "path": "beleske/s040.tex",
+      "source_page": 20,
+      "position": "donji",
+      "notes_sha256": "14ef41a6b9899a0a371856a1ddf8cdc154f3cba4747a1a57dee7767265b8bd4e",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [
+        "P03"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s040:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 20, donji slajd; vizuelni isečak 09_2-s040",
+          "description": "Geometrijski izraz kP/kN i postupak podešavanja širinama"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "94d0ea8d4680734c1b3ae19d4382fb39e3976bdaa6c70429104cec42b473ccb5",
+        "baseline_render_sha256": "d06fcd55e0fd9b27c765c491c4ad92fe14887962dba247e66fe60818371ecec6",
+        "new_render_sha256": "ff583872a5b374869c7bf1759a26207d2f21eb6a61e28b7a8e990bb991d59a16",
+        "notes_render_sha256": "2151899441e2c493523bf34b5151f1574e6e7cc80d23edcc58d10096f13f1acf",
+        "slide_sources_sha256": "0bd544481ff0b49e86cb1745b8767a28e22f84608ab5455561e26effb39a1088",
+        "notes_sources_sha256": "efc494976558854f9e6a15c154182d414e8a1a7991b3c5fb979fc53ef2f07092",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "19981630fdd5a776b82414497f43e8960c5de32094fefa08aa2edbf7c3edea80",
+        "coverage_sha256": "139e404037b1343bee8be0e25173ed1873ae791f5c366318cdf8d00dd0240d08"
+      }
+    },
+    "09_2-s041": {
+      "path": "beleske/s041.tex",
+      "source_page": 21,
+      "position": "gornji",
+      "notes_sha256": "183b1665c052098dc4adc8235fd3d01062b1ae69f72cd252b1b29fb1ce7aba1c",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s041:e03",
+          "origin": "original",
+          "source": "Originalni PDF strana 21, gornji slajd; vizuelni isečak 09_2-s041",
+          "description": "Ekvivalentna ravnoteža sa LC faktorima i algebarski međukoraci"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "60ce5843cc436211e648563d402ea9a977114d53033ef9223a22a0bd7c914d1f",
+        "baseline_render_sha256": "7ca833ba1b7bdf3943f62434549a1384da0fb873ddf3a8a6b3f40eda0d1b492e",
+        "new_render_sha256": "4e9c5ce61c369e65e716440cbc28b4d8be3cc05a236cf5eb31121cd4ea815045",
+        "notes_render_sha256": "7fa34c8b4b6c45c8697eb00fc387f756002bd0db9059bf97e5089af0f78be962",
+        "slide_sources_sha256": "f764ff6db8fd39b6cbf68b6333301d290d876cf110b5c6ac58947ebdc3039a36",
+        "notes_sources_sha256": "8a395f21c311a25bdecaa8c09b8e5e1dca71e9825f05d64bc165e2613678263f",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "83467d38fa0567d4529bc88adab6af8f25be6ff98fca0659a00258c85de90a0a",
+        "coverage_sha256": "1283d84e563b021e14bfde5b4e2cbbee1f40ae2ac6768b99076f30448f314673"
+      }
+    },
+    "09_2-s042": {
+      "path": "beleske/s042.tex",
+      "source_page": 21,
+      "position": "donji",
+      "notes_sha256": "21099c67fa18048d2cce7358091f9ed61f21df3f136fc5a18296054913e9616b",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [
+        "P02",
+        "P03"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s042:e03",
+          "origin": "original",
+          "source": "Originalni PDF strana 21, donji slajd; vizuelni isečak 09_2-s042",
+          "description": "Puna zamena k parametara i skraćivanje faktora"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "bc2110accef33055201eb5d7fb55f8d54ba22746c1e616fce37b0717a6e4243a",
+        "baseline_render_sha256": "b34d31648ba6d904c14a9b4bc0ace5003ac907376d9f32f847eda465be86aefc",
+        "new_render_sha256": "99a010ca5e80a0f636c160cbe626d258ad44c14b7d2c55e69b07a2443ea4567e",
+        "notes_render_sha256": "0686d868bf565c2c65fca8e3f9bd8804e6bad069a00a9fdbd52485659981ed5b",
+        "slide_sources_sha256": "ff205bdc023266a2a62aaf71bda4355454fb832efcc176b85609c32077acfdcf",
+        "notes_sources_sha256": "b6e49d95c5893acb3c36e6b0dcff64d7913e5de4bf0bb43d6a4d81593f4e069d",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "f192f3c81518b3cf1aba958604c02d607444ee83f8d41fc905b5e48924f3d400",
+        "coverage_sha256": "2ade6470f82e7026841de5934272a3e5e5a748dbd212a2cb7a1c963e61592ab8"
+      }
+    },
+    "09_2-s043": {
+      "path": "beleske/s043.tex",
+      "source_page": 22,
+      "position": "gornji",
+      "notes_sha256": "5d58372e56af5998d53e45c7a73b3b19fe640d499bd254dc600266b530085efd",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [
+        "P07"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s043:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 22, gornji slajd; vizuelni isečak 09_2-s043",
+          "description": "Obrazloženje dominantnih članova"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "5c4a95bb0102ee8dcb40ffbe61e4cbfbe8dfbfdabfab537dcffe94d5963d804f",
+        "baseline_render_sha256": "a64aa56e465fcbba20fc86f9fd81c6dc9b6f2c97f07b16836c2f5cbf99b1dc1b",
+        "new_render_sha256": "2e42592e73b18285fd5186caec90b84fd641ed7cd1d522423add9281a816f14f",
+        "notes_render_sha256": "decab7d9aac132582c09df15e809714fb114790b67b4195780318c71157d4deb",
+        "slide_sources_sha256": "2fe68cdd56b66b9027c397ffb778304dd12d9689bfabf940f53cab6b6df93dc5",
+        "notes_sources_sha256": "61884c5775c030a7f9b3e66b505802f3ddd2b4c7d9d5d8d9504be11c7cf7e6e3",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "db87b598574135397e7375631873a73255977b8541b3b54eaad3e576724a1cde",
+        "coverage_sha256": "90a349ddec13a0dabde8c6e03daca4a17374f584c8d2bea9fa83ead09488f91b"
+      }
+    },
+    "09_2-s044": {
+      "path": "beleske/s044.tex",
+      "source_page": 22,
+      "position": "donji",
+      "notes_sha256": "29d4b86dd09a23206c47a3db39754aeb180058bd046404a43879074464753a6e",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [
+        "P02"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s044:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 22, donji slajd; vizuelni isečak 09_2-s044",
+          "description": "Početna linearna ravnoteža struja sa Cox i VI"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "629a5436e98046ebbdc7119f0f07e9bd9283af5032852f8449521a94d6e60c21",
+        "baseline_render_sha256": "7e9114d8a96e73fa57759a3bc78f0f005a570591589df5f8f3639b3f66d1468e",
+        "new_render_sha256": "040d5bba71e491054a04df818038209d38b728c8cb1f05e8278277d5dad40cdd",
+        "notes_render_sha256": "f4a0bc782616c84010007e9d9533d285e015f06b1908e22cf336f97550d551da",
+        "slide_sources_sha256": "28d4df1973d759f5996232251c0ddca10707e40cca43f44f5552cda233980e15",
+        "notes_sources_sha256": "d98a51117e9899ab8803625f02aae5bba4c5ca96f9838fdf56543d7750fc4ff9",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "4b9f9cf0a976529179d7633c4beb51c0b407f842f5f2938cf736688a6dc4bd5e",
+        "coverage_sha256": "e611ce6d300b9ff8ca1b8ec8f71d18739607b8d2c264d6afeb95b075f81ea4da"
+      }
+    },
+    "09_2-s045": {
+      "path": "beleske/s045.tex",
+      "source_page": 23,
+      "position": "gornji",
+      "notes_sha256": "35495ef8432c7f70078252155bc7cc228ffe706e328006007cbaa3b97d61bc9a",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "problem",
+      "questions": [
+        "P07"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s045:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 23, gornji slajd; vizuelni isečak 09_2-s045",
+          "description": "Tok izvođenja i poređenje navedenih odnosa"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "210ab9def9c01772da4bd3b0328bc7b591a902989c6e09275abf35d831b51c58",
+        "baseline_render_sha256": "aee1b09f3e5e3351ad0cba8e6abd12967ba3b3bbf80edc9f154fcc213aed141f",
+        "new_render_sha256": "0f655d2877d045e9bccaf52603e2998687917743cf130eb8846fe6cb5c9c8604",
+        "notes_render_sha256": "83500434a95bde9f24ddb75fb039d87b6615c3427e0e561d0050844f53ee98bd",
+        "slide_sources_sha256": "253470501e50ceb53b168c8bd0e1c8066ce20a5873531d2782fa2757dc15865e",
+        "notes_sources_sha256": "3907e4252a899f5b9ec4995ee5a37e486bff7147bc0a47f92115d82f57c2c917",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "30697c075b6f94d9744187f5d886b8533793abdf9ebeaf76d6c8c209a13b9c02",
+        "coverage_sha256": "38396bb73d353c9ca262147adbf0b0107a7022c3ad8fb90b465af38c101a931b"
+      }
+    },
+    "09_2-s046": {
+      "path": "beleske/s046.tex",
+      "source_page": 23,
+      "position": "donji",
+      "notes_sha256": "a9666f0b1f34c43c36d213cfbe261f8cac73af472325ca1f1c5d776a50d052de",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s046:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 23, donji slajd; vizuelni isečak 09_2-s046",
+          "description": "Određivanje širine uz dozvoljene dimenzije tehnologije"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "0cda2aa4396e00db21a1424ef16c2c5483b49cb070521e5103c1c5c29d74b7d1",
+        "baseline_render_sha256": "9a1983d4f168323808b2e4c706781d10ce88a25a9f626179f5f2baeddb1fd1da",
+        "new_render_sha256": "f63058255a03270c98d9c54443aecc4e1b860997992edff659af7beda009ae0f",
+        "notes_render_sha256": "fedd6d0ddfd8de14fe5d90fcc3b464e2d4b26afca8b15ee6476c8173c22d07a3",
+        "slide_sources_sha256": "cd8917a9f980897c4faf25025ee515465d3f912889190b8dc6a4673f513dc720",
+        "notes_sources_sha256": "408575a7f74c7a10ec76437b8d31ad8f2a4160c7535898cc6eb29f04eafa1b61",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "81b6194c095c9d109930aa0051be445fe3076c80138ced138bc5d5c00f439765",
+        "coverage_sha256": "d71249da801bea539a53176a8c7f924ff1af6d5a27e65bfcd5dbf7e72fbbf1ec"
+      }
+    },
+    "09_2-s047": {
+      "path": "beleske/s047.tex",
+      "source_page": 24,
+      "position": "gornji",
+      "notes_sha256": "7cea6668973bfd278581c3a268fb69a671d2fd5263f97d43ff2c2238821e9930",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "problem",
+      "questions": [
+        "P08"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s047:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 24, gornji slajd; vizuelni isečak 09_2-s047",
+          "description": "Potpun opis reprezentativne geometrije i prilagođavanja parametara"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "bd641277286a0397ab856d2d2f1959178a4a8e58ca73dd6a7ece2c76cea8636e",
+        "baseline_render_sha256": "182d823e8a63872081b511da11436043d4a7b4d23fc46f2c75ec595452f2108d",
+        "new_render_sha256": "50f2ccd7a5cb753bf46acc1c45fe61d5ed188a2efc0d91cd31bfa8473e7a2985",
+        "notes_render_sha256": "236d8812ee9f5ef8190fd83c64ab45649d97f0bdae21c85c56b018c04debccb5",
+        "slide_sources_sha256": "1c39dbaca5accea63adba35618d64394de3b37170750d67a740794320cc8815f",
+        "notes_sources_sha256": "55ec950271aed31b83db6976a469fdc7c0161f95d6db43333f228be6548539ea",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "d982d71b8df98d06edd021e6cd779b3017a8174f1b22da05ba035153cde2bbf9",
+        "coverage_sha256": "d5b7cf69100d8cbb2cf236569335e02a328635b314e1c101beec00d0ab83da06"
+      }
+    },
+    "09_2-s048": {
+      "path": "beleske/s048.tex",
+      "source_page": 24,
+      "position": "donji",
+      "notes_sha256": "303a2fc039be1900a6b7fa9a204dcb32f12eace1f4b874ea3407c85d324f17e6",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [
+        "P03"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s048:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 24, donji slajd; vizuelni isečak 09_2-s048",
+          "description": "Polovina minimalne dimenzije, skaliranje i konvencija označavanja"
+        },
+        {
+          "element": "09_2-s048:e06",
+          "origin": "original",
+          "source": "Originalni PDF strana 24, donji slajd; vizuelni isečak 09_2-s048",
+          "description": "Najmanje zauzeće/kapacitivnosti, kompromis i oprez pri većim tranzistorima"
+        },
+        {
+          "element": "09_2-s048:d01",
+          "origin": "dopuna",
+          "source": "Proverljivo tumačenje modela na istom slajdu; obrazloženje u evidenciji beležaka",
+          "description": "Razjašnjenje greške preuranjenog zaokruživanja"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "71bf89065865728972902b4f761981adecdb51b12e2400cd23b2bc3c60b60984",
+        "baseline_render_sha256": "d6203ca4e7eee91a1e7d05aeb66e9c59c840b675b5f3be314e736796514b3ee3",
+        "new_render_sha256": "df145f1281a8ffc348f7a0018de1071e2c5c897400868c820ebc7935f55cd624",
+        "notes_render_sha256": "bfc9d21b8d45fcf84e25eb19639e921a902da1b3902dbe36d31f4b303c72e7de",
+        "slide_sources_sha256": "606063d7b3e42a71c813e2c17efea0d33007bd99a53e3a5e0bf0c2d2536ae720",
+        "notes_sources_sha256": "7d1a28cbee80858135660e959d3fe031e8995b10d6fa2eb822de7c45a8b5b2ea",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "a23af05ef755a77af3f3a6e1c2d0663e437b3e3343a574cbaa67a4e4940c530a",
+        "coverage_sha256": "30e405bf6a02fe3b8c9c2e7b73f24bf84c88cde9d88217c6ad06c26245eef720"
+      }
+    },
+    "09_2-s049": {
+      "path": "beleske/s049.tex",
+      "source_page": 25,
+      "position": "gornji",
+      "notes_sha256": "efc8efef9616a86848763db9686f4dd47766f9a1cbf78e50ab7f0bafa2835b1d",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "problem",
+      "questions": [
+        "P09"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s049:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 25, gornji slajd; vizuelni isečak 09_2-s049",
+          "description": "Potpun mehanizam nakupljanja naelektrisanja i delovanja dioda"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "6dd3f04bade48040d6df6784a02433c03448c3be65ad35e9f2d3a32f1d194b33",
+        "baseline_render_sha256": "2c3390b3fb7817ff06112ab766cd060d767c116cf93f81eb49846ab628dea892",
+        "new_render_sha256": "0aafdaf9769dc4940ce5359e8db7080300b2ea07265a65841cad907eb05af8f4",
+        "notes_render_sha256": "e66b5c385edcd53c7211e879e42c0093545512ae19b61d3ca810638c824292f4",
+        "slide_sources_sha256": "520db7cedbdf0ad70094bd306818caf28c8c2047779d4087fce99306b11dfa11",
+        "notes_sources_sha256": "3197bc8fe9223a8c004051e8309f9e174e280af0bd716057de7bda4e975f85ae",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "3b83f279f9a2467853216d0c1e5576105ea372d267d81eab7c538b459f952714",
+        "coverage_sha256": "76384833a27df3d8740ade2e2a0dda6c77228b0ade600ae7b2ea7409013435a2"
+      }
+    },
+    "09_2-s050": {
+      "path": "beleske/s050.tex",
+      "source_page": 25,
+      "position": "donji",
+      "notes_sha256": "cd86bc414c1d8fd31beb04e4c019700fab50b95698aab0941fdc84f75a45f698",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s050:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 25, donji slajd; vizuelni isečak 09_2-s050",
+          "description": "Povezivanje fizičke strukture sa elementima ekvivalentnog kola"
+        },
+        {
+          "element": "09_2-s050:d01",
+          "origin": "dopuna",
+          "source": "Proverljivo tumačenje modela na istom slajdu; obrazloženje u evidenciji beležaka",
+          "description": "Veza otpornosti ostrva/osnove sa ekvivalentnim kolom"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "39c60186460d6ac99f94ae7d8639a085ef3297bd6ec3f5a8518db4d8e0be30f7",
+        "baseline_render_sha256": "19b2bc40fa0832018f5474d7c1eb034d8227e885375c6757833e3d7a3fee7353",
+        "new_render_sha256": "9949cd40792c8708903523aead16494bbf855818c54fdb1d80b9cc1cda01d2e0",
+        "notes_render_sha256": "c893aa74e093fefe65e28d4d05d47cbd5a28a782de8d3bc53bf8047730b3685e",
+        "slide_sources_sha256": "ff53c02bd5fa232768a4f4cc949b988d394696a251437fa1bac6ee6eaf987d74",
+        "notes_sources_sha256": "ed68b6463d00431237a5cc109ca27c11491596d09d9027d47e852c404e235a6a",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "c050d81d4054f1626d662100fa12a93a707b36cb8f2a3e7f0aa7f683b3e898ef",
+        "coverage_sha256": "a9842398658e0f9a093f31ac54a1c0ccb370e258561a7e709471c9d4efa8304e"
+      }
+    },
+    "09_2-s051": {
+      "path": "beleske/s051.tex",
+      "source_page": 26,
+      "position": "gornji",
+      "notes_sha256": "4914a7bc13bd7329c5219d4328f5184db3cf497cde1d783664a160d39a321801",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "problem",
+      "questions": [
+        "P10"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s051:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 26, gornji slajd; vizuelni isečak 09_2-s051",
+          "description": "Potpun opis regenerativne petlje iz originala"
+        },
+        {
+          "element": "09_2-s051:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 26, gornji slajd; vizuelni isečak 09_2-s051",
+          "description": "Pokretanje negativnim impulsom na TP i samoodrživ kratki spoj"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "acb06d91977d9c0661d2390d8ede72af911803ef0c3f89a654925d644495823f",
+        "baseline_render_sha256": "73300ab13cca5a51073fdc853af49525f1181e1b2949bb59ea28da8bab9a51aa",
+        "new_render_sha256": "c99b43d4abed7ffee53d37870bd1e5710aeaaa662c70cac0d855bcb992babfb3",
+        "notes_render_sha256": "1e7d8c439b4d6985a8876f26b0c3d103f48285e6f7f98144d5516df018299757",
+        "slide_sources_sha256": "6fa7d5e42d57b1e893b558275b8e6b7b3c1d105e9e770aef1c08b23de31f449e",
+        "notes_sources_sha256": "415bb42878b5ad7da3e16a57ffed4605dcb4149c5b51886356929dfc112084dd",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "083707b734f4d04f64be99c81a1db62b16647c7c6e833c1e3f657d4f880748be",
+        "coverage_sha256": "235823e1cee6a7fb58e7f134110c73607e7c202e58a70abac13e220cbc7db166"
+      }
+    },
+    "09_2-s052": {
+      "path": "beleske/s052.tex",
+      "source_page": 26,
+      "position": "donji",
+      "notes_sha256": "96d090324ad970b4c2f09093d1cd5c1fa7fab7f095a01b73bc28aaa09559f9e8",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s052:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 26, donji slajd; vizuelni isečak 09_2-s052",
+          "description": "Ograničen strujni kapacitet izvora, spoljašnji priključci i smanjenje međusobnog uticaja"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "57831b65142751fcf716a5f2a9291a1c90dc440e6595705ac6c1226c772e73fd",
+        "baseline_render_sha256": "b5c014d29a07564046a6be4ea0b6517381bf46741024035b77d8c2432157d72c",
+        "new_render_sha256": "55c3ad149cca1a038c1dcabb2c724513d7d9a230e641ae1c711c97819982317d",
+        "notes_render_sha256": "d2ef7b26fa833a6ceae8e333b2bd53abdaf9e917249eddea585bd9a0153d203e",
+        "slide_sources_sha256": "a6d61efc669e693e850ca14f8c0252ba5fb27e1ca9e17b892a08f865aff12248",
+        "notes_sources_sha256": "7a79eb2566e837896129aac4ab4b03a76ad304d930f012b4abef0a7cd5920700",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "8bfe519c955d8cddca782e4b7ef762b260716806afc0edabd0370ae980743e97",
+        "coverage_sha256": "d223da0f65e7fc6d7bc6b702f2c5138f2c78c3d1ae21a08f46d845205811f400"
+      }
+    },
+    "09_2-s053": {
+      "path": "beleske/s053.tex",
+      "source_page": 27,
+      "position": "gornji",
+      "notes_sha256": "2ad9081ec066dd7f6a9a87b22fe866d626c02b523690a0b852f953aaf94de77c",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "problem",
+      "questions": [
+        "P11"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s053:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 27, gornji slajd; vizuelni isečak 09_2-s053",
+          "description": "Oba primera značenja kapaciteta baterije"
+        },
+        {
+          "element": "09_2-s053:e06",
+          "origin": "original",
+          "source": "Originalni PDF strana 27, gornji slajd; vizuelni isečak 09_2-s053",
+          "description": "Oprez za složene sisteme i izvorna tvrdnja o manjim stvarnim strujama"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "8eead24fd6a6b8249b6cfab5cd601df90512f1ac1abf351864959c2721bd9f23",
+        "baseline_render_sha256": "2e48fbdb488a5212bbb1e8921129f07421df0851abe32f7f1aa90f83a256b122",
+        "new_render_sha256": "f74760e7a87a30305db24e5eed5936cfb8b421fcb55ac86ed0bb525e30e333a0",
+        "notes_render_sha256": "fa54e296b3265b5a83b1710ce39258ecc435d4ed7737146089bc6b59d38dbc9d",
+        "slide_sources_sha256": "5bb616ba17f85c47bdda38285261f519d64117ae5603e21edec18943e665fab5",
+        "notes_sources_sha256": "092974af6ed4d24ec82dc9b84ff81a330112cfa18ee7d54c0bbbb07b6e2b3535",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "66c3717aa01d322b9823f74e687a80d758374b3d6567f27b5b3d4fc0c0c39cd8",
+        "coverage_sha256": "9f7313f31ee6ba0203e7e98e8333b375ee3077fd572f286addf3c158b05196dd"
+      }
+    },
+    "09_2-s054": {
+      "path": "beleske/s054.tex",
+      "source_page": 27,
+      "position": "donji",
+      "notes_sha256": "a61696d5d2dd8421aaf5a10d9d053b31c9b032dcd972969d3822d3e3ccadaa8c",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s054:e02",
+          "origin": "original",
+          "source": "Originalni PDF strana 27, donji slajd; vizuelni isečak 09_2-s054",
+          "description": "Objašnjenje dva odvojena mehanizma"
+        },
+        {
+          "element": "09_2-s054:d01",
+          "origin": "dopuna",
+          "source": "Proverljivo tumačenje modela na istom slajdu; obrazloženje u evidenciji beležaka",
+          "description": "Tumačenje dva odvojena mehanizma disipacije"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "f5617ce5c59c192ca32aa16efeb34bf721e7ea260fb95af7fb911b20fb3bdc98",
+        "baseline_render_sha256": "7067d41c04143f32996d686271294048da1f1501de0adde1d0f322a1aa75898d",
+        "new_render_sha256": "e6a06b889070b39dcdaeba85d7fcf4695fcb496d28a3a7254c02a9636ec0da1c",
+        "notes_render_sha256": "9969b7b8e8fe2294f34dfc53373a7c2c709fe6dbf155b3ef8460b4abfc6b43ea",
+        "slide_sources_sha256": "4a5319943017052ac85709d9337003fa51d6094b566ab8af9064840aeffc189f",
+        "notes_sources_sha256": "d88d3235531d09f788c3f818f92920c78e8312393ac98bbd512dcd4dbe23b884",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "6618f4b9aeb8a4ec001fc2dea1456ca86a1b02778fb48d473de2a5e2671f4672",
+        "coverage_sha256": "9e275d93f6b9828feb47aac14487f0b48c21b88043382259dd52eb16c7a1eda2"
+      }
+    },
+    "09_2-s055": {
+      "path": "beleske/s055.tex",
+      "source_page": 28,
+      "position": "gornji",
+      "notes_sha256": "6e2bb8c1c69737d6056131574c9309ca1a115a3d3798e100639a391d44ec56cd",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "problem",
+      "questions": [
+        "P12"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s055:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 28, gornji slajd; vizuelni isečak 09_2-s055",
+          "description": "Puni integral napajanja sa izvornim zapisom integranda"
+        },
+        {
+          "element": "09_2-s055:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 28, gornji slajd; vizuelni isečak 09_2-s055",
+          "description": "Puna razlika energija i objašnjenje oba procesa"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "a60443e6e9b9002ba256d00a8e77d57cc261f224b88f84bc7d950260b9866ffe",
+        "baseline_render_sha256": "3c7598691165cac2e294eca097811e9d2cacdea944c41b9d6c15f0208aa89a24",
+        "new_render_sha256": "6775bef2789557c13a7be6a20f24dca849fe9d173bc40fea66dc529423e35050",
+        "notes_render_sha256": "4db78c2d680ea91c6dd1a4c965b80c962cf40ac7213c32de004380ad9298b4d6",
+        "slide_sources_sha256": "1e08cd0ecc436e58843b5689ef9d3c7169aa9f155be70d431950b176ee84d00b",
+        "notes_sources_sha256": "49fea9d6093db0360077235405efe5d9267bd5b9a9368224d174a5561d5d9f63",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "5acd0e2843f39c99fe805d11e7ecb2f2bba043e538aad7fd3121a330c1073e5f",
+        "coverage_sha256": "decd81c0ab91217648c0d96420dd4fc17985da6efab859afcd8837ce70d1f820"
+      }
+    },
+    "09_2-s056": {
+      "path": "beleske/s056.tex",
+      "source_page": 28,
+      "position": "donji",
+      "notes_sha256": "1d8d68c501894399fde8d10f3774386b0b8b87e203efbae1d596d2dcd06e4b3a",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "problem",
+      "questions": [
+        "P13",
+        "P14"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s056:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 28, donji slajd; vizuelni isečak 09_2-s056",
+          "description": "Detaljno energetsko tumačenje i izvorni primer overklokovanja"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "40180ae5acf0c1e0cdfa5439b8a1e3a8af24a27214e06338a498300a11ff7fe9",
+        "baseline_render_sha256": "394d5cc33a120623342e446ba04cdd0b500e64bc9420aa08218498f56d47c3fd",
+        "new_render_sha256": "7b9e62a2595e4eaa10d69ba9f7c3a36d8d1dbabfe08c3c8e114ada4b16c746bb",
+        "notes_render_sha256": "08b53d61c82bb4bd0bbc4ee93717457a211342a0e4f5945fd1838c16ae73fddd",
+        "slide_sources_sha256": "367aaf21bc75b21f13f505388a9a3682891c0bb04aefce5445c516dc7740c2ab",
+        "notes_sources_sha256": "24ede6710e143840a90dfedfbc9eb7ba5de5128a8ddaa3cb1006a4a4815a1c08",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "d880caf4a52615165ae8e9e04cfed100b754b24a4515306ca5673655cb837ab3",
+        "coverage_sha256": "2736baa21c18b4affa513419518601ed233492323eda2aa8d73868840b344e94"
+      }
+    },
+    "09_2-s057": {
+      "path": "beleske/s057.tex",
+      "source_page": 29,
+      "position": "gornji",
+      "notes_sha256": "43776bf26c5c195c7e5f661f9a379643b230cf70ea5c116e7b35e6d64109ace0",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "problem",
+      "questions": [
+        "P14"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s057:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 29, gornji slajd; vizuelni isečak 09_2-s057",
+          "description": "Sve izvorne tvrdnje o overklokovanju, hlađenju i baterijskim sistemima"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "6c7a79b97d9b6ddd9f22b7ebe5de2a33ecfd12ae69ec8e8ee267714ba646e501",
+        "baseline_render_sha256": "a37d0935092b4477a63ba4ece95eda2589143a1946b2ac8c7c87d466a3838c25",
+        "new_render_sha256": "6a143fd3ef7267ca3b598565d136571ffeb853e3afaeaa93ff508de55717f7b2",
+        "notes_render_sha256": "6317cf19b6cdcd687b48e286d12b4f55188bf047c7293128e1d5052eb6908fd4",
+        "slide_sources_sha256": "60e52a1164b63dfb596d1f8d5b341f918f18a546945761a2c9232a20f6d63230",
+        "notes_sources_sha256": "2617d18793e4c53b871349e27240740d83d3ade3ea179ad721ff699181bd82b5",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "85200e5344aa4a715790d91f24d5387f6f5dabca152ccf4ed170b36fd16edf3d",
+        "coverage_sha256": "5c94803517f18a41c6ed303b1e3287455a6d4876e947358607a651c266338857"
+      }
+    },
+    "09_2-s058": {
+      "path": "beleske/s058.tex",
+      "source_page": 29,
+      "position": "donji",
+      "notes_sha256": "b7f6609ab5605e84e41a7dc02804924bb0e2847fc6942a02ea0343ac62d2bfba",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [
+        "P15"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s058:e05",
+          "origin": "original",
+          "source": "Originalni PDF strana 29, donji slajd; vizuelni isečak 09_2-s058",
+          "description": "Mehanizam istovremenog provođenja i površine oba trougla"
+        },
+        {
+          "element": "09_2-s058:d01",
+          "origin": "dopuna",
+          "source": "Proverljivo tumačenje modela na istom slajdu; obrazloženje u evidenciji beležaka",
+          "description": "Razlikovanje trajanja cele ivice i istovremenog provođenja"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "a6d56f24b3c91c8cfbb80e89926ba6888ebd2387d86193ebbb85755db0a9c631",
+        "baseline_render_sha256": "980655d49500dc33d9494fd6364081942d19c1ed0188c0cb4a5ee4dc1e7134da",
+        "new_render_sha256": "ecc9376428c8ace9fe87762442149f142c4d00482256a9c53f8cd47944517e49",
+        "notes_render_sha256": "4a3d3e29bb73d99d7c05ca5872056881670a371668ecb06b263a045b5a4e73e8",
+        "slide_sources_sha256": "03d5a052081527e0aedcc635ef8ec3c5ae51a2909d1cd87ab4b942006cb84901",
+        "notes_sources_sha256": "d95761329a2ecca910aa5e10935ff6606e49039fe4b45a234e074c3f8afdc7e5",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "2d7bab149c62538a842712b911ea381a81785a2571a2aca132612398ecef440f",
+        "coverage_sha256": "20d2e482bea4b59b8f62631d5d90167b648285f055ab7c62c8e40ef402a6cfeb"
+      }
+    },
+    "09_2-s059": {
+      "path": "beleske/s059.tex",
+      "source_page": 30,
+      "position": "gornji",
+      "notes_sha256": "73abdd09313de0c2f734ebd639fe0d7af19182bc336f5fd99d219d4b7a1ed98f",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [
+        "P15"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s059:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 30, gornji slajd; vizuelni isečak 09_2-s059",
+          "description": "Puno objašnjenje naponskog intervala, linearne ivice, 10–90% i dva impulsa"
+        },
+        {
+          "element": "09_2-s059:d01",
+          "origin": "dopuna",
+          "source": "Proverljivo tumačenje modela na istom slajdu; obrazloženje u evidenciji beležaka",
+          "description": "Tumačenje 10–90% definicije i faktor dva za dve ivice"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "b1bd527af1d467887865b9f8a5ca64bda97aa6e0f4fa9d40c36ee0929b3e553d",
+        "baseline_render_sha256": "f8b7edd6cb2f67b4e0ce9e7504c273ef42bf6017389347da471115c6a1cf2873",
+        "new_render_sha256": "f24e6569b01be352bae944592d8ae21a13149e56d53d0c0bf4c3a8665be25ab7",
+        "notes_render_sha256": "797989fde09671a659ed07c9694c0955fbe6ab62cded695cf27407207cb63763",
+        "slide_sources_sha256": "d0f9196b24a303e4272143db1a3fd0d6ee7b0c1be4eea7f9867564d9d45ef2b3",
+        "notes_sources_sha256": "f00cb3ac9615316180a78f410c6cbbc4ab384458525be5d6c78561b1b142b08e",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "d4084ae062d0fba00f8bf98fd8ec605933c255e94a5625141265110053fabc06",
+        "coverage_sha256": "59dfab9b30207e72297db76bbd7b22b318d3271991f95df7f562b65f7ab8832a"
+      }
+    },
+    "09_2-s060": {
+      "path": "beleske/s060.tex",
+      "source_page": 30,
+      "position": "donji",
+      "notes_sha256": "dcb5e1df3a963a0221bb4bcd093e2e7b168472fafaf49be957dfaed49dfd7dfe",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [
+        "P14"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s060:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 30, donji slajd; vizuelni isečak 09_2-s060",
+          "description": "Objašnjenje poređenja tehnologija i poništavanja kašnjenja"
+        },
+        {
+          "element": "09_2-s060:d01",
+          "origin": "dopuna",
+          "source": "Proverljivo tumačenje modela na istom slajdu; obrazloženje u evidenciji beležaka",
+          "description": "Jedinica PDP u prikazanom modelu"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "a70a7c41d30c696180a00142b4261f61535a17e0a1df4d15fd63faec90ba31b9",
+        "baseline_render_sha256": "baf7c4035986b1d67c7a003bae42402fdc21d3940a21ba4a3ee255883fc7146d",
+        "new_render_sha256": "22d655efb7763c667c89cf4d09337026849b1f1e47fe7939287f00ee503d8227",
+        "notes_render_sha256": "351a4051357e38acd80e15d88b3c2261e221734f93477b5fe97da0d7e3ce9cef",
+        "slide_sources_sha256": "12bdc0db58df10a6b073b8118cc6f4c92138b57242897639d0cc1a4ee47058af",
+        "notes_sources_sha256": "a6713a899bedc22a2964ea2abb007a406041cdf25b5cfba411e0ca4e922a1cba",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "e404c117537007daf1ca448f2bd8b3b688825fc8f741b0d990f940a85db6fed2",
+        "coverage_sha256": "ccf3bc7c13833c3203cad2bce8588c51072c30cc47d666dce1bc5b5ae0650dc1"
+      }
+    },
+    "09_2-s061": {
+      "path": "beleske/s061.tex",
+      "source_page": 31,
+      "position": "gornji",
+      "notes_sha256": "e6510632867d7bec313ab082b8ca56a200d30150c33685ca5d5d1b4a446566e3",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "provereno",
+      "questions": [],
+      "elements": [
+        {
+          "element": "09_2-s061:e03",
+          "origin": "original",
+          "source": "Originalni PDF strana 31, gornji slajd; vizuelni isečak 09_2-s061",
+          "description": "Tumačenje dodatnog faktora kašnjenja"
+        },
+        {
+          "element": "09_2-s061:d01",
+          "origin": "dopuna",
+          "source": "Proverljivo tumačenje modela na istom slajdu; obrazloženje u evidenciji beležaka",
+          "description": "Jedinica EDP i poređenje pod istim opterećenjem"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "c2a41f3b2bbd3f9402cdacf80d5a3092794c3fdbc081ea9cda648f51323051b5",
+        "baseline_render_sha256": "42567768cb65c0ceed39aff7bc38741becbe4fe975e0a962395ba27c4eebd863",
+        "new_render_sha256": "210ffde06245c11a59a6e96c68c73265ed5cf5d637aca0795924095763d6b392",
+        "notes_render_sha256": "be9a269979baa410b58e22acf6babda31fce385cb0bd4fdb21bb126a45f16a44",
+        "slide_sources_sha256": "9d26a2c1b9261bdbe775ab848df1507a3624d51040e565e93bbada225c65f08e",
+        "notes_sources_sha256": "a09ddc4506b7f0bce5d2a3c062980602b1ee61db7e7c4d1d3c6eb9972dabd256",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "2370f6cbf5663632e95a0a04754b3259a07a3b822d82e323909566a6b4ec4e5d",
+        "coverage_sha256": "e7f85eddff01a87e5c1ac37bcc318ecf0201f02c8e136a906c96ab10bc217826"
+      }
+    },
+    "09_2-s062": {
+      "path": "beleske/s062.tex",
+      "source_page": 31,
+      "position": "donji",
+      "notes_sha256": "895ed97546fe73075ebbaf3c754638b271d299b00bcdb04c990bcd03191348e4",
+      "reviewed": "2026-10-03T10:02:31.434141+00:00",
+      "status": "problem",
+      "questions": [
+        "P16"
+      ],
+      "elements": [
+        {
+          "element": "09_2-s062:e04",
+          "origin": "original",
+          "source": "Originalni PDF strana 31, donji slajd; vizuelni isečak 09_2-s062",
+          "description": "Početna otpornost sa izvornim lambda predznakom i svrha optimizacije"
+        },
+        {
+          "element": "09_2-s062:d01",
+          "origin": "dopuna",
+          "source": "Proverljivo tumačenje modela na istom slajdu; obrazloženje u evidenciji beležaka",
+          "description": "Izvod, domen i potvrda minimuma pojednostavljene EDP funkcije"
+        }
+      ],
+      "verification": "Poređenje sa istim originalnim slajdom i njegovim formulama; matematički međukoraci provereni računom. Računski dokazi predloga su u kodovi/provera_redizajna.py; otvorena izvorna stručna greška ostaje izvan potvrde tačnosti.",
+      "evidence": {
+        "source_render_sha256": "a92348e6ba647908f0b43764cb615bb24f0cf8c502bad33eefe8f7275f3a900b",
+        "baseline_render_sha256": "4f8559056200d480a297333a32c3368698a0cd9ede10c8f211024fc569462ade",
+        "new_render_sha256": "c76bb221d189e89dce085114fe25f3886dfad510b162a99ac3747a99bdd7076f",
+        "notes_render_sha256": "4470d32e93284755bf45a498956f769626e4218a6237a4c32aebaa8077ee3c09",
+        "slide_sources_sha256": "d1fd123e9ac3d5297d2c5e461b6dc1cecff9c218f994f427edfec894ec17bf92",
+        "notes_sources_sha256": "daa74145e6ab63c0a3b5b4d0983a068565463526e11f186eb641645b9fef30f2",
+        "shared_sha256": "6a51d6f50ae896645a7f4aa031f5a605459006023c8d78ba6b62aabe95067157",
+        "mapping_sha256": "fe186a1f5ae4dfaa3e805c2d64c8c33e6ba7f07244fe49642dfc963f46526800",
+        "coverage_sha256": "deb3b763d59148945ce0295a392662390b9b6db4d8d354791ea1f4e74c741eb2"
+      }
+    }
+  }
+}

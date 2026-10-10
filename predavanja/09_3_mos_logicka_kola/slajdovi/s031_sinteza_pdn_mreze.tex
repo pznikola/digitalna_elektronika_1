@@ -1,9 +1,22 @@
 \slajdid{09_3-s031}
-\begin{frame}[label=09_3-s031]
-\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}Na identičan način možemo realizovati i složenija logička kola sa više ulaza. Na primer funkciju
+\begin{frame}[label=09_3-s031]{Sinteza PDN mreže}
+% element: 09_3-s031:e01
+% element: 09_3-s031:e02
+% element: 09_3-s031:e03
+% element: 09_3-s031:e04
+\begin{columns}[c,onlytextwidth]\column{.48\textwidth}
 \[F=\overline{D+\overline A(B+C)}\]
-PDN mreža kao što smo videli pravi funkciju kod paralelno povezanih tranzistora $\overline{A+B}$ a kod redno $\overline{AB}$ odnosno najbolje bi bilo da za relaizaciju funkcije posmatramo oblik $\overline F$ odnosno
+Za PDN posmatramo:
 \[\overline F=D+\overline A(B+C)\]
-i u tom slučaju svako ILI daje paralelnu vezu a svako I rednu vezu, dok se na ulazima tranzistora nalaze promenljive sa pravim vrednostima iz ovakvog načina prikazivanja
-\par\medskip\centering\input{slike/tikz/s031_pdn_slozene_funkcije.tex}
+\begin{itemize}
+\item ILI → paralelna veza.
+\item I → redna veza.
+\item Gejtovi: vrednosti promenljivih iz $\overline F$.
+\end{itemize}
+Paralelno: $\overline{A+B}$; redno: $\overline{AB}$.
+\column{.49\textwidth}
+\begin{center}
+\input{slike/tikz/s031_pdn_slozene_funkcije.tex}
+\end{center}
+\end{columns}
 \end{frame}

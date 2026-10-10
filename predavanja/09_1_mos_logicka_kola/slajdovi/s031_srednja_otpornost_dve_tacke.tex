@@ -1,8 +1,11 @@
 \slajdid{09_1-s031}
-\begin{frame}[label=09_1-s031]
-\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\begin{center}\input{slike/tikz/s031_kapacitivno_opterecen_mos.tex}\hspace{10mm}\input{slike/tikz/s031_dinamicka_karakteristika.tex}\end{center}\alert{Prvi način}
-\[R_n=\dfrac{R_{ON1}+R_{ON2}}2\]
-Ekvivalentu otpornost $R_n$ računamo kao srednju vrednost otpornosti tranzistora u tačkama 1 i 2, pri čemu je
-\[R_{ON1}=\dfrac{V_{DD}}{I_{Dn1}}=\dfrac{V_{DD}}{\dfrac{k_n}{2}\dfrac1{1+\dfrac{(V_{GS}-V_{Tn})}{L_nE_{Cn}}}(V_{GS}-V_{Tn})^2(1+\lambda_nV_{DD})}\]
-\[R_{ON2}=\dfrac{\dfrac{V_{DD}}2}{I_{Dn2}}=\dfrac{\dfrac{V_{DD}}2}{\dfrac{k_n}{2}\dfrac1{1+\dfrac{(V_{GS}-V_{Tn})}{L_nE_{Cn}}}(V_{GS}-V_{Tn})^2\left(1+\lambda_n\dfrac{V_{DD}}2\right)}\]
+\begin{frame}[label=09_1-s031]{Srednja otpornost iz dve radne tačke}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{3pt}\setlength{\belowdisplayshortskip}{3pt}
+% element: 09_1-s031:e01
+% element: 09_1-s031:e02
+% element: 09_1-s031:e03
+% element: 09_1-s031:e04
+\begin{center}\input{slike/tikz/s031_kapacitivno_opterecen_mos.tex}\hspace{12mm}\input{slike/tikz/s031_dinamicka_karakteristika.tex}\end{center}\textbf{Prvi način: srednja vrednost u tačkama 1 i 2}\[R_n=\dfrac{R_{ON1}+R_{ON2}}2\]
+\begin{columns}[T,onlytextwidth]\column{.48\textwidth}\[R_{ON1}=\frac{V_{DD}}{I_{Dn1}}\]
+\column{.48\textwidth}\[R_{ON2}=\frac{V_{DD}/2}{I_{Dn2}}\]
+\end{columns}
 \end{frame}

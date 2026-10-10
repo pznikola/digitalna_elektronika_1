@@ -1,6 +1,8 @@
-\begin{tikzpicture}[x=.6cm,y=.24cm,font=\sitneoznake,>=Latex]
-\draw[->](0,4.8)--(5,4.8)node[below]{t};\draw[->](.2,4.5)--(.2,7.0)node[above]{$v_i(t)$};\draw(.2,6.5)--(1,6.5)--(1,5.1)--(2.8,5.1)--(2.8,6.5)--(4.7,6.5);\node[left]at(.2,6.5){$V_H$};\node[left]at(.2,5.1){$V_L$};
-\draw[->](0,.7)--(5,.7)node[below]{t};\draw[->](.2,.4)--(.2,3.6);\node at(1.8,3.6){$v_o(t)$};\foreach\y/\l in{2.8/V_{OH},1/V_{OL}}{\draw[dashed](.2,\y)--(3.3,\y);\node[left]at(.2,\y){$\l$};}
-\draw(.2,1)--(1,1)..controls(1.2,2.5)and(1.7,2.8)..(2.2,2.8)--(2.8,2.8)--(3.05,1)--(4.7,1);
-\foreach\x/\l in{1/1,2.8/2}{\draw[dashed](\x,.45)--(\x,5);\node[below]at(\x,.45){$t_\l$};}\draw[->](4.5,2.3)--(2.95,1.8);\node[right,align=left]at(4.5,2.3){Linearna\\zavisnost};\draw[->](1.08,1.5)--(1.45,-1);\node[below,align=center]at(.5,-1){Totem pol radi\\u režimu\\zasićenja};\draw[->](1.8,2.7)--(3.1,-1);\node[below,align=center]at(4.2,-1){Totem pol radi\\u aktivnom\\režimu};\draw[dashed](.2,1.9)--(3.3,1.9);\node[fill=white,inner sep=1pt]at(2,1.9){$50\%$};\end{tikzpicture}
-
+\begin{tikzpicture}[x=.7cm,y=.36cm,font=\sitneoznake,>=Latex]
+\draw[->](0,4)--(5,4)node[right]{t};\draw(.3,5.1)--(1,5.1)--(1,4.25)--(3.2,4.25)--(3.2,5.1)--(4.8,5.1);\node[left]at(.3,5.1){$V_H$};\node[left]at(.3,4.25){$V_L$};\node[right]at(5,4.9){$v_i$};
+\draw[->](0,0)--(5,0)node[right]{t};\draw[->](.3,-.1)--(.3,3.3);\node[right]at(5,2.7){$v_o$};
+\draw(.3,.6)--(1,.6)..controls(1.15,2.5)and(1.9,2.9)..(2.4,2.9)--(3.2,2.9)--(3.6,.6)--(4.8,.6);
+\foreach\y/\l in{.6/V_{OL},2.9/V_{OH}}{\draw[dashed](.3,\y)--(4.8,\y);\node[left]at(.3,\y){$\l$};}
+\draw[dashed](.3,1.75)--(4.8,1.75);\node[above]at(4.3,1.75){50\%};
+\foreach\x/\l in{1/1,3.2/2}{\draw[dashed](\x,-.2)--(\x,4.3);\node[below]at(\x,-.2){$t_\l$};}
+\end{tikzpicture}

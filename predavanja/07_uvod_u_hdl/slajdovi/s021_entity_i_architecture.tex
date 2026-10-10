@@ -1,10 +1,20 @@
 \slajdid{07-s021}
+% element: 07-s021:e01
+% element: 07-s021:e02
+% element: 07-s021:e03
+% element: 07-s021:e04
 \begin{frame}[label=07-s021]{Jednostavan VHDL kod}
-\gusttekst\centering\input{slike/tikz/s021_logicka_funkcija.tex}\par
-\raggedright Dva osnovna elementa opisa - koda\par\vspace{2mm}
-\begin{columns}[c,onlytextwidth]\column{.34\textwidth}\Large\color{DEcrvena}1. ENTITY
-\column{.63\textwidth}\lstinputlisting{kodovi/s021_entity.vhd}\end{columns}
-\begin{columns}[c,onlytextwidth]\column{.34\textwidth}\Large\color{DEcrvena}2. ARCHITECTURE
-\column{.63\textwidth}\lstinputlisting{kodovi/s021_architecture.vhd}\end{columns}
+\setlength{\parskip}{0pt}\lstset{aboveskip=1pt,belowskip=1pt}
+Dva osnovna elementa opisa — koda:
+\par\vspace{1mm}
+\begin{columns}[c,onlytextwidth]
+\column{.44\textwidth}\centering\input{slike/tikz/s021_logicka_funkcija.tex}
+\column{.53\textwidth}\textcolor{DEcrvena}{\textbf{1. ENTITY}}\par\vspace{1mm}
+\lstinputlisting[basicstyle=\ttfamily\fontsize{10}{12}\selectfont]{kodovi/s021_entity.vhd}
+\end{columns}
+\par\vspace{1mm}
+\textcolor{DEcrvena}{\textbf{2. ARCHITECTURE}}\par\vspace{1mm}
+\lstinputlisting[basicstyle=\ttfamily\fontsize{10}{12}\selectfont]{kodovi/s021_architecture.vhd}
+\par\vspace{1mm}
 \centering Za jedan entity može biti definisano više arhitektura. Obrnuto NE.
 \end{frame}

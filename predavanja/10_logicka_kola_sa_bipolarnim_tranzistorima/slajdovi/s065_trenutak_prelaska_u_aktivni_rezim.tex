@@ -1,15 +1,14 @@
+% element: 10-s065:e01
+% element: 10-s065:e02
+% element: 10-s065:e03
 \slajdid{10-s065}
-\begin{frame}[label=10-s065]
-\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[T,onlytextwidth]\column{.28\textwidth}\centering Koji je to trenutak?\par\bigskip\input{slike/tikz/s065_trenutak_izlaska_iz_zasicenja.tex}
-\[\beta_F i_B(t_1)=i_C(t_1)\]
-\column{.70\textwidth}
-\[R_B i_B(t_1)+V_{BE}=R_C i_C(t_1)+V_{CES}=R_C\beta_F i_B(t_1)+V_{CES}\]
+\begin{frame}[label=10-s065]{Trenutak izlaska iz zasićenja}
+\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{3pt}\setlength{\belowdisplayshortskip}{3pt}
+\begin{columns}[T,onlytextwidth]\column{.31\textwidth}\input{slike/tikz/s065_trenutak_izlaska_iz_zasicenja.tex}\par\smallskip $\beta_Fi_B(t_1)=i_C(t_1)$.\column{.66\textwidth}\centering \raggedright
 \[i_B(t_1)=\frac{V_{BE}-V_{CES}}{R_C\beta_F-R_B}\]
-\[\begin{aligned}v_o(t_1)&=V_{CC}-R_B i_B(t_1)-V_{BE}-V_D\\&=V_{CC}-R_B\frac{V_{BE}-V_{CES}}{R_C\beta_F-R_B}-V_{BE}-V_D\end{aligned}\]
-\[v_O(t_0^+)=V_L\]
-\[v_O(\infty)=V_{CC}-V_{BE}-V_D\]
-\[\tau_2=C*\frac{R_B}{\beta_F+1}\]
-\[t_1=t_0+\tau_2\ln\left(\frac{v(t_0^+)-v(\infty)}{v(t_1)-v(\infty)}\right)\]
-\[t_1=t_0+\tau_2\ln\left(\frac{R_C\beta_F-R_B}{R_B}*\frac{V_{CC}-V_{BE}-V_D-V_L}{V_{BE}-V_{CES}}\right)\]
-\end{columns}
+\[v_o(t_1)=V_{CC}-R_B\frac{V_{BE}-V_{CES}}{R_C\beta_F-R_B}-V_{BE}-V_D\]
+\[v_O(t_0^+)=V_L,\quad v_O(\infty)=V_{CC}-V_{BE}-V_D\]
+\[\tau_2=C\frac{R_B}{\beta_F+1}\]
+\[t_1=t_0+\tau_2\ln\frac{v(t_0^+)-v(\infty)}{v(t_1)-v(\infty)}\]\end{columns}\smallskip
+\[t_1=t_0+\tau_2\ln\left(\frac{R_C\beta_F-R_B}{R_B}\frac{V_{CC}-V_{BE}-V_D-V_L}{V_{BE}-V_{CES}}\right)\]
 \end{frame}

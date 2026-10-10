@@ -1,10 +1,16 @@
 \slajdid{09_3-s005}
-\begin{frame}[label=09_3-s005]
-\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\textbullet\quad Zbog ovih kapacitivnosti pojavljuju nam se \alert{DVA} problema.
-\par\medskip
-\alert{1.} Koliki treba da je odnos $k_p$ i $k_n$ (odnosno $W_p$ i $W_n$) \underline{u jednom} CMOS invertoru da bi se minimiziralo kašnjenje kada taj invertor treba da puni i prazni spoljne kapacitivnosti, koje su posledica ulaza u naredna logička kola.
-\par\smallskip\centering\input{slike/tikz/s005_dva_invertora.tex}\par\medskip\raggedright
-\alert{2.} Koliki treba da je međusobni odnos dimenzija tranzistora \underline{među} CMOS invertorima (unutar jednog ćemo odrediti odnose $W_p$ i $W_n$ rešavajući prethodni slučaj) da bi se minimiziralo kašnjenje \underline{u lancu} invertora koji treba (lanac treba) da puni i prazni spoljne kapacitivnosti, a da ulazna kapacitivnost u lanac ostane minimalna.
-\par\smallskip\centering\input{slike/tikz/s005_lanac_invertora.tex}\par
-$f$ – faktor povećanja istovremeno i p i n tranzistora u narednom invertoru
+\begin{frame}[label=09_3-s005]{Dva problema optimizacije}
+% element: 09_3-s005:e01
+% element: 09_3-s005:e02
+% element: 09_3-s005:e03
+% element: 09_3-s005:e04
+\begin{columns}[c,onlytextwidth]\column{.40\textwidth}
+\alert{1. U jednom invertoru}\par Odnos $k_p/k_n$, odnosno $W_p/W_n$, za minimalno kašnjenje pri kapacitivnom opterećenju.\begin{center}
+\input{slike/tikz/s005_dva_invertora.tex}
+\end{center}
+\column{.57\textwidth}
+\alert{2. U lancu invertora}\par Odnos dimenzija susednih stepena za minimalno kašnjenje uz minimalnu ulaznu kapacitivnost.\begin{center}
+\input{slike/tikz/s005_lanac_invertora.tex}
+\end{center}
+\end{columns}\bigskip $f$ — faktor povećanja oba tranzistora narednog invertora.
 \end{frame}

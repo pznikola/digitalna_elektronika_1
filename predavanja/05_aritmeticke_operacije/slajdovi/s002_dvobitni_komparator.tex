@@ -1,18 +1,20 @@
-
 \slajdid{05-s002}
-\begin{frame}[label=05-s002]{Poređenje - Komparatori}
-\gusttekst
-Postoje standardne kombinacione mreže binarni komparatori koji kao ulaze primaju dva binarna broja $A$ i $B$, a na izlazima daju rezultat poređenja $A<B$, $A=B$ i $A>B$. Isto kao i kod kodera prioriteta moguće je funkcije pojedinih izlaza minimizirati, međutim i komercijalno raspoložive komponente a i ovde ćemo prikazati komponentu kod koje je lako pratiti putanje signala, kao i lako nadograđivati. Primer je poređenje dva neoznačena dvobitna binarna broja
+% element: 05-s002:e01
+% element: 05-s002:e02
+% element: 05-s002:e03
+\begin{frame}[label=05-s002]{Poređenje — komparatori}
+Binarni komparator poredi dva neoznačena broja $A$ i $B$.
+Izlazi predstavljaju $A<B$, $A=B$ i $A>B$.\par\vspace{2mm}
 \begin{columns}[c,onlytextwidth]
-\column{.77\textwidth}
-\def\DEprosiren{0}\def\DEunit{.75cm}\input{slike/tikz/komparator_jezgro.tex}
+\column{.77\textwidth}\centering
+\def\DEprosiren{0}\def\DEunit{.68cm}\def\DEyunit{.60cm}\input{slike/tikz/komparator_jezgro.tex}
 \column{.21\textwidth}\centering
-\begin{tikzpicture}[font=\fontsize{8}{9}\selectfont]
-\draw[DEvod] (0,0) rectangle (2.6,1.7);
-\foreach \label/\x in {A1/.3,A0/.8,B1/1.65,B0/2.2}{
-\node[anchor=north,inner sep=1pt] at (\x,1.7) {\label};\draw[DEvod] (\x,1.7)--(\x,2.0);}
-\node[anchor=west] at (0,.8) {komparator};
-\foreach \label/\y in {A>B/1.15,A<B/.72,A=B/.29}{\node[anchor=east,inner sep=1pt] at (2.6,\y){\label};\draw[DEvod] (2.6,\y)--(2.8,\y);}
+\begin{tikzpicture}[font=\fontsize{9}{11}\selectfont]
+\draw[DEvod] (0,0) rectangle (2.5,1.7);
+\foreach \label/\x in {A1/.3,A0/.8,B1/1.6,B0/2.15}{
+\node[anchor=north,inner sep=1pt] at (\x,1.7) {\label};\draw[DEvod] (\x,1.7)--(\x,2.1);}
+\node at (1.25,-.3) {komparator};
+\foreach \label/\y in {A>B/1.25,A<B/.75,A=B/.25}{\node[anchor=east,inner sep=1pt] at (2.5,\y){\label};\draw[DEvod] (2.5,\y)--(2.8,\y);}
 \end{tikzpicture}
 \end{columns}
 \end{frame}

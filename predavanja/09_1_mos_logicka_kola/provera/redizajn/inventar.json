@@ -1,0 +1,2277 @@
+{
+  "slides": {
+    "09_1-s001": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s001:e01",
+          "description": "Naslov i oznaka prvog dela",
+          "source": "Originalni PDF, strana 1, gornji slajd (1), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s001:e02",
+          "description": "Autor, katedra, predmet i školska godina",
+          "source": "Originalni PDF, strana 1, gornji slajd (1), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "09_1-s002": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s002:e01",
+          "description": "Šesnaest MOS simbola i četiri konvencije",
+          "source": "Originalni PDF, strana 1, donji slajd (2), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s002:e02",
+          "description": "Indukovani i ugrađeni kanal, nMOS i pMOS",
+          "source": "Originalni PDF, strana 1, donji slajd (2), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s002:e03",
+          "description": "Priključci D, G, S i B",
+          "source": "Originalni PDF, strana 1, donji slajd (2), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s002:n01",
+          "description": "Tumačenje svih konvencija i tipova kanala",
+          "source": "Dopunsko tumačenje upravo prikazane topologije i algebre, bez novog modela ili numeričkih podataka",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s003": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s003:e01",
+          "description": "Ilustracije struja i polariteta napona",
+          "source": "Originalni PDF, strana 2, gornji slajd (3), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s003:e02",
+          "description": "Ulazna struja i jednakost struja drejna i sorsa",
+          "source": "Originalni PDF, strana 2, gornji slajd (3), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s003:e03",
+          "description": "Uslov i struja u zasićenju",
+          "source": "Originalni PDF, strana 2, gornji slajd (3), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s003:e04",
+          "description": "Uslov i struja u triodnoj oblasti",
+          "source": "Originalni PDF, strana 2, gornji slajd (3), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s003:e05",
+          "description": "Parametri i jedinice, definicija kn i v=μE",
+          "source": "Originalni PDF, strana 2, gornji slajd (3), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s003:n01",
+          "description": "Potpuna značenja parametara, veze brzine i polja, jedinice",
+          "source": "Originalni PDF, strana 2, gornji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s004": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s004:e01",
+          "description": "Zanemarivanje modulacije i granični uslov",
+          "source": "Originalni PDF, strana 2, donji slajd (4), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s004:e02",
+          "description": "Struja zasićenja na granici",
+          "source": "Originalni PDF, strana 2, donji slajd (4), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s004:e03",
+          "description": "Modifikovani zasićeni model",
+          "source": "Originalni PDF, strana 2, donji slajd (4), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s004:e04",
+          "description": "Modifikovani triodni model SPICE",
+          "source": "Originalni PDF, strana 2, donji slajd (4), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s004:e05",
+          "description": "Izbor nemodifikovanih modela",
+          "source": "Originalni PDF, strana 2, donji slajd (4), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s004:n01",
+          "description": "Dve pune granične zamene, diskontinuitet i obrazloženje izbora modela",
+          "source": "Originalni PDF, strana 2, donji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s005": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s005:e01",
+          "description": "Poređenje dužina kanala i ranijeg zasićenja",
+          "source": "Originalni PDF, strana 3, gornji slajd (5), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s005:e02",
+          "description": "Dva dijagrama brzine nosilaca",
+          "source": "Originalni PDF, strana 3, gornji slajd (5), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s005:e03",
+          "description": "Model brzine po oblastima i kritično polje",
+          "source": "Originalni PDF, strana 3, gornji slajd (5), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s005:e04",
+          "description": "Definicija brzine zasićenja",
+          "source": "Originalni PDF, strana 3, gornji slajd (5), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s005:n01",
+          "description": "Eksperimentalno opažanje, nazivi dužina kanala i razlog ranijeg zasićenja",
+          "source": "Originalni PDF, strana 3, gornji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s006": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s006:e01",
+          "description": "Omski model kratkog kanala",
+          "source": "Originalni PDF, strana 3, donji slajd (6), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s006:e02",
+          "description": "Model struje zasićenja kratkog kanala",
+          "source": "Originalni PDF, strana 3, donji slajd (6), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s006:e03",
+          "description": "Uslovi zasićenja i triodne oblasti",
+          "source": "Originalni PDF, strana 3, donji slajd (6), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s006:e04",
+          "description": "Granica velikog Ln i faktor modulacije",
+          "source": "Originalni PDF, strana 3, donji slajd (6), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s006:n01",
+          "description": "Tumačenje korekcija, graničnog uslova i modulacije",
+          "source": "Dopunsko tumačenje upravo prikazane topologije i algebre, bez novog modela ili numeričkih podataka",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s007": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s007:e01",
+          "description": "Preuređeni izraz struje zasićenja",
+          "source": "Originalni PDF, strana 4, gornji slajd (7), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s007:e02",
+          "description": "Brojna vrednost brzine nosilaca",
+          "source": "Originalni PDF, strana 4, gornji slajd (7), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s007:e03",
+          "description": "Definicije vnsat i vpsat",
+          "source": "Originalni PDF, strana 4, gornji slajd (7), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s007:e04",
+          "description": "Definicije kn i kp",
+          "source": "Originalni PDF, strana 4, gornji slajd (7), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s007:n01",
+          "description": "Algebra preuređivanja struje preko parametara",
+          "source": "Dopunsko tumačenje upravo prikazane topologije i algebre, bez novog modela ili numeričkih podataka",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s008": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s008:e01",
+          "description": "Pretpostavka velikog prezasićenja",
+          "source": "Originalni PDF, strana 4, donji slajd (8), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s008:e02",
+          "description": "Dodatni model brzine i granični VDSsat",
+          "source": "Originalni PDF, strana 4, donji slajd (8), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s008:e03",
+          "description": "Tri ilustracije brzine",
+          "source": "Originalni PDF, strana 4, donji slajd (8), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s008:e04",
+          "description": "Konačni aproksimativni izraz struje zasićenja",
+          "source": "Originalni PDF, strana 4, donji slajd (8), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s008:n01",
+          "description": "Početni omski izraz, zamena graničnog napona i međukorak",
+          "source": "Originalni PDF, strana 4, donji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s009": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s009:e01",
+          "description": "Blok dijagram PUN i PDN",
+          "source": "Originalni PDF, strana 5, gornji slajd (9), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s009:e02",
+          "description": "Definicije PUN i PDN",
+          "source": "Originalni PDF, strana 5, gornji slajd (9), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s009:e03",
+          "description": "Pasivno i aktivno opterećenje",
+          "source": "Originalni PDF, strana 5, gornji slajd (9), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s009:e04",
+          "description": "Komplementarni rad, trostatička kola i otvoreni drejn",
+          "source": "Originalni PDF, strana 5, gornji slajd (9), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s009:n01",
+          "description": "Dodatno tumačenje PUN, PDN i visokoomskog stanja",
+          "source": "Dopunsko tumačenje upravo prikazane topologije i algebre, bez novog modela ili numeričkih podataka",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s010": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s010:e01",
+          "description": "Blok PUN i PDN",
+          "source": "Originalni PDF, strana 5, donji slajd (10), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s010:e02",
+          "description": "Tri paralelne realizacije NILI",
+          "source": "Originalni PDF, strana 5, donji slajd (10), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s010:e03",
+          "description": "Tri redne realizacije NI",
+          "source": "Originalni PDF, strana 5, donji slajd (10), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s010:e04",
+          "description": "Funkcije paralelne i redne veze",
+          "source": "Originalni PDF, strana 5, donji slajd (10), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s010:n01",
+          "description": "Tumačenje tri realizacije, paralelne i redne putanje",
+          "source": "Dopunsko tumačenje upravo prikazane topologije i algebre, bez novog modela ili numeričkih podataka",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s011": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s011:e01",
+          "description": "Blok PUN i PDN",
+          "source": "Originalni PDF, strana 6, gornji slajd (11), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s011:e02",
+          "description": "Tri paralelne realizacije sa aktivnim nulama",
+          "source": "Originalni PDF, strana 6, gornji slajd (11), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s011:e03",
+          "description": "Tri redne realizacije sa aktivnim nulama",
+          "source": "Originalni PDF, strana 6, gornji slajd (11), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s011:e04",
+          "description": "De Morganovi dualni izrazi",
+          "source": "Originalni PDF, strana 6, gornji slajd (11), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s011:n01",
+          "description": "Tumačenje PMOS upravljanja i dualnih funkcija",
+          "source": "Dopunsko tumačenje upravo prikazane topologije i algebre, bez novog modela ili numeričkih podataka",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s012": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s012:e01",
+          "description": "Invertor sa pasivnim opterećenjem i svi izvodi",
+          "source": "Originalni PDF, strana 6, donji slajd (12), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s012:e02",
+          "description": "Karakteristika sa tri oblasti",
+          "source": "Originalni PDF, strana 6, donji slajd (12), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s012:e03",
+          "description": "Prva oblast i uslov zakočenja",
+          "source": "Originalni PDF, strana 6, donji slajd (12), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s012:e04",
+          "description": "Jednačina visokog izlaznog nivoa",
+          "source": "Originalni PDF, strana 6, donji slajd (12), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s012:n01",
+          "description": "Početak provođenja, puna zamena za VDSsat, mali pad RL i VO<VDD; drive i load",
+          "source": "Originalni PDF, strana 6, donji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s013": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s013:e01",
+          "description": "Implicitna karakteristika i neopterećeno kolo",
+          "source": "Originalni PDF, strana 7, gornji slajd (13), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s013:e02",
+          "description": "Ravnoteža IPUN=IPDN",
+          "source": "Originalni PDF, strana 7, gornji slajd (13), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s013:e03",
+          "description": "Puna ravnoteža struja u drugoj oblasti",
+          "source": "Originalni PDF, strana 7, gornji slajd (13), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s013:e04",
+          "description": "Statičko zanemarivanje λ i završni izraz",
+          "source": "Originalni PDF, strana 7, gornji slajd (13), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s013:n01",
+          "description": "Razlog implicitnog pristupa i neopterećenost",
+          "source": "Originalni PDF, strana 7, gornji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s014": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s014:e01",
+          "description": "Opis oblika karakteristike",
+          "source": "Originalni PDF, strana 7, donji slajd (14), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s014:e02",
+          "description": "Granica izlaska iz zasićenja kratkog kanala",
+          "source": "Originalni PDF, strana 7, donji slajd (14), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s014:e03",
+          "description": "Izvorni rezultat za dugačak kanal",
+          "source": "Originalni PDF, strana 7, donji slajd (14), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s014:e04",
+          "description": "Izvorni uslov pojave treće oblasti",
+          "source": "Originalni PDF, strana 7, donji slajd (14), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s014:n01",
+          "description": "Polazna ravnoteža i opis promene radne oblasti",
+          "source": "Originalni PDF, strana 7, donji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s015": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s015:e01",
+          "description": "Dve karakteristike i objašnjavajuće strelice",
+          "source": "Originalni PDF, strana 8, gornji slajd (15), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s015:e02",
+          "description": "Tri oblasti i režimi tranzistora",
+          "source": "Originalni PDF, strana 8, gornji slajd (15), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s015:e03",
+          "description": "Ravnoteža struja triodne oblasti",
+          "source": "Originalni PDF, strana 8, gornji slajd (15), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s015:e04",
+          "description": "Ravnoteža struja zasićenja",
+          "source": "Originalni PDF, strana 8, gornji slajd (15), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s015:n01",
+          "description": "Razlika dve podele i moguća pojačanja; ponovljeni omski izraz",
+          "source": "Originalni PDF, strana 8, gornji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s016": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s016:e01",
+          "description": "VOH=VDD",
+          "source": "Originalni PDF, strana 8, donji slajd (16), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s016:e02",
+          "description": "Ravnoteža za VOL pri visokom ulazu",
+          "source": "Originalni PDF, strana 8, donji slajd (16), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s016:e03",
+          "description": "Moguće tačno rešenje i kvalitativna aproksimacija",
+          "source": "Originalni PDF, strana 8, donji slajd (16), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s016:n01",
+          "description": "Obrazloženje kvalitativnog i kvantitativnog približenja",
+          "source": "Originalni PDF, strana 8, donji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s017": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s017:e01",
+          "description": "Dve pretpostavke o malom VOL",
+          "source": "Originalni PDF, strana 9, gornji slajd (17), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s017:e02",
+          "description": "Pojednostavljena ravnoteža",
+          "source": "Originalni PDF, strana 9, gornji slajd (17), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s017:e03",
+          "description": "Izraz za VOL sa jedinicom u imeniocu",
+          "source": "Originalni PDF, strana 9, gornji slajd (17), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s017:e04",
+          "description": "Krajnja aproksimacija VOL",
+          "source": "Originalni PDF, strana 9, gornji slajd (17), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s017:n01",
+          "description": "Potpuna dva zanemarivanja i prenos člana VOL/RL",
+          "source": "Originalni PDF, strana 9, gornji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s018": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s018:e01",
+          "description": "Pragovi preko pojačanja po apsolutnoj vrednosti",
+          "source": "Originalni PDF, strana 9, donji slajd (18), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s018:e02",
+          "description": "Model pri određivanju VIL",
+          "source": "Originalni PDF, strana 9, donji slajd (18), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s018:e03",
+          "description": "Pretpostavka zanemarivanja kratkog kanala",
+          "source": "Originalni PDF, strana 9, donji slajd (18), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s018:e04",
+          "description": "Pojednostavljena ravnoteža za VIL",
+          "source": "Originalni PDF, strana 9, donji slajd (18), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s018:n01",
+          "description": "Obrazloženje određivanja pragova i malo prekoračenje praga",
+          "source": "Originalni PDF, strana 9, donji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s019": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s019:e01",
+          "description": "Polazna ravnoteža i implicitni izvod",
+          "source": "Originalni PDF, strana 10, gornji slajd (19), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s019:e02",
+          "description": "Uslov nagiba −1",
+          "source": "Originalni PDF, strana 10, gornji slajd (19), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s019:e03",
+          "description": "Relacija za ulaz u tački praga",
+          "source": "Originalni PDF, strana 10, gornji slajd (19), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s019:e04",
+          "description": "Rezultati VIL i VO(IL)",
+          "source": "Originalni PDF, strana 10, gornji slajd (19), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s019:n01",
+          "description": "Međukorak implicitnog izvoda i zamena praga",
+          "source": "Originalni PDF, strana 10, gornji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s020": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s020:e01",
+          "description": "Izvorna pretpostavka niskog izlaznog napona",
+          "source": "Originalni PDF, strana 10, donji slajd (20), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s020:e02",
+          "description": "Puna triodna ravnoteža",
+          "source": "Originalni PDF, strana 10, donji slajd (20), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s020:e03",
+          "description": "Pojednostavljena triodna relacija",
+          "source": "Originalni PDF, strana 10, donji slajd (20), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s020:e04",
+          "description": "Potpun implicitni izvod",
+          "source": "Originalni PDF, strana 10, donji slajd (20), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s020:n01",
+          "description": "Ponovljena relacija i pravilo izvoda proizvoda",
+          "source": "Originalni PDF, strana 10, donji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s021": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s021:e01",
+          "description": "Nagib −1",
+          "source": "Originalni PDF, strana 11, gornji slajd (21), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s021:e02",
+          "description": "Sistem uslova nagiba i ravnoteže",
+          "source": "Originalni PDF, strana 11, gornji slajd (21), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s021:e03",
+          "description": "Izolovanje ulaza preko izlaza",
+          "source": "Originalni PDF, strana 11, gornji slajd (21), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s021:e04",
+          "description": "Konačni VO(IH) i VIH",
+          "source": "Originalni PDF, strana 11, gornji slajd (21), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s021:n01",
+          "description": "Međukorak sređivanja izvoda i način rešavanja sistema",
+          "source": "Originalni PDF, strana 11, gornji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s022": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s022:e01",
+          "description": "Četiri zahteva ispitne analize",
+          "source": "Originalni PDF, strana 11, donji slajd (22), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s022:e02",
+          "description": "Margine šuma i održivost",
+          "source": "Originalni PDF, strana 11, donji slajd (22), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s022:e03",
+          "description": "Izuzetak za dokazivanje zanemarivanja",
+          "source": "Originalni PDF, strana 11, donji slajd (22), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s022:n01",
+          "description": "Razlikovanje ispitnih zahteva i izuzetka",
+          "source": "Originalni PDF, strana 11, donji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s023": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s023:e01",
+          "description": "Karakteristika i tačke jediničnog nagiba",
+          "source": "Originalni PDF, strana 12, gornji slajd (23), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s023:e02",
+          "description": "Dva uslova održivosti",
+          "source": "Originalni PDF, strana 12, gornji slajd (23), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s023:e03",
+          "description": "Izraz VO(IH) preko β",
+          "source": "Originalni PDF, strana 12, gornji slajd (23), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s023:e04",
+          "description": "Definicija β i nejednakost",
+          "source": "Originalni PDF, strana 12, gornji slajd (23), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s023:e05",
+          "description": "Tumačenje garantovane jedinice",
+          "source": "Originalni PDF, strana 12, gornji slajd (23), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s023:n01",
+          "description": "Potpuno obrazloženje održivosti i ponovljeni uslov VOL<VTn",
+          "source": "Originalni PDF, strana 12, gornji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s024": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s024:e01",
+          "description": "Definicija tačke odlučivanja VI=VO=VS",
+          "source": "Originalni PDF, strana 12, donji slajd (24), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s024:e02",
+          "description": "Ravnoteža posle zamene",
+          "source": "Originalni PDF, strana 12, donji slajd (24), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s024:e03",
+          "description": "Normalizovana kvadratna jednačina",
+          "source": "Originalni PDF, strana 12, donji slajd (24), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s024:n01",
+          "description": "Početna ravnoteža, zamena VS, puna nenormalizovana kvadratna jednačina",
+          "source": "Originalni PDF, strana 12, donji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s025": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s025:e01",
+          "description": "Pretpostavka VS približno VDD/2",
+          "source": "Originalni PDF, strana 13, gornji slajd (25), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s025:e02",
+          "description": "Izraz za približni VS",
+          "source": "Originalni PDF, strana 13, gornji slajd (25), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s025:e03",
+          "description": "Standardne vrednosti napona",
+          "source": "Originalni PDF, strana 13, gornji slajd (25), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s025:e04",
+          "description": "Poređenje približnog i tačnog rezultata",
+          "source": "Originalni PDF, strana 13, gornji slajd (25), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s025:n01",
+          "description": "Obrazloženje aproksimacije i puna preporuka za ispit",
+          "source": "Originalni PDF, strana 13, gornji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s026": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s026:e01",
+          "description": "Ulazne struje uz zanemarivanje curenja",
+          "source": "Originalni PDF, strana 13, donji slajd (26), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s026:e02",
+          "description": "Statički faktor grananja",
+          "source": "Originalni PDF, strana 13, donji slajd (26), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s026:e03",
+          "description": "Poređenje ulaznih kapacitivnosti i dinamičko ograničenje",
+          "source": "Originalni PDF, strana 13, donji slajd (26), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s026:n01",
+          "description": "Statičko idealizovanje i tumačenje ulazne kapacitivnosti",
+          "source": "Originalni PDF, strana 13, donji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s027": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s027:e01",
+          "description": "Strujni kapacitet logičke jedinice",
+          "source": "Originalni PDF, strana 14, gornji slajd (27), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s027:e02",
+          "description": "Prvi izraz strujnog kapaciteta nule",
+          "source": "Originalni PDF, strana 14, gornji slajd (27), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s027:e03",
+          "description": "VOHmin, VOLmax i margina Δ",
+          "source": "Originalni PDF, strana 14, gornji slajd (27), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s027:e04",
+          "description": "Ispitne podrazumevane vrednosti",
+          "source": "Originalni PDF, strana 14, gornji slajd (27), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s027:e05",
+          "description": "Izbor najgoreg VI i konačni IOL",
+          "source": "Originalni PDF, strana 14, gornji slajd (27), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s027:n01",
+          "description": "Potpuno obrazloženje strujnog opterećenja, margine i izbora najgoreg ulaza",
+          "source": "Originalni PDF, strana 14, gornji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s028": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s028:e01",
+          "description": "RC punjenje, τ, tpLH i tr",
+          "source": "Originalni PDF, strana 14, donji slajd (28), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s028:e02",
+          "description": "Model konstantne struje za H u L",
+          "source": "Originalni PDF, strana 14, donji slajd (28), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s028:e03",
+          "description": "Dva ekvivalentna kola, smerovi struja i napon",
+          "source": "Originalni PDF, strana 14, donji slajd (28), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s028:e04",
+          "description": "Najgori ulaz i početni izlaz",
+          "source": "Originalni PDF, strana 14, donji slajd (28), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s028:n01",
+          "description": "Potpuno obrazloženje RC modela, početne struje i formalnog negativnog krajnjeg nivoa",
+          "source": "Originalni PDF, strana 14, donji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s029": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s029:e01",
+          "description": "Potpun uslov zasićenja kratkog kanala",
+          "source": "Originalni PDF, strana 15, gornji slajd (29), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s029:e02",
+          "description": "Srednji izlazni nivo u trenutku kašnjenja",
+          "source": "Originalni PDF, strana 15, gornji slajd (29), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s029:e03",
+          "description": "Tačan preuređeni granični uslov",
+          "source": "Originalni PDF, strana 15, gornji slajd (29), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s029:e04",
+          "description": "Dve aproksimacije",
+          "source": "Originalni PDF, strana 15, gornji slajd (29), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s029:e05",
+          "description": "Izvorna tvrdnja o celom pražnjenju",
+          "source": "Originalni PDF, strana 15, gornji slajd (29), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s029:n01",
+          "description": "Obrazloženje pomeranja granice i provere pri kašnjenju",
+          "source": "Originalni PDF, strana 15, gornji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s030": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s030:e01",
+          "description": "Zamena MOS-a dinamičkom otpornošću i λ",
+          "source": "Originalni PDF, strana 15, donji slajd (30), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s030:e02",
+          "description": "NMOS kapacitivno kolo",
+          "source": "Originalni PDF, strana 15, donji slajd (30), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s030:e03",
+          "description": "Izlazna kriva, radne tačke i smer prelaza",
+          "source": "Originalni PDF, strana 15, donji slajd (30), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s030:e04",
+          "description": "RC procena kašnjenja",
+          "source": "Originalni PDF, strana 15, donji slajd (30), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s030:e05",
+          "description": "Uslovi kratkog kanala i opseg pobude",
+          "source": "Originalni PDF, strana 15, donji slajd (30), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s030:n01",
+          "description": "Cilj RC zamene i puna izvorna tvrdnja o trajanju pražnjenja; savremena kola",
+          "source": "Originalni PDF, strana 15, donji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s031": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s031:e01",
+          "description": "Kolo sa CL i karakteristika sa tačkama 1 i 2",
+          "source": "Originalni PDF, strana 16, gornji slajd (31), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s031:e02",
+          "description": "Aritmetička sredina dve otpornosti",
+          "source": "Originalni PDF, strana 16, gornji slajd (31), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s031:e03",
+          "description": "Otpornost RON1=VDD/IDn1",
+          "source": "Originalni PDF, strana 16, gornji slajd (31), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s031:e04",
+          "description": "Otpornost RON2=(VDD/2)/IDn2",
+          "source": "Originalni PDF, strana 16, gornji slajd (31), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s031:n01",
+          "description": "Pune zamene kratkokanalne struje u RON1 i RON2",
+          "source": "Originalni PDF, strana 16, gornji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s032": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s032:e01",
+          "description": "Definicija IDnsat",
+          "source": "Originalni PDF, strana 16, donji slajd (32), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s032:e02",
+          "description": "Otpornosti na dve krajnje tačke",
+          "source": "Originalni PDF, strana 16, donji slajd (32), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s032:e03",
+          "description": "Tačan izraz aritmetičke sredine",
+          "source": "Originalni PDF, strana 16, donji slajd (32), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s032:e04",
+          "description": "Približni rezultat sa faktorom 5/6",
+          "source": "Originalni PDF, strana 16, donji slajd (32), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s032:n01",
+          "description": "Puna aritmetička sredina i linearni međukorak koji daje 5/6",
+          "source": "Originalni PDF, strana 16, donji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s033": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s033:e01",
+          "description": "Integralna definicija srednje otpornosti",
+          "source": "Originalni PDF, strana 17, gornji slajd (33), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s033:e02",
+          "description": "Model RON kao odnos napona i struje",
+          "source": "Originalni PDF, strana 17, gornji slajd (33), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s033:e03",
+          "description": "Puna integralna zavisnost",
+          "source": "Originalni PDF, strana 17, gornji slajd (33), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s033:e04",
+          "description": "Približni rezultat sa faktorom 7/9",
+          "source": "Originalni PDF, strana 17, gornji slajd (33), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s033:e05",
+          "description": "Izvorni decimalni zapisi i poređenje pristupa",
+          "source": "Originalni PDF, strana 17, gornji slajd (33), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s033:n01",
+          "description": "Puni RON i IDnsat, izdvajanje faktora, ponovljeni integral i poređenje",
+          "source": "Originalni PDF, strana 17, gornji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s034": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s034:e01",
+          "description": "PMOS kolo sa CL, napajanjem i ulazom",
+          "source": "Originalni PDF, strana 17, donji slajd (34), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s034:e02",
+          "description": "Karakteristika i smer prelaza",
+          "source": "Originalni PDF, strana 17, donji slajd (34), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s034:e03",
+          "description": "Orijentacija sorsa i drejna",
+          "source": "Originalni PDF, strana 17, donji slajd (34), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s034:e04",
+          "description": "Dva izraza ekvivalentne otpornosti",
+          "source": "Originalni PDF, strana 17, donji slajd (34), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s034:n01",
+          "description": "Obrazloženje orijentacije i dva načina usrednjavanja",
+          "source": "Dopunsko tumačenje upravo prikazane topologije i algebre, bez novog modela ili numeričkih podataka",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s035": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s035:e01",
+          "description": "Kompromis velikog RL",
+          "source": "Originalni PDF, strana 18, gornji slajd (35), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s035:e02",
+          "description": "Kompromis malog RL",
+          "source": "Originalni PDF, strana 18, gornji slajd (35), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s035:e03",
+          "description": "Uticaj knRL i izraz kn",
+          "source": "Originalni PDF, strana 18, gornji slajd (35), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s035:e04",
+          "description": "Tehnološki i projektantski parametri",
+          "source": "Originalni PDF, strana 18, gornji slajd (35), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s035:n01",
+          "description": "Puno obrazloženje kompromisa, tehnologije, Lmin i projektovanja širine",
+          "source": "Originalni PDF, strana 18, gornji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s036": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s036:e01",
+          "description": "Aktivno NMOS opterećenje i kontrolni napon",
+          "source": "Originalni PDF, strana 18, donji slajd (36), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s036:e02",
+          "description": "Šema i uloge TL, TD",
+          "source": "Originalni PDF, strana 18, donji slajd (36), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s036:e03",
+          "description": "Izbor dugog kanala i dva režima",
+          "source": "Originalni PDF, strana 18, donji slajd (36), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s036:n01",
+          "description": "Obrazloženje izbora dugog kanala i kontrolnog napona",
+          "source": "Originalni PDF, strana 18, donji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s037": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s037:e01",
+          "description": "Šema aktivnog opterećenja",
+          "source": "Originalni PDF, strana 19, gornji slajd (37), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s037:e02",
+          "description": "VGS,L preko VC i izlaza",
+          "source": "Originalni PDF, strana 19, gornji slajd (37), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s037:e03",
+          "description": "Uslov zasićenja",
+          "source": "Originalni PDF, strana 19, gornji slajd (37), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s037:e04",
+          "description": "Zasićenje i omska oblast preko VC",
+          "source": "Originalni PDF, strana 19, gornji slajd (37), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s037:n01",
+          "description": "Dve pune zamene napona i poništavanje izlaza u uslovu",
+          "source": "Originalni PDF, strana 19, gornji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s038": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s038:e01",
+          "description": "Šema sa kontrolnim naponom",
+          "source": "Originalni PDF, strana 19, donji slajd (38), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s038:e02",
+          "description": "Omski TL, zakočen TD i nulte struje",
+          "source": "Originalni PDF, strana 19, donji slajd (38), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s038:e03",
+          "description": "Omski izraz struje",
+          "source": "Originalni PDF, strana 19, donji slajd (38), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s038:e04",
+          "description": "Nulti VDS,L i VOH=VDD",
+          "source": "Originalni PDF, strana 19, donji slajd (38), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s038:n01",
+          "description": "Puna interpretacija jedine radne tačke pri nultoj struji",
+          "source": "Originalni PDF, strana 19, donji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s039": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s039:e01",
+          "description": "Šema i početak provođenja TD",
+          "source": "Originalni PDF, strana 20, gornji slajd (39), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s039:e02",
+          "description": "Uslov zasićenja TD",
+          "source": "Originalni PDF, strana 20, gornji slajd (39), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s039:e03",
+          "description": "Jednakost punih modela struja",
+          "source": "Originalni PDF, strana 20, gornji slajd (39), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s039:e04",
+          "description": "Zamena napona i faktorisana ravnoteža",
+          "source": "Originalni PDF, strana 20, gornji slajd (39), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s039:n01",
+          "description": "Tumačenje rada, zamena napona i faktorizacija",
+          "source": "Originalni PDF, strana 20, gornji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s040": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s040:e01",
+          "description": "Definicija Δ i pretpostavka kontrolnog napona",
+          "source": "Originalni PDF, strana 20, donji slajd (40), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s040:e02",
+          "description": "Početna faktorisana ravnoteža",
+          "source": "Originalni PDF, strana 20, donji slajd (40), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s040:e03",
+          "description": "Diferenciranje za nagib −1",
+          "source": "Originalni PDF, strana 20, donji slajd (40), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s040:e04",
+          "description": "Ulaz preko izlaza",
+          "source": "Originalni PDF, strana 20, donji slajd (40), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s040:e05",
+          "description": "Završna jednačina po izlazu",
+          "source": "Originalni PDF, strana 20, donji slajd (40), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s040:n01",
+          "description": "Obe pune zamene i skraćivanje do jednačine po izlazu",
+          "source": "Originalni PDF, strana 20, donji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s041": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s041:e01",
+          "description": "Ravnoteža posle zamene ulaza",
+          "source": "Originalni PDF, strana 21, gornji slajd (41), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s041:e02",
+          "description": "Poseban slučaj Δ=0",
+          "source": "Originalni PDF, strana 21, gornji slajd (41), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s041:e03",
+          "description": "Kvadratna jednačina po padu napona",
+          "source": "Originalni PDF, strana 21, gornji slajd (41), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s041:e04",
+          "description": "Izvorna tvrdnja za jednake k",
+          "source": "Originalni PDF, strana 21, gornji slajd (41), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s041:n01",
+          "description": "Povezivanje Δ=0 sa granicom zasićenja i kvadratnom jednačinom",
+          "source": "Originalni PDF, strana 21, gornji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s042": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s042:e01",
+          "description": "Oba ekvivalentna zapisa VO(IL)",
+          "source": "Originalni PDF, strana 21, donji slajd (42), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s042:e02",
+          "description": "Oba ekvivalentna zapisa VIL",
+          "source": "Originalni PDF, strana 21, donji slajd (42), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s042:e03",
+          "description": "Zavisnost od odnosa parametara i kontrolnog napona",
+          "source": "Originalni PDF, strana 21, donji slajd (42), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s042:n01",
+          "description": "Način upotrebe dvaju ekvivalentnih zapisa",
+          "source": "Dopunsko tumačenje upravo prikazane topologije i algebre, bez novog modela ili numeričkih podataka",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s043": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s043:e01",
+          "description": "Izvorni naziv T1 i prelazak u omsku oblast",
+          "source": "Originalni PDF, strana 22, gornji slajd (43), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s043:e02",
+          "description": "Granični uslov",
+          "source": "Originalni PDF, strana 22, gornji slajd (43), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s043:e03",
+          "description": "Ravnoteža dva omska modela",
+          "source": "Originalni PDF, strana 22, gornji slajd (43), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s043:e04",
+          "description": "VC preko Δ i faktorisana jednačina",
+          "source": "Originalni PDF, strana 22, gornji slajd (43), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s043:n01",
+          "description": "Puna ravnoteža pomnožena sa dva i zamena napona",
+          "source": "Originalni PDF, strana 22, gornji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s044": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s044:e01",
+          "description": "Početna ravnoteža",
+          "source": "Originalni PDF, strana 22, donji slajd (44), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s044:e02",
+          "description": "Potpuno diferenciranje za nagib −1",
+          "source": "Originalni PDF, strana 22, donji slajd (44), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s044:e03",
+          "description": "Izvorno sređivanje sa izgubljenim koeficijentom",
+          "source": "Originalni PDF, strana 22, donji slajd (44), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s044:e04",
+          "description": "Izvorni izraz VI",
+          "source": "Originalni PDF, strana 22, donji slajd (44), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s044:e05",
+          "description": "Izvorna zamena u početnu jednačinu",
+          "source": "Originalni PDF, strana 22, donji slajd (44), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s044:n01",
+          "description": "Pravilo izvoda proizvoda i postupak eliminacije ulaza",
+          "source": "Dopunsko tumačenje upravo prikazane topologije i algebre, bez novog modela ili numeričkih podataka",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s045": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s045:e01",
+          "description": "Izvorni rezultat VO(IH)",
+          "source": "Originalni PDF, strana 23, gornji slajd (45), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s045:e02",
+          "description": "Izvorni rezultat VIH",
+          "source": "Originalni PDF, strana 23, gornji slajd (45), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s045:e03",
+          "description": "Zavisnost od VC, pragova i odnosa k",
+          "source": "Originalni PDF, strana 23, gornji slajd (45), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s045:n01",
+          "description": "Uslovi primene rezultata i provera oblasti",
+          "source": "Dopunsko tumačenje upravo prikazane topologije i algebre, bez novog modela ili numeričkih podataka",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s046": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s046:e01",
+          "description": "Ravnoteža za logičku nulu",
+          "source": "Originalni PDF, strana 23, donji slajd (46), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s046:e02",
+          "description": "Zamena VI=VOH",
+          "source": "Originalni PDF, strana 23, donji slajd (46), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s046:e03",
+          "description": "Aproksimacija malog VOL",
+          "source": "Originalni PDF, strana 23, donji slajd (46), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s046:e04",
+          "description": "Izvorna dva zapisa rezultata",
+          "source": "Originalni PDF, strana 23, donji slajd (46), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s046:n01",
+          "description": "Obrazloženje zanemarivanja i visokog ulaza",
+          "source": "Dopunsko tumačenje upravo prikazane topologije i algebre, bez novog modela ili numeričkih podataka",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s047": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s047:e01",
+          "description": "Izvorni rezultat VOL sa označenim odnosom k",
+          "source": "Originalni PDF, strana 24, gornji slajd (47), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s047:e02",
+          "description": "Zajedničko skaliranje obe širine",
+          "source": "Originalni PDF, strana 24, gornji slajd (47), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s047:e03",
+          "description": "Dva izraza odnosa k i poništavanje F",
+          "source": "Originalni PDF, strana 24, gornji slajd (47), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s047:n01",
+          "description": "Tumačenje poništavanja F i ograničenje statičkog zaključka",
+          "source": "Dopunsko tumačenje upravo prikazane topologije i algebre, bez novog modela ili numeričkih podataka",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s048": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s048:e01",
+          "description": "Karakteristika sa pragovima i nivoima",
+          "source": "Originalni PDF, strana 24, donji slajd (48), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s048:e02",
+          "description": "Podešavanje odnosom k i W",
+          "source": "Originalni PDF, strana 24, donji slajd (48), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s048:e03",
+          "description": "Dinamička otpornost TL",
+          "source": "Originalni PDF, strana 24, donji slajd (48), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s048:e04",
+          "description": "Dva režima ulaznog napona",
+          "source": "Originalni PDF, strana 24, donji slajd (48), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s048:e05",
+          "description": "Kompromis sa VOL i strujnim kapacitetom",
+          "source": "Originalni PDF, strana 24, donji slajd (48), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s048:n01",
+          "description": "Puna objašnjenja dinamičke otpornosti u oba režima i kompromisa",
+          "source": "Originalni PDF, strana 24, donji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s049": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s049:e01",
+          "description": "Šema gejta TL vezanog za VDD",
+          "source": "Originalni PDF, strana 25, gornji slajd (49), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s049:e02",
+          "description": "Potreba za drugim izvorom u prethodnoj realizaciji",
+          "source": "Originalni PDF, strana 25, gornji slajd (49), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s049:e03",
+          "description": "Jednaki VGS,L i VDS,L",
+          "source": "Originalni PDF, strana 25, gornji slajd (49), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s049:e04",
+          "description": "Uslov zasićenja i njegova zamena",
+          "source": "Originalni PDF, strana 25, gornji slajd (49), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s049:e05",
+          "description": "Izvorna oznaka T2 i kratki kanal",
+          "source": "Originalni PDF, strana 25, gornji slajd (49), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s049:n01",
+          "description": "Razlog izostavljanja dodatnog napajanja i tumačenje stvarnog provođenja",
+          "source": "Originalni PDF, strana 25, gornji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s050": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s050:e01",
+          "description": "Šema zasićenog opterećenja",
+          "source": "Originalni PDF, strana 25, donji slajd (50), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s050:e02",
+          "description": "Zakočenje TD i neopterećeno kolo",
+          "source": "Originalni PDF, strana 25, donji slajd (50), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s050:e03",
+          "description": "Nulta struja TL i granični VGS,L",
+          "source": "Originalni PDF, strana 25, donji slajd (50), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s050:e04",
+          "description": "Smanjeni VOH i poređenje sa omskim opterećenjem",
+          "source": "Originalni PDF, strana 25, donji slajd (50), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s050:n01",
+          "description": "Punjenje izlaza do praga opterećenja",
+          "source": "Originalni PDF, strana 25, donji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s051": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s051:e01",
+          "description": "Šema i početak provođenja TD",
+          "source": "Originalni PDF, strana 26, gornji slajd (51), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s051:e02",
+          "description": "Izvorni uslov zasićenja",
+          "source": "Originalni PDF, strana 26, gornji slajd (51), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s051:e03",
+          "description": "Implicitna karakteristika kao jednačina 1",
+          "source": "Originalni PDF, strana 26, gornji slajd (51), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s051:e04",
+          "description": "Pretpostavka nagiba −1 i jednačina 2",
+          "source": "Originalni PDF, strana 26, gornji slajd (51), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s051:e05",
+          "description": "Izvorna završna jednakost sa upitnicima",
+          "source": "Originalni PDF, strana 26, gornji slajd (51), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s051:n01",
+          "description": "Puna ravnoteža zasićenih modela i međukorak diferenciranja",
+          "source": "Originalni PDF, strana 26, gornji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s052": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s052:e01",
+          "description": "Izvorna tvrdnja o nepostojanju nagiba −1",
+          "source": "Originalni PDF, strana 26, donji slajd (52), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s052:e02",
+          "description": "Polazna ravnoteža",
+          "source": "Originalni PDF, strana 26, donji slajd (52), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s052:e03",
+          "description": "Eksplicitna linearna karakteristika",
+          "source": "Originalni PDF, strana 26, donji slajd (52), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s052:e04",
+          "description": "Konstantno pojačanje",
+          "source": "Originalni PDF, strana 26, donji slajd (52), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s052:e05",
+          "description": "Uslov za logičko kolo kD>kL",
+          "source": "Originalni PDF, strana 26, donji slajd (52), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s052:n01",
+          "description": "Ponovljena ravnoteža i izbor fizičke grane pri korenovanju",
+          "source": "Originalni PDF, strana 26, donji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s053": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s053:e01",
+          "description": "VIL=VTn,D",
+          "source": "Originalni PDF, strana 27, gornji slajd (53), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s053:e02",
+          "description": "Granica prelaska TD u omsku oblast",
+          "source": "Originalni PDF, strana 27, gornji slajd (53), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s053:e03",
+          "description": "Faktorisana ravnoteža",
+          "source": "Originalni PDF, strana 27, gornji slajd (53), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s053:e04",
+          "description": "Nagib −1 i izvorni sređeni izvod",
+          "source": "Originalni PDF, strana 27, gornji slajd (53), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s053:e05",
+          "description": "Izvorni izraz ulaza",
+          "source": "Originalni PDF, strana 27, gornji slajd (53), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s053:n01",
+          "description": "Puna ravnoteža modela i izvorni prvi red diferenciranja",
+          "source": "Originalni PDF, strana 27, gornji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s054": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s054:e01",
+          "description": "Izvorni rezultat VO(IH)",
+          "source": "Originalni PDF, strana 27, donji slajd (54), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s054:e02",
+          "description": "Izvorni rezultat VIH",
+          "source": "Originalni PDF, strana 27, donji slajd (54), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s054:n01",
+          "description": "Provera pretpostavljenog režima pri primeni rezultata",
+          "source": "Dopunsko tumačenje upravo prikazane topologije i algebre, bez novog modela ili numeričkih podataka",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s055": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s055:e01",
+          "description": "Polazna ravnoteža",
+          "source": "Originalni PDF, strana 28, gornji slajd (55), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s055:e02",
+          "description": "Zamena VI=VOH",
+          "source": "Originalni PDF, strana 28, gornji slajd (55), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s055:e03",
+          "description": "Aproksimacija malog VOL",
+          "source": "Originalni PDF, strana 28, gornji slajd (55), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s055:e04",
+          "description": "Izvorni konačni izraz VOL",
+          "source": "Originalni PDF, strana 28, gornji slajd (55), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s055:e05",
+          "description": "Karakteristika prenosa sa nivoima i pragovima",
+          "source": "Originalni PDF, strana 28, gornji slajd (55), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s055:n01",
+          "description": "Obrazloženje aproksimacije i smanjenog visokog nivoa",
+          "source": "Dopunsko tumačenje upravo prikazane topologije i algebre, bez novog modela ili numeričkih podataka",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s056": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s056:e01",
+          "description": "Dve četvoropriključne šeme i strelica promene",
+          "source": "Originalni PDF, strana 28, donji slajd (56), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s056:e02",
+          "description": "Efekat osnove na prag TL",
+          "source": "Originalni PDF, strana 28, donji slajd (56), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s056:e03",
+          "description": "Implicitna jednačina VOH",
+          "source": "Originalni PDF, strana 28, donji slajd (56), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s056:e04",
+          "description": "Uticaj na nivoe i pragove",
+          "source": "Originalni PDF, strana 28, donji slajd (56), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s056:n01",
+          "description": "Opšta jednačina efekta osnove, VSB,L=VOH, postupci rešavanja i puna objašnjenja pragova",
+          "source": "Originalni PDF, strana 28, donji slajd; dopunsko tumačenje istih modela i veza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "09_1-s057": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "09_1-s057:e01",
+          "description": "Obuhvat statičke karakteristike",
+          "source": "Originalni PDF, strana 29, gornji slajd (57), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s057:e02",
+          "description": "Strujni kapaciteti i dinamika nisu računati",
+          "source": "Originalni PDF, strana 29, gornji slajd (57), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "09_1-s057:e03",
+          "description": "Povezanost sa pasivnim opterećenjem i kasnijom CMOS analizom",
+          "source": "Originalni PDF, strana 29, gornji slajd (57), odgovarajuća ilustracija/relacija ili pasus",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    }
+  }
+}

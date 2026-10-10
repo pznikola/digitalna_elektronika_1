@@ -1,14 +1,16 @@
 \slajdid{09_1-s021}
-\begin{frame}[label=09_1-s021]
-\gusttekst\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}
+\begin{frame}[label=09_1-s021]{Prag VIH: dve jednačine, dve nepoznate}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{3pt}\setlength{\belowdisplayshortskip}{3pt}
+% element: 09_1-s021:e01
+% element: 09_1-s021:e02
+% element: 09_1-s021:e03
+% element: 09_1-s021:e04
 \[\frac{\partial V_O}{\partial V_I}=-1\]
-\[\frac1{R_L}\approx\frac{k_n}{2}\bigl(-2(V_I-V_{Tn})+2V_O+2V_O\bigr)\]
-\begin{columns}[c,onlytextwidth]\column{.28\textwidth}Dve jednačine dve nepoznate\column{.70\textwidth}
-\[\color{DEplava}\left\{\color{DEtekst}\begin{aligned}
+
+\textbf{Sistem za $V_{IH}$ i $V_{O(IH)}$}\[\color{DEcrvena}\left\{\color{DEtekst}\begin{aligned}
 \alert{V_{IH}}&\approx2\alert{V_{O(IH)}}+V_{Tn}-\frac1{k_nR_L}\\[8pt]
 \frac{V_{DD}-\alert{V_{O(IH)}}}{R_L}&\approx\frac{k_n}{2}\bigl(2\alert{V_{O(IH)}}(\alert{V_{IH}}-V_{Tn})-\alert{V_{O(IH)}^2}\bigr)
 \end{aligned}\right.\]
+\begin{columns}[T,onlytextwidth]\column{.48\textwidth}\[V_{O(IH)}\approx\sqrt{\frac{2V_{DD}}{3k_nR_L}}\]
+\column{.48\textwidth}\[V_{IH}\approx V_{Tn}+\sqrt{\frac{8V_{DD}}{3k_nR_L}}-\frac1{k_nR_L}\]
 \end{columns}
-\[V_{O(IH)}\approx\sqrt{\frac{2V_{DD}}{3k_nR_L}}\]
-\[V_{IH}\approx V_{Tn}+\sqrt{\frac{8V_{DD}}{3k_nR_L}}-\frac1{k_nR_L}\]
 \end{frame}

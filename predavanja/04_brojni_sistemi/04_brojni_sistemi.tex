@@ -1,7 +1,23 @@
 % Jedan izvorni slajd = jedan frame = jedna PDF strana.
 \documentclass[aspectratio=169,11pt]{beamer}
-\usepackage{../_zajednicko/stil}
-\usepackage{../_zajednicko/dijagrami}
+\newcommand{\ETFTemaPutanja}{../_zajednicko/etf-v1}
+\makeatletter
+\edef\input@path{{\ETFTemaPutanja/}}
+\makeatother
+\usepackage{stil,dijagrami}
+\definecolor{DEisticanje}{HTML}{A32638}
+\colorlet{DEcrvena}{DEisticanje}
+\setbeamercolor{alerted text}{fg=DEisticanje}
+\setlength{\parskip}{3pt}
+\addtobeamertemplate{frametitle}{}{\vspace{2mm}}
+\setlength{\abovedisplayskip}{5pt}
+\setlength{\belowdisplayskip}{5pt}
+\renewcommand{\Oznaka}[1]{\par{\fontsize{10}{12}\selectfont\color{Muted}#1\par}}
+\newcommand{\NaslovBloka}[1]{\par\textbf{#1}\par\vspace{2mm}}
+\title[Digitalna elektronika 1 · 2021/22]{Brojni sistemi}
+\author{prof. dr Lazar Saranovac}
+\institute{Katedra za elektroniku, Elektrotehnički fakultet}
+\date{2021/22}
 \begin{document}
 \input{slajdovi/s001_brojni_sistemi.tex}
 \input{slajdovi/s002_pozicioni_brojni_sistemi.tex}

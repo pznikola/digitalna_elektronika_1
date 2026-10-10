@@ -1,0 +1,11 @@
+\BeleskeID{09_2-s027}
+% element: 09_2-s027:e04
+% element: 09_2-s027:e05
+Diferenciranje pune ravnoteže struja dalo bi složen izraz:
+\[\begin{aligned}*1.\quad&k_p\frac1{1+\frac{V_O-V_{DD}}{L_pE_{Cp}}}\left(2(V_O-V_{DD})(V_I-V_{DD}-V_{Tp})-(V_O-V_{DD})^2\right)\\&\qquad=k_n\frac1{1+\frac{V_I-V_{Tn}}{L_nE_{Cn}}}(V_I-V_{Tn})^2\end{aligned}\]
+Očekuje se da je izlazni napon u tački donjeg praga blizu napajanja, pa je razlika $V_{O(IL)}-V_{DD}$ mala. Očekuje se i da je $V_{IL}$ blizu praga N tranzistora. Ako su oba prikazana količnika mala, odgovarajući imenitelji aproksimiraju se jedinicom. Zatim se diferencira pojednostavljena ravnoteža struja:
+\[-k_p\left(2(V_I-V_{DD}-V_{Tp})-(V_O-V_{DD})\right)+k_p(V_O-V_{DD})(2+1)=2k_n(V_I-V_{Tn1})\]
+Sređivanjem se dobija druga jednačina, koja se rešava zajedno sa ravnotežom struja. Dva prikazana oblika dobijaju se deljenjem brojioca i imenitelja istim faktorom.
+
+Pre normalizacije dobijamo
+\[2.\quad V_I=\frac{4k_pV_O-2k_pV_{DD}+2k_pV_{Tp}+2k_nV_{Tn}}{2(k_n+k_p)}=\frac{2V_O-V_{DD}+V_{Tp}+\frac{k_n}{k_p}V_{Tn}}{1+\frac{k_n}{k_p}}\]

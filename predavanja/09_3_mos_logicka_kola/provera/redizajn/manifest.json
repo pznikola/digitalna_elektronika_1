@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "phase": "redizajn",
+  "lecture": "09_3",
+  "selected_style": "B",
+  "theme": "etf-v1",
+  "theme_manifest_sha256": "87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41",
+  "source_sha256": "b4861aeee12f6f25f2c9be291bc9aae149747d053d5332f266738c14c74c0492",
+  "slide_ids": [
+    "09_3-s001",
+    "09_3-s002",
+    "09_3-s003",
+    "09_3-s004",
+    "09_3-s005",
+    "09_3-s006",
+    "09_3-s007",
+    "09_3-s008",
+    "09_3-s009",
+    "09_3-s010",
+    "09_3-s011",
+    "09_3-s012",
+    "09_3-s013",
+    "09_3-s014",
+    "09_3-s015",
+    "09_3-s016",
+    "09_3-s017",
+    "09_3-s018",
+    "09_3-s019",
+    "09_3-s020",
+    "09_3-s021",
+    "09_3-s022",
+    "09_3-s023",
+    "09_3-s024",
+    "09_3-s025",
+    "09_3-s026",
+    "09_3-s027",
+    "09_3-s028",
+    "09_3-s029",
+    "09_3-s030",
+    "09_3-s031",
+    "09_3-s032",
+    "09_3-s033",
+    "09_3-s034",
+    "09_3-s035",
+    "09_3-s036",
+    "09_3-s037",
+    "09_3-s038",
+    "09_3-s039",
+    "09_3-s040",
+    "09_3-s041",
+    "09_3-s042",
+    "09_3-s043",
+    "09_3-s044",
+    "09_3-s045",
+    "09_3-s046",
+    "09_3-s047",
+    "09_3-s048",
+    "09_3-s049",
+    "09_3-s050",
+    "09_3-s051",
+    "09_3-s052",
+    "09_3-s053",
+    "09_3-s054",
+    "09_3-s055",
+    "09_3-s056",
+    "09_3-s057",
+    "09_3-s058",
+    "09_3-s059",
+    "09_3-s060",
+    "09_3-s061",
+    "09_3-s062",
+    "09_3-s063",
+    "09_3-s064",
+    "09_3-s065",
+    "09_3-s066",
+    "09_3-s067",
+    "09_3-s068",
+    "09_3-s069",
+    "09_3-s070",
+    "09_3-s071"
+  ],
+  "baseline_sha256": "3f4e5e89c497bfdc67e16cd895b42314c7b4c360bc1967735705a86bed073f17",
+  "created": "2026-10-03T10:32:15.450108+00:00",
+  "build_record": "provera/redizajn/izgradnja.json",
+  "notes": {
+    "09_3-s001": {
+      "path": "beleske/s001.tex",
+      "title": "Logička kola sa MOS tranzistorima — 3. deo"
+    },
+    "09_3-s002": {
+      "path": "beleske/s002.tex",
+      "title": "Dinamičke karakteristike CMOS invertora"
+    },
+    "09_3-s003": {
+      "path": "beleske/s003.tex",
+      "title": "Kapacitivnosti MOS tranzistora"
+    },
+    "09_3-s004": {
+      "path": "beleske/s004.tex",
+      "title": "Kapacitivnost gejta i režim rada"
+    },
+    "09_3-s005": {
+      "path": "beleske/s005.tex",
+      "title": "Dva problema optimizacije"
+    },
+    "09_3-s006": {
+      "path": "beleske/s006.tex",
+      "title": "Optimizacija kašnjenja CMOS invertora"
+    },
+    "09_3-s007": {
+      "path": "beleske/s007.tex",
+      "title": "Kapacitivnosti u lancu invertora"
+    },
+    "09_3-s008": {
+      "path": "beleske/s008.tex",
+      "title": "Uticaj parazitnih kapacitivnosti"
+    },
+    "09_3-s009": {
+      "path": "beleske/s009.tex",
+      "title": "Srednje kašnjenje i ekvivalentne otpornosti"
+    },
+    "09_3-s010": {
+      "path": "beleske/s010.tex",
+      "title": "Milerova kapacitivnost i skaliranje"
+    },
+    "09_3-s011": {
+      "path": "beleske/s011.tex",
+      "title": "Kašnjenje u zavisnosti od širine kanala"
+    },
+    "09_3-s012": {
+      "path": "beleske/s012.tex",
+      "title": "Optimalni odnos širina kanala"
+    },
+    "09_3-s013": {
+      "path": "beleske/s013.tex",
+      "title": "Jedinični CMOS invertor"
+    },
+    "09_3-s014": {
+      "path": "beleske/s014.tex",
+      "title": "Optimizacija lanca invertora"
+    },
+    "09_3-s015": {
+      "path": "beleske/s015.tex",
+      "title": "Lanac skaliranih invertora"
+    },
+    "09_3-s016": {
+      "path": "beleske/s016.tex",
+      "title": "Kašnjenje prvog stepena"
+    },
+    "09_3-s017": {
+      "path": "beleske/s017.tex",
+      "title": "Efektivni fanout"
+    },
+    "09_3-s018": {
+      "path": "beleske/s018.tex",
+      "title": "Optimalno geometrijsko skaliranje"
+    },
+    "09_3-s019": {
+      "path": "beleske/s019.tex",
+      "title": "Fiksiran broj stepena"
+    },
+    "09_3-s020": {
+      "path": "beleske/s020.tex",
+      "title": "Optimalni broj stepena"
+    },
+    "09_3-s021": {
+      "path": "beleske/s021.tex",
+      "title": "Broj stepena za faktor 3,6"
+    },
+    "09_3-s022": {
+      "path": "beleske/s022.tex",
+      "title": "Faktor povećanja četiri"
+    },
+    "09_3-s023": {
+      "path": "beleske/s023.tex",
+      "title": "Nebaferisana i dvostruko baferisana kola"
+    },
+    "09_3-s024": {
+      "path": "beleske/s024.tex",
+      "title": "Povećanje kapaciteta i rasterećenje"
+    },
+    "09_3-s025": {
+      "path": "beleske/s025.tex",
+      "title": "Složena CMOS logička kola"
+    },
+    "09_3-s026": {
+      "path": "beleske/s026.tex",
+      "title": "Realizacije PUN i PDN mreža"
+    },
+    "09_3-s027": {
+      "path": "beleske/s027.tex",
+      "title": "Dimenzije dvoulaznih NI i NILI kola"
+    },
+    "09_3-s028": {
+      "path": "beleske/s028.tex",
+      "title": "Dimenzionisanje NILI kola"
+    },
+    "09_3-s029": {
+      "path": "beleske/s029.tex",
+      "title": "Dimenzionisanje NI kola"
+    },
+    "09_3-s030": {
+      "path": "beleske/s030.tex",
+      "title": "Poređenje površina NI i NILI kola"
+    },
+    "09_3-s031": {
+      "path": "beleske/s031.tex",
+      "title": "Sinteza PDN mreže"
+    },
+    "09_3-s032": {
+      "path": "beleske/s032.tex",
+      "title": "Sinteza PUN mreže"
+    },
+    "09_3-s033": {
+      "path": "beleske/s033.tex",
+      "title": "Dualnost PUN i PDN mreža"
+    },
+    "09_3-s034": {
+      "path": "beleske/s034.tex",
+      "title": "Složeno CMOS kolo sa dimenzijama"
+    },
+    "09_3-s035": {
+      "path": "beleske/s035.tex",
+      "title": "Logički trud i kritična putanja"
+    },
+    "09_3-s036": {
+      "path": "beleske/s036.tex",
+      "title": "Karakteristična vremenska konstanta"
+    },
+    "09_3-s037": {
+      "path": "beleske/s037.tex",
+      "title": "Normalizovano kašnjenje lanca"
+    },
+    "09_3-s038": {
+      "path": "beleske/s038.tex",
+      "title": "Vremenska konstanta NI kola"
+    },
+    "09_3-s039": {
+      "path": "beleske/s039.tex",
+      "title": "Vremenska konstanta NILI kola"
+    },
+    "09_3-s040": {
+      "path": "beleske/s040.tex",
+      "title": "Mešovita kritična putanja"
+    },
+    "09_3-s041": {
+      "path": "beleske/s041.tex",
+      "title": "Optimizacija dva susedna kola"
+    },
+    "09_3-s042": {
+      "path": "beleske/s042.tex",
+      "title": "Jednaki proizvodi vremena i fanouta"
+    },
+    "09_3-s043": {
+      "path": "beleske/s043.tex",
+      "title": "Definicija logičkog truda"
+    },
+    "09_3-s044": {
+      "path": "beleske/s044.tex",
+      "title": "Opšti izraz logičkog truda"
+    },
+    "09_3-s045": {
+      "path": "beleske/s045.tex",
+      "title": "Zašto ne spajamo obične izlaze"
+    },
+    "09_3-s046": {
+      "path": "beleske/s046.tex",
+      "title": "CMOS izlaz sa tri stanja"
+    },
+    "09_3-s047": {
+      "path": "beleske/s047.tex",
+      "title": "NMOS izlaz sa otvorenim drejnom"
+    },
+    "09_3-s048": {
+      "path": "beleske/s048.tex",
+      "title": "Zajednička linija više predajnika"
+    },
+    "09_3-s049": {
+      "path": "beleske/s049.tex",
+      "title": "Visoka impedansa i dodatna kašnjenja"
+    },
+    "09_3-s050": {
+      "path": "beleske/s050.tex",
+      "title": "PTL — prolazna logička kola"
+    },
+    "09_3-s051": {
+      "path": "beleske/s051.tex",
+      "title": "Prenos jedinice i nule kroz NMOS"
+    },
+    "09_3-s052": {
+      "path": "beleske/s052.tex",
+      "title": "Selektorska prolazna logika"
+    },
+    "09_3-s053": {
+      "path": "beleske/s053.tex",
+      "title": "Prolazna I i ILI kola"
+    },
+    "09_3-s054": {
+      "path": "beleske/s054.tex",
+      "title": "Degradacija naponskih nivoa"
+    },
+    "09_3-s055": {
+      "path": "beleske/s055.tex",
+      "title": "Pravilna veza prolaznih tranzistora"
+    },
+    "09_3-s056": {
+      "path": "beleske/s056.tex",
+      "title": "Restauracija naponskih nivoa"
+    },
+    "09_3-s057": {
+      "path": "beleske/s057.tex",
+      "title": "Multiplekser u prolaznoj logici"
+    },
+    "09_3-s058": {
+      "path": "beleske/s058.tex",
+      "title": "Pomerač — množenje i deljenje sa 2"
+    },
+    "09_3-s059": {
+      "path": "beleske/s059.tex",
+      "title": "Barrel shifter — množenje, deljenje sa 2 na n-ti stepen"
+    },
+    "09_3-s060": {
+      "path": "beleske/s060.tex",
+      "title": "Transmisioni gejt"
+    },
+    "09_3-s061": {
+      "path": "beleske/s061.tex",
+      "title": "Bilateralni prekidač: negativan ulaz"
+    },
+    "09_3-s062": {
+      "path": "beleske/s062.tex",
+      "title": "Bilateralni prekidač: pozitivan ulaz"
+    },
+    "09_3-s063": {
+      "path": "beleske/s063.tex",
+      "title": "Bilateralni prekidač: ulaz na nuli"
+    },
+    "09_3-s064": {
+      "path": "beleske/s064.tex",
+      "title": "Otpornost transmisionog gejta"
+    },
+    "09_3-s065": {
+      "path": "beleske/s065.tex",
+      "title": "Isključen bilateralni prekidač"
+    },
+    "09_3-s066": {
+      "path": "beleske/s066.tex",
+      "title": "Transmisioni gejt u digitalnoj logici"
+    },
+    "09_3-s067": {
+      "path": "beleske/s067.tex",
+      "title": "Koju funkciju realizuje kolo?"
+    },
+    "09_3-s068": {
+      "path": "beleske/s068.tex",
+      "title": "Dinamička logika"
+    },
+    "09_3-s069": {
+      "path": "beleske/s069.tex",
+      "title": "Faze rada dinamičke logike"
+    },
+    "09_3-s070": {
+      "path": "beleske/s070.tex",
+      "title": "Problem kaskade dinamičkih kola"
+    },
+    "09_3-s071": {
+      "path": "beleske/s071.tex",
+      "title": "Domino logika"
+    }
+  }
+}

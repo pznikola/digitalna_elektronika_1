@@ -1,0 +1,9 @@
+\BeleskeID{09_1-s012}
+% element: 09_1-s012:n01
+Analizu počinjemo invertorom: od njega se mogu graditi složenija kola koja zadržavaju iste vrste karakteristika. Dok pogonski tranzistor ne vodi, nema pada napona na otporniku opterećenja i izlaz je na napajanju. Kada ulaz dostigne prag i malo ga premaši, tranzistor počinje da vodi sa malom strujom. Pad na $R_L$ zato je mali, a napon između drejna i sorsa ostaje visok. Za $V_{GSn}=V_{Tn}+\varepsilon$ sledi
+\[V_{DSnsat}=\frac{(V_{Tn}+\varepsilon-V_{Tn})L_nE_{Cn}}{L_nE_{Cn}+V_{Tn}+\varepsilon-V_{Tn}}=\frac{\varepsilon L_nE_{Cn}}{L_nE_{Cn}+\varepsilon}\approx\varepsilon.\]
+Time se objašnjava zašto tranzistor neposredno posle uključenja radi u zasićenju.
+
+\par Na početku provođenja važi $V_{DSn}>V_{DSnsat}$. Struja kroz opterećenje već daje mali pad napona, pa je
+\[V_O=V_{DD}-R_LI_{RL}=V_{DD}-R_LI_{Dn,D}<V_{DD}.\]
+Oznaka D znači drive (pogonski tranzistor), a L znači load (opterećenje).

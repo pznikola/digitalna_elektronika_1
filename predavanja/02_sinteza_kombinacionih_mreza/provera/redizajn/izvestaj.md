@@ -1,78 +1,86 @@
-# Predavanje 02 — dorade s047–s054
+# Predavanje 02 — SystemVerilog primeri
 
-**Status: `odobreno` · 2026-10-05.** Korisnik je prihvatio završenu prezentaciju i prateće beleške porukom „ok, prihvati 02 prezentaciju. Zavrsili smo sa njom“. Nema otvorenih stručnih pitanja. [Zapis odobrenja](odobrenje_rezultata.json) vezuje odluku za otiske prihvaćene verzije.
+**Status: `ceka_odobrenje` · 2026-10-09.** Korisnik je odobrio izradu primera uz s021/s022/s051, oba tipa testbench-a, nazive i raspored. Novi rezultat čeka njegov pregled. Prethodno prihvatanje od 2026-10-05 odnosi se na arhiviranu verziju sa 62 strane; [zapis odobrenja](odobrenje_rezultata.json) ostaje neizmenjen.
 
-## Obuhvat i verzija
+## Obuhvat i prikaz
 
-Originalni PDF je neizmenjen: 27 strana i 54 izvorna slajda. Korisnik je tražio podelu s048 i isti postupak za s049. Prezentacija i A4 beleške sada imaju po **62 strane**; s048b/s049b dolaze odmah iza svojih originalnih ID-jeva. Prethodnih šest nastavaka s002b/s009b/s015b/s023b/s024b/s032b ostaje isto. Svi originalni ID-jevi i njihov međusobni redosled su očuvani; originalna mapa ostaje neizmenjena. Katalog broji 620 originalnih, ukupno 628 projektovanih strana uz osam pojedinačnih izuzetaka. Stil B, zamrznuta tema etf-v1, fontovi, LuaLaTeX, autorstvo i godina 2021/22 nisu menjani.
+Prezentacija i beleške imaju **65 strana**: 54 originala + osam ranije odobrenih nastavaka + tri RTL dodatka. Svi prethodni ID-jevi i njihov međusobni redosled ostaju isti. Originalni PDF, istorijska mapa, zamrznuta tema etf-v1, autorstvo i godina 2021/22 nisu menjani. U katalogu ostaje 620 originalnih slajdova; sa postojećim nastavcima 02/03 i ovim dodacima ukupno je 634 projektovanih strana.
 
-## Poređenja pre/posle i pokrivenost
+| Izabrani ID | Novi ID / strana | Dizajn i oba TB-a |
+|---|---|---|
+| 02-s021 | 02-s021-rtl01 / 25 | [mreza_zp](../../kodovi/primeri_sv/02-s021/README.md) — zbir proizvoda, tri I gejta i završni ILI |
+| 02-s022 | 02-s022-rtl01 / 27 | [mreza_pz](../../kodovi/primeri_sv/02-s022/README.md) — proizvod pet potpunih zbirova |
+| 02-s051 | 02-s051-rtl01 / 62 | [mreza_sa_hazardom](../../kodovi/primeri_sv/02-s051/README.md) — simulacioni model sa parametrom T |
 
-| ID / izlazna strana | Pre ove dorade → sada |
-|---|---|
-| s047 / 53 | Skraćen uvod i izbor kućišta → potpunije grupisanje na račun kašnjenja, isti izraz F, tri dvoulazna I u jednom čipu, druge potrebne vrste i ukupno tri kućišta. |
-| s048 / 54 | NI transformacija i skraćeno poređenje na jednom slajdu → prva celina sa sva tri algebarska koraka, tačnim minimalnim brojem kola u tri vrste čipova i ograničenjem dokaza minimalnosti. |
-| s048b / 55 | Novi odobreni nastavak: sva tri koraka zamene troulaznog NI, povećano kašnjenje, 4+3+2=9 i tri ista čipa; alternativa četiri NI plus preostali invertor u dva kućišta; popust na količinu i pitanje 1+1 naspram 3 bez opšteg odgovora. |
-| s049 / 56 | Skraćena NILI realizacija na jednom slajdu → prva celina sa svim koracima, najmanje četiri invertora, tri dvoulazna i jednim troulaznim NILI, tri različite vrste čipova i ograničenjem minimalnosti. |
-| s049b / 57 | Novi odobreni nastavak: zamena troulaznog NILI i 4+3+3=10, tri ista čipa; izvorni zadatak poređenja jednostepene složene CMOS realizacije uz dostupne komplementne ulaze. |
-| s050 / 58 | Kratke definicije → izvorni uzroci različitih kašnjenja, početno i očekivano konačno stanje za lažnu nulu/jedinicu, glič i postojeći primer F; isti crtež. |
-| s051 / 59 | Sažet rezultat → početno/konačno stanje, promena samo B, očekivana jedinica i naglašeno ALI/lažna nula; iste pretpostavke i oba neizmenjena vektorska crteža, tp ostaje iznad signala. |
-| s053 / 61 | Skraćeno objašnjenje i jedna početna puna kontura → površine sa B=0/B=1, zajednička strana bez zajedničkih polja, promena jedne promenljive, lažna nula i odstupanje od minimalnosti; obe početne konture isprekidane, samo povezujuća puna. Ranije odobrena F i crveni dodatni član su isti. |
-| s054 / 62 | Skraćen završni tekst → povezivanje nula u proizvodu zbirova, lažna jedinica, više promenljivih ulaza, različita kašnjenja do I/ILI dela, dodatne komponente/invertori ili preuređivanje, odstupanje od minimalnog oblika, heuristika/simulacija i iskustvo projektanta. |
+Svaki novi slajd prikazuje ceo izvršivi izvor direktno preko `listings`: kod je levo, objašnjenje i klikabilni nazivi oba TB-a desno. Font koda je 9 pt; brojevi odgovaraju stvarnim linijama. Na s021/s022 par dodela invertora prikazan je u jednoj naredbi `assign`, uz sačuvanu topologiju. Prikazano je svih 16/18/16 linija izvora. Nema pune putanje dizajna iznad koda; oznake su **Testbench:** i **Testbench bez provere:**. Ne menja se monospaced font niti zajednička tema.
 
-Pokriveno je **231/231 elemenata**: 170 izvornih grupa i 61 dopuna. **102 elementa** imaju odredište u beleškama. Finiji popis delova s048/s049 ne dodaje originalno gradivo. [Mapa pokrivenosti](pokrivenost.md), [mapa podela](mapa_podela.json) i [odobrenja](odobrenje_podela.json) povezuju stare izvorne grupe sa oba nova dela.
+[Pregled novog s021](../../build/redizajn/pregled/novi/p-25.png), [s022](../../build/redizajn/pregled/novi/p-27.png), [s051](../../build/redizajn/pregled/novi/p-62.png). Šeme ranijih slajdova nisu precrtavane. Nema novih jezičkih ili stručnih ispravki originalnog gradiva.
 
-Nema precrtanih električnih šema: na s053 promenjen je samo stil dve početne konture; karte, mintermi i ranije odobrene formule s052/s053 sa barC su očuvani. NI/NILI međukoraci vraćeni su iz originala. Jezički sređeni zapisi: „koristimo sa NI ili NILI“ → „za realizaciju NI ili NILI kolima“, „dvoulazana“ → „dvoulazna“, „Ne postoji generalna odgovor“ → „Nema opšteg odgovora“. Očuvan je tačan broj kola/čipova. Prethodni opis s048 „invertor iz čipa sa četiri NI kola“ zamenjen je izvornom raspodelom: invertor iz šestostrukog invertorskog čipa, uz četiri NI u drugom kućištu. Nema novih stručnih izmena ni otvorenih predloga.
+## Model i testbench-ovi
 
-## Beleške
+S021 i s022 prate ulazne parove invertora i obe konkretne mreže, sa istim ulazima C, B, A i izlazom F. Nezavisna očekivanja iz funkcionalne tabele proveravaju svih osam binarnih kombinacija: F=1 za 011, 101 i 110. Posmatranje međusignala omogućeno je u VCD-u.
 
-Potpuniji izvorni tekst ovih slajdova sada je vidljiv; beleške daju samo dodatno nastavno objašnjenje. Na s047 ostaju uloge tri I kola, jedno slobodno kolo i kritična putanja. Na s048/s049 objašnjeni su De Morganovi međusignali i razlika ekvivalentnosti/minimalnosti. Na nastavcima su potpuni međusignali zamene, raspodela i slobodna kola, uz smisao poređenja cene odnosno CMOS površine. Na s050 ostaje tumačenje direktne i zakašnjele komplementne putanje; izvorni uzroci kašnjenja više se ne prepisuju. Na s051 ostaju događaji u tri vremenska intervala i uslovi modela. Na s053 ostaje dokaz konsenzusa i putanja polje 3 → 1. Na s054 ostaju mehanizam lažne jedinice, međukombinacije više ulaza i očuvanje polariteta pri dodavanju invertora; izvorni završni tekst više se ne ponavlja.
+S051 zadržava izričitu pretpostavku originalnog slajda: kašnjenje ima samo invertor, a ostali gejtovi su idealno brzi. Za C=A=1 i pad B, BA odmah pada na 0, dok C·barB postaje 1 posle T. U fizičkom kolu svi gejtovi imaju kašnjenje; ovaj model izdvaja mehanizam hazarda. Korisnik je prihvatio objašnjenje porukom „onda u redu“. Na slajdu je vidljiva napomena da `assign #(T)` služi simulacionom primeru i ne zadaje fizička kašnjenja pri realnom RTL projektovanju.
 
-Izvorni vremenski detalji s051:e03 ostaju povezani sa beleškama. Sav drugi sadržaj prenet u ranijim doradama ostaje na istim odredištima. [Evidencija beležaka](evidencija_beleski.json) čuva poreklo i dokaze odvojeno od nastavnog teksta, bez njegove druge kopije. Nema vidljivih uredničkih komentara, istorije ispravki ili odluka.
+Automatski TB hazarda proverava stacionarnu tabelu, lažnu nulu i oporavak dve instance: T=5 ns i T=7 ns. [Stvarni VCD zapisi oba simulatora](vcd_lazna_nula.json) potvrđuju oba trajanja. Studentski TB sa T=5 ns daje prvu lažnu nulu od **20 do 25 ns**. [Vremenski prikaz iz njegovog VCD-a](../../build/redizajn/systemverilog/s051_lazna_nula.png).
+
+Studentski TB-ovi sadrže samo jednostavan uzastopni niz dodela, čekanja, VCD i završetak. Nemaju očekivane rezultate, assert, fatal ili PASS. Student može promeniti ulaze, trajanja i T i ponovo pokrenuti `run_student`; automatske provere ostaju u odvojenom TB-u. Linkovi u PDF-u prate GitHub putanje kao u vežbama; lokalni fajlovi i komande su dostupni preko README-a svakog primera.
+
+## Beleške i pokrivenost
+
+Dodate su beleške samo za tri nova ID-ja. Objašnjavaju paralelno značenje više dodela u `assign`, posmatranje međusignala, redove u kojima potpuni zbir daje nulu i vremenski tok hazarda. Ne sadrže istoriju rada, odluke ili rezultate provera. Nijedan detalj sa ranijih slajdova nije uklonjen ili dodatno premešten u beleške.
+
+[Mapa pokrivenosti](pokrivenost.md) ima **241/241 potvrđen element**: 231 raniji + deset elemenata dopuna. **105 elemenata** ima odredište u beleškama. Nastavno poreklo, razlika dopuna i izvornog materijala, stvarne odluke i dokazi ostaju u [evidenciji beležaka](evidencija_beleski.json) i [odlukama](odluke.md). Tekst beležaka postoji samo u odgovarajućim `.tex` fajlovima.
 
 ## Pregled i provere
 
-Pročitani su originalni slajdovi PDF strana 24–27, prethodni i novi lokalni izvori i beleške. Stvarno su pregledani ceo konačni prikaz svakog od devet pogođenih ID-jeva i njegove A4 beleške: oznake, formule, negacije, računi, izbor kućišta, ćelije i konture, dijagrami, naslovi i razmaci. Nema preklapanja, odsecanja, smanjenja fonta ili izostavljenih nastavnih detalja.
+Pregledani su originalni i aktuelni s021/s022/s051, njihove formule i šeme, svi izvori novih dizajna i oba TB-a. Stvarno su pregledani tri nova projekciona slajda i njihove cele A4 strane: sadržaj, oznake, brojevi linija, linkovi, razmaci i nastavna objašnjenja. Nema preklapanja, odsecanja ili izostavljenog koda; oba LaTeX loga nemaju greške, upozorenja ili prekoračenja prostora.
 
-[Poređenje prikaza](poredjenje_dorade_s047_s054.json) dokazuje da ostalih **53 slajda i nastavna A4 prikaza** ostaju isti: cele projektovane slike su pikselno jednake; za pomereni s052 razlikuje se samo broj A4 strane u donjem podnožju. Tela, zaglavlja i nastavni izvori ostaju isti. Promene zajedničkih otisaka ograničene su na odobrenje podela, manifest/glavni izvor i generisane veze sa novim redosledom. Potvrde nepogođenih slajdova očuvane su uz taj dokaz; devet pogođenih potvrda obnovljeno je nakon stvarnog pregleda.
+[Poređenje sa prethodnom odobrenom verzijom](poredjenje_rtl_dodataka.json) potvrđuje **62/62 identična projekciona prikaza i 62/62 identična A4 tela**. Izvori njihovih slajdova i beležaka takođe su isti. Na 38 pomerenih A4 strana promenjen je samo broj u podnožju; sva promenjena podnožja pregledana su [zajedno](../../build/redizajn/pregled/pregled_podnozja.png). Prethodni stvarni sadržinski pregled ostaje osnova za neizmenjene slajdove; nove potvrde beleže ovu proveru razlike, bez tvrdnje da je ponovljena njihova cela analiza.
 
-Iscrpno su provereni grupisanje/NI/NILI oblici funkcije za **16 kombinacija DCBA**, obe zamene troulaznih kola za **8 kombinacija XYZ**, konsenzus i kartirani mintermi za **8 kombinacija CBA**, te niz izlaza **1 → 0 → 1** u modelu zakašnjelog invertora. Provereni su računi devet/deset kola i raspodela kućišta. Originalni PDF, istorijska mapa i korišćena zajednička tema ostaju isti.
+Sve sledeće komande završavaju kodom 0:
 
-Komande završavaju izlaznim kodom 0:
-
-```bash
+```sh
 make -C predavanja LECTURE=02_sinteza_kombinacionih_mreza notes
 make -C predavanja LECTURE=02_sinteza_kombinacionih_mreza review
+make -C predavanja LECTURE=02_sinteza_kombinacionih_mreza check-sv HDL_LOCAL=1
 make -C predavanja LECTURE=02_sinteza_kombinacionih_mreza check
+make -C predavanja test
+make -C predavanja test-redizajn
 ```
 
-**`check`: PROVERENO.** Postojeće računske i strukturne provere prolaze. Oba konačna LaTeX loga su bez grešaka, upozorenja i prekoračenja prostora. Svih 62 ID-ja povezano je sa odgovarajućim slajdom i beleškama. Alati nisu menjani.
+**check: PROVERENO.** Svi ID-jevi, njihov redosled, beleške, odredišta sadržaja i trenutne potvrde su usklađeni. Postojeća nezavisna računska provera prolazi. **12 simulacija** (tri primera × dva TB-a × dva simulatora) završava uspešno; automatski TB-ovi daju PASS, studentski završavaju i daju VCD. Simulacije su izvršene lokalno u instaliranim Verilator-u i Icarus-u; Docker pokretanje nije korišćeno u ovoj sesiji. Verzije su u zapisima svake simulacije.
 
-[Notes log](../../build/redizajn/dorada-s047-s054-2026-10-05/notes.log), [review log](../../build/redizajn/dorada-s047-s054-2026-10-05/review.log), [check log](../../build/redizajn/dorada-s047-s054-2026-10-05/check.log).
+**49 regresionih testova** i integraciona proba prolaze. [Tri namerno pogrešne realizacije](negativne_provere_rtl.json), proverene u privremenim kopijama, automatski TB-ovi odbijaju: pogrešan polaritet proizvoda, OR umesto završnog AND i uklonjeno kašnjenje invertora.
 
-## Isporuka i nastavak
+Alati podržavaju odobrene RTL dodatke odvojeno od podela originala, njihove beleške i uporedni kontekst, zavisnosti dizajna/pomoćnih modula/oba TB-a i važenje simulacionih potvrda. Uveden je `check-sv`; detalji su u [tehničkom uputstvu](../../../_alati/REDIZAJN.md). Izmena izvora, TB-a, VCD-a ili simulatora poništava odgovarajući dokaz. Provere ne daju odobrenje rezultata.
 
-- [Prezentacija — 62 slajda](../../build/02_sinteza_kombinacionih_mreza.pdf); dorade na stranama **53–59 i 61–62**.
-- [PDF beležaka — 62 A4 strane](../../build/02_sinteza_kombinacionih_mreza_beleske.pdf).
+[Notes log](../../build/redizajn/rtl-primeri-2026-10-09/notes.log), [review](../../build/redizajn/rtl-primeri-2026-10-09/review.log), [check-sv](../../build/redizajn/rtl-primeri-2026-10-09/check-sv.log), [check](../../build/redizajn/rtl-primeri-2026-10-09/check.log), [regresioni testovi](../../build/redizajn/rtl-primeri-2026-10-09/tests.log), [integraciona proba](../../build/redizajn/rtl-primeri-2026-10-09/integration.log).
+
+## Isporuka i sledeći korak
+
+- [Prezentacija — 65 slajdova](../../build/02_sinteza_kombinacionih_mreza.pdf); RTL dodaci su na stranama **25, 27 i 62**.
+- [PDF beležaka — 65 A4 strana](../../build/02_sinteza_kombinacionih_mreza_beleske.pdf).
 - [Uporedni pregled](../../build/redizajn/pregled/index.html).
 
-Neposredno prethodna verzija sa 60 strana sačuvana je u `istorija/pre-dorade-s047-s048-2026-10-05/izvori-i-evidencija.tar.gz`, sa [tadašnjim izveštajem](istorija/pre-dorade-s047-s048-2026-10-05/izvestaj.md). Tadašnji prikazi nalaze se u `build/redizajn/pre-dorada-s047-s048-2026-10-05/`; naziv arhive odgovara prvom nalogu ove objedinjene dorade. Prethodne arhive i odluke ostaju istorija. Generisani PDF/PNG/HTML i logovi u `build/` ne verzionišu se; obnavljaju se gornjim komandama.
+Nema otvorenih stručnih pitanja. Sledeći korak je korisnikov pregled ovih dodataka; on određuje sledeće primere. Nalog i odluke o konkretnim izmenama ne predstavljaju prihvatanje cele nove isporuke niti menjaju odobrenja drugih predavanja.
 
-Predavanje 02 je završeno i odobreno. Preostali zadaci: nema. Pri nastavku proveriti relevantne otiske iz [zapisa odobrenja](odobrenje_rezultata.json); ako su isti, preskočiti završenu analizu 02. Ranija zasebna dozvola za početak 03 ostaje važeća; ovom porukom nisu prihvaćeni rezultati drugih predavanja. Prethodni izveštaj koji je čekao odluku sačuvan je [u istoriji](istorija/pre-odobrenja-2026-10-05/izvestaj.md).
+Prethodna evidencija, izvori, alati i [izveštaj](istorija/pre-rtl-primera-2026-10-09/izvestaj.md) sačuvani su u `istorija/pre-rtl-primera-2026-10-09/`; prihvaćeni izlazi su u `build/redizajn/pre-rtl-primera-2026-10-09/`. Generisani izlazi, logovi i simulacije ostaju u ignorisanom `build/`; obnavljaju se navedenim komandama.
 
 ## SHA-256 pregledane verzije
 
 | Resurs | Otisak |
 |---|---|
 | Originalni PDF | `f631914c9f32a0472f4fa3af11115abaadb9316dfcf6f1528cd91ef4d28868f4` |
-| Izvorna mapa | `b2c8e07fa123a40da68c8b89b1b1c6ce88112e90c7417792cdec341d60136ca2` |
-| Manifest | `9cee4786e297b7979acf11d39a44f004dfa586e1623d55b92a62b968a812755f` |
-| Odobrenje podela | `8ccd96066474d679f2c64c0ff94d88608bf082ab96c4bd408342f598e9c7867f` |
-| Prezentacioni PDF | `e2bce5e724ce41cce7c7df3ab52f7503349fa1505e13196c2e3dc27ebd8481c3` |
-| PDF beležaka | `460ed29d80122ddfb70099770bab41eb6a70aa039b07c5a09d691c87e6ec432e` |
-| Zapis izgradnje | `b7cebc207fa99e1bdc80bc90d080377e77f3027c68bfe6877ed74044900e37e5` |
-| Potvrde pregleda | `b601434886d3f5cef4bcde593e84a3f45cbe9b04fb10323ff05027c019006fd1` |
-| Evidencija beležaka | `5ccd5f4578909d6f9310855c2643bc5e9af6947f460e936b43c9a63ddb99df57` |
-| Poređenje prikaza | `b974d4054d2a987f1f75de20c35c28a654ed722ffb1a931c33db6c5a91d9e3d2` |
-| Arhiva prethodne isporuke | `145cef5b1318fb40fc2b69e8c661a2c5ea4cd68369104d50aab4f5842f7bf3ee` |
-| Odobrenje rezultata | `d66d9546852d11ec4a54b7c6a327eaf20de4c50aca3a88f8e01bab3651bcb790` |
+| Istorijska mapa | `b2c8e07fa123a40da68c8b89b1b1c6ce88112e90c7417792cdec341d60136ca2` |
+| Manifest | `250a3e227875e5a2608041b74c9fdc33a56b22ae80d5e447e5cbaee19311aa83` |
+| Odobrenje RTL dodataka | `535888756f8b93c35be3fc7dc41ffe3b60f140566a374dc8d7d8eaf8449b02c5` |
+| Prethodno odobrenje rezultata | `d66d9546852d11ec4a54b7c6a327eaf20de4c50aca3a88f8e01bab3651bcb790` |
+| Manifest teme | `87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41` |
+| Prezentacioni PDF | `c31175c869e2cde5dfbcbc9687fd6501f4102a31927e58f9d54163c661fe7ed6` |
+| PDF beležaka | `e6edb257294d9242b5ef60eac401fdfe4c520f56a6925fd472ac6fa9997951c2` |
+| Zapis izgradnje | `64afb1d09d951160b423c8bf748cf7e13d1b2d750ed21af11af2af768aa9f6a3` |
+| Potvrde pregleda | `43baddbbe55449c58440050e5766f82ee7aa9854a8cfb027c33e96e228f3fa87` |
+| Evidencija beležaka | `dbf9365b3f3d65905136f57fecabeb8b2b5112b159c33c8b6d722be08f03106a` |
+| Poređenje 62 prethodna para | `9c45b2a33f96efcc982e51fd564c50ca1e3223ddfa787199b78bbae45ee599e1` |
+| VCD dokaz hazarda | `39eac3eeeb680cadab28a03f68ab62f92141a6390b6e6804c4c8c1c138155480` |

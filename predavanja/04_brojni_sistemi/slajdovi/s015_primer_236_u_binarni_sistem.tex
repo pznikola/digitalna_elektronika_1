@@ -1,15 +1,22 @@
 \slajdid{04-s015}
-\begin{frame}[label=04-s015]
-\gusttekst\centering\renewcommand{\arraystretch}{1.02}
-$236_7={?}_2$\par
-\begin{tikzpicture}
+\begin{frame}[label=04-s015]{Primer: uzastopno deljenje u osnovi 7}
+% element: 04-s015:e01 — Svih sedam redova deljenja u osnovi 7
+% element: 04-s015:e02 — Strelica čitanja ostataka i rezultat 236_7=1111101_2
+% element: 04-s015:e03 — Decimalna provera oba zapisa, sa svim težinama
+% element: 04-s015:e04 — Sedam cifara, maksimum 127 i nedostajući član težine 2^1
+\begin{columns}[c,onlytextwidth]
+\column{.43\textwidth}\centering
+\NaslovBloka{$236_7={?}_2$}
+{\fontsize{10}{12}\selectfont\renewcommand{\arraystretch}{1.2}
+\begin{tikzpicture}[font=\fontsize{10}{12}\selectfont]
 \node[inner sep=0] (t) {\input{tabele/s015_deljenje_u_osnovi_sedam.tex}};
-\draw[DEplava,->] ([xshift=6mm]t.south east)--([xshift=6mm]t.north east);
-\node[anchor=north] at ([xshift=6mm,yshift=-1mm]t.south east) {1111101};
-\end{tikzpicture}
-\[236_7=1111101_2\]
-\[236_7=2\cdot7^2+3\cdot7^1+6\cdot7^0=125_{10}\]
-\[\begin{aligned}1111101_2&=1\cdot2^6+1\cdot2^5+1\cdot2^4+1\cdot2^3+1\cdot2^2+0\cdot2^1+1\cdot2^0\\
-&=125_{10}=\textcolor{DEcrvena}{127_{10}-2_{10}}\end{aligned}\]
-Sedam cifara – maksimalna vrednost 127 – fali samo $0\text{x}2^1$
+\draw[DEcrvena,line width=.8pt,-{Latex[length=2mm]}] ([xshift=5mm,yshift=2mm]t.south east)--([xshift=5mm,yshift=-8mm]t.north east);
+\node[anchor=north,text=DEcrvena] at ([yshift=-3mm]t.south) {$1111101$};
+\end{tikzpicture}\par}
+\column{.53\textwidth}
+\[\alert{236_7=1111101_2}\]
+\[\begin{aligned}236_7&=2\cdot7^2+3\cdot7^1+6\cdot7^0\\&=125_{10}\end{aligned}\]
+\[\begin{aligned}1111101_2&=1\cdot2^6+1\cdot2^5+1\cdot2^4\\&\quad+1\cdot2^3+1\cdot2^2\\&\quad+0\cdot2^1+1\cdot2^0\\&=125_{10}=\alert{127_{10}-2_{10}}\end{aligned}\]
+Sedam cifara: maksimum je $127$; nedostaje samo član $0\times2^1$.
+\end{columns}
 \end{frame}

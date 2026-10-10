@@ -1,0 +1,5 @@
+\BeleskeID{05-s013}
+% element: 05-s013:d01
+Poziciju usaglašene fiksne tačke možemo privremeno ignorisati: oba operanda i rezultat imaju isti zajednički faktor skaliranja. Broj cifara je ograničen na $n$, pa vodeće i prateće nule moraju biti prisutne tamo gde ih postupak koristi.
+
+Za poziciju $i$ formira se celobrojni zbir $T_i=a_i+b_i+C_{i-1}$. Cifra je ostatak pri deljenju sa $r$, a prenos je količnik: $s_i=T_i\bmod r$, $C_i=\lfloor T_i/r\rfloor$. Najveći zbir je $2r-1$, zbog čega je prenos samo 0 ili 1 i kada osnova nije 2. Izvan registra dopunjene cifre oba operanda su nule; preostali izlazni prenos zato postaje dodatna cifra $s_n$. Prekoračenje ovde razmatramo za neoznačene vrednosti.

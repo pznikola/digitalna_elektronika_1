@@ -1,0 +1,1249 @@
+{
+  "date": "2026-10-05",
+  "scope": "Dorada s047–s051/s053/s054 i odobrene podele s048/s049; 62 slajda i A4 strane, očuvani nepogođeni nastavni izvori.",
+  "slides": {
+    "02-s001": {
+      "source": "Originalni PDF strana 1, gornji slajd; postojeći prikaz istog ID-ja.",
+      "notes_path": "beleske/s001.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Bez dodatnog sadržaja: samo ID i nevidljivo sidro.",
+      "supplement_anchor": null,
+      "notes_sha256": "515519b0b52bacc066d407016c2bdd4a6ca7db68c3ff79644505ed0eb7d83ae7",
+      "verification": "Pročitani originalni slajd i LaTeX izvori; upoređena pokrivenost vidljivog sadržaja i prenetih detalja; provereni međukoraci i formule. Pregledana puna A4 strana sa odgovarajućim ID-jem i naslovom: čitljivo, bez preklapanja ili odsecanja, bez uredničke evidencije. U 2026-10-03 potvrđena jednakost izvora i tela A4 prikaza sa prethodnom isporukom, uz promenu samo numeracije A4 strane.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s002": {
+      "source": "Originalni PDF, izvorni 02-s002; raspored prema nalogu 2026-10-03.",
+      "notes_path": "beleske/s002.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Apstraktni opis bez pamćenja prethodnih ulaznih stanja",
+      "supplement_anchor": "% element: 02-s002:d01",
+      "notes_sha256": "71d724c92a200002a54856935fdd4ca5ec152c2a1dc8cea68a0f636fc680c8d1",
+      "verification": "Pročitan originalni prvi deo s002 i novi s002; pregledana vremenska pitanja, definicija i oba isticanja „trenutno“, bez gubitka obrazloženja. Pregledana puna A4 strana i nastavni tekst prema koraku 6 plana.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s002b": {
+      "source": "Originalni PDF, izvorni 02-s002; raspored prema nalogu 2026-10-03.",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Funkcionalna tabela ne određuje vremenski tok prelaznog intervala",
+      "supplement_anchor": "% element: 02-s002b:d01",
+      "verification": "Pročitan ostatak originalnog s002 i novi nastavak: nepoznato prelazno stanje, pitanje zašto i fizičko kašnjenje; napomene o funkcionalnoj tabeli samo u beleškama. Pregledana puna A4 strana i nastavni tekst prema koraku 6 plana.",
+      "notes_path": "beleske/s002b.tex",
+      "notes_sha256": "c85e91653409b2474b554e5d4ca4e50c89c55a23fc497d23a3a9302c43bdd2df",
+      "status": "provereno",
+      "approval_split_source": "02-s002",
+      "editorial_content_visible": false
+    },
+    "02-s003": {
+      "source": "Originalni PDF, izvorni 02-s003 i njegova pripadajuća nastavna razrada.",
+      "notes_path": "beleske/s003.tex",
+      "original_details_in_notes": {
+        "02-s003:e01": "Signal, invertor i promenljivi x(t), y(t)",
+        "02-s003:e02": "Idealizovani i stvarni vremenski odziv invertora",
+        "02-s003:e03": "Značenje t_pHL, t_pLH i oznaka p, H, L"
+      },
+      "original_anchors": [
+        "% element: 02-s003:e01",
+        "% element: 02-s003:e02",
+        "% element: 02-s003:e03"
+      ],
+      "supplement": "Smer izlaznih promena i račun različitih širina ulaznog i izlaznog impulsa",
+      "supplement_anchor": "% element: 02-s003:d01",
+      "notes_sha256": "0e76dee7ce298af08f5f474a33c4509389cdd62592c6fbf15e5e2cdfabc21964",
+      "verification": "Pitanje T_ul=T_izl ??? desno od vremenskog dijagrama, bez dodira sa osama ili strelicama; puna algebra širine u beleškama. Pročitani nastavni tekst, pregledana puna A4 strana i original; bez suvišnog ponavljanja ili uredničkih komentara.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s004": {
+      "source": "Originalni PDF, izvorni 02-s004; raspored prema nalogu 2026-10-03.",
+      "notes_path": "beleske/s004.tex",
+      "original_details_in_notes": {
+        "02-s004:e01": "Nejednakost dva smerna kašnjenja",
+        "02-s004:e02": "Srednje kašnjenje i pretpostavka jednakih kašnjenja",
+        "02-s004:e03": "Vremenski prikaz kratkog impulsa",
+        "02-s004:e04": "Promena trajanja ili izostanak izlaznog impulsa"
+      },
+      "original_anchors": [
+        "% element: 02-s004:e01",
+        "% element: 02-s004:e02",
+        "% element: 02-s004:e03",
+        "% element: 02-s004:e04"
+      ],
+      "supplement": "Izvođenje širine izlaznog impulsa i uslov prenošenja obe promene.",
+      "supplement_anchor": "% element: 02-s004:d01",
+      "notes_sha256": "0d53880003683eb2fcc11265ff06c4cd8fecf5697b1578ee8e3a764eae566336",
+      "verification": "Naglašeno „nekih“, proširena leva kolona sa rečenicom u jednom redu; pregledani pitanje, dva moguća ishoda i uslov trajanja prema kašnjenjima. Desni crtež i oznake čitljivi. Pregledana puna A4 strana i nastavni tekst prema koraku 6 plana.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s005": {
+      "source": "Originalni PDF, izvorni 02-s005; raspored prema nalogu 2026-10-03.",
+      "notes_path": "beleske/s005.tex",
+      "original_details_in_notes": {
+        "02-s005:e01": "Vremenski dijagram maksimalnih kašnjenja i neodređenih intervala",
+        "02-s005:e02": "Zavisnost stvarnog kašnjenja od uslova i primerka",
+        "02-s005:e03": "Specifikacija maksimalnih vremena za tip kola"
+      },
+      "original_anchors": [
+        "% element: 02-s005:e01",
+        "% element: 02-s005:e02",
+        "% element: 02-s005:e03"
+      ],
+      "supplement": "Razlika stvarnog kašnjenja primerka i maksimalne specificirane granice.",
+      "supplement_anchor": "% element: 02-s005:d01",
+      "notes_sha256": "4195613d9ce4b4773157c01afcde955be7ab4fe7f122afb208fe7a57796ab2d6",
+      "verification": "Pregledane odvojene strelice „Sigurno 0/1“, izlazne granice i šrafure. Proširena desna kolona i izvorni naglasci maksimuma, sigurnosti, tipa i svih primeraka; bez preklapanja. Pregledana puna A4 strana i nastavni tekst prema koraku 6 plana.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s006": {
+      "source": "Originalni PDF, izvorni 02-s006; raspored prema nalogu 2026-10-03.",
+      "notes_path": "beleske/s006.tex",
+      "original_details_in_notes": {
+        "02-s006:e01": "Važenje definicije posle prelaznih procesa",
+        "02-s006:e02": "Kašnjenja na putanjama kroz kola",
+        "02-s006:e03": "Lažne nule i jedinice; posebna pažnja pri sintezi kombinacionih mreža"
+      },
+      "original_anchors": [
+        "% element: 02-s006:e01",
+        "% element: 02-s006:e02",
+        "% element: 02-s006:e03"
+      ],
+      "supplement": "Sabiranje kašnjenja putanje i prolazne kombinacije međusignala.",
+      "supplement_anchor": "% element: 02-s006:d01",
+      "notes_sha256": "0184d6bac9c0897a85ea92c50591eab13af4ba6068c2469f2c3aeb68fc3fdd97",
+      "verification": "Dodata izvorna najava posebne pažnje lažnim nulama i jedinicama; beleške objašnjavaju različita kašnjenja grana bez nepotrebnog ponavljanja. Pregledana puna A4 strana i nastavni tekst prema koraku 6 plana.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s007": {
+      "source": "Originalni PDF strana 4, gornji slajd; postojeći prikaz istog ID-ja.",
+      "notes_path": "beleske/s007.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Razlika broja kapija, ulaza, kućišta i izabranog kriterijuma.",
+      "supplement_anchor": "% element: 02-s007:d01",
+      "notes_sha256": "839eb19871f4260ae252eead686f3bd2f4ec31f9ec3a6295efc25085848a78f6",
+      "verification": "Pročitani originalni slajd i LaTeX izvori; upoređena pokrivenost vidljivog sadržaja i prenetih detalja; provereni međukoraci i formule. Pregledana puna A4 strana sa odgovarajućim ID-jem i naslovom: čitljivo, bez preklapanja ili odsecanja, bez uredničke evidencije. U 2026-10-03 potvrđena jednakost izvora i tela A4 prikaza sa prethodnom isporukom, uz promenu samo numeracije A4 strane.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s008": {
+      "source": "Originalni PDF, izvorni 02-s008; raspored prema nalogu 2026-10-03.",
+      "notes_path": "beleske/s008.tex",
+      "original_details_in_notes": {
+        "02-s008:e01": "SSI, broj komponenti i gejtova; definicija gejta",
+        "02-s008:e02": "Fotografija čipa, raspored pinova i dimenzije DIP14",
+        "02-s008:e03": "Pretvaranje inča i milova u milimetre",
+        "02-s008:e04": "Ekonomski faktor serijske nabavke"
+      },
+      "original_anchors": [
+        "% element: 02-s008:e01",
+        "% element: 02-s008:e02",
+        "% element: 02-s008:e03",
+        "% element: 02-s008:e04"
+      ],
+      "supplement": "SSI komponente, orijentacija DIP pinova, mil i numerički primer nabavke.",
+      "supplement_anchor": "% element: 02-s008:d01",
+      "notes_sha256": "0454c744acb10e6a5d774330c3f13a14455649349839d4ca6a0e97b5210318bf",
+      "verification": "SSI u zasebnoj rečenici sa punim nazivom; tri odvojena reda, očuvane veze i simetrični ulazi I kola. Pregledane obe DIP kote 2.54: korak centriran ispod strelice, visina pomerena udesno. Fotografija, jedinice i ekonomski detalji očuvani. Pregledana puna A4 strana i nastavni tekst prema koraku 6 plana.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s009": {
+      "source": "Originalni PDF, izvorni 02-s009; raspored prema nalogu 2026-10-03.",
+      "notes_path": "beleske/s009.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Primer normalnog i potpunog proizvoda i zbira",
+      "supplement_anchor": "% element: 02-s009:d01",
+      "notes_sha256": "d0076e7c3e7cd88dbc3cc42da45c9a95222eae17539173a000dd29c545e8b9f7",
+      "verification": "Prema originalu pregledane definicije literala/proizvoda/zbira, normalnih i potpunih članova u rasporedu bez kolona; beleške daju samo dodatne primere. Pregledana puna A4 strana i nastavni tekst prema koraku 6 plana.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s009b": {
+      "source": "Originalni PDF, izvorni 02-s009; raspored prema nalogu 2026-10-03.",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Primer indeksa 3 i obrazloženje suprotnih pravila",
+      "supplement_anchor": "% element: 02-s009b:d01",
+      "verification": "Prema istom originalu pregledani redosled promenljivih, suprotna pravila indeksa, SOP i POS; primer 011 i indeks 3 provereni. Pregledana puna A4 strana i nastavni tekst prema koraku 6 plana.",
+      "notes_path": "beleske/s009b.tex",
+      "notes_sha256": "698c8218b818e41c9d2eb1eb07b41033fd95f20b597f824f1edd56f5ec84432a",
+      "status": "provereno",
+      "approval_split_source": "02-s009",
+      "editorial_content_visible": false
+    },
+    "02-s010": {
+      "source": "Originalni PDF strana 5, donji slajd; postojeći prikaz istog ID-ja.",
+      "notes_path": "beleske/s010.tex",
+      "original_details_in_notes": {
+        "2": "Oba načina preskakanja funkcionalne tabele ili izraza."
+      },
+      "original_anchors": [
+        "% element: 02-s010:e02"
+      ],
+      "supplement": "Izostavljanje posrednih zapisa i električne razlike ekvivalentnih mreža.",
+      "supplement_anchor": "% element: 02-s010:d01",
+      "notes_sha256": "d7caab92691b3dd1b682103866c5f44f00fa91acbb8472f4b32cda025fd32153",
+      "verification": "Pročitani originalni slajd i LaTeX izvori; upoređena pokrivenost vidljivog sadržaja i prenetih detalja; provereni međukoraci i formule. Pregledana puna A4 strana sa odgovarajućim ID-jem i naslovom: čitljivo, bez preklapanja ili odsecanja, bez uredničke evidencije. U 2026-10-03 potvrđena jednakost izvora i tela A4 prikaza sa prethodnom isporukom, uz promenu samo numeracije A4 strane.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s011": {
+      "source": "Originalni PDF, izvorni 02-s011; raspored prema nalogu 2026-10-03.",
+      "notes_path": "beleske/s011.tex",
+      "original_details_in_notes": {
+        "02-s011:e02": "Dodela promenljivih i pozitivna logika",
+        "02-s011:e03": "Funkcionalna tabela svih osam ulaznih stanja"
+      },
+      "original_anchors": [
+        "% element: 02-s011:e02",
+        "% element: 02-s011:e03"
+      ],
+      "supplement": "Tačno dva naspram najmanje dva ulaza; brojanje kombinacija.",
+      "supplement_anchor": "% element: 02-s011:d01",
+      "notes_sha256": "2c4f83dcc31c108629a38aa22f6a40db8da38a1a9d67382c9646ad921b0ac47e",
+      "verification": "Pregledana sva tri zahteva, dodela promenljivih, pozitivna logika i svih osam redova tabele sa blagim linijama. Beleške potpuno objašnjavaju formiranje tabele i tačno dva naspram najmanje dva ulaza. Pregledana puna A4 strana i nastavni tekst prema koraku 6 plana.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s012": {
+      "source": "Originalni PDF, izvorni 02-s012; raspored prema nalogu 2026-10-03.",
+      "notes_path": "beleske/s012.tex",
+      "original_details_in_notes": {
+        "02-s012:e01": "Drugi zahtev: bar jedan ulaz jednak 1",
+        "02-s012:e02": "Skraćena tabela sa četiri reda",
+        "02-s012:e03": "Značenje simbola b i X",
+        "02-s012:e04": "Pravilo unosa svih vrednosti ulaza i potpuna pokrivenost skraćene tabele"
+      },
+      "original_anchors": [
+        "% element: 02-s012:e01",
+        "% element: 02-s012:e02",
+        "% element: 02-s012:e03",
+        "% element: 02-s012:e04"
+      ],
+      "supplement": "Razvijanje skraćenih redova i razlika nebitnog ulaza i neodređenog izlaza.",
+      "supplement_anchor": "% element: 02-s012:d01",
+      "notes_sha256": "8bf7444011eabccc5f156eeff78c6e5c8809d579b2e9f244d00b275be1750a77",
+      "verification": "Vraćen uvod o svim ulaznim vrednostima i skraćenoj formi; isti sistem sa novim zahtevom, istaknuti b/bilo šta/X i četiri razdvojena reda. Svih osam kombinacija razrađeno u beleškama. Pregledana puna A4 strana i nastavni tekst prema koraku 6 plana.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s013": {
+      "source": "Originalni PDF, izvorni 02-s013 i njegova pripadajuća nastavna razrada.",
+      "notes_path": "beleske/s013.tex",
+      "original_details_in_notes": {
+        "02-s013:e01": "Tri reda sa F=1 i potpuni proizvodi",
+        "02-s013:e02": "I i ILI povezivanje uslova; komplement za nulu",
+        "02-s013:e03": "Formula zbira proizvoda"
+      },
+      "original_anchors": [
+        "% element: 02-s013:e01",
+        "% element: 02-s013:e02",
+        "% element: 02-s013:e03"
+      ],
+      "supplement": "Potpuni uslovi rečima i dokaz da minterm izdvaja samo jedan red.",
+      "supplement_anchor": "% element: 02-s013:d01",
+      "notes_sha256": "e1f759e41a75bf8b9ab35af9aea20e11ced4b93e7a0a149f8da2aad0c1e4aed4",
+      "verification": "Blage horizontalne linije svih osam redova funkcionalne tabele; nepromenjene vrednosti i crveno označeni redovi. Pročitani nastavni tekst, pregledana puna A4 strana i original; bez suvišnog ponavljanja ili uredničkih komentara.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s014": {
+      "source": "Originalni PDF strana 7, donji slajd; postojeći prikaz istog ID-ja.",
+      "notes_path": "beleske/s014.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Kanonički i nekanonički SOP i broj članova.",
+      "supplement_anchor": "% element: 02-s014:d01",
+      "notes_sha256": "554aaf3918c47bce801dcf99b7bfd0fcdae2a0bdcaace405e3c0727de558e276",
+      "verification": "Pročitani originalni slajd i LaTeX izvori; upoređena pokrivenost vidljivog sadržaja i prenetih detalja; provereni međukoraci i formule. Pregledana puna A4 strana sa odgovarajućim ID-jem i naslovom: čitljivo, bez preklapanja ili odsecanja, bez uredničke evidencije. U 2026-10-03 potvrđena jednakost izvora i tela A4 prikaza sa prethodnom isporukom, uz promenu samo numeracije A4 strane.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s015": {
+      "source": "Originalni PDF, izvorni 02-s015 i njegova pripadajuća nastavna razrada.",
+      "notes_path": "beleske/s015.tex",
+      "original_details_in_notes": {
+        "02-s015:e01": "Pet redova sa F=0 i pravilo proizvoda zbirova",
+        "02-s015:e02": "Prvi red 000 i dualnost NI/ILI"
+      },
+      "original_anchors": [
+        "% element: 02-s015:e01",
+        "% element: 02-s015:e02"
+      ],
+      "supplement": "Razlikovanje prepoznavanja ulaznog uslova od činioca sa aktivnom nulom; jedinstvenost nultog reda.",
+      "supplement_anchor": "% element: 02-s015:d01",
+      "notes_sha256": "55d9ff48ead0151475a3bcd1b667acc3c6a61e574517e36954cc741007b99d50",
+      "verification": "Prvi deo originalnog s015: red 000, prepoznavanje kombinacije i činilac sa aktivnom nulom, dualnost NI/ILI; ponovljena cela tabela. Beleške razrađuju puni argument. Pročitani nastavni tekst, pregledana puna A4 strana i original; bez suvišnog ponavljanja ili uredničkih komentara.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s015b": {
+      "source": "Originalni PDF, izvorni 02-s015 i njegova pripadajuća nastavna razrada.",
+      "notes_path": "beleske/s015b.tex",
+      "original_details_in_notes": {
+        "02-s015b:e01": "Drugi nulti red 001 i odgovarajući negirani proizvod/potpuni zbir",
+        "02-s015b:e02": "Povezivanje pet uslova I kolom i čitanje ponovljene funkcionalne tabele",
+        "02-s015b:e03": "Pet potpunih zbirova i konačna formula"
+      },
+      "original_anchors": [
+        "% element: 02-s015b:e01",
+        "% element: 02-s015b:e02",
+        "% element: 02-s015b:e03"
+      ],
+      "supplement": "Razrada preostalih nultih redova i provera tri reda sa jedinicom.",
+      "supplement_anchor": "% element: 02-s015b:d01",
+      "notes_sha256": "3d8922f24f3d464551cde9dda0c8d384a9731261cfbb3c67ee4aabd261411b0f",
+      "verification": "Drugi deo originalnog s015: red 001, svih pet uslova i njihovo povezivanje I kolom, konačna formula; ponovljena cela tabela. Beleške čuvaju međukorak pet negiranih proizvoda, preostale nulte i jedinične redove. Pročitani nastavni tekst, pregledana puna A4 strana i original; bez suvišnog ponavljanja ili uredničkih komentara.",
+      "status": "provereno",
+      "approval_split_source": "02-s015",
+      "editorial_content_visible": false
+    },
+    "02-s016": {
+      "source": "Originalni PDF, izvorni 02-s016 i njegova pripadajuća nastavna razrada.",
+      "notes_path": "beleske/s016.tex",
+      "original_details_in_notes": {
+        "02-s016:e02": "Negiranje zbira pomoću De Morganovog pravila"
+      },
+      "original_anchors": [
+        "% element: 02-s016:e02"
+      ],
+      "supplement": "Potpuni De Morganov međukorak negacije pet minterma komplementa.",
+      "supplement_anchor": "% element: 02-s016:d01",
+      "notes_sha256": "cf60f35e46a7e577dda3817c397fd13abd259e0786e414a9da1327c2080e0cac",
+      "verification": "Fbar i F jednačine pojedinačno u jednom redu; tabela F/Fbar i ceo De Morganov međukorak pokriveni slajdom/beleškama. Pročitani nastavni tekst, pregledana puna A4 strana i original; bez suvišnog ponavljanja ili uredničkih komentara.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s017": {
+      "source": "Originalni PDF, izvorni 02-s017 i njegova pripadajuća nastavna razrada.",
+      "notes_path": "beleske/s017.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Primer maxterma reda 100 i izdvajanje nule.",
+      "supplement_anchor": "% element: 02-s017:d01",
+      "notes_sha256": "33496d088bcd00825f1b6054541667ff0880cd82b4c136b562552956281d5da8",
+      "verification": "Cela F jednačina u jednom redu; očuvani naziv kanoničke konjunktivne forme i pravilo iz nultog reda. Pročitani nastavni tekst, pregledana puna A4 strana i original; bez suvišnog ponavljanja ili uredničkih komentara.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s018": {
+      "source": "Originalni PDF, izvorni 02-s018 i njegova pripadajuća nastavna razrada.",
+      "notes_path": "beleske/s018.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Primer potpunog proizvoda i zbira indeksa 5 i značenje logičke sume/proizvoda; bez neobjašnjenih stranih naziva.",
+      "supplement_anchor": "% element: 02-s018:d01",
+      "notes_sha256": "6fb6557faf6807bd74e24716f563378bc49f0be49d6ab9b3f3429955acaaa046",
+      "verification": "Linije funkcionalne tabele, uvod o jednostavnijem zapisu oba oblika indeksima i značenju binarnih cifara, originalna opšta B formula. Beleške koriste potpuni proizvod/zbir, primer indeks 5, bez neobjašnjenih minterm/maxterm termina. Pročitani nastavni tekst, pregledana puna A4 strana i original; bez suvišnog ponavljanja ili uredničkih komentara.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s019": {
+      "source": "Originalni PDF, izvorni 02-s019 i njegova pripadajuća nastavna razrada.",
+      "notes_path": "beleske/s019.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Čitanje tri grane mreže I–ILI i spojeva sabirnica.",
+      "supplement_anchor": "% element: 02-s019:d01",
+      "notes_sha256": "2e3e6e8d6b5dc6a7e3ec4343e84716b989f96a19ad6c3a0dfcc699e2a9795278",
+      "verification": "Naslov šeme zbira proizvoda; veći razmak između parova sabirnica, očuvani svi ulazi i tačke spojeva. Simetrična putanja ispred spuštenog završnog ILI kola. Pročitani nastavni tekst, pregledana puna A4 strana i original; bez suvišnog ponavljanja ili uredničkih komentara.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s020": {
+      "source": "Originalni PDF, izvorni 02-s020 i njegova pripadajuća nastavna razrada.",
+      "notes_path": "beleske/s020.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Brojanje tri neposredna opterećenja izvora A.",
+      "supplement_anchor": "% element: 02-s020:d01",
+      "notes_sha256": "d9265b31ccd8b5f3a1c56f3e39b4007879ff6bc7c581eb6d52263363976eaae1",
+      "verification": "Izvorno pitanje o dostupnosti oba polariteta, potreba za invertorima i naglašena izvorna tvrdnja o tri opterećenja. Veći razmak između invertora i vodova ispod njih, dodatno spuštena I kola dalje od A sabirnice i završno ILI kolo još niže; simetrične veze i crvene stvarno povezane A grane. Pročitani nastavni tekst, pregledana puna A4 strana i original; bez suvišnog ponavljanja ili uredničkih komentara. Dopunski pregled 2026-10-04: Dodatno razdvojeni parovi ulaznih vodova: donji vod C ne dodiruje invertor B, donji vod B ne dodiruje invertor A; ostaje slobodan prostor ispod svakog invertora i iznad I kola. Priključci, negacije, crvene A grane i stvarni spojevi poređeni sa originalom i arhivom. Pregledani konačan projekcioni prikaz i cela A4 strana; tekst beležaka ostaje nepromenjen, čitljiv i potpun.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s021": {
+      "source": "Originalni PDF, izvorni 02-s021 i njegova pripadajuća nastavna razrada.",
+      "notes_path": "beleske/s021.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Uloge dva invertora i različita kašnjenja pravog i komplementnog voda.",
+      "supplement_anchor": "% element: 02-s021:d01",
+      "notes_sha256": "d30e974f80386d03b8cdebaa9f64dfacfb40a6dadba1a5f3055b6a3b4eafac89",
+      "verification": "Razdvojeni invertori i dva polariteta, spušten završni ILI nivo; simetrični prelom između izlaza I kola i ulaza ILI kola; bez prelaska preko simbola. Pročitani nastavni tekst, pregledana puna A4 strana i original; bez suvišnog ponavljanja ili uredničkih komentara.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s022": {
+      "source": "Originalni PDF, izvorni 02-s022 i njegova pripadajuća nastavna razrada.",
+      "notes_path": "beleske/s022.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Provera nultih i jediničnih redova mreže ILI–I.",
+      "supplement_anchor": "% element: 02-s022:d01",
+      "notes_sha256": "c6161b7b145d4e5e8786c444a429895ba198053696d1c62169d55c5e8deabcbf",
+      "verification": "Tačan naslov proizvoda zbirova prema ranijoj odluci; cela F formula u jednom redu iznad dominantne šeme. Razdvojeni invertori, niže završno I kolo i dva simetrična nivoa veza van simbola ILI/I kola. Pročitani nastavni tekst, pregledana puna A4 strana i original; bez suvišnog ponavljanja ili uredničkih komentara. Dopunski pregled 2026-10-04: Dodatno razdvojeni parovi vodova od invertora iznad i ispod; prvi nivo ILI i završno I kolo spušteni, dovodi i izlazne veze ostaju van simbola. Formula u jednom redu, vidljive tačke stvarnih spojeva, svi polariteti i pet priključnih grupa poređeni sa originalom i arhivom. Pregledani konačan projekcioni prikaz i cela A4 strana; tekst beležaka nepromenjen i čitljiv.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s023": {
+      "source": "Originalni PDF, izvorni 02-s023; pregled oba odobrena dela zajedno kada postoji nastavak.",
+      "notes_path": "beleske/s023.tex",
+      "original_details_in_notes": {
+        "02-s023:e03": "Proizvoljan broj ulaza/izlaza, dovoljnost invertora i I/ILI kola, najviše dva nivoa direktne forme"
+      },
+      "original_anchors": [
+        "% element: 02-s023:e03"
+      ],
+      "supplement": "Postupak za više izlaza, zajednički međusignali i tumačenje kašnjenja dvonivojske mreže",
+      "supplement_anchor": "% element: 02-s023:d01",
+      "notes_sha256": "a157e3308c69c00602b5fc396f0e52da791f38c040563961581a8a250ac72c31",
+      "verification": "Prva celina izvornog s023: pregledno crtanje, proizvoljan broj ulaza/izlaza, I/ILI i invertori, dva nivoa. Ranije odobreno tumačenje spojeva i fizičkog kašnjenja očuvano. Nastavno pročitan tekst i pregledan odgovarajući A4 prikaz; bez uredničkih komentara i nepotrebnog ponavljanja.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s023b": {
+      "source": "Originalni PDF, izvorni 02-s023; pregled oba odobrena dela zajedno kada postoji nastavak.",
+      "notes_path": "beleske/s023b.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Obim brojanja bez invertora i mogućnost minimizacije prema rasporedu članova",
+      "supplement_anchor": "% element: 02-s023b:d01",
+      "notes_sha256": "a72b6b86eedf6fa4a56d20fd0f748c16c9f5a25da190fc23f27002f075b7e887",
+      "verification": "Druga celina izvornog s023: istaknuta crvena tvrdnja o različitim resursima, poravnato poređenje 12/20 ulaza, zaključak za ovaj primer i zavisnost od broja/rasporeda nula i jedinica. Nastavno pročitan tekst i pregledan odgovarajući A4 prikaz; bez uredničkih komentara i nepotrebnog ponavljanja.",
+      "status": "provereno",
+      "approval_split_source": "02-s023",
+      "editorial_content_visible": false
+    },
+    "02-s024": {
+      "source": "Originalni PDF, izvorni 02-s024; pregled oba odobrena dela zajedno kada postoji nastavak.",
+      "notes_path": "beleske/s024.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Pravilo dvostruke negacije i algebarske jednakosti dualnih simbola",
+      "supplement_anchor": "% element: 02-s024:d01",
+      "notes_sha256": "d1d117132ea76d87d01cafe16a95ab35a75c492249a8243d52eebaf9caaf099c",
+      "verification": "Prva celina izvornog s024; crteži izvorne celine provereni kroz povezani s024b. Potpuni verbalni postupak dodavanja invertora na oba kraja veze, očuvanje funkcije i dualnosti NI/NILI za oba oblika funkcije. Nastavno pročitan tekst i pregledan odgovarajući A4 prikaz; bez uredničkih komentara i nepotrebnog ponavljanja.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s024b": {
+      "source": "Originalni PDF, izvorni 02-s024; pregled oba odobrena dela zajedno kada postoji nastavak.",
+      "notes_path": "beleske/s024b.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Proizvodi P1/P2/P3, praćenje njihovih polariteta i fizičkih kašnjenja",
+      "supplement_anchor": "% element: 02-s024b:d01",
+      "notes_sha256": "28b97672a0e3bd377ffb9d0748b330f119bac091df60da1b81fb6fe8c190265e",
+      "verification": "Druga celina izvornog s024: sačuvani isti vektorski izvori dve NI/dualnih šema, jasna strelica ekvivalencije i caption iznad podnožja; literalni proizvodi razrađeni u beleškama. Nastavno pročitan tekst i pregledan odgovarajući A4 prikaz; bez uredničkih komentara i nepotrebnog ponavljanja.",
+      "status": "provereno",
+      "approval_split_source": "02-s024",
+      "editorial_content_visible": false
+    },
+    "02-s025": {
+      "source": "Originalni PDF, izvorni 02-s025; pregled oba odobrena dela zajedno kada postoji nastavak.",
+      "notes_path": "beleske/s025.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Tumačenje unutrašnje/spoljašnje negacije i dvoulazno NI kao invertor",
+      "supplement_anchor": "% element: 02-s025:d01",
+      "notes_sha256": "53cb092e92dadf3bc18e7d3473c1cd292f7fda73d23bb117d767ad89d3ffe0b7",
+      "verification": "Dodat vidljiv puni međukorak dvostruke negacije između zbira proizvoda i De Morganove NI realizacije. Beleške objašnjavaju postupak, bez suvišnog prepisivanja svih izraza. Nastavno pročitan tekst i pregledan odgovarajući A4 prikaz; bez uredničkih komentara i nepotrebnog ponavljanja.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s026": {
+      "source": "Originalni PDF, izvorni 02-s026; pregled oba odobrena dela zajedno kada postoji nastavak.",
+      "notes_path": "beleske/s026.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Praćenje pet članova kroz obe šeme, NILI invertor i značenje logičke ekvivalencije",
+      "supplement_anchor": "% element: 02-s026:d01",
+      "notes_sha256": "417cababfcaf3c5389d9c312252f9c0392ba0effba171792016963a40bc5c326",
+      "verification": "Redosled: tvrdnja o NILI potpunosti, invertor, uvod o proizvodu zbirova, sva tri puna koraka F, dve iste topološke šeme. Lokalna vertikalna jedinica 2.2 mm i završni simbol 10 mm oslobađaju prostor uz oznake 9 pt i iste portove; vodovi prolaze izvan simbola. Nastavno pročitan tekst i pregledan odgovarajući A4 prikaz; bez uredničkih komentara i nepotrebnog ponavljanja.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s027": {
+      "source": "Originalni PDF, izvorni 02-s027; pregled oba odobrena dela zajedno kada postoji nastavak.",
+      "notes_path": "beleske/s027.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Primeri zamene tri I/jednog ILI i pet ILI/jednog I, popunjenost kućišta i dimenzionisanje CMOS tranzistora",
+      "supplement_anchor": "% element: 02-s027:d01",
+      "notes_sha256": "2f580dce88ce256aad891a36684911717ce3cb1a7a2865be7575a123fd1cb273",
+      "verification": "Proširena izvorna objašnjenja broja kola/čipova i veze ulaza sa CMOS tranzistorima/površinom. Dva izvorna crvena naglaska ostaju; dodata najava kasnijeg CMOS objašnjenja. Beleške samo nastavno tumačenje. Nastavno pročitan tekst i pregledan odgovarajući A4 prikaz; bez uredničkih komentara i nepotrebnog ponavljanja.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s028": {
+      "source": "Originalni PDF, izvorni 02-s028; pregled oba odobrena dela zajedno kada postoji nastavak.",
+      "notes_path": "beleske/s028.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Četiri identiteta invertora i četiri nivoa petoulaznog lanca.",
+      "supplement_anchor": "% element: 02-s028:d01",
+      "notes_sha256": "f87821fca1db06b542fd027faab234f99f25a4f94ce6b978a668a064c2dfe621",
+      "verification": "Naslov Realizacija funkcije pomoću dvoulaznih kola usklađen u slajdu i A4 dokumentu. Ostatak izvora, šeme i tekst beležaka nepromenjeni. Nastavno pročitan tekst i pregledan odgovarajući A4 prikaz; bez uredničkih komentara i nepotrebnog ponavljanja.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s029": {
+      "source": "Originalni PDF strana 15, gornji slajd; postojeći prikaz istog ID-ja.",
+      "notes_path": "beleske/s029.tex",
+      "original_details_in_notes": {
+        "2": "Stručno razjašnjenje uz korisnikovo zadržavanje izvornog slajda."
+      },
+      "original_anchors": [
+        "% element: 02-s029:e02"
+      ],
+      "supplement": "Odobreno razjašnjenje četiri kola u obe mreže, četiri naspram tri nivoa.",
+      "supplement_anchor": "% element: 02-s029:d01",
+      "notes_sha256": "81a9d9819cfee07e96540dc53cdc507d30c65e7c1088f19a025ce15a191ca46e",
+      "verification": "Pročitani originalni slajd i LaTeX izvori; upoređena pokrivenost vidljivog sadržaja i prenetih detalja; provereni međukoraci i formule. Pregledana puna A4 strana sa odgovarajućim ID-jem i naslovom: čitljivo, bez preklapanja ili odsecanja, bez uredničke evidencije. U 2026-10-03 potvrđena jednakost izvora i tela A4 prikaza sa prethodnom isporukom, uz promenu samo numeracije A4 strane.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s030": {
+      "source": "Originalni PDF strana 15, donji slajd; postojeći prikaz istog ID-ja.",
+      "notes_path": "beleske/s030.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Dokazi neekvivalencije NI lanca i stabla; analogni NILI kontra-primer.",
+      "supplement_anchor": "% element: 02-s030:d01",
+      "notes_sha256": "bdc848e553ec9f5b8a5b6e71ac0256f091e3e1fe9bafc3ee7000bd2323d728ef",
+      "verification": "Pročitani originalni slajd i LaTeX izvori; upoređena pokrivenost vidljivog sadržaja i prenetih detalja; provereni međukoraci i formule. Pregledana puna A4 strana sa odgovarajućim ID-jem i naslovom: čitljivo, bez preklapanja ili odsecanja, bez uredničke evidencije. U 2026-10-03 potvrđena jednakost izvora i tela A4 prikaza sa prethodnom isporukom, uz promenu samo numeracije A4 strane.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s031": {
+      "source": "Originalni PDF, izvorni 02-s031; pregled oba odobrena dela zajedno kada postoji nastavak.",
+      "notes_path": "beleske/s031.tex",
+      "original_details_in_notes": {
+        "02-s031:e03": "Funkcionalna potpunost dvoulaznih NI/NILI kola"
+      },
+      "original_anchors": [
+        "% element: 02-s031:e03"
+      ],
+      "supplement": "Tri međusignala pravilne NI/NILI realizacije i proširenje na troulazna kola.",
+      "supplement_anchor": "% element: 02-s031:d01",
+      "notes_sha256": "b545eb043edc7d17ac96b15a9454803ea4df20c93614a60ee0aae4a6f58f5130",
+      "verification": "Desna šema vraćena na prethodne položaje, po poslednjem nalogu; uklonjen samo marker tačke na vezanim ulazima srednjeg NI invertora. Veze ostaju spojene, funkcija i nastavni tekst su isti. Nastavno pročitan tekst i pregledan odgovarajući A4 prikaz; bez uredničkih komentara i nepotrebnog ponavljanja.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s032": {
+      "source": "Originalni PDF, izvorni 02-s032; pregled oba odobrena dela zajedno kada postoji nastavak.",
+      "notes_path": "beleske/s032.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Razlikovanje komponenti, ulaza i čipova; potpuni proizvod/zbir i čitanje indeksa",
+      "supplement_anchor": "% element: 02-s032:d01",
+      "notes_sha256": "98f5772fe06c126e60b4b5f1c4c078cd5a931b68c4c9729b3a4d27a18e41fd18",
+      "verification": "Prvi deo izvornog s032 vernije prati njegov tok: mogućnost realizacije, minimizacija, ekonomski kriterijum i algoritmi I/ILI/ulaza, potpuni članovi na Hemingovom rastojanju jedan, primer F u jednom redu. Izvorni naglasci tamnocrveni. Nastavno pročitan tekst i pregledan odgovarajući A4 prikaz; bez uredničkih komentara i nepotrebnog ponavljanja.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s032b": {
+      "source": "Originalni PDF, izvorni 02-s032; pregled oba odobrena dela zajedno kada postoji nastavak.",
+      "notes_path": "beleske/s032b.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Pokrivanje oba reda, nepromenjeni ostali članovi i potpun račun ulaza dela mreže",
+      "supplement_anchor": "% element: 02-s032b:d01",
+      "notes_sha256": "476edc79943c9467f791a3aa1ff2308afe659e574b67ac129ad25671751bafe6",
+      "verification": "Drugi deo izvornog s032: puno izvorno objašnjenje indeksa 4/6, broja različitih bitova i literala B/Bbar, puna F sa sva tri koraka u jednom redu, zamena dva I kola jednim, oba računa ulaza, crveno istaknuti 8→3 i smanjenje CMOS tranzistora/površine. Nastavno pročitan tekst i pregledan odgovarajući A4 prikaz; bez uredničkih komentara i nepotrebnog ponavljanja.",
+      "status": "provereno",
+      "approval_split_source": "02-s032",
+      "editorial_content_visible": false
+    },
+    "02-s033": {
+      "source": "Originalni PDF strana 17, gornji slajd; postojeći prikaz istog ID-ja.",
+      "notes_path": "beleske/s033.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Slojevi i praktična ograničenja ručnog praćenja karte.",
+      "supplement_anchor": "% element: 02-s033:d01",
+      "notes_sha256": "e027b823e05b6d16863828f00b0fa95e8b5075f1199963b83479c791b481ef48",
+      "verification": "Pročitani originalni slajd i LaTeX izvori; upoređena pokrivenost vidljivog sadržaja i prenetih detalja; provereni međukoraci i formule. Pregledana puna A4 strana sa odgovarajućim ID-jem i naslovom: čitljivo, bez preklapanja ili odsecanja, bez uredničke evidencije. U 2026-10-03 potvrđena jednakost izvora i tela A4 prikaza sa prethodnom isporukom, uz promenu samo numeracije A4 strane.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s034": {
+      "source": "Originalni PDF, izvorni 02-s034; pregled oba odobrena dela zajedno kada postoji nastavak.",
+      "notes_path": "beleske/s034.tex",
+      "original_details_in_notes": {
+        "02-s034:e01": "Karnoove karte jedne i dve promenljive; Hemingovo rastojanje"
+      },
+      "original_anchors": [
+        "% element: 02-s034:e01"
+      ],
+      "supplement": "Prirodni i Grejov raspored, preuređivanje i prsten; odobreni indeksi.",
+      "supplement_anchor": "% element: 02-s034:d01",
+      "notes_sha256": "31a1aad87839ae094a6743c2e84ccd9649b57fdcbd5860c542c49fa2753704ed",
+      "verification": "Sve karte imaju kvadratna polja; manji indeksi 7 pt u donjem desnom uglu. Strelice indeksa polaze iz ind.north, vrednosti iz val.west do v1.north (jedinice), promenljive iz prom.south ka A. Dve kolone razdvajaju karte jedne i dve promenljive; vrednosti i tekst beležaka nepromenjeni. Nastavno pročitan tekst i pregledan odgovarajući A4 prikaz; bez uredničkih komentara i nepotrebnog ponavljanja.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s035": {
+      "source": "Originalni PDF, izvorni 02-s035; pregled oba odobrena dela zajedno kada postoji nastavak.",
+      "notes_path": "beleske/s035.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Binarna provera susedstva kroz promenu C/B i nepromenljivost funkcije pri promeni orijentacije karte.",
+      "supplement_anchor": "% element: 02-s035:d01",
+      "notes_sha256": "263050a0d8806e12c0c54ec93d82ed577f91e9b36ebe2fec9bcac30c71d3a1a9",
+      "verification": "Oba izvorna objašnjenja presavijanja i pravljenja prstena vraćena su na slajd. Indeksi 7 pt u donjim desnim uglovima, raspored vrednosti nepromenjen; beleške razjašnjavaju susedstvo kroz C/B i binarne kombinacije bez nepotrebnog ponavljanja. Nastavno pročitan tekst i pregledan odgovarajući A4 prikaz; bez uredničkih komentara i nepotrebnog ponavljanja.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s036": {
+      "source": "Originalni PDF, izvorni 02-s036; pregled oba odobrena dela zajedno kada postoji nastavak.",
+      "notes_path": "beleske/s036.tex",
+      "original_details_in_notes": {
+        "02-s036:e02": "Susedstvo kao Hemingovo rastojanje 1 i navedeni parovi preko naspramnih ivica"
+      },
+      "original_anchors": [
+        "% element: 02-s036:e02"
+      ],
+      "supplement": "Ugaona grupa 0,2,8,10 i njen stalni literalni proizvod.",
+      "supplement_anchor": "% element: 02-s036:d01",
+      "notes_sha256": "7a35d6ab946b24fef203e5bbd3d13a9ce2a267dcc1d85cb825dabde840405043",
+      "verification": "Vidljivo objašnjeno da su po definiciji jediničnog Hemingovog rastojanja susedna polja na rastojanju 1, odnosno razlikuju se u tačno jednom bitu; cela karta i oba niza parova ostaju na slajdu. Raspored dve kolone bez smanjivanja fonta. Beleške dodatno objašnjavaju oba zamišljena presavijanja i ugaonu grupu. Nastavno pročitan tekst i pregledan puni A4 prikaz; beleške su dodatni sadržaj za predavača, bez uredničke evidencije.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s037": {
+      "source": "Originalni PDF, izvorni 02-s037; pregled oba odobrena dela zajedno kada postoji nastavak.",
+      "notes_path": "beleske/s037.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Susedstvo i uklanjanje E između dve karte.",
+      "supplement_anchor": "% element: 02-s037:d01",
+      "notes_sha256": "71e21d9949757b113c72e8fe68209eb5d370694af2a0c013ddcbad86ba551991",
+      "verification": "Vraćeno puno izvorno objašnjenje susedstva unutar karata i odgovarajućih polja pri preklapanju u 3D prostoru, sa primerima 0/16 i 1/17; oba sloja i binarne oznake očuvani. Nastavni tekst beležaka nepromenjen. Nastavno pročitan tekst i pregledan puni A4 prikaz; beleške su dodatni sadržaj za predavača, bez uredničke evidencije.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s038": {
+      "source": "Originalni PDF, izvorni 02-s038; pregled oba odobrena dela zajedno kada postoji nastavak.",
+      "notes_path": "beleske/s038.tex",
+      "original_details_in_notes": {
+        "02-s038:e02": "Susedstvo između odgovarajućih karata"
+      },
+      "original_anchors": [
+        "% element: 02-s038:e02"
+      ],
+      "supplement": "Susedni i nesusedni FE slojevi i promene indeksa 16 i 32.",
+      "supplement_anchor": "% element: 02-s038:d01",
+      "notes_sha256": "46f99241ac4d44f2c2b159d01518eaa743074bf5c587b75f551655bde0245525",
+      "verification": "Sva polja kvadratna 5.6 mm, indeksi 7 pt u donjim desnim uglovima. Četiri sloja FE u jednom redu, ispod njih vidljivo izvorno objašnjenje preklapanja u 4D prostoru i svi primeri susedstva. Grayev raspored i pomaci 0/16/32/48 nepromenjeni; dodatni nastavni tekst beležaka isti. Nastavno pročitan tekst i pregledan odgovarajući A4 prikaz; bez uredničkih komentara i nepotrebnog ponavljanja.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s039": {
+      "source": "Originalni PDF strana 20, gornji slajd; postojeći prikaz istog ID-ja.",
+      "notes_path": "beleske/s039.tex",
+      "original_details_in_notes": {
+        "2": "Hiperkocke uz ostale navedene pravilne oblike."
+      },
+      "original_anchors": [
+        "% element: 02-s039:e02"
+      ],
+      "supplement": "Veza reda grupe sa brojem literala; hiperkocke i nepravilne grupe.",
+      "supplement_anchor": "% element: 02-s039:d01",
+      "notes_sha256": "2c9b13a80930ac3dedeee79f7ad0f878a8430c31345b1a876b7f7de7beb89673",
+      "verification": "Pročitani originalni slajd i LaTeX izvori; upoređena pokrivenost vidljivog sadržaja i prenetih detalja; provereni međukoraci i formule. Pregledana puna A4 strana sa odgovarajućim ID-jem i naslovom: čitljivo, bez preklapanja ili odsecanja, bez uredničke evidencije. U 2026-10-03 potvrđena jednakost izvora i tela A4 prikaza sa prethodnom isporukom, uz promenu samo numeracije A4 strane.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s040": {
+      "source": "Originalni PDF strana 20, donji slajd; postojeći prikaz istog ID-ja.",
+      "notes_path": "beleske/s040.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Ispravno zaglavlje C=1 i članovi grupa 0,4 i 0,1,4,5.",
+      "supplement_anchor": "% element: 02-s040:d01",
+      "notes_sha256": "211fe311285223ba5971b0cacfddc8bcb51a7611d478b5b6d2d8910b730a1cbb",
+      "verification": "Otvorene konture prvog/poslednjeg reda označavaju povezanu grupu 0/4 i grupu 0/1/4/5 preko naspramnih ivica. Sve dodate strelice uklonjene po poslednjem nalogu; gornje desne karte približene znaku jednakosti. Vrednosti i nastavni tekst beležaka ostaju neizmenjeni. Nastavno pročitan tekst i pregledan puni A4 prikaz; beleške su dodatni sadržaj za predavača, bez uredničke evidencije.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s041": {
+      "source": "Originalni PDF strana 21, gornji slajd; postojeći prikaz istog ID-ja.",
+      "notes_path": "beleske/s041.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Veza broja/reda površina sa članovima/literalima, preklapanje grupa i ograničenja kriterijuma.",
+      "supplement_anchor": "% element: 02-s041:d01",
+      "notes_sha256": "da428d7791f611724a200a8980b82e2c7ce2f6977fd754e1b086026cd58f68a2",
+      "verification": "Vraćen izvorni tok: unos funkcije iz tabele/specifikacije, dva numerisana koraka za zbir proizvoda i proizvod zbirova, crveni kriterijum najmanjeg broja površina što višeg reda, uslov i garancija minimalnosti I/ILI realizacije i eksplicitna pretpostavka pravih i komplementnih signala. Beleške zadržavaju dodatna nastavna tumačenja bez prepisivanja sada vidljivog uslova. Nastavno pročitan tekst i pregledan puni A4 prikaz; beleške su dodatni sadržaj za predavača, bez uredničke evidencije.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s042": {
+      "source": "Originalni PDF strana 21, donji slajd; postojeći prikaz istog ID-ja.",
+      "notes_path": "beleske/s042.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Razlika neodređenog izlaza i ulaza; SOP/POS sažimanje na konkretnom primeru.",
+      "supplement_anchor": "% element: 02-s042:d01",
+      "notes_sha256": "929c5aedff1b7b14a40ff8d9dd60407cc5f957d410bd819145548d0c73f2743f",
+      "verification": "Vraćeno potpuno objašnjenje proizvoljne vrednosti b/X i izbora jedinice ili nule za oba oblika, uključujući obrnuti izbor, sažimanje proizvoda površinama, stalne literale/komplemente i izostavljanje promenljivih koje se menjaju. Sačuvani izvorni naglasci. Tekst beležaka nepromenjen, konkretni algebarski primeri su dodatno objašnjenje. Nastavno pročitan tekst i pregledan puni A4 prikaz; beleške su dodatni sadržaj za predavača, bez uredničke evidencije.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s043": {
+      "source": "Originalni PDF strana 22, gornji slajd; postojeći prikaz istog ID-ja.",
+      "notes_path": "beleske/s043.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Tačna polja obe grupe, upotreba b i svi stalni i promenljivi literali.",
+      "supplement_anchor": "% element: 02-s043:d01",
+      "notes_sha256": "3ad287c58cad27e467d44a2ba1d068688933eb11d29cb2253b3f349df3d584af",
+      "verification": "Vraćen uvod o formiranju karte prema zahtevima, potpuno pravilo pokrivanja svih jedinica površinama najvišeg reda uz b, sažimanje proizvoda i izvorni naglasak nepromenljivih literala. Dve karte u neizmenjenoj veličini uz tekst u trećoj koloni; formula neizmenjena. Nastavno pročitan tekst i pregledan puni A4 prikaz; beleške su dodatni sadržaj za predavača, bez uredničke evidencije.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s044": {
+      "source": "Originalni PDF strana 22, donji slajd; postojeći prikaz istog ID-ja.",
+      "notes_path": "beleske/s044.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Izvođenje sva tri POS činioca i tačno pokrivanje nula.",
+      "supplement_anchor": "% element: 02-s044:d01",
+      "notes_sha256": "04b3916f6372f32da9e9af3cfc56e2400393398a48c732b6daf6948d09d11074",
+      "verification": "Potpunije izvorno pravilo pokrivanja svih nula površinama najvišeg reda uz b; dodat vidljiv smisao sažimanja i istaknuti komplementi nepromenljivih literala. Karta i formula neizmenjene. Nastavno pročitan tekst i pregledan puni A4 prikaz; beleške su dodatni sadržaj za predavača, bez uredničke evidencije.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s045": {
+      "source": "Originalni PDF strana 23, gornji slajd; postojeći prikaz istog ID-ja.",
+      "notes_path": "beleske/s045.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Obim brojanja ulaza i razlika spoljašnjih ulaza i ulaza kapija.",
+      "supplement_anchor": "% element: 02-s045:d01",
+      "notes_sha256": "3972cd000c51f3d5a28bb27783a15bab71631bcc9d164096fc309a049ae89bd6",
+      "verification": "Razdvojeni zaključak 7 naspram 9 ulaza i uokvireno opšte pravilo: unapred nije poznat povoljniji oblik, treba izvesti oba minimalna izraza pa ih porediti prema kriterijumu. Ključne tvrdnje tamnocrveno podebljane; oba izraza i brojevi kola/ulaza neizmenjeni. Nastavno pročitan tekst i pregledan puni A4 prikaz; beleške su dodatni sadržaj za predavača, bez uredničke evidencije.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s046": {
+      "source": "Originalni PDF strana 23, donji slajd; postojeći prikaz istog ID-ja.",
+      "notes_path": "beleske/s046.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Preostala slobodna kola u kućištima; različite vrste kola ne mogu se proizvoljno objediniti u jedan standardni čip, pa broj ulaza i kućišta nisu isti kriterijum",
+      "supplement_anchor": "% element: 02-s046:d01",
+      "notes_sha256": "5334f864c675638387ebc4478897ea55955328689ac4dc44713b2d7faa0acb95",
+      "verification": "Vraćen uvod o kriterijumu broja čipova, četiri potrebna komplementa, šest invertora u 14-pinskom kućištu i četiri dvoulazna ILI sa oba računa, broj upotrebljenih kola i čipova u oba oblika i zaključak 4 naspram 3. Beleške zadržavaju slobodna kola i dodatno tumačenje različitih tipova kućišta bez prepisivanja sada vidljivih računa. Nastavno pročitan tekst i pregledan puni A4 prikaz; beleške su dodatni sadržaj za predavača, bez uredničke evidencije.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s047": {
+      "source": "Originalni PDF strana 24, gornji slajd.",
+      "notes_path": "beleske/s047.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Uloge tri I kola, kritična putanja i asocijativnost naspram vremena odziva",
+      "supplement_anchor": "% element: 02-s047:d01",
+      "notes_sha256": "257baf4bf4e2c17a3379b50730414a987d2bef16452e0a4756694842c8d9ce01",
+      "verification": "Potpuniji izvorni uvod o preraspodeli proizvoda na račun kašnjenja, ista F sa grupisanjem, sva tri dvoulazna I u jednom čipu, druga dva kućišta i ukupno tri čipa. Uokviren odnos broja kućišta i povećanog kašnjenja. Beleške zadržavaju uloge kola, slobodno četvrto I i razliku stabilne funkcije i vremena odziva. Pročitano kao dodatni nastavni tekst uz slajd i pregledan njegov A4 prikaz. Računi provereni; bez nepotrebnog prepisivanja slajda ili uredničkog sadržaja.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s048": {
+      "source": "Originalni PDF strana 24, donji slajd; oba odobrena dela pregledana zajedno.",
+      "notes_path": "beleske/s048.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "De Morganovo pravilo i međusignali dva proizvoda/završnog NI; ekvivalentnost nije dokaz minimalnosti",
+      "supplement_anchor": "% element: 02-s048:d01",
+      "notes_sha256": "8b5e6b3c19e7f3e55d323cfe8e159ca3b406b75eabf2a7aa321fae2dec669312",
+      "verification": "Prvi odobreni deo originala: uvod NI/NILI, izbor zbira proizvoda za NI, sva tri koraka F, tri različite vrste čipova sa tačnim minimalnim brojem kola i izvorno ograničenje dokaza minimalnosti. Beleške dodatno tumače De Morganove međusignale i kriterijume. Pročitano kao dodatni nastavni tekst uz slajd i pregledan njegov A4 prikaz. Računi provereni; bez nepotrebnog prepisivanja slajda ili uredničkog sadržaja.",
+      "status": "provereno",
+      "approval_split_source": "02-s048",
+      "editorial_content_visible": false
+    },
+    "02-s048b": {
+      "source": "Originalni PDF strana 24, donji slajd; oba odobrena dela pregledana zajedno.",
+      "notes_path": "beleske/s048b.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Međusignali zamene, raspodela četiri NI kola, slobodna kola i kritična putanja; stvarna cena kućišta i popust",
+      "supplement_anchor": "% element: 02-s048b:d01",
+      "notes_sha256": "98e2aab63a1611f19a5aebc1742fe0e883e7377ceb77bdd05198070d482a63c5",
+      "verification": "Drugi odobreni deo: puna zamena troulaznog NI uz dodatno kašnjenje, dva dvoulazna NI i invertor, račun 4+3+2=9 i tri četvorostruka NI čipa. Alternativa šest invertora sa četiri ulazne i jednom međuinverzijom, četiri NI u jednom čipu, ukupno dva različita čipa; popust na količinu i pitanje 1+1 naspram 3 bez opšteg odgovora. Beleške zadržavaju potpune međukorake i broj slobodnih kola. Pročitano kao dodatni nastavni tekst uz slajd i pregledan njegov A4 prikaz. Računi provereni; bez nepotrebnog prepisivanja slajda ili uredničkog sadržaja.",
+      "status": "provereno",
+      "approval_split_source": "02-s048",
+      "editorial_content_visible": false
+    },
+    "02-s049": {
+      "source": "Originalni PDF strana 25, gornji slajd; oba odobrena dela pregledana zajedno.",
+      "notes_path": "beleske/s049.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "De Morganovi međusignali prvog/završnog nivoa i razlika ekvivalentnosti i minimalnosti",
+      "supplement_anchor": "% element: 02-s049:d01",
+      "notes_sha256": "3a5578bef6883a91f7f1ad76946ddb6c083f8a4c2e45fcf3a570a20d5b1a2b89",
+      "verification": "Prvi deo originalnog s049: puna NILI transformacija, tri vrste kućišta sa najmanje četiri invertora, tri dvoulazna i jednim troulaznim NILI; ograničenje dokaza minimalnosti. Beleške tumače sve međusignale De Morganove realizacije. Pročitano kao dodatni nastavni tekst uz slajd i pregledan njegov A4 prikaz. Računi provereni; bez nepotrebnog prepisivanja slajda ili uredničkog sadržaja.",
+      "status": "provereno",
+      "approval_split_source": "02-s049",
+      "editorial_content_visible": false
+    },
+    "02-s049b": {
+      "source": "Originalni PDF strana 25, gornji slajd; oba odobrena dela pregledana zajedno.",
+      "notes_path": "beleske/s049b.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Međusignali zamene i uloga međuinverzije, dva slobodna kola, zahtev jednakog pogona pri poređenju CMOS mreža",
+      "supplement_anchor": "% element: 02-s049b:d01",
+      "notes_sha256": "1fb9fd21a922e9e411a51f95cd29b1ac0a012d332ec8b3c850d2d952a20d5436",
+      "verification": "Drugi deo: sva tri koraka zamene troulaznog NILI i račun 4+3+3=10, tri ista četvorostruka čipa; izvorni zadatak poređenja jednostepene složene CMOS realizacije pri dostupnim komplementnim ulazima. Beleške objašnjavaju međuinverziju, dva slobodna kola i način poređenja. Pročitano kao dodatni nastavni tekst uz slajd i pregledan njegov A4 prikaz. Računi provereni; bez nepotrebnog prepisivanja slajda ili uredničkog sadržaja.",
+      "status": "provereno",
+      "approval_split_source": "02-s049",
+      "editorial_content_visible": false
+    },
+    "02-s050": {
+      "source": "Originalni PDF strana 25, donji slajd.",
+      "notes_path": "beleske/s050.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Fizički uzroci, razlika hazard/glič i zakašnjeni komplement B.",
+      "supplement_anchor": "% element: 02-s050:d01",
+      "notes_sha256": "7203f54edf2277835cf3e6f062497190b2c5cc349b4ead4e0c810ee4ca33e4cb",
+      "verification": "Potpuniji izvorni tekst: fabrikacija, temperatura i starost; početni i očekivani konačni nivo za lažnu nulu i lažnu jedinicu, glič, F i postojeća šema. Beleške dodatno objašnjavaju različite putanje B i njegovog komplementa; bez ponavljanja izvornog uvoda. Pročitano kao dodatni nastavni tekst uz slajd i pregledan njegov A4 prikaz. Računi provereni; bez nepotrebnog prepisivanja slajda ili uredničkog sadržaja.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s051": {
+      "source": "Originalni PDF strana 26, gornji slajd.",
+      "notes_path": "beleske/s051.tex",
+      "original_details_in_notes": {
+        "03": "Vremenski dijagram lažne nule"
+      },
+      "original_anchors": [
+        "% element: 02-s051:e03"
+      ],
+      "supplement": "Tri vremenska intervala i trajanje lažne nule u zadatom modelu.",
+      "supplement_anchor": "% element: 02-s051:d01",
+      "notes_sha256": "316d86006f540c329fd168595e6b38dcfb7e54feacf61bbe56bd486ced1ea1de",
+      "verification": "Vidljive izvorne pretpostavke idealno brzih kola osim invertora tp, početno i konačno stanje, B 1→0, F=1 u oba stabilna stanja i naglašeno ALI/lažna nula. Obe šeme neizmenjene, tp iznad talasnih oblika. Beleške zadržavaju događaje i međusignale u tri vremenska intervala. Pročitano kao dodatni nastavni tekst uz slajd i pregledan njegov A4 prikaz. Računi provereni; bez nepotrebnog prepisivanja slajda ili uredničkog sadržaja.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s052": {
+      "source": "Originalni PDF strana 26, donji slajd; postojeći prikaz istog ID-ja.",
+      "notes_path": "beleske/s052.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Odobrena karta, potpuni četiri minterma i razlikovanje dva primera.",
+      "supplement_anchor": "% element: 02-s052:d01",
+      "notes_sha256": "846949995e117383752f369d38785511bab012c4cceb195953bcc6eb483cf59c",
+      "verification": "Pročitani originalni slajd i LaTeX izvori; upoređena pokrivenost vidljivog sadržaja i prenetih detalja; provereni međukoraci i formule. Pregledana puna A4 strana sa odgovarajućim ID-jem i naslovom: čitljivo, bez preklapanja ili odsecanja, bez uredničke evidencije. U 2026-10-03 potvrđena jednakost izvora i tela A4 prikaza sa prethodnom isporukom, uz promenu samo numeracije A4 strane.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s053": {
+      "source": "Originalni PDF strana 27, gornji slajd.",
+      "notes_path": "beleske/s053.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Susedni prelaz 3 na 1 i algebarski dokaz konsenzusa.",
+      "supplement_anchor": "% element: 02-s053:d01",
+      "notes_sha256": "ea91db542c19bb7ba1585fbfe5d4c2f791bda8c0685d155f979904902d4c8162",
+      "verification": "Potpunije izvorno objašnjenje B=0/B=1 površina, zajedničke strane bez zajedničkih polja, promene jedne promenljive i lažne nule; odstupanje od minimalne forme radi dodatne površine. Obe početne konture isprekidane u obe karte, samo dodatna povezujuća kontura puna. Ranije odobrena F=barC barB+BA+barC A i crveno označen dodatni član očuvani. Beleške zadržavaju dokaz konsenzusa. Pročitano kao dodatni nastavni tekst uz slajd i pregledan njegov A4 prikaz. Računi provereni; bez nepotrebnog prepisivanja slajda ili uredničkog sadržaja.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s054": {
+      "source": "Originalni PDF strana 27, donji slajd.",
+      "notes_path": "beleske/s054.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "POS statički hazard, više ulaza, očuvanje polariteta i iskustvo projektanta.",
+      "supplement_anchor": "% element: 02-s054:d01",
+      "notes_sha256": "9cee4561ab72e54f51fc8a6ec5fe66ce73c7675dc63a4f517453d0111572ec9e",
+      "verification": "Potpuniji izvorni tekst o lažnoj jedinici u proizvodu zbirova i povezivanju površina nula, složenosti istovremenih promena više ulaza, različitim kašnjenjima do I/ILI dela, dodavanju komponenti/invertora ili preuređivanju, odstupanju od minimalnosti, heuristici, simulaciji i iskustvu projektanta. Beleške objašnjavaju mehanizam POS hazarda, međukombinacije i očuvanje polariteta. Pročitano kao dodatni nastavni tekst uz slajd i pregledan njegov A4 prikaz. Računi provereni; bez nepotrebnog prepisivanja slajda ili uredničkog sadržaja.",
+      "status": "provereno",
+      "approval_split_source": null,
+      "editorial_content_visible": false
+    }
+  },
+  "editorial_records": {
+    "02-s009": [
+      {
+        "category": "Jezička ispravka",
+        "record": "U originalu je „promenljive uređenje“; na slajdu i u beleškama upotrebljen je oblik „promenljive uređene“, bez promene stručnog značenja.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s010": [
+      {
+        "category": "Jezička ispravka",
+        "record": "„Funkcionalne table“ je preformulisano kao „funkcionalne tabele“, a „među korak“ kao „međukorak“.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s011": [
+      {
+        "category": "Jezička ispravka",
+        "record": "Ispravljeni su padež u „ulaznog signala“ i zapis „promenljiva“.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s012": [
+      {
+        "category": "Jezička ispravka",
+        "record": "Izvorni izraz „sa tri ulaza i izlaza“ preciziran je kao „sa tri ulaza i jednim izlazom“, u skladu sa opisom i tabelom.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s013": [
+      {
+        "category": "Jezička ispravka",
+        "record": "U izvornom tekstu „promenjiva“ i „funkcionalne table“ zamenjeni su pravilnim oblicima.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s015": [
+      {
+        "category": "Jezička ispravka",
+        "record": "„Ćemo upotrebili“ ispravljeno je u „ćemo upotrebiti“; terminologija i formule nisu menjane.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s016": [
+      {
+        "category": "Jezička ispravka",
+        "record": "Očigledni gramatički oblici „posmatrili“ i „vrednosti jedan“ preformulisani su bez stručne izmene.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s017": [
+      {
+        "category": "Jezička ispravka",
+        "record": "„Konjuktivna“ ispravljeno je u „konjunktivna“; „promenjiva“ u „promenljiva“.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s022": [
+      {
+        "category": "Odobrena stručna ispravka",
+        "record": "Po korisnikovoj odluci uvod na slajdu sada kaže „proizvod zbirova“, a prvi činilac je \\(C+B+A\\), kao u izvornom PDF-u. Pet ILI izlaza ulazi u završno I kolo. Završno kolo je pomereno naniže da pet dovoda budu čitljiviji.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s023": [
+      {
+        "category": "Jezička ispravka",
+        "record": "„Koje su pojavljuju“ zamenjeno je sa „koje se pojavljuju“ u objašnjenju.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s027": [
+      {
+        "category": "Jezička ispravka",
+        "record": "„Ćemo eventualno uštedi“ je ispravljeno u „ćemo eventualno uštedeti“.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s028": [
+      {
+        "category": "Jezička ispravka",
+        "record": "„Dvoluaznih“ je ispravljeno u „dvoulaznih“, a „višulaznih“ u „višeulaznih“.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s029": [
+      {
+        "category": "Korisnikova odluka o izvornom zapisu",
+        "record": "Korisnik je odlučio da slajd ostane kao u originalu. Tvrdnja o „manjem broju logičkih kola“ zato nije menjana; pri predavanju je korisno razdvojiti ukupan broj kola od broja nivoa na kritičnoj putanji. U obe nacrtane realizacije vide se po četiri dvoulazna I kola.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s031": [
+      {
+        "category": "Jezička ispravka",
+        "record": "„Generalna zaključak“ ispravljeno je u „Generalni zaključak“.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s034": [
+      {
+        "category": "Odobrena stručna ispravka",
+        "record": "Korisnik je odobrio zamenu dva indeksa u uspravnoj tablici. Na slajdu je sada gore \\(A=0\\mapsto0\\), a dole \\(A=1\\mapsto1\\). Strelice koje označavaju promenljivu, vrednosti i indekse su precrtane radi čitljivosti.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s035": [
+      {
+        "category": "Jezička ispravka",
+        "record": "„Po srediti“ ispravljeno je u „po sredini“ u premeštenom objašnjenju.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s040": [
+      {
+        "category": "Odobrena stručna ispravka",
+        "record": "Po korisnikovoj odluci promenjena su samo dva zaglavlja nad kartom \\(C=1\\): sada je redosled \\(A=0,1\\). Svi indeksi i grupisanja ostaju isti.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s042": [
+      {
+        "category": "Jezička ispravka",
+        "record": "„Ili kako logička nula“ ispravljeno je u „ili kao logička nula“.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s044": [
+      {
+        "category": "Jezička ispravka",
+        "record": "„Povšini“ ispravljeno je u „površini“.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s045": [
+      {
+        "category": "Jezička ispravka",
+        "record": "„Jedno dvoulazno ILI kola“ ispravljeno je u „jedno dvoulazno ILI kolo“.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s046": [
+      {
+        "category": "Jezička ispravka",
+        "record": "Oblik „tri dvoulazna ILI kolo“ zamenjen je sa „tri dvoulazna ILI kola“.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s048": [
+      {
+        "category": "Jezička ispravka",
+        "record": "„Dvoulazana“ i „generalna odgovor“ ispravljeni su u „dvoulazna“ i „generalni odgovor“.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s049": [
+      {
+        "category": "Jezička ispravka",
+        "record": "Ponavljanje „pa nam za realizaciju treba“, kao i „ukupan broji“ i „primenjivih“, uklonjeno je pri sažimanju.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s052": [
+      {
+        "category": "Odobrena stručna ispravka",
+        "record": "Korisnik je odabrao da se Karnoove karte zadrže, a formula uskladi sa njima. Na ovom slajdu zato stoji \\(F=\\bar C\\bar B+BA\\). Ovaj par slajdova čini drugi primer istog mehanizma hazarda: prethodni slajdovi 50--51 zadržavaju svoju funkciju \\(C\\bar B+BA\\), šemu i vremenski dijagram.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s053": [
+      {
+        "category": "Odobrena stručna ispravka",
+        "record": "Po korisnikovom izboru sačuvane su obe Karnoove karte i njihova grupisanja, a formula je usklađena sa njima: \\(F=\\bar C\\bar B+BA+\\bar C A\\). Primer je odvojen od ranije šeme i vremenskog dijagrama, koji koriste \\(C\\bar B+BA\\).",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ],
+    "02-s054": [
+      {
+        "category": "Jezička ispravka",
+        "record": "„Heuristički ili simulacija“ ispravljeno je u „heuristički ili simulacijom“.",
+        "origin": "Izdvojeno iz ranijih beležaka pre dorade; istorijski zapis, ne nastavni tekst."
+      }
+    ]
+  },
+  "existing_expert_decisions": {
+    "02-s022": "Proizvod zbirova i prvi činilac C+B+A; korisnikova odluka u odluke.md, 2026-10-01.",
+    "02-s023": "Tačke na stvarnim spojevima prema izričitom korisnikovom pravilu o logičkim šemama; PLAN 4.4 ima prednost nad starom preporukom originala.",
+    "02-s029": "Izvorni slajd ostaje; razjašnjenje ukupnog broja kapija naspram nivoa bez priče o odobravanju.",
+    "02-s034": "Odobrena zamena uspravnih indeksa; neposredno nastavno objašnjenje 0→0, 1→1.",
+    "02-s040": "Odobren redosled A=0,1 u karti C=1.",
+    "02-s052,02-s053": "Odobrene formule prema sačuvanim kartama: barC barB+BA i konsenzus barC A; raniji primer C barB+BA ostaje zaseban."
+  },
+  "logical_checks": [
+    {
+      "name": "s011,13–18: tačno dve jedinice, SOP i POS",
+      "combinations": 8,
+      "result": "provereno"
+    },
+    {
+      "name": "s012: pokrivenost skraćenih redova",
+      "combinations": 8,
+      "result": "provereno"
+    },
+    {
+      "name": "s024–26: De Morgan SOP i POS",
+      "combinations": 8,
+      "result": "provereno"
+    },
+    {
+      "name": "s025,26,28: invertori spojenim ulazima i stalnim nivoom",
+      "combinations": 2,
+      "result": "provereno"
+    },
+    {
+      "name": "s028,29: petoulazni I lanac i stablo",
+      "combinations": 32,
+      "result": "provereno"
+    },
+    {
+      "name": "s028: petoulazni ILI lanac",
+      "combinations": 32,
+      "result": "provereno"
+    },
+    {
+      "name": "s030: izraz pogrešne troulazne NI kaskade",
+      "combinations": 8,
+      "result": "provereno"
+    },
+    {
+      "name": "s030: izraz pogrešne troulazne NILI kaskade",
+      "combinations": 8,
+      "result": "provereno"
+    },
+    {
+      "name": "s031,48: pravilno troulazno NI",
+      "combinations": 8,
+      "result": "provereno"
+    },
+    {
+      "name": "s031,49: pravilno troulazno NILI",
+      "combinations": 8,
+      "result": "provereno"
+    },
+    {
+      "name": "s031: dvoulazno od troulaznog ponovljenim ulazom",
+      "combinations": 4,
+      "result": "provereno"
+    },
+    {
+      "name": "s032,42: sažimanje SOP",
+      "combinations": 8,
+      "result": "provereno"
+    },
+    {
+      "name": "s036: ugaona grupa",
+      "combinations": 16,
+      "result": "provereno"
+    },
+    {
+      "name": "s042: sažimanje POS",
+      "combinations": 4,
+      "result": "provereno"
+    },
+    {
+      "name": "s043–49: četiri ulaza, SOP, POS i NI/NILI transformacije",
+      "combinations": 16,
+      "result": "provereno"
+    },
+    {
+      "name": "s052: potpuni i sažeti zapis",
+      "combinations": 8,
+      "result": "provereno"
+    },
+    {
+      "name": "s053: konsenzus barC A",
+      "combinations": 8,
+      "result": "provereno"
+    },
+    {
+      "name": "s050: konsenzus CA prethodnog primera",
+      "combinations": 8,
+      "result": "provereno"
+    },
+    {
+      "name": "s003,004: razlika vremenskih granica i širina impulsa kada se oba prelaza prenesu",
+      "cases": 16,
+      "result": "provereno"
+    },
+    {
+      "name": "s034–40: binarni kriterijum susedstva za 1–6 promenljivih",
+      "cases": 321,
+      "result": "provereno"
+    },
+    {
+      "name": "s046–49: račun pinova i kućišta; NI 4+3+2=9 i NILI 4+3+3=10",
+      "result": "provereno"
+    },
+    {
+      "name": "s051,053: izlaz 1/0/1 i konsenzus stalne jedinice pri oba zadana prelaza",
+      "result": "provereno"
+    }
+  ],
+  "split_mapping": "mapa_podela.json",
+  "checks_2026_10_03": {
+    "pulse_width": "T_izl=(t2+t_pLH)-(t1+t_pHL)=T_ul+t_pLH-t_pHL; važi ako se obe promene prenesu.",
+    "indices": "CBA=011: proizvod Cbar B A daje 1, zbir C+Bbar+Abar daje 0; indeks oba člana je 3.",
+    "tables": "011/101/110 daju jedinice u s011/s013; skraćena s012 pokriva svih osam stanja sa ILI funkcijom."
+  },
+  "checks_s015_s022": {
+    "ports": "Originalna lista priključaka gejtova ostaje ista uz mapiranje 6.5→7.9, 5.9→7.1, 5.3→6.0, 4.7→5.2, 4.1→4.1, 3.5→3.3.",
+    "s015": "Nule na 000,001,010,100,111; jedinice na 011,101,110; svih pet negiranih proizvoda i krajnji POS imaju iste vrednosti.",
+    "s018": "Potpuni proizvod C·barB·A i potpuni zbir barC+B+barA izdvajaju CBA=101 jedinicom, odnosno nulom; indeks 5.",
+    "s020": "Lokalni vodovi: barC=9.3/C=8.1, barB=6.7/B=5.5, barA=4.1/A=2.9; y=3.2 mm. Devet priključaka zadržava iste literale Cbar·B·A, C·Bbar·A, C·B·Abar; oba polariteta odvojena od simbola.",
+    "s022": "Lokalni vodovi: C=9.3/barC=8.1, B=6.7/barB=5.5, A=4.1/barA=2.9; y=3.1 mm. ILI nivo na 1.3, završno I kolo na −3.2; svih 15 ulaza bira iste literale pet originalnih zbirova. Zajedničke podrazumevane koordinate ostaju iste."
+  }
+}

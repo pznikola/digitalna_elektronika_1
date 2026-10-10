@@ -1,14 +1,31 @@
 \slajdid{07-s029}
+% element: 07-s029:e01
+% element: 07-s029:e02
+% element: 07-s029:e03
+% element: 07-s029:e04
 \begin{frame}[label=07-s029]
-\gusttekst\centering\input{slike/tikz/s029_sr_latch.tex}\par\vspace{2mm}
-\begin{columns}[T,onlytextwidth]\column{.37\textwidth}\lstinputlisting{kodovi/s029_latch.vhd}
-\column{.61\textwidth}\centering s='0’, r='0', q='1', nq='0'\par
-\textcolor{DEplava}{$\downarrow$}\par
-r= ‘1’ pa r= ‘0’\par\textcolor{DEplava}{$\downarrow$}\par\raggedright
-start : r='0',s='0',q='1',nq='0’\\
-round 1: r='1',s='0',q='1',nq='0', The value '0' is scheduled on q.\\
-round 2: r='1',s='0',q='0',nq='0', The value '1' is scheduled on nq.\\
-round 3: r='1',s='0',q='0',nq='1', No new events are scheduled.\\
-round 4: r='0',s='0',q='0',nq='1', No new events are scheduled.
+\begin{columns}[c,onlytextwidth]
+\column{.42\textwidth}\centering\input{slike/tikz/s029_sr_latch.tex}
+\column{.55\textwidth}\centering
+$s=0,\ r=0,\ q=1,\ nq=0$\par\vspace{2mm}
+\textcolor{DEcrvena}{$\downarrow$}\par
+$r=1$ pa $r=0$\par
+\textcolor{DEcrvena}{$\downarrow$}
+\end{columns}
+\par\vspace{3mm}
+\begin{columns}[T,onlytextwidth]
+\column{.40\textwidth}\lstinputlisting[basicstyle=\ttfamily\fontsize{10}{12}\selectfont]{kodovi/s029_latch.vhd}
+\column{.57\textwidth}\fontsize{10}{13}\selectfont\centering
+\begin{tabular}{@{}lcccc@{}}\toprule
+ & $r$ & $s$ & $q$ & $nq$\\\midrule
+start & 0&0&1&0\\
+round 1 &1&0&1&0\\
+round 2 &1&0&0&0\\
+round 3 &1&0&0&1\\
+round 4 &0&0&0&1\\\bottomrule
+\end{tabular}\par\vspace{2mm}\raggedright
+round 1: zakazuje se $q=0$.\\
+round 2: zakazuje se $nq=1$.\\
+round 3 i 4: nema novih događaja.
 \end{columns}
 \end{frame}

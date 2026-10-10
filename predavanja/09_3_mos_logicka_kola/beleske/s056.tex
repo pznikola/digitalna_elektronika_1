@@ -1,0 +1,8 @@
+\BeleskeID{09_3-s056}
+% element: 09_3-s056:e05
+% slide-id: 09_3-s056
+Na izlaz prolazne logike obično se dodaje standardno CMOS kolo, odnosno invertor, da sniženi naponski nivoi ne bi nastavili da se prenose. Tako se mogu dobiti i NI ili NILI funkcije.
+
+Dodatni tranzistor $R$ služi restauraciji visokog nivoa unutrašnjeg čvora. Kada prolazna mreža daje jedinicu, izlaz invertora je nula. Ta nula uključi P tranzistor $R$, koji dopuni parazitne kapacitivnosti do punog $V_{DD}$.
+
+Pri prelasku izlaza invertora sa nule na jedinicu prolazna mreža mora povući njegov ulaz dovoljno nisko da N tranzistor prestane da provodi. Tranzistor $R$ se zato dimenzioniše tako da ne spreči to povlačenje. Situacija je analogna određivanju niskog izlaznog nivoa pseudo-NMOS invertora; važe isti odnosi strujnih sposobnosti.

@@ -1,0 +1,9 @@
+\BeleskeID{07-s010}
+% element: 07-s010:d01
+% element: 07-s010:e03
+U prvom primeru naziv modula je \texttt{and1}. Naslov primera glasi „and1 gate — Instantiated by nand1 — Simple hierarchy example“: modul se može instancirati u hijerarhijski višem modulu. Nazivi pinova moraju odgovarati pinovima šematskog simbola ili imenima interfejsa u višem ABEL-HDL modulu. Četiri test vektora obuhvataju sve kombinacije dva ulaza, pa direktno proveravaju I funkciju.
+
+% element: 07-s010:e05
+Deklaracija pinova u ABEL primeru razdvaja ulaze i izlaze („Input and output pins“), a definicije skupova („Set definitions“) grupišu bitove izlaznih kodova A i B.
+
+Drugi primer nosi naslov „Dual Priority Encoder“. Prioritet raste prema manjem indeksu: ako su aktivni \(R_0\) i \(R_7\), izlaz \(A\) koduje 0, a \(B\) koduje 7. Lanac \texttt{ELSE WHEN} prekida izbor na prvom ispunjenom uslovu. Uslov \texttt{A!=i} sprečava da drugi izlaz ponovo izabere isti zahtev. Zastavice \texttt{AVALID} i \texttt{BVALID} govore da li odgovarajući kod predstavlja aktivan ulaz. Kada nema dovoljno aktivnih ulaza, izlazni kod bez svoje zastavice ne treba tumačiti kao važeći zahtev.

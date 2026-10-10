@@ -1,9 +1,14 @@
-\begin{tikzpicture}[x=.7cm,y=.75cm,font=\sitneoznake,>=Latex]
-\draw(0,.25)--(0,.75);\draw(-.13,.22)--(-.13,.78);\draw(0,.7)--(.4,.7)--(.4,1.1);\draw(0,.3)--(.4,.3)--(.4,-.35)node[ground]{};
-\draw(-.75,.5)--(-.13,.5);\draw(-1.15,1.15)node[ocirc]{}node[left]{$V_I$}--(-.75,1.15);\node[left]at(-.15,.3){N};\node[right]at(.55,.5){1};
-\draw(0,1.65)--(0,2.15);\draw(-.13,1.62)--(-.13,2.18);\draw(0,2.1)--(.4,2.1)--(.4,2.65);\draw(0,1.7)--(.4,1.7)--(.4,1.1);
-\draw(-.22,1.9)circle(.09);\draw(-.31,1.9)--(-.75,1.9)--(-.75,.5);\node[left]at(-.15,2.25){P};\node[right]at(.55,1.9){2};
-\draw(.15,2.65)--(.65,2.65)node[above left]{$V_{DD}$};\draw(.4,1.15)--(1.1,1.15)node[ocirc]{}node[right]{$V_O$};
-\end{tikzpicture}
+{\RazaviSetup
+\begin{circuitikz}[font=\sitneoznake,line width=.7pt]
+\ctikzset{transistors/scale=.7}
 
-
+\node[rz pmos,nobulk](P)at(0,2.1){};
+\node[rz nmos,nobulk](N)at(0,.6){};
+\draw[wire](P.S)--(0,2.7);\coordinate(V)at(0,2.7);\RazaviSupply{V}{V_{DD}}
+\draw[wire](P.D)--(N.D);\draw[wire](N.S)--(0,0);\coordinate(G)at(0,0);\RazaviGround{G}
+\draw[wire](-1.25,1.35)node[ocirc]{}node[left]{$V_I$}--(-.95,1.35);
+\draw[wire](-.95,1.35)|-(P.G);\draw[wire](-.95,1.35)|-(N.G);
+\node[junction]at(-.95,1.35){};\node[junction]at(0,1.35){};
+\draw[wire](0,1.35)--(.65,1.35)node[ocirc]{}node[right]{$V_O$};
+\node[right]at(.2,2.1){P: 2};\node[right]at(.2,.6){N: 1};
+\end{circuitikz}}

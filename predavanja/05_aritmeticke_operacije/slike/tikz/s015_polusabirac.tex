@@ -6,10 +6,13 @@
 \draw[DEstrelica] (box.south)--++(0,-.4) node[below] {$s$};
 \node[xor gate US,draw,logic gate inputs=nn,minimum width=1cm,minimum height=.8cm] (x) at (2,.1) {};
 \node[and gate US,draw,logic gate inputs=nn,minimum width=1cm,minimum height=.8cm] (c) at (2,-1.2) {};
-\draw[DEvod] (0,.32) node[left] {$a$}--(.5,.32)--(x.input 1);
-\draw[DEvod] (0,-.12) node[left] {$b$}--(.8,-.12)--(x.input 2);
-\draw[DEvod] (.5,.32)|-(c.input 2);\fill (.5,.32) circle (1pt);
-\draw[DEvod] (.8,-.12)|-(c.input 1);\fill (.8,-.12) circle (1pt);
+\draw[DEvod] (x.input 1)--++(-1.25,0) coordinate (ain) node[left] {$a$};
+\draw[DEvod] (x.input 2)--++(-1.25,0) coordinate (bin) node[left] {$b$};
+\coordinate (asplit) at ($(x.input 1)+(-.9,0)$);
+\coordinate (bsplit) at ($(x.input 2)+(-.6,0)$);
+\draw[DEvod] (asplit)|-(c.input 2);
+\draw[DEvod] (bsplit)|-(c.input 1);
+\fill (asplit) circle (1pt);\fill (bsplit) circle (1pt);
 \draw[DEvod] (x.output)--++(.4,0) node[right] {$s$};
 \draw[DEvod] (c.output)--++(.4,0) node[right] {$c_{out}$};
 \end{tikzpicture}

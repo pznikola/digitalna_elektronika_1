@@ -1,11 +1,13 @@
 \slajdid{09_1-s038}
-\begin{frame}[label=09_1-s038]
-\gusttekst\begin{columns}[c,onlytextwidth]\column{.23\textwidth}\centering\input{slike/tikz/s038_invertor_sa_aktivnim_opterecenjem.tex}\column{.75\textwidth}
-1. slučaj kada tranzistor $T_L$ radi uvek u omskoj oblasti.\par\bigskip
-Za očekivati je da ćemo dobiti slične rezultate kao i za pasivno opterećenje na izlazu.
-\end{columns}\medskip
-Za ulazni napon $V_I<V_{Tn,D}$ tranzistor $T_D$ (D – drive) je zakočen. Kolo je neoptrećeno $I_{Dn,D}=0=I_{Dn,L}$. Kako tranzistor $T_L$ radi u omskoj oblasti
+\begin{frame}[label=09_1-s038]{Aktivno omsko opterećenje: logička jedinica}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{3pt}\setlength{\belowdisplayshortskip}{3pt}
+% element: 09_1-s038:e01
+% element: 09_1-s038:e02
+% element: 09_1-s038:e03
+% element: 09_1-s038:e04
+\begin{columns}[T,onlytextwidth]\column{.26\textwidth}\centering \input{slike/tikz/s038_invertor_sa_aktivnim_opterecenjem.tex}\column{.70\textwidth}\textbf{Prvi slučaj: $T_L$ u omskoj oblasti}
+\par Očekujemo rezultate slične pasivnom opterećenju.
+\medskip\par $V_I<V_{Tn,D}$: pogonski tranzistor $T_D$ je zakočen.\par Neopterećeno kolo: $I_{Dn,D}=I_{Dn,L}=0$.
 \[I_{Dn,L}=\frac{k_{n,L}}2\bigl(2V_{DS,L}(V_{GS,L}-V_{Tn,L})-V_{DS,L}^2\bigr)=0\]
-njegova radna tačka će se podesiti tako da je $V_{DS,L}=0$. To je jedina moguća radna tačka nezavisno od napona $V_{GS,L}$. Prema tome
-\[V_O=V_{OH}=V_{DD}-V_{DS,L}=V_{DD}\]
+Radna tačka: $V_{DS,L}=0$.\[V_O=V_{OH}=V_{DD}-V_{DS,L}=V_{DD}\]
+\end{columns}
 \end{frame}

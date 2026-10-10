@@ -1,15 +1,17 @@
 \slajdid{04-s031}
-\begin{frame}[label=04-s031]
-\gusttekst\renewcommand{\arraystretch}{1.0}\setlength{\tabcolsep}{4pt}
+\begin{frame}[label=04-s031]{Prvi komplement}
+% element: 04-s031:e01 — Tabela prvog komplementa sa svih 16 kodova i obe nule
+% element: 04-s031:e02 — Pozitivni D3=0 i prikaz negativnog oduzimanjem od maksimuma
+% element: 04-s031:e03 — Primer −3=1111−0011=1100 i bit znaka
 \begin{columns}[c,onlytextwidth]
-\column{.55\textwidth}\centering\input{tabele/s031_kodovi.tex}
-\column{.42\textwidth}
-Pozitivni brojevi su sa bitom $D_3=0$.
-
-Negativna vrednost se dobija tako što se od maksimalne vrednosti koda, oduzme odgovarajuća pozitivna vrednost.
-\[-3=1111-0011=1100\]
-Bit $D_3$ će biti bit znaka znaka\\
-\hspace*{5mm}= 0 pozitivna vrednost\\
-\hspace*{5mm}= 1 negativna vrednost
+\column{.55\textwidth}\centering
+{\fontsize{9}{10}\selectfont\renewcommand{\arraystretch}{.82}\setlength{\tabcolsep}{4pt}\input{tabele/s031_kodovi.tex}\par}
+\column{.41\textwidth}
+Pozitivni brojevi imaju $D_3=0$.\par\vspace{3mm}
+Od maksimalne vrednosti koda oduzimamo odgovarajuću pozitivnu vrednost.
+\[\alert{-3=1111-0011=1100}\]
+\par\vspace{3mm}\NaslovBloka{Bit znaka — $D_3$}
+$0$ — pozitivna vrednost.\par
+$1$ — negativna vrednost.
 \end{columns}
 \end{frame}

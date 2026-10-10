@@ -1,6 +1,18 @@
-\begin{tikzpicture}[x=.31cm,y=.48cm,font=\sitneoznake,>=Latex]\ctikzset{bipoles/length=.65cm}
-\draw(-1.9,3)--(1.9,3);\node[above]at(0,3){$V_{CC1}$};\draw(-4.8,4.2)--(4.8,4.2);\node[above]at(0,4.2){$V_{CC2}$};
-\draw(-2,-.5)--(-2,.5);\draw(-2,.32)--(-1.3,.7)--(-1.3,1.3)to[R,l=$R_{C1}$](-1.3,3);\draw[->](-2,-.32)--(-1.3,-.7);\draw(-1.3,-.7)--(-1.3,-1.1)--(1.3,-1.1);\draw(-2,0)--(-3.1,0)node[ocirc]{}node[left]{$V_I$};\node[right]at(-1.7,0){T1};
-\draw(2,-.5)--(2,.5);\draw(2,.32)--(1.3,.7)--(1.3,1.3)to[R,l_=$R_{C2}$](1.3,3);\draw[->](2,-.32)--(1.3,-.7);\draw(1.3,-.7)--(1.3,-1.1);\draw(2,0)--(3.1,0)node[ocirc]{}node[below right]{$V_R$};\node[left]at(1.7,0){T2};
-\node[draw,circle,minimum size=7mm,inner sep=0pt](ie)at(0,-2){};\draw[->,shorten >=2pt,shorten <=2pt](ie.north)--(ie.south);\draw(0,-1.1)--(ie.north);\draw(ie.south)--(0,-3);\draw(-.65,-3)--(.65,-3);\node[below]at(0,-3){$V_{EE}$};\node[right]at(.6,-2){$I_E$};\draw(-3.8,.6)--(-3.8,1.6);\draw(-1.3,1.1)--(-3.8,1.1);\draw(-3.8,1.42)--(-4.5,1.8)--(-4.5,4.2);\draw[->](-3.8,.78)--(-4.5,.4);\draw(-4.5,.4)--(-4.5,.1)--(-5.7,.1)node[ocirc]{}node[left]{$V_{O1}$};\node[left]at(-4,1.1){T3};
-\draw(3.8,.6)--(3.8,1.6);\draw(1.3,1.1)--(3.8,1.1);\draw(3.8,1.42)--(4.5,1.8)--(4.5,4.2);\draw[->](3.8,.78)--(4.5,.4);\draw(4.5,.4)--(4.5,.1)--(5.7,.1)node[ocirc]{}node[right]{$V_{O2}$};\node[right]at(4,1.1){T4};\node at(-6,-2.8){$\cdots$};\draw(-2.6,0)--(-2.6,-.8)to[R,l_=$R_{B1}$](-2.6,-2.1)--(-2.6,-3);\draw(-3.2,-3)--(-2,-3);\node[below]at(-2.6,-3){$V_{EE}$};\end{tikzpicture}
+{\RazaviSetup\ctikzset{bipoles/length=.8cm}
+\begin{circuitikz}[labeltext,x=.77cm,y=.70cm,american resistors,>=Latex,line width=.7pt]
+\node[rz npn](q1)at(-.8,0){};\node[rz npn,xscale=-1](q2)at(.8,0){};
+\node[left]at(-.85,-.55){T1};\node[right]at(.85,-.55){T2};
+\draw(q1.E)--(-.8,-.7)--(.8,-.7)--(q2.E);\node[draw,circle,minimum size=5mm,inner sep=0pt](ie)at(0,-1.25){};\draw(0,-.7)--(ie.north);\draw(ie.south)--(0,-2);\draw[->,shorten >=2pt,shorten <=2pt](ie.north)--(ie.south);\node[right]at(.35,-1.25){$I_E$};\fill(0,-.7)circle(1.15pt);
+\draw(-.3,-2)--(.3,-2);\node[below]at(0,-2){$V_{EE}$};
+\draw(q1.B)--(-1.65,0)node[ocirc]{}node[left]{$V_I$};\draw(q2.B)--(1.65,0)node[ocirc]{}node[right]{$V_R$};
+\draw(q1.C)--(-.8,.8)coordinate(o1)--(-.8,1.0)to[R,l=$R_{C1}$](-.8,2.1);
+\draw(q2.C)--(.8,.8)coordinate(o2)--(.8,1.0)to[R,l_=$R_{C2}$](.8,2.1);
+\draw(-1.05,2.1)--(1.05,2.1);\node[above]at(0,2.1){$V_{CC1}$};
+\fill(o1)circle(1.15pt);\fill(o2)circle(1.15pt);
+\node[rz npn,xscale=-1](q3)at(-2.2,.8){};\node[rz npn](q4)at(2.2,.8){};
+\draw(o1)--(q3.B);\draw(o2)--(q4.B);
+\draw(q3.C)--(-2.2,2.65)--(2.2,2.65)--(q4.C);\node[above]at(0,2.65){$V_{CC2}$};
+\node[left]at(-2.48,.82){T3};\node[right]at(2.48,.82){T4};
+\draw(q3.E)--(-2.2,.2)--(-2.85,.2)node[ocirc]{}node[left]{$V_{O1}$};
+\draw(q4.E)--(2.2,.2)--(2.85,.2)node[ocirc]{}node[right]{$V_{O2}$};
+\draw(-1.55,0)to[R,l_=$R_{B1}$](-1.55,-2);\draw(-1.85,-2)--(-1.25,-2);\node[below]at(-1.55,-2){$V_{EE}$};\fill(-1.55,0)circle(1.15pt);\end{circuitikz}}

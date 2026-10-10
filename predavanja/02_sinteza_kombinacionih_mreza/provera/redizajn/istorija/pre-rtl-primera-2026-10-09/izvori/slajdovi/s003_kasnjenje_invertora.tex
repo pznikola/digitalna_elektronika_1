@@ -1,0 +1,41 @@
+% Original: PDF strana 2, gornji slajd.
+\slajdid{02-s003}
+\begin{frame}[label=02-s003]{Kašnjenje invertora pri promeni signala}
+% element: 02-s003:e01
+\begin{columns}[c,onlytextwidth]
+\begin{column}{.72\textwidth}
+Signal je fizička veličina koja nosi informaciju o logičkim nulama i jedinicama.
+\end{column}
+\begin{column}{.24\textwidth}\centering
+\begin{tikzpicture}[DEoznaka]
+\node[not gate US,draw,minimum width=8mm,minimum height=7mm] (g) at (0,0) {};
+\draw[DEvod] (g.input)--++(-.35,0) node[left] {\(x(t)\)};
+\draw[DEvod] (g.output)--++(.35,0) node[right] {\(y(t)\)};
+\end{tikzpicture}
+\end{column}
+\end{columns}
+\par\vspace{2mm}
+% element: 02-s003:e02
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.43\textwidth}\centering
+\Oznaka{Idealizovani odziv}\vspace{3mm}
+\input{slike/tikz/s003_bez_kasnjenja.tex}
+\end{column}
+\begin{column}{.53\textwidth}\centering
+\Oznaka{Odziv sa kašnjenjem}\vspace{3mm}
+\input{slike/tikz/s003_sa_kasnjenjem.tex}
+\end{column}
+\end{columns}
+\par\vspace{2mm}
+% element: 02-s003:e03
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.47\textwidth}
+\(\textcolor{DEcrvena}{t_{pHL}}\): kašnjenje pri prelazu izlaza \(H\to L\).
+\end{column}
+\begin{column}{.49\textwidth}
+\(\textcolor{DEcrvena}{t_{pLH}}\): kašnjenje pri prelazu izlaza \(L\to H\).
+\end{column}
+\end{columns}
+\par\vspace{1mm}
+\Oznaka{\(p\) — propagation; \(H\) — high, \(H=1\); \(L\) — low, \(L=0\).}
+\end{frame}

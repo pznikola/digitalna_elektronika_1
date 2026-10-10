@@ -1,0 +1,3676 @@
+{
+  "slides": {
+    "10-s001": [
+      {
+        "element": "10-s001:e01",
+        "slide": {
+          "path": "slajdovi/s001_logicka_kola_bipolarni_tranzistori.tex",
+          "anchor": "% element: 10-s001:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      }
+    ],
+    "10-s002": [
+      {
+        "element": "10-s002:e01",
+        "slide": {
+          "path": "slajdovi/s002_model_diode.tex",
+          "anchor": "% element: 10-s002:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s002:e02",
+        "slide": {
+          "path": "slajdovi/s002_model_diode.tex",
+          "anchor": "% element: 10-s002:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s002:e03",
+        "slide": {
+          "path": "slajdovi/s002_model_diode.tex",
+          "anchor": "% element: 10-s002:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s002:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s002.tex",
+          "anchor": "% element: 10-s002:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s003": [
+      {
+        "element": "10-s003:e01",
+        "slide": {
+          "path": "slajdovi/s003_zener_i_sotki_dioda.tex",
+          "anchor": "% element: 10-s003:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s003:e02",
+        "slide": {
+          "path": "slajdovi/s003_zener_i_sotki_dioda.tex",
+          "anchor": "% element: 10-s003:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s003:e03",
+        "slide": {
+          "path": "slajdovi/s003_zener_i_sotki_dioda.tex",
+          "anchor": "% element: 10-s003:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s003:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s003.tex",
+          "anchor": "% element: 10-s003:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s004": [
+      {
+        "element": "10-s004:e01",
+        "slide": {
+          "path": "slajdovi/s004_impulsni_rezim_diode.tex",
+          "anchor": "% element: 10-s004:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s004:e02",
+        "slide": {
+          "path": "slajdovi/s004_impulsni_rezim_diode.tex",
+          "anchor": "% element: 10-s004:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s004:e03",
+        "slide": {
+          "path": "slajdovi/s004_impulsni_rezim_diode.tex",
+          "anchor": "% element: 10-s004:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s004:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s004.tex",
+          "anchor": "% element: 10-s004:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s005": [
+      {
+        "element": "10-s005:e01",
+        "slide": {
+          "path": "slajdovi/s005_model_bipolarnog_tranzistora.tex",
+          "anchor": "% element: 10-s005:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s005:e02",
+        "slide": {
+          "path": "slajdovi/s005_model_bipolarnog_tranzistora.tex",
+          "anchor": "% element: 10-s005:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s005:e03",
+        "slide": {
+          "path": "slajdovi/s005_model_bipolarnog_tranzistora.tex",
+          "anchor": "% element: 10-s005:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s005:e04",
+        "slide": {
+          "path": "slajdovi/s005_model_bipolarnog_tranzistora.tex",
+          "anchor": "% element: 10-s005:e04"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s005:e05",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s005.tex",
+          "anchor": "% element: 10-s005:e05"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s006": [
+      {
+        "element": "10-s006:e01",
+        "slide": {
+          "path": "slajdovi/s006_rezimi_bipolarnog_tranzistora.tex",
+          "anchor": "% element: 10-s006:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s006:e02",
+        "slide": {
+          "path": "slajdovi/s006_rezimi_bipolarnog_tranzistora.tex",
+          "anchor": "% element: 10-s006:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s006:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s006.tex",
+          "anchor": "% element: 10-s006:e03"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s007": [
+      {
+        "element": "10-s007:e01",
+        "slide": {
+          "path": "slajdovi/s007_odredjivanje_rezima_rada.tex",
+          "anchor": "% element: 10-s007:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s007:e02",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s007.tex",
+          "anchor": "% element: 10-s007:e02"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s008": [
+      {
+        "element": "10-s008:e01",
+        "slide": {
+          "path": "slajdovi/s008_impulsni_rezim_bipolarnog_tranzistora.tex",
+          "anchor": "% element: 10-s008:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s008:e02",
+        "slide": {
+          "path": "slajdovi/s008_impulsni_rezim_bipolarnog_tranzistora.tex",
+          "anchor": "% element: 10-s008:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s008:e03",
+        "slide": {
+          "path": "slajdovi/s008_impulsni_rezim_bipolarnog_tranzistora.tex",
+          "anchor": "% element: 10-s008:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s008:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s008.tex",
+          "anchor": "% element: 10-s008:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s009": [
+      {
+        "element": "10-s009:e01",
+        "slide": {
+          "path": "slajdovi/s009_ubrzavanje_kompenzovanim_razdelnikom.tex",
+          "anchor": "% element: 10-s009:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s009:e02",
+        "slide": {
+          "path": "slajdovi/s009_ubrzavanje_kompenzovanim_razdelnikom.tex",
+          "anchor": "% element: 10-s009:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s009:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s009.tex",
+          "anchor": "% element: 10-s009:e03"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s010": [
+      {
+        "element": "10-s010:e01",
+        "slide": {
+          "path": "slajdovi/s010_rtl_logicka_kola.tex",
+          "anchor": "% element: 10-s010:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s010:e02",
+        "slide": {
+          "path": "slajdovi/s010_rtl_logicka_kola.tex",
+          "anchor": "% element: 10-s010:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s010:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s010.tex",
+          "anchor": "% element: 10-s010:e03"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s011": [
+      {
+        "element": "10-s011:e01",
+        "slide": {
+          "path": "slajdovi/s011_karakteristika_prenosa_pocetak.tex",
+          "anchor": "% element: 10-s011:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s011:e02",
+        "slide": {
+          "path": "slajdovi/s011_karakteristika_prenosa_pocetak.tex",
+          "anchor": "% element: 10-s011:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s011:e03",
+        "slide": {
+          "path": "slajdovi/s011_karakteristika_prenosa_pocetak.tex",
+          "anchor": "% element: 10-s011:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s011:e04",
+        "slide": {
+          "path": "slajdovi/s011_karakteristika_prenosa_pocetak.tex",
+          "anchor": "% element: 10-s011:e04"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s011:e05",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s011.tex",
+          "anchor": "% element: 10-s011:e05"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s012": [
+      {
+        "element": "10-s012:e01",
+        "slide": {
+          "path": "slajdovi/s012_ivica_provodjenja.tex",
+          "anchor": "% element: 10-s012:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s012:e02",
+        "slide": {
+          "path": "slajdovi/s012_ivica_provodjenja.tex",
+          "anchor": "% element: 10-s012:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s012:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s012.tex",
+          "anchor": "% element: 10-s012:e03"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s013": [
+      {
+        "element": "10-s013:e01",
+        "slide": {
+          "path": "slajdovi/s013_pretpostavka_aktivnog_rezima.tex",
+          "anchor": "% element: 10-s013:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s013:e02",
+        "slide": {
+          "path": "slajdovi/s013_pretpostavka_aktivnog_rezima.tex",
+          "anchor": "% element: 10-s013:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s013:e03",
+        "slide": {
+          "path": "slajdovi/s013_pretpostavka_aktivnog_rezima.tex",
+          "anchor": "% element: 10-s013:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s013:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s013.tex",
+          "anchor": "% element: 10-s013:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s014": [
+      {
+        "element": "10-s014:e01",
+        "slide": {
+          "path": "slajdovi/s014_izvod_aktivne_karakteristike.tex",
+          "anchor": "% element: 10-s014:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s014:e02",
+        "slide": {
+          "path": "slajdovi/s014_izvod_aktivne_karakteristike.tex",
+          "anchor": "% element: 10-s014:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s014:e03",
+        "slide": {
+          "path": "slajdovi/s014_izvod_aktivne_karakteristike.tex",
+          "anchor": "% element: 10-s014:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s014:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s014.tex",
+          "anchor": "% element: 10-s014:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s015": [
+      {
+        "element": "10-s015:e01",
+        "slide": {
+          "path": "slajdovi/s015_diskretni_model_i_prekid.tex",
+          "anchor": "% element: 10-s015:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s015:e02",
+        "slide": {
+          "path": "slajdovi/s015_diskretni_model_i_prekid.tex",
+          "anchor": "% element: 10-s015:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s015:e03",
+        "slide": {
+          "path": "slajdovi/s015_diskretni_model_i_prekid.tex",
+          "anchor": "% element: 10-s015:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s015:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s015.tex",
+          "anchor": "% element: 10-s015:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s016": [
+      {
+        "element": "10-s016:e01",
+        "slide": {
+          "path": "slajdovi/s016_nagib_aktivne_oblasti.tex",
+          "anchor": "% element: 10-s016:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s016:e02",
+        "slide": {
+          "path": "slajdovi/s016_nagib_aktivne_oblasti.tex",
+          "anchor": "% element: 10-s016:e02"
+        },
+        "notes": null,
+        "change": "Sačuvana vidljiva definicija i uslov na istom slajdu",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s016:e03",
+        "slide": {
+          "path": "slajdovi/s016_nagib_aktivne_oblasti.tex",
+          "anchor": "% element: 10-s016:e03"
+        },
+        "notes": null,
+        "change": "Sačuvana vidljiva definicija i uslov na istom slajdu",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s016:e04",
+        "slide": {
+          "path": "slajdovi/s016_nagib_aktivne_oblasti.tex",
+          "anchor": "% element: 10-s016:e04"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s016:e05",
+        "slide": {
+          "path": "slajdovi/s016_nagib_aktivne_oblasti.tex",
+          "anchor": "% element: 10-s016:e05"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s016:e06",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s016.tex",
+          "anchor": "% element: 10-s016:e06"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s017": [
+      {
+        "element": "10-s017:e01",
+        "slide": {
+          "path": "slajdovi/s017_ulazak_u_zasicenje.tex",
+          "anchor": "% element: 10-s017:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s017:e02",
+        "slide": {
+          "path": "slajdovi/s017_ulazak_u_zasicenje.tex",
+          "anchor": "% element: 10-s017:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s017:e03",
+        "slide": {
+          "path": "slajdovi/s017_ulazak_u_zasicenje.tex",
+          "anchor": "% element: 10-s017:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s017:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s017.tex",
+          "anchor": "% element: 10-s017:e04"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s018": [
+      {
+        "element": "10-s018:e01",
+        "slide": {
+          "path": "slajdovi/s018_prag_vm_i_margine.tex",
+          "anchor": "% element: 10-s018:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s018:e02",
+        "slide": {
+          "path": "slajdovi/s018_prag_vm_i_margine.tex",
+          "anchor": "% element: 10-s018:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s018:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s018.tex",
+          "anchor": "% element: 10-s018:e03"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s019": [
+      {
+        "element": "10-s019:e01",
+        "slide": {
+          "path": "slajdovi/s019_drugi_nacin_odredjivanja_vih.tex",
+          "anchor": "% element: 10-s019:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s019:e02",
+        "slide": {
+          "path": "slajdovi/s019_drugi_nacin_odredjivanja_vih.tex",
+          "anchor": "% element: 10-s019:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s019:e03",
+        "slide": {
+          "path": "slajdovi/s019_drugi_nacin_odredjivanja_vih.tex",
+          "anchor": "% element: 10-s019:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s019:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s019.tex",
+          "anchor": "% element: 10-s019:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s020": [
+      {
+        "element": "10-s020:e01",
+        "slide": {
+          "path": "slajdovi/s020_razlika_diskretnih_pragova.tex",
+          "anchor": "% element: 10-s020:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s020:e02",
+        "slide": {
+          "path": "slajdovi/s020_razlika_diskretnih_pragova.tex",
+          "anchor": "% element: 10-s020:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s020:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s020.tex",
+          "anchor": "% element: 10-s020:e03"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s021": [
+      {
+        "element": "10-s021:e01",
+        "slide": {
+          "path": "slajdovi/s021_strujni_kapacitet_ulaza.tex",
+          "anchor": "% element: 10-s021:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s021:e02",
+        "slide": {
+          "path": "slajdovi/s021_strujni_kapacitet_ulaza.tex",
+          "anchor": "% element: 10-s021:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s021:e03",
+        "slide": {
+          "path": "slajdovi/s021_strujni_kapacitet_ulaza.tex",
+          "anchor": "% element: 10-s021:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s021:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s021.tex",
+          "anchor": "% element: 10-s021:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s022": [
+      {
+        "element": "10-s022:e01",
+        "slide": {
+          "path": "slajdovi/s022_kompromis_otpornika_rb.tex",
+          "anchor": "% element: 10-s022:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s022:e02",
+        "slide": {
+          "path": "slajdovi/s022_kompromis_otpornika_rb.tex",
+          "anchor": "% element: 10-s022:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s022:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s022.tex",
+          "anchor": "% element: 10-s022:e03"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s023": [
+      {
+        "element": "10-s023:e01",
+        "slide": {
+          "path": "slajdovi/s023_izlazna_struja_jedinice.tex",
+          "anchor": "% element: 10-s023:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s023:e02",
+        "slide": {
+          "path": "slajdovi/s023_izlazna_struja_jedinice.tex",
+          "anchor": "% element: 10-s023:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s023:e03",
+        "slide": {
+          "path": "slajdovi/s023_izlazna_struja_jedinice.tex",
+          "anchor": "% element: 10-s023:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s023:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s023.tex",
+          "anchor": "% element: 10-s023:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s024": [
+      {
+        "element": "10-s024:e01",
+        "slide": {
+          "path": "slajdovi/s024_maksimum_struje_i_kompromis_rc.tex",
+          "anchor": "% element: 10-s024:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s024:e02",
+        "slide": {
+          "path": "slajdovi/s024_maksimum_struje_i_kompromis_rc.tex",
+          "anchor": "% element: 10-s024:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s024:e03",
+        "slide": {
+          "path": "slajdovi/s024_maksimum_struje_i_kompromis_rc.tex",
+          "anchor": "% element: 10-s024:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s024:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s024.tex",
+          "anchor": "% element: 10-s024:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s025": [
+      {
+        "element": "10-s025:e01",
+        "slide": {
+          "path": "slajdovi/s025_izlazna_struja_nule_izvod.tex",
+          "anchor": "% element: 10-s025:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s025:e02",
+        "slide": {
+          "path": "slajdovi/s025_izlazna_struja_nule_izvod.tex",
+          "anchor": "% element: 10-s025:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s025:e03",
+        "slide": {
+          "path": "slajdovi/s025_izlazna_struja_nule_izvod.tex",
+          "anchor": "% element: 10-s025:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s025:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s025.tex",
+          "anchor": "% element: 10-s025:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s026": [
+      {
+        "element": "10-s026:e01",
+        "slide": {
+          "path": "slajdovi/s026_nulti_kapacitet_na_granici.tex",
+          "anchor": "% element: 10-s026:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s026:e02",
+        "slide": {
+          "path": "slajdovi/s026_nulti_kapacitet_na_granici.tex",
+          "anchor": "% element: 10-s026:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s026:e03",
+        "slide": {
+          "path": "slajdovi/s026_nulti_kapacitet_na_granici.tex",
+          "anchor": "% element: 10-s026:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s026:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s026.tex",
+          "anchor": "% element: 10-s026:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s027": [
+      {
+        "element": "10-s027:e01",
+        "slide": {
+          "path": "slajdovi/s027_faktor_grananja.tex",
+          "anchor": "% element: 10-s027:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s027:e02",
+        "slide": {
+          "path": "slajdovi/s027_faktor_grananja.tex",
+          "anchor": "% element: 10-s027:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s027:e03",
+        "slide": {
+          "path": "slajdovi/s027_faktor_grananja.tex",
+          "anchor": "% element: 10-s027:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s027:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s027.tex",
+          "anchor": "% element: 10-s027:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s027:e05",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s027.tex",
+          "anchor": "% element: 10-s027:e05"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s028": [
+      {
+        "element": "10-s028:e01",
+        "slide": {
+          "path": "slajdovi/s028_povecanje_strujnog_kapaciteta.tex",
+          "anchor": "% element: 10-s028:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s028:e02",
+        "slide": {
+          "path": "slajdovi/s028_povecanje_strujnog_kapaciteta.tex",
+          "anchor": "% element: 10-s028:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s028:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s028.tex",
+          "anchor": "% element: 10-s028:e03"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s029": [
+      {
+        "element": "10-s029:e01",
+        "slide": {
+          "path": "slajdovi/s029_dinamicke_karakteristike_punjenje.tex",
+          "anchor": "% element: 10-s029:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s029:e02",
+        "slide": {
+          "path": "slajdovi/s029_dinamicke_karakteristike_punjenje.tex",
+          "anchor": "% element: 10-s029:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s029:e03",
+        "slide": {
+          "path": "slajdovi/s029_dinamicke_karakteristike_punjenje.tex",
+          "anchor": "% element: 10-s029:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s029:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s029.tex",
+          "anchor": "% element: 10-s029:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s030": [
+      {
+        "element": "10-s030:e01",
+        "slide": {
+          "path": "slajdovi/s030_dinamicke_karakteristike_praznjenje.tex",
+          "anchor": "% element: 10-s030:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s030:e02",
+        "slide": {
+          "path": "slajdovi/s030_dinamicke_karakteristike_praznjenje.tex",
+          "anchor": "% element: 10-s030:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s030:e03",
+        "slide": {
+          "path": "slajdovi/s030_dinamicke_karakteristike_praznjenje.tex",
+          "anchor": "% element: 10-s030:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s030:e04",
+        "slide": {
+          "path": "slajdovi/s030_dinamicke_karakteristike_praznjenje.tex",
+          "anchor": "% element: 10-s030:e04"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s030:e05",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s030.tex",
+          "anchor": "% element: 10-s030:e05"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s031": [
+      {
+        "element": "10-s031:e01",
+        "slide": {
+          "path": "slajdovi/s031_trenutak_ulaska_u_zasicenje.tex",
+          "anchor": "% element: 10-s031:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s031:e02",
+        "slide": {
+          "path": "slajdovi/s031_trenutak_ulaska_u_zasicenje.tex",
+          "anchor": "% element: 10-s031:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s031:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s031.tex",
+          "anchor": "% element: 10-s031:e03"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s032": [
+      {
+        "element": "10-s032:e01",
+        "slide": {
+          "path": "slajdovi/s032_kasnjenje_i_vreme_opadanja.tex",
+          "anchor": "% element: 10-s032:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s032:e02",
+        "slide": {
+          "path": "slajdovi/s032_kasnjenje_i_vreme_opadanja.tex",
+          "anchor": "% element: 10-s032:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s032:e03",
+        "slide": {
+          "path": "slajdovi/s032_kasnjenje_i_vreme_opadanja.tex",
+          "anchor": "% element: 10-s032:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s032:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s032.tex",
+          "anchor": "% element: 10-s032:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s033": [
+      {
+        "element": "10-s033:e01",
+        "slide": {
+          "path": "slajdovi/s033_integrisano_rtl_kolo.tex",
+          "anchor": "% element: 10-s033:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s033:e02",
+        "slide": {
+          "path": "slajdovi/s033_integrisano_rtl_kolo.tex",
+          "anchor": "% element: 10-s033:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s033:e03",
+        "slide": {
+          "path": "slajdovi/s033_integrisano_rtl_kolo.tex",
+          "anchor": "% element: 10-s033:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s033:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s033.tex",
+          "anchor": "% element: 10-s033:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s034": [
+      {
+        "element": "10-s034:e01",
+        "slide": {
+          "path": "slajdovi/s034_viseulazna_rtl_kola.tex",
+          "anchor": "% element: 10-s034:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s034:e02",
+        "slide": {
+          "path": "slajdovi/s034_viseulazna_rtl_kola.tex",
+          "anchor": "% element: 10-s034:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s034:e03",
+        "slide": {
+          "path": "slajdovi/s034_viseulazna_rtl_kola.tex",
+          "anchor": "% element: 10-s034:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s034:e04",
+        "slide": {
+          "path": "slajdovi/s034_viseulazna_rtl_kola.tex",
+          "anchor": "% element: 10-s034:e04"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s034:e05",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s034.tex",
+          "anchor": "% element: 10-s034:e05"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s035": [
+      {
+        "element": "10-s035:e01",
+        "slide": {
+          "path": "slajdovi/s035_logicka_kola_sa_otvorenim_kolektorom.tex",
+          "anchor": "% element: 10-s035:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s035:e02",
+        "slide": {
+          "path": "slajdovi/s035_logicka_kola_sa_otvorenim_kolektorom.tex",
+          "anchor": "% element: 10-s035:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s035:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s035.tex",
+          "anchor": "% element: 10-s035:e03"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s035:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s035.tex",
+          "anchor": "% element: 10-s035:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s036": [
+      {
+        "element": "10-s036:e01",
+        "slide": {
+          "path": "slajdovi/s036_stanje_visoke_impedanse.tex",
+          "anchor": "% element: 10-s036:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s036:e02",
+        "slide": {
+          "path": "slajdovi/s036_stanje_visoke_impedanse.tex",
+          "anchor": "% element: 10-s036:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s036:e03",
+        "slide": {
+          "path": "slajdovi/s036_stanje_visoke_impedanse.tex",
+          "anchor": "% element: 10-s036:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s036:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s036.tex",
+          "anchor": "% element: 10-s036:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s037": [
+      {
+        "element": "10-s037:e01",
+        "slide": {
+          "path": "slajdovi/s037_nacin_crtanja_signala.tex",
+          "anchor": "% element: 10-s037:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s037:e02",
+        "slide": {
+          "path": "slajdovi/s037_nacin_crtanja_signala.tex",
+          "anchor": "% element: 10-s037:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s037:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s037.tex",
+          "anchor": "% element: 10-s037:e03"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s038": [
+      {
+        "element": "10-s038:e01",
+        "slide": {
+          "path": "slajdovi/s038_terminacija_neiskoriscenih_ulaza.tex",
+          "anchor": "% element: 10-s038:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s038:e02",
+        "slide": {
+          "path": "slajdovi/s038_terminacija_neiskoriscenih_ulaza.tex",
+          "anchor": "% element: 10-s038:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s038:e03",
+        "slide": {
+          "path": "slajdovi/s038_terminacija_neiskoriscenih_ulaza.tex",
+          "anchor": "% element: 10-s038:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s038:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s038.tex",
+          "anchor": "% element: 10-s038:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s039": [
+      {
+        "element": "10-s039:e01",
+        "slide": {
+          "path": "slajdovi/s039_diodna_ili_funkcija_niski_ulazi.tex",
+          "anchor": "% element: 10-s039:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s039:e02",
+        "slide": {
+          "path": "slajdovi/s039_diodna_ili_funkcija_niski_ulazi.tex",
+          "anchor": "% element: 10-s039:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s039:e03",
+        "slide": {
+          "path": "slajdovi/s039_diodna_ili_funkcija_niski_ulazi.tex",
+          "anchor": "% element: 10-s039:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s039:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s039.tex",
+          "anchor": "% element: 10-s039:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s040": [
+      {
+        "element": "10-s040:e01",
+        "slide": {
+          "path": "slajdovi/s040_diodna_ili_funkcija_jedan_visok_ulaz.tex",
+          "anchor": "% element: 10-s040:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s040:e02",
+        "slide": {
+          "path": "slajdovi/s040_diodna_ili_funkcija_jedan_visok_ulaz.tex",
+          "anchor": "% element: 10-s040:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s040:e03",
+        "slide": {
+          "path": "slajdovi/s040_diodna_ili_funkcija_jedan_visok_ulaz.tex",
+          "anchor": "% element: 10-s040:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s040:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s040.tex",
+          "anchor": "% element: 10-s040:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s041": [
+      {
+        "element": "10-s041:e01",
+        "slide": {
+          "path": "slajdovi/s041_diodna_ili_funkcija_zakljucak.tex",
+          "anchor": "% element: 10-s041:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s041:e02",
+        "slide": {
+          "path": "slajdovi/s041_diodna_ili_funkcija_zakljucak.tex",
+          "anchor": "% element: 10-s041:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s041:e03",
+        "slide": {
+          "path": "slajdovi/s041_diodna_ili_funkcija_zakljucak.tex",
+          "anchor": "% element: 10-s041:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s041:e04",
+        "slide": {
+          "path": "slajdovi/s041_diodna_ili_funkcija_zakljucak.tex",
+          "anchor": "% element: 10-s041:e04"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s041:e05",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s041.tex",
+          "anchor": "% element: 10-s041:e05"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s041:e06",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s041.tex",
+          "anchor": "% element: 10-s041:e06"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s042": [
+      {
+        "element": "10-s042:e01",
+        "slide": {
+          "path": "slajdovi/s042_diodna_i_funkcija.tex",
+          "anchor": "% element: 10-s042:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s042:e02",
+        "slide": {
+          "path": "slajdovi/s042_diodna_i_funkcija.tex",
+          "anchor": "% element: 10-s042:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s042:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s042.tex",
+          "anchor": "% element: 10-s042:e03"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s043": [
+      {
+        "element": "10-s043:e01",
+        "slide": {
+          "path": "slajdovi/s043_dtl_logicka_kola.tex",
+          "anchor": "% element: 10-s043:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s043:e02",
+        "slide": {
+          "path": "slajdovi/s043_dtl_logicka_kola.tex",
+          "anchor": "% element: 10-s043:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s043:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s043.tex",
+          "anchor": "% element: 10-s043:e03"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s044": [
+      {
+        "element": "10-s044:e01",
+        "slide": {
+          "path": "slajdovi/s044_uklanjanje_negativnog_napajanja.tex",
+          "anchor": "% element: 10-s044:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s044:e02",
+        "slide": {
+          "path": "slajdovi/s044_uklanjanje_negativnog_napajanja.tex",
+          "anchor": "% element: 10-s044:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s044:e03",
+        "slide": {
+          "path": "slajdovi/s044_uklanjanje_negativnog_napajanja.tex",
+          "anchor": "% element: 10-s044:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s044:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s044.tex",
+          "anchor": "% element: 10-s044:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s045": [
+      {
+        "element": "10-s045:e01",
+        "slide": {
+          "path": "slajdovi/s045_analiza_dtl_invertora.tex",
+          "anchor": "% element: 10-s045:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s045:e02",
+        "slide": {
+          "path": "slajdovi/s045_analiza_dtl_invertora.tex",
+          "anchor": "% element: 10-s045:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s045:e03",
+        "slide": {
+          "path": "slajdovi/s045_analiza_dtl_invertora.tex",
+          "anchor": "% element: 10-s045:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s045:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s045.tex",
+          "anchor": "% element: 10-s045:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s046": [
+      {
+        "element": "10-s046:e01",
+        "slide": {
+          "path": "slajdovi/s046_karakteristika_prenosa_dtl_kola.tex",
+          "anchor": "% element: 10-s046:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s046:e02",
+        "slide": {
+          "path": "slajdovi/s046_karakteristika_prenosa_dtl_kola.tex",
+          "anchor": "% element: 10-s046:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s046:e03",
+        "slide": {
+          "path": "slajdovi/s046_karakteristika_prenosa_dtl_kola.tex",
+          "anchor": "% element: 10-s046:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s046:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s046.tex",
+          "anchor": "% element: 10-s046:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s047": [
+      {
+        "element": "10-s047:e01",
+        "slide": {
+          "path": "slajdovi/s047_nagib_i_margine_suma_dtl.tex",
+          "anchor": "% element: 10-s047:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s047:e02",
+        "slide": {
+          "path": "slajdovi/s047_nagib_i_margine_suma_dtl.tex",
+          "anchor": "% element: 10-s047:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s047:e03",
+        "slide": {
+          "path": "slajdovi/s047_nagib_i_margine_suma_dtl.tex",
+          "anchor": "% element: 10-s047:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s047:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s047.tex",
+          "anchor": "% element: 10-s047:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s047:e05",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s047.tex",
+          "anchor": "% element: 10-s047:e05"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s048": [
+      {
+        "element": "10-s048:e01",
+        "slide": {
+          "path": "slajdovi/s048_strujni_kapacitet_dtl_kola.tex",
+          "anchor": "% element: 10-s048:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s048:e02",
+        "slide": {
+          "path": "slajdovi/s048_strujni_kapacitet_dtl_kola.tex",
+          "anchor": "% element: 10-s048:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s048:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s048.tex",
+          "anchor": "% element: 10-s048:e03"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s049": [
+      {
+        "element": "10-s049:e01",
+        "slide": {
+          "path": "slajdovi/s049_dinamicke_karakteristike_dtl_kola.tex",
+          "anchor": "% element: 10-s049:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s049:e02",
+        "slide": {
+          "path": "slajdovi/s049_dinamicke_karakteristike_dtl_kola.tex",
+          "anchor": "% element: 10-s049:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s049:e03",
+        "slide": {
+          "path": "slajdovi/s049_dinamicke_karakteristike_dtl_kola.tex",
+          "anchor": "% element: 10-s049:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s049:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s049.tex",
+          "anchor": "% element: 10-s049:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s050": [
+      {
+        "element": "10-s050:e01",
+        "slide": {
+          "path": "slajdovi/s050_ttl_logicka_kola.tex",
+          "anchor": "% element: 10-s050:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s050:e02",
+        "slide": {
+          "path": "slajdovi/s050_ttl_logicka_kola.tex",
+          "anchor": "% element: 10-s050:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s050:e03",
+        "slide": {
+          "path": "slajdovi/s050_ttl_logicka_kola.tex",
+          "anchor": "% element: 10-s050:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s050:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s050.tex",
+          "anchor": "% element: 10-s050:e04"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s051": [
+      {
+        "element": "10-s051:e01",
+        "slide": {
+          "path": "slajdovi/s051_logicka_ekvivalencija_tranzistora.tex",
+          "anchor": "% element: 10-s051:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s051:e02",
+        "slide": {
+          "path": "slajdovi/s051_logicka_ekvivalencija_tranzistora.tex",
+          "anchor": "% element: 10-s051:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s051:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s051.tex",
+          "anchor": "% element: 10-s051:e03"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s052": [
+      {
+        "element": "10-s052:e01",
+        "slide": {
+          "path": "slajdovi/s052_inverzni_rezim_rada_tranzistora.tex",
+          "anchor": "% element: 10-s052:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s052:e02",
+        "slide": {
+          "path": "slajdovi/s052_inverzni_rezim_rada_tranzistora.tex",
+          "anchor": "% element: 10-s052:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s052:e03",
+        "slide": {
+          "path": "slajdovi/s052_inverzni_rezim_rada_tranzistora.tex",
+          "anchor": "% element: 10-s052:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s052:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s052.tex",
+          "anchor": "% element: 10-s052:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s053": [
+      {
+        "element": "10-s053:e01",
+        "slide": {
+          "path": "slajdovi/s053_viseulazna_ttl_kola.tex",
+          "anchor": "% element: 10-s053:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s053:e02",
+        "slide": {
+          "path": "slajdovi/s053_viseulazna_ttl_kola.tex",
+          "anchor": "% element: 10-s053:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s053:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s053.tex",
+          "anchor": "% element: 10-s053:e03"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s054": [
+      {
+        "element": "10-s054:e01",
+        "slide": {
+          "path": "slajdovi/s054_standardno_ttl_sa_otvorenim_kolektorom.tex",
+          "anchor": "% element: 10-s054:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s054:e02",
+        "slide": {
+          "path": "slajdovi/s054_standardno_ttl_sa_otvorenim_kolektorom.tex",
+          "anchor": "% element: 10-s054:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s054:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s054.tex",
+          "anchor": "% element: 10-s054:e03"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s055": [
+      {
+        "element": "10-s055:e01",
+        "slide": {
+          "path": "slajdovi/s055_standardno_ttl_totem_pole.tex",
+          "anchor": "% element: 10-s055:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s055:e02",
+        "slide": {
+          "path": "slajdovi/s055_standardno_ttl_totem_pole.tex",
+          "anchor": "% element: 10-s055:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s055:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s055.tex",
+          "anchor": "% element: 10-s055:e03"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s056": [
+      {
+        "element": "10-s056:e01",
+        "slide": {
+          "path": "slajdovi/s056_ulazna_zastita_i_totem_pole.tex",
+          "anchor": "% element: 10-s056:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s056:e02",
+        "slide": {
+          "path": "slajdovi/s056_ulazna_zastita_i_totem_pole.tex",
+          "anchor": "% element: 10-s056:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s056:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s056.tex",
+          "anchor": "% element: 10-s056:e03"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s056:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s056.tex",
+          "anchor": "% element: 10-s056:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s057": [
+      {
+        "element": "10-s057:e01",
+        "slide": {
+          "path": "slajdovi/s057_karakteristika_prenosa_ttl.tex",
+          "anchor": "% element: 10-s057:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s057:e02",
+        "slide": {
+          "path": "slajdovi/s057_karakteristika_prenosa_ttl.tex",
+          "anchor": "% element: 10-s057:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s057:e03",
+        "slide": {
+          "path": "slajdovi/s057_karakteristika_prenosa_ttl.tex",
+          "anchor": "% element: 10-s057:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s057:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s057.tex",
+          "anchor": "% element: 10-s057:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s058": [
+      {
+        "element": "10-s058:e01",
+        "slide": {
+          "path": "slajdovi/s058_totem_pol_napon_neopterecenog_izlaza.tex",
+          "anchor": "% element: 10-s058:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s058:e02",
+        "slide": {
+          "path": "slajdovi/s058_totem_pol_napon_neopterecenog_izlaza.tex",
+          "anchor": "% element: 10-s058:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s058:e03",
+        "slide": {
+          "path": "slajdovi/s058_totem_pol_napon_neopterecenog_izlaza.tex",
+          "anchor": "% element: 10-s058:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s058:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s058.tex",
+          "anchor": "% element: 10-s058:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s059": [
+      {
+        "element": "10-s059:e01",
+        "slide": {
+          "path": "slajdovi/s059_ttl_logicki_naponi_i_margine.tex",
+          "anchor": "% element: 10-s059:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s059:e02",
+        "slide": {
+          "path": "slajdovi/s059_ttl_logicki_naponi_i_margine.tex",
+          "anchor": "% element: 10-s059:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s059:e03",
+        "slide": {
+          "path": "slajdovi/s059_ttl_logicki_naponi_i_margine.tex",
+          "anchor": "% element: 10-s059:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s059:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s059.tex",
+          "anchor": "% element: 10-s059:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s060": [
+      {
+        "element": "10-s060:e01",
+        "slide": {
+          "path": "slajdovi/s060_ulazni_strujni_kapacitet_ttl.tex",
+          "anchor": "% element: 10-s060:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s060:e02",
+        "slide": {
+          "path": "slajdovi/s060_ulazni_strujni_kapacitet_ttl.tex",
+          "anchor": "% element: 10-s060:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s060:e03",
+        "slide": {
+          "path": "slajdovi/s060_ulazni_strujni_kapacitet_ttl.tex",
+          "anchor": "% element: 10-s060:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s060:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s060.tex",
+          "anchor": "% element: 10-s060:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s061": [
+      {
+        "element": "10-s061:e01",
+        "slide": {
+          "path": "slajdovi/s061_izlazni_strujni_kapacitet_ttl.tex",
+          "anchor": "% element: 10-s061:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s061:e02",
+        "slide": {
+          "path": "slajdovi/s061_izlazni_strujni_kapacitet_ttl.tex",
+          "anchor": "% element: 10-s061:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s061:e03",
+        "slide": {
+          "path": "slajdovi/s061_izlazni_strujni_kapacitet_ttl.tex",
+          "anchor": "% element: 10-s061:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s061:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s061.tex",
+          "anchor": "% element: 10-s061:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s062": [
+      {
+        "element": "10-s062:e01",
+        "slide": {
+          "path": "slajdovi/s062_uslov_aktivnog_rezima_totem_pola.tex",
+          "anchor": "% element: 10-s062:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s062:e02",
+        "slide": {
+          "path": "slajdovi/s062_uslov_aktivnog_rezima_totem_pola.tex",
+          "anchor": "% element: 10-s062:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s062:e03",
+        "slide": {
+          "path": "slajdovi/s062_uslov_aktivnog_rezima_totem_pola.tex",
+          "anchor": "% element: 10-s062:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s062:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s062.tex",
+          "anchor": "% element: 10-s062:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s063": [
+      {
+        "element": "10-s063:e01",
+        "slide": {
+          "path": "slajdovi/s063_dinamicki_rezim_punjenje_aktivni.tex",
+          "anchor": "% element: 10-s063:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s063:e02",
+        "slide": {
+          "path": "slajdovi/s063_dinamicki_rezim_punjenje_aktivni.tex",
+          "anchor": "% element: 10-s063:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s063:e03",
+        "slide": {
+          "path": "slajdovi/s063_dinamicki_rezim_punjenje_aktivni.tex",
+          "anchor": "% element: 10-s063:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s063:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s063.tex",
+          "anchor": "% element: 10-s063:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s063:e05",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s063.tex",
+          "anchor": "% element: 10-s063:e05"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s064": [
+      {
+        "element": "10-s064:e01",
+        "slide": {
+          "path": "slajdovi/s064_dinamicki_rezim_punjenje_zasicenje.tex",
+          "anchor": "% element: 10-s064:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s064:e02",
+        "slide": {
+          "path": "slajdovi/s064_dinamicki_rezim_punjenje_zasicenje.tex",
+          "anchor": "% element: 10-s064:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s064:e03",
+        "slide": {
+          "path": "slajdovi/s064_dinamicki_rezim_punjenje_zasicenje.tex",
+          "anchor": "% element: 10-s064:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s064:e04",
+        "slide": {
+          "path": "slajdovi/s064_dinamicki_rezim_punjenje_zasicenje.tex",
+          "anchor": "% element: 10-s064:e04"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s064:e05",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s064.tex",
+          "anchor": "% element: 10-s064:e05"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s065": [
+      {
+        "element": "10-s065:e01",
+        "slide": {
+          "path": "slajdovi/s065_trenutak_prelaska_u_aktivni_rezim.tex",
+          "anchor": "% element: 10-s065:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s065:e02",
+        "slide": {
+          "path": "slajdovi/s065_trenutak_prelaska_u_aktivni_rezim.tex",
+          "anchor": "% element: 10-s065:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s065:e03",
+        "slide": {
+          "path": "slajdovi/s065_trenutak_prelaska_u_aktivni_rezim.tex",
+          "anchor": "% element: 10-s065:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s065:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s065.tex",
+          "anchor": "% element: 10-s065:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s065:e05",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s065.tex",
+          "anchor": "% element: 10-s065:e05"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s066": [
+      {
+        "element": "10-s066:e01",
+        "slide": {
+          "path": "slajdovi/s066_dinamicki_rezim_ttl_kola.tex",
+          "anchor": "% element: 10-s066:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s066:e02",
+        "slide": {
+          "path": "slajdovi/s066_dinamicki_rezim_ttl_kola.tex",
+          "anchor": "% element: 10-s066:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s066:e03",
+        "slide": {
+          "path": "slajdovi/s066_dinamicki_rezim_ttl_kola.tex",
+          "anchor": "% element: 10-s066:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s066:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s066.tex",
+          "anchor": "% element: 10-s066:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s067": [
+      {
+        "element": "10-s067:e01",
+        "slide": {
+          "path": "slajdovi/s067_low_power_ttl.tex",
+          "anchor": "% element: 10-s067:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s067:e02",
+        "slide": {
+          "path": "slajdovi/s067_low_power_ttl.tex",
+          "anchor": "% element: 10-s067:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s067:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s067.tex",
+          "anchor": "% element: 10-s067:e03"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s068": [
+      {
+        "element": "10-s068:e01",
+        "slide": {
+          "path": "slajdovi/s068_high_power_ttl.tex",
+          "anchor": "% element: 10-s068:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s068:e02",
+        "slide": {
+          "path": "slajdovi/s068_high_power_ttl.tex",
+          "anchor": "% element: 10-s068:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s068:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s068.tex",
+          "anchor": "% element: 10-s068:e03"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s069": [
+      {
+        "element": "10-s069:e01",
+        "slide": {
+          "path": "slajdovi/s069_schottky_ttl.tex",
+          "anchor": "% element: 10-s069:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s069:e02",
+        "slide": {
+          "path": "slajdovi/s069_schottky_ttl.tex",
+          "anchor": "% element: 10-s069:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s069:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s069.tex",
+          "anchor": "% element: 10-s069:e03"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s070": [
+      {
+        "element": "10-s070:e01",
+        "slide": {
+          "path": "slajdovi/s070_schottky_tranzistor.tex",
+          "anchor": "% element: 10-s070:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s070:e02",
+        "slide": {
+          "path": "slajdovi/s070_schottky_tranzistor.tex",
+          "anchor": "% element: 10-s070:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s070:e03",
+        "slide": {
+          "path": "slajdovi/s070_schottky_tranzistor.tex",
+          "anchor": "% element: 10-s070:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s070:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s070.tex",
+          "anchor": "% element: 10-s070:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s071": [
+      {
+        "element": "10-s071:e01",
+        "slide": {
+          "path": "slajdovi/s071_schottky_ttl_sa_tranzistorom_t6.tex",
+          "anchor": "% element: 10-s071:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s071:e02",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s071.tex",
+          "anchor": "% element: 10-s071:e02"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s072": [
+      {
+        "element": "10-s072:e01",
+        "slide": {
+          "path": "slajdovi/s072_low_power_schottky_ttl.tex",
+          "anchor": "% element: 10-s072:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s072:e02",
+        "slide": {
+          "path": "slajdovi/s072_low_power_schottky_ttl.tex",
+          "anchor": "% element: 10-s072:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s072:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s072.tex",
+          "anchor": "% element: 10-s072:e03"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s073": [
+      {
+        "element": "10-s073:e01",
+        "slide": {
+          "path": "slajdovi/s073_kataloski_dozvoljeni_opsezi.tex",
+          "anchor": "% element: 10-s073:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s073:e02",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s073.tex",
+          "anchor": "% element: 10-s073:e02"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s074": [
+      {
+        "element": "10-s074:e01",
+        "slide": {
+          "path": "slajdovi/s074_kataloske_dc_ac_karakteristike.tex",
+          "anchor": "% element: 10-s074:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s074:e02",
+        "slide": {
+          "path": "slajdovi/s074_kataloske_dc_ac_karakteristike.tex",
+          "anchor": "% element: 10-s074:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s074:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s074.tex",
+          "anchor": "% element: 10-s074:e03"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s074:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s074.tex",
+          "anchor": "% element: 10-s074:e04"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s075": [
+      {
+        "element": "10-s075:e01",
+        "slide": {
+          "path": "slajdovi/s075_pakovanje_i_oznake.tex",
+          "anchor": "% element: 10-s075:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s075:e02",
+        "slide": {
+          "path": "slajdovi/s075_pakovanje_i_oznake.tex",
+          "anchor": "% element: 10-s075:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s075:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s075.tex",
+          "anchor": "% element: 10-s075:e03"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s075:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s075.tex",
+          "anchor": "% element: 10-s075:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s076": [
+      {
+        "element": "10-s076:e01",
+        "slide": {
+          "path": "slajdovi/s076_trostaticka_kola_spajanje_izlaza.tex",
+          "anchor": "% element: 10-s076:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s076:e02",
+        "slide": {
+          "path": "slajdovi/s076_trostaticka_kola_spajanje_izlaza.tex",
+          "anchor": "% element: 10-s076:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s076:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s076.tex",
+          "anchor": "% element: 10-s076:e03"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s077": [
+      {
+        "element": "10-s077:e01",
+        "slide": {
+          "path": "slajdovi/s077_primena_zajednicke_magistrale.tex",
+          "anchor": "% element: 10-s077:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s077:e02",
+        "slide": {
+          "path": "slajdovi/s077_primena_zajednicke_magistrale.tex",
+          "anchor": "% element: 10-s077:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s077:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s077.tex",
+          "anchor": "% element: 10-s077:e03"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s078": [
+      {
+        "element": "10-s078:e01",
+        "slide": {
+          "path": "slajdovi/s078_trostaticki_ttl_izlaz_i_simboli.tex",
+          "anchor": "% element: 10-s078:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s078:e02",
+        "slide": {
+          "path": "slajdovi/s078_trostaticki_ttl_izlaz_i_simboli.tex",
+          "anchor": "% element: 10-s078:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s078:e03",
+        "slide": {
+          "path": "slajdovi/s078_trostaticki_ttl_izlaz_i_simboli.tex",
+          "anchor": "% element: 10-s078:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s078:e04",
+        "slide": {
+          "path": "slajdovi/s078_trostaticki_ttl_izlaz_i_simboli.tex",
+          "anchor": "% element: 10-s078:e04"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s078:e05",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s078.tex",
+          "anchor": "% element: 10-s078:e05"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s079": [
+      {
+        "element": "10-s079:e01",
+        "slide": {
+          "path": "slajdovi/s079_prikaz_z_i_testna_kola.tex",
+          "anchor": "% element: 10-s079:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s079:e02",
+        "slide": {
+          "path": "slajdovi/s079_prikaz_z_i_testna_kola.tex",
+          "anchor": "% element: 10-s079:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s079:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s079.tex",
+          "anchor": "% element: 10-s079:e03"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s080": [
+      {
+        "element": "10-s080:e01",
+        "slide": {
+          "path": "slajdovi/s080_ls126a_sema_i_kasnjenja.tex",
+          "anchor": "% element: 10-s080:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s080:e02",
+        "slide": {
+          "path": "slajdovi/s080_ls126a_sema_i_kasnjenja.tex",
+          "anchor": "% element: 10-s080:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s080:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s080.tex",
+          "anchor": "% element: 10-s080:e03"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s081": [
+      {
+        "element": "10-s081:e01",
+        "slide": {
+          "path": "slajdovi/s081_ecl_uvod.tex",
+          "anchor": "% element: 10-s081:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s081:e02",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s081.tex",
+          "anchor": "% element: 10-s081:e02"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s082": [
+      {
+        "element": "10-s082:e01",
+        "slide": {
+          "path": "slajdovi/s082_ecl_pocetak_karakteristike_prenosa.tex",
+          "anchor": "% element: 10-s082:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s082:e02",
+        "slide": {
+          "path": "slajdovi/s082_ecl_pocetak_karakteristike_prenosa.tex",
+          "anchor": "% element: 10-s082:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s082:e03",
+        "slide": {
+          "path": "slajdovi/s082_ecl_pocetak_karakteristike_prenosa.tex",
+          "anchor": "% element: 10-s082:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s082:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s082.tex",
+          "anchor": "% element: 10-s082:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s083": [
+      {
+        "element": "10-s083:e01",
+        "slide": {
+          "path": "slajdovi/s083_ecl_nizak_ulazni_napon.tex",
+          "anchor": "% element: 10-s083:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s083:e02",
+        "slide": {
+          "path": "slajdovi/s083_ecl_nizak_ulazni_napon.tex",
+          "anchor": "% element: 10-s083:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s083:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s083.tex",
+          "anchor": "% element: 10-s083:e03"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s084": [
+      {
+        "element": "10-s084:e01",
+        "slide": {
+          "path": "slajdovi/s084_ecl_preraspodela_struje.tex",
+          "anchor": "% element: 10-s084:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s084:e02",
+        "slide": {
+          "path": "slajdovi/s084_ecl_preraspodela_struje.tex",
+          "anchor": "% element: 10-s084:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s084:e03",
+        "slide": {
+          "path": "slajdovi/s084_ecl_preraspodela_struje.tex",
+          "anchor": "% element: 10-s084:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s084:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s084.tex",
+          "anchor": "% element: 10-s084:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s085": [
+      {
+        "element": "10-s085:e01",
+        "slide": {
+          "path": "slajdovi/s085_ecl_ulazak_u_zasicenje.tex",
+          "anchor": "% element: 10-s085:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s085:e02",
+        "slide": {
+          "path": "slajdovi/s085_ecl_ulazak_u_zasicenje.tex",
+          "anchor": "% element: 10-s085:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s085:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s085.tex",
+          "anchor": "% element: 10-s085:e03"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s086": [
+      {
+        "element": "10-s086:e01",
+        "slide": {
+          "path": "slajdovi/s086_ecl_logicki_nivoi_i_granice.tex",
+          "anchor": "% element: 10-s086:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s086:e02",
+        "slide": {
+          "path": "slajdovi/s086_ecl_logicki_nivoi_i_granice.tex",
+          "anchor": "% element: 10-s086:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s086:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s086.tex",
+          "anchor": "% element: 10-s086:e03"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s087": [
+      {
+        "element": "10-s087:e01",
+        "slide": {
+          "path": "slajdovi/s087_ecl_referentni_napon.tex",
+          "anchor": "% element: 10-s087:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s087:e02",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s087.tex",
+          "anchor": "% element: 10-s087:e02"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s088": [
+      {
+        "element": "10-s088:e01",
+        "slide": {
+          "path": "slajdovi/s088_ecl_uslov_aktivnog_rezima.tex",
+          "anchor": "% element: 10-s088:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s088:e02",
+        "slide": {
+          "path": "slajdovi/s088_ecl_uslov_aktivnog_rezima.tex",
+          "anchor": "% element: 10-s088:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s088:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s088.tex",
+          "anchor": "% element: 10-s088:e03"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s089": [
+      {
+        "element": "10-s089:e01",
+        "slide": {
+          "path": "slajdovi/s089_ecl_povecanje_strujnog_kapaciteta.tex",
+          "anchor": "% element: 10-s089:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s089:e02",
+        "slide": {
+          "path": "slajdovi/s089_ecl_povecanje_strujnog_kapaciteta.tex",
+          "anchor": "% element: 10-s089:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s089:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s089.tex",
+          "anchor": "% element: 10-s089:e03"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s090": [
+      {
+        "element": "10-s090:e01",
+        "slide": {
+          "path": "slajdovi/s090_ecl_uticaj_smetnji_napajanja.tex",
+          "anchor": "% element: 10-s090:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s090:e02",
+        "slide": {
+          "path": "slajdovi/s090_ecl_uticaj_smetnji_napajanja.tex",
+          "anchor": "% element: 10-s090:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s090:e03",
+        "slide": {
+          "path": "slajdovi/s090_ecl_uticaj_smetnji_napajanja.tex",
+          "anchor": "% element: 10-s090:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s090:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s090.tex",
+          "anchor": "% element: 10-s090:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s091": [
+      {
+        "element": "10-s091:e01",
+        "slide": {
+          "path": "slajdovi/s091_ecl_strujni_kapaciteti.tex",
+          "anchor": "% element: 10-s091:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s091:e02",
+        "slide": {
+          "path": "slajdovi/s091_ecl_strujni_kapaciteti.tex",
+          "anchor": "% element: 10-s091:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s091:e03",
+        "slide": {
+          "path": "slajdovi/s091_ecl_strujni_kapaciteti.tex",
+          "anchor": "% element: 10-s091:e03"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s091:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s091.tex",
+          "anchor": "% element: 10-s091:e04"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s092": [
+      {
+        "element": "10-s092:e01",
+        "slide": {
+          "path": "slajdovi/s092_ecl_dinamicki_rezim.tex",
+          "anchor": "% element: 10-s092:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s092:e02",
+        "slide": {
+          "path": "slajdovi/s092_ecl_dinamicki_rezim.tex",
+          "anchor": "% element: 10-s092:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s092:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s092.tex",
+          "anchor": "% element: 10-s092:e03"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s093": [
+      {
+        "element": "10-s093:e01",
+        "slide": {
+          "path": "slajdovi/s093_standardno_dvoulazno_ecl_kolo.tex",
+          "anchor": "% element: 10-s093:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s093:e02",
+        "slide": {
+          "path": "slajdovi/s093_standardno_dvoulazno_ecl_kolo.tex",
+          "anchor": "% element: 10-s093:e02"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s093:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s093.tex",
+          "anchor": "% element: 10-s093:e03"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s094": [
+      {
+        "element": "10-s094:e01",
+        "slide": {
+          "path": "slajdovi/s094_pecl_dc_karakteristike.tex",
+          "anchor": "% element: 10-s094:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s094:e02",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s094.tex",
+          "anchor": "% element: 10-s094:e02"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s095": [
+      {
+        "element": "10-s095:e01",
+        "slide": {
+          "path": "slajdovi/s095_necl_dc_karakteristike.tex",
+          "anchor": "% element: 10-s095:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s095:e02",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s095.tex",
+          "anchor": "% element: 10-s095:e02"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ],
+    "10-s096": [
+      {
+        "element": "10-s096:e01",
+        "slide": {
+          "path": "slajdovi/s096_ecl_ac_karakteristike.tex",
+          "anchor": "% element: 10-s096:e01"
+        },
+        "notes": null,
+        "change": "Sačuvano vidljivo; uređeni raspored i vektorski prikaz",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s096:e02",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s096.tex",
+          "anchor": "% element: 10-s096:e02"
+        },
+        "change": "Potpuno izvorno objašnjenje u beleškama istog ID-ja",
+        "status": "provereno"
+      },
+      {
+        "element": "10-s096:e03",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s096.tex",
+          "anchor": "% element: 10-s096:e03"
+        },
+        "change": "Proverena nastavna dopuna u beleškama istog ID-ja",
+        "status": "provereno"
+      }
+    ]
+  }
+}

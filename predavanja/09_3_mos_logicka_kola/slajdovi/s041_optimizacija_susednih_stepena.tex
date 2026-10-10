@@ -1,12 +1,17 @@
 \slajdid{09_3-s041}
-\begin{frame}[label=09_3-s041]
-\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}Deo kašnjenja kroz prva dva kola je
-\[t_{p,i(i+1)}=\tau_{NAND}\left(\frac{C_{g,i+1}}{C_{g,i}}+\gamma_{NAND}\right)+\tau_{inv}\left(\frac{C_{g,i+2}}{C_{g,i+1}}+\gamma_{inv}\right)\]
-Ako želimo da minimizujemo taj deo kašnjenja izvorom kapacitivnosti $C_{g,i+1}$
-\[\frac{\partial t_{p,i(i+1)}}{\partial C_{g,i+1}}=\tau_{NAND}\left(\frac1{C_{g,i}}\right)-\tau_{inv}\left(\frac{C_{g,i+2}}{(C_{g,i+1})^2}\right)=0\]
-\[\tau_{NAND}\left(\frac{C_{g,i+1}}{C_{g,i}}\right)=\tau_{inv}\left(\frac{C_{g,i+2}}{C_{g,i+1}}\right)\]
-\[\tau_{NAND}FO_i=\tau_{inv}FO_{i+1}\]
-gde je $FO_i=\frac{C_{g,i+1}}{C_{g,i}}$ i $FO_{i+1}=\frac{C_{g,i+2}}{C_{g,i+1}}$. FO – fan out.
-\par\bigskip
-\alert{I kao što smo ranije rekli kod CMOS logičkih kola neće mogućnosti povezivanja više ulaza na jedan izlaz odrediti statičke karakteristike nego odnosi ovih kapacitivnosti kako bi se dobilo što manje kašnjenje.}
+\begin{frame}[label=09_3-s041]{Optimizacija dva susedna kola}
+% element: 09_3-s041:e01
+% element: 09_3-s041:e02
+% element: 09_3-s041:e03
+Deo kašnjenja kroz prva dva kola:
+\[\begin{aligned}
+t_{p,i(i+1)}={}&\tau_{NAND}\left(\frac{C_{g,i+1}}{C_{g,i}}+\gamma_{NAND}\right)\\
+&+\tau_{inv}\left(\frac{C_{g,i+2}}{C_{g,i+1}}+\gamma_{inv}\right).
+\end{aligned}\]
+Minimum izborom $C_{g,i+1}$:
+\[\frac{\partial t_{p,i(i+1)}}{\partial C_{g,i+1}}
+=\frac{\tau_{NAND}}{C_{g,i}}-\frac{\tau_{inv}C_{g,i+2}}{(C_{g,i+1})^2}=0\]
+\[\alert{\tau_{NAND}FO_i=\tau_{inv}FO_{i+1}},\qquad
+FO_i=\frac{C_{g,i+1}}{C_{g,i}},\quad FO_{i+1}=\frac{C_{g,i+2}}{C_{g,i+1}}\]
+CMOS fanout ograničavaju kapacitivnosti i kašnjenje.
 \end{frame}

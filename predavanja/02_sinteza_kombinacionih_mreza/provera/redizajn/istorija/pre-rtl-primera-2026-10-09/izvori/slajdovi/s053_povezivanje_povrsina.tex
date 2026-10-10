@@ -1,0 +1,29 @@
+% Original: PDF strana 27, gornji slajd.
+\slajdid{02-s053}
+\begin{frame}[label=02-s053]{Povezivanje površina: uklanjanje lažne nule}
+\setlength{\parskip}{0pt}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.31\textwidth}\centering
+\Oznaka{Bez zajedničkog polja}\vspace{1mm}
+\input{slike/tikz/s053_dve_povrsine.tex}
+\end{column}
+\begin{column}{.63\textwidth}
+% element: 02-s053:e01
+Dve minimizovane površine imaju zajedničku stranu, ali \alert{\textbf{nemaju zajednička polja}}: na prvoj je \(B=0\), na drugoj \(B=1\).\par\vspace{1mm}
+Susedni prelaz \(B:1\to0\), pri \(C=0\), \(A=1\), menja samo jednu promenljivu. Različita kašnjenja mogu izazvati \alert{\textbf{lažnu nulu}}, kao na vremenskom dijagramu.
+\end{column}
+\end{columns}
+\par\vspace{1mm}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.31\textwidth}\centering
+\Oznaka{Povezujuća površina}\vspace{1mm}
+% element: 02-s053:e02
+\input{slike/tikz/s053_zajednicka_povrsina.tex}
+\end{column}
+\begin{column}{.63\textwidth}
+{\centering\(F=\bar C\bar B+BA+\textcolor{DEcrvena}{\bar C A}\)\par}\vspace{1mm}
+\alert{\textbf{Odstupamo od minimalne forme}}: dodatna površina ima zajednička polja sa obe početne.\par\vspace{1mm}
+Član \(\bar C A\) sprečava lažnu nulu pri ovom prelazu, bez promene stabilnih vrednosti funkcije.
+\end{column}
+\end{columns}
+\end{frame}

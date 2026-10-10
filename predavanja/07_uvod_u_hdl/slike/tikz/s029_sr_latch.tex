@@ -1,6 +1,6 @@
-\begin{tikzpicture}[circuit logic US,font=\fontsize{8}{9}\selectfont]
-\node[nor gate US,draw,logic gate inputs=nn,scale=.8] (q) at (0,1.1) {};
-\node[nor gate US,draw,logic gate inputs=nn,scale=.8] (nq) at (0,-.5) {};
+\begin{tikzpicture}[circuit logic US,font=\fontsize{9}{10}\selectfont,line width=.85pt]
+\node[nor gate US,draw,logic gate inputs=nn,minimum width=.70cm,minimum height=.48cm] (q) at (0,1.1) {};
+\node[nor gate US,draw,logic gate inputs=nn,minimum width=.70cm,minimum height=.48cm] (nq) at (0,-.5) {};
 \draw (q.input 1)--(-1.4,0|-q.input 1) node[left] {(Reset) R};
 \draw (nq.input 2)--(-1.4,0|-nq.input 2) node[left] {(Set) S};
 \draw (q.output)--(1.5,1.1) node[right] {Q};
@@ -8,5 +8,5 @@
 \draw (1,1.1)--(1,.7)--(-.8,-.05)|-(nq.input 1);
 \draw (1,-.5)--(1,-.1)--(-.8,.65)|-(q.input 2);
 \fill (1,1.1) circle(1.2pt);\fill (1,-.5) circle(1.2pt);
-\node[font=\fontsize{8}{9}\selectfont\bfseries] at (0,-1) {SR Latch};
+\node[font=\fontsize{9}{10}\selectfont\bfseries] at (0,-1) {SR Latch};
 \end{tikzpicture}

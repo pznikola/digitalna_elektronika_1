@@ -1,0 +1,8 @@
+\BeleskeID{06-s008}
+% element: 06-s008:e02
+% element: 06-s008:d01
+Čitanje sleva nadesno prati vrednost već obrađenog prefiksa. Kad se doda sledeći bit, težina svakog prethodnog bita udvostručuje se. Zatim se dodaje brojna vrednost novog bita, nula ili jedan.
+
+Za 11110011 prefiksi daju redom: jedan; jedan puta dva plus jedan, odnosno tri; tri puta dva plus jedan, odnosno sedam; sedam puta dva plus jedan, odnosno petnaest; petnaest puta dva, odnosno trideset; trideset puta dva, odnosno šezdeset; šezdeset puta dva plus jedan, odnosno sto dvadeset jedan; sto dvadeset jedan puta dva plus jedan, odnosno dvesto četrdeset tri.
+
+Polinom u osnovi dva preuređuje se po Hornerovoj šemi. U svakom koraku potrebni su samo prethodni rezultat, množenje sa dva i dodavanje sledećeg bita. U hardveru se množenje sa dva ostvaruje pomeranjem ulevo.

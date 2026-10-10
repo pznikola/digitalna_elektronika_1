@@ -1,0 +1,237 @@
+[
+  [
+    "P01",
+    [
+      6
+    ],
+    "Zasićeni model: naziv napona",
+    "Opis navodi spoj baza–kolektor uz VCES=0.1 V. Šema prikazuje kolektor–emitor.",
+    "Zameniti naziv sa „kolektor–emitor“; VBC=VBES−VCES=0.6 V u ovom modelu.",
+    [
+      "beleske"
+    ]
+  ],
+  [
+    "P02",
+    [
+      14
+    ],
+    "Struja u aktivnoj karakteristici",
+    "U međukoraku je VO=VCC−RC IR, dok dalje stoji RC betaF IB.",
+    "Zameniti IR sa IC u spornom međukoraku.",
+    [
+      "formule"
+    ]
+  ],
+  [
+    "P03",
+    [
+      30
+    ],
+    "Asimptota kolektorske struje",
+    "Izraz za vo(∞) sadrži iRC(t), iako se računa stacionarna granica.",
+    "Pisati iRC(∞)=betaF IB i koristiti tu vrednost u asimptoti.",
+    [
+      "formule",
+      "beleske"
+    ]
+  ],
+  [
+    "P04",
+    [
+      32
+    ],
+    "Dimenzija gotove RC formule",
+    "U odbačenom gotovom izrazu piše tf=2.2, bez vremenske konstante.",
+    "Dopuniti zapis tf≈2.2τ, uz očuvano upozorenje da taj izraz nije primenljiv na razmatrani proces.",
+    [
+      "formule"
+    ]
+  ],
+  [
+    "P05",
+    [
+      34
+    ],
+    "Oznaka donjeg baznog otpornika",
+    "U šemi sa zajedničkim RC oba bazna otpornika su RBB, iako je donji ulaz VIA i tranzistor TA.",
+    "Donji označiti RBA; topologiju ne menjati.",
+    [
+      "crtezi"
+    ]
+  ],
+  [
+    "P06",
+    [
+      35,
+      36
+    ],
+    "Funkcija mreže otvorenih kolektora",
+    "Donji simbol je ILI, a izlazni proizvod sadrži faktor CD.",
+    "Pisati (bar A)(overline BC)(C+D); zadržati nacrtani ILI simbol.",
+    [
+      "formule"
+    ]
+  ],
+  [
+    "P07",
+    [
+      38
+    ],
+    "Plivajući ulaz",
+    "Izvorno objašnjenje kaže „Na ulazu nema napona“. Plivajući ulaz nema definisan DC nivo.",
+    "Pisati „Napon ulaza nije jednoznačno određen“ i zadržati preporuku terminacije.",
+    [
+      "beleske"
+    ]
+  ],
+  [
+    "P08",
+    [
+      58
+    ],
+    "Granica neopterećenog totem-pole izlaza",
+    "U lancu uslova ponovljeno je IC→0; naredni zaključak o bazi zahteva IB→0.",
+    "Drugo IC→0 zameniti sa IB→0.",
+    [
+      "formule"
+    ]
+  ],
+  [
+    "P09",
+    [
+      59
+    ],
+    "Znak pada na D4",
+    "Prvi član za VOH ima +VD4; ostatak iste jednakosti i KVL zahtevaju −VD4.",
+    "Zameniti +VD4 sa −VD4 u prvom članu.",
+    [
+      "formule"
+    ]
+  ],
+  [
+    "P10",
+    [
+      60
+    ],
+    "Otpornik u IIL",
+    "Imenilac je RBE1, dok je odgovarajući otpornik u šemi RB1.",
+    "Pisati RB1.",
+    [
+      "formule"
+    ]
+  ],
+  [
+    "P11",
+    [
+      65,
+      66
+    ],
+    "Model početnog zasićenog intervala",
+    "Za izlazak iz zasićenja na s065 korišćeni su aktivna konstanta C RB/(betaF+1) i aktivna asimptota. S066 koristi tu τ2 i bez dodatnog uslova tvrdi da je50% u zasićenju.",
+    "Koristiti zasićeni model sa s064 do granice režima; potom aktivni model. Razdvojiti slučajeve gde srednji nivo prethodi ili sledi granici. Detaljno izvođenje u beleškama obnoviti tek po odobrenju.",
+    [
+      "formule",
+      "beleske"
+    ]
+  ],
+  [
+    "P12",
+    [
+      66
+    ],
+    "Indeks struje u modelu pražnjenja",
+    "Ekvivalent pražnjenja označen je betaF IB4, a kapacitivnost prazni T3.",
+    "Pisati betaF IB3 u ekvivalentnom modelu.",
+    [
+      "beleske"
+    ]
+  ],
+  [
+    "P13",
+    [
+      78
+    ],
+    "Trostatička NOR tabela",
+    "Simbol ima negaciju izlaza, a u redu OE=1 tabela navodi A+B.",
+    "Zameniti Y sa overline(A+B); OE=0, Z ostaju.",
+    [
+      "tabele"
+    ]
+  ],
+  [
+    "P14",
+    [
+      83
+    ],
+    "Oznake izlaza u objašnjenju",
+    "U tekstu su VI1/VI2, a šema i formule imaju VO1/VO2.",
+    "U objašnjenju koristiti VO1/VO2.",
+    [
+      "beleske"
+    ]
+  ],
+  [
+    "P15",
+    [
+      84
+    ],
+    "Struja u simetričnoj tački",
+    "Izraz deli IE2 sa2, iako kroz T2 već prolazi polovina ukupne struje IE.",
+    "Oba IE2/2 zameniti sa IE/2, ili koristiti IE2 bez dodatnog deljenja.",
+    [
+      "formule",
+      "beleske"
+    ]
+  ],
+  [
+    "P16",
+    [
+      85
+    ],
+    "Koji tranzistor je zakočen",
+    "Opis tvrdi da T1 vodi i da je T1 zakočen u istom stanju.",
+    "Drugi T1 zameniti sa T2.",
+    [
+      "beleske"
+    ]
+  ],
+  [
+    "P17",
+    [
+      90
+    ],
+    "Ukupni i promenljivi izlazni napon",
+    "U izrazima VO+ΔVO pri smetnji VEE izostavljena je početna IC. Kada je smetnja nula, izraz ne vraća početni VO.",
+    "Za ukupan napon koristiti IC+ΔIC; za samu promenu ΔVO=−RCΔIC≈−RCΔIE. Znak veze ΔIE/ΔVEE navesti uz definisanu referencu i model izvora.",
+    [
+      "formule",
+      "beleske"
+    ]
+  ],
+  [
+    "P18",
+    [
+      92
+    ],
+    "Punjenje ECL izlaza",
+    "U punjenju je ponovljeno tpHL i asimptota VCC, dok aktivni bafer uvodi VBE.",
+    "Koristiti tpLH i asimptotu VCC−VBE u istom aproksimativnom modelu, uz konzistentan granični izlazni nivo.",
+    [
+      "formule",
+      "beleske"
+    ]
+  ],
+  [
+    "P19",
+    [
+      93
+    ],
+    "Dva različita tranzistora T3",
+    "Levi izlazni bafer i tranzistor reference imaju istu oznaku T3.",
+    "Preimenovati tranzistor reference u T5, uz dosledne vezane oznake gde su potrebne.",
+    [
+      "crtezi"
+    ]
+  ]
+]

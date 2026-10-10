@@ -1,0 +1,8 @@
+\BeleskeID{05-s011}
+% element: 05-s011:n01
+% element: 05-s011:d01
+U proširenju koje daje prednost lokalnim višim bitovima moguće je najniži, pojedinačni bit grupe dovesti na ulaze veće i manje, uz nulu na ulazu jednakosti. Kada se viši dvobitni delovi razlikuju, oni odlučuju. Kada su jednaki, par sirovih bitova donosi odgovarajuće strogo poređenje: par $10$ daje veće, $01$ manje, a parovi $00$ i $11$ jednakost nakon završnog poređenja kodiranih izlaza.
+
+Prvi blok tako obrađuje grupu $a_5a_4a_3,b_5b_4b_3$, drugi grupu $a_2a_1a_0,b_2b_1b_0$. Završni blok daje prednost višoj grupi. Veza zato daje ispravno poređenje šestobitnih brojeva; ovakav zaključak ne važi za prethodno proširenje koje lokalnu odluku uslovljava ulaznom jednakošću.
+
+Pomoćni rezultati za svaku poziciju $i$ predstavljaju relacije $A_i>B_i$, $A_i<B_i$ i $A_i=B_i$. Prva dva dobijaju se I kolima kao $A_i\overline{B_i}$ i $\overline{A_i}B_i$, a treći NILI kolom nad tim rezultatima. U šemi su pozicije $i=1$ i $i=0$, pa treba razlikovati lokalnu jednakost bita od jednakosti celih reči.

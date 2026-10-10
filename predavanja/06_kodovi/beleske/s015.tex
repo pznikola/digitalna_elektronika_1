@@ -1,0 +1,7 @@
+\BeleskeID{06-s015}
+% element: 06-s015:d01
+Primeri u tabeli zaokružuju broj na ceo broj kako bi se razlike režima jasno videle. Sve četiri početne vrednosti nalaze se tačno na polovini između dva susedna cela broja.
+
+Pravilo najbliže parne vrednosti bira suseda čija je poslednja zadržana cifra parna. Zato i 11.5 i 12.5 daju 12, a njihove negativne vrednosti daju $-12$. Za binarno zaokruživanje parnost odgovara najmanje značajnom zadržanom bitu.
+
+Kod izbora udaljenijeg suseda od nule, odluka na polovini povećava apsolutnu vrednost. Usmeravanje prema nuli smanjuje apsolutnu vrednost, dok usmeravanje prema pozitivnoj ili negativnoj beskonačnosti bira odgovarajući sused bez obzira na znak. Na primer, za $-11.5$ zaokruživanje prema $+\infty$ daje $-11$, a prema $-\infty$ daje $-12$.

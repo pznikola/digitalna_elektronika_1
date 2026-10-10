@@ -1,0 +1,2561 @@
+{
+  "slides": {
+    "02-s001": [
+      {
+        "element": "02-s001:e01",
+        "slide": {
+          "path": "slajdovi/s001_sinteza_kombinacionih_mreza.tex",
+          "anchor": "% element: 02-s001:e01"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      }
+    ],
+    "02-s002": [
+      {
+        "element": "02-s002:e01",
+        "slide": {
+          "path": "slajdovi/s002_trenutno_stanje_ulaza.tex",
+          "anchor": "% element: 02-s002:e01"
+        },
+        "notes": null,
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s002:e02",
+        "slide": {
+          "path": "slajdovi/s002_trenutno_stanje_ulaza.tex",
+          "anchor": "% element: 02-s002:e02"
+        },
+        "notes": null,
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s002:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s002.tex",
+          "anchor": "% element: 02-s002:d01"
+        },
+        "change": "Proverena dopuna predavaču uz isti prikaz.",
+        "status": "provereno"
+      }
+    ],
+    "02-s002b": [
+      {
+        "element": "02-s002b:e01",
+        "slide": {
+          "path": "slajdovi/s002b_nastavak.tex",
+          "anchor": "% element: 02-s002b:e01"
+        },
+        "notes": null,
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s002b:e02",
+        "slide": {
+          "path": "slajdovi/s002b_nastavak.tex",
+          "anchor": "% element: 02-s002b:e02"
+        },
+        "notes": null,
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s002b:e03",
+        "slide": {
+          "path": "slajdovi/s002b_nastavak.tex",
+          "anchor": "% element: 02-s002b:e03"
+        },
+        "notes": null,
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s002b:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s002b.tex",
+          "anchor": "% element: 02-s002b:d01"
+        },
+        "change": "Proverena dopuna predavaču uz isti prikaz.",
+        "status": "provereno"
+      }
+    ],
+    "02-s003": [
+      {
+        "element": "02-s003:e01",
+        "slide": {
+          "path": "slajdovi/s003_kasnjenje_invertora.tex",
+          "anchor": "% element: 02-s003:e01"
+        },
+        "notes": {
+          "path": "beleske/s003.tex",
+          "anchor": "% element: 02-s003:e01"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s003:e02",
+        "slide": {
+          "path": "slajdovi/s003_kasnjenje_invertora.tex",
+          "anchor": "% element: 02-s003:e02"
+        },
+        "notes": {
+          "path": "beleske/s003.tex",
+          "anchor": "% element: 02-s003:e02"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s003:e03",
+        "slide": {
+          "path": "slajdovi/s003_kasnjenje_invertora.tex",
+          "anchor": "% element: 02-s003:e03"
+        },
+        "notes": {
+          "path": "beleske/s003.tex",
+          "anchor": "% element: 02-s003:e03"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s003:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s003.tex",
+          "anchor": "% element: 02-s003:d01"
+        },
+        "change": "Proverena dopuna predavaču uz isti prikaz. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      }
+    ],
+    "02-s004": [
+      {
+        "element": "02-s004:e01",
+        "slide": {
+          "path": "slajdovi/s004_srednje_kasnjenje.tex",
+          "anchor": "% element: 02-s004:e01"
+        },
+        "notes": {
+          "path": "beleske/s004.tex",
+          "anchor": "% element: 02-s004:e01"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s004:e02",
+        "slide": {
+          "path": "slajdovi/s004_srednje_kasnjenje.tex",
+          "anchor": "% element: 02-s004:e02"
+        },
+        "notes": {
+          "path": "beleske/s004.tex",
+          "anchor": "% element: 02-s004:e02"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s004:e03",
+        "slide": {
+          "path": "slajdovi/s004_srednje_kasnjenje.tex",
+          "anchor": "% element: 02-s004:e03"
+        },
+        "notes": {
+          "path": "beleske/s004.tex",
+          "anchor": "% element: 02-s004:e03"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s004:e04",
+        "slide": {
+          "path": "slajdovi/s004_srednje_kasnjenje.tex",
+          "anchor": "% element: 02-s004:e04"
+        },
+        "notes": {
+          "path": "beleske/s004.tex",
+          "anchor": "% element: 02-s004:e04"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s004:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s004.tex",
+          "anchor": "% element: 02-s004:d01"
+        },
+        "change": "Proverena dopuna predavaču uz isti prikaz.",
+        "status": "provereno"
+      }
+    ],
+    "02-s005": [
+      {
+        "element": "02-s005:e01",
+        "slide": {
+          "path": "slajdovi/s005_maksimalna_kasnjenja.tex",
+          "anchor": "% element: 02-s005:e01"
+        },
+        "notes": {
+          "path": "beleske/s005.tex",
+          "anchor": "% element: 02-s005:e01"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s005:e02",
+        "slide": {
+          "path": "slajdovi/s005_maksimalna_kasnjenja.tex",
+          "anchor": "% element: 02-s005:e02"
+        },
+        "notes": {
+          "path": "beleske/s005.tex",
+          "anchor": "% element: 02-s005:e02"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s005:e03",
+        "slide": {
+          "path": "slajdovi/s005_maksimalna_kasnjenja.tex",
+          "anchor": "% element: 02-s005:e03"
+        },
+        "notes": {
+          "path": "beleske/s005.tex",
+          "anchor": "% element: 02-s005:e03"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s005:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s005.tex",
+          "anchor": "% element: 02-s005:d01"
+        },
+        "change": "Proverena dopuna predavaču uz isti prikaz.",
+        "status": "provereno"
+      }
+    ],
+    "02-s006": [
+      {
+        "element": "02-s006:e01",
+        "slide": {
+          "path": "slajdovi/s006_prelazni_procesi.tex",
+          "anchor": "% element: 02-s006:e01"
+        },
+        "notes": {
+          "path": "beleske/s006.tex",
+          "anchor": "% element: 02-s006:e01"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s006:e02",
+        "slide": {
+          "path": "slajdovi/s006_prelazni_procesi.tex",
+          "anchor": "% element: 02-s006:e02"
+        },
+        "notes": {
+          "path": "beleske/s006.tex",
+          "anchor": "% element: 02-s006:e02"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s006:e03",
+        "slide": {
+          "path": "slajdovi/s006_prelazni_procesi.tex",
+          "anchor": "% element: 02-s006:e03"
+        },
+        "notes": {
+          "path": "beleske/s006.tex",
+          "anchor": "% element: 02-s006:e03"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s006:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s006.tex",
+          "anchor": "% element: 02-s006:d01"
+        },
+        "change": "Proverena dopuna predavaču uz isti prikaz.",
+        "status": "provereno"
+      }
+    ],
+    "02-s007": [
+      {
+        "element": "02-s007:e01",
+        "slide": {
+          "path": "slajdovi/s007_sinteza_i_minimizacija.tex",
+          "anchor": "% element: 02-s007:e01"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s007:e02",
+        "slide": {
+          "path": "slajdovi/s007_sinteza_i_minimizacija.tex",
+          "anchor": "% element: 02-s007:e02"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s007:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s007.tex",
+          "anchor": "% element: 02-s007:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s008": [
+      {
+        "element": "02-s008:e01",
+        "slide": {
+          "path": "slajdovi/s008_integrisana_kola_i_kucista.tex",
+          "anchor": "% element: 02-s008:e01"
+        },
+        "notes": {
+          "path": "beleske/s008.tex",
+          "anchor": "% element: 02-s008:e01"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s008:e02",
+        "slide": {
+          "path": "slajdovi/s008_integrisana_kola_i_kucista.tex",
+          "anchor": "% element: 02-s008:e02"
+        },
+        "notes": {
+          "path": "beleske/s008.tex",
+          "anchor": "% element: 02-s008:e02"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s008:e03",
+        "slide": {
+          "path": "slajdovi/s008_integrisana_kola_i_kucista.tex",
+          "anchor": "% element: 02-s008:e03"
+        },
+        "notes": {
+          "path": "beleske/s008.tex",
+          "anchor": "% element: 02-s008:e03"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s008:e04",
+        "slide": {
+          "path": "slajdovi/s008_integrisana_kola_i_kucista.tex",
+          "anchor": "% element: 02-s008:e04"
+        },
+        "notes": {
+          "path": "beleske/s008.tex",
+          "anchor": "% element: 02-s008:e04"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s008:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s008.tex",
+          "anchor": "% element: 02-s008:d01"
+        },
+        "change": "Proverena dopuna predavaču uz isti prikaz.",
+        "status": "provereno"
+      }
+    ],
+    "02-s009": [
+      {
+        "element": "02-s009:e01",
+        "slide": {
+          "path": "slajdovi/s009_terminologija_logickih_funkcija.tex",
+          "anchor": "% element: 02-s009:e01"
+        },
+        "notes": null,
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s009:e02",
+        "slide": {
+          "path": "slajdovi/s009_terminologija_logickih_funkcija.tex",
+          "anchor": "% element: 02-s009:e02"
+        },
+        "notes": null,
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s009:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s009.tex",
+          "anchor": "% element: 02-s009:d01"
+        },
+        "change": "Proverena dopuna predavaču uz isti prikaz.",
+        "status": "provereno"
+      }
+    ],
+    "02-s009b": [
+      {
+        "element": "02-s009b:e01",
+        "slide": {
+          "path": "slajdovi/s009b_nastavak.tex",
+          "anchor": "% element: 02-s009b:e01"
+        },
+        "notes": null,
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s009b:e02",
+        "slide": {
+          "path": "slajdovi/s009b_nastavak.tex",
+          "anchor": "% element: 02-s009b:e02"
+        },
+        "notes": null,
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s009b:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s009b.tex",
+          "anchor": "% element: 02-s009b:d01"
+        },
+        "change": "Proverena dopuna predavaču uz isti prikaz.",
+        "status": "provereno"
+      }
+    ],
+    "02-s010": [
+      {
+        "element": "02-s010:e01",
+        "slide": {
+          "path": "slajdovi/s010_koraci_sinteze.tex",
+          "anchor": "% element: 02-s010:e01"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s010:e02",
+        "slide": {
+          "path": "slajdovi/s010_koraci_sinteze.tex",
+          "anchor": "% element: 02-s010:e02"
+        },
+        "notes": {
+          "path": "beleske/s010.tex",
+          "anchor": "% element: 02-s010:e02"
+        },
+        "change": "Vidljiva nastavna celina očuvana; dodatni izvorni detalj u beleškama: Oba načina preskakanja funkcionalne tabele ili izraza.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s010:e03",
+        "slide": {
+          "path": "slajdovi/s010_koraci_sinteze.tex",
+          "anchor": "% element: 02-s010:e03"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s010:e04",
+        "slide": {
+          "path": "slajdovi/s010_koraci_sinteze.tex",
+          "anchor": "% element: 02-s010:e04"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s010:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s010.tex",
+          "anchor": "% element: 02-s010:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s011": [
+      {
+        "element": "02-s011:e01",
+        "slide": {
+          "path": "slajdovi/s011_funkcionalna_tabela_sinteze.tex",
+          "anchor": "% element: 02-s011:e01"
+        },
+        "notes": null,
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s011:e02",
+        "slide": {
+          "path": "slajdovi/s011_funkcionalna_tabela_sinteze.tex",
+          "anchor": "% element: 02-s011:e02"
+        },
+        "notes": {
+          "path": "beleske/s011.tex",
+          "anchor": "% element: 02-s011:e02"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s011:e03",
+        "slide": {
+          "path": "slajdovi/s011_funkcionalna_tabela_sinteze.tex",
+          "anchor": "% element: 02-s011:e03"
+        },
+        "notes": {
+          "path": "beleske/s011.tex",
+          "anchor": "% element: 02-s011:e03"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s011:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s011.tex",
+          "anchor": "% element: 02-s011:d01"
+        },
+        "change": "Proverena dopuna predavaču uz isti prikaz.",
+        "status": "provereno"
+      }
+    ],
+    "02-s012": [
+      {
+        "element": "02-s012:e01",
+        "slide": {
+          "path": "slajdovi/s012_skraciona_funkcionalna_tabela.tex",
+          "anchor": "% element: 02-s012:e01"
+        },
+        "notes": {
+          "path": "beleske/s012.tex",
+          "anchor": "% element: 02-s012:e01"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s012:e02",
+        "slide": {
+          "path": "slajdovi/s012_skraciona_funkcionalna_tabela.tex",
+          "anchor": "% element: 02-s012:e02"
+        },
+        "notes": {
+          "path": "beleske/s012.tex",
+          "anchor": "% element: 02-s012:e02"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s012:e03",
+        "slide": {
+          "path": "slajdovi/s012_skraciona_funkcionalna_tabela.tex",
+          "anchor": "% element: 02-s012:e03"
+        },
+        "notes": {
+          "path": "beleske/s012.tex",
+          "anchor": "% element: 02-s012:e03"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s012:e04",
+        "slide": {
+          "path": "slajdovi/s012_skraciona_funkcionalna_tabela.tex",
+          "anchor": "% element: 02-s012:e04"
+        },
+        "notes": {
+          "path": "beleske/s012.tex",
+          "anchor": "% element: 02-s012:e04"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s012:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s012.tex",
+          "anchor": "% element: 02-s012:d01"
+        },
+        "change": "Proverena dopuna predavaču uz isti prikaz.",
+        "status": "provereno"
+      }
+    ],
+    "02-s013": [
+      {
+        "element": "02-s013:e01",
+        "slide": {
+          "path": "slajdovi/s013_izvodjenje_zbira_proizvoda.tex",
+          "anchor": "% element: 02-s013:e01"
+        },
+        "notes": {
+          "path": "beleske/s013.tex",
+          "anchor": "% element: 02-s013:e01"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s013:e02",
+        "slide": {
+          "path": "slajdovi/s013_izvodjenje_zbira_proizvoda.tex",
+          "anchor": "% element: 02-s013:e02"
+        },
+        "notes": {
+          "path": "beleske/s013.tex",
+          "anchor": "% element: 02-s013:e02"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s013:e03",
+        "slide": {
+          "path": "slajdovi/s013_izvodjenje_zbira_proizvoda.tex",
+          "anchor": "% element: 02-s013:e03"
+        },
+        "notes": {
+          "path": "beleske/s013.tex",
+          "anchor": "% element: 02-s013:e03"
+        },
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s013:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s013.tex",
+          "anchor": "% element: 02-s013:d01"
+        },
+        "change": "Proverena dopuna predavaču uz isti prikaz. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s013:e04",
+        "slide": {
+          "path": "slajdovi/s013_izvodjenje_zbira_proizvoda.tex",
+          "anchor": "% element: 02-s013:e04"
+        },
+        "notes": null,
+        "change": "Izvorna celina prikazana u odobrenom delu; beleške sadrže samo dodatno nastavno objašnjenje. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      }
+    ],
+    "02-s014": [
+      {
+        "element": "02-s014:e01",
+        "slide": {
+          "path": "slajdovi/s014_normalna_disjunktivna_forma.tex",
+          "anchor": "% element: 02-s014:e01"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s014:e02",
+        "slide": {
+          "path": "slajdovi/s014_normalna_disjunktivna_forma.tex",
+          "anchor": "% element: 02-s014:e02"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s014:e03",
+        "slide": {
+          "path": "slajdovi/s014_normalna_disjunktivna_forma.tex",
+          "anchor": "% element: 02-s014:e03"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s014:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s014.tex",
+          "anchor": "% element: 02-s014:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s015": [
+      {
+        "element": "02-s015:e01",
+        "slide": {
+          "path": "slajdovi/s015_izvodjenje_proizvoda_zbirova.tex",
+          "anchor": "% element: 02-s015:e01"
+        },
+        "notes": {
+          "path": "beleske/s015.tex",
+          "anchor": "% element: 02-s015:e01"
+        },
+        "change": "Prvi deo odobrene podele: nulti red 000, negacija njegovog proizvoda i dualni NI/ILI opis. Puni argument aktivne nule u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s015:e02",
+        "slide": {
+          "path": "slajdovi/s015_izvodjenje_proizvoda_zbirova.tex",
+          "anchor": "% element: 02-s015:e02"
+        },
+        "notes": {
+          "path": "beleske/s015.tex",
+          "anchor": "% element: 02-s015:e02"
+        },
+        "change": "Prvi deo odobrene podele: nulti red 000, negacija njegovog proizvoda i dualni NI/ILI opis. Puni argument aktivne nule u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s015:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s015.tex",
+          "anchor": "% element: 02-s015:d01"
+        },
+        "change": "Prvi deo odobrene podele: nulti red 000, negacija njegovog proizvoda i dualni NI/ILI opis. Puni argument aktivne nule u beleškama.",
+        "status": "provereno"
+      }
+    ],
+    "02-s015b": [
+      {
+        "element": "02-s015b:e01",
+        "slide": {
+          "path": "slajdovi/s015b_nastavak.tex",
+          "anchor": "% element: 02-s015b:e01"
+        },
+        "notes": {
+          "path": "beleske/s015b.tex",
+          "anchor": "% element: 02-s015b:e01"
+        },
+        "change": "Drugi deo odobrene podele izvornog s015; vidljivo izvođenje i puna nastavna razrada u pripadajućim beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s015b:e02",
+        "slide": {
+          "path": "slajdovi/s015b_nastavak.tex",
+          "anchor": "% element: 02-s015b:e02"
+        },
+        "notes": {
+          "path": "beleske/s015b.tex",
+          "anchor": "% element: 02-s015b:e02"
+        },
+        "change": "Drugi deo odobrene podele izvornog s015; vidljivo izvođenje i puna nastavna razrada u pripadajućim beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s015b:e03",
+        "slide": {
+          "path": "slajdovi/s015b_nastavak.tex",
+          "anchor": "% element: 02-s015b:e03"
+        },
+        "notes": {
+          "path": "beleske/s015b.tex",
+          "anchor": "% element: 02-s015b:e03"
+        },
+        "change": "Drugi deo odobrene podele izvornog s015; vidljivo izvođenje i puna nastavna razrada u pripadajućim beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s015b:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s015b.tex",
+          "anchor": "% element: 02-s015b:d01"
+        },
+        "change": "Drugi deo odobrene podele izvornog s015; vidljivo izvođenje i puna nastavna razrada u pripadajućim beleškama.",
+        "status": "provereno"
+      }
+    ],
+    "02-s016": [
+      {
+        "element": "02-s016:e01",
+        "slide": {
+          "path": "slajdovi/s016_komplementarna_funkcija.tex",
+          "anchor": "% element: 02-s016:e01"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s016:e02",
+        "slide": {
+          "path": "slajdovi/s016_komplementarna_funkcija.tex",
+          "anchor": "% element: 02-s016:e02"
+        },
+        "notes": {
+          "path": "beleske/s016.tex",
+          "anchor": "% element: 02-s016:e02"
+        },
+        "change": "Vidljiva nastavna celina očuvana; dodatni izvorni detalj u beleškama: Negacija celog zbira i proizvod svih pet negiranih minterma. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s016:e03",
+        "slide": {
+          "path": "slajdovi/s016_komplementarna_funkcija.tex",
+          "anchor": "% element: 02-s016:e03"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s016:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s016.tex",
+          "anchor": "% element: 02-s016:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      }
+    ],
+    "02-s017": [
+      {
+        "element": "02-s017:e01",
+        "slide": {
+          "path": "slajdovi/s017_normalna_konjunktivna_forma.tex",
+          "anchor": "% element: 02-s017:e01"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s017:e02",
+        "slide": {
+          "path": "slajdovi/s017_normalna_konjunktivna_forma.tex",
+          "anchor": "% element: 02-s017:e02"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s017:e03",
+        "slide": {
+          "path": "slajdovi/s017_normalna_konjunktivna_forma.tex",
+          "anchor": "% element: 02-s017:e03"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s017:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s017.tex",
+          "anchor": "% element: 02-s017:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      }
+    ],
+    "02-s018": [
+      {
+        "element": "02-s018:e01",
+        "slide": {
+          "path": "slajdovi/s018_indeksi_minterma_i_maxterma.tex",
+          "anchor": "% element: 02-s018:e01"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s018:e02",
+        "slide": {
+          "path": "slajdovi/s018_indeksi_minterma_i_maxterma.tex",
+          "anchor": "% element: 02-s018:e02"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s018:e03",
+        "slide": {
+          "path": "slajdovi/s018_indeksi_minterma_i_maxterma.tex",
+          "anchor": "% element: 02-s018:e03"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s018:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s018.tex",
+          "anchor": "% element: 02-s018:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      }
+    ],
+    "02-s019": [
+      {
+        "element": "02-s019:e01",
+        "slide": {
+          "path": "slajdovi/s019_mreza_i_ili.tex",
+          "anchor": "% element: 02-s019:e01"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s019:e02",
+        "slide": {
+          "path": "slajdovi/s019_mreza_i_ili.tex",
+          "anchor": "% element: 02-s019:e02"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s019:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s019.tex",
+          "anchor": "% element: 02-s019:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      }
+    ],
+    "02-s020": [
+      {
+        "element": "02-s020:e01",
+        "slide": {
+          "path": "slajdovi/s020_opterecenje_ulaza.tex",
+          "anchor": "% element: 02-s020:e01"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s020:e02",
+        "slide": {
+          "path": "slajdovi/s020_opterecenje_ulaza.tex",
+          "anchor": "% element: 02-s020:e02"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s020:e03",
+        "slide": {
+          "path": "slajdovi/s020_opterecenje_ulaza.tex",
+          "anchor": "% element: 02-s020:e03"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s020:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s020.tex",
+          "anchor": "% element: 02-s020:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      }
+    ],
+    "02-s021": [
+      {
+        "element": "02-s021:e01",
+        "slide": {
+          "path": "slajdovi/s021_rasterecenje_ulaza.tex",
+          "anchor": "% element: 02-s021:e01"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s021:e02",
+        "slide": {
+          "path": "slajdovi/s021_rasterecenje_ulaza.tex",
+          "anchor": "% element: 02-s021:e02"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s021:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s021.tex",
+          "anchor": "% element: 02-s021:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      }
+    ],
+    "02-s022": [
+      {
+        "element": "02-s022:e01",
+        "slide": {
+          "path": "slajdovi/s022_mreza_ili_i.tex",
+          "anchor": "% element: 02-s022:e01"
+        },
+        "notes": null,
+        "change": "Odobrena stručna ispravka: naziv je proizvod zbirova; nastavna šema i pet činilaca ostaju vidljivi. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s022:e02",
+        "slide": {
+          "path": "slajdovi/s022_mreza_ili_i.tex",
+          "anchor": "% element: 02-s022:e02"
+        },
+        "notes": null,
+        "change": "Prvi činilac C+B+A prema originalnom PDF-u i odobrenju; očuvana ILI–I šema. Beleške dopunjuju čitanje redova, bez istorije ispravke. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s022:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s022.tex",
+          "anchor": "% element: 02-s022:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta. Dorada s003/s013/s015–s022: provereni čitljivost, istaknute izvorne tvrdnje i nepromenjeno značenje.",
+        "status": "provereno"
+      }
+    ],
+    "02-s023": [
+      {
+        "element": "02-s023:e01",
+        "slide": {
+          "path": "slajdovi/s023_broj_ulaza_i_slozenost.tex",
+          "anchor": "% element: 02-s023:e01"
+        },
+        "notes": null,
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s023:e03",
+        "slide": {
+          "path": "slajdovi/s023_broj_ulaza_i_slozenost.tex",
+          "anchor": "% element: 02-s023:e03"
+        },
+        "notes": {
+          "path": "beleske/s023.tex",
+          "anchor": "% element: 02-s023:e03"
+        },
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s023:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s023.tex",
+          "anchor": "% element: 02-s023:d01"
+        },
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      }
+    ],
+    "02-s023b": [
+      {
+        "element": "02-s023b:e01",
+        "slide": {
+          "path": "slajdovi/s023b_nastavak.tex",
+          "anchor": "% element: 02-s023b:e01"
+        },
+        "notes": null,
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s023b:e02",
+        "slide": {
+          "path": "slajdovi/s023b_nastavak.tex",
+          "anchor": "% element: 02-s023b:e02"
+        },
+        "notes": null,
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s023b:e03",
+        "slide": {
+          "path": "slajdovi/s023b_nastavak.tex",
+          "anchor": "% element: 02-s023b:e03"
+        },
+        "notes": null,
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s023b:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s023b.tex",
+          "anchor": "% element: 02-s023b:d01"
+        },
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      }
+    ],
+    "02-s024": [
+      {
+        "element": "02-s024:e01",
+        "slide": {
+          "path": "slajdovi/s024_realizacija_ni_kolima.tex",
+          "anchor": "% element: 02-s024:e01"
+        },
+        "notes": null,
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s024:e03",
+        "slide": {
+          "path": "slajdovi/s024_realizacija_ni_kolima.tex",
+          "anchor": "% element: 02-s024:e03"
+        },
+        "notes": null,
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s024:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s024.tex",
+          "anchor": "% element: 02-s024:d01"
+        },
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      }
+    ],
+    "02-s024b": [
+      {
+        "element": "02-s024b:e01",
+        "slide": {
+          "path": "slajdovi/s024b_nastavak.tex",
+          "anchor": "% element: 02-s024b:e01"
+        },
+        "notes": null,
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s024b:e02",
+        "slide": {
+          "path": "slajdovi/s024b_nastavak.tex",
+          "anchor": "% element: 02-s024b:e02"
+        },
+        "notes": null,
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s024b:e03",
+        "slide": {
+          "path": "slajdovi/s024b_nastavak.tex",
+          "anchor": "% element: 02-s024b:e03"
+        },
+        "notes": null,
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s024b:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s024b.tex",
+          "anchor": "% element: 02-s024b:d01"
+        },
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      }
+    ],
+    "02-s025": [
+      {
+        "element": "02-s025:e01",
+        "slide": {
+          "path": "slajdovi/s025_algebarski_izvod_ni_realizacije.tex",
+          "anchor": "% element: 02-s025:e01"
+        },
+        "notes": null,
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s025:e02",
+        "slide": {
+          "path": "slajdovi/s025_algebarski_izvod_ni_realizacije.tex",
+          "anchor": "% element: 02-s025:e02"
+        },
+        "notes": null,
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s025:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s025.tex",
+          "anchor": "% element: 02-s025:d01"
+        },
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      }
+    ],
+    "02-s026": [
+      {
+        "element": "02-s026:e01",
+        "slide": {
+          "path": "slajdovi/s026_realizacija_nili_kolima.tex",
+          "anchor": "% element: 02-s026:e01"
+        },
+        "notes": null,
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s026:e02",
+        "slide": {
+          "path": "slajdovi/s026_realizacija_nili_kolima.tex",
+          "anchor": "% element: 02-s026:e02"
+        },
+        "notes": null,
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s026:e03",
+        "slide": {
+          "path": "slajdovi/s026_realizacija_nili_kolima.tex",
+          "anchor": "% element: 02-s026:e03"
+        },
+        "notes": null,
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s026:e04",
+        "slide": {
+          "path": "slajdovi/s026_realizacija_nili_kolima.tex",
+          "anchor": "% element: 02-s026:e04"
+        },
+        "notes": null,
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s026:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s026.tex",
+          "anchor": "% element: 02-s026:d01"
+        },
+        "change": "Dorada s023–s026: originalna celina vidljiva u odobrenom delu; dodatno objašnjenje samo u pripadajućim beleškama. Ranije odobrena konvencija spojeva i stručno tumačenje kašnjenja ostaju očuvani.",
+        "status": "provereno"
+      }
+    ],
+    "02-s027": [
+      {
+        "element": "02-s027:e01",
+        "slide": {
+          "path": "slajdovi/s027_slozenost_posle_transformacije.tex",
+          "anchor": "% element: 02-s027:e01"
+        },
+        "notes": null,
+        "change": "Izvorno objašnjenje prošireno na slajdu po korisnikovom nalogu; u beleškama samo dodatno nastavno tumačenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s027:e02",
+        "slide": {
+          "path": "slajdovi/s027_slozenost_posle_transformacije.tex",
+          "anchor": "% element: 02-s027:e02"
+        },
+        "notes": null,
+        "change": "Izvorno objašnjenje prošireno na slajdu po korisnikovom nalogu; u beleškama samo dodatno nastavno tumačenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s027:e03",
+        "slide": {
+          "path": "slajdovi/s027_slozenost_posle_transformacije.tex",
+          "anchor": "% element: 02-s027:e03"
+        },
+        "notes": null,
+        "change": "Izvorno objašnjenje prošireno na slajdu po korisnikovom nalogu; u beleškama samo dodatno nastavno tumačenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s027:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s027.tex",
+          "anchor": "% element: 02-s027:d01"
+        },
+        "change": "Izvorno objašnjenje prošireno na slajdu po korisnikovom nalogu; u beleškama samo dodatno nastavno tumačenje.",
+        "status": "provereno"
+      }
+    ],
+    "02-s028": [
+      {
+        "element": "02-s028:e01",
+        "slide": {
+          "path": "slajdovi/s028_dvoulazne_kaskade.tex",
+          "anchor": "% element: 02-s028:e01"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s028:e02",
+        "slide": {
+          "path": "slajdovi/s028_dvoulazne_kaskade.tex",
+          "anchor": "% element: 02-s028:e02"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s028:e03",
+        "slide": {
+          "path": "slajdovi/s028_dvoulazne_kaskade.tex",
+          "anchor": "% element: 02-s028:e03"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s028:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s028.tex",
+          "anchor": "% element: 02-s028:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s029": [
+      {
+        "element": "02-s029:e01",
+        "slide": {
+          "path": "slajdovi/s029_balansirano_stablo.tex",
+          "anchor": "% element: 02-s029:e01"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s029:e02",
+        "slide": {
+          "path": "slajdovi/s029_balansirano_stablo.tex",
+          "anchor": "% element: 02-s029:e02"
+        },
+        "notes": {
+          "path": "beleske/s029.tex",
+          "anchor": "% element: 02-s029:e02"
+        },
+        "change": "Izvorni zapis na slajdu ostaje prema odluci korisnika; beleške neposredno stručno razjašnjavaju četiri kola u obe realizacije i manje nivoa u stablu.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s029:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s029.tex",
+          "anchor": "% element: 02-s029:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s030": [
+      {
+        "element": "02-s030:e01",
+        "slide": {
+          "path": "slajdovi/s030_neekvivalentne_ni_mreze.tex",
+          "anchor": "% element: 02-s030:e01"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s030:e02",
+        "slide": {
+          "path": "slajdovi/s030_neekvivalentne_ni_mreze.tex",
+          "anchor": "% element: 02-s030:e02"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s030:e03",
+        "slide": {
+          "path": "slajdovi/s030_neekvivalentne_ni_mreze.tex",
+          "anchor": "% element: 02-s030:e03"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s030:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s030.tex",
+          "anchor": "% element: 02-s030:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s031": [
+      {
+        "element": "02-s031:e01",
+        "slide": {
+          "path": "slajdovi/s031_troulazno_ni_od_dvoulaznih.tex",
+          "anchor": "% element: 02-s031:e01"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s031:e02",
+        "slide": {
+          "path": "slajdovi/s031_troulazno_ni_od_dvoulaznih.tex",
+          "anchor": "% element: 02-s031:e02"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s031:e03",
+        "slide": {
+          "path": "slajdovi/s031_troulazno_ni_od_dvoulaznih.tex",
+          "anchor": "% element: 02-s031:e03"
+        },
+        "notes": {
+          "path": "beleske/s031.tex",
+          "anchor": "% element: 02-s031:e03"
+        },
+        "change": "Vidljiva nastavna celina očuvana; dodatni izvorni detalj u beleškama: Proširenje realizacije na troulaznu NI/NILI bazu.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s031:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s031.tex",
+          "anchor": "% element: 02-s031:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s032": [
+      {
+        "element": "02-s032:e01",
+        "slide": {
+          "path": "slajdovi/s032_minimizacija_sa_minimalnom_razlikom.tex",
+          "anchor": "% element: 02-s032:e01"
+        },
+        "notes": null,
+        "change": "Dva odobrena dela izvornog s032; svi izrazi u jednom redu, izvorni naglasci tamnocrveno i dodatno nastavno objašnjenje u pripadajućim beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s032:e04",
+        "slide": {
+          "path": "slajdovi/s032_minimizacija_sa_minimalnom_razlikom.tex",
+          "anchor": "% element: 02-s032:e04"
+        },
+        "notes": null,
+        "change": "Dva odobrena dela izvornog s032; svi izrazi u jednom redu, izvorni naglasci tamnocrveno i dodatno nastavno objašnjenje u pripadajućim beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s032:e05",
+        "slide": {
+          "path": "slajdovi/s032_minimizacija_sa_minimalnom_razlikom.tex",
+          "anchor": "% element: 02-s032:e05"
+        },
+        "notes": null,
+        "change": "Dva odobrena dela izvornog s032; svi izrazi u jednom redu, izvorni naglasci tamnocrveno i dodatno nastavno objašnjenje u pripadajućim beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s032:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s032.tex",
+          "anchor": "% element: 02-s032:d01"
+        },
+        "change": "Dva odobrena dela izvornog s032; svi izrazi u jednom redu, izvorni naglasci tamnocrveno i dodatno nastavno objašnjenje u pripadajućim beleškama.",
+        "status": "provereno"
+      }
+    ],
+    "02-s032b": [
+      {
+        "element": "02-s032b:e01",
+        "slide": {
+          "path": "slajdovi/s032b_nastavak.tex",
+          "anchor": "% element: 02-s032b:e01"
+        },
+        "notes": null,
+        "change": "Dva odobrena dela izvornog s032; svi izrazi u jednom redu, izvorni naglasci tamnocrveno i dodatno nastavno objašnjenje u pripadajućim beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s032b:e02",
+        "slide": {
+          "path": "slajdovi/s032b_nastavak.tex",
+          "anchor": "% element: 02-s032b:e02"
+        },
+        "notes": null,
+        "change": "Dva odobrena dela izvornog s032; svi izrazi u jednom redu, izvorni naglasci tamnocrveno i dodatno nastavno objašnjenje u pripadajućim beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s032b:e03",
+        "slide": {
+          "path": "slajdovi/s032b_nastavak.tex",
+          "anchor": "% element: 02-s032b:e03"
+        },
+        "notes": null,
+        "change": "Dva odobrena dela izvornog s032; svi izrazi u jednom redu, izvorni naglasci tamnocrveno i dodatno nastavno objašnjenje u pripadajućim beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s032b:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s032b.tex",
+          "anchor": "% element: 02-s032b:d01"
+        },
+        "change": "Dva odobrena dela izvornog s032; svi izrazi u jednom redu, izvorni naglasci tamnocrveno i dodatno nastavno objašnjenje u pripadajućim beleškama.",
+        "status": "provereno"
+      }
+    ],
+    "02-s033": [
+      {
+        "element": "02-s033:e01",
+        "slide": {
+          "path": "slajdovi/s033_uvod_u_karnoove_karte.tex",
+          "anchor": "% element: 02-s033:e01"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s033:e02",
+        "slide": {
+          "path": "slajdovi/s033_uvod_u_karnoove_karte.tex",
+          "anchor": "% element: 02-s033:e02"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s033:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s033.tex",
+          "anchor": "% element: 02-s033:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s034": [
+      {
+        "element": "02-s034:e01",
+        "slide": {
+          "path": "slajdovi/s034_karte_jedne_i_dve_promenljive.tex",
+          "anchor": "% element: 02-s034:e01"
+        },
+        "notes": {
+          "path": "beleske/s034.tex",
+          "anchor": "% element: 02-s034:e01"
+        },
+        "change": "Vidljiva nastavna celina očuvana; dodatni izvorni detalj u beleškama: Preuređivanje stanja i povezivanje ivica u prsten.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s034:e02",
+        "slide": {
+          "path": "slajdovi/s034_karte_jedne_i_dve_promenljive.tex",
+          "anchor": "% element: 02-s034:e02"
+        },
+        "notes": null,
+        "change": "Odobrena zamena indeksa uspravne karte: A=0→0, A=1→1; ispravne oznake ostaju vidljive.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s034:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s034.tex",
+          "anchor": "% element: 02-s034:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s035": [
+      {
+        "element": "02-s035:e01",
+        "slide": {
+          "path": "slajdovi/s035_karte_tri_promenljive.tex",
+          "anchor": "% element: 02-s035:e01"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s035:e02",
+        "slide": {
+          "path": "slajdovi/s035_karte_tri_promenljive.tex",
+          "anchor": "% element: 02-s035:e02"
+        },
+        "notes": null,
+        "change": "Oba izvorna objašnjenja susedstva i presavijanja u prsten vraćena su na slajd; dodatna binarna provera je dopuna d01 u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s035:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s035.tex",
+          "anchor": "% element: 02-s035:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s036": [
+      {
+        "element": "02-s036:e01",
+        "slide": {
+          "path": "slajdovi/s036_karta_cetiri_promenljive.tex",
+          "anchor": "% element: 02-s036:e01"
+        },
+        "notes": null,
+        "change": "Izvorno nastavno objašnjenje vraćeno i preformulisano na slajdu; karte i odobrene vrednosti očuvane.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s036:e02",
+        "slide": {
+          "path": "slajdovi/s036_karta_cetiri_promenljive.tex",
+          "anchor": "% element: 02-s036:e02"
+        },
+        "notes": {
+          "path": "beleske/s036.tex",
+          "anchor": "% element: 02-s036:e02"
+        },
+        "change": "Izvorno nastavno objašnjenje vraćeno i preformulisano na slajdu; karte i odobrene vrednosti očuvane. Beleške dodatno razjašnjavaju izvorno zamišljeno presavijanje oko obe ose.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s036:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s036.tex",
+          "anchor": "% element: 02-s036:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s037": [
+      {
+        "element": "02-s037:e01",
+        "slide": {
+          "path": "slajdovi/s037_karta_pet_promenljivih.tex",
+          "anchor": "% element: 02-s037:e01"
+        },
+        "notes": null,
+        "change": "Izvorno nastavno objašnjenje vraćeno i preformulisano na slajdu; karte i odobrene vrednosti očuvane.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s037:e02",
+        "slide": {
+          "path": "slajdovi/s037_karta_pet_promenljivih.tex",
+          "anchor": "% element: 02-s037:e02"
+        },
+        "notes": null,
+        "change": "Izvorno nastavno objašnjenje vraćeno i preformulisano na slajdu; karte i odobrene vrednosti očuvane.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s037:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s037.tex",
+          "anchor": "% element: 02-s037:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s038": [
+      {
+        "element": "02-s038:e01",
+        "slide": {
+          "path": "slajdovi/s038_karta_sest_promenljivih.tex",
+          "anchor": "% element: 02-s038:e01"
+        },
+        "notes": null,
+        "change": "Četiri izvorne karte očuvane uz kvadratna polja, manje indekse i raspored u jednom redu.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s038:e02",
+        "slide": {
+          "path": "slajdovi/s038_karta_sest_promenljivih.tex",
+          "anchor": "% element: 02-s038:e02"
+        },
+        "notes": {
+          "path": "beleske/s038.tex",
+          "anchor": "% element: 02-s038:e02"
+        },
+        "change": "Izvorno objašnjenje preklapanja u 4D prostoru i svi primeri sada su vidljivi na slajdu; beleške dodatno razjašnjavaju binarni odnos slojeva uz kratko povezivanje sa preklapanjem.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s038:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s038.tex",
+          "anchor": "% element: 02-s038:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s039": [
+      {
+        "element": "02-s039:e01",
+        "slide": {
+          "path": "slajdovi/s039_redovi_povrsina.tex",
+          "anchor": "% element: 02-s039:e01"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s039:e02",
+        "slide": {
+          "path": "slajdovi/s039_redovi_povrsina.tex",
+          "anchor": "% element: 02-s039:e02"
+        },
+        "notes": {
+          "path": "beleske/s039.tex",
+          "anchor": "% element: 02-s039:e02"
+        },
+        "change": "Vidljiva nastavna celina očuvana; dodatni izvorni detalj u beleškama: Hiperkocke uz ostale navedene pravilne oblike.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s039:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s039.tex",
+          "anchor": "% element: 02-s039:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s040": [
+      {
+        "element": "02-s040:e01",
+        "slide": {
+          "path": "slajdovi/s040_preklapanje_karata_i_susedstvo.tex",
+          "anchor": "% element: 02-s040:e01"
+        },
+        "notes": null,
+        "change": "Izvorno nastavno objašnjenje vraćeno i preformulisano na slajdu; karte i odobrene vrednosti očuvane.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s040:e02",
+        "slide": {
+          "path": "slajdovi/s040_preklapanje_karata_i_susedstvo.tex",
+          "anchor": "% element: 02-s040:e02"
+        },
+        "notes": null,
+        "change": "Izvorne grupe 0/4 i 0/1/4/5 jasno označene otvorenim konturama preko gornje i donje ivice, bez strelica po poslednjem nalogu. Vrednosti i logičke celine neizmenjene.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s040:e03",
+        "slide": {
+          "path": "slajdovi/s040_preklapanje_karata_i_susedstvo.tex",
+          "anchor": "% element: 02-s040:e03"
+        },
+        "notes": null,
+        "change": "Izvorno nastavno objašnjenje vraćeno i preformulisano na slajdu; karte i odobrene vrednosti očuvane. Dve gornje desne karte približene znaku jednakosti, uz očuvana ispravna zaglavlja.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s040:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s040.tex",
+          "anchor": "% element: 02-s040:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s041": [
+      {
+        "element": "02-s041:e01",
+        "slide": {
+          "path": "slajdovi/s041_algoritam_minimizacije.tex",
+          "anchor": "% element: 02-s041:e01"
+        },
+        "notes": null,
+        "change": "Izvorno unošenje vrednosti, oba numerisana koraka, uslov i garancija minimalnosti i pretpostavka dostupnih pravih/komplementnih ulaza vidljivi na slajdu, uz verno preformulisanje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s041:e02",
+        "slide": {
+          "path": "slajdovi/s041_algoritam_minimizacije.tex",
+          "anchor": "% element: 02-s041:e02"
+        },
+        "notes": null,
+        "change": "Izvorno unošenje vrednosti, oba numerisana koraka, uslov i garancija minimalnosti i pretpostavka dostupnih pravih/komplementnih ulaza vidljivi na slajdu, uz verno preformulisanje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s041:e03",
+        "slide": {
+          "path": "slajdovi/s041_algoritam_minimizacije.tex",
+          "anchor": "% element: 02-s041:e03"
+        },
+        "notes": null,
+        "change": "Izvorno unošenje vrednosti, oba numerisana koraka, uslov i garancija minimalnosti i pretpostavka dostupnih pravih/komplementnih ulaza vidljivi na slajdu, uz verno preformulisanje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s041:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s041.tex",
+          "anchor": "% element: 02-s041:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s042": [
+      {
+        "element": "02-s042:e01",
+        "slide": {
+          "path": "slajdovi/s042_neodredjena_stanja_i_literali.tex",
+          "anchor": "% element: 02-s042:e01"
+        },
+        "notes": null,
+        "change": "Potpun izvorni smisao vidljiv: b/X kao proizvoljna vrednost, izbor 1 ili 0 za obe forme ili obrnuto, sažimanje proizvoda, stalni literali/komplementi i izostavljanje promenljivih koje se menjaju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s042:e02",
+        "slide": {
+          "path": "slajdovi/s042_neodredjena_stanja_i_literali.tex",
+          "anchor": "% element: 02-s042:e02"
+        },
+        "notes": null,
+        "change": "Potpun izvorni smisao vidljiv: b/X kao proizvoljna vrednost, izbor 1 ili 0 za obe forme ili obrnuto, sažimanje proizvoda, stalni literali/komplementi i izostavljanje promenljivih koje se menjaju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s042:e03",
+        "slide": {
+          "path": "slajdovi/s042_neodredjena_stanja_i_literali.tex",
+          "anchor": "% element: 02-s042:e03"
+        },
+        "notes": null,
+        "change": "Potpun izvorni smisao vidljiv: b/X kao proizvoljna vrednost, izbor 1 ili 0 za obe forme ili obrnuto, sažimanje proizvoda, stalni literali/komplementi i izostavljanje promenljivih koje se menjaju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s042:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s042.tex",
+          "anchor": "% element: 02-s042:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s043": [
+      {
+        "element": "02-s043:e01",
+        "slide": {
+          "path": "slajdovi/s043_primer_minimizacije_karnoovom_kartom.tex",
+          "anchor": "% element: 02-s043:e01"
+        },
+        "notes": null,
+        "change": "Potpunije vidljivo izvorno objašnjenje, preformulisano uz očuvanje značenja i istaknute ključne tvrdnje; formule i karte neizmenjene.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s043:e02",
+        "slide": {
+          "path": "slajdovi/s043_primer_minimizacije_karnoovom_kartom.tex",
+          "anchor": "% element: 02-s043:e02"
+        },
+        "notes": null,
+        "change": "Potpunije vidljivo izvorno objašnjenje, preformulisano uz očuvanje značenja i istaknute ključne tvrdnje; formule i karte neizmenjene.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s043:e03",
+        "slide": {
+          "path": "slajdovi/s043_primer_minimizacije_karnoovom_kartom.tex",
+          "anchor": "% element: 02-s043:e03"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s043:e04",
+        "slide": {
+          "path": "slajdovi/s043_primer_minimizacije_karnoovom_kartom.tex",
+          "anchor": "% element: 02-s043:e04"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s043:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s043.tex",
+          "anchor": "% element: 02-s043:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s044": [
+      {
+        "element": "02-s044:e01",
+        "slide": {
+          "path": "slajdovi/s044_minimizacija_proizvoda_zbirova.tex",
+          "anchor": "% element: 02-s044:e01"
+        },
+        "notes": null,
+        "change": "Potpunije vidljivo izvorno objašnjenje, preformulisano uz očuvanje značenja i istaknute ključne tvrdnje; formule i karte neizmenjene.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s044:e02",
+        "slide": {
+          "path": "slajdovi/s044_minimizacija_proizvoda_zbirova.tex",
+          "anchor": "% element: 02-s044:e02"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s044:e03",
+        "slide": {
+          "path": "slajdovi/s044_minimizacija_proizvoda_zbirova.tex",
+          "anchor": "% element: 02-s044:e03"
+        },
+        "notes": null,
+        "change": "Potpunije vidljivo izvorno objašnjenje, preformulisano uz očuvanje značenja i istaknute ključne tvrdnje; formule i karte neizmenjene.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s044:e04",
+        "slide": {
+          "path": "slajdovi/s044_minimizacija_proizvoda_zbirova.tex",
+          "anchor": "% element: 02-s044:e04"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s044:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s044.tex",
+          "anchor": "% element: 02-s044:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s045": [
+      {
+        "element": "02-s045:e01",
+        "slide": {
+          "path": "slajdovi/s045_poredjenje_broja_ulaza.tex",
+          "anchor": "% element: 02-s045:e01"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s045:e02",
+        "slide": {
+          "path": "slajdovi/s045_poredjenje_broja_ulaza.tex",
+          "anchor": "% element: 02-s045:e02"
+        },
+        "notes": null,
+        "change": "Potpunije vidljivo izvorno objašnjenje, preformulisano uz očuvanje značenja i istaknute ključne tvrdnje; formule i karte neizmenjene.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s045:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s045.tex",
+          "anchor": "% element: 02-s045:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s046": [
+      {
+        "element": "02-s046:e01",
+        "slide": {
+          "path": "slajdovi/s046_poredjenje_broja_cipova.tex",
+          "anchor": "% element: 02-s046:e01"
+        },
+        "notes": null,
+        "change": "Potpunije izvorno objašnjenje vraćeno na slajd, uključujući podatke o kućištima i oba računa; beleške zadržavaju dodatno tumačenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s046:e02",
+        "slide": {
+          "path": "slajdovi/s046_poredjenje_broja_cipova.tex",
+          "anchor": "% element: 02-s046:e02"
+        },
+        "notes": null,
+        "change": "Potpunije izvorno objašnjenje vraćeno na slajd, uključujući podatke o kućištima i oba računa; beleške zadržavaju dodatno tumačenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s046:e03",
+        "slide": {
+          "path": "slajdovi/s046_poredjenje_broja_cipova.tex",
+          "anchor": "% element: 02-s046:e03"
+        },
+        "notes": null,
+        "change": "Potpunije izvorno objašnjenje vraćeno na slajd, uključujući podatke o kućištima i oba računa; beleške zadržavaju dodatno tumačenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s046:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s046.tex",
+          "anchor": "% element: 02-s046:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s047": [
+      {
+        "element": "02-s047:e01",
+        "slide": {
+          "path": "slajdovi/s047_grupisanje_proizvoda.tex",
+          "anchor": "% element: 02-s047:e01"
+        },
+        "notes": null,
+        "change": "Potpunije izvorno objašnjenje; s048 podeljen na dva odobrena dela. Izvorne formule i računi očuvani, dodatno nastavno objašnjenje u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s047:e02",
+        "slide": {
+          "path": "slajdovi/s047_grupisanje_proizvoda.tex",
+          "anchor": "% element: 02-s047:e02"
+        },
+        "notes": null,
+        "change": "Potpunije izvorno objašnjenje; s048 podeljen na dva odobrena dela. Izvorne formule i računi očuvani, dodatno nastavno objašnjenje u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s047:e03",
+        "slide": {
+          "path": "slajdovi/s047_grupisanje_proizvoda.tex",
+          "anchor": "% element: 02-s047:e03"
+        },
+        "notes": null,
+        "change": "Potpunije izvorno objašnjenje; s048 podeljen na dva odobrena dela. Izvorne formule i računi očuvani, dodatno nastavno objašnjenje u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s047:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s047.tex",
+          "anchor": "% element: 02-s047:d01"
+        },
+        "change": "Potpunije izvorno objašnjenje; s048 podeljen na dva odobrena dela. Izvorne formule i računi očuvani, dodatno nastavno objašnjenje u beleškama.",
+        "status": "provereno"
+      }
+    ],
+    "02-s048": [
+      {
+        "element": "02-s048:e01",
+        "slide": {
+          "path": "slajdovi/s048_broj_cipova_ni_realizacije.tex",
+          "anchor": "% element: 02-s048:e01"
+        },
+        "notes": null,
+        "change": "Potpunije izvorno objašnjenje; s048 podeljen na dva odobrena dela. Izvorne formule i računi očuvani, dodatno nastavno objašnjenje u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s048:e02",
+        "slide": {
+          "path": "slajdovi/s048_broj_cipova_ni_realizacije.tex",
+          "anchor": "% element: 02-s048:e02"
+        },
+        "notes": null,
+        "change": "Potpunije izvorno objašnjenje; s048 podeljen na dva odobrena dela. Izvorne formule i računi očuvani, dodatno nastavno objašnjenje u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s048:e04",
+        "slide": {
+          "path": "slajdovi/s048_broj_cipova_ni_realizacije.tex",
+          "anchor": "% element: 02-s048:e04"
+        },
+        "notes": null,
+        "change": "Potpunije izvorno objašnjenje; s048 podeljen na dva odobrena dela. Izvorne formule i računi očuvani, dodatno nastavno objašnjenje u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s048:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s048.tex",
+          "anchor": "% element: 02-s048:d01"
+        },
+        "change": "Potpunije izvorno objašnjenje; s048 podeljen na dva odobrena dela. Izvorne formule i računi očuvani, dodatno nastavno objašnjenje u beleškama.",
+        "status": "provereno"
+      }
+    ],
+    "02-s048b": [
+      {
+        "element": "02-s048b:e01",
+        "slide": {
+          "path": "slajdovi/s048b_nastavak.tex",
+          "anchor": "% element: 02-s048b:e01"
+        },
+        "notes": null,
+        "change": "Potpunije izvorno objašnjenje; s048 podeljen na dva odobrena dela. Izvorne formule i računi očuvani, dodatno nastavno objašnjenje u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s048b:e02",
+        "slide": {
+          "path": "slajdovi/s048b_nastavak.tex",
+          "anchor": "% element: 02-s048b:e02"
+        },
+        "notes": null,
+        "change": "Potpunije izvorno objašnjenje; s048 podeljen na dva odobrena dela. Izvorne formule i računi očuvani, dodatno nastavno objašnjenje u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s048b:e03",
+        "slide": {
+          "path": "slajdovi/s048b_nastavak.tex",
+          "anchor": "% element: 02-s048b:e03"
+        },
+        "notes": null,
+        "change": "Potpunije izvorno objašnjenje; s048 podeljen na dva odobrena dela. Izvorne formule i računi očuvani, dodatno nastavno objašnjenje u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s048b:e04",
+        "slide": {
+          "path": "slajdovi/s048b_nastavak.tex",
+          "anchor": "% element: 02-s048b:e04"
+        },
+        "notes": null,
+        "change": "Potpunije izvorno objašnjenje; s048 podeljen na dva odobrena dela. Izvorne formule i računi očuvani, dodatno nastavno objašnjenje u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s048b:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s048b.tex",
+          "anchor": "% element: 02-s048b:d01"
+        },
+        "change": "Potpunije izvorno objašnjenje; s048 podeljen na dva odobrena dela. Izvorne formule i računi očuvani, dodatno nastavno objašnjenje u beleškama.",
+        "status": "provereno"
+      }
+    ],
+    "02-s049": [
+      {
+        "element": "02-s049:e01",
+        "slide": {
+          "path": "slajdovi/s049_broj_cipova_nili_realizacije.tex",
+          "anchor": "% element: 02-s049:e01"
+        },
+        "notes": null,
+        "change": "Dva odobrena dela originalnog s049, potpunija izvorna objašnjenja i međukoraci; dodatno nastavno tumačenje u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s049:e02",
+        "slide": {
+          "path": "slajdovi/s049_broj_cipova_nili_realizacije.tex",
+          "anchor": "% element: 02-s049:e02"
+        },
+        "notes": null,
+        "change": "Dva odobrena dela originalnog s049, potpunija izvorna objašnjenja i međukoraci; dodatno nastavno tumačenje u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s049:e04",
+        "slide": {
+          "path": "slajdovi/s049_broj_cipova_nili_realizacije.tex",
+          "anchor": "% element: 02-s049:e04"
+        },
+        "notes": null,
+        "change": "Dva odobrena dela originalnog s049, potpunija izvorna objašnjenja i međukoraci; dodatno nastavno tumačenje u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s049:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s049.tex",
+          "anchor": "% element: 02-s049:d01"
+        },
+        "change": "Dva odobrena dela originalnog s049, potpunija izvorna objašnjenja i međukoraci; dodatno nastavno tumačenje u beleškama.",
+        "status": "provereno"
+      }
+    ],
+    "02-s049b": [
+      {
+        "element": "02-s049b:e01",
+        "slide": {
+          "path": "slajdovi/s049b_nastavak.tex",
+          "anchor": "% element: 02-s049b:e01"
+        },
+        "notes": null,
+        "change": "Dva odobrena dela originalnog s049, potpunija izvorna objašnjenja i međukoraci; dodatno nastavno tumačenje u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s049b:e02",
+        "slide": {
+          "path": "slajdovi/s049b_nastavak.tex",
+          "anchor": "% element: 02-s049b:e02"
+        },
+        "notes": null,
+        "change": "Dva odobrena dela originalnog s049, potpunija izvorna objašnjenja i međukoraci; dodatno nastavno tumačenje u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s049b:e03",
+        "slide": {
+          "path": "slajdovi/s049b_nastavak.tex",
+          "anchor": "% element: 02-s049b:e03"
+        },
+        "notes": null,
+        "change": "Dva odobrena dela originalnog s049, potpunija izvorna objašnjenja i međukoraci; dodatno nastavno tumačenje u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s049b:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s049b.tex",
+          "anchor": "% element: 02-s049b:d01"
+        },
+        "change": "Dva odobrena dela originalnog s049, potpunija izvorna objašnjenja i međukoraci; dodatno nastavno tumačenje u beleškama.",
+        "status": "provereno"
+      }
+    ],
+    "02-s050": [
+      {
+        "element": "02-s050:e01",
+        "slide": {
+          "path": "slajdovi/s050_pojava_laznih_nula_i_jedinica.tex",
+          "anchor": "% element: 02-s050:e01"
+        },
+        "notes": null,
+        "change": "Potpunije izvorno objašnjenje sada vidljivo na slajdu; postojeće šeme i dijagrami neizmenjeni, dodatno tumačenje ostaje u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s050:e02",
+        "slide": {
+          "path": "slajdovi/s050_pojava_laznih_nula_i_jedinica.tex",
+          "anchor": "% element: 02-s050:e02"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s050:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s050.tex",
+          "anchor": "% element: 02-s050:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s051": [
+      {
+        "element": "02-s051:e01",
+        "slide": {
+          "path": "slajdovi/s051_vremenski_dijagram_hazarda.tex",
+          "anchor": "% element: 02-s051:e01"
+        },
+        "notes": null,
+        "change": "Potpunije izvorno objašnjenje sada vidljivo na slajdu; postojeće šeme i dijagrami neizmenjeni, dodatno tumačenje ostaje u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s051:e02",
+        "slide": {
+          "path": "slajdovi/s051_vremenski_dijagram_hazarda.tex",
+          "anchor": "% element: 02-s051:e02"
+        },
+        "notes": null,
+        "change": "Izvorni element ostaje pokriven neizmenjenim slajdom; beleške ga ne prepisuju.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s051:e03",
+        "slide": {
+          "path": "slajdovi/s051_vremenski_dijagram_hazarda.tex",
+          "anchor": "% element: 02-s051:e03"
+        },
+        "notes": {
+          "path": "beleske/s051.tex",
+          "anchor": "% element: 02-s051:e03"
+        },
+        "change": "Vidljiva nastavna celina očuvana; dodatni izvorni detalj u beleškama: Veza događaja na svim signalima vremenskog dijagrama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s051:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s051.tex",
+          "anchor": "% element: 02-s051:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s052": [
+      {
+        "element": "02-s052:e01",
+        "slide": {
+          "path": "slajdovi/s052_karte_funkcije_sa_hazardom.tex",
+          "anchor": "% element: 02-s052:e01"
+        },
+        "notes": null,
+        "change": "Odobrena formula barC barB+BA odgovara sačuvanim kartama; oba primera razjašnjena nastavnim tekstom, bez odobravanja u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s052:e02",
+        "slide": {
+          "path": "slajdovi/s052_karte_funkcije_sa_hazardom.tex",
+          "anchor": "% element: 02-s052:e02"
+        },
+        "notes": null,
+        "change": "Sve izvorne karte i grupe očuvane; odobrena formula prema jedinicama 0,1,3,7.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s052:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s052.tex",
+          "anchor": "% element: 02-s052:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s053": [
+      {
+        "element": "02-s053:e01",
+        "slide": {
+          "path": "slajdovi/s053_povezivanje_povrsina.tex",
+          "anchor": "% element: 02-s053:e01"
+        },
+        "notes": null,
+        "change": "Potpuniji izvorni tekst o susednim površinama sada vidljiv na slajdu, bez promene karata i funkcije.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s053:e02",
+        "slide": {
+          "path": "slajdovi/s053_povezivanje_povrsina.tex",
+          "anchor": "% element: 02-s053:e02"
+        },
+        "notes": null,
+        "change": "Odobrena formula barC barB+BA+barC A očuvana; izvorno odstupanje od minimalne forme vidljivo, dve početne konture isprekidane i povezujuća puna. Beleške zadržavaju dokaz konsenzusa.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s053:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s053.tex",
+          "anchor": "% element: 02-s053:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ],
+    "02-s054": [
+      {
+        "element": "02-s054:e01",
+        "slide": {
+          "path": "slajdovi/s054_hazardi_i_razlicita_kasnjenja.tex",
+          "anchor": "% element: 02-s054:e01"
+        },
+        "notes": null,
+        "change": "Potpuniji izvorni tekst sada vidljiv: prekrivanje nula/lažna jedinica, više promenljivih ulaza, različita kašnjenja, dodatne komponente i invertori, preuređivanje/minimalnost, heuristika/simulacija i iskustvo. Dodatno tumačenje je u d01 beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s054:e02",
+        "slide": {
+          "path": "slajdovi/s054_hazardi_i_razlicita_kasnjenja.tex",
+          "anchor": "% element: 02-s054:e02"
+        },
+        "notes": null,
+        "change": "Potpuniji izvorni tekst sada vidljiv: prekrivanje nula/lažna jedinica, više promenljivih ulaza, različita kašnjenja, dodatne komponente i invertori, preuređivanje/minimalnost, heuristika/simulacija i iskustvo. Dodatno tumačenje je u d01 beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s054:e03",
+        "slide": {
+          "path": "slajdovi/s054_hazardi_i_razlicita_kasnjenja.tex",
+          "anchor": "% element: 02-s054:e03"
+        },
+        "notes": null,
+        "change": "Potpuniji izvorni tekst sada vidljiv: prekrivanje nula/lažna jedinica, više promenljivih ulaza, različita kašnjenja, dodatne komponente i invertori, preuređivanje/minimalnost, heuristika/simulacija i iskustvo. Dodatno tumačenje je u d01 beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "02-s054:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s054.tex",
+          "anchor": "% element: 02-s054:d01"
+        },
+        "change": "Proverljivo dodatno nastavno objašnjenje; poreklo i dokazi odvojeni od prikazanog teksta.",
+        "status": "provereno"
+      }
+    ]
+  }
+}

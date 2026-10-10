@@ -1,0 +1,28 @@
+% Original: PDF strana 22, gornji slajd.
+\slajdid{02-s043}
+\begin{frame}[label=02-s043]{Primer: minimalni zbir proizvoda}
+\setlength{\parskip}{0pt}
+Na osnovu zahteva za kombinacionom mrežom formirana je polazna Karnoova tabela.
+\par\vspace{1.5mm}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.29\textwidth}\centering
+% element: 02-s043:e01
+\Oznaka{Polazna karta}\par\vspace{2mm}
+\input{slike/tikz/s043_karnoova_tabela.tex}
+\end{column}
+\begin{column}{.29\textwidth}\centering
+% element: 02-s043:e03
+\Oznaka{Pokrivanje jedinica}\par\vspace{2mm}
+\input{slike/tikz/s043_karnoove_grupe.tex}
+\end{column}
+\begin{column}{.38\textwidth}
+% element: 02-s043:e02
+Za minimalnu funkciju u obliku zbira proizvoda prekrivamo sve logičke jedinice površinama najvišeg reda, koristeći po potrebi i neodređeno stanje \(b\).
+\par\vspace{1.5mm}
+Površine objedinjuju proizvode koji se mogu sažeti. U proizvodima ostaju samo literali koji se \alert{\textbf{ne menjaju}} na površini.
+\end{column}
+\end{columns}
+\par\vspace{2mm}
+% element: 02-s043:e04
+\par\Rezultat{\(F=\bar D\bar B+D\bar C\bar A\)}
+\end{frame}

@@ -1,26 +1,25 @@
 \slajdid{04-s023}
-\begin{frame}[label=04-s023]
-\gusttekst
-Jedna ćelija registra – BIT – najmanja količina informacija $b$
-
-Grupa od četiri bita – NIBBLE –\quad $b_3\ b_2\ b_1\ b_0$
-
-Grupa od osam bita – BYTE –\quad $b_7\ b_6\ b_5\ b_4\ b_3\ b_2\ b_1\ b_0$
-
-Grupa od dva bajta, 16 bita - WORD
-
-Grupa od dve reči, 32 bita – DOUBLE WORD
-\vspace{2mm}
+\begin{frame}[label=04-s023]{Bit, bajt i reč}
+\par
+% element: 04-s023:e01 — Bit, nibble, byte, word, double word; dužine i grupisanje
+% element: 04-s023:e02 — Tabela osmobitnog registra Di/bi; isto važi za magistralu
+% element: 04-s023:e03 — Informacija na poziciji Di i tumačenje MSB/LSB
+{\fontsize{10}{12}\selectfont\renewcommand{\arraystretch}{1.0}\begin{tabularx}{\linewidth}{@{}llX@{}}\toprule
+Naziv & Biti & Zapis / grupa\\\midrule
+Bit & 1 & Ćelija registra: najmanja količina informacija $b$\\
+Nibble & 4 & $b_3\ b_2\ b_1\ b_0$\\
+Byte & 8 & $b_7\ b_6\ b_5\ b_4\ b_3\ b_2\ b_1\ b_0$\\
+Word & 16 & Dva bajta\\
+Double word & 32 & Dve reči\\\bottomrule
+\end{tabularx}\par}\par\vspace{1mm}
 \begin{columns}[c,onlytextwidth]
-\column{.77\textwidth}\centering
-8 – bitni registar\par\noindent\input{tabele/s023_registar.tex}\par
-\column{.20\textwidth}\centering\alert{ISTO VAŽI ZA\\MAGISTRALU}
+\column{.77\textwidth}\centering\textbf{8-bitni registar}\par\vspace{1.5mm}
+{\fontsize{10}{12}\selectfont\renewcommand{\arraystretch}{.95}\input{tabele/s023_registar.tex}\par}
+\column{.20\textwidth}\centering\alert{Isto važi za magistralu.}
 \end{columns}
-Na poziciji $D_i$ nalazi se informacija sadržana u bitu $b_i$
-
-Bit $b_i$ nosi informaciju \ldots
-
-$b_7$ – \textit{Most Significant Bit – MSB – bit najveće težine}
-
-$b_0$ – \textit{Least Significant Bit – LSB – bit najmanje težine}
+\par\vspace{1mm}
+\Oznaka{Na poziciji $D_i$ nalazi se informacija sadržana u bitu $b_i$.}
+{\fontsize{10}{12}\selectfont
+$b_7$: \textit{Most Significant Bit} (MSB) — bit najveće težine.\\
+$b_0$: \textit{Least Significant Bit} (LSB) — bit najmanje težine.\par}
 \end{frame}

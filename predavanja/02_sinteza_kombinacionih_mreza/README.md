@@ -1,18 +1,29 @@
 # 02 — Sinteza kombinacionih mreža
 
-Original: `../02 Sinteza kombinacionih mreza.pdf`, 27 PDF strana i 54 izvorna slajda; Digitalna elektronika 1, 2021/22, Katedra za elektroniku, prof. dr Lazar Saranovac.
+Original: `../02 Sinteza kombinacionih mreza.pdf`, 27 PDF strana i 54 izvorna slajda; Digitalna elektronika 1, 2021/22, Katedra za elektroniku, prof. dr Lazar Saranovac. Original i istorijska mapa ostaju neizmenjeni.
 
-Aktuelni redizajn od 2026-10-05 ima **62 projektovana slajda i 62 A4 strane sa beleškama**. Korisnik je odobrio podele s002/s009/s015/s023/s024/s032/s048/s049; nastavci sa sufiksom `b` dolaze neposredno iza izvornog ID-ja. Ostali ID-jevi i njihov međusobni redosled ostaju isti. Potpunije su prikazani originalni s047–s051/s053/s054, s048 i s049 podeljeni su na po dve celine, a obe početne konture na s053 isprekidane su uz samo jednu punu povezujuću konturu. Prethodne dorade i s052 su očuvani. Status: `odobreno` (2026-10-05); sve provere prolaze, nema otvorenih stručnih pitanja. Vidi [izveštaj](provera/redizajn/izvestaj.md), [odluke](provera/redizajn/odluke.md) i [odobrenja podela](provera/redizajn/odobrenje_podela.json).
+Aktuelna verzija od 2026-10-09 ima **65 projektovanih slajdova i 65 A4 strana**: 54 originala, osam ranije odobrenih nastavaka i tri odobrena RTL dodatka. Prethodna verzija sa 62 strane prihvaćena je 2026-10-05; [zapis njenog odobrenja](provera/redizajn/odobrenje_rezultata.json) ostaje neizmenjen. Novi rezultat ima status `ceka_odobrenje`.
 
-[Prezentacija](build/02_sinteza_kombinacionih_mreza.pdf), [beleške](build/02_sinteza_kombinacionih_mreza_beleske.pdf), [uporedni pregled](build/redizajn/pregled/index.html). Izlazi se generišu i ne verzionišu.
+[Prezentacija](build/02_sinteza_kombinacionih_mreza.pdf), [beleške](build/02_sinteza_kombinacionih_mreza_beleske.pdf), [uporedni pregled](build/redizajn/pregled/index.html), [aktuelni izveštaj](provera/redizajn/izvestaj.md).
 
-Korisnik je prihvatio završenu verziju porukom „ok, prihvati 02 prezentaciju. Zavrsili smo sa njom“. [Zapis odobrenja i kontrolne sume](provera/redizajn/odobrenje_rezultata.json) vezuju prihvatanje za aktuelne slajdove i beleške. Ne ponavljati analizu neizmenjenog odobrenog predavanja.
+| Izvorni ID | Dodatni RTL slajd / strana PDF-a | Primer |
+|---|---|---|
+| 02-s021 | 02-s021-rtl01 / 25 | [mreza_zp — zbir proizvoda](kodovi/primeri_sv/02-s021/README.md) |
+| 02-s022 | 02-s022-rtl01 / 27 | [mreza_pz — proizvod zbirova](kodovi/primeri_sv/02-s022/README.md) |
+| 02-s051 | 02-s051-rtl01 / 62 | [mreza_sa_hazardom — simulacioni model](kodovi/primeri_sv/02-s051/README.md) |
 
-```bash
+Svaki primer ima automatski testbench i **Testbench bez provere**, koji sadrži samo pobude, čekanja i snimanje VCD-a. Komande za simulaciju su u README-u svakog primera. Model s051 zadržava izvornu pretpostavku da kasni samo invertor; za T=5 ns studentska pobuda pokazuje lažnu nulu od 20 do 25 ns. [Prikaz iz stvarnog VCD-a](build/redizajn/systemverilog/s051_lazna_nula.png).
+
+```sh
 make -C predavanja LECTURE=02_sinteza_kombinacionih_mreza all
 make -C predavanja LECTURE=02_sinteza_kombinacionih_mreza notes
 make -C predavanja LECTURE=02_sinteza_kombinacionih_mreza review
+make -C predavanja LECTURE=02_sinteza_kombinacionih_mreza check-sv
 make -C predavanja LECTURE=02_sinteza_kombinacionih_mreza check
 ```
 
-Istorijska `provera/mapa.json` čuva 54 izvorne lokacije i ID-ja; prethodna `provera/pregled.json` prati rekonstrukciju. Novi inventar, pokrivenost, odluke i aktuelne potvrde vode se u `provera/redizajn/`. Istorijska rekonstrukcija je završena 54/54; njene potvrde ne zamenjuju pregled redizajna.
+`check-sv` koristi lokalni Docker image ili instalirane Verilator/Icarus; `HDL_LOCAL=1` izričito bira lokalne alate. Izlazi su u `build/redizajn/systemverilog/`; generisani PDF/PNG/VCD/HTML i simulatorovi izlazi ne verzionišu se.
+
+[Stvarni nalog za dodatke](provera/redizajn/odobrenje_rtl.json), [odluke](provera/redizajn/odluke.md) i [odobrenja ranijih podela](provera/redizajn/odobrenje_podela.json) odvojeni su od prihvatanja rezultata. [Poređenje](provera/redizajn/poredjenje_rtl_dodataka.json) potvrđuje da svih 62 prethodna slajda i tela njihovih A4 prikaza ostaju pikselno isti; na pomerenim A4 stranama menja se samo broj u podnožju.
+
+Prethodni izvori, evidencija i izveštaj sačuvani su u [istoriji](provera/redizajn/istorija/pre-rtl-primera-2026-10-09/izvestaj.md), a tadašnji izlazi u `build/redizajn/pre-rtl-primera-2026-10-09/`. Ne ponavljati sadržinsku analizu neizmenjenih originalnih slajdova. Provera zavisnosti, odobrenja i pogođenih prikaza obavezna je pri sledećoj izmeni.

@@ -1,0 +1,784 @@
+{
+  "slides": {
+    "06-s001": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Naslov Kodovi, autorstvo, katedra i školska godina. Naslovna beleška sadrži samo ID; nema veštačkog popunjavanja. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "315c1485137d91c0668fd153995ff57574d1a98d88d0ecbed5b33dbfac34685e",
+        "baseline_render_sha256": "a037c885a000a7fba1e4af22efa894c8f45e43f7857d2d3e8cc6931afcf33c3a",
+        "new_render_sha256": "b3ed9c033a82a96e6c904a358df8601c9e87129409ecfd5c71793f45b96c5f59",
+        "notes_render_sha256": "dbf8d36984d8f2fb659b97efc80caf3ce87192837e8f34e843d9681c0ef9fade",
+        "slide_sources_sha256": "bec8a34b39316025fb42589bfa2b4a478ca2484ebfe33841a35ea45a8f8de3b7",
+        "notes_sources_sha256": "15bd8e7e1c47403f44fdb9278476f0403227703796a7a300084af02f2fb56915",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "3e7e39a87880bac33101d33a948dbda1f194bd12de0630964c6ee90b4a511349",
+        "coverage_sha256": "ad3cea95794714e058d4c82ec5955d4a12aec3fa3507810586e44e27c303ccbe"
+      }
+    },
+    "06-s002": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Kodovanje drugih, nebrojnih informacija nulama i jedinicama; Statusni registar i sva tri naziva PSR, Flag register, CCR; Četiri zastavice C, Z, S/N, V/O/W i njihova značenja; Programska provera prekoračenja i preduzimanje akcije. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "1812499c715507eb0bbf2440baaf48e6460905d110185ca709f9ea34dac72d9f",
+        "baseline_render_sha256": "982468bc747872ac3c58583c12bb126bbef38dc72c46c3515bf6c28981304186",
+        "new_render_sha256": "24207653a4dca9fec195fa81fdc21210985359c7e2262a18dfb6589fe30fea6d",
+        "notes_render_sha256": "cba2820aa43bff2d2b2911f42b9292218fe9e41160a492b7ea45a039cb745d77",
+        "slide_sources_sha256": "a5b64d54b00cc4bf0e83039cda70802bce409c2466a48df6f96a7a47c263d651",
+        "notes_sources_sha256": "cd7ff4e096d6ce7c503f5152f54b4ce4a1001aacf31683f6277f86413435b686",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "50aa549d2d414d9f767fdf0ae91ff4a0f6aa830edfcd03b9f6ca29be065f3f87",
+        "coverage_sha256": "a9c9a298baf66be87e252e2008078e0875a22aba2b4d513f72b2a9c2cdc13996"
+      }
+    },
+    "06-s003": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Kodovanje slova, brojeva i oznaka u tekstu i na ekranu; ASCII/ANSI i pun naziv ISO; USASCII: svih 128 ćelija, kontrolne skraćenice, štampajući znaci, sedam bita zaglavlja, strelice redova/kolona; Oba heksadekadna primera: cifra 1 i slovo P/p; Windows-1252, UTF-8 i ISO 8859. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "f5a18963d5173daf65531d8e6e80cd231f8bd4ad861d0d1633a1fad2ec11a68e",
+        "baseline_render_sha256": "91d21c62652306f32bc94457f5e9c6e57ef635d9f5040e77c5d677221c500445",
+        "new_render_sha256": "1a866d151cefb6723d3702096c28f175a64696091cd4e5ee2392c5eaee75c2e2",
+        "notes_render_sha256": "d7a1ac0837d265f27d46693f8b333039dc84d8fce00c027fbfb299abd8ca92d9",
+        "slide_sources_sha256": "1b7af2d33fe1bd767257c874f6d5b2d4424ef02c87a63f61ee6d50619f9398a9",
+        "notes_sources_sha256": "1aa30936eb4cfc1adb13c7ac0c348efb31477a83fce7d21eed575be9c6c37f28",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "2dd746a6aa4f2b80807f9158ba18c162404cc4cf7a5e57c3c78fdf04fb267ab6",
+        "coverage_sha256": "2bfbe1a08ed98c64a291e8f730dd1de749b3d935c3170f32568c80f189103601"
+      }
+    },
+    "06-s004": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: BCD i puno značenje naziva; Svih deset cifara i četiri kolone kodova 8421, više3, 2421, 84−2−1; Crveno istaknuti autokomplementarni primeri i zajednička oznaka tri kolone. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "e420a31ee4bb20cf3ae54fa26e226a0dfa16f1b206aff7aa64b827cbc652daac",
+        "baseline_render_sha256": "c56c2f48840044caf70d7a51af3f9b89b56ff49d3e96281206dcf7e334495ec8",
+        "new_render_sha256": "0e153a46cfeaf8df9b1221c1586f7eba89ecd399f16b51711a38046702cda9f7",
+        "notes_render_sha256": "312a64d6239bbf8ca234a70adb1653300cccc01fc1d92adcbe6a1e8e38a6896c",
+        "slide_sources_sha256": "49f789d2d1d4adebeef15e1967c7c0acd3fe4e4b5fa61ee6945b12a94c27d95e",
+        "notes_sources_sha256": "7df8c17f5e75d8992507ff683d12326cd077313b4a159088e131ce12d69abe18",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "a144f5fc5af12776b797acf99ff3c51e32bb35514f051fa469509e75b315e591",
+        "coverage_sha256": "7fd3cb90729a3f05fe8381cb4153dd05e99b1f5ee22c584b88d18deac478b368"
+      }
+    },
+    "06-s005": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Prikaz cifara preko deljenja BV/10 i ostatka; ponavljanje postupka; Račun 59+13 i oba BCD operanda; Svih šest redova sabiranja/korekcije, prenos i cifre 7/2; Korekcija −10+16=+6 i komplement osnove. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "a03553e20c4bf5ebc086e07777b1a96e3913d5351c5dcd577cbf341a6e2e977e",
+        "baseline_render_sha256": "1c57f9ef9be909386cc6c43c88c1fa38f11506639ce23174b97e6154d3f317ae",
+        "new_render_sha256": "1bb3ed03148e0d6a07c8556137e9614663e8491e1c8c5a252753d117824ec1bd",
+        "notes_render_sha256": "654271911213f797869314e14f025426c4a2cd818cc6577d9335c948ec25ed3e",
+        "slide_sources_sha256": "0b8483ce0aaa79d3d369216e1a1fb7c5c2956aefa9e09931e955e35384df727f",
+        "notes_sources_sha256": "fa6b0c828e723dc16c10e470328b2e282a06d2dda2f551c8fb6aa6a8c297925b",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "c98823a05295dfd46dfb0ae64f3ed9ec09f247dccb53e3a6c6d7b5e09615544c",
+        "coverage_sha256": "544c1bcb9d707425e99634739a640153b3463e137cb2e15591c385f3462f5ac6"
+      }
+    },
+    "06-s006": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Račun 43−19 i transformacija u 43+81 sa oba BCD zapisa; Svih pet redova računa, korekcija desetica i izlazni prenos; Konačne cifre 2 i 4. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "9f89cdf1d5746aed07e23bb74c4831a41a6ddf57d2b706dee9cae5d846bc116e",
+        "baseline_render_sha256": "899822508610ad64375df39c24b24711e1540d51778e6395c32fa3c83033a093",
+        "new_render_sha256": "717ba90e8dc73736873d5c86e02cf495654375e94a53f699c9d48f7c63c81bab",
+        "notes_render_sha256": "7802f0f8148ffa1e734c4344ac3ec36ccf731bc5f90e198865d287ec58cfcdf7",
+        "slide_sources_sha256": "01f8cf72837aacf62be2b8681003acb09c733d385b7b1bc148728dddcbe96794",
+        "notes_sources_sha256": "5104ecdec05d5cd906a6f1e3d5335743a07182582a4def8589e3e3f3c7b9a16c",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "f09d33369bcef8aea8c6b643074ad0c4a58a3ec1042046e2e668eab8890a2f20",
+        "coverage_sha256": "a5d46c23edd8b2fc0aa00f1878348cd261440fb5849dd59e594a2461edf72825"
+      }
+    },
+    "06-s007": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "problem",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Izvorni prvi red 19−53 i nastavak 19−43, sa svim BCD operandima; Šest redova računa: zbir, prenos, dodavanje6, rezultat76; Objašnjenje +16 prema +10, dodavanje6 na donju cifru; Izvorna jednakost 76₁₀=−24₁₀. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Izvorna stručna pitanja na ovom ID-ju ostaju otvorena, kategorije označene kao problem; predlozi i dokazi u otvorena_pitanja.md. Pokrivenost potvrđuje da gradivo nije izostavljeno, ne stručnu ispravnost spornih zapisa.",
+      "evidence": {
+        "source_render_sha256": "5ae0b4ad78bc8872ee0c2d915e3b11ff2c3e77a7b952d0921add6d8a75b5e127",
+        "baseline_render_sha256": "e5d105ced3ee4407b4628a493895771a1092b1166ad74e6e5384b54e6b7c3e5b",
+        "new_render_sha256": "109737f403c40c3810500c94b845431f87ce0f01be35c1414aaccc420063efb9",
+        "notes_render_sha256": "67f76354dc48062a34bfdf3d376fdbda040508c31304bae9603ddae8a85ecd4a",
+        "slide_sources_sha256": "7682f595534d9b7e761ff356ef8e78b008b23550e9ef928bdb75a88dbe4e14aa",
+        "notes_sources_sha256": "458b314489e10f1e940a23b90dd3c22214231400002477389cfe0d1f9af965b5",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "115648de9019632381a16908cca32398ec1df161f530740c2da8a9009f3edae8",
+        "coverage_sha256": "b5993ac5339d1a93ff3ac0c18b80ba6774718dcfebbcd084129bbddf95b23ee2"
+      }
+    },
+    "06-s008": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Čitanje binarne vrednosti sleva nadesno, pravila dupliranja za0 i1; Svih osam prefiksa 11110011 i međuvrednosti 1,3,7,15,30,60,121,243; Potpuni polinom u osnovi2 i Hornerovo preuređenje do c₂,c₁,c₀. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "efb9fd9c9277acd565f0de5fe380a4d56f11b5d915c2a74dd9b0bebab93a472c",
+        "baseline_render_sha256": "76b418ec7fe8a1bcf0290545df5d1f56b0a2d83ba929d0d6508ff55450b07478",
+        "new_render_sha256": "fe5862e382e6d631121723ba92fdc87d2189a4a81305ed8a71e8cba4a7d9a46f",
+        "notes_render_sha256": "f6d5d9a46987540301fb402d8722150e90fa09a61dc4ce1cd6871789e9cdfe95",
+        "slide_sources_sha256": "6a6996957b62d5e8a42244213f4068059125f475339f1ffdee488b327a8f9ec5",
+        "notes_sources_sha256": "c6a1319d9521d4d88e7d351ae729327151f402d89da59750dce19293882f5da9",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "c57fbf23310880130d0ba6f4d5d23da97cbd3ffa921e77e7351ec7152ee435f7",
+        "coverage_sha256": "b01bcf2906c76485a1780f860b3856f4c13621a768c156dcc0cc13289f7f76d7"
+      }
+    },
+    "06-s009": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Ulaz11110011 i prvih sedam redova tabele korekcije6; Preostali redovi, koraci60/121/243 i svi izdvojeni prenosi. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "192d40c12b57d00541715a4dcb1496ab75ae33dcdca5bbba69507a8fb1442d93",
+        "baseline_render_sha256": "34b4cb42fdb71432a9ecc77e31c3440cce82507bbdf9645ddde95f28c095635a",
+        "new_render_sha256": "c285a07a1f5c4a45ae41dad3645bd8ace46f46f40c8e9ff51f13107f2e970fb9",
+        "notes_render_sha256": "92732e269a27cc265603578a42b60d0f71f6a65c61d0a46c18c5de285ebd911d",
+        "slide_sources_sha256": "bae4ea2931901e630e140c4b65c8b46ebef3b8b117ede6e1e2f5d6ec515a79c1",
+        "notes_sources_sha256": "ef29fd804e98ef593cf635c32f6d02d30f2b04de90b529ddbac35029c19a9b24",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "aeb9a3b14434928caaff00284d7b55f95308c5dfeca4345c3c5bab24f5361b7e",
+        "coverage_sha256": "78becad666676f51517c4627b03dc0659289c67a1a9ccc0c2772bf369949a3c7"
+      }
+    },
+    "06-s010": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Svih17 redova druge tabele: ulaz, korekcije3 i svi međurezultati; Izdvojene grupe i konačni BCD243. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "3dd15e985c61e828cf34412f5b0de005bd09e84ff78d21c66e0cf5bff621f68a",
+        "baseline_render_sha256": "c6bc8f012ed90982bcbb1d05f03c1ad6005c6fff3f3a66de5d5811d7bff0f497",
+        "new_render_sha256": "04277ccade274b26a79e0c12b3425ed11459c9e0bdae6b1e626741d46467bd93",
+        "notes_render_sha256": "023a5660dfc832d659e0c437c09a71fa5b7da116c86706c38cff251278712c79",
+        "slide_sources_sha256": "0d85c6d07d3b1eeab4cb0e541613223ec679c1b7fa3689e31e043edd4e606937",
+        "notes_sources_sha256": "a018c4c7a21a600b2c50db012dc6ffd71f85230b63c7f1481485ec34b3e0931e",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "45bf016ddd4f5b33b487b49af64478fe7da0622861ffc4012d1b7f0b3b5f9f85",
+        "coverage_sha256": "af661e80bfb67bb3ae22c7306cb86f42da2e15cb20e41e3c29606655f0f5e627"
+      }
+    },
+    "06-s011": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Četiri koraka Shift and Add-3; završetak nakon osam pomeraja pre korekcije; Cela tabela17redova: početak, osam pomeraja, tri ADD3 koraka i rezultati; Konačne decimalne kolone2,4,3. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "0a4be74f98c93bcb8acdaf0a268551bb79c46e2b1f16f5fd707782a181be1c72",
+        "baseline_render_sha256": "d8b49a0b3b0c4d85f2cc468a87d65666958ea3cc6fde8182804f876553f88f62",
+        "new_render_sha256": "a676c1ec0f308c9d2fbfd470ecaa9fc992e8fa5806512aaca0fb1276f2d06c59",
+        "notes_render_sha256": "79505318c845b8e6f5a717ce96fb960620d68d104081d907f5974b372b293037",
+        "slide_sources_sha256": "5826bb3b662d65b4ae4a78f26fe997ae9929adc40ca4b8ab5cd27041e4c3cf80",
+        "notes_sources_sha256": "8b4c1431d8dda6a449ab9a93de82e9be77c5c2bb8f23af10b4c03bb84472d0ce",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "f413d1098112cc39b5576c33302ff37d3e053a048ea4a69153b6b722560dbf81",
+        "coverage_sha256": "1d925842df1542517637624eeadb3071676496cfa745dc9d4d2a885551ebbda3"
+      }
+    },
+    "06-s012": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: IEEE754, puno značenje IEEE i formula vrednosti; Bit znaka S i obe vrednosti; Mantisa1.F, frakcija i neupisani skriveni bit; Eksponent E−B, k bita, B=2^(k−1)−1 i zapis SEF. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "c8da6a055388680a9fdcfbb95f96917c3d8af6f1301d95d00e1492fd3ce08740",
+        "baseline_render_sha256": "cf0d09deaeec6a7f489383e1ac87cfc93f62ce92ea4c77cb1a6223a61641be3c",
+        "new_render_sha256": "463d56ad906c63fb60097a915459315b891fee0ef76a4327f53653759976ab07",
+        "notes_render_sha256": "e4e971da27ff4c964cc0a3d57b6114def8267e7f94cfac49bdfad33be59b120e",
+        "slide_sources_sha256": "a4cd6c1c3cf32c10e624072cff58f02f73e3895937fe6d22cb7044162f0f5018",
+        "notes_sources_sha256": "7fcfe48935e617c65ceda125e4381783dd9979a29877dcc654a8d40b65753bc5",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "8117dd6ced9b2909eb881ae2caec5bb8032616dde1271310c4d536ea6dddd6d2",
+        "coverage_sha256": "58675b01c97ee17a1f16596806651a3f6d6adf98a1064a8abb5f0aa2f0df6455"
+      }
+    },
+    "06-s013": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Primer13.25: svi koraci normalizacije, znak, frakcija, eksponent i izvorna kodna reč; Druga kodna reč: sva polja, mantisa i eksponent7; Izvorni završni lanac V=−101001₂=−164₁₀. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Izvorna stručna pitanja na ovom ID-ju ostaju otvorena, kategorije označene kao problem; predlozi i dokazi u otvorena_pitanja.md. Pokrivenost potvrđuje da gradivo nije izostavljeno, ne stručnu ispravnost spornih zapisa.",
+      "evidence": {
+        "source_render_sha256": "c24fb5ccfdb9144c321cb3deaf08b650989fa923c8c9eca72030ada4bcb2c8d6",
+        "baseline_render_sha256": "e2cf3ff7889c140a167f8c16ebb65ac2e0708970c1635cec146640508922c0af",
+        "new_render_sha256": "3f4a11a1ca5fd66ef7ffcdf96248516a3825d2aedb475205eadc1bb090108852",
+        "notes_render_sha256": "092d2f58d8b184fdb7efbb41950166a80d0d2d3bb4601a25428d62d8c0cfbaff",
+        "slide_sources_sha256": "765f4d952563ac579ab20319b88cedd24f0777f147c961fa8111d823015fb47e",
+        "notes_sources_sha256": "b7010911fbce5c348af2332434a97ddf1da2e1acf26c8fae8bf17b6f957de8f5",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "37874a9a6307d4151ed87c27c29a7ee4ff17e1f5d934f96b9e8735f12512c577",
+        "coverage_sha256": "898e888a61bde1f1ae030a3851eea89f8b8865cb38640fa43a736d6cbb8cc37a"
+      }
+    },
+    "06-s014": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Normalne vrednosti: izvorni uslov1<E<254 i formula; NaN i beskonačnosti sa oba znaka; Subnormalni brojevi i gradual underflow; formula sa0.F; Pozitivna i negativna nula. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Izvorna stručna pitanja na ovom ID-ju ostaju otvorena, kategorije označene kao problem; predlozi i dokazi u otvorena_pitanja.md. Pokrivenost potvrđuje da gradivo nije izostavljeno, ne stručnu ispravnost spornih zapisa.",
+      "evidence": {
+        "source_render_sha256": "99753d12aefb65ca2c7e753644ab0e62b6075cc4e8ea017ea761900f98d19a83",
+        "baseline_render_sha256": "0a8d9d14d608a1569a0b5ee753a97930289eaf1954456270adbc325b97a268aa",
+        "new_render_sha256": "e674747fe5bb02657ad45f81b35136607e442a0955f860d905fdeafdf0f6d3e1",
+        "notes_render_sha256": "d4e2e5df23298e9b8d36d696db3a7930e32d06d583abd68366c19f8013f4117a",
+        "slide_sources_sha256": "304a02f12721cecbbedbc184dfd9cd5a0ccf254ece399a987c266389c1b7f95c",
+        "notes_sources_sha256": "8a9f87291926a4538c288aa871f7c399ba7d0b112f0f20fa924805e25f0af092",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "a8fece11c2f99d2592eceeeae0e9f07a5189d9920ab5655ce9a33637832a3dc9",
+        "coverage_sha256": "79123d6d0afd9b148d3b8981a719ad2b127c216fa7157c936e16b1931999c60e"
+      }
+    },
+    "06-s015": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Dve varijante najbližeg zaokruživanja i tri usmerena režima; Cela tabela: četiri početne vrednosti i svih20 zaokruženih rezultata. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "50677d2df7b31f6c66739bc88f54022e776109b7a93f8f9999f2e39cfad1aacd",
+        "baseline_render_sha256": "09f90f2bb640178c50baff3ce97da68033e2e4c1f122d9309889ad89cbb45769",
+        "new_render_sha256": "e4586c6c769e55d1fe40cdeb3e805263044521266547c76af79219cf189ba5ce",
+        "notes_render_sha256": "2cd7106767427d546928a84c9d3a914cbdf7ad7cf0bddcf9f087958e705f9036",
+        "slide_sources_sha256": "924a5b793004c9a2ca553dcf9b6065ebd6b4956d05fee70f380f37ba5ca57631",
+        "notes_sources_sha256": "c2ddbca606668f8a9f042406387c1f7e1c3bc98bfa84b9567e520fe4e8a69435",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "cdf4fed64e846fb875066f8487849bcf910ca6b1ed01aa78f500b65418cb745d",
+        "coverage_sha256": "520becf7d94db1c59f76dd88c9c46b2e2366536d43a807cb9306eea5d24c2db4"
+      }
+    },
+    "06-s016": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "nije_primenljivo",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Tabela za0–7: binarni, termometarski i osmobitni one-hot kod; Broj korišćenih reči8/8,8/128,8/256; Težine termometarskog i izvorni spisak težina one-hot položaja. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Izvorna stručna pitanja na ovom ID-ju ostaju otvorena, kategorije označene kao problem; predlozi i dokazi u otvorena_pitanja.md. Pokrivenost potvrđuje da gradivo nije izostavljeno, ne stručnu ispravnost spornih zapisa.",
+      "evidence": {
+        "source_render_sha256": "4b87387306e3eca1b1f6d9b9923bdd600708a1d4e85d7f9d0d22f4d5a574131d",
+        "baseline_render_sha256": "8b5d3992be142b08b18351cba6e51b468b46fa1fad78769ce27dd8aaaef5898b",
+        "new_render_sha256": "eba9f6a7fbe36d2cc725b23eb5ad4cb127aebac55da12b38bfe9696bba96f890",
+        "notes_render_sha256": "34283a56dc5a4c699f4d68ecf0db6140eff58f346a8b96b29833b5c1497331a8",
+        "slide_sources_sha256": "a82f7d1fd118fe1f8629ff546c2ea3eeb52be990b50719c3604705a085c0401f",
+        "notes_sources_sha256": "f8903a46c46187ed3d1cab424dca31177832cad48ecf99a60813db99646a0d24",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "7ba125e1d992b6bd7bddc7d43f02fda62720549203a983aab6ff3a8abb21a92e",
+        "coverage_sha256": "af08839c15fed97de1b814195c1bfea41f3277f5e45d4cc3dd9c5e6d04a5f0d5"
+      }
+    },
+    "06-s017": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Promena jednog bita između sukcesivnih vrednosti; Tabela16 redova: decimalni, binarni, puni Grejov i Grejov BCD ciklus; Krajnje crvene reči i prazne BCD ćelije iznad9. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "d4e33fb888ce0b724478245f78cad5580fefa0281494e87549bd171e3b05f903",
+        "baseline_render_sha256": "8086037b65e045c9146c17f3322afe9ad6b79bc0a6663f70e3ee9d3bd174574f",
+        "new_render_sha256": "6b52bba11839782824cedf230e52379afb6318fdc2343b2f9cc1740824c14650",
+        "notes_render_sha256": "e67d33ced91aa1d9374156462b80644aacd602940aaba1a80738fb6ff1afaf1c",
+        "slide_sources_sha256": "2f2ef6c52929bb85b602ef48f6ef50a81d8df6184fe6aaaf2c095d15ff416b00",
+        "notes_sources_sha256": "fd2ff90294d6df7039a4606efb6860175b17c1c5e266f7471f41b1862aaf4379",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "4d1b85eeb30fd5b42a80d9a85b0edb8f8561bef123fc1a0c170fd733666fa778",
+        "coverage_sha256": "b7ed9e6a7182d2c5be1ec4fe64ca31a3604510ff850b2726147a3b75697dcda9"
+      }
+    },
+    "06-s018": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Prelaz8→7, kodna reč1000→0111; Četiri paralelna kanala, predajnik/prijemnik, Dᵢ/rDᵢ, sva kašnjenja; Osam vremenskih tragova, četiri merenja kašnjenja, tri trenutka očitavanja; Objašnjenje neusaglašenih kanala i očitanja1001/1111/0111. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "a3e52d86ef5afbd89e6215e1435f630a823b33201b25250ebcf22ee1ce52333b",
+        "baseline_render_sha256": "2543b8b6032282e47a0f9ef8dde15465de87cc712e90db92f3657a3200474a84",
+        "new_render_sha256": "667303870afcd59813d502c43c4522623ab5cbb09315e15c3fe6cfa92cc64396",
+        "notes_render_sha256": "c8abb6905397e12b6fd7c7fe396456f8beda346c6334cb52582bf80a5765c370",
+        "slide_sources_sha256": "3144c3f7719d20987f283d940e526c6605941dc43c1816941df8fbc74038f9a1",
+        "notes_sources_sha256": "c8ca177268789c00cbe2f01342641fcd3af222a44d0c8eaeb0e275378567ffbc",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "91dcdcb03aaa61fcaf3ef9f6a441d7b8928d4ca46d03da883f7768f39ed59819",
+        "coverage_sha256": "8c3dd97ae77023d6d52335757a3a09e339bf4418c75ffaa555892ee9a862ed54"
+      }
+    },
+    "06-s019": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Prelaz8→7 u Grejovom kodu1100→0100; Isti četvorokanalni blok sa svim oznakama; Osam vremenskih tragova i tri očitanja1100/1100/0100; Jedan promenjeni bit i izvorna tvrdnja o bitu najniže težine. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Izvorna stručna pitanja na ovom ID-ju ostaju otvorena, kategorije označene kao problem; predlozi i dokazi u otvorena_pitanja.md. Pokrivenost potvrđuje da gradivo nije izostavljeno, ne stručnu ispravnost spornih zapisa.",
+      "evidence": {
+        "source_render_sha256": "e80cb722ec45cdd11fdc9700c04ee34ced4956c2515db049660be5601bb1f044",
+        "baseline_render_sha256": "0dd5d7b223c1c52f1a755c6930464ca7deb77d920d079f80c405a831a90aa648",
+        "new_render_sha256": "7f9140d90ead556c76ed6f8452f1339d556a4797deb0a779f68d6e14fc402ab0",
+        "notes_render_sha256": "560b1e2cbf3333e1db670ec8c3ce6ad82350b03e1f545e595d7dd97813e33a1d",
+        "slide_sources_sha256": "ce7f561da9d54f47b57b3ab9719ef3bf4c81636602b9dab018e573eff0669571",
+        "notes_sources_sha256": "c37d901300912360871746a0a294c8b1c36f90255e6a35c2331589d05ef14a97",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "64ed81964c52cd67626341c6ce44c2f741743984e1944fa57b56b18b56c2987c",
+        "coverage_sha256": "b9f530d4f2d0fb482d9f0492032fa0f1001e4a8bbe35831e87d43acbdc68511c"
+      }
+    },
+    "06-s020": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Obe Karnoove karte, Grejova zaglavlja i četiri promenljive; Puna cik-cak putanja0→15 sa svim strelicama; BCD putanja0→9 sa svim strelicama. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "346577b0eb2764124dfd172c57d8e87cf5bb6d5e725ff3cc0199c7d9eeca5b42",
+        "baseline_render_sha256": "9aee56c42fa0840c7f95eeb0a4337f188d840370faabef54c5f8b76667ad0f27",
+        "new_render_sha256": "07b0d79da27c105ad257d08de2fb8b811ad9f1ab3da3a3c2c9959cd7ff2f8721",
+        "notes_render_sha256": "c6146088ad5ddb241986860a76c07044fabcddc762f19af28b00583f111206f6",
+        "slide_sources_sha256": "fbdea17cdc1b917cb5161722f8c16e3133358c6106766d5d4e2e031eb158be2b",
+        "notes_sources_sha256": "1212f0d9806d4e6575c3788d66d0f3f94ed8b2a4d768ac6bee986fed8cf2352f",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "655de7325d9eed60897559b56c922bdef59d26c63892ef061b6ae1151a58ad68",
+        "coverage_sha256": "fe451843c4ae8363db8c923c0604e5bbbc8de57a6c94d78dc8fe99771d471020"
+      }
+    },
+    "06-s021": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Identitet (b⊕p)⊕p=b i svih sedam redova leve tabele; Definicija kodnih reči B i G; Svih šest prikazanih redova konverzije B→G; Svih šest izvornih redova povratne konverzije G→B. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Izvorna stručna pitanja na ovom ID-ju ostaju otvorena, kategorije označene kao problem; predlozi i dokazi u otvorena_pitanja.md. Pokrivenost potvrđuje da gradivo nije izostavljeno, ne stručnu ispravnost spornih zapisa.",
+      "evidence": {
+        "source_render_sha256": "afc5636e28c1f8dc8a0af1b776429c55498c2859e210e91290e894302b3b8724",
+        "baseline_render_sha256": "336a3c066da0a05ca86002a0650476da4e95715545d8176b3cbd46a35dee97aa",
+        "new_render_sha256": "ebcbbf469777ca418dc2b1238b7050231713cba0106136944dceb3f82597e1b3",
+        "notes_render_sha256": "8ca61425078d6e3657799651327907dcbe4c89f45987d22993cbbf34747fc821",
+        "slide_sources_sha256": "4118451a2dbf4866299d6141db638c03e5815556fe3cf5a629d61a5fdef53b0f",
+        "notes_sources_sha256": "934c4f2edbe92e6ed9899117c1b3b7e2f16f350c9608be34f097b39e7e7ceb6d",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "d56a1186be8a641ae25dc063f6d562d3d12106af2bf38859f29dc81f23e5233a",
+        "coverage_sha256": "9be22b654240ab371659d1d86a5e188cc613496f64eaa919cefcd9f8f780d625"
+      }
+    },
+    "06-s022": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Fizički uzrok grešaka pri obradi, smeštanju i prenosu; promena0↔1 i zaštitni kodovi; Cela tabela osam poruka, parnost, kompletan kod i broj8od16; EXOR, parna/neparna parnost, prijem i otkrivanje neparnog broja promena. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "033ffa76df2b83884290ee7eb870e8c275183ad5860041abf2bfaa43d861ba43",
+        "baseline_render_sha256": "8174be1f200e65115d1ed40e6dae32bfaa2b713c571115fb75cfbc06c2d5a620",
+        "new_render_sha256": "ebff6d3ccf8c6bfe04b14c81de10aa00a7173d690691a45f32ab60ce973525ac",
+        "notes_render_sha256": "71bf5e8505a9569c07e46fa6e355a30fb30713d7fee6c0c6322875507f06ba00",
+        "slide_sources_sha256": "192a1805f5266f060d749c415a691343838a5799b3c1e5e4e08c945e2c50f43d",
+        "notes_sources_sha256": "e47bd0ff66bb797bd325668912b5eebefd4958140d4fe6e2182a44c4011656a0",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "2a0d609be09739eaa518cad1f37aecd3d82845a14bbe297132839ce1fdef5e0b",
+        "coverage_sha256": "8740424996297aec784889e4fa23f47e4564c6f6f6e56745a1c3bca0f6034155"
+      }
+    },
+    "06-s023": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Opšta polinomska predstava kodne reči; Cela bit/polinom tabela za1010100101 i konačan polinom; Generator stepena k sa svim koeficijentima; Dodavanje k bita na osnovu ostatka PX^k÷g i rad po modulu2. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "0a3162f4f0208fbee11b414fe0316e4e3d1ed94a909d6d5f0cf028a26c23088e",
+        "baseline_render_sha256": "f752079f454a66e691aef5adbec6f8d48efe9860e92884134fc23d4ef7e487c1",
+        "new_render_sha256": "722a07d43e925bdcca0aae4059002ba5a4c16bcc5432aed940f89525b64037be",
+        "notes_render_sha256": "ab395739cbc9fd5745b4194a2f3709d0a40fb8df0bb9b15be5808926cde2ad40",
+        "slide_sources_sha256": "344c423c2bafd5bcd45bb98aef8ab4b6c3ed99b08dc29f157fa294960b603f34",
+        "notes_sources_sha256": "ae34c6bb39c511d92f197b9a85459bd274dcd7cdb9df5195256c9fcf03bc21a8",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "64f0781990ff33ef0009ecdbb8be9547e1e35c197fc75eaa6023f80f76506a0d",
+        "coverage_sha256": "91d527aec8cbb052651344efc855e1d5121ddec29924da03057c6d9ad634ff0b"
+      }
+    },
+    "06-s024": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Poruka11100110, njen polinom i generatorX⁴+X³+1; Ceo lanac deljenja: proširenjeX⁴, količnik i ostatak; OstatakX²+X=0110 i poslata poruka111001100110; Provera množenjem: sva tri reda proširenog proizvoda i poništavanje parova. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "832b9fea6bf6390b1a20b2c22d6efde6a62dccadc250554db2e13cb712e854ce",
+        "baseline_render_sha256": "225153589b8f72b0d22e8e334d47b41e4847007bd97ab7dbf85139970e0b4fc6",
+        "new_render_sha256": "09b64fd96e27ae620c444ad1a24f4300c330aabfb1dcf43121d791153544dd2a",
+        "notes_render_sha256": "0342ab9c6456e7c62dca11d2c44a425ffff2a09402be902114c6af8a3eb5c605",
+        "slide_sources_sha256": "f2b7b5e93583aed11efd62f0355d8abdde31d2f357af22fbe733beaa15cc2bb0",
+        "notes_sources_sha256": "eef9edb1807df415c34c9906be4c1c5618d06d3887535c95b24a907f01d65fab",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "582eafa9a5b1ff29bdcb7d8fdca70a887b2b570fbe4b7c131a35e6d78d687495",
+        "coverage_sha256": "89deaee961de2c9c8b00f414997ae0f3add76e27465aa7dc623dee2da62e88fb"
+      }
+    },
+    "06-s025": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Modulo2 deljenje, oduzimanje bez pozajmice i EXOR; Svih23 redova deljenja i sedam strelica dopisivanja; zagrade alternativnog prijema; Prijem sa CRC0110 daje00000. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "57ec4fb353e0ed581bfb2c8d52e4ae8ac4ed2f2d7d5dba52e27b4edfd07ce671",
+        "baseline_render_sha256": "f21f8112bbaa3d7c0e8de34fc8ff8b0ee33cb17a8356657c95a636f819b69375",
+        "new_render_sha256": "36e21e380490765e89465db0fdc4e5f41d39bcea82d0d310ca44f1b509902b07",
+        "notes_render_sha256": "ead9106630fbecb6a25309f498b40adaa9bb0f81eb91efdcb202b727ea40c53f",
+        "slide_sources_sha256": "e690a6963dcb3d7d6c6b00f4807d301051edfcca430d074c87eb086ef84daa90",
+        "notes_sources_sha256": "38aa60e5c2dfc4b39a8c5af68b38109ccd2a6f9540e518bb048090a1a3c0e7b6",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "ba2269b13492409d6c8717bc11e97fcedbf5c2a9c2bc0a3cd1ff5bf67a952e1e",
+        "coverage_sha256": "0fb02cc4e0517685a90bf54110be144345f74080c75c53b990e91fb2391bc13d"
+      }
+    },
+    "06-s026": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Definicije Hamming distance, rastojanja dve reči i minimuma koda; Primer10011/10110 i dve izdvojene pozicije, d=2; Rastojanja binarnog i paritetnog koda1/2; Uslovi otkrivanja d≥k+1 i korekcije d≥2l+1. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "6bec5f4e252d2222682f007e989d6a8289883a5d9f00bd541a7cc1c752a207d5",
+        "baseline_render_sha256": "260c2ec54f507357e13555259992b6b87514ca41490c80f96e79c561ce422e19",
+        "new_render_sha256": "ef453e1c5f48e99c0de5e62022763e24f02dd64243bfe20cba627818ecf40295",
+        "notes_render_sha256": "6c9d11e787656a88ea31c1902dca3a54d30cf80d4549bec627bf6eb6b8520795",
+        "slide_sources_sha256": "005121462f6437550ab2a571721b95d8daf88cb5bbed02a9aaf71ae6f4426ece",
+        "notes_sources_sha256": "63b9b6b187d4bd926da1f9123f77b0080627b5bc2d0d2ad6b28fcc872ca25a47",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "5426ac11ef9712f0763c063407bb7b8ff70da890cd80055bf1686e9f61267b52",
+        "coverage_sha256": "31d02feeb9e60aa048a44dce774c3bb9ce10f1ae68240f3a4df7c5dc13212b53"
+      }
+    },
+    "06-s027": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Hemingov kod d=3 za jednu grešku; Broj sindroma2^r≥n+r+1; Oba preuređenja: ukupna dužina i najveći broj informacionih bita. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "9eb9f1c675fa8d2ad63af0dbcbb4cfaddd1b6ea2a5378bc76a059367887c2f37",
+        "baseline_render_sha256": "f5a0b1ea2d77793690b11263c5b74541d1c19844ae3c468d44dae3c535bb9e92",
+        "new_render_sha256": "6941b8f9aa55cd0c885611539850dacd725e41eb03efe8d097ca47dd46bd0731",
+        "notes_render_sha256": "26ec02ea9cc1bc355edd0f0def4e783e5dc7d62d4d59465f487b3b956e2c1684",
+        "slide_sources_sha256": "23df36cfa087ed15345cc58ac2cf2943004ffd4e3c57060939be07c93d80be41",
+        "notes_sources_sha256": "5da2625deed364a0a56837b9e835408e43b3ede17f17b6513655a2ee881394e0",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "df41e6cf7b06372376195c35386776753fe75a2c464a2038c187c683b32e0955",
+        "coverage_sha256": "7f8155c7ee36826e74b96c303d976e6f663c4f56f3c7baaeaf4f58c5cc2331a1"
+      }
+    },
+    "06-s028": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "problem",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Tri koraka predaje, numeracija od1 i zaštitni položaji2^i; Cela matrica: položaji13→1, binarne oznake, informacioni/zaštitni simboli; Četiri reda parnosti, svi x i četiri crvena zaštitna položaja, uključujući sporni x13/r1. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Izvorna stručna pitanja na ovom ID-ju ostaju otvorena, kategorije označene kao problem; predlozi i dokazi u otvorena_pitanja.md. Pokrivenost potvrđuje da gradivo nije izostavljeno, ne stručnu ispravnost spornih zapisa.",
+      "evidence": {
+        "source_render_sha256": "f63238bb7479f030af427ddb90db0a0ae0adb0731159aa33e28a3f362410c257",
+        "baseline_render_sha256": "566b77400d03dd35db7a586403fbee3451b06604c1fbc3181d61bafdbc9208e7",
+        "new_render_sha256": "683174003c4af59d99dcf698fe46caf0e9fb298b76c03b765d403d9771d469fa",
+        "notes_render_sha256": "16c0b04fd1c2446dcb4b911dd4aa4939b9baf328e7a7722c5eb41aad83e7fbe9",
+        "slide_sources_sha256": "275960e935d2bba5b9886b59cb2e631f6fedc5716bba5652d41062746e7bcd7f",
+        "notes_sources_sha256": "c2f217f6a37f4f63f568e4e7fbf8ccbbb52061da2be273ed4c2601b8659059fd",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "c6c53dbe717bb247e7466caa0dbf76d3adf21d17f2c54844496f32c8fae732f0",
+        "coverage_sha256": "1540426ba2dc7d127a2ecb2a31cc4c1d6f837e98e053da9d3a85a2366937a512"
+      }
+    },
+    "06-s029": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "provereno",
+        "tabele": "problem",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Dva koraka prijema i isti smer numeracije; Cela matrica: položaji, binarne oznake, simboli i svi x, uključujući sporni x13/p1; Oba zaključka o nultom/nenultom sindromu i određivanje pozicije. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Izvorna stručna pitanja na ovom ID-ju ostaju otvorena, kategorije označene kao problem; predlozi i dokazi u otvorena_pitanja.md. Pokrivenost potvrđuje da gradivo nije izostavljeno, ne stručnu ispravnost spornih zapisa.",
+      "evidence": {
+        "source_render_sha256": "b406ff56b94a701534aab833daf60edaf876355b76ff65621c2f3f58b0ccca96",
+        "baseline_render_sha256": "bd9707c5da971d7bd17b8f3228e9ae14269e6818e430a5ecc4c551538f2a5382",
+        "new_render_sha256": "d903718a14a6311561ebeb6e93144a183b4c7cddd2abbf5e9a5ca08ce7b1ab45",
+        "notes_render_sha256": "aaf11a9d7cde09232607dad212011b722463f90781a1f11702df35ed6667cb1d",
+        "slide_sources_sha256": "ec95ee582d1778b859fca2dd8c129bf7b987ed1cae54239e2d8522590c80f9c7",
+        "notes_sources_sha256": "b0b421ed0de0421927e51099adb386b04ac79d69163547a480be0de6b0f562ee",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "59cd02351278176f1a800374f7220446a17f4b65a4faf5e5ff74a024362cf497",
+        "coverage_sha256": "58178460dbc4d4ebfe9aa19e2e564968a12c3fca15a27f070034fb7e510adfa1"
+      }
+    },
+    "06-s030": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-02",
+      "reviewer": "Codex — stvarni vizuelni i sadržinski pregled",
+      "notes": "Upoređeni originalni izdvojeni slajd, sačuvani početni LaTeX prikaz, redizajnirani slajd u punoj veličini i sve A4 strane njegovih beležaka. Pregledani tekst, sve ćelije tabela, formule, geometrija i značenje crteža. Proverena odredišta prenetih nastavnih detalja i proverljivost dopuna. Sadržaj: Paritetni kod d=2; Termometarski kod d=1, sva tri para/obrasca i pitanja o grešci; One-hot d=2, sva tri para/obrasca i pitanja o grešci; Grejov kod d=1 i zaključak da nije namenjen otkrivanju grešaka. Beleške su dodatni nastavni tekst bez uredničkih komentara i zahteva za odobrenje. Nema nerešenog sadržinskog ili vizuelnog problema na ovom ID-ju.",
+      "evidence": {
+        "source_render_sha256": "df5af74971a190ef9a7ddb806dfcbb7b5d39e463fd26aeaa0151e6aa6a036dc8",
+        "baseline_render_sha256": "8480640e448858933023bfb1cbc0793c8f5acaabff6160bb0f7172a2f2e913f7",
+        "new_render_sha256": "93c9878f4965e4289300b04a25ad03ca88579a812c45f063dd2ef9975fcbddba",
+        "notes_render_sha256": "b466105087a73e6dd1c8cae856699570f0b5f0f43af6b11e6ba1477ed7f973a7",
+        "slide_sources_sha256": "756612e1f5c5fc7be57c50d574111ac1f8621b0970e8bcf3c9af48bddf628c87",
+        "notes_sources_sha256": "f52320966ea3b827b8540f5a3b0dbdfd8b76c52bebd1412be669fd6bc6256cc3",
+        "shared_sha256": "324cb14c8bc706f20156964ca66e6dc0a243cd694ef0516d5cc431b2d60434cd",
+        "mapping_sha256": "e2a0e678768402c5a10b14a8b7f416f6de9385eaba9082c2a46cb0fd675f3008",
+        "coverage_sha256": "544061b321424823def0dfe473a97e24af0ed5f880d82ef36de46c3aca23f6f8"
+      }
+    }
+  }
+}

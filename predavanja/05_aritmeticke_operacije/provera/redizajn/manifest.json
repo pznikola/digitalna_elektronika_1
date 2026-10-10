@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "phase": "redizajn",
+  "lecture": "05",
+  "selected_style": "B",
+  "theme": "etf-v1",
+  "theme_manifest_sha256": "87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41",
+  "source_sha256": "a181158ccdb62d376871ab658d804dae129b0e79dd969a731c8dca25731309d8",
+  "slide_ids": [
+    "05-s001",
+    "05-s002",
+    "05-s003",
+    "05-s004",
+    "05-s005",
+    "05-s006",
+    "05-s007",
+    "05-s008",
+    "05-s009",
+    "05-s010",
+    "05-s011",
+    "05-s012",
+    "05-s013",
+    "05-s014",
+    "05-s015",
+    "05-s016",
+    "05-s017",
+    "05-s018",
+    "05-s019",
+    "05-s020",
+    "05-s021",
+    "05-s022",
+    "05-s023",
+    "05-s024",
+    "05-s025",
+    "05-s026",
+    "05-s027",
+    "05-s028",
+    "05-s029",
+    "05-s030",
+    "05-s031",
+    "05-s032",
+    "05-s033",
+    "05-s034",
+    "05-s035",
+    "05-s036",
+    "05-s037",
+    "05-s038",
+    "05-s039",
+    "05-s040",
+    "05-s041",
+    "05-s042",
+    "05-s043",
+    "05-s044",
+    "05-s045",
+    "05-s046",
+    "05-s047",
+    "05-s048",
+    "05-s049",
+    "05-s050",
+    "05-s051",
+    "05-s052",
+    "05-s053",
+    "05-s054",
+    "05-s055"
+  ],
+  "baseline_sha256": "c4f9366080ac86c4db5998bc2bf9f9b8fd78e1b3c01da77bd0cbf22634995895",
+  "created": "2026-10-02T12:37:55.821978+00:00",
+  "build_record": "provera/redizajn/izgradnja.json",
+  "notes": {
+    "05-s001": {
+      "path": "beleske/s001.tex",
+      "title": "Aritmetičke operacije"
+    },
+    "05-s002": {
+      "path": "beleske/s002.tex",
+      "title": "Poređenje — komparatori"
+    },
+    "05-s003": {
+      "path": "beleske/s003.tex",
+      "title": "Poređenje od viših bitova"
+    },
+    "05-s004": {
+      "path": "beleske/s004.tex",
+      "title": "Komparator sa ulazima proširenja"
+    },
+    "05-s005": {
+      "path": "beleske/s005.tex",
+      "title": "Mreže većih kapaciteta"
+    },
+    "05-s006": {
+      "path": "beleske/s006.tex",
+      "title": "Mreže većih kapaciteta"
+    },
+    "05-s007": {
+      "path": "beleske/s007.tex",
+      "title": "Mreže većih kapaciteta"
+    },
+    "05-s008": {
+      "path": "beleske/s008.tex",
+      "title": "Poređenje od nižih bitova"
+    },
+    "05-s009": {
+      "path": "beleske/s009.tex",
+      "title": "Mreže većih kapaciteta"
+    },
+    "05-s010": {
+      "path": "beleske/s010.tex",
+      "title": "Mreže većih kapaciteta"
+    },
+    "05-s011": {
+      "path": "beleske/s011.tex",
+      "title": "Mreže većih kapaciteta"
+    },
+    "05-s012": {
+      "path": "beleske/s012.tex",
+      "title": "Sabiranje sa fiksnom tačkom"
+    },
+    "05-s013": {
+      "path": "beleske/s013.tex",
+      "title": "Sabiranje — pretpostavke i prenos"
+    },
+    "05-s014": {
+      "path": "beleske/s014.tex",
+      "title": "Prekoračenje i zasićenje"
+    },
+    "05-s015": {
+      "path": "beleske/s015.tex",
+      "title": "Polusabirač"
+    },
+    "05-s016": {
+      "path": "beleske/s016.tex",
+      "title": "Potpuni sabirač"
+    },
+    "05-s017": {
+      "path": "beleske/s017.tex",
+      "title": "Sabirač sa rednim prenosom"
+    },
+    "05-s018": {
+      "path": "beleske/s018.tex",
+      "title": "Oduzimanje sa fiksnom tačkom"
+    },
+    "05-s019": {
+      "path": "beleske/s019.tex",
+      "title": "Oduzimanje — pretpostavke i pozajmica"
+    },
+    "05-s020": {
+      "path": "beleske/s020.tex",
+      "title": "Primeri oduzimanja"
+    },
+    "05-s021": {
+      "path": "beleske/s021.tex",
+      "title": "Sabiranje i oduzimanje označenih brojeva"
+    },
+    "05-s022": {
+      "path": "beleske/s022.tex",
+      "title": "Oduzimanje sabiranjem"
+    },
+    "05-s023": {
+      "path": "beleske/s023.tex",
+      "title": "Oduzimanje u drugom komplementu"
+    },
+    "05-s024": {
+      "path": "beleske/s024.tex",
+      "title": "Komplement osnove i pozajmica"
+    },
+    "05-s025": {
+      "path": "beleske/s025.tex",
+      "title": "Jedan sabirač za ADD i SUB"
+    },
+    "05-s026": {
+      "path": "beleske/s026.tex",
+      "title": "Prekoračenje u drugom komplementu"
+    },
+    "05-s027": {
+      "path": "beleske/s027.tex",
+      "title": "Sabiranje u prvom komplementu"
+    },
+    "05-s028": {
+      "path": "beleske/s028.tex",
+      "title": "Sabirač–oduzimač u drugom komplementu"
+    },
+    "05-s029": {
+      "path": "beleske/s029.tex",
+      "title": "Prekoračenje i zasićenje"
+    },
+    "05-s030": {
+      "path": "beleske/s030.tex",
+      "title": "Proširenje neoznačenih brojeva"
+    },
+    "05-s031": {
+      "path": "beleske/s031.tex",
+      "title": "Proširenje označenih brojeva"
+    },
+    "05-s032": {
+      "path": "beleske/s032.tex",
+      "title": "Logičko i aritmetičko pomeranje"
+    },
+    "05-s033": {
+      "path": "beleske/s033.tex",
+      "title": "Inkrementiranje i dekrementiranje"
+    },
+    "05-s034": {
+      "path": "beleske/s034.tex",
+      "title": "Inkrementiranje — pronalaženje prve nule"
+    },
+    "05-s035": {
+      "path": "beleske/s035.tex",
+      "title": "Dekrementiranje — pronalaženje prve jedinice"
+    },
+    "05-s036": {
+      "path": "beleske/s036.tex",
+      "title": "Zajednička realizacija INC i DEC"
+    },
+    "05-s037": {
+      "path": "beleske/s037.tex",
+      "title": "Neoznačeno množenje"
+    },
+    "05-s038": {
+      "path": "beleske/s038.tex",
+      "title": "Označeno množenje — parcijalni proizvodi"
+    },
+    "05-s039": {
+      "path": "beleske/s039.tex",
+      "title": "Označeno množenje — ekstenzija znaka"
+    },
+    "05-s040": {
+      "path": "beleske/s040.tex",
+      "title": "Označeno množenje — negativni množilac"
+    },
+    "05-s041": {
+      "path": "beleske/s041.tex",
+      "title": "Negativan parcijalni proizvod"
+    },
+    "05-s042": {
+      "path": "beleske/s042.tex",
+      "title": "Proizvod dva negativna broja"
+    },
+    "05-s043": {
+      "path": "beleske/s043.tex",
+      "title": "Množenje"
+    },
+    "05-s044": {
+      "path": "beleske/s044.tex",
+      "title": "Označeno množenje preko apsolutnih vrednosti"
+    },
+    "05-s045": {
+      "path": "beleske/s045.tex",
+      "title": "Boothov algoritam — izvođenje"
+    },
+    "05-s046": {
+      "path": "beleske/s046.tex",
+      "title": "Boothov algoritam — izbor operacije"
+    },
+    "05-s047": {
+      "path": "beleske/s047.tex",
+      "title": "Boothov algoritam — primer iteracija"
+    },
+    "05-s048": {
+      "path": "beleske/s048.tex",
+      "title": "Boothov algoritam — dijagram toka"
+    },
+    "05-s049": {
+      "path": "beleske/s049.tex",
+      "title": "Odsecanje celobrojnog proizvoda"
+    },
+    "05-s050": {
+      "path": "beleske/s050.tex",
+      "title": "Odsecanje proizvoda sa fiksnom tačkom"
+    },
+    "05-s051": {
+      "path": "beleske/s051.tex",
+      "title": "Greška odsecanja"
+    },
+    "05-s052": {
+      "path": "beleske/s052.tex",
+      "title": "Zaokruživanje rezultata množenja"
+    },
+    "05-s053": {
+      "path": "beleske/s053.tex",
+      "title": "Deljenje — pisani postupak"
+    },
+    "05-s054": {
+      "path": "beleske/s054.tex",
+      "title": "Deljenje — probno oduzimanje"
+    },
+    "05-s055": {
+      "path": "beleske/s055.tex",
+      "title": "Označeno deljenje"
+    }
+  }
+}

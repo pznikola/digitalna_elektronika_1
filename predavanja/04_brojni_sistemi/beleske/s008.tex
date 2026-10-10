@@ -1,0 +1,16 @@
+\BeleskeID{04-s008}
+% element: 04-s008:e01 — Deljenje CV10 sa r i izdvajanje ostatka c0, uz c0/r<1 i skup cifara
+% element: 04-s008:e02 — Naredno deljenje količnika i ostatak c1
+% element: 04-s008:e03 — Uslov zaustavljanja i vodeća cifra cn−1; nastavak daje vodeće nule
+% element: 04-s008:e04 — Početno razvijanje deljenika pre deljenja svih težina sa r
+% element: 04-s008:d01
+
+Pre deljenja razvijamo celobrojnu vrednost preko svih težina:
+\[\begin{aligned}
+CV_{10}\div r
+&=(c_{n-1}r^{n-1}+c_{n-2}r^{n-2}+\cdots+c_1r^1+c_0r^0)\div r\\
+&=c_{n-1}r^{n-2}+c_{n-2}r^{n-3}+\cdots+c_1r^0+\frac{c_0}{r}.
+\end{aligned}\]
+Prvi deo je celobrojan, a $0\leq c_0/r<1$ jer je $0\leq c_0\leq r-1$. Zato je celobrojni količnik $(CV_{10})_1$, a ostatak pri deljenju je $c_0$. Razlomak $c_0/r$ u jednakosti realnih vrednosti ne treba pomešati sa celobrojnim ostatkom $c_0$.
+
+Ponovljeno deljenje količnika spušta sve preostale težine za još jedno mesto i izdvaja $c_1$, zatim $c_2$, sve do vodeće cifre. Cifre se dobijaju od najmanje ka najvećoj težini, pa ostatke za konačan zapis čitamo obrnutim redosledom. Kada količnik postane nula, dalji koraci ne menjaju vrednost: proizvodili bi samo vodeće nule.

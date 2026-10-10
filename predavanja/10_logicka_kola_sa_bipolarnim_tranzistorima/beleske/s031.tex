@@ -1,0 +1,11 @@
+% element: 10-s031:e03
+\BeleskeID{10-s031}
+Za određivanje trenutka prelaska iz aktivnog režima u zasićenje koristimo uslov
+\[V_{CES}=V_{CC}+\frac{R_C\beta_F}{R_B}(V_H-V_{BE})(e^{-(t_3-t_2)/\tau}-1).\]
+Početni izlaz je ovde visok, a aktivni model ima negativnu asimptotu. Zato eksponencijalni odziv prvo dostiže nizak napon i tek tada prestaje da važi ovaj model.
+
+Opšti postupak određivanja vremena dostizanja zadate vrednosti $p$ glasi
+\[t_1=t_0+\tau\ln\frac{p(t_0^+)-p(\infty)}{p(t_1)-p(\infty)}.\]
+Razlika između dva trenutka na istom eksponencijalnom odzivu određuje se kao
+\[t_2-t_1=\tau\ln\frac{p(t_1)-p(\infty)}{p(t_2)-p(\infty)}.\]
+U taj postupak zamenjujemo početni izlaz $V_{OH}$, završnu vrednost $V_{OL}=V_{CES}$ i asimptotu aktivnog modela, čime dobijamo poslednji izraz na slajdu.

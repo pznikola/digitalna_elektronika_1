@@ -1,0 +1,1436 @@
+{
+  "slides": {
+    "07-s001": [
+      {
+        "element": "07-s001:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s001_uvod_u_hdl.tex",
+          "anchor": "% element: 07-s001:e01"
+        }
+      }
+    ],
+    "07-s002": [
+      {
+        "element": "07-s002:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s002_nacini_opisa_digitalnog_sistema.tex",
+          "anchor": "% element: 07-s002:e01"
+        }
+      },
+      {
+        "element": "07-s002:e02",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s002_nacini_opisa_digitalnog_sistema.tex",
+          "anchor": "% element: 07-s002:e02"
+        }
+      },
+      {
+        "element": "07-s002:e03",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s002_nacini_opisa_digitalnog_sistema.tex",
+          "anchor": "% element: 07-s002:e03"
+        }
+      },
+      {
+        "element": "07-s002:e04",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s002_nacini_opisa_digitalnog_sistema.tex",
+          "anchor": "% element: 07-s002:e04"
+        },
+        "notes": {
+          "path": "beleske/s002.tex",
+          "anchor": "% element: 07-s002:e04"
+        }
+      },
+      {
+        "element": "07-s002:e05",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s002_nacini_opisa_digitalnog_sistema.tex",
+          "anchor": "% element: 07-s002:e05"
+        }
+      },
+      {
+        "element": "07-s002:e06",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s002_nacini_opisa_digitalnog_sistema.tex",
+          "anchor": "% element: 07-s002:e06"
+        },
+        "notes": {
+          "path": "beleske/s002.tex",
+          "anchor": "% element: 07-s002:e06"
+        }
+      }
+    ],
+    "07-s003": [
+      {
+        "element": "07-s003:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s003_fiksne_i_programabilne_komponente.tex",
+          "anchor": "% element: 07-s003:e01"
+        }
+      },
+      {
+        "element": "07-s003:e02",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s003_fiksne_i_programabilne_komponente.tex",
+          "anchor": "% element: 07-s003:e02"
+        }
+      },
+      {
+        "element": "07-s003:e03",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s003_fiksne_i_programabilne_komponente.tex",
+          "anchor": "% element: 07-s003:e03"
+        },
+        "notes": {
+          "path": "beleske/s003.tex",
+          "anchor": "% element: 07-s003:e03"
+        }
+      },
+      {
+        "element": "07-s003:e04",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s003_fiksne_i_programabilne_komponente.tex",
+          "anchor": "% element: 07-s003:e04"
+        },
+        "notes": {
+          "path": "beleske/s003.tex",
+          "anchor": "% element: 07-s003:e04"
+        }
+      }
+    ],
+    "07-s004": [
+      {
+        "element": "07-s004:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s004_ideja_programabilne_kombinacione_mreze.tex",
+          "anchor": "% element: 07-s004:e01"
+        }
+      },
+      {
+        "element": "07-s004:e02",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s004_ideja_programabilne_kombinacione_mreze.tex",
+          "anchor": "% element: 07-s004:e02"
+        }
+      },
+      {
+        "element": "07-s004:e03",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s004_ideja_programabilne_kombinacione_mreze.tex",
+          "anchor": "% element: 07-s004:e03"
+        }
+      },
+      {
+        "element": "07-s004:e04",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s004_ideja_programabilne_kombinacione_mreze.tex",
+          "anchor": "% element: 07-s004:e04"
+        }
+      },
+      {
+        "element": "07-s004:e05",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s004_ideja_programabilne_kombinacione_mreze.tex",
+          "anchor": "% element: 07-s004:e05"
+        }
+      },
+      {
+        "element": "07-s004:d01",
+        "notes": {
+          "path": "beleske/s004.tex",
+          "anchor": "% element: 07-s004:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ],
+    "07-s005": [
+      {
+        "element": "07-s005:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s005_programabilne_i_ili_matrice.tex",
+          "anchor": "% element: 07-s005:e01"
+        }
+      },
+      {
+        "element": "07-s005:e02",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s005_programabilne_i_ili_matrice.tex",
+          "anchor": "% element: 07-s005:e02"
+        }
+      },
+      {
+        "element": "07-s005:e03",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s005_programabilne_i_ili_matrice.tex",
+          "anchor": "% element: 07-s005:e03"
+        }
+      },
+      {
+        "element": "07-s005:e04",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s005_programabilne_i_ili_matrice.tex",
+          "anchor": "% element: 07-s005:e04"
+        }
+      },
+      {
+        "element": "07-s005:e05",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s005_programabilne_i_ili_matrice.tex",
+          "anchor": "% element: 07-s005:e05"
+        },
+        "notes": {
+          "path": "beleske/s005.tex",
+          "anchor": "% element: 07-s005:e05"
+        }
+      },
+      {
+        "element": "07-s005:e06",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s005_programabilne_i_ili_matrice.tex",
+          "anchor": "% element: 07-s005:e06"
+        },
+        "notes": {
+          "path": "beleske/s005.tex",
+          "anchor": "% element: 07-s005:e06"
+        }
+      },
+      {
+        "element": "07-s005:d01",
+        "notes": {
+          "path": "beleske/s005.tex",
+          "anchor": "% element: 07-s005:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ],
+    "07-s006": [
+      {
+        "element": "07-s006:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s006_vrste_programabilnih_komponenti.tex",
+          "anchor": "% element: 07-s006:e01"
+        }
+      },
+      {
+        "element": "07-s006:e02",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s006_vrste_programabilnih_komponenti.tex",
+          "anchor": "% element: 07-s006:e02"
+        }
+      },
+      {
+        "element": "07-s006:e03",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s006_vrste_programabilnih_komponenti.tex",
+          "anchor": "% element: 07-s006:e03"
+        }
+      },
+      {
+        "element": "07-s006:e04",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s006_vrste_programabilnih_komponenti.tex",
+          "anchor": "% element: 07-s006:e04"
+        }
+      },
+      {
+        "element": "07-s006:e05",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s006_vrste_programabilnih_komponenti.tex",
+          "anchor": "% element: 07-s006:e05"
+        }
+      },
+      {
+        "element": "07-s006:e06",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s006_vrste_programabilnih_komponenti.tex",
+          "anchor": "% element: 07-s006:e06"
+        }
+      },
+      {
+        "element": "07-s006:e07",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s006_vrste_programabilnih_komponenti.tex",
+          "anchor": "% element: 07-s006:e07"
+        }
+      },
+      {
+        "element": "07-s006:e08",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s006_vrste_programabilnih_komponenti.tex",
+          "anchor": "% element: 07-s006:e08"
+        }
+      },
+      {
+        "element": "07-s006:e09",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s006_vrste_programabilnih_komponenti.tex",
+          "anchor": "% element: 07-s006:e09"
+        }
+      },
+      {
+        "element": "07-s006:e10",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s006_vrste_programabilnih_komponenti.tex",
+          "anchor": "% element: 07-s006:e10"
+        }
+      },
+      {
+        "element": "07-s006:d01",
+        "notes": {
+          "path": "beleske/s006.tex",
+          "anchor": "% element: 07-s006:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ],
+    "07-s007": [
+      {
+        "element": "07-s007:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s007_pal_programabilna_matrica.tex",
+          "anchor": "% element: 07-s007:e01"
+        }
+      },
+      {
+        "element": "07-s007:e02",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s007_pal_programabilna_matrica.tex",
+          "anchor": "% element: 07-s007:e02"
+        },
+        "notes": {
+          "path": "beleske/s007.tex",
+          "anchor": "% element: 07-s007:e02"
+        }
+      },
+      {
+        "element": "07-s007:e03",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s007_pal_programabilna_matrica.tex",
+          "anchor": "% element: 07-s007:e03"
+        }
+      },
+      {
+        "element": "07-s007:e04",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s007_pal_programabilna_matrica.tex",
+          "anchor": "% element: 07-s007:e04"
+        }
+      },
+      {
+        "element": "07-s007:e05",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s007_pal_programabilna_matrica.tex",
+          "anchor": "% element: 07-s007:e05"
+        },
+        "notes": {
+          "path": "beleske/s007.tex",
+          "anchor": "% element: 07-s007:e05"
+        }
+      },
+      {
+        "element": "07-s007:e06",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s007_pal_programabilna_matrica.tex",
+          "anchor": "% element: 07-s007:e06"
+        }
+      },
+      {
+        "element": "07-s007:e07",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s007_pal_programabilna_matrica.tex",
+          "anchor": "% element: 07-s007:e07"
+        }
+      },
+      {
+        "element": "07-s007:e08",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s007_pal_programabilna_matrica.tex",
+          "anchor": "% element: 07-s007:e08"
+        }
+      },
+      {
+        "element": "07-s007:e09",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s007_pal_programabilna_matrica.tex",
+          "anchor": "% element: 07-s007:e09"
+        },
+        "notes": {
+          "path": "beleske/s007.tex",
+          "anchor": "% element: 07-s007:e09"
+        }
+      },
+      {
+        "element": "07-s007:e10",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s007_pal_programabilna_matrica.tex",
+          "anchor": "% element: 07-s007:e10"
+        }
+      },
+      {
+        "element": "07-s007:d01",
+        "notes": {
+          "path": "beleske/s007.tex",
+          "anchor": "% element: 07-s007:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ],
+    "07-s008": [
+      {
+        "element": "07-s008:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s008_jedec_fajl_programabilnih_veza.tex",
+          "anchor": "% element: 07-s008:e01"
+        }
+      },
+      {
+        "element": "07-s008:e02",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s008_jedec_fajl_programabilnih_veza.tex",
+          "anchor": "% element: 07-s008:e02"
+        }
+      },
+      {
+        "element": "07-s008:e03",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s008_jedec_fajl_programabilnih_veza.tex",
+          "anchor": "% element: 07-s008:e03"
+        }
+      },
+      {
+        "element": "07-s008:e04",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s008_jedec_fajl_programabilnih_veza.tex",
+          "anchor": "% element: 07-s008:e04"
+        }
+      },
+      {
+        "element": "07-s008:d01",
+        "notes": {
+          "path": "beleske/s008.tex",
+          "anchor": "% element: 07-s008:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ],
+    "07-s009": [
+      {
+        "element": "07-s009:e01",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s009_razvoj_hdl_jezika.tex",
+          "anchor": "% element: 07-s009:e01"
+        },
+        "notes": {
+          "path": "beleske/s009.tex",
+          "anchor": "% element: 07-s009:e01"
+        }
+      },
+      {
+        "element": "07-s009:e02",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s009_razvoj_hdl_jezika.tex",
+          "anchor": "% element: 07-s009:e02"
+        }
+      },
+      {
+        "element": "07-s009:e03",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s009_razvoj_hdl_jezika.tex",
+          "anchor": "% element: 07-s009:e03"
+        }
+      },
+      {
+        "element": "07-s009:e04",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s009_razvoj_hdl_jezika.tex",
+          "anchor": "% element: 07-s009:e04"
+        }
+      },
+      {
+        "element": "07-s009:e05",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s009_razvoj_hdl_jezika.tex",
+          "anchor": "% element: 07-s009:e05"
+        },
+        "notes": {
+          "path": "beleske/s009.tex",
+          "anchor": "% element: 07-s009:e05"
+        }
+      },
+      {
+        "element": "07-s009:e06",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s009_razvoj_hdl_jezika.tex",
+          "anchor": "% element: 07-s009:e06"
+        }
+      },
+      {
+        "element": "07-s009:e07",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s009_razvoj_hdl_jezika.tex",
+          "anchor": "% element: 07-s009:e07"
+        }
+      }
+    ],
+    "07-s010": [
+      {
+        "element": "07-s010:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s010_abel_i_kolo_i_prioritet.tex",
+          "anchor": "% element: 07-s010:e01"
+        }
+      },
+      {
+        "element": "07-s010:e02",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s010_abel_i_kolo_i_prioritet.tex",
+          "anchor": "% element: 07-s010:e02"
+        }
+      },
+      {
+        "element": "07-s010:e03",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "notes": {
+          "path": "beleske/s010.tex",
+          "anchor": "% element: 07-s010:e03"
+        }
+      },
+      {
+        "element": "07-s010:e04",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s010_abel_i_kolo_i_prioritet.tex",
+          "anchor": "% element: 07-s010:e04"
+        }
+      },
+      {
+        "element": "07-s010:e05",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "notes": {
+          "path": "beleske/s010.tex",
+          "anchor": "% element: 07-s010:e05"
+        }
+      },
+      {
+        "element": "07-s010:d01",
+        "notes": {
+          "path": "beleske/s010.tex",
+          "anchor": "% element: 07-s010:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ],
+    "07-s011": [
+      {
+        "element": "07-s011:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s011_abel_multiplekser.tex",
+          "anchor": "% element: 07-s011:e01"
+        }
+      },
+      {
+        "element": "07-s011:e02",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s011_abel_multiplekser.tex",
+          "anchor": "% element: 07-s011:e02"
+        }
+      },
+      {
+        "element": "07-s011:e03",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "notes": {
+          "path": "beleske/s011.tex",
+          "anchor": "% element: 07-s011:e03"
+        }
+      },
+      {
+        "element": "07-s011:d01",
+        "notes": {
+          "path": "beleske/s011.tex",
+          "anchor": "% element: 07-s011:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ],
+    "07-s012": [
+      {
+        "element": "07-s012:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s012_cad_i_vlsi_proces.tex",
+          "anchor": "% element: 07-s012:e01"
+        }
+      },
+      {
+        "element": "07-s012:e02",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s012_cad_i_vlsi_proces.tex",
+          "anchor": "% element: 07-s012:e02"
+        }
+      },
+      {
+        "element": "07-s012:d01",
+        "notes": {
+          "path": "beleske/s012.tex",
+          "anchor": "% element: 07-s012:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ],
+    "07-s013": [
+      {
+        "element": "07-s013:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s013_vhdl_simulaciono_modelovanje.tex",
+          "anchor": "% element: 07-s013:e01"
+        }
+      },
+      {
+        "element": "07-s013:e02",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s013_vhdl_simulaciono_modelovanje.tex",
+          "anchor": "% element: 07-s013:e02"
+        },
+        "notes": {
+          "path": "beleske/s013.tex",
+          "anchor": "% element: 07-s013:e02"
+        }
+      },
+      {
+        "element": "07-s013:e03",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s013_vhdl_simulaciono_modelovanje.tex",
+          "anchor": "% element: 07-s013:e03"
+        },
+        "notes": {
+          "path": "beleske/s013.tex",
+          "anchor": "% element: 07-s013:e03"
+        }
+      },
+      {
+        "element": "07-s013:d01",
+        "notes": {
+          "path": "beleske/s013.tex",
+          "anchor": "% element: 07-s013:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ],
+    "07-s014": [
+      {
+        "element": "07-s014:e01",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s014_vhdl_unos_dizajna_i_testiranje.tex",
+          "anchor": "% element: 07-s014:e01"
+        },
+        "notes": {
+          "path": "beleske/s014.tex",
+          "anchor": "% element: 07-s014:e01"
+        }
+      },
+      {
+        "element": "07-s014:e02",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s014_vhdl_unos_dizajna_i_testiranje.tex",
+          "anchor": "% element: 07-s014:e02"
+        },
+        "notes": {
+          "path": "beleske/s014.tex",
+          "anchor": "% element: 07-s014:e02"
+        }
+      },
+      {
+        "element": "07-s014:e03",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s014_vhdl_unos_dizajna_i_testiranje.tex",
+          "anchor": "% element: 07-s014:e03"
+        },
+        "notes": {
+          "path": "beleske/s014.tex",
+          "anchor": "% element: 07-s014:e03"
+        }
+      }
+    ],
+    "07-s015": [
+      {
+        "element": "07-s015:e01",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s015_vhdl_netlist_i_standard.tex",
+          "anchor": "% element: 07-s015:e01"
+        },
+        "notes": {
+          "path": "beleske/s015.tex",
+          "anchor": "% element: 07-s015:e01"
+        }
+      },
+      {
+        "element": "07-s015:e02",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s015_vhdl_netlist_i_standard.tex",
+          "anchor": "% element: 07-s015:e02"
+        },
+        "notes": {
+          "path": "beleske/s015.tex",
+          "anchor": "% element: 07-s015:e02"
+        }
+      },
+      {
+        "element": "07-s015:e03",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s015_vhdl_netlist_i_standard.tex",
+          "anchor": "% element: 07-s015:e03"
+        },
+        "notes": {
+          "path": "beleske/s015.tex",
+          "anchor": "% element: 07-s015:e03"
+        }
+      },
+      {
+        "element": "07-s015:d01",
+        "notes": {
+          "path": "beleske/s015.tex",
+          "anchor": "% element: 07-s015:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ],
+    "07-s016": [
+      {
+        "element": "07-s016:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s016_vhdl_specifikacija_i_unos.tex",
+          "anchor": "% element: 07-s016:e01"
+        }
+      },
+      {
+        "element": "07-s016:e02",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s016_vhdl_specifikacija_i_unos.tex",
+          "anchor": "% element: 07-s016:e02"
+        },
+        "notes": {
+          "path": "beleske/s016.tex",
+          "anchor": "% element: 07-s016:e02"
+        }
+      },
+      {
+        "element": "07-s016:e03",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s016_vhdl_specifikacija_i_unos.tex",
+          "anchor": "% element: 07-s016:e03"
+        },
+        "notes": {
+          "path": "beleske/s016.tex",
+          "anchor": "% element: 07-s016:e03"
+        }
+      }
+    ],
+    "07-s017": [
+      {
+        "element": "07-s017:e01",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s017_vhdl_simulacija_i_dokumentacija.tex",
+          "anchor": "% element: 07-s017:e01"
+        },
+        "notes": {
+          "path": "beleske/s017.tex",
+          "anchor": "% element: 07-s017:e01"
+        }
+      },
+      {
+        "element": "07-s017:e02",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s017_vhdl_simulacija_i_dokumentacija.tex",
+          "anchor": "% element: 07-s017:e02"
+        },
+        "notes": {
+          "path": "beleske/s017.tex",
+          "anchor": "% element: 07-s017:e02"
+        }
+      },
+      {
+        "element": "07-s017:e03",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s017_vhdl_simulacija_i_dokumentacija.tex",
+          "anchor": "% element: 07-s017:e03"
+        },
+        "notes": {
+          "path": "beleske/s017.tex",
+          "anchor": "% element: 07-s017:e03"
+        }
+      }
+    ],
+    "07-s018": [
+      {
+        "element": "07-s018:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s018_vhdl_u_procesu_razvoja.tex",
+          "anchor": "% element: 07-s018:e01"
+        }
+      },
+      {
+        "element": "07-s018:e02",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s018_vhdl_u_procesu_razvoja.tex",
+          "anchor": "% element: 07-s018:e02"
+        },
+        "notes": {
+          "path": "beleske/s018.tex",
+          "anchor": "% element: 07-s018:e02"
+        }
+      },
+      {
+        "element": "07-s018:e03",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s018_vhdl_u_procesu_razvoja.tex",
+          "anchor": "% element: 07-s018:e03"
+        },
+        "notes": {
+          "path": "beleske/s018.tex",
+          "anchor": "% element: 07-s018:e03"
+        }
+      },
+      {
+        "element": "07-s018:e04",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s018_vhdl_u_procesu_razvoja.tex",
+          "anchor": "% element: 07-s018:e04"
+        },
+        "notes": {
+          "path": "beleske/s018.tex",
+          "anchor": "% element: 07-s018:e04"
+        }
+      }
+    ],
+    "07-s019": [
+      {
+        "element": "07-s019:e01",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s019_vhdl_i_verilog.tex",
+          "anchor": "% element: 07-s019:e01"
+        },
+        "notes": {
+          "path": "beleske/s019.tex",
+          "anchor": "% element: 07-s019:e01"
+        }
+      },
+      {
+        "element": "07-s019:e02",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s019_vhdl_i_verilog.tex",
+          "anchor": "% element: 07-s019:e02"
+        },
+        "notes": {
+          "path": "beleske/s019.tex",
+          "anchor": "% element: 07-s019:e02"
+        }
+      },
+      {
+        "element": "07-s019:e03",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s019_vhdl_i_verilog.tex",
+          "anchor": "% element: 07-s019:e03"
+        },
+        "notes": {
+          "path": "beleske/s019.tex",
+          "anchor": "% element: 07-s019:e03"
+        }
+      },
+      {
+        "element": "07-s019:e04",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s019_vhdl_i_verilog.tex",
+          "anchor": "% element: 07-s019:e04"
+        },
+        "notes": {
+          "path": "beleske/s019.tex",
+          "anchor": "% element: 07-s019:e04"
+        }
+      }
+    ],
+    "07-s020": [
+      {
+        "element": "07-s020:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s020_izbor_hdl_alata.tex",
+          "anchor": "% element: 07-s020:e01"
+        }
+      },
+      {
+        "element": "07-s020:e02",
+        "status": "provereno",
+        "change": "Nastavni detalji potpuno objašnjeni u beleškama istog ID-ja; ključna celina i ilustracije ostaju na slajdu.",
+        "slide": {
+          "path": "slajdovi/s020_izbor_hdl_alata.tex",
+          "anchor": "% element: 07-s020:e02"
+        },
+        "notes": {
+          "path": "beleske/s020.tex",
+          "anchor": "% element: 07-s020:e02"
+        }
+      },
+      {
+        "element": "07-s020:e03",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s020_izbor_hdl_alata.tex",
+          "anchor": "% element: 07-s020:e03"
+        }
+      },
+      {
+        "element": "07-s020:d01",
+        "notes": {
+          "path": "beleske/s020.tex",
+          "anchor": "% element: 07-s020:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ],
+    "07-s021": [
+      {
+        "element": "07-s021:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s021_entity_i_architecture.tex",
+          "anchor": "% element: 07-s021:e01"
+        }
+      },
+      {
+        "element": "07-s021:e02",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s021_entity_i_architecture.tex",
+          "anchor": "% element: 07-s021:e02"
+        }
+      },
+      {
+        "element": "07-s021:e03",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s021_entity_i_architecture.tex",
+          "anchor": "% element: 07-s021:e03"
+        }
+      },
+      {
+        "element": "07-s021:e04",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s021_entity_i_architecture.tex",
+          "anchor": "% element: 07-s021:e04"
+        }
+      },
+      {
+        "element": "07-s021:d01",
+        "notes": {
+          "path": "beleske/s021.tex",
+          "anchor": "% element: 07-s021:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ],
+    "07-s022": [
+      {
+        "element": "07-s022:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s022_struktura_design_entity.tex",
+          "anchor": "% element: 07-s022:e01"
+        }
+      },
+      {
+        "element": "07-s022:d01",
+        "notes": {
+          "path": "beleske/s022.tex",
+          "anchor": "% element: 07-s022:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ],
+    "07-s023": [
+      {
+        "element": "07-s023:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s023_entity_architecture_obrazac.tex",
+          "anchor": "% element: 07-s023:e01"
+        }
+      },
+      {
+        "element": "07-s023:d01",
+        "notes": {
+          "path": "beleske/s023.tex",
+          "anchor": "% element: 07-s023:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ],
+    "07-s024": [
+      {
+        "element": "07-s024:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s024_jednobitni_potpuni_sabirac.tex",
+          "anchor": "% element: 07-s024:e01"
+        }
+      },
+      {
+        "element": "07-s024:d01",
+        "notes": {
+          "path": "beleske/s024.tex",
+          "anchor": "% element: 07-s024:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ],
+    "07-s025": [
+      {
+        "element": "07-s025:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s025_dodeljivanje_vrednosti.tex",
+          "anchor": "% element: 07-s025:e01"
+        }
+      },
+      {
+        "element": "07-s025:e02",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s025_dodeljivanje_vrednosti.tex",
+          "anchor": "% element: 07-s025:e02"
+        }
+      },
+      {
+        "element": "07-s025:d01",
+        "notes": {
+          "path": "beleske/s025.tex",
+          "anchor": "% element: 07-s025:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ],
+    "07-s026": [
+      {
+        "element": "07-s026:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s026_logicke_i_aritmeticke_vektorske_operacije.tex",
+          "anchor": "% element: 07-s026:e01"
+        }
+      },
+      {
+        "element": "07-s026:e02",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s026_logicke_i_aritmeticke_vektorske_operacije.tex",
+          "anchor": "% element: 07-s026:e02"
+        }
+      },
+      {
+        "element": "07-s026:e03",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s026_logicke_i_aritmeticke_vektorske_operacije.tex",
+          "anchor": "% element: 07-s026:e03"
+        }
+      },
+      {
+        "element": "07-s026:d01",
+        "notes": {
+          "path": "beleske/s026.tex",
+          "anchor": "% element: 07-s026:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ],
+    "07-s027": [
+      {
+        "element": "07-s027:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s027_prioritet_abel_i_vhdl.tex",
+          "anchor": "% element: 07-s027:e01"
+        }
+      },
+      {
+        "element": "07-s027:e02",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s027_prioritet_abel_i_vhdl.tex",
+          "anchor": "% element: 07-s027:e02"
+        }
+      },
+      {
+        "element": "07-s027:d01",
+        "notes": {
+          "path": "beleske/s027.tex",
+          "anchor": "% element: 07-s027:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ],
+    "07-s028": [
+      {
+        "element": "07-s028:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s028_dataflow_redosled_izraza.tex",
+          "anchor": "% element: 07-s028:e01"
+        }
+      },
+      {
+        "element": "07-s028:e02",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s028_dataflow_redosled_izraza.tex",
+          "anchor": "% element: 07-s028:e02"
+        }
+      },
+      {
+        "element": "07-s028:e03",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s028_dataflow_redosled_izraza.tex",
+          "anchor": "% element: 07-s028:e03"
+        }
+      },
+      {
+        "element": "07-s028:e04",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s028_dataflow_redosled_izraza.tex",
+          "anchor": "% element: 07-s028:e04"
+        }
+      },
+      {
+        "element": "07-s028:d01",
+        "notes": {
+          "path": "beleske/s028.tex",
+          "anchor": "% element: 07-s028:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ],
+    "07-s029": [
+      {
+        "element": "07-s029:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s029_sr_latch_i_delta_ciklusi.tex",
+          "anchor": "% element: 07-s029:e01"
+        }
+      },
+      {
+        "element": "07-s029:e02",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s029_sr_latch_i_delta_ciklusi.tex",
+          "anchor": "% element: 07-s029:e02"
+        }
+      },
+      {
+        "element": "07-s029:e03",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s029_sr_latch_i_delta_ciklusi.tex",
+          "anchor": "% element: 07-s029:e03"
+        }
+      },
+      {
+        "element": "07-s029:e04",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s029_sr_latch_i_delta_ciklusi.tex",
+          "anchor": "% element: 07-s029:e04"
+        }
+      },
+      {
+        "element": "07-s029:d01",
+        "notes": {
+          "path": "beleske/s029.tex",
+          "anchor": "% element: 07-s029:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ],
+    "07-s030": [
+      {
+        "element": "07-s030:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s030_process_obrazac.tex",
+          "anchor": "% element: 07-s030:e01"
+        }
+      },
+      {
+        "element": "07-s030:e02",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s030_process_obrazac.tex",
+          "anchor": "% element: 07-s030:e02"
+        }
+      },
+      {
+        "element": "07-s030:d01",
+        "notes": {
+          "path": "beleske/s030.tex",
+          "anchor": "% element: 07-s030:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ],
+    "07-s031": [
+      {
+        "element": "07-s031:e01",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s031_mux_2_1_tri_procesa.tex",
+          "anchor": "% element: 07-s031:e01"
+        }
+      },
+      {
+        "element": "07-s031:e02",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s031_mux_2_1_tri_procesa.tex",
+          "anchor": "% element: 07-s031:e02"
+        }
+      },
+      {
+        "element": "07-s031:e03",
+        "status": "provereno",
+        "change": "Značenje očuvano; pregled originala i novog prikaza.",
+        "slide": {
+          "path": "slajdovi/s031_mux_2_1_tri_procesa.tex",
+          "anchor": "% element: 07-s031:e03"
+        }
+      },
+      {
+        "element": "07-s031:d01",
+        "notes": {
+          "path": "beleske/s031.tex",
+          "anchor": "% element: 07-s031:d01"
+        },
+        "status": "provereno",
+        "change": "Dodatno objašnjenje za predavača; bez uredničkog sadržaja."
+      }
+    ]
+  }
+}

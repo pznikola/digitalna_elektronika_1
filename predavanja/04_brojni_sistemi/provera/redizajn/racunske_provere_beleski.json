@@ -1,0 +1,115 @@
+{
+  "groups": [
+    {
+      "check": "Teleskopski maksimum i konkretni binarni primeri",
+      "cases": 122,
+      "status": "provereno"
+    },
+    {
+      "check": "Razlomljeni deo originalnog primera s006",
+      "cases": 1,
+      "status": "provereno"
+    },
+    {
+      "check": "Uzastopno deljenje, obnova vrednosti i količnici",
+      "cases": 15000,
+      "status": "provereno"
+    },
+    {
+      "check": "Množenje razlomljenog dela i granica greške odsecanja",
+      "cases": 27600,
+      "status": "provereno"
+    },
+    {
+      "check": "Period 0011 i konačni 0.5, 0.25, 0.75",
+      "cases": 4,
+      "status": "provereno"
+    },
+    {
+      "check": "Pisano deljenje u osnovi 7 i provera težina",
+      "cases": 4,
+      "status": "provereno"
+    },
+    {
+      "check": "Razvijanje pojedinačne cifre kompatibilnih sistema",
+      "cases": 2790,
+      "status": "provereno"
+    },
+    {
+      "check": "Širina grupa i dopuna oko tačke",
+      "cases": 4,
+      "status": "provereno"
+    },
+    {
+      "check": "Neoznačeni registar i skaliranje",
+      "cases": 3,
+      "status": "provereno"
+    },
+    {
+      "check": "Znak, ofset i oba komplementa za navedene primere",
+      "cases": 7,
+      "status": "provereno"
+    },
+    {
+      "check": "Bitno invertovanje, negativna MSB težina i veza sa ofsetom",
+      "cases": 508,
+      "status": "provereno"
+    },
+    {
+      "check": "Decimalni kod i fiksna/pokretna tačka",
+      "cases": 5,
+      "status": "provereno"
+    },
+    {
+      "check": "Strogi uslov s009, minimalni broj cifara i granični primer r^m",
+      "cases": 76157,
+      "status": "provereno",
+      "method": "Poređenje stvarnog operatora sa brojem cifara iz uzastopnog deljenja, bez zaokruživanja logaritma; osnove 2–16, vrednosti 0–999 i r^m−1/r^m/r^m+1 za m=1–12."
+    }
+  ],
+  "total_cases": 122205,
+  "date": "2026-10-02",
+  "purpose": "Provera dopunskog nastavnog objašnjenja; sva ranije otvorena stručna pitanja izričito odobrena i rešena.",
+  "method": "Tačna racionalna aritmetika fractions.Fraction; iscrpno poređenje kodova i rekonstrukcija brojnih vrednosti.",
+  "notes_sources": {
+    "04-s001": "08b14104e2bfc0ff5fbdfa3447cc339de21aedc6aaa552d592e8f6a5e9987316",
+    "04-s002": "d0d8b28df88c33a031f478c830830698ad98ddcb92494985f4a991a1a93f6e31",
+    "04-s003": "989c9109d8e68e566fde48f249b04126f6d863716d3c0f1f91fa243b3837c046",
+    "04-s004": "385561d6495ca6f73f985c3c39f40f3a17b2e9f1ed6454329343d751d9cb7eae",
+    "04-s005": "1ac8c869ca185ad0c4c3a9b8389c3ff540269678e9a037c19719cea433f0786d",
+    "04-s006": "db6fec149b5ecb04fc2748a35eafa5c89e6f6642efea67e2e0cbb5f5f3d8197c",
+    "04-s007": "cb53d7a7b83df1f3f9d98188fce1fd4cdb81cf9e376933c1348852cfd78b73ed",
+    "04-s008": "35e76a344ea4e16e2972240472f8483df25b42b3b460030ceda828debbd50384",
+    "04-s009": "6c00dcddb7c058d99cb4f9f922bccfde708a61b6089cd00a7505e14b1c1da33e",
+    "04-s010": "0cb4c5f80d0ea8fc52f6b69ab453832cb2299a3379cfaea4f4ba41f74bb6993c",
+    "04-s011": "39c077ef652cd4ec58dedaafc9b6fe4177b942a56b347b888553a37bf699688b",
+    "04-s012": "2e24e4483cc8b265b8f9297738d18e070d50bcf6e0d0c4ed99012d5c070d3892",
+    "04-s013": "408b93ba123dbc2283dc1b00f24952f5d9164d84101beb92662551d47346fc60",
+    "04-s014": "884ed6038da8b4f3b3b88f7836cc1610d9cfc111a8073a9496a91f153eb04e2f",
+    "04-s015": "89cb0c29c703b8c6a44f3bc9f500abf6d791b52db8f230d79ef2441fd1568433",
+    "04-s016": "63a7a59bc4b257abf7876d240e78ac00e737503229900091bc0995833aa3ed54",
+    "04-s017": "af83f6c7d885a1f82533b1e3adcaa1bb8ed33fab833bd5e94596b934693ca74c",
+    "04-s018": "278adcdff62779593a51e30b7d39946a307e1178a00d97eb5de598d223476f03",
+    "04-s019": "88cde934bebc7530e721cba1c1436d652d43f2709acebb814f1ee9638d7d41df",
+    "04-s020": "c6349c6a16b39292037158a0443e76a8509fb026c42fc8433a007a136db8c5b4",
+    "04-s021": "c2f6c1b8fc78ef42305d190827cceb4cae4fae13d8c99acdeee502149669b505",
+    "04-s022": "a208e40c134058be524b284959b0a36031345233f44b5a9d2a2e55f5436ed17e",
+    "04-s023": "ff0b03a9f2942643d0f85d3f3b3e92d8f5a04413e4f77649711604e2e96e3637",
+    "04-s024": "9780fd656b551986843f50993dd3ffa8f2b5179c1f74b5a9034f5bacdc22790e",
+    "04-s025": "0751c88e68191c2b11846f1c69b1b43388037216e01c22433c76111e888b3315",
+    "04-s026": "935f6a342b6471f8c40f251e9839b32c6e2e8a6d0a2e8110e33efbb4a1d10f30",
+    "04-s027": "20e41099ad4e83c3e54241bdab72dc07c4485aeb4e52e02579fb2a575061aba6",
+    "04-s028": "9c9516f52a1737c1e6f21362c5c13744fdeb8ef9af9eec7980b31346a791e264",
+    "04-s029": "c83522fecb88ae77ebaeac1ca6b4c0cabc658cda805673408873b959627e8587",
+    "04-s030": "5c280cd4e18882e29ef3d6217c9501ce78e8651ff41c936c95c8932a8011c0af",
+    "04-s031": "9a68e5042c7178e42363f48bb7a24277520ddfe821ef4bfa10a45bb3d903cd96",
+    "04-s032": "db7abe586fdfbb34307be11d9aaf77d9dd26777640cfa61c62af350bc52d73d9",
+    "04-s033": "849e56ff7478c7545bff275325261566f404c96a0fa1e7c0f88ab8912e24c9df",
+    "04-s034": "615a1c359b8ca94dd16cb0480158b6f490b9a580170498ddfadca5920ffb7281",
+    "04-s035": "8beea34e53a9a254c80b05702d46351ccc52346789e924df0d67207e98531319",
+    "04-s036": "610adbf1d5716d27d7862b7812c6635ba98cde0fcbe17a91fd785b6e37766f58",
+    "04-s037": "d9aa3ab39425bcee7d835934f45a74f31b01f7da624032aa90950ccd68026962",
+    "04-s038": "ff1c84152e32c45ae524dd0a5b925769c5a597fb8f97e1822ad7440030fb6e1b",
+    "04-s039": "eb032d484956fe71ea2705f45cee646ae76593b94358cb96d8d3e267f5658fbd"
+  }
+}

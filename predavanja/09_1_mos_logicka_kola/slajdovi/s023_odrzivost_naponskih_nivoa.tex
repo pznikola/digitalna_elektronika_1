@@ -1,16 +1,14 @@
 \slajdid{09_1-s023}
-\begin{frame}[label=09_1-s023]
-\gusttekst\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}
-Ono što mora da se proveri i što mora da bude zbog održivosti naponskih nivoa jeste $V_{OL}<V_{Tn}$ da bi taj napon dao napon logičke jedinice. Kako je napon logičke jedinice $V_{DD}$ po načinu kako smo radili on sigurno daje logičku nulu, i tu postoji održivost naponskih nivoa. Znači trebalo bi izabrati parametre tako da
-\begin{columns}[c,onlytextwidth]\column{.25\textwidth}\centering
-\input{slike/tikz/s023_odrzivost_naponskih_nivoa.tex}
-\column{.73\textwidth}
+\begin{frame}[label=09_1-s023]{Održivost naponskih nivoa}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{3pt}\setlength{\belowdisplayshortskip}{3pt}
+% element: 09_1-s023:e01
+% element: 09_1-s023:e02
+% element: 09_1-s023:e03
+% element: 09_1-s023:e04
+% element: 09_1-s023:e05
+\begin{columns}[T,onlytextwidth]\column{.28\textwidth}\centering \input{slike/tikz/s023_odrzivost_naponskih_nivoa.tex}\column{.68\textwidth}\textbf{Logička nula mora zakočiti sledeći tranzistor}
 \[\frac{V_{DD}}{k_nR_L(V_{DD}-V_{Tn})+1}<V_{Tn}\]
-Ali isto tako \tikz[remember picture,baseline=(s23target.base)]{\node[inner sep=0pt](s23target){$\alert{V_{O(IH)}<V_{IL}}$};} a bilo bi jako dobro da $\alert{V_{O(IH)}<V_{Tn}}$
+\[\alert{V_{O(IH)}<V_{IL}},\qquad\text{poželjno}\quad\alert{V_{O(IH)}<V_{Tn}}\]
 \[\sqrt{\frac{2V_{DD}}{3k_nR_L}}<V_{Tn}\]
-\tikz[remember picture,overlay]{\draw[->,DEplava](s23from)--(s23target.south west);}
-\end{columns}\medskip
-U svim ovim izrazima često se napon napajanja smatra konstantnim a podešava se faktor $k_nR_L$ i odnos $\alert{\frac{k_nR_L}{V_{DD}}}$ se obeležava sa $\beta$ (pokazuje mogućnost „drajvovanja“ izlaza za zadati napon)
-\[\sqrt{\frac2{3\beta}}<V_{Tn}\ \Rightarrow\ \beta>\frac2{3V_{Tn}^2}\]
-Uočiti da će za ovako izabran parametar biti ispunjen uslov $\alert{V_{O(IL)}>V_{IH}}$ potreban opet zbog održivosti naponskih nivoa.
+\end{columns}\medskip Za konstantno napajanje podešavamo $k_nR_L$, uz $\beta=k_nR_L/V_{DD}$.\[\sqrt{\frac2{3\beta}}<V_{Tn}\ \Rightarrow\ \beta>\frac2{3V_{Tn}^2}\]
+Potreban je i uslov \alert{$V_{O(IL)}>V_{IH}$}.
 \end{frame}

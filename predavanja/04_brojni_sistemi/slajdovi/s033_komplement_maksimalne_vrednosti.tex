@@ -1,16 +1,17 @@
 \slajdid{04-s033}
-\begin{frame}[label=04-s033]{Komplement maksimalne vrednosti i komplement osnove}
-\gusttekst
-Ova dva pojma se uvode u nedostatku simbola, znaka, minus kako bi se prikazali i negativni brojevi, a koji će omogućiti da se na „lak“ način izvode aritmetičke operacije i sa pozitivnim i sa negativnim brojevima.
-
-U opštem slučaju za brojni sistem sa osnovom $r$ i prikazom sa dužinom reči $n$ (broj cifara)\\
-\alert{komplement maksimalne vrednosti}, odnosno prikaz negativnog broja je
-\[-V\equiv(r^n-1)-V\]
-U binarnom brojnom sistemu – komplement jedinice ili prvi komplement
-
-Zanimljiv pošto se dobija direktnim invertovanjem vrednosti bita
-\[111\ldots11-b_{n-1}b_{n-2}\,b_{n-3}\ldots b_1\,b_0=\overline{b_{n-1}}\,\overline{b_{n-2}}\,\overline{b_{n-3}}\ldots\overline{b_1}\,\overline{b_0}\]
-PRIMER: u decimalnom brojnom sistemu sa tri cifre broj različitih vrednosti je 1000. Ako vrednosti od 0 do 499 smatramo pozitivnim onda će negativna vrednost -123 biti prikazana u komplementu 9tke kao
-\[-123\equiv999-123=876\]
-Odnosno vodeće cifre 0,1,2,3,4 će biti za pozitivne brojeve a 5,6,7,8,9 za negativne brojeve
+\begin{frame}[label=04-s033]{Komplement maksimalne vrednosti}
+% element: 04-s033:e01 — Razlog uvođenja oba komplementa radi prikaza i aritmetike
+% element: 04-s033:e02 — Definicija komplementa maksimalne vrednosti za r i n
+% element: 04-s033:e03 — Binarni prvi komplement i invertovanje svih bita sa formulom
+% element: 04-s033:e04 — Decimalni primer: tri cifre, 1000 kodova, 0–499, −123=876, podela vodećih cifara
+U nedostatku simbola minus, komplementi omogućavaju prikaz negativnih brojeva i jednostavne aritmetičke operacije.
+\[\alert{-V\equiv(r^n-1)-V}\]
+$r$ je osnova, $n$ je dužina reči (broj cifara).\par
+U binarnom sistemu: \alert{komplement jedinice / prvi komplement}, dobijen invertovanjem bita.
+{\fontsize{10}{12}\selectfont
+\[111\ldots11-b_{n-1}b_{n-2}b_{n-3}\ldots b_1b_0=\overline{b_{n-1}}\,\overline{b_{n-2}}\,\overline{b_{n-3}}\ldots\overline{b_1}\,\overline{b_0}\]}
+\NaslovBloka{Decimalni primer: tri cifre, 1000 kodova}
+Pozitivne vrednosti: $0$–$499$. Prikaz $-123$ u komplementu 9-tke:
+\[\alert{-123\equiv999-123=876}\]
+Vodeće cifre $0,1,2,3,4$: pozitivni; $5,6,7,8,9$: negativni brojevi.
 \end{frame}

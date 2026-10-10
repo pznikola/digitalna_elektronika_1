@@ -1,0 +1,9 @@
+\BeleskeID{04-s019}
+% element: 04-s019:e01 — Primer 1AC3_16: prevod svake cifre i uklanjanje tri vodeće nule
+% element: 04-s019:e02 — Primer 10100010010101101_2: grupisanje zdesna i dodavanje nula
+% element: 04-s019:e03 — Konačni rezultat 144AD_16 i analogija sa trocifrenim oktalnim grupama
+% element: 04-s019:d01
+
+Grupisanje celobrojnog dela počinje od krajnje desne cifre zato što ona ima težinu $2^0$. Prva četvorka zato pokriva težine $2^0$ do $2^3$; naredna pokriva $2^4$ do $2^7$. U suprotnom bi se promenile granice heksadecimalnih mesta.
+
+Ako najviša grupa nije potpuna, dopunjava se nulama sa leve strane. U primeru sa rezultatom $144AD_{16}$ grupa $1$ postaje $0001$. Te nule su vodeće u celom broju i ne menjaju vrednost. Ne dopunjava se sa desne strane celobrojnog niza, jer bi to pomerilo njegove težine.

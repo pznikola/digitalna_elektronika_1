@@ -1,0 +1,7 @@
+\BeleskeID{07-s029}
+% element: 07-s029:d01
+Početno stanje je \(s=0,r=0,q=1,nq=0\). Kada reset pređe na 1, u prvom koraku se računa \(q=r\operatorname{NOR}nq=0\), ali promena q tek je zakazana. U drugom koraku q je postalo 0, pa se zakazuje \(nq=s\operatorname{NOR}q=1\). U trećem koraku stanje \(q=0,nq=1\) više ne izaziva nove promene. Kada se reset vrati na 0, četvrti korak zadržava to stanje: obe povratno spregnute dodele već daju postojeće vrednosti.
+
+Privremeno stanje \(q=0,nq=0\) u drugom koraku pokazuje zašto dve konkurentne signalne dodele ne znače da sve zavisne vrednosti postaju dostupne u istom koraku simulacije. Delta ciklusi obrađuju posledice događaja bez dodatnog fizičkog vremena.
+
+Čitanje izlaznih portova q i nq u samoj arhitekturi zahteva VHDL-2008 ili noviji režim jezika. Ovo je uslov za izvršavanje upravo prikazanog interfejsa, odvojen od logičkog ponašanja SR sprege.

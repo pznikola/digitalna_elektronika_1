@@ -1,11 +1,23 @@
-\begin{tikzpicture}[x=.75cm,y=.8cm,font=\sitneoznake,>=Latex]
-\ctikzset{bipoles/length=.65cm}
-\draw(0,.25)--(0,.75);\draw(-.13,.22)--(-.13,.78);\draw(0,.7)--(.4,.7)--(.4,1.1);\draw(0,.3)--(.4,.3)--(.4,-.35)node[ground]{};
-\draw(-.75,.5)--(-.13,.5);\draw(-.75,1.15)--(-2.15,1.15);\draw(-2.15,1.15)--(-2.33,1.28)--(-2.65,1.28)--(-2.83,1.15)--(-2.65,1.02)--(-2.33,1.02)--cycle;\node[left]at(-2.83,1.15){$V_I$};
-\draw(-1.6,-.35)node[ground]{} to[D](-1.6,1.15) to[D](-1.6,2.65);\draw(-1.85,2.65)--(-1.35,2.65)node[above left]{$V_{DD}$};\node[right]at(.55,.5){N};
-\draw(0,1.65)--(0,2.15);\draw(-.13,1.62)--(-.13,2.18);\draw(0,2.1)--(.4,2.1)--(.4,2.65);\draw(0,1.7)--(.4,1.7)--(.4,1.1);
-\draw(-.22,1.9)circle(.09);\draw(-.31,1.9)--(-.75,1.9)--(-.75,.5);\node[right]at(.55,1.9){P};
-\draw(.15,2.65)--(.65,2.65)node[above left]{$V_{DD}$};\draw(.4,1.15)--(1.1,1.15)node[ocirc]{}node[right]{$V_O$};
-\end{tikzpicture}
-
-
+{\RazaviSetup
+\begin{circuitikz}[x=1cm,y=1cm,font=\fontsize{10}{12}\selectfont]
+\node[rz nmos] (N) at (.28,.65) {};
+\node[rz pmos] (P) at (.28,2.2) {};
+\coordinate (O) at (N.D |- 0,1.43);
+\draw[wire] (N.D)--(O)--(P.D);
+\draw[wire] (N.S)--++(0,-.20) coordinate (GND);
+\RazaviGround{GND}
+\draw[wire] (P.S)--++(0,.22) coordinate (VDD);
+\RazaviSupply{VDD}{V_{DD}}
+\draw[wire] (O)--++(.60,0) node[rz terminal]{} node[right=3pt]{$V_O$};
+\fill (O) circle(1.15pt);
+\node[right=3pt] at (N.east) {$\mathrm{N}$};
+\node[right=3pt] at (P.east) {$\mathrm{P}$};
+\coordinate (I) at (-.7,1.43);
+\draw[wire] (N.G)--(I |- N.G)--(I |- P.G)--(P.G);
+\draw[wire] (I)--(-1.35,1.43)--(-1.9,1.43) node[rz terminal]{} node[left=3pt]{$V_I$};
+\draw[wire] (-1.35,.10) to[D](-1.35,1.43) to[D](-1.35,2.95);
+\coordinate (DG) at (-1.35,.10);\coordinate (DV) at (-1.35,2.95);
+\RazaviGround{DG}\RazaviSupply{DV}{V_{DD}}
+\fill(-1.35,1.43) circle(1.15pt);
+\fill (I) circle(1.15pt);
+\end{circuitikz}}

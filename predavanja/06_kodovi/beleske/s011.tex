@@ -1,0 +1,7 @@
+\BeleskeID{06-s011}
+% element: 06-s011:d01
+Prvo se pomera spoj registara koji sadrži BCD cifre i preostale ulazne bite. Time naredni binarni bit ulazi u područje jedinica. Posle pomeranja najpre se proverava da li je obrađeno svih osam ulaznih bita. Ako jeste, rezultat je završen i više se ne dodaje tri.
+
+Ako konverzija još traje, svaka decimalna kolona čija je vrednost veća od četiri koriguje se dodavanjem tri. Korekcije više kolona mogu se izvršiti nezavisno, pre narednog pomeranja.
+
+U prikazanom primeru korekcije se javljaju za jedinice 7, jedinice 5 i desetice 6. Dodavanje tri daje međuvrednosti 10, 8 i 9. Posle završnog pomeranja decimalne kolone sadrže 2, 4 i 3.

@@ -1,0 +1,9 @@
+\BeleskeID{04-s023}
+% element: 04-s023:e01 — Bit, nibble, byte, word, double word; dužine i grupisanje
+% element: 04-s023:e02 — Tabela osmobitnog registra Di/bi; isto važi za magistralu
+% element: 04-s023:e03 — Informacija na poziciji Di i tumačenje MSB/LSB
+% element: 04-s023:d01
+
+Oznaka $D_i$ imenuje poziciju u registru ili liniju magistrale, a $b_i$ njenu binarnu vrednost. Vrednost jednog bita može da se promeni bez promene naziva pozicije. Kada pitamo koju informaciju taj bit nosi, odgovor zavisi od dogovorenog značenja sadržaja.
+
+Ako osmobitni sadržaj tumačimo kao neoznačen ceo broj, MSB ima težinu $2^7=128$, a LSB $2^0=1$. Promena LSB-a sa $0$ na $1$ uvećava vrednost za jednu jedinicu, a promena sa $1$ na $0$ umanjuje je za jednu jedinicu. Dužine word i double word ovde su date za konkretno razmatrano grupisanje; dužinu reči treba znati iz definicije sistema.

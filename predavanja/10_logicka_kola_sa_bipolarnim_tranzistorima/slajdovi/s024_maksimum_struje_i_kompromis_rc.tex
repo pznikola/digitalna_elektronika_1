@@ -1,7 +1,12 @@
+% element: 10-s024:e01
+% element: 10-s024:e02
+% element: 10-s024:e03
 \slajdid{10-s024}
-\begin{frame}[label=10-s024]
-\[I_{Omax}=I_{OH}=-\frac{V_{CC}-V_{OHmin}}{R_C}\]
-Nije baš matematički tačno. Matematički i struja 0 će biti veća od ove struje (za još više i bolje $V_{OHmin}$). Znači ovo max treba shvatiti po logici. Maksimalna apsolutna vrednost struje. Isto tako je i u katalozima. Ako je neko u kolonu MAX stavio da je maksimalna vrednost struje na izlazu $I_{OH}=-20\mathrm{mA}$, ne znači da smete da dovede $-25\mathrm{mA}$ na izlaz, pošto je matematički $-25<-20$.
-\par\bigskip
-I kao što smo videli na primeru otpornika $R_B$, i ovde imamo dvostruki zahtev: 1. otpornik $R_C$ treba da bude što manji da bi strujni kapacitet izlaza bio što veći; 2. otpornik $R_C$ treba da bude što veći da bi pojačanje bilo što veće i što uža prelazna zona. Kompromis.
+\begin{frame}[label=10-s024]{Maksimalna struja i izbor kolektorskog otpornika}
+\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{3pt}\setlength{\belowdisplayshortskip}{3pt}
+\[I_{O\max}=I_{OH}=-\frac{V_{CC}-V_{OH\min}}{R_C}\]
+„Maksimum“ znači maksimalnu apsolutnu vrednost struje.\par
+Ako je granica $I_{OH}=-20\,\mathrm{mA}$, struja $-25\,\mathrm{mA}$ nije dozvoljena.\par\bigskip\begin{columns}[T,onlytextwidth]\column{.47\textwidth}\textcolor{DEcrvena}{Manje $R_C$}\par\medskip
+Veći strujni kapacitet izlaza.\column{.49\textwidth}\centering \textcolor{DEcrvena}{Veće $R_C$}\par\medskip
+Veće pojačanje; uža prelazna zona.\end{columns}\bigskip\Rezultat{Kompromis pri izboru $R_C$.}
 \end{frame}

@@ -1,0 +1,13 @@
+% element: 10-s048:e03
+\BeleskeID{10-s048}
+Najveća apsolutna ulazna struja nule nastaje pri minimalnom ulazu:
+\[I_{I\max}=-\frac{V_{CC}-V_D-V_{I\min}}{R_D}=-\frac{V_{CC}-V_D-0}{R_D}.\]
+Za ulaznu jedinicu ulazna dioda ne vodi, pa je struja nula.
+
+Pri izlaznoj nuli uslov zasićenja ograničava struju:
+\[I_O<\beta_FI_B-I_{RC}=\beta_FI_B-\frac{V_{CC}-V_{CES}}{R_C}.\]
+Bazna struja je razlika struja otpornika:
+\[I_B=I_{RD}-I_{RB}=\frac{V_{CC}-V_{D3}-V_{D4}-V_{BE1}}{R_D}-\frac{V_{BE1}}{R_B}.\]
+Pri zasićenju zamenjujemo $V_{D3}=V_{D4}=V_D$ i $V_{BE1}=V_{BES}$:
+\[I_B=\frac{V_{CC}-V_D-V_D-V_{BES}}{R_D}-\frac{V_{BES}}{R_B}.\]
+Konačna granica $I_{O\max}=I_{OL}=\beta_FI_B-I_{RC}$ dobija se zamenom tih struja. Strujni kapacitet visokog izlaza određen je otpornikom $R_C$, kao i kod RTL kola.

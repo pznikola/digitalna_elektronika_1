@@ -1,0 +1,13 @@
+\BeleskeID{04-s039}
+% element: 04-s039:e01 — Prethodni prikaz sa fiksnom tačkom i floating point
+% element: 04-s039:e02 — Dva registra ili dva dela jednog registra: mantisa i eksponent
+% element: 04-s039:e03 — Formula V=mantisa×osnova^eksponent
+% element: 04-s039:e04 — Binarna mantisa kao znak/apsolutna vrednost i fiksna tačka iza MSB-a
+% element: 04-s039:e05 — Eksponent kao označeni ceo broj sa ofsetom; veći opsezi i tačnost
+% element: 04-s039:d01
+
+Mantisa određuje značajne cifre, a eksponent skalu na kojoj ih tumačimo. Uz binarnu osnovu povećanje eksponenta za jedan množi vrednost sa dva; smanjenje za jedan deli je sa dva. Mantisa može ostati ista dok se opseg veličina menja.
+
+Ako mantisu $0.11_2=0.75$ pomnožimo sa $2^3$, dobijamo $6$; sa $2^{-2}$ dobijamo $0.1875$. Eksponent može zato odgovarati i pozitivnom i negativnom pomeranju skale, a njegov zapis sa ofsetom mora se prvo protumačiti prema dogovorenom formatu.
+
+Pri konačnom broju bitova mantise i eksponenta skup predstavljivih vrednosti ostaje konačan. Pokretna tačka omogućava širi raspon skala, ali ne garantuje tačan prikaz svake realne vrednosti. Tačnost zavisi od broja značajnih bitova i postupka zaokruživanja.

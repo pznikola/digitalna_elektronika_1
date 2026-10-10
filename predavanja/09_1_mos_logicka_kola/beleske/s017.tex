@@ -1,0 +1,7 @@
+\BeleskeID{09_1-s017}
+% element: 09_1-s017:n01
+Kada kolo daje logičku nulu, projektovani izlazni napon je blizu nule. Prvo zanemarivanje uklanja korekciju kratkog kanala:
+\[\frac{V_{DD}-V_{OL}}{R_L}=\frac{k_n}{2}\frac1{1+\frac{V_{OL}}{L_nE_{Cn}}}\bigl(2V_{OL}(V_{DD}-V_{Tn})-V_{OL}^2\bigr)\approx\frac{k_n}{2}\bigl(2V_{OL}(V_{DD}-V_{Tn})-V_{OL}^2\bigr)\]
+Drugo koristi mali $V_{OL}$ u odnosu na $V_{DD}-V_{Tn}$:
+\[\frac{V_{DD}-V_{OL}}{R_L}\approx\frac{k_n}{2}\bigl(2V_{OL}(V_{DD}-V_{Tn})-V_{OL}^2\bigr)\approx\frac{k_n}{2}\bigl(2V_{OL}(V_{DD}-V_{Tn})\bigr)\]
+Prebacivanjem člana $V_{OL}/R_L$ na desnu stranu i izdvajanjem $V_{OL}$ dobija se rezultat na slajdu. Jedinica u njegovom imeniocu potiče upravo od ovog člana; nije posledica modela tranzistora.

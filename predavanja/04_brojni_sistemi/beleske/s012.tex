@@ -1,0 +1,12 @@
+\BeleskeID{04-s012}
+% element: 04-s012:e01 — Razvijanje RVr preko težina i zajedničkog imenioca; RVr=CVr/r^k
+% element: 04-s012:e02 — Jednakost razlomaka sa l decimalnih i k cifara osnove r
+% element: 04-s012:e03 — Izraz za traženu celobrojnu vrednost (CVr)k
+% element: 04-s012:e04 — Uslov nije uvek dostižan; nulti ostatak ili dovoljan broj cifara
+% element: 04-s012:d01
+
+U izrazu $(CV_{10})_l/10^l$ brojilac je celobrojni niz od $l$ decimalnih razlomljenih cifara: za $0.125$ to su $125$ i $l=3$. Analogno, $(CV_r)_k$ predstavlja celobrojnu vrednost niza od $k$ cifara iza tačke u osnovi $r$.
+
+Jednakost razlomaka zahteva da brojilac $(CV_r)_k$ bude ceo broj. Za $0.2_{10}=1/5$ u binarnom sistemu bio bi potreban ceo broj $2^k/5$. Nijedan stepen dvojke nije deljiv sa pet, pa zapis ne može biti konačan. Nasuprot tome, $0.25_{10}=1/4=1/2^2$ daje konačan zapis $0.01_2$.
+
+Kada tačan konačan zapis nije moguć, bira se broj razlomljenih mesta prema potrebnoj preciznosti. Ako posle $k$ cifara jednostavno odsečemo nastavak nenegativnog broja, izostavljeni deo je manji od $r^{-k}$. Zaokruživanje je zaseban postupak i može promeniti poslednju zadržanu cifru.

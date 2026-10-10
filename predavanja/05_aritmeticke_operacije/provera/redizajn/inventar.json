@@ -1,0 +1,1749 @@
+{
+  "slides": {
+    "05-s001": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s001:e01",
+          "description": "Naslov, autorstvo, predmet i izvorna školska godina",
+          "source": "PDF strana 1, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "05-s002": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s002:e01",
+          "description": "Definicija dvobitnog neoznačenog komparatora i tri izlazne relacije",
+          "source": "PDF strana 1, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s002:e02",
+          "description": "Šema: osam invertora, četiri I za stroge relacije, dva NILI za jednakosti, dva uslovna I i završna ILI/ILI/I",
+          "source": "PDF strana 1, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s002:e03",
+          "description": "Simbol komparatora: A1,A0,B1,B0 i tri izlaza",
+          "source": "PDF strana 1, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s002:n01",
+          "description": "Minimizacija pojedinačnih izlaza, komercijalne komponente i lakše praćenje/nadogradnja; šest oznaka lokalnih relacija uz kola",
+          "source": "PDF strana 1, donji slajd",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "05-s002:d01",
+          "description": "Logičke jednačine lokalnih relacija i uloga dvostrukog invertiranja",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s003": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s003:e01",
+          "description": "Proširenje na četiri bita i prioritet viših bitova",
+          "source": "PDF strana 2, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s003:e02",
+          "description": "Slučajevi A1>B1, A1<B1, A1=B1; opšti uslov jednakosti viših bitova",
+          "source": "PDF strana 2, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s003:d01",
+          "description": "Zašto najviša razlika odlučuje",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s004": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s004:e01",
+          "description": "Potpuno jezgro komparatora sa tri ulaza proširenja za više bite",
+          "source": "PDF strana 2, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s004:e02",
+          "description": "Samostalan simbol sa sedam ulaza i tri izlaza",
+          "source": "PDF strana 2, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s004:n01",
+          "description": "Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje",
+          "source": "PDF strana 2, donji slajd",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "05-s004:d01",
+          "description": "Kodiranje tri relacije i neutralno proširenje",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s005": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s005:e01",
+          "description": "Potpuno jezgro proširenja za više bite",
+          "source": "PDF strana 3, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s005:e02",
+          "description": "Kaskada: viši par pa niži, početni 0,0,1; sva tri međurezultata",
+          "source": "PDF strana 3, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s005:e03",
+          "description": "Samostalan simbol komparatora",
+          "source": "PDF strana 3, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s005:n01",
+          "description": "Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje",
+          "source": "PDF strana 3, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "05-s005:d01",
+          "description": "Smer kaskade i uloga nepovezanog simbola",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s006": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s006:e01",
+          "description": "Potpuno jezgro proširenja za više bite",
+          "source": "PDF strana 3, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s006:e02",
+          "description": "Stablo: dva paralelna para i završni komparator kodiranih relacija, tačan raspored težina",
+          "source": "PDF strana 3, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s006:e03",
+          "description": "Samostalan simbol komparatora",
+          "source": "PDF strana 3, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s006:n01",
+          "description": "Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje",
+          "source": "PDF strana 3, donji slajd",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "05-s006:d01",
+          "description": "Kodiranje izlaza prvog nivoa i 256 kombinacija",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s007": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s007:e01",
+          "description": "Potpuno jezgro proširenja za više bite",
+          "source": "PDF strana 4, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s007:e02",
+          "description": "Upitna šestobitna mreža: a5,b5,0 i a2,b2,0; originalne veze i pitanje „Da li radi?“",
+          "source": "PDF strana 4, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s007:e03",
+          "description": "Samostalan simbol komparatora",
+          "source": "PDF strana 4, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s007:n01",
+          "description": "Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje",
+          "source": "PDF strana 4, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "05-s007:d01",
+          "description": "Kontraprimer A=0,B=1 i 1344 neusaglašena para",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s008": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s008:e01",
+          "description": "Poređenje odozdo nagore i uslov A1=B1 za preuzimanje A0>B0",
+          "source": "PDF strana 4, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s008:e02",
+          "description": "Potpuno jezgro proširenja za niže bite",
+          "source": "PDF strana 4, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s008:e03",
+          "description": "Samostalan simbol komparatora",
+          "source": "PDF strana 4, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s008:n01",
+          "description": "Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje",
+          "source": "PDF strana 4, donji slajd",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "05-s008:d01",
+          "description": "Zašto viši lokalni deo nadjačava niži",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s009": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s009:e01",
+          "description": "Potpuno jezgro proširenja za niže bite",
+          "source": "PDF strana 5, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s009:e02",
+          "description": "Kaskada: niži par pa viši, početni 0,0,1; sva tri međurezultata",
+          "source": "PDF strana 5, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s009:e03",
+          "description": "Samostalan simbol komparatora",
+          "source": "PDF strana 5, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s009:n01",
+          "description": "Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje",
+          "source": "PDF strana 5, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "05-s009:d01",
+          "description": "Smer kaskade i neutralni početak",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s010": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s010:e01",
+          "description": "Potpuno jezgro proširenja za niže bite",
+          "source": "PDF strana 5, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s010:e02",
+          "description": "Stablo sa neutralnim ulazima i dve grupe po dva bita",
+          "source": "PDF strana 5, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s010:e03",
+          "description": "Samostalan simbol komparatora",
+          "source": "PDF strana 5, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s010:n01",
+          "description": "Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje",
+          "source": "PDF strana 5, donji slajd",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "05-s010:d01",
+          "description": "Uslov validnih kodiranih izlaza",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s011": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s011:e01",
+          "description": "Potpuno jezgro proširenja za niže bite",
+          "source": "PDF strana 6, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s011:e02",
+          "description": "Šestobitna mreža: a3,b3,0 i a0,b0,0; crveno zaokružen izbor i pitanje „Da li sada radi?“",
+          "source": "PDF strana 6, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s011:e03",
+          "description": "Samostalan simbol komparatora",
+          "source": "PDF strana 6, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s011:n01",
+          "description": "Šest lokalnih oznaka uz I i NILI kola: A1>B1,A1<B1,A1=B1,A0>B0,A0<B0,A0=B0; njihovo tumačenje",
+          "source": "PDF strana 6, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "05-s011:d01",
+          "description": "Zašto sirovi niski biti rade u ovom proširenju i 4096 parova",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s012": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s012:e01",
+          "description": "Primer 326.23+95.9 i rezultat 422.13",
+          "source": "PDF strana 6, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s012:e02",
+          "description": "Tri prikaza poravnanja: usaglašavanje tačaka, vodeće/prateće nule i račun",
+          "source": "PDF strana 6, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s012:e03",
+          "description": "Vidljiv početak prenosa i tok algoritma",
+          "source": "PDF strana 6, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s012:n01",
+          "description": "Svi pojedinačni koraci prenosa 3+0,2+9,6+5+1,2+9+1,3+0+1",
+          "source": "PDF strana 6, donji slajd",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "05-s012:d01",
+          "description": "Težine cifara pri poravnanju",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s013": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s013:e01",
+          "description": "Tri pretpostavke, skup cifara i definicija prenosa",
+          "source": "PDF strana 7, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s013:e02",
+          "description": "Opšta šema sabiranja n cifara",
+          "source": "PDF strana 7, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s013:e03",
+          "description": "Maksimalni zbir 2r−1, razlaganje prenosa i dodatna cifra sn, uslov prekoračenja",
+          "source": "PDF strana 7, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s013:d01",
+          "description": "Količnik i ostatak digitnog zbira u osnovi r",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s014": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s014:e01",
+          "description": "Primer u osnovi 7: 326.23+45.4=404.63, sve cifre i izvorni prenosi",
+          "source": "PDF strana 7, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s014:e02",
+          "description": "Dva binarna računa 0101+1101=10010 i izlazni C",
+          "source": "PDF strana 7, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s014:e03",
+          "description": "Dijagram prelamanja i dijagram zasićenja; rezultat 0010 i zasićeni 1111",
+          "source": "PDF strana 7, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s014:d01",
+          "description": "Razlika preloma i zasićenja",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s015": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s015:e01",
+          "description": "Pitanje o svrsi realizacije",
+          "source": "PDF strana 8, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s015:e02",
+          "description": "Potpuna funkcionalna tabela polusabirača, četiri reda",
+          "source": "PDF strana 8, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s015:e03",
+          "description": "Blok polusabirača i EKSILI/I realizacija sa svim priključcima",
+          "source": "PDF strana 8, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s015:d01",
+          "description": "Uloga polusabirača i topologija šeme",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s016": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s016:e01",
+          "description": "Potpuna funkcionalna tabela punog sabirača, osam redova",
+          "source": "PDF strana 8, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s016:e02",
+          "description": "Blok i šema sa dva EKSILI, dva I i završnim ILI",
+          "source": "PDF strana 8, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s016:e03",
+          "description": "Jednačine s, cout i originalna alternativna realizacija r",
+          "source": "PDF strana 8, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s016:d01",
+          "description": "Paritetna funkcija alternativne jednačine r i oznake prenosa",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s017": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s017:e01",
+          "description": "Pitanje o svrsi i algoritamsko binarno sabiranje",
+          "source": "PDF strana 9, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s017:e02",
+          "description": "Lanac n potpunih sabirača sa početnim 0 i svim ulazima/izlazima/prenosima",
+          "source": "PDF strana 9, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s017:e03",
+          "description": "Kašnjenje (N−1)tcarry+tsum, O(N), cilj ubrzanja prenosa",
+          "source": "PDF strana 9, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s017:d01",
+          "description": "Kritična putanja i redni prenos",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s018": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s018:e01",
+          "description": "Primer 326.23−95.9 i rezultat 230.33",
+          "source": "PDF strana 9, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s018:e02",
+          "description": "Tri prikaza poravnanja tačke, dopune nulama i računa",
+          "source": "PDF strana 9, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s018:e03",
+          "description": "Vidljiv početak pozajmice i tok algoritma",
+          "source": "PDF strana 9, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s018:n01",
+          "description": "Ceo niz pozajmica i objašnjenje ekvivalentnog prenosa 6−(5+1)=(6−1)−5",
+          "source": "PDF strana 9, donji slajd",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "05-s018:d01",
+          "description": "Značenje prenete pozajmice",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s019": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s019:e01",
+          "description": "Tri pretpostavke, skup cifara i definicija pozajmice",
+          "source": "PDF strana 10, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s019:e02",
+          "description": "Opšta šema n-cifrenog postupka",
+          "source": "PDF strana 10, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s019:e03",
+          "description": "Minimalna razlika −r, pozajmica, sn=0 ili −1 i izvorna nastavna pitanja pri a<b",
+          "source": "PDF strana 10, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s019:d01",
+          "description": "Digitni algoritam i smisao izvornih upitnika",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s020": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s020:e01",
+          "description": "Račun u osnovi 7: 326.23−45.4=250.53 i pozajmice",
+          "source": "PDF strana 10, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s020:e02",
+          "description": "Binarni račun 1100−0101=0111 i pozajmice",
+          "source": "PDF strana 10, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s020:e03",
+          "description": "Binarni račun 0101−1100 sa vodećim jedinicama, donji 1001 i tumačenje 9 ili −7",
+          "source": "PDF strana 10, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s020:d01",
+          "description": "Tumačenje donjeg 1001 u oba brojna opsega",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s021": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s021:e01",
+          "description": "Tri slučaja klasičnog oduzimanja i izbor komparatorom",
+          "source": "PDF strana 11, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s021:e02",
+          "description": "Veza sabiranja i oduzimanja za sve kombinacije znakova, oba stupca i četiri strelice",
+          "source": "PDF strana 11, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s021:n01",
+          "description": "Prethodno sabiranje i oduzimanje samo pozitivnih vrednosti, potreba oba postupka pri negativnim operandima",
+          "source": "PDF strana 11, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "05-s021:d01",
+          "description": "Kako znaci menjaju potrebnu operaciju",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s022": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s022:e01",
+          "description": "Sve četiri veze sabiranja i oduzimanja za nenegativne apsolutne vrednosti",
+          "source": "PDF strana 11, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s022:e02",
+          "description": "Pitanje o potrebi oduzimača i a<b ⇒ a−b=−(b−a)",
+          "source": "PDF strana 11, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s022:e03",
+          "description": "Izvođenje drugog komplementa 2^n−(b−a)=a+(2^n−b) i rezultat",
+          "source": "PDF strana 11, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s022:d01",
+          "description": "Račun po modulu 2^n",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s023": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s023:e01",
+          "description": "Jednakost po modulu bez prethodnog poređenja a,b",
+          "source": "PDF strana 12, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s023:e02",
+          "description": "Odvojeni slučajevi a<b i a>b, zapis rezultata i izlazni prenos",
+          "source": "PDF strana 12, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s023:e03",
+          "description": "Petobitni primer 00101−01100, sabiranje 00101+10100=11001, rezultat −7",
+          "source": "PDF strana 12, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s023:e04",
+          "description": "Tri zapisa komplementiranja: 11001,00110,00111",
+          "source": "PDF strana 12, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s023:n01",
+          "description": "Potpuno tumačenje pojave/odsustva izlaznog prenosa i dodatog petog bita",
+          "source": "PDF strana 12, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "05-s023:d01",
+          "description": "Čitanje 11001=−7 i ponovno komplementiranje",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s024": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s024:e01",
+          "description": "Izvorni uvodni tekst o dodatku 100000 i prirodnom komplementu osnove",
+          "source": "PDF strana 12, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s024:e02",
+          "description": "Potpun binarni račun, beskonačna pozajmica i prikazani dodatak 10000",
+          "source": "PDF strana 12, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s024:e03",
+          "description": "Potpun decimalni račun 45−67, dodatak 100, komplement 78 i apsolutna vrednost 22",
+          "source": "PDF strana 12, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s024:d01",
+          "description": "Beskonačna pozajmica i decimalni komplement 78=−22",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s025": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s025:e01",
+          "description": "Oduzimanje sabiranjem komplementirane vrednosti, bez obzira na znake",
+          "source": "PDF strana 13, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s025:e02",
+          "description": "Digresija b<0: a−b=a+|b| i ponovno komplementiranje",
+          "source": "PDF strana 13, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s025:e03",
+          "description": "Operacije ADD/SUB na višem nivou; ne pravimo poseban oduzimač",
+          "source": "PDF strana 13, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s025:d01",
+          "description": "Razlika instrukcije i sabiračkog sklopa",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s026": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s026:e01",
+          "description": "Četiri slučaja zbira označenih vrednosti, sve jednačine",
+          "source": "PDF strana 13, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s026:e02",
+          "description": "Pravila OVF prema znacima; izlazni prenos ignorišemo u rezultatu",
+          "source": "PDF strana 13, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s026:e03",
+          "description": "Obe granice n−1 cifara i znaka, zbir najvećih pozitivnih i najmanjih negativnih, izvorni prenosi",
+          "source": "PDF strana 13, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s026:d01",
+          "description": "Razlika označenog OVF i izlaznog prenosa",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s027": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s027:e01",
+          "description": "Četiri jednačine sabiranja prvog komplementa i član 2^n−1",
+          "source": "PDF strana 14, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s027:e02",
+          "description": "Pravila OVF prema znacima za mešovite i iste znake",
+          "source": "PDF strana 14, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s027:e03",
+          "description": "Korekcija izlaznim prenosom za pozitivan mešovit i negativan zbir; opšte pravilo kružnog prenosa",
+          "source": "PDF strana 14, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s027:n01",
+          "description": "Potpuno objašnjenje korekcije još jednom jedinicom u oba navedena slučaja",
+          "source": "PDF strana 14, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "05-s027:d01",
+          "description": "Proveren primer prvog komplementa −2+3=1",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s028": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s028:e01",
+          "description": "EKSILI kao bafer i invertor",
+          "source": "PDF strana 14, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s028:e02",
+          "description": "Potpuna ADD/SUB mreža: pet označenih sabirača, EKSILI na b, kontrola i početni prenos, OVF EKSILI",
+          "source": "PDF strana 14, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s028:e03",
+          "description": "Izvođenje SUB=a+bar(b)+1 i ADD=a+b",
+          "source": "PDF strana 14, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s028:e04",
+          "description": "Oba primera označenog OVF i upozorenje da za prvi komplement ne važi",
+          "source": "PDF strana 14, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s028:d01",
+          "description": "Objašnjenje kontrole ADD/SUB i EKSILI detekcije OVF",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s029": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s029:e01",
+          "description": "Dijagram prekoračenja, regulardan interval i oba pogrešna znaka",
+          "source": "PDF strana 15, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s029:e02",
+          "description": "Dijagram zasićenja i napomena o primeni u obradi signala",
+          "source": "PDF strana 15, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s029:d01",
+          "description": "Proveren primer 7+1 i zasićenje",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s030": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s030:e01",
+          "description": "Opšti raspored registara 4→8 bitova",
+          "source": "PDF strana 15, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s030:e02",
+          "description": "Oba neoznačena primera, dopuna vodećim nulama bez promene vrednosti",
+          "source": "PDF strana 15, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s030:d01",
+          "description": "Razlika proširenja i pomeranja",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s031": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s031:e01",
+          "description": "Pozitivan i negativan primer drugog komplementa sa proširenjem znaka",
+          "source": "PDF strana 16, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s031:e02",
+          "description": "Potpuno izvođenje 2^8−a, faktor 2^4 i blok 1111 uz oznaku pomeranja za četiri mesta",
+          "source": "PDF strana 16, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s031:e03",
+          "description": "Primer proširenja prikaza znak i apsolutna vrednost",
+          "source": "PDF strana 16, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s031:d01",
+          "description": "Zašto ponavljanje znaka nije pravilo za znak i apsolutnu vrednost",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s032": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s032:e01",
+          "description": "Sve četiri operacije LSL,LSR,ASL,ASR: oba registra, svaka pozicija i novi bit",
+          "source": "PDF strana 16, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s032:e02",
+          "description": "Veza pomeranja i množenja/deljenja sa dva; pitanje kada nastupa OVF",
+          "source": "PDF strana 16, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s032:d01",
+          "description": "Primer −7, ASR=floor i uslov prekoračenja ASL",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s033": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s033:e01",
+          "description": "Potpun osmobitni primer INC sa prenosom preko završnih jedinica",
+          "source": "PDF strana 17, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s033:e02",
+          "description": "Potpun osmobitni primer DEC sa pozajmicom preko završnih nula",
+          "source": "PDF strana 17, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s033:d01",
+          "description": "Granična modularna ponašanja INC/DEC",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s034": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s034:e01",
+          "description": "Pitanje o potrebi sabirača i INC +1",
+          "source": "PDF strana 17, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s034:e02",
+          "description": "Detektor najniže nule, ulazni i izlazni osmobitni red, kontrola EKSILI kao bafer/invertor, originalna maska i strelice",
+          "source": "PDF strana 17, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s034:d01",
+          "description": "Maska i granično stanje samih jedinica",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s035": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s035:e01",
+          "description": "Pitanje o potrebi oduzimača i DEC −1",
+          "source": "PDF strana 18, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s035:e02",
+          "description": "Detektor najniže jedinice, ulazni i izlazni osmobitni red, kontrola EKSILI kao bafer/invertor, originalna maska i strelice",
+          "source": "PDF strana 18, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s035:d01",
+          "description": "Maska i granično stanje nule",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s036": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s036:e01",
+          "description": "Pitanje o potrebi sabirača/oduzimača",
+          "source": "PDF strana 18, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s036:e02",
+          "description": "Zajednička INC/DEC kontrola detektora, oba osmobitna registra, maska i sve grane",
+          "source": "PDF strana 18, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s036:d01",
+          "description": "Uloga dve grane iste magistrale",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s037": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s037:e01",
+          "description": "Neoznačeni primer 5×3, binarni i decimalni rezultat",
+          "source": "PDF strana 19, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s037:e02",
+          "description": "Obe tabele parcijalnih proizvoda: osnovna i proširena, I operacija, dopune/pomeranje",
+          "source": "PDF strana 19, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s037:e03",
+          "description": "Maksimalni proizvod i potreba za 2n mestâ",
+          "source": "PDF strana 19, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s037:d01",
+          "description": "Razlaganje parcijalnih proizvoda i opseg",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s038": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s038:e01",
+          "description": "Označen trobitni primer (−3)×3=−9, očekivani 110111",
+          "source": "PDF strana 19, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s038:e02",
+          "description": "Namerno nepravilni parcijalni proizvodi sa vodećim nulama, zbir 001111 i upitnik",
+          "source": "PDF strana 19, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s038:d01",
+          "description": "Zašto je namerni primer netačan",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s039": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s039:e01",
+          "description": "Isti označeni primer (−3)×3=−9",
+          "source": "PDF strana 20, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s039:e02",
+          "description": "Ispravna ekstenzija znaka svih parcijalnih proizvoda, zbir 1110111",
+          "source": "PDF strana 20, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s039:d01",
+          "description": "Odbacivanje sedmog prenosa i čitanje −9",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s040": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s040:e01",
+          "description": "Označen trobitni primer 3×(−3)=−9, očekivani 110111",
+          "source": "PDF strana 20, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s040:e02",
+          "description": "Namerno nepravilna težina znaka množioca, sva ćelije i zbir 001111; pitanje uz ispravnu ekstenziju",
+          "source": "PDF strana 20, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s040:d01",
+          "description": "Negativna težina znaka, 3×5 umesto 3×(−3)",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s041": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s041:e01",
+          "description": "Isti označeni primer 3×(−3)=−9",
+          "source": "PDF strana 21, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s041:e02",
+          "description": "Obe tabele: direktno oduzimanje i negativan parcijalni proizvod, rezultat 110111",
+          "source": "PDF strana 21, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s041:e03",
+          "description": "Negativna težina najvišeg bita množioca i potreba negativnog parcijalnog proizvoda",
+          "source": "PDF strana 21, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s041:d01",
+          "description": "Parcijalni proizvodi +3 i −12",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s042": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s042:e01",
+          "description": "Označen trobitni primer (−3)×(−3)=9, očekivani 001001",
+          "source": "PDF strana 21, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s042:e02",
+          "description": "Potpuna tabela sa negativnim i pozitivnim parcijalnim proizvodima, zbir 1001001",
+          "source": "PDF strana 21, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s042:d01",
+          "description": "Parcijalni proizvodi −3 i +12, sedmi prenos",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s043": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s043:e01",
+          "description": "Dve operacije procesora za označeno i neoznačeno množenje, MPY i MPYS",
+          "source": "PDF strana 22, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s043:d01",
+          "description": "Zašto tumačenje operanada menja operaciju",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s044": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s044:e01",
+          "description": "Četiri koraka označenog množenja preko apsolutnih vrednosti",
+          "source": "PDF strana 22, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s044:e02",
+          "description": "Svih pet redova pseudokoda sa pamćenjem i obnovom znaka",
+          "source": "PDF strana 22, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s044:d01",
+          "description": "Uslov predstavljivosti apsolutne vrednosti minimuma",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s045": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s045:e01",
+          "description": "Podsećanje na neoznačenu i označenu vrednost D i dva slučaja bita znaka",
+          "source": "PDF strana 23, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s045:e02",
+          "description": "Svih šest prikazanih parcijalnih proizvoda za 32 bita, a−1=0 i zbir",
+          "source": "PDF strana 23, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s045:e03",
+          "description": "Konačni teleskopski rezultat sa negativnom težinom a31",
+          "source": "PDF strana 23, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s045:n01",
+          "description": "Međukoraci D_t=−(2^n−D)=−(2^n−D_(n−1)2^(n−1)−D*) i označeno značenje zapisa",
+          "source": "PDF strana 23, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "05-s045:d01",
+          "description": "Dokaz teleskopske jednakosti za n bitova",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s046": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s046:e01",
+          "description": "32-bitni operand, svih šest parcijalnih proizvoda i početni a−1=0",
+          "source": "PDF strana 23, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s046:e02",
+          "description": "Konačni teleskopski izraz",
+          "source": "PDF strana 23, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s046:e03",
+          "description": "Sva četiri para susednih bitova i odluke NOP,ADD,SUB,NOP",
+          "source": "PDF strana 23, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s046:d01",
+          "description": "Redosled para i proveren niz 001110=14",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s047": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s047:e01",
+          "description": "Potpuna tabela: b=0010,a=0110, R=0; N=4 do 0, svi operandni redovi i 10 stanja R",
+          "source": "PDF strana 24, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s047:e02",
+          "description": "Sva četiri para bitova i operacije/pomeranja; završni 00001100",
+          "source": "PDF strana 24, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s047:d01",
+          "description": "Račun svih četiri iteracija sa zasebnim registrima, 2×6=12",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s048": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s048:e01",
+          "description": "Ceo Boothov dijagram toka: inicijalizacija, tri odluke, oba zasebna aritmetička pomeranja, brojač i povratna grana",
+          "source": "PDF strana 24, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s048:d01",
+          "description": "Smisao dva pomeranja i potrebna širina međurezultata",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s049": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s049:e01",
+          "description": "Celobrojni proizvod 2n bitova i donji n-bitni rezultat",
+          "source": "PDF strana 25, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s049:e02",
+          "description": "Sva tri uslova gornjih bitova za pozitivan/negativan označen i neoznačen rezultat",
+          "source": "PDF strana 25, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s049:e03",
+          "description": "Upozorenje na veliku grešku prekoračenja",
+          "source": "PDF strana 25, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s049:d01",
+          "description": "Proveren primer −9 koji ne staje u četiri bita",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s050": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s050:e01",
+          "description": "Prikaz fiksne tačke operanada i izvorni raspored tačke proizvoda",
+          "source": "PDF strana 25, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s050:e02",
+          "description": "Opseg −1≤a,b<1, proizvod i izuzetak oba operanda −1",
+          "source": "PDF strana 25, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s050:e03",
+          "description": "Izvorni zadržani i odbačeni nizovi indeksa i primena u obradi signala",
+          "source": "PDF strana 25, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s050:d01",
+          "description": "Opseg, težine pozicija i izuzetak (−1)×(−1)",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s051": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s051:e01",
+          "description": "Izvorni primer odsecanja osmobitnog zapisa na četiri bita sa svim međuzapisima",
+          "source": "PDF strana 26, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s051:e02",
+          "description": "Izvođenje razlike odbačenim delom i izvorna granica 15/128",
+          "source": "PDF strana 26, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s051:e03",
+          "description": "Opšta izvorna granica (2^n−1)/2^(2n−1), sve jedinice i promena apsolutne vrednosti oba znaka",
+          "source": "PDF strana 26, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s051:d01",
+          "description": "Proveren primer −1/16→−1/8 i smer odsecanja",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s052": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s052:e01",
+          "description": "Izvorni proizvod sa fiksnom tačkom i dodatak r, težina najmanjeg bita",
+          "source": "PDF strana 26, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s052:e02",
+          "description": "Svih pet smerova zaokruživanja, izvorni dodaci i napomena o parnoj/neparnoj najbližoj vrednosti",
+          "source": "PDF strana 26, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s052:d01",
+          "description": "Smisao pet smerova i slučaj tačne polovine",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s053": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s053:e01",
+          "description": "Potpuna tabela deljenja 74:8=1001010:1000: sva poravnanja, oznake M/N, izvorni uslovi i četiri strelice ka količniku",
+          "source": "PDF strana 27, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s053:e02",
+          "description": "Količnik 1001 i ostatak 0010",
+          "source": "PDF strana 27, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s053:d01",
+          "description": "74=8×9+2 i razlomljeni nastavak 9.25",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s054": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s054:e01",
+          "description": "Potpuna tabela probnog oduzimanja i vraćanja ostatka, sva poravnanja, izvorni uslovi, četiri strelice",
+          "source": "PDF strana 27, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s054:e02",
+          "description": "Uslov za bit količnika i ALU postupak: oduzmi, ispitaј znak, pomeri i ponovi",
+          "source": "PDF strana 27, donji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s054:d01",
+          "description": "Razlika probnog rezultata i sačuvanog ostatka",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "05-s055": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "05-s055:e01",
+          "description": "Četiri koraka označenog deljenja",
+          "source": "PDF strana 28, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s055:e02",
+          "description": "Svih pet redova pseudokoda sa pamćenjem i obnovom znaka",
+          "source": "PDF strana 28, gornji slajd",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "05-s055:d01",
+          "description": "Deljenje prema nuli, delilac nula i označeni minimum/−1",
+          "source": "Izvođenje iz šema/formula istog slajda; nezavisna računska provera kodovi/provera_logike.py i kodovi/provera_beleski.py",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    }
+  }
+}

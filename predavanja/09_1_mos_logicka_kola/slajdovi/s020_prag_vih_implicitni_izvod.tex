@@ -1,10 +1,11 @@
 \slajdid{09_1-s020}
-\begin{frame}[label=09_1-s020]
-\gusttekst
-$V_{IH}$ će se naći očigledno u trećoj oblasti za koju važi
-\[\frac{V_{DD}-V_O}{R_L}=\frac{k_n}{2}\frac1{1+\frac{V_O}{L_nE_{Cn}}}\bigl(2V_O(V_I-V_{Tn})-V_O^2\bigr)\]
-Za očekivati je da će u tački $V_{IH}$ izlazni napon biti nizak, odnosno da je $V_O<L_nE_{Cn}$ pa opet taj član možemo zanemariti u određivanju $V_{IH}$.
-\[\frac{V_{DD}-V_O}{R_L}\approx\frac{k_n}{2}\bigl(2V_O(V_I-V_{Tn})-V_O^2\bigr)\]
-\[\frac{V_{DD}-V_O}{R_L}\approx\frac{k_n}{2}\bigl(2V_O(V_I-V_{Tn})-V_O^2\bigr)\quad\Bigg|\frac\partial{\partial V_I}\]
-\[-\frac1{R_L}\frac{\partial V_O}{\partial V_I}\approx\frac{k_n}{2}\left(2\frac{\partial V_O}{\partial V_I}(V_I-V_{Tn})+2V_O-2V_O\frac{\partial V_O}{\partial V_I}\right)\]
+\begin{frame}[label=09_1-s020]{Prag VIH: triodna oblast}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{3pt}\setlength{\belowdisplayshortskip}{3pt}
+% element: 09_1-s020:e01
+% element: 09_1-s020:e02
+% element: 09_1-s020:e03
+% element: 09_1-s020:e04
+\textbf{$V_{IH}$: treća oblast}\[\frac{V_{DD}-V_O}{R_L}=\frac{k_n}{2}\frac1{1+\frac{V_O}{L_nE_{Cn}}}\bigl(2V_O(V_I-V_{Tn})-V_O^2\bigr)\]
+Očekuje se nizak izlazni napon: $V_O<L_nE_{Cn}$.\[\frac{V_{DD}-V_O}{R_L}\approx\frac{k_n}{2}\bigl(2V_O(V_I-V_{Tn})-V_O^2\bigr)\]
+Diferenciranje po $V_I$:\[-\frac1{R_L}\frac{\partial V_O}{\partial V_I}\approx\frac{k_n}{2}\left(2\frac{\partial V_O}{\partial V_I}(V_I-V_{Tn})+2V_O-2V_O\frac{\partial V_O}{\partial V_I}\right)\]
+
 \end{frame}

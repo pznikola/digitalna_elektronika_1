@@ -1,0 +1,8 @@
+\BeleskeID{07-s011}
+% element: 07-s011:d01
+% element: 07-s011:e03
+Naslov ABEL modula Mux12T4 glasi „12 to 4 multiplexer“: dvanaest podatkovnih ulaznih linija grupisano je u tri četvorobitna vektora.
+
+Vektori \texttt{a}, \texttt{b} i \texttt{c} grupišu po četiri ulazna bita, a \texttt{y} četiri izlazna bita. \texttt{select=[s1,s0]} predstavlja dvobitnu selekciju. Vrednosti 0 i 1 biraju \texttt{a} odnosno \texttt{b}; i 2 i 3 biraju \texttt{c}. Zato postoje tri različita ulazna vektora, iako selekcija ima četiri kombinacije.
+
+\texttt{H} je vektor četiri jedinice, odnosno broj 15, \texttt{L} vektor četiri nule, a \texttt{X} vrednost koja nije bitna za određeni test. Kada je \texttt{select=0}, na primer, test proverava prenos vektora \texttt{a} i ne zavisi od \texttt{b} ili \texttt{c}. Komentari uz test vektore upravo povezuju selekciju 0 sa linijama a, 1 sa b, a 2 i 3 sa c.

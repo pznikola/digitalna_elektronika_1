@@ -1,0 +1,8 @@
+\BeleskeID{02-s051-rtl01}
+% element: 02-s051-rtl01:d04
+
+Podrazumevano \(T=5\) znači 5 ns pri jedinici simulacije 1 ns. Studentski testbench prosleđuje sopstvenu vrednost \(T\), koju je lako promeniti.
+
+U studentskoj pobudi \(B\) pada na nulu u 20 ns, dok su \(C=A=1\). Signal \texttt{BA} tada pada na 0, a \texttt{B\_n} i \texttt{C\_B\_n} postaju 1 tek u 25 ns. Na \(F\) se vidi lažna nula od 20 do 25 ns. Za drugu vrednost \(T\) pomera se trenutak oporavka.
+
+Naredba \texttt{assign \#(T)} opisuje inertno simulaciono kašnjenje. Kašnjenja realne realizacije određuju izabrana tehnologija, sintetizovana mreža i fizičko povezivanje; ovaj model ne zadaje ta kašnjenja. Čekanja u testbench-u određuju samo trenutke promene pobuda. Za posmatranje gliča pratite i međusignale, a ne samo konačnu vrednost \(F\).

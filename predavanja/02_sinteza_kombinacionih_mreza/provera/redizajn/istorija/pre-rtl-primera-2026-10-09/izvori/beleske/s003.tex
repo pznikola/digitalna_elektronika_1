@@ -1,0 +1,16 @@
+\BeleskeID{02-s003}
+% element: 02-s003:e01
+% element: 02-s003:e02
+% element: 02-s003:e03
+% element: 02-s003:d01
+
+Ovde vremenske dijagrame još čitamo na apstraktnom nivou, kao smenu logičkih nula i jedinica. Signal koji ih fizički prenosi nije sama logička vrednost, već veličina koja tu vrednost predstavlja. Dijagram bez kašnjenja predstavlja idealizaciju, dok realni invertor reaguje nakon konačnog vremena.
+
+Indeksi \(HL\) i \(LH\) odnose se na smer promene \emph{izlaza}. Kada \(x\) pređe sa 0 na 1, izlaz invertora prelazi sa 1 na 0, pa pratimo \(t_{pHL}\). Pri prelazu ulaza sa 1 na 0 pratimo \(t_{pLH}\). Ako ulazni impuls počinje u \(t_1\), a završava se u \(t_2\), odgovarajuće izlazne promene nastupaju u \(t_1+t_{pHL}\) i \(t_2+t_{pLH}\). To objašnjava zašto granice ulaznog i izlaznog impulsa nisu iste.
+
+Ako se obe promene prenesu kroz invertor, ulazni impuls širine \(T_{\mathrm{ul}}=t_2-t_1\) daje izlazni impuls širine
+\[
+T_{\mathrm{izl}}=(t_2+t_{pLH})-(t_1+t_{pHL})
+=T_{\mathrm{ul}}+t_{pLH}-t_{pHL}.
+\]
+Zato različita kašnjenja mogu proširiti ili skratiti impuls: na prikazanom primeru \(t_{pLH}>t_{pHL}\), pa je izlazni impuls širi od ulaznog.

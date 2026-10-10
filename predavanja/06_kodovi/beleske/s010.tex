@@ -1,0 +1,7 @@
+\BeleskeID{06-s010}
+% element: 06-s010:d01
+Dodavanje tri pre narednog pomeranja ima isti učinak kao dodavanje šest posle udvostručavanja, jer je $2(d+3)=2d+6$. Korekcija se radi kada je decimalna cifra bar pet: tada bi njeno udvostručavanje dalo najmanje deset.
+
+Za cifre od pet do devet vrednost $d+3$ je od osam do dvanaest. Pri pomeranju najviši bit izlazi iz tetrada i prelazi u narednu decimalnu cifru. Donji tetrad tada sadrži $2d-10$, a sledeći ulazni bit može mu dodati još jedan.
+
+Međurezultati neposredno posle dodavanja tri ne moraju biti važeće BCD cifre. Oni su priprema za sledeće pomeranje. Konačan rezultat se čita tek po završetku svih osam pomeranja.

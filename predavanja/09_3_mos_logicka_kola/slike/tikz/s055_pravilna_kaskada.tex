@@ -1,1 +1,13 @@
-\begin{tikzpicture}[x=.85cm,y=.48cm,font=\sitneoznake,>=Latex]\ctikzset{bipoles/length=.6cm}\begin{scope}[shift={(0,0)}]\draw(-.35,0)--(.35,0);\draw(-.4,-.13)--(.4,-.13);\draw(-.3,0)--(-.3,.4)--(-1,.4)node[ocirc]{}node[left]{$D$};\draw(.3,0)--(.3,.4)--(1,.4);\draw(0,-.13)--(0,-.8)node[ocirc]{}node[below]{$C$};\node[above]at(0,.1){3};\end{scope}\begin{scope}[shift={(2,0)}]\draw(-.35,0)--(.35,0);\draw(-.4,-.13)--(.4,-.13);\draw(-.3,0)--(-.3,.4)--(-1,.4);\draw(.3,0)--(.3,.4)--(1,.4);\draw(0,-.13)--(0,-.8)node[ocirc]{}node[below]{$B$};\node[above]at(0,.1){2};\end{scope}\begin{scope}[shift={(4,0)}]\draw(-.35,0)--(.35,0);\draw(-.4,-.13)--(.4,-.13);\draw(-.3,0)--(-.3,.4)--(-1,.4);\draw(.3,0)--(.3,.4)--(1,.4);\draw(0,-.13)--(0,-.8)node[ocirc]{}node[below]{$A$};\node[above]at(0,.1){1};\end{scope}\draw(5,.4)--(5.5,.4)--(5.5,-1.3);\draw(5.5,-.5)--(6.8,-.5)node[ocirc]{}node[above]{Y}--(7.6,-.5);\draw(7.2,-.5)to[C,l=$C_L$](7.2,-2)node[ground]{};\node at(5.5,-2){$\vdots$};\end{tikzpicture}
+{\RazaviSetup
+\begin{circuitikz}[font=\sitneoznake,line width=.7pt]
+\ctikzset{transistors/scale=.85,bipoles/length=.55cm}
+
+\foreach \x/\i/\v in {0/3/C,1.3/2/B,2.6/1/A}{
+\node[rz nmos,nobulk,rotate=90](t\i)at(\x,1){};
+\draw[wire](t\i.G)--++(0,-.3)node[ocirc]{}node[below]{$\v$};\node[above]at(\x,1.2){\i};}
+\draw[wire](t3.D)--(-.6,1)node[ocirc]{}node[left]{$D$};
+\draw[wire](t3.S)--(t2.D);\draw[wire](t2.S)--(t1.D);
+\draw[wire](t1.S)--(3.1,1)--(3.1,.35)--(4.1,.35)node[ocirc]{}node[above]{$Y$};
+\draw[wire](3.1,.35)--(3.1,0);\node at(3.1,-.4){$\vdots$};\node[junction]at(3.1,.35){};
+\draw(3.9,.35)to[C,l=$C_L$](3.9,-.65)node[ground]{};\node[junction]at(3.9,.35){};
+\end{circuitikz}}

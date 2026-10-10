@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-09",
+  "source": "Stvarni VCD zapisi oba simulatora; jedinica u VCD-u je 1 ps.",
+  "runs": [
+    {
+      "engine": "verilator",
+      "top": "tb_mreza_sa_hazardom",
+      "vcd": "build/redizajn/systemverilog/02-s051/verilator/tb_mreza_sa_hazardom/tb_mreza_sa_hazardom.vcd",
+      "vcd_sha256": "6d01f0f5d3493230d9ccc68d42309032a0b36aaa3d9a1e3237b427fdebd6267e",
+      "fall_ns": 180,
+      "rise_ns": 185,
+      "false_zero_duration_ns": 5,
+      "second_instance_duration_ns": 7
+    },
+    {
+      "engine": "verilator",
+      "top": "tb_mreza_sa_hazardom_bez_provere",
+      "vcd": "build/redizajn/systemverilog/02-s051/verilator/tb_mreza_sa_hazardom_bez_provere/tb_mreza_sa_hazardom_bez_provere.vcd",
+      "vcd_sha256": "39a7761f6675446a1437db466df88fcfc991cf9a3398fa9bc8769fb3c23fb691",
+      "fall_ns": 20,
+      "rise_ns": 25,
+      "false_zero_duration_ns": 5
+    },
+    {
+      "engine": "iverilog",
+      "top": "tb_mreza_sa_hazardom",
+      "vcd": "build/redizajn/systemverilog/02-s051/iverilog/tb_mreza_sa_hazardom/tb_mreza_sa_hazardom.vcd",
+      "vcd_sha256": "5e0b470801b15a9be716dd3ce7baaddee843e1ad76ec920c6bb23c89fef3253f",
+      "fall_ns": 180,
+      "rise_ns": 185,
+      "false_zero_duration_ns": 5,
+      "second_instance_duration_ns": 7
+    },
+    {
+      "engine": "iverilog",
+      "top": "tb_mreza_sa_hazardom_bez_provere",
+      "vcd": "build/redizajn/systemverilog/02-s051/iverilog/tb_mreza_sa_hazardom_bez_provere/tb_mreza_sa_hazardom_bez_provere.vcd",
+      "vcd_sha256": "2075d4cafe3a92dcdccf0e09d55101712a790ccc6ffeed74e32f37096852a021",
+      "fall_ns": 20,
+      "rise_ns": 25,
+      "false_zero_duration_ns": 5
+    }
+  ]
+}

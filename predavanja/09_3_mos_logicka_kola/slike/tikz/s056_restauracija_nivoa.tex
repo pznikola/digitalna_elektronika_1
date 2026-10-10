@@ -1,7 +1,24 @@
-\begin{tikzpicture}[x=.75cm,y=.65cm,font=\sitneoznake,>=Latex]\ctikzset{bipoles/length=.6cm}\begin{scope}[shift={(0,1)}]\draw(-.35,0)--(.35,0);\draw(-.4,-.13)--(.4,-.13);\draw(-.3,0)--(-.3,.4)--(-1,.4)node[ocirc]{}node[left]{$B$};\draw(.3,0)--(.3,.4)--(1,.4);\draw(0,-.13)--(0,-.8)node[ocirc]{}node[below]{$A$};\node[above]at(0,.1){};\end{scope}\begin{scope}[shift={(0,-1)}]\draw(-.35,0)--(.35,0);\draw(-.4,-.13)--(.4,-.13);\draw(-.3,0)--(-.3,.4)--(-1,.4)node[ocirc]{}node[left]{$A$};\draw(.3,0)--(.3,.4)--(1,.4);\draw(0,-.13)--(0,-.8)node[ocirc]{}node[below]{$\overline A$};\node[above]at(0,.1){};\end{scope}
-\draw(1,1.4)--(1,-.6);\draw(1,.2)--(2,.2);\draw(2,-1)--(2,1.4);
-\draw(3.15,1.1)--(3.15,1.9);\draw(3,1.05)--(3,1.95);\draw(2,1.4)--(2.8,1.4)node[ocirc]{}--(3,1.4);\draw(3.15,1.85)--(3.6,1.85)--(3.6,2.4);\draw(3.15,1.15)--(3.6,1.15)--(3.6,-1);\draw(3.3,2.4)--(3.9,2.4);\node[left]at(3.2,2.4){$V_{DD}$};\node[right]at(3.8,1.4){P};
-\draw(3.15,-1.4)--(3.15,-.6);\draw(3,-1.45)--(3,-.55);\draw(2,-1)--(3,-1);\draw(3.15,-.65)--(3.6,-.65);\draw(3.15,-1.35)--(3.6,-1.35)--(3.6,-2)node[ground]{};\node[right]at(3.8,-1){N};
-\draw(3.6,.2)--(5,.2)node[ocirc]{}node[right]{Y};
-\draw(2,2.6)--(2,3.4);\draw(2.15,2.55)--(2.15,3.45);\draw(2,3.35)--(1.55,3.35)--(1.55,3.9)node[vcc]{$V_{DD}$};\draw(2,2.65)--(1.55,2.65)--(1.55,.2);\draw(2.15,3)--(2.35,3)node[ocirc]{}--(4.5,3)--(4.5,.2);\node[left]at(1.45,3){R};
-\end{tikzpicture}
+{\RazaviSetup
+\begin{circuitikz}[font=\sitneoznake,line width=.7pt]
+\ctikzset{transistors/scale=.7}
+
+\node[rz nmos,nobulk,rotate=90](t1)at(-2,1.1){};
+\node[rz nmos,nobulk,rotate=90](t2)at(-2,-.6){};
+\draw[wire](t1.D)--(-2.8,1.1)node[ocirc]{}node[left]{$B$};
+\draw[wire](t2.D)--(-2.8,-.6)node[ocirc]{}node[left]{$A$};
+\draw[wire](t1.G)--++(0,-.35)node[ocirc]{}node[below]{$A$};
+\draw[wire](t2.G)--++(0,-.35)node[ocirc]{}node[below]{$\overline A$};
+\draw[wire](t1.S)--(-1.3,1.1)--(-1.3,-.6)--(t2.S);
+\draw[wire](-1.3,.3)--(-.8,.3);\node[junction]at(-1.3,.3){};
+\node[rz pmos,nobulk](P)at(.2,1.2){};\node[rz nmos,nobulk](N)at(.2,-.5){};
+\draw[wire](-.8,.3)|-(P.G);\draw[wire](-.8,.3)|-(N.G);\node[junction]at(-.8,.3){};
+\draw[wire](P.S)--(.2,1.9);\coordinate(v)at(.2,1.9);\draw[wire](.05,1.9)--(.35,1.9);\node[above]at(.2,1.9){$V_{DD}$};
+\draw[wire](P.D)--(N.D);\draw[wire](N.S)--(.2,-1.2);\coordinate(g)at(.2,-1.2);\RazaviGround{g}
+\node[right]at(.5,1.2){P};\node[right]at(.5,-.5){N};
+\draw[wire](.2,.3)--(1.1,.3)node[ocirc]{}node[right]{Y};\node[junction]at(.2,.3){};
+\node[rz pmos,nobulk,xscale=-1](R)at(-1.3,2.5){};
+\draw[wire](R.S)--(-1.3,3.2);\coordinate(vr)at(-1.3,3.2);\RazaviSupply{vr}{V_{DD}}
+\draw[wire](R.D)--(-1.3,1.1);\node[junction]at(-1.3,1.1){};
+\draw[wire](R.G)--(1,2.5)--(1,.3);\node[junction]at(1,.3){};
+\node[left]at(-1.5,2.5){R};
+\end{circuitikz}}

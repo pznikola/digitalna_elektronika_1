@@ -1,0 +1,14 @@
+\BeleskeID{09_3-s017}
+% element: 09_3-s017:e05
+% element: 09_3-s017:e06
+% slide-id: 09_3-s017
+Kapacitivnosti tranzistora u istom tehnološkom procesu povezane su sa geometrijom. Internu kapacitivnost pišemo kao $C_{int1}=\gamma C_{G1}$, gde je $\gamma$ faktor proporcionalnosti. Pošto je spoljno opterećenje prvog invertora ulazna kapacitivnost drugog, $C_{ext1}=C_{G2}$, važi
+\[t_{p1}=t_{p0}\left(1+\frac{C_{ext1}}{\gamma C_{G1}}\right)
+=t_{p0}\left(1+\frac{C_{G2}}{\gamma C_{G1}}\right).
+\]
+Ako su širine oba kanala i-tog invertora $k$ puta veće od jediničnih, otpornost se deli sa $k$, dok se interna kapacitivnost množi sa $k$. Proizvod ostaje isti:
+\[0.69R_{eq,i}C_{int,i}=0.69\frac{R_{eq1}}k\,kC_{int1}=t_{p0}.
+\]
+Svi invertori u istoj tehnologiji, na istoj osnovi, imaju isti faktor $\gamma$. Zato je
+\[t_{p,i}=0.69R_{eq,i}C_{int,i}\left(1+\frac{C_{G,i+1}}{\gamma C_{G,i}}\right).
+\]

@@ -1,0 +1,13 @@
+\BeleskeID{02-s030}
+% element: 02-s030:e01
+% element: 02-s030:e02
+% element: 02-s030:e03
+% element: 02-s030:d01
+
+NI funkcija nema asocijativnost običnog logičkog proizvoda. Već na tri ulaza kaskada dva NI kola daje
+\[
+\overline{\overline{xy}\,z}=xy+\bar z,
+\]
+što nije isto što i \(\overline{xyz}\). Za \(x=y=z=1\) kaskada daje 1, a troulazno NI kolo daje 0. Unutrašnja negacija menja funkciju sledećeg nivoa.
+
+Kod obe petoulazne mreže treba zato pratiti svaku međunegaciju. U prikazanom lancu, na primer, svih pet jedinica daje izlaz 1, dok petoulazno NI daje 0. Kod prikazanog stabla kombinacija \(1,1,0,0,1\) daje izlaz 0, dok petoulazno NI daje 1. Analogno upozorenje važi za NILI: \(\overline{\overline{x+y}+z}=(x+y)\bar z\), a ne \(\overline{x+y+z}\).

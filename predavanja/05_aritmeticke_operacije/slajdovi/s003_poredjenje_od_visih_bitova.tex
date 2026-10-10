@@ -1,5 +1,16 @@
-
 \slajdid{05-s003}
-\begin{frame}[label=05-s003]
-Komponenta se lako može proširiti i realizovati sa 4 bita sledeći logiku koja je prikazana. Samu logiku možemo da posmatramo „odozgo na dole“ u smislu: Ako je $A1>B1$ onda je $A>B$ i ne interesuju nas niži biti, odnosno ako je $A1<B1$ onda je $A<B$ i ne interesuju nas niži biti, odnosno samo ako je $A1=B1$ videćemo na nižim bitima šta se dešava. Ovo možemo da proširimo u opštem slučaju. Poredimo bite $Ai,Bi$ samo ako su svi biti više težine bili jednaki, a u tom slučaju ako je $Ai>Bi$ onda je $A>B$ i ne interesuju nas niži biti, odnosno ako je $Ai<Bi$ onda je $A<B$ i ne interesuju nas niži biti, odnosno samo ako je $Ai=Bi$ videćemo na nižim bitima šta se dešava.
+% element: 05-s003:e01
+% element: 05-s003:e02
+\begin{frame}[label=05-s003]{Poređenje od viših bitova}
+\begin{itemize}
+\item Komponentu možemo proširiti na četiri bita istom logikom.
+\item Ako je $A1>B1$, onda je $A>B$; niži biti ne utiču na rezultat.
+\item Ako je $A1<B1$, onda je $A<B$; niži biti ne utiču na rezultat.
+\item Samo ako je $A1=B1$, posmatramo niže bite.
+\end{itemize}
+\medskip
+\Rezultat{Bite $Ai,Bi$ poredimo samo ako su svi biti više težine jednaki.}
+\medskip
+$Ai>Bi\Rightarrow A>B$;\quad $Ai<Bi\Rightarrow A<B$.\par
+$Ai=Bi$: nastavljamo ka bitima manje težine.
 \end{frame}

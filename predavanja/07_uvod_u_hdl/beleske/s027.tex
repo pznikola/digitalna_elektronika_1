@@ -1,0 +1,5 @@
+\BeleskeID{07-s027}
+% element: 07-s027:d01
+ABEL primer bira dva različita aktivna zahteva prema rastućem indeksu. Za zahteve na indeksima 0 i 7, prvi važeći kod treba tumačiti kao 0, a drugi kao 7. Zastavice važenja razlikuju stvarni zahtev na indeksu 0 od odsustva aktivnog zahteva.
+
+U procesu su naredbe sekvencijalne, ali signalna dodela ne ažurira signal odmah tokom istog izvršavanja. Čitanje signala koristi trenutno vidljivu vrednost; dodela zakazuje buduće ažuriranje. To treba razlikovati od dodele lokalnoj promenljivoj, čija je nova vrednost dostupna odmah narednoj naredbi procesa.

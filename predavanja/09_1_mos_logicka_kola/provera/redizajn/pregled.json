@@ -1,0 +1,1486 @@
+{
+  "slides": {
+    "09_1-s001": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Naslov i oznaka prvog dela; Autor, katedra, predmet i školska godina. Beleške imaju samo vezu sa ID-jem, jer nema dodatnog nastavnog sadržaja. ",
+      "evidence": {
+        "source_render_sha256": "9e41495581f8123ae019a615ffaf9f13b469ade2adc5e5f2bc0b27f5a7ed475f",
+        "baseline_render_sha256": "1d3c579fa6fd271ffee55eb6b3a28768fe70fa170ad99ef3f2bbf256958802b6",
+        "new_render_sha256": "0644a54a9f0ec0a1e52f031d357894c435045a9d8afaa58a4a02902940fa6fd7",
+        "notes_render_sha256": "8200734d8dd7fa97adfd9dc7290e8507694a756d057eac6206925a2e5301c8ad",
+        "slide_sources_sha256": "b456d159b91174f846e0c624b821dc88a14470817b6c870529f0059a5fbaffc8",
+        "notes_sources_sha256": "89f2714117fddee570eb21c033587a02a75ec85af81f8b4d33b83d753029b163",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "8acca1a980830ce3c3f2628ad3b44b48f523ff895bab180f9bb5f790efecbb3e",
+        "coverage_sha256": "b98b25841f25912003b9ac814b0e4eae7cba8410d4d43954af9446cbed5f505d"
+      }
+    },
+    "09_1-s002": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Šesnaest MOS simbola i četiri konvencije; Indukovani i ugrađeni kanal, nMOS i pMOS; Priključci D, G, S i B; Tumačenje svih konvencija i tipova kanala. ",
+      "evidence": {
+        "source_render_sha256": "e4c9d99f007a3e5856336fb7ef9182d9680f5db8e78b14767bb6074a749ee57c",
+        "baseline_render_sha256": "508cf55c3fd056807afca66281fa9b8316211d279efc77be6c6203f79557acaa",
+        "new_render_sha256": "9d7adc8a372fb799e5b2d0e093df732d0d02b6c5aeb0d36b029af4c865ea1c3a",
+        "notes_render_sha256": "2f1948906f2cc34f4d843f34a49bcd1ed4e0f1c5151e109027636f9cedc89933",
+        "slide_sources_sha256": "58c52c18f016727f86c67f2e339f79e14fcb9fb269ebe32957ae513914b31076",
+        "notes_sources_sha256": "b2189e1f02d63c01d8a2147cfad2437cb54f654528fb6d891efbcafa037fae06",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "2e651b53900c6899092c2e293d2c2a590eeae9800d6330c2051286ad11bb54bf",
+        "coverage_sha256": "56c6b8fc92cff906c7a9757dc2b1466a81aa842eba59dbe6b6915bb9eb7ede3b"
+      }
+    },
+    "09_1-s003": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Ilustracije struja i polariteta napona; Ulazna struja i jednakost struja drejna i sorsa; Uslov i struja u zasićenju; Uslov i struja u triodnoj oblasti; Parametri i jedinice, definicija kn i v=μE; Potpuna značenja parametara, veze brzine i polja, jedinice. ",
+      "evidence": {
+        "source_render_sha256": "6a510642a819aead2242a2863f619d9762a9190668c12ef454a6957c3e263b10",
+        "baseline_render_sha256": "97a4ff90cf2b49a819fd6ae223ee4d9c570409bd92539f03596dc8039adb6e92",
+        "new_render_sha256": "e6863e54825b5368b50b07b827dd52ab113ff3661246871e9a6c9c45b26ac46a",
+        "notes_render_sha256": "3a5d5f612c2a4aa5c334aaf5e43de3bcda35b6cd576dd91bd6152cf1be1aab6d",
+        "slide_sources_sha256": "d46cd0c6515301edf3523c8f0b9743932b799b8471b63d443e13f676d2a7a345",
+        "notes_sources_sha256": "63108e22f5d144f8480f737198e73d580c8a3518d8992ce7a5e0f50e87da48fa",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "ba101b698b79fb650635844e227a7ac299f86a2d7a559a62d13d5b5b9f3a144a",
+        "coverage_sha256": "8f4ea268493a28260d878d5ae95f96aeb4fc51103f62cccf956f256869ae3993"
+      }
+    },
+    "09_1-s004": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Zanemarivanje modulacije i granični uslov; Struja zasićenja na granici; Modifikovani zasićeni model; Modifikovani triodni model SPICE; Izbor nemodifikovanih modela; Dve pune granične zamene, diskontinuitet i obrazloženje izbora modela. Otvoreno formule: P01 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. ",
+      "evidence": {
+        "source_render_sha256": "1afe7d0ea90442f3242507f8722aec54f13976a68407d78cd468fb29c5d158e0",
+        "baseline_render_sha256": "9bdbcef6ef0185ce3b10cb1025111c0989d2bcaaddad40f2fc84698b58f8a6fc",
+        "new_render_sha256": "1433e4724de0a35744fc58dee406f1641542af6e0c302ef8a31bc99e3382a723",
+        "notes_render_sha256": "6e638a5b08a0e6f852baa2bd95b642c4e8f0e95218944ed523049bf317171926",
+        "slide_sources_sha256": "52b8fba088d4802eeffc04540a73567d73a99116988de3d8619749f263e75393",
+        "notes_sources_sha256": "2b68fb01232a54a5678cce2faaf0ec06614ab5fdd37c38b799e107f9bd9928ca",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "bee3656d79274f3261a7fb3cfd4a06019e5b9022a9be9d49132b23a6a5081fea",
+        "coverage_sha256": "09265c07cedd925961d13b5fec74b0f6f3ff6e0af4fcd6ebd983ed8c9e9017d2"
+      }
+    },
+    "09_1-s005": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Poređenje dužina kanala i ranijeg zasićenja; Dva dijagrama brzine nosilaca; Model brzine po oblastima i kritično polje; Definicija brzine zasićenja; Eksperimentalno opažanje, nazivi dužina kanala i razlog ranijeg zasićenja. ",
+      "evidence": {
+        "source_render_sha256": "bff447cdbedc4910e2faca60b41dba762e096800d76bb8516962d865ebeb0535",
+        "baseline_render_sha256": "ef940d927ee07f43cf565635a8aaf8fbd65fca8ca4e79faf984d50ae72f89c3e",
+        "new_render_sha256": "6f9b6fad84629fa355c045d2834c1bf0b1d1e010a443b1a93d26d6a6d9fb1de9",
+        "notes_render_sha256": "77811a2f0de60f37e14a3fb8c7f87dd44c3c3781b6a9fb58586e250a5491d98d",
+        "slide_sources_sha256": "d82f3d9a0cff6c9631cf04e9a7bfed56caa0044bf6d24b75aee7890713fd68e6",
+        "notes_sources_sha256": "8f53b7c93a49ab4edd3a149fafca67074140181c294989cc0a6ac2db1b7d5895",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "d733b40a16263f3ed1b003f53a7e29c35817fbd92714a3626d68c8cb7cef6d57",
+        "coverage_sha256": "a42b84b65fe1e83bfff9c84ac14faf92fe5b224595ce53ad1bf5a2ecf0668bd7"
+      }
+    },
+    "09_1-s006": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Omski model kratkog kanala; Model struje zasićenja kratkog kanala; Uslovi zasićenja i triodne oblasti; Granica velikog Ln i faktor modulacije; Tumačenje korekcija, graničnog uslova i modulacije. ",
+      "evidence": {
+        "source_render_sha256": "21f0c108de7d5d7428bf57ad3f5259c90416a315923eb9dc0a2ac483e4d9bbd5",
+        "baseline_render_sha256": "5979381c90d0f0fa04219dedea66d9ccd722d84d3e8ab437f5e8e75cb14ba9f7",
+        "new_render_sha256": "bc30c6d2e666b718368e204aca4151dfe788b3824047a8e54fa0c6c7062ced6e",
+        "notes_render_sha256": "84f30054d8f63ab76609ea6dbedf2d11c49141a56b0052a54ae008d97b6418b0",
+        "slide_sources_sha256": "78c21167d41ee98a7f67e8d6b08f407d79678622691c3d9d1a862a1cc4cdb108",
+        "notes_sources_sha256": "af7f0145d0fbc2053b0e08e89be90dd4589383aeab9945715db4b586e961e8db",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "8220c7d3a6e661cc46819d3cadfc75612fa6e96551216cb1ac42ec01a17bc64a",
+        "coverage_sha256": "38d77a014a17e25d5dc5c10602b5b2a79f6fbe415ddc0b214783567f96d98285"
+      }
+    },
+    "09_1-s007": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Preuređeni izraz struje zasićenja; Brojna vrednost brzine nosilaca; Definicije vnsat i vpsat; Definicije kn i kp; Algebra preuređivanja struje preko parametara. ",
+      "evidence": {
+        "source_render_sha256": "193f0db9cf77490c6bc3285d1572dc9b9ff145e34928c395611a88bac01305c6",
+        "baseline_render_sha256": "2c609c45c1b4b2ec638bd09f1577eefe45e7d7cf2970082903ad2727eee3f523",
+        "new_render_sha256": "a4511f5b66b2adb4f57fc8531edb09a3c7b6ced09d8f4dff886feb85487facd3",
+        "notes_render_sha256": "7a5011639e19e89c187625f583c3f7fc258731be9b9d151290c823f82d757e5f",
+        "slide_sources_sha256": "a2fbaee28f8a56f925ecb0208e6b87b8da5a7407745508659dfe0aff503b2a3a",
+        "notes_sources_sha256": "c052192a131fed6fe64f4fee91a2fdd3d1b1646b9ca66efb225afd812d9b62f1",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "36a05adef42b5a1265fa618bffb6b4480ed8e532a0d990d2830edf3111c40af3",
+        "coverage_sha256": "532b69a01533c111d77fc139d5e0b5a6661f9d3937a07878bba4e1a5c3779a8e"
+      }
+    },
+    "09_1-s008": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Pretpostavka velikog prezasićenja; Dodatni model brzine i granični VDSsat; Tri ilustracije brzine; Konačni aproksimativni izraz struje zasićenja; Početni omski izraz, zamena graničnog napona i međukorak. ",
+      "evidence": {
+        "source_render_sha256": "21c67d493010d07cd362df7e79bbfed49f35e35f885ee5ac504d34c48b65f474",
+        "baseline_render_sha256": "57c303589c89ddb3150a99fafe34826fc8dd4b849dc17b66caa7fe47fd81f2f7",
+        "new_render_sha256": "845e7ab668d808ee4cafbccc736bdcdc9e500b8cfd6a02b0216d2bc631eae718",
+        "notes_render_sha256": "b91ba68a41719d74ecab0571c3a110fbcdf27f2f8773bb284e0f40c919c41d49",
+        "slide_sources_sha256": "c1cd11c4289834a2ca851cd70236c3e500744a24dcb838bba34ae6d6a78e73c0",
+        "notes_sources_sha256": "8920ffb2955f47b131241a6fa916d9400049f7626a9608a06515b85e55d09864",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "f281bbc98648d503c69d6131c81cd18374369bf51381b83f6f9b4cbd4b77af88",
+        "coverage_sha256": "ec6e702f4bad015ae1e1a8312848c917e90316ad652747d4d996920a50471d35"
+      }
+    },
+    "09_1-s009": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Blok dijagram PUN i PDN; Definicije PUN i PDN; Pasivno i aktivno opterećenje; Komplementarni rad, trostatička kola i otvoreni drejn; Dodatno tumačenje PUN, PDN i visokoomskog stanja. ",
+      "evidence": {
+        "source_render_sha256": "eae53ea13d93435490d7cdde1a129915d840c94e8710ce0d5fb466f418253d2a",
+        "baseline_render_sha256": "738bf203868019facbde573bb1743dbab071871f469dee176f6a61d6b9006616",
+        "new_render_sha256": "3e3fbd9cc438c2ab147998ccb888c7a95b8c243726c13b056f6559b759e56242",
+        "notes_render_sha256": "0c730c2362b72969ea280c18c54172f51a0e75c4e871afe0c444dbfe8ae08122",
+        "slide_sources_sha256": "3a7662449dcd6af74a241bc34bb0ee778c6ba322d21ae352033e9fd5e491ed9d",
+        "notes_sources_sha256": "6cc520596d166d60e849dd0d2f46c90ebeaf8b9896822d44ee07accf29578774",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "921942477b20f9422ec2fb0e175b42b7675834a2144211e68d56c439a948ba21",
+        "coverage_sha256": "b6366f55c711e54c745318cf3854c3d40ef9b2d56e58a0ee3bb4b32a25a5e33b"
+      }
+    },
+    "09_1-s010": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Blok PUN i PDN; Tri paralelne realizacije NILI; Tri redne realizacije NI; Funkcije paralelne i redne veze; Tumačenje tri realizacije, paralelne i redne putanje. ",
+      "evidence": {
+        "source_render_sha256": "829b471de691e40239b5ca006efe317fd36a4f19f048b7aae37541b543d6a3d0",
+        "baseline_render_sha256": "62a88a4d31561bca39c57fc28ee93213edf6bae81bcd87b701bfa9de8e32a5c6",
+        "new_render_sha256": "0adaa32374d3972c7414575ad8bbbb806583e5de1c944eb3d11f680a124e5df2",
+        "notes_render_sha256": "ef20d982a9c0ff159874653c5683ff58df54bea17a2d80c2d966e795b8f1033d",
+        "slide_sources_sha256": "8befb454a16bf82d9876b74a067c3055b2578c6d807cfc31e7858441030fd11e",
+        "notes_sources_sha256": "0e05b5d86738dcb95ab6f8e4d214abcb1e536f3cc5e6378420756084545edde3",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "03164883541243c25ccaa4f8cdcd79fc3797d7c85b9456460643387d2188fda7",
+        "coverage_sha256": "b0d6ca843f691feac4982dcf783caacee655a1fb9f567987b08e3d8e649b8939"
+      }
+    },
+    "09_1-s011": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Blok PUN i PDN; Tri paralelne realizacije sa aktivnim nulama; Tri redne realizacije sa aktivnim nulama; De Morganovi dualni izrazi; Tumačenje PMOS upravljanja i dualnih funkcija. ",
+      "evidence": {
+        "source_render_sha256": "1d0e2ef035135aaf4390f9a6bbd3f181c0dd54911aa68cdf8fe776a3d36b6b32",
+        "baseline_render_sha256": "cfae6f190fafaba7c9fafd402868e7df2e67825d2003d8f51511ab4696dbecf2",
+        "new_render_sha256": "5c9c2f1d45bb69b630da445a6572f77d36b76c14023babff55e5476eff817cf1",
+        "notes_render_sha256": "2e541567b20f5617787a470a5b2721ff96855094123c932716ba2239475454bc",
+        "slide_sources_sha256": "9c5e2797e4e71a4ac2700de148b0a7991f187d54f9b9772dc96f57d859b80913",
+        "notes_sources_sha256": "080f86595f88d279bf06e8374ee0d82702b77fd27995ccd90d75326b220cec39",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "78bca806e7b2b90d4b14a44cbfa73e1ef14c97b77361a6168e8cffd33c6f5cad",
+        "coverage_sha256": "9dcd5de3dc51f860785c55f1ffecb775e2cff27526f80b188ffd723949862826"
+      }
+    },
+    "09_1-s012": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Invertor sa pasivnim opterećenjem i svi izvodi; Karakteristika sa tri oblasti; Prva oblast i uslov zakočenja; Jednačina visokog izlaznog nivoa; Početak provođenja, puna zamena za VDSsat, mali pad RL i VO<VDD; drive i load. ",
+      "evidence": {
+        "source_render_sha256": "4f0b75d753c786211b2e5361f04b71a90fc6c36b03d456a23a765a16b06be2eb",
+        "baseline_render_sha256": "001218eb5a63b43907f588185e1acf5ddf04bacd925ead52e3c229cde69f1352",
+        "new_render_sha256": "041009d3d950b7639af7c33e4ab6601867cb162ddc35dabe360e2067a661deab",
+        "notes_render_sha256": "10162523da123a3da8039cdcd5ed8fd5410fef41e4ee9ef0f2ce30916ad98aaf",
+        "slide_sources_sha256": "8e06c621112f2bb4b8498562cdbb8e47c9db10cbe71492311da80a60cc958872",
+        "notes_sources_sha256": "12585b2210b621a89d14a2bfad7f593924d391c7e20e8853d57e74266a6921b3",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "59cbe260bf2a64acbe775fde1e84c8b285c927c9898eff35af9d03afd2de5026",
+        "coverage_sha256": "559b407229b248b69e4a48624ada4c380c28c88d7a1bc6cb2c2a45bfdd7ddc06"
+      }
+    },
+    "09_1-s013": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Implicitna karakteristika i neopterećeno kolo; Ravnoteža IPUN=IPDN; Puna ravnoteža struja u drugoj oblasti; Statičko zanemarivanje λ i završni izraz; Razlog implicitnog pristupa i neopterećenost. ",
+      "evidence": {
+        "source_render_sha256": "ff3d431199fc5458445fce18bb2e3b0563b135599006442e779e283e7cea15bd",
+        "baseline_render_sha256": "cec9fce41d747f0bde8d6e13baa833424f4d4eb777c8c96f67cb988e34903416",
+        "new_render_sha256": "c70653ec084ef3475a0225c7e0468e4d9ef05226e67947a5b33c783da9eb2cc8",
+        "notes_render_sha256": "1b501bb02c8c884eed0fcf5b9937b8bcbd16074febf02bf7443e611ccbd7560a",
+        "slide_sources_sha256": "a2137b87dcd3e70dd3b8723de6f8896d2a3ef3ebcef9132db11f8e60602e5a1a",
+        "notes_sources_sha256": "abb61f02a34007c0187ddbc4c9aeb551ff538cdf78d3390bae6d30686635c418",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "c5a30568504971c7473e90e733c14b5c1202c62cb4edbac0de470acf44637bcd",
+        "coverage_sha256": "ec758621d6d1421d284dddf015e857d74b20ff66600d5ca53622b99ecc52d8d1"
+      }
+    },
+    "09_1-s014": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Opis oblika karakteristike; Granica izlaska iz zasićenja kratkog kanala; Izvorni rezultat za dugačak kanal; Izvorni uslov pojave treće oblasti; Polazna ravnoteža i opis promene radne oblasti. Otvoreno formule: P02 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. ",
+      "evidence": {
+        "source_render_sha256": "2c1f40492c6b6564395146ae8231ebdfa6cdfd600120983837467f045efded8b",
+        "baseline_render_sha256": "dce1bdf81e61ccc84e6cd9bc6abc27b4da33bcc6d3b8c0a65706299a47f3dc36",
+        "new_render_sha256": "1578a3d155956729e48a3dc1d554f8c8a6d2d9115daed151a2585c15bd1d0214",
+        "notes_render_sha256": "e26b632714fdf8223b8dd73835323c83626c6f04ef33f9299e0f887efc5d0c5d",
+        "slide_sources_sha256": "7bb518cdfc245951ba20daee763385e8944e6589b151b17de34f23b5af0a8a35",
+        "notes_sources_sha256": "76c071704e262350dd41a622f6e445d722da9467602b57141107f92a14892b92",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "89215e291ed236b7e97721a1450e798a6044e98da89d3451ec45ae94d171e3e9",
+        "coverage_sha256": "2abd2ab30df94a991c1403b2c6d633773ee2cabdcd1063e4f642ec84a2d4a707"
+      }
+    },
+    "09_1-s015": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Dve karakteristike i objašnjavajuće strelice; Tri oblasti i režimi tranzistora; Ravnoteža struja triodne oblasti; Ravnoteža struja zasićenja; Razlika dve podele i moguća pojačanja; ponovljeni omski izraz. ",
+      "evidence": {
+        "source_render_sha256": "d0c17b6f6882ed944a6fa03eaaf320f04a7799d394a44c8c65b0aab6ebd28ab3",
+        "baseline_render_sha256": "0a70175e9a5693cbc876cea5b121f3975a9aa23f2b3a3a16b49a3c4575522695",
+        "new_render_sha256": "58b6a76962d9294ec3119c754e0a3f426bf92174ceb982861d08d969507b5b71",
+        "notes_render_sha256": "d527f0e05c5bbec0e81595cdf138e6850107e5fb67a5c2cc4151b00d6754e375",
+        "slide_sources_sha256": "6d93647c9b7c474123a265043fb4075752d211005f41b140a470a4161c8e50f3",
+        "notes_sources_sha256": "93e0a735e41e1799ea9b2d1e65a13ba5c18aa920c924fcc5abe468dd6393c43b",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "2d660e93cd50b18544a9852aa74bbe26b1f64bb1d21c7f77978202625edd79e7",
+        "coverage_sha256": "7bbd299ccc194af485d0377fdf1382367e212da647eb95ba1807e9badbbcd533"
+      }
+    },
+    "09_1-s016": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. VOH=VDD; Ravnoteža za VOL pri visokom ulazu; Moguće tačno rešenje i kvalitativna aproksimacija; Obrazloženje kvalitativnog i kvantitativnog približenja. ",
+      "evidence": {
+        "source_render_sha256": "1b5bd6769badf30de83a9e4a71b175bda60e7ee36fbfd06b902f1378e981ab15",
+        "baseline_render_sha256": "2048b1f34bb08d54de454c70e7ee9b078b0fa3305fd7f37567b9178f963f53ef",
+        "new_render_sha256": "dbf2ce978e3e7ebbc3116cfbd6380e385a0e84c273989d5574ea2405f4e28b01",
+        "notes_render_sha256": "9647f3b127e7e184e0c406e4049fdedd4f3bcb87702bca6a12a322ef29dabedd",
+        "slide_sources_sha256": "de5dfa32a3cc01c65d883ad0f57a87dee42d1826d02d7c2f1dcc3bc2c351d736",
+        "notes_sources_sha256": "799ed313e26355aa4d429d8768d7c65f3ae9c39d4ef618f276516b389e32ae7c",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "72691aa94cbe1057c290aa11e0967bc58bd1ec12c317e4c3e7304564c0f8baf9",
+        "coverage_sha256": "66ebbdd0227fa766145cf836031bc804d85aba2fc9888e46c97ab789b03f4bb7"
+      }
+    },
+    "09_1-s017": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Dve pretpostavke o malom VOL; Pojednostavljena ravnoteža; Izraz za VOL sa jedinicom u imeniocu; Krajnja aproksimacija VOL; Potpuna dva zanemarivanja i prenos člana VOL/RL. ",
+      "evidence": {
+        "source_render_sha256": "455088c1d87691ef7db589f41444aac9ead7be2f71d0a779b623729988f451a5",
+        "baseline_render_sha256": "6a8daaa8ce9b28408a4eb9b9851a0b1c0fb2f8f5543f61b8a9fc2448987b82f3",
+        "new_render_sha256": "7748a75a86dee4148307e73b5257d8227a5c9d30508ad4bfd612606ed08fec83",
+        "notes_render_sha256": "aaa06b015744fd4e44e357de3133041e487a4e7cf5aad68689d34ee84f4d2a1d",
+        "slide_sources_sha256": "ac5eeec300047826105abd15a515a8de5c46de9e2b6bdf18af5492965051e299",
+        "notes_sources_sha256": "533fd7298dd450199cd8734f9be8af8661ebf3705d8dc7963708c6415822eeb2",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "ed22482a662b18ca8e46a71857bff7d1b9cc96de0ea2871aca0fff3ef1cb20d7",
+        "coverage_sha256": "9ca805c0be2fc04e8fe4e8f2b7fd5a7a21851199e6e5b06f095950ec61eea639"
+      }
+    },
+    "09_1-s018": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Pragovi preko pojačanja po apsolutnoj vrednosti; Model pri određivanju VIL; Pretpostavka zanemarivanja kratkog kanala; Pojednostavljena ravnoteža za VIL; Obrazloženje određivanja pragova i malo prekoračenje praga. ",
+      "evidence": {
+        "source_render_sha256": "fc054917716781f1de9f1b3223fa6b2080c5be9e1a185121ea64b5eea538a060",
+        "baseline_render_sha256": "0184deddee53a255ded5cb059656f33547e05749585d78f0ec4f712c3d36c154",
+        "new_render_sha256": "02a33e06046d0cf3619dd48555c75a875f8295b8e0190ad43b427b51fbafb601",
+        "notes_render_sha256": "d6d8a83950b1d593b4eae9539e0844e32da4102239f7bf333f7b04cff2b76c9b",
+        "slide_sources_sha256": "ddfc082c60dcd615b663cc7071e4fdb447c2c63dddd6d14fb274be66e3ed66c5",
+        "notes_sources_sha256": "fe6e6ec04c82f89bbb51aac6ed22f9b8ec8125f648498fff19c545cfac163abc",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "6f717013e45a548e186527c029d1b2a717e8a6c7e616d3791967805e8ad17b79",
+        "coverage_sha256": "ddee90ccd2cdfee43810f035756bf65c4e1f891b1a018ec4453d9f82305e5634"
+      }
+    },
+    "09_1-s019": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Polazna ravnoteža i implicitni izvod; Uslov nagiba −1; Relacija za ulaz u tački praga; Rezultati VIL i VO(IL); Međukorak implicitnog izvoda i zamena praga. ",
+      "evidence": {
+        "source_render_sha256": "8850f105f6e8e2323aaed618851f42ee20356b18bc5301b8c048e83f3941ed50",
+        "baseline_render_sha256": "3742c4f0ed067e2331e600cde182d4e841378830af18d51d56d5af63da87adc5",
+        "new_render_sha256": "87fa1af9316c8edee958010a2639b5156b395bcec8b52e03f5708211f5f25672",
+        "notes_render_sha256": "e0c0977fb9a30653a2883bd7678504f9f2a1fda77e3bf0eefd4211a604aab3bc",
+        "slide_sources_sha256": "7f6f57b32b270482b9c5b014ed56bb65719677ecf7dbcea4b9b1a184c855db3b",
+        "notes_sources_sha256": "27a7f5f4ec07e945ce89c96c0c6464bd5b048a57d5c1e7fc1b39601d2ce2d952",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "2a7ac0ae461a7c3dd5a380ce025bf2bdc088ec158a88285853163f4cfd49d461",
+        "coverage_sha256": "70e3a696b2862df39b972832542d5679b92456804013145a0c5b79bb0cd250cb"
+      }
+    },
+    "09_1-s020": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Izvorna pretpostavka niskog izlaznog napona; Puna triodna ravnoteža; Pojednostavljena triodna relacija; Potpun implicitni izvod; Ponovljena relacija i pravilo izvoda proizvoda. Otvoreno formule: P03 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. Otvoreno tekst: P03 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. ",
+      "evidence": {
+        "source_render_sha256": "1df6907b79a7089df73cbcb6009625b2a30fa2bd15cce1d8a02b1701a0065300",
+        "baseline_render_sha256": "a6b4fa360b270a541528f822b64a66dd33e3c76cea92fdabbc8a3c329ea8dc85",
+        "new_render_sha256": "aead637b5a81340aad869550117652fb633a453ba0a8b125e9cb721a6339e447",
+        "notes_render_sha256": "a4500dc31eff596007b29739e58d9be425193deed95030e568376fba6ceed31e",
+        "slide_sources_sha256": "0f78cf587059abffe2d8d749ae636d37a3eff42d1f2877e8ff5311fd939c7df2",
+        "notes_sources_sha256": "5dc723d38a50b3277d190b441466bef56809ac9e11bd9ba44d68584f755750e0",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "5ab14224334ca0aff403da235ddd60507f7f6014841bfbe91237af7d854a589f",
+        "coverage_sha256": "829cb6e70cd379b219dc1282fbb6ddb67288e78d421d542a9bf3aa3069b82930"
+      }
+    },
+    "09_1-s021": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Nagib −1; Sistem uslova nagiba i ravnoteže; Izolovanje ulaza preko izlaza; Konačni VO(IH) i VIH; Međukorak sređivanja izvoda i način rešavanja sistema. ",
+      "evidence": {
+        "source_render_sha256": "7ea5c7ece37253d6c7b8b2b816e00aaeef9994214e54a659acb51354684989ac",
+        "baseline_render_sha256": "0fa0743841f0d8b12bba7379ceb1a58995dcbb00dd3d1bfd90726517062f2733",
+        "new_render_sha256": "75230d3f69e8067647c5ace2362330c5fef901220fffda091344bbe0ddcf8b06",
+        "notes_render_sha256": "24551dd6f71a9ba0f0e314dab0e6d35576445f4e01b3154af0aed4e27c322a9f",
+        "slide_sources_sha256": "48ce96749e89304a96a5a52f36ec9b869cd361dd305b3c81f9986b965f493c3d",
+        "notes_sources_sha256": "b6448045a60031d55613bfd7649cf13e89b9585be81e62b4ccf370b546a1c20c",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "da67f76bb2d74aad50d25da635ad21fece86106637fea48371e92a2d2b2f101c",
+        "coverage_sha256": "c90093cd33f94f8ae5f2f8c7a35d979d1947fcc9b83a3b05825fecb63f714542"
+      }
+    },
+    "09_1-s022": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Četiri zahteva ispitne analize; Margine šuma i održivost; Izuzetak za dokazivanje zanemarivanja; Razlikovanje ispitnih zahteva i izuzetka. ",
+      "evidence": {
+        "source_render_sha256": "abff82c7d3e129d6f7a1975b49751f2235faefb4c070676fd6fb7a79b9e16f5b",
+        "baseline_render_sha256": "abf6d8f2d2cafbe33803f58201e1f3e44ffdd658878e0a98fc46eb2c0e5b7407",
+        "new_render_sha256": "98fd222a3298da9635cc2c73296573e8998ef923d63c125f0afaf537d9831730",
+        "notes_render_sha256": "af57b3744ed16b8c44a1f4a6440ff34854e243c9915412fde04b1b7d84b8fc0c",
+        "slide_sources_sha256": "abc6267e6da60329262a2df9ebeeda643070c0ff4f4ba99ed4cf91484b1dfb9e",
+        "notes_sources_sha256": "1196732a2d3ced86ea34eebb560a10406d591d5e7db1ebbf7ef22062e8349dfc",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "25e5f3de612e3427803d74f556e77b8b282596468d78f34f9e08d12f30b6c0f5",
+        "coverage_sha256": "2f0c955136ffc1467d5b7c10e3ee4a544a7efa034395c580a6660f867aee9730"
+      }
+    },
+    "09_1-s023": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Karakteristika i tačke jediničnog nagiba; Dva uslova održivosti; Izraz VO(IH) preko β; Definicija β i nejednakost; Tumačenje garantovane jedinice; Potpuno obrazloženje održivosti i ponovljeni uslov VOL<VTn. ",
+      "evidence": {
+        "source_render_sha256": "b1ba459eec39d929379a2b01ea7bc75c2a363c3a17c32677c1f806aeac09899b",
+        "baseline_render_sha256": "2c809c4da7a00668d2f834c8e312b043f464f9463ac07c3820266ff83cde615e",
+        "new_render_sha256": "5d3f9c84d1eb032afaf124994ee6fc616eadd1cc17efd66ee3f01ab9d5ec0689",
+        "notes_render_sha256": "1bff1810bd97043690827cffb8780d7624effc71eb9ca47c7c2145cf41f1ab83",
+        "slide_sources_sha256": "3bc8ef4cd72765443c8f1bea7b926342cf1afe044e5441d9da42bda78e8c6aeb",
+        "notes_sources_sha256": "8e49f45da67ca62fd2d9c01b65a6fced6b07289f89d359a56337624ac3abd5d5",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "018335fb9b3bf5a343b6490989878afa0ad23f2c356c40ca499b4a34468ff820",
+        "coverage_sha256": "12e26e9767511b2ca9dc8b545558cc3aaf3052a121bc723ee1e31f8244a15d0e"
+      }
+    },
+    "09_1-s024": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Definicija tačke odlučivanja VI=VO=VS; Ravnoteža posle zamene; Normalizovana kvadratna jednačina; Početna ravnoteža, zamena VS, puna nenormalizovana kvadratna jednačina. ",
+      "evidence": {
+        "source_render_sha256": "5220631f7c8df1dbdcff48a9b21dd9bade141acece5dea8ce1c37e61c4f6ee90",
+        "baseline_render_sha256": "55376bdac00c191e71a0a4920aa7e4ecf7404e8c2723e6e294f81ff84d097d4d",
+        "new_render_sha256": "c67a27e13d30552ea44b90e61909e3e6cc6cb5482234cacbcf9b0ccc7c84e3cb",
+        "notes_render_sha256": "a19d3cb1f3d4ca36ea781b79918aa0aa6db674a45a10afa8d9b0faf172d4fc59",
+        "slide_sources_sha256": "a2faa91f5c3238a45f368d8bdeaa1afb5639d4d9782f79c8c077e5eeb022a77e",
+        "notes_sources_sha256": "6530eecd0481885ee66ccc5e4737203efc3a8db178699f534d83520c7a090a1b",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "258f8208a904c43b5861f11e72aa62629a592732796560b67266c7ee83b91493",
+        "coverage_sha256": "adb0f9f891ec3b38dfe9e2b53bb4fecdef9bed4237499fb98f219b8115b9c59d"
+      }
+    },
+    "09_1-s025": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Pretpostavka VS približno VDD/2; Izraz za približni VS; Standardne vrednosti napona; Poređenje približnog i tačnog rezultata; Obrazloženje aproksimacije i puna preporuka za ispit. ",
+      "evidence": {
+        "source_render_sha256": "00310e7548f4db50e29b23752b98074808a2e8c8c29c5e83d2ef526e196b75f6",
+        "baseline_render_sha256": "0ea0dcfc357d54b96ffa1cc354200fd0c4ec0a2094e501c48b60a5de6a73f62d",
+        "new_render_sha256": "77fe9751d2d7af11c2997096cc8a143448a5c7af528afef2f6eae45dbed98e9f",
+        "notes_render_sha256": "90aae51060876c36e57948d2b8666d964915882cda2ddc6a7dfacd027b88eaa7",
+        "slide_sources_sha256": "d4533377d7dd83dc2ed42cde256f856c2cf7d99fdbe8c5c8a34e9289f2d2c2c4",
+        "notes_sources_sha256": "b5d0c92c3fecce0997ec40536f18d4c9b0b1a162eee582d5ffd3128d721c5447",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "ad16c9478dc9d638f30a833594cfb6357314f444f9f08a8215240df5bdf03225",
+        "coverage_sha256": "0e84f673940ba7a78a309e575f67b13c216632fcf7c169b70eaed4fb42c1f787"
+      }
+    },
+    "09_1-s026": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Ulazne struje uz zanemarivanje curenja; Statički faktor grananja; Poređenje ulaznih kapacitivnosti i dinamičko ograničenje; Statičko idealizovanje i tumačenje ulazne kapacitivnosti. ",
+      "evidence": {
+        "source_render_sha256": "9cd4e4578522cda561b7748f407a190d3ed9f47b89c86484e6c97038f1d5f891",
+        "baseline_render_sha256": "87f03f14f931f2d1cb07a45460c8a4de367155db2bedbd501f002a0cadc014f5",
+        "new_render_sha256": "28220592dfc12246377afae2740e176c2ad2a09463f3d5cbe9eb301e5037dd59",
+        "notes_render_sha256": "9b8b5fa66e1810e09b1fe384fa07b8235a1405412df3e0c27dbddc82ea427d54",
+        "slide_sources_sha256": "18f7a4ce4f178ac74724fb18ea600d9b9479cd353331781f3b44fd774abe75ef",
+        "notes_sources_sha256": "b5f7d4420f420d6f8a2dbcb733a4f29e0c3afe6e340d5b9301ed2a509a5d653a",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "493152916b9ac5c7bd9b7dbafae42068afc5e23dfefbf31c43530a2ee7d03d53",
+        "coverage_sha256": "d583c2e04c0b0f3a465bb471728e0e90a61149eacd1323fbf2b2bd43a93487ea"
+      }
+    },
+    "09_1-s027": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Strujni kapacitet logičke jedinice; Prvi izraz strujnog kapaciteta nule; VOHmin, VOLmax i margina Δ; Ispitne podrazumevane vrednosti; Izbor najgoreg VI i konačni IOL; Potpuno obrazloženje strujnog opterećenja, margine i izbora najgoreg ulaza. ",
+      "evidence": {
+        "source_render_sha256": "f11ff2cb8e52c4e84252966d8e45eaac91cc404e170eb291fa36618fb267d08a",
+        "baseline_render_sha256": "31162820054d2886e926ae54cab42871a8bd82f9b095cdb66c86c8122da4b7ac",
+        "new_render_sha256": "351d6ec104525eae748957712854d6c3e14fc78a8e2981c61ce8465f6a37475d",
+        "notes_render_sha256": "76670b1c62c09f8a3e43d2f366a75ecac4e0357b41ca1da2c73a50c3b824ecb1",
+        "slide_sources_sha256": "56c383f8b793995c9c080460a31e8b7ff0f2662005bb3d365ff77ff615e8d289",
+        "notes_sources_sha256": "50cfeb67b47302f72fb2b46b6d5d3a345e1269e7128215f48c5f7b32db7a77dc",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "bd5f4a0954c3d7181d130f9aab21dfe989c5c561b26008de9153beb97df7a118",
+        "coverage_sha256": "1cc82abf220537ef8a3fcb252520b61bc0e807af7d08c213c8d768e2e40e951f"
+      }
+    },
+    "09_1-s028": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. RC punjenje, τ, tpLH i tr; Model konstantne struje za H u L; Dva ekvivalentna kola, smerovi struja i napon; Najgori ulaz i početni izlaz; Potpuno obrazloženje RC modela, početne struje i formalnog negativnog krajnjeg nivoa. ",
+      "evidence": {
+        "source_render_sha256": "67b2128deaabefbc15c5bf5630e89b138c1795aa3b72ce2def52df19252663d7",
+        "baseline_render_sha256": "098d6f4da12285615c82116bad139338fa7ec05704c8822356556bcada4a98ad",
+        "new_render_sha256": "d33f58549b219b0d7916b49750818d911c790dfa12f191fd3e0170507327c338",
+        "notes_render_sha256": "eeb713beac057f37ce922de7a52f8134faeb623eade738e718f9e9db408b394c",
+        "slide_sources_sha256": "7825c6bd09ddec7d3e83cec0a53ddfc74761eaa1f819ed4c3bfb93a9cf2965d0",
+        "notes_sources_sha256": "c5ba931931b7d10f4444354898cbfaba99ad6c66f8916d585c9ed59b4233ce12",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "d3db24b651147fc84a305e4e20d4318f625805f6c44cc5da8fe4cebef5c1fec3",
+        "coverage_sha256": "17de9fcbf46b51af10d63ed8f401108708d0f2ede3190458c314a7c120f58452"
+      }
+    },
+    "09_1-s029": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Potpun uslov zasićenja kratkog kanala; Srednji izlazni nivo u trenutku kašnjenja; Tačan preuređeni granični uslov; Dve aproksimacije; Izvorna tvrdnja o celom pražnjenju; Obrazloženje pomeranja granice i provere pri kašnjenju. Otvoreno tekst: P04 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. ",
+      "evidence": {
+        "source_render_sha256": "1e408483c6bbea43ee21ab6ea61f263b179478af111a1e2019aad63180f9f435",
+        "baseline_render_sha256": "e01bdaa3604108756f51c3c38b24cf77da2bacf0c8437b320fad6960ecb4a8f1",
+        "new_render_sha256": "38de28939c7c8a381240d13903225d38b74697c51fb643f5c6414845f5e2bcd7",
+        "notes_render_sha256": "9e5cc769fdf7a2c23771630d14e76d0c7fd20d6de19532ba6b61317aec17df81",
+        "slide_sources_sha256": "429d999b0895b9a8f87411a38704c304fc61d9a153d460cbb645a741d097cb53",
+        "notes_sources_sha256": "6b8fadf7581b662be1ae0742d0066231462cef8f292eec947c6d9d458c6e8991",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "13dfd6ecb465b7a749086a961d169c6092e73d2cd51dfca1122b7b3d7b4fac8c",
+        "coverage_sha256": "2b2d9ec098878defd8014d4abda60d1cb83e06722376e2b73393c6a51351ff0c"
+      }
+    },
+    "09_1-s030": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "problem"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Zamena MOS-a dinamičkom otpornošću i λ; NMOS kapacitivno kolo; Izlazna kriva, radne tačke i smer prelaza; RC procena kašnjenja; Uslovi kratkog kanala i opseg pobude; Cilj RC zamene i puna izvorna tvrdnja o trajanju pražnjenja; savremena kola. Otvoreno beleske: P04 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. ",
+      "evidence": {
+        "source_render_sha256": "5973a254efe7e3da31a1d459c13e41486093e0f538112026624ee9a3df63316a",
+        "baseline_render_sha256": "c984524610b4023b84a362b7abf7ddc8677ea0ae9a7497de84daa4bcaa95c4cd",
+        "new_render_sha256": "ee524cbf8a41cb5ddf390e66415a10cf8999b0c84d0353a654afbc244f537db1",
+        "notes_render_sha256": "4e6b126d64eaa3209470c5e5e5267f4675a89c2a8ab7a24fc64876cf516a455e",
+        "slide_sources_sha256": "e07cbb2326b6f0854c19a6b7bd7b12b537f6bd4f6877535dd88521261baedf84",
+        "notes_sources_sha256": "0389d3882d4bea67ddecf0d23a1bf94f00626516a18bfa6a9799b1254246f11a",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "9df1ab818a1dcfb001c96a1a1346f5411e933d41b9261ae0e4314084e8b90114",
+        "coverage_sha256": "4afc9f48cf0616457edf95734aeb933296051c2a39bdb82aae38726845ed6815"
+      }
+    },
+    "09_1-s031": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Kolo sa CL i karakteristika sa tačkama 1 i 2; Aritmetička sredina dve otpornosti; Otpornost RON1=VDD/IDn1; Otpornost RON2=(VDD/2)/IDn2; Pune zamene kratkokanalne struje u RON1 i RON2. ",
+      "evidence": {
+        "source_render_sha256": "e028de7f108ccfb27b6c3c030bcf25dad2db179a46430927973823e23a8c0d68",
+        "baseline_render_sha256": "a4e40cc185327e8dba9e0efe59956476213bb32be98a7cb357145666b99c5f09",
+        "new_render_sha256": "68b8bc9dac0a484e7c28ad591aaea2d635d7540a55a0dc1c41ffd839f4d85b8e",
+        "notes_render_sha256": "2ac19ac445be4edf85601de08d0cdd123f566046deaed4ccf8cd681042bbc8e2",
+        "slide_sources_sha256": "dc91f6ab20e3dc5be2e36a46dec0adc09025edb443f805e0af2162a6b2977b6a",
+        "notes_sources_sha256": "5b0c8f1311abeb29a14aeb2d2dd92508e040dc2e88d509374dd1d7ff82758de4",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "3eb37db24c5eb4e3bad51786b5a9b2c46fba87855971bffb1a898423b519d13a",
+        "coverage_sha256": "3dc7442fc3a977fcec55d6a9575746e5983bca4373634eea8b7139fd9ccbf6f2"
+      }
+    },
+    "09_1-s032": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Definicija IDnsat; Otpornosti na dve krajnje tačke; Tačan izraz aritmetičke sredine; Približni rezultat sa faktorom 5/6; Puna aritmetička sredina i linearni međukorak koji daje 5/6. ",
+      "evidence": {
+        "source_render_sha256": "a73e7b7cae044019755dae0818864defc437e8228d70dffa0b9c5a373de9a26b",
+        "baseline_render_sha256": "45962ce1458c0ce9ba2f895cb6e8786c769c4e31c1fb550824df830ddb13111b",
+        "new_render_sha256": "4739d95b67c78117c419c0cc69f531b96e32107f18b09b4673abfd2c3b5bdbfd",
+        "notes_render_sha256": "7f173419630e13ccaeb76a35246a5d994f9072007ecef1ce0b07f8f0b8514802",
+        "slide_sources_sha256": "e7a289ff880cc6da59b069ac46e6c50e507af8cc26b6442e62151d30bf704101",
+        "notes_sources_sha256": "2d973c0b3c4e8781242f89e8d70a8d3b8ad6b45c89143426c03d14711c99b504",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "b9467dd5e134baee894c209299ab2a894ba81607080574c92ea54cbfca76e6f1",
+        "coverage_sha256": "e6a6155987554f7768cc9991a288691c0ea8f14e1bbba8343e7309a875f54f5d"
+      }
+    },
+    "09_1-s033": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Integralna definicija srednje otpornosti; Model RON kao odnos napona i struje; Puna integralna zavisnost; Približni rezultat sa faktorom 7/9; Izvorni decimalni zapisi i poređenje pristupa; Puni RON i IDnsat, izdvajanje faktora, ponovljeni integral i poređenje. Otvoreno formule: P05 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. ",
+      "evidence": {
+        "source_render_sha256": "be9f4f652450d601cf1ed3781f7d158b3e3e3fc777a95cd315c8157e96b3f901",
+        "baseline_render_sha256": "019c8cef2384f749c842d575279a7a77d4831673b10d86526f8c48b2a235cb80",
+        "new_render_sha256": "bb295d0454024c0397f33e1c2978a7b308da234cbed1d4ad63887eda5fe58c5c",
+        "notes_render_sha256": "2960ae90b432b9933e29ebb9fb32f75d534feaf4a12b06fbcc487d3892f5b3f0",
+        "slide_sources_sha256": "480bddbd5ad2f37533e88e2bbc2bd16f0e39fcb8d83d4e674eb3634d531a8b2f",
+        "notes_sources_sha256": "0aa4bf4720cf09498fab83e2d2ec515795e37fff82b923c5946672b99ad9c57a",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "5aa075670900ac60d56c3a4bbfa6712770c87e59fbc181bb86ceefc662b8998e",
+        "coverage_sha256": "c286a394f7b20ffbaecc80269b7b650bd42894d0fd6fcfad28e6cb3216da93cb"
+      }
+    },
+    "09_1-s034": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "problem",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. PMOS kolo sa CL, napajanjem i ulazom; Karakteristika i smer prelaza; Orijentacija sorsa i drejna; Dva izraza ekvivalentne otpornosti; Obrazloženje orijentacije i dva načina usrednjavanja. Otvoreno crtezi: P06 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. ",
+      "evidence": {
+        "source_render_sha256": "5fc9039d1ee60540af8fe1915c73cbbbf688a776df2f3719d932005c61269585",
+        "baseline_render_sha256": "0a9a67712255e971955e395f5f260f0c63ed8ca73819184062b4e2d00ae3af86",
+        "new_render_sha256": "954ebbb472247f9d25da0086c16ee9191ecd9d3f9225363d148872343482ddce",
+        "notes_render_sha256": "9e68609fb91ca8382f8b75ed638438ce14b6079d2cdebe6384f4d3e88231da1d",
+        "slide_sources_sha256": "e68a6c95a246da81d2a81fcf62808a6b8eecc7ca6f4186ce9e5be366b21e9512",
+        "notes_sources_sha256": "e46bc24c3864b008de1d1563069d5003543ad2f7d133669adecbb09ceef2715a",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "de1caa33cf73f444f63b5df8dc117f66db584e6a9db3a68776f9ccf28d95453a",
+        "coverage_sha256": "f716d18ef1100784f76ad3be92e4c6c4bd6e810ad6d7a845a2037ea2709b4c7e"
+      }
+    },
+    "09_1-s035": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Kompromis velikog RL; Kompromis malog RL; Uticaj knRL i izraz kn; Tehnološki i projektantski parametri; Puno obrazloženje kompromisa, tehnologije, Lmin i projektovanja širine. ",
+      "evidence": {
+        "source_render_sha256": "a9c6260d84b7b7ee969d19d931eae90d2ff4e564994500e8e858abd61f3e46e4",
+        "baseline_render_sha256": "6b82b8b8097a266e0beaafab4658373e32210557896a8db1b1ecf391117261ff",
+        "new_render_sha256": "fcd4cb1a4f3ac43f64c1221a5bfc7e6ebe1a771a16aad422aa20d3d08d5a51f8",
+        "notes_render_sha256": "56337b854fd28fe7fc83ee7afe6bd5d724363ec195945438cd4a8405b3fab803",
+        "slide_sources_sha256": "124ae6fb0513756cf53dc9b9db4de70110f3385802424f0ecd871ea05ee1c8c0",
+        "notes_sources_sha256": "abbf0584ced1fc6778d70cf1cc1390331d8fe021566047968a58f132c1811692",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "c3ad790dedbfed6823975deeb19adeaf6857788dbf5eb9c4b415b71b9f9de47f",
+        "coverage_sha256": "aa759b32eff44721107ee82fb9bd1185841a500994408761667a6b1a7381572d"
+      }
+    },
+    "09_1-s036": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Aktivno NMOS opterećenje i kontrolni napon; Šema i uloge TL, TD; Izbor dugog kanala i dva režima; Obrazloženje izbora dugog kanala i kontrolnog napona. ",
+      "evidence": {
+        "source_render_sha256": "e50b66acf6d2765f73d1309445bc1a3b957f7a0dc77ab89b4c7748e828f9e827",
+        "baseline_render_sha256": "9e60002fc3b11ddfdcb12ba7437fa3255e0286cbd0846dcb1f3d4faca683fee2",
+        "new_render_sha256": "c8bf4c772a19a006c3462d0b7d31c169c3ee9205be829afac8e3b6f4a5c7c3f8",
+        "notes_render_sha256": "9191ebedd7d4c1f2b66fccb67f319c940418ce29a6ac3950522fc6c9ced6c7d9",
+        "slide_sources_sha256": "8f457992ad8cc5b01be2961e9e1ebcf04f371ad8f86649dc6ffe5b81a2616ca7",
+        "notes_sources_sha256": "6b2d93a841c119518f914f070d8e4fa646608aad53676bc9fa8fb606b41838bd",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "7817996edda21c3b8bbc59b426314c80f193607612a52c24fab8ac34896c855c",
+        "coverage_sha256": "abd758160c8cc6df32ca6e2b09da2908b4fd64729969f409a54ff74daaaee74b"
+      }
+    },
+    "09_1-s037": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Šema aktivnog opterećenja; VGS,L preko VC i izlaza; Uslov zasićenja; Zasićenje i omska oblast preko VC; Dve pune zamene napona i poništavanje izlaza u uslovu. ",
+      "evidence": {
+        "source_render_sha256": "74e37244ed58bea73dd1fd0f15080f9e60a1b1baa736b2feeeb2383a4a39e697",
+        "baseline_render_sha256": "ae3a1b9f72536bd1d9ac2ab105bf8489d531f8f0718cfd58878c6b68d79b3672",
+        "new_render_sha256": "6fcebd6e114cfb28367e9dcbea2b1bd6c9f3f486241eb75dec9570fdfddb3668",
+        "notes_render_sha256": "04270e3d7f3c06fbff406d0a8131f7d9cc87a1ef6e11992d85f60af471aa322b",
+        "slide_sources_sha256": "296ddf23fef7278fdba304468e2dd1fb02e3bed94ba1482128435fdd814a8963",
+        "notes_sources_sha256": "9954134c4d55d181635bb9b5a7a14f9ac709c872145da808fabf3981dedf4490",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "439157b507d853390e5eb1a4fa6b4461e34ddf0da23cbc02e3cbc38bc605e39b",
+        "coverage_sha256": "0bfa7f53388f1cbbb18aca9b0574954d381bca12257bf4c9e1b273a0d408d2d5"
+      }
+    },
+    "09_1-s038": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Šema sa kontrolnim naponom; Omski TL, zakočen TD i nulte struje; Omski izraz struje; Nulti VDS,L i VOH=VDD; Puna interpretacija jedine radne tačke pri nultoj struji. ",
+      "evidence": {
+        "source_render_sha256": "ae1a0d9361332e01831b189fcf048b46f37997f439b44d3dfa3968e240b78f6f",
+        "baseline_render_sha256": "f9fbaf118eb168c9e057c23ab0b089b7aed515c735521842794e0cfc06334d80",
+        "new_render_sha256": "362f69c0ad3719a2eb62a06f95d1c8cf9566ccd91fa0c9232e10a7eb4de55d2b",
+        "notes_render_sha256": "115dad3378ef7ff55856486929f5743977a2d6b60bc05ae32582058edbcef9d7",
+        "slide_sources_sha256": "9bfb64217a45f615a53842bb9c8d82fbad3b8b426f11c70edf8692d7c4c481b7",
+        "notes_sources_sha256": "345b05187ba245804dc6f0062c3503834e3cb9fbd27af0941329822631ad2f41",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "0c0f86a4cb6d17bcc38f812fa32908ca5b891ccdfe9e4b9ba9cedf635bba9c4a",
+        "coverage_sha256": "269758b21879d4c4b5908f8032a0c8456ccce01012cb9f4c9f78532df4f8a33b"
+      }
+    },
+    "09_1-s039": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Šema i početak provođenja TD; Uslov zasićenja TD; Jednakost punih modela struja; Zamena napona i faktorisana ravnoteža; Tumačenje rada, zamena napona i faktorizacija. ",
+      "evidence": {
+        "source_render_sha256": "3e0d23fd2dcf180acb59e12242f87ca3d0a703cf15b095b5a602a52c4a270b86",
+        "baseline_render_sha256": "98bf4558f5010d72ecc771e1a26455ba3f5fcaedf9f9abc9d2a6d135118f0c5a",
+        "new_render_sha256": "9da90651b41f0b3e973afd97e6ea8e20dc35c5fb1262b6e6f28173d3ce13e923",
+        "notes_render_sha256": "0ccfe9fbe765deb840e41392d34d63677f93a09b1ea5833d89558d77dcb131f1",
+        "slide_sources_sha256": "dce7fba5eb1697f904359df3d49d2377c153d5af128649e103c865c06ab2d8cb",
+        "notes_sources_sha256": "680ac031f9a1c5d90befa59e8e5dd83949c2e82d9a6aef61e46ef3e4fa1ebd43",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "d8965a0a3c35dd7b371915b380a7b483a088c2bdff3705a92eabc9d45387aa9f",
+        "coverage_sha256": "dc4ca82c5b7b04f86ade63f4da4fac0bcec8484f8a5b3a7c6c25706a8e82a692"
+      }
+    },
+    "09_1-s040": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Definicija Δ i pretpostavka kontrolnog napona; Početna faktorisana ravnoteža; Diferenciranje za nagib −1; Ulaz preko izlaza; Završna jednačina po izlazu; Obe pune zamene i skraćivanje do jednačine po izlazu. ",
+      "evidence": {
+        "source_render_sha256": "c7fa8e5ee686fa8103d72e807291d64329c2bc0986d5eeb28b79be8ac26eee08",
+        "baseline_render_sha256": "5233f60392491610f51bfd59459533f943275e1bb33a8660a655923456bf3e2c",
+        "new_render_sha256": "67c0490c21d30ee68f945d9a30eafcb121dfd24024725ca2ba3d73b2f8da5b39",
+        "notes_render_sha256": "aa5f89d550d5744f7747a2631f6057839290a9506dbfa1cc9451c5e76394b22c",
+        "slide_sources_sha256": "8cfbfb1b31fd4ecde1e9c70f2dfdc272a8537490fc4f06dfb3a7687603fe9d61",
+        "notes_sources_sha256": "57da08a0cea204fbc021b1a20dc4157a1c03cbdf0332252f19302800039c39a3",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "4172dd7865672d79def4db5da62abf9f6629b9aea4f1737efcf481b74591d0df",
+        "coverage_sha256": "171fd9eea964da0315494a9ba09b1a58d6503deb030a454e47a09285cb52dcc2"
+      }
+    },
+    "09_1-s041": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Ravnoteža posle zamene ulaza; Poseban slučaj Δ=0; Kvadratna jednačina po padu napona; Izvorna tvrdnja za jednake k; Povezivanje Δ=0 sa granicom zasićenja i kvadratnom jednačinom. Otvoreno tekst: P07 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. ",
+      "evidence": {
+        "source_render_sha256": "ce712a1007e61958ff9347f0ca81bc34f4b88906c2bf310c7245036255be90b5",
+        "baseline_render_sha256": "0196796332668f6093587af515ec23ac7a107161935d4d4c67b19736cdc07871",
+        "new_render_sha256": "f490a2a1aa4fd11be2d0d83bd206ae408b560cf63fae9d63d4c3e8c7c9a26a35",
+        "notes_render_sha256": "e7418fb4868ffc596b4c42e9707ba46484b1954416b89c9cf1b93874cec597f0",
+        "slide_sources_sha256": "17368276e985fb573c80dad37fa9aa09aa1b02bcdd4dadf0775e3b756839fea3",
+        "notes_sources_sha256": "f234c3f443e84265c1fbb9f9695a01d9e943a1e345ba8c7d4b4b1234549fd38f",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "8a2f1e444c07f1833f8165c29d068c23dded24f34ba02f3ebedd8511c59058d6",
+        "coverage_sha256": "ddf219046840852e45ff15fc1e21e3265a8c8f63a78bca17dfbd3139eac20dcd"
+      }
+    },
+    "09_1-s042": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Oba ekvivalentna zapisa VO(IL); Oba ekvivalentna zapisa VIL; Zavisnost od odnosa parametara i kontrolnog napona; Način upotrebe dvaju ekvivalentnih zapisa. Otvoreno formule: P01 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. ",
+      "evidence": {
+        "source_render_sha256": "65491ca645fa5eabb61ec744f54c302e84967608bc274624c046c43b37edc0b2",
+        "baseline_render_sha256": "82dea82e865881aab8d0a9e1e096086b7c716423399958bb5f47f7688302c5d4",
+        "new_render_sha256": "a701aed6d0a8d7cb435ef5d793f410348c6b6fa03aafc09c00031c018c340bf4",
+        "notes_render_sha256": "bd9a5252e25d77e86138fe681c7f317bebcec4d5335e023b07809c244654278d",
+        "slide_sources_sha256": "5e69a7598823295ded21fad05ce846b39f1bc9943a92ea836e455528f2026207",
+        "notes_sources_sha256": "aadc7fa4598f449466c8e643853842febe3ca2e66c0140971ea60c35e72e15c7",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "6771878ae0cce3a37ccb8fd340e26f560262509b52c8b84fa79628b3cfa55f10",
+        "coverage_sha256": "a7cce9b93bf28b6779aa5081a9c34320711d33ed4bb3b911469ca01b49b884a8"
+      }
+    },
+    "09_1-s043": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Izvorni naziv T1 i prelazak u omsku oblast; Granični uslov; Ravnoteža dva omska modela; VC preko Δ i faktorisana jednačina; Puna ravnoteža pomnožena sa dva i zamena napona. Otvoreno tekst: P01 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. ",
+      "evidence": {
+        "source_render_sha256": "01eac40895026b4107dde0a99b93294af18704c7240f0aed9d223da714eb6ee4",
+        "baseline_render_sha256": "e868028aea1e573451c1a28c9dfe99faf1e3e0fd5f9a928a15742acd4b1ee0bd",
+        "new_render_sha256": "27054d4c7507c3e993a5102f496ed95e540b8768edf45159883af80fb159936c",
+        "notes_render_sha256": "f8d9487a53dea2137812e459b4b46393c95ba462ffbaddb7a9ae609635ee0b04",
+        "slide_sources_sha256": "6f51ae8142073483c5ae4c20225c2ad640a86535b41c6edb0ba738ce9220df3c",
+        "notes_sources_sha256": "2c954957fb130d727fe8def03b3bd69aa3a6ebcb0be3554bb0f549425668b214",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "1d6d229ad5d261d47a55d7810bd7e1917af3d958907c1f41858d0ac4b8e25615",
+        "coverage_sha256": "20b56da01ea90f1cba3b4e74c8c6500a36b016df5b97091c66208047f1f6ada7"
+      }
+    },
+    "09_1-s044": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Početna ravnoteža; Potpuno diferenciranje za nagib −1; Izvorno sređivanje sa izgubljenim koeficijentom; Izvorni izraz VI; Izvorna zamena u početnu jednačinu; Pravilo izvoda proizvoda i postupak eliminacije ulaza. Otvoreno formule: P01/P08 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. ",
+      "evidence": {
+        "source_render_sha256": "21e1d269d2bacefde8e782fb399834968dc94fad762bfc62739870ddfea1c41e",
+        "baseline_render_sha256": "2854680cbaf78539e130e3fb7c0c795e8cb5b18ef35eca4c8a4ed4f785232447",
+        "new_render_sha256": "01edf17d037112a1b8cd78fbbbe44ccbfc32a21f9c9da5b482f392a5a00c2b8b",
+        "notes_render_sha256": "de163adf2c40824976c7a2d12c704268fbacc7e542dc90c2182d3e394b04e29c",
+        "slide_sources_sha256": "ae2970e0684a71ac1b19ba0841df1968527472022312dc7f6049cd6fda5c7884",
+        "notes_sources_sha256": "3b9d12c79dd2e037f300128e5bb21dfe1cb5542446a016f306c3b66b4c993b62",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "d36f5c28d3a190592d40a3c22fe15293a2fa23ed6709e9912a1e8d2b13f7c973",
+        "coverage_sha256": "6c000933c73ed5170ed192820182162e34203a6b4e6ee62be3f77eb4787fcd0e"
+      }
+    },
+    "09_1-s045": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Izvorni rezultat VO(IH); Izvorni rezultat VIH; Zavisnost od VC, pragova i odnosa k; Uslovi primene rezultata i provera oblasti. Otvoreno formule: P08 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. ",
+      "evidence": {
+        "source_render_sha256": "e89da3e882a7688c6319244946d4196d283152c170407f2b49cd5dcf4d71db71",
+        "baseline_render_sha256": "354207c57fd5d850efab2ddeb5c2f0aa82a1eefcc81fbb85a71d7a9a78b408a7",
+        "new_render_sha256": "7a11e958818502685e6c9fe0444a2b0a89eae6cfb5b0c881447ffd72799bb58f",
+        "notes_render_sha256": "1f7a7b1960416be7e69ab907253fa6760351310b4bb2b51f55c468946f09acb0",
+        "slide_sources_sha256": "9e257eaea8311f569f6d1c39e5e418062b83f38b763695fe7c3b4e04b051b74d",
+        "notes_sources_sha256": "5c58452e0c0398e911613c00fb58f963e46b02f9522516be233532997a34ec6b",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "513c0faea57e0fb1e52c6a36d04467aed8130dc7301ded160741e7dac597456f",
+        "coverage_sha256": "791911639de0b049fc8e955b34a526db6176183485db46f0fc9df0d839bc23e4"
+      }
+    },
+    "09_1-s046": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Ravnoteža za logičku nulu; Zamena VI=VOH; Aproksimacija malog VOL; Izvorna dva zapisa rezultata; Obrazloženje zanemarivanja i visokog ulaza. Otvoreno formule: P09 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. ",
+      "evidence": {
+        "source_render_sha256": "e277962d59b7b711b32cb90fefbd0e4f510fa37aaf85bc635a93f06cabade198",
+        "baseline_render_sha256": "d47c25985b137232830dc53b3fa10d07dbe7ac401a8aaa3509b8c275e74820ca",
+        "new_render_sha256": "f9217e951602cfb2972e6de8e00209235425e93dfc7e6f30e2f1619ac0cf7926",
+        "notes_render_sha256": "4a0f9c99110f291e298b9f9b413e5b55bf1ea00def5cbb23c6f0bf2cbbee4329",
+        "slide_sources_sha256": "dff91a5bdf11710c0c1c2613b5b244fb6db72534c82e9c8f8e49b5199ee9cc15",
+        "notes_sources_sha256": "d77123d2212339a4ac0f5ceb4e71d77ee13ec66a96e8bee020aec7ef71bfd876",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "36263a8eaa3e116b875f82bd6492f5a9e0b3b840f47fe60ef3e0080f2630287d",
+        "coverage_sha256": "ad0f659185cf604d4e047c0f683f8442fcd6cd113a0dab99748edd3af15ceef5"
+      }
+    },
+    "09_1-s047": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Izvorni rezultat VOL sa označenim odnosom k; Zajedničko skaliranje obe širine; Dva izraza odnosa k i poništavanje F; Tumačenje poništavanja F i ograničenje statičkog zaključka. Otvoreno formule: P09 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. ",
+      "evidence": {
+        "source_render_sha256": "d587c0791cb9883e44f050a7ef722938b674a9aa96c24e5c99885ee13d889556",
+        "baseline_render_sha256": "d8e464660c5b315919b4dd5ad975d67e12a96268abfe4c03ad4560230c13056c",
+        "new_render_sha256": "90984fb5cba70402e16936b766816f084a09111855f505dd2d8025c8dc284d47",
+        "notes_render_sha256": "dd6c388485804ba8969284b55fe765469c85cffc5b7071d10c78c3a73a9a3369",
+        "slide_sources_sha256": "820cfb06b20d99f6d1a743e10be36d96869e64895d79fb5cac8f30500e43ac13",
+        "notes_sources_sha256": "7eca1e08418759b4ef0b53b4d9242d5cefb4c97c4b2e83d2a9b38be821f8e82b",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "acbac997fb7168565341d892d9c5888c86049ae17d6e8fd38490d92d46162a34",
+        "coverage_sha256": "ad01c97e6a8a4ff0ac670c9fdc2f67441034c190f89b244c628e895f59d6eaf1"
+      }
+    },
+    "09_1-s048": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Karakteristika sa pragovima i nivoima; Podešavanje odnosom k i W; Dinamička otpornost TL; Dva režima ulaznog napona; Kompromis sa VOL i strujnim kapacitetom; Puna objašnjenja dinamičke otpornosti u oba režima i kompromisa. ",
+      "evidence": {
+        "source_render_sha256": "a2186dce048ed2893c2df82d6f00805425baaceb20ba8c0a1d84e51c39a9e007",
+        "baseline_render_sha256": "57a989b7ddb10aff8eb5d8abdc4fa95e3583ae5bc7951cfa243c86b2f0ac565f",
+        "new_render_sha256": "8844fc4df22e66c3574b94fbe0f938958869dd4bb1ff16982756d04ca50ea52f",
+        "notes_render_sha256": "6ec490f35a8b39f8cf21689550e7dc997123956118db28587f07accf03432b82",
+        "slide_sources_sha256": "694457c723c57aa3608614f02860f39a29eeba465396129d99d97573945476ae",
+        "notes_sources_sha256": "acd533a57ad57236b3d0d651f26df1f4eb5e39bffd0b6ce88ebb0dd9a7a65bc8",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "bad6ae16e454822afd21fcf2d6cb4e3d5f9225c5081b0984cd9681c7031f9763",
+        "coverage_sha256": "a60f59d71b2f3ff93e3e8c34f1048f9c83b19dd1df744170bb5305f8664561bf"
+      }
+    },
+    "09_1-s049": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Šema gejta TL vezanog za VDD; Potreba za drugim izvorom u prethodnoj realizaciji; Jednaki VGS,L i VDS,L; Uslov zasićenja i njegova zamena; Izvorna oznaka T2 i kratki kanal; Razlog izostavljanja dodatnog napajanja i tumačenje stvarnog provođenja. Otvoreno tekst: P01 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. ",
+      "evidence": {
+        "source_render_sha256": "6c6bc7a582d1ffa3f8ea3cc3e7bbaa0d68c6b621a8d023feaf94b5454a4527fa",
+        "baseline_render_sha256": "e967f486276f73350cfcb60c2cb2136b1f1bedb2dd85ffb2e67cdf39bfce72a1",
+        "new_render_sha256": "abf3385df6005622d4e57d40b0edc502202f63334be990b543738063e41543c0",
+        "notes_render_sha256": "d0a51df314ed433b4eb79bea31e19adee7f24f6eb25a0ab381c4103b5f24affd",
+        "slide_sources_sha256": "8d7db27781a35b0d5e1890a05eab244db5518de5a607c7c8cae5d3ef60989367",
+        "notes_sources_sha256": "e3efa5b497545e512a2507fe9a2b421d24329e652edd8a6eb15052a51ca884ed",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "7c0493a1bd424ff83c6bd0896f8e784d7676177ac996e82cc76715e12d4fe164",
+        "coverage_sha256": "10f2ae90459c3a0bc134c5b2bba6fcb510672952dfd041a8c641bbc54a88bbd5"
+      }
+    },
+    "09_1-s050": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Šema zasićenog opterećenja; Zakočenje TD i neopterećeno kolo; Nulta struja TL i granični VGS,L; Smanjeni VOH i poređenje sa omskim opterećenjem; Punjenje izlaza do praga opterećenja. ",
+      "evidence": {
+        "source_render_sha256": "ec8a3bb358b6eaf6dd97857a8adb7a1412ff659500339cbe8522af28ed74779e",
+        "baseline_render_sha256": "d39d80b15b1d4fd6b7597cbd14bca2ad3550f9f69406163341aa4ca55e5bb594",
+        "new_render_sha256": "4f5cf7fd2ba2c2a5492f2005ccbae21e0fd0ba1fe73d7a066d55f3b549670450",
+        "notes_render_sha256": "e17dc62040e14cc13bb996183c9c6698048feadf597afca9c416f0474e603e67",
+        "slide_sources_sha256": "a2785510a3979907870de7455a3c62b1bc6481d470ef03a7c5db80f3ea0dae17",
+        "notes_sources_sha256": "3c08827ce5ff989700ddd3b0e7814e03c6fc84bd1f7097cc394ad626df92c9bc",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "d2f7819c6e315d1fc832bdcaafaadc276c23f0205971ce7aaeae7b314c8391e5",
+        "coverage_sha256": "c63fc66bb500341052fd3c2fe885bfa09c4b5a081ef4942ec59a1f405994f9bb"
+      }
+    },
+    "09_1-s051": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Šema i početak provođenja TD; Izvorni uslov zasićenja; Implicitna karakteristika kao jednačina 1; Pretpostavka nagiba −1 i jednačina 2; Izvorna završna jednakost sa upitnicima; Puna ravnoteža zasićenih modela i međukorak diferenciranja. Otvoreno formule: P01/P10 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. ",
+      "evidence": {
+        "source_render_sha256": "2dab5e5ca250ba52f87ce7618099c1253d526f79521c8cbe2ee6f9656ee48198",
+        "baseline_render_sha256": "e7efbb96c579e926b61d5435e9a8ff781de4bdc137557d1bb4aa31980cf11641",
+        "new_render_sha256": "4132dbc3f6f0805ceb124d3d0c904980b79cd0c01e0551c19b90cb1c98c87372",
+        "notes_render_sha256": "02fad5035e71b96dd52b530506bc30656c9dd96248d969643b22810162fb1d7f",
+        "slide_sources_sha256": "771aed0b0be06cd4ccf462cf11010562cf97a5036dd00a5ee3db10301b4ad04a",
+        "notes_sources_sha256": "86e6cf4d505fe30f74ade58749d5b3bead72226adbb48ab9df0456e1324ec1eb",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "afe2e23ba65e29c380139710c7277117d9ed4abbc73dabe3645bb17998aa54d4",
+        "coverage_sha256": "5ef6305efcd723e7682076f67753c79589e4de4d30d1f42765ad5ef6710165d3"
+      }
+    },
+    "09_1-s052": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Izvorna tvrdnja o nepostojanju nagiba −1; Polazna ravnoteža; Eksplicitna linearna karakteristika; Konstantno pojačanje; Uslov za logičko kolo kD>kL; Ponovljena ravnoteža i izbor fizičke grane pri korenovanju. Otvoreno tekst: P11 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. ",
+      "evidence": {
+        "source_render_sha256": "98d7e8b547dea9809ab5e1ec3c53e3214a23338e493d65632c14a082500a4940",
+        "baseline_render_sha256": "087b4e8c07fc111cda0caf5f1683b5c7e7a568c28d29e647dc5b31afa39e8aa2",
+        "new_render_sha256": "cbafbea0b47181bf7c63ccea347913f3844b8a089147bc4435f7e3dedd617759",
+        "notes_render_sha256": "172a5113ef6ce4211ca1df85a00c7b60382e7db5fd8d141f7d73a704a28fc7c2",
+        "slide_sources_sha256": "6b1f7d4a1868cad23cc7335e846ff3d9c1d518e517c6c6cf86709f907e180d4e",
+        "notes_sources_sha256": "b65ecd81472e205c9def1eb36067635b5e3427fcf02b984c36def07c20ab7e83",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "12b54dc673dd5ea7ecdedaf835e83f5622fc3eba3db471d087e68b9d57b096a7",
+        "coverage_sha256": "dc7fb18d9b5ecb56662ee4fb98240a143c45a9d61cebf1b84e9fd337d62a07b6"
+      }
+    },
+    "09_1-s053": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "problem"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. VIL=VTn,D; Granica prelaska TD u omsku oblast; Faktorisana ravnoteža; Nagib −1 i izvorni sređeni izvod; Izvorni izraz ulaza; Puna ravnoteža modela i izvorni prvi red diferenciranja. Otvoreno formule: P12 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. Otvoreno beleske: P01/P12 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. ",
+      "evidence": {
+        "source_render_sha256": "a608f957bc91d0b9888c168130b9e1646d815286a3b4b311bd6326ba00e6f60f",
+        "baseline_render_sha256": "d352b677a6157a07e3e246d437c7f8c0d72e68cd1e8fe6270bedfe2a8eb9a9fb",
+        "new_render_sha256": "580f28aab5754f8c486e70e1b7f8d5342971d9f82b9b70040dedf8cebfe7df82",
+        "notes_render_sha256": "d7edc7027199d4113876701990316193a8ad40d90e28e8b3d77684f8e9e3e71e",
+        "slide_sources_sha256": "d7e6b7fe3b1f5f1bfddd1311147eec228e8dd6c09b8a23306f2bb7cacfb791c7",
+        "notes_sources_sha256": "ed5fde838adf35eacd193a0a9c76d01f3c93b095ef24dea70d7fbef118334bef",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "247c21e22bfc6a7ebf9ab444b947014fb126d7a9ea7fe1bd73c765829e8c091a",
+        "coverage_sha256": "2ee0a790cbaeb9107909c982d309046d013800541aa623f352157685bc748fc7"
+      }
+    },
+    "09_1-s054": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Izvorni rezultat VO(IH); Izvorni rezultat VIH; Provera pretpostavljenog režima pri primeni rezultata. Otvoreno formule: P12 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. ",
+      "evidence": {
+        "source_render_sha256": "b60546b7ab9e051dc0a095c0340a06a8b97d0670f590d89c7593507c962634b8",
+        "baseline_render_sha256": "4ef336f50af2088d9c0b3a9bcc410d1d48493368d1c8727ad311d9a0debca512",
+        "new_render_sha256": "9c16b0b9bb3da51d55be99be0bacb47159497fe96468a526b8b5d2db64ed7f53",
+        "notes_render_sha256": "9278b8f492dab3fa4a138cbff27999ed6e98778f3dc60ff882888239dbca7341",
+        "slide_sources_sha256": "953c9eb08e4f2e65e7501ead3eddcd839ac631fcc8c82179082fbda17c2cc874",
+        "notes_sources_sha256": "e519117c57687e0c0734341e9244fbd3f2018e0d1b60aa10355ad1c0b0748eb7",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "f2a0376a61b58bf5690fe209dd2a7a7d319ace55b2996c2c21aa7695838eee7e",
+        "coverage_sha256": "ef157e14d6b38dec314072b729fcee7f932c97343f6254143fac2c347882a8f5"
+      }
+    },
+    "09_1-s055": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Polazna ravnoteža; Zamena VI=VOH; Aproksimacija malog VOL; Izvorni konačni izraz VOL; Karakteristika prenosa sa nivoima i pragovima; Obrazloženje aproksimacije i smanjenog visokog nivoa. Otvoreno formule: P13 u otvorena_pitanja.md; izvorni zapis sačuvan do odluke korisnika. ",
+      "evidence": {
+        "source_render_sha256": "df9efef34e2cbfb4e83ddd1fc21577432764c54609198a40d1f365daa4ee78bf",
+        "baseline_render_sha256": "881849e5c4b9a29a5717b3bbda361435be34c57a46c8e365cc4bb4dda0a956bd",
+        "new_render_sha256": "a81c0bde9727156c5ec58c71415fb99592df36e6d068373b82e06be7d44b38ab",
+        "notes_render_sha256": "091115aa1a8ca24bd7093ddbe889f3060b574d92bee535d1c910edf2789f83e5",
+        "slide_sources_sha256": "0f0be238ed6302553c381fd67ee8c0d2c9ce63e057486b0a037f36aa6c640bef",
+        "notes_sources_sha256": "74ababb360d79ecdb2e84152767475f5f086f4657aeac2f47c7346b711b16aa5",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "bdb64fc01246ba0db24564e358fc6957eea8aba05244d3121432c7176d0038f3",
+        "coverage_sha256": "d1fd924275dca8597fd6fa46c5b3e51aff036077d0a627859a089ad235a3ed7d"
+      }
+    },
+    "09_1-s056": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Dve četvoropriključne šeme i strelica promene; Efekat osnove na prag TL; Implicitna jednačina VOH; Uticaj na nivoe i pragove; Opšta jednačina efekta osnove, VSB,L=VOH, postupci rešavanja i puna objašnjenja pragova. ",
+      "evidence": {
+        "source_render_sha256": "57a40292f87a89c33943761088b277aaacdc246391c1f098239fbc539911eecd",
+        "baseline_render_sha256": "42687e732f7421bc5737bb61c4985b2d18c6134e8dd6f33569a23c261d2aec3f",
+        "new_render_sha256": "6a4a26c564c3d54a4fb7cfcdb48d31d7949aa96944d09ca0edf57f261cfa4981",
+        "notes_render_sha256": "92ef3c658836a54007fd7cd8fbae1da9012259c32236b90e7e8d15c188383efc",
+        "slide_sources_sha256": "7d3e175d4b4d9b76b09017d741f0288ab9c892fac5e8803890706f403fff106a",
+        "notes_sources_sha256": "eaeb109df19cb8585c48a0f8f563f13db4807519cc77f4dc0551b5f0734edc24",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "329db5c68016dbcc2045c7663f2df2de0db3c0f757a2eeaefd905c25fe53cef3",
+        "coverage_sha256": "7995754889230b5ab54c2efc78742de08f6d22fd39c71d2431be3d214a7645f9"
+      }
+    },
+    "09_1-s057": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak i sačuvani početni prikaz, novi slajd u punoj veličini i nastavni tekst A4 beležaka sa ID-jem/naslovom. Pregledani razmaci, formule, topologija i oznake primenljivih crteža i odredišta inventara. Beleške bez uredničkih komentara; provera kompletnog teksta i matematičkih koraka u prikazu. Obuhvat statičke karakteristike; Strujni kapaciteti i dinamika nisu računati; Povezanost sa pasivnim opterećenjem i kasnijom CMOS analizom. Beleške imaju samo vezu sa ID-jem, jer nema dodatnog nastavnog sadržaja. ",
+      "evidence": {
+        "source_render_sha256": "467a6aa82e39a9b266de393a5fddaded96a83efd910378066323e8f98c30b470",
+        "baseline_render_sha256": "e234a22bef155c339ba3d355cbd6cd140b3c4fb6f6e68d8d0bfc1f70dd433aad",
+        "new_render_sha256": "0f380a7b09d77e486f0db8bdbb7a44c3716ca0118c94e8f106198d7f226a00dc",
+        "notes_render_sha256": "82122c6c3585846911e141d7446cbb5e4fef67cdba08e3da56724f864d2be697",
+        "slide_sources_sha256": "d68adc559578b8a99aee5597f551c5418424cb3429aef1ac023d429da3e8cf04",
+        "notes_sources_sha256": "b1979448947e7de80b8a2d52f02ff8099063f1e99457ab038ad4d77534e0be97",
+        "shared_sha256": "21614550929edefafb7f0cce675f4f3a1d9538c198ab8c4ba9b6f3cded7ac106",
+        "mapping_sha256": "b6fbd7bb2e0c84e80a933795116fe77b94db7db5f1cb67d79eb7f3190b4796f7",
+        "coverage_sha256": "ad5327e83e3dea419194dc26fa49e819ad911000d2a8c53fc6e3c7bf7feba25a"
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+% Original: PDF strana 23, donji slajd.
+\slajdid{02-s046}
+\begin{frame}[label=02-s046]{Ista funkcija: drugačiji broj čipova}
+\setlength{\parskip}{0pt}
+\renewcommand{\arraystretch}{1.0}
+Međutim, pri poređenju po broju čipova rezultat može biti drugačiji ili isti.
+\par\vspace{1.5mm}
+U oba oblika potrebna su četiri invertora za \(\bar D,\bar C,\bar B,\bar A\).
+\par\vspace{1.5mm}
+% element: 02-s046:e01
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.48\textwidth}
+\Oznaka{Zbir proizvoda — ukupno \textbf{4 čipa}}\Oznaka{\(F=\bar D\bar B+D\bar C\bar A\)}
+\par\vspace{1.5mm}
+\begin{tabular}{@{}ll@{}}
+4 invertora & 1 čip \\
+1 dvoulazno I & 1 čip \\
+1 troulazno I & 1 čip \\
+1 dvoulazno ILI & 1 čip \\
+\end{tabular}
+
+\end{column}
+\begin{column}{.48\textwidth}
+% element: 02-s046:e02
+\Oznaka{Proizvod zbirova — ukupno \textbf{3 čipa}}\Oznaka{\(F=(D+\bar B)(\bar D+\bar C)(\bar D+\bar A)\)}
+\par\vspace{1.5mm}
+\begin{tabular}{@{}ll@{}}
+4 invertora & 1 čip \\
+3 dvoulazna ILI & 1 čip \\
+1 troulazno I & 1 čip \\
+\end{tabular}
+
+\end{column}
+\end{columns}
+\par\vspace{1.5mm}
+U 14-pinskom kućištu dva pina služe za masu i napajanje, pa ostaje 12 signalnih pinova:
+\par
+Invertor: 1 ulaz + 1 izlaz \(\Rightarrow (14-2)/2=6\) invertora u jednom čipu.
+\par
+Dvoulazno ILI: 2 ulaza + 1 izlaz \(\Rightarrow (14-2)/3=4\) kola u jednom čipu.
+\par\vspace{1.5mm}
+% element: 02-s046:e03
+\alert{\textbf{Prema broju čipova povoljniji je proizvod zbirova}}, iako ima više ulaza kola.
+\end{frame}

@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "phase": "redizajn",
+  "lecture": "07",
+  "selected_style": "B",
+  "theme": "etf-v1",
+  "theme_manifest_sha256": "87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41",
+  "source_sha256": "321ce3dd5052f7eab982430e29715feb8044b6f69e74a458a18f1356ddbbc6cc",
+  "slide_ids": [
+    "07-s001",
+    "07-s002",
+    "07-s003",
+    "07-s004",
+    "07-s005",
+    "07-s006",
+    "07-s007",
+    "07-s008",
+    "07-s009",
+    "07-s010",
+    "07-s011",
+    "07-s012",
+    "07-s013",
+    "07-s014",
+    "07-s015",
+    "07-s016",
+    "07-s017",
+    "07-s018",
+    "07-s019",
+    "07-s020",
+    "07-s021",
+    "07-s022",
+    "07-s023",
+    "07-s024",
+    "07-s025",
+    "07-s026",
+    "07-s027",
+    "07-s028",
+    "07-s029",
+    "07-s030",
+    "07-s031"
+  ],
+  "baseline_sha256": "3df9ccb56923e6b9c77bafc2a277be4d0484e836e522ef808fc86098fd62f92f",
+  "created": "2026-10-02T21:25:06.997596+00:00",
+  "build_record": "provera/redizajn/izgradnja.json",
+  "notes": {
+    "07-s001": {
+      "path": "beleske/s001.tex",
+      "title": "Uvod u HDL"
+    },
+    "07-s002": {
+      "path": "beleske/s002.tex",
+      "title": "Opis digitalnog sistema"
+    },
+    "07-s003": {
+      "path": "beleske/s003.tex",
+      "title": "Fiksne i programabilne komponente"
+    },
+    "07-s004": {
+      "path": "beleske/s004.tex",
+      "title": "Ideja programabilne kombinacione mreže"
+    },
+    "07-s005": {
+      "path": "beleske/s005.tex",
+      "title": "Primer jedne programabilne komponente"
+    },
+    "07-s006": {
+      "path": "beleske/s006.tex",
+      "title": "Vrste programabilnih komponenti"
+    },
+    "07-s007": {
+      "path": "beleske/s007.tex",
+      "title": "Primer jedne PAL komponente"
+    },
+    "07-s008": {
+      "path": "beleske/s008.tex",
+      "title": "JEDEC"
+    },
+    "07-s009": {
+      "path": "beleske/s009.tex",
+      "title": "Razvoj HDL jezika"
+    },
+    "07-s010": {
+      "path": "beleske/s010.tex",
+      "title": "ABEL primeri"
+    },
+    "07-s011": {
+      "path": "beleske/s011.tex",
+      "title": "Primer"
+    },
+    "07-s012": {
+      "path": "beleske/s012.tex",
+      "title": "Tipičan CAD proces"
+    },
+    "07-s013": {
+      "path": "beleske/s013.tex",
+      "title": "Šta je VHDL?"
+    },
+    "07-s014": {
+      "path": "beleske/s014.tex",
+      "title": "VHDL: unos dizajna i testiranje"
+    },
+    "07-s015": {
+      "path": "beleske/s015.tex",
+      "title": "VHDL: netlist i standard"
+    },
+    "07-s016": {
+      "path": "beleske/s016.tex",
+      "title": "Kako se koristi VHDL?"
+    },
+    "07-s017": {
+      "path": "beleske/s017.tex",
+      "title": "VHDL: simulacija i dokumentacija"
+    },
+    "07-s018": {
+      "path": "beleske/s018.tex",
+      "title": "VHDL u procesu razvoja"
+    },
+    "07-s019": {
+      "path": "beleske/s019.tex",
+      "title": "VHDL i Verilog"
+    },
+    "07-s020": {
+      "path": "beleske/s020.tex",
+      "title": "Izbor HDL alata"
+    },
+    "07-s021": {
+      "path": "beleske/s021.tex",
+      "title": "Jednostavan VHDL kod"
+    },
+    "07-s022": {
+      "path": "beleske/s022.tex",
+      "title": "Opis kola – design entity - entity"
+    },
+    "07-s023": {
+      "path": "beleske/s023.tex",
+      "title": "Entity i architecture — obrazac"
+    },
+    "07-s024": {
+      "path": "beleske/s024.tex",
+      "title": "Jednobitni potpuni sabirač"
+    },
+    "07-s025": {
+      "path": "beleske/s025.tex",
+      "title": "„Dodeljivanje vrednosti“"
+    },
+    "07-s026": {
+      "path": "beleske/s026.tex",
+      "title": "Logičke i aritmetičke vektorske operacije"
+    },
+    "07-s027": {
+      "path": "beleske/s027.tex",
+      "title": "Prioritetni enkoder: ABEL i VHDL"
+    },
+    "07-s028": {
+      "path": "beleske/s028.tex",
+      "title": "Dataflow i redosled izraza"
+    },
+    "07-s029": {
+      "path": "beleske/s029.tex",
+      "title": "SR latch i delta ciklusi"
+    },
+    "07-s030": {
+      "path": "beleske/s030.tex",
+      "title": "Process — obrazac"
+    },
+    "07-s031": {
+      "path": "beleske/s031.tex",
+      "title": "MUX 2/1"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+\BeleskeID{06-s025}
+% element: 06-s025:d01
+U svakom koraku posmatra se petobitni prozor, jer generator 11001 ima pet koeficijenata. Ako je vodeći bit prozora jedan, primenjuje se EXOR sa 11001; ako je nula, sa 00000. Potom se dopisuje sledeći bit poruke, kako pokazuju strelice.
+
+Za proširenu poruku 111001100000 prozori pre EXOR-a redom su 11100, 01011, 10111, 11100, 01010, 10100 i 11010. Posle EXOR-a dobijaju se 00101, 01011, 01110, 00101, 01010, 01101 i 00011. Dopisivanjem poslednje nule dobija se 00110, čija četiri donja bita daju ostatak 0110.
+
+Brojevi u zagradama prikazuju alternativu pri deljenju primljene poruke: na mestu četiri dodatne nule nalaze se CRC biti 0110. Za ispravno prenetu kodnu reč završni petobitni rezultat je 00000. Deljenje radi bit po bit, bez prenosa pozajmice između položaja.

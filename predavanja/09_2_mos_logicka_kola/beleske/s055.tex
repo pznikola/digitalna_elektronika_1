@@ -1,0 +1,8 @@
+\BeleskeID{09_2-s055}
+% element: 09_2-s055:e04
+% element: 09_2-s055:e05
+Kada P tranzistor puni kapacitivnost, energija preuzeta iz napajanja određuje se integralom snage:
+\[\begin{aligned}E_{VDD}&=\int_0^\infty i_{VDD}(t)V_{DD}\,dt=V_{DD}\int_0^\infty i_{CL}(t)dt\\&=V_{DD}\int_0^\infty C_L\frac{u_{CL}(t)}{dt}dt\end{aligned}\]
+Promenom integracione promenljive sa vremena na napon kondenzatora, granice postaju 0 i $V_{DD}$. Tako se dobija energija $C_LV_{DD}^2$ iz izvora. Na kraju punjenja kondenzator zadržava polovinu te energije. Razlika se disipira na P tranzistoru:
+\[E_P=E_{VDD}-E_{CL}=C_LV_{DD}^2-\frac{C_LV_{DD}^2}2=\frac{C_LV_{DD}^2}2\]
+Pri pražnjenju nema nove energije iz izvora; celokupna prethodno uskladištena energija kondenzatora disipira se na N tranzistoru. Zato su energije disipirane pri punjenju i pražnjenju jednake.

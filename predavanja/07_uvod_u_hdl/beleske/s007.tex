@@ -1,0 +1,12 @@
+\BeleskeID{07-s007}
+% element: 07-s007:d01
+Šest priključaka IO2–IO7 deli uloge ulaza i izlaza. Ako se \(X\) takvih priključaka koristi kao ulaz, ostaje \(6-X\) dodatnih izlaza, uz dva namenska izlaza. Za \(X=0\) imamo najviše 10 ulaza i 8 izlaza; za \(X=6\) najviše 16 ulaza i 2 izlaza.
+
+% element: 07-s007:e09
+Ograničenje „bilo koja“ treba povezati sa brojem dostupnih proizvoda i ulaznih literala. ILI matrica ima fiksne veze, pa nije dovoljno samo da funkcija ima odgovarajući broj spoljašnjih ulaza i izlaza. Ova organizacija je jednostavna u poređenju sa složenijim programabilnim komponentama.
+
+% element: 07-s007:e02
+Kolone matrice numerisane su od 0 do 31, a redovi proizvoda od 0 do 63. Redovi su organizovani u osam grupa: 0–7, 8–15, 16–23, 24–31, 32–39, 40–47, 48–55 i 56–63. Mreža ima \(32\cdot64=2048\) programabilnih ukrštanja. Ukrštanje u programabilnoj matrici označava moguću vezu; to nije automatski ostvaren električni spoj.
+
+% element: 07-s007:e05
+O1 i O8 su namenski izlazi, IO2–IO7 mogu biti ulazi ili izlazi, a I10 je namenski ulaz. To razlikovanje određuje koja grananja priključaka vraćaju signal u I matricu.

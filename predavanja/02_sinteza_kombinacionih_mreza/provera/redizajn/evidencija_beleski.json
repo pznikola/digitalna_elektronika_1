@@ -404,6 +404,18 @@
       "approval_split_source": null,
       "editorial_content_visible": false
     },
+    "02-s021-rtl01": {
+      "source": "Proverljiva nastavna dopuna uz 02-s021; odobrenje_rtl.json",
+      "notes_path": "beleske/s021-rtl01.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Nastavna razrada čitanja koda i rada sa pobudama.",
+      "supplement_anchor": "% element: 02-s021-rtl01:d04",
+      "notes_sha256": "33ff494b6a1270aa37bab0e3dbce11eb2eb634237e4f0da974aaf57cb430e345",
+      "verification": "Pročitan nastavni izvor i pregledan potpun A4 prikaz; kod i oba TB-a provereni u Verilator-u i Icarus-u.",
+      "status": "provereno",
+      "editorial_content_visible": false
+    },
     "02-s022": {
       "source": "Originalni PDF, izvorni 02-s022 i njegova pripadajuća nastavna razrada.",
       "notes_path": "beleske/s022.tex",
@@ -415,6 +427,18 @@
       "verification": "Tačan naslov proizvoda zbirova prema ranijoj odluci; cela F formula u jednom redu iznad dominantne šeme. Razdvojeni invertori, niže završno I kolo i dva simetrična nivoa veza van simbola ILI/I kola. Pročitani nastavni tekst, pregledana puna A4 strana i original; bez suvišnog ponavljanja ili uredničkih komentara. Dopunski pregled 2026-10-04: Dodatno razdvojeni parovi vodova od invertora iznad i ispod; prvi nivo ILI i završno I kolo spušteni, dovodi i izlazne veze ostaju van simbola. Formula u jednom redu, vidljive tačke stvarnih spojeva, svi polariteti i pet priključnih grupa poređeni sa originalom i arhivom. Pregledani konačan projekcioni prikaz i cela A4 strana; tekst beležaka nepromenjen i čitljiv.",
       "status": "provereno",
       "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s022-rtl01": {
+      "source": "Proverljiva nastavna dopuna uz 02-s022; odobrenje_rtl.json",
+      "notes_path": "beleske/s022-rtl01.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Nastavna razrada čitanja koda i rada sa pobudama.",
+      "supplement_anchor": "% element: 02-s022-rtl01:d04",
+      "notes_sha256": "1228eccfb37a9acfe90fea84efcd2dec562d6202b6af76e187aa358311017fc7",
+      "verification": "Pročitan nastavni izvor i pregledan potpun A4 prikaz; kod i oba TB-a provereni u Verilator-u i Icarus-u.",
+      "status": "provereno",
       "editorial_content_visible": false
     },
     "02-s023": {
@@ -889,6 +913,18 @@
       "verification": "Vidljive izvorne pretpostavke idealno brzih kola osim invertora tp, početno i konačno stanje, B 1→0, F=1 u oba stabilna stanja i naglašeno ALI/lažna nula. Obe šeme neizmenjene, tp iznad talasnih oblika. Beleške zadržavaju događaje i međusignale u tri vremenska intervala. Pročitano kao dodatni nastavni tekst uz slajd i pregledan njegov A4 prikaz. Računi provereni; bez nepotrebnog prepisivanja slajda ili uredničkog sadržaja.",
       "status": "provereno",
       "approval_split_source": null,
+      "editorial_content_visible": false
+    },
+    "02-s051-rtl01": {
+      "source": "Proverljiva nastavna dopuna uz 02-s051; odobrenje_rtl.json",
+      "notes_path": "beleske/s051-rtl01.tex",
+      "original_details_in_notes": {},
+      "original_anchors": [],
+      "supplement": "Nastavna razrada čitanja koda i rada sa pobudama.",
+      "supplement_anchor": "% element: 02-s051-rtl01:d04",
+      "notes_sha256": "d4589e4db54a6b4a5f9a8dc4fe244907a2930a8c75218864717675bfb74a3b7a",
+      "verification": "Pročitan nastavni izvor i pregledan potpun A4 prikaz; kod i oba TB-a provereni u Verilator-u i Icarus-u.",
+      "status": "provereno",
       "editorial_content_visible": false
     },
     "02-s052": {

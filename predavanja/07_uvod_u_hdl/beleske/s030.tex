@@ -1,0 +1,5 @@
+\BeleskeID{07-s030}
+% element: 07-s030:d01
+Sekvencijalno izvršavanje odnosi se na naredbe unutar jednog procesa. Različiti procesi u arhitekturi predstavljaju konkurentne aktivnosti. Lokalna promenljiva i signal imaju različitu semantiku dodele: promenljiva se menja odmah, dok signalna dodela zakazuje ažuriranje.
+
+Lista osetljivosti navodi signale čiji događaji ponovo aktiviraju proces. Proces sa tom listom ponaša se kao da se na kraju izvršavanja suspenduje i čeka novi događaj na navedenim signalima. WAIT je drugačiji način određivanja mesta i uslova čekanja; proces sa eksplicitnom listom osetljivosti ne sme u svom telu imati WAIT naredbu. U sintaksnom obrascu prikazane su alternativne mogućnosti opisa.

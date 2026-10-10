@@ -1,1 +1,11 @@
-\begin{tikzpicture}[x=.62cm,y=.8cm,font=\sitneoznake,>=Latex]\ctikzset{bipoles/length=.6cm}\draw(-1.8,1)node[ocirc]{}node[left]{$V_{I1}$}--(-1,1);\begin{scope}[shift={(0,1)}]\draw(-1,0)--(-.3,0);\draw(-.3,-.3)--(-.3,.3)--(.3,0)--cycle;\draw(.3,0)--(1,0);\draw(.3,-.3)--(.3,.3);\end{scope}\draw(1,1)--(1.4,1);\node[below]at(0,0.85){D1};\draw[<->](-.5,1.55)--(.5,1.55);\draw(-.5,1.4)--(-.5,1.7);\draw(.5,1.4)--(.5,1.7);\node[above]at(0,1.7){$+\ V_{D1}$};\draw[->](-1.7,1.35)--(-1.1,1.35)node[midway,above]{$I_{D1}$};\draw(-1.8,-1)node[ocirc]{}node[left]{$V_{I2}$}--(-1,-1);\begin{scope}[shift={(0,-1)}]\draw(-1,0)--(-.3,0);\draw(-.3,-.3)--(-.3,.3)--(.3,0)--cycle;\draw(.3,0)--(1,0);\draw(.3,-.3)--(.3,.3);\end{scope}\draw(1,-1)--(1.4,-1);\node[below]at(0,-1.15){D2};\draw[<->](-.5,-0.44999999999999996)--(.5,-0.44999999999999996);\draw(-.5,-0.6)--(-.5,-0.30000000000000004);\draw(.5,-0.6)--(.5,-0.30000000000000004);\node[above]at(0,-0.30000000000000004){$+\ V_{D2}$};\draw[->](-1.7,-0.65)--(-1.1,-0.65)node[midway,above]{$I_{D2}$};\draw(1.4,1)--(1.4,-1);\draw(1.4,0)--(2.8,0)node[ocirc]{}node[right]{$V_O$};\draw(2.1,0)to[R,l=$R$](2.1,-1.8)node[ground]{};\draw[->](1.6,-.5)--(1.6,-1.1);\node[left]at(1.6,-1.55){$I_R$};\end{tikzpicture}
+{\RazaviSetup
+\begin{circuitikz}[labeltext,american resistors,>=Latex,line width=.7pt]
+\draw (0,.9) node[ocirc]{} node[left]{$V_{I1}$} to[D,l_=$D_1$] (1.35,.9)--(2,.9);
+\draw (0,-.9) node[ocirc]{} node[left]{$V_{I2}$} to[D,l_=$D_2$] (1.35,-.9)--(2,-.9);
+\draw (2,.9)--(2,-.9);\draw (2,0)--(2.6,0)node[ocirc]{}node[right]{$V_O$};
+\draw (2,0) to[R,l_=$R$] (2,-1.75)node[ground]{};\fill (2,0)circle(1.15pt);
+\draw[->] (.04,1.08)--(.43,1.08)node[midway,above]{$I_{D1}$};
+\draw[->] (.04,-.72)--(.43,-.72)node[midway,above]{$I_{D2}$};
+\node at (1.1,1.8){$+\ V_{D1}\ -$};\node at (1.1,0.0){$+\ V_{D2}\ -$};
+\draw[->] (1.6,-1.15)--(1.6,-1.65)node[midway,left]{$I_R$};
+\end{circuitikz}}

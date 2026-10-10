@@ -1,18 +1,20 @@
 \slajdid{04-s038}
-\begin{frame}[label=04-s038]
-\gusttekst
-Ako je u sadržaju registra i razlomljena vrednost
-
-Zbog negativnih brojeva i rezervisanja MSB za bit znaka,\\maksimalna pozicija tačke je iza MSB
-
-Prikaz negativnih brojeva, komplementiranje itd\ldots\ radimo kao da su u pitanju celobrojne vrednosti
-
-Zbog načina prikazivanja uvek važi\qquad $RV_r=\dfrac{CV_r}{r^k}$
-
-PRIMER sa 4 bita i fiksnom tačkom iza MSB da prikažemo -0.75 u drugom komplementu
-
-Pozitivan broj 0.75 je prikazan kao 0.110\\U registru 0110 (6 podeljeno sa 8)
-
-Negativna vrednost -6 u drugom komplementu je 1010\\A ono što smo malopre videli
-\[-1\cdot2^0+0\cdot2^{-1}+1\cdot2^{-2}+0\cdot2^{-3}=-0.75\]
+\begin{frame}[label=04-s038]{Negativna vrednost sa fiksnom tačkom}
+% element: 04-s038:e01 — MSB za znak i krajnji položaj tačke iza MSB-a
+% element: 04-s038:e02 — Komplementiranje kao celobrojno pa skaliranje RVr=CVr/r^k
+% element: 04-s038:e03 — Primer 4 bita: 0.75, 0.110, 0110 i negativni 1010
+% element: 04-s038:e04 — Težinska provera −0.75 sa sva četiri člana
+Zbog rezervisanja MSB-a za bit znaka, krajnji položaj tačke je iza MSB-a.
+Prikaz negativnih brojeva i komplementiranje radimo kao za celobrojne vrednosti.
+\[RV_r=\frac{CV_r}{r^k}\]
+\NaslovBloka{Primer: 4 bita, tačka iza MSB-a, vrednost $-0.75$}
+\begin{columns}[T,onlytextwidth]
+\column{.475\textwidth}\centering\Oznaka{Pozitivna vrednost}
+\[0.75=0.110_2\]
+U registru: $0110$ ($6/8$).
+\column{.475\textwidth}\centering\Oznaka{Negativna vrednost}
+\[-6\ \longrightarrow\ 1010\]
+Drugi komplement.
+\end{columns}
+\[\alert{-1\cdot2^0+0\cdot2^{-1}+1\cdot2^{-2}+0\cdot2^{-3}=-0.75}\]
 \end{frame}

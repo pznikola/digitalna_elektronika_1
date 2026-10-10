@@ -1,0 +1,9 @@
+\BeleskeID{08-s060}
+% element: 08-s060:e03
+% element: 08-s060:notes
+Novi početni trenutak $t_1$ može se izabrati unutar istog intervala konstantne pobude, ali početna vrednost mora biti stvarni napon $U_1$ koji je prethodni odziv dostigao u tom trenutku. Uvrštavanjem se dobija
+\begin{align*}
+u_0^1(t)&=U+\left(U+(U_0-U)e^{-\frac{t_1-t_0}{\tau}}-U\right)e^{-\frac{t-t_1}{\tau}},\quad t\geq t_1,\\
+&=U+\left((U_0-U)e^{-\frac{t_1-t_0}{\tau}}\right)e^{-\frac{t-t_1}{\tau}},\quad t\geq t_1.
+\end{align*}
+Množenje eksponencijalnih faktora sabira protekla vremena $(t_1-t_0)+(t-t_1)=t-t_0$. Dobija se isti odziv kao pri prvobitnom početku. Zato možemo zadržati rešenje sa novim vremenskim početkom bez ponovnog izvođenja i bez resetovanja fizičkog stanja kondenzatora.

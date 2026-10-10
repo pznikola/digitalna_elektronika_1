@@ -1,11 +1,13 @@
 \slajdid{04-s007}
-\begin{frame}[label=04-s007]
-\gusttekst
-\alert{Prelazak iz decimalnog brojnog sistema u brojni sistem sa osnovom $r$}
-\[V_{10}=\sum_{i=-k}^{n-1}c_i r^i\qquad c_i\in\{0,1,2,\ldots r-2,r-1\}\]
-\[V_{10}=\sum_{i=0}^{n-1}c_i r^i+\sum_{i=-k}^{-1}c_i r^i=CV_{10}+RV_{10}\]
-Celobrojna vrednost
-\[CV_{10}=c_{n-1}\cdot r^{n-1}+c_{n-2}\cdot r^{n-2}+\ldots+c_1\cdot r^1+c_0\cdot r^0\]
-Razlomljena vrednost
-\[RV_{10}=c_{-1}\cdot r^{-1}+c_{-2}\cdot r^{-2}+\ldots+c_{-k+1}\cdot r^{-k+1}+c_{-k}\cdot r^{-k}\]
+\begin{frame}[label=04-s007]{Prelazak iz decimalnog sistema}
+% element: 04-s007:e01 — Traženje cifara u osnovi r i skup mogućih cifara
+% element: 04-s007:e02 — Suma V10 i razdvajanje na CV10+RV10
+% element: 04-s007:e03 — Razvijeni izrazi celobrojnog i razlomljenog dela
+\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}
+\[V_{10}=\sum_{i=-k}^{n-1}c_i r^i,\qquad c_i\in\{0,1,\ldots,r-1\}\]
+\[V_{10}=\textstyle\sum_{i=0}^{n-1}c_i r^i+\sum_{i=-k}^{-1}c_i r^i=CV_{10}+RV_{10}\]
+\textbf{Celobrojna vrednost}\par
+\[CV_{10}=c_{n-1}r^{n-1}+c_{n-2}r^{n-2}+\ldots+c_1r^1+c_0r^0\]
+\textbf{Razlomljena vrednost}\par
+\[RV_{10}=c_{-1}r^{-1}+c_{-2}r^{-2}+\ldots+c_{-k+1}r^{-k+1}+c_{-k}r^{-k}\]
 \end{frame}

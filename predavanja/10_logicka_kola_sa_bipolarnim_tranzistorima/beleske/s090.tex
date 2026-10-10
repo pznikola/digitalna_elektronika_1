@@ -1,0 +1,9 @@
+% element: 10-s090:e04
+\BeleskeID{10-s090}
+Ako se $V_{CC}$ promeni za $\Delta V_{CC}$, uz isti $I_C$ i isti $V_{BE}$ imamo
+\[V_O+\Delta V_O=V_{CC}+\Delta V_{CC}-R_CI_C-V_{BE}.\]
+Oduzimanjem početne jednačine dobijamo direktan prenos smetnje $\Delta V_O=\Delta V_{CC}$. Zato se uobičajeno $V_{CC}$ veže za DGND, a drugo napajanje je negativno.
+
+Promena $V_{EE}$ kod neidealnog izvora može da promeni emitersku i kolektorsku struju, pa se znatno manje prenosi na izlaz. Za idealni izvor promena struje i prenos su nula. Polazni izraz ostaje $V_O=V_{CC}-R_CI_C-V_{BE}$; za promenu drugog napajanja važi
+\[\begin{aligned}V_O+\Delta V_O&=V_{CC}-R_C\Delta I_C-V_{BE}\\&=V_{CC}-R_C\Delta I_E-V_{BE},\end{aligned}\]
+\[\begin{aligned}V_O+\Delta V_O&=V_{CC}-R_C\Delta I_C-V_{BE}\\&=V_{CC}-R_C\frac{\Delta V_{EE}}{R_{IE}}-V_{BE}.\end{aligned}\]

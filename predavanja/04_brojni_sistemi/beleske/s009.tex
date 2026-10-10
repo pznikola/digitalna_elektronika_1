@@ -1,0 +1,11 @@
+\BeleskeID{04-s009}
+% element: 04-s009:e01 — Pitanje konačnosti celobrojnog zapisa i uslov za poslednju cifru
+% element: 04-s009:e02 — Uslov CV10/r^n<1 i CV10<r^n
+% element: 04-s009:e03 — Izvorni logaritamski uslov n≥log_r CV10
+% element: 04-s009:d01
+
+Za konačnost je dovoljno pokazati da za svaku konačnu nenegativnu celobrojnu vrednost možemo naći dovoljno veliki stepen osnove $r>1$. Stepeni $r^n$ rastu bez ograničenja, pa će za neki prirodan $n$ važiti $CV_{10}<r^n$.
+
+Količnik dobijen uzastopnim celobrojnim deljenjem jeste $\lfloor CV_{10}/r^n\rfloor$. Kada je razlomak manji od jedinice, taj količnik je nula i postupak se završava. Time se objašnjava postojanje konačnog zapisa bez unapred poznatog broja cifara.
+
+Granični slučaj je broj koji je tačan stepen osnove. Vrednost $r^m$ zapisuje se jedinicom i sa $m$ nula, pa zahteva $m+1$ cifara. Na primer, za $CV_{10}=8$ i $r=2$, posle tri deljenja količnik je još $1$, a posle četvrtog je $0$; zapis je $1000_2$. Zato najmanji broj cifara za pozitivnu vrednost iznosi $\lfloor\log_r CV_{10}\rfloor+1$.

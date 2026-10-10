@@ -1,0 +1,24 @@
+% Original: PDF strana 25, donji slajd.
+\slajdid{02-s050}
+\begin{frame}[label=02-s050]{Lažne nule i jedinice — glič}
+\setlength{\parskip}{0pt}
+% element: 02-s050:e01
+Kašnjenja logičkih kola razlikuju se i zavise od fabrikacije, temperature, starosti komponenti i drugih uslova. Zato se pri promeni ulaznih signala mogu pojaviti neželjeni efekti na izlazu.
+\par\vspace{2mm}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.48\textwidth}
+\Oznaka{Lažna nula}
+Izlaz je 1 i posle promene ulaza treba da ostane 1. Zbog prostiranja signala ipak se pojavi \alert{\textbf{kratkotrajna nula}}.
+\end{column}
+\begin{column}{.48\textwidth}
+\Oznaka{Lažna jedinica}
+Izlaz je 0 i posle promene ulaza treba da ostane 0. Zbog prostiranja signala ipak se pojavi \alert{\textbf{kratkotrajna jedinica}}.
+\end{column}
+\end{columns}
+\par\vspace{2mm}
+Ovi kratkotrajni neželjeni impulsi nazivaju se \alert{\textbf{glič}} (engl. \emph{glitch}).
+\par\vspace{1mm}
+% element: 02-s050:e02
+\Oznaka{Posmatrajmo primer kombinacione mreže: \(F=C\bar B+BA\).}
+{\centering\input{slike/tikz/s050_mreza_sa_hazardom.tex}\par}
+\end{frame}

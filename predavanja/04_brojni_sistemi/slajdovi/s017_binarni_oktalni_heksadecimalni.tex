@@ -1,17 +1,18 @@
 \slajdid{04-s017}
-\begin{frame}[label=04-s017]{Kompatibilni brojni sistemi}
-\gusttekst
-Nama zanimljivi binarni, oktalni i heksadecimalni
-\par\vspace{4mm}\noindent\begin{tabularx}{\textwidth}{@{}llX@{}}
-binarni&$r=2$&$c_i\in\{0,1\}$\\[3mm]
-oktalni&$r=8=2^3$&$c_i\in\{0,1,2,3,4,5,6,7\}$\\[3mm]
-heksadecimalni&$r=16=2^4$&$c_i\in\{0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F\}$
+\begin{frame}[label=04-s017]{Binarni, oktalni i heksadecimalni sistem}
+% element: 04-s017:e01 — Binarni, oktalni, heksadecimalni sistemi, osnove i svi skupovi cifara
+% element: 04-s017:e02 — Obe dvostrane veze kompatibilnosti
+\begin{tabularx}{\linewidth}{@{}llX@{}}\toprule
+Sistem & Osnova & Cifre\\\midrule
+Binarni & $r=2$ & $c_i\in\{0,1\}$\\[3mm]
+Oktalni & $r=8=2^3$ & $c_i\in\{0,1,2,3,4,5,6,7\}$\\[3mm]
+Heksadecimalni & $r=16=2^4$ & $c_i\in\{0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F\}$\\\bottomrule
 \end{tabularx}\par\vspace{4mm}
-\centering
-Kompatibilni\par
-\begin{tikzpicture}[font=\normalsize]
-\node (a) at (0,1) {binarni};\node (b) at (4,1) {oktalni};
-\node (c) at (0,0) {binarni};\node (d) at (4,0) {heksadecimalni};
-\draw[<->,DEplava] (a.east)--(b.west);\draw[<->,DEplava] (c.east)--(d.west);
+\centering\NaslovBloka{Kompatibilni sistemi}
+\begin{tikzpicture}[font=\fontsize{11}{14}\selectfont]
+\node (a) at (0,1.2) {binarni};\node (b) at (4.4,1.2) {oktalni};
+\node (c) at (0,0) {binarni};\node (d) at (4.4,0) {heksadecimalni};
+\draw[<->,DEcrvena,line width=.8pt] ([xshift=2mm]a.east)--([xshift=-2mm]b.west);
+\draw[<->,DEcrvena,line width=.8pt] ([xshift=2mm]c.east)--([xshift=-2mm]d.west);
 \end{tikzpicture}
 \end{frame}

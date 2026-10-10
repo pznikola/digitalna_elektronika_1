@@ -1,15 +1,16 @@
-
 \slajdid{05-s021}
-\begin{frame}[label=05-s021]{Papir i olovka}
-\gusttekst\setlength{\parskip}{2pt}
-$a-b={?}$\\
-\textit{Ako je $a=b$ rezultat $=0$\\Ako je $a>b$ klasično oduzimanje\\Ako je $a<b$ rezultat $=-(b-a)$ radimo klasično oduzimanje $b-a$ i rezultatu menjamo znak}
-
-Mogli bi ovu proceduru da sprovedemo i u realizaciji digitalnog sistema pogotovo na primer ako su nam negativni brojevi znak i apsoluta vrednost.\\
-Treba nam komparator ali je njega lako napraviti u binarnom brojnom sistemu.\\Napravili smo ga.
+% element: 05-s021:e01
+% element: 05-s021:e02
+\begin{frame}[label=05-s021]{Sabiranje i oduzimanje označenih brojeva}
 \begin{columns}[t,onlytextwidth]
-\column{.48\textwidth}Kada smo radili sabiranje radili\\smo samo sa pozitivnim vrednostima\\međutim ako imamo i negativne brojeve\\nama trebaju sabiranja
-\column{.48\textwidth}Kada razmatramo oduzimanje radili\\smo samo sa pozitivnim vrednostima\\međutim ako imamo i negativne brojeve\\nama trebaju oduzimanja
+\column{.44\textwidth}
+\textbf{Oduzimanje „papirom i olovkom“}
+\[a-b=\begin{cases}0,&a=b,\\a-b,&a>b,\\-(b-a),&a<b.\end{cases}\]
+\column{.52\textwidth}
+Postupak možemo primeniti i u digitalnom sistemu sa prikazom znak i apsolutna vrednost.\par\medskip
+Za izbor postupka potreban je komparator.
 \end{columns}
+\medskip
+Negativni operandi povezuju sabiranje i oduzimanje:
 \begin{center}\input{slike/tikz/s021_veze_operacija.tex}\end{center}
 \end{frame}

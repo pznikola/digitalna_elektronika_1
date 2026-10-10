@@ -1,0 +1,2920 @@
+{
+  "slides": {
+    "10-s001": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s001:e01",
+          "description": "Naslov i poreklo originalnog predavanja",
+          "source": "Originalni PDF, strana 1, gornji slajd; Naslov i poreklo originalnog predavanja",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "10-s002": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s002:e01",
+          "description": "Simbol pn diode, oznake A/C, smer ID i polaritet VAC",
+          "source": "Originalni PDF, strana 1, donji slajd; Simbol pn diode, oznake A/C, smer ID i polaritet VAC",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s002:e02",
+          "description": "Otvoreni i provodni model sa uslovima i ivicom",
+          "source": "Originalni PDF, strana 1, donji slajd; Otvoreni i provodni model sa uslovima i ivicom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s002:e03",
+          "description": "Postupak pretpostavka–dokaz sa obe nejednakosti",
+          "source": "Originalni PDF, strana 1, donji slajd; Postupak pretpostavka–dokaz sa obe nejednakosti",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s002:e04",
+          "description": "Spoljni elementi određuju uslove i primenu oba modela",
+          "source": "Originalni PDF, strana 1, donji slajd; Spoljni elementi određuju uslove i primenu oba modela",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s003": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s003:e01",
+          "description": "Zener simbol, direktni i inverzni model sa VZ/IZ",
+          "source": "Originalni PDF, strana 2, gornji slajd; Zener simbol, direktni i inverzni model sa VZ/IZ",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s003:e02",
+          "description": "Šotki simbol, metal–poluprovodnik i VAC=VS=0.3 V",
+          "source": "Originalni PDF, strana 2, gornji slajd; Šotki simbol, metal–poluprovodnik i VAC=VS=0.3 V",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s003:e03",
+          "description": "Brzina i odsustvo nagomilanih nosilaca",
+          "source": "Originalni PDF, strana 2, gornji slajd; Brzina i odsustvo nagomilanih nosilaca",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s003:e04",
+          "description": "Uslovi primene Zenerovog modela i poređenje dioda",
+          "source": "Originalni PDF, strana 2, gornji slajd; Uslovi primene Zenerovog modela i poređenje dioda",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s004": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s004:e01",
+          "description": "Impulsna šema sa R, diodom, vi/vo/iD i referencama",
+          "source": "Originalni PDF, strana 2, donji slajd; Impulsna šema sa R, diodom, vi/vo/iD i referencama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s004:e02",
+          "description": "Ulazni impuls i sva tri vremenska dijagrama sa t0–t4",
+          "source": "Originalni PDF, strana 2, donji slajd; Ulazni impuls i sva tri vremenska dijagrama sa t0–t4",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s004:e03",
+          "description": "Četiri intervala, obe struje i uslov VL<0",
+          "source": "Originalni PDF, strana 2, donji slajd; Četiri intervala, obe struje i uslov VL<0",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s004:e04",
+          "description": "Potpuni fizički opis svakog od četiri intervala",
+          "source": "Originalni PDF, strana 2, donji slajd; Potpuni fizički opis svakog od četiri intervala",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s005": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s005:e01",
+          "description": "NPN/PNP simboli sa oblastima p/n/p+/n+ i B/C/E",
+          "source": "Originalni PDF, strana 3, gornji slajd; NPN/PNP simboli sa oblastima p/n/p+/n+ i B/C/E",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s005:e02",
+          "description": "Precrtani mali signal sa obe formule i veliki signal u tri režima",
+          "source": "Originalni PDF, strana 3, gornji slajd; Precrtani mali signal sa obe formule i veliki signal u tri režima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s005:e03",
+          "description": "Usaglašeni smerovi IB/IC/IE i polariteti VBC/VCE/VBE",
+          "source": "Originalni PDF, strana 3, gornji slajd; Usaglašeni smerovi IB/IC/IE i polariteti VBC/VCE/VBE",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s005:e04",
+          "description": "VBE=-VEB",
+          "source": "Originalni PDF, strana 3, gornji slajd; VBE=-VEB",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s005:e05",
+          "description": "Značenje malog i velikog signala i indeksa",
+          "source": "Proverena nastavna dopuna istog slajda; Značenje malog i velikog signala i indeksa",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s006": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s006:e01",
+          "description": "Sva tri modela sa strujama, polaritetima i priključcima",
+          "source": "Originalni PDF, strana 3, donji slajd; Sva tri modela sa strujama, polaritetima i priključcima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s006:e02",
+          "description": "Svi uslovi režima, KCL, betaF i tri modelna napona",
+          "source": "Originalni PDF, strana 3, donji slajd; Svi uslovi režima, KCL, betaF i tri modelna napona",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s006:e03",
+          "description": "Spoljno određivanje struja/napona i idealni izvori zasićenja, uključujući izvorni sporni naziv BC",
+          "source": "Originalni PDF, strana 3, donji slajd; Spoljno određivanje struja/napona i idealni izvori zasićenja, uključujući izvorni sporni naziv BC",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s007": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s007:e01",
+          "description": "Svih pet koraka i primer provere betaFIB>IC",
+          "source": "Originalni PDF, strana 4, gornji slajd; Svih pet koraka i primer provere betaFIB>IC",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s007:e02",
+          "description": "Svrha zadataka iz elektronike, prepoznavanje i ponavljanje pretpostavke",
+          "source": "Originalni PDF, strana 4, gornji slajd; Svrha zadataka iz elektronike, prepoznavanje i ponavljanje pretpostavke",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s008": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s008:e01",
+          "description": "Šema zajedničkog emitora sa vi/vo/iB/T1/RB/RC",
+          "source": "Originalni PDF, strana 4, donji slajd; Šema zajedničkog emitora sa vi/vo/iB/T1/RB/RC",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s008:e02",
+          "description": "Ulazni impuls i potpuni dijagrami vi/vo/iB sa t0–t6 i VOH/VOL",
+          "source": "Originalni PDF, strana 4, donji slajd; Ulazni impuls i potpuni dijagrami vi/vo/iB sa t0–t6 i VOH/VOL",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s008:e03",
+          "description": "Šest imenovanih intervala, uključujući negativnu baznu struju",
+          "source": "Originalni PDF, strana 4, donji slajd; Šest imenovanih intervala, uključujući negativnu baznu struju",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s008:e04",
+          "description": "Potpuni fizički tok sva tri uključivanja i tri isključivanja",
+          "source": "Originalni PDF, strana 4, donji slajd; Potpuni fizički tok sva tri uključivanja i tri isključivanja",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s009": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s009:e01",
+          "description": "Kompenzovana BJT šema i RC ekvivalent sa svim čvorovima i oznakama",
+          "source": "Originalni PDF, strana 5, gornji slajd; Kompenzovana BJT šema i RC ekvivalent sa svim čvorovima i oznakama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s009:e02",
+          "description": "Veza tranzistorskog ulaza sa zaokruženim RBE/CBE modelom",
+          "source": "Originalni PDF, strana 5, gornji slajd; Veza tranzistorskog ulaza sa zaokruženim RBE/CBE modelom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s009:e03",
+          "description": "Međukoraci kompenzacije i jednakost vremenskih konstanti",
+          "source": "Proverena nastavna dopuna istog slajda; Međukoraci kompenzacije i jednakost vremenskih konstanti",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s010": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s010:e01",
+          "description": "Razlog izbora zajedničkog emitora: dve neaktivne oblasti i veliko pojačanje",
+          "source": "Originalni PDF, strana 5, donji slajd; Razlog izbora zajedničkog emitora: dve neaktivne oblasti i veliko pojačanje",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s010:e02",
+          "description": "Obe šeme sa svim strujama i referencama napona",
+          "source": "Originalni PDF, strana 5, donji slajd; Obe šeme sa svim strujama i referencama napona",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s010:e03",
+          "description": "Objašnjenje izbora analognog kola za RTL i dve konvencije oznaka",
+          "source": "Originalni PDF, strana 5, donji slajd; Objašnjenje izbora analognog kola za RTL i dve konvencije oznaka",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s011": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s011:e01",
+          "description": "Potpuna RTL šema i smerovi struja",
+          "source": "Originalni PDF, strana 6, gornji slajd; Potpuna RTL šema i smerovi struja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s011:e02",
+          "description": "IO=0, VI=0, ulazna kontura i IB izraz",
+          "source": "Originalni PDF, strana 6, gornji slajd; IO=0, VI=0, ulazna kontura i IB izraz",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s011:e03",
+          "description": "Odbacivanje aktivnog i zasićenog režima i dokaz zakočenog",
+          "source": "Originalni PDF, strana 6, gornji slajd; Odbacivanje aktivnog i zasićenog režima i dokaz zakočenog",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s011:e04",
+          "description": "Rezultat VO=VCC",
+          "source": "Originalni PDF, strana 6, gornji slajd; Rezultat VO=VCC",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s011:e05",
+          "description": "Potpuna provera obe pogrešne pretpostavke i izlazna kontura",
+          "source": "Originalni PDF, strana 6, gornji slajd; Potpuna provera obe pogrešne pretpostavke i izlazna kontura",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s012": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s012:e01",
+          "description": "Ivica provođenja VI=VBE1=VgammaT i IB=0",
+          "source": "Originalni PDF, strana 6, donji slajd; Ivica provođenja VI=VBE1=VgammaT i IB=0",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s012:e02",
+          "description": "Početna karakteristika sa VCC i VgammaT",
+          "source": "Originalni PDF, strana 6, donji slajd; Početna karakteristika sa VCC i VgammaT",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s012:e03",
+          "description": "Realna struja ispod praga i svrha tri gruba modela",
+          "source": "Originalni PDF, strana 6, donji slajd; Realna struja ispod praga i svrha tri gruba modela",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s013": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s013:e01",
+          "description": "VO/VCE1 iz izlazne konture",
+          "source": "Originalni PDF, strana 7, gornji slajd; VO/VCE1 iz izlazne konture",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s013:e02",
+          "description": "Mala bazna/kolektorska struja i pretpostavka aktivnog režima",
+          "source": "Originalni PDF, strana 7, gornji slajd; Mala bazna/kolektorska struja i pretpostavka aktivnog režima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s013:e03",
+          "description": "Nejednakost koja odbacuje zasićenje",
+          "source": "Originalni PDF, strana 7, gornji slajd; Nejednakost koja odbacuje zasićenje",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s013:e04",
+          "description": "Obrazloženje obe početne pretpostavke",
+          "source": "Originalni PDF, strana 7, gornji slajd; Obrazloženje obe početne pretpostavke",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s014": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s014:e01",
+          "description": "Ulazna/izlazna kontura i IB izraz",
+          "source": "Originalni PDF, strana 7, donji slajd; Ulazna/izlazna kontura i IB izraz",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s014:e02",
+          "description": "Izvorni lanac VO sa spornom oznakom IR",
+          "source": "Originalni PDF, strana 7, donji slajd; Izvorni lanac VO sa spornom oznakom IR",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s014:e03",
+          "description": "Aktivni rezultat i brojni oblik sa 0.6 V",
+          "source": "Originalni PDF, strana 7, donji slajd; Aktivni rezultat i brojni oblik sa 0.6 V",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s014:e04",
+          "description": "Sve zamene i faktorisanje do konačnog izraza",
+          "source": "Originalni PDF, strana 7, donji slajd; Sve zamene i faktorisanje do konačnog izraza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s015": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s015:e01",
+          "description": "Aktivni izraz i obe zamene koje daju VO>VCC",
+          "source": "Originalni PDF, strana 8, gornji slajd; Aktivni izraz i obe zamene koje daju VO>VCC",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s015:e02",
+          "description": "Skok VBE modela 0.5→0.6 V",
+          "source": "Originalni PDF, strana 8, gornji slajd; Skok VBE modela 0.5→0.6 V",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s015:e03",
+          "description": "Izvorna pretpostavka kontinualnog crtanja i završni izraz",
+          "source": "Originalni PDF, strana 8, gornji slajd; Izvorna pretpostavka kontinualnog crtanja i završni izraz",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s015:e04",
+          "description": "Namera više oblika, očekivan diskretni nesklad i priroda aproksimacije",
+          "source": "Originalni PDF, strana 8, gornji slajd; Namera više oblika, očekivan diskretni nesklad i priroda aproksimacije",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s016": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s016:e01",
+          "description": "Negativno pojačanje aktivne oblasti a=−betaF RC/RB",
+          "source": "Originalni PDF, strana 8, donji slajd; Negativno pojačanje aktivne oblasti a=−betaF RC/RB",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s016:e02",
+          "description": "Definicija diferencijalnog nagiba a=dVO/dVI",
+          "source": "Originalni PDF, strana 8, donji slajd; Definicija diferencijalnog nagiba a=dVO/dVI",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s016:e03",
+          "description": "Zahtev |a| mnogo veće od 1 za usku prelaznu oblast",
+          "source": "Originalni PDF, strana 8, donji slajd; Zahtev |a| mnogo veće od 1 za usku prelaznu oblast",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s016:e04",
+          "description": "Početak kontinualne prave i ceo graf sa uvećanim zaobljenjem",
+          "source": "Originalni PDF, strana 8, donji slajd; Početak kontinualne prave i ceo graf sa uvećanim zaobljenjem",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s016:e05",
+          "description": "Aktivna jednačina uz graf",
+          "source": "Originalni PDF, strana 8, donji slajd; Aktivna jednačina uz graf",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s016:e06",
+          "description": "Značenje negativnog nagiba i skice",
+          "source": "Originalni PDF, strana 8, donji slajd; Značenje negativnog nagiba i skice",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s017": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s017:e01",
+          "description": "Granica zasićenja i rezultat VI1",
+          "source": "Originalni PDF, strana 9, gornji slajd; Granica zasićenja i rezultat VI1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s017:e02",
+          "description": "Potpuni graf i četiri naponska nivoa",
+          "source": "Originalni PDF, strana 9, gornji slajd; Potpuni graf i četiri naponska nivoa",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s017:e03",
+          "description": "Obe višestruke margine šuma",
+          "source": "Originalni PDF, strana 9, gornji slajd; Obe višestruke margine šuma",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s017:e04",
+          "description": "Međukorak rešavanja i veza margina sa granicama",
+          "source": "Proverena nastavna dopuna istog slajda; Međukorak rešavanja i veza margina sa granicama",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s018": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s018:e01",
+          "description": "Uslov VO=VI=VM, zamena, sakupljanje članova i konačan VM",
+          "source": "Originalni PDF, strana 9, donji slajd; Uslov VO=VI=VM, zamena, sakupljanje članova i konačan VM",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s018:e02",
+          "description": "Obe jednostruke margine i mala margina nule",
+          "source": "Originalni PDF, strana 9, donji slajd; Obe jednostruke margine i mala margina nule",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s018:e03",
+          "description": "Polazni aktivni izraz i oba dodatna oblika VM sa tumačenjem",
+          "source": "Originalni PDF, strana 9, donji slajd; Polazni aktivni izraz i oba dodatna oblika VM sa tumačenjem",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s019": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s019:e01",
+          "description": "Struje u zasićenju i uslov granice betaFIB=IC",
+          "source": "Originalni PDF, strana 10, gornji slajd; Struje u zasićenju i uslov granice betaFIB=IC",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s019:e02",
+          "description": "Jednačina, rezultat VI2 i poređenje sa VI1",
+          "source": "Originalni PDF, strana 10, gornji slajd; Jednačina, rezultat VI2 i poređenje sa VI1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s019:e03",
+          "description": "Razlika V BES−V BE",
+          "source": "Originalni PDF, strana 10, gornji slajd; Razlika V BES−V BE",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s019:e04",
+          "description": "Opšti početni izrazi i prelaz iz zasićenja pri smanjenju VI",
+          "source": "Originalni PDF, strana 10, gornji slajd; Opšti početni izrazi i prelaz iz zasićenja pri smanjenju VI",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s020": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s020:e01",
+          "description": "Razlika VI2−VI1 i poređenje tačnosti oba gruba modela",
+          "source": "Originalni PDF, strana 10, donji slajd; Razlika VI2−VI1 i poređenje tačnosti oba gruba modela",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s020:e02",
+          "description": "Celokupna karakteristika sa obe granične oznake i detaljem zaobljenja",
+          "source": "Originalni PDF, strana 10, donji slajd; Celokupna karakteristika sa obe granične oznake i detaljem zaobljenja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s020:e03",
+          "description": "Potpuno objašnjenje zašto su oba proračuna aproksimativna",
+          "source": "Originalni PDF, strana 10, donji slajd; Potpuno objašnjenje zašto su oba proračuna aproksimativna",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s021": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s021:e01",
+          "description": "Šema RTL sa označenim strujama",
+          "source": "Originalni PDF, strana 11, gornji slajd; Šema RTL sa označenim strujama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s021:e02",
+          "description": "Oba ulazna opsega i IIL=0",
+          "source": "Originalni PDF, strana 11, gornji slajd; Oba ulazna opsega i IIL=0",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s021:e03",
+          "description": "Pun izraz IB=II i maksimum IIH za VI=VCC",
+          "source": "Originalni PDF, strana 11, gornji slajd; Pun izraz IB=II i maksimum IIH za VI=VCC",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s021:e04",
+          "description": "Postupak biranja najgoreg kraja opsega",
+          "source": "Originalni PDF, strana 11, gornji slajd; Postupak biranja najgoreg kraja opsega",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s022": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s022:e01",
+          "description": "Suprotni zahtevi veliki RB za ulaz i mali RB za pojačanje",
+          "source": "Originalni PDF, strana 11, donji slajd; Suprotni zahtevi veliki RB za ulaz i mali RB za pojačanje",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s022:e02",
+          "description": "Kompromis i pretpostavka poznate vrednosti",
+          "source": "Originalni PDF, strana 11, donji slajd; Kompromis i pretpostavka poznate vrednosti",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s022:e03",
+          "description": "Tačnost, preciznost, disipacija i obim izbora kompromisa",
+          "source": "Originalni PDF, strana 11, donji slajd; Tačnost, preciznost, disipacija i obim izbora kompromisa",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s023": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s023:e01",
+          "description": "IO izraz i značenje referentnog minusa",
+          "source": "Originalni PDF, strana 12, gornji slajd; IO izraz i značenje referentnog minusa",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s023:e02",
+          "description": "VOHmin>VIH radi margine šuma",
+          "source": "Originalni PDF, strana 12, gornji slajd; VOHmin>VIH radi margine šuma",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s023:e03",
+          "description": "IOH maksimum sa VOHmin",
+          "source": "Originalni PDF, strana 12, gornji slajd; IOH maksimum sa VOHmin",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s023:e04",
+          "description": "Zašto se ne bira izlaz jednak VIH",
+          "source": "Originalni PDF, strana 12, gornji slajd; Zašto se ne bira izlaz jednak VIH",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s024": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s024:e01",
+          "description": "IOH izraz i maksimum apsolutne vrednosti",
+          "source": "Originalni PDF, strana 12, donji slajd; IOH izraz i maksimum apsolutne vrednosti",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s024:e02",
+          "description": "Primer −20/−25 mA",
+          "source": "Originalni PDF, strana 12, donji slajd; Primer −20/−25 mA",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s024:e03",
+          "description": "Suprotni zahtevi RC i kompromis",
+          "source": "Originalni PDF, strana 12, donji slajd; Suprotni zahtevi RC i kompromis",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s024:e04",
+          "description": "Razlika matematičkog i kataloškog maksimuma",
+          "source": "Originalni PDF, strana 12, donji slajd; Razlika matematičkog i kataloškog maksimuma",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s025": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s025:e01",
+          "description": "KCL izlaznog čvora i uslov zasićenja",
+          "source": "Originalni PDF, strana 13, gornji slajd; KCL izlaznog čvora i uslov zasićenja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s025:e02",
+          "description": "Oduzimanje IRC i izraz IRC u zasićenju",
+          "source": "Originalni PDF, strana 13, gornji slajd; Oduzimanje IRC i izraz IRC u zasićenju",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s025:e03",
+          "description": "Konačna granica IO",
+          "source": "Originalni PDF, strana 13, gornji slajd; Konačna granica IO",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s025:e04",
+          "description": "Fizičko značenje rezervne kolektorske struje",
+          "source": "Originalni PDF, strana 13, gornji slajd; Fizičko značenje rezervne kolektorske struje",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s026": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s026:e01",
+          "description": "Najgori VI i IBmin",
+          "source": "Originalni PDF, strana 13, donji slajd; Najgori VI i IBmin",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s026:e02",
+          "description": "Granica IO i prethodno izvedeni VIH",
+          "source": "Originalni PDF, strana 13, donji slajd; Granica IO i prethodno izvedeni VIH",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s026:e03",
+          "description": "Puna brojno-simbolička zamena i rezultat IOL=0",
+          "source": "Originalni PDF, strana 13, donji slajd; Puna brojno-simbolička zamena i rezultat IOL=0",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s026:e04",
+          "description": "Polazna granica, opšti IB izraz i puna zamena do nulte rezerve",
+          "source": "Originalni PDF, strana 13, donji slajd; Polazna granica, opšti IB izraz i puna zamena do nulte rezerve",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s027": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s027:e01",
+          "description": "Izbor VOHmin kao pobude, IO granica i izvorni kataloški zaključak",
+          "source": "Originalni PDF, strana 14, gornji slajd; Izbor VOHmin kao pobude, IO granica i izvorni kataloški zaključak",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s027:e02",
+          "description": "Suprotni zahtevi RB/RC za IOL i NH",
+          "source": "Originalni PDF, strana 14, gornji slajd; Suprotni zahtevi RB/RC za IOL i NH",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s027:e03",
+          "description": "NL, puna tri oblika NH i N=min",
+          "source": "Originalni PDF, strana 14, gornji slajd; NL, puna tri oblika NH i N=min",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s027:e04",
+          "description": "Pitanje kataloškog praga i dva suprotna kriterijuma",
+          "source": "Originalni PDF, strana 14, gornji slajd; Pitanje kataloškog praga i dva suprotna kriterijuma",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "10-s027:e05",
+          "description": "Idealizovano značenje beskonačnog statičkog NL",
+          "source": "Proverena nastavna dopuna istog slajda; Idealizovano značenje beskonačnog statičkog NL",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s028": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s028:e01",
+          "description": "Cela mreža rasterećenja ulaza sa baferom B i kolima 21/2N",
+          "source": "Originalni PDF, strana 14, donji slajd; Cela mreža rasterećenja ulaza sa baferom B i kolima 21/2N",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s028:e02",
+          "description": "Cela mreža rasterećenja izlaza sa A i komplementom",
+          "source": "Originalni PDF, strana 14, donji slajd; Cela mreža rasterećenja izlaza sa A i komplementom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s028:e03",
+          "description": "Pune legende o nedovoljnom/dovoljnom strujnom kapacitetu i narednom nivou",
+          "source": "Originalni PDF, strana 14, donji slajd; Pune legende o nedovoljnom/dovoljnom strujnom kapacitetu i narednom nivou",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s029": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s029:e01",
+          "description": "RTL sa izlaznim C0 i ulaznim impulsom t1/t2",
+          "source": "Originalni PDF, strana 15, gornji slajd; RTL sa izlaznim C0 i ulaznim impulsom t1/t2",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s029:e02",
+          "description": "Ekvivalent punjenja i potpuni dijagram odziva",
+          "source": "Originalni PDF, strana 15, gornji slajd; Ekvivalent punjenja i potpuni dijagram odziva",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s029:e03",
+          "description": "Tau, početni/konačni uslov i vo(t) sa opsegom",
+          "source": "Originalni PDF, strana 15, gornji slajd; Tau, početni/konačni uslov i vo(t) sa opsegom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s029:e04",
+          "description": "Izlazna kontura u asimptoti i fizičko punjenje",
+          "source": "Originalni PDF, strana 15, gornji slajd; Izlazna kontura u asimptoti i fizičko punjenje",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s030": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s030:e01",
+          "description": "Ekvivalent pražnjenja sa svim izvorima/strujama/čvorovima",
+          "source": "Originalni PDF, strana 15, donji slajd; Ekvivalent pražnjenja sa svim izvorima/strujama/čvorovima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s030:e02",
+          "description": "Tau, početni uslov i KCL izlaznog napona",
+          "source": "Originalni PDF, strana 15, donji slajd; Tau, početni uslov i KCL izlaznog napona",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s030:e03",
+          "description": "Asimptota, negativan modelni napon i opseg aktivnog modela",
+          "source": "Originalni PDF, strana 15, donji slajd; Asimptota, negativan modelni napon i opseg aktivnog modela",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s030:e04",
+          "description": "Pun eksponencijalni izraz vo(t)",
+          "source": "Originalni PDF, strana 15, donji slajd; Pun eksponencijalni izraz vo(t)",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s030:e05",
+          "description": "Određivanje otpornosti i oba uslova velikog pojačanja",
+          "source": "Originalni PDF, strana 15, donji slajd; Određivanje otpornosti i oba uslova velikog pojačanja",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s031": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s031:e01",
+          "description": "vo(t), opseg i uslov vo(t3)=VCES",
+          "source": "Originalni PDF, strana 16, gornji slajd; vo(t), opseg i uslov vo(t3)=VCES",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s031:e02",
+          "description": "Opšti i razvijeni izraz t3",
+          "source": "Originalni PDF, strana 16, gornji slajd; Opšti i razvijeni izraz t3",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s031:e03",
+          "description": "Zamena t3 u vo(t), opšte dve formule vremena i objašnjenje promene modela",
+          "source": "Originalni PDF, strana 16, gornji slajd; Zamena t3 u vo(t), opšte dve formule vremena i objašnjenje promene modela",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s032": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s032:e01",
+          "description": "Dijagram i nastavak aktivnog modela",
+          "source": "Originalni PDF, strana 16, donji slajd; Dijagram i nastavak aktivnog modela",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s032:e02",
+          "description": "Zabranjeni gotovi izrazi i uslov VH",
+          "source": "Originalni PDF, strana 16, donji slajd; Zabranjeni gotovi izrazi i uslov VH",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s032:e03",
+          "description": "Definicija polovine promene, tpHL i tf",
+          "source": "Originalni PDF, strana 16, donji slajd; Definicija polovine promene, tpHL i tf",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s032:e04",
+          "description": "Puno izvođenje polovine i oba izraza bez pomoćne oznake",
+          "source": "Originalni PDF, strana 16, donji slajd; Puno izvođenje polovine i oba izraza bez pomoćne oznake",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s033": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s033:e01",
+          "description": "Cela integrisana RTL šema sa RN i −VN",
+          "source": "Originalni PDF, strana 17, gornji slajd; Cela integrisana RTL šema sa RN i −VN",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s033:e02",
+          "description": "Tevenenova otpornost i oba naponska člana",
+          "source": "Originalni PDF, strana 17, gornji slajd; Tevenenova otpornost i oba naponska člana",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s033:e03",
+          "description": "Konačni prag VIL",
+          "source": "Originalni PDF, strana 17, gornji slajd; Konačni prag VIL",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s033:e04",
+          "description": "Uslov praga i nerazvijeni korak rešavanja",
+          "source": "Originalni PDF, strana 17, gornji slajd; Uslov praga i nerazvijeni korak rešavanja",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s034": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s034:e01",
+          "description": "Šema višeulazne baze",
+          "source": "Originalni PDF, strana 17, donji slajd; Šema višeulazne baze",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s034:e02",
+          "description": "Logički prikaz spojenih invertora",
+          "source": "Originalni PDF, strana 17, donji slajd; Logički prikaz spojenih invertora",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s034:e03",
+          "description": "Obe kolektorske realizacije sa izvornim oznakama",
+          "source": "Originalni PDF, strana 17, donji slajd; Obe kolektorske realizacije sa izvornim oznakama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s034:e04",
+          "description": "Pravilo zabrane i RTL izuzetak",
+          "source": "Originalni PDF, strana 17, donji slajd; Pravilo zabrane i RTL izuzetak",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s034:e05",
+          "description": "Tumačenje zajedničke baze i kolektora",
+          "source": "Proverena nastavna dopuna istog slajda; Tumačenje zajedničke baze i kolektora",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s035": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s035:e01",
+          "description": "Otvoreni kolektor bez RC i dve OC inverzije sa otpornikom",
+          "source": "Originalni PDF, strana 18, gornji slajd; Otvoreni kolektor bez RC i dve OC inverzije sa otpornikom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s035:e02",
+          "description": "Pravilo simbola i složena mreža sa izvornim izrazom",
+          "source": "Originalni PDF, strana 18, gornji slajd; Pravilo simbola i složena mreža sa izvornim izrazom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s035:e03",
+          "description": "Značenje zajedničkog otpornika i izlaznih tranzistora",
+          "source": "Proverena nastavna dopuna istog slajda; Značenje zajedničkog otpornika i izlaznih tranzistora",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        },
+        {
+          "id": "10-s035:e04",
+          "description": "Nepostojanje zasebnog logičkog simbola za otvoreni kolektor",
+          "source": "Originalni PDF, strana 18, gornji slajd; Nepostojanje zasebnog logičkog simbola za otvoreni kolektor",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s036": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s036:e01",
+          "description": "Oba logička prikaza bez otpornika i sa Z→∞",
+          "source": "Originalni PDF, strana 18, donji slajd; Oba logička prikaza bez otpornika i sa Z→∞",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s036:e02",
+          "description": "Visoka impedansa i nema logičke jedinice",
+          "source": "Originalni PDF, strana 18, donji slajd; Visoka impedansa i nema logičke jedinice",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s036:e03",
+          "description": "Svi izlazni tranzistori zakočeni i nema putanje",
+          "source": "Originalni PDF, strana 18, donji slajd; Svi izlazni tranzistori zakočeni i nema putanje",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s036:e04",
+          "description": "Potpuno objašnjenje problema kola 4 i ograničenja Bulove funkcije",
+          "source": "Originalni PDF, strana 18, donji slajd; Potpuno objašnjenje problema kola 4 i ograničenja Bulove funkcije",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s037": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s037:e01",
+          "description": "OC mreža i vremenski prelaz u Z",
+          "source": "Originalni PDF, strana 19, gornji slajd; OC mreža i vremenski prelaz u Z",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s037:e02",
+          "description": "Sva tri podsetnika: idealan, realan i promena stanja",
+          "source": "Originalni PDF, strana 19, gornji slajd; Sva tri podsetnika: idealan, realan i promena stanja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s037:e03",
+          "description": "Tumačenje tri tipa crteža i posebne oznake Z",
+          "source": "Proverena nastavna dopuna istog slajda; Tumačenje tri tipa crteža i posebne oznake Z",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s038": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s038:e01",
+          "description": "Nepovezan ulaz NI i pitanje A=1",
+          "source": "Originalni PDF, strana 19, donji slajd; Nepovezan ulaz NI i pitanje A=1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s038:e02",
+          "description": "Obe terminacije i pravilo konačne impedanse",
+          "source": "Originalni PDF, strana 19, donji slajd; Obe terminacije i pravilo konačne impedanse",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s038:e03",
+          "description": "Neaktivan nivo jedinice i zavisnost od tipa/smetnji",
+          "source": "Originalni PDF, strana 19, donji slajd; Neaktivan nivo jedinice i zavisnost od tipa/smetnji",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s038:e04",
+          "description": "Potpun RTL primer bez napona i posledice antene",
+          "source": "Originalni PDF, strana 19, donji slajd; Potpun RTL primer bez napona i posledice antene",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s039": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s039:e01",
+          "description": "Cela dvoulazna diodna ILI šema",
+          "source": "Originalni PDF, strana 20, gornji slajd; Cela dvoulazna diodna ILI šema",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s039:e02",
+          "description": "Ulazni uslov, obe konture i negativna struja",
+          "source": "Originalni PDF, strana 20, gornji slajd; Ulazni uslov, obe konture i negativna struja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s039:e03",
+          "description": "Rezultat VO=0 i opseg ispod VgammaD",
+          "source": "Originalni PDF, strana 20, gornji slajd; Rezultat VO=0 i opseg ispod VgammaD",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s039:e04",
+          "description": "Potpuni postupak odbacivanja pretpostavke i uloga dioda",
+          "source": "Originalni PDF, strana 20, gornji slajd; Potpuni postupak odbacivanja pretpostavke i uloga dioda",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s040": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s040:e01",
+          "description": "Diodna ILI šema i oba ulazna uslova",
+          "source": "Originalni PDF, strana 20, donji slajd; Diodna ILI šema i oba ulazna uslova",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s040:e02",
+          "description": "Kontura, VO i pozitivna struja",
+          "source": "Originalni PDF, strana 20, donji slajd; Kontura, VO i pozitivna struja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s040:e03",
+          "description": "Izvorni dokaz napona D2 sa nultim ulazom",
+          "source": "Originalni PDF, strana 20, donji slajd; Izvorni dokaz napona D2 sa nultim ulazom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s040:e04",
+          "description": "Potpuno odbacivanje modela obe zakočene diode i potvrda provođenja",
+          "source": "Originalni PDF, strana 20, donji slajd; Potpuno odbacivanje modela obe zakočene diode i potvrda provođenja",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s041": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s041:e01",
+          "description": "ILI šema i simetričan visok drugi ulaz",
+          "source": "Originalni PDF, strana 21, gornji slajd; ILI šema i simetričan visok drugi ulaz",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s041:e02",
+          "description": "Oba visoka ulaza, struja IR i logički zaključak",
+          "source": "Originalni PDF, strana 21, gornji slajd; Oba visoka ulaza, struja IR i logički zaključak",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s041:e03",
+          "description": "Dodavanje ulaza i karakteristika",
+          "source": "Originalni PDF, strana 21, gornji slajd; Dodavanje ulaza i karakteristika",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s041:e04",
+          "description": "Ograničenje logičkog kola",
+          "source": "Originalni PDF, strana 21, gornji slajd; Ograničenje logičkog kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s041:e05",
+          "description": "Potpuni simetrični uslovi",
+          "source": "Originalni PDF, strana 21, gornji slajd; Potpuni simetrični uslovi",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "10-s041:e06",
+          "description": "Obnavljanje nivoa pri kaskadi",
+          "source": "Proverena nastavna dopuna istog slajda; Obnavljanje nivoa pri kaskadi",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s042": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s042:e01",
+          "description": "Cela diodna I šema i karakteristika",
+          "source": "Originalni PDF, strana 21, donji slajd; Cela diodna I šema i karakteristika",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s042:e02",
+          "description": "Oba ulazna slučaja i ograničenje logičkog kola",
+          "source": "Originalni PDF, strana 21, donji slajd; Oba ulazna slučaja i ograničenje logičkog kola",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s042:e03",
+          "description": "Putanje struja i tumačenje ograničenog izlaza",
+          "source": "Proverena nastavna dopuna istog slajda; Putanje struja i tumačenje ograničenog izlaza",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s043": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s043:e01",
+          "description": "Cela DTL šema sa diodama, oba napajanja i RN",
+          "source": "Originalni PDF, strana 22, gornji slajd; Cela DTL šema sa diodama, oba napajanja i RN",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s043:e02",
+          "description": "Prelaz RTL→DTL",
+          "source": "Originalni PDF, strana 22, gornji slajd; Prelaz RTL→DTL",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s043:e03",
+          "description": "Funkcionalne uloge ulazne mreže i izlaznog stepena",
+          "source": "Proverena nastavna dopuna istog slajda; Funkcionalne uloge ulazne mreže i izlaznog stepena",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s044": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s044:e01",
+          "description": "Cela precrtana DTL šema bez negativnog napajanja",
+          "source": "Originalni PDF, strana 22, donji slajd; Cela precrtana DTL šema bez negativnog napajanja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s044:e02",
+          "description": "Nije logičko kolo, nulti ulaz i VX=VD",
+          "source": "Originalni PDF, strana 22, donji slajd; Nije logičko kolo, nulti ulaz i VX=VD",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s044:e03",
+          "description": "Tvrdnja o opsegu 0–VCC",
+          "source": "Originalni PDF, strana 22, donji slajd; Tvrdnja o opsegu 0–VCC",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s044:e04",
+          "description": "Puna kontura i obrazloženje nedostatka održanja nivoa",
+          "source": "Originalni PDF, strana 22, donji slajd; Puna kontura i obrazloženje nedostatka održanja nivoa",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s045": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s045:e01",
+          "description": "Obe DTL šeme sa ulaznim/serijskim diodama",
+          "source": "Originalni PDF, strana 23, gornji slajd; Obe DTL šeme sa ulaznim/serijskim diodama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s045:e02",
+          "description": "Povećanje VIL, bazna putanja i višeulaznost",
+          "source": "Originalni PDF, strana 23, gornji slajd; Povećanje VIL, bazna putanja i višeulaznost",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s045:e03",
+          "description": "Iste karakteristike najgoreg slučaja",
+          "source": "Originalni PDF, strana 23, gornji slajd; Iste karakteristike najgoreg slučaja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s045:e04",
+          "description": "Potpuno objašnjenje obe izvorne strelice",
+          "source": "Originalni PDF, strana 23, gornji slajd; Potpuno objašnjenje obe izvorne strelice",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s046": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s046:e01",
+          "description": "DTL šema i karakteristika sa oba pokazivača granica",
+          "source": "Originalni PDF, strana 23, donji slajd; DTL šema i karakteristika sa oba pokazivača granica",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s046:e02",
+          "description": "VI alternativna granica i napomena ranijeg zasićenja",
+          "source": "Originalni PDF, strana 23, donji slajd; VI alternativna granica i napomena ranijeg zasićenja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s046:e03",
+          "description": "Sva četiri logička praga",
+          "source": "Originalni PDF, strana 23, donji slajd; Sva četiri logička praga",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s046:e04",
+          "description": "VX lanac, VRB i tri diode koje vode",
+          "source": "Originalni PDF, strana 23, donji slajd; VX lanac, VRB i tri diode koje vode",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s047": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s047:e01",
+          "description": "Karakteristika nagiba i linearna jednačina",
+          "source": "Originalni PDF, strana 24, gornji slajd; Karakteristika nagiba i linearna jednačina",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s047:e02",
+          "description": "Pojačanje a i prag VM",
+          "source": "Originalni PDF, strana 24, gornji slajd; Pojačanje a i prag VM",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s047:e03",
+          "description": "Sve četiri margine",
+          "source": "Originalni PDF, strana 24, gornji slajd; Sve četiri margine",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s047:e04",
+          "description": "Pun nagib i jednačina pre skraćivanja, uslov VI=VO i definicije margina",
+          "source": "Originalni PDF, strana 24, gornji slajd; Pun nagib i jednačina pre skraćivanja, uslov VI=VO i definicije margina",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "10-s047:e05",
+          "description": "Sličnost margina zbog uskog prelaza",
+          "source": "Originalni PDF, strana 24, gornji slajd; Sličnost margina zbog uskog prelaza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s048": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s048:e01",
+          "description": "DTL šema, IIL, IIH, IOH i izbor 0/ VOL",
+          "source": "Originalni PDF, strana 24, donji slajd; DTL šema, IIL, IIH, IOH i izbor 0/ VOL",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s048:e02",
+          "description": "Bazna struja i pun konačni IOL",
+          "source": "Originalni PDF, strana 24, donji slajd; Bazna struja i pun konačni IOL",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s048:e03",
+          "description": "Pun ulazni izraz, uslov zasićenja i sve zamene u IB",
+          "source": "Originalni PDF, strana 24, donji slajd; Pun ulazni izraz, uslov zasićenja i sve zamene u IB",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s049": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s049:e01",
+          "description": "DTL šema sa C0, potpuni ulazni/izlazni dijagrami i sva vremena",
+          "source": "Originalni PDF, strana 25, gornji slajd; DTL šema sa C0, potpuni ulazni/izlazni dijagrami i sva vremena",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s049:e02",
+          "description": "Oba rešenja vo(t), oba intervala i trenutak t3",
+          "source": "Originalni PDF, strana 25, gornji slajd; Oba rešenja vo(t), oba intervala i trenutak t3",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s049:e03",
+          "description": "Oba ekvivalentna potkola sa svim strujama, naponima i elementima",
+          "source": "Originalni PDF, strana 25, gornji slajd; Oba ekvivalentna potkola sa svim strujama, naponima i elementima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s049:e04",
+          "description": "Fizičko tumačenje kašnjenja i nastavka po zasićenju",
+          "source": "Originalni PDF, strana 25, gornji slajd; Fizičko tumačenje kašnjenja i nastavka po zasićenju",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s050": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s050:e01",
+          "description": "Struktura zamene dioda sa n/p oblastima",
+          "source": "Originalni PDF, strana 25, donji slajd; Struktura zamene dioda sa n/p oblastima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s050:e02",
+          "description": "Obe TTL šeme sa/bez diode i smer razvoja",
+          "source": "Originalni PDF, strana 25, donji slajd; Obe TTL šeme sa/bez diode i smer razvoja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s050:e03",
+          "description": "Ubrzanje isključenja T2",
+          "source": "Originalni PDF, strana 25, donji slajd; Ubrzanje isključenja T2",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s050:e04",
+          "description": "Povezanost fizičke strukture i uloge ulaznog tranzistora",
+          "source": "Proverena nastavna dopuna istog slajda; Povezanost fizičke strukture i uloge ulaznog tranzistora",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s051": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s051:e01",
+          "description": "TTL šema i tranzistor–dve diode sa E/B/C",
+          "source": "Originalni PDF, strana 26, gornji slajd; TTL šema i tranzistor–dve diode sa E/B/C",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s051:e02",
+          "description": "Izvorna pomoćna logička ekvivalencija",
+          "source": "Originalni PDF, strana 26, gornji slajd; Izvorna pomoćna logička ekvivalencija",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s051:e03",
+          "description": "Granice upotrebe pomoćnog diodnog prikaza",
+          "source": "Proverena nastavna dopuna istog slajda; Granice upotrebe pomoćnog diodnog prikaza",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s052": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s052:e01",
+          "description": "Inverzna šema i uvećana karakteristika",
+          "source": "Originalni PDF, strana 26, donji slajd; Inverzna šema i uvećana karakteristika",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s052:e02",
+          "description": "Polarizacije, oba para struja i betaR opseg",
+          "source": "Originalni PDF, strana 26, donji slajd; Polarizacije, oba para struja i betaR opseg",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s052:e03",
+          "description": "Oba uslova zasićenja i oba znaka VCESI",
+          "source": "Originalni PDF, strana 26, donji slajd; Oba uslova zasićenja i oba znaka VCESI",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s052:e04",
+          "description": "Značenje novih/fizičkih indeksa i pojačanja",
+          "source": "Originalni PDF, strana 26, donji slajd; Značenje novih/fizičkih indeksa i pojačanja",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s053": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s053:e01",
+          "description": "Obe TTL šeme i sve ulazne veze",
+          "source": "Originalni PDF, strana 27, gornji slajd; Obe TTL šeme i sve ulazne veze",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s053:e02",
+          "description": "Transformacija u više emitera",
+          "source": "Originalni PDF, strana 27, gornji slajd; Transformacija u više emitera",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s053:e03",
+          "description": "Tumačenje zajedničke integrisane strukture",
+          "source": "Proverena nastavna dopuna istog slajda; Tumačenje zajedničke integrisane strukture",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s054": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s054:e01",
+          "description": "Osnovna i standardna TTL šema sa svim vrednostima",
+          "source": "Originalni PDF, strana 27, donji slajd; Osnovna i standardna TTL šema sa svim vrednostima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s054:e02",
+          "description": "Male margine šuma, okvir i spoljašnji podizni otpornik",
+          "source": "Originalni PDF, strana 27, donji slajd; Male margine šuma, okvir i spoljašnji podizni otpornik",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s054:e03",
+          "description": "Uloge dodatnog stepena i granica integrisanog kola",
+          "source": "Proverena nastavna dopuna istog slajda; Uloge dodatnog stepena i granica integrisanog kola",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s055": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s055:e01",
+          "description": "OC i totem-pole šema sa svim vrednostima/zaštitnim diodama",
+          "source": "Originalni PDF, strana 28, gornji slajd; OC i totem-pole šema sa svim vrednostima/zaštitnim diodama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s055:e02",
+          "description": "Pokazivač totem-pole i povećanje kapaciteta jedinice",
+          "source": "Originalni PDF, strana 28, gornji slajd; Pokazivač totem-pole i povećanje kapaciteta jedinice",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s055:e03",
+          "description": "Poređenje pasivnog i aktivnog visokog izlaza",
+          "source": "Proverena nastavna dopuna istog slajda; Poređenje pasivnog i aktivnog visokog izlaza",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s056": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s056:e01",
+          "description": "Cela standardna TTL šema",
+          "source": "Originalni PDF, strana 28, donji slajd; Cela standardna TTL šema",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s056:e02",
+          "description": "Obe funkcionalne celine zaštite i totem-pole sa ulogom T2",
+          "source": "Originalni PDF, strana 28, donji slajd; Obe funkcionalne celine zaštite i totem-pole sa ulogom T2",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s056:e03",
+          "description": "Potpun opis negativnog napona, diferencijatorskog efekta i disipacije",
+          "source": "Originalni PDF, strana 28, donji slajd; Potpun opis negativnog napona, diferencijatorskog efekta i disipacije",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "10-s056:e04",
+          "description": "Potpun kompromis kolektorskog otpornika i selektivni rad T4",
+          "source": "Originalni PDF, strana 28, donji slajd; Potpun kompromis kolektorskog otpornika i selektivni rad T4",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s057": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s057:e01",
+          "description": "TTL šema i cela karakteristika sa nagibom/pragovima",
+          "source": "Originalni PDF, strana 29, gornji slajd; TTL šema i cela karakteristika sa nagibom/pragovima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s057:e02",
+          "description": "Oba ulazna slučaja i svi režimi",
+          "source": "Originalni PDF, strana 29, gornji slajd; Oba ulazna slučaja i svi režimi",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s057:e03",
+          "description": "Dvoulazna NI funkcija",
+          "source": "Originalni PDF, strana 29, gornji slajd; Dvoulazna NI funkcija",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s057:e04",
+          "description": "Potpuno razlikovanje oba i jednog niskog ulaza",
+          "source": "Originalni PDF, strana 29, gornji slajd; Potpuno razlikovanje oba i jednog niskog ulaza",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s058": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s058:e01",
+          "description": "Obe šeme i granica R→∞",
+          "source": "Originalni PDF, strana 29, donji slajd; Obe šeme i granica R→∞",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s058:e02",
+          "description": "Izvorni lanac struja/napona sa ponovljenim IC",
+          "source": "Originalni PDF, strana 29, donji slajd; Izvorni lanac struja/napona sa ponovljenim IC",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s058:e03",
+          "description": "Izlazna kontura i konačan VO",
+          "source": "Originalni PDF, strana 29, donji slajd; Izlazna kontura i konačan VO",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s058:e04",
+          "description": "Ivica provođenja tranzistora/diode i puna zamena nultog pada",
+          "source": "Originalni PDF, strana 29, donji slajd; Ivica provođenja tranzistora/diode i puna zamena nultog pada",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s059": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s059:e01",
+          "description": "TTL šema i karakteristika",
+          "source": "Originalni PDF, strana 30, gornji slajd; TTL šema i karakteristika",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s059:e02",
+          "description": "Izvorni VOH/ VOL lanac, VIH i VIL",
+          "source": "Originalni PDF, strana 30, gornji slajd; Izvorni VOH/ VOL lanac, VIH i VIL",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s059:e03",
+          "description": "Obe margine višestrukih izvora",
+          "source": "Originalni PDF, strana 30, gornji slajd; Obe margine višestrukih izvora",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s059:e04",
+          "description": "Puna kontura ulaznih pragova, zamena VIL i definicije margina",
+          "source": "Originalni PDF, strana 30, gornji slajd; Puna kontura ulaznih pragova, zamena VIL i definicije margina",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s060": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s060:e01",
+          "description": "TTL šema i izvorni IIL sa RBE1",
+          "source": "Originalni PDF, strana 30, donji slajd; TTL šema i izvorni IIL sa RBE1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s060:e02",
+          "description": "Pun II i IIH izraz",
+          "source": "Originalni PDF, strana 30, donji slajd; Pun II i IIH izraz",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s060:e03",
+          "description": "Režimi T2/T3 i deljenje na 2/n",
+          "source": "Originalni PDF, strana 30, donji slajd; Režimi T2/T3 i deljenje na 2/n",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s060:e04",
+          "description": "Tumačenje znakova, inverznog pojačanja i zamene napona",
+          "source": "Originalni PDF, strana 30, donji slajd; Tumačenje znakova, inverznog pojačanja i zamene napona",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s061": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s061:e01",
+          "description": "TTL šema i pun IOL",
+          "source": "Originalni PDF, strana 31, gornji slajd; TTL šema i pun IOL",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s061:e02",
+          "description": "Uslov zasićenja velike struje i VOHmin",
+          "source": "Originalni PDF, strana 31, gornji slajd; Uslov zasićenja velike struje i VOHmin",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s061:e03",
+          "description": "Pun konačni IOH",
+          "source": "Originalni PDF, strana 31, gornji slajd; Pun konačni IOH",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s061:e04",
+          "description": "Pun opšti IO zbir bazne i kolektorske struje",
+          "source": "Originalni PDF, strana 31, gornji slajd; Pun opšti IO zbir bazne i kolektorske struje",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s062": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s062:e01",
+          "description": "Šema totem-pole sa opterećenjem",
+          "source": "Originalni PDF, strana 31, donji slajd; Šema totem-pole sa opterećenjem",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s062:e02",
+          "description": "Izlazna kontura, sve struje i VCE uslov",
+          "source": "Originalni PDF, strana 31, donji slajd; Izlazna kontura, sve struje i VCE uslov",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s062:e03",
+          "description": "Obe nejednakosti sa oba uslova otpornosti",
+          "source": "Originalni PDF, strana 31, donji slajd; Obe nejednakosti sa oba uslova otpornosti",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s062:e04",
+          "description": "Odnos IC/IE i puna analiza 0–VCC sa RC=0",
+          "source": "Originalni PDF, strana 31, donji slajd; Odnos IC/IE i puna analiza 0–VCC sa RC=0",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s063": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s063:e01",
+          "description": "Obe šeme kapacitivnog izlaza i aktivnog ekvivalenta",
+          "source": "Originalni PDF, strana 32, gornji slajd; Obe šeme kapacitivnog izlaza i aktivnog ekvivalenta",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s063:e02",
+          "description": "Uslov otpornosti, tau, kontinuitet i asimptota",
+          "source": "Originalni PDF, strana 32, gornji slajd; Uslov otpornosti, tau, kontinuitet i asimptota",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s063:e03",
+          "description": "Pun vo(t) i opseg",
+          "source": "Originalni PDF, strana 32, gornji slajd; Pun vo(t) i opseg",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s063:e04",
+          "description": "Potpuno objašnjenje kontinuiteta i asimptotske nulte struje",
+          "source": "Originalni PDF, strana 32, gornji slajd; Potpuno objašnjenje kontinuiteta i asimptotske nulte struje",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "10-s063:e05",
+          "description": "Tumačenje smanjene efektivne otpornosti",
+          "source": "Proverena nastavna dopuna istog slajda; Tumačenje smanjene efektivne otpornosti",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s064": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s064:e01",
+          "description": "Kapacitivna šema i zasićeni ekvivalent",
+          "source": "Originalni PDF, strana 32, donji slajd; Kapacitivna šema i zasićeni ekvivalent",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s064:e02",
+          "description": "Uslov otpornosti, tau i početna vrednost",
+          "source": "Originalni PDF, strana 32, donji slajd; Uslov otpornosti, tau i početna vrednost",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s064:e03",
+          "description": "Asimptotska struja/napon i pun eksponencijalni odziv",
+          "source": "Originalni PDF, strana 32, donji slajd; Asimptotska struja/napon i pun eksponencijalni odziv",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s064:e04",
+          "description": "Ograničenje zasićenja",
+          "source": "Originalni PDF, strana 32, donji slajd; Ograničenje zasićenja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s064:e05",
+          "description": "Obe konture, puna kontinuitetska jednakost i KCL asimptote",
+          "source": "Originalni PDF, strana 32, donji slajd; Obe konture, puna kontinuitetska jednakost i KCL asimptote",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s065": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s065:e01",
+          "description": "Granični ekvivalent i beta iB=iC",
+          "source": "Originalni PDF, strana 33, gornji slajd; Granični ekvivalent i beta iB=iC",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s065:e02",
+          "description": "IB, vo(t1), početna/asimptotska vrednost i izvorna tau2",
+          "source": "Originalni PDF, strana 33, gornji slajd; IB, vo(t1), početna/asimptotska vrednost i izvorna tau2",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s065:e03",
+          "description": "Oba izvorna izraza t1",
+          "source": "Originalni PDF, strana 33, gornji slajd; Oba izvorna izraza t1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s065:e04",
+          "description": "Puna granična kontura i izlaz pre zamene struje",
+          "source": "Originalni PDF, strana 33, gornji slajd; Puna granična kontura i izlaz pre zamene struje",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "10-s065:e05",
+          "description": "Uslov doslednosti vremenske konstante i asimptote",
+          "source": "Proverena nastavna dopuna istog slajda; Uslov doslednosti vremenske konstante i asimptote",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s066": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s066:e01",
+          "description": "TTL šema sa izlaznom C0 i potpuni vi/vo dijagram sa t1/t2/50%",
+          "source": "Originalni PDF, strana 33, donji slajd; TTL šema sa izlaznom C0 i potpuni vi/vo dijagram sa t1/t2/50%",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s066:e02",
+          "description": "Oba kašnjenja, linearno pražnjenje i uslov t≥t2",
+          "source": "Originalni PDF, strana 33, donji slajd; Oba kašnjenja, linearno pražnjenje i uslov t≥t2",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s066:e03",
+          "description": "Izvorna tvrdnja o50% u zasićenju",
+          "source": "Originalni PDF, strana 33, donji slajd; Izvorna tvrdnja o50% u zasićenju",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s066:e04",
+          "description": "Strujni ekvivalent betaFIB4/C0 i razlika zasićenog/aktivnog režima",
+          "source": "Originalni PDF, strana 33, donji slajd; Strujni ekvivalent betaFIB4/C0 i razlika zasićenog/aktivnog režima",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s067": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s067:e01",
+          "description": "Obe standardne/low-power TTL šeme sa vrednostima",
+          "source": "Originalni PDF, strana 34, gornji slajd; Obe standardne/low-power TTL šeme sa vrednostima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s067:e02",
+          "description": "Povećanje otpornika",
+          "source": "Originalni PDF, strana 34, gornji slajd; Povećanje otpornika",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s067:e03",
+          "description": "Veza struja, potrošnje i brzine",
+          "source": "Proverena nastavna dopuna istog slajda; Veza struja, potrošnje i brzine",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s068": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s068:e01",
+          "description": "Cela high-power TTL/Darlington šema sa vrednostima i pokazivačem strujnog kapaciteta",
+          "source": "Originalni PDF, strana 34, donji slajd; Cela high-power TTL/Darlington šema sa vrednostima i pokazivačem strujnog kapaciteta",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s068:e02",
+          "description": "Izraz VOH sa oba konačna člana",
+          "source": "Originalni PDF, strana 34, donji slajd; Izraz VOH sa oba konačna člana",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s068:e03",
+          "description": "Početni KVL sa VRC2/VBE5/VBE4 i objašnjenje Darlingtona",
+          "source": "Originalni PDF, strana 34, donji slajd; Početni KVL sa VRC2/VBE5/VBE4 i objašnjenje Darlingtona",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s069": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s069:e01",
+          "description": "Obe high-power/Schottky šeme sa vrednostima i posebnim simbolima",
+          "source": "Originalni PDF, strana 35, gornji slajd; Obe high-power/Schottky šeme sa vrednostima i posebnim simbolima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s069:e02",
+          "description": "Ubrzanje rada",
+          "source": "Originalni PDF, strana 35, gornji slajd; Ubrzanje rada",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s069:e03",
+          "description": "Veza ograničenog zasićenja i nosilaca",
+          "source": "Proverena nastavna dopuna istog slajda; Veza ograničenog zasićenja i nosilaca",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s070": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s070:e01",
+          "description": "Simbol, diodna veza i šema svih struja",
+          "source": "Originalni PDF, strana 35, donji slajd; Simbol, diodna veza i šema svih struja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s070:e02",
+          "description": "Unutrašnje/spoljašnje struje i oba slučaja diode",
+          "source": "Originalni PDF, strana 35, donji slajd; Unutrašnje/spoljašnje struje i oba slučaja diode",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s070:e03",
+          "description": "VCE i oba uslova Šotki zasićenja",
+          "source": "Originalni PDF, strana 35, donji slajd; VCE i oba uslova Šotki zasićenja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s070:e04",
+          "description": "Puna zamena struja i modelne zamene napona",
+          "source": "Originalni PDF, strana 35, donji slajd; Puna zamena struja i modelne zamene napona",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s071": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s071:e01",
+          "description": "Cela Schottky TTL šema sa aktivnom granom i svim vrednostima",
+          "source": "Originalni PDF, strana 36, gornji slajd; Cela Schottky TTL šema sa aktivnom granom i svim vrednostima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s071:e02",
+          "description": "Uloga T6 i poređenje aktivnog/passivnog pražnjenja",
+          "source": "Proverena nastavna dopuna istog slajda; Uloga T6 i poređenje aktivnog/passivnog pražnjenja",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s072": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s072:e01",
+          "description": "Cela LS TTL šema i sve vrednosti",
+          "source": "Originalni PDF, strana 36, donji slajd; Cela LS TTL šema i sve vrednosti",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s072:e02",
+          "description": "Obe označene funkcionalne grupe i pokazivači",
+          "source": "Originalni PDF, strana 36, donji slajd; Obe označene funkcionalne grupe i pokazivači",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s072:e03",
+          "description": "Uloge ulaznog tranzistora i ubrzanja uz razliku zaštitnih dioda",
+          "source": "Originalni PDF, strana 36, donji slajd; Uloge ulaznog tranzistora i ubrzanja uz razliku zaštitnih dioda",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s073": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s073:e01",
+          "description": "Potpuna kataloška tabela sa svim vrednostima/jedinicama za 54/74",
+          "source": "Originalni PDF, strana 37, gornji slajd; Potpuna kataloška tabela sa svim vrednostima/jedinicama za 54/74",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s073:e02",
+          "description": "Tumačenje garantovanog opsega, tipične vrednosti i znakova izlaznih struja",
+          "source": "Proverena nastavna dopuna istog slajda; Tumačenje garantovanog opsega, tipične vrednosti i znakova izlaznih struja",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s074": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s074:e01",
+          "description": "Sve DC i AC kataloške vrednosti, familije i jedinice",
+          "source": "Originalni PDF, strana 37, donji slajd; Sve DC i AC kataloške vrednosti, familije i jedinice",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s074:e02",
+          "description": "Izlazne struje i ulazni naponi uz numeričke redove; AC uslovi",
+          "source": "Originalni PDF, strana 37, donji slajd; Izlazne struje i ulazni naponi uz numeričke redove; AC uslovi",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s074:e03",
+          "description": "Svi preostali DC uslovi merenja, pojedinačne granice i napomena kratkog spoja",
+          "source": "Originalni PDF, strana 37, donji slajd; Svi preostali DC uslovi merenja, pojedinačne granice i napomena kratkog spoja",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "10-s074:e04",
+          "description": "Pravilno čitanje tipičnih/maksimalnih vrednosti",
+          "source": "Proverena nastavna dopuna istog slajda; Pravilno čitanje tipičnih/maksimalnih vrednosti",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s075": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s075:e01",
+          "description": "74/54, svih osam familija i74LS00",
+          "source": "Originalni PDF, strana 38, gornji slajd; 74/54, svih osam familija i74LS00",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s075:e02",
+          "description": "Sva tri vektorska pogleda DIP14, pinovi1–14, fotografija, glavne dimenzije",
+          "source": "Originalni PDF, strana 38, gornji slajd; Sva tri vektorska pogleda DIP14, pinovi1–14, fotografija, glavne dimenzije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s075:e03",
+          "description": "Sve ostale dimenzije, tolerancije, MIN/MAX/NOM, uglovi, broj mesta, mm/inči, JEDEC/EIA",
+          "source": "Originalni PDF, strana 38, gornji slajd; Sve ostale dimenzije, tolerancije, MIN/MAX/NOM, uglovi, broj mesta, mm/inči, JEDEC/EIA",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "10-s075:e04",
+          "description": "Fairchild/ALS i pravilo dve do pet cifara",
+          "source": "Originalni PDF, strana 38, gornji slajd; Fairchild/ALS i pravilo dve do pet cifara",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s076": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s076:e01",
+          "description": "Dva logička kola i obe spojene analogne izlazne grane",
+          "source": "Originalni PDF, strana 38, donji slajd; Dva logička kola i obe spojene analogne izlazne grane",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s076:e02",
+          "description": "Potpuna četvororedna tabela svih stanja tranzistora",
+          "source": "Originalni PDF, strana 38, donji slajd; Potpuna četvororedna tabela svih stanja tranzistora",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s076:e03",
+          "description": "Objašnjenje oba konfliktna reda i strujne putanje",
+          "source": "Proverena nastavna dopuna istog slajda; Objašnjenje oba konfliktna reda i strujne putanje",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s077": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s077:e01",
+          "description": "Sva četiri prikaza predajnika/prijemnika i centralne kontrole",
+          "source": "Originalni PDF, strana 39, gornji slajd; Sva četiri prikaza predajnika/prijemnika i centralne kontrole",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s077:e02",
+          "description": "OC uslov i dozvola/zabrana rada",
+          "source": "Originalni PDF, strana 39, gornji slajd; OC uslov i dozvola/zabrana rada",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s077:e03",
+          "description": "Objašnjenje deljenja linije i uloge upravljanja",
+          "source": "Proverena nastavna dopuna istog slajda; Objašnjenje deljenja linije i uloge upravljanja",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s078": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s078:e01",
+          "description": "Cela S-TTL trostatička šema sa upravljanjem",
+          "source": "Originalni PDF, strana 39, donji slajd; Cela S-TTL trostatička šema sa upravljanjem",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s078:e02",
+          "description": "Svih šest simbola i NOR sa dozvolom",
+          "source": "Originalni PDF, strana 39, donji slajd; Svih šest simbola i NOR sa dozvolom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s078:e03",
+          "description": "Potpuna izvorna tabela uključujući Y=A+B",
+          "source": "Originalni PDF, strana 39, donji slajd; Potpuna izvorna tabela uključujući Y=A+B",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s078:e04",
+          "description": "Z, zakočenje svih izlaza i potreba tabele",
+          "source": "Originalni PDF, strana 39, donji slajd; Z, zakočenje svih izlaza i potreba tabele",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s078:e05",
+          "description": "Tumačenje aktivnih nivoa dozvole i X",
+          "source": "Proverena nastavna dopuna istog slajda; Tumačenje aktivnih nivoa dozvole i X",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s079": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s079:e01",
+          "description": "Sva tri vremenska dijagrama Z i sva četiri vremena",
+          "source": "Originalni PDF, strana 40, gornji slajd; Sva tri vremenska dijagrama Z i sva četiri vremena",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s079:e02",
+          "description": "Sva tri testna kola sa oznakama/preklopnicima",
+          "source": "Originalni PDF, strana 40, gornji slajd; Sva tri testna kola sa oznakama/preklopnicima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s079:e03",
+          "description": "Objašnjenje dodatnih kašnjenja i uloge spoljašnje pobude",
+          "source": "Originalni PDF, strana 40, gornji slajd; Objašnjenje dodatnih kašnjenja i uloge spoljašnje pobude",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s080": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s080:e01",
+          "description": "Cela LS126A unutrašnja šema sa svim vrednostima/vezama",
+          "source": "Originalni PDF, strana 40, donji slajd; Cela LS126A unutrašnja šema sa svim vrednostima/vezama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s080:e02",
+          "description": "Potpuna tabela LS125A/126A svih šest kašnjenja i uslova",
+          "source": "Originalni PDF, strana 40, donji slajd; Potpuna tabela LS125A/126A svih šest kašnjenja i uslova",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s080:e03",
+          "description": "Tumačenje ulaza G/A i različitih testnih kapacitivnosti",
+          "source": "Proverena nastavna dopuna istog slajda; Tumačenje ulaza G/A i različitih testnih kapacitivnosti",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s081": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s081:e01",
+          "description": "Naziv ECL, diferencijalni pojačavač, brzina/disipacija, 1956, MC10800/1979",
+          "source": "Originalni PDF, strana 41, gornji slajd; Naziv ECL, diferencijalni pojačavač, brzina/disipacija, 1956, MC10800/1979",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s081:e02",
+          "description": "Istorijski i primenski kontekst originala",
+          "source": "Originalni PDF, strana 41, gornji slajd; Istorijski i primenski kontekst originala",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s082": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s082:e01",
+          "description": "Cela diferencijalna šema, obe baze, kolektori i izvor IE",
+          "source": "Originalni PDF, strana 41, donji slajd; Cela diferencijalna šema, obe baze, kolektori i izvor IE",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s082:e02",
+          "description": "Kontura i početna nejednakost",
+          "source": "Originalni PDF, strana 41, donji slajd; Kontura i početna nejednakost",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s082:e03",
+          "description": "Najmanje jedan tranzistor vodi",
+          "source": "Originalni PDF, strana 41, donji slajd; Najmanje jedan tranzistor vodi",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s082:e04",
+          "description": "Put konture, dva izlaza i ponašanje idealnog izvora",
+          "source": "Originalni PDF, strana 41, donji slajd; Put konture, dva izlaza i ponašanje idealnog izvora",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s083": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s083:e01",
+          "description": "Šema i oba režima sa zanemarivanjem baznih struja",
+          "source": "Originalni PDF, strana 42, gornji slajd; Šema i oba režima sa zanemarivanjem baznih struja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s083:e02",
+          "description": "Uslov kolektorskog napona i oba izlazna izraza",
+          "source": "Originalni PDF, strana 42, gornji slajd; Uslov kolektorskog napona i oba izlazna izraza",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s083:e03",
+          "description": "Puni lanac proračuna i izvorne oznake izlaza VI1/VI2",
+          "source": "Originalni PDF, strana 42, gornji slajd; Puni lanac proračuna i izvorne oznake izlaza VI1/VI2",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s084": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s084:e01",
+          "description": "Cela diferencijalna šema",
+          "source": "Originalni PDF, strana 42, donji slajd; Cela diferencijalna šema",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s084:e02",
+          "description": "Obe granice, VI=VR i jednaki RC",
+          "source": "Originalni PDF, strana 42, donji slajd; Obe granice, VI=VR i jednaki RC",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s084:e03",
+          "description": "Izvorni izraz sa IE2/2",
+          "source": "Originalni PDF, strana 42, donji slajd; Izvorni izraz sa IE2/2",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s084:e04",
+          "description": "Potpuni tok preusmeravanja i lanac jednakih napona",
+          "source": "Originalni PDF, strana 42, donji slajd; Potpuni tok preusmeravanja i lanac jednakih napona",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s085": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s085:e01",
+          "description": "Šema i uslov velike ulazne vrednosti",
+          "source": "Originalni PDF, strana 43, gornji slajd; Šema i uslov velike ulazne vrednosti",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s085:e02",
+          "description": "VCE1, aktivni uslov, granica i izlaz u zasićenju",
+          "source": "Originalni PDF, strana 43, gornji slajd; VCE1, aktivni uslov, granica i izlaz u zasićenju",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s085:e03",
+          "description": "Oba međunapona, preuređenje uslova i izvorni dvostruki naziv T1",
+          "source": "Originalni PDF, strana 43, gornji slajd; Oba međunapona, preuređenje uslova i izvorni dvostruki naziv T1",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s086": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s086:e01",
+          "description": "Šema, obe izlazne karakteristike i pokazivač neregularne oblasti",
+          "source": "Originalni PDF, strana 43, donji slajd; Šema, obe izlazne karakteristike i pokazivač neregularne oblasti",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s086:e02",
+          "description": "Sva četiri naponska nivoa i uslov izbegavanja zasićenja",
+          "source": "Originalni PDF, strana 43, donji slajd; Sva četiri naponska nivoa i uslov izbegavanja zasićenja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s086:e03",
+          "description": "Veza režima sa brzim uključivanjem i isključivanjem",
+          "source": "Originalni PDF, strana 43, donji slajd; Veza režima sa brzim uključivanjem i isključivanjem",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s087": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s087:e01",
+          "description": "Oba osnovna uslova, obe simetrične jednakosti i konačna referenca",
+          "source": "Originalni PDF, strana 44, gornji slajd; Oba osnovna uslova, obe simetrične jednakosti i konačna referenca",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s087:e02",
+          "description": "Preuređene nejednakosti i potpuno izvođenje proseka",
+          "source": "Originalni PDF, strana 44, gornji slajd; Preuređene nejednakosti i potpuno izvođenje proseka",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s088": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s088:e01",
+          "description": "Sva tri čvorna napona i aktivni uslov VCE2",
+          "source": "Originalni PDF, strana 44, donji slajd; Sva tri čvorna napona i aktivni uslov VCE2",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s088:e02",
+          "description": "Potreba preciznosti i primer779Ω",
+          "source": "Originalni PDF, strana 44, donji slajd; Potreba preciznosti i primer779Ω",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s088:e03",
+          "description": "Potpuno oduzimanje napona i poređenje9k/10k",
+          "source": "Originalni PDF, strana 44, donji slajd; Potpuno oduzimanje napona i poređenje9k/10k",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s089": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s089:e01",
+          "description": "Šema pre/posle sa T3/T4 i oba izlaza",
+          "source": "Originalni PDF, strana 45, gornji slajd; Šema pre/posle sa T3/T4 i oba izlaza",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s089:e02",
+          "description": "Zajednički kolektor, oba nova nivoa i očuvanje uslova",
+          "source": "Originalni PDF, strana 45, gornji slajd; Zajednički kolektor, oba nova nivoa i očuvanje uslova",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s089:e03",
+          "description": "Uticaj izlazne struje i aktivni režim bafera",
+          "source": "Originalni PDF, strana 45, gornji slajd; Uticaj izlazne struje i aktivni režim bafera",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s090": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s090:e01",
+          "description": "Cela šema odvojenih napajanja i svi priključci",
+          "source": "Originalni PDF, strana 45, donji slajd; Cela šema odvojenih napajanja i svi priključci",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s090:e02",
+          "description": "Negativno napajanje, standardna vrednost, početni izraz i direktni prenos",
+          "source": "Originalni PDF, strana 45, donji slajd; Negativno napajanje, standardna vrednost, početni izraz i direktni prenos",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s090:e03",
+          "description": "Mali/nepostojeći prenos VEE za neidealni/idealni izvor",
+          "source": "Originalni PDF, strana 45, donji slajd; Mali/nepostojeći prenos VEE za neidealni/idealni izvor",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s090:e04",
+          "description": "Pun lanac obe perturbacije uključujući izvorne sporne jednakosti",
+          "source": "Originalni PDF, strana 45, donji slajd; Pun lanac obe perturbacije uključujući izvorne sporne jednakosti",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s091": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s091:e01",
+          "description": "Cela šema i svi priključci",
+          "source": "Originalni PDF, strana 46, gornji slajd; Cela šema i svi priključci",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s091:e02",
+          "description": "Oba ulazna izraza i izlazna struja sa uslovom",
+          "source": "Originalni PDF, strana 46, gornji slajd; Oba ulazna izraza i izlazna struja sa uslovom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s091:e03",
+          "description": "Izvorni opis praktično beskonačnog kapaciteta nule",
+          "source": "Originalni PDF, strana 46, gornji slajd; Izvorni opis praktično beskonačnog kapaciteta nule",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s091:e04",
+          "description": "IIH lanac pri VOH i puna objašnjenja sva tri kapaciteta",
+          "source": "Originalni PDF, strana 46, gornji slajd; IIH lanac pri VOH i puna objašnjenja sva tri kapaciteta",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s092": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s092:e01",
+          "description": "Šema i oba režima sa konstantama, početnim i krajnjim vrednostima",
+          "source": "Originalni PDF, strana 46, donji slajd; Šema i oba režima sa konstantama, početnim i krajnjim vrednostima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s092:e02",
+          "description": "Mali raspon i brzina",
+          "source": "Originalni PDF, strana 46, donji slajd; Mali raspon i brzina",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s092:e03",
+          "description": "Pretpostavka lanca, oba uslova srednje vrednosti sa izvornim tpHL",
+          "source": "Originalni PDF, strana 46, donji slajd; Pretpostavka lanca, oba uslova srednje vrednosti sa izvornim tpHL",
+          "origin": "original",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s093": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s093:e01",
+          "description": "Cela standardna dvoulazna ECL šema, vrednosti, napajanja i oznake uključujući dva T3",
+          "source": "Originalni PDF, strana 47, gornji slajd; Cela standardna dvoulazna ECL šema, vrednosti, napajanja i oznake uključujući dva T3",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s093:e02",
+          "description": "Simbol i oba OR/NOR izlaza",
+          "source": "Originalni PDF, strana 47, gornji slajd; Simbol i oba OR/NOR izlaza",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s093:e03",
+          "description": "Tumačenje zajedničke ulazne grane i reference",
+          "source": "Proverena nastavna dopuna istog slajda; Tumačenje zajedničke ulazne grane i reference",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s094": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s094:e01",
+          "description": "Potpuna PECL DC tabela tri temperature svih vrednosti/jedinica i Note4/5",
+          "source": "Originalni PDF, strana 47, donji slajd; Potpuna PECL DC tabela tri temperature svih vrednosti/jedinica i Note4/5",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s094:e02",
+          "description": "Razlika pragova/izlaza i čitanje praznih ćelija i jedinica",
+          "source": "Proverena nastavna dopuna istog slajda; Razlika pragova/izlaza i čitanje praznih ćelija i jedinica",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s095": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s095:e01",
+          "description": "Potpuna NECL DC tabela tri temperature svih vrednosti/jedinica i Note6/7",
+          "source": "Originalni PDF, strana 48, gornji slajd; Potpuna NECL DC tabela tri temperature svih vrednosti/jedinica i Note6/7",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s095:e02",
+          "description": "Tumačenje negativnih nivoa i odgovarajućih granica",
+          "source": "Proverena nastavna dopuna istog slajda; Tumačenje negativnih nivoa i odgovarajućih granica",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "10-s096": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "10-s096:e01",
+          "description": "Cela AC tabela sa svim numeričkim vrednostima, oba napajanja, tri temperature, jedinice i Note14/15",
+          "source": "Originalni PDF, strana 48, donji slajd; Cela AC tabela sa svim numeričkim vrednostima, oba napajanja, tri temperature, jedinice i Note14/15",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "10-s096:e02",
+          "description": "Puna kataloška imena, D/Q/komplement, Figure4, Fmax/JITTER i20–80%",
+          "source": "Originalni PDF, strana 48, donji slajd; Puna kataloška imena, D/Q/komplement, Figure4, Fmax/JITTER i20–80%",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "10-s096:e03",
+          "description": "Razlika delay/skew/jitter i čitanje uslova",
+          "source": "Proverena nastavna dopuna istog slajda; Razlika delay/skew/jitter i čitanje uslova",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    }
+  }
+}

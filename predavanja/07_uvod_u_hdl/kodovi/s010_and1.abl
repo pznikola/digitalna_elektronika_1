@@ -7,7 +7,7 @@ IN1, IN2, OUT1 pin;
 EQUATIONS
 OUT1 = IN1 & IN2;
 TEST_VECTORS
-([ IN1, IN2] -> [OUT1])
+([IN1,IN2] -> [OUT1])
  [   0,   0] -> [ 0];
  [   0,   1] -> [ 0];
  [   1,   0] -> [ 0];

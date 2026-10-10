@@ -1,9 +1,12 @@
 
 \slajdid{05-s005}
+% element: 05-s005:e01
+% element: 05-s005:e02
+% element: 05-s005:e03
 \begin{frame}[label=05-s005]{Mreže većih kapaciteta}
 \setlength{\parskip}{2pt}\centering
-\def\DEprosiren{1}\def\DEunit{.59cm}\input{slike/tikz/komparator_jezgro.tex}\par
-\begin{tikzpicture}[x=.70cm,y=.65cm,font=\fontsize{8}{9}\selectfont]
+\def\DEprosiren{1}\def\DEunit{.64cm}\def\DEyunit{.35cm}\input{slike/tikz/komparator_jezgro.tex}\par
+\begin{tikzpicture}[x=.70cm,y=.60cm,font=\fontsize{9}{11}\selectfont]
 \Komparator{a}{0}{0}\Komparator{b}{5.8}{0}\Komparator{c}{12.7}{0}
 \foreach \name/\value in {ip/0,iq/0,ie/1}{\draw[DEvod] (a-\name)--++(-.3,0)node[left]{\value};}
 \foreach \name/\label in {a1/a3,a0/a2,b1/b3,b0/b2}{\draw[DEvod] (a-\name)--++(-.3,0)node[left]{\label};}

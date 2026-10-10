@@ -1,0 +1,9 @@
+\BeleskeID{04-s030}
+% element: 04-s030:e01 — Tabela svih 16 kodova sa neoznačenom vrednošću i ofsetom −8
+% element: 04-s030:e02 — Sva četiri bita predstavljaju neoznačeni pozitivan broj
+% element: 04-s030:e03 — Dodavanje ofseta −8 daje stvarnu vrednost
+% element: 04-s030:d01
+
+Ofset menja tumačenje cele neoznačene vrednosti $U$ prema pravilu $V=U-8$. Za kod $0011$ dobijamo $3-8=-5$, a za $1011$ dobijamo $11-8=3$. Kada treba kodovati poznatu vrednost, računamo obrnuto: $U=V+8$.
+
+Nula je na kodu $1000$, zato što je $8-8=0$. Vodeći bit se ovde ne izdvaja kao bit znaka sa značenjem iz prikaza znaka i apsolutne vrednosti: kodovi sa vodećom nulom predstavljaju negativne vrednosti, a kodovi sa vodećom jedinicom nulu i pozitivne vrednosti.

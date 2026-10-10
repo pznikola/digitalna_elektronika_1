@@ -1,6 +1,17 @@
 \slajdid{09_3-s065}
-\begin{frame}[label=09_3-s065]
-Slučaj $V_C=-15V$,
-\begin{center}\input{slike/tikz/s065_zakocen_bilateralni_prekidac.tex}\end{center}\medskip
-Ako je ulazni napon $-12V\leq V_I\leq+12V$ ni N ni P tranzistor nemaju uslove za provođenje tako da će izlaz prekidača biti u stanju visoke impedanse, otvoren prekidač, a u situaciji na slici $V_O=V_{RL}$ bez obzira koliki je napon $V_{RL}$, bitno je samo da je iz opsega $\pm15V$.
+\begin{frame}[label=09_3-s065]{Isključen bilateralni prekidač}
+% element: 09_3-s065:e01
+% element: 09_3-s065:e02
+% element: 09_3-s065:e03
+% element: 09_3-s065:e04
+\begin{columns}[c,onlytextwidth]\column{.47\textwidth}
+\begin{center}
+\input{slike/tikz/s065_zakocen_bilateralni_prekidac.tex}
+\end{center}
+\column{.49\textwidth}
+\[V_C=-15\,\mathrm V,\qquad -12\,\mathrm V\le V_I\le+12\,\mathrm V\]
+Ni N ni P tranzistor ne provodi.
+\par Izlaz prekidača: \alert{visoka impedansa}.
+\[V_O=V_{RL},\qquad V_{RL}\in[-15,+15]\,\mathrm V\]
+\end{columns}
 \end{frame}

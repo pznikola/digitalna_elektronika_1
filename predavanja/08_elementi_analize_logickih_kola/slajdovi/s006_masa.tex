@@ -1,8 +1,15 @@
 \slajdid{08-s006}
+% element: 08-s006:e01
+% element: 08-s006:e02
+% element: 08-s006:e03
 \begin{frame}[label=08-s006]{Masa}
-\gusttekst\centering\input{slike/tikz/s006_masa.tex}\par\medskip\raggedright
-Spajanje logičkih kola između sebe i na izvor za napajanje se izvodi „žicama“ (metalnim linijama na štampanoj ploči, metalnim linijama unutar integrisanog kola, ...) koje nisu idealne, i koje imaju otpornosti, i parazitne efekte u sebi i prema okolini, parazitne kapacitivnosti i induktivnosti.
-\[a_2(t)=b_1(t)-Z_p i_{DGND}(t)\qquad Z_p\text{ mora da bude što manje}\]
-Sa ovog aspekta u literaturi postoji definicija: \alert{Masa je povratni put signala}.\par
-I kao svaka „putanja - put“ da ne bi došlo do degradacije treba da je “što kraća”, “sa što manje rupa i uskih grla” - što manja otpornost i parazitni efekti.
+\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}
+\centering\input{slike/tikz/s006_masa.tex}\par\medskip\raggedright
+Vodovi imaju otpornost i parazitne kapacitivnosti i induktivnosti.
+\[a_2(t)=b_1(t)-Z_p i_{DGND}(t)\]
+\begin{columns}[c,onlytextwidth]
+\column{.57\textwidth}\alert{Masa je povratni put signala.}
+\column{.39\textwidth}$Z_p$ treba da bude što manje.
+\end{columns}\medskip
+Kratak povratni put, bez rupa i uskih grla, smanjuje degradaciju signala.
 \end{frame}

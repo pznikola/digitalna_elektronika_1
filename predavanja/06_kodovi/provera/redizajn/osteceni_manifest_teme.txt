@@ -1,0 +1,398 @@
+# Status redizajna predavanja
+
+Poslednje ažuriranje: **2026-10-02**. Ova evidencija prati [PLAN_PREDAVANJA.md](PLAN_PREDAVANJA.md); istorijske potvrde rekonstrukcije nisu potvrde redizajna.
+
+## Galerija — prva faza
+
+- Status: **odobreno**; izabran stil B iz galerije **0.3**, sa kompaktnim analognim šemama i kraćim priključnim vodovima.
+- Izabrani stil: **B — Akademski sa akcentima**, korisnikova poruka: „slazem se da je B dobar izbor.“
+- Posebna odluka za analogna kola: **crtanje po uzoru na Razavija**, uz očuvanje fontova. Prihvaćena je dorada CMOS/BJT primera u galeriji 0.3 („odlicno. sta je sledeci korak?“). Logička kola i vremenski dijagrami ostali su neizmenjeni.
+- [Pregled A/B/C](predavanja/_zajednicko/galerija/build/index.html), [slajdovi](predavanja/_zajednicko/galerija/build/galerija.pdf), [beleške](predavanja/_zajednicko/galerija/build/beleske.pdf), [poređenje u PDF-u](predavanja/_zajednicko/galerija/build/poredjenje.pdf).
+- [Izveštaj](predavanja/_zajednicko/galerija/IZVESTAJ.md), [izvori i komande](predavanja/_zajednicko/galerija/README.md), [manifest](predavanja/_zajednicko/galerija/manifest.json).
+- SHA-256 pregledanog manifesta: `74780d0544069011b16cb32e26774a169ff8998a7c3946856718adf08b059455`.
+- Rezultati: 18 slajdova u svakoj varijanti boja/sivo, tri strane beležaka, 12 strana poređenja; kompilacija i provere uspešne, vizuelni pregled obavljen.
+- Odobrenje galerije: **izabran B uz prihvaćenu analognu doradu**. Stvarne poruke i otisci su u [odluka.json](predavanja/_zajednicko/galerija/odluka.json). Izlazi i manifest galerije sačuvani su kao pregledana verzija pre izbora; njihove tadašnje oznake „izbor se čeka“ nisu trenutni status.
+
+## Zajednička tema
+
+- **`etf-v1` pripremljen** na osnovu izabranog B: [specifikacija i upotreba](predavanja/_zajednicko/etf-v1/README.md), [demonstracioni PDF](predavanja/_zajednicko/etf-v1/build/primer.pdf), [manifest](predavanja/_zajednicko/etf-v1/manifest.json).
+- SHA-256 aktuelnog manifesta teme: `87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41`.
+- Tema sadrži svoje stilove, analogne simbole i ETF resurs; ne zavisi od radne galerije. Izbor stila je korisnikov, tehničko izdvajanje i provera teme su rad agenta.
+- Provere: deset demonstracionih strana i stabilnih ID-jeva; uspešna kompilacija bez upozorenja; prvih šest sadržajnih prikaza pikselno jednako galeriji B, uz novo podnožje/ID. Dodatni rasporedi pregledani vizuelno.
+- Pri pripremi infrastrukture ispravljen je ispis ID-jeva sa donjom crtom. Svih deset postojećih demonstracionih prikaza pikselno je nepromenjeno; tema ponovo prolazi kompilaciju i provere. Prethodni manifest `21a9146e1b69991e4b964960234fea56defae5a4b2e9e854cc75457c8709d190` i prikazi sačuvani su u `predavanja/_zajednicko/etf-v1/build/pre-podrska-id/`. Ovo je evidentirana tehnička dorada pre prvog odobrenog nastavnog predavanja.
+- Postojeća nastavna predavanja nisu prebačena na novu temu.
+
+## Infrastruktura beležaka i provera
+
+- Status: **implementirano i provereno**; [uputstvo](predavanja/_alati/REDIZAJN.md), [izveštaj](predavanja/_alati/IZVESTAJ_INFRASTRUKTURE.md).
+- Implementirani `notes`, nova mapa pokrivenosti, prikaz original/pre/posle/beleške, odvojene potvrde redizajna, stvarne zavisnosti korišćene teme i bezbedno čuvanje početnog prikaza.
+- Komande nad predavanjem zahtevaju `LECTURE`. Inicijalizacija otvara samo navedeno predavanje, sa nepotvrđenim sadržajem i stvarnom odlukom o početku; ne daje odobrenje rezultata ili prelaska.
+- Provera: 36 regresionih testova; integracioni primer sa dva samostalna slajda i tri strane beležaka, uključujući negativne slučajeve. [PDF beležaka](predavanja/_alati/build/proba_redizajna/demo/build/demo_beleske.pdf), [uporedni pregled](predavanja/_alati/build/proba_redizajna/demo/build/redizajn/pregled/index.html).
+- Proba koristi izmišljeni materijal i jasno označene test potvrde. Nije izvršena sadržinska analiza nastavnih predavanja.
+
+## Trenutna kontrolna tačka
+
+**05 — Aritmetičke operacije**, status `u_radu`, po izričitom nalogu korisnika od 2026-10-02:
+
+> procitaj PLAN_PREDAVANJA.md.  tvoj posao je da procitas PLAN, procitas slajdove 05, procitas originalna predavanja 05 i da sredis beleske i prezentacije po planu
+
+Nalog odobrava početak i obradu 05; ne predstavlja prihvatanje rezultata 01–04. Trenutni korak: izgled i beleške obrađeni za svih 55 ID-jeva; 210/210 odredišta sadržaja provereno; 47 ID-jeva bez problema, osam čeka odluku o šest grupa stručnih ispravki. `notes`/`review` i računske provere prolaze; `check` daje NEZAVRŠENO samo za ta pitanja. Vidi [izveštaj 05](predavanja/05_aritmeticke_operacije/provera/redizajn/izvestaj.md) i [otvorena pitanja](predavanja/05_aritmeticke_operacije/provera/redizajn/otvorena_pitanja.md). Prelazak na 06 nije odobren.
+
+## Centralna evidencija predavanja
+
+Kontrolne sume izvora i manifesti redizajna unose se pri početku odobrene obrade konkretnog predavanja. Prazna polja znače da pregled redizajna nije izvršen, a ne da je gradivo potvrđeno.
+
+| ID | Status | Tema | Ažurirano | Provere redizajna | Izveštaj | Manifest / SHA-256 | Odobren rezultat | Prelazak na sledeće |
+|---|---|---|---|---|---|---|---|---|
+| 01 | ceka_odobrenje | etf-v1 | 2026-10-02 | Nove beleške 37/37; 141/141 elemenata (105 izvornih + 36 dopuna); `check`: PROVERENO; slajdovi nepromenjeni | [Izveštaj](predavanja/01_logicke_funkcije/provera/redizajn/izvestaj.md) | [Manifest](predavanja/01_logicke_funkcije/provera/redizajn/manifest.json), `3a57a05629241a97a70e2ad9eff699cf46ae159c9ff66f36de643e6f2114411e` | Prethodna verzija: „I approve 01“; nove beleške čekaju prihvatanje | Početak 02 izričito odobren 2026-09-27 |
+| 02 | ceka_odobrenje | etf-v1 | 2026-10-02 | Nove beleške 54/54; 205/205 elemenata (152 izvorna + 53 dopune); `check`: PROVERENO; slajdovi nepromenjeni | [Izveštaj](predavanja/02_sinteza_kombinacionih_mreza/provera/redizajn/izvestaj.md) | [Manifest](predavanja/02_sinteza_kombinacionih_mreza/provera/redizajn/manifest.json), `6d75a7ba4d60b5f3828020d0a50e6b12070486000b0fb0014c291493ff227af9` | Nove beleške čekaju korisnika; rezultat 02 nije odobren | Početak 03 izričito odobren 2026-10-01 |
+| 03 | ceka_odobrenje | etf-v1 | 2026-10-02 | Nove beleške 21/21; 91/91 elemenata (71 izvorni + 20 dopuna); `check`: PROVERENO; slajdovi nepromenjeni | [Završni izveštaj](predavanja/03_kola_srednjeg_stepena_integracije/provera/redizajn/izvestaj.md) | [Manifest](predavanja/03_kola_srednjeg_stepena_integracije/provera/redizajn/manifest.json), `043cfd60fc37b3776983018ddca3b715e03d99d8c679ea1e8de9df4306469213` | Nove beleške čekaju korisnika; rezultat 03 nije odobren | Početak 04 izričito odobren 2026-10-02 |
+| 04 | ceka_odobrenje | etf-v1 | 2026-10-02 | Nove beleške: 39/39 ID-jeva i A4 strana; 177/177 elemenata (140 izvornih + 37 dopuna); kompilacija/račun prolaze; sve odobrene stručne ispravke primenjene; `check`: PROVERENO; nema otvorenih pitanja | [Izveštaj](predavanja/04_brojni_sistemi/provera/redizajn/izvestaj.md), [otvorena pitanja](predavanja/04_brojni_sistemi/provera/redizajn/otvorena_pitanja.md) | [Manifest](predavanja/04_brojni_sistemi/provera/redizajn/manifest.json), `f4301065e016daa6b3495b27b353908594353b4c49559ce042c8f7f88a839d9b` | Cela nova isporuka čeka prihvatanje | Početak 05 izričito odobren nalogom od 2026-10-02 |
+| 05 | u_radu | etf-v1 | 2026-10-02 | Slajdovi 55/55, beleške 55 A4 strana; 210/210 elemenata; kompilacija/račun prolaze; šest stručnih pitanja, osam pogođenih ID-jeva; `check`: NEZAVRŠENO | [Izveštaj](predavanja/05_aritmeticke_operacije/provera/redizajn/izvestaj.md), [pitanja](predavanja/05_aritmeticke_operacije/provera/redizajn/otvorena_pitanja.md) | [Manifest](predavanja/05_aritmeticke_operacije/provera/redizajn/manifest.json), `df23c8fe09eeaffaa97792f2469f903132cdf8eabed74bfcbf75ded0815b3b25` | Nema; odluka o stručnim ispravkama čeka korisnika | Nije odobren |
+| 06 | nije_zapoceto | — | 2026-09-25 | Nisu izvršene | — | — | Nema | Nije odobren |
+| 07 | nije_zapoceto | — | 2026-09-25 | Nisu izvršene | — | — | Nema | Nije odobren |
+| 08 | nije_zapoceto | — | 2026-09-25 | Nisu izvršene | — | — | Nema | Nije odobren |
+| 09_1 | nije_zapoceto | — | 2026-09-25 | Nisu izvršene | — | — | Nema | Nije odobren |
+| 09_2 | nije_zapoceto | — | 2026-09-25 | Nisu izvršene | — | — | Nema | Nije odobren |
+| 09_3 | nije_zapoceto | — | 2026-09-25 | Nisu izvršene | — | — | Nema | Nije odobren |
+| 10 | nije_zapoceto | — | 2026-09-25 | Nisu izvršene | — | — | Nema | Nije odobren |
+
+Za 02 su pregledani sledeći SHA-256 otisci: original `f631914c9f32a0472f4fa3af11115abaadb9316dfcf6f1528cd91ef4d28868f4`, sačuvano polazno stanje `51cae27d69a4c44d8d7461f8924e949d8dd63ca43462bdb7e42c14597761f2a2`, prezentacioni PDF `6046baeaa7f36cc4de158bfb72ddaf01d2fab12671a18b6c8e2ec14e252e67c4`, PDF beležaka `f2458e8bd7294b9d728ccf836a12c8a9c8d5c0b702664e9bf7efbe5cbefbb9bc` i manifest teme `87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41`. Pojedinačni otisci izvora, prikaza i beležaka su u [potvrdama 02](predavanja/02_sinteza_kombinacionih_mreza/provera/redizajn/pregled.json) i [zapisu izgradnje](predavanja/02_sinteza_kombinacionih_mreza/provera/redizajn/izgradnja.json).
+
+Za 03 su 2026-10-02 pregledani SHA-256 otisci: original `5e68d267ca2f60c1ccdf073c2579fd64a4b05278955cc3d3f920cc54e123fd86`, prezentacioni PDF `4bcf5f421b2d32586028a3683d572bbf8077ca9ac088927a3e76180722cec9b9`, PDF beležaka `9c5fefeef69c1499565d9d03c32858d36752b94be9677bd17112fc9b1c46c641`, manifest redizajna `043cfd60fc37b3776983018ddca3b715e03d99d8c679ea1e8de9df4306469213` i arhiva polaznog stanja `c811bbc07e38b5d35989ebd68889bcdb657b518e0b035fae2e502bbbc2547d15`. Prethodno generisani PDF pre ove dorade ima otisak `4b0df764040eb7b9f5c00b73d2cae5d3a4be62f3b32889a6455a6b8627be7c4a`. Pojedinačne potvrde izvora, prikaza i beležaka su u [pregledu 03](predavanja/03_kola_srednjeg_stepena_integracije/provera/redizajn/pregled.json), a stvarne zavisnosti su u [zapisu izgradnje](predavanja/03_kola_srednjeg_stepena_integracije/provera/redizajn/izgradnja.json). Ranija stručna odluka za s004 ostaje primenjena; rezultat čeka korisnikov pregled.
+
+Naknadna provera vodova 2026-10-01 primenjena je na dijagrame u 01–03. Spojevi su označeni punim tačkama, ukrštanja bez spoja ostala su neoznačena, a vodovi su sklonjeni sa tela logičkih kola. Pogođeni slajdovi i beleške imaju nove pojedinačne potvrde u `pregled.json`; sva tri `check` daju `PROVERENO`. Statusi prihvatanja i dozvole za početak 04 nisu promenjeni.
+
+Po narednoj korisnikovoj doradi predavanja 01 izmenjeni su s002–s010; [izveštaj 01](predavanja/01_logicke_funkcije/provera/redizajn/izvestaj.md) beleži tačne promene i nove otiske PDF-ova. `review` i `check` za 01 ponovo daju `PROVERENO` (37/37 slajdova). Izraz „nemaju smisla“ na s012/s015 tada je bio otvoreno stručno pitanje; korisnik je kasnije odredio njegov konačan zapis, a rezultat 01 odobrio 2026-10-02.
+
+Na s011 je zatim dodata izvorna rečenica o pridruživanju promenljive P stanju prekidača i uklopljena kao uvod u dva poređena stanja. Ponovljeni `review` i `check` za 01 su uspešni; ažurirani otisci su u [izveštaju 01](predavanja/01_logicke_funkcije/provera/redizajn/izvestaj.md) i pojedinačnoj potvrdi `01-s011`.
+
+Po primedbama na s013 i s014 gornje tabele su smanjene, označavanje prebačeno na jasno vidljivu tamnocrvenu `#A32638`, a naziv „Invertor“/„Bafer“ postavljen iznad simbola. Na oba slajda piše „Simbol za električne šeme“. Radi doslednosti, ista boja se lokalno koristi za nastavna isticanja na s008 i s016–s021. Tema `etf-v1` i prikazi drugih predavanja nisu menjani. `review` i `check` za 01 su ponovo uspešni; najnoviji PDF otisci su u [izveštaju 01](predavanja/01_logicke_funkcije/provera/redizajn/izvestaj.md).
+
+Dozvoljeni statusi: `nije_zapoceto`, `u_radu`, `ceka_odobrenje`, `odobreno`, `dorada`. Pri prihvatanju rezultata zasebno evidentirati da li je korisnik odobrio početak sledećeg predavanja.
+
+## Stvarne odluke korisnika
+
+**2026-09-25 — odobren početak prve faze:**
+
+> procitaj PLAN\_REDAVANJA.md i implementiraj prvu fazu
+
+Odnosi se na odeljak 3 postojećeg `PLAN_PREDAVANJA.md`: samostalnu galeriju i izbor korisnika. Nalog je izvršen. Ne predstavlja izbor A/B/C, odobrenje konačne teme ili početka predavanja 01. Identifikator poruke nije dostupan i nije izmišljen.
+
+**2026-09-25 — pravila i dorada analognih šema:**
+
+> za kola koja sadrze tranzistore mozda bi bilo dobro da se koriste seme kao sto je to dato u knjizi Design-of-Analog-CMOS-Integrated-Circuits.pdf. Dakle ako mozes napravi pravila za agenta koji ce crtati seme sa tranzistorima po uzoru na Razavija. Font texta zadrzi kao sto vec imas. Ali seme crtaj kao sto on crta. Dijagrami iz galerije koja sadrze vremenske dijagrame i logicka kola su u redu. Ovo samo vazi za kola sa tranzistorima, otpornicima, kondenzatorima itd. Tj za analogna kola
+
+Obim odluke: pravila i stil analognih šema; prihvaćen izgled logičkih/vremenskih primera uz očuvanje fonta. Implementirano u galeriji 0.2. Ovo nije izbor opšteg stila A/B/C, prihvatanje još neviđene dorade ili početak 01.
+
+**2026-09-25 — kompaktnije analogne šeme:**
+
+> ok, par komentara za galeriju. Linije koje spajaju komponente su predugacke. To se uglavnom odnosi na spoj baza/gejt sa ulazom/otpornikom itd. Isto i zica za izlaz moze biti kraca. Dakle seme trebaju biti malo kompaktnije
+
+Primenjeno u galeriji 0.3 na sve CMOS/BJT primere: kraći vodovi, približene komponente i prilagođene oznake, uz iste simbole, fontove i veze. Dopunjena pravila 1.1 za narednog agenta. Poruka traži doradu i ne predstavlja odobrenje završnog prikaza ili početka 01.
+
+**2026-09-25 — prihvaćena kompaktna dorada i izabran B:**
+
+> odlicno. sta je sledeci korak?
+
+> slazem se da je B dobar izbor.
+
+Prva poruka odnosi se na prikaz kompaktnih analognih šema, a druga izričito bira B posle objašnjenja narednih koraka. Odluka važi za galeriju 0.3 sa manifestom navedenim iznad. Na toj osnovi izdvojena je tema `etf-v1`. Nije dat nalog za početak predavanja 01. Identifikatori poruka nisu dostupni i nisu izmišljeni.
+
+**2026-09-25 — implementacija narednog tehničkog koraka:**
+
+> odradi sledeci korak
+
+Prethodno najavljeni sledeći korak bila je podrška za beleške i provere pokrivenosti, pa zatim predavanje 01 uz odobrenje njegovog početka. Implementirana je ta infrastruktura; nijedno nastavno predavanje nije inicijalizovano ili redizajnirano. Identifikator poruke nije dostupan.
+
+## Nastavak bez ponavljanja
+
+Naredni agent prvo čita ovu evidenciju i izveštaj galerije, pa proverava otiske bez ponovne izgradnje:
+
+```bash
+python3 predavanja/_zajednicko/galerija/izgradi.py --check
+python3 predavanja/_zajednicko/etf-v1/izgradi.py --check
+```
+
+Ako se manifest razlikuje od gore evidentiranog otiska ili se promenio izvor/izlaz, utvrditi promenu i ponoviti pogođeni pregled; ne osvežavati samo kontrolne sume. Ako je isporuka ista, sačuvati prihvaćen izbor i pročitati izveštaj infrastrukture. Ne ponavljati galeriju ili izbor B. Za 01 prvo proveri manifest, izvore i potvrde iz [izveštaja](predavanja/01_logicke_funkcije/provera/redizajn/izvestaj.md); ne ponavljaj važeću analizu. Za 02, 03 i 04 proveri njihove aktuelne izveštaje i potvrde bez ponavljanja važećeg pregleda. Početak 04 i zatim 05 odobreni su kasnijim porukama evidentiranim ispod; aktuelni nastavak 05 je odluka o otvorenim stručnim pitanjima.
+
+**2026-09-25 — odobren početak 01:**
+
+> obradi predavanje 01
+
+Odobrena je celokupna obrada predavanja 01. Rezultat i početak 02 odobravaju se zasebno.
+
+**2026-09-27 — nastavak obrade 01:**
+
+> nastavi
+
+Nastavljena je već odobrena obrada 01. Poruka nije odobrenje završenog rezultata niti početka 02.
+
+**2026-09-27 — izričito odobren početak 02:**
+
+> Procitaj PLAN\_PREDAVANJA.md i kreni 02
+
+Ovo je dozvola za obradu 02 posle predaje izveštaja 01. Nije zasebno prihvatanje završnog rezultata 01. Izuzetak od uobičajenog toka „01 mora biti `odobreno` pre početka 02“ zasniva se na ovoj korisnikovoj izričitoj naredbi; 01 ostaje `ceka_odobrenje`.
+
+**2026-10-01 — izričito odobren početak 03:**
+
+> ako je 02 zavrseno kreni na 03
+
+Uslov je potvrđen završnim izveštajem 02 i ponovljenom komandom `check: PROVERENO`. Ovo je dozvola za obradu 03, a ne zasebno prihvatanje rezultata 02.
+
+**2026-10-01 — stručna ispravka s004 i pravilo za projektovane slajdove:**
+
+> na slajdu s004 umesto NI kola stavi I kola. To ima vise smisla jer onda zaista 2 I kola menjaju jedno troulazno I kolo. Takodje, zamolio bih te da ne ostavljas komentare u prezentacijama. Prezentacije treba da sadrze samo ono sto PDF-ovi sadrze kao sto to pise u PLAN_PREDAVANJA.md
+
+Ovo odobrava stručnu ispravku s004 i uklanjanje uredničkih komentara sa projektovanih slajdova. Nije odobrenje završene 03 niti početka 04.
+
+**2026-10-01 — pravilo za vodove i spojeve logičkih dijagrama:**
+
+> U dijagramima koji sadrze logicka kola, linije ne smeju da prelaze preko logickih kola. Takodje, potrebno je dodati tackice na mestima gde se zice spajaju medjusovno kako bi razlikovali od zica koje se ne spajaju
+
+Pravilo je uneto u [plan](PLAN_PREDAVANJA.md) i primenjeno na pregledane šeme 01–03. Ova poruka traži doradu prikaza; ne predstavlja odobrenje završenih predavanja ili početka 04.
+
+**2026-10-01 — sadržinske i rasporedne dorade s002–s010 predavanja 01:**
+
+Korisnik je zatražio zasebne stavke za asinhronu i sinhronu promenu; jednoredne opise apstraktnog i realnog sistema; izvorni izraz „laku“; pune formulacije tvrdnji uz prekidače; tri reda i tamnocrvene oznake „I“/„ILI“; izraz „logički“ problemi i promenljive u zasebnim redovima; punu izvornu definiciju funkcije, operacije i načina opisa. Primedbe su sprovedene i proverene u 01. Ovo je nalog za doradu, a ne prihvatanje prezentacije 01 ili odluka o otvorenom pitanju s012/s015.
+
+**2026-10-01 — dorada s011 predavanja 01:**
+
+> s011: pre Zatvoren prekidačOtvoren prekidač P =1P =0 dodati: Pridružujemo promenljivu P stanju prekidača. Samo molim te nemoj samo da dodas nego napravi tako da slajd ima smisla nakon dodavanja ove recenice.
+
+Rečenica je vraćena iz izvornog PDF-a i postavljena kao uvod u poređenje stanja. Poruka ne odobrava završenu prezentaciju 01 niti rešava stručno pitanje s012/s015.
+
+**2026-10-01 — dorade s013 i s014 i pravilo boje:**
+
+> s013: nacin na koji obelezavas stvari uopste nije vidljiv. Ova plava boja ili koja je vec se ne razlikuje mnogo od crne. Bolje koristi tamno crvenu koje se razlikuje znacajno od crne. I dodaj u plan da se uvek ta boja koristi za oznacavanje. Sem toga, prva tabela na ovom slajdu je prevelika i potrebno ju je smanjiti kako ostatak teksta bi mogao lepo da se prikaze. Tekst Invertor nije iznad simbola invertora. Probaj da reorganizujes ovaj slajd tako da bude smisleniji. Procitaj ponovo originalni slajd
+
+> s014: slicno kao za s013. I u s013 i u s014 koristi Simbol za električne šeme umesto Šematski simbol
+
+Primedbe su primenjene na 01, a trajno pravilo isticanja je u [planu](PLAN_PREDAVANJA.md). Ove poruke su nalozi za doradu, ne odobrenje rezultata 01 ili početka 04.
+
+**2026-10-01 — dodatne dorade predavanja 01:**
+
+Korisnik je zatim naložio da na s005 i s006 oznake tačne/netačne tvrdnje budu ispod tabela, da se na s008 prikažu oba veznika „I“, a na s011 sjedine uvod o promenljivoj \(P\) i oba stanja prekidača. Za s012 i s015 izričito je izabrao redosled „nemaju smisla“ (konstantne funkcije), čime je rešeno pitanje formulacije bez izmene izvornog suda. Na s013 je zatražio naziv operacije iznad gornje tabele i naslov „Digresija“. Za s016–s018 zatražio je zasebne redove jednačina, tamnocrvenu prvu jednačinu i uokvirenu oznaku „digresija: dvoulazno“ u donjem desnom delu. Sve navedene dorade su primenjene i pojedinačno pregledane; najnoviji otisci su u [izveštaju 01](predavanja/01_logicke_funkcije/provera/redizajn/izvestaj.md). `review` i `check` daju `PROVERENO` za 37/37 slajdova. Ove poruke su nalozi za doradu, a ne odobrenje završenog predavanja 01 ili početka 04.
+
+**2026-10-01 — dorada s032 i s034 predavanja 01:**
+
+> s032: procitaj ponovo originalni slajd, na nasem slajdu fale strelice koje pokazuju da su seme ekvivalentne.
+
+> s034, tekst Pri crtanju složenih kola možemo zameniti I i ILI njihove dualne prikaze, uz odgovarajuću promenu aktivnih nivoa na ulazima i izlazu zameni originalnim tekstom samo originalni tekst lepse formatiraj.
+
+Na s032 su vraćene obe dvosmerne strelice iz originala; na s034 su vraćeni izvorni naslov, podnaslov i puni tekst o dualnim kolima, lepše raspoređen. Beleška s032 i dalje jasno objašnjava da desni par matematički nije ekvivalentan, iako je u originalu nacrtana strelica. Pogođeni slajdovi i beleške su pregledani, a najnoviji otisci su u [izveštaju 01](predavanja/01_logicke_funkcije/provera/redizajn/izvestaj.md). `review` i `check` daju `PROVERENO`. Poruka ne odobrava završenu prezentaciju 01 niti početak 04.
+
+**2026-10-01 — jedan red na s009 i razmak na s011:**
+
+> slajd s009: Y= f(A,B,...) −→ šema sa prekidačima treba u istom redu da bude
+
+> ja sam menjao izvore.
+
+> pokusao sam da napravim razmak na s011 izmedju je binarna promenljiva: može imati samo dva stanja, 0 ili 1. i prethodnog teksta ali ne znam da li sam uspeo
+
+Na s009 formula, strelica i naziv šeme sada su u jednom redu. Korisnikove samostalne izmene s004, s011 i s012 su sačuvane i pregledane. Pokušani razmak na s011 nije se video u PDF-u; postavljen je stvarni razmak od 6 mm između bloka o stanjima prekidača i završnog zaključka. Pojedinačne potvrde i [izveštaj 01](predavanja/01_logicke_funkcije/provera/redizajn/izvestaj.md) su ažurirani posle `review` i `check: PROVERENO`. Ove poruke ne predstavljaju prihvatanje celog predavanja 01.
+
+**2026-10-02 — raspored i čitljivost slajdova 01:**
+
+Korisnik je zatražio centriranje oblasti „Funkcionalna tabela“, „Jednačine“ i „Simbol za električne šeme“ na s013 i sličnim slajdovima, veće razmake između zaglavlja, tabela i simbola, kao i simetričan položaj digresije. Zatražio je i da oznake tvrdnji na s005–s007 ne budu pisane verzalom te da zaglavlja s013–s014 imaju stil kao s016 nadalje. Doterani su s005–s007 i s013–s021; detalji i pregledani prikazi su u [izveštaju 01](predavanja/01_logicke_funkcije/provera/redizajn/izvestaj.md).
+
+**2026-10-02 — stručna ispravka s032:**
+
+> s032: Kako exnili nije zaista ekvivalentan, ispravi donju desnu semu tako da zaista bude ekvivalencija
+
+> zar nije bolje da izlazno kolo bude exnili a ulazno exili?
+
+Ove poruke izričito odobravaju stručnu promenu u odnosu na original: donja desna kaskada sada ima ulazno dvoulazno EXILI i izlazno dvoulazno EXNILI kolo. Svih osam kombinacija ulaza potvrđuje ekvivalentnost sa direktnim troulaznim EXNILI kolom. Beleške, mapa pokrivenosti, pojedinačne potvrde i [izveštaj 01](predavanja/01_logicke_funkcije/provera/redizajn/izvestaj.md) su ažurirani; `review` i `check` daju `PROVERENO`. Ranija napomena da desni par nije ekvivalentan odnosi se na prethodnu šemu sa dva EXNILI kola i više ne opisuje aktuelni slajd. Rezultat 01 i dalje čeka prihvatanje; početak 04 nije odobren.
+
+**2026-10-02 — dorada s037 predavanja 01:**
+
+> slajd s037, neka sva logicka kola budu iste velicine. I radvoji tekst koji se nalazi iznad simbola od samih simbola
+
+Kola na s037 imaju ujednačenu vizuelnu veličinu (osnovne dimenzije 10 × 9 mm, uz korekciju širine ILI simbola), a nazivi tri realizacije odvojeni su od šema jednakim razmakom od 4 mm. Izvorni prikaz, novi slajd i strana beležaka pregledani su; potvrda s037 i [izveštaj 01](predavanja/01_logicke_funkcije/provera/redizajn/izvestaj.md) su osveženi. Status predavanja 01 ostaje `ceka_odobrenje`.
+
+**2026-10-02 — prihvatanje rezultata predavanja 01:**
+
+> I approve 01
+
+Korisnik je odobrio završeni rezultat 01 prikazan u [izveštaju 01](predavanja/01_logicke_funkcije/provera/redizajn/izvestaj.md): 37/37 slajdova i prateći PDF beležaka, uz `check: PROVERENO`. Odobrenje je vezano za [manifest](predavanja/01_logicke_funkcije/provera/redizajn/manifest.json) SHA-256 `3a57a05629241a97a70e2ad9eff699cf46ae159c9ff66f36de643e6f2114411e`, [zapis izgradnje](predavanja/01_logicke_funkcije/provera/redizajn/izgradnja.json) SHA-256 `6151cf4a456cb1ecb67cf8d972e557c8a80dc4ecd7da561a235ce86650997e45`, prezentacioni PDF SHA-256 `a95ebbd1af4c0e2c35feee1c4ae54c785599ac16646c1500aa201de642eaa2e0` i PDF beležaka SHA-256 `8180278a95f6f15ab6fc7a8d373d26120ba2094741b0d3273b38ba5ff28354ed`. Identifikator korisnikove poruke nije dostupan i nije izmišljen. Ova poruka ne odobrava rezultate 02/03 ni početak 04. Ranije zabeleženo odobrenje početka 02 ostaje zasebno važeće.
+
+**2026-10-02 — ponovni pregled i dorada 02 prema odobrenoj 01:**
+
+> prodji kroz kreiranu 02 prezentaciju i kroz 02 originalna predavanja. Po uzoru na 01 sredi prezentaciju 02
+
+Dorada 02 je završena, status `ceka_odobrenje`: poređeni su svi 54 slajda i njihove beleške sa originalom, isticanje i raspored su usklađeni sa odobrenom 01, a šeme pojedinačno proverene. `review` i `check` prolaze: 54/54 slajda i 152/152 elemenata. Tema `etf-v1` i originalni PDF ostali su neizmenjeni. Prethodna isporuka je sačuvana u `predavanja/02_sinteza_kombinacionih_mreza/build/dorada-2026-10-02/`. Ovo nije odobrenje rezultata 02 niti nalog za obradu drugih predavanja.
+
+Kontrolna tačka isporuke 02 (2026-10-02): [zapis izgradnje](predavanja/02_sinteza_kombinacionih_mreza/provera/redizajn/izgradnja.json) SHA-256 `4b11263f0571c24879ec25f646213a79ee9270dc8d355b051dc8c8e1f956663c`, [prezentacioni PDF](predavanja/02_sinteza_kombinacionih_mreza/build/02_sinteza_kombinacionih_mreza.pdf) SHA-256 `3d700a61ed5e45397f91a7dba4c867acab71eab5669227b042525d2a3c8e5f21`, [PDF beležaka](predavanja/02_sinteza_kombinacionih_mreza/build/02_sinteza_kombinacionih_mreza_beleske.pdf) SHA-256 `2ecb52fcb38502c66cd2f7837b044d38d33266b0048eca3cc0a5ec83af5a37de`. Završni rezultat još nije odobren.
+
+**2026-10-02 — ponovni pregled i dorada 03:**
+
+> Procitaj PLAN_PREDAVANJA.md i prodji kroz generisanu 03 prezentaciju i kroz originalno 03 predavanje.  Po uzoru na 01 prezentaciju sredi i 03
+
+Nalog je izvršen. Uređeni su razmaci, tabele, akcenti i šeme; vraćeni su izvorni detalji koje je prethodni prikaz izostavio. Svih 21 slajdova i beleške ponovo su stvarno pregledani. `review`, `check` i računska provera su uspešni; nema upozorenja kompilacije. Rezultat je `ceka_odobrenje`, a početak 04 nije odobren. Prethodni izveštaj 03 sačuvan je u njegovoj `provera/redizajn/istorija/`; aktuelni otisci su navedeni iznad i u završnom izveštaju.
+
+
+**2026-10-02 — početak 04:**
+
+> Procitaj PLAN_PREDAVANJA.md i prodji kroz generisanu 04 prezentaciju i kroz originalno 04predavanje.  Po uzoru na 01 prezentaciju sredi i 04
+
+Nalog odobrava obradu 04. Prihvatanje 03 nije dato ovom porukom. Stručne nepreciznosti s006, s009, s016, s034 i s035 izdvojene su za korisnikovu odluku; izvorni zapisi za sada ostaju očuvani.
+
+**2026-10-02 — predaja rasporeda 04 i kontrolna tačka nastavka:**
+
+Raspored svih 39 slajdova usklađen je sa odobrenom 01; pregledani su original, polazni prikaz, novi slajd i sve beleške. Svih 140 sadržajnih elemenata ima odredište. Projekcija i beleške imaju po 39 strana, bez upozorenja kompilacije. Računska provera prolazi. `check` namerno daje NEZAVRŠENO za s006/formule, s009/formule, s016/formule, s034/tekst i s035/formule, dok čeka stručnu odluku prema §1.1 plana. Zahtev je poslat korisniku; odgovor i odobrenje rezultata nisu primljeni. Originalni zapisi ostaju neizmenjeni; objašnjenja su u beleškama. Ne započinjati 05.
+
+Kontrolne sume predatog 04: original `e1f763084b19156c790ffe1f30b9d703081c8fbdc57e2ad9b2d9b73140ad1518`, manifest redizajna `f4301065e016daa6b3495b27b353908594353b4c49559ce042c8f7f88a839d9b`, zapis izgradnje `5d7e8582d18a9d3cef27c10141fede7cae659aad07647c1936122cfeb63ad43b`, potvrde pregleda `e6c0ceabd2c9cbe0dd78c5799c094b150b5047f9fe3597561bfbb157db450741`, prezentacioni PDF `0c6165a235f0f2db1d02df6b457a7f9a69ef4235bb8e37edebb8f111b8011fd8`, PDF beležaka `b66e2087052fba3429c5db2cd0753ff1cc07d2a2c58295a171a2f4ade19772f5`, arhiva početnog stanja `6f718955699cacea9fed24eeabece63dc1ae28412d345915c321662c6d658675`. Pojedinačni izvori i prikazi su vezani otiscima u [pregled.json](predavanja/04_brojni_sistemi/provera/redizajn/pregled.json); detalji i izlazi su u [izveštaju](predavanja/04_brojni_sistemi/provera/redizajn/izvestaj.md). Posle stručne odluke pregledati samo pogođene izvore i prikaze, obnoviti potvrde i završnu proveru.
+
+## Dorada beležaka 01 po novom planu — 2026-10-02
+
+Korisnikova stvarna poruka:
+
+> procitaj PLAN_PREDAVANJA.md. Kako je nacin pisanja beleski promenjen, tvoj posao je da procitas PLAN, procitas slajdove 01, procitas originalna predavanja 01 i da napises beleske po planu
+
+Rad je završen: 37/37 izvora i A4 prikaza, 105 izvornih elemenata i 36 dodatnih objašnjenja, 29 logičkih provera kroz 166 kombinacija; `notes`, `review` i `check` prolaze. Nastavni tekst više ne sadrži uredničku istoriju, odobrenja ili PDF lokacije. Istorijska evidencija odobrene verzije sačuvana je u `predavanja/01_logicke_funkcije/provera/redizajn/istorija/pre-dorade-beleski-2026-10-02/`. Novi rezultat ima status `ceka_odobrenje`; nalog za doradu nije njegovo prihvatanje. Projekcioni PDF ostaje bajtno isti.
+
+Aktuelni otisci 01: zapis izgradnje `9ce162a4311baefb73ec8579364490c01582de69a913485629137f818b9c982d`, projekcioni PDF `a95ebbd1af4c0e2c35feee1c4ae54c785599ac16646c1500aa201de642eaa2e0`, nove beleške `b34ec878de0df9a823c2ff9dee6a9cfd97166059f99c7d63946ec6097ba05811`, evidencija beležaka `4f890edb13af24ecd58ceb874d0e2937aace8783f2a4fb86dea45ce0d86c9a43`. Manifest redizajna i tema nisu promenjeni.
+
+**2026-10-02 — završena dorada beležaka 02 prema novom planu:**
+
+> procitaj PLAN_PREDAVANJA.md.  tvoj posao je da procitas PLAN, procitas slajdove 02, procitas originalna predavanja 02 i da napises beleske po planu
+
+Nalog autorizuje doradu beležaka 02; ne predstavlja odobrenje nove isporuke ni drugih predavanja. Svih 54 originalnih i generisanih slajdova pročitano i upoređeno, beleške prepisane u nastavni tekst i svaka A4 strana pregledana. Potvrđeno 205/205 elemenata, sa odvojenim poreklom i 22 grupe računskih provera; `notes`, `review` i `check` prolaze. S001 je bez dodatnog teksta. Prezentacioni PDF i njegovi izvori su nepromenjeni. Status: `ceka_odobrenje`. [Izveštaj i sledeći korak](predavanja/02_sinteza_kombinacionih_mreza/provera/redizajn/izvestaj.md).
+
+Aktuelni otisci ove isporuke (raniji navodi iznad ostaju istorijski):
+
+- Originalni PDF: `f631914c9f32a0472f4fa3af11115abaadb9316dfcf6f1528cd91ef4d28868f4`.
+- Manifest redizajna: `6d75a7ba4d60b5f3828020d0a50e6b12070486000b0fb0014c291493ff227af9`.
+- Zapis izgradnje: `8e7dece7c389747676b312d226aba0b1c70a8c1c6c1254ef960c63d7fbdf4868`.
+- Prezentacioni PDF: `3d700a61ed5e45397f91a7dba4c867acab71eab5669227b042525d2a3c8e5f21`.
+- PDF beležaka: `c3beab8568b26f83424f89c0780b4fce5ddc3c7915416c9e67affc48110e4d07`.
+- Manifest teme etf-v1: `87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41`.
+- Evidencija novih beležaka: `bf5a71a7caed810ea58610b82b0cbe68a9b296f4ddd8ae5f19b3ac17ec8e1885`.
+
+## Dorada beležaka 03 po novom planu — 2026-10-02
+
+Korisnikova stvarna poruka:
+
+> procitaj PLAN_PREDAVANJA.md.  tvoj posao je da procitas PLAN, procitas slajdove 03, procitas originalna predavanja 03 i da napises beleske po planu
+
+Nalog je izvršen: pročitani i upoređeni svi originalni i generisani slajdovi, napisane nove beleške, pregledano svih 21 A4 prikaza i potvrđeno 91/91 elemenata. Beleške sadrže samo dodatni nastavni tekst; poreklo i urednička istorija ostaju u `provera/redizajn/`. S001 nema dodatni tekst. Sve 14 grupe stručnih izvođenja prolaze; `notes`, `review` i `check` daju uspešan rezultat. Prethodna evidencija arhivirana je u `istorija/pre-dorade-beleski-2026-10-02/`. Slajdovi, crteži, tabele, njihov PDF, originalni PDF i tema ostaju neizmenjeni. Rezultat `ceka_odobrenje`; nalog za doradu nije prihvatanje. [Izveštaj i sledeći korak](predavanja/03_kola_srednjeg_stepena_integracije/provera/redizajn/izvestaj.md).
+
+Aktuelni otisci ove isporuke; prethodni navodi ostaju istorijski:
+
+- Originalni PDF: `5e68d267ca2f60c1ccdf073c2579fd64a4b05278955cc3d3f920cc54e123fd86`.
+- Manifest redizajna: `043cfd60fc37b3776983018ddca3b715e03d99d8c679ea1e8de9df4306469213`.
+- Zapis izgradnje: `fbe022a68b9f3cd17057d2df9c55fe2ca3d7a738d773df8bfc2a17d296c4b1b1`.
+- Potvrde pregleda: `3ec10952831f676fcf9c654ddb37cd802403e244879901ae481bdd5a91d24740`.
+- Prezentacioni PDF: `4bcf5f421b2d32586028a3683d572bbf8077ca9ac088927a3e76180722cec9b9`.
+- PDF beležaka: `7b5b67c09c00da4d1fb1ce6a0dcde8a055c85b5dff8230e3fd9a68405c5e7e56`.
+- Evidencija beležaka: `2a8318a532e68b33501629547b9dc3f7a1481169d1f30016b73337fb0e332deb`.
+- Manifest teme etf-v1: `87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41`.
+- Arhiva polazne rekonstrukcije: `c811bbc07e38b5d35989ebd68889bcdb657b518e0b035fae2e502bbbc2547d15`.
+
+## Dorada beležaka 04 po novom planu — 2026-10-02
+
+Korisnikova stvarna poruka:
+
+> procitaj PLAN_PREDAVANJA.md.  tvoj posao je da procitas PLAN, procitas slajdove 04, procitas originalna predavanja 04 i da napises beleske po planu
+
+Nalog za beleške je izvršen: pročitani su i pojedinačno upoređeni svi originalni i postojeći slajdovi, prepisano svih 39 fajlova i pregledano svih 39 A4 strana. S001 i s011 nemaju dodatni tekst. Potvrđeno 177/177 odredišta (140 izvornih + 37 dopuna), a 12 računskih grupa kroz 46.048 slučajeva prolazi. Beleške sadrže samo dodatni nastavni tekst; poreklo, istorija i otvoreni predlozi ostaju u `provera/redizajn/`. Slajdovi, njihove tabele/crteži, projekcioni PDF, original i tema nisu promenjeni. `notes` i `review` prolaze. `check` daje NEZAVRŠENO samo za pet ranijih stručnih pitanja, za koja odgovor nije primljen; status 04 ostaje `u_radu`. Nalog nije prihvatanje nove isporuke, stručnih ispravki ili početka 05. [Izveštaj](predavanja/04_brojni_sistemi/provera/redizajn/izvestaj.md) sadrži precizan nastavak.
+
+Aktuelni otisci ove isporuke; prethodni navodi ostaju istorijski:
+
+- Originalni PDF: `e1f763084b19156c790ffe1f30b9d703081c8fbdc57e2ad9b2d9b73140ad1518`.
+- Manifest etf-v1: `87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41`.
+- Manifest redizajna: `f4301065e016daa6b3495b27b353908594353b4c49559ce042c8f7f88a839d9b`.
+- Zapis izgradnje: `35e78760fc8367ab3cc66c18a6c47693a928794ef5aeb2fc6b803f088cc7f8ac`.
+- Potvrde pregleda: `4cf2bb1691adef13f5224f8a685baac352f49c69be1e3f61a15e0a5280ac502a`.
+- Inventar: `a5fb314bb23508017090af891a151ffae7cd1623eb7f010523e8697458ace20e`.
+- Mapa pokrivenosti: `11b55a31f0b73f9379cd363b65bbc54a088732a1bdc730b489d0c75b31ad8246`.
+- Evidencija novih beležaka: `d355bb0474ce9f4221b4cdf3e32f68111b15ba28f844a36d40d368a63059f4b9`.
+- Dokazi dopunskih računskih provera: `4742d11f4c863ac7ea6bd21de0d354b9f604521ea25bf3d3f572d8312e16ca2b`.
+- Prezentacioni PDF: `0c6165a235f0f2db1d02df6b457a7f9a69ef4235bb8e37edebb8f111b8011fd8`.
+- PDF beležaka: `94cf575c207d32de9800b20d2871c9272550e0e25e08787efdd18eef7bedaa04`.
+- Arhiva početnog stanja: `6f718955699cacea9fed24eeabece63dc1ae28412d345915c321662c6d658675`.
+
+## Tri odobrene stručne ispravke 04 — 2026-10-02
+
+Korisnik je odobrio „s006: ispraviti niz tacnim pocetkom“, „s016: dodati zarez npr: (n−1),(k−1)“ i „s034: ispraviti“. Za s035 i s009 zatražio je pojašnjenje, čime nije odobrio njihove izmene. Puna stvarna poruka je u [odluke.md](predavanja/04_brojni_sistemi/provera/redizajn/odluke.md).
+
+Tri ispravke su primenjene i proverene u izvorima i oba prikaza. Prezentacija i PDF beležaka imaju po 39 strana, bez upozorenja kompilacije. Nastavni tekst beležaka je ostao isti. Otisci ostalih 36 projekcionih slajdova i A4 strana identični su prethodno pregledanoj verziji; obnovljene su pogođene potvrde i aktuelne zavisnosti. Računska provera prolazi i čita stvarne korigovane izraze. `Check` daje NEZAVRŠENO samo za s009/formule i s035/formule, bez drugih prijavljenih problema. Status 04 ostaje `u_radu`, rezultat i prelazak na 05 nisu odobreni. Raniji navodi o pet otvorenih pitanja i nepromenjenoj projekciji odnose se na ranije kontrolne tačke.
+
+Aktuelni otisci posle tri ispravke:
+
+- Originalni PDF: `e1f763084b19156c790ffe1f30b9d703081c8fbdc57e2ad9b2d9b73140ad1518`.
+- Manifest etf-v1: `87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41`.
+- Manifest redizajna: `f4301065e016daa6b3495b27b353908594353b4c49559ce042c8f7f88a839d9b`.
+- Zapis izgradnje: `48c0fbc7c84a1a5ad6430b3c666eef481435ad899058edd32390fbd829b73dcb`.
+- Potvrde pregleda: `9ddd244a479425da255730d82d2e9ea3dc5a1267da461bb9e9e7691df544c8d7`.
+- Inventar: `a5fb314bb23508017090af891a151ffae7cd1623eb7f010523e8697458ace20e`.
+- Mapa pokrivenosti: `529a52d5a0a367f37cde3c69c73edf43bfea5c5f84cd2fb8db2548cb4f91fb6d`.
+- Evidencija novih beležaka: `1120a42938a0acf9cf3638f861b824de1f93361c9ef384c180210711b154440a`.
+- Dokazi dopunskih računskih provera: `4742d11f4c863ac7ea6bd21de0d354b9f604521ea25bf3d3f572d8312e16ca2b`.
+- Prezentacioni PDF: `ec771a45fc7bb9e8d8a40ffa284a42fcbc7c9bb86216a579e21b02e8fb82babd`.
+- PDF beležaka: `4f70b983559982b2377d3b06b4440650911d797c91f8cf5dd3ed117e71bc2392`.
+- Arhiva početnog stanja: `6f718955699cacea9fed24eeabece63dc1ae28412d345915c321662c6d658675`.
+
+## Ispravka binarnih jednačina s034/s035 — 2026-10-02
+
+Korisnikova stvarna poruka:
+
+> slazem se, ispravi slajdove s034 i s035
+
+Primenjen je prethodno objašnjeni zapis „sve jedinice − kod + 1“. Na s034 jednačina je ekvivalentno preuređena, na s035 ispravljena je druga jednačina tako da oduzima ceo prethodni drugi komplement. Prva jednačina s035 i ostale jednačine s034 ostaju iste. Tri stvarne binarne jednačine uspešno su proverene za svih 8.190 kodova širine 1–12 bita. Pogođeni projekcioni i A4 prikazi ponovo su pregledani, sa obnovljenim potvrdama. Ostalih 37 parova je identično. Prezentacija i beleške imaju po 39 strana; kompilacija nema upozorenja. Nastavni tekst beležaka nije menjan. `Check` daje NEZAVRŠENO samo za s009/formule; ništa drugo nije prijavljeno. S009 nije odobren ovom porukom. Status 04 ostaje `u_radu`; prihvatanje cele 04 i početak 05 nisu odobreni. Raniji navodi o otvorenom s035 ostaju istorijske kontrolne tačke. [Aktuelni izveštaj](predavanja/04_brojni_sistemi/provera/redizajn/izvestaj.md).
+
+Aktuelni otisci posle ispravke jednačina:
+
+- Originalni PDF: `e1f763084b19156c790ffe1f30b9d703081c8fbdc57e2ad9b2d9b73140ad1518`.
+- Manifest etf-v1: `87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41`.
+- Manifest redizajna: `f4301065e016daa6b3495b27b353908594353b4c49559ce042c8f7f88a839d9b`.
+- Zapis izgradnje: `43d64bd18305423a57aa8f1db4baf6aba4a98734223a249504ca819b9437d1de`.
+- Potvrde pregleda: `228b6d22ba57a660d1a6a773fe135209782f650f98c293cafd101b3dc782db1b`.
+- Inventar: `a5fb314bb23508017090af891a151ffae7cd1623eb7f010523e8697458ace20e`.
+- Mapa pokrivenosti: `c9464dd60f681466119fe322ef5754fd68e8e3ee287e8eb83d51e510868705d1`.
+- Evidencija novih beležaka: `98ed0615cd4db42ab6a426ec1615d5ebb7f426ff464d85f228b635e88b2f4dce`.
+- Dokazi dopunskih računskih provera: `4742d11f4c863ac7ea6bd21de0d354b9f604521ea25bf3d3f572d8312e16ca2b`.
+- Prezentacioni PDF: `29b0c7f3d60427ef95dad0b7c874f029ddb11903caf353b4479237506376de48`.
+- PDF beležaka: `604b510b43f1a530fd70d28b08e6ff5ca1be0324e009467d8e16dfd8a9e2bdaa`.
+- Arhiva početnog stanja: `6f718955699cacea9fed24eeabece63dc1ae28412d345915c321662c6d658675`.
+
+## Završena ispravka s009 i predaja cele 04 — 2026-10-02
+
+Stvarna korisnikova poruka:
+
+> ispravi i s009 molim te
+
+Izričito je odobren i primenjen strogi uslov n > logᵣ CV₁₀ za CV₁₀ > 0 i zaseban slučaj nule. Beleške dopunjene graničnim primerom i najmanjim brojem cifara; pregledana je konačna projekciona i A4 strana s009. Ostalih 38 parova je identično prethodno pregledanoj verziji. Kriterijum potvrđen kroz 76.157 slučajeva sa svim osnovama 2–16 i graničnim stepenima. Svih 39 slajdova i beležaka imaju važeće potvrde, 177/177 elemenata je pokriveno. `Notes`, `review`, `check` i računske provere prolaze; kompilacija nema upozorenja. Sva ranija stručna pitanja su rešena. Status 04 je `ceka_odobrenje`; nova isporuka predata korisniku na prihvatanje, početak 05 nije odobren. Prethodni navodi o otvorenom s009 su istorijske kontrolne tačke. [Završni izveštaj](predavanja/04_brojni_sistemi/provera/redizajn/izvestaj.md).
+
+Aktuelni otisci završne isporuke:
+
+- Originalni PDF: `e1f763084b19156c790ffe1f30b9d703081c8fbdc57e2ad9b2d9b73140ad1518`.
+- Manifest etf-v1: `87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41`.
+- Manifest redizajna: `f4301065e016daa6b3495b27b353908594353b4c49559ce042c8f7f88a839d9b`.
+- Zapis izgradnje: `91b4e9954fbad88827e5c582a6ff47e7e8a39c0ce8170ca179cb7255e5403f14`.
+- Potvrde pregleda: `c0b0fb4a3070c6c84177cd165668606d828179d935f7a2cc64c6f92ffabdad90`.
+- Inventar: `a5fb314bb23508017090af891a151ffae7cd1623eb7f010523e8697458ace20e`.
+- Mapa pokrivenosti: `f6719ddd6f57acd0f972f234cee169a8056fd01c134d400db6e7da96bea45b62`.
+- Evidencija novih beležaka: `052ee26bf27c626375e0ca237b3a7c9beed813893e14d24ef71d820b1e356757`.
+- Dokazi dopunskih računskih provera: `2d13c5cae4fcc50a139838bf23418baa31960af3b9d407e78c3af8f165f9ae65`.
+- Prezentacioni PDF: `0523380bd046584ec8d4f5407861355b6ad6c3c1b5b5833382714868b78b6dc4`.
+- PDF beležaka: `c0e42e27262b8fd5fe1e31b388e02ae9c39510e88cf53808f37786a669235be4`.
+- Arhiva početnog stanja: `6f718955699cacea9fed24eeabece63dc1ae28412d345915c321662c6d658675`.
+
+## 2026-10-02 — obrada prezentacije i beležaka 05
+
+> procitaj PLAN_PREDAVANJA.md.  tvoj posao je da procitas PLAN, procitas slajdove 05, procitas originalna predavanja 05 i da sredis beleske i prezentacije po planu
+
+Poruka izričito odobrava početak i obuhvat rada 05; rezultat 04 time nije odobren. Poslednji pregledani ID 05-s055. Izgled i beleške svih 55 slajdova obrađeni su, sa 156 izvornih elemenata i 54 dopune i proverljivim odredištima. Originali ostaju neizmenjeni. `Notes` i `review` prolaze, računske provere su uspešne, kompilacija nema upozorenja. `Check` prijavljuje samo 11 otvorenih kategorija na s014/s024/s026/s050–s054; svi ostali dokazi su aktuelni. Šest grupa stručnih pitanja zahteva korisnikovu odluku po PLAN-u; status 05 ostaje `u_radu`. [Izveštaj](predavanja/05_aritmeticke_operacije/provera/redizajn/izvestaj.md), [otvorena pitanja](predavanja/05_aritmeticke_operacije/provera/redizajn/otvorena_pitanja.md). Po odluci doraditi samo pogođene ID-jeve i obnoviti njihove potvrde; 06 nije odobreno.
+
+- Originalni PDF: `a181158ccdb62d376871ab658d804dae129b0e79dd969a731c8dca25731309d8`.
+- Manifest redizajna: `df23c8fe09eeaffaa97792f2469f903132cdf8eabed74bfcbf75ded0815b3b25`.
+- Zapis izgradnje: `9c8c804c4dec6aae02224ac4b2be40f69193619d91d58ddc7065b877d610cd7e`.
+- Inventar: `0e5011674dd459e9cda2d6cb54f494134281f484d378d50c771ce0a8ade8c897`.
+- Mapa pokrivenosti: `a16a4a8add80941eb82953115169d489c5cc533ae6142039d7372ca7a03bb289`.
+- Evidencija beležaka: `864d938feadcd7148ce105ecc2b56ae50b3b8e33077702a589462a000a10fab9`.
+- Potvrde pregleda: `6246694dbf9f52c6645d6790a50b794fae575239eb3b3bad60dffcc83fc8efb5`.
+- Arhiva početnog prikaza: `bb7cdb453c8c9c8f8c779f12d20e38766ec8417aac3d6ae2865a929a7cb2412a`.
+- Prezentacioni PDF: `956f9445f609ff7ebc6910540bef73063e24b5d584c3880cb86282c36db99143`.
+- PDF beležaka: `3578f0857301fdb63fab43c3fd1753a6ecb27ef3020daa5ecf900cc998e7eb8f`.
+- Manifest teme: `87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41`.

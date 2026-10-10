@@ -1,0 +1,810 @@
+{
+  "slides": {
+    "07-s001": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja.  Beleške sadrže samo ID jer nema dodatnog nastavnog sadržaja.",
+      "evidence": {
+        "source_render_sha256": "c83b5b95802bfa17475394bfa46d9ea8acf10bf7e048a5a3438f2a6371b741c7",
+        "baseline_render_sha256": "0fa5e0786bf388f7d95b03c640b818101a0cb147d653128b264e35ef759f9cde",
+        "new_render_sha256": "b7cdc9250a4bb6398aa83f1141f1e52f1267cc77a917f0739cb5fa5436d8f0ff",
+        "notes_render_sha256": "451bf65ecfd699b595c5f2485baaa77042a239546c356c80f4e9114d0258e410",
+        "slide_sources_sha256": "a489a71c94210e342383dc8745ecce818f9a9edc223293d4016186529c354a37",
+        "notes_sources_sha256": "b70c902ab9bf5af2a7d23684c4338ee2a7b2436353fff1ec57f624ff37d094b7",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "647cfa99f508c1aa5aa82d073487773a785272f4d0231758c7d40cd6beb88784",
+        "coverage_sha256": "1e9a247625505925b92f6be6ddca1ce62ee27c0bfcd8e2dc181fac0cc77d95b2"
+      }
+    },
+    "07-s002": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. ",
+      "evidence": {
+        "source_render_sha256": "c22d9a91ba84eb59000dbcc64eb7538d2ae238755ddc0efd1fe49a75073364b1",
+        "baseline_render_sha256": "275c23820f567755eafc7cd2168cbbf4a8bf10bf97c2180deccdb7225c817750",
+        "new_render_sha256": "ee1bad8e1a6792f311ae8f89c7c57b7f5c138706beb7df35ed0ccda6eba62151",
+        "notes_render_sha256": "e408037da01647d703fd14ed49716debc0086060b74ab015bc2672bf47430cea",
+        "slide_sources_sha256": "2a2acde0083919fcc7bbe39312f234722a13881fda90556c30ef9013afbb2075",
+        "notes_sources_sha256": "40d1cab242d04bf3c6e413ae508ea3b55a0a836f0e172b16197560a62d8413d2",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "e88226d36f0048703547d672fd44ed943b4b2cacbe930de0c2f06c4fb3a7f99c",
+        "coverage_sha256": "2dc9244ae05d11ce98674116421f2e7793b869a89ea17aa5eac6cd9ecfeff6fc"
+      }
+    },
+    "07-s003": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. ",
+      "evidence": {
+        "source_render_sha256": "22e09b685060004f930995bfbbe5d25546314429914b4f16022222458fd65ebf",
+        "baseline_render_sha256": "bcb66445c6f285242dce11e4d52aa4bf5b61ef2a25c2d3c285d8491dfba59e63",
+        "new_render_sha256": "e41f0d1ee08cbbdb8e2bf671deb3bb93030edb9c809a869b3da662db8132e717",
+        "notes_render_sha256": "8e29d5b139cb9cfe5ec4ac194a422bce22eaac58aae3dc3fb4eed7f585b06fa4",
+        "slide_sources_sha256": "a3f0e3d5046630a9d122ffe6839a6e0752c115c0720379c635fbe61e1bf9e8c1",
+        "notes_sources_sha256": "1fe7dad40f4b88e23b5195716a358d0bdb9d53b7ded62d1c93b875c9c9491ba5",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "b0976c7f75687d89ac1494aa2e697d525897b27353ee97f8f14f2f244aa84c80",
+        "coverage_sha256": "f5029d642afb36bed9e6f62df35b68c07d70e2c9ac063417a78bb45dbfb481e5"
+      }
+    },
+    "07-s004": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. ",
+      "evidence": {
+        "source_render_sha256": "32062816df41db9da1dc611a5d48ac1098664a353e14f886663df528fc008804",
+        "baseline_render_sha256": "20749dfcaf5ecaa827e6897a3c5543f9ed079f5f44780ec4c7641194da683f22",
+        "new_render_sha256": "4ee46ce6adf441cfa72cc00eb31222678d1d1c84b1533e6e143331457710845c",
+        "notes_render_sha256": "12322c605fdb287ce83c5abf96489e2a298717213e1194c5d1222009733d4366",
+        "slide_sources_sha256": "cb6a1b168f83aa77dfe41b840af839b2f06fa40fee4143b6db9c053e5468ce1e",
+        "notes_sources_sha256": "be69067950641a092bd8e8b06a563c5c4acc1df8550eaa7819089ffffd3bdf2f",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "eac4fe91f2e4cf3f07ae8e58e45886aacf6f2f6efab12d134f26467dd29a89c6",
+        "coverage_sha256": "193e1bfccf6dbcbec2378dd008252a6c6a646ee3ef236d7249128c7b04b2aa9f"
+      }
+    },
+    "07-s005": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. ",
+      "evidence": {
+        "source_render_sha256": "de84c4efb78e40645ab45c77caaf6a0f626143f08a23e9f3ba8169950b839755",
+        "baseline_render_sha256": "8a05d18e672834d7edfe03c52665f1310bb6297bc5c0ea75750d7cceb0532206",
+        "new_render_sha256": "ba3d90e218761b3fc4f5d645f1385f035d8e87eef8448662094827fbb79ec006",
+        "notes_render_sha256": "1a63f25f7e6b4753cbe92599d2b0ef1d5784c5948fe9cfc2aae20f1489092e95",
+        "slide_sources_sha256": "e604a69083382dea85749ba2d4bdd72d5062b01cb324a9106993268d8a8b2996",
+        "notes_sources_sha256": "e9d9df2a6ef5d79ac604e441b2ae9ba42d322a978bece568f1f735a7067590a4",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "0fc606dfdc3e6dfcb8be5a8d36468ddba247f9889250a4f79543da78217d457c",
+        "coverage_sha256": "47d1b5a42b92d0b13c0b8589b13daa0ce76ec249c1f4a9d5ffe05f0a65c4901a"
+      }
+    },
+    "07-s006": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "problem",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja.  Nerešena izvorna stručna primedba je u otvorena_pitanja.md; kategorija problem se ne potvrđuje pre korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "69d787211a940b3bddbc90114b7a1916aacf4ea5fba10cced7f529381aad4c00",
+        "baseline_render_sha256": "fc15273938df1e3a1b7ab4a494ce02956ecf9559c355f1e30fce2c2c023f3dca",
+        "new_render_sha256": "559f12f4385dc3b3b0e38c8a85213e9edd2253e9f6ad160b398965f06dad4f54",
+        "notes_render_sha256": "a277e755a73f9a85d28453ed3e34790d5f85bdb4d396136c6e206d9deb1dbc82",
+        "slide_sources_sha256": "1106b7e7bc9a4100007c22c43a54aad61c26cd6fa0da2698f69536333aaf2c1f",
+        "notes_sources_sha256": "9897117af69b6fbdaa2c402879f8b83ff2199ce1fc32e3f3e9cd645961f4e4a4",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "8663b4d1821157eaf866182c94f62dcd4da7884fd80229726af7aa6cbad48d69",
+        "coverage_sha256": "4a282023b3b7ae7873eaac4c1a09dbe0be6d48c0666f2249a0ce3e286aa9c0f2"
+      }
+    },
+    "07-s007": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. Proverenih 32 kolona, 64 reda, 8 grupa, 7 proizvoda i enable po izlazu; odvojeni vodovi i tačke spoja. Numeracija redova potpuno objašnjena u beleškama.",
+      "evidence": {
+        "source_render_sha256": "f11db8950661a7f5a019ad69d1f61a641cf99bf3c6ac376319f01fe8d6aff138",
+        "baseline_render_sha256": "696cdcc230a34619622824bb19be788c871b8cea259f137117bd4689fec29b62",
+        "new_render_sha256": "bdfbcf2bdb78a04833ee2948163a040827d213eefbc3fcbb1c8c9e7345388e38",
+        "notes_render_sha256": "3fe381ae513fb75464a612e5ce1556e60fa324575b7ac61f741c5357cca0a234",
+        "slide_sources_sha256": "fedafc276c9267e5007642db4b271070d98b07d1dd4c717e9cbb3620beccbfce",
+        "notes_sources_sha256": "bef7eb8fc62bf9e8a1407964a9eefbef3ff31f838f988e1432d32daf744540cd",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "b7bd2bcf2dc0e55ee43e71fa386f9eb7c914ebaa5a53a2bcbe4008111a0b24ed",
+        "coverage_sha256": "73482c95ee1dcd7f57333bae676ce4959ce9ef99210953fa72c838eac4f48da7"
+      }
+    },
+    "07-s008": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. Svih 352 bita i zaglavlje provereni po ćelijama i originalnom prikazu.",
+      "evidence": {
+        "source_render_sha256": "df5778e87298dffde07f561f0b42d5c5bde64557743de649b2094722bd0373c1",
+        "baseline_render_sha256": "4e0691af997422adc4d7bb94363670092a45af579484542e96f9441eda8952c9",
+        "new_render_sha256": "a0950b6878f14f3c88925aa24b13623a377a8ca8c81a68385e1361039804c14d",
+        "notes_render_sha256": "579bbea96550d3b2bbb8be3a43f27527dc09dd533304d32123f75dd646d3af4a",
+        "slide_sources_sha256": "8aad4bf2929b74e2a3503a4ae4005cf9c054cd426cf6b78799ff9825e143df69",
+        "notes_sources_sha256": "193d20d79d583621d400a675d59682e6040a65d8855107e43bbd0e6210a94a21",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "676127655803d89c7d0cb20b8d3cec280225a172cdca2c753c76f62858881b78",
+        "coverage_sha256": "08cd1f48e2eeab8ed484757db820eaebb2ed795f077debb68d03f5952c973756"
+      }
+    },
+    "07-s009": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. ",
+      "evidence": {
+        "source_render_sha256": "6ce0ae86e607d8de9d6ee166477517988d5ad64a5c580e7e5f0f6fea24855dce",
+        "baseline_render_sha256": "96c24d17b43d8514aad114916d583ec061c623a760ceaadcecfb71c45304b66f",
+        "new_render_sha256": "93d86e5e4643d911be5a2e0e11c492784320f80a4ab0fdf104fdc9baa715b9c3",
+        "notes_render_sha256": "0a9ad34bd28f11c211da1f8f92363034507a6288f4a7450e1efad2113a305b1d",
+        "slide_sources_sha256": "011f20a1d9ae8798aeb45e92bd28d3fadafa39da1a0f3995ede46758654722fb",
+        "notes_sources_sha256": "6571fc436d934df20e697185612479dcec5bdda2d24eebd9a90044654076f098",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "bc161d024f15892d6e91600064565adb16da76a1f60ae5eadc0e58cc1ae8e654",
+        "coverage_sha256": "19b04cf7f8b08fed72724c8096aa777df3a7a6c6eca6bbb190dfb3055d421785"
+      }
+    },
+    "07-s010": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. Sva četiri AND testa i ceo algoritam prioriteta ostaju vidljivi; nazivi i izvorni komentari dodatno objašnjeni u beleškama.",
+      "evidence": {
+        "source_render_sha256": "4057daa4bdc7500f882459d6c5fdf7173a378792688a4490cf58761e07b92e82",
+        "baseline_render_sha256": "4deb4f677f0d6e5b14ae44a30d21bb982308b1db27a1f62b4be32cf7a7dc6ed6",
+        "new_render_sha256": "e76f8694cdcb60cd0e4d330dc3d2035ab00efcf9f2e9a81c3a806aad20db0efc",
+        "notes_render_sha256": "d7bca0f77f36a976e9b93019f371552878192c8583fccdc6c1988c73df44ff19",
+        "slide_sources_sha256": "ddbebb7ddf10774f715a82b3a28783fbd4a81a628db28f44669f9e6ca0ceaae7",
+        "notes_sources_sha256": "ddbd1ffc6cc714043cee84be540c87ee7746b00475f8cd89409e3336e2224ff2",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "1c25a0533cb974c8b617ab3b11c2b062d4e1d5de2339fb377874c4dc68696d30",
+        "coverage_sha256": "4dbfcffcdf5e2953024ab27bc0a3059608b76c48e779db3ba96f205079086d53"
+      }
+    },
+    "07-s011": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. Svih 12 testova, pinovi, veze i definicije vektora pregledani; izvorno biranje c i za select=3 sačuvano.",
+      "evidence": {
+        "source_render_sha256": "d2946a92ec58a805bae116a5aa69a3f28278118796e7499409375b195d323d5b",
+        "baseline_render_sha256": "771d3ab162300f7de54cf9e1b1d89108cfc8b823ddfc186948fbb94ebd838837",
+        "new_render_sha256": "29ecbdbd373011bc8d5f087aefe4edd540d3da60180794601125fef7b83b148f",
+        "notes_render_sha256": "53eb81f696d687e984cf3499f5f58352582e48713d78e1f7622db88e381f606a",
+        "slide_sources_sha256": "a75c81a6fde0c5e38790efeaea33dbea25fd198b50596e526dc4e1d0f7f231c7",
+        "notes_sources_sha256": "71e0a2b293e052b6a330c33895129ea3ba9854c70abdef0718a1ccbe08fe6d05",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "86124208ebb5b71c21631ab9cf2604bc3432814961c238d5d9594123b9fe839f",
+        "coverage_sha256": "2afff0d4c0af1e6123af3a9f1fc8bbad9243c85c7f46a0267f30b2d604d7cd93"
+      }
+    },
+    "07-s012": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. Oba toka, njihove oznake i povratne strelice pregledani prema originalu.",
+      "evidence": {
+        "source_render_sha256": "a713080ce81200298608f7c88940d727f62af76d13439ae3d00012b9a17d098d",
+        "baseline_render_sha256": "6196bae94570ade3fb2c554228b3126f8998c069b131500495093d9784642abe",
+        "new_render_sha256": "55323197505dd66f4167c40518c6efdff3582cee6694d13fab48c92cd0af4696",
+        "notes_render_sha256": "2333a50bcd9cb62c076ad88318a6fc486bf2fecaeee12ca463b3238559342f27",
+        "slide_sources_sha256": "5276490979f0b5ca502fac3fef42f47bf4351887be848c95f3f916d83d537ab1",
+        "notes_sources_sha256": "f353359a574a545569fca0c46ed0d2fc15b3844b326321ed9128a7f932c8ac76",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "76e7e39773f25c61b4bac6c23fbbc848afd3e30d5f3727a7f56e3ee6184dfc11",
+        "coverage_sha256": "d9799466b8a0d65cf303c26e576d14a3005ff252d92041a7c7688453bbc5ebb7"
+      }
+    },
+    "07-s013": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. ",
+      "evidence": {
+        "source_render_sha256": "4ce97d3225d7df1ee56cabcd05739ef7ba4cb84a5972ce85f3da4922b6f9b614",
+        "baseline_render_sha256": "84452dd70256946d8d3a10877ac61f5a49998b24ea7f0c0215b9d3482fa944dc",
+        "new_render_sha256": "14cacc3a590dc92cece39ca8e3d5d8fdb8bc56a3db81074cfaddcbec738f0bc1",
+        "notes_render_sha256": "efde9f77147fc0548f97f56367409c42b334e27c0ddcea877d7b64252360349e",
+        "slide_sources_sha256": "5183a8f870b5b0fe9fe565178192292cea781f72ec58b3fae4e1cb531f1b411a",
+        "notes_sources_sha256": "e3785262d4d552f2fc264ff3231f3e94dbb47191e8b9a12cadfd2419f23a6f2f",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "95839a0878de40b338ba6dd0d0ae16c18e3af822bffc86427ced89c90627ec33",
+        "coverage_sha256": "4fe6eb2f9929a1fa1fa1f3aef4861212ddd6b50620c0376205dcfa820bd2c788"
+      }
+    },
+    "07-s014": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. ",
+      "evidence": {
+        "source_render_sha256": "fcb8d2edf5e6240329a84baff20622bd8c6cd300c83a9c574c1fd24590e2bc05",
+        "baseline_render_sha256": "181bb8d1ded2238afb25d36062fc98d17635d166c7ae092d71e6e766e5edfd81",
+        "new_render_sha256": "b3c5bcb308a09a8ec7befd105a594240973078f11ced465683c1780a59184083",
+        "notes_render_sha256": "b6b9a0605e44d117ca2cd6a91be9e72d28c538101cf57f52871e3b1627942315",
+        "slide_sources_sha256": "f2331cc56b8cd2e15fab1dcf2696481ea2648d030f8a078cac7e2ae4894ac04d",
+        "notes_sources_sha256": "183cac2316a0fc6c5e867cc9ecd7df36071ab690fb366a821c9b014d1f85aa0c",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "2563ce8f02908c9d53d04e7858941dde8d6981c711b7f093651628c45ee5c9af",
+        "coverage_sha256": "bd2b630e3ffedafb55336de2968a8c4655ab096e818a2627ef7bfc9af636d8d1"
+      }
+    },
+    "07-s015": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. ",
+      "evidence": {
+        "source_render_sha256": "2c90069c35e3022ecfe05660d751abade3e70f5457540034d0dbdd177d652d60",
+        "baseline_render_sha256": "4e4cff6bf2104bcbfa520a19d6100c5665ac5f7a078b330a0ce924ff00f98c04",
+        "new_render_sha256": "32a2017b1e98bb6515705fe44998c5ea024c86b11e8e1741facb4ce4abcafe4d",
+        "notes_render_sha256": "4666cff6435b2b9079603623a9533459cce70e0a96aec856c2fbc4885fd330c3",
+        "slide_sources_sha256": "1ae19768f3bb3cc7b55f3ce0c85380bf2c820d99207828828faa827e4dc56e4f",
+        "notes_sources_sha256": "41b5d6b14301a4a41687c5a002fd4a63cce52bd941de8aad33cea64634e29ea1",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "640e58959ee62d38da2907588fa51a6f051b4aeb6bfdf1fee39ac2fb819b0c4f",
+        "coverage_sha256": "26ebca7df99d52fc8eca6a31e80b5219c0e01e2b916046509ee522a499d03377"
+      }
+    },
+    "07-s016": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. ",
+      "evidence": {
+        "source_render_sha256": "f5ac530a242251d76ed3a5475dc4d28d05d9390fb6dc40c4ff4ab809d957f51e",
+        "baseline_render_sha256": "baffd9531234ea68298583b28a460e17270d1483b5862b3df21f216ff982ca72",
+        "new_render_sha256": "fb22161cb57ca88448a7fd812ec664fca63974382a0280343f91a6a806a61e0d",
+        "notes_render_sha256": "91c0b911946e11d593f7c93361c7421f93f3d53a0579eba4f928ba6dc4b7b067",
+        "slide_sources_sha256": "af24bb79670ff266f019a5b1cf04f651c9ae7fb09335df563ba36a763010c053",
+        "notes_sources_sha256": "37fb66225b93d5a2567ea7702ace3762166277a1b2c4dd76a9fb86a966770f83",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "2c8a005a28753c9ba1d4bd402e251a627348334acd3384442840f612280ec6bc",
+        "coverage_sha256": "51552b68c0c895349e06c705275253a676b342f5c36839ea94334c7291c0acd1"
+      }
+    },
+    "07-s017": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. ",
+      "evidence": {
+        "source_render_sha256": "8bf9f07641b02230e0bd7a8bfbaa384512236efdcee14a6031b43caa6ebacd84",
+        "baseline_render_sha256": "ff7519bbd137ded2a61377059d77ec0bd6e7b468c5a039abcba6dbfa5b9cf840",
+        "new_render_sha256": "60c91ceeaa026b1c36f85aa86c80f1fa0d956e550e0b3a42f516b5cc4f1b4a3f",
+        "notes_render_sha256": "83548dca11c7f82ea89f58dec9b09aa2e98d7035d9dc982837260c2e91bfb48a",
+        "slide_sources_sha256": "b058dcf881fc7c8c30e57cf42136a2c499527f7a23eba1724b78cc95219172e0",
+        "notes_sources_sha256": "c61a6aa8d00bf8ac58ed3212591992ed92b95167fdf9e82b735c7ffc69d75a57",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "8bf4d3ae5b2c9c3631048aaff32b181b20e41ab8712f624aec5fa2547021c8c2",
+        "coverage_sha256": "82cb2803782efe1b3c3d171c4fd9ba19c056084946b9087a97039a4bbf2375ce"
+      }
+    },
+    "07-s018": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. ",
+      "evidence": {
+        "source_render_sha256": "689872e8d9065fdf9e474816ed08696ad782dfd4189fa7fac91c7018a506c828",
+        "baseline_render_sha256": "79f41ab94a65a706db12e31b7bba9e426e18de1c0e3a932c69023639c0f27024",
+        "new_render_sha256": "234234101eea794b6ad350f62125ca77669ca0c379c1a00aeadd36eb9c885bb0",
+        "notes_render_sha256": "0c360ba5fb09e7c60eec7919b7efc5589dd9a296931a7b35732d2ee09c067fd3",
+        "slide_sources_sha256": "40010769dbca875e66120d155f3d991d034546542e919dace0685eeeee5a70f4",
+        "notes_sources_sha256": "8b3c25b4a07285c2caa4e41f1dc3954679ea0438df346fe7c50906e60406c8ce",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "e390d9201102dff454cce1a8051d5ec24685c817f9600a86e114f4b9fe414b48",
+        "coverage_sha256": "5887659bb3a8b6cc1b8d44f01f2514f4d75ea8e2827d7e6cc07c59b19d319196"
+      }
+    },
+    "07-s019": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. ",
+      "evidence": {
+        "source_render_sha256": "0b47fc01bd2cec3a4e6c052170cf2c01e812c7bf82689a80b367880bae229497",
+        "baseline_render_sha256": "9fd186cbef3320feacec3ed1aacec52b3ae4f78b3e3e8229d45b6b951b4b86d9",
+        "new_render_sha256": "40d3db1dd4d46a0f1ebd0e1b22bd6ebe3a3054624652dff2a2462041950b5c41",
+        "notes_render_sha256": "6c92bd3bc5c57bddc4ccd5d247f83fba39d80ed04949db4ce801f6412488a0a8",
+        "slide_sources_sha256": "f22f7ee99b081db9505271029b007fae7af02c8afe2d4ce6c46cbfb91cde8803",
+        "notes_sources_sha256": "665a8a5c0cb3cfcfe0d9c61f0180ef4c0d9d6fe0648b8cb390b81cbd53cab2f7",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "6e8c1505032126ecfa746abccd3e29e48a1506653448c155791fefe7d9ba8748",
+        "coverage_sha256": "b4ab2a47dc3b92c3dceba07851fc51bc06c8c7ae148abbe47581e02fcc1a825f"
+      }
+    },
+    "07-s020": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. ",
+      "evidence": {
+        "source_render_sha256": "4542df7d4e6203c6e1ed9b46914fbef71a2048ec766874229825473c90dd1ead",
+        "baseline_render_sha256": "e6ed94fec6740ee2334d8f4981a403422adabdcf9c3d4632d852bc734f66d30a",
+        "new_render_sha256": "f998fe65c8a004c79cc5216c794617f40de250246641de80b01da165073eb49e",
+        "notes_render_sha256": "126362d9f0538726b50f11df18c838ecf30b82de2cd85c3f394c93e4bb41f285",
+        "slide_sources_sha256": "944cc87ca18337606967afdf2421e8be9aac0d7717d6c77184c2b1e327437cff",
+        "notes_sources_sha256": "508071b555598c35883cd19e8c597afca554d2a3f1cd45fa1d5b0fb6fedbf4d5",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "cf1a0174895d83caf58fbba519a2783a27468e8f9e5ed49d60b5ac8b2ed94414",
+        "coverage_sha256": "a69e40f01abc7849bb5146c06348c456355a99491321d0928a28affad893af82"
+      }
+    },
+    "07-s021": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. Šema I/NE/ILI proverena za svih osam ulaza; veze ne prolaze kroz simbole, grananje ima tačku.",
+      "evidence": {
+        "source_render_sha256": "0e4032cc370ad7d141858a1753ec860488ddbe333f3e6885b0eb7c8338535112",
+        "baseline_render_sha256": "709a259c1a74a34111fefeae8200ed7d5a5b4f6e04c6ef2a01a6e6bd69b71780",
+        "new_render_sha256": "2d574f804309e480880f0ef0b95bf1d5c679016135a9415d40e555f538865a7f",
+        "notes_render_sha256": "456fd4d028470fa316132f1df81e06a1005613fe6c4991f6fa909c5d2f20f0e5",
+        "slide_sources_sha256": "fa0632fb8767b9e2866bbb311860f96697d4170463c20412d567e34eb35463b3",
+        "notes_sources_sha256": "532eefee4e0ff01072f38290b75347d0432dd2951defca387267f6cff1ded289",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "18c0d6092d071a7d5e8b34aec93a6a79aa0e76fd9f94331d59b6ce34b93f5f63",
+        "coverage_sha256": "476e489dfa21afda9c9a5a1265e2f946c2fbafb75f9dca950b3322150c9c7048"
+      }
+    },
+    "07-s022": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. ",
+      "evidence": {
+        "source_render_sha256": "90b25e6335552cc736750b2320a17c464fe422d1d07125a6c3831d42117e39cb",
+        "baseline_render_sha256": "2f5894eb8fc76f10293a44186e7cd7b7f7ea31112cb63965a99726cb6e102ef7",
+        "new_render_sha256": "fc55e30532d76f2d5ffbf921db13262e342dca47a68c78af2bf0c232d99f7ab0",
+        "notes_render_sha256": "5e1124242261d26e9219b869a16d1b6405b447044e2df21c4a7b48e6ce57c9a0",
+        "slide_sources_sha256": "1cecef424fb3e4ca57b17f67a1c321e1aa5aea8e3162fd71d6dcd00d2080bf5a",
+        "notes_sources_sha256": "569d642a020c5f1d16ab94523d1822290de04aa361763178a6b4d49e2798948b",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "e718de6341a0d3e895c053a21377f33a84684498ea03127c2ed0514e6722a582",
+        "coverage_sha256": "d8c1982288dd0c25aaab938c20a21efc7e94a437e7e471448c66728ae4da14b0"
+      }
+    },
+    "07-s023": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "problem",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja.  Nerešena izvorna stručna primedba je u otvorena_pitanja.md; kategorija problem se ne potvrđuje pre korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "022e099f6fa41281ceb77d66537cb535e20f0f22c98fb0b0d321dbc81f3996e6",
+        "baseline_render_sha256": "609ffcb4219cfa251b3680e4cb4df964c85bdc1687ff864a89b3cbb49210ef96",
+        "new_render_sha256": "bcdc17fc05c77a6f531da220f13e460b1b8f55d6705ea99cd5ebe107c682ddc3",
+        "notes_render_sha256": "c5651deb237d3cb6b49779b575e7161f3cc2659a82f2bd98846bb36ae4179854",
+        "slide_sources_sha256": "a3480e1bdd6d7b1fdd40aeedd7e446ecdb654c9ea80d31e7632665c574180a67",
+        "notes_sources_sha256": "1416b713b446e8da9d14976642363f61c1674473acb3cc20f8e68898f69b5a64",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "6ebd819a6a9ec8412a8be87c5639e85e444933c9f59073301af29ac5e534fc9c",
+        "coverage_sha256": "5667b2b6bbd1d88806d7426bda6b4485b6359674f25806a40af2e62f5dd61306"
+      }
+    },
+    "07-s024": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. Potpuno očuvan kod i obe jednačine; svih osam sabiranja provereno.",
+      "evidence": {
+        "source_render_sha256": "eacae2387f97d3ddbd508571cb14d53fa98dd9faf13e2c8246abf0ae4ef73263",
+        "baseline_render_sha256": "0fb2b0ac52beb422bca3c6faea71694568b1f7f0f84b92d5dcefc847a1ef2350",
+        "new_render_sha256": "68f3e82f86e3bba2f60f9ec9b53e0514d353c942817a210c8c73c9e3fc07e149",
+        "notes_render_sha256": "f5d22a6866457261f7f9efcc6a001c1d653cc99ce8bcac5a3522331b693d0f43",
+        "slide_sources_sha256": "be1213f3d691c84839f563a036cb4595190c2ef485fcae3f74039d265d2af5b6",
+        "notes_sources_sha256": "fdea031d085680601635979d625665eb75ce311dfc68c2d72932de0b32b685d7",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "f6f1ca8e0ab2ec1be4d39bfeba473098133ddcb6f8759ed037dc5b5cd7a889f9",
+        "coverage_sha256": "85689bdeabacad9e9fadc86d9d30982a11b75f843b04ca23fe7bbb83b390bc9e"
+      }
+    },
+    "07-s025": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. ",
+      "evidence": {
+        "source_render_sha256": "6af4f50f50cc80c78a414b54b48034ab508b6054da7e5943f95542c6b21ed28d",
+        "baseline_render_sha256": "0cb030bc90d14ddc9103f1774474855485dd5bfe077a15f13b0073ba4c3a7325",
+        "new_render_sha256": "067b217c9729675cc9750f19318451b38adcee8248840cd0ceb972beeeb27298",
+        "notes_render_sha256": "67c61469ad1548412a0ae4f69ce94fb9ba2a8a5ad7d33ebfeaa8844918315df8",
+        "slide_sources_sha256": "69e50db16fa252837dfdcad3c07d9ddc4d63f34ade02ab25da8f95b01aac7df9",
+        "notes_sources_sha256": "9f30c06d69b5c0de7da70b709a88895e0e546e378044bc3bc7f6aaba393440a9",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "99a5d0cf6aa0613b94e5007632da438e978e1280ff075893101d0ad2420a1285",
+        "coverage_sha256": "d9d74d026fc80dcb522f4b5e65a28d7a948d596dfb819055396ff12ff665df20"
+      }
+    },
+    "07-s026": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. ",
+      "evidence": {
+        "source_render_sha256": "6406e6b7e0b0d3ee63a274ab2d00994abf6cd250d213cb84300546569bbac48c",
+        "baseline_render_sha256": "5be494ea685f85d97702ffd9f43d200bc227b1557dbe191c9f0613f32384883e",
+        "new_render_sha256": "32decc4caceb5c40e20eaade81afb410b3927750b89e6582c9c9f39ad611d509",
+        "notes_render_sha256": "ba7e05268a9cd1905e683bd064bd923491ee7770b658657fc784731598e23aaa",
+        "slide_sources_sha256": "14a3f432c16cf30fac3b0e43f4bce22152651e836f5587e0b1d541d52b1c7f23",
+        "notes_sources_sha256": "560b5788b6402fd858532c12ef43abc5035a719b15fe3004ccc8cffc9d21c3cc",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "66bba2e0c26409bf6e84934652dadb93712ab017bc2a29de676e5be0f44f9b89",
+        "coverage_sha256": "170fc606067dfaa1e3c812a9e7a8720fdfe1aa344ae269fc65bb893b727f7b67"
+      }
+    },
+    "07-s027": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "problem",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja.  Nerešena izvorna stručna primedba je u otvorena_pitanja.md; kategorija problem se ne potvrđuje pre korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "2c7fd7503debf4f1a3ecf98d2ac72f798bbb4f0bf5ded84b3c78a0976723b653",
+        "baseline_render_sha256": "08ac934679a0c282200548f820e6794ea83113df88d666014b735b41204732ad",
+        "new_render_sha256": "ba1414ab19b9dc34cbb9322f6723792aef75bcc6bbbf00c10eb8074070370f45",
+        "notes_render_sha256": "3a495d1b399fb1d6f43ebfb8564ca14c6af5ea4431cb8454a15d1f21b8fe5882",
+        "slide_sources_sha256": "dcf098da3958598e85ad523b9a958916ea8240c4f8311b2f818ed64e9f618a40",
+        "notes_sources_sha256": "5e76ea20749da21e322f525ce62e566efde9e3bf44c7d329aa1d88450877b8aa",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "69e7a1bc3ccd1905063eff583752c5b52da3be35f111c6c9cfb5d43fa5176b9b",
+        "coverage_sha256": "5fbac3924024d000ed1e931eb74be4b608b1f138de4c80d80f141fd93d225320"
+      }
+    },
+    "07-s028": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "problem",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja.  Nerešena izvorna stručna primedba je u otvorena_pitanja.md; kategorija problem se ne potvrđuje pre korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "da1a666fcddd7dc241b1f6241719333af43cfc0bef77bac4874425d71fc81498",
+        "baseline_render_sha256": "a88e27f323614fb1ca2203fc39daf191605122663b3ee1bf4408fd7c099236bd",
+        "new_render_sha256": "29b1f532eae6e5a75f1baf224f2ed2ac6ddb0000d3164fb153f400634ea9d0e6",
+        "notes_render_sha256": "5523db601cc1f2469e3a224343a8e5785ae436c523dedaf7052fe9d4d92ed05a",
+        "slide_sources_sha256": "b2e8aa4122624f9f2d6f2237c888f14c58b47751bb2be674eea2b33c46515098",
+        "notes_sources_sha256": "6342121a92cbaea8e42f1456bcdc25a7806a63fa6b32717dafd65c67f56cb0b5",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "3ffcfeb3491e1308395a99ec7928f87e6d55299a19eae25117b77ee1167b3ccd",
+        "coverage_sha256": "7704fc51982b0eb214e478014922ae8226ca008c06516adffb175d1435f8c689"
+      }
+    },
+    "07-s029": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "provereno",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja. NOR sprega, tačke spoja i ukrštanje bez spoja; svih 20 ćelija izvorne tabele i četiri koraka upoređeni. VHDL-2008 uslov u beleškama.",
+      "evidence": {
+        "source_render_sha256": "67d76b8db6a8681d81ede65420005da0adc5caea6084d746a46265f3782053df",
+        "baseline_render_sha256": "c25e02aa7cf48b5e9f28970d46bdde8a7d9f77a4c574b6d63fcb95b336d5a011",
+        "new_render_sha256": "838a59402ee71eaa112c63a08792b99956479dc2c69c224a46570e9cb9349a3f",
+        "notes_render_sha256": "69dc4f4636da2daa5db5fb132799569b857f3fee0502b4f34d88aa41bee7f4c4",
+        "slide_sources_sha256": "8289a57fa9a94afb04d2c4bce1154f8ae31f9ac78796368f0c9ac09abe69dfcf",
+        "notes_sources_sha256": "ab0064dfb7edc2316a43d50b01b622124bd56a2f6eda121a8b6fe9bd35393f26",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "3c54abe9e8e9fb7a6f0f03ca1a64b1b08e1198d1aa67602ab740b1aa2eaf5656",
+        "coverage_sha256": "be52d833f9509238ea727051f5cf02a29f400a38ce8c420f96b359abe98e7a9f"
+      }
+    },
+    "07-s030": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja.  Nerešena izvorna stručna primedba je u otvorena_pitanja.md; kategorija problem se ne potvrđuje pre korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "e2c8a7ab74be24c5ccbfa9724b70e46edc98d8f1acd5441c53206ea1a42306f6",
+        "baseline_render_sha256": "0c61350d27b9b4e5f84c7072cd1d5b9ebb62976e1b94df14a910e43c37d563e6",
+        "new_render_sha256": "8216e974d6fa915c71081b1dd44979d3d81a107dd5e0431482f09cc4c085eb71",
+        "notes_render_sha256": "2c879d331f72f320f451941f6477ef402b52c55fe694d9111a5fd62972ff3f00",
+        "slide_sources_sha256": "57dfbe808bb1a89d2c7ad4fbe36d7ec5ea9d5fe0a81a6b9e9610d573def62f3d",
+        "notes_sources_sha256": "e3d555b70d0aabea990697e12722e669603ddbad09ba5611efb17c2f6c6f2a55",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "1c1c948faab65090177c4cac5ecf142c5bc68f6261ac0d6f296f7299b5b0eb0a",
+        "coverage_sha256": "fa61f9c75e77d08dfd413e2a5d10c1302236bf434bf4ae9e0b3a8e74d62030d1"
+      }
+    },
+    "07-s031": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "problem",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03",
+      "reviewer": "AI agent — stvarni pojedinačni vizuelni i sadržinski pregled",
+      "notes": "Pregledani originalni izdvojeni slajd, početni LaTeX prikaz, novi projekcioni slajd i konačna A4 strana beležaka. Proverena odredišta inventara, razmaci, kontrast, oznake, potpuni preneti nastavni detalji i odsustvo uredničkog sadržaja.  Nerešena izvorna stručna primedba je u otvorena_pitanja.md; kategorija problem se ne potvrđuje pre korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "fb51c5e29a6af0d79498e4b073630cc7c38a3cca12c3807d3de53c748ffdde02",
+        "baseline_render_sha256": "ba6b12847161d073cc10ead1a2ca474c3c9ec1462446ab637071548a9019beb3",
+        "new_render_sha256": "27910d0405146bc6fdf48dde29e25bb94ef68cd4cc7848e071d794e923e8d4f9",
+        "notes_render_sha256": "55974600614bf62ee307c5461ea3f16ccfa2f532978bf0b7b6afae6b97e9baf1",
+        "slide_sources_sha256": "37eeb1d52e2a60ccbda24be13a63544102f863f0ef7792503140c1a7632b590b",
+        "notes_sources_sha256": "6cbd6ef811264a9b21659af37e485e1ae567f9faa121c8572466d791a40a5a91",
+        "shared_sha256": "69f24bf6b4bf9443c3449d5d4b4953ec089f5602f54c1959c66c8840f83a76ee",
+        "mapping_sha256": "ff4bfef0592c5d6bbac7e89c520d81de42ce923fc12bd43f474b10c48fb5a9ba",
+        "coverage_sha256": "328a6cdaa6eb18eec3ca6bcf0736a7dfb14d04ba0710de126a45f96378af8f0d"
+      }
+    }
+  }
+}

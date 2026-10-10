@@ -1,0 +1,10 @@
+\BeleskeID{04-s038}
+% element: 04-s038:e01 — MSB za znak i krajnji položaj tačke iza MSB-a
+% element: 04-s038:e02 — Komplementiranje kao celobrojno pa skaliranje RVr=CVr/r^k
+% element: 04-s038:e03 — Primer 4 bita: 0.75, 0.110, 0110 i negativni 1010
+% element: 04-s038:e04 — Težinska provera −0.75 sa sva četiri člana
+% element: 04-s038:d01
+
+Tačka je iza bita znaka, pa postoje tri razlomljena mesta i jedinica najmanje težine je $2^{-3}=1/8$. Kodovanje željene vrednosti počinje skaliranjem: $0.75\cdot8=6$, čiji je četvorobitni zapis $0110$. Invertovanjem dobijamo $1001$, a dodatkom jedinice $1010$.
+
+Kod $1010$ najpre tumačimo kao označen ceo broj: $10-16=-6$. Tek zatim delimo sa faktorom skaliranja $8$, pa dobijamo $-6/8=-0.75$. Neoznačeno čitanje $10/8$ ne bi dalo traženu vrednost. Isti rezultat daje direktna težinska suma, jer i negativna težina vodećeg bita mora da bude skalirana.

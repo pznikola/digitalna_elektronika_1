@@ -1,10 +1,13 @@
 \slajdid{09_2-s008}
-\begin{frame}[label=09_2-s008]
-\begin{columns}[c,onlytextwidth]\column{.19\textwidth}\centering\input{slike/tikz/s008_invertor_ugradjeni_kanal.tex}\column{.79\textwidth}Napon logičke nule se dobija iz izraza
+% element: 09_2-s008:e01
+% element: 09_2-s008:e02
+% element: 09_2-s008:e03
+% element: 09_2-s008:e04
+\begin{frame}[label=09_2-s008]{Napon logičke nule}
+\begin{columns}[T,onlytextwidth]\column{.24\textwidth}\centering \input{slike/tikz/s008_invertor_ugradjeni_kanal.tex}\column{.72\textwidth}Ulaz pobuđujemo naponom logičke jedinice: $V_I=V_{OH}=V_{DD}$.
 \[k_{n,L}(-V_{Tn,L})^2=k_{n,D}V_O\left(2(V_I-V_{Tn,D})-V_O\right)\]
-za $V_I=V_{OH}$
-\[k_{n,L}(-V_{Tn,L})^2=k_{n,D}V_O\left(2(V_{OH}-V_{Tn,D})-V_O\right)\]
-Uz $V_{OL}$ malo
+Za mali $V_{OL}$ zanemarujemo njegov kvadrat.
 \[k_{n,L}(-V_{Tn,L})^2=k_{n,D}V_O\left(2(V_{OH}-V_{Tn,D})\right)\]
-\[V_{OL}\approx\frac12\frac{k_{n,L}}{k_{n,D}}\frac{(-V_{Tn,L})^2}{V_{DD}-V_{Tn,D}}\]\end{columns}
+\[V_{OL}\approx\frac12\frac{k_{n,L}}{k_{n,D}}\frac{(-V_{Tn,L})^2}{V_{DD}-V_{Tn,D}}\]
+\end{columns}
 \end{frame}

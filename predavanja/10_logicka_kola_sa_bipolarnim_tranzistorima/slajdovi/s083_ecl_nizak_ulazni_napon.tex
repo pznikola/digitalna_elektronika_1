@@ -1,14 +1,12 @@
+% element: 10-s083:e01
+% element: 10-s083:e02
 \slajdid{10-s083}
-\begin{frame}[label=10-s083]
-\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[T,onlytextwidth]\column{.29\textwidth}\centering\input{slike/tikz/s082_ecl_diferencijalni_par.tex}\column{.69\textwidth}
-\[V_{BE1}-V_{BE2}\ll0\]
-Očigledno je da nejednakost može da zadovolji jedino uslovi
-\[V_{BE1}\ll0\qquad V_{BE2}=V_{BE}\]
-odnosno situacija da je tranzistor T1 zakočen, a da tranzistor T2 vodi. Otpornik $R_{C2}$ i struja $I_E$ se biraju sa uslovom
-\[V_{C2}=V_{CC}-R_{C2}I_{C2}=V_{CC}-R_{C2}I_E>V_R\]
-tako da tranzistor T2 kada radi ne ide u zasićenje (sva struja strujnog izvora prolazi kroz tranzistor T2 – \underline{zanemarićemo bazne struje tranzistora T1 i T2}). Napon na kolektoru tranzistora T2 je istovremeno i izlazni napon na izlazu $V_{I2}$
+\begin{frame}[label=10-s083]{ECL: mali ulazni napon}
+\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{3pt}\setlength{\belowdisplayshortskip}{3pt}
+\begin{columns}[T,onlytextwidth]\column{.38\textwidth}\input{slike/tikz/s082_ecl_diferencijalni_par.tex}\column{.59\textwidth}\centering \raggedright T1 zakočen; T2 vodi. Zanemarujemo bazne struje.
+\[V_{BE1}\ll0,\qquad V_{BE2}=V_{BE}\]
+\[V_{C2}=V_{CC}-R_{C2}I_E>V_R\]
 \[V_{O2}=V_{C2}=V_{CC}-R_{C2}I_{E2}\]
-Napon na izlazu $V_{I1}$ je
-\[V_{O1}=V_{C1}=V_{CC}-R_{C1}I_{C1}=V_{CC}\]
-\end{columns}
+\[V_{O1}=V_{C1}=V_{CC}\]
+\medskip\Rezultat{Izbor $R_{C2}$ i $I_E$ sprečava zasićenje T2.}\end{columns}
 \end{frame}

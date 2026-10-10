@@ -1,7 +1,7 @@
-\begin{tikzpicture}[x=1cm,y=.635cm,font=\sitneoznake,>=Latex]
+\begin{tikzpicture}[x=1cm,y=.48cm,font=\sitneoznake,>=Latex,line width=.7pt]
 \foreach\col/\pol/\dep/\name in{0/0/0/nMOS,1/1/0/pMOS,2/0/1/nMOS,3/1/1/pMOS}{
  \node at(\col*2.7,3.9){\name};
- \foreach\row in{1,2,3,4}{\begin{scope}[shift={(\col*2.7,3.55-\row*1.95)}]
+ \foreach\row in{1,2,3,4}{\begin{scope}[shift={(\col*2.7,3.55-\row*2.2)}]
  \ifnum\row<3
   \draw(-.85,-.22)--(-.08,-.22);\draw(-.08,-.37)--(-.08,.37);
   \ifnum\dep=0 \foreach\lo/\hi in{-.4/-.22,-.1/.1,.22/.4}{\draw(0,\lo)--(0,\hi);}\else\draw[line width=1.1pt](0,-.4)--(0,.4);\fi
@@ -23,6 +23,6 @@
  \fi
  \end{scope}}
 }
-\node at(1.35,4.65){MOS tranzistori sa indukovanim kanalom};\node at(6.75,4.65){MOS tranzistori sa ugrađenim kanalom};
-\foreach\row in{1,2,3,4}{\node at(-1.65,3.55-\row*1.95){\row};}
+\node at(1.35,4.65){Indukovani kanal};\node at(6.75,4.65){Ugrađeni kanal};
+\foreach\row in{1,2,3,4}{\node at(-1.65,3.55-\row*2.2){\row};}
 \end{tikzpicture}

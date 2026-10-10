@@ -1,0 +1,9 @@
+\BeleskeID{04-s032}
+% element: 04-s032:e01 — Tabela drugog komplementa sa svih 16 kodova
+% element: 04-s032:e02 — Pozitivni D3=0 i negativni prikaz od maksimuma+1
+% element: 04-s032:e03 — Primer −3=1111+1−0011=1100+1=1101 i bit znaka
+% element: 04-s032:d01
+
+Za četiri bita vrednost negativnog koda može da se pročita oduzimanjem $16$ od njegove neoznačene vrednosti. Tako $1101_2$ ima neoznačenu vrednost $13$, ali u drugom komplementu predstavlja $13-16=-3$. Kod $1000$ predstavlja $8-16=-8$, a ne negativnu nulu.
+
+Kodovanje se izvodi u zadatoj širini reči. Invertovanje $0011$ daje $1100$, a dodatak jedinice daje $1101$. Pri komplementiranju nule dobijamo $1111+1=10000$; zadržavanjem četiri bita ostaje $0000$. Zato drugi komplement ima jedan prikaz nule i opseg $-8$ do $7$.

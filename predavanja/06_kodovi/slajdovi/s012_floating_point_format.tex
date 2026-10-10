@@ -1,14 +1,25 @@
 \slajdid{06-s012}
-\begin{frame}[label=06-s012]
-\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}
-\begin{center}FLOATING POINT FORMAT\end{center}
-Standard IEEE 754\par IEEE - Institute of Electrical and Electronics Engineers
+\begin{frame}[label=06-s012]{Floating point format}
+Standard IEEE 754\par
+IEEE — Institute of Electrical and Electronics Engineers
 \[V=(-1)^{znak}\times\mathit{mantisa}\times\mathit{osnova}^{eksponent}\]
-\[\begin{gathered}\mathit{znak}=S\in\{0,1\}\\S=0\to\mathit{pozitivni}\\S=1\to\mathit{negativni}\end{gathered}\]
+\smallskip
+\begin{columns}[T,onlytextwidth]
+\column{.29\textwidth}\centering\textbf{Znak}
+\[S\in\{0,1\}\]
+$S=0$ — pozitivni\\$S=1$ — negativni
+\column{.32\textwidth}\centering\textbf{Mantisa}
 \[\mathit{mantisa}=1.F\]
-\begin{center}$F$ – frakcija koja je u zapisu\\1 – skriveni bit koji se podrazumeva, ne postoji u zapisu\end{center}
+$F$ — zapisana frakcija\par\smallskip
+1 — skriveni bit; ne postoji u zapisu
+\column{.32\textwidth}\centering\textbf{Eksponent}
 \[\mathit{eksponent}=E-B\]
-\begin{center}$E$ se zapisuje sa $k$ bita\end{center}
+$E$ se zapisuje sa $k$ bita
 \[B=2^{k-1}-1\]
-\begin{center}\alert{Zapis - SEF}\end{center}
+\end{columns}\medskip
+\centering\alert{Zapis — S\quad E\quad F}
+% element: 06-s012:e01
+% element: 06-s012:e02
+% element: 06-s012:e03
+% element: 06-s012:e04
 \end{frame}

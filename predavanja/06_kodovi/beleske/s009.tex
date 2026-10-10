@@ -1,0 +1,7 @@
+\BeleskeID{06-s009}
+% element: 06-s009:d01
+Tabela pokazuje korake pretvaranja 11110011 u BCD uz korekciju šest nakon binarnog udvostručavanja. Grupu od četiri bita treba čitati kao zasebnu decimalnu cifru, a ne kao deo jedinstvenog binarnog rezultata.
+
+Posle obrade prefiksa 1111 rezultat je 15: donji tetrad je najpre 1111, pa mu se dodaje 0110 i nastaje prenos u desetice. Pri narednom udvostručavanju dobijaju se 30, zatim 60. Kada se pročita sledeća jedinica, rezultat je 121; poslednja jedinica daje 243.
+
+Prazni redovi razdvajaju korake, a izdvojeni biti pokazuju prenos i rezultat korekcije. Redovi bez korekcije takođe predstavljaju stvarna pomeranja tokom čitanja ulaznih bita.

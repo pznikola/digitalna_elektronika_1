@@ -11,9 +11,9 @@
         "kod": "nije_primenljivo",
         "crtezi": "nije_primenljivo"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "c1eacbea51e9fe5d7a6bb572db0653b4fed737457e1d3a0d4455ea37690c8157",
         "baseline_render_sha256": "600347e7fc994ee9c58699b667ada26b48d2c1b15147dd59b5506927cdcc1f71",
@@ -21,10 +21,11 @@
         "notes_render_sha256": "3f01d1c62b052aaa0cb4e66cdcd04d9b7a7827d5653d7c219c66946f6a4851de",
         "slide_sources_sha256": "df7d2beee7522b980b0662f16d565e6de6d57a0fcdc84ce75fb0108df27584b7",
         "notes_sources_sha256": "3e5833345febc20b6de13348cdf0a0723614ec10aa58d65c289e337e3a71a603",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "41477a60dcd4ee3072bdf0e37599e30ed3755565d99197355e45880e45e0f6da",
         "coverage_sha256": "192518ae12dd0a4900d9a22039cbb12911d325068ff12e389cf64d6d73ba7267"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s002": {
       "categories": {
@@ -37,9 +38,9 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "471422a0d83edef22a772f7c023786ac48882f06d3dfc12501d2c3628ac59911",
         "baseline_render_sha256": "3cf2eff3950602c2a8e0d3cb026069e7ddf0df8485b413b7cf05e48cf1a8bac3",
@@ -47,10 +48,11 @@
         "notes_render_sha256": "08d4bf8eefdeaf82433ef2aaefb1b5a62b3ed5fe54008aca4711a4ba2e8cac61",
         "slide_sources_sha256": "fb27c50f937d5cb329e611d4fb613288fdb3793bb538707cdee2d4c35e48412e",
         "notes_sources_sha256": "f51d9c8208d83596aa0685a65ca326ad008382bcd9aac190fdae22bd253decba",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "a26756cb33f2a33121a93c7994b53bdfb15b21e1a9fffb18f854329cbab08893",
         "coverage_sha256": "123af783cc874b0bbb14a3582feac4f22bb8a8aff59367935e3712c66dce88d0"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s002b": {
       "categories": {
@@ -63,9 +65,9 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "471422a0d83edef22a772f7c023786ac48882f06d3dfc12501d2c3628ac59911",
         "baseline_render_sha256": "3cf2eff3950602c2a8e0d3cb026069e7ddf0df8485b413b7cf05e48cf1a8bac3",
@@ -73,10 +75,11 @@
         "notes_render_sha256": "4fbbcc4ef7442716069cb07444d6cc5b2a4a0d38f01c3ef64568faa4b3917bf2",
         "slide_sources_sha256": "9ffb6ebfd0b26f6d2451d629d1c2617c04c79de26351361a98b4e6c1c3b8ed98",
         "notes_sources_sha256": "9c52e8feacecdbe3f81b6f446dd5add41acc45a817ed84590055a7ebfba4264d",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "3ceef73ad2e2f2e41cff03dc2812f842fe3f3ecd9aca82197984bedc3d2cd070",
         "coverage_sha256": "2a4a6444f8ddb0dce88130c920fbb55d0bdd53d769b3ba71a0c376bfe6abb2c8"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s003": {
       "categories": {
@@ -89,9 +92,9 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "5ad8c75a12e69b2b417946d547cff11afacb26bca506dcbdd7fc8d5359202f1c",
         "baseline_render_sha256": "604f17bcba5432c5f853543d6864d81cd7c7fa9c4430cf7eb4adf59f41ead5a3",
@@ -99,10 +102,11 @@
         "notes_render_sha256": "e52d211f42d43d5a27f229aa3c79800a05b53b526477c2c5adbc30f8bf6665a9",
         "slide_sources_sha256": "2f22098eb132b59cfebdcad317ebd998c0754a515ffe14f4e7ea0ad5d186365b",
         "notes_sources_sha256": "96b5f8fb6cbfba121bc9ced0d1ddb475110eb0f363c42aa7abbf8dd91f949078",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "f9ce8ecf3bedd6c176e8c4593249666bf7d1b9532bd34bf842e3e96384f1321f",
         "coverage_sha256": "cecec8318aecadd14e271ebcce3d181819ea16a7382a4edb1953af3d37425f46"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s004": {
       "categories": {
@@ -115,9 +119,9 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "f04c28b3eb5e63e2099a2cbeb0b59a5ce18194f920a64f1ab5f897d81587a91a",
         "baseline_render_sha256": "dd74e14992aa3992023169b54028c88c7716a659704419c7d717826d4b66f879",
@@ -125,10 +129,11 @@
         "notes_render_sha256": "d297208ad37730a037463d94ed7c5f557f01355399b52b7c259d2f8300d32207",
         "slide_sources_sha256": "8222dd7bc2adbc6733ca8de1300195ec7f91203c2d0a02d6698155cbf41dd99a",
         "notes_sources_sha256": "4de2e990901a10fd658aa291b02156747308cc3e8760c8f9a96ff561cc471dea",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "0bc7ee2d43af7627672ca6f88cc69e306a66c0d089282a0c68778806f9d12196",
         "coverage_sha256": "3363129072f7eb6991c61714cd25e3a14c45da27f92e2c75d05d250bf7ecaaa9"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s005": {
       "categories": {
@@ -141,9 +146,9 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "e448846b35a72fa4680e98a9b6c92b9f80f9b8f3461bd411beb91bdeec9557bf",
         "baseline_render_sha256": "14204309f3205418180720380c570c94526cc59b5af20175ed50e81f039f359b",
@@ -151,10 +156,11 @@
         "notes_render_sha256": "c7a079bb76579fd39500a10d1f89933fa7a5c6b28d4a9c7c354a49e8ff2c1819",
         "slide_sources_sha256": "9d359cbfdbb3bf34a4afa4f26ffc5d8f603ed0e0e7656c9117a4d3e7d5fd9609",
         "notes_sources_sha256": "307e0b4d7ef98c2c6fa33c9e93c1123f26bdc0698e4ad72418e15a731abc274f",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "ec1c4e2f2891e8aa6b821a0bc67066003282e65403e3cecd28b54421b5c5a27d",
         "coverage_sha256": "1ecf0eedb86fd87e4084894de73468d5cf1b9c22d44b4faebd611a8f575565e0"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s006": {
       "categories": {
@@ -167,9 +173,9 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "589e96d6efbf9ef66e2912ce5b0a2e76cdc2ef9c19ac35749b1fbf62690a9a84",
         "baseline_render_sha256": "acb88a202d60a46b29422ebd6366cdc4602268d6932e0e21261f8aaa5e419779",
@@ -177,10 +183,11 @@
         "notes_render_sha256": "10c06512483f07ea3981061b171ef7594adfd5d3416e18d5537f7f6cac26c92c",
         "slide_sources_sha256": "c2ba864e0c13ab5d10694eea00bcb0a3392db7442b67e9f0e5917901a6229c56",
         "notes_sources_sha256": "72bb989039bdca1d2b7ad6087870abf8cd2ab60c9523d32f234d45c00642b678",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "e92b4feb2f119f3e0bfea692f88e938e1cc88ff1aa795074bf8d738c5d170ee0",
         "coverage_sha256": "8a540bcf3510a6569a21a40e760d7489db846671522fd9941a699f4ba3b66f43"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s007": {
       "categories": {
@@ -193,9 +200,9 @@
         "kod": "nije_primenljivo",
         "crtezi": "nije_primenljivo"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "6dd8317dba5b92577482cc5aee00bce53a2ca090ef82e5ce4c36aaf6d3e431d6",
         "baseline_render_sha256": "82daf13bf24d02cc034685b02627d8ca681e3e89b88e6ef57807f81227320807",
@@ -203,10 +210,11 @@
         "notes_render_sha256": "47bf50063537f6cc6bd214f8bd3fcd51649cef04175b455cc3dc4631caee8d1a",
         "slide_sources_sha256": "102bc466736c0e5c16a664aaee818822e38e511c9a16d5164ee72a9b47300a47",
         "notes_sources_sha256": "ccfc191a0b74eaeaa4248478e21982934cec314849af8bdeb7fb9e6c1fb3e20f",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "b8e4ece44c4bc13327c120cdb30ef355512ef3a891f5928c761f8d639ea048fb",
         "coverage_sha256": "122f11f6ed69c24e9a0fa019e829ba92e9eaae6d5030f01d03cf6cc040e29a0c"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s008": {
       "categories": {
@@ -219,9 +227,9 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "c3d0601f6549c04bbaeeecca0d1bf9727323385a8cc04671caf0f9f6a35006eb",
         "baseline_render_sha256": "94d6d1804dbb49ff613249188572a38e15b3f6fd54cc7ba5bc563dd7637515c4",
@@ -229,10 +237,11 @@
         "notes_render_sha256": "9b5413b279192e0bf4b5d9f730ea2419b19cbeaaa46b00a3812adce9f91d5289",
         "slide_sources_sha256": "66db0e63df18017df234460e46387e2bbcde3c94a1ba4a63808006206c1238f1",
         "notes_sources_sha256": "cdd36f909d67b9e8ed10a883f03a8ac23ea4aacdb5028ab8c9e67c103bda2bd9",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "f3bc212deb97c1c4dc6e1abeb1bdcb71dd09e6726aa3de6bbc888d81c04d7c6c",
         "coverage_sha256": "02377903434e4dca4e516ebafd2022fd8048790dbf0eddccd19c992f0103ce27"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s009": {
       "categories": {
@@ -245,9 +254,9 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "bf33fa58eba4e1f4714b5430e00960f74a4383a0522472853e015dafe1f12249",
         "baseline_render_sha256": "62357c7ec882a8f786991ffb6587fbf65ed8d8c0ce44438c636519878a797ea5",
@@ -255,10 +264,11 @@
         "notes_render_sha256": "9fb96e833085c3dcd9592937cfe32e20d45a7a28f946b6405862570b2dbdcdc0",
         "slide_sources_sha256": "d0ddd47b60905678aff688fe7dcab78dd87d21303a25a1b27fa0f2ae073ea00a",
         "notes_sources_sha256": "099dc7bb8cdac0caafa3b63589c5436d108e51b90c31c885646a23ff9ecfefc7",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "c70b5753d4bbf0c16a60a604d93ced8b647a83d5acb0fd1049e69554bfdceff2",
         "coverage_sha256": "165acbf8c855a73a4333c9dda3ddd25a76053aafe27bc2f0bf749848759a96e8"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s009b": {
       "categories": {
@@ -271,9 +281,9 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "bf33fa58eba4e1f4714b5430e00960f74a4383a0522472853e015dafe1f12249",
         "baseline_render_sha256": "62357c7ec882a8f786991ffb6587fbf65ed8d8c0ce44438c636519878a797ea5",
@@ -281,10 +291,11 @@
         "notes_render_sha256": "edebea64bd4416d970248a4c9163a9937946c80131eb8604d442332e4a48f987",
         "slide_sources_sha256": "7017cc46f3adc1a05489d8d80ceff31d9a474432499bfa92d05095ed078f6f94",
         "notes_sources_sha256": "2fcb8f550009307d1d2674e4714891cdcd530edef3cc9d5c768467b76e56aadc",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "facc78861e60600070986b47ba5ce2304ea5dd1c386448e9da2fc7d1b3857af2",
         "coverage_sha256": "999d5d6c012e0da4786139708957bd93c02bf2d05e60106609f468eb3ad15cbd"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s010": {
       "categories": {
@@ -297,9 +308,9 @@
         "kod": "nije_primenljivo",
         "crtezi": "nije_primenljivo"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "adcab7d17571e880daa2f7d6dc0baf5dadaa3738b5c79af79b88383e2f6fdb93",
         "baseline_render_sha256": "5c3d411eb6050c9d6cf4588a81f2e9c24565cd5eb633cf70a913ece638c318a5",
@@ -307,10 +318,11 @@
         "notes_render_sha256": "ba6941129906fff996c61dafdcd3c668b0a571dd9ce5e25476784c6e3b80fb55",
         "slide_sources_sha256": "d2175060162ef9b22b798528b4f55c5937a31ecb6d53a13706ed58bf9aadc137",
         "notes_sources_sha256": "0784481fd4c47c15ba4571c44fadcdcace0ba166ee7833d22d43345a9d6daa00",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "05b6ef5fd931ca15840e5d9918b1fbdc2588b200f9a07c0cec1b4d1b8d427489",
         "coverage_sha256": "edf533b04574613757cfe496d5a70f82655a053ae01dce466f2b81362f199af9"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s011": {
       "categories": {
@@ -323,9 +335,9 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "cc88e12855a75f4920c134dad9bd35796834c208033d7f06d020b468dde4f206",
         "baseline_render_sha256": "7499a077c2665be294173324d9f777cbc03899f40cf610bd0fd6d8d67c3cf0da",
@@ -333,10 +345,11 @@
         "notes_render_sha256": "2eea0ac6b66acdceeb416de62ec2516459e80d76ee6254cf6e0085859244ac76",
         "slide_sources_sha256": "d90114dad9bb01bc1684ea1fb705a8f305e459794af3bbd344f7a9ef799a4f5f",
         "notes_sources_sha256": "3edcc5b88502b2fe42e1abe11ee14e6157d2d839cb24edd5ccee7c6a3525af11",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "713d27c3774f9c6b3cafa719d7e5af81561916b45db8dce19b8c2e18b7393781",
         "coverage_sha256": "d6ac3fdcf1de1c0f4251bfdf1608b780461cdb0c53e1be95ca194a4f5000d720"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s012": {
       "categories": {
@@ -349,9 +362,9 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "7e870880a6a8f5bc2031569fc70f89c02561249979fae271ceed828797cffdef",
         "baseline_render_sha256": "17b0f5a9fa1381d13b64c79e434c59a9354004e62045230e50c4772427d09924",
@@ -359,10 +372,11 @@
         "notes_render_sha256": "b82d53a5c7761e023b48b40d391287da46794dc11cf3a5278c884f69de4dedd7",
         "slide_sources_sha256": "cfc5d59c0bfc3aecef98476ac3ba3fff52f7dbfee5336eb85b1d3930635fc81e",
         "notes_sources_sha256": "3b87d0276e89c1da1a8f5c89b050156be2f432335997b138c37e23a5160830e8",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "5e42e3f1e8893d55ebff12e17f352c5b0b1aad761854cbff266d1d0acec88734",
         "coverage_sha256": "b6fcfee30445d530e22f9ae9925fc9459e7c1d59330c68579e7d69a5a8cae050"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s013": {
       "categories": {
@@ -375,9 +389,9 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "4e2c58618edbb3646c416a154673224f32b336adf37d181f84141e9625073912",
         "baseline_render_sha256": "f6d02a9ea321763cf2eb7a3065d0e1ba90fb3905ab5d1fc5ef5a6f3d7cbbf67c",
@@ -385,10 +399,11 @@
         "notes_render_sha256": "f7f491bdbc8a316574376eb9e84fb8d70f2236310ec6177c833900bef80495fd",
         "slide_sources_sha256": "ab8a9ef2f9e21151b5bd8cc250748e28864aca9a25df25f0acdc4559c1609d61",
         "notes_sources_sha256": "fe44340a348418ded3958fb3c1731fbdffe2e6a8c4ebf06f25be1b5cb1f6fd6f",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "3351119b6afc0d979d1cda03e1dea6095be192458bf41516fb0db5d83c3f42c1",
         "coverage_sha256": "a333498f84f84ee36784d49c7ab18a9da4a9fa4d77ae6e3054458a226ada81c5"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s014": {
       "categories": {
@@ -401,9 +416,9 @@
         "kod": "nije_primenljivo",
         "crtezi": "nije_primenljivo"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "228b3c5d599348bb81a72f2b4e6eb5c39c1b116a54eaf4e4240c1e63ccea0c78",
         "baseline_render_sha256": "385ff86c0a6553ed1a4993c7e92489166c03988a66d560037b865c22c4ecfec2",
@@ -411,10 +426,11 @@
         "notes_render_sha256": "3eb2f39b1be942cf46cd303ec0dd2a40a2a8f9eca187b586386abdb1212c3a12",
         "slide_sources_sha256": "81354744a0faf7487d2a806eec4aae167ce6e227ebbebfc14e3af35041ac9b14",
         "notes_sources_sha256": "64848cbaafb3626c987bdd3458a49ca26c4a2da19c9e0e265791e44f20a2905c",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "9e6567210207136e3f725794f33cdb8665817659126705606620d9e0fda13157",
         "coverage_sha256": "58400572f37b0c92c1945ed73477a90de3f6cf2b1f623723e02662ae870a23d2"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s015": {
       "categories": {
@@ -427,9 +443,9 @@
         "kod": "nije_primenljivo",
         "crtezi": "nije_primenljivo"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "0419aed8e243f17948c0fa7429f158c0ac6ee2990b66c4f71e0343f660541617",
         "baseline_render_sha256": "93f13530351f1c52e870228900ae08d8a470a232360644717aa7c7e62bde0bcd",
@@ -437,10 +453,11 @@
         "notes_render_sha256": "826da3649588acee98e3d925bf6648324026de52ff35a2e5a0dc9d3c849f8b92",
         "slide_sources_sha256": "8f73f086cb83ebc549ac73adfe28b18b00968be3301eb1548938d50ad55ce608",
         "notes_sources_sha256": "3ddfe3222e244510ec1cd06e2261c4dbc1eed9b1401c0e871166ec23394a9934",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "5d0c35cb7e37afbba20d535e4efdc08ab636c9a59ccaf3cca45187c64c5c5397",
         "coverage_sha256": "27f422016b098607a7369d0d61884657ea152f55b881f020d4128b8e69e17c48"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s015b": {
       "categories": {
@@ -453,9 +470,9 @@
         "kod": "nije_primenljivo",
         "crtezi": "nije_primenljivo"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "0419aed8e243f17948c0fa7429f158c0ac6ee2990b66c4f71e0343f660541617",
         "baseline_render_sha256": "93f13530351f1c52e870228900ae08d8a470a232360644717aa7c7e62bde0bcd",
@@ -463,10 +480,11 @@
         "notes_render_sha256": "5b1107706455f4e6075e31b88ca01fabe5989b93f784708638f1cdf93e2368ad",
         "slide_sources_sha256": "5ddf8e3687269d64e5b499a7a7ae6b8b7833dd63041ede5aaff5b5645813e2eb",
         "notes_sources_sha256": "4e70c1e99ed5ef10a15033abf9189656b3e62157932cb15e44500a82553285c9",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "1e28a7ea7e8ed0ce2367c871fc73cf1608fe085facc7ae6368dc822787f10610",
         "coverage_sha256": "5e97c6f8571626b5cb2c8aa4c7333114dcea2ac52ee836c1e16caa4e68e357f8"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s016": {
       "categories": {
@@ -479,9 +497,9 @@
         "kod": "nije_primenljivo",
         "crtezi": "nije_primenljivo"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "59c09d8747bf4e6bb57c4820aa49d18ed4b2047845313aca4d3afd45f3ebcdda",
         "baseline_render_sha256": "b0d5eaffce2a55f8d5c5ba01705c320a800aa4a22f3524311ebb08bb917171c2",
@@ -489,10 +507,11 @@
         "notes_render_sha256": "a878fc9d09e42b37dd5c793c095636749e8c5ff52bf72b951a66e75f96e2d61e",
         "slide_sources_sha256": "130c89c229a3fca04825479c78b6796a85bedaab04e49aea700423dfabb0502c",
         "notes_sources_sha256": "ed3d35b148b54e73215421a9ed88b52ccc98cdf8e324ccecfcdcf0d1aa93730c",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "fac6279dfdeda50bc072a4626959ded1ebfd66be5ec32e03c3a00e5b3b3de605",
         "coverage_sha256": "b72a43676d51e517b190701711dc4ec7e5b15651c721f477ac2ad63f80f84948"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s017": {
       "categories": {
@@ -505,9 +524,9 @@
         "kod": "nije_primenljivo",
         "crtezi": "nije_primenljivo"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "189aa1361d4ed1ad49f9b4fc3252e5f40487417ca51e40e42feb415df552d25a",
         "baseline_render_sha256": "e0dcb9ad290d01d56f600991b55cc4095fad55d1e18b704687542d264af0a9fd",
@@ -515,10 +534,11 @@
         "notes_render_sha256": "365f567ebba4c96859ceaacf27062067159036f23c3e3bbafb797db4d689fc55",
         "slide_sources_sha256": "5f8b674f7a9667590ff1b2eb5b7508f179c42bd915164119a0b02efad79b5f8b",
         "notes_sources_sha256": "7fce86b71864447d202148ae740084b4264cafda000920948f3200a6e3d803a1",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "de3e88ee033109b1344e32118b269c52822b6deb10b0cc14616e03ab05df6a63",
         "coverage_sha256": "b519c5c58b48e56f88a94913c75923bd7c0c4502a0b9e16260ce607c72f2a78f"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s018": {
       "categories": {
@@ -531,9 +551,9 @@
         "kod": "nije_primenljivo",
         "crtezi": "nije_primenljivo"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "cec6f2610dd93a6f730ff36fef6eef98611f7774efc6c544624e49d16e494161",
         "baseline_render_sha256": "b358c106d371dbbeb6ad16a699a126475160bc73cb1f1d571f901036676cc03c",
@@ -541,10 +561,11 @@
         "notes_render_sha256": "e5878ff05d802308728a1493fa41c908d2c5cd80ef60f21e703a26a6f33e49f6",
         "slide_sources_sha256": "f8ef5046bc173a4b9117d94450dae8facf7c2437e68089cb7d0de4106bd42d7a",
         "notes_sources_sha256": "9f69ad6d18683287786936a0ea770ede73f0599e7fbe983f8b52a6f0eede7ae6",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "e3f23254cd76b3516bf94776dd72f8deb039d59555570bcdb359c29245eecacc",
         "coverage_sha256": "7d28aaae5fa62378602cbb90ee541464c1f2ad524190047b63c59687bf1d5c64"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s019": {
       "categories": {
@@ -557,9 +578,9 @@
         "kod": "nije_primenljivo",
         "crtezi": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "7275a0965d41e29d148adc3b5e01240b6b7e1d2150bd435c23c1f5e7c58a4c78",
         "baseline_render_sha256": "42a269a89e8bb3db3cf93d78b92b8deb5e5ff87dcc29ef99506eb80382cdf08f",
@@ -567,10 +588,11 @@
         "notes_render_sha256": "19d62e3f58d2803667742ed2b7ad946f912fa10d99381990d76f680005371a6c",
         "slide_sources_sha256": "031e68baac5b5853b0ca67949d15f3e857f12a139a4990eaa2df4256760976b4",
         "notes_sources_sha256": "d42421a2b599be3ffc1c7439c1acc760ed39b524b9dbdd110d6ed88063ce32b5",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "6b71e9b80766ff97899a977f68cfe401f749dfdf32f8cf2cce8e73374ec57011",
         "coverage_sha256": "551645e6474008e0d464bf97dc249f77253575a74d8bf764978819c63b33345a"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s020": {
       "categories": {
@@ -583,9 +605,9 @@
         "kod": "nije_primenljivo",
         "crtezi": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "c837e4adf3cd313189ff41f0cc15020b5e898bff73d3cfeffb89ecd3889b0d09",
         "baseline_render_sha256": "42ce381c03d0c0ba5556abc54530715b9002d26296fc34190e1c399ed1b2109f",
@@ -593,10 +615,11 @@
         "notes_render_sha256": "4233200c927897be9675f77456529aebb1e552e6f270825e22e4b0c8d30aea43",
         "slide_sources_sha256": "9bff5eaadab856310ddc4baadffb34d1355c382a380436948fc7f43d9b63c422",
         "notes_sources_sha256": "171def682ec74eaa3d2f5835dc714e6a343374adb64c1733b12fbcb70e387a0d",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "1cab6ab99d166d28c9fcaa2279036b5102f2e359f573c4db750a3b38ed78b28c",
         "coverage_sha256": "32791c9e79ccd13bc61777d07f744140babdf0566545ff1d00f26e8631da3fe3"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s021": {
       "categories": {
@@ -609,19 +632,46 @@
         "kod": "nije_primenljivo",
         "crtezi": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "d8053752b1c801ffdcc5cd966cf42f12d2f1ae041ce0eb5de2c60fdd5d4e0d42",
         "baseline_render_sha256": "e9d5873d603a18a123edc548dcf0dc909fdb3bb97fb1e051209224771e3e63d3",
         "new_render_sha256": "9ae04467da7466673579ebbaf104bb8bc3d57f7ed6c2cfc9235e66fe140cf34e",
         "notes_render_sha256": "5cf9172e1d959fa246327b2913cabb541a5cfa20c2dbb3dbdd9019d8ea89f045",
-        "slide_sources_sha256": "6b60be5db40987d2e0148eda27112426e7056d26a794deabd5b8591f79492860",
+        "slide_sources_sha256": "f323c5f728a65c2d98d26b1b783b396dc0c62e748e56d85b788d5324acbc848a",
         "notes_sources_sha256": "2cb52a99e35cbe26d2cb74306f0836ca1d8582cd7b796b72d6ac53f497b3a9f2",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
         "mapping_sha256": "62e71ea0a460de7eefdcfe8d5c096654cc266a567f8d045a71fcbd962d72bc5d",
         "coverage_sha256": "9fc41cdf8e5ec6e27acb9b95faf65a731766440f7a7f4c728f1f5dc442892e88"
+      },
+      "previous_review_date": "2026-10-05"
+    },
+    "02-s021-rtl01": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Stvarno pregledani novi projekcioni slajd i cela A4 strana: potpun izvršivi kod levo, objašnjenje i oba TB linka desno; font RTL-a 9 pt, stvarni brojevi linija, tačni nazivi i veliko T u Testbench. Funkcija i topologija poređene sa originalom i aktuelnom šemom. Nastavne beleške bez uredničke evidencije. Oba TB-a završena u oba simulatora; automatski TB potvrđuje funkciju.",
+      "evidence": {
+        "source_render_sha256": "d8053752b1c801ffdcc5cd966cf42f12d2f1ae041ce0eb5de2c60fdd5d4e0d42",
+        "baseline_render_sha256": "e9d5873d603a18a123edc548dcf0dc909fdb3bb97fb1e051209224771e3e63d3",
+        "new_render_sha256": "6173f222372cb88f1e8e55fb2f49dec4f0bf321149ae89bc1332342430d927b7",
+        "notes_render_sha256": "a8cb2ff18164b06084ce788b205dc4ab9a3a25f85ecac140f3012c21679c4e48",
+        "slide_sources_sha256": "cbe6fa922e9a0fde73e0836ef63a552f49b416f1428c9c7dd3bfbf17b22e4516",
+        "notes_sources_sha256": "08172cf49a6cb3bb03667ccc6e6bf5dd7d34d6cc415007b4c16f451523e2f9cd",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "61e74c3fe10f8ec313a38fd9d3e455bed4f12da39fe2514c7edbcfef2e678fa9",
+        "coverage_sha256": "9dfd6ea969bf62d1f64afbe3e3730d30464ace29eda1f3d2fd5f8185acf4082c"
       }
     },
     "02-s022": {
@@ -635,19 +685,46 @@
         "kod": "nije_primenljivo",
         "crtezi": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji. Ispravljen lokalni README link na neizmenjeni izvorni slajd; izvor RTL-a i oba prikaza ostaju isti, a četiri simulacione potvrde s022 su obnovljene.",
       "evidence": {
         "source_render_sha256": "3f68d1b080f1adf98a0c40a9a02acc0425477841447b40d2fed7134d64c45ab9",
         "baseline_render_sha256": "89261724df1641aa951df7defdbbad6bec9d817b72605ef958b8ae7c29ac757c",
         "new_render_sha256": "3a41359033910528d4e47ebe253f3655d44546d59fc3d1f3bb35393637c259c6",
-        "notes_render_sha256": "b99fc712ec10e11266f894df2f2be515325f06b780cd4cd84b562e135178bab4",
-        "slide_sources_sha256": "1a240a33394bfbf5fe864012dd233d7746e37560d10a1fc836e3d456863ddde7",
+        "notes_render_sha256": "39b53401d9d1713113fed39ae1b8a2ea990cf4e66c02323aca1a4227edb76b53",
+        "slide_sources_sha256": "29528e99772b768b906e62ca20078d3cb939f9b595ac363e7a04ca5d5247f6cf",
         "notes_sources_sha256": "a782275f461597aa212b645a2344a66f36aac19fc92caa3e464abf2250d49472",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "93375faa64d96c0500c5aca53a7f8704d6cc39f18fa7c9a7c5db43d81c1032fb",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "6c605ca546011eb04e76ffccea3fcf0c9c765999c13e597351ad2db9ca3277fd",
         "coverage_sha256": "dcf63eefea9bb89ce50d217048bcb173d0b75da70ce406bb3e47d06b280b519a"
+      },
+      "previous_review_date": "2026-10-05"
+    },
+    "02-s022-rtl01": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Stvarno pregledani novi projekcioni slajd i cela A4 strana: potpun izvršivi kod levo, objašnjenje i oba TB linka desno; font RTL-a 9 pt, stvarni brojevi linija, tačni nazivi i veliko T u Testbench. Funkcija i topologija poređene sa originalom i aktuelnom šemom. Nastavne beleške bez uredničke evidencije. Oba TB-a završena u oba simulatora; automatski TB potvrđuje funkciju. Ispravljen lokalni README link na neizmenjeni izvorni slajd; izvor RTL-a i oba prikaza ostaju isti, a četiri simulacione potvrde s022 su obnovljene.",
+      "evidence": {
+        "source_render_sha256": "3f68d1b080f1adf98a0c40a9a02acc0425477841447b40d2fed7134d64c45ab9",
+        "baseline_render_sha256": "89261724df1641aa951df7defdbbad6bec9d817b72605ef958b8ae7c29ac757c",
+        "new_render_sha256": "dd69032b1dac4922884aaddaae152227e359c4baf4f3360723baf069fdaf0773",
+        "notes_render_sha256": "0494e85e33c3b4f281cda1156c0359e0119c637800e86fb71299c875d28ece61",
+        "slide_sources_sha256": "ebb2becca6f93d27b14d0be5a38f07a05f22ca837362e4ab618a0079675399bd",
+        "notes_sources_sha256": "cf5e596a2587462d8f5973f66e8ae55419b97c914a304da3eeb4882b166ad47a",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "76ee558269294b635e696a610d1786cc293ec2a2663747bb5bd7450d24b6c592",
+        "coverage_sha256": "78f6c21ac6334cc88c90a9987ee1ef82e760b13f59a8d0018fa31858b167ff6b"
       }
     },
     "02-s023": {
@@ -661,20 +738,21 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "1c5091247741bfbff4dcc1d3a123c0a20ff41b7c5da1bb287ffeccf850bbc1cf",
         "baseline_render_sha256": "52224a52fe0e14138d9e7220779617273d445040e31a89d33a9f0ede22869e3a",
         "new_render_sha256": "961548d9d3630a49c3d9b7719a4f5260525cd6b93ae53beb69f834ea65324399",
-        "notes_render_sha256": "50c355a0292a4f8de138ae500a5233d350118c947d98024f20f347f8db2d3e0d",
+        "notes_render_sha256": "39ce769dece8e51651baebfc0fe755ddee24faf988538e5fac313b81061e8aa4",
         "slide_sources_sha256": "3c799eb087e207958b0379a8c1ae7aed71ea950ed3877153892c8663711e1b8d",
         "notes_sources_sha256": "632a1ab6e23f0e5074a4b8255ed6a6a82d388373e7a382a12a293571a429858f",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "e4a9ffdc401235e6408a08034af7afe2c2c34df94e15d800107e456079734c3d",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "1155f105436f6b108e4311f6407d4939153676fb4eb22bcd8a5782e77171ab01",
         "coverage_sha256": "254e893e379b524919e442a208bebd80d960aca66394c2f66742793ee8b9b2b8"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s023b": {
       "categories": {
@@ -687,20 +765,21 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "1c5091247741bfbff4dcc1d3a123c0a20ff41b7c5da1bb287ffeccf850bbc1cf",
         "baseline_render_sha256": "52224a52fe0e14138d9e7220779617273d445040e31a89d33a9f0ede22869e3a",
         "new_render_sha256": "cb439318ee211761c91b1df400a57100fc43691656fb1fa1be7dfd0f1b3b880a",
-        "notes_render_sha256": "bcb52f5f942090db7a2c4aa5fc13763134c89fcfabcdbc46c3a51ac1b60de006",
+        "notes_render_sha256": "45e3fbd890ab047d7b77087dfc5ea74a251ae6b819fbd315db70ee7fdd690218",
         "slide_sources_sha256": "b9c15e55f61b7500ff26c5e9f7672a6077c0566603327d97360febc14c93293b",
         "notes_sources_sha256": "dbeaf32b696a1188cc5dde0201ab722ea437d245ebdbcb9602b059b480ccf1db",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "81683993714409d72e73272756e0fe48337e57e7f3f6b2e23540e00815f03e76",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "4467ddf738d6621987a2ef0a478e7b3abe1fa4059a18a7b8b01e2d222e810d3c",
         "coverage_sha256": "3769752da7e7de8f7dded7f794d8f864476a3b8f19c6beae38195f849ff7cbb7"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s024": {
       "categories": {
@@ -713,20 +792,21 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "8ca9a92a046e0cd108d6da4e08033d496da08000c8f2c3d5af26b812c2c5c23b",
         "baseline_render_sha256": "c4becd46d005a2e986c043edda37d82fac98a7ad55f87316d95edacd66fe5e4e",
         "new_render_sha256": "2c3ab9be0fe708ae730f1d4f7055078fec3bf6960f646a70f859c6eddd5ba6ae",
-        "notes_render_sha256": "2d59e25aab68555e78e4eb2f9f2f6f813c1b911c7b588fd8ef1cf23a3c036a51",
+        "notes_render_sha256": "5554c24a83e26f4227ab75b3e89dd539969304f3514ae6f11dcbec91964efbe4",
         "slide_sources_sha256": "5a308235a611c2bb96c1f85232b2b7711a4bde384e4e128a616f6c46909ca2de",
         "notes_sources_sha256": "b1cf9d8baf93ecbea1ab687f51fdbada767ee33560f03dede3e65708905c1a80",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "b8d2c5057f55a8907606e19f18f6526ac38b8bb0c2558b725118bea1524bc816",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "22f685cc5881a871f78fb127667b14e6a3bf46f09b8c54a4250dfd8757fb2a30",
         "coverage_sha256": "094814a3b59765be03c20f43e06a20356ab2c2eae15897fe45a4652209e64523"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s024b": {
       "categories": {
@@ -739,20 +819,21 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "8ca9a92a046e0cd108d6da4e08033d496da08000c8f2c3d5af26b812c2c5c23b",
         "baseline_render_sha256": "c4becd46d005a2e986c043edda37d82fac98a7ad55f87316d95edacd66fe5e4e",
         "new_render_sha256": "ebdcee1f9afd05bcae81459197d98bbb036941435a564d8f576cdd9bf36cd7e2",
-        "notes_render_sha256": "472f6eb8bbcae7dedc13ff0e28659f5ee43ebdb8f3a298a87318ae4e31e981ea",
+        "notes_render_sha256": "14e5f040da80e7164ae79a8c2029171d435b1063505dd88059350b892aea7418",
         "slide_sources_sha256": "cf3afb46b4a0fd9d2521c9c270c108e8eeab5ce51a1cd2bc97436c0221ca5a00",
         "notes_sources_sha256": "5d74324c54a684a799a18bec515d81f5405b3accd5f5e1996bc6f941714fbeb5",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "41e24dc0b1a6cc78bef04f0963fe02f2e27bbad712ee757c730c0c9f8d1e631e",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "f8d690773b36d3ba6b391f2e20b4fa1a550ef3bdcf8df38783c8908d3397daf9",
         "coverage_sha256": "ebb71dda938c4fb481509e45875e31b68f3b6fdb61abed87d5a84676bba5098f"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s025": {
       "categories": {
@@ -765,20 +846,21 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "09d5d2ce98d79338c9571dcc55cd7e30dbd89236427374569e215dfaebd90748",
         "baseline_render_sha256": "85e066e2f8956fc1d870bbf43ffc978af92200697b6c3925986e060d2378cece",
         "new_render_sha256": "11814fd2c6c31cdd78e98143c232edcec5fb8dd3131d21582b96f06e7826525d",
-        "notes_render_sha256": "27964b479863952edb8d0b0bf2e09c6c87ee3886beaac36c48f163e9dd1d7010",
+        "notes_render_sha256": "119ba12cb5979d17b29d63e53ebb799ad4970647e75d1401ced7de0e9ec6a50a",
         "slide_sources_sha256": "9c083dc10a8793ca517436adcd2ff4bee359752b9859373bff27fdf8060cc38a",
         "notes_sources_sha256": "506b638b3908936b57498d74e7ae9e88ecc0260495ddaf815a35f52d56228959",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "493dbbee0bf2df1a9ca6daab1e713ac9cc9845c2afe3f60527d885a8e37d04ef",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "e2c88821c60185b63cc4238ebdab9d9d6898d1db34c3a7ed9c22ca6f409d7112",
         "coverage_sha256": "fb09e8fa1af077f6730a22d2b1a214569bee8abea55c8c3389c9a4a0653ef16e"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s026": {
       "categories": {
@@ -791,20 +873,21 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "91adae98636f3b497556089f2af82b51b175779bfa4903cc2cc7cd1f9f045c73",
         "baseline_render_sha256": "6992c5f148c9bd375cb882f875ad3cf2ac2670eadb2eb9587ddd70e21640a5b1",
         "new_render_sha256": "25c6ab4025a11cb4f949285fca365e15597a6c0fbb8cce372b5e4a1ecc8a43c4",
-        "notes_render_sha256": "c666ffa73e9423b9f098a13d856a2a11147704b6e2571f632db20cb4b12eb966",
+        "notes_render_sha256": "90080cd4fd671de50c5413ba134dacf517f465e7ffddc57fb684c9b9ce52a234",
         "slide_sources_sha256": "ff1c13c14233129e38de3c6158d7f894f951eca9ace5ae66063c3a6f14cfdbac",
         "notes_sources_sha256": "d92f02c32388e4aef4a318a8098a50a0a66f2ca47a0a3a5181cc21e1426d4cf2",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "98f2ea8edfa847d6383c21172030b34191f40754c3902904bf1bbf48cdc2e3f7",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "7c579cbe592c30a3f9314e1a0be8b2474a14880f0b32ea6994a35d4b2dc993e2",
         "coverage_sha256": "4354e171bac0e5445e0e89f696c31fceeba73975ed609c5d1ffb63bb6675cc9d"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s027": {
       "categories": {
@@ -817,20 +900,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "nije_primenljivo"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "f908f47907eaaa1631f0adc63af9c095dc083c6baf14ab23967e42ababce8d65",
         "baseline_render_sha256": "32db68b0d93a129c5b8ffecb833238d7eacc4466e7c368ec7290962b1868aef2",
         "new_render_sha256": "76d14a8f17310bf49d9ec76a2ce66f0fffd75fbe600fbb19b5cac0e712979fbf",
-        "notes_render_sha256": "2331bc8b7141a9697bb7f4acd58386a6a24dc1f5d542135088f17580fed5b994",
+        "notes_render_sha256": "504db5fd46672d164c1ad2b1e62395bbb9d09703c7cfb5538018c4d83298955a",
         "slide_sources_sha256": "5966737fe09aaf027fbafcddf95bc6d219aafaa9d7c6eecf2ced3e401e1aed5e",
         "notes_sources_sha256": "daf4b6423c6d094ccc2ea77ef190c9d4416532ee8d783ada89fa680eae72aab8",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "a890c129385bbcc69f2cd1f06ea3bc1fda1705d0e57e52c06e13b0e9dc9573a5",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "ec497f142550a75520562879ae953305ae5804a12255dcdb07ced0b2fb3194e5",
         "coverage_sha256": "02af0e61cdaf4202ffc02b69fefb623b2a034d9eb9268782fe9e02b7b88832bc"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s028": {
       "categories": {
@@ -843,20 +927,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "5ba21a3450489157e99e102322014d772386da23d1aae16491003898586df7d8",
         "baseline_render_sha256": "c2a23c82ca91987fe0d83db761797035efde3a190595fd3b14640ef061314102",
         "new_render_sha256": "58d2979af07f4db6ab2a49c9e061bfcb664fe9a4722a3f950e00ddc14431a6c7",
-        "notes_render_sha256": "9faac375aaeeef5b8a4e45162f3a5cfc52f3a50d7eee4d809a8a0adb60484d91",
+        "notes_render_sha256": "fb068a6ca4d8a77e9348db5120289c62186ee805d9cb6206ad7c327651c4ffa6",
         "slide_sources_sha256": "bb8ca122028052f24200e27faf2bceaf58c21d7fa90e660a2d17920d4852592e",
         "notes_sources_sha256": "eef62ddc4915d152c301e4876cc59e8fbb6906ca4b45a107f03e0b9809e54d4b",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "68bcb31bd032d4cddb11f5d639933f96411cd2c092e85bec6b887952b845bd40",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "2254a92d5d9175869d1be717370ced0bcce751da972af9bd22cd2c2d9667f884",
         "coverage_sha256": "9f25e1314409f1588df59f055c27c242508fc6b31fa576a365bbe57f4974b0c1"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s029": {
       "categories": {
@@ -869,20 +954,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "1ed3d77186cf00db66d0d2a52cd99cbd0ebdd6907818b2f5043b1b4e16442a24",
         "baseline_render_sha256": "744f147d3e946da84b603ea3ff6a3397ac0044e6a9f9bfbdb67d22b9cb139f59",
         "new_render_sha256": "2da0c5cb4c2cf6fd67a4efd6222b44a4a93799fd41881fec02b52af5ffe1c5e2",
-        "notes_render_sha256": "f10fd829e38b448d6293012d9ddd0e98f962fa234a72aaf689796694acb4d366",
+        "notes_render_sha256": "3d496a3affa57605e83e669ec0116aee22a3ec04c224bfb64d2c144801d43d08",
         "slide_sources_sha256": "e2fb50ecb91da09b3e6f7d4032bd5046d4542e9f1acedcb366e33c99e88a4657",
         "notes_sources_sha256": "2ba82439d8ce044e083fb1560cf37e2b22a169f46a18406ab8fcf06dab8f30cd",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "9341fc13784118b343a894db01f0989f463bbdb82cffe1c6dfb7e0cc7ef6e17f",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "38b6d05ef7f458b1cd1fe43ab668f813fc204bc1fb43f92255683908449f619e",
         "coverage_sha256": "f56d4dec91f367ea179dfc9c5a639949002fca8d0234f42a67d40ca46b7040ae"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s030": {
       "categories": {
@@ -895,20 +981,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "d4314453a5991b249bdcf0ad14930d0bb5ff10f1003b060930c93a41046c85fc",
         "baseline_render_sha256": "89d6ea5e8336861a81f4026b44c41f52c200b6e64267cdd1148084f067ac657a",
         "new_render_sha256": "7c249fe2c864386d6e531b8baa4c8e8ba9668033b15f3649926ad1d6793cece0",
-        "notes_render_sha256": "c7eeea2e529b9b989ad0d963d8884bab9b06309609399a6b7e5584cc62a097bc",
+        "notes_render_sha256": "0fea0c1bf430cd59d9985580fc41767228c944db831a98308739b46308942869",
         "slide_sources_sha256": "71f955923788dc37a55d1211697e78b5f8cb05026f81c94d001896a3e180e5b1",
         "notes_sources_sha256": "6cd341e1aeaf56e285db25f6c0efd48fb36b8cbe8a61c96fbd649c6ae7d63169",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "6a17cf50899d4267d3f51529b265c3d53a5b2d54e413d45256c2a39e9fb43285",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "beac5f1d53c7f78af7657e04673bb335b2ae6b3525daeb55d7082f795220ba76",
         "coverage_sha256": "2e06af0a00c7e2b590d5b86bb39eb7131c492b519774863a953e70d1201cbd5c"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s031": {
       "categories": {
@@ -921,20 +1008,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "d731f3e93637349dd7f9a8d7cb0d7f739cf56ddba4d0db910b5447241d841f04",
         "baseline_render_sha256": "b41ff0397788a718204e103626f7cff20351bbc5eae36790483c1cf9cc65ef14",
         "new_render_sha256": "9d9904a473788fcb65a637376ba83bae62a66922b965da48830e297975b42886",
-        "notes_render_sha256": "93de9a1e599d7df66d1efaa419b77cbcdcce0c53524115280c4b2cf43fd3e300",
+        "notes_render_sha256": "2ec31297bc86ecc9b51f87324d8ca9fbae75e7879ddd3eac8d543602fa655796",
         "slide_sources_sha256": "d5c3830ada2d6d3f090743c910da50fa83ca47e27c827b377a566e7c3b48a394",
         "notes_sources_sha256": "c88188d79e4b93fc64278b81e42b0280cf57226d5e24d0179200b3d043cceb71",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "3d1080e22f90419becec9a57fc9a6cdff910a8fb742c16cf91d6d780c200369e",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "2cac2f73ca5cbb263603332f7a29cae2e8675df2a742baf15eab98a71efdae7e",
         "coverage_sha256": "a9e3ae0f19fc60fd3caa83431466490991e8ba1539cb3eb5eab6bf7e2cf66211"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s032": {
       "categories": {
@@ -947,20 +1035,21 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "704677f281086b0b82680fd6cde81c95c95b02c52b08030a64830b54bf0d1b83",
         "baseline_render_sha256": "ce44c044b9e85c0f22eda9e09a084c98d14e342b666739c689136545ccbb5eaa",
         "new_render_sha256": "a34c482835cd213eea812f07ee5a32085560fc892570c94d903aeed85db72d64",
-        "notes_render_sha256": "08ba37807b22e9548ecb589780e0a15837a51df766fc4d2c1da019b421ec94d5",
+        "notes_render_sha256": "9e315bfab8297c0a29a21eff54074ad4caa6ade4b74b7499c60e60727da86aaf",
         "slide_sources_sha256": "a6d1015c74b6c78db9876d14bb65342d13b77bae928f5212823d44a00ec8bd0e",
         "notes_sources_sha256": "629dbd67afc2785435b7cfa61371135d2097fee8ce037a20591170c7840f6724",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "11b09df15f12a3d55afcfdc78cff2c0ce8b998f9d6e44ee49d497bfed8247dc8",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "21c5030ab45aff15980672f7e439cfc89cb0e32fcb572d9562d0a3598734a4b4",
         "coverage_sha256": "63d29d3a44cf9ed83f6191ee7cc8874b95be88cda763bc0f25c8151484545d53"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s032b": {
       "categories": {
@@ -973,20 +1062,21 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "704677f281086b0b82680fd6cde81c95c95b02c52b08030a64830b54bf0d1b83",
         "baseline_render_sha256": "ce44c044b9e85c0f22eda9e09a084c98d14e342b666739c689136545ccbb5eaa",
         "new_render_sha256": "bfccd0cd87047ea33473ac38238d8a65f52476ee3ba923cf9a8cba921d3665f9",
-        "notes_render_sha256": "1b9685941962aefd06c130239af453307381596e1f436a4e839007ea8c031877",
+        "notes_render_sha256": "e59927bc2a455d260a886e28ae57e04d42ae170f000dab149c51a0ca82f74ded",
         "slide_sources_sha256": "79bf3f8a9c2733aff51eb51059b20c4ca7b2d9951508e1f379ab43b8ef4e4a6e",
         "notes_sources_sha256": "a826b82536d279fdbb72a6279c04ab011091313adfef23dd520e11a4b5981bee",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "1c4bfa6a612db1c8dd5305f430f86456a40a3cf8b6aa46a11ba6e010a814db61",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "67505a1955a6efa51c2bac9a8a63e959885c61557aa20f783a781364fcca8a87",
         "coverage_sha256": "a58e19d6f3a1215d27055d5df53ffd8a1af1c6d3809bae9f91d8fa9651f870d3"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s033": {
       "categories": {
@@ -999,20 +1089,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "nije_primenljivo"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "6677c202955e054c982f3dc0a9f217f140a73a12fde1adc0d9c4468e47f5b356",
         "baseline_render_sha256": "8a109f405f572f7768586d6939579a24c7b263542f5c802f2c8e04728b87c22b",
         "new_render_sha256": "89bd6ad78a530648d26b040e73b3354c0b8f57d40a4549dd908e7ea004d5c970",
-        "notes_render_sha256": "9767f016c89c3ffe0efde75bae362dc6bd24511494124a2c2de69c778e89ab01",
+        "notes_render_sha256": "7f2ad1b5f1fbeef8e077292b5de67b6be84d8c04fcc215dcf927733e46a12fb3",
         "slide_sources_sha256": "3152097821cf24bed4778b63487eb9e78d4bf12278f37db49af6be60a0d323f1",
         "notes_sources_sha256": "abd5824591a77d554740db0626283fbe157cc87408964b71b329940062f849c0",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "c3e35edf90840015bb3b1355b593ae8f0955f9efca6abcb5deba0eec8320236f",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "e6193b764c55fd937ff43d05d02cc69c82d7d98f75ac5d9ad941c23cb99963b3",
         "coverage_sha256": "a12c430aebbdfa0e804b81137a6180cf23015aeb4346406efde471433734481a"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s034": {
       "categories": {
@@ -1025,20 +1116,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "de9ffd607ec1ee4a86534af79ff4444f92f58f65c566c629ef2d3ef851deb9c8",
         "baseline_render_sha256": "c45881cd96a4b4394c180e5a3ce5200f6aebd04ae3b7ba25d741304fb70fb96f",
         "new_render_sha256": "03b81e3033410e811e58f2cc44af5a0e75db98c624af1369a9d7b8c058e4e58b",
-        "notes_render_sha256": "ee351af0c61ef483da141223c1c1d9f2e25bdf56bc7f3fd499183281514be92b",
+        "notes_render_sha256": "31eb8cf706f42b349afa50b3dfd93641b71cd3f37c57d414d2de8369d0874fa7",
         "slide_sources_sha256": "60b365c167a3dd8e386bb706797d044485858793d5c7844f6b56e01f98f1f3f3",
         "notes_sources_sha256": "5f7cfaccf9cf336dde6ea80d4bcb5c2b0f9f9ed07e379b8f14139aa2f9c911ea",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "b7dcf9b203472033bd1e6fd8e145f4737b8e44711b8684c81a63394748149a8b",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "c7a9ae0755b8936b13d6388e2b2a75c362f6ce9428371a2a27b3656f238588b6",
         "coverage_sha256": "39397b462f7f7af6758104938b700856648e06f76a9479a111d654dbffe52196"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s035": {
       "categories": {
@@ -1051,20 +1143,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "496fc6984778e54671840bb9ed4b018af3d83cac2d09c9c77b068c5b5a5f134c",
         "baseline_render_sha256": "2c4366e2da3256c5f55f89a8627a14ee1e687efbc01e553df6bb14c91000d65d",
         "new_render_sha256": "32bed01b1a8969d9a6817131a99f98ba6caf8a13e4ad3bcc304d4d066658b774",
-        "notes_render_sha256": "4e6c73598d8f9db1e71bae3fd8d13ccb67bd55a134a7ea8ad855c4c1e5545482",
+        "notes_render_sha256": "628d811730a9041f906d8c50807c5dc640c95e4a18d8a1c6b7ba4aad6f881334",
         "slide_sources_sha256": "935aefed7df3fe395100320f87c86d10e3976ad2eb027d90877ad60ce9e3abb1",
         "notes_sources_sha256": "a0596a64fb794bb537063f9188d87e730dd837a08e5bbc125b2c7b22c4858da1",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "8d56c1f0dc68385e54dce9b245160ac5d02718696affa3d7fd7d1491cac7c636",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "3b2a5818b309e63842c4fa5c558f41cce2cd325d3b237a12492ccb3816807a47",
         "coverage_sha256": "2f1580ae2ef376c4a2ca84d330aaa5098973440155afce916226e46043c70089"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s036": {
       "categories": {
@@ -1077,20 +1170,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "4a8680a3c3b9a47f817aa409d4c4bd77f28c465e1b07619a417bcd2848b75e51",
         "baseline_render_sha256": "5800e31582eb5b8b32283def7456722cdf54190e45460a69ec77b15ecf4b4731",
         "new_render_sha256": "fa44c6f5ea4be909fcea824db699988be4e63735358013fd2e1325afc9e4e5a1",
-        "notes_render_sha256": "5a1c1ab59045c123a8c7bd76ec0bf471ded2d509cbb02bc1f021a9a1de3166cc",
+        "notes_render_sha256": "b3249c674cd38204dbcb5c6f23bc5b8b8f73b449090550ffa4eb79eb554bd45a",
         "slide_sources_sha256": "029e7bec274954596c44954e845e4e765ba46fa049dc19826dce693880f61271",
         "notes_sources_sha256": "665c63ee3185266583573e9151d2c81382f1dbca2a910499338c23d103673cb4",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "aebb7b7f9cc66bd90d0b4405a682885e357120fe92cf968daabf741a6cbcd879",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "e60e961fceef2a57858d14f6118f5675ddd684fd49ab8210e6825eb2e8a6f40d",
         "coverage_sha256": "a489aa9c0a4525545ed2b6ad9618b3b761e75e4432a9e87bbcd7f6e3726d064a"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s037": {
       "categories": {
@@ -1103,20 +1197,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "d6708b4bba342ee4931a681b89c97186ec69106866dbaeb4bf20c277732dfd23",
         "baseline_render_sha256": "39549259e9fc6cce07dce93b159e4d596dea13f01c5bf9788d1f85eb7d6c4846",
         "new_render_sha256": "94c5a1f8c2d2b365b31810014e64fde1307afe4674cc7a99f57317596a4a69fb",
-        "notes_render_sha256": "389852df971cdd86e8d3cc39e66e3dcb8c0dde4e58d81c9b05994a2ee11f5323",
+        "notes_render_sha256": "0369fc0ffa337653cb7cbed450526e8ad2737c764f3ed81f03a35d3d89b091c0",
         "slide_sources_sha256": "c0e81f9c9eec42647348f553e05423a5b8280121c6e7547ba9a1d791efcb8e0d",
         "notes_sources_sha256": "6d6ebee19ca3425985c950b06c71fc5734f2ebbaa7ec0e6334ff5bf20bfdac90",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "a00b0924a549f59525760f2815dc064abe19c28459e6829c7e0c9207f5d85c11",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "ef374da8d5bf5bc6a8ec89afc4e6c6c2940aa197e01cc2110e806786258fd46e",
         "coverage_sha256": "93fec85e21664abc238a0633b2133a23d4a32c7e6a96548a07b063ba4c0a9c97"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s038": {
       "categories": {
@@ -1129,20 +1224,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "801a1934160497c58044d98ea2f5cac7c38c70e7c2db4d9ba8efe76b6d677dff",
         "baseline_render_sha256": "e35e991119c720baf68f35254204984e24c4d82f4adf4199b1a1582f0710b7ff",
         "new_render_sha256": "94b1f2ceea190bd26a7e794244f6d7e5ba2546074ca5e84395c3ca1af33b75a6",
-        "notes_render_sha256": "e560e828736cded9e7cdbf08a93ee920bc69b1eb4a6a041ae293877f46cbb880",
+        "notes_render_sha256": "ea38d6ed68414968b959206ddd23ec7bcabd00189720f1b22d95d87a36b84800",
         "slide_sources_sha256": "556be5d13d5bd0ad182b9c682a6806dc9739781d533e71ae2b81e4884e80367e",
         "notes_sources_sha256": "733c59c576715f3a3a7ee13441394601ca047d7e4428fb6a652b06e51620386d",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "b01a60201937c09b42b7ef633eff95459a2edff13f6f2fa0483db7089ef226e9",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "8f15bc79d2bb80e9207b7437b6773660a2a90fa79f2af8a687c1a83f7968ed86",
         "coverage_sha256": "48e0d44d10ec0c31851cb6ded88bfb01b1cde76d5d358930af74bfed98cef0e3"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s039": {
       "categories": {
@@ -1155,20 +1251,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "nije_primenljivo"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "05e20f35c86c4f72a25133a44b629f6c624fe8635ff1a7e549303828daf7eeeb",
         "baseline_render_sha256": "d23c563d0c74a8f3302b8f9d912b2005cfe648f414e919cf7bc2477d2224457c",
         "new_render_sha256": "3d0549eeccc4e704e265663dc682ee6c8e40833ed90b2b46b69890a013f085b6",
-        "notes_render_sha256": "e35dcd959b3cc15866327c7afabebdbe7517fb413b21190be5e79dfceb81db9e",
+        "notes_render_sha256": "d096059cffd1303f1752b414893c25ebfcff045f9958eddb0cf226db77b1e1c4",
         "slide_sources_sha256": "28f20b3c90f934b3170682a131fe7a18f039910f47131217268c339de1e641d6",
         "notes_sources_sha256": "004df08ca3bc4bd1013f1c4cae296206eea419f43615749be92ed1d6d687a33b",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "a09acaeb6d309978fc504f065120c533b6053cf00f5589f0931733704ffb6c93",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "14020a4455d998bac6bc9e2b2635a574dcb33239b4467b4e808dc64902c2d533",
         "coverage_sha256": "e20dfdcb541db92377d04e24d9af7418df19f84746e8d399ece42643a29939de"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s040": {
       "categories": {
@@ -1181,20 +1278,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "d1aa23f2362a28da21f9df9c22958f487b4b8021142076618fe5593deae25531",
         "baseline_render_sha256": "65494954b25c42a32105410505463733d2e7a22cd2c0401274ff4b2ba87c2d8b",
         "new_render_sha256": "c4f242fa6f19beb40bbd49e6fad8a4b1f89aa91aae8b20bd1b3d1d7e03935d07",
-        "notes_render_sha256": "82f269382470b2f5b0d3ed9cf99181dce8facf7eef45a1d5522d124fde69cc1e",
+        "notes_render_sha256": "1fa1c82c0508d3d22db205c4957ac787f43cdd7221b2bc092d24a887ffa52b41",
         "slide_sources_sha256": "72b4aa325f931e0604ab9a458372eabdcd2f62ad9157b4961da7087e670e2d7d",
         "notes_sources_sha256": "83792f8127ff37f1346884c81b5b922840441d042ee0acc94622d5225ffcbc86",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "a4dc1d3dd4195f1891e39be7869b977f05e5e71b61919a90ad3616f9fa6261f3",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "77727a17770bca08e6116db973fc66d23909a0ef7b828d21ef362626cfdb98d8",
         "coverage_sha256": "8e0dfe7dd1fc4ff84cb2b17c9aac77eecfa16a1b80fc7261e5d89337acbc29c9"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s041": {
       "categories": {
@@ -1207,20 +1305,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "nije_primenljivo"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "00e10b9ae87ba413d592fe0ed4535c2743c8359af46f765e74d2b63b0db25d0a",
         "baseline_render_sha256": "5299c9b3d3a4726be8e5b99ae4e4bf11d32390b1b55e7061091b19f6e068de14",
         "new_render_sha256": "d7ad44b28a8148b618ad958f83796381ade42f3b6b07d0ebb90c99269ecb1d72",
-        "notes_render_sha256": "48c58287c9cca0a0ff9e6f0ece00ba65cca7426cb416c7c3c7da63af2aa413d3",
+        "notes_render_sha256": "0851feb99d46c8b11484c80236f1b57c4c8a09b22d95f43da63930606157d42c",
         "slide_sources_sha256": "fefa92156c118d7f78646e66847782c3273cb1ca545c37003f894d035c775574",
         "notes_sources_sha256": "48b8eb1eb7f985cda482d4f002dfbd6ff8ce3724818d7de2416378ccc5161231",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "ffc78a4d4352f0c1430dc9528aa7180c08269f61601bc2e6a7757a87956d1fa5",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "d8bc6b52f4d7a078a04ac8d056627fba15fdf84a3a8bfec8ce8c3f26dca61ef6",
         "coverage_sha256": "1cf1f4e1931802581f5031fdaab144126aba3f5d432075bf054089f10b121d73"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s042": {
       "categories": {
@@ -1233,20 +1332,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "nije_primenljivo"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "fb18aa46fe84b61f305ce526fbb792e634a5e506e1fa4b620fb91442e18517ee",
         "baseline_render_sha256": "a542a6bf0d25360ba2fcdd9180e9bb5068b7d1a276e0d6831e477689dba66989",
         "new_render_sha256": "d193562f9152ba4ace656a3c8ffbde234335565799ee11fc95ba49c821ac7b68",
-        "notes_render_sha256": "e04f455c02902272021ba77218c08c715a77f118f408f1c346f43a9291bd5065",
+        "notes_render_sha256": "a83f3592836ab5582f9e195fd601c4ea28de029182c35937fcbc4acd27b849c2",
         "slide_sources_sha256": "fdad90d35d3c5fc48c95596c738f4ff776c38c12cbc99e5d197fc082e30a0c4f",
         "notes_sources_sha256": "dc9a73a5dcda2b54330a1fd0790fea1edf43b13fffdfaf6c26c9e0e71c8254bd",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "aef2ffc65d149f29a11b432697ca44e5369537b088e90b3b3f60d95fb46c820a",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "8097c0f93e5150d685b9fc9ac83c5caf0121f663d6e28f5bfac7590662d5a132",
         "coverage_sha256": "2b287fc48c1f468f5324b7286f7df7105f128b2d273ee4bed4a2b05d6bfbddae"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s043": {
       "categories": {
@@ -1259,20 +1359,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "ac8cbbc032674a59be67f32658851bce97274fa904cc4da89303aed7fcc9e2bf",
         "baseline_render_sha256": "030fa8f3ec22c6e02f182c0b5cfb6e03cdd07c92e3e868d26d88615539d4561a",
         "new_render_sha256": "220c2c059e7fb4b8ba67e76cebd106f0fe5be67be8aaa2853c5ba9625b3639ae",
-        "notes_render_sha256": "a52327e41bb086aa9f095a46deaab7bbded5fe889290d78a970087ade86c7f61",
+        "notes_render_sha256": "c66e0900489439781c8d67b17d3a5b5182c13e8880748c707182d47bf0d2cff8",
         "slide_sources_sha256": "2646446a7cdaa8aab361e4c281e57b7e0f53b1b245709880898fdde1c50cb712",
         "notes_sources_sha256": "508e9c7943f0d1d0d332e0caf8d835b8c170784859f3ce1402feaf3b02205818",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "9795d6db9a180f0ec999a8291ca2ee6cc4daa0680b4285829e6ac93563f4e0ab",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "7e5906b8f36b3ae0273b3b353bc864a9d2a7e760cdd5e92e8738ec7006f6342d",
         "coverage_sha256": "f113931eac65c6f11da5667677a3b1f12c02e440cc783c5a4d69aadd5f959e9e"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s044": {
       "categories": {
@@ -1285,20 +1386,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "dfeff094129390dea98cbc1f2a5b4e7f94c92dced7d67b4164adf5efe9d1b543",
         "baseline_render_sha256": "d0b2589e205d3bdfa9a9d0789a8a8cd7fe175964a45f1d7b5be1cbbf54e6786e",
         "new_render_sha256": "7fc5df3c3369319a49447708796125047e2aa71aa1ad36ce028efefda96a051a",
-        "notes_render_sha256": "e0c3c432960448a33c4bf91e3f6441bced8cf6959131afbfc2c7fd360eddeee8",
+        "notes_render_sha256": "94a95874bc47dda41d33546136b88c3fd1085112b7bfd73c234cc18624500054",
         "slide_sources_sha256": "fd35d706403e21b12ed28a96dd15deb9b03fac17bb2677fac73bd723c0c39609",
         "notes_sources_sha256": "26a00af2708d7ab1dbd14653dbe3cff10b6c3e0d5b7171ba97aeac8c28c78a9f",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "840223420a844fd80d72d439ee25b2077bda133c1ce5b485cc82072363fe4ca2",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "5a63699324b8ce1e0d84e928f34ef8792fd4146acd24abb756484e72e60b36c4",
         "coverage_sha256": "8df5b2950a8286473d3a23f4f463a723bb0c5231aecf9bb502d0f78783f99a95"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s045": {
       "categories": {
@@ -1311,20 +1413,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "nije_primenljivo"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "ff88ea21cbd3bc947027d2ac13e70db0ad02ba658982e2eb01868bebcd8ee85e",
         "baseline_render_sha256": "9ad6ac5cb108c509d39bed1f5d2676c44efb05dd4209d1f9affb6e0a168d7a66",
         "new_render_sha256": "4bb3bf64dcbab5739d78baa1a7dc9e0649979deb97bfab345820d96bbbf46a0c",
-        "notes_render_sha256": "c4d01755bd30fb3a56ccc3c31f5c3e5eb3eae2c732afdb1f0193461aa9520f48",
+        "notes_render_sha256": "cbd698159afa09ad34662ffd0c174a891da2988409be0310d730eaf51da765c4",
         "slide_sources_sha256": "010389789b6d3bfde64976a52b2c184f36f24f856e84e66829da6afa3d5b7a7e",
         "notes_sources_sha256": "626e667bbf39b1bda2c0cb745951ef669f3a9675178211556bf11ed2d4bc087e",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "2bf24bdbfb0b0f8e3c2f967c1eb8007bc29d79b71275bde149d089429ed4af37",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "18429c4c5154f24119b44f6b126cff37533a14e6489f9099697704f58eac48e1",
         "coverage_sha256": "7e1f6fb4e89f7ac2fcf4db5767970f0c54e039ceaaa498a7fe7def2e7cfc7de1"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s046": {
       "categories": {
@@ -1337,20 +1440,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "nije_primenljivo"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "1a35bf10275e8988ad129e9406a4a98a890761725aebcfc34dd64f403a49174e",
         "baseline_render_sha256": "4227a5f4cc750ecf066289561ca20cc5f52d51d6a97f1775233157d76e7ac74d",
         "new_render_sha256": "f2624c984b423243365b6b1fad9207a430ac79ba1ef2a46451d65b33082dde1f",
-        "notes_render_sha256": "1f04d12f0a1095d506bfdc90b2ec67aa619ba0e6d4c5b843cad6673119c02505",
+        "notes_render_sha256": "fb252617b5c05e96660a91cf63d0279de99dd5d0df8abdd1f5560bfc7067bcb1",
         "slide_sources_sha256": "5598a69f72f10144d67a7fcb03b8e5b8ab9e925ff971e841222c431449fb8d66",
         "notes_sources_sha256": "5c3c347758feecb6cec944261f0a31986ba781c125840df691867f4bae3d2e48",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "07098ba2aefd2761087002b107fd34bf9f5bea3844c802752a544a4bf1a33815",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "e5fc4d73b8db323eb918069c8b096c8f48d6cc2f322c37beee54754d1caa6193",
         "coverage_sha256": "35c6dc8741fb3ba58d7788d2014fc7aa9730a12e214e942f6ecfa8040517c30b"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s047": {
       "categories": {
@@ -1363,20 +1467,21 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Potpuniji izvorni uvod o preraspodeli proizvoda na račun kašnjenja, ista F sa grupisanjem, sva tri dvoulazna I u jednom čipu, druga dva kućišta i ukupno tri čipa. Uokviren odnos broja kućišta i povećanog kašnjenja. Beleške zadržavaju uloge kola, slobodno četvrto I i razliku stabilne funkcije i vremena odziva. Pročitani originalni PDF strane 24–27, lokalni izvori i prethodni prikazi; stvarno pregledani ceo konačni slajd i cela A4 beleška. Nema izostavljenog gradiva, pogrešnih formula, preklapanja, odsecanja ili uredničke evidencije.",
+      "notes": "Potpuniji izvorni uvod o preraspodeli proizvoda na račun kašnjenja, ista F sa grupisanjem, sva tri dvoulazna I u jednom čipu, druga dva kućišta i ukupno tri čipa. Uokviren odnos broja kućišta i povećanog kašnjenja. Beleške zadržavaju uloge kola, slobodno četvrto I i razliku stabilne funkcije i vremena odziva. Pročitani originalni PDF strane 24–27, lokalni izvori i prethodni prikazi; stvarno pregledani ceo konačni slajd i cela A4 beleška. Nema izostavljenog gradiva, pogrešnih formula, preklapanja, odsecanja ili uredničke evidencije. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "2be338b8c9e28b11d3c4268e3eaf6b511028831eff51f50671447b7d599396aa",
         "baseline_render_sha256": "7cc57323747738caedf162e4ecfff13b63f93d04247ab0c1a11bb0157efc98b0",
         "new_render_sha256": "37ea9ca8c50c9aca7dad70e90586e63cc6161ed61262361265f92c8792c99224",
-        "notes_render_sha256": "4d406a77f9c4c08e1ae43b4217c97b023125ed404157d4706ef8a72f7b2b361c",
+        "notes_render_sha256": "78ee7ff09e36e11e840fe5c02323fccfc2b09848e06628e6a951095e7ef92c7d",
         "slide_sources_sha256": "d21b285081d09cd02da00466ab7d97e1ea40f602ddbcc40b6abfe16fa2a8d6aa",
         "notes_sources_sha256": "abac76d6b591cf339185b2bff90f5e77f4c8214f8116ca9b17181196f07277e6",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "959ac36101de1d891ffec2456861177120a07fda9ba0801ad6fee28af53ef41b",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "5dea79425185761283ef08603f67998366fec86c8678a564b839bb42f50abb46",
         "coverage_sha256": "934c33efbd3e7d1af465670ea0177586132d412fdd8fea0f9740ee9ddea48e63"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s048": {
       "categories": {
@@ -1389,20 +1494,21 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Prvi odobreni deo originala: uvod NI/NILI, izbor zbira proizvoda za NI, sva tri koraka F, tri različite vrste čipova sa tačnim minimalnim brojem kola i izvorno ograničenje dokaza minimalnosti. Beleške dodatno tumače De Morganove međusignale i kriterijume. Pročitani originalni PDF strane 24–27, lokalni izvori i prethodni prikazi; stvarno pregledani ceo konačni slajd i cela A4 beleška. Nema izostavljenog gradiva, pogrešnih formula, preklapanja, odsecanja ili uredničke evidencije.",
+      "notes": "Prvi odobreni deo originala: uvod NI/NILI, izbor zbira proizvoda za NI, sva tri koraka F, tri različite vrste čipova sa tačnim minimalnim brojem kola i izvorno ograničenje dokaza minimalnosti. Beleške dodatno tumače De Morganove međusignale i kriterijume. Pročitani originalni PDF strane 24–27, lokalni izvori i prethodni prikazi; stvarno pregledani ceo konačni slajd i cela A4 beleška. Nema izostavljenog gradiva, pogrešnih formula, preklapanja, odsecanja ili uredničke evidencije. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "a359ea9718cbc1bb5b1c03dea90ded292ddbdd67f4031d38bcb1c28e34f378bb",
         "baseline_render_sha256": "c5bdb88710e6a4ffeb87edb05dd0cd468d5f2d72ef8cdda6a4242f96686aabc0",
         "new_render_sha256": "f9058f9f74d42c37f5b101350a7a8d90c192464f6c6b37d3a691cf7270a5df1f",
-        "notes_render_sha256": "0892355a7100ce0ab970d9072da3b84a234744fa0e4d31299fe1234a0a198503",
+        "notes_render_sha256": "8bd02800bf60c22956f8e1333c598de2c70bdf9e51cf7321485f3dea7ae9ee9c",
         "slide_sources_sha256": "b7999f095556fc2f1505ea17e8279bd3d84be2716a249ca158785bb546a5f8a0",
         "notes_sources_sha256": "13808c33479f4daa05b1869e4ae7886ea148d77b684e55d591027c32155a980b",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "5951b01225960c572eccd6413eb213dcf7febe3c227bd3fd3e26f4add97a389f",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "8a3f26f01a2b0ef16ba07a3b8fb3131a34cdeaba66f1d97b8992636cc72019ba",
         "coverage_sha256": "590caec8c7ce3b8c64af48af467b0f6bf4da314e3449491a3ab681ad2edd0ae9"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s048b": {
       "categories": {
@@ -1415,20 +1521,21 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Drugi odobreni deo: puna zamena troulaznog NI uz dodatno kašnjenje, dva dvoulazna NI i invertor, račun 4+3+2=9 i tri četvorostruka NI čipa. Alternativa šest invertora sa četiri ulazne i jednom međuinverzijom, četiri NI u jednom čipu, ukupno dva različita čipa; popust na količinu i pitanje 1+1 naspram 3 bez opšteg odgovora. Beleške zadržavaju potpune međukorake i broj slobodnih kola. Pročitani originalni PDF strane 24–27, lokalni izvori i prethodni prikazi; stvarno pregledani ceo konačni slajd i cela A4 beleška. Nema izostavljenog gradiva, pogrešnih formula, preklapanja, odsecanja ili uredničke evidencije.",
+      "notes": "Drugi odobreni deo: puna zamena troulaznog NI uz dodatno kašnjenje, dva dvoulazna NI i invertor, račun 4+3+2=9 i tri četvorostruka NI čipa. Alternativa šest invertora sa četiri ulazne i jednom međuinverzijom, četiri NI u jednom čipu, ukupno dva različita čipa; popust na količinu i pitanje 1+1 naspram 3 bez opšteg odgovora. Beleške zadržavaju potpune međukorake i broj slobodnih kola. Pročitani originalni PDF strane 24–27, lokalni izvori i prethodni prikazi; stvarno pregledani ceo konačni slajd i cela A4 beleška. Nema izostavljenog gradiva, pogrešnih formula, preklapanja, odsecanja ili uredničke evidencije. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "a359ea9718cbc1bb5b1c03dea90ded292ddbdd67f4031d38bcb1c28e34f378bb",
         "baseline_render_sha256": "c5bdb88710e6a4ffeb87edb05dd0cd468d5f2d72ef8cdda6a4242f96686aabc0",
         "new_render_sha256": "42b1876ad013d170f802ff9f1bde0c67572b82fb5992aec8cb765cfa898feb80",
-        "notes_render_sha256": "c3d4b97e117166c06e4afa59c4e3b4b5db0c65a9dbef6d6a2fd4f0b4fd98e15e",
+        "notes_render_sha256": "947ddc60f42c578fa26c2f396a1bc013d6545b23d78a6527d150f7a81373061c",
         "slide_sources_sha256": "55cc7dc9c9ecda7fd39f75e3bc3bfb1747f7d006f61e14a2bc1b62f9ca08e0dc",
         "notes_sources_sha256": "8747d0797106b2cc6c5684bdecac5c6be61ee68a94b56bb73c24faf346666b71",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "ddeab738b6114cf90add2403c27e5205c163b2abdc7c0334587f0e861bbaddbb",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "42bb653833fabc78c21d940ff185ee878eaea8a711a61e4436dff78ac7612e6c",
         "coverage_sha256": "af330459e04f69bebaa862d3c9c0500ccc28d1382e31636546366cf111b09563"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s049": {
       "categories": {
@@ -1441,20 +1548,21 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Prvi deo originalnog s049: puna NILI transformacija, tri vrste kućišta sa najmanje četiri invertora, tri dvoulazna i jednim troulaznim NILI; ograničenje dokaza minimalnosti. Beleške tumače sve međusignale De Morganove realizacije. Pročitani originalni PDF strane 24–27, lokalni izvori i prethodni prikazi; stvarno pregledani ceo konačni slajd i cela A4 beleška. Nema izostavljenog gradiva, pogrešnih formula, preklapanja, odsecanja ili uredničke evidencije.",
+      "notes": "Prvi deo originalnog s049: puna NILI transformacija, tri vrste kućišta sa najmanje četiri invertora, tri dvoulazna i jednim troulaznim NILI; ograničenje dokaza minimalnosti. Beleške tumače sve međusignale De Morganove realizacije. Pročitani originalni PDF strane 24–27, lokalni izvori i prethodni prikazi; stvarno pregledani ceo konačni slajd i cela A4 beleška. Nema izostavljenog gradiva, pogrešnih formula, preklapanja, odsecanja ili uredničke evidencije. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "d5625a5e8e112d69893e95d356aa5d250f4933e4fc003aa9e542a800cc41df5c",
         "baseline_render_sha256": "d1ee3ac051cffaba425096e61cc8ae0d7a885d0574dddddc216a1b281666743e",
         "new_render_sha256": "ddbcddb8708d05d6f4ee76ddb3c4bd70186c9298137a64e633419f55b3da6441",
-        "notes_render_sha256": "f2f9343d3f56647907a6b1e9baa8cc42b3b26e6b22972f9d0413aa7c6759899b",
+        "notes_render_sha256": "a41ce2985fcc4aaafe4a844d4533ada8865e97bef6ccfc39c7d9d334b99b8776",
         "slide_sources_sha256": "b0745eee141b0cdeebe49bc64a6814be859699c363922e73164e875914d99a3e",
         "notes_sources_sha256": "8dc12e9c110245d185901d24db9a7d1e669b2d4c4b92345c52421835fd8e0f85",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "7146bac52652a9113409c79dec69bb5fd949b0f8b743b6c8833e47fccf58a252",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "81ba77873beeb214d314aa6423db764c7faa9f2427e011c437a47c0dac66e403",
         "coverage_sha256": "262393542174c9806f64ba4b8e31d6110dc4b6770120239243a2c4e22083555f"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s049b": {
       "categories": {
@@ -1467,20 +1575,21 @@
         "pokrivenost": "provereno",
         "beleske": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Drugi deo: sva tri koraka zamene troulaznog NILI i račun 4+3+3=10, tri ista četvorostruka čipa; izvorni zadatak poređenja jednostepene složene CMOS realizacije pri dostupnim komplementnim ulazima. Beleške objašnjavaju međuinverziju, dva slobodna kola i način poređenja. Pročitani originalni PDF strane 24–27, lokalni izvori i prethodni prikazi; stvarno pregledani ceo konačni slajd i cela A4 beleška. Nema izostavljenog gradiva, pogrešnih formula, preklapanja, odsecanja ili uredničke evidencije.",
+      "notes": "Drugi deo: sva tri koraka zamene troulaznog NILI i račun 4+3+3=10, tri ista četvorostruka čipa; izvorni zadatak poređenja jednostepene složene CMOS realizacije pri dostupnim komplementnim ulazima. Beleške objašnjavaju međuinverziju, dva slobodna kola i način poređenja. Pročitani originalni PDF strane 24–27, lokalni izvori i prethodni prikazi; stvarno pregledani ceo konačni slajd i cela A4 beleška. Nema izostavljenog gradiva, pogrešnih formula, preklapanja, odsecanja ili uredničke evidencije. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "d5625a5e8e112d69893e95d356aa5d250f4933e4fc003aa9e542a800cc41df5c",
         "baseline_render_sha256": "d1ee3ac051cffaba425096e61cc8ae0d7a885d0574dddddc216a1b281666743e",
         "new_render_sha256": "31f753fb19b20658e01ba572c77b9ff41e1e10febcac632005e33953ee2a87e1",
-        "notes_render_sha256": "5c06de79a1fe1bcea9bbcb46beefa56a92f63da3b9fb93551713661d34512c87",
+        "notes_render_sha256": "49b852bb30722defaa1d49a594a171bfde9ad8d5c0fce2157e1117db3f61d76c",
         "slide_sources_sha256": "5b0b4e32cc8bb92b7297915ba3ec613dbb56570b18d21bdb7d1fd3042b76c592",
         "notes_sources_sha256": "c9e97ba64dd399409874cec17951ed8943a8b83928a6b9a35de349250594f330",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "17c17692b122fe207e20411283d18cbb5ff479f9a1511cef4530c1f630f16660",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "92958cd095ea724e7e2a139d158aa5c02d5eab0d99c20c617bd585414e00f17b",
         "coverage_sha256": "c7a27688ab7931e4f1de9498fb50d0393fb7289e88f95c6cee28443c24d026b9"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s050": {
       "categories": {
@@ -1493,20 +1602,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Potpuniji izvorni tekst: fabrikacija, temperatura i starost; početni i očekivani konačni nivo za lažnu nulu i lažnu jedinicu, glič, F i postojeća šema. Beleške dodatno objašnjavaju različite putanje B i njegovog komplementa; bez ponavljanja izvornog uvoda. Pročitani originalni PDF strane 24–27, lokalni izvori i prethodni prikazi; stvarno pregledani ceo konačni slajd i cela A4 beleška. Nema izostavljenog gradiva, pogrešnih formula, preklapanja, odsecanja ili uredničke evidencije.",
+      "notes": "Potpuniji izvorni tekst: fabrikacija, temperatura i starost; početni i očekivani konačni nivo za lažnu nulu i lažnu jedinicu, glič, F i postojeća šema. Beleške dodatno objašnjavaju različite putanje B i njegovog komplementa; bez ponavljanja izvornog uvoda. Pročitani originalni PDF strane 24–27, lokalni izvori i prethodni prikazi; stvarno pregledani ceo konačni slajd i cela A4 beleška. Nema izostavljenog gradiva, pogrešnih formula, preklapanja, odsecanja ili uredničke evidencije. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "0fdc3df0da12080f1e17785890887ed813c027054fc82f470be140eccf971f70",
         "baseline_render_sha256": "e743158bf1b58757eee12a670d024dcda2c4143c9570e1d0f763c742f1570f43",
         "new_render_sha256": "732b61c06722b0bcbc2ec47d22ff539df0e78ea4373bb3b262d94ee5ccc1f41d",
-        "notes_render_sha256": "537b7bb76f72bdbfcbf171367dc4b7fa0fe614b10b589cbf6dbedc250b0daed7",
+        "notes_render_sha256": "a6385c2ae3796106476500036846d88b2560753a22f44150cb119c5259a8afe0",
         "slide_sources_sha256": "193f4a6bc085a106979ac71d28919f4b0ed0113adcce390d05b313905b748cf9",
         "notes_sources_sha256": "ac9a8b6895d9a49474b7d01ba90e04d4454a87fb9348cc7e276fc0cc65e6084a",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "efc471426e544a7ef5e173065dc94802c64a851c67f0dd969f22893f70f07601",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "4c248de157f5c3a632a8dc8a1541fd7ae5065d2f8d9256a44d5acf192111decd",
         "coverage_sha256": "68b88a57d4624f151fe8d90aced13abf1cc55a17ba7a69a1f65ea91999816741"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s051": {
       "categories": {
@@ -1519,19 +1629,46 @@
         "kod": "nije_primenljivo",
         "crtezi": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Vidljive izvorne pretpostavke idealno brzih kola osim invertora tp, početno i konačno stanje, B 1→0, F=1 u oba stabilna stanja i naglašeno ALI/lažna nula. Obe šeme neizmenjene, tp iznad talasnih oblika. Beleške zadržavaju događaje i međusignale u tri vremenska intervala. Pročitani originalni PDF strane 24–27, lokalni izvori i prethodni prikazi; stvarno pregledani ceo konačni slajd i cela A4 beleška. Nema izostavljenog gradiva, pogrešnih formula, preklapanja, odsecanja ili uredničke evidencije.",
+      "notes": "Vidljive izvorne pretpostavke idealno brzih kola osim invertora tp, početno i konačno stanje, B 1→0, F=1 u oba stabilna stanja i naglašeno ALI/lažna nula. Obe šeme neizmenjene, tp iznad talasnih oblika. Beleške zadržavaju događaje i međusignale u tri vremenska intervala. Pročitani originalni PDF strane 24–27, lokalni izvori i prethodni prikazi; stvarno pregledani ceo konačni slajd i cela A4 beleška. Nema izostavljenog gradiva, pogrešnih formula, preklapanja, odsecanja ili uredničke evidencije. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "be3ad87805947b90896c1280d95a240fc90511229469becf69523e9cea87a291",
         "baseline_render_sha256": "1a215519a24fbf1e3083df4a6c316a2a788de198a3fc8489232529b1b33d967a",
         "new_render_sha256": "df29f377e78dafe14c3867845aecf806416ae17ae925e2646d00e689d8570fa5",
-        "notes_render_sha256": "dc26e9684dc979d461eb1c617c773608114cf48705a5a1b1abbc4435f8e5db7f",
-        "slide_sources_sha256": "fbf77018af0c10fcca438beb637e4a49d5c6699b98e22bdc0567c5ec542c21cd",
+        "notes_render_sha256": "69e206881d174c2dd7357af42625cf48d0f2b96d199d67b9a5d8856546f0159a",
+        "slide_sources_sha256": "b96b25338b0a741a2aa3a61f8a1da223afc0d012438b21b7705aef8971d2435a",
         "notes_sources_sha256": "94196f77157155726e98e2376e4b5654dc4cbadd77b9c13f3c29e3a0b87b09f7",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "4786e9423bc819b304b77792dd99d1f36120ecdbafe09685e94bd775f59efff3",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "c5ed0a08db3778bd0dfab8c7c7d6a0e0f7eb4006b85980af1e9b44c540174647",
         "coverage_sha256": "c93a85eceaac6df82cbc93a21a68603f747dcf9c51f620fe1835e8cc14e1f7c6"
+      },
+      "previous_review_date": "2026-10-05"
+    },
+    "02-s051-rtl01": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "provereno",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-09",
+      "reviewer": "Codex",
+      "notes": "Stvarno pregledani novi projekcioni slajd i cela A4 strana: potpun izvršivi kod levo, objašnjenje i oba TB linka desno; font RTL-a 9 pt, stvarni brojevi linija, tačni nazivi i veliko T u Testbench. Funkcija i topologija poređene sa originalom i aktuelnom šemom. Nastavne beleške bez uredničke evidencije. Oba TB-a završena u oba simulatora; automatski TB potvrđuje funkciju.",
+      "evidence": {
+        "source_render_sha256": "be3ad87805947b90896c1280d95a240fc90511229469becf69523e9cea87a291",
+        "baseline_render_sha256": "1a215519a24fbf1e3083df4a6c316a2a788de198a3fc8489232529b1b33d967a",
+        "new_render_sha256": "26e2b91006d0003cbebeaa048053c1c982946246cd611b72b4ab6da4e1bfe931",
+        "notes_render_sha256": "35539de93ac4ad55b67846408f2ed705250d077b5678e611b8739599a6728622",
+        "slide_sources_sha256": "11bae4a0057db0b07df09100f6ef265a29795044d1ada53b62f1961716cbbb74",
+        "notes_sources_sha256": "35be2c215749f0ddd19c35418a9b5f92a7b1b7fa5fab0f440929efb725fb41ad",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "92799378bb64949a01664d80195dbdcf9466bfe26140ed1587229685e6acca7a",
+        "coverage_sha256": "0af84fb2dcdde6b809bff8c728cfb513829e69a66680eb9c26efab0f757e008f"
       }
     },
     "02-s052": {
@@ -1545,20 +1682,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json.",
+      "notes": "Očuvan raniji stvarni pregled: dokazano nepromenjeni slajd, nastavni tekst i A4 telo, isti lokalni izvori, pokrivenost i zamrznuta tema. Promenjeni zajednički otisci potiču samo od odobrene podele u glavnom izvoru/odluci; s052 ima pomak za dve strane i novi broj u A4 podnožju. Dokaz: poredjenje_dorade_s047_s054.json. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "5f5fe9601e9fcc3139f1e8de6ebf6e49ed29bb8cb1af32ba8cec647132ef0308",
         "baseline_render_sha256": "d78664a81ae8d95d85d1585bf196f7c867bd60bf9926d6fbc96a74e8a636473e",
         "new_render_sha256": "6951b9bd1d2759beabd0d1cdd6a96c75c4ede6b8a168851fb3c2feeb48756782",
-        "notes_render_sha256": "072cac1e886c19ac70273358b2c4c45e4c454f0e67d502540d0b655b868c1b79",
+        "notes_render_sha256": "b522bee055ba2c0b1ae92166979d2ec40ba088a8318fd505e876e39c2afcb860",
         "slide_sources_sha256": "78c73f6899fc79ed251aceb908cff8a112af7cf7483a754ea3fa9e7c79518963",
         "notes_sources_sha256": "02b8fec1f5bb2f185aad806c8ee833df413118a1e2aa0dc5e595b144871b2d79",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "a528d8ffe9b4d7dff7d54293f97d00c33c896764ea547ac49cfc4a43326f8c2a",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "abdc6e3f84e51e37104d750e54e12995ac16bc38c8b6ddf8f96654eba4428ff8",
         "coverage_sha256": "6f46a50166cd600342b477904bc83ebe2eb4a93d940f84890bd81eb8888277b0"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s053": {
       "categories": {
@@ -1571,20 +1709,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "provereno"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Potpunije izvorno objašnjenje B=0/B=1 površina, zajedničke strane bez zajedničkih polja, promene jedne promenljive i lažne nule; odstupanje od minimalne forme radi dodatne površine. Obe početne konture isprekidane u obe karte, samo dodatna povezujuća kontura puna. Ranije odobrena F=barC barB+BA+barC A i crveno označen dodatni član očuvani. Beleške zadržavaju dokaz konsenzusa. Pročitani originalni PDF strane 24–27, lokalni izvori i prethodni prikazi; stvarno pregledani ceo konačni slajd i cela A4 beleška. Nema izostavljenog gradiva, pogrešnih formula, preklapanja, odsecanja ili uredničke evidencije.",
+      "notes": "Potpunije izvorno objašnjenje B=0/B=1 površina, zajedničke strane bez zajedničkih polja, promene jedne promenljive i lažne nule; odstupanje od minimalne forme radi dodatne površine. Obe početne konture isprekidane u obe karte, samo dodatna povezujuća kontura puna. Ranije odobrena F=barC barB+BA+barC A i crveno označen dodatni član očuvani. Beleške zadržavaju dokaz konsenzusa. Pročitani originalni PDF strane 24–27, lokalni izvori i prethodni prikazi; stvarno pregledani ceo konačni slajd i cela A4 beleška. Nema izostavljenog gradiva, pogrešnih formula, preklapanja, odsecanja ili uredničke evidencije. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "2ed4406359459d1596bb8ba3ff552a3ce834f1abb3104fb1c0431dccc13d242c",
         "baseline_render_sha256": "a74975eb82a8ff578b03db6a72bc905864d60c3f03407da2c57afc09f2407b94",
         "new_render_sha256": "502512e6c41d1da32ffef2d610f90c8f1bb3c08edc676db85de7e07944c0cda4",
-        "notes_render_sha256": "8866ffec63e7ac0a6c2a1a9de2a7e84de911aaae52d3b148aec5b3afec94e7a7",
+        "notes_render_sha256": "c8336ac1a6f83f693aabe42e8f4e5bd5eb1eee285420e9752a834b038f8778cb",
         "slide_sources_sha256": "8b1486b00f399fb7bbc87a799d55bbbb1697332aa3cf07bda8a45a7c5e45bd59",
         "notes_sources_sha256": "43d691afaadef747f7909edb85a27ad9ed7e17458a3080a7bb659dc0906c4d83",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "9833f8e76969b5b74a46712aaaaaba8cc8893282eeb1606f9569a664152e0ca9",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "66e9b31dccf5b4a6a59c373491c7d10bc5613a3109fc8a05da84465fbcb01198",
         "coverage_sha256": "da8b67dfc132e6ecb6dab457393b6fbfb2665cf02c56c17e0e71531dfbbba479"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     },
     "02-s054": {
       "categories": {
@@ -1597,20 +1736,21 @@
         "kod": "nije_primenljivo",
         "crtezi": "nije_primenljivo"
       },
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "reviewer": "Codex",
-      "notes": "Potpuniji izvorni tekst o lažnoj jedinici u proizvodu zbirova i povezivanju površina nula, složenosti istovremenih promena više ulaza, različitim kašnjenjima do I/ILI dela, dodavanju komponenti/invertora ili preuređivanju, odstupanju od minimalnosti, heuristici, simulaciji i iskustvu projektanta. Beleške objašnjavaju mehanizam POS hazarda, međukombinacije i očuvanje polariteta. Pročitani originalni PDF strane 24–27, lokalni izvori i prethodni prikazi; stvarno pregledani ceo konačni slajd i cela A4 beleška. Nema izostavljenog gradiva, pogrešnih formula, preklapanja, odsecanja ili uredničke evidencije.",
+      "notes": "Potpuniji izvorni tekst o lažnoj jedinici u proizvodu zbirova i povezivanju površina nula, složenosti istovremenih promena više ulaza, različitim kašnjenjima do I/ILI dela, dodavanju komponenti/invertora ili preuređivanju, odstupanju od minimalnosti, heuristici, simulaciji i iskustvu projektanta. Beleške objašnjavaju mehanizam POS hazarda, međukombinacije i očuvanje polariteta. Pročitani originalni PDF strane 24–27, lokalni izvori i prethodni prikazi; stvarno pregledani ceo konačni slajd i cela A4 beleška. Nema izostavljenog gradiva, pogrešnih formula, preklapanja, odsecanja ili uredničke evidencije. Obnova 2026-10-09: prethodni stvarni sadržinski/vizuelni pregled ostaje osnova; poredjenje_rtl_dodataka.json potvrđuje neizmenjene izvore, ceo projekcioni prikaz i telo A4 strane svih 62 stara ID-ja. Pregledana promenjena A4 podnožja; razlikuju se samo brojevi strana. Dopune alata proverene sa 49 testova i integracionom probom. RTL i TB zavisnosti roditelja s021/s022/s051 dodatno proverene prema originalnoj funkciji.",
       "evidence": {
         "source_render_sha256": "75089deded5ef615b41b9b429cbf806ad2a679067d861657313ab86ef7124edf",
         "baseline_render_sha256": "22a4a1a81ac441a2ae1fdffa88d10d033ad4babe0ae95bb54c05d91471be9425",
         "new_render_sha256": "6fb300aa85197106747204318b82a19a9fea3345a7c556964d794c6c36a9b4dc",
-        "notes_render_sha256": "d5117ea884561d92d6d2305a4f756833e12bc7a9a34d54e29b53ba9ff271cf1a",
+        "notes_render_sha256": "a5ad1f854a45a68b43cb14eb8fca8a1174cb1d6eaaec0fe37009e00d0c54e28d",
         "slide_sources_sha256": "0919a21022489b034a8b8cf507a3117b6e8da5847d7bcee193437d791d0c072c",
         "notes_sources_sha256": "8e83afe46a8339b685c76764cedb8c785e96a5b6056248f1c6b8d429f0d77692",
-        "shared_sha256": "5e48bbea08768ea194242aa382f77c1c43e6e01c5b3b351f1a5149040df0c999",
-        "mapping_sha256": "97aa08ad229c7d71e72e8ac5f8c4c2301a70cdf9a473ecb8226a4bbb9cf1bbd6",
+        "shared_sha256": "c4a61adc2e26ad361530c979dd212809172f62e21d44697402b6c6ef52725d38",
+        "mapping_sha256": "30e2f03436fb11bcdb4bf924ee3a76ccc7531aaab71b492039702e57419329d8",
         "coverage_sha256": "cdc8e79fdc1b4ba17519b9409f82e9ae05e7f5c67517c0508ed18ce53f95a535"
-      }
+      },
+      "previous_review_date": "2026-10-05"
     }
   }
 }

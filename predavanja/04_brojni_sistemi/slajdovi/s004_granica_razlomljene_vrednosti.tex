@@ -1,15 +1,19 @@
 \newcommand{\ponisti}[2]{\tikz[baseline=(x.base)]{\node[inner sep=0pt] (x) {$#2$};\draw[#1,line width=.3pt] (x.south west)--(x.north east);}}
 \slajdid{04-s004}
-\begin{frame}[label=04-s004]
-\gusttekst
-Bez obzira na osnovu pozicionog brojnog sistema uvek je $RV<1$
-\[RV=\sum_{i=-k}^{-1}c_i r^i\qquad RV_{max}=\sum_{i=-k}^{-1}(c_i)_{max}r^i\]
-\[c_i\in\{0,1,2,\ldots r-2,r-1\}\qquad(c_i)_{max}=r-1\]
-\[RV_{max}=\sum_{i=-k}^{-1}(r-1)r^i=\sum_{i=-k}^{-1}\left(r^{i+1}-r^i\right)\]
-% Iste oznake poništavanja kao u originalu, izrađene kao vektorske linije.
-\[=\left(r^0-\ponisti{orange}{r^{-1}}\right)+\left(\ponisti{orange}{r^{-1}}-\ponisti{blue}{r^{-2}}\right)+\cdots+\left(\ponisti{green!60!black}{r^{-k+2}}-\ponisti{black}{r^{-k+1}}\right)+\left(\ponisti{black}{r^{-k+1}}-r^{-k}\right)\]
-\[RV_{max}=\left(1-r^{-k}\right)<1\]
-Koliko će biti „blizu 1“ zavisi od broja upotrebljenih razlomljenih mesta za prikaz broja\\
-(normalno i od osnove ali razmišljamo o istoj osnovi)\\
-NAPOMENA: Ovo važi za brojne sisteme sa celobrojnim osnovama
+\begin{frame}[label=04-s004]{Granica razlomljene vrednosti}
+% element: 04-s004:e01 — Suma RV i maksimalna cifra r−1 za zadati skup cifara
+% element: 04-s004:e02 — Razvijanje maksimalne vrednosti i prikaz poništavanja članova
+% element: 04-s004:e03 — Rezultat RVmax=1−r^(−k)<1
+% element: 04-s004:e04 — Uticaj broja mesta i osnove; uslov celobrojne osnove
+\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}
+Za konačan zapis u pozicionom sistemu uvek je $RV<1$.
+\[RV=\sum_{i=-k}^{-1}c_i r^i,\qquad RV_{\max}=\sum_{i=-k}^{-1}(c_i)_{\max}r^i\]
+\[c_i\in\{0,1,2,\ldots,r-1\},\qquad(c_i)_{\max}=r-1\]
+\[RV_{\max}=\sum_{i=-k}^{-1}(r-1)r^i=\sum_{i=-k}^{-1}(r^{i+1}-r^i)\]
+{\fontsize{10}{12}\selectfont
+\[=(r^0-\ponisti{DEcrvena}{r^{-1}})+(\ponisti{DEcrvena}{r^{-1}}-\ponisti{DEcrvena}{r^{-2}})+\cdots
+ +(\ponisti{DEcrvena}{r^{-k+2}}-\ponisti{DEcrvena}{r^{-k+1}})+(\ponisti{DEcrvena}{r^{-k+1}}-r^{-k})\]}
+\[\alert{RV_{\max}=1-r^{-k}<1}\]
+Blizina jedinici zavisi od broja razlomljenih mesta (i od osnove).\par
+\Oznaka{Napomena: razmatramo brojne sisteme sa celobrojnim osnovama.}
 \end{frame}

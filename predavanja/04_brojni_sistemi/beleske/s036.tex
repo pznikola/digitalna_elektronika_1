@@ -1,0 +1,19 @@
+\BeleskeID{04-s036}
+% element: 04-s036:e01 — Negativna vrednost i komplementiranje sa minusom
+% element: 04-s036:e02 — Početak izvođenja i rezultat preko bita najveće težine
+% element: 04-s036:e03 — Uslov bn−1=1 i negativna težina vodećeg bita
+% element: 04-s036:e04 — Naglašen zapis (−bn−1)bn−2…b0
+% element: 04-s036:e05 — Dva algebarska međukoraka izdvajanja faktora 2^(n−1)
+% element: 04-s036:d01
+
+Niz $b_{n-2}b_{n-3}\ldots b_1b_0$ u računu označava celobrojnu vrednost donjih $n-1$ bitova, a ne njihov proizvod. Puno izvođenje glasi:
+\[\begin{aligned}
+&-\left(2^n-b_{n-1}b_{n-2}b_{n-3}\ldots b_1b_0\right)\\
+&=-\left(2^n-b_{n-1}2^{n-1}-b_{n-2}b_{n-3}\ldots b_1b_0\right)\\
+&=-\left((2-b_{n-1})2^{n-1}-b_{n-2}b_{n-3}\ldots b_1b_0\right)\\
+&=-(2-b_{n-1})2^{n-1}+b_{n-2}b_{n-3}\ldots b_1b_0\\
+&=(b_{n-1}-2)2^{n-1}+b_{n-2}b_{n-3}\ldots b_1b_0.
+\end{aligned}\]
+Za negativni kod $b_{n-1}=1$, pa je koeficijent vodeće težine $1-2=-1=-b_{n-1}$. Donji biti zadržavaju pozitivne težine.
+
+Za kod $1101$ u četiri bita čitamo $-8+4+0+1=-3$. Skraćeni zapis sa $(-b_{n-1})$ naglašava negativnu težinu vodećeg bita; on ne znači da fizička ćelija registra čuva „negativnu jedinicu“. Ćelija i dalje čuva običan bit $1$.

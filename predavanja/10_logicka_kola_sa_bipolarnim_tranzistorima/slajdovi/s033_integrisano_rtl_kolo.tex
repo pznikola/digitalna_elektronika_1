@@ -1,11 +1,13 @@
+% element: 10-s033:e01
+% element: 10-s033:e02
+% element: 10-s033:e03
 \slajdid{10-s033}
 \begin{frame}[label=10-s033]{Integrisano RTL kolo}
-\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\begin{columns}[c,onlytextwidth]\column{.4\textwidth}\centering\input{slike/tikz/s033_integrisano_rtl_kolo.tex}\column{.58\textwidth}
-\[R_{Bnovo}=R_T=R_B\parallel R_N\]
-\[V_{Inovo}=E_T=V_I\frac{R_N}{R_B+R_N}-V_N\frac{R_B}{R_B+R_N}\]
-pa je na primer uz uslov za $V_{ILnovo}=V_{\gamma T}$
-\[V_{\gamma T}=V_{IL}\frac{R_N}{R_B+R_N}-V_N\frac{R_B}{R_B+R_N}\]
-odnosno
-\[\begin{aligned}V_{IL}&=\frac{R_B+R_N}{R_N}\left(V_{\gamma T}+V_N\frac{R_B}{R_B+R_N}\right)\\&=\left(1+\frac{R_B}{R_N}\right)V_{\gamma T}+\frac{R_B}{R_N}V_N\end{aligned}\]
-\end{columns}
+\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{3pt}\setlength{\belowdisplayshortskip}{3pt}
+\begin{columns}[T,onlytextwidth]\column{.37\textwidth}\input{slike/tikz/s033_integrisano_rtl_kolo.tex}\column{.60\textwidth}\centering \raggedright
+Tevenenov ekvivalent ulazne mreže:
+\[R_{B\mathrm{novo}}=R_T=R_B\parallel R_N\]
+\[V_{I\mathrm{novo}}=E_T=\frac{V_IR_N-V_NR_B}{R_B+R_N}\]
+Za $V_{IL\mathrm{novo}}=V_{\gamma T}$:
+\Rezultat{$\displaystyle V_{IL}=\left(1+\frac{R_B}{R_N}\right)V_{\gamma T}+\frac{R_B}{R_N}V_N$.}\end{columns}
 \end{frame}

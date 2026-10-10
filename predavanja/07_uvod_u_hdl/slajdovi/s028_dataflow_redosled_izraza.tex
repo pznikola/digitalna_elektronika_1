@@ -1,9 +1,16 @@
 \slajdid{07-s028}
+% element: 07-s028:e01
+% element: 07-s028:e02
+% element: 07-s028:e03
+% element: 07-s028:e04
 \begin{frame}[label=07-s028]
-\gusttekst
-Dataflow model - Konkuretni izrazi – redosled kojim se pojavljuju ne menja značenje koda.\\Svi se izvršavaju u paraleli. Kombinaciona logika.\par\vspace{4mm}
-\begin{columns}[T,onlytextwidth]\column{.48\textwidth}\lstinputlisting{kodovi/s028_dataflow_a.vhd}\column{.48\textwidth}\lstinputlisting{kodovi/s028_dataflow_b.vhd}\end{columns}
-\vspace{5mm}\centering A = 1, B = 0, Y = 0, Z = 0\par
-\begin{tikzpicture}\draw[DEplava,->] (0,0)--(0,-.8);\end{tikzpicture}\par
-Y = 1, Z = 1
+Dataflow model — \alert{konkurentni izrazi}. Redosled izraza ne menja značenje koda; izvršavaju se paralelno. Kombinaciona logika.
+\par\vspace{3mm}
+\begin{columns}[T,onlytextwidth]
+\column{.48\textwidth}\lstinputlisting[basicstyle=\ttfamily\fontsize{10}{12}\selectfont]{kodovi/s028_dataflow_a.vhd}
+\column{.48\textwidth}\lstinputlisting[basicstyle=\ttfamily\fontsize{10}{12}\selectfont]{kodovi/s028_dataflow_b.vhd}
+\end{columns}
+\par\vspace{3mm}\centering
+$A=1,\ B=0,\ Y=0,\ Z=0\quad\textcolor{DEcrvena}{\longrightarrow}\quad Y=1,\ Z=1$
+
 \end{frame}

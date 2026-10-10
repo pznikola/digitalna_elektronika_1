@@ -1,0 +1,12 @@
+\BeleskeID{08-s058}
+% element: 08-s058:e04
+% element: 08-s058:notes
+Izlazni napon je istovremeno napon kondenzatora, pa u trenutku $t_1$ zadržava prethodni nivo $V_{OL}$. U prikazanom postupku i početna i krajnja vrednost postavljene su na $V_{OL}$, što daje konstantan izlaz iako postoji ulazni impuls.
+
+Problem je u primeni jednog izraza na interval koji sadrži dve različite pobude. Za $t_1\leq t<t_2$ ulaz je $V_{OH}$, a tek od $t_2$ ponovo $V_{OL}$. Krajnja vrednost za prvi interval mora se odrediti za stalnu pobudu tog intervala, dok drugi interval mora preuzeti stanje koje je kondenzator stvarno dostigao u $t_2$. Alternativno, impuls se rastavlja na dva skoka i koristi superpozicija. Upitnici pozivaju na proveru upravo tog pogrešnog postupka.
+
+U ovom pogrešnom postupku i neposredna zamena početnog i krajnjeg napona daje isti, pogrešan konstantan rezultat; samo zamenjivanje u obrazac ne proverava da li pobuda ostaje ista na celom razmatranom intervalu.
+
+Kada se izabrane početna i krajnja vrednost unesu u izraz
+\[u_o(t)=u_o(\infty)+\bigl(u_o(t_0^+)-u_o(\infty)\bigr)e^{-\frac{t-t_1}{\tau}},\quad t\geq t_1,\]
+dobija se nulti eksponencijalni doprinos i konstantan nivo $V_{OL}$. Time se vidi zašto je neophodno proveriti interval važenja pobude, a ne samo algebarsku zamenu u gotovu formulu.

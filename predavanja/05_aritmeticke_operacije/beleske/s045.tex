@@ -1,0 +1,13 @@
+\BeleskeID{05-s045}
+% element: 05-s045:n01
+% element: 05-s045:d01
+Vrednost zapisa drugog komplementa dobija se negativnom težinom bita znaka i pozitivnim težinama ostalih bitova. U Boothovom postupku koeficijent parcijalnog proizvoda na poziciji $i$ je $a_{i-1}-a_i$, uz početni $a_{-1}=0$.
+
+Pri sabiranju ovih doprinosa unutrašnji koeficijenti se teleskopski redukuju:
+\[\sum_{i=0}^{n-1}(a_{i-1}-a_i)2^i
+=-a_{n-1}2^{n-1}+\sum_{i=0}^{n-2}a_i2^i.\]
+Za bit $a_i$ ispod najviše pozicije pozitivan doprinos iz sledećeg člana iznosi $a_i2^{i+1}$, a negativan iz tekućeg $-a_i2^i$; razlika je $a_i2^i$. Najviši bit nema sledeći pozitivan član, pa zadržava negativnu težinu. Množenjem celog izraza sa $b$ dobijamo traženi označeni proizvod.
+
+Za podsećanje, neoznačeni zapis $D=(D_{n-1}D_{n-2}\ldots D_1D_0)_2$ razlaže se na bit najveće težine i ostatak $D^*$. Ako je bit znaka nula, označena vrednost je $D^*$. Ako je jedinica, onda je
+\[D_t=-(2^n-D)=-(2^n-D_{n-1}2^{n-1}-D^*)=-D_{n-1}2^{n-1}+D^*.\]
+U izrazu na slajdu $a$ je prikazan sa 32 bita, a početni dodatni bit $a_{-1}$ postavljen je na nulu. Sabiraju se svi parcijalni proizvodi od pozicije 0 do 31; broj bitova je primer, ne ograničenje algoritma.

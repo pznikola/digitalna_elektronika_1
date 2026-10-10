@@ -31,7 +31,9 @@
     "02-s019",
     "02-s020",
     "02-s021",
+    "02-s021-rtl01",
     "02-s022",
+    "02-s022-rtl01",
     "02-s023",
     "02-s023b",
     "02-s024",
@@ -66,6 +68,7 @@
     "02-s049b",
     "02-s050",
     "02-s051",
+    "02-s051-rtl01",
     "02-s052",
     "02-s053",
     "02-s054"
@@ -170,9 +173,17 @@
       "path": "beleske/s021.tex",
       "title": "Rasterećenje ulaza"
     },
+    "02-s021-rtl01": {
+      "path": "beleske/s021-rtl01.tex",
+      "title": "RTL: mreža I–ILI"
+    },
     "02-s022": {
       "path": "beleske/s022.tex",
       "title": "Šema funkcije F u obliku proizvoda zbirova"
+    },
+    "02-s022-rtl01": {
+      "path": "beleske/s022-rtl01.tex",
+      "title": "RTL: mreža ILI–I"
     },
     "02-s023": {
       "path": "beleske/s023.tex",
@@ -310,6 +321,10 @@
       "path": "beleske/s051.tex",
       "title": "Statički hazard: izlaz treba da ostane 1"
     },
+    "02-s051-rtl01": {
+      "path": "beleske/s051-rtl01.tex",
+      "title": "Simulacioni model statičkog hazarda"
+    },
     "02-s052": {
       "path": "beleske/s052.tex",
       "title": "Minimizacija i prelaz između površina"
@@ -335,6 +350,41 @@
       "02-s032": "slajdovi/s032b_nastavak.tex",
       "02-s048": "slajdovi/s048b_nastavak.tex",
       "02-s049": "slajdovi/s049b_nastavak.tex"
+    }
+  },
+  "approved_rtl": {
+    "approval_path": "provera/redizajn/odobrenje_rtl.json",
+    "approval_sha256": "535888756f8b93c35be3fc7dc41ffe3b60f140566a374dc8d7d8eaf8449b02c5",
+    "additions": {
+      "02-s021": [
+        "slajdovi/s021_rtl01.tex"
+      ],
+      "02-s022": [
+        "slajdovi/s022_rtl01.tex"
+      ],
+      "02-s051": [
+        "slajdovi/s051_rtl01.tex"
+      ]
+    },
+    "examples": {
+      "02-s021": {
+        "module": "mreza_zp",
+        "design": "mreza_zp.sv",
+        "testbench": "tb_mreza_zp",
+        "student_testbench": "tb_mreza_zp_bez_provere"
+      },
+      "02-s022": {
+        "module": "mreza_pz",
+        "design": "mreza_pz.sv",
+        "testbench": "tb_mreza_pz",
+        "student_testbench": "tb_mreza_pz_bez_provere"
+      },
+      "02-s051": {
+        "module": "mreza_sa_hazardom",
+        "design": "mreza_sa_hazardom.sv",
+        "testbench": "tb_mreza_sa_hazardom",
+        "student_testbench": "tb_mreza_sa_hazardom_bez_provere"
+      }
     }
   }
 }

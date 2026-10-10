@@ -1,24 +1,25 @@
 \slajdid{04-s020}
-\begin{frame}[label=04-s020]
-\gusttekst
-\setlength{\abovedisplayskip}{5pt}\setlength{\belowdisplayskip}{5pt}
-Ako postoji razlomljeni deo broja
-
-Sve isto osim što se grupisanje radi:\\
-\hspace*{5mm}za celobrojnu vrednost na levo od tačke\\
-\hspace*{5mm}za razlomljenu vrednost na desno od tačke
-
-PRIMER\qquad $1A.3C_{16}={?}_2$
-
-Svaku cifru za sebe\qquad $1A.3C_{16}=0001\ 1010\ .\ 0011\ 1100_2$
-
-Pa možemo da izbrišemo vodeće i prateće nule
-\[=\textcolor{DEcrvena}{000}1\ 1010\ .\ 0011\ 11\textcolor{DEcrvena}{00}_2=11010.001111_2\]
-PRIMER\qquad $101100.1011011_2={?}_{16}$
-
-Da bi olakšali posao pravimo grupe od po četiri cifre
-\[10\ 1100\ .\ 1011\ 011_2=\textcolor{DEcrvena}{00}10\ 1100\ .\ 1011\ 011\textcolor{DEcrvena}{0}_2\]
-Dodali smo vodeće i prateće nule da bi dobili grupe od četiri cifre
-\[\textcolor{DEcrvena}{00}10\ 1100\ .\ 1011\ 011\textcolor{DEcrvena}{0}_2=2C.B6_{16}\]
-Potpuno identično binarni u oktalni i obrnuto samo su nam grupe sa po 3 cifre
+\begin{frame}[label=04-s020]{Grupisanje razlomljenih cifara}
+% element: 04-s020:e01 — Pravci grupisanja celobrojnih i razlomljenih cifara od tačke
+% element: 04-s020:e02 — Primer 1A.3C_16 sa prevođenjem i uklanjanjem vodećih/pratećih nula
+% element: 04-s020:e03 — Primer 101100.1011011_2 sa dopunom grupa i rezultatom 2C.B6_16
+% element: 04-s020:e04 — Oktalna analogija sa grupama po tri cifre
+\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}
+Grupisanje kreće od tačke: celobrojni deo \alert{nalevo}, razlomljeni \alert{nadesno}.
+\par\vspace{2mm}
+\begin{columns}[T,onlytextwidth]
+\column{.475\textwidth}\NaslovBloka{Heksadecimalni $\to$ binarni}
+\[1A.3C_{16}={?}_2\]
+\[=0001\ 1010\,.\,0011\ 1100_2\]
+Brišemo vodeće i prateće nule:
+\[=\alert{000}1\ 1010\,.\,0011\ 11\alert{00}_2\]
+\[\alert{=11010.001111_2}\]
+\column{.475\textwidth}\NaslovBloka{Binarni $\to$ heksadecimalni}
+\[101100.1011011_2={?}_{16}\]
+\[10\ 1100\,.\,1011\ 011_2\]
+Dodajemo vodeće i prateće nule:
+\[\alert{00}10\ 1100\,.\,1011\ 011\alert{0}_2\]
+\[\alert{=2C.B6_{16}}\]
+\end{columns}
+\par\vspace{3mm}\Rezultat{Za oktalni sistem postupak je isti, sa grupama od tri cifre.}
 \end{frame}

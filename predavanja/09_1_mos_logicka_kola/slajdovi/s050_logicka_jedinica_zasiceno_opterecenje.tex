@@ -1,9 +1,10 @@
 \slajdid{09_1-s050}
-\begin{frame}[label=09_1-s050]
-\gusttekst\begin{center}\input{slike/tikz/s050_invertor_gejt_na_napajanju.tex}\end{center}
-Za ulazni napon $V_I<V_{Tn,D}$ tranzistor $T_D$ je zakočen. Kolo je neoptrećeno $I_{Dn,D}=0=I_{Dn,L}$. Kako tranzistor $T_L$ radi u zasićenju
-\[I_{Dn,L}=\frac{k_{n,L}}2(V_{GS,L}-V_{Tn,L})^2=0\]
-njegova radna tačka će se podesiti tako da je $V_{GS,L}=V_{Tn,L}$. To je jedina moguća radna tačka, Prema tome
-\[V_O=V_{OH}=V_{DD}-V_{GS,L}=V_{DD}-V_{Tn,L}\]
-U odnosu na prethodni slučaj napon logičke jedinice je manji
+\begin{frame}[label=09_1-s050]{Logička jedinica sa zasićenim opterećenjem}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{3pt}\setlength{\belowdisplayshortskip}{3pt}
+% element: 09_1-s050:e01
+% element: 09_1-s050:e02
+% element: 09_1-s050:e03
+% element: 09_1-s050:e04
+\begin{columns}[T,onlytextwidth]\column{.27\textwidth}\centering \input{slike/tikz/s050_invertor_gejt_na_napajanju.tex}\column{.69\textwidth}$V_I<V_{Tn,D}$: $T_D$ je zakočen.\par Neopterećeno kolo: $I_{Dn,D}=I_{Dn,L}=0$.\[I_{Dn,L}=\frac{k_{n,L}}2(V_{GS,L}-V_{Tn,L})^2=0\]
+Radna tačka: $V_{GS,L}=V_{Tn,L}$.\[V_O=V_{OH}=V_{DD}-V_{GS,L}=V_{DD}-V_{Tn,L}\]
+\alert{Logička jedinica je niža nego kod omskog opterećenja.}\end{columns}
 \end{frame}

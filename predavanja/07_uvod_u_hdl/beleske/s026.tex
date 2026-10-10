@@ -1,0 +1,5 @@
+\BeleskeID{07-s026}
+% element: 07-s026:d01
+Logički AND nad vektorima deluje po odgovarajućim bitovima. Za \(A=101\) i \(B=110\), sa indeksima od 1 do 3, dobijamo \(C=100\); svaki indeks izlaza zavisi samo od istog indeksa oba ulaza.
+
+Aritmetičko sabiranje tumači vektore kao brojeve i može prenositi jedinicu između bitova. Smer DOWNTO ili TO određuje redosled indeksa, a sam tip \texttt{STD\_LOGIC\_VECTOR} ne određuje da li je broj označen ili neoznačen. Operator + zahteva odgovarajući numerički tip ili paket koji definiše preopterećenje za korišćene tipove. Kada je rezultat ograničen na četiri bita, posebno treba razmotriti izlazni prenos i da li ga interfejs zadržava.

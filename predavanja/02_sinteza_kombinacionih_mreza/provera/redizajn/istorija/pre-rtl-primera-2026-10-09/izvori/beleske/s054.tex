@@ -1,0 +1,11 @@
+\BeleskeID{02-s054}
+% element: 02-s054:e01
+% element: 02-s054:e02
+% element: 02-s054:e03
+% element: 02-s054:d01
+
+Kod proizvoda zbirova izlaz ostaje 0 kada je bar jedan činilac 0. Ako tokom prelaza nulu najpre obezbeđuje jedan zbir, a zatim drugi, različita kašnjenja mogu napraviti interval u kome su oba 1. Završno I kolo tada kratko daje lažnu jedinicu. Povezujuća grupa nula obezbeđuje dodatni zbir koji ostaje 0 tokom odgovarajuće promene jednog ulaza.
+
+Pri promeni više ulaza mreža može prolaziti kroz međukombinacije koje nisu ni početno ni završno stanje. Treba pratiti redosled kojim nove vrednosti stižu na završno kolo. Ako za ujednačavanje kašnjenja dodajemo invertore, mora se sačuvati i potrebni logički polaritet.
+
+Pri simulaciji posmatramo relevantne prelaze i kašnjenja putanja, a ne samo stacionarnu tabelu funkcije. Treba utvrditi koje se putanje takmiče i koja prolazna kombinacija stiže na završno kolo.

@@ -1,6 +1,11 @@
-\begin{tikzpicture}[x=.8cm,y=.65cm,font=\sitneoznake,>=Latex]
-\foreach\y/\lab/\inp in{1.4/L/C,0/D/I}{\begin{scope}[shift={(0,\y)}]
-\draw(-.9,0)--(-.28,0);\node[left]at(-.9,0){$V_\inp$};\ifdim\y pt=0pt\draw[fill=white](-.9,0)circle(.05);\fi
-\draw(-.28,-.3)--(-.28,.3);\draw(-.2,-.35)--(-.2,.35);\draw(-.2,.25)--(0,.25)--(0,.7);\draw(-.2,-.25)--(0,-.25)--(0,-.7);\node[right]at(.05,0){$T_\lab$};\end{scope}}
-\draw(-.2,2.1)--(.2,2.1)node[above left]{$V_{DD}$};\draw(0,-.7)node[ground]{};\draw(0,.7)--(.85,.7)node[ocirc]{}node[right]{$V_O$};
-\end{tikzpicture}
+{\RazaviSetup
+\begin{circuitikz}[labeltext,american resistors,line width=.7pt]
+\node[rz nmos] (d) at (0,0) {};\node[rz nmos] (l) at (0,1.4) {};
+\draw[wire](d.D)--(l.S);\coordinate(out)at(0,.70);
+\draw[wire](out)node[junction]{}--(.55,.70)node[rz terminal]{}node[right=2pt]{$V_O$};
+\draw[wire](l.D)--(0,2.10);\coordinate(supply)at(0,2.10);\RazaviSupply{supply}{V_{DD}}
+\draw[wire](d.S)--(0,-.70);\coordinate(gnd)at(0,-.70);\RazaviGround{gnd}
+\draw[wire](d.G)--++(-.35,0)node[rz terminal]{}node[left=2pt]{$V_I$};
+\node[right=2pt]at(d.center){$T_D$};\node[right=2pt]at(l.center){$T_L$};
+\draw[wire](l.G)--++(-.35,0)node[rz terminal]{}node[left=2pt]{$V_C$};
+\end{circuitikz}}

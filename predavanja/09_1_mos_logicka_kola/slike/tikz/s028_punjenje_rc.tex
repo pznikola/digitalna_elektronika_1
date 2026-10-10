@@ -1,1 +1,10 @@
-\begin{tikzpicture}[x=.7cm,y=.53cm,font=\sitneoznake,>=Latex]\draw(0,2.3)--(0,1.85)--(-0.09,1.75)--(0.09,1.65)--(-0.09,1.55)--(0.09,1.45)--(-0.09,1.35)--(0.09,1.25)--(0,1.15)--(0,0.7);\node[right]at(0.13,1.5){$R_L$};\draw(0,2.3)--(0,2.5);\draw(-.2,2.5)--(.2,2.5)node[above left]{$V_{DD}$};\draw(0,.7)--(1.8,.7)node[ocirc]{};\draw(0.9,0.7)--(0.9,-0.015000000000000013);\draw(0.9,-0.135)--(0.9,-0.85);\draw(0.7,-0.015000000000000013)--(1.1,-0.015000000000000013);\draw(0.7,-0.135)--(1.1,-0.135);\node[left]at(0.65,-0.07500000000000001){$C_L$};\draw(.9,-.85)node[ground]{};\draw[->](1.8,-.7)--(1.8,.52);\node[right]at(1.8,.4){$+$};\node[right]at(1.8,-.15){$v_o(t)$};\draw(1.8,-.85)node[ground]{};\draw[->](-.27,2.35)--(-.27,.42)--(.68,.42)--(.68,.02);\node[left]at(-.3,1.6){$i_{RC}(t)$};\node at(2.6,1.5){L u H};\end{tikzpicture}
+{\RazaviSetup
+\begin{circuitikz}[labeltext,american resistors,line width=.7pt]
+\draw[wire](0,2)to[american resistor,l=$R_L$](0,.7)--(1.1,.7)to[C,l=$C_L$](1.1,-.65);
+\coordinate(supply)at(0,2);\RazaviSupply{supply}{V_{DD}}
+\coordinate(gnd)at(1.1,-.65);\RazaviGround{gnd}
+\draw[wire](1.1,.7)node[junction]{}--(1.65,.7)node[rz terminal]{};
+\draw[flow](2,-.6)--(2,.65);\node[right]at(2,.1){$v_o(t)$};\node[right]at(2,.65){$+$};
+\coordinate(vg)at(2,-.7);\RazaviGround{vg}
+\draw[flow](-.5,1.8)--(-.5,.9);\node[left]at(-.5,1.35){$i_{RC}(t)$};
+\node[above]at(1.5,1.4){L u H};\end{circuitikz}}

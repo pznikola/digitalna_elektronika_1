@@ -1,0 +1,646 @@
+{
+  "date": "2026-10-02",
+  "scope": "Beleške 04 po novom planu; naknadno odobrene stručne ispravke projekcionih slajdova s006, s016 i s034. Nastavni tekst beležaka ostaje nepromenjen.",
+  "plan": "PLAN_PREDAVANJA.md, korak 6",
+  "pending_expert_decisions": [
+    "04-s009",
+    "04-s035"
+  ],
+  "slides": {
+    "04-s001": {
+      "original_location": {
+        "pdf_page": 1,
+        "position": "gornji"
+      },
+      "notes_path": "beleske/s001.tex",
+      "original_details_in_notes": [],
+      "supplement": "Bez dodatnog nastavnog sadržaja; sačuvani ID i postojeća nevidljiva sidra.",
+      "notes_sha256": "08b14104e2bfc0ff5fbdfa3447cc339de21aedc6aaa552d592e8f6a5e9987316",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "43758bb1c87e213cb2f39be2932f9201e3fd6bafa11ce97a0f292dff3ad327f5",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s002": {
+      "original_location": {
+        "pdf_page": 1,
+        "position": "donji"
+      },
+      "notes_path": "beleske/s002.tex",
+      "original_details_in_notes": [],
+      "supplement": "Pozicione težine, indeksi oko tačke i dozvoljene cifre osnove.",
+      "notes_sha256": "d0d8b28df88c33a031f478c830830698ad98ddcb92494985f4a991a1a93f6e31",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "eb9da0d562155b701809fc820826ccacc2952d25ac30ee972cac6317cbcbf893",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s003": {
+      "original_location": {
+        "pdf_page": 2,
+        "position": "gornji"
+      },
+      "notes_path": "beleske/s003.tex",
+      "original_details_in_notes": [
+        "04-s003:e03",
+        "04-s003:e04"
+      ],
+      "supplement": "Dokaz očuvanja težina pri dodavanju nula i primer nedozvoljenog brisanja.",
+      "notes_sha256": "989c9109d8e68e566fde48f249b04126f6d863716d3c0f1f91fa243b3837c046",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "b24620babad7ef612530cb8a4c82323d04125219670c5aa68680c452bfadb158",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s004": {
+      "original_location": {
+        "pdf_page": 2,
+        "position": "donji"
+      },
+      "notes_path": "beleske/s004.tex",
+      "original_details_in_notes": [
+        "04-s004:e02",
+        "04-s004:e04"
+      ],
+      "supplement": "Teleskopsko poništavanje i numerički maksimumi 15/16 i 255/256.",
+      "notes_sha256": "385561d6495ca6f73f985c3c39f40f3a17b2e9f1ed6454329343d751d9cb7eae",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "89455faba579a36665415aae613b6d62928b87a243f22a4acc693b76bc3c166e",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s005": {
+      "original_location": {
+        "pdf_page": 3,
+        "position": "gornji"
+      },
+      "notes_path": "beleske/s005.tex",
+      "original_details_in_notes": [],
+      "supplement": "Razlikovanje zapisa, osnove i brojnih vrednosti pri težinskoj konverziji.",
+      "notes_sha256": "1ac8c869ca185ad0c4c3a9b8389c3ff540269678e9a037c19719cea433f0786d",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "5ed2e490947b8a77fee1169f235134d562a20da15de189d54c9335a09e15f96d",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s006": {
+      "original_location": {
+        "pdf_page": 3,
+        "position": "donji"
+      },
+      "notes_path": "beleske/s006.tex",
+      "original_details_in_notes": [
+        "04-s006:e04"
+      ],
+      "supplement": "Školski zapis razlomkom, zahtev za pozicionim zapisom i račun 17/49.",
+      "notes_sha256": "db6fec149b5ecb04fc2748a35eafa5c89e6f6642efea67e2e0cbb5f5f3d8197c",
+      "review": "provereno",
+      "expert_change": "Odobrena ispravka slajda 2026-10-02; vidi odluke.md. Nastavni tekst beležaka je usklađen bez prepisivanja vidljivog sadržaja.",
+      "notes_render_sha256": "2f6bb2f8d0a4689418d98da3b2dfb2efe822f0bfe4cdf349d413ad7777b5765c",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s007": {
+      "original_location": {
+        "pdf_page": 4,
+        "position": "gornji"
+      },
+      "notes_path": "beleske/s007.tex",
+      "original_details_in_notes": [],
+      "supplement": "Nezavisni delovi konverzije i tumačenje CV i RV preko celobrojnog dela.",
+      "notes_sha256": "cb53d7a7b83df1f3f9d98188fce1fd4cdb81cf9e376933c1348852cfd78b73ed",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "28837e64c9fbc1f9c546470b7c5af7196ebcc3fa444ef170b7f2e9d0503c88b0",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s008": {
+      "original_location": {
+        "pdf_page": 4,
+        "position": "donji"
+      },
+      "notes_path": "beleske/s008.tex",
+      "original_details_in_notes": [
+        "04-s008:e01",
+        "04-s008:e02",
+        "04-s008:e03",
+        "04-s008:e04"
+      ],
+      "supplement": "Potpuno početno razvijanje deljenja, razlika ostatka i razlomka, smer čitanja.",
+      "notes_sha256": "35e76a344ea4e16e2972240472f8483df25b42b3b460030ceda828debbd50384",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "cd207261019ac95ab70eae79fcf6db6d2d31b14c28ab7789026be1b3aad23c22",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s009": {
+      "original_location": {
+        "pdf_page": 5,
+        "position": "gornji"
+      },
+      "notes_path": "beleske/s009.tex",
+      "original_details_in_notes": [],
+      "supplement": "Postojanje dovoljno velikog stepena osnove i zaustavljanje količnika.",
+      "notes_sha256": "263db72ee87c3aacda3bf9b64cee8a7fd8e0f90a55e4703ea14d3724b0c2f549",
+      "review": "provereno",
+      "expert_change": "Nema neodobrene stručne izmene; otvoreni s009 i s035 su samo u otvorena_pitanja.md.",
+      "notes_render_sha256": "a7233aaee4ceb69f96833582f0835b5983222063368874e1c701e39a4e328e15",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s010": {
+      "original_location": {
+        "pdf_page": 5,
+        "position": "donji"
+      },
+      "notes_path": "beleske/s010.tex",
+      "original_details_in_notes": [
+        "04-s010:e01",
+        "04-s010:e02",
+        "04-s010:e03",
+        "04-s010:e04"
+      ],
+      "supplement": "Potpuno razvijanje množenja, izdvajanje cifre i korišćenje samo ostatka.",
+      "notes_sha256": "0cb4c5f80d0ea8fc52f6b69ab453832cb2299a3379cfaea4f4ba41f74bb6993c",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "65f404938211c5c7e45af11e19eb011d1212fa3cca0f16a1208a61ca82f07a8c",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s011": {
+      "original_location": {
+        "pdf_page": 6,
+        "position": "gornji"
+      },
+      "notes_path": "beleske/s011.tex",
+      "original_details_in_notes": [],
+      "supplement": "Bez dodatnog nastavnog sadržaja; sačuvani ID i postojeća nevidljiva sidra.",
+      "notes_sha256": "39c077ef652cd4ec58dedaafc9b6fe4177b942a56b347b888553a37bf699688b",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "182355d1fa45ecf0990ebc7b0e94800ff836883dc139effa17068ca1866d1a60",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s012": {
+      "original_location": {
+        "pdf_page": 6,
+        "position": "donji"
+      },
+      "notes_path": "beleske/s012.tex",
+      "original_details_in_notes": [
+        "04-s012:e03",
+        "04-s012:e04"
+      ],
+      "supplement": "Značenje brojioca i broja mesta, 1/5 naspram 1/4 i granica odsecanja.",
+      "notes_sha256": "2e24e4483cc8b265b8f9297738d18e070d50bcf6e0d0c4ed99012d5c070d3892",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "4199d839de79bd85821802c59ca3b217824f67f6cf923b9918704780024b19b5",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s013": {
+      "original_location": {
+        "pdf_page": 7,
+        "position": "gornji"
+      },
+      "notes_path": "beleske/s013.tex",
+      "original_details_in_notes": [
+        "04-s013:e04"
+      ],
+      "supplement": "Povratak na isti razlomljeni ostatak, period 0011 i tri tačna konačna primera.",
+      "notes_sha256": "408b93ba123dbc2283dc1b00f24952f5d9164d84101beb92662551d47346fc60",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "3ac6ad3685e929f99f9d85df0624b0ddf4243fb64c8923c3d884b36f77bdb3f8",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s014": {
+      "original_location": {
+        "pdf_page": 7,
+        "position": "donji"
+      },
+      "notes_path": "beleske/s014.tex",
+      "original_details_in_notes": [
+        "04-s014:e03",
+        "04-s014:e04"
+      ],
+      "supplement": "Pisano deljenje sa spuštanjem cifara i prenosom ostatka u osnovi sedam.",
+      "notes_sha256": "884ed6038da8b4f3b3b88f7836cc1610d9cfc111a8073a9496a91f153eb04e2f",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "26216342acb53065dc3f8231c634a6d5c0b89c7b0a7d7d8978946f3d498bc91f",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s015": {
+      "original_location": {
+        "pdf_page": 8,
+        "position": "gornji"
+      },
+      "notes_path": "beleske/s015.tex",
+      "original_details_in_notes": [
+        "04-s015:e04"
+      ],
+      "supplement": "Provera redova u osnovi sedam i tumačenje nedostajuće težine 2.",
+      "notes_sha256": "89cb0c29c703b8c6a44f3bc9f500abf6d791b52db8f230d79ef2441fd1568433",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "60089eb625552fd19fccbf35dbe43cb58423ededbe7392ae260e4c1c239d4e2d",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s016": {
+      "original_location": {
+        "pdf_page": 8,
+        "position": "donji"
+      },
+      "notes_path": "beleske/s016.tex",
+      "original_details_in_notes": [],
+      "supplement": "Razvijanje jedne cifre, množenje težinom mesta i nepreklapanje grupa.",
+      "notes_sha256": "63a7a59bc4b257abf7876d240e78ac00e737503229900091bc0995833aa3ed54",
+      "review": "provereno",
+      "expert_change": "Odobrena ispravka slajda 2026-10-02; vidi odluke.md. Nastavni tekst beležaka je usklađen bez prepisivanja vidljivog sadržaja.",
+      "notes_render_sha256": "faa2b6c43e3ec4ae349c30eb6db54f4a32a3083bb8baaa2d34ee914557b81d92",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s017": {
+      "original_location": {
+        "pdf_page": 9,
+        "position": "gornji"
+      },
+      "notes_path": "beleske/s017.tex",
+      "original_details_in_notes": [],
+      "supplement": "Vrednosti cifara A–F i razlikovanje F i 10 u osnovi šesnaest.",
+      "notes_sha256": "af83f6c7d885a1f82533b1e3adcaa1bb8ed33fab833bd5e94596b934693ca74c",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "cbfcb1351dd61e386e46003506a84490e03d964e65abd80afe3034a4a164191a",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s018": {
+      "original_location": {
+        "pdf_page": 9,
+        "position": "donji"
+      },
+      "notes_path": "beleske/s018.tex",
+      "original_details_in_notes": [
+        "04-s018:e01",
+        "04-s018:e02"
+      ],
+      "supplement": "Obavezna širina pojedinačne grupe i primer 10 u osnovi šesnaest.",
+      "notes_sha256": "278adcdff62779593a51e30b7d39946a307e1178a00d97eb5de598d223476f03",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "fd05a308fae051d7f87cf04f4b5aa2a666e37e4ed9ad932193ffb0d29d884f90",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s019": {
+      "original_location": {
+        "pdf_page": 10,
+        "position": "gornji"
+      },
+      "notes_path": "beleske/s019.tex",
+      "original_details_in_notes": [
+        "04-s019:e02"
+      ],
+      "supplement": "Zašto se grupiše zdesna i gde se dopunjava nepotpuna celobrojna grupa.",
+      "notes_sha256": "88cde934bebc7530e721cba1c1436d652d43f2709acebb814f1ee9638d7d41df",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "92634e70f9880b185cc6fa4e6f50caa29a7ca154ad12d60789f6c424eef2ea7d",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s020": {
+      "original_location": {
+        "pdf_page": 10,
+        "position": "donji"
+      },
+      "notes_path": "beleske/s020.tex",
+      "original_details_in_notes": [
+        "04-s020:e01",
+        "04-s020:e03"
+      ],
+      "supplement": "Očuvanje rastojanja od tačke i dopuna 011 na 0110.",
+      "notes_sha256": "c6349c6a16b39292037158a0443e76a8509fb026c42fc8433a007a136db8c5b4",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "b481450c0ab7e0a1e8f3e26de51a8e81bd6c2db054ad6617869e6ad05f848b01",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s021": {
+      "original_location": {
+        "pdf_page": 11,
+        "position": "gornji"
+      },
+      "notes_path": "beleske/s021.tex",
+      "original_details_in_notes": [],
+      "supplement": "Registar, magistrala kao grupa veza i apstraktni prikaz prenosa.",
+      "notes_sha256": "c2f6c1b8fc78ef42305d190827cceb4cae4fae13d8c99acdeee502149669b505",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "2d853a9040ec15f8f10d51f0bafaade77977ffbdbdc7bf44265f7ce6a1f6e6e0",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s022": {
+      "original_location": {
+        "pdf_page": 11,
+        "position": "donji"
+      },
+      "notes_path": "beleske/s022.tex",
+      "original_details_in_notes": [],
+      "supplement": "Razlika broja bitova i kombinacija; ograničenje jednog istovremenog prenosa.",
+      "notes_sha256": "a208e40c134058be524b284959b0a36031345233f44b5a9d2a2e55f5436ed17e",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "b4380c5494eb24ef5a44196978d566c650d33db4e0ccf5b1ba5fdb9abf21a1f3",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s023": {
+      "original_location": {
+        "pdf_page": 12,
+        "position": "gornji"
+      },
+      "notes_path": "beleske/s023.tex",
+      "original_details_in_notes": [
+        "04-s023:e03"
+      ],
+      "supplement": "Pozicija Di naspram vrednosti bi, težine MSB/LSB i definisanje dužine reči.",
+      "notes_sha256": "ff0b03a9f2942643d0f85d3f3b3e92d8f5a04413e4f77649711604e2e96e3637",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "659867a637d38339fa37801002fd757ae641c1c0af8f682abb7ee0ee2cedb532",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s024": {
+      "original_location": {
+        "pdf_page": 12,
+        "position": "donji"
+      },
+      "notes_path": "beleske/s024.tex",
+      "original_details_in_notes": [
+        "04-s024:e02",
+        "04-s024:e03"
+      ],
+      "supplement": "Projektantovo tumačenje činjenice, komande ili zajedničke brojne vrednosti.",
+      "notes_sha256": "9780fd656b551986843f50993dd3ffa8f2b5179c1f74b5a9034f5bacdc22790e",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "2080eed6ca2359d367892af3c0f8305ba444782511514aa081dd163339ac9f61",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s025": {
+      "original_location": {
+        "pdf_page": 13,
+        "position": "gornji"
+      },
+      "notes_path": "beleske/s025.tex",
+      "original_details_in_notes": [],
+      "supplement": "Težinska suma 104, grupisanje 68 i značenje heksadecimalnih oznaka.",
+      "notes_sha256": "0751c88e68191c2b11846f1c69b1b43388037216e01c22433c76111e888b3315",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "988e4c9b3541289061f624f157e020656d9ab878428e97163fb7e31405e282d0",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s026": {
+      "original_location": {
+        "pdf_page": 13,
+        "position": "donji"
+      },
+      "notes_path": "beleske/s026.tex",
+      "original_details_in_notes": [
+        "04-s026:e03"
+      ],
+      "supplement": "Tačka kao dogovor i broj razlomljenih mesta pri različitim položajima.",
+      "notes_sha256": "935f6a342b6471f8c40f251e9839b32c6e2e8a6d0a2e8110e33efbb4a1d10f30",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "f535bb8a250bb2b9b9d119f2c5dfbae5b2d4ca51ff77e21e673644b4c4277a9b",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s027": {
+      "original_location": {
+        "pdf_page": 14,
+        "position": "gornji"
+      },
+      "notes_path": "beleske/s027.tex",
+      "original_details_in_notes": [
+        "04-s027:e02",
+        "04-s027:e03",
+        "04-s027:e04"
+      ],
+      "supplement": "Potpuni zajednički imenilac i vrednosti 3.25, 104 i 0.40625.",
+      "notes_sha256": "20e41099ad4e83c3e54241bdab72dc07c4485aeb4e52e02579fb2a575061aba6",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "6afb93eede94aafa13826290058c1da025c32d3cf6f180aa978f976f5c3452a1",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s028": {
+      "original_location": {
+        "pdf_page": 14,
+        "position": "donji"
+      },
+      "notes_path": "beleske/s028.tex",
+      "original_details_in_notes": [],
+      "supplement": "Matematički simbol minus naspram kodovanja i ukupni kodni prostor.",
+      "notes_sha256": "9c9516f52a1737c1e6f21362c5c13744fdeb8ef9af9eec7980b31346a791e264",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "b730b7c1ae31e805e78565f16f29536af5985faa4f5f1e8723485bfa766db70b",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s029": {
+      "original_location": {
+        "pdf_page": 15,
+        "position": "gornji"
+      },
+      "notes_path": "beleske/s029.tex",
+      "original_details_in_notes": [
+        "04-s029:e01"
+      ],
+      "supplement": "Primer 1011, izdvajanje znaka i dva kodna prikaza nule.",
+      "notes_sha256": "c83522fecb88ae77ebaeac1ca6b4c0cabc658cda805673408873b959627e8587",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "271fd980d53dceca8000571ff422d1dc78f6e9888747f5af83e2d502c402cda5",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s030": {
+      "original_location": {
+        "pdf_page": 15,
+        "position": "donji"
+      },
+      "notes_path": "beleske/s030.tex",
+      "original_details_in_notes": [],
+      "supplement": "Račun u oba smera sa ofsetom i tumačenje vodećeg bita.",
+      "notes_sha256": "5c280cd4e18882e29ef3d6217c9501ce78e8651ff41c936c95c8932a8011c0af",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "0b1dc5673e4fae594e99dc0fe6d43c542272a728ff20bf2c2445be94a306bbcf",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s031": {
+      "original_location": {
+        "pdf_page": 16,
+        "position": "gornji"
+      },
+      "notes_path": "beleske/s031.tex",
+      "original_details_in_notes": [
+        "04-s031:e01"
+      ],
+      "supplement": "Invertovanje bez pozajmice, čitanje 1100 i negativna nula.",
+      "notes_sha256": "9a68e5042c7178e42363f48bb7a24277520ddfe821ef4bfa10a45bb3d903cd96",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "4c14428feb03cf767951e776b25b4bcabb0d13106dbe0998c9c694d9ae1142b2",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s032": {
+      "original_location": {
+        "pdf_page": 16,
+        "position": "donji"
+      },
+      "notes_path": "beleske/s032.tex",
+      "original_details_in_notes": [
+        "04-s032:e01"
+      ],
+      "supplement": "Neoznačena vrednost minus 16, zadatih četiri bita i jedan kod nule.",
+      "notes_sha256": "db7abe586fdfbb34307be11d9aaf77d9dd26777640cfa61c62af350bc52d73d9",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "39edb4c18bff9e21ae26fbaabd783571ee0750ad114412435c5930d3af577c32",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s033": {
+      "original_location": {
+        "pdf_page": 17,
+        "position": "gornji"
+      },
+      "notes_path": "beleske/s033.tex",
+      "original_details_in_notes": [
+        "04-s033:e03"
+      ],
+      "supplement": "Komplement pojedinačnih cifara, značenje ekvivalencije i dekodovanje 876.",
+      "notes_sha256": "849e56ff7478c7545bff275325261566f404c96a0fa1e7c0f88ab8912e24c9df",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "9885b42796e62ac4ebcbf14a66882e0af42cac139a997ca29601656f65fb15a1",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s034": {
+      "original_location": {
+        "pdf_page": 17,
+        "position": "donji"
+      },
+      "notes_path": "beleske/s034.tex",
+      "original_details_in_notes": [],
+      "supplement": "Fiksna širina reči i prenos van reči pri komplementiranju nule.",
+      "notes_sha256": "615a1c359b8ca94dd16cb0480158b6f490b9a580170498ddfadca5920ffb7281",
+      "review": "provereno",
+      "expert_change": "Odobrena ispravka slajda 2026-10-02; vidi odluke.md. Nastavni tekst beležaka je usklađen bez prepisivanja vidljivog sadržaja.",
+      "notes_render_sha256": "8fe92616153f679ce5e4af9e68e120e40d301a6b6e63439f48ad8a0667dc9028",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s035": {
+      "original_location": {
+        "pdf_page": 18,
+        "position": "gornji"
+      },
+      "notes_path": "beleske/s035.tex",
+      "original_details_in_notes": [],
+      "supplement": "Asimetrija opsega i ograničenje apsolutne vrednosti najmanjeg broja.",
+      "notes_sha256": "8beea34e53a9a254c80b05702d46351ccc52346789e924df0d67207e98531319",
+      "review": "provereno",
+      "expert_change": "Nema neodobrene stručne izmene; otvoreni s009 i s035 su samo u otvorena_pitanja.md.",
+      "notes_render_sha256": "3da86e332139a16a3884e76893a2fc49e2bf5f38e375c1a60fa65923ffc91a66",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s036": {
+      "original_location": {
+        "pdf_page": 18,
+        "position": "donji"
+      },
+      "notes_path": "beleske/s036.tex",
+      "original_details_in_notes": [
+        "04-s036:e02",
+        "04-s036:e03",
+        "04-s036:e04",
+        "04-s036:e05"
+      ],
+      "supplement": "Puno algebarsko izvođenje, vrednost niza donjih bitova i primer 1101.",
+      "notes_sha256": "610adbf1d5716d27d7862b7812c6635ba98cde0fcbe17a91fd785b6e37766f58",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "c4cc3720b615d4cdfe41e005ff1eb7908356d7ec734ac2fb61ce0b48584bd2a6",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s037": {
+      "original_location": {
+        "pdf_page": 19,
+        "position": "gornji"
+      },
+      "notes_path": "beleske/s037.tex",
+      "original_details_in_notes": [
+        "04-s037:e01"
+      ],
+      "supplement": "Zašto se kodovi tabele razlikuju samo u vodećem bitu.",
+      "notes_sha256": "d9aa3ab39425bcee7d835934f45a74f31b01f7da624032aa90950ccd68026962",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "0fbaa0ef94686ea24b87cf018cacd12e61f49831f5c7d26f5551b4f9c244f169",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s038": {
+      "original_location": {
+        "pdf_page": 19,
+        "position": "donji"
+      },
+      "notes_path": "beleske/s038.tex",
+      "original_details_in_notes": [
+        "04-s038:e02"
+      ],
+      "supplement": "Skaliranje, invertovanje 0110 i označeno čitanje pre deljenja sa osam.",
+      "notes_sha256": "ff1c84152e32c45ae524dd0a5b925769c5a597fb8f97e1822ad7440030fb6e1b",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "b476ffd5adef9894a5dd8b5ba41199a771805c357ef998d3f7ed4aeae0857cdf",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    },
+    "04-s039": {
+      "original_location": {
+        "pdf_page": 20,
+        "position": "gornji"
+      },
+      "notes_path": "beleske/s039.tex",
+      "original_details_in_notes": [
+        "04-s039:e05"
+      ],
+      "supplement": "Skala eksponenta, dva binarna primera i konačnost raspoložive preciznosti.",
+      "notes_sha256": "eb032d484956fe71ea2705f45cee646ae76593b94358cb96d8d3e267f5658fbd",
+      "review": "provereno",
+      "expert_change": "Nema stručne promene izvornog sadržaja.",
+      "notes_render_sha256": "9a3c88a280b352824f957b90b21248a6e902647878fc90f84ed4d8660ca34cba",
+      "review_scope": "Potpunost uklonjenih detalja, tačnost dodatnog objašnjenja, upotrebljivost za predavača, odsustvo nepotrebnog ponavljanja i uredničkih komentara; sadržinski i vizuelni pregled."
+    }
+  },
+  "verification": {
+    "notes_pdf_pages": 39,
+    "reviewed_a4_pages": 39,
+    "original_elements": 140,
+    "verified_supplements": 37,
+    "source_and_projection_unchanged": false,
+    "supplement_calculations": "racunske_provere_beleski.json",
+    "calculation_groups": 12,
+    "calculation_cases": 46048,
+    "pending_expert_decisions_resolved": false,
+    "scope_of_projection_change": [
+      "04-s006",
+      "04-s016",
+      "04-s034"
+    ],
+    "original_pdf_unchanged": true,
+    "notes_sources_unchanged": true
+  },
+  "approved_expert_decisions": [
+    "04-s006",
+    "04-s016",
+    "04-s034"
+  ]
+}

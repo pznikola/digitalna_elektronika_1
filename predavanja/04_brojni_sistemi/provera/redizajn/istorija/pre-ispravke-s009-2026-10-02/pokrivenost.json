@@ -1,0 +1,1963 @@
+{
+  "slides": {
+    "04-s001": [
+      {
+        "element": "04-s001:e01",
+        "slide": {
+          "path": "slajdovi/s001_brojni_sistemi.tex",
+          "anchor": "% element: 04-s001:e01"
+        },
+        "notes": null,
+        "change": "Naslovni raspored odobrene 01; autor i 2021/22 su sačuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s001:e02",
+        "slide": {
+          "path": "slajdovi/s001_brojni_sistemi.tex",
+          "anchor": "% element: 04-s001:e02"
+        },
+        "notes": null,
+        "change": "Naslovni raspored odobrene 01; autor i 2021/22 su sačuvani.",
+        "status": "provereno"
+      }
+    ],
+    "04-s002": [
+      {
+        "element": "04-s002:e01",
+        "slide": {
+          "path": "slajdovi/s002_pozicioni_brojni_sistemi.tex",
+          "anchor": "% element: 04-s002:e01"
+        },
+        "notes": null,
+        "change": "Istorijski pregled i definicije u dve kolone; zapis i suma jasno odvojeni.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s002:e02",
+        "slide": {
+          "path": "slajdovi/s002_pozicioni_brojni_sistemi.tex",
+          "anchor": "% element: 04-s002:e02"
+        },
+        "notes": null,
+        "change": "Istorijski pregled i definicije u dve kolone; zapis i suma jasno odvojeni.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s002:e03",
+        "slide": {
+          "path": "slajdovi/s002_pozicioni_brojni_sistemi.tex",
+          "anchor": "% element: 04-s002:e03"
+        },
+        "notes": null,
+        "change": "Istorijski pregled i definicije u dve kolone; zapis i suma jasno odvojeni.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s002:e04",
+        "slide": {
+          "path": "slajdovi/s002_pozicioni_brojni_sistemi.tex",
+          "anchor": "% element: 04-s002:e04"
+        },
+        "notes": null,
+        "change": "Istorijski pregled i definicije u dve kolone; zapis i suma jasno odvojeni.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s002:e05",
+        "slide": {
+          "path": "slajdovi/s002_pozicioni_brojni_sistemi.tex",
+          "anchor": "% element: 04-s002:e05"
+        },
+        "notes": null,
+        "change": "Istorijski pregled i definicije u dve kolone; zapis i suma jasno odvojeni.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s002:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s002.tex",
+          "anchor": "% element: 04-s002:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s003": [
+      {
+        "element": "04-s003:e01",
+        "slide": {
+          "path": "slajdovi/s003_celobrojna_i_razlomljena_vrednost.tex",
+          "anchor": "% element: 04-s003:e01"
+        },
+        "notes": null,
+        "change": "CV i RV u simetričnim kolonama; ekvivalentni zapisi nula ostaju vidljivi.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s003:e02",
+        "slide": {
+          "path": "slajdovi/s003_celobrojna_i_razlomljena_vrednost.tex",
+          "anchor": "% element: 04-s003:e02"
+        },
+        "notes": null,
+        "change": "CV i RV u simetričnim kolonama; ekvivalentni zapisi nula ostaju vidljivi.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s003:e03",
+        "slide": {
+          "path": "slajdovi/s003_celobrojna_i_razlomljena_vrednost.tex",
+          "anchor": "% element: 04-s003:e03"
+        },
+        "notes": {
+          "path": "beleske/s003.tex",
+          "anchor": "% element: 04-s003:e03"
+        },
+        "change": "CV i RV u simetričnim kolonama; ekvivalentni zapisi nula ostaju vidljivi. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s003:e04",
+        "slide": {
+          "path": "slajdovi/s003_celobrojna_i_razlomljena_vrednost.tex",
+          "anchor": "% element: 04-s003:e04"
+        },
+        "notes": {
+          "path": "beleske/s003.tex",
+          "anchor": "% element: 04-s003:e04"
+        },
+        "change": "CV i RV u simetričnim kolonama; ekvivalentni zapisi nula ostaju vidljivi. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s003:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s003.tex",
+          "anchor": "% element: 04-s003:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s004": [
+      {
+        "element": "04-s004:e01",
+        "slide": {
+          "path": "slajdovi/s004_granica_razlomljene_vrednosti.tex",
+          "anchor": "% element: 04-s004:e01"
+        },
+        "notes": null,
+        "change": "Ujednačene oznake poništavanja tamno crvenom; cela razrada i rezultat očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s004:e02",
+        "slide": {
+          "path": "slajdovi/s004_granica_razlomljene_vrednosti.tex",
+          "anchor": "% element: 04-s004:e02"
+        },
+        "notes": {
+          "path": "beleske/s004.tex",
+          "anchor": "% element: 04-s004:e02"
+        },
+        "change": "Ujednačene oznake poništavanja tamno crvenom; cela razrada i rezultat očuvani. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s004:e03",
+        "slide": {
+          "path": "slajdovi/s004_granica_razlomljene_vrednosti.tex",
+          "anchor": "% element: 04-s004:e03"
+        },
+        "notes": null,
+        "change": "Ujednačene oznake poništavanja tamno crvenom; cela razrada i rezultat očuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s004:e04",
+        "slide": {
+          "path": "slajdovi/s004_granica_razlomljene_vrednosti.tex",
+          "anchor": "% element: 04-s004:e04"
+        },
+        "notes": {
+          "path": "beleske/s004.tex",
+          "anchor": "% element: 04-s004:e04"
+        },
+        "change": "Ujednačene oznake poništavanja tamno crvenom; cela razrada i rezultat očuvani. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s004:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s004.tex",
+          "anchor": "% element: 04-s004:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s005": [
+      {
+        "element": "04-s005:e01",
+        "slide": {
+          "path": "slajdovi/s005_prelazak_u_decimalni_sistem.tex",
+          "anchor": "% element: 04-s005:e01"
+        },
+        "notes": null,
+        "change": "Standardni zapis, indeks osnove i formula čine odvojene blokove.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s005:e02",
+        "slide": {
+          "path": "slajdovi/s005_prelazak_u_decimalni_sistem.tex",
+          "anchor": "% element: 04-s005:e02"
+        },
+        "notes": null,
+        "change": "Standardni zapis, indeks osnove i formula čine odvojene blokove.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s005:e03",
+        "slide": {
+          "path": "slajdovi/s005_prelazak_u_decimalni_sistem.tex",
+          "anchor": "% element: 04-s005:e03"
+        },
+        "notes": null,
+        "change": "Standardni zapis, indeks osnove i formula čine odvojene blokove.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s005:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s005.tex",
+          "anchor": "% element: 04-s005:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s006": [
+      {
+        "element": "04-s006:e01",
+        "slide": {
+          "path": "slajdovi/s006_primer_prelaska_iz_osnove_sedam.tex",
+          "anchor": "% element: 04-s006:e01"
+        },
+        "notes": null,
+        "change": "Težinski račun u dve linije i istaknut zaključak; izvorne decimale ostaju do odluke.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s006:e02",
+        "slide": {
+          "path": "slajdovi/s006_primer_prelaska_iz_osnove_sedam.tex",
+          "anchor": "% element: 04-s006:e02"
+        },
+        "notes": null,
+        "change": "Odobrena stručna ispravka 2026-10-02: oba decimalna niza imaju tačan početak 17/49 umesto zaokružene poslednje cifre pre znaka nastavka.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s006:e03",
+        "slide": {
+          "path": "slajdovi/s006_primer_prelaska_iz_osnove_sedam.tex",
+          "anchor": "% element: 04-s006:e03"
+        },
+        "notes": null,
+        "change": "Težinski račun u dve linije i istaknut zaključak; izvorne decimale ostaju do odluke.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s006:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s006.tex",
+          "anchor": "% element: 04-s006:e04"
+        },
+        "change": "Težinski račun u dve linije i istaknut zaključak; izvorne decimale ostaju do odluke. Detalj je prenet u beleške istog ID-ja. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s006:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s006.tex",
+          "anchor": "% element: 04-s006:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s007": [
+      {
+        "element": "04-s007:e01",
+        "slide": {
+          "path": "slajdovi/s007_prelazak_iz_decimalnog_sistema.tex",
+          "anchor": "% element: 04-s007:e01"
+        },
+        "notes": null,
+        "change": "Odvojeni nazivi celobrojnog i razlomljenog dela, sve formule vidljive.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s007:e02",
+        "slide": {
+          "path": "slajdovi/s007_prelazak_iz_decimalnog_sistema.tex",
+          "anchor": "% element: 04-s007:e02"
+        },
+        "notes": null,
+        "change": "Odvojeni nazivi celobrojnog i razlomljenog dela, sve formule vidljive.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s007:e03",
+        "slide": {
+          "path": "slajdovi/s007_prelazak_iz_decimalnog_sistema.tex",
+          "anchor": "% element: 04-s007:e03"
+        },
+        "notes": null,
+        "change": "Odvojeni nazivi celobrojnog i razlomljenog dela, sve formule vidljive.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s007:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s007.tex",
+          "anchor": "% element: 04-s007:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s008": [
+      {
+        "element": "04-s008:e01",
+        "slide": {
+          "path": "slajdovi/s008_uzastopno_deljenje.tex",
+          "anchor": "% element: 04-s008:e01"
+        },
+        "notes": {
+          "path": "beleske/s008.tex",
+          "anchor": "% element: 04-s008:e01"
+        },
+        "change": "Ključni koraci i uslov ostaju vidljivi; početno razvijanje deljenika detaljno u beleškama. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s008:e02",
+        "slide": {
+          "path": "slajdovi/s008_uzastopno_deljenje.tex",
+          "anchor": "% element: 04-s008:e02"
+        },
+        "notes": {
+          "path": "beleske/s008.tex",
+          "anchor": "% element: 04-s008:e02"
+        },
+        "change": "Ključni koraci i uslov ostaju vidljivi; početno razvijanje deljenika detaljno u beleškama. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s008:e03",
+        "slide": {
+          "path": "slajdovi/s008_uzastopno_deljenje.tex",
+          "anchor": "% element: 04-s008:e03"
+        },
+        "notes": {
+          "path": "beleske/s008.tex",
+          "anchor": "% element: 04-s008:e03"
+        },
+        "change": "Ključni koraci i uslov ostaju vidljivi; početno razvijanje deljenika detaljno u beleškama. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s008:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s008.tex",
+          "anchor": "% element: 04-s008:e04"
+        },
+        "change": "Ključni koraci i uslov ostaju vidljivi; početno razvijanje deljenika detaljno u beleškama. Detalj je prenet u beleške istog ID-ja. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s008:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s008.tex",
+          "anchor": "% element: 04-s008:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s009": [
+      {
+        "element": "04-s009:e01",
+        "slide": {
+          "path": "slajdovi/s009_konacnost_celobrojnog_zapisa.tex",
+          "anchor": "% element: 04-s009:e01"
+        },
+        "notes": null,
+        "change": "Jasan naslov i odvojena nejednakost; izvorni znak ≥ ostaje do odluke.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s009:e02",
+        "slide": {
+          "path": "slajdovi/s009_konacnost_celobrojnog_zapisa.tex",
+          "anchor": "% element: 04-s009:e02"
+        },
+        "notes": null,
+        "change": "Jasan naslov i odvojena nejednakost; izvorni znak ≥ ostaje do odluke.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s009:e03",
+        "slide": {
+          "path": "slajdovi/s009_konacnost_celobrojnog_zapisa.tex",
+          "anchor": "% element: 04-s009:e03"
+        },
+        "notes": null,
+        "change": "Jasan naslov i odvojena nejednakost; izvorni znak ≥ ostaje do odluke.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s009:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s009.tex",
+          "anchor": "% element: 04-s009:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s010": [
+      {
+        "element": "04-s010:e01",
+        "slide": {
+          "path": "slajdovi/s010_uzastopno_mnozenje.tex",
+          "anchor": "% element: 04-s010:e01"
+        },
+        "notes": {
+          "path": "beleske/s010.tex",
+          "anchor": "% element: 04-s010:e01"
+        },
+        "change": "Izdvajanje cifre i uslov vidljivi; početno razvijanje pre množenja u beleškama. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s010:e02",
+        "slide": {
+          "path": "slajdovi/s010_uzastopno_mnozenje.tex",
+          "anchor": "% element: 04-s010:e02"
+        },
+        "notes": {
+          "path": "beleske/s010.tex",
+          "anchor": "% element: 04-s010:e02"
+        },
+        "change": "Izdvajanje cifre i uslov vidljivi; početno razvijanje pre množenja u beleškama. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s010:e03",
+        "slide": {
+          "path": "slajdovi/s010_uzastopno_mnozenje.tex",
+          "anchor": "% element: 04-s010:e03"
+        },
+        "notes": {
+          "path": "beleske/s010.tex",
+          "anchor": "% element: 04-s010:e03"
+        },
+        "change": "Izdvajanje cifre i uslov vidljivi; početno razvijanje pre množenja u beleškama. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s010:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s010.tex",
+          "anchor": "% element: 04-s010:e04"
+        },
+        "change": "Izdvajanje cifre i uslov vidljivi; početno razvijanje pre množenja u beleškama. Detalj je prenet u beleške istog ID-ja. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s010:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s010.tex",
+          "anchor": "% element: 04-s010:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s011": [
+      {
+        "element": "04-s011:e01",
+        "slide": {
+          "path": "slajdovi/s011_konacnost_razlomljenog_zapisa.tex",
+          "anchor": "% element: 04-s011:e01"
+        },
+        "notes": null,
+        "change": "Pitanje zadržano kao zaseban slajd, bez dodatog odgovora.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s011:e02",
+        "slide": {
+          "path": "slajdovi/s011_konacnost_razlomljenog_zapisa.tex",
+          "anchor": "% element: 04-s011:e02"
+        },
+        "notes": null,
+        "change": "Pitanje zadržano kao zaseban slajd, bez dodatog odgovora.",
+        "status": "provereno"
+      }
+    ],
+    "04-s012": [
+      {
+        "element": "04-s012:e01",
+        "slide": {
+          "path": "slajdovi/s012_uslov_konacnog_razlomljenog_zapisa.tex",
+          "anchor": "% element: 04-s012:e01"
+        },
+        "notes": null,
+        "change": "Razvijanje i uslovi grupisani, ponavljanje teksta sažeto uz puno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s012:e02",
+        "slide": {
+          "path": "slajdovi/s012_uslov_konacnog_razlomljenog_zapisa.tex",
+          "anchor": "% element: 04-s012:e02"
+        },
+        "notes": null,
+        "change": "Razvijanje i uslovi grupisani, ponavljanje teksta sažeto uz puno objašnjenje.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s012:e03",
+        "slide": {
+          "path": "slajdovi/s012_uslov_konacnog_razlomljenog_zapisa.tex",
+          "anchor": "% element: 04-s012:e03"
+        },
+        "notes": {
+          "path": "beleske/s012.tex",
+          "anchor": "% element: 04-s012:e03"
+        },
+        "change": "Razvijanje i uslovi grupisani, ponavljanje teksta sažeto uz puno objašnjenje. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s012:e04",
+        "slide": {
+          "path": "slajdovi/s012_uslov_konacnog_razlomljenog_zapisa.tex",
+          "anchor": "% element: 04-s012:e04"
+        },
+        "notes": {
+          "path": "beleske/s012.tex",
+          "anchor": "% element: 04-s012:e04"
+        },
+        "change": "Razvijanje i uslovi grupisani, ponavljanje teksta sažeto uz puno objašnjenje. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s012:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s012.tex",
+          "anchor": "% element: 04-s012:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s013": [
+      {
+        "element": "04-s013:e01",
+        "slide": {
+          "path": "slajdovi/s013_primer_13_2_u_binarni_sistem.tex",
+          "anchor": "% element: 04-s013:e01"
+        },
+        "notes": null,
+        "change": "Centrirane tabele, razdvojeni naslovi i strelice; svi redovi i primeri sačuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s013:e02",
+        "slide": {
+          "path": "slajdovi/s013_primer_13_2_u_binarni_sistem.tex",
+          "anchor": "% element: 04-s013:e02"
+        },
+        "notes": null,
+        "change": "Centrirane tabele, razdvojeni naslovi i strelice; svi redovi i primeri sačuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s013:e03",
+        "slide": {
+          "path": "slajdovi/s013_primer_13_2_u_binarni_sistem.tex",
+          "anchor": "% element: 04-s013:e03"
+        },
+        "notes": null,
+        "change": "Centrirane tabele, razdvojeni naslovi i strelice; svi redovi i primeri sačuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s013:e04",
+        "slide": {
+          "path": "slajdovi/s013_primer_13_2_u_binarni_sistem.tex",
+          "anchor": "% element: 04-s013:e04"
+        },
+        "notes": {
+          "path": "beleske/s013.tex",
+          "anchor": "% element: 04-s013:e04"
+        },
+        "change": "Centrirane tabele, razdvojeni naslovi i strelice; svi redovi i primeri sačuvani. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s013:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s013.tex",
+          "anchor": "% element: 04-s013:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s014": [
+      {
+        "element": "04-s014:e01",
+        "slide": {
+          "path": "slajdovi/s014_deljenje_u_osnovi_sedam.tex",
+          "anchor": "% element: 04-s014:e01"
+        },
+        "notes": null,
+        "change": "Tri koraka u preglednoj tabeli; školski kontekst preformulisan i detaljno sačuvan.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s014:e02",
+        "slide": {
+          "path": "slajdovi/s014_deljenje_u_osnovi_sedam.tex",
+          "anchor": "% element: 04-s014:e02"
+        },
+        "notes": null,
+        "change": "Tri koraka u preglednoj tabeli; školski kontekst preformulisan i detaljno sačuvan.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s014:e03",
+        "slide": {
+          "path": "slajdovi/s014_deljenje_u_osnovi_sedam.tex",
+          "anchor": "% element: 04-s014:e03"
+        },
+        "notes": {
+          "path": "beleske/s014.tex",
+          "anchor": "% element: 04-s014:e03"
+        },
+        "change": "Tri koraka u preglednoj tabeli; školski kontekst preformulisan i detaljno sačuvan. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s014:e04",
+        "slide": {
+          "path": "slajdovi/s014_deljenje_u_osnovi_sedam.tex",
+          "anchor": "% element: 04-s014:e04"
+        },
+        "notes": {
+          "path": "beleske/s014.tex",
+          "anchor": "% element: 04-s014:e04"
+        },
+        "change": "Tri koraka u preglednoj tabeli; školski kontekst preformulisan i detaljno sačuvan. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s014:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s014.tex",
+          "anchor": "% element: 04-s014:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s015": [
+      {
+        "element": "04-s015:e01",
+        "slide": {
+          "path": "slajdovi/s015_primer_236_u_binarni_sistem.tex",
+          "anchor": "% element: 04-s015:e01"
+        },
+        "notes": null,
+        "change": "Tabela levo i kompletna provera desno; strelica čitanja odvojena od ćelija.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s015:e02",
+        "slide": {
+          "path": "slajdovi/s015_primer_236_u_binarni_sistem.tex",
+          "anchor": "% element: 04-s015:e02"
+        },
+        "notes": null,
+        "change": "Tabela levo i kompletna provera desno; strelica čitanja odvojena od ćelija.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s015:e03",
+        "slide": {
+          "path": "slajdovi/s015_primer_236_u_binarni_sistem.tex",
+          "anchor": "% element: 04-s015:e03"
+        },
+        "notes": null,
+        "change": "Tabela levo i kompletna provera desno; strelica čitanja odvojena od ćelija.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s015:e04",
+        "slide": {
+          "path": "slajdovi/s015_primer_236_u_binarni_sistem.tex",
+          "anchor": "% element: 04-s015:e04"
+        },
+        "notes": {
+          "path": "beleske/s015.tex",
+          "anchor": "% element: 04-s015:e04"
+        },
+        "change": "Tabela levo i kompletna provera desno; strelica čitanja odvojena od ćelija. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s015:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s015.tex",
+          "anchor": "% element: 04-s015:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s016": [
+      {
+        "element": "04-s016:e01",
+        "slide": {
+          "path": "slajdovi/s016_kompatibilni_brojni_sistemi.tex",
+          "anchor": "% element: 04-s016:e01"
+        },
+        "notes": null,
+        "change": "Izraz i grupe cifara odvojeni; izvorne dvostruke oznake ostaju do odluke.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s016:e02",
+        "slide": {
+          "path": "slajdovi/s016_kompatibilni_brojni_sistemi.tex",
+          "anchor": "% element: 04-s016:e02"
+        },
+        "notes": null,
+        "change": "Izraz i grupe cifara odvojeni; izvorne dvostruke oznake ostaju do odluke.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s016:e03",
+        "slide": {
+          "path": "slajdovi/s016_kompatibilni_brojni_sistemi.tex",
+          "anchor": "% element: 04-s016:e03"
+        },
+        "notes": null,
+        "change": "Izraz i grupe cifara odvojeni; izvorne dvostruke oznake ostaju do odluke.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s016:e04",
+        "slide": {
+          "path": "slajdovi/s016_kompatibilni_brojni_sistemi.tex",
+          "anchor": "% element: 04-s016:e04"
+        },
+        "notes": null,
+        "change": "Odobrena stručna ispravka 2026-10-02: zarez između oba dvostruka indeksa, b_{(n-1),(k-1)} i b_{(n-1),(k-2)}; težine i grupisanje sačuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s016:e05",
+        "slide": {
+          "path": "slajdovi/s016_kompatibilni_brojni_sistemi.tex",
+          "anchor": "% element: 04-s016:e05"
+        },
+        "notes": null,
+        "change": "Izraz i grupe cifara odvojeni; izvorne dvostruke oznake ostaju do odluke.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s016:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s016.tex",
+          "anchor": "% element: 04-s016:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s017": [
+      {
+        "element": "04-s017:e01",
+        "slide": {
+          "path": "slajdovi/s017_binarni_oktalni_heksadecimalni.tex",
+          "anchor": "% element: 04-s017:e01"
+        },
+        "notes": null,
+        "change": "Osnove i cifre u tabeli; obe kompatibilnosti imaju kraće odvojene strelice.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s017:e02",
+        "slide": {
+          "path": "slajdovi/s017_binarni_oktalni_heksadecimalni.tex",
+          "anchor": "% element: 04-s017:e02"
+        },
+        "notes": null,
+        "change": "Osnove i cifre u tabeli; obe kompatibilnosti imaju kraće odvojene strelice.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s017:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s017.tex",
+          "anchor": "% element: 04-s017:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s018": [
+      {
+        "element": "04-s018:e01",
+        "slide": {
+          "path": "slajdovi/s018_cifre_kompatibilnih_sistema.tex",
+          "anchor": "% element: 04-s018:e01"
+        },
+        "notes": {
+          "path": "beleske/s018.tex",
+          "anchor": "% element: 04-s018:e01"
+        },
+        "change": "Centrirane dve tabele, svi parovi očuvani; font najmanje 9 pt. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s018:e02",
+        "slide": {
+          "path": "slajdovi/s018_cifre_kompatibilnih_sistema.tex",
+          "anchor": "% element: 04-s018:e02"
+        },
+        "notes": {
+          "path": "beleske/s018.tex",
+          "anchor": "% element: 04-s018:e02"
+        },
+        "change": "Centrirane dve tabele, svi parovi očuvani; font najmanje 9 pt. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s018:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s018.tex",
+          "anchor": "% element: 04-s018:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s019": [
+      {
+        "element": "04-s019:e01",
+        "slide": {
+          "path": "slajdovi/s019_grupisanje_celobrojnih_cifara.tex",
+          "anchor": "% element: 04-s019:e01"
+        },
+        "notes": null,
+        "change": "Dva primera u jednakim kolonama; vodeće nule tamno crvene.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s019:e02",
+        "slide": {
+          "path": "slajdovi/s019_grupisanje_celobrojnih_cifara.tex",
+          "anchor": "% element: 04-s019:e02"
+        },
+        "notes": {
+          "path": "beleske/s019.tex",
+          "anchor": "% element: 04-s019:e02"
+        },
+        "change": "Dva primera u jednakim kolonama; vodeće nule tamno crvene. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s019:e03",
+        "slide": {
+          "path": "slajdovi/s019_grupisanje_celobrojnih_cifara.tex",
+          "anchor": "% element: 04-s019:e03"
+        },
+        "notes": null,
+        "change": "Dva primera u jednakim kolonama; vodeće nule tamno crvene.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s019:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s019.tex",
+          "anchor": "% element: 04-s019:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s020": [
+      {
+        "element": "04-s020:e01",
+        "slide": {
+          "path": "slajdovi/s020_grupisanje_razlomljenih_cifara.tex",
+          "anchor": "% element: 04-s020:e01"
+        },
+        "notes": {
+          "path": "beleske/s020.tex",
+          "anchor": "% element: 04-s020:e01"
+        },
+        "change": "Dva primera u jednakim kolonama; dopune i brisanje nula naglašeni. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s020:e02",
+        "slide": {
+          "path": "slajdovi/s020_grupisanje_razlomljenih_cifara.tex",
+          "anchor": "% element: 04-s020:e02"
+        },
+        "notes": null,
+        "change": "Dva primera u jednakim kolonama; dopune i brisanje nula naglašeni.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s020:e03",
+        "slide": {
+          "path": "slajdovi/s020_grupisanje_razlomljenih_cifara.tex",
+          "anchor": "% element: 04-s020:e03"
+        },
+        "notes": {
+          "path": "beleske/s020.tex",
+          "anchor": "% element: 04-s020:e03"
+        },
+        "change": "Dva primera u jednakim kolonama; dopune i brisanje nula naglašeni. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s020:e04",
+        "slide": {
+          "path": "slajdovi/s020_grupisanje_razlomljenih_cifara.tex",
+          "anchor": "% element: 04-s020:e04"
+        },
+        "notes": null,
+        "change": "Dva primera u jednakim kolonama; dopune i brisanje nula naglašeni.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s020:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s020.tex",
+          "anchor": "% element: 04-s020:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s021": [
+      {
+        "element": "04-s021:e01",
+        "slide": {
+          "path": "slajdovi/s021_registri_i_magistrala.tex",
+          "anchor": "% element: 04-s021:e01"
+        },
+        "notes": null,
+        "change": "Vektorski blokovi registara sa vodoravnim natpisima i magistralom između njih.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s021:e02",
+        "slide": {
+          "path": "slajdovi/s021_registri_i_magistrala.tex",
+          "anchor": "% element: 04-s021:e02"
+        },
+        "notes": null,
+        "change": "Vektorski blokovi registara sa vodoravnim natpisima i magistralom između njih.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s021:e03",
+        "slide": {
+          "path": "slajdovi/s021_registri_i_magistrala.tex",
+          "anchor": "% element: 04-s021:e03"
+        },
+        "notes": null,
+        "change": "Vektorski blokovi registara sa vodoravnim natpisima i magistralom između njih.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s021:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s021.tex",
+          "anchor": "% element: 04-s021:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s022": [
+      {
+        "element": "04-s022:e01",
+        "slide": {
+          "path": "slajdovi/s022_konacan_broj_informacija.tex",
+          "anchor": "% element: 04-s022:e01"
+        },
+        "notes": null,
+        "change": "Tabela i fizičke linije razmaknute; ispravljena slovna greška realan.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s022:e02",
+        "slide": {
+          "path": "slajdovi/s022_konacan_broj_informacija.tex",
+          "anchor": "% element: 04-s022:e02"
+        },
+        "notes": null,
+        "change": "Tabela i fizičke linije razmaknute; ispravljena slovna greška realan.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s022:e03",
+        "slide": {
+          "path": "slajdovi/s022_konacan_broj_informacija.tex",
+          "anchor": "% element: 04-s022:e03"
+        },
+        "notes": null,
+        "change": "Tabela i fizičke linije razmaknute; ispravljena slovna greška realan.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s022:e04",
+        "slide": {
+          "path": "slajdovi/s022_konacan_broj_informacija.tex",
+          "anchor": "% element: 04-s022:e04"
+        },
+        "notes": null,
+        "change": "Tabela i fizičke linije razmaknute; ispravljena slovna greška realan.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s022:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s022.tex",
+          "anchor": "% element: 04-s022:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s023": [
+      {
+        "element": "04-s023:e01",
+        "slide": {
+          "path": "slajdovi/s023_bit_bajt_rec.tex",
+          "anchor": "% element: 04-s023:e01"
+        },
+        "notes": null,
+        "change": "Nazivi i širine u tabeli; registar i MSB/LSB očuvani u odvojenim blokovima.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s023:e02",
+        "slide": {
+          "path": "slajdovi/s023_bit_bajt_rec.tex",
+          "anchor": "% element: 04-s023:e02"
+        },
+        "notes": null,
+        "change": "Nazivi i širine u tabeli; registar i MSB/LSB očuvani u odvojenim blokovima.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s023:e03",
+        "slide": {
+          "path": "slajdovi/s023_bit_bajt_rec.tex",
+          "anchor": "% element: 04-s023:e03"
+        },
+        "notes": {
+          "path": "beleske/s023.tex",
+          "anchor": "% element: 04-s023:e03"
+        },
+        "change": "Nazivi i širine u tabeli; registar i MSB/LSB očuvani u odvojenim blokovima. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s023:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s023.tex",
+          "anchor": "% element: 04-s023:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s024": [
+      {
+        "element": "04-s024:e01",
+        "slide": {
+          "path": "slajdovi/s024_znacenje_sadrzaja_registra.tex",
+          "anchor": "% element: 04-s024:e01"
+        },
+        "notes": null,
+        "change": "Registar, pitanje i projektant jasno odvojeni; jezička omaška otklonjena.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s024:e02",
+        "slide": {
+          "path": "slajdovi/s024_znacenje_sadrzaja_registra.tex",
+          "anchor": "% element: 04-s024:e02"
+        },
+        "notes": {
+          "path": "beleske/s024.tex",
+          "anchor": "% element: 04-s024:e02"
+        },
+        "change": "Registar, pitanje i projektant jasno odvojeni; jezička omaška otklonjena. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s024:e03",
+        "slide": {
+          "path": "slajdovi/s024_znacenje_sadrzaja_registra.tex",
+          "anchor": "% element: 04-s024:e03"
+        },
+        "notes": {
+          "path": "beleske/s024.tex",
+          "anchor": "% element: 04-s024:e03"
+        },
+        "change": "Registar, pitanje i projektant jasno odvojeni; jezička omaška otklonjena. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s024:e04",
+        "slide": {
+          "path": "slajdovi/s024_znacenje_sadrzaja_registra.tex",
+          "anchor": "% element: 04-s024:e04"
+        },
+        "notes": null,
+        "change": "Registar, pitanje i projektant jasno odvojeni; jezička omaška otklonjena.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s024:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s024.tex",
+          "anchor": "% element: 04-s024:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s025": [
+      {
+        "element": "04-s025:e01",
+        "slide": {
+          "path": "slajdovi/s025_registar_kao_binarni_broj.tex",
+          "anchor": "% element: 04-s025:e01"
+        },
+        "notes": null,
+        "change": "Veza logičkih i brojnih cifara, registar i lanac zapisa u čitljivom toku.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s025:e02",
+        "slide": {
+          "path": "slajdovi/s025_registar_kao_binarni_broj.tex",
+          "anchor": "% element: 04-s025:e02"
+        },
+        "notes": null,
+        "change": "Veza logičkih i brojnih cifara, registar i lanac zapisa u čitljivom toku.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s025:e03",
+        "slide": {
+          "path": "slajdovi/s025_registar_kao_binarni_broj.tex",
+          "anchor": "% element: 04-s025:e03"
+        },
+        "notes": null,
+        "change": "Veza logičkih i brojnih cifara, registar i lanac zapisa u čitljivom toku.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s025:e04",
+        "slide": {
+          "path": "slajdovi/s025_registar_kao_binarni_broj.tex",
+          "anchor": "% element: 04-s025:e04"
+        },
+        "notes": null,
+        "change": "Veza logičkih i brojnih cifara, registar i lanac zapisa u čitljivom toku.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s025:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s025.tex",
+          "anchor": "% element: 04-s025:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s026": [
+      {
+        "element": "04-s026:e01",
+        "slide": {
+          "path": "slajdovi/s026_polozaj_binarne_tacke.tex",
+          "anchor": "% element: 04-s026:e01"
+        },
+        "notes": null,
+        "change": "Tri primera tačke u tabeli; projektantova odluka istaknuta.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s026:e02",
+        "slide": {
+          "path": "slajdovi/s026_polozaj_binarne_tacke.tex",
+          "anchor": "% element: 04-s026:e02"
+        },
+        "notes": null,
+        "change": "Tri primera tačke u tabeli; projektantova odluka istaknuta.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s026:e03",
+        "slide": {
+          "path": "slajdovi/s026_polozaj_binarne_tacke.tex",
+          "anchor": "% element: 04-s026:e03"
+        },
+        "notes": {
+          "path": "beleske/s026.tex",
+          "anchor": "% element: 04-s026:e03"
+        },
+        "change": "Tri primera tačke u tabeli; projektantova odluka istaknuta. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s026:e04",
+        "slide": {
+          "path": "slajdovi/s026_polozaj_binarne_tacke.tex",
+          "anchor": "% element: 04-s026:e04"
+        },
+        "notes": null,
+        "change": "Tri primera tačke u tabeli; projektantova odluka istaknuta.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s026:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s026.tex",
+          "anchor": "% element: 04-s026:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s027": [
+      {
+        "element": "04-s027:e01",
+        "slide": {
+          "path": "slajdovi/s027_skaliranje_vrednosti_registra.tex",
+          "anchor": "% element: 04-s027:e01"
+        },
+        "notes": null,
+        "change": "Tabela povezuje položaj i skaliranje; zajednički imenilac sa svim članovima u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s027:e02",
+        "slide": {
+          "path": "slajdovi/s027_skaliranje_vrednosti_registra.tex",
+          "anchor": "% element: 04-s027:e02"
+        },
+        "notes": {
+          "path": "beleske/s027.tex",
+          "anchor": "% element: 04-s027:e02"
+        },
+        "change": "Tabela povezuje položaj i skaliranje; zajednički imenilac sa svim članovima u beleškama. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s027:e03",
+        "slide": {
+          "path": "slajdovi/s027_skaliranje_vrednosti_registra.tex",
+          "anchor": "% element: 04-s027:e03"
+        },
+        "notes": {
+          "path": "beleske/s027.tex",
+          "anchor": "% element: 04-s027:e03"
+        },
+        "change": "Tabela povezuje položaj i skaliranje; zajednički imenilac sa svim članovima u beleškama. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s027:e04",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s027.tex",
+          "anchor": "% element: 04-s027:e04"
+        },
+        "change": "Tabela povezuje položaj i skaliranje; zajednički imenilac sa svim članovima u beleškama. Detalj je prenet u beleške istog ID-ja. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s027:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s027.tex",
+          "anchor": "% element: 04-s027:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s028": [
+      {
+        "element": "04-s028:e01",
+        "slide": {
+          "path": "slajdovi/s028_negativne_vrednosti.tex",
+          "anchor": "% element: 04-s028:e01"
+        },
+        "notes": null,
+        "change": "Sažeti izvorni pasusi i jasno istaknuta potreba kodovanja; primer sistema sačuvan.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s028:e02",
+        "slide": {
+          "path": "slajdovi/s028_negativne_vrednosti.tex",
+          "anchor": "% element: 04-s028:e02"
+        },
+        "notes": null,
+        "change": "Sažeti izvorni pasusi i jasno istaknuta potreba kodovanja; primer sistema sačuvan.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s028:e03",
+        "slide": {
+          "path": "slajdovi/s028_negativne_vrednosti.tex",
+          "anchor": "% element: 04-s028:e03"
+        },
+        "notes": null,
+        "change": "Sažeti izvorni pasusi i jasno istaknuta potreba kodovanja; primer sistema sačuvan.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s028:e04",
+        "slide": {
+          "path": "slajdovi/s028_negativne_vrednosti.tex",
+          "anchor": "% element: 04-s028:e04"
+        },
+        "notes": null,
+        "change": "Sažeti izvorni pasusi i jasno istaknuta potreba kodovanja; primer sistema sačuvan.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s028:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s028.tex",
+          "anchor": "% element: 04-s028:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s029": [
+      {
+        "element": "04-s029:e01",
+        "slide": {
+          "path": "slajdovi/s029_znak_i_apsolutna_vrednost.tex",
+          "anchor": "% element: 04-s029:e01"
+        },
+        "notes": {
+          "path": "beleske/s029.tex",
+          "anchor": "% element: 04-s029:e01"
+        },
+        "change": "Svih 16 redova i −0 sačuvani; znak i apsolutna vrednost imaju jasne blokove. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s029:e02",
+        "slide": {
+          "path": "slajdovi/s029_znak_i_apsolutna_vrednost.tex",
+          "anchor": "% element: 04-s029:e02"
+        },
+        "notes": null,
+        "change": "Svih 16 redova i −0 sačuvani; znak i apsolutna vrednost imaju jasne blokove.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s029:e03",
+        "slide": {
+          "path": "slajdovi/s029_znak_i_apsolutna_vrednost.tex",
+          "anchor": "% element: 04-s029:e03"
+        },
+        "notes": null,
+        "change": "Svih 16 redova i −0 sačuvani; znak i apsolutna vrednost imaju jasne blokove.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s029:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s029.tex",
+          "anchor": "% element: 04-s029:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s030": [
+      {
+        "element": "04-s030:e01",
+        "slide": {
+          "path": "slajdovi/s030_prikaz_sa_ofsetom.tex",
+          "anchor": "% element: 04-s030:e01"
+        },
+        "notes": null,
+        "change": "Svih 16 redova sačuvani; čitanje koda i ofset odvojeni.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s030:e02",
+        "slide": {
+          "path": "slajdovi/s030_prikaz_sa_ofsetom.tex",
+          "anchor": "% element: 04-s030:e02"
+        },
+        "notes": null,
+        "change": "Svih 16 redova sačuvani; čitanje koda i ofset odvojeni.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s030:e03",
+        "slide": {
+          "path": "slajdovi/s030_prikaz_sa_ofsetom.tex",
+          "anchor": "% element: 04-s030:e03"
+        },
+        "notes": null,
+        "change": "Svih 16 redova sačuvani; čitanje koda i ofset odvojeni.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s030:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s030.tex",
+          "anchor": "% element: 04-s030:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s031": [
+      {
+        "element": "04-s031:e01",
+        "slide": {
+          "path": "slajdovi/s031_prvi_komplement.tex",
+          "anchor": "% element: 04-s031:e01"
+        },
+        "notes": {
+          "path": "beleske/s031.tex",
+          "anchor": "% element: 04-s031:e01"
+        },
+        "change": "Tabela očuvana, primer naglašen; uklonjeno ponovljeno znaka. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s031:e02",
+        "slide": {
+          "path": "slajdovi/s031_prvi_komplement.tex",
+          "anchor": "% element: 04-s031:e02"
+        },
+        "notes": null,
+        "change": "Tabela očuvana, primer naglašen; uklonjeno ponovljeno znaka.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s031:e03",
+        "slide": {
+          "path": "slajdovi/s031_prvi_komplement.tex",
+          "anchor": "% element: 04-s031:e03"
+        },
+        "notes": null,
+        "change": "Tabela očuvana, primer naglašen; uklonjeno ponovljeno znaka.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s031:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s031.tex",
+          "anchor": "% element: 04-s031:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s032": [
+      {
+        "element": "04-s032:e01",
+        "slide": {
+          "path": "slajdovi/s032_drugi_komplement.tex",
+          "anchor": "% element: 04-s032:e01"
+        },
+        "notes": {
+          "path": "beleske/s032.tex",
+          "anchor": "% element: 04-s032:e01"
+        },
+        "change": "Tabela očuvana, račun poravnat; uklonjeno ponovljeno znaka. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s032:e02",
+        "slide": {
+          "path": "slajdovi/s032_drugi_komplement.tex",
+          "anchor": "% element: 04-s032:e02"
+        },
+        "notes": null,
+        "change": "Tabela očuvana, račun poravnat; uklonjeno ponovljeno znaka.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s032:e03",
+        "slide": {
+          "path": "slajdovi/s032_drugi_komplement.tex",
+          "anchor": "% element: 04-s032:e03"
+        },
+        "notes": null,
+        "change": "Tabela očuvana, račun poravnat; uklonjeno ponovljeno znaka.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s032:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s032.tex",
+          "anchor": "% element: 04-s032:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s033": [
+      {
+        "element": "04-s033:e01",
+        "slide": {
+          "path": "slajdovi/s033_komplement_maksimalne_vrednosti.tex",
+          "anchor": "% element: 04-s033:e01"
+        },
+        "notes": null,
+        "change": "Definicija, invertovanje i decimalni primer odvojeni; sve vrednosti očuvane.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s033:e02",
+        "slide": {
+          "path": "slajdovi/s033_komplement_maksimalne_vrednosti.tex",
+          "anchor": "% element: 04-s033:e02"
+        },
+        "notes": null,
+        "change": "Definicija, invertovanje i decimalni primer odvojeni; sve vrednosti očuvane.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s033:e03",
+        "slide": {
+          "path": "slajdovi/s033_komplement_maksimalne_vrednosti.tex",
+          "anchor": "% element: 04-s033:e03"
+        },
+        "notes": {
+          "path": "beleske/s033.tex",
+          "anchor": "% element: 04-s033:e03"
+        },
+        "change": "Definicija, invertovanje i decimalni primer odvojeni; sve vrednosti očuvane. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s033:e04",
+        "slide": {
+          "path": "slajdovi/s033_komplement_maksimalne_vrednosti.tex",
+          "anchor": "% element: 04-s033:e04"
+        },
+        "notes": null,
+        "change": "Definicija, invertovanje i decimalni primer odvojeni; sve vrednosti očuvane.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s033:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s033.tex",
+          "anchor": "% element: 04-s033:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s034": [
+      {
+        "element": "04-s034:e01",
+        "slide": {
+          "path": "slajdovi/s034_komplement_osnove.tex",
+          "anchor": "% element: 04-s034:e01"
+        },
+        "notes": null,
+        "change": "Definicija i decimalni primer razdvojeni; izvorni naziv 9-tke ostaje do odluke.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s034:e02",
+        "slide": {
+          "path": "slajdovi/s034_komplement_osnove.tex",
+          "anchor": "% element: 04-s034:e02"
+        },
+        "notes": null,
+        "change": "Korisnik odobrio 2026-10-02: redosled binarne jednačine prati (r^n−1)−V+1, tj. sve jedinice − kod + 1. Matematička vrednost ostaje ista.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s034:e03",
+        "slide": {
+          "path": "slajdovi/s034_komplement_osnove.tex",
+          "anchor": "% element: 04-s034:e03"
+        },
+        "notes": null,
+        "change": "Definicija i decimalni primer razdvojeni; izvorni naziv 9-tke ostaje do odluke.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s034:e04",
+        "slide": {
+          "path": "slajdovi/s034_komplement_osnove.tex",
+          "anchor": "% element: 04-s034:e04"
+        },
+        "notes": null,
+        "change": "Odobrena stručna ispravka 2026-10-02: naziv komplement 10-tke umesto komplement 9-tke; račun 1000−123=877 sačuvan.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s034:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s034.tex",
+          "anchor": "% element: 04-s034:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s035": [
+      {
+        "element": "04-s035:e01",
+        "slide": {
+          "path": "slajdovi/s035_ponovljeno_komplementiranje.tex",
+          "anchor": "% element: 04-s035:e01"
+        },
+        "notes": null,
+        "change": "Svojstva u stavkama; obe izvorne formule očuvane do odluke o zagradama.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s035:e02",
+        "slide": {
+          "path": "slajdovi/s035_ponovljeno_komplementiranje.tex",
+          "anchor": "% element: 04-s035:e02"
+        },
+        "notes": null,
+        "change": "Svojstva u stavkama; obe izvorne formule očuvane do odluke o zagradama.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s035:e03",
+        "slide": {
+          "path": "slajdovi/s035_ponovljeno_komplementiranje.tex",
+          "anchor": "% element: 04-s035:e03"
+        },
+        "notes": null,
+        "change": "Svojstva u stavkama; obe izvorne formule očuvane do odluke o zagradama.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s035:e04",
+        "slide": {
+          "path": "slajdovi/s035_ponovljeno_komplementiranje.tex",
+          "anchor": "% element: 04-s035:e04"
+        },
+        "notes": null,
+        "change": "Korisnik odobrio 2026-10-02: u drugoj jednačini oduzima se ceo prethodni drugi komplement u zagradama, zatim dodaje 1; prva jednačina ostaje ista. Dokaz: M−(invertovani kod+1)+1=B.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s035:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s035.tex",
+          "anchor": "% element: 04-s035:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s036": [
+      {
+        "element": "04-s036:e01",
+        "slide": {
+          "path": "slajdovi/s036_tezina_bita_znaka.tex",
+          "anchor": "% element: 04-s036:e01"
+        },
+        "notes": null,
+        "change": "Početak, rezultat i bit znaka vidljivi; dva puna međukoraka u beleškama.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s036:e02",
+        "slide": {
+          "path": "slajdovi/s036_tezina_bita_znaka.tex",
+          "anchor": "% element: 04-s036:e02"
+        },
+        "notes": {
+          "path": "beleske/s036.tex",
+          "anchor": "% element: 04-s036:e02"
+        },
+        "change": "Početak, rezultat i bit znaka vidljivi; dva puna međukoraka u beleškama. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s036:e03",
+        "slide": {
+          "path": "slajdovi/s036_tezina_bita_znaka.tex",
+          "anchor": "% element: 04-s036:e03"
+        },
+        "notes": {
+          "path": "beleske/s036.tex",
+          "anchor": "% element: 04-s036:e03"
+        },
+        "change": "Početak, rezultat i bit znaka vidljivi; dva puna međukoraka u beleškama. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s036:e04",
+        "slide": {
+          "path": "slajdovi/s036_tezina_bita_znaka.tex",
+          "anchor": "% element: 04-s036:e04"
+        },
+        "notes": {
+          "path": "beleske/s036.tex",
+          "anchor": "% element: 04-s036:e04"
+        },
+        "change": "Početak, rezultat i bit znaka vidljivi; dva puna međukoraka u beleškama. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s036:e05",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s036.tex",
+          "anchor": "% element: 04-s036:e05"
+        },
+        "change": "Početak, rezultat i bit znaka vidljivi; dva puna međukoraka u beleškama. Detalj je prenet u beleške istog ID-ja. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s036:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s036.tex",
+          "anchor": "% element: 04-s036:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s037": [
+      {
+        "element": "04-s037:e01",
+        "slide": {
+          "path": "slajdovi/s037_drugi_komplement_i_ofset.tex",
+          "anchor": "% element: 04-s037:e01"
+        },
+        "notes": {
+          "path": "beleske/s037.tex",
+          "anchor": "% element: 04-s037:e01"
+        },
+        "change": "Centrirana tabela svih kodova sa vizuelnom pregradom kod nule. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s037:e02",
+        "slide": {
+          "path": "slajdovi/s037_drugi_komplement_i_ofset.tex",
+          "anchor": "% element: 04-s037:e02"
+        },
+        "notes": null,
+        "change": "Centrirana tabela svih kodova sa vizuelnom pregradom kod nule.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s037:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s037.tex",
+          "anchor": "% element: 04-s037:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s038": [
+      {
+        "element": "04-s038:e01",
+        "slide": {
+          "path": "slajdovi/s038_negativna_vrednost_sa_fiksnom_tackom.tex",
+          "anchor": "% element: 04-s038:e01"
+        },
+        "notes": null,
+        "change": "Pozitivni i negativni primer u jednakim kolonama; sve težine ostaju vidljive.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s038:e02",
+        "slide": {
+          "path": "slajdovi/s038_negativna_vrednost_sa_fiksnom_tackom.tex",
+          "anchor": "% element: 04-s038:e02"
+        },
+        "notes": {
+          "path": "beleske/s038.tex",
+          "anchor": "% element: 04-s038:e02"
+        },
+        "change": "Pozitivni i negativni primer u jednakim kolonama; sve težine ostaju vidljive. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s038:e03",
+        "slide": {
+          "path": "slajdovi/s038_negativna_vrednost_sa_fiksnom_tackom.tex",
+          "anchor": "% element: 04-s038:e03"
+        },
+        "notes": null,
+        "change": "Pozitivni i negativni primer u jednakim kolonama; sve težine ostaju vidljive.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s038:e04",
+        "slide": {
+          "path": "slajdovi/s038_negativna_vrednost_sa_fiksnom_tackom.tex",
+          "anchor": "% element: 04-s038:e04"
+        },
+        "notes": null,
+        "change": "Pozitivni i negativni primer u jednakim kolonama; sve težine ostaju vidljive.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s038:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s038.tex",
+          "anchor": "% element: 04-s038:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ],
+    "04-s039": [
+      {
+        "element": "04-s039:e01",
+        "slide": {
+          "path": "slajdovi/s039_pokretna_tacka.tex",
+          "anchor": "% element: 04-s039:e01"
+        },
+        "notes": null,
+        "change": "Mantisa i eksponent u dve kolone; osnovna formula i zaključak sačuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s039:e02",
+        "slide": {
+          "path": "slajdovi/s039_pokretna_tacka.tex",
+          "anchor": "% element: 04-s039:e02"
+        },
+        "notes": null,
+        "change": "Mantisa i eksponent u dve kolone; osnovna formula i zaključak sačuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s039:e03",
+        "slide": {
+          "path": "slajdovi/s039_pokretna_tacka.tex",
+          "anchor": "% element: 04-s039:e03"
+        },
+        "notes": null,
+        "change": "Mantisa i eksponent u dve kolone; osnovna formula i zaključak sačuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s039:e04",
+        "slide": {
+          "path": "slajdovi/s039_pokretna_tacka.tex",
+          "anchor": "% element: 04-s039:e04"
+        },
+        "notes": null,
+        "change": "Mantisa i eksponent u dve kolone; osnovna formula i zaključak sačuvani.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s039:e05",
+        "slide": {
+          "path": "slajdovi/s039_pokretna_tacka.tex",
+          "anchor": "% element: 04-s039:e05"
+        },
+        "notes": {
+          "path": "beleske/s039.tex",
+          "anchor": "% element: 04-s039:e05"
+        },
+        "change": "Mantisa i eksponent u dve kolone; osnovna formula i zaključak sačuvani. Beleške prepisane kao nastavni tekst prema novom koraku 6, bez uredničkog prikaza.",
+        "status": "provereno"
+      },
+      {
+        "element": "04-s039:d01",
+        "slide": null,
+        "notes": {
+          "path": "beleske/s039.tex",
+          "anchor": "% element: 04-s039:d01"
+        },
+        "change": "Nastavno razjašnjenje i proverljivi međukoraci, bez uredničkih komentara.",
+        "status": "provereno"
+      }
+    ]
+  }
+}

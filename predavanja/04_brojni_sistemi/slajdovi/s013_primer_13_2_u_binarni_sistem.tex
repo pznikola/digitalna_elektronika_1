@@ -1,25 +1,26 @@
 \slajdid{04-s013}
-\begin{frame}[label=04-s013]
-\gusttekst\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.02}
-\begin{columns}[t,onlytextwidth]
-\column{.47\textwidth}
-PRIMER:\quad $13.2_{10}={?}_2$\par\vspace{2mm}
-CELOBROJNA VREDNOST\par
-\begin{tikzpicture}
+\begin{frame}[label=04-s013]{Primer: decimalni broj u binarnom sistemu}
+% element: 04-s013:e01 — Tabelarni postupak 13:2 sa svih pet redova i naglašenim poslednjim nenultim korakom
+% element: 04-s013:e02 — Tabelarni postupak 0.2×2 sa svih devet koraka i oznakom nastavka
+% element: 04-s013:e03 — Obe strelice čitanja cifara i rezultat 13.2=1101.001100110…
+% element: 04-s013:e04 — Tačniji konačan zapis, dogovor broja cifara i tačni primeri 0.5, 0.25, 0.75
+\begin{columns}[T,onlytextwidth]
+\column{.45\textwidth}\centering
+\NaslovBloka{Celobrojna vrednost}
+{\fontsize{9}{10}\selectfont\renewcommand{\arraystretch}{.85}\setlength{\tabcolsep}{5pt}
+\begin{tikzpicture}[font=\fontsize{9}{10}\selectfont]
 \node[inner sep=0] (t) {\input{tabele/s013_celobrojna_vrednost.tex}};
-\draw[DEplava,->] ([xshift=3mm]t.south east)--([xshift=3mm,yshift=-5mm]t.north east);
-\node[anchor=north east] at ([xshift=7mm,yshift=-1mm]t.south east) {1101};
-\end{tikzpicture}
-\column{.50\textwidth}
-RAZLOMLJENA VREDNOST\par
-\begin{tikzpicture}
+\draw[DEcrvena,line width=.8pt,-{Latex[length=2mm]}] ([xshift=5mm,yshift=2mm]t.south east)--([xshift=5mm,yshift=-8mm]t.north east);
+\end{tikzpicture}\par}
+\column{.51\textwidth}\centering
+\NaslovBloka{Razlomljena vrednost}
+{\fontsize{9}{10}\selectfont\renewcommand{\arraystretch}{.85}\setlength{\tabcolsep}{5pt}
+\begin{tikzpicture}[font=\fontsize{9}{10}\selectfont]
 \node[inner sep=0] (t) {\input{tabele/s013_razlomljena_vrednost.tex}};
-\draw[DEplava,->] ([xshift=3mm]t.north east)--([xshift=3mm]t.south east);
-\node[anchor=north east] at ([xshift=6mm,yshift=-1mm]t.south east) {.001100110\ldots.};
-\end{tikzpicture}
+\draw[DEcrvena,line width=.8pt,-{Latex[length=2mm]}] ([xshift=5mm,yshift=-8mm]t.north east)--([xshift=5mm,yshift=2mm]t.south east);
+\end{tikzpicture}\par}
 \end{columns}
-\[13.2_{10}=1101.001100110\ldots_2\]
-\alert{Što veći broj cifara u razlomljenom delu imaćemo tačnije „rezultat“ prelaska.\\
-Apsolutno tačan nikada. Moramo se dogovoriti koji broj cifara uzimamo.\\
-U ovom primeru. Za neke druge primere mogli bi da dobijemo i tačan rezultat prelaska. Na primer 0.5 ili 0.25 ili 0.75 ili \ldots.}
+\[\alert{13.2_{10}=1101.001100110\ldots_2}\]
+\Oznaka{Više cifara daje tačniji rezultat; konačan zapis ovde nije tačan. Dogovaramo broj cifara.}
+\Oznaka{Drugi primeri mogu biti tačni: $0.5$, $0.25$, $0.75$, \ldots}
 \end{frame}

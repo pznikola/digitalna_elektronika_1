@@ -1,15 +1,17 @@
 \slajdid{09_3-s044}
-\begin{frame}[label=09_3-s044]
-u opštem slučaju za bilo koju kritičnu putanju
-\[D=\sum_i(LE_iFO_i+P_i)\]
-gde je:
-\[LE_i=\frac{\tau_i}{\tau_{inv}}\text{ - logical effort}\]
-\[FO_i=\frac{C_{g,i+1}}{C_{g,i}}\text{ - fan out}\]
-$P_i$ parazitna komponenta kola $P_i=LE_i\gamma_i$
-\par\bigskip
-Na osnovu prethodnih rezultata za
-\[LE_{inv}=1,\ P_{inv}=\frac12\text{ a}\]
-za dvoulazna kola $LE_{NAND}=\frac43$, $P_{NAND}=1$, $LE_{NOR}=\frac53$, $P_{NOR}=1.5$.
-\par\medskip
-I to je takođe razlog što se NI logička kola „rađe“ koriste $LE_{NAND}<LE_{NOR}$.
+\begin{frame}[label=09_3-s044]{Opšti izraz logičkog truda}
+% element: 09_3-s044:e01
+% element: 09_3-s044:e02
+% element: 09_3-s044:e03
+% element: 09_3-s044:e04
+\[\alert{D=\sum_i(LE_iFO_i+P_i)}\]
+\[LE_i=\frac{\tau_i}{\tau_{inv}},\qquad
+FO_i=\frac{C_{g,i+1}}{C_{g,i}},\qquad P_i=LE_i\gamma_i\]
+\begin{center}\begin{tabular}{lcc}\toprule
+Kolo & Logički trud $LE$ & Parazitna komponenta $P$\\\midrule
+Invertor & $1$ & $1/2$\\
+Dvoulazno NI & $4/3$ & $1$\\
+Dvoulazno NILI & $5/3$ & $1.5$\\\bottomrule
+\end{tabular}\end{center}
+\Rezultat{$LE_{NAND}<LE_{NOR}$ — dodatni razlog za češću upotrebu NI kola.}
 \end{frame}

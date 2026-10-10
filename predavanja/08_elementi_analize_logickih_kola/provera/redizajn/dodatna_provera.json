@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-03",
+  "scope": "Dorada po ponovljenom nalogu, bez primene P01–P12",
+  "notes_examples": [
+    {
+      "id": "08-s039:e04",
+      "input_ns": {
+        "t_fout": 5,
+        "t_r": 3
+      },
+      "intrinsic_ns": 4,
+      "reverse_substitution": "4²+3²=5²",
+      "result": "prolazi"
+    },
+    {
+      "id": "08-s014:e03",
+      "test": "Identitet zbira margina na tri validna poretka nivoa",
+      "result": "prolazi"
+    }
+  ]
+}

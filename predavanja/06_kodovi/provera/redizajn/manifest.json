@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "phase": "redizajn",
+  "lecture": "06",
+  "selected_style": "B",
+  "theme": "etf-v1",
+  "theme_manifest_sha256": "87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41",
+  "source_sha256": "2f25c024f135c19deef55c9ebae2f7995d3e8c87e68945b4e3073a96d3210148",
+  "slide_ids": [
+    "06-s001",
+    "06-s002",
+    "06-s003",
+    "06-s004",
+    "06-s005",
+    "06-s006",
+    "06-s007",
+    "06-s008",
+    "06-s009",
+    "06-s010",
+    "06-s011",
+    "06-s012",
+    "06-s013",
+    "06-s014",
+    "06-s015",
+    "06-s016",
+    "06-s017",
+    "06-s018",
+    "06-s019",
+    "06-s020",
+    "06-s021",
+    "06-s022",
+    "06-s023",
+    "06-s024",
+    "06-s025",
+    "06-s026",
+    "06-s027",
+    "06-s028",
+    "06-s029",
+    "06-s030"
+  ],
+  "baseline_sha256": "9dafe0439ffd7afe5b266f953bcd46ba7cdc6aba097605344e245c82336c453f",
+  "created": "2026-10-02T20:41:12.364822+00:00",
+  "build_record": "provera/redizajn/izgradnja.json",
+  "notes": {
+    "06-s001": {
+      "path": "beleske/s001.tex",
+      "title": "Kodovi"
+    },
+    "06-s002": {
+      "path": "beleske/s002.tex",
+      "title": "Statusni registri i zastavice"
+    },
+    "06-s003": {
+      "path": "beleske/s003.tex",
+      "title": "ASCII i tekstualni kodovi"
+    },
+    "06-s004": {
+      "path": "beleske/s004.tex",
+      "title": "BCD kodovi"
+    },
+    "06-s005": {
+      "path": "beleske/s005.tex",
+      "title": "BCD aritmetika — sabiranje"
+    },
+    "06-s006": {
+      "path": "beleske/s006.tex",
+      "title": "BCD aritmetika — oduzimanje"
+    },
+    "06-s007": {
+      "path": "beleske/s007.tex",
+      "title": "BCD aritmetika — negativni rezultat"
+    },
+    "06-s008": {
+      "path": "beleske/s008.tex",
+      "title": "Double dabble — razvoj vrednosti"
+    },
+    "06-s009": {
+      "path": "beleske/s009.tex",
+      "title": "Double dabble — dodavanje šest"
+    },
+    "06-s010": {
+      "path": "beleske/s010.tex",
+      "title": "Double dabble — dodavanje tri"
+    },
+    "06-s011": {
+      "path": "beleske/s011.tex",
+      "title": "Shift and Add-3"
+    },
+    "06-s012": {
+      "path": "beleske/s012.tex",
+      "title": "Floating point format"
+    },
+    "06-s013": {
+      "path": "beleske/s013.tex",
+      "title": "Pokretni zarez — primeri"
+    },
+    "06-s014": {
+      "path": "beleske/s014.tex",
+      "title": "Pokretni zarez — posebne vrednosti"
+    },
+    "06-s015": {
+      "path": "beleske/s015.tex",
+      "title": "Pokretni zarez — zaokruživanje"
+    },
+    "06-s016": {
+      "path": "beleske/s016.tex",
+      "title": "Termometarski i „jedan od“ kod"
+    },
+    "06-s017": {
+      "path": "beleske/s017.tex",
+      "title": "Grejov (Gray) kod"
+    },
+    "06-s018": {
+      "path": "beleske/s018.tex",
+      "title": "Binarni kod — prelaz 8 u 7"
+    },
+    "06-s019": {
+      "path": "beleske/s019.tex",
+      "title": "Grejov kod — prelaz 8 u 7"
+    },
+    "06-s020": {
+      "path": "beleske/s020.tex",
+      "title": "Grejov kod – prelazak „u“ i „iz“"
+    },
+    "06-s021": {
+      "path": "beleske/s021.tex",
+      "title": "Grejov kod – prelazak „u“ i „iz“"
+    },
+    "06-s022": {
+      "path": "beleske/s022.tex",
+      "title": "Zaštitni kodovi — bit parnosti"
+    },
+    "06-s023": {
+      "path": "beleske/s023.tex",
+      "title": "CRC — Cyclic Redundancy Check"
+    },
+    "06-s024": {
+      "path": "beleske/s024.tex",
+      "title": "CRC — primer polinomskog deljenja"
+    },
+    "06-s025": {
+      "path": "beleske/s025.tex",
+      "title": "Kodovi"
+    },
+    "06-s026": {
+      "path": "beleske/s026.tex",
+      "title": "Hemingovo rastojanje"
+    },
+    "06-s027": {
+      "path": "beleske/s027.tex",
+      "title": "Hemingov kod — broj zaštitnih bita"
+    },
+    "06-s028": {
+      "path": "beleske/s028.tex",
+      "title": "Hemingov kod — predaja"
+    },
+    "06-s029": {
+      "path": "beleske/s029.tex",
+      "title": "Hemingov kod — prijem"
+    },
+    "06-s030": {
+      "path": "beleske/s030.tex",
+      "title": "Rastojanja specijalnih kodova"
+    }
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "phase": "redizajn",
+  "lecture": "08",
+  "selected_style": "B",
+  "theme": "etf-v1",
+  "theme_manifest_sha256": "87c94849f57da28ea52dcacdc7badf90bdd16d3d6cf5d9925d195b24b4fddc41",
+  "source_sha256": "55221ef5cb220ba6c31a345ad9b685811f7068f466ac25ef9beff941f4a349b1",
+  "slide_ids": [
+    "08-s001",
+    "08-s002",
+    "08-s003",
+    "08-s004",
+    "08-s005",
+    "08-s006",
+    "08-s007",
+    "08-s008",
+    "08-s009",
+    "08-s010",
+    "08-s011",
+    "08-s012",
+    "08-s013",
+    "08-s014",
+    "08-s015",
+    "08-s016",
+    "08-s017",
+    "08-s018",
+    "08-s019",
+    "08-s020",
+    "08-s021",
+    "08-s022",
+    "08-s023",
+    "08-s024",
+    "08-s025",
+    "08-s026",
+    "08-s027",
+    "08-s028",
+    "08-s029",
+    "08-s030",
+    "08-s031",
+    "08-s032",
+    "08-s033",
+    "08-s034",
+    "08-s035",
+    "08-s036",
+    "08-s037",
+    "08-s038",
+    "08-s039",
+    "08-s040",
+    "08-s041",
+    "08-s042",
+    "08-s043",
+    "08-s044",
+    "08-s045",
+    "08-s046",
+    "08-s047",
+    "08-s048",
+    "08-s049",
+    "08-s050",
+    "08-s051",
+    "08-s052",
+    "08-s053",
+    "08-s054",
+    "08-s055",
+    "08-s056",
+    "08-s057",
+    "08-s058",
+    "08-s059",
+    "08-s060",
+    "08-s061",
+    "08-s062",
+    "08-s063",
+    "08-s064",
+    "08-s065",
+    "08-s066",
+    "08-s067"
+  ],
+  "baseline_sha256": "724ef06c584c33a2d69b7609e9d91f5601803570d78342f163ebfcbcb547486d",
+  "created": "2026-10-02T22:36:46.137354+00:00",
+  "build_record": "provera/redizajn/izgradnja.json",
+  "notes": {
+    "08-s001": {
+      "path": "beleske/s001.tex",
+      "title": "Elementi analize logičkih kola"
+    },
+    "08-s002": {
+      "path": "beleske/s002.tex",
+      "title": "Apstraktna logička kola"
+    },
+    "08-s003": {
+      "path": "beleske/s003.tex",
+      "title": "Realna logička kola"
+    },
+    "08-s004": {
+      "path": "beleske/s004.tex",
+      "title": "Statička i dinamička analiza"
+    },
+    "08-s005": {
+      "path": "beleske/s005.tex",
+      "title": "Napajanje"
+    },
+    "08-s006": {
+      "path": "beleske/s006.tex",
+      "title": "Masa"
+    },
+    "08-s007": {
+      "path": "beleske/s007.tex",
+      "title": "Kondenzatori za blokadu"
+    },
+    "08-s008": {
+      "path": "beleske/s008.tex",
+      "title": "Lokalno rasprezanje napajanja"
+    },
+    "08-s009": {
+      "path": "beleske/s009.tex",
+      "title": "Model realnog logičkog kola"
+    },
+    "08-s010": {
+      "path": "beleske/s010.tex",
+      "title": "Statičke karakteristike"
+    },
+    "08-s011": {
+      "path": "beleske/s011.tex",
+      "title": "Raspodela naponskih nivoa"
+    },
+    "08-s012": {
+      "path": "beleske/s012.tex",
+      "title": "Granični ulazni naponi"
+    },
+    "08-s013": {
+      "path": "beleske/s013.tex",
+      "title": "Održanje naponskih nivoa"
+    },
+    "08-s014": {
+      "path": "beleske/s014.tex",
+      "title": "Robusnost"
+    },
+    "08-s015": {
+      "path": "beleske/s015.tex",
+      "title": "Karakteristika prenosa"
+    },
+    "08-s016": {
+      "path": "beleske/s016.tex",
+      "title": "Invertujući i neinvertujući prenos"
+    },
+    "08-s017": {
+      "path": "beleske/s017.tex",
+      "title": "Tri oblasti karakteristike"
+    },
+    "08-s018": {
+      "path": "beleske/s018.tex",
+      "title": "Nelinearne karakteristike"
+    },
+    "08-s019": {
+      "path": "beleske/s019.tex",
+      "title": "Karakteristične tačke"
+    },
+    "08-s020": {
+      "path": "beleske/s020.tex",
+      "title": "Tačka M"
+    },
+    "08-s021": {
+      "path": "beleske/s021.tex",
+      "title": "Regenerabilnost"
+    },
+    "08-s022": {
+      "path": "beleske/s022.tex",
+      "title": "Margine za jednostruki izvor šuma"
+    },
+    "08-s023": {
+      "path": "beleske/s023.tex",
+      "title": "Linearizacija karakteristike"
+    },
+    "08-s024": {
+      "path": "beleske/s024.tex",
+      "title": "Margine za višestruke izvore šuma"
+    },
+    "08-s025": {
+      "path": "beleske/s025.tex",
+      "title": "Pogrešno tumačenje regeneracije"
+    },
+    "08-s026": {
+      "path": "beleske/s026.tex",
+      "title": "Strujni kapacitet"
+    },
+    "08-s027": {
+      "path": "beleske/s027.tex",
+      "title": "Ulazne i izlazne struje"
+    },
+    "08-s028": {
+      "path": "beleske/s028.tex",
+      "title": "Kataloške ulazne struje"
+    },
+    "08-s029": {
+      "path": "beleske/s029.tex",
+      "title": "Opterećenje izlaza"
+    },
+    "08-s030": {
+      "path": "beleske/s030.tex",
+      "title": "Ograničenje izlaznih struja"
+    },
+    "08-s031": {
+      "path": "beleske/s031.tex",
+      "title": "Kataloški izlazni naponi"
+    },
+    "08-s032": {
+      "path": "beleske/s032.tex",
+      "title": "Faktor grananja"
+    },
+    "08-s033": {
+      "path": "beleske/s033.tex",
+      "title": "Logički trud"
+    },
+    "08-s034": {
+      "path": "beleske/s034.tex",
+      "title": "Idealno logičko kolo"
+    },
+    "08-s035": {
+      "path": "beleske/s035.tex",
+      "title": "Vreme uspona i pada"
+    },
+    "08-s036": {
+      "path": "beleske/s036.tex",
+      "title": "Period i kašnjenje"
+    },
+    "08-s037": {
+      "path": "beleske/s037.tex",
+      "title": "Srednje i maksimalno kašnjenje"
+    },
+    "08-s038": {
+      "path": "beleske/s038.tex",
+      "title": "Uticaj ulazne ivice na kašnjenje"
+    },
+    "08-s039": {
+      "path": "beleske/s039.tex",
+      "title": "Uticaj ulazne ivice na izlaznu"
+    },
+    "08-s040": {
+      "path": "beleske/s040.tex",
+      "title": "Idealna pobuda"
+    },
+    "08-s041": {
+      "path": "beleske/s041.tex",
+      "title": "RC kolo"
+    },
+    "08-s042": {
+      "path": "beleske/s042.tex",
+      "title": "Kontinuitet napona kondenzatora"
+    },
+    "08-s043": {
+      "path": "beleske/s043.tex",
+      "title": "Stacionarno stanje RC kola"
+    },
+    "08-s044": {
+      "path": "beleske/s044.tex",
+      "title": "Jednačina RC kola"
+    },
+    "08-s045": {
+      "path": "beleske/s045.tex",
+      "title": "Vremenska konstanta"
+    },
+    "08-s046": {
+      "path": "beleske/s046.tex",
+      "title": "Tevenenov ekvivalent"
+    },
+    "08-s047": {
+      "path": "beleske/s047.tex",
+      "title": "Integracione konstante"
+    },
+    "08-s048": {
+      "path": "beleske/s048.tex",
+      "title": "RC odziv na skok"
+    },
+    "08-s049": {
+      "path": "beleske/s049.tex",
+      "title": "Oblik RC odziva"
+    },
+    "08-s050": {
+      "path": "beleske/s050.tex",
+      "title": "Trajanje RC prelaza"
+    },
+    "08-s051": {
+      "path": "beleske/s051.tex",
+      "title": "Opšte rešenje i početni uslov"
+    },
+    "08-s052": {
+      "path": "beleske/s052.tex",
+      "title": "Opšte rešenje i krajnji uslov"
+    },
+    "08-s053": {
+      "path": "beleske/s053.tex",
+      "title": "Postupak rešavanja RC kola"
+    },
+    "08-s054": {
+      "path": "beleske/s054.tex",
+      "title": "Integrator"
+    },
+    "08-s055": {
+      "path": "beleske/s055.tex",
+      "title": "Diferencijator: početni uslov"
+    },
+    "08-s056": {
+      "path": "beleske/s056.tex",
+      "title": "Diferencijator: odziv"
+    },
+    "08-s057": {
+      "path": "beleske/s057.tex",
+      "title": "Kapacitivno opterećenje"
+    },
+    "08-s058": {
+      "path": "beleske/s058.tex",
+      "title": "Pogrešan proračun impulsa"
+    },
+    "08-s059": {
+      "path": "beleske/s059.tex",
+      "title": "Superpozicija impulsa"
+    },
+    "08-s060": {
+      "path": "beleske/s060.tex",
+      "title": "Promena početnog trenutka"
+    },
+    "08-s061": {
+      "path": "beleske/s061.tex",
+      "title": "Odziv po intervalima"
+    },
+    "08-s062": {
+      "path": "beleske/s062.tex",
+      "title": "Različita trajanja impulsa"
+    },
+    "08-s063": {
+      "path": "beleske/s063.tex",
+      "title": "Diferencijator: impulsni odzivi"
+    },
+    "08-s064": {
+      "path": "beleske/s064.tex",
+      "title": "Induktivnost"
+    },
+    "08-s065": {
+      "path": "beleske/s065.tex",
+      "title": "Postupak rešavanja RL kola"
+    },
+    "08-s066": {
+      "path": "beleske/s066.tex",
+      "title": "RL integrator"
+    },
+    "08-s067": {
+      "path": "beleske/s067.tex",
+      "title": "Kompenzovani razdelnik"
+    }
+  }
+}

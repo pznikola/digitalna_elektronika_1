@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-02",
+  "purpose": "Samo nastavno objašnjenje; poreklo i stručna pitanja van PDF-a",
+  "slides": {
+    "06-s001": {
+      "path": "beleske/s001.tex",
+      "original_details": [],
+      "supplement_anchor": null,
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    },
+    "06-s002": {
+      "path": "beleske/s002.tex",
+      "original_details": [
+        {
+          "element": "06-s002:e04",
+          "description": "Duža programska napomena; kratka ključna poruka ostaje vidljiva"
+        }
+      ],
+      "supplement_anchor": "% element: 06-s002:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    },
+    "06-s003": {
+      "path": "beleske/s003.tex",
+      "original_details": [
+        {
+          "element": "06-s003:e01",
+          "description": "Pun ISO naziv i kontekst znakova u beleškama; ASCII/ANSI ostaju i na slajdu"
+        }
+      ],
+      "supplement_anchor": "% element: 06-s003:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    },
+    "06-s004": {
+      "path": "beleske/s004.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s004:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    },
+    "06-s005": {
+      "path": "beleske/s005.tex",
+      "original_details": [
+        {
+          "element": "06-s005:e01",
+          "description": "Potpuni postupak izdvajanja cifara preko količnika i ostatka"
+        }
+      ],
+      "supplement_anchor": "% element: 06-s005:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    },
+    "06-s006": {
+      "path": "beleske/s006.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s006:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    },
+    "06-s007": {
+      "path": "beleske/s007.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s007:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": "otvorena_pitanja.md"
+    },
+    "06-s008": {
+      "path": "beleske/s008.tex",
+      "original_details": [
+        {
+          "element": "06-s008:e02",
+          "description": "Rečima opisani koraci uz vidljive prefikse i brojna računanja"
+        }
+      ],
+      "supplement_anchor": "% element: 06-s008:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    },
+    "06-s009": {
+      "path": "beleske/s009.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s009:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    },
+    "06-s010": {
+      "path": "beleske/s010.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s010:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    },
+    "06-s011": {
+      "path": "beleske/s011.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s011:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    },
+    "06-s012": {
+      "path": "beleske/s012.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s012:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    },
+    "06-s013": {
+      "path": "beleske/s013.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s013:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": "otvorena_pitanja.md"
+    },
+    "06-s014": {
+      "path": "beleske/s014.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s014:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": "otvorena_pitanja.md"
+    },
+    "06-s015": {
+      "path": "beleske/s015.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s015:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    },
+    "06-s016": {
+      "path": "beleske/s016.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s016:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": "otvorena_pitanja.md"
+    },
+    "06-s017": {
+      "path": "beleske/s017.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s017:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    },
+    "06-s018": {
+      "path": "beleske/s018.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s018:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    },
+    "06-s019": {
+      "path": "beleske/s019.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s019:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": "otvorena_pitanja.md"
+    },
+    "06-s020": {
+      "path": "beleske/s020.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s020:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    },
+    "06-s021": {
+      "path": "beleske/s021.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s021:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": "otvorena_pitanja.md"
+    },
+    "06-s022": {
+      "path": "beleske/s022.tex",
+      "original_details": [
+        {
+          "element": "06-s022:e01",
+          "description": "Obrazloženje fizičkih uzroka i svrhe redundanse uz vidljivu poruku"
+        }
+      ],
+      "supplement_anchor": "% element: 06-s022:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    },
+    "06-s023": {
+      "path": "beleske/s023.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s023:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    },
+    "06-s024": {
+      "path": "beleske/s024.tex",
+      "original_details": [
+        {
+          "element": "06-s024:e04",
+          "description": "Sva tri razvijena proizvoda i detaljno poništavanje u beleškama; provera i rezultat vidljivi"
+        }
+      ],
+      "supplement_anchor": "% element: 06-s024:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    },
+    "06-s025": {
+      "path": "beleske/s025.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s025:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    },
+    "06-s026": {
+      "path": "beleske/s026.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s026:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    },
+    "06-s027": {
+      "path": "beleske/s027.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s027:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    },
+    "06-s028": {
+      "path": "beleske/s028.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s028:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": "otvorena_pitanja.md"
+    },
+    "06-s029": {
+      "path": "beleske/s029.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s029:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": "otvorena_pitanja.md"
+    },
+    "06-s030": {
+      "path": "beleske/s030.tex",
+      "original_details": [],
+      "supplement_anchor": "% element: 06-s030:d01",
+      "proof": "kodovi/provera_beleski.py; sadržinski pregled originala i prikaza",
+      "expert_questions": null
+    }
+  }
+}

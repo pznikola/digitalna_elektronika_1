@@ -1,10 +1,22 @@
 \slajdid{09_3-s071}
-\begin{frame}[label=09_3-s071]
-\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}Ovaj problem razrešava domino logika, koje je po strukturi \textcolor{DEcrvena}{dinamička logika sa dodatim invertorom na izlazu}.
-\begin{columns}[c,onlytextwidth]\column{.48\textwidth}\centering\input{slike/tikz/s071_domino_mreza.tex}\column{.5\textwidth}\centering\input{slike/tikz/s071_clk_izlaz.tex}\end{columns}\medskip
-Invertor obezbeđuje da se na kraju pripremne faze, odnosno na početku izračunavanja, na gejtovima svih tranzistora u narednom stepenu nalaze logičke nule i time se sprečava njihov neželjen rad.
-\par\medskip
-U toku faze izračunavanja ako je potrebno uključiće se odgovarajući tranzistori.
-\par\medskip
-Mana je što sve funkcije koje realizujemo moraju biti invertovane.
+\begin{frame}[label=09_3-s071]{Domino logika}
+% element: 09_3-s071:e01
+% element: 09_3-s071:e02
+% element: 09_3-s071:e03
+% element: 09_3-s071:e04
+% element: 09_3-s071:e05
+Domino: \alert{dinamička logika sa dodatim invertorom na izlazu}.
+\begin{columns}[c,onlytextwidth]\column{.47\textwidth}
+\begin{center}
+\input{slike/tikz/s071_domino_mreza.tex}
+\end{center}
+\column{.49\textwidth}
+\begin{center}
+\input{slike/tikz/s071_clk_izlaz.tex}
+\end{center}
+\end{columns}\begin{itemize}
+\item Posle pripreme gejtovi narednog stepena imaju nulu → sprečeno neželjeno provođenje.
+\item Tokom izračunavanja uključuju se potrebni tranzistori.
+\item Mana: sve realizovane funkcije moraju biti invertovane.
+\end{itemize}
 \end{frame}

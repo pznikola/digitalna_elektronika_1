@@ -1,0 +1,8 @@
+\BeleskeID{02-s038}
+% element: 02-s038:e01
+% element: 02-s038:e02
+% element: 02-s038:d01
+
+Na istoj poziciji u četiri karte ostaju iste vrednosti \(D,C,B,A\); razlikuju se samo \(F,E\). Susedni parovi slojeva su 00–01, 00–10, 01–11 i 10–11. Slojevi 00 i 11, kao i 01 i 10, razlikuju se u dva bita i nisu neposredno susedni.
+
+Pri istim nižim bitovima promena \(E\) menja indeks za 16, a promena \(F\) za 32. Tako razumemo parove 0–32 i 16–48, ali i parove 0–16 i 32–48. Zamišljeno preklapanje odgovarajućih karata daje susedstvo u 4D prikazu. Da bismo grupisali polja kroz više karata, proveravamo ovaj binarni odnos, a ne samo položaj karata na stranici. Ovde \(F\) u oznaci sloja predstavlja ulaznu promenljivu, dok vrednosti izlazne funkcije upisujemo u polja.

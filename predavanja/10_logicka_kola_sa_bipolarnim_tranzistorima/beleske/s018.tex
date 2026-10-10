@@ -1,0 +1,10 @@
+% element: 10-s018:e03
+\BeleskeID{10-s018}
+Polazimo od aktivne karakteristike
+\[V_O=V_{CC}-\beta_F\frac{R_C}{R_B}(V_I-V_{BE}).\]
+U pragu prebacivanja ulaz i izlaz imaju isti napon, pa zamenjujemo oba sa $V_M$ i sakupljamo članove uz $V_M$. Konačni izraz može se zapisati u još dva ekvivalentna oblika:
+\[\begin{aligned}
+V_M&=V_{BE}\frac{\frac{V_{CC}}{V_{BE}}+\beta_F\frac{R_C}{R_B}}{1+\beta_F\frac{R_C}{R_B}}\\
+&=V_{BE}\left(\frac{\frac{V_{CC}}{V_{BE}}-1}{1+\beta_F\frac{R_C}{R_B}}+1\right).
+\end{aligned}\]
+Drugi oblik pokazuje da se pri velikom pojačanju prag približava $V_{BE}$. Jednostruke margine određuju se u odnosu na taj prag, zbog čega je margina logičke nule kod RTL kola mala.

@@ -1,0 +1,12 @@
+\BeleskeID{09_1-s033}
+% element: 09_1-s033:n01
+Otpornost se usrednjava po naponu između tačaka 1 i 2. Puna zavisnost je
+\[\begin{aligned}R_{ON}(V)&=\frac V{I_{Dn}(V)}\\&=\frac V{\frac{k_n}{2}\frac1{1+\frac{(V_{GS}-V_{Tn})}{L_nE_{Cn}}}(V_{GS}-V_{Tn})^2(1+\lambda_nV)}\end{aligned}\]
+Za skraćivanje se koristi
+\[I_{Dnsat}=\frac{k_n}{2}\frac1{1+\frac{(V_{GS}-V_{Tn})}{L_nE_{Cn}}}(V_{GS}-V_{Tn})^2\]
+Zajednički faktor iznosi se ispred integrala:
+\[R_n=-\frac2{I_{Dnsat}V_{DD}}\int_{V_{DD}}^{\frac{V_{DD}}2}\frac V{(1+\lambda_nV)}dV\]
+Za malu modulaciju recipročni imenilac zamenjuje se linearnom aproksimacijom. Isti korak, ponovljen pri izvođenju, glasi
+\[R_n\approx-\frac2{I_{Dnsat}V_{DD}}\int_{V_{DD}}^{\frac{V_{DD}}2}V(1-\lambda_nV)dV\]
+Integracijom nastaje faktor $7/9$, umesto faktora $5/6$ dobijenog prosekom dve krajnje tačke. Izrazi su veoma slični i oba su aproksimacije, pa se može koristiti jedan ili drugi; integralni pristup je tačniji u okviru prikazanog usrednjavanja.
+

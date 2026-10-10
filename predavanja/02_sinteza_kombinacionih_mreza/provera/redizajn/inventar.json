@@ -757,6 +757,32 @@
         }
       ]
     },
+    "02-s021-rtl01": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s021-rtl01:d01",
+          "description": "Potpun izvršivi SystemVerilog opis iste šeme, sa stvarnim brojevima linija levo i nastavnim objašnjenjem desno.",
+          "source": "Korisnikov nalog 2026-10-09; nastavni SV primer uz 02-s021",
+          "origin": "dopuna",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s021-rtl01:d02",
+          "description": "Lokacije automatskog testbench-a i studentske pobude bez provera.",
+          "source": "Korisnikov nalog 2026-10-09; nastavni SV primer uz 02-s021",
+          "origin": "dopuna",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s021-rtl01:d04",
+          "description": "Nastavna razrada čitanja koda i rada sa pobudama.",
+          "source": "Korisnikov nalog 2026-10-09; nastavni SV primer uz 02-s021",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
     "02-s022": {
       "confirmed": true,
       "elements": [
@@ -778,6 +804,32 @@
           "id": "02-s022:d01",
           "description": "Provera nultih i jediničnih redova mreže ILI–I.",
           "source": "Objašnjenje uz isti slajd; algebra, čitanje postojeće šeme ili tabele, prema evidencija_beleski.json.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "02-s022-rtl01": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s022-rtl01:d01",
+          "description": "Potpun izvršivi SystemVerilog opis iste šeme, sa stvarnim brojevima linija levo i nastavnim objašnjenjem desno.",
+          "source": "Korisnikov nalog 2026-10-09; nastavni SV primer uz 02-s022",
+          "origin": "dopuna",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s022-rtl01:d02",
+          "description": "Lokacije automatskog testbench-a i studentske pobude bez provera.",
+          "source": "Korisnikov nalog 2026-10-09; nastavni SV primer uz 02-s022",
+          "origin": "dopuna",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s022-rtl01:d04",
+          "description": "Nastavna razrada čitanja koda i rada sa pobudama.",
+          "source": "Korisnikov nalog 2026-10-09; nastavni SV primer uz 02-s022",
           "origin": "dopuna",
           "must_remain_visible": false
         }
@@ -1839,6 +1891,39 @@
           "source": "Objašnjenje uz isti slajd; algebra, čitanje postojeće šeme ili tabele, prema evidencija_beleski.json.",
           "origin": "dopuna",
           "must_remain_visible": false
+        }
+      ]
+    },
+    "02-s051-rtl01": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "02-s051-rtl01:d01",
+          "description": "Potpun izvršivi SystemVerilog opis iste šeme, sa stvarnim brojevima linija levo i nastavnim objašnjenjem desno.",
+          "source": "Korisnikov nalog 2026-10-09; nastavni SV primer uz 02-s051",
+          "origin": "dopuna",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s051-rtl01:d02",
+          "description": "Lokacije automatskog testbench-a i studentske pobude bez provera.",
+          "source": "Korisnikov nalog 2026-10-09; nastavni SV primer uz 02-s051",
+          "origin": "dopuna",
+          "must_remain_visible": true
+        },
+        {
+          "id": "02-s051-rtl01:d04",
+          "description": "Nastavna razrada čitanja koda i rada sa pobudama.",
+          "source": "Korisnikov nalog 2026-10-09; nastavni SV primer uz 02-s051",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        },
+        {
+          "id": "02-s051-rtl01:d03",
+          "description": "Napomena da parametar T i assign #(T) služe simulacionom modelu; samo invertor kasni.",
+          "source": "Korisnikov nalog 2026-10-09; nastavni SV primer uz 02-s051",
+          "origin": "dopuna",
+          "must_remain_visible": true
         }
       ]
     },

@@ -1,0 +1,24 @@
+% Original: PDF strana 26, gornji slajd.
+\slajdid{02-s051}
+\begin{frame}[label=02-s051]{Statički hazard: izlaz treba da ostane 1}
+\setlength{\parskip}{0pt}
+% element: 02-s051:e01
+Radi uočavanja pojave pretpostavljamo da su sva kola idealno brza, osim invertora, čije je kašnjenje \(t_p\).
+\par\vspace{2mm}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.52\textwidth}
+% element: 02-s051:e02
+{\centering\input{slike/tikz/s050_mreza_sa_hazardom.tex}\par}
+\par\vspace{2mm}
+Početno stanje: \(C=B=A=1\), pa je \(F=C\bar B+BA=1\).
+\par\vspace{1mm}
+Menja se samo \(B:1\to0\). Konačno stanje: \(C=A=1\), \(B=0\), pa je opet \(F=1\).
+\par\vspace{1mm}
+Izlaz \textbf{treba da ostane 1}, \alert{\textbf{ali}} tokom prelaza javlja se \alert{\textbf{lažna nula}}.
+\end{column}
+\begin{column}{.43\textwidth}\centering
+% element: 02-s051:e03
+\input{slike/tikz/s051_vremenski_dijagram.tex}
+\end{column}
+\end{columns}
+\end{frame}

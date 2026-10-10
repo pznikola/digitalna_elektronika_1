@@ -1,0 +1,6 @@
+make: Entering directory '/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja'
+python3 _alati/uporedni_pregled.py --lecture "06_kodovi"
+PDF redizajna: /home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/06_kodovi/build/06_kodovi.pdf
+PDF beležaka: /home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/06_kodovi/build/06_kodovi_beleske.pdf
+Pregled redizajna: /home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/06_kodovi/build/redizajn/pregled/index.html
+make: Leaving directory '/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja'

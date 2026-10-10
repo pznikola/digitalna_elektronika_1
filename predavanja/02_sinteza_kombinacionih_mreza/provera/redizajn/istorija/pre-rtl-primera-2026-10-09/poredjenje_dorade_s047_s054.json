@@ -1,0 +1,1259 @@
+{
+  "date": "2026-10-05",
+  "baseline": "istorija/pre-dorade-s047-s048-2026-10-05/izvori-i-evidencija.tar.gz",
+  "reviewed_ids": [
+    "02-s047",
+    "02-s048",
+    "02-s048b",
+    "02-s049",
+    "02-s049b",
+    "02-s050",
+    "02-s051",
+    "02-s053",
+    "02-s054"
+  ],
+  "unchanged": {
+    "02-s001": {
+      "previous_page": 1,
+      "current_page": 1,
+      "novi": {
+        "before_sha256": "fc3ed5792a9eff83595f954b4188265fea9fd6e4bb60a108153cfad61b46672d",
+        "after_sha256": "fc3ed5792a9eff83595f954b4188265fea9fd6e4bb60a108153cfad61b46672d",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "a4ce45d72aa75fc56c345e3a23df8c06b8913b39392dbb30e7c7265cb6bf6ba9",
+        "after_sha256": "a4ce45d72aa75fc56c345e3a23df8c06b8913b39392dbb30e7c7265cb6bf6ba9",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s002": {
+      "previous_page": 2,
+      "current_page": 2,
+      "novi": {
+        "before_sha256": "01104a4c29ddeccb2b9a92b094f3126c2d78fb2610926f867cb2635a97180f99",
+        "after_sha256": "01104a4c29ddeccb2b9a92b094f3126c2d78fb2610926f867cb2635a97180f99",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "e2a4967d9808999b2f5ef13e25782efdf704dd5c0d9716c9f20f4522feb6bfb4",
+        "after_sha256": "e2a4967d9808999b2f5ef13e25782efdf704dd5c0d9716c9f20f4522feb6bfb4",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s002b": {
+      "previous_page": 3,
+      "current_page": 3,
+      "novi": {
+        "before_sha256": "de56e9497f569ed34c0af82a5bc77ab145696b1039cb5b7e4ed4dc40f7f98a19",
+        "after_sha256": "de56e9497f569ed34c0af82a5bc77ab145696b1039cb5b7e4ed4dc40f7f98a19",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "341b4db789c67dedb21e59512fbafd3d456d2c3a6526cad199a5e1cb686d61da",
+        "after_sha256": "341b4db789c67dedb21e59512fbafd3d456d2c3a6526cad199a5e1cb686d61da",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s003": {
+      "previous_page": 4,
+      "current_page": 4,
+      "novi": {
+        "before_sha256": "568d5e5b3d4b3baf94d57516481a4b6185b751a657588ae0290402895543a64d",
+        "after_sha256": "568d5e5b3d4b3baf94d57516481a4b6185b751a657588ae0290402895543a64d",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "934b98ba597c9e9b0d5f68f99927a1687f81e9637e11ec7d2ab64f896f0e9f01",
+        "after_sha256": "934b98ba597c9e9b0d5f68f99927a1687f81e9637e11ec7d2ab64f896f0e9f01",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s004": {
+      "previous_page": 5,
+      "current_page": 5,
+      "novi": {
+        "before_sha256": "853248eeb26c328b95b983610e2565b1cf2d3bf0e2fcc6c4bf9c34f6f08a6fed",
+        "after_sha256": "853248eeb26c328b95b983610e2565b1cf2d3bf0e2fcc6c4bf9c34f6f08a6fed",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "f2305ca541e11b640f57a9e0f9e22715ef8515da393cac4d13cd83b01ba2d7b5",
+        "after_sha256": "f2305ca541e11b640f57a9e0f9e22715ef8515da393cac4d13cd83b01ba2d7b5",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s005": {
+      "previous_page": 6,
+      "current_page": 6,
+      "novi": {
+        "before_sha256": "053bb4380606f2c3b2c333ec9982b5a027ff074e05cd058bb7aa6ef380d4cd3c",
+        "after_sha256": "053bb4380606f2c3b2c333ec9982b5a027ff074e05cd058bb7aa6ef380d4cd3c",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "c607970799b3fb1f10a5761ec7cbed51fc16a599449ae3b6815608d8ac24b782",
+        "after_sha256": "c607970799b3fb1f10a5761ec7cbed51fc16a599449ae3b6815608d8ac24b782",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s006": {
+      "previous_page": 7,
+      "current_page": 7,
+      "novi": {
+        "before_sha256": "5e75916658d01923bea1c42906d74d539844911128c9e1b937834901d455e27b",
+        "after_sha256": "5e75916658d01923bea1c42906d74d539844911128c9e1b937834901d455e27b",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "d6fc4639ff1717be64bdd97db4f33e0f1a7f2ad96359615f974c07b6712102d7",
+        "after_sha256": "d6fc4639ff1717be64bdd97db4f33e0f1a7f2ad96359615f974c07b6712102d7",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s007": {
+      "previous_page": 8,
+      "current_page": 8,
+      "novi": {
+        "before_sha256": "56e5eade1fd3098005dc4182119a8e53104c00526725a5b6fc59c88b1615aad5",
+        "after_sha256": "56e5eade1fd3098005dc4182119a8e53104c00526725a5b6fc59c88b1615aad5",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "482b6fe7152f019c6267fc620486f7c69fb40d9b370ba7a324c816d9b02dc9bc",
+        "after_sha256": "482b6fe7152f019c6267fc620486f7c69fb40d9b370ba7a324c816d9b02dc9bc",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s008": {
+      "previous_page": 9,
+      "current_page": 9,
+      "novi": {
+        "before_sha256": "04f640ac44f6a8712e2bde17d57cf5e6ba39c857efa1d10e4a03c4c07bace163",
+        "after_sha256": "04f640ac44f6a8712e2bde17d57cf5e6ba39c857efa1d10e4a03c4c07bace163",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "061b46d109fe86356ecc72538eba60678ef29e149357578f57ffc1dd2927dd69",
+        "after_sha256": "061b46d109fe86356ecc72538eba60678ef29e149357578f57ffc1dd2927dd69",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s009": {
+      "previous_page": 10,
+      "current_page": 10,
+      "novi": {
+        "before_sha256": "67772b3ad383c9eddac52b3ffe2d0a28aa2ee2d9523d140d76fd86de402dd9f2",
+        "after_sha256": "67772b3ad383c9eddac52b3ffe2d0a28aa2ee2d9523d140d76fd86de402dd9f2",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "99c886747d7462238b1d36bb302fde43f2bb67f505c27d7b0cfc3dbf0972c58b",
+        "after_sha256": "99c886747d7462238b1d36bb302fde43f2bb67f505c27d7b0cfc3dbf0972c58b",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s009b": {
+      "previous_page": 11,
+      "current_page": 11,
+      "novi": {
+        "before_sha256": "3b1aa333277b2de50cc6025debee9267dbed1f522a5df1123fb53588789db5cd",
+        "after_sha256": "3b1aa333277b2de50cc6025debee9267dbed1f522a5df1123fb53588789db5cd",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "023af1592238e94fb87bfdf295fe06443591d8922f9cc82bb257ac2bda13644d",
+        "after_sha256": "023af1592238e94fb87bfdf295fe06443591d8922f9cc82bb257ac2bda13644d",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s010": {
+      "previous_page": 12,
+      "current_page": 12,
+      "novi": {
+        "before_sha256": "65a402777f44f6ca57559575200948537352d3f94368c0158cb652968fb5438c",
+        "after_sha256": "65a402777f44f6ca57559575200948537352d3f94368c0158cb652968fb5438c",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "c2b158d23b6b2d94bc799105c3f83ee34e678ccec59f4991c9eead1567d9f6b9",
+        "after_sha256": "c2b158d23b6b2d94bc799105c3f83ee34e678ccec59f4991c9eead1567d9f6b9",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s011": {
+      "previous_page": 13,
+      "current_page": 13,
+      "novi": {
+        "before_sha256": "159f53499ec4791a309b5372c7430ee115dc5ab3abe7a79356df43770f856e68",
+        "after_sha256": "159f53499ec4791a309b5372c7430ee115dc5ab3abe7a79356df43770f856e68",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "7396418fe3b291908c187ece328404f474d0481166891894cad8af156aa761c0",
+        "after_sha256": "7396418fe3b291908c187ece328404f474d0481166891894cad8af156aa761c0",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s012": {
+      "previous_page": 14,
+      "current_page": 14,
+      "novi": {
+        "before_sha256": "a4a28231773be239d158e1c08fe0dd4eea95c8263309701445a96e15a01d33d5",
+        "after_sha256": "a4a28231773be239d158e1c08fe0dd4eea95c8263309701445a96e15a01d33d5",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "1ca471a1f1bcef7cf3118a64c4e01b1a24f9056b2fd09916f841972978ae3a7c",
+        "after_sha256": "1ca471a1f1bcef7cf3118a64c4e01b1a24f9056b2fd09916f841972978ae3a7c",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s013": {
+      "previous_page": 15,
+      "current_page": 15,
+      "novi": {
+        "before_sha256": "d68461530e68be80759e596c040810eeb0041c8bc5a93dfe061649d51089b2ad",
+        "after_sha256": "d68461530e68be80759e596c040810eeb0041c8bc5a93dfe061649d51089b2ad",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "fd82b6235545cac06cafce7bfdc9290d91ab55991fe9c144e0186798eeedd45c",
+        "after_sha256": "fd82b6235545cac06cafce7bfdc9290d91ab55991fe9c144e0186798eeedd45c",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s014": {
+      "previous_page": 16,
+      "current_page": 16,
+      "novi": {
+        "before_sha256": "3773e9ad0175a8e6da952ca8d7e9062fb6533e1ab03dd4348e2cf41d3bc4bab9",
+        "after_sha256": "3773e9ad0175a8e6da952ca8d7e9062fb6533e1ab03dd4348e2cf41d3bc4bab9",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "a472e865bab3753b8d14966e10f9ea61d021a817bf59922b973932cbb7fcb6e2",
+        "after_sha256": "a472e865bab3753b8d14966e10f9ea61d021a817bf59922b973932cbb7fcb6e2",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s015": {
+      "previous_page": 17,
+      "current_page": 17,
+      "novi": {
+        "before_sha256": "50bcea119da0c8e72cb022cc1c612203693237e103e7bd63c92232c6977c3245",
+        "after_sha256": "50bcea119da0c8e72cb022cc1c612203693237e103e7bd63c92232c6977c3245",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "a433165e42bc22366174d81c2b724a1c28427510325bc126a84a2f76b2d7eece",
+        "after_sha256": "a433165e42bc22366174d81c2b724a1c28427510325bc126a84a2f76b2d7eece",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s015b": {
+      "previous_page": 18,
+      "current_page": 18,
+      "novi": {
+        "before_sha256": "628e471f6f6aafbeac0036b2e8d67e8884c6ef68ee221e88f54fd5fe37310043",
+        "after_sha256": "628e471f6f6aafbeac0036b2e8d67e8884c6ef68ee221e88f54fd5fe37310043",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "8b9b8c3b55e441f9f01a53a9f98d4a0b0436cedd5a71cd5f2f3b73e7b0d5ad7d",
+        "after_sha256": "8b9b8c3b55e441f9f01a53a9f98d4a0b0436cedd5a71cd5f2f3b73e7b0d5ad7d",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s016": {
+      "previous_page": 19,
+      "current_page": 19,
+      "novi": {
+        "before_sha256": "faa1dff2760ffb3820e6600f6c7ee634531856105be889642aefaf8d6b401263",
+        "after_sha256": "faa1dff2760ffb3820e6600f6c7ee634531856105be889642aefaf8d6b401263",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "edc16710c831632f7a8043cd985f9813007f567cf54026064ee32f7717c88c18",
+        "after_sha256": "edc16710c831632f7a8043cd985f9813007f567cf54026064ee32f7717c88c18",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s017": {
+      "previous_page": 20,
+      "current_page": 20,
+      "novi": {
+        "before_sha256": "9c80f7ba82e34e41715a31364e0a4e6f8fc34c9e1b56299a468b6dc8e0e807cb",
+        "after_sha256": "9c80f7ba82e34e41715a31364e0a4e6f8fc34c9e1b56299a468b6dc8e0e807cb",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "11360028e4532722463bebd74638c300e0f7c987072e8525453e464ececacb6b",
+        "after_sha256": "11360028e4532722463bebd74638c300e0f7c987072e8525453e464ececacb6b",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s018": {
+      "previous_page": 21,
+      "current_page": 21,
+      "novi": {
+        "before_sha256": "19be6defaa91ebb722314cc72f890e6cc793f73f1c98b04a10bc660d934ffb27",
+        "after_sha256": "19be6defaa91ebb722314cc72f890e6cc793f73f1c98b04a10bc660d934ffb27",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "cad12159351253a0c76450994317291b6d8c3a228fb0c8defe61cc0569c480bb",
+        "after_sha256": "cad12159351253a0c76450994317291b6d8c3a228fb0c8defe61cc0569c480bb",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s019": {
+      "previous_page": 22,
+      "current_page": 22,
+      "novi": {
+        "before_sha256": "e8b2ac7e6cdf49edf0527ef39bde2d3ec88d7d1d6af57b92f1af151ff381f3b6",
+        "after_sha256": "e8b2ac7e6cdf49edf0527ef39bde2d3ec88d7d1d6af57b92f1af151ff381f3b6",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "37d626809031810fd7eaa335b87db35576c9b188e242f901755aa1bc1b510a4e",
+        "after_sha256": "37d626809031810fd7eaa335b87db35576c9b188e242f901755aa1bc1b510a4e",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s020": {
+      "previous_page": 23,
+      "current_page": 23,
+      "novi": {
+        "before_sha256": "22a5213981ec4da90455530555c0e47e4e615eda394ea9d7f3919a1a73c2cc89",
+        "after_sha256": "22a5213981ec4da90455530555c0e47e4e615eda394ea9d7f3919a1a73c2cc89",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "8fe85ad498cefe32b0b40630d3ffe08ae3b6b9068610867a9e8f033d1d8e6f31",
+        "after_sha256": "8fe85ad498cefe32b0b40630d3ffe08ae3b6b9068610867a9e8f033d1d8e6f31",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s021": {
+      "previous_page": 24,
+      "current_page": 24,
+      "novi": {
+        "before_sha256": "9ae04467da7466673579ebbaf104bb8bc3d57f7ed6c2cfc9235e66fe140cf34e",
+        "after_sha256": "9ae04467da7466673579ebbaf104bb8bc3d57f7ed6c2cfc9235e66fe140cf34e",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "0c447995cbd3921eab976770a0a03d83c518b89d0575006220ebda590abbafb9",
+        "after_sha256": "0c447995cbd3921eab976770a0a03d83c518b89d0575006220ebda590abbafb9",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s022": {
+      "previous_page": 25,
+      "current_page": 25,
+      "novi": {
+        "before_sha256": "3a41359033910528d4e47ebe253f3655d44546d59fc3d1f3bb35393637c259c6",
+        "after_sha256": "3a41359033910528d4e47ebe253f3655d44546d59fc3d1f3bb35393637c259c6",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "d906b59a85517d309e6447313e37be80ad32001ceef3c11a9e542f408bbef4ec",
+        "after_sha256": "d906b59a85517d309e6447313e37be80ad32001ceef3c11a9e542f408bbef4ec",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s023": {
+      "previous_page": 26,
+      "current_page": 26,
+      "novi": {
+        "before_sha256": "961548d9d3630a49c3d9b7719a4f5260525cd6b93ae53beb69f834ea65324399",
+        "after_sha256": "961548d9d3630a49c3d9b7719a4f5260525cd6b93ae53beb69f834ea65324399",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "086afd1e5300944044adc2329661b9ac4a20777ce6ec9a3a50f733695ad1b72b",
+        "after_sha256": "086afd1e5300944044adc2329661b9ac4a20777ce6ec9a3a50f733695ad1b72b",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s023b": {
+      "previous_page": 27,
+      "current_page": 27,
+      "novi": {
+        "before_sha256": "cb439318ee211761c91b1df400a57100fc43691656fb1fa1be7dfd0f1b3b880a",
+        "after_sha256": "cb439318ee211761c91b1df400a57100fc43691656fb1fa1be7dfd0f1b3b880a",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "03b489691db388f2fdeeb4a1eb2225dbe3aeff6c2205090d459d63fe2bbc2b04",
+        "after_sha256": "03b489691db388f2fdeeb4a1eb2225dbe3aeff6c2205090d459d63fe2bbc2b04",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s024": {
+      "previous_page": 28,
+      "current_page": 28,
+      "novi": {
+        "before_sha256": "2c3ab9be0fe708ae730f1d4f7055078fec3bf6960f646a70f859c6eddd5ba6ae",
+        "after_sha256": "2c3ab9be0fe708ae730f1d4f7055078fec3bf6960f646a70f859c6eddd5ba6ae",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "30408993ccec796d2f2a9d8fc6e4d041526ffb09b95cd328edc9cbfb32f453e6",
+        "after_sha256": "30408993ccec796d2f2a9d8fc6e4d041526ffb09b95cd328edc9cbfb32f453e6",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s024b": {
+      "previous_page": 29,
+      "current_page": 29,
+      "novi": {
+        "before_sha256": "ebdcee1f9afd05bcae81459197d98bbb036941435a564d8f576cdd9bf36cd7e2",
+        "after_sha256": "ebdcee1f9afd05bcae81459197d98bbb036941435a564d8f576cdd9bf36cd7e2",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "6f2cb5f9ce24da45206c4a1961b6b32d63448c96da0edb01427917c6ba85ca7e",
+        "after_sha256": "6f2cb5f9ce24da45206c4a1961b6b32d63448c96da0edb01427917c6ba85ca7e",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s025": {
+      "previous_page": 30,
+      "current_page": 30,
+      "novi": {
+        "before_sha256": "11814fd2c6c31cdd78e98143c232edcec5fb8dd3131d21582b96f06e7826525d",
+        "after_sha256": "11814fd2c6c31cdd78e98143c232edcec5fb8dd3131d21582b96f06e7826525d",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "6737672f1613f0c35468ac9b47e96f48d17c55c86f07a039570e4bd7d1434017",
+        "after_sha256": "6737672f1613f0c35468ac9b47e96f48d17c55c86f07a039570e4bd7d1434017",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s026": {
+      "previous_page": 31,
+      "current_page": 31,
+      "novi": {
+        "before_sha256": "25c6ab4025a11cb4f949285fca365e15597a6c0fbb8cce372b5e4a1ecc8a43c4",
+        "after_sha256": "25c6ab4025a11cb4f949285fca365e15597a6c0fbb8cce372b5e4a1ecc8a43c4",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "1484b3e186797198ffbf8cd612550bc00538318799ac0fceea44f606e0b59e43",
+        "after_sha256": "1484b3e186797198ffbf8cd612550bc00538318799ac0fceea44f606e0b59e43",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s027": {
+      "previous_page": 32,
+      "current_page": 32,
+      "novi": {
+        "before_sha256": "76d14a8f17310bf49d9ec76a2ce66f0fffd75fbe600fbb19b5cac0e712979fbf",
+        "after_sha256": "76d14a8f17310bf49d9ec76a2ce66f0fffd75fbe600fbb19b5cac0e712979fbf",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "fe47464518f0e0a57b6ba99a7e2d0b9bdeb0937e36b3907cf68a484fce755883",
+        "after_sha256": "fe47464518f0e0a57b6ba99a7e2d0b9bdeb0937e36b3907cf68a484fce755883",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s028": {
+      "previous_page": 33,
+      "current_page": 33,
+      "novi": {
+        "before_sha256": "58d2979af07f4db6ab2a49c9e061bfcb664fe9a4722a3f950e00ddc14431a6c7",
+        "after_sha256": "58d2979af07f4db6ab2a49c9e061bfcb664fe9a4722a3f950e00ddc14431a6c7",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "25cdca1277d5e70974aebfc858d4972dc0b3111e82c1e4d71647c09e718881ea",
+        "after_sha256": "25cdca1277d5e70974aebfc858d4972dc0b3111e82c1e4d71647c09e718881ea",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s029": {
+      "previous_page": 34,
+      "current_page": 34,
+      "novi": {
+        "before_sha256": "2da0c5cb4c2cf6fd67a4efd6222b44a4a93799fd41881fec02b52af5ffe1c5e2",
+        "after_sha256": "2da0c5cb4c2cf6fd67a4efd6222b44a4a93799fd41881fec02b52af5ffe1c5e2",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "240889f48cf7264da6918e7709f323e93a26ee98f29c58d7f30c2289fd999f6d",
+        "after_sha256": "240889f48cf7264da6918e7709f323e93a26ee98f29c58d7f30c2289fd999f6d",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s030": {
+      "previous_page": 35,
+      "current_page": 35,
+      "novi": {
+        "before_sha256": "7c249fe2c864386d6e531b8baa4c8e8ba9668033b15f3649926ad1d6793cece0",
+        "after_sha256": "7c249fe2c864386d6e531b8baa4c8e8ba9668033b15f3649926ad1d6793cece0",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "1f83a71e68adf1685856a227bc26f22194de1f564df299456ef9081d1f80e516",
+        "after_sha256": "1f83a71e68adf1685856a227bc26f22194de1f564df299456ef9081d1f80e516",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s031": {
+      "previous_page": 36,
+      "current_page": 36,
+      "novi": {
+        "before_sha256": "9d9904a473788fcb65a637376ba83bae62a66922b965da48830e297975b42886",
+        "after_sha256": "9d9904a473788fcb65a637376ba83bae62a66922b965da48830e297975b42886",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "4479296271375210d73b8e35b7856f0f107a0b2f62e3f17c4438adf476103a05",
+        "after_sha256": "4479296271375210d73b8e35b7856f0f107a0b2f62e3f17c4438adf476103a05",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s032": {
+      "previous_page": 37,
+      "current_page": 37,
+      "novi": {
+        "before_sha256": "a34c482835cd213eea812f07ee5a32085560fc892570c94d903aeed85db72d64",
+        "after_sha256": "a34c482835cd213eea812f07ee5a32085560fc892570c94d903aeed85db72d64",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "393d49452ced5de5bad80cb1b2c7ee644dc67ce843ac7a0d82d35720f6a34d51",
+        "after_sha256": "393d49452ced5de5bad80cb1b2c7ee644dc67ce843ac7a0d82d35720f6a34d51",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s032b": {
+      "previous_page": 38,
+      "current_page": 38,
+      "novi": {
+        "before_sha256": "bfccd0cd87047ea33473ac38238d8a65f52476ee3ba923cf9a8cba921d3665f9",
+        "after_sha256": "bfccd0cd87047ea33473ac38238d8a65f52476ee3ba923cf9a8cba921d3665f9",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "01e97c3dad6c8d9ebfa6e04385bc6cda366181c05faef644eaf9ee7ee191825c",
+        "after_sha256": "01e97c3dad6c8d9ebfa6e04385bc6cda366181c05faef644eaf9ee7ee191825c",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s033": {
+      "previous_page": 39,
+      "current_page": 39,
+      "novi": {
+        "before_sha256": "89bd6ad78a530648d26b040e73b3354c0b8f57d40a4549dd908e7ea004d5c970",
+        "after_sha256": "89bd6ad78a530648d26b040e73b3354c0b8f57d40a4549dd908e7ea004d5c970",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "c2a0ff5bc729b647b14785b9ceb5d1cc7242d66d7692d0b4bed5d3b02ccef8d1",
+        "after_sha256": "c2a0ff5bc729b647b14785b9ceb5d1cc7242d66d7692d0b4bed5d3b02ccef8d1",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s034": {
+      "previous_page": 40,
+      "current_page": 40,
+      "novi": {
+        "before_sha256": "03b81e3033410e811e58f2cc44af5a0e75db98c624af1369a9d7b8c058e4e58b",
+        "after_sha256": "03b81e3033410e811e58f2cc44af5a0e75db98c624af1369a9d7b8c058e4e58b",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "2374d3e10720e33fe7f0106e5d6f79a0b7416d1d8729bde4e10bbcaebc205a78",
+        "after_sha256": "2374d3e10720e33fe7f0106e5d6f79a0b7416d1d8729bde4e10bbcaebc205a78",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s035": {
+      "previous_page": 41,
+      "current_page": 41,
+      "novi": {
+        "before_sha256": "32bed01b1a8969d9a6817131a99f98ba6caf8a13e4ad3bcc304d4d066658b774",
+        "after_sha256": "32bed01b1a8969d9a6817131a99f98ba6caf8a13e4ad3bcc304d4d066658b774",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "6e651c7e1176288dabe1b4720149597ab3960c16b25182c1bf6ed92830e90af3",
+        "after_sha256": "6e651c7e1176288dabe1b4720149597ab3960c16b25182c1bf6ed92830e90af3",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s036": {
+      "previous_page": 42,
+      "current_page": 42,
+      "novi": {
+        "before_sha256": "fa44c6f5ea4be909fcea824db699988be4e63735358013fd2e1325afc9e4e5a1",
+        "after_sha256": "fa44c6f5ea4be909fcea824db699988be4e63735358013fd2e1325afc9e4e5a1",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "e9c2771df81b48385455b710a71b224cc261350f879ca5c4b69e3baab633cbe8",
+        "after_sha256": "e9c2771df81b48385455b710a71b224cc261350f879ca5c4b69e3baab633cbe8",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s037": {
+      "previous_page": 43,
+      "current_page": 43,
+      "novi": {
+        "before_sha256": "94c5a1f8c2d2b365b31810014e64fde1307afe4674cc7a99f57317596a4a69fb",
+        "after_sha256": "94c5a1f8c2d2b365b31810014e64fde1307afe4674cc7a99f57317596a4a69fb",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "123dd8ae21aa2d3a8aeb6bfb7400ff77c0bc155382c28e59f8aa70ef9d96a6a5",
+        "after_sha256": "123dd8ae21aa2d3a8aeb6bfb7400ff77c0bc155382c28e59f8aa70ef9d96a6a5",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s038": {
+      "previous_page": 44,
+      "current_page": 44,
+      "novi": {
+        "before_sha256": "94b1f2ceea190bd26a7e794244f6d7e5ba2546074ca5e84395c3ca1af33b75a6",
+        "after_sha256": "94b1f2ceea190bd26a7e794244f6d7e5ba2546074ca5e84395c3ca1af33b75a6",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "05ef8a30ca3864440acbd4e2412c3408f358b9c6a95905ed891c258f4db34ae8",
+        "after_sha256": "05ef8a30ca3864440acbd4e2412c3408f358b9c6a95905ed891c258f4db34ae8",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s039": {
+      "previous_page": 45,
+      "current_page": 45,
+      "novi": {
+        "before_sha256": "3d0549eeccc4e704e265663dc682ee6c8e40833ed90b2b46b69890a013f085b6",
+        "after_sha256": "3d0549eeccc4e704e265663dc682ee6c8e40833ed90b2b46b69890a013f085b6",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "1da70f7f8692c832dadc239d305246fa3f0042c4d07fe9fd2d1aaf7a8985673a",
+        "after_sha256": "1da70f7f8692c832dadc239d305246fa3f0042c4d07fe9fd2d1aaf7a8985673a",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s040": {
+      "previous_page": 46,
+      "current_page": 46,
+      "novi": {
+        "before_sha256": "c4f242fa6f19beb40bbd49e6fad8a4b1f89aa91aae8b20bd1b3d1d7e03935d07",
+        "after_sha256": "c4f242fa6f19beb40bbd49e6fad8a4b1f89aa91aae8b20bd1b3d1d7e03935d07",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "2a6f1df68cb800c0e829b6abfb4504bd3cf97eb9ff4a6d38ce062e26ee2b05c6",
+        "after_sha256": "2a6f1df68cb800c0e829b6abfb4504bd3cf97eb9ff4a6d38ce062e26ee2b05c6",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s041": {
+      "previous_page": 47,
+      "current_page": 47,
+      "novi": {
+        "before_sha256": "d7ad44b28a8148b618ad958f83796381ade42f3b6b07d0ebb90c99269ecb1d72",
+        "after_sha256": "d7ad44b28a8148b618ad958f83796381ade42f3b6b07d0ebb90c99269ecb1d72",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "bc53f3bbc9e62923000b63d30823b7ed92027984e8736327aa22b5b529830fa5",
+        "after_sha256": "bc53f3bbc9e62923000b63d30823b7ed92027984e8736327aa22b5b529830fa5",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s042": {
+      "previous_page": 48,
+      "current_page": 48,
+      "novi": {
+        "before_sha256": "d193562f9152ba4ace656a3c8ffbde234335565799ee11fc95ba49c821ac7b68",
+        "after_sha256": "d193562f9152ba4ace656a3c8ffbde234335565799ee11fc95ba49c821ac7b68",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "fb671047a2a2dc67882ffdfa3287ebe08486180c7b51a11d845677140ca3d7f6",
+        "after_sha256": "fb671047a2a2dc67882ffdfa3287ebe08486180c7b51a11d845677140ca3d7f6",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s043": {
+      "previous_page": 49,
+      "current_page": 49,
+      "novi": {
+        "before_sha256": "220c2c059e7fb4b8ba67e76cebd106f0fe5be67be8aaa2853c5ba9625b3639ae",
+        "after_sha256": "220c2c059e7fb4b8ba67e76cebd106f0fe5be67be8aaa2853c5ba9625b3639ae",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "19d22b3ae3f9540bd3bf6f4006eeb7157abc181e30cc95f35ee036c3f93a31f7",
+        "after_sha256": "19d22b3ae3f9540bd3bf6f4006eeb7157abc181e30cc95f35ee036c3f93a31f7",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s044": {
+      "previous_page": 50,
+      "current_page": 50,
+      "novi": {
+        "before_sha256": "7fc5df3c3369319a49447708796125047e2aa71aa1ad36ce028efefda96a051a",
+        "after_sha256": "7fc5df3c3369319a49447708796125047e2aa71aa1ad36ce028efefda96a051a",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "68167fb3b7292a0b51c63e970caea52cad018a73b902c3656f4245b13003d5fa",
+        "after_sha256": "68167fb3b7292a0b51c63e970caea52cad018a73b902c3656f4245b13003d5fa",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s045": {
+      "previous_page": 51,
+      "current_page": 51,
+      "novi": {
+        "before_sha256": "4bb3bf64dcbab5739d78baa1a7dc9e0649979deb97bfab345820d96bbbf46a0c",
+        "after_sha256": "4bb3bf64dcbab5739d78baa1a7dc9e0649979deb97bfab345820d96bbbf46a0c",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "278cbbffd167114423646bffd0940a65e59e665bf4de970baa19366aaf09ad7f",
+        "after_sha256": "278cbbffd167114423646bffd0940a65e59e665bf4de970baa19366aaf09ad7f",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s046": {
+      "previous_page": 52,
+      "current_page": 52,
+      "novi": {
+        "before_sha256": "f2624c984b423243365b6b1fad9207a430ac79ba1ef2a46451d65b33082dde1f",
+        "after_sha256": "f2624c984b423243365b6b1fad9207a430ac79ba1ef2a46451d65b33082dde1f",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "ff6792c0148e94202b7f80dbb0e113b012078eb0620bfda2edc05fd135257c56",
+        "after_sha256": "ff6792c0148e94202b7f80dbb0e113b012078eb0620bfda2edc05fd135257c56",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      }
+    },
+    "02-s052": {
+      "previous_page": 58,
+      "current_page": 60,
+      "novi": {
+        "before_sha256": "6951b9bd1d2759beabd0d1cdd6a96c75c4ede6b8a168851fb3c2feeb48756782",
+        "after_sha256": "6951b9bd1d2759beabd0d1cdd6a96c75c4ede6b8a168851fb3c2feeb48756782",
+        "pixels_identical": true,
+        "difference_bbox": null,
+        "scope": "Ceo prikaz"
+      },
+      "beleske": {
+        "before_sha256": "7ac8f7a8792fcc6918ff446b8fdafaf06ac2cd28b7d3d9fa0d312446b5ce9294",
+        "after_sha256": "89110fb0b6b233edbc15669df45f8f75b6ac76b26665a382ef81867aa15f962b",
+        "pixels_identical": false,
+        "difference_bbox": [
+          1137,
+          1737,
+          1158,
+          1753
+        ],
+        "scope": "Ceo nastavni sadržaj i zaglavlje; samo broj A4 strane u donjem podnožju se promenio"
+      }
+    }
+  },
+  "controlled_common_changes": [
+    "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/02_sinteza_kombinacionih_mreza/02_sinteza_kombinacionih_mreza.tex",
+    "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/02_sinteza_kombinacionih_mreza/provera/redizajn/manifest.json",
+    "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/02_sinteza_kombinacionih_mreza/provera/redizajn/odobrenje_podela.json",
+    "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/02_sinteza_kombinacionih_mreza/slajdovi/s047_grupisanje_proizvoda.tex",
+    "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/02_sinteza_kombinacionih_mreza/slajdovi/s048_broj_cipova_ni_realizacije.tex",
+    "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/02_sinteza_kombinacionih_mreza/slajdovi/s049_broj_cipova_nili_realizacije.tex",
+    "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/02_sinteza_kombinacionih_mreza/slajdovi/s050_pojava_laznih_nula_i_jedinica.tex",
+    "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/02_sinteza_kombinacionih_mreza/slajdovi/s051_vremenski_dijagram_hazarda.tex",
+    "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/02_sinteza_kombinacionih_mreza/slajdovi/s053_povezivanje_povrsina.tex",
+    "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/02_sinteza_kombinacionih_mreza/slajdovi/s054_hazardi_i_razlicita_kasnjenja.tex",
+    "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/02_sinteza_kombinacionih_mreza/slike/tikz/s053_dve_povrsine.tex",
+    "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/02_sinteza_kombinacionih_mreza/slike/tikz/s053_zajednicka_povrsina.tex",
+    "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/02_sinteza_kombinacionih_mreza/02_sinteza_kombinacionih_mreza_beleske.tex",
+    "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/02_sinteza_kombinacionih_mreza/beleske/s047.tex",
+    "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/02_sinteza_kombinacionih_mreza/beleske/s048.tex",
+    "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/02_sinteza_kombinacionih_mreza/beleske/s049.tex",
+    "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/02_sinteza_kombinacionih_mreza/beleske/s050.tex",
+    "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/02_sinteza_kombinacionih_mreza/beleske/s054.tex",
+    "/home/nikolap/Desktop/ETF/DE1/2025_2026/digitalna_elektronika_1/predavanja/02_sinteza_kombinacionih_mreza/build/02_sinteza_kombinacionih_mreza.pdf"
+  ],
+  "truth_table": [
+    {
+      "DCBA": "0000",
+      "F": 1,
+      "grouped": 1,
+      "NI": 1,
+      "two_input_NI": 1
+    },
+    {
+      "DCBA": "0001",
+      "F": 1,
+      "grouped": 1,
+      "NI": 1,
+      "two_input_NI": 1
+    },
+    {
+      "DCBA": "0010",
+      "F": 0,
+      "grouped": 0,
+      "NI": 0,
+      "two_input_NI": 0
+    },
+    {
+      "DCBA": "0011",
+      "F": 0,
+      "grouped": 0,
+      "NI": 0,
+      "two_input_NI": 0
+    },
+    {
+      "DCBA": "0100",
+      "F": 1,
+      "grouped": 1,
+      "NI": 1,
+      "two_input_NI": 1
+    },
+    {
+      "DCBA": "0101",
+      "F": 1,
+      "grouped": 1,
+      "NI": 1,
+      "two_input_NI": 1
+    },
+    {
+      "DCBA": "0110",
+      "F": 0,
+      "grouped": 0,
+      "NI": 0,
+      "two_input_NI": 0
+    },
+    {
+      "DCBA": "0111",
+      "F": 0,
+      "grouped": 0,
+      "NI": 0,
+      "two_input_NI": 0
+    },
+    {
+      "DCBA": "1000",
+      "F": 1,
+      "grouped": 1,
+      "NI": 1,
+      "two_input_NI": 1
+    },
+    {
+      "DCBA": "1001",
+      "F": 0,
+      "grouped": 0,
+      "NI": 0,
+      "two_input_NI": 0
+    },
+    {
+      "DCBA": "1010",
+      "F": 1,
+      "grouped": 1,
+      "NI": 1,
+      "two_input_NI": 1
+    },
+    {
+      "DCBA": "1011",
+      "F": 0,
+      "grouped": 0,
+      "NI": 0,
+      "two_input_NI": 0
+    },
+    {
+      "DCBA": "1100",
+      "F": 0,
+      "grouped": 0,
+      "NI": 0,
+      "two_input_NI": 0
+    },
+    {
+      "DCBA": "1101",
+      "F": 0,
+      "grouped": 0,
+      "NI": 0,
+      "two_input_NI": 0
+    },
+    {
+      "DCBA": "1110",
+      "F": 0,
+      "grouped": 0,
+      "NI": 0,
+      "two_input_NI": 0
+    },
+    {
+      "DCBA": "1111",
+      "F": 0,
+      "grouped": 0,
+      "NI": 0,
+      "two_input_NI": 0
+    }
+  ],
+  "three_input_NI_checked_combinations": 8,
+  "NILI_truth_table": [
+    {
+      "DCBA": "0000",
+      "POS": 1,
+      "NILI": 1,
+      "two_input_NILI": 1
+    },
+    {
+      "DCBA": "0001",
+      "POS": 1,
+      "NILI": 1,
+      "two_input_NILI": 1
+    },
+    {
+      "DCBA": "0010",
+      "POS": 0,
+      "NILI": 0,
+      "two_input_NILI": 0
+    },
+    {
+      "DCBA": "0011",
+      "POS": 0,
+      "NILI": 0,
+      "two_input_NILI": 0
+    },
+    {
+      "DCBA": "0100",
+      "POS": 1,
+      "NILI": 1,
+      "two_input_NILI": 1
+    },
+    {
+      "DCBA": "0101",
+      "POS": 1,
+      "NILI": 1,
+      "two_input_NILI": 1
+    },
+    {
+      "DCBA": "0110",
+      "POS": 0,
+      "NILI": 0,
+      "two_input_NILI": 0
+    },
+    {
+      "DCBA": "0111",
+      "POS": 0,
+      "NILI": 0,
+      "two_input_NILI": 0
+    },
+    {
+      "DCBA": "1000",
+      "POS": 1,
+      "NILI": 1,
+      "two_input_NILI": 1
+    },
+    {
+      "DCBA": "1001",
+      "POS": 0,
+      "NILI": 0,
+      "two_input_NILI": 0
+    },
+    {
+      "DCBA": "1010",
+      "POS": 1,
+      "NILI": 1,
+      "two_input_NILI": 1
+    },
+    {
+      "DCBA": "1011",
+      "POS": 0,
+      "NILI": 0,
+      "two_input_NILI": 0
+    },
+    {
+      "DCBA": "1100",
+      "POS": 0,
+      "NILI": 0,
+      "two_input_NILI": 0
+    },
+    {
+      "DCBA": "1101",
+      "POS": 0,
+      "NILI": 0,
+      "two_input_NILI": 0
+    },
+    {
+      "DCBA": "1110",
+      "POS": 0,
+      "NILI": 0,
+      "two_input_NILI": 0
+    },
+    {
+      "DCBA": "1111",
+      "POS": 0,
+      "NILI": 0,
+      "two_input_NILI": 0
+    }
+  ],
+  "three_input_NILI_checked_combinations": 8,
+  "consensus": [
+    {
+      "CBA": "000",
+      "F": 1,
+      "F_with_consensus": 1
+    },
+    {
+      "CBA": "001",
+      "F": 1,
+      "F_with_consensus": 1
+    },
+    {
+      "CBA": "010",
+      "F": 0,
+      "F_with_consensus": 0
+    },
+    {
+      "CBA": "011",
+      "F": 1,
+      "F_with_consensus": 1
+    },
+    {
+      "CBA": "100",
+      "F": 0,
+      "F_with_consensus": 0
+    },
+    {
+      "CBA": "101",
+      "F": 0,
+      "F_with_consensus": 0
+    },
+    {
+      "CBA": "110",
+      "F": 0,
+      "F_with_consensus": 0
+    },
+    {
+      "CBA": "111",
+      "F": 1,
+      "F_with_consensus": 1
+    }
+  ],
+  "hazard_pre_during_after": [
+    1,
+    0,
+    1
+  ],
+  "invariants": "Izvorni PDF i mapa neizmenjeni; 54 originalna ID-ja u istom redosledu, 8 korisnikom odobrenih nastavaka; 62 izlazne strane. Nema drugih izmena zajedničkih zavisnosti ili sadržaja."
+}

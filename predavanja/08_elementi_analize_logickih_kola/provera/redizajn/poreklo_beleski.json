@@ -1,0 +1,1074 @@
+{
+  "date": "2026-10-03",
+  "notes_policy": "PLAN_PREDAVANJA.md, korak 6; jedini nastavni tekst je u beleske/sNNN.tex",
+  "slides": {
+    "08-s002": {
+      "path": "beleske/s002.tex",
+      "source_pdf_page": 1,
+      "source_position": "donji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s002:e04"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s002:notes",
+        "scope": "Razlika grafičke konvencije i fizičkog prelaza",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s003": {
+      "path": "beleske/s003.tex",
+      "source_pdf_page": 2,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s003:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s003:notes",
+        "scope": "Tumačenje oblasti neizvesnosti u dijagramima",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s004": {
+      "path": "beleske/s004.tex",
+      "source_pdf_page": 2,
+      "source_position": "donji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s004:e03"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s004:notes",
+        "scope": "Postupak statičkog merenja i razlika kašnjenja/trajanja ivice u dinamičkom merenju",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      },
+      "additional_review": "Dodatni pregled po ponovljenom nalogu 2026-10-03: očuvanje prenetih detalja i smanjenje nepotrebnog ponavljanja."
+    },
+    "08-s005": {
+      "path": "beleske/s005.tex",
+      "source_pdf_page": 3,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s005:e03"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s005:notes",
+        "scope": "Napajanje kao fizička veličina različita od logičkog stanja",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s006": {
+      "path": "beleske/s006.tex",
+      "source_pdf_page": 3,
+      "source_position": "donji",
+      "original_details": [
+        "08-s006:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s006:notes",
+        "scope": "Razlika lokalnih referentnih potencijala i povratni pad napona",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s007": {
+      "path": "beleske/s007.tex",
+      "source_pdf_page": 4,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s007:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s007:notes",
+        "scope": "Razdelnik napona i značenje levog/desnog limesa",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s008": {
+      "path": "beleske/s008.tex",
+      "source_pdf_page": 4,
+      "source_position": "donji",
+      "original_details": [
+        "08-s008:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s008:notes",
+        "scope": "Kratka lokalna strujna petlja i parazitne impedanse",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s009": {
+      "path": "beleske/s009.tex",
+      "source_pdf_page": 5,
+      "source_position": "gornji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s009:e04"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s009:notes",
+        "scope": "Referentni smerovi portova i negativna izlazna struja",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s010": {
+      "path": "beleske/s010.tex",
+      "source_pdf_page": 5,
+      "source_position": "donji",
+      "original_details": [
+        "08-s010:e03"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s010:notes",
+        "scope": "Statičko merenje i značenje šrafirane zone",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s011": {
+      "path": "beleske/s011.tex",
+      "source_pdf_page": 6,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s011:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s011:notes",
+        "scope": "Proizvodna odstupanja i izostanak garancije u prelaznom opsegu",
+        "verification": "Kataloška terminologija upoređena sa TI SZZA036C; brojčani primeri provereni gde postoje."
+      }
+    },
+    "08-s012": {
+      "path": "beleske/s012.tex",
+      "source_pdf_page": 6,
+      "source_position": "donji",
+      "original_details": [
+        "08-s012:e05"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s012:notes",
+        "scope": "Čitanje Min/Max, praznih ćelija i uslova ispitivanja",
+        "verification": "Kataloška terminologija upoređena sa TI SZZA036C; brojčani primeri provereni gde postoje."
+      }
+    },
+    "08-s013": {
+      "path": "beleske/s013.tex",
+      "source_pdf_page": 7,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s013:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s013:notes",
+        "scope": "Nominalni kvalitativni nivoi u odnosu na garantovane granice",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s014": {
+      "path": "beleske/s014.tex",
+      "source_pdf_page": 7,
+      "source_position": "donji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s014:e03"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s014:notes",
+        "scope": "Zašto se bira manja margina i izvođenje identiteta zbira margina",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      },
+      "additional_review": "Dodatni pregled po ponovljenom nalogu 2026-10-03: očuvanje prenetih detalja i smanjenje nepotrebnog ponavljanja."
+    },
+    "08-s015": {
+      "path": "beleske/s015.tex",
+      "source_pdf_page": 8,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s015:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s015:notes",
+        "scope": "Odvajanje neopterećene karakteristike od uticaja struje",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s016": {
+      "path": "beleske/s016.tex",
+      "source_pdf_page": 8,
+      "source_position": "donji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s016:e04"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s016:notes",
+        "scope": "Apsolutna vrednost nagiba invertujućeg kola",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s017": {
+      "path": "beleske/s017.tex",
+      "source_pdf_page": 9,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s017:e03"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s017:notes",
+        "scope": "Razlika kvalitativnog uslova i numeričkog merenja",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s018": {
+      "path": "beleske/s018.tex",
+      "source_pdf_page": 9,
+      "source_position": "donji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s018:e03"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s018:notes",
+        "scope": "Naponi krajnjih parova na dve vrste karakteristika",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s019": {
+      "path": "beleske/s019.tex",
+      "source_pdf_page": 10,
+      "source_position": "gornji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s019:e04"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s019:notes",
+        "scope": "Zamena osa pri kaskadnom prenosu",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s020": {
+      "path": "beleske/s020.tex",
+      "source_pdf_page": 10,
+      "source_position": "donji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s020:e02"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s020:notes",
+        "scope": "Značenje dijagonale jednakih napona",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s021": {
+      "path": "beleske/s021.tex",
+      "source_pdf_page": 11,
+      "source_position": "gornji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s021:e04"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s021:notes",
+        "scope": "Praćenje četiri prenosa i uslov regeneracije",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s022": {
+      "path": "beleske/s022.tex",
+      "source_pdf_page": 11,
+      "source_position": "donji",
+      "original_details": [
+        "08-s022:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s022:notes",
+        "scope": "Jedan izvor šuma naspram smetnji u više tačaka",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s023": {
+      "path": "beleske/s023.tex",
+      "source_pdf_page": 12,
+      "source_position": "gornji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s023:e03"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s023:notes",
+        "scope": "Radna tačka i lokalni uslov malog signala",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s024": {
+      "path": "beleske/s024.tex",
+      "source_pdf_page": 12,
+      "source_position": "donji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s024:e03"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s024:notes",
+        "scope": "Negativan nagib i čitanje izlaznih granica",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s025": {
+      "path": "beleske/s025.tex",
+      "source_pdf_page": 13,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s025:e03"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s025:notes",
+        "scope": "Ponavljanje smetnje i putanja kroz karakteristike",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s026": {
+      "path": "beleske/s026.tex",
+      "source_pdf_page": 13,
+      "source_position": "donji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s026:e04"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s026:notes",
+        "scope": "Znak člana opterećenja sa referentnom strujom",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s027": {
+      "path": "beleske/s027.tex",
+      "source_pdf_page": 14,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s027:e03"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s027:notes",
+        "scope": "Suprotni referentni smerovi na spoju dva porta",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s028": {
+      "path": "beleske/s028.tex",
+      "source_pdf_page": 14,
+      "source_position": "donji",
+      "original_details": [
+        "08-s028:e03"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s028:notes",
+        "scope": "Različite jedinice i zavisnost od uslova kataloga",
+        "verification": "Kataloška terminologija upoređena sa TI SZZA036C; brojčani primeri provereni gde postoje."
+      }
+    },
+    "08-s029": {
+      "path": "beleske/s029.tex",
+      "source_pdf_page": 15,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s029:e03"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s029:notes",
+        "scope": "Negativan znak struje kao posledica reference",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s030": {
+      "path": "beleske/s030.tex",
+      "source_pdf_page": 15,
+      "source_position": "donji",
+      "original_details": [
+        "08-s030:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s030:notes",
+        "scope": "Disipacija i povezanost garantovanog napona/struje",
+        "verification": "Kataloška terminologija upoređena sa TI SZZA036C; brojčani primeri provereni gde postoje."
+      }
+    },
+    "08-s031": {
+      "path": "beleske/s031.tex",
+      "source_pdf_page": 16,
+      "source_position": "gornji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s031:e03"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s031:notes",
+        "scope": "Tipične i garantovane vrednosti, prazne ćelije",
+        "verification": "Kataloška terminologija upoređena sa TI SZZA036C; brojčani primeri provereni gde postoje."
+      }
+    },
+    "08-s032": {
+      "path": "beleske/s032.tex",
+      "source_pdf_page": 16,
+      "source_position": "donji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s032:e03"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s032:notes",
+        "scope": "Statičko grananje u odnosu na dinamičku kapacitivnost",
+        "verification": "Kataloška terminologija upoređena sa TI SZZA036C; brojčani primeri provereni gde postoje."
+      }
+    },
+    "08-s033": {
+      "path": "beleske/s033.tex",
+      "source_pdf_page": 17,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s033:e03"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s033:notes",
+        "scope": "Potreba iste referentne veličine u poređenju",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s034": {
+      "path": "beleske/s034.tex",
+      "source_pdf_page": 17,
+      "source_position": "donji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s034:e03"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s034:notes",
+        "scope": "Granični model u odnosu na realne parametre",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s035": {
+      "path": "beleske/s035.tex",
+      "source_pdf_page": 18,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s035:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s035:notes",
+        "scope": "10/90% u odnosu na amplitudu, ne na napajanje",
+        "verification": "Kataloška terminologija upoređena sa TI SZZA036C; brojčani primeri provereni gde postoje."
+      }
+    },
+    "08-s036": {
+      "path": "beleske/s036.tex",
+      "source_pdf_page": 18,
+      "source_position": "donji",
+      "original_details": [
+        "08-s036:e03"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s036:notes",
+        "scope": "HL/LH kao smer promene izlaza invertora",
+        "verification": "Kataloška terminologija upoređena sa TI SZZA036C; brojčani primeri provereni gde postoje."
+      }
+    },
+    "08-s037": {
+      "path": "beleske/s037.tex",
+      "source_pdf_page": 19,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s037:e03"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s037:notes",
+        "scope": "Uticaj nejednakih kašnjenja na širinu impulsa",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s038": {
+      "path": "beleske/s038.tex",
+      "source_pdf_page": 19,
+      "source_position": "donji",
+      "original_details": [
+        "08-s038:e03"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s038:notes",
+        "scope": "Doprinos idealne ivice i model aproksimacije",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s039": {
+      "path": "beleske/s039.tex",
+      "source_pdf_page": 20,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s039:e03"
+      ],
+      "supplement_details": [
+        "08-s039:e04"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s039:notes",
+        "scope": "Kvadratno izdvajanje doprinosa samog kola, sa računskim primerom",
+        "verification": "5²−3²=4²; povratna zamena 4²+3²=5². Izvorna formula ostaje nepromenjena. dodatna_provera.json."
+      },
+      "additional_review": "Dodatni pregled po ponovljenom nalogu 2026-10-03: očuvanje prenetih detalja i smanjenje nepotrebnog ponavljanja."
+    },
+    "08-s040": {
+      "path": "beleske/s040.tex",
+      "source_pdf_page": 20,
+      "source_position": "donji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s040:e03"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s040:notes",
+        "scope": "Idealna pobuda ne zahteva idealan izlaz",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s041": {
+      "path": "beleske/s041.tex",
+      "source_pdf_page": 21,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s041:e03"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s041:notes",
+        "scope": "Prethodno stacionarno stanje kao početni uslov",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s042": {
+      "path": "beleske/s042.tex",
+      "source_pdf_page": 21,
+      "source_position": "donji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s042:e04"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s042:notes",
+        "scope": "Usaglašeni smerovi i odsustvo impulsne struje",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s043": {
+      "path": "beleske/s043.tex",
+      "source_pdf_page": 22,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s043:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "P06",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s043:notes",
+        "scope": "Beskonačno vreme kao idealizacija prethodnog trajanja",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s044": {
+      "path": "beleske/s044.tex",
+      "source_pdf_page": 22,
+      "source_position": "donji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s044:e04"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s044:notes",
+        "scope": "KVL/KCL i Hejvisajdova pobuda",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s045": {
+      "path": "beleske/s045.tex",
+      "source_pdf_page": 23,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s045:e03"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s045:notes",
+        "scope": "Potpuno objašnjenje deaktiviranja nezavisnih izvora, bez ponavljanja vidljive definicije τ",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      },
+      "additional_review": "Dodatni pregled po ponovljenom nalogu 2026-10-03: očuvanje prenetih detalja i smanjenje nepotrebnog ponavljanja."
+    },
+    "08-s046": {
+      "path": "beleske/s046.tex",
+      "source_pdf_page": 23,
+      "source_position": "donji",
+      "original_details": [
+        "08-s046:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s046:notes",
+        "scope": "Važenje Tevenenove zamene za linearnu mrežu sa jednim C",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s047": {
+      "path": "beleske/s047.tex",
+      "source_pdf_page": 24,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s047:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "P07",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s047:notes",
+        "scope": "Izvod eksponencijale i različite uloge K1/K2",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s048": {
+      "path": "beleske/s048.tex",
+      "source_pdf_page": 24,
+      "source_position": "donji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s048:e02"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "P07",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s048:notes",
+        "scope": "Početni i krajnji limes, interval konstantne pobude",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s049": {
+      "path": "beleske/s049.tex",
+      "source_pdf_page": 25,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s049:e03"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s049:notes",
+        "scope": "Ostvareno 99.3% nije tačan završetak",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s050": {
+      "path": "beleske/s050.tex",
+      "source_pdf_page": 25,
+      "source_position": "donji",
+      "original_details": [
+        "08-s050:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s050:notes",
+        "scope": "Skraćivanje amplitude i logaritmovanje 10/90/50%",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s051": {
+      "path": "beleske/s051.tex",
+      "source_pdf_page": 26,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s051:e03"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s051:notes",
+        "scope": "Kontinuitet stanja nije kontinuitet svake veličine",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s052": {
+      "path": "beleske/s052.tex",
+      "source_pdf_page": 26,
+      "source_position": "donji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s052:e03"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s052:notes",
+        "scope": "Vezivanje konstanti za dva krajnja stanja",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s053": {
+      "path": "beleske/s053.tex",
+      "source_pdf_page": 27,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s053:e03"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s053:notes",
+        "scope": "Izbor krajnjeg stanja za pobudu posmatranog intervala",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s054": {
+      "path": "beleske/s054.tex",
+      "source_pdf_page": 27,
+      "source_position": "donji",
+      "original_details": [
+        "08-s054:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s054:notes",
+        "scope": "Eksponencijalni odziv u odnosu na neograničeno integrisanje",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s055": {
+      "path": "beleske/s055.tex",
+      "source_pdf_page": 28,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s055:e03"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "P07",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s055:notes",
+        "scope": "Prenošenje stacionarnog napona C na novi interval",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s056": {
+      "path": "beleske/s056.tex",
+      "source_pdf_page": 28,
+      "source_position": "donji",
+      "original_details": [
+        "08-s056:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "P09/P07",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s056:notes",
+        "scope": "Ograničenje diferencijatorskog približenja",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s057": {
+      "path": "beleske/s057.tex",
+      "source_pdf_page": 29,
+      "source_position": "gornji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s057:e03"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s057:notes",
+        "scope": "Fizičko poreklo dinamičkog opterećenja između portova",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s058": {
+      "path": "beleske/s058.tex",
+      "source_pdf_page": 29,
+      "source_position": "donji",
+      "original_details": [
+        "08-s058:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "P07",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s058:notes",
+        "scope": "Zašto namerno pogrešna primena jednog intervala ne prolazi",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s059": {
+      "path": "beleske/s059.tex",
+      "source_pdf_page": 30,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s059:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s059:notes",
+        "scope": "Nenulto VOL i značenje ostvarenog porasta",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s060": {
+      "path": "beleske/s060.tex",
+      "source_pdf_page": 30,
+      "source_position": "donji",
+      "original_details": [
+        "08-s060:e03"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "P07",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s060:notes",
+        "scope": "Sabiranje proteklih vremena u eksponencijali",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s061": {
+      "path": "beleske/s061.tex",
+      "source_pdf_page": 31,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s061:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "P07",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s061:notes",
+        "scope": "Prenošenje stanja u t2 i poređenje sa superpozicijom",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s062": {
+      "path": "beleske/s062.tex",
+      "source_pdf_page": 31,
+      "source_position": "donji",
+      "original_details": [
+        "08-s062:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s062:notes",
+        "scope": "Gubitak prepoznatljivog impulsa kod kratke pobude",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s063": {
+      "path": "beleske/s063.tex",
+      "source_pdf_page": 32,
+      "source_position": "gornji",
+      "original_details": [],
+      "supplement_details": [
+        "08-s063:e03"
+      ],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s063:notes",
+        "scope": "Kontinuitet napona C dozvoljava skok izlaza na R",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s064": {
+      "path": "beleske/s064.tex",
+      "source_pdf_page": 32,
+      "source_position": "donji",
+      "original_details": [
+        "08-s064:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s064:notes",
+        "scope": "Analogija čuvanja stanja C/L",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s065": {
+      "path": "beleske/s065.tex",
+      "source_pdf_page": 33,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s065:e03"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s065:notes",
+        "scope": "Opseg važenja gotovog rešenja",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s066": {
+      "path": "beleske/s066.tex",
+      "source_pdf_page": 33,
+      "source_position": "donji",
+      "original_details": [
+        "08-s066:e04"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "P07",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s066:notes",
+        "scope": "Prenošenje početne struje kroz kalem",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    },
+    "08-s067": {
+      "path": "beleske/s067.tex",
+      "source_pdf_page": 34,
+      "source_position": "gornji",
+      "original_details": [
+        "08-s067:e05"
+      ],
+      "supplement_details": [],
+      "verification": "Sadržinsko poređenje originalnog prikaza, početne rekonstrukcije i beležaka; tumačenje oznaka/pravila i nezavisna računska provera gde je primenljivo.",
+      "open_decision": "P12",
+      "supplement_explanation": {
+        "anchor": "% element: 08-s067:notes",
+        "scope": "Podkompenzacija/prekompenzacija i algebarsko sređivanje",
+        "verification": "Algebarsko/dimenziono tumačenje odgovarajuće izvorne šeme ili jednačine, uz poređenje svih prikaza; računski dokazi su u kodovi/provera_logike.py i provera_predloga.json gde su primenljivi."
+      }
+    }
+  },
+  "references": [
+    "https://www.ti.com/lit/an/szza036c/szza036c.pdf",
+    "https://wiki.analog.com/university/courses/engineering_discovery/lab_2",
+    "https://www.analog.com/media/en/training-seminars/tutorials/MT-101.pdf"
+  ],
+  "no_duplicate_text": "Metapodaci opisuju poreklo i dokaz dopune. Jedini izvor nastavnog teksta ostaje beleske/sNNN.tex."
+}

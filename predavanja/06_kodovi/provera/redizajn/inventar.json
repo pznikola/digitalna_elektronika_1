@@ -1,0 +1,1043 @@
+{
+  "slides": {
+    "06-s001": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s001:e01",
+          "description": "Naslov Kodovi, autorstvo, katedra i školska godina",
+          "source": "PDF strana 1, gornji slajd; blok 1: Naslov Kodovi, autorstvo, katedra i školska godina",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "06-s002": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s002:e01",
+          "description": "Kodovanje drugih, nebrojnih informacija nulama i jedinicama",
+          "source": "PDF strana 1, donji slajd; blok 1: Kodovanje drugih, nebrojnih informacija nulama i jedinicama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s002:e02",
+          "description": "Statusni registar i sva tri naziva PSR, Flag register, CCR",
+          "source": "PDF strana 1, donji slajd; blok 2: Statusni registar i sva tri naziva PSR, Flag register, CCR",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s002:e03",
+          "description": "Četiri zastavice C, Z, S/N, V/O/W i njihova značenja",
+          "source": "PDF strana 1, donji slajd; blok 3: Četiri zastavice C, Z, S/N, V/O/W i njihova značenja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s002:e04",
+          "description": "Programska provera prekoračenja i preduzimanje akcije",
+          "source": "PDF strana 1, donji slajd; blok 4: Programska provera prekoračenja i preduzimanje akcije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s002:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s003": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s003:e01",
+          "description": "Kodovanje slova, brojeva i oznaka u tekstu i na ekranu; ASCII/ANSI i pun naziv ISO",
+          "source": "PDF strana 2, gornji slajd; blok 1: Kodovanje slova, brojeva i oznaka u tekstu i na ekranu; ASCII/ANSI i pun naziv ISO",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s003:e02",
+          "description": "USASCII: svih 128 ćelija, kontrolne skraćenice, štampajući znaci, sedam bita zaglavlja, strelice redova/kolona",
+          "source": "PDF strana 2, gornji slajd; blok 2: USASCII: svih 128 ćelija, kontrolne skraćenice, štampajući znaci, sedam bita zaglavlja, strelice redova/kolona",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s003:e03",
+          "description": "Oba heksadekadna primera: cifra 1 i slovo P/p",
+          "source": "PDF strana 2, gornji slajd; blok 3: Oba heksadekadna primera: cifra 1 i slovo P/p",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s003:e04",
+          "description": "Windows-1252, UTF-8 i ISO 8859",
+          "source": "PDF strana 2, gornji slajd; blok 4: Windows-1252, UTF-8 i ISO 8859",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s003:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s004": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s004:e01",
+          "description": "BCD i puno značenje naziva",
+          "source": "PDF strana 2, donji slajd; blok 1: BCD i puno značenje naziva",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s004:e02",
+          "description": "Svih deset cifara i četiri kolone kodova 8421, više3, 2421, 84−2−1",
+          "source": "PDF strana 2, donji slajd; blok 2: Svih deset cifara i četiri kolone kodova 8421, više3, 2421, 84−2−1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s004:e03",
+          "description": "Crveno istaknuti autokomplementarni primeri i zajednička oznaka tri kolone",
+          "source": "PDF strana 2, donji slajd; blok 3: Crveno istaknuti autokomplementarni primeri i zajednička oznaka tri kolone",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s004:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s005": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s005:e01",
+          "description": "Prikaz cifara preko deljenja BV/10 i ostatka; ponavljanje postupka",
+          "source": "PDF strana 3, gornji slajd; blok 1: Prikaz cifara preko deljenja BV/10 i ostatka; ponavljanje postupka",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "06-s005:e02",
+          "description": "Račun 59+13 i oba BCD operanda",
+          "source": "PDF strana 3, gornji slajd; blok 2: Račun 59+13 i oba BCD operanda",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s005:e03",
+          "description": "Svih šest redova sabiranja/korekcije, prenos i cifre 7/2",
+          "source": "PDF strana 3, gornji slajd; blok 3: Svih šest redova sabiranja/korekcije, prenos i cifre 7/2",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s005:e04",
+          "description": "Korekcija −10+16=+6 i komplement osnove",
+          "source": "PDF strana 3, gornji slajd; blok 4: Korekcija −10+16=+6 i komplement osnove",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s005:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s006": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s006:e01",
+          "description": "Račun 43−19 i transformacija u 43+81 sa oba BCD zapisa",
+          "source": "PDF strana 3, donji slajd; blok 1: Račun 43−19 i transformacija u 43+81 sa oba BCD zapisa",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s006:e02",
+          "description": "Svih pet redova računa, korekcija desetica i izlazni prenos",
+          "source": "PDF strana 3, donji slajd; blok 2: Svih pet redova računa, korekcija desetica i izlazni prenos",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s006:e03",
+          "description": "Konačne cifre 2 i 4",
+          "source": "PDF strana 3, donji slajd; blok 3: Konačne cifre 2 i 4",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s006:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s007": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s007:e01",
+          "description": "Izvorni prvi red 19−53 i nastavak 19−43, sa svim BCD operandima",
+          "source": "PDF strana 4, gornji slajd; blok 1: Izvorni prvi red 19−53 i nastavak 19−43, sa svim BCD operandima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s007:e02",
+          "description": "Šest redova računa: zbir, prenos, dodavanje6, rezultat76",
+          "source": "PDF strana 4, gornji slajd; blok 2: Šest redova računa: zbir, prenos, dodavanje6, rezultat76",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s007:e03",
+          "description": "Objašnjenje +16 prema +10, dodavanje6 na donju cifru",
+          "source": "PDF strana 4, gornji slajd; blok 3: Objašnjenje +16 prema +10, dodavanje6 na donju cifru",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s007:e04",
+          "description": "Izvorna jednakost 76₁₀=−24₁₀",
+          "source": "PDF strana 4, gornji slajd; blok 4: Izvorna jednakost 76₁₀=−24₁₀",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s007:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s008": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s008:e01",
+          "description": "Čitanje binarne vrednosti sleva nadesno, pravila dupliranja za0 i1",
+          "source": "PDF strana 4, donji slajd; blok 1: Čitanje binarne vrednosti sleva nadesno, pravila dupliranja za0 i1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s008:e02",
+          "description": "Svih osam prefiksa 11110011 i međuvrednosti 1,3,7,15,30,60,121,243",
+          "source": "PDF strana 4, donji slajd; blok 2: Svih osam prefiksa 11110011 i međuvrednosti 1,3,7,15,30,60,121,243",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s008:e03",
+          "description": "Potpuni polinom u osnovi2 i Hornerovo preuređenje do c₂,c₁,c₀",
+          "source": "PDF strana 4, donji slajd; blok 3: Potpuni polinom u osnovi2 i Hornerovo preuređenje do c₂,c₁,c₀",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s008:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s009": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s009:e01",
+          "description": "Ulaz11110011 i prvih sedam redova tabele korekcije6",
+          "source": "PDF strana 5, gornji slajd; blok 1: Ulaz11110011 i prvih sedam redova tabele korekcije6",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s009:e02",
+          "description": "Preostali redovi, koraci60/121/243 i svi izdvojeni prenosi",
+          "source": "PDF strana 5, gornji slajd; blok 2: Preostali redovi, koraci60/121/243 i svi izdvojeni prenosi",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s009:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s010": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s010:e01",
+          "description": "Svih17 redova druge tabele: ulaz, korekcije3 i svi međurezultati",
+          "source": "PDF strana 5, donji slajd; blok 1: Svih17 redova druge tabele: ulaz, korekcije3 i svi međurezultati",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s010:e02",
+          "description": "Izdvojene grupe i konačni BCD243",
+          "source": "PDF strana 5, donji slajd; blok 2: Izdvojene grupe i konačni BCD243",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s010:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s011": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s011:e01",
+          "description": "Četiri koraka Shift and Add-3; završetak nakon osam pomeraja pre korekcije",
+          "source": "PDF strana 6, gornji slajd; blok 1: Četiri koraka Shift and Add-3; završetak nakon osam pomeraja pre korekcije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s011:e02",
+          "description": "Cela tabela17redova: početak, osam pomeraja, tri ADD3 koraka i rezultati",
+          "source": "PDF strana 6, gornji slajd; blok 2: Cela tabela17redova: početak, osam pomeraja, tri ADD3 koraka i rezultati",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s011:e03",
+          "description": "Konačne decimalne kolone2,4,3",
+          "source": "PDF strana 6, gornji slajd; blok 3: Konačne decimalne kolone2,4,3",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s011:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s012": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s012:e01",
+          "description": "IEEE754, puno značenje IEEE i formula vrednosti",
+          "source": "PDF strana 6, donji slajd; blok 1: IEEE754, puno značenje IEEE i formula vrednosti",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s012:e02",
+          "description": "Bit znaka S i obe vrednosti",
+          "source": "PDF strana 6, donji slajd; blok 2: Bit znaka S i obe vrednosti",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s012:e03",
+          "description": "Mantisa1.F, frakcija i neupisani skriveni bit",
+          "source": "PDF strana 6, donji slajd; blok 3: Mantisa1.F, frakcija i neupisani skriveni bit",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s012:e04",
+          "description": "Eksponent E−B, k bita, B=2^(k−1)−1 i zapis SEF",
+          "source": "PDF strana 6, donji slajd; blok 4: Eksponent E−B, k bita, B=2^(k−1)−1 i zapis SEF",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s012:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s013": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s013:e01",
+          "description": "Primer13.25: svi koraci normalizacije, znak, frakcija, eksponent i izvorna kodna reč",
+          "source": "PDF strana 7, gornji slajd; blok 1: Primer13.25: svi koraci normalizacije, znak, frakcija, eksponent i izvorna kodna reč",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s013:e02",
+          "description": "Druga kodna reč: sva polja, mantisa i eksponent7",
+          "source": "PDF strana 7, gornji slajd; blok 2: Druga kodna reč: sva polja, mantisa i eksponent7",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s013:e03",
+          "description": "Izvorni završni lanac V=−101001₂=−164₁₀",
+          "source": "PDF strana 7, gornji slajd; blok 3: Izvorni završni lanac V=−101001₂=−164₁₀",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s013:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s014": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s014:e01",
+          "description": "Normalne vrednosti: izvorni uslov1<E<254 i formula",
+          "source": "PDF strana 7, donji slajd; blok 1: Normalne vrednosti: izvorni uslov1<E<254 i formula",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s014:e02",
+          "description": "NaN i beskonačnosti sa oba znaka",
+          "source": "PDF strana 7, donji slajd; blok 2: NaN i beskonačnosti sa oba znaka",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s014:e03",
+          "description": "Subnormalni brojevi i gradual underflow; formula sa0.F",
+          "source": "PDF strana 7, donji slajd; blok 3: Subnormalni brojevi i gradual underflow; formula sa0.F",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s014:e04",
+          "description": "Pozitivna i negativna nula",
+          "source": "PDF strana 7, donji slajd; blok 4: Pozitivna i negativna nula",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s014:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s015": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s015:e01",
+          "description": "Dve varijante najbližeg zaokruživanja i tri usmerena režima",
+          "source": "PDF strana 8, gornji slajd; blok 1: Dve varijante najbližeg zaokruživanja i tri usmerena režima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s015:e02",
+          "description": "Cela tabela: četiri početne vrednosti i svih20 zaokruženih rezultata",
+          "source": "PDF strana 8, gornji slajd; blok 2: Cela tabela: četiri početne vrednosti i svih20 zaokruženih rezultata",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s015:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s016": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s016:e01",
+          "description": "Tabela za0–7: binarni, termometarski i osmobitni one-hot kod",
+          "source": "PDF strana 8, donji slajd; blok 1: Tabela za0–7: binarni, termometarski i osmobitni one-hot kod",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s016:e02",
+          "description": "Broj korišćenih reči8/8,8/128,8/256",
+          "source": "PDF strana 8, donji slajd; blok 2: Broj korišćenih reči8/8,8/128,8/256",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s016:e03",
+          "description": "Težine termometarskog i izvorni spisak težina one-hot položaja",
+          "source": "PDF strana 8, donji slajd; blok 3: Težine termometarskog i izvorni spisak težina one-hot položaja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s016:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s017": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s017:e01",
+          "description": "Promena jednog bita između sukcesivnih vrednosti",
+          "source": "PDF strana 9, gornji slajd; blok 1: Promena jednog bita između sukcesivnih vrednosti",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s017:e02",
+          "description": "Tabela16 redova: decimalni, binarni, puni Grejov i Grejov BCD ciklus",
+          "source": "PDF strana 9, gornji slajd; blok 2: Tabela16 redova: decimalni, binarni, puni Grejov i Grejov BCD ciklus",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s017:e03",
+          "description": "Krajnje crvene reči i prazne BCD ćelije iznad9",
+          "source": "PDF strana 9, gornji slajd; blok 3: Krajnje crvene reči i prazne BCD ćelije iznad9",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s017:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s018": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s018:e01",
+          "description": "Prelaz8→7, kodna reč1000→0111",
+          "source": "PDF strana 9, donji slajd; blok 1: Prelaz8→7, kodna reč1000→0111",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s018:e02",
+          "description": "Četiri paralelna kanala, predajnik/prijemnik, Dᵢ/rDᵢ, sva kašnjenja",
+          "source": "PDF strana 9, donji slajd; blok 2: Četiri paralelna kanala, predajnik/prijemnik, Dᵢ/rDᵢ, sva kašnjenja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s018:e03",
+          "description": "Osam vremenskih tragova, četiri merenja kašnjenja, tri trenutka očitavanja",
+          "source": "PDF strana 9, donji slajd; blok 3: Osam vremenskih tragova, četiri merenja kašnjenja, tri trenutka očitavanja",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s018:e04",
+          "description": "Objašnjenje neusaglašenih kanala i očitanja1001/1111/0111",
+          "source": "PDF strana 9, donji slajd; blok 4: Objašnjenje neusaglašenih kanala i očitanja1001/1111/0111",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s018:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s019": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s019:e01",
+          "description": "Prelaz8→7 u Grejovom kodu1100→0100",
+          "source": "PDF strana 10, gornji slajd; blok 1: Prelaz8→7 u Grejovom kodu1100→0100",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s019:e02",
+          "description": "Isti četvorokanalni blok sa svim oznakama",
+          "source": "PDF strana 10, gornji slajd; blok 2: Isti četvorokanalni blok sa svim oznakama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s019:e03",
+          "description": "Osam vremenskih tragova i tri očitanja1100/1100/0100",
+          "source": "PDF strana 10, gornji slajd; blok 3: Osam vremenskih tragova i tri očitanja1100/1100/0100",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s019:e04",
+          "description": "Jedan promenjeni bit i izvorna tvrdnja o bitu najniže težine",
+          "source": "PDF strana 10, gornji slajd; blok 4: Jedan promenjeni bit i izvorna tvrdnja o bitu najniže težine",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s019:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s020": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s020:e01",
+          "description": "Obe Karnoove karte, Grejova zaglavlja i četiri promenljive",
+          "source": "PDF strana 10, donji slajd; blok 1: Obe Karnoove karte, Grejova zaglavlja i četiri promenljive",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s020:e02",
+          "description": "Puna cik-cak putanja0→15 sa svim strelicama",
+          "source": "PDF strana 10, donji slajd; blok 2: Puna cik-cak putanja0→15 sa svim strelicama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s020:e03",
+          "description": "BCD putanja0→9 sa svim strelicama",
+          "source": "PDF strana 10, donji slajd; blok 3: BCD putanja0→9 sa svim strelicama",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s020:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s021": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s021:e01",
+          "description": "Identitet (b⊕p)⊕p=b i svih sedam redova leve tabele",
+          "source": "PDF strana 11, gornji slajd; blok 1: Identitet (b⊕p)⊕p=b i svih sedam redova leve tabele",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s021:e02",
+          "description": "Definicija kodnih reči B i G",
+          "source": "PDF strana 11, gornji slajd; blok 2: Definicija kodnih reči B i G",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s021:e03",
+          "description": "Svih šest prikazanih redova konverzije B→G",
+          "source": "PDF strana 11, gornji slajd; blok 3: Svih šest prikazanih redova konverzije B→G",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s021:e04",
+          "description": "Svih šest izvornih redova povratne konverzije G→B",
+          "source": "PDF strana 11, gornji slajd; blok 4: Svih šest izvornih redova povratne konverzije G→B",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s021:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s022": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s022:e01",
+          "description": "Fizički uzrok grešaka pri obradi, smeštanju i prenosu; promena0↔1 i zaštitni kodovi",
+          "source": "PDF strana 11, donji slajd; blok 1: Fizički uzrok grešaka pri obradi, smeštanju i prenosu; promena0↔1 i zaštitni kodovi",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s022:e02",
+          "description": "Cela tabela osam poruka, parnost, kompletan kod i broj8od16",
+          "source": "PDF strana 11, donji slajd; blok 2: Cela tabela osam poruka, parnost, kompletan kod i broj8od16",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s022:e03",
+          "description": "EXOR, parna/neparna parnost, prijem i otkrivanje neparnog broja promena",
+          "source": "PDF strana 11, donji slajd; blok 3: EXOR, parna/neparna parnost, prijem i otkrivanje neparnog broja promena",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s022:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s023": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s023:e01",
+          "description": "Opšta polinomska predstava kodne reči",
+          "source": "PDF strana 12, gornji slajd; blok 1: Opšta polinomska predstava kodne reči",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s023:e02",
+          "description": "Cela bit/polinom tabela za1010100101 i konačan polinom",
+          "source": "PDF strana 12, gornji slajd; blok 2: Cela bit/polinom tabela za1010100101 i konačan polinom",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s023:e03",
+          "description": "Generator stepena k sa svim koeficijentima",
+          "source": "PDF strana 12, gornji slajd; blok 3: Generator stepena k sa svim koeficijentima",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s023:e04",
+          "description": "Dodavanje k bita na osnovu ostatka PX^k÷g i rad po modulu2",
+          "source": "PDF strana 12, gornji slajd; blok 4: Dodavanje k bita na osnovu ostatka PX^k÷g i rad po modulu2",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s023:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s024": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s024:e01",
+          "description": "Poruka11100110, njen polinom i generatorX⁴+X³+1",
+          "source": "PDF strana 12, donji slajd; blok 1: Poruka11100110, njen polinom i generatorX⁴+X³+1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s024:e02",
+          "description": "Ceo lanac deljenja: proširenjeX⁴, količnik i ostatak",
+          "source": "PDF strana 12, donji slajd; blok 2: Ceo lanac deljenja: proširenjeX⁴, količnik i ostatak",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s024:e03",
+          "description": "OstatakX²+X=0110 i poslata poruka111001100110",
+          "source": "PDF strana 12, donji slajd; blok 3: OstatakX²+X=0110 i poslata poruka111001100110",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s024:e04",
+          "description": "Provera množenjem: sva tri reda proširenog proizvoda i poništavanje parova",
+          "source": "PDF strana 12, donji slajd; blok 4: Provera množenjem: sva tri reda proširenog proizvoda i poništavanje parova",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s024:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s025": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s025:e01",
+          "description": "Modulo2 deljenje, oduzimanje bez pozajmice i EXOR",
+          "source": "PDF strana 13, gornji slajd; blok 1: Modulo2 deljenje, oduzimanje bez pozajmice i EXOR",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s025:e02",
+          "description": "Svih23 redova deljenja i sedam strelica dopisivanja; zagrade alternativnog prijema",
+          "source": "PDF strana 13, gornji slajd; blok 2: Svih23 redova deljenja i sedam strelica dopisivanja; zagrade alternativnog prijema",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s025:e03",
+          "description": "Prijem sa CRC0110 daje00000",
+          "source": "PDF strana 13, gornji slajd; blok 3: Prijem sa CRC0110 daje00000",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s025:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s026": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s026:e01",
+          "description": "Definicije Hamming distance, rastojanja dve reči i minimuma koda",
+          "source": "PDF strana 13, donji slajd; blok 1: Definicije Hamming distance, rastojanja dve reči i minimuma koda",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s026:e02",
+          "description": "Primer10011/10110 i dve izdvojene pozicije, d=2",
+          "source": "PDF strana 13, donji slajd; blok 2: Primer10011/10110 i dve izdvojene pozicije, d=2",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s026:e03",
+          "description": "Rastojanja binarnog i paritetnog koda1/2",
+          "source": "PDF strana 13, donji slajd; blok 3: Rastojanja binarnog i paritetnog koda1/2",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s026:e04",
+          "description": "Uslovi otkrivanja d≥k+1 i korekcije d≥2l+1",
+          "source": "PDF strana 13, donji slajd; blok 4: Uslovi otkrivanja d≥k+1 i korekcije d≥2l+1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s026:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s027": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s027:e01",
+          "description": "Hemingov kod d=3 za jednu grešku",
+          "source": "PDF strana 14, gornji slajd; blok 1: Hemingov kod d=3 za jednu grešku",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s027:e02",
+          "description": "Broj sindroma2^r≥n+r+1",
+          "source": "PDF strana 14, gornji slajd; blok 2: Broj sindroma2^r≥n+r+1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s027:e03",
+          "description": "Oba preuređenja: ukupna dužina i najveći broj informacionih bita",
+          "source": "PDF strana 14, gornji slajd; blok 3: Oba preuređenja: ukupna dužina i najveći broj informacionih bita",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s027:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s028": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s028:e01",
+          "description": "Tri koraka predaje, numeracija od1 i zaštitni položaji2^i",
+          "source": "PDF strana 14, donji slajd; blok 1: Tri koraka predaje, numeracija od1 i zaštitni položaji2^i",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s028:e02",
+          "description": "Cela matrica: položaji13→1, binarne oznake, informacioni/zaštitni simboli",
+          "source": "PDF strana 14, donji slajd; blok 2: Cela matrica: položaji13→1, binarne oznake, informacioni/zaštitni simboli",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s028:e03",
+          "description": "Četiri reda parnosti, svi x i četiri crvena zaštitna položaja, uključujući sporni x13/r1",
+          "source": "PDF strana 14, donji slajd; blok 3: Četiri reda parnosti, svi x i četiri crvena zaštitna položaja, uključujući sporni x13/r1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s028:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s029": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s029:e01",
+          "description": "Dva koraka prijema i isti smer numeracije",
+          "source": "PDF strana 15, gornji slajd; blok 1: Dva koraka prijema i isti smer numeracije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s029:e02",
+          "description": "Cela matrica: položaji, binarne oznake, simboli i svi x, uključujući sporni x13/p1",
+          "source": "PDF strana 15, gornji slajd; blok 2: Cela matrica: položaji, binarne oznake, simboli i svi x, uključujući sporni x13/p1",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s029:e03",
+          "description": "Oba zaključka o nultom/nenultom sindromu i određivanje pozicije",
+          "source": "PDF strana 15, gornji slajd; blok 3: Oba zaključka o nultom/nenultom sindromu i određivanje pozicije",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s029:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "06-s030": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "06-s030:e01",
+          "description": "Paritetni kod d=2",
+          "source": "PDF strana 15, donji slajd; blok 1: Paritetni kod d=2",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s030:e02",
+          "description": "Termometarski kod d=1, sva tri para/obrasca i pitanja o grešci",
+          "source": "PDF strana 15, donji slajd; blok 2: Termometarski kod d=1, sva tri para/obrasca i pitanja o grešci",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s030:e03",
+          "description": "One-hot d=2, sva tri para/obrasca i pitanja o grešci",
+          "source": "PDF strana 15, donji slajd; blok 3: One-hot d=2, sva tri para/obrasca i pitanja o grešci",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s030:e04",
+          "description": "Grejov kod d=1 i zaključak da nije namenjen otkrivanju grešaka",
+          "source": "PDF strana 15, donji slajd; blok 4: Grejov kod d=1 i zaključak da nije namenjen otkrivanju grešaka",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "06-s030:d01",
+          "description": "Dodatno nastavno objašnjenje: međukoraci i tumačenje elemenata tog slajda",
+          "source": "Proverljiva dopuna: izvorni postupak i nezavisna računica u kodovi/provera_beleski.py; za FPF i Oracle Single Format",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    }
+  }
+}

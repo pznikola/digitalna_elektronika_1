@@ -1,1 +1,10 @@
-\begin{tikzpicture}[x=.6cm,y=.62cm,font=\sitneoznake,>=Latex]\ctikzset{bipoles/length=.55cm}\node[draw,minimum width=1.32cm,minimum height=.27cm,inner sep=1pt] (p1) at(.35,0){Predajnik 1};\draw(p1.east)--(2.3,0);\node[draw,minimum width=1.32cm,minimum height=.27cm,inner sep=1pt] (p2) at(.35,-0.8){Predajnik 2};\draw(p2.east)--(2.3,-0.8);\node[draw,minimum width=1.32cm,minimum height=.27cm,inner sep=1pt] (pi) at(.35,-1.8){Predajnik i};\draw(pi.east)--(2.3,-1.8);\node[draw,minimum width=1.32cm,minimum height=.27cm,inner sep=1pt] (pn) at(.35,-2.8){Predajnik n};\draw(pn.east)--(2.3,-2.8);\node at(.35,-1.25){$\cdots$};\node at(.35,-2.25){$\cdots$};\draw(2.3,0)--(2.3,-2.8);\node[draw,minimum width=1.25cm,minimum height=.3cm,inner sep=1pt] (r) at(4.2,-1.4){Prijemnik};\draw(2.3,-1.4)--(r.west);\end{tikzpicture}
+\begin{tikzpicture}[font=\sitneoznake,>=Latex,line width=.7pt]\ctikzset{bipoles/length=.5cm}
+\node[draw,minimum width=1.65cm,minimum height=.3cm,inner sep=1pt](p1)at(0,0){Predajnik 1};
+\draw(p1.east)--(2.2,0);
+\node[draw,minimum width=1.65cm,minimum height=.3cm,inner sep=1pt](p2)at(0,-0.45){Predajnik 2};
+\draw(p2.east)--(2.2,-0.45);
+\node[draw,minimum width=1.65cm,minimum height=.3cm,inner sep=1pt](pi)at(0,-1.05){Predajnik i};
+\draw(pi.east)--(2.2,-1.05);
+\node[draw,minimum width=1.65cm,minimum height=.3cm,inner sep=1pt](pn)at(0,-1.65){Predajnik n};
+\draw(pn.east)--(2.2,-1.65);
+\node at(0,-.75){$\cdots$};\node at(0,-1.35){$\cdots$};\draw(2.2,0)--(2.2,-1.65);\node[draw,minimum width=1.45cm,minimum height=.32cm,inner sep=1pt](r)at(4.15,-.825){Prijemnik};\draw(2.2,-.825)--(r.west);\foreach\y in{-.45,-.825,-1.05}{\fill(2.2,\y)circle(1.2pt);}\end{tikzpicture}

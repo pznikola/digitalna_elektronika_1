@@ -1,0 +1,27 @@
+\slajdid{02-s051-rtl01}
+\begin{frame}[label=02-s051-rtl01]{Simulacioni model statičkog hazarda}
+\setlength{\parskip}{0pt}
+\input{kodovi/primeri_sv/stil.tex}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.55\textwidth}
+% element: 02-s051-rtl01:d01
+\lstinputlisting[style=DErtl,firstnumber=1]{kodovi/primeri_sv/02-s051/mreza_sa_hazardom.sv}
+\end{column}
+\begin{column}{.42\textwidth}
+\fontsize{10}{12}\selectfont
+\textbf{Lažna nula}\par\vspace{2mm}
+\(F=C\bar B+BA\)\par\vspace{2mm}
+Za \(C=A=1\) i prelaz \(B:1\to0\), izlaz treba da ostane 1. Kasni samo invertor; ostali gejtovi su idealno brzi.\par\vspace{2mm}
+% element: 02-s051-rtl01:d03
+{\fontsize{9}{11}\selectfont
+\alert{Kašnjenje \(T\) služi samo za simulaciju.} Pri realnom RTL projektovanju kašnjenja gejtova ne zadajemo naredbom \texttt{assign \#(T)}.\par}
+\par\vspace{2mm}
+% element: 02-s051-rtl01:d02
+{\fontsize{9}{11}\selectfont
+Testbench:\par
+\href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/predavanja/02_sinteza_kombinacionih_mreza/kodovi/primeri_sv/02-s051/tb_mreza_sa_hazardom.sv}{\texttt{tb\_mreza\_sa\_hazardom.sv}}\par
+Testbench bez provere:\par
+\href{https://github.com/pznikola/digitalna_elektronika_1/blob/main/predavanja/02_sinteza_kombinacionih_mreza/kodovi/primeri_sv/02-s051/tb_mreza_sa_hazardom_bez_provere.sv}{\texttt{tb\_mreza\_sa\_hazardom\_bez\_provere.sv}}\par}
+\end{column}
+\end{columns}
+\end{frame}

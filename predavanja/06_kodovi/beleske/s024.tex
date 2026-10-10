@@ -1,0 +1,18 @@
+\BeleskeID{06-s024}
+% element: 06-s024:e04
+% element: 06-s024:d01
+Poruka 11100110 ima nenulte koeficijente uz $X^7,X^6,X^5,X^2,X$. Generator je stepena četiri, pa se najpre dodaju četiri nule. Deljenjem se dobija količnik $X^7+X^5+X^4+X^2+X$ i ostatak $X^2+X$.
+
+U prikazanom množenju količnik se posebno množi sa $X^4$, $X^3$ i jedinicom iz generatora. Članovi $X^8$, $X^7$ i $X^4$ pojavljuju se po dva puta i nestaju po modulu dva. Član $X^5$ pojavljuje se tri puta, pa ostaje jednom. Posle sabiranja dobija se proširena poruka sa dodatim ostatkom.
+
+Ostatak mora imati četiri bita: koeficijenti uz $X^3,X^2,X,1$ su 0,1,1,0. To objašnjava vodeću nulu u CRC-u 0110. Pri proveri primljene kodne reči isti ostatak se ponovo sabira sa dodatim bitima i daje nulu.
+
+Množenje se razlaže na tri reda:
+\[
+\begin{aligned}
+&X^{11}+X^9+X^8+X^6+X^5,\\
+&X^{10}+X^8+X^7+X^5+X^4,\\
+&X^7+X^5+X^4+X^2+X.
+\end{aligned}
+\]
+Njihov zbir je $X^{11}+X^{10}+X^9+X^6+X^5+(X^2+X)$. Sabiranje još jednog $X^2+X$ poništava oba člana ostatka, jer su $1+1=0$ po modulu dva.

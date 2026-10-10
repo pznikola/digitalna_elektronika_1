@@ -1,7 +1,13 @@
 \slajdid{09_1-s036}
-\begin{frame}[label=09_1-s036]
-\gusttekst
-Ideja da se umesto otpornika $R_L$ uvede tranzistor. Za početak nMOS tranzistor sa indukovanim kanalom.
-\begin{center}\input{slike/tikz/s036_invertor_sa_aktivnim_opterecenjem.tex}\end{center}
-Pošto je bitan režim rada tranzistora $T_L$ (L - load) razmotrićemo dva slučaja u zavisnosti koliki je kontrolni napon $V_C$ na gejtu tranzistora $T_L$. Nadam se da je jasno da je drejn tranzistora $T_L$ na $V_{DD}$ a sors na izlaznom naponu. Isto tako da bi kvalitativno videli šta se dešava smatraćemo da su tranzistori \alert{sa dugačkim kanalom}. Mogli bi da izvedemo uzimajući u obzir i kratki kanal, ali bi ionako u „krajnjim“ režimima uradili uprošćavanja i opet došli do izraza za dugačak kanal, kao što smo videli.
+\begin{frame}[label=09_1-s036]{NMOS opterećenje sa kontrolnim naponom}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{3pt}\setlength{\belowdisplayshortskip}{3pt}
+% element: 09_1-s036:e01
+% element: 09_1-s036:e02
+% element: 09_1-s036:e03
+\begin{columns}[T,onlytextwidth]\column{.30\textwidth}\centering \input{slike/tikz/s036_invertor_sa_aktivnim_opterecenjem.tex}\column{.66\textwidth}Otpornik $R_L$ zamenjujemo NMOS tranzistorom sa indukovanim kanalom.
+\begin{itemize}
+\item $T_L$: load; gejt je na kontrolnom naponu $V_C$.
+\item Drejn $T_L$: $V_{DD}$; sors: izlazni napon.
+\item Režim opterećenja određuje $V_C$.
+\item Za kvalitativnu analizu koristimo \alert{dugačak kanal}.
+\end{itemize}\end{columns}
 \end{frame}

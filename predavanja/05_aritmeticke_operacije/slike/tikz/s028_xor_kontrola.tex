@@ -1,4 +1,4 @@
-\begin{tikzpicture}[font=\fontsize{8}{9}\selectfont]
+\begin{tikzpicture}[font=\fontsize{9}{11}\selectfont]
 \foreach \y/\bit/\label in {0/0/BAFER,-1.55/1/INVERTOR}{
 \node[xor gate US,draw,logic gate inputs=nn,scale=.65] (g\bit) at (0,\y) {};
 \draw (g\bit.input 1)--(-.65,\y+.2)node[left]{$x$};

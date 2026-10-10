@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-09",
+  "timezone": "Europe/Belgrade",
+  "lecture": "02",
+  "action": "add_rtl_examples",
+  "source_ids": [
+    "02-s021",
+    "02-s022",
+    "02-s051"
+  ],
+  "user_message": "za predavanje 02 potrebno je napraviti primere za:\n\ns021\n\ns022\n\ns051: dodati parametar T kasnjenje za ovo kolo, bilo bi dobro da se u simulaciji vidi lazna nula. Staviti komentar na slajdu da se kasnjenje ne dodaje u realnom projektovanju vec da ovo sluzi samo kao primer\n\nTakodje, ono sto bi bilo dobro je da dodas dodatni TB za studente koji ce biti jednostavan da se prosiri. U smislu bice napisan kao:\n\n- pobuda ulaza i kasnjenje\n- pobuda ulaza i kasnjenje\n- pobuda ulaza i kasnjenje\n\nbez ikakve provere da dizajn radi vec ce ovo sluziti vise kao primer koji studenti mogu da promene tako da vide sta se desava ako podese sami neki ulaz",
+  "layout_messages": [
+    "ako RTL kodu fali malo da stane na jedan slajd, smes ili da smanjis font ili da ga prikazes u dve kolone",
+    "ali dodaj brojeve linija ako prikazujes kod na vise od jednog slajda ili u dve kolone. Cisto radi preglednosti",
+    "takodje, da li mislis da mozemo da stavimo sve RTL kodove na jedan slajd ako tekst sa slajda stavimo u kolonu dva a font RTL koda smanjimo?"
+  ],
+  "result_approval": false,
+  "naming_message": "nemoj da dodajes: kodovi/primeri_sv/02-s051/zadatak.sv suvisno je\numesto Testbench (provera) neka stoji samo testbench\numesto Studentska pobuda neka stoji samo Testbench bez provere\ntakodje, nemoj da zoves u predavanjima tb_zadatak ili da modul zoves zadatak. Bolje nazovi po imenu funkcije nego ovako",
+  "function_names_message": "neka se rtl s021 zove mreza_zp a slajd s022 mreza_pz\n\npitanje, zasto za s051 samo invertor ima kasnjenje? To nema smisla zar ne?",
+  "hazard_model_response": "onda u redu",
+  "label_message": "testbench: treba da bude sa velikim T u ovim slajdovima"
+}

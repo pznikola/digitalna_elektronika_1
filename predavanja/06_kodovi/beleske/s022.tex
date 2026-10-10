@@ -1,0 +1,8 @@
+\BeleskeID{06-s022}
+% element: 06-s022:e01
+% element: 06-s022:d01
+Za parnu parnost zaštitni bit jednak je EXOR-u bita poruke. Ako je broj jedinica u poruci neparan, dodaje se jedinica; ako je paran, dodaje se nula. Na prijemu EXOR svih bita, uključujući zaštitni, treba da bude nula.
+
+Svaka promena jednog bita obrće ukupnu parnost. Zato neparan broj promena daje signal greške, dok paran broj promena može proći neprimećeno. Na primer, u 0000 promene dva donja bita daju 0011, koji i dalje ima parnu parnost. Sam zaštitni bit ne određuje poziciju greške i ne omogućava njeno ispravljanje.
+
+Fizički procesi mogu izazvati grešku pri obradi, smeštanju ili prenosu. Dodavanje redundantnog sadržaja omogućava detekciju, a odgovarajući složeniji kodovi i korekciju.

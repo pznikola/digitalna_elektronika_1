@@ -1,16 +1,12 @@
 \slajdid{09_1-s028}
-\begin{frame}[label=09_1-s028]
-\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}
-Kod dinamičkog režima sa prelaska $V_{OL}$ na $V_{OH}$ u slučaju da je invertor opterećen kapacitivnošću $C_L$ na izlasku, pošto je u pitanju prosto RC kolo možemo odmah da pišemo
-\[\tau=R_LC_L\qquad t_{pLH}=0.69\tau\qquad t_r=2.2\tau\]
-Prilikom prelaska $V_{OH}$ na $V_{OL}$ moramo da se poslužimo modelom. Pošto napon na izlazu, zbog kapacitivnosti, ne može trenutno da se promeni, napon $V_{DS}$ će biti visok i tranzistor će raditi u zasićenju. Njegova struja je tada konstantna (zanemarićemo $\lambda$) i jednaka je
-\begin{columns}[c,onlytextwidth]\column{.66\textwidth}
-\[I_{Dn,D}=\frac{k_n}{2}\frac1{1+\frac{(V_I-V_{Tn})}{L_nE_{Cn}}}(V_I-V_{Tn})^2\]
-Pošto posmatramo najgori slučaj, smatraćemo da je $V_I=V_{OHmin}$. Po modelu imamo
-\[\tau=C_LR_L\]
-\[v(t_0^+)=V_{OH}\]
-\[v_0(\infty)=V_{DD}-R_Li_{RC}(\infty)=V_{DD}-R_LI_{Dn}\alert{\ll0}\]
-Ostaje pitanje da li je tranzistor bio u zasićenju za vreme ovog procesa.
-\column{.32\textwidth}\centering
-\input{slike/tikz/s028_punjenje_rc.tex}\par\smallskip\input{slike/tikz/s028_praznjenje_strujnim_izvorom.tex}\end{columns}
+\begin{frame}[label=09_1-s028]{Dinamički režim: punjenje i pražnjenje}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{3pt}\setlength{\belowdisplayshortskip}{3pt}
+% element: 09_1-s028:e01
+% element: 09_1-s028:e02
+% element: 09_1-s028:e03
+% element: 09_1-s028:e04
+\begin{columns}[T,onlytextwidth]\column{.48\textwidth}\textbf{Prelaz L u H}\par $\tau=R_LC_L$, $t_{pLH}=0.69\tau$, $t_r=2.2\tau$.\par\medskip
+\centering \input{slike/tikz/s028_punjenje_rc.tex}\column{.48\textwidth}\textbf{Prelaz H u L}\par $T_D$ počinje u zasićenju; zanemarujemo $\lambda$.\[I_{Dn,D}=\frac{k_n}{2}\frac1{1+\frac{(V_I-V_{Tn})}{L_nE_{Cn}}}(V_I-V_{Tn})^2\]
+Najgori slučaj: $V_I=V_{OHmin}$.\par\centering \input{slike/tikz/s028_praznjenje_strujnim_izvorom.tex}\end{columns}\par $v(t_0^+)=V_{OH}$.
+
+
 \end{frame}

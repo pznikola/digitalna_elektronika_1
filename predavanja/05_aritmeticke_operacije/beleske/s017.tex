@@ -1,0 +1,5 @@
+\BeleskeID{05-s017}
+% element: 05-s017:d01
+Prenos se propagira od bita najmanje težine ka najvećem. U najgorem slučaju završni bit sume čeka prolazak prenosa kroz $N-1$ prethodnih stepena, a zatim sopstveno kašnjenje formiranja sume. Zato izraz $(N-1)t_{carry}+t_{sum}$ opisuje vreme do poslednje stabilne sume, uz istovrsne sabiračke stepene.
+
+Nisu svi ulazi podjednako spori: u nekim kombinacijama prenos se generiše ili zaustavlja ranije. Kritična putanja određuje vreme koje digitalni sistem mora da obezbedi za proizvoljne operande. Linearni rast motiviše realizacije sa bržim izračunavanjem prenosa.

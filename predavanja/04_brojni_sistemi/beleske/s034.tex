@@ -1,0 +1,10 @@
+\BeleskeID{04-s034}
+% element: 04-s034:e01 — Definicija komplementa osnove i veza sa maksimumom+1 za r i n
+% element: 04-s034:e02 — Binarni drugi komplement invertovanjem bita+1 i formula
+% element: 04-s034:e03 — Decimalni primer: 1000 kodova, 0–499, −123=877 i podela vodećih cifara
+% element: 04-s034:e04 — Izvorni naziv decimalnog primera: komplement 9-tke
+% element: 04-s034:d01
+
+Kod se računa u fiksnoj širini od $n$ cifara. Maksimalna neoznačena vrednost je $r^n-1$, a $r^n$ je jedan više od nje. Zato se posle invertovanja binarnih bitova dodaje jedinica; eventualni prenos van zadate reči ne postaje novo mesto koda.
+
+Za $n=4$ binarna jedinica van reči ima težinu $2^4=16$. Ako komplementiramo nulu, svih četiri jedinica uz dodatak jedan daje prenos i četiri nule. Vodeće mesto prenosa se ne čuva, pa nula ostaje kod $0000$. Ovo razlikuje brojnu operaciju u zadatoj reči od zapisa sa proizvoljnim brojem cifara.

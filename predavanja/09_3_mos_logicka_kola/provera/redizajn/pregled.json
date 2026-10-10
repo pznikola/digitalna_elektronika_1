@@ -1,0 +1,1850 @@
+{
+  "slides": {
+    "09_3-s001": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.417802+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema. Naslovna beleška ima samo vezu sa ID-jem, bez veštačkog nastavnog teksta.",
+      "evidence": {
+        "source_render_sha256": "f23aaa1af3d99a665c179e1705f16c8a83202cb3c40a0f99a65d78b6a3989426",
+        "baseline_render_sha256": "d831fde19296f762984395fff1965e7554ab6051f94a1a5d4a5d6384de196e8f",
+        "new_render_sha256": "37baa8ce6c789980fcf20c82f9d63695607a5f1e3cc544a60e796e811713504c",
+        "notes_render_sha256": "3cb4c2f66a68695d50f36cc1ea44d8b5fbb133b9f032d53d9caa01a84654e4e3",
+        "slide_sources_sha256": "ba04ae45c176d14acdefea32e99a1b67cbc1d5f8d142f872dcdfa5d9a173f8b9",
+        "notes_sources_sha256": "cbef226b73e112a4011428be52c340a69d4b97924543d1ee9971ec41c2db5fd8",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "2d8a8ab3310d5c291223588e57441082ced1a78351549e6196b937c534996ab8",
+        "coverage_sha256": "ecca78e48e78a577a8299eb7243770454dcbfa31302c5b03f61100d8be727dc8"
+      }
+    },
+    "09_3-s002": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.418039+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "a4aba1886d5ae0413adfa195629216e0b8ef60c3a57086728a75b859e9b0fdbf",
+        "baseline_render_sha256": "b6b0cfad9e8b597ef9bb34e4eadac03813a21298f7d8881e42eef2beb07fab8f",
+        "new_render_sha256": "677fe2ec236184a058e54276bd00182f64849c736a23e3183dc66d0acd10082c",
+        "notes_render_sha256": "6f21f62c1afea5dbc798712e3ec09fe59e4e025ffdf8947ee26706d8fe465ef6",
+        "slide_sources_sha256": "588ae169f8027795c91494b11cae78ed97ca36636d441da337abde87626615f4",
+        "notes_sources_sha256": "72726e4527053840f632db1e564c1f8aaca1d68ede10446c97df8cc5aea1a2e7",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "385fbf7704f624178ad024eb4b278d0f10259b469b110f9a2faf199fe12fcedd",
+        "coverage_sha256": "1f289a3184b5c9d5684dcc3cfb47598c98ec8a44834a836cdcb69cd2df5a7fbb"
+      }
+    },
+    "09_3-s003": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.418243+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "78cb4fb4bbb304086b2ab58bce8dd34bb385df6eae41226d0f2b22cb605d74c1",
+        "baseline_render_sha256": "6343e9d4985206eb15c5e9e5a39221cf4dd0c6f1c95c0cb394e6f68767472d32",
+        "new_render_sha256": "b7a2bfd3f9492358c584a3aeff762fb21c5c1256441710d90c0f5c9caffd2c88",
+        "notes_render_sha256": "94a1559a9a979f2c4c25c26e14b601567396db6bf977d9662c16056b9056408e",
+        "slide_sources_sha256": "8927cb8756122fe5633f6f216fd0a6d7f43cb7a4a1537a22f9a02c2e7e1a541e",
+        "notes_sources_sha256": "ab9ff866aa6be1fbd75c84881dd28b21359f21aebdecc50915a811948894c059",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "206fb21e4d98bda11787c8c6eafff29435805a2b85e43d7a7f5062fea74e2fac",
+        "coverage_sha256": "a5ae2aabebbec07f08db7b01dffef105729e5d4330d7fe7329ed0afa0265f991"
+      }
+    },
+    "09_3-s004": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.418431+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "c550b369864329b8cd2bcd62f2e99dde716356b114192a048d201d6264935cc2",
+        "baseline_render_sha256": "c578416f5583f84931189187076b7e12144a98171e83792a78adc29d92c1b7c1",
+        "new_render_sha256": "2158ab990098031679fbb0b172b84db1e2c3c7143b741f3db81b29ba7f56bf56",
+        "notes_render_sha256": "14ea86df9e1e770928a776d393b7ab75fa76135971db534d7549c5735751e955",
+        "slide_sources_sha256": "1bdd4846bad4cc4add30b1bf7cc59ab5886ff9bf356f51796e316108c206ca04",
+        "notes_sources_sha256": "65e341a77d433e408d5d17db9f201ff227cfe58270478627cde9fc6ce66d9572",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "4850917da648ae56b31c72a518a3b7bad81ee27fd5dc2f98a8f689a62edc3514",
+        "coverage_sha256": "ad3fbaf43ebea8c25ca2e4996d7856aedac9c03c3d3fc00a52de26dc5afb7e0a"
+      }
+    },
+    "09_3-s005": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.418617+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "cbcf5f02b69cd682b5fe4abcf6f3b457964a3a15a20fb2c20fce553d5fc0a004",
+        "baseline_render_sha256": "64a98a622dfb6a3bb7172f94025c311c1eb4e8ae4f4b9f2742e31957ede5fba7",
+        "new_render_sha256": "c605e131d7ca84177730aaccc6c2f4617f97e29ebd7c7b49739a0b8071a9dcca",
+        "notes_render_sha256": "4f6e8f72a41f9ce0d33a040bab9f4256354035fe6810283e7ef493652671cf2f",
+        "slide_sources_sha256": "f952ffe9187f0555a5fd3872f631b4bfcdbc2ca6083216beb70f665541630230",
+        "notes_sources_sha256": "f59b48b470d1a3037a6a094b5d1998d26318c1a8f0d5bb4e560b8b2870e455c0",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "3c9e63189ff3e49b74e626fc567646c2744cf2b1a8c1f88639e68498691f9cf6",
+        "coverage_sha256": "27ba1edc017d753c138cf91499a7f7d75ef632742e4aed5e7db2492f35f52568"
+      }
+    },
+    "09_3-s006": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.418806+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "28aaf3e280784464bf85ee68f3d4b8b6fc6c216f5d2d7ca91edd408e5a60e3d6",
+        "baseline_render_sha256": "4165e0680ed375f002381134d737f0cd54bfca8a62f6232592c65c07503874ec",
+        "new_render_sha256": "c8c96fbdf3251af390777c647a744856911a2c09851800e649f318ec11b34079",
+        "notes_render_sha256": "c9486fc25ae4e402f78cfe7c8953f5ef2162055098120f7e3af26db73e1d43fb",
+        "slide_sources_sha256": "f9b47e2b280286b4bcddb49f571a45af71b98849929cb54ddeafe892cbd6974e",
+        "notes_sources_sha256": "4912c104522159e21b5c877ffa0c0a182f212961ef243fd6d64901e4318ec1d1",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "b333007b947638cb6eb9d9af1c693139cfb749988552aafd94b18e936d2e101d",
+        "coverage_sha256": "29c6efbe460242d59847b7f744fd2d24b20d63c428db9febc96c675df846ee02"
+      }
+    },
+    "09_3-s007": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.418996+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "68e4e1482a5cb8fb00d81388b3706885887918d7f9db9f4247376c5d1201f7ea",
+        "baseline_render_sha256": "bf25016c017d6963fd4d836a4dc92a9c45cd890fab2a0d2a613ad1e0242db9a3",
+        "new_render_sha256": "1552b46deafd3214345dc2a4cf07ebe75f233e100a81440d90811e5e76020ce2",
+        "notes_render_sha256": "3808dfbd34df6d190907e09109cd732648cb9cf6ecf5a0fd9cc45be1cabce0ca",
+        "slide_sources_sha256": "a3a2aa9a553ac5683e7a9f5e803877520fd687896a9769cd75a21a2be2769809",
+        "notes_sources_sha256": "fc988b9281c004bafff97f315a5c17bdb16ee53c62eaa8a2a4a752e6a3dbc70b",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "8e3f4e81e993014427f4667704fc51d3330364b0d531f6b9566e6d38f1410056",
+        "coverage_sha256": "50790ba362bde4b67a51d11320ce8c7483981f50ec3f4d0b923307696394b49f"
+      }
+    },
+    "09_3-s008": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.419189+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "fb4a7aa3f6557195a94c8cccbc49c1fd5d8099d5cf5d7503d0b5a14891caeb34",
+        "baseline_render_sha256": "8fe1734c0868996e2b2a805e54e0e6f9c78808ffd2131ee4b4347df58c759665",
+        "new_render_sha256": "54a04b502cda2fd7e2346399b84248f66f7834b46f2dabf9b229baa2c07df448",
+        "notes_render_sha256": "e0fd79ffce3565d90b2daeca5c96b48ab857e9c1de9843032ccc55e7085e59f2",
+        "slide_sources_sha256": "b1f743716c5bf4aea2ebfb7444fd68807a084e0ee136c1e2d0bdea5e10af7c6e",
+        "notes_sources_sha256": "1bb1442806f60603a3d9d6a22d4ad9c73bbc08f357125255abac2c91aad1e586",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "fea08d955686e007321f3d52d7c8ad04e3fb75e59c902778d3c5a14e78a0b65c",
+        "coverage_sha256": "6a4bd31bd318be6c6839c4efdc1c3e23e7f7b58ef9b8bc05507bb0405bb36608"
+      }
+    },
+    "09_3-s009": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.419373+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "42e590240cd6f08362eedc9d025f89dc76904576e4f30b7ec6919bb52d95a240",
+        "baseline_render_sha256": "32a1438d6c790aa0a49b58b81720bdf366ba0f8308c30b17e1e714c6db98425a",
+        "new_render_sha256": "3f6bb33a7cec5429250a3a454a28ef9d17d8a16e0825456b521acc3ccc2397b5",
+        "notes_render_sha256": "60ffbb8d1b2caafffee2a5d1f4bfbcbc43eccd51ef442790f0287f1d2541244d",
+        "slide_sources_sha256": "3868a02377ed0df489bf37abb34357471b1464f0a8b2cdd8a79e3d0538f4c9be",
+        "notes_sources_sha256": "001ae481c95b64bbcdcfcc07db00991aafb65b242671b8842a687a4524730118",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "5a24fd14d0139d9973518b67e3a920ab2aefcc9652eb10719cbdd142a90a1b78",
+        "coverage_sha256": "53681e375352aee861a71eee97f3ca4823a27e1b4f3f2537f37d5e87d795d72f"
+      }
+    },
+    "09_3-s010": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.419571+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "babfaf55ff17f34d379b3b149b50119ee17933037cb57f4ea46beee63b0e04d7",
+        "baseline_render_sha256": "9d96203010bc09a70148eab1513a0c0d1e3543f2d77dc389f7576824bf4562bf",
+        "new_render_sha256": "465b7c86d4180bdb40d854be709a38b6cea62f7e825970594b8a7a58eeead7c2",
+        "notes_render_sha256": "2493a6ab976ae43808743d640f57715c2685670a83915f94bcd744c57d88dea9",
+        "slide_sources_sha256": "e6435d158340a98b47ecedd812b90cd3a80a1122903314c02b4251484d02a82d",
+        "notes_sources_sha256": "e5b6c22676f9b2d5b9fa544c5184fe3e3a71ca11d73267ea82d43f7b29b80963",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "69f031b6b9aab0fa69f396c57adb02516f274318d9972e580f9e54c26417bbb5",
+        "coverage_sha256": "73a7c81617524c845b36f62651d0439b8081da681eba9d2f1465e649efe1657e"
+      }
+    },
+    "09_3-s011": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.419761+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Otvoreno stručno pitanje P01, opis i predlog u otvorena_pitanja.md; izvorni zapis ostaje do korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "28cd550eb3323f373979cbf3813b17edb12f625ec755a918f80032be585ff91b",
+        "baseline_render_sha256": "9bad3c3f3df8305420f11c2f5ab1a55011059a2bd7fc98161a9f5ecece46c355",
+        "new_render_sha256": "fa57c59b3aedf7a92a87f472bcafe13d59bfcc27f7d77decb461a3ae3701de5a",
+        "notes_render_sha256": "3d0eabf3aec84c6e8b978ff7dce78f9ec7a6a066b1693ecd801dc843be3b1a44",
+        "slide_sources_sha256": "0e3e7837475cef858e0366e8a20b5fc5241fba7ccc44fe6ba3ec09adb4a9dabf",
+        "notes_sources_sha256": "395e9034bfdda904dc9461fc9bd2966ced33bbbacbd867c38b0c5e5ebbda24d9",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "e5b4c25bbb63dd19aaeccfea6241a71d37ae1fb294bdb2e2aba0cbb0e4d697a7",
+        "coverage_sha256": "8878ed7d9a5bf124c22a73bce79ce8d470bc8858427d1471114eefae2b532bc0"
+      }
+    },
+    "09_3-s012": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.419949+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Otvoreno stručno pitanje P01, opis i predlog u otvorena_pitanja.md; izvorni zapis ostaje do korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "4a01233669bf63aea520d74d36aaa734dcd07f5978c0e1f662f5132de9b2ece8",
+        "baseline_render_sha256": "b1b07f1f696f817135aca1fb7bb3a120756c8c812dbf2d750592f2e31e260aa2",
+        "new_render_sha256": "f1fae716f67f2fc3e10d416eadf369b45d06b25a21f8b57560320c602e934454",
+        "notes_render_sha256": "09942d1c986c926e7d9cb337ac4d7bcbf9c04f52b1692d0227d4cc409d67da6f",
+        "slide_sources_sha256": "61f740a24dde64cdc96f9562d38db312a9e69e9c38e38079b8eb8d3a0d05e322",
+        "notes_sources_sha256": "2cca52accfd949daed68df37eeaaa4340c53b48923b60322eea5909410c7906e",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "18ecbe1dc37d4638bdfe132a8c0f2c0ed425a822f0d05492d35632bac66be1c1",
+        "coverage_sha256": "86186723c63e902e4c277d02412eda93b67d9f26ad41dc0fa3a0d9f8aa836316"
+      }
+    },
+    "09_3-s013": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.420173+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Otvoreno stručno pitanje P01, opis i predlog u otvorena_pitanja.md; izvorni zapis ostaje do korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "055838b3003f8a85eea7e1ef4fdf8c30014e5665f1569532131823f5fe036046",
+        "baseline_render_sha256": "0719ab8750c3f76c145c5b4621c01b4e7aff7c08bdb3d3c2c2fb5e1459be45da",
+        "new_render_sha256": "ee9dd33a8c3b1ce75edbaf323c8c3a8ba1c1627e1944e1a6b01a2f9039fb0ee0",
+        "notes_render_sha256": "e0081045b19f3d0f9b11431cf0d4a8c31b8c42d60ac827c24a79a55d9f5a7c2f",
+        "slide_sources_sha256": "078157ef36db35f493a4048659b006cd42de5c942ef8e1825eca3b466bdda441",
+        "notes_sources_sha256": "59832db47c00d7b672d2f317e4b80e9d813e9528c421e3c01ff97de799c83236",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "6243832b0fabb805362cb7be644fdda730812cc772be8150b8e9d66981343fdc",
+        "coverage_sha256": "4527a9c5c727e535be50712a367797bad5052c4d6e5b13cd333e2929a620add4"
+      }
+    },
+    "09_3-s014": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.420360+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "8a1ce57cf037fc70ed1f2913aa89f51eb7de5a1db4f3e855e2ad4f3474090346",
+        "baseline_render_sha256": "9194a80f6db7760b4857beb1e0bf2696b75957407ff41b36c11c1f0bd2ddfab8",
+        "new_render_sha256": "df9bc3e0ba075ee8fec8b601d9649cb4d69cded14500f1d003fc1fc8ff4861f6",
+        "notes_render_sha256": "e8e1004bfa317d5ee8fabeb37d2f813207329de27420adbb4e5a010485c99076",
+        "slide_sources_sha256": "039b68f804c1c8dd57667f7a8e62bf04e24c036d1068d7ee493f6c7a12a18431",
+        "notes_sources_sha256": "b32a31c8345657a1b1bfd56350ca8f120bca170d0d0a1c9318a08d10103dedb2",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "9005151afc63a113d26a509ecae1a2ad242bc779b15332c6e4d08cfb63b567e0",
+        "coverage_sha256": "89888187102300ff239723a5c29c70ca1caea0a4867ef12538474feb87f18753"
+      }
+    },
+    "09_3-s015": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.420545+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "3ff16b554138eebcaf1ae5431e6fd826aec70e50b20417ed6eac0aaf11d24855",
+        "baseline_render_sha256": "ada89a738d51fbe766fd188704ae7f6196d947289c539678ece35ba82e966a05",
+        "new_render_sha256": "a17ad2980c490435f7fb31bd59f97579089bcc5643330c0c3eac2c0163c259ba",
+        "notes_render_sha256": "6b590a94eb36549326c8d6f8a34bd5bfac566ff75afa83ac392e0e80a27fb6b2",
+        "slide_sources_sha256": "e44ff30a2c751f09f08026a9b745fa0db44b9e10340d2f91fe70e8b1e2116550",
+        "notes_sources_sha256": "c1ddc6433fe37611397eec1a21e531eeea1c98eaf71647fc4c3a3a62dd980a4c",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "33e3a470cb4a58cc9059f29c1fbe03ba0826c5ba61852bef66cfd31b50592e26",
+        "coverage_sha256": "40750e319ce4ca36bc4df64842cfd3fd4a14f147304b7bdd40a03dfca6b48c75"
+      }
+    },
+    "09_3-s016": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.420717+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "adc485f43b35e901524b77b8c01da2ca052d69c031abb13ed7c9fd93954ac90f",
+        "baseline_render_sha256": "fabb1019fc63dd6c017215340f23dfc9fabbf67151f6079facde12105bcc8569",
+        "new_render_sha256": "e1164ba96f08737d5193da4507caeec982501c17cc96b5fe57cc61d7dd30978f",
+        "notes_render_sha256": "b4434391bdb1c0458ceaf1e23a8e4e2149211dc6a8b38b15005c87ebfeda9afa",
+        "slide_sources_sha256": "12fb2d8500277bb44ce566f36b6a4d100e732dcacf06f1d8fb06ec59590c94e3",
+        "notes_sources_sha256": "52e47dd74cf28efadfb6401382b803acbdd20d254115037b4922d09e1be5ae84",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "b57b4e070e20111022a144ba9063efbc7b84a7b431cb7361dcb4cff3f8ab3673",
+        "coverage_sha256": "5500701b3833f89daf60a47b134a0a3b7f66d4b195da93eff01cbeaa6b9cae70"
+      }
+    },
+    "09_3-s017": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.420898+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Otvoreno stručno pitanje P02, opis i predlog u otvorena_pitanja.md; izvorni zapis ostaje do korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "e7b648637003e94b763f4eca0659f98caf0798a2744184dca9be791be480aa40",
+        "baseline_render_sha256": "f0f678ef8fb02d364cc83c0ccd178a7a50b25d1f17bda0fa560a0bc4a9c174e1",
+        "new_render_sha256": "2ab828f94b60468ce02d057f6144d9488f24e6ff789ff187a0e581125c686c49",
+        "notes_render_sha256": "39114214c26225b47bf02bfb59b9617aa0f566cf093f8b7dd4d6fd0542cd5202",
+        "slide_sources_sha256": "7b87be2fb974f025977e497b030c3d79dbc0fa3fb0bf776001a821286d3cc010",
+        "notes_sources_sha256": "d25174556c6fdd014b76eb032ba301aae21d513815db383b1b0c254a2f2c3950",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "6f8674f56be3200d4b8d0d0626cfabb929c3a783614d6fc1f1d622b20e9125ac",
+        "coverage_sha256": "206bd4415edd7268337f4c6935480b8b92ef6b01491df390a92c1e532bbee4cd"
+      }
+    },
+    "09_3-s018": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.421087+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Otvoreno stručno pitanje P02, opis i predlog u otvorena_pitanja.md; izvorni zapis ostaje do korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "441ed2968557258686af4455018a0cf8528e54d6edeaae7fa7ce30ccf453e9af",
+        "baseline_render_sha256": "a154de2509e695d72e9d43efc0981d22416787c7a12492f1e87acef86ec03b73",
+        "new_render_sha256": "d0b8fc3ac53c50b46c7a86d7c1e99ad5d3f98657d430f4f1a84b9506a3f2e456",
+        "notes_render_sha256": "911ba4a5191e8f145ab4e429c46dc6c8b550a27281c654c7d226cc873bdc2d2a",
+        "slide_sources_sha256": "15bbaf05317cc46ab5ee2c8ecc6b4951824b7445b180c6729ea3bb5463baf25b",
+        "notes_sources_sha256": "0b3b46ed0430770dceb1a86047f6c078b7230ea8dced564f5e99117199080fe0",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "c12cb067ce4693a73207ffcb4fb5123892595156bc9810e196287003cdcd1181",
+        "coverage_sha256": "9459f70c35045ee6d93ff0f274246f7a3f635351343edbfe3eb33e86d85fb539"
+      }
+    },
+    "09_3-s019": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.421274+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Otvoreno stručno pitanje P02, opis i predlog u otvorena_pitanja.md; izvorni zapis ostaje do korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "8779eefdca6c2bb43cbba49d87424ad1eff2f4433ffb2f6be90b063edf1a271a",
+        "baseline_render_sha256": "3da3b347f3444d030020e3477848bdfbbd934b2ca2eed090be7e72146ce72559",
+        "new_render_sha256": "94eb7e04f7f4f7b10fc2df7f5872bd15b30500b839979fe679b3f410b6a698dc",
+        "notes_render_sha256": "044b33e64b6461144584de677c7e5ca9907c21c89367c23d486e6ff1f2e0d15c",
+        "slide_sources_sha256": "f4e7cdf5e2cd2480f04e1ea24841889d4020dfdc568436ac99d1b346f6fee304",
+        "notes_sources_sha256": "2f15029dcd28f651b44394e310ba85c0b1e6e79a22fab8836c2ee06aa9e06a95",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "63e9736b868dff77227d1ef9ebcae585a5bf507f0e8b96cf88fddbbae1d38864",
+        "coverage_sha256": "04b7708cff9ee199c6f77899d5fe740f391b3717ca504c5c6427a0a640b0f1e3"
+      }
+    },
+    "09_3-s020": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.421458+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Otvoreno stručno pitanje P05, opis i predlog u otvorena_pitanja.md; izvorni zapis ostaje do korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "23acf3161e6e086b20db86418b7cabda0f6745444cee4e21cb62588d9a88243a",
+        "baseline_render_sha256": "c4559ee9e6f8c1e4b8081104f2e83f1ce1946fb2a72341f57a172847dd55c708",
+        "new_render_sha256": "a6de9c9191c71b986099218267851fd9aa4a3b45c8b551a8d468441d2fb1fc80",
+        "notes_render_sha256": "7a6b246978e0d4e0d18afb40b22ce02d2f8fe98d9a5684014e7711e1ec07b6d8",
+        "slide_sources_sha256": "67b2d725a0a0d3c2b6673ac750551e0748f2437193fad9a4737757f3889a7668",
+        "notes_sources_sha256": "65a8b154ddd9e23c7b87ed74247cf1a8aad63bc1d17d54e4dd7e693433ef5dcb",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "18ada43421bb9367e9a7026cd0ce4d1df97e6be69c7b30718cda73b17e348572",
+        "coverage_sha256": "e8f17eb484e49304cfd59ab4e670a6ec5058a93e4cfb4eefcae0d85718c1adf3"
+      }
+    },
+    "09_3-s021": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "problem"
+      },
+      "date": "2026-10-03T12:04:28.421635+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Otvoreno stručno pitanje P02/P03/P04, opis i predlog u otvorena_pitanja.md; izvorni zapis ostaje do korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "66fc4019e3fc06dbe242311160d489ce1f9c6162e0584b3b42cd19787fae4d2f",
+        "baseline_render_sha256": "0d566cb11e4d8d66b21edddc23ad87aaf1557173ba877d1f552982930ab3e47d",
+        "new_render_sha256": "06c5a368c360099d354d110d11f5f487a13196f8cc85adee7ace18e1ac763614",
+        "notes_render_sha256": "f7b1533d14222e53e77557a5bf875a2d1ad869fa9e4e3d4bc555069db6ddd130",
+        "slide_sources_sha256": "fe00ffc4d3952255bce88e62fd3d57558d3d36ff881aee027ba191fac96ef876",
+        "notes_sources_sha256": "bfcc6bb0befc48e5ff39812f09d8782c2ca0331bb0ccb3bd4a5e6d201ed7c76e",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "9ce0618210e732f558959abfdea5b0ce60aef57d58bcf1ac2a952a95391e9090",
+        "coverage_sha256": "402564f6f65aa7c6d0917631004589b69613775bf086277436c89b0ab207696b"
+      }
+    },
+    "09_3-s022": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "problem"
+      },
+      "date": "2026-10-03T12:04:28.421813+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Otvoreno stručno pitanje P02/P03/P04, opis i predlog u otvorena_pitanja.md; izvorni zapis ostaje do korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "28b353a83ff20f56d3d235164b93158114c7f4eb93fa0ba71713adb1c43f5e15",
+        "baseline_render_sha256": "c73e6403368158a15129efdadb25e65432392606ecd0cd13a9d913d98cc0cf49",
+        "new_render_sha256": "bb77b8e871c87e93fff12bc5c799c3f16d7c84e104ff7841b3beae93372592f5",
+        "notes_render_sha256": "5393ab5ed95892797656ddcfa1a0059cddaf7660c2fb5b922e2d02335324a341",
+        "slide_sources_sha256": "410cc8fb5f78e606962d3831ab3e07230e27a99590bef73001095f9ed2c85cbb",
+        "notes_sources_sha256": "4ed818515f36078795d5483fc6bcdd9669ab0941517ebb822f5e2c703a20ba62",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "4052dff76a7889cd9cee368d30a52e5a796f427b8eba4516a3855e8acadce243",
+        "coverage_sha256": "25f76a487f367170af77cbaaaaf6b34c77bd385e594bb15f0767a4a3483e3b22"
+      }
+    },
+    "09_3-s023": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.422020+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "44afc9283bd31b7b2e67556313a3fd92a2e6ded7b2557c254d0fdae2affb8239",
+        "baseline_render_sha256": "9558b4a71b0569d9ad176f645183abbd7091108b285320e331ab91fa5c29d23f",
+        "new_render_sha256": "8b5fecb0513efb07cb45bfdb79ac66bc710f4f2294160a263389dff67e822d9a",
+        "notes_render_sha256": "9edd4a4ae963b9c162f61410bdc2fa014bb963273357e088493773600aef7f61",
+        "slide_sources_sha256": "cb217d7ba920ae2853b49ddce036af1111d7dab1274457126df8906a36ba46c0",
+        "notes_sources_sha256": "52e22a4f4a5fe953772999851ba51904b280fb211946e8ad9983de5315fa3463",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "6bbad73bc56c39db58ec514ed0fa8918a7f6ce6939c50b6a01cc2ad0f7154068",
+        "coverage_sha256": "ee36cec8213ac479918536524be9503677ad64b04dda39207cb0def5cfbcbb00"
+      }
+    },
+    "09_3-s024": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.422203+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "6cf113b04127011bbb1713653d5433bb5d209e4ba6cea89024eba2bd3de36290",
+        "baseline_render_sha256": "df240db0a55ef0fc81ab105815eb36535516e1d5a3e8e65b9535f43c84e24308",
+        "new_render_sha256": "ab16e1db0797e9289ead2aec7e936e59094fcb3f042f1866543cddff1dfbe5e6",
+        "notes_render_sha256": "46253f3c026d5ee2fa11a8c42fca51e9a9a2821ad6c599e13046068ecc9e3d9e",
+        "slide_sources_sha256": "e60a7851485877f03c362cad3622e82a10946e1f16690f80e2b5aaa0adff994c",
+        "notes_sources_sha256": "f78135db5ae6e70954702e211d97da5b934354aceeb87b5bc022112dca93a6dd",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "9677fc256eda71f3494694540688f4a18e4d61fcc91f4a261c0bdf308271b7ea",
+        "coverage_sha256": "944e9624f74b4cc839a48a5ed0911a8e7fae16bc337fd4e8fb14f7fc91e9c05a"
+      }
+    },
+    "09_3-s025": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.422381+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "5a1607ebad7246e4d729a52751556381e6b21d84c3ba40613f6b486503828b79",
+        "baseline_render_sha256": "f248715da6ea40575071f7e7b64c3be558624f2d243e371ce0af7f76e11b49d1",
+        "new_render_sha256": "f05ab04c81d2f4cc1e3ffc87cce4e6c42770f0b632ed0b768dd9d9792c000b26",
+        "notes_render_sha256": "5372040eca571fe5b5cd184b5cb865f32963ca07e9b1750d90303c4942b3b283",
+        "slide_sources_sha256": "713f337f5106877fb7abb5d5e0d20bd55d7a9a9afc8f594bf7f7024f5eaa7630",
+        "notes_sources_sha256": "585ac30245c059f6832a3fbd3e950a392bd1554ee9f795fc438384b9e444898a",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "6b14d34c46ccfc235e95d372805b5d54b97e8df6da43ec8d8564199051da11c9",
+        "coverage_sha256": "5de65e0131d47b144e337b9a9f53e12b32108b7739c1c4424b515884ed07d7fa"
+      }
+    },
+    "09_3-s026": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.422559+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "b5d9b08870b0ed2d45ffb1cbf861f4caf7f48e67102256dafc782fe26f81304b",
+        "baseline_render_sha256": "2e9802dcebe3ec4854505a97edcad8827fac9c329e70714a092816610036c096",
+        "new_render_sha256": "28b43119e4d2ab80a07fd2ec87e0ed829436db7cc1dce8803b62ca1f4f8bad8a",
+        "notes_render_sha256": "731fb79cf3d28a76a69fd962d1da04a3669fbbaac9d46165f3cbe7651d468d57",
+        "slide_sources_sha256": "31cf3808a278b6de1865499049b13539787ccf10a344061ead861512b24d4dda",
+        "notes_sources_sha256": "1c8a6ef05e2563edc2bc6789ff70ab032291963e2dc226ebd2b8f4829571fe1d",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "01c02d31a22171ab75d14ba8b8b9059afb84f2c9e9b6d29b3766bcda7426780b",
+        "coverage_sha256": "8b9f3f487bcc9434408bb61e1205734f4f583d4819b3e23af6328718f2a7e12f"
+      }
+    },
+    "09_3-s027": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.422731+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "cf1cccb9a37dfa4226b592485acc02e150f91e7ce7b84b38fd7377d97fc58dd1",
+        "baseline_render_sha256": "a74048a09336a73094b21c8006132bb3d53d1d69900450699ea0450275fa8a46",
+        "new_render_sha256": "fdbda8382d5bac3fa50f71ff0f526be7c95c82f16c4c86aec61044f59417d6b8",
+        "notes_render_sha256": "3c435da032c9b58fa9aef946cb47f2c5101e16dc1cb78e7f0765ce08cb3b64f5",
+        "slide_sources_sha256": "eb0940bd1a607f307802ee6992a9a3da9a2e484dc1b54b84b9840d8f082b5432",
+        "notes_sources_sha256": "0b0429b33fbf74fcfd488153a7283a01869806721dc27c6294d7f079374cd6f0",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "e4ed727c941512d6cedb6493e9c3edf2005d92b3e1cfe6891627da6711ef61dd",
+        "coverage_sha256": "7d0d00b084c26937fb8771dfbc2dff0c551b69cbc198a31f5df109ab6e50f314"
+      }
+    },
+    "09_3-s028": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.422909+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Otvoreno stručno pitanje P06, opis i predlog u otvorena_pitanja.md; izvorni zapis ostaje do korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "3ca4ec1053448e5e20a9f3b2541873f917ee98c9eaafe6ba6db72f8ed092fa3e",
+        "baseline_render_sha256": "deff46614b531f203daff39bf0b73410072a6625a03826a3464fcf7c68b1a9ac",
+        "new_render_sha256": "dc310f50cab42dd4c1b81cf934a3c07df62307d801dc176a209a816428157cef",
+        "notes_render_sha256": "76d8f36bb2c0711a126d5972dfdaf08c7e404452450c98c430a26710f9e02c70",
+        "slide_sources_sha256": "38daae958d0a6f5d551f6847bd929534d483de3772771242769d5cd45a365b0e",
+        "notes_sources_sha256": "9c2c6152b6bfbf33ffbd42a80bcdfab02034cb3623cfeb52decd54751c5f4051",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "247bd6afb1b79edb6bbd4033d68aad4fa16fc9d3050f1becb5a51505ec73cf55",
+        "coverage_sha256": "abab248d6e331e954f265e6604fb63b1af908d2b722acc8579028ddbd3592aa6"
+      }
+    },
+    "09_3-s029": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.423120+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Otvoreno stručno pitanje P06, opis i predlog u otvorena_pitanja.md; izvorni zapis ostaje do korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "d1594d8513323d318285de80f72e8afdfc30b231c26087e0894e32e88bd31e15",
+        "baseline_render_sha256": "4a1ef49bca285b3d10ff3b984a8b4ddfa65d1dd372310490b35d5f537ae6a932",
+        "new_render_sha256": "706ce34b16c378681b45c0569b1f3b4445dabec1c1862acfb74b733a51d9313e",
+        "notes_render_sha256": "c7ca6183d608942dfc18d981fa164b8eec58340a50c00c3766e75f52717a4a73",
+        "slide_sources_sha256": "ddb4c8ddcf536531880a67779faef675647bb0dac18a4b3d67257fd1527a5a38",
+        "notes_sources_sha256": "3f3c1abe0abd4e9c295e6ab83142e65b2423bdc0bf1bae130f2997c529d1e8d4",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "32df416926e750bce38df817c2134ff6699ce007cf9c0749fd36e34b5415ce50",
+        "coverage_sha256": "5e67579f3a73e174bef1c3aa1d2260fac6baf94affccb5c8971ea22b3cfed4c6"
+      }
+    },
+    "09_3-s030": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.423299+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "764bc11c8aa52cc1d9761d188e7155932ddeacf880912030cf635572193e5c48",
+        "baseline_render_sha256": "050bd39e5572a8e7cc5bc5b828ab830efa0f275ef63b61d1f216496b66e456e0",
+        "new_render_sha256": "d62370c0f87c4562c3d86cc7a9017fc52e3bf10a183d6fa8c0eae4ee0a3ce634",
+        "notes_render_sha256": "97f427a0c304f427b04578bf32b1233fc0c30c2c7d7a7e12e15092d50df59086",
+        "slide_sources_sha256": "b202383102fad5b62e64a472f3d592ef60b5bf033e04974a8a029394ab350214",
+        "notes_sources_sha256": "08f10459583f870bac7eb368e0aa9c7a87889ae0c9ef8c42cbd218dbfc8f4d32",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "2fbffb58f65be7b11204ea1ff3881f2e3143ca6ed553ca01ab15d219dfdca92f",
+        "coverage_sha256": "62b27a02451d10aad2b944a06f0da332355a026d3f2f9fc7c5630fafa4982349"
+      }
+    },
+    "09_3-s031": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.423475+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "e4bcbe0d7b037efbf6eee85412c570b033c0c389a4a28c190307e149c3eaae6f",
+        "baseline_render_sha256": "a6df9b9eba4bcaeb2593d4cdd3d9bbca7b3e9d5d5ff2ac8e04144efb311203ff",
+        "new_render_sha256": "cbec26441c898df01bc7997cea5dd204ae6837656a58e79bc9435c759d9ddac8",
+        "notes_render_sha256": "efb5a59294a71e5d7ba2906eadd588e82613e9aa4eab292c8922e991b52e8c0f",
+        "slide_sources_sha256": "92c73993dd222ac713802c4fce516d56f2c3ded1eee9a7762c9a5ba65a6e23bf",
+        "notes_sources_sha256": "cab18e023785d5c952c5f7fa255cf2c8bec6d65f5d35654c0e89b4cb170cd7a8",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "d372f3acbb72f1c310529043aea6863f0f19ea70355093b3b07619efcd3b06e6",
+        "coverage_sha256": "19710808df827f99610b11a0b534db790ea0c98247a083ab17d972aeeec4a990"
+      }
+    },
+    "09_3-s032": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.423644+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "180c5287024f51a17ac9bacf01bf75e70ab4b21ad2cf2058adf56bcb636cd5b0",
+        "baseline_render_sha256": "8cddca6e173f72bef4c9e337d22b483ed8ca1cf4dd994af16c2813510305797f",
+        "new_render_sha256": "6bcbfea3e6e77fc9421b9df69fc4ac43e812da67c689bdac70bb4c9a125e0074",
+        "notes_render_sha256": "fd2355507f6b1c06662664bc3e67dca19b02bc0a6fbb4c6b2fc9628cc0031498",
+        "slide_sources_sha256": "55e0a1fc9dbd297f1534ecf83261b818d0b6f3d758dbeea22d4dd34e788bd51d",
+        "notes_sources_sha256": "26d43d73ea6e46f26e51f1460e1731497c68449ab2eb3a9733fbea953848586f",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "1f030ba69c19719be9ce98976b555daceb87088f57279e36efd3edc9d453e798",
+        "coverage_sha256": "7d02d7d6d57acf51ebb2a794c8d61cdfbc459e9284a55f36fd5c42bf1601b4a5"
+      }
+    },
+    "09_3-s033": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.423825+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "4f56d4f0baeb65258f3ce56b755f337ee77896493009163d3b470858bc908aff",
+        "baseline_render_sha256": "a24a639c96dc5f321721b96292e0eb8554b94ad2147703a79bcb3b26fed28c09",
+        "new_render_sha256": "2670e4bdec9815cc9d8615b6a9d552d6a135279691be57c726b361a70f6e6035",
+        "notes_render_sha256": "dd514622607665c25ba62b53e0ef1c501eda27f2872b06284fcaf9d214c2c7c5",
+        "slide_sources_sha256": "620dc033b7e1e6a7a6e366a33dae45292a1f4ca3539e2e6deaaadd58d6578d3a",
+        "notes_sources_sha256": "57c2487010ce34dc91186265870e1c3bab70cbd8321d17a116fc9990a879a26f",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "24c059475f64c399fe0786ce1254536236d703c08a9380aa782c3e0595555183",
+        "coverage_sha256": "a18bde187edc49b74f9074980af03d44e19d407883f936e9775c491bac5ccc6c"
+      }
+    },
+    "09_3-s034": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.424013+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "a5b05b41dc671224e4564599452eec3220a520ee51d0a8f2eff1e4c5fe563b6c",
+        "baseline_render_sha256": "914c29cd35ecb6cd3437da3fd3e5d76a29f50dd47f910b58ff055e3c98b2acea",
+        "new_render_sha256": "05edfad5542fc987d4de961552818030b24704447894cc82b1ff607406918265",
+        "notes_render_sha256": "41519eb9f54d8f44cb052d3054ac01257703b4daee2d63499c6693ea57d0abd1",
+        "slide_sources_sha256": "6d122bff4dbf65ed871d9aaaf4e92fd3db8cc14fd5231eeb9324da181d967c66",
+        "notes_sources_sha256": "173b2dd2ff9ae5f0228f5df94267820e0b17745b540cf0df9676c2dda2283ca5",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "f40284cf22f75373e9f171afbc11a14c739e84ee846902b215fdc7864d718a51",
+        "coverage_sha256": "0d6c58b89ca02717dc5c903927b2edc9439521f00765a2036122651649ac2954"
+      }
+    },
+    "09_3-s035": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.424192+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Otvoreno stručno pitanje P07, opis i predlog u otvorena_pitanja.md; izvorni zapis ostaje do korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "84ad0e94af8880f78cb03516bbe319fac78d2f84f4092234fc9520e305e5ee5a",
+        "baseline_render_sha256": "3022df17ed448f44891381b9c1156071c0ec836771eb2c006306774971066716",
+        "new_render_sha256": "229c289445e8c88e991833d679e9bf6c6e56c83f551e346463852e09954c4dc2",
+        "notes_render_sha256": "170630fdc4012f927d140aabaa685f79c7201cc02733e3c6299e741759de1bb1",
+        "slide_sources_sha256": "9f90682898eb5fb0815b9278365a0af325a79af91c9f19341a67ac0f6df32988",
+        "notes_sources_sha256": "e56ae8686ba6711972262d7270ecd30e902eb3d7b4130785136f0a96cd221b59",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "f04effc13bb4ac897ae440aed17fc126978ec1de6e5a83fda0dd9ac8130c20a2",
+        "coverage_sha256": "516c5b3966f27c0a7fffbc51e5636c37d32bb70e3e2e5f031a8ac9adc93292e3"
+      }
+    },
+    "09_3-s036": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.424370+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "3bacb6f476e2cb002d8a93e8b30595ad1903d2b4092d5b7a58f74ee19e1881af",
+        "baseline_render_sha256": "ce053202dc61ddb5db36c06f56d79f7ef76be603651684f4a452a3e343bec902",
+        "new_render_sha256": "c80654ce3bf2d73f21e25a6e9b29d54bf998086cf1cef2578d12afca02cf4762",
+        "notes_render_sha256": "7c12f671c9c4bb170e7910474155297e70afff99a46a5b2cf849b17dd57f7ddf",
+        "slide_sources_sha256": "553f7b811f6d7e56e276eb0fc992223257c4285e7eddd4eeae248f32138df02e",
+        "notes_sources_sha256": "46698830d97c8edce6ab11cd1b36c81b954126f5b4bcf4cec43c779d8857a37b",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "00684c48188b039084f0199bc994ee3b365b119d7696d9f590679f72a3f51011",
+        "coverage_sha256": "d2f06a907aecef5b985ff11474671d24498fc6367b850b03628c0b35156dc87f"
+      }
+    },
+    "09_3-s037": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.424549+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Otvoreno stručno pitanje P08, opis i predlog u otvorena_pitanja.md; izvorni zapis ostaje do korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "45073f43c4ad7dbec4d82626723700982bab90299fd992b720aacf42636af23b",
+        "baseline_render_sha256": "4fa93692c95711e210bb27b5235ee42772348b7749f3512bf653c96e8c924677",
+        "new_render_sha256": "7889e6849669ba2619f9661515a72e60c59674d90c3a47cb556ee75773beed58",
+        "notes_render_sha256": "a36127005b9d4dc1315effae553a6c822c575bf2914916ceca8dec24c402c7aa",
+        "slide_sources_sha256": "e35fdf27667affc3a4c56bd128564ba60151796788d729b4e646759c3f8f638e",
+        "notes_sources_sha256": "aa37198c1eaa621a48914cf0c3973fe302c8ec6891105b68de9feb2c1acb5a58",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "5d4579013b05de4351f25a3df676c05b6f28537d2d4e466b27a67be877716ffb",
+        "coverage_sha256": "bbc186465d789bffdef6a42c3764152ebf648eabc374535e3d1bddcb5a8d1f7c"
+      }
+    },
+    "09_3-s038": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.424726+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "220a8557e3b9789dabba0fd97e33d7fdd2ab23d36d1505aa61fa07e1bd2b47f8",
+        "baseline_render_sha256": "090a713432977f24d5185a89bf2f43f78f51ddc878c46d05f6bba79daf5c0a1b",
+        "new_render_sha256": "adc7942f81ed240cb7553fb87de9157a34c696e2c0fbce47136b37f954a58d06",
+        "notes_render_sha256": "b1acf8991735ef9bc46f2a7c8ebdb3b1d8ddd794f251b013cc91ba652436161b",
+        "slide_sources_sha256": "cc23a7777a1467717fdcfd5daa1651aa908517fc6a2a1d8f17bc20576f7a2980",
+        "notes_sources_sha256": "4112dd65b25edcc2d9d1494c18dba618db6b50cdc1abad55d25d563eb3f83152",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "ebc35560c4dd7f46fe083861fce3cf010d8feef7ac48d6c5d4d7f188850ce74b",
+        "coverage_sha256": "bdf8673530c5bff2b78327989ce4767c05e6975b60c91a8d2d6630bf6f951378"
+      }
+    },
+    "09_3-s039": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.424897+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "f4f0a7826914fc44721d7e2bf86199b52a461a1ef6394d58bbe240609264ae78",
+        "baseline_render_sha256": "f8eeb46683325e9ab6257aebc6c281aacdf9efffc3993abdecace9a8efb87e3b",
+        "new_render_sha256": "dfaf7ae2795f106ce28fe89fd7d1325e4754fa213aefbf3ce7058540fd537abe",
+        "notes_render_sha256": "ee28c72466a98bb8f6c449d449a6a46ce393582bb7674cd30c8a293f86b50083",
+        "slide_sources_sha256": "745e96c63084cf45497eb270152b9b302fb5a3a03a8db80ad23acb693cc1f171",
+        "notes_sources_sha256": "11c8abd1f523d45abb5178ffc92a540b92272b7b571c2f71e3a76bbaf25e4dc5",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "56f7b2abe3b609dbd80ee1655b1629dcfcc7dceca0b50b77baa22bfa6374e376",
+        "coverage_sha256": "ef1306a3b90b0aae4626529bca197bd7165821da390f22e6dc3ff807b30ea7ad"
+      }
+    },
+    "09_3-s040": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.425095+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "2b6c1560ffb70b52df5711509c5f52c8381e94cffea62555e6d87d8f58dd6f58",
+        "baseline_render_sha256": "9116289e2f2a6a2d6426a2089d935434ac563d8ebd53ee245368e80c3e03672a",
+        "new_render_sha256": "c208fb2f361546abd1f86c281316ada79083b030d567e89aa53429bc1b70fa56",
+        "notes_render_sha256": "ba3d912da0b078ae474ff9bcfe90f94c11f5debba0f62b3556e22d0d85fb16b3",
+        "slide_sources_sha256": "86439af089b0b9a7acd3088759d30e26b23f28048e0755d8fc1681b8cf795e8f",
+        "notes_sources_sha256": "3bc30dcc249ddccfb5aa5e98d626afe2b483c9ad6d097f84a8faf0a25b2a5f37",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "76164ab1dce9e2cf91fc7de3bc67679c50db0f205ba93c493914db290f0dbfc1",
+        "coverage_sha256": "0271aa85bb6985f916640eb10c6f1a88aaaf13bffec414e7084ae7eaae9dbba2"
+      }
+    },
+    "09_3-s041": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.425280+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "8b22277498318e32219e49d6382c6f2a25644e51097722c802a5638237738b8c",
+        "baseline_render_sha256": "d8040ab409f4397e912021400de287a55a487ae7c76bdcbf3fb4a8f85ade24ab",
+        "new_render_sha256": "2441162717cc9b0dc5b121fad6e1ba39bb41c735fc4c72e4d207381241f7f6e8",
+        "notes_render_sha256": "c43052766b3f78ea90c4e06e8281dccd7c4c36d045efeef7605561f30415ef89",
+        "slide_sources_sha256": "ec24d355f5b75212c05433757a153cdab65a744d9b96bd46453019e836ff3aa6",
+        "notes_sources_sha256": "ba74e61b69e1b66685342993f4e912d33d1b276c90e9a12713c420349dd7ee2c",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "f368124fcd1360004bae83e424c61e38aaf90d5605491acb6a343745c7e7aa62",
+        "coverage_sha256": "7022c386f9207f2a7a931ae286dd612c9fb26bb811aeb2745fd83ecf8f6010f2"
+      }
+    },
+    "09_3-s042": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.425454+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "89097e352b067b9d0cb48aadc450e2627b4f6472645b4fbb0480225ac0c4c461",
+        "baseline_render_sha256": "2eb8e047bd275f073172739a6aef8f2084bd008743817694b0e23827b10a3596",
+        "new_render_sha256": "8a6733d6adb0107564e40fd9cbf3a7c1520d802a6219301adee99ff2654a2ad1",
+        "notes_render_sha256": "1098c0a2783d65fd63bf8c94183ede29c146689a62fca52fac4e57f3ba6c867c",
+        "slide_sources_sha256": "94598098963ad99a00c0836f0afb818c15639443e30bc3a1edbff28410842e20",
+        "notes_sources_sha256": "f5842c3de9023ea9db4d92a4bebb595602aa89ccc7375a8545af9747e1bef23c",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "d72e18e97c75fcfa96d1340d0448322c21674277aed0fdf3e0f963c55394634d",
+        "coverage_sha256": "98f87d20f75e806c79f8581d4b2ecab6c0af8097bd29fa570ffbef6ba07d3293"
+      }
+    },
+    "09_3-s043": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.425629+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Otvoreno stručno pitanje P09, opis i predlog u otvorena_pitanja.md; izvorni zapis ostaje do korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "967a16da14cb062a53beb121a85e1cd78771f4fe4526e6b77184b24bd80c9325",
+        "baseline_render_sha256": "6a533511508c797ccae2799d9415eaebeb32d05d7d2ba04bdb1a030b6ddcf86b",
+        "new_render_sha256": "8ec15a546ab5b65d9a9adf69e34f09a50251ebf625f1c6104013796a03aa6e03",
+        "notes_render_sha256": "79d0a839099047edbc0ed484198a7892be2458804e4564dc018d85dd8a1b79b1",
+        "slide_sources_sha256": "d787e4f35e8f1b570a432cdba2ced1882bb4771fa016e111914896717ca1fb24",
+        "notes_sources_sha256": "c2a0a0963942b3573d07257d2a9f4be5e97bcab40d3d809adbad8f5e922ef9f8",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "457d98be7a1aaeac657c00492635d3dbedcf7bd5100f7861ac390f0bd3b73957",
+        "coverage_sha256": "070fc43ab1439ecdba5efd6c56f16735a2f109772858c49b2eab9d052a11db27"
+      }
+    },
+    "09_3-s044": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "nije_primenljivo",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.425802+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "7d3abb08525250590980661478449b3024b99f601710bf28f63bfc9080d2a309",
+        "baseline_render_sha256": "87b9299a337978f1710781ca12b6d5355c187d638eec6f79800bc6b18fd11b15",
+        "new_render_sha256": "920380d94c7b9cf6026a2a28d709fb690cb6428d4c1637678666821ff14714c3",
+        "notes_render_sha256": "033114263149ce37c112b76de7281493051cca87f3b0507c26e6a7227aac8cec",
+        "slide_sources_sha256": "03665dbeb1d609f718abe6ae6a596792b4681e8f211756c2668fc072a696f6a7",
+        "notes_sources_sha256": "f07861fa64d337c3a8a83dda66191f9de669f9e422850c384ad5fd621d386c79",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "cf7c6b8ef7058bea79a3f4ea2166e40c772d2eb7cad528c6c7201c08e1c90117",
+        "coverage_sha256": "60d2cd9af790e87b48e2ff453703323e1112342dcacc9eafcba9478229bd657d"
+      }
+    },
+    "09_3-s045": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.425989+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "3658d908b32233abe6fd484ffd5d96c300be811bd4e75a18f69de79362e25a29",
+        "baseline_render_sha256": "447f5f468a13942c4e73953728525a86a3446e407ec3e9ac086b244325bfcedb",
+        "new_render_sha256": "3e07fe78306dc3afa8be72e498ee9e4314d8221d5feec1841ace47d39a176414",
+        "notes_render_sha256": "49abbb22a682c46d7736c27d0d1516def244380ae1d814f5e72a5b43f7a4dff2",
+        "slide_sources_sha256": "950084d101f5027718c01ab78eff31a3c7b6c637a4be06f5beb8647690d82b76",
+        "notes_sources_sha256": "958aee5aa83431b5e063487bc2c630a39a41e79783eadff32270c96e272d39cc",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "14ca2a03a6a79c121e7756696ff56ea5d038b8a46aebfcc5a96adfa138b77aa2",
+        "coverage_sha256": "f6ebbd2de0328bb01f89e7923d9dacca68c3f029478a52e2f9e148073c2afd9b"
+      }
+    },
+    "09_3-s046": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.426180+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "800492290ea4e17cb48b087bc744f28e13fbe550e41b424c6b70da0c1572de26",
+        "baseline_render_sha256": "5051e3634c1506fab9bdcc4c10fecadd537f3cd43fc7c9c02ed8d4d5d11afd6a",
+        "new_render_sha256": "020d5e024c6703ba7af167d56ad2d0322115ab586ad8376a782e7b422d58f543",
+        "notes_render_sha256": "ca188091a3ac79d1a36ff4f98d4fa4dd1e6426eeb6797c405e0d9ff021c65c53",
+        "slide_sources_sha256": "f61cd45a4e23999b91001c6d7f65db66bdc8cc06c4439f14a4c73c0ba3895df1",
+        "notes_sources_sha256": "c2a9e0a411b3f29c77a10193c67b3f5965c8458b9620a8472f4f1b51c64b16d5",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "9b1e51ce6702c82abdef19bc04cad57f739b8606659d7d11d9bc5db52b33bb93",
+        "coverage_sha256": "d0a310687da3cd2bcfea541de1d83d6c06f052ef330fe6c6335e17090f501606"
+      }
+    },
+    "09_3-s047": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "provereno",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.426356+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "73e595fcde706082359cd0342fb765daeff028ceb072a26f99e29d3a334ffa38",
+        "baseline_render_sha256": "1497551c47f83185a6b984e29086e4fb54e26325312d884ff4c8756b8636c4e7",
+        "new_render_sha256": "4da481e3dbec2b33b659e4ae7bc8b4437aecdbdb1777e395916564313ea1c668",
+        "notes_render_sha256": "7f06e3d4f61a0fff12b2b9e8067ed0db9bd9c79772b2e2079f2b4d15a2396509",
+        "slide_sources_sha256": "b1ad24e4aec36fad696e164c143b0cdbec6501eaf522c13fd97624787a7a2ff4",
+        "notes_sources_sha256": "8414e703299de6e3ce5aa7098cf884ac935722a33f338f3552ea4098944f8cbe",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "18f7071196d6b331042279e1f5577de8a752e7db597bd73358e59b6a016302cf",
+        "coverage_sha256": "6fd089db7132375689454ea859c6749be35cac1864494eee18606b5a075ec33a"
+      }
+    },
+    "09_3-s048": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:13:09.538013+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema. Uklonjeni su završni razmaci u četiri izvorna reda; otisci novog prikaza slajda i beležaka identični su prethodno pregledanim prikazima.",
+      "evidence": {
+        "source_render_sha256": "84effe993926a80c0194509e658e3a982bc2b1ef370a6524554fad59c454a5e7",
+        "baseline_render_sha256": "a5b60856ed9183961b14d0637d5dbc7ec2fd7a8ec3c457ec6ee4b35ecb0123a8",
+        "new_render_sha256": "171b3c78af5b52658d15878870b819f1af63bd37b8940e6de8859efd71c8f241",
+        "notes_render_sha256": "de1e7a52cac125fbb7da0743cce77a2301343ac7a0573b524ecc4745261330c1",
+        "slide_sources_sha256": "3a4ec9e57de7a319e04d5231e1a2347cd3908a893797d485bb06692060d311d0",
+        "notes_sources_sha256": "92209de013832b398c25d9a0fe29db330f0b8251590095ed27fa8cc8e4ebd1f0",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "f8350acec1fea372fd5da3f0b1914f32da30a63549cff205db871b2bd1c5b320",
+        "coverage_sha256": "7d1e39940ec1644813c4723b08add9f4eb1eab383887e0546ae420734e8bd14f"
+      }
+    },
+    "09_3-s049": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.426700+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "207ed7b9e4c84a9db37f1bbd95b11eed4ee539e4e5708e1d6c1134be4fd03940",
+        "baseline_render_sha256": "b72db093c8099f155a643ba60c9b2f9c7367c8a8afcfa40c3d20892003f75bc1",
+        "new_render_sha256": "6638af4abd58f2ce8a03fa8cd0d9590bce519eefa8a6d69b1c120ec54f69bb22",
+        "notes_render_sha256": "c327706f243a5181237db9f7d7da7c4376666b3da82ed8672544f4662f822107",
+        "slide_sources_sha256": "81e8af77352c86bf8de7dd39546096bc4a8cd31a47d0b6f642492547ef711117",
+        "notes_sources_sha256": "372b49982c697282686ae3676885c88dfcf3babc0c90cefb5f1b8618d9bdca7a",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "65e2ea6f706fe84a095b491e4ac03f4931b7c3efca0aa025be8d243861b4fc22",
+        "coverage_sha256": "d7764b4df83afa88315166f42f4e0edbadbc99dba5c566706b891f83071d90b5"
+      }
+    },
+    "09_3-s050": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.426879+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "e76b4e67503fb95a81b99b3e7c62b4e1d0c09c13d42299f35c5f1ee5da1b452d",
+        "baseline_render_sha256": "9485bbb203a556c23943663df76d1fa97834c571700b684ea8ddef93828773b6",
+        "new_render_sha256": "82208b79e9a94c52af7f46cdf73f64b18cf1f3eec1476ee1767de220d9c49867",
+        "notes_render_sha256": "4a9c46ddd54bb61422f28031b6a2cd2c81f52b4f9744dde57cd2dfef7a8cdebf",
+        "slide_sources_sha256": "f510d1d80a081e5a265e214ec868d31ff5c123a066ea830254235389b4ad0128",
+        "notes_sources_sha256": "40278968ee59eb4109d18bd4bbf693944c8982d6b9842d962881a85c737c3228",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "27ab94978034755d3012f2d78e04a094b38d2222dc229aacfeeb69017e5a38b4",
+        "coverage_sha256": "ccb9a0fa790840ebc5e21d395a31ee480a247b1863251eb54fcfdf7e6956c1d8"
+      }
+    },
+    "09_3-s051": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.427069+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Otvoreno stručno pitanje P10, opis i predlog u otvorena_pitanja.md; izvorni zapis ostaje do korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "cfe069a8dbbc3878d549fa5c50a51cfb30434386798f37a37fccd70ee3a71aea",
+        "baseline_render_sha256": "e821703747c949c25bd45df2cd6af54d4d54d464b80985ba88eaa2a48d52d0ad",
+        "new_render_sha256": "26e4644e77f0b28ed433cf42f74c7fb5d26fd0a9cb6fae39decd8822f868f646",
+        "notes_render_sha256": "f38ba46b57f0dddb5fd84bdedef3a6460bf5fd39a50902224df8f5c5ca03a14e",
+        "slide_sources_sha256": "28a5225d5beb06f65ac679def8d3d755dffee30310d5c5c6983eb805dd132c4b",
+        "notes_sources_sha256": "b87bdf4f2bd283038f234ac844f47436bc8e63c9c5078edd318654c38d20f163",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "479b35505aa1aa1a1f4437cb4c39a67bcac18ff54f097db858e5923aa1fdd010",
+        "coverage_sha256": "ba97f3c1a33659abd06afae95150607d69ecc70e79b5c5a0052853bcd0cbdbbb"
+      }
+    },
+    "09_3-s052": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.427243+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "61220cb537ea22667b5446442eb91a0bd41bc207a33c724898d04a08dc80b072",
+        "baseline_render_sha256": "c2d207cc43344ff9f35cb516bc0f9e0bd89ed08b635e3fc85c2fc01fba3b6dc9",
+        "new_render_sha256": "bcbd53ed933e20af2eed5d58541e9c9d6747ce2e00dcbb8756aeb82921e222e8",
+        "notes_render_sha256": "0a37970eef2c319c311993a48918c8f4017c939258c87c49bba0ddac55f48226",
+        "slide_sources_sha256": "be4dcd74d92bba2da6f84e094d686f778dca1b8dcf9775aa383fa8a7e0f5eaa0",
+        "notes_sources_sha256": "d12a99b224e93519514a9408ad959c5d0d1ff1a0b49dfc3a49422c20605f1774",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "3630c957df56856d6b099ecc4677cf727de28d3718221ef50d1c1fb9367d5005",
+        "coverage_sha256": "144836261ba2143cb738fa8f0e7bd02a5c55fb69362673a6dae105cf7c484d0c"
+      }
+    },
+    "09_3-s053": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.427412+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "5889336bcf28246238bc73032b7da2236f38cb850a15cc81a8dadc0a23f8c515",
+        "baseline_render_sha256": "bb072ebaa6d61c190fe4abe0226c5c4a361ab8a4aa972cf9d38127636d9799d4",
+        "new_render_sha256": "9fc5eeb3dc0bde76ded07b8d02305004dca383a3161825a3af31d41ceb53f70d",
+        "notes_render_sha256": "c543e9fa3747fd380f2e981f90402ed19a8a034bd859731ee450d90746592914",
+        "slide_sources_sha256": "07d006eb50d87f015d633653f381d7ad41ec8d2c3a28115f2805b857c5198b3c",
+        "notes_sources_sha256": "3079bd82293a83c07daf7f420d9f6df4ad1f054e987bc08bbf124fa472d032fc",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "65d5a54e1adec2cb90f63b26a2bada124b34b2db77b156cfef37d62c05b47b31",
+        "coverage_sha256": "6063e4265999f603c25b24f5e68dade443341628e97f4bc9a97a3a8995641893"
+      }
+    },
+    "09_3-s054": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.427589+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "806caef04d3988b91dd0cc3bbd91612851811b10464107beee15b0454a23c607",
+        "baseline_render_sha256": "e3936c80b9f9a6c89851dce35affcba5c859743076273e6b82b9bd5a54f377ee",
+        "new_render_sha256": "fff271307628628e3280f2f59024632d047c68bf0057c2ee5d77b3f81e856e6f",
+        "notes_render_sha256": "90abebd38fc5c84ef7000790bfdfcce8e21f4bb470c7cfc6346b3649e5f0b3b5",
+        "slide_sources_sha256": "f852b65d501a5881d41ba490da4959ae77e55c86604c3bb67b8b767577d74d74",
+        "notes_sources_sha256": "d355ebd17f84946af1b8108c28757b0d9c15a53c39ae10d6748944ac21c66df7",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "44eaef1dd69e842cf157c91c71d798501480c60c7ee1a7e9388bf20dca245e61",
+        "coverage_sha256": "dc344f88bc91d02c79d18cbdbf03cf9204848e8d4fe87d593e4708a3bfdbd809"
+      }
+    },
+    "09_3-s055": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.427763+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "fd6f8a927eb0803a7485b6a2863b381f9a47f20b871b88c4987c233f10c583f8",
+        "baseline_render_sha256": "7436d49953d0eb3a615ae53b73f02c04fb077e5388c0e066762ca599ec2f0753",
+        "new_render_sha256": "8550fd7a682ec47c84f8e2ee7e71830adf61e39d1f00f9a4ae70a3dc8729ddec",
+        "notes_render_sha256": "bdc371e775d4e68fc7cde2549bf139e68f5e535d2cfd3798796a9a88bf91e02e",
+        "slide_sources_sha256": "1ce77f5259d6d4fc41888fccaa72691a08b0cb38b9dd280f28a8808a20960c78",
+        "notes_sources_sha256": "52ac2d0c41e543b8a273f93261799d48e442b0cac66616ac8af48404052d62d4",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "00a8323fea7c28742a4ee88dfdec0bff9b4ee005aab643d908bcccfdb507a1e4",
+        "coverage_sha256": "a3cda52f6e4560b70f4f3ff247a50bacacc939cc196e08b65f78dbf0eeba49b0"
+      }
+    },
+    "09_3-s056": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.427938+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "8a3c9de1bbb0fe259f4510c479e5daf1c6faac7f9683c348964e0aae5c651f4c",
+        "baseline_render_sha256": "0fe4338c036769c4b489ae46cf432ed05185916c8a230aa5b172a65432f1ae6f",
+        "new_render_sha256": "82c79500a69730b42db61c54148d069603f75d96e2fca681e2c4dce077bcfe86",
+        "notes_render_sha256": "1c9afedacf591b4975cf04420f49d64bd91a8baa684e996fd4603ea68426bb94",
+        "slide_sources_sha256": "ca1c7cb93585106dd1019252eabeda56c50652aff437d87765e5b16dca4b4944",
+        "notes_sources_sha256": "e7639793de8e388536fbdd43e477cdc836563aa458e776f554c26fd3afefcda4",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "14b356d264792c10bf4d7a394fca46deac09bdb095205c69c5b3649afc732487",
+        "coverage_sha256": "b01a3f95c149d259aaa0d1952832d76e48a113098a6af589551267246befe5ec"
+      }
+    },
+    "09_3-s057": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.428147+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "0b20b2251981196e574576fd21a9fd5d6c398349b6ac4c06b8929a1aa5a9be70",
+        "baseline_render_sha256": "da1d6e5d45d426a009180eb6b5a7558b85d1de942f4ee46687ffe1908b68278d",
+        "new_render_sha256": "d05c6f4995d0e074fe09e40e32eda08c74ba48a85cde4c4109a17384529ab19a",
+        "notes_render_sha256": "b8dce9fe0ecfbaa143684e54ec350c8c1833c0277fb5ae73ee6edc398cbf2e96",
+        "slide_sources_sha256": "0cab6dcc7ccff9b0f60cfc5075c7dda9ef8d4c30266a92f5b2730efc15f697c9",
+        "notes_sources_sha256": "f560288e3d80190d0f63533fca311c0ae080d986380219d927b5e6b52a895702",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "be2232c454b23cc2eec971ddd3b00aebda39e90606f5ca0a37e3b5e19def5f72",
+        "coverage_sha256": "9b9f2b2ca94783a41a61f4be9aa25f17ffd49271df0f266458976b20a8cf991a"
+      }
+    },
+    "09_3-s058": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.428322+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "97cfa20611a528caa51f412c4e3f073e96f8265ef10dc80eab36fa067828d34c",
+        "baseline_render_sha256": "3e223ab52c968df35d46686f287617239ca8953ffaead87300a4381b309c8b9f",
+        "new_render_sha256": "10df2b264a19d104045250988e491e74576c19d0eb66cfdd792e14c2856a95a2",
+        "notes_render_sha256": "05d8fe7532166b8596f145413f2a4eeab51b9c8f94db35a343bc2ca823da7fa3",
+        "slide_sources_sha256": "083da367d3ed119dbf46f6bc84617d37e7802df718981422ac5d94ea2df363f4",
+        "notes_sources_sha256": "b60b1092c30aa41f8e9b03b107a7f447570738e6fdd21fd0a0775dbf7558972a",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "02bcf0c7d417a5ed1d8ab7b5d18f692f5ef857ec59d1fa31dfd9d5dc36bd32ac",
+        "coverage_sha256": "639ed98805adfcae5be8a6a33f8cffb870510e748bd8ad46782037ee208f1c77"
+      }
+    },
+    "09_3-s059": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.428498+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "ecbd0690aac627be63ad9a9144240a05659037632bee22f3125c7591e6f9a76e",
+        "baseline_render_sha256": "69a7472f43ea5361d8a1f80d0fe3ae299ee93731f45fc58dc682a94205cf569d",
+        "new_render_sha256": "36071e52a229b4d92b5efd2e2c324114bc9505a42c518b810125769a1520a269",
+        "notes_render_sha256": "413f69f6cd3b5184657b6347c6ba28619f40b0904c89833874149423e2d1dff7",
+        "slide_sources_sha256": "301aed3671c2b12c493962830856d3836858bab5e01850beee6f89a7f2b7a289",
+        "notes_sources_sha256": "ffe1ad3d4cc7f03fb229e15f79754df879f3e2cc5a9e80766f34706b56f4e1f3",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "4415ef6956ebddc4fb4e8f25fccef40665d40cf2a60e7a1dd797213d8ed42ad9",
+        "coverage_sha256": "882a34ccf4827391c309dce8cc33c8dac58e82310ab3a51656eb97db466aa6e4"
+      }
+    },
+    "09_3-s060": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.428670+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "1d42e8f027b22a4c479be70f8175fb4910f18ff08a10916f6d374bc6606e042f",
+        "baseline_render_sha256": "58a488a9599c418e626cf9b3aace49ba301643454f05242d7d91b6780418a8d7",
+        "new_render_sha256": "6fbef0f7e1bc48e3858190d884b6c73c31b56a362829e08c8a3497a9cf51cbb8",
+        "notes_render_sha256": "03acb6c0175e00c6b2b237f29188ba63c61896154b9f75f35adc13d429dbc694",
+        "slide_sources_sha256": "f4d6f0252e0597fb27354b88f787706d8a006db984626759002108e0cee590c8",
+        "notes_sources_sha256": "cf742170a7f5f1a0f621abae5964e5299add0ff08ba56c2f67871346b04dcb9b",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "da4f711c8c8b6a20a384f88c32c5f93273eed4720a6f62d4ead753f817306ed5",
+        "coverage_sha256": "cc8beaeced0f167628b73a1855a8e32f105c91a6cb4f3237177575e460a8c077"
+      }
+    },
+    "09_3-s061": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.428842+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "5686fb2dfe5fe77e0deca7d35e02e08a2655ed76f1b2583717eef072776d9e97",
+        "baseline_render_sha256": "da5077572485df4170d30483d69a8eb96207a248ddeb85a031cff7ac2ae4ef34",
+        "new_render_sha256": "2e89d616bedbce8fa23f9f2880f56ffa04240b59681ec9f4e3c4c5dc5ac70e5d",
+        "notes_render_sha256": "46a003042d911012570dc1f78f3b0d9b82aa76c4e1573df1595309699dfae4b0",
+        "slide_sources_sha256": "5a0804646ee2f06d20ebf5ed9d7434be5ffd078eecf2827e0c46836938aed460",
+        "notes_sources_sha256": "f43a832b5ed854424a1da35f9273581c456cecb9bc4acc3fe7da9be73e79b113",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "e9bc61d2adaf7abf24abe608aee3b8d3674185ffc9db90f702897ade207e1823",
+        "coverage_sha256": "07ee60bd77cb126da0a92fb096aa10eaa12bf85f02778e8a9896bf599d99cae3"
+      }
+    },
+    "09_3-s062": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.429024+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Otvoreno stručno pitanje P11, opis i predlog u otvorena_pitanja.md; izvorni zapis ostaje do korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "68109c82e4da61c46b4d18aee79843bb4dee229a1ac868ffe06463406a8acc68",
+        "baseline_render_sha256": "51088fa0f574773188a3edfd81f863f7c3f375f913d9819ff89e85f36d4e8333",
+        "new_render_sha256": "01cb2cdef0001fbeaea30bab0197d1f5c33791277b2f3ad2de8ced3e22f8df12",
+        "notes_render_sha256": "1ba7fdabd43b1d0dd334bfab22afe80f6a146ea24dcd5ab0dc57b8bbf555e131",
+        "slide_sources_sha256": "909383f3e17643d1e1e99c155d0106ff3c075851276612641be480536ef6d13f",
+        "notes_sources_sha256": "331677836f73ff982b5064c93764c900c7c55707b9c009f0386696937af4046b",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "6e1fd9cc4dc62b96d4dbc4e5ddd79c08dafd4937cc4a67c15b0c886beced9b65",
+        "coverage_sha256": "c5b6c2361505679398b08fb1dff4ec8e4ea16f2ebd05122060265e3cde22c3aa"
+      }
+    },
+    "09_3-s063": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.429203+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "78df18fdecf6b53d4f16cf63806d058c2572f167c40b154bb1a67c68b8f9d32d",
+        "baseline_render_sha256": "ca35da9c78171e13c157e56b4ff45ffa62d685e4359a3ae8d85f11435a45de00",
+        "new_render_sha256": "3e08ad4c5c72388fa32c2fdaf6d845adbd979162338f3bc08b9075e5ff920a0f",
+        "notes_render_sha256": "aff84bd698fa19dd4f3e7d0aba9fe351c08df0632ab7c451bab2fe75ef8643e7",
+        "slide_sources_sha256": "1a44f14d8ede40b2263756926702545287195fb306b5ca00afe5ee588530027e",
+        "notes_sources_sha256": "f98080b3be3d0d295dc4e38efcc4a83dd84b8cff5594d447b7469e70841827cd",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "f9845f73c5dd517ed75227e4e86bfec640d9ff24196c0aff734abf31f22dc839",
+        "coverage_sha256": "10e8fec0a37d9fdf9848f219cd6026f8444dd5a610267675a0007517bbaa2b96"
+      }
+    },
+    "09_3-s064": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.429375+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "6456a4ae111d59d57237b3f1620b1544ccad9731a4b27a375db64ed5ea450eab",
+        "baseline_render_sha256": "d63436a819f1b0af740b1d1ddc0452b637d42749d0bf6ef1a322271c6e1bbad1",
+        "new_render_sha256": "b4e13bf14edee38f42d05f35bf6d8d9fd083f68e1a5760ddc9617ff4977a78bc",
+        "notes_render_sha256": "fc412f62277b1daa50c3fbfd42985139c0d7e2458b21b081013882a7e3be7686",
+        "slide_sources_sha256": "b472519892cf60be67f56132508f9d5fc3926b5098d9a8248fdf8da369617816",
+        "notes_sources_sha256": "bdad385614b494226bce716d5940d89c80d45ef2766b59ad7246c9631d2ebb85",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "ab358cb3f2efb72ea7c449158146094a4a25f24edf23d6d47227fa77f76f5053",
+        "coverage_sha256": "b6985973540f0cd3ac75d139d9394a443bb95f93a065c5a1efc0517e1ab76fe0"
+      }
+    },
+    "09_3-s065": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.429548+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "287275b63c6193e4319050bdbc44540978a6bf7bcedd587e3ed3344143319f04",
+        "baseline_render_sha256": "459deda8caafbb64074c735b2972176be22f8e23b9313e405f8a2a6c21663169",
+        "new_render_sha256": "1a81e2006b3bd34871a02e8d44fd7cb1370e2287f41ff427a3ec0eaa62e60371",
+        "notes_render_sha256": "1dfeddd5d7e63754e8ad71937a72bdae20734d35f642678b8e3fd534b95956c9",
+        "slide_sources_sha256": "3f2f9018f10e1894c6ac3dff1f86b4250c26d34d3b4c681472c54280614d903d",
+        "notes_sources_sha256": "992a26a3f2735aede44c50968571601d2d600b1d2e5ba9548824d556483f47ff",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "f15159f3555c96d5a067b89720b583f8305a1de02bc5e080be6b6d0acbabddab",
+        "coverage_sha256": "6e2e3e778addb28583e3e30c921da1c2f2491f96421376e0603155ae8b5615c2"
+      }
+    },
+    "09_3-s066": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "problem",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "problem",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.429721+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Otvoreno stručno pitanje P12, opis i predlog u otvorena_pitanja.md; izvorni zapis ostaje do korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "0c6cb564b7ff393218abf5926805cee1c114f19318daabbb6f030ab051ba2224",
+        "baseline_render_sha256": "6304d95cba6e4b8056c5fded3ff73ee62cedee1056970c39cec6d9803372b245",
+        "new_render_sha256": "e27e8908593b09e05aaf73593a7212177df3377ebdf49a31c18334a6a5ede890",
+        "notes_render_sha256": "5ecf54331ae0edd41e9f97a725210c9f86db9dc373353af7afb23665b1139907",
+        "slide_sources_sha256": "f89af43d3c5020e15029752c1ba87d860825dab74904a371ef0a9baaba11cdfc",
+        "notes_sources_sha256": "bb1713f2e0709641309dd4adbc9281c24d707d4d778d239818e18ccd58356f8e",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "843417ff78bf0d9ccdeb5458700699957a18b651ad333a9f07e933402a135e72",
+        "coverage_sha256": "cf8926cd8dd4c29517f74d47f055e97d1a45ae26a1cbda06d5040debf40f2522"
+      }
+    },
+    "09_3-s067": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.429894+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "33e9e22304bdcffd504c2d177a4355e00f0c140bb54842f69cf628a27c961aed",
+        "baseline_render_sha256": "c0c5be31dd05ef5f4979a8262a683a923cd197bd50ecaa96f7fbc406bb8c3314",
+        "new_render_sha256": "98e891b04486a0a4eac00505baf53bea16c652adb2306d530b54977645c73486",
+        "notes_render_sha256": "d3991721b352fb1cb792601d043946fb09b4b6772ff3ea14cb2dc9a0fdcdbe5c",
+        "slide_sources_sha256": "087ce2415c293b38c7fb6025c53aead4d90eed725369a1480bcdbd14cf254d4e",
+        "notes_sources_sha256": "da8b45e46874a86eeeef631664788b877b7210ca7fe3c46c38133decc938a1e9",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "abd5a9346e34212c5e102dbb904e836832db78b725a4d3b2ea5747c27e83e4a0",
+        "coverage_sha256": "9805da3d464512d691aefabc7d37e3a49b285f7c807eb83abbca313700857f4c"
+      }
+    },
+    "09_3-s068": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.430085+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "39d32235d5c293bb674e7df954245f6df3ab3ae56f6254c9584f28b92d1fce79",
+        "baseline_render_sha256": "e77c6f9ae2517fe083d5b95dd3d2eb8dd082ba4c67c51eea68877a17daad2c26",
+        "new_render_sha256": "db9a5bccf2c7783b09d973f5b8e40f73449d9d21c2bdf742109c178489c4400f",
+        "notes_render_sha256": "5eada4085b41b5ba1f437351aa24829d5902516ea546840b9b5af950b7c8b431",
+        "slide_sources_sha256": "dc7c23bfb6c564352bf4b26b00490c57314439af164ad43fe368ae73f710bfae",
+        "notes_sources_sha256": "c85fd13cb395bc68710f327a3ed7a29695b01a9fa92a089983ca7f7d9d6a1c49",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "639b7780d7dc34a44cf2e0303b574a81d95f6857f28b65f967c875e4a5cce937",
+        "coverage_sha256": "49dae584fd943b343f7409dd99f4a4fa5f9bae19ad8c5c22a7180364556d4b24"
+      }
+    },
+    "09_3-s069": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.430261+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "cb341513c3c2881cab47867fe43c2fe28483e3e2c51f1e7d46d3a7a30923bb7a",
+        "baseline_render_sha256": "52fc55b71d569251dfdd90c9ffda18ab68eb55b342cb004b713a2db235a79eb3",
+        "new_render_sha256": "abd2d00893ada812d22fd4110eef6010e8f6f7331603d971c53b49d30845aa49",
+        "notes_render_sha256": "b47f9b1f08b47b64fff6dc5686c1e14d38bad95e36f34cfc075dd3de73300f52",
+        "slide_sources_sha256": "e4caa699fa3229d2262449f53b528a91b752660435f803f7cb243d4a19336980",
+        "notes_sources_sha256": "d180b2126fff9fbea6e4861af7beb691f4b88f47c01c30bb7b808ce7660fb221",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "50e769f0923c3152f7b5d326316f5c211a418407865c182d782091865b34aa20",
+        "coverage_sha256": "41d9e0d71e1e09357ee08bda3fe0f59a0e30aa60309a6e4c1757c44ba0794750"
+      }
+    },
+    "09_3-s070": {
+      "categories": {
+        "tekst": "provereno",
+        "formule": "provereno",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.430467+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Nema uočenog otvorenog sadržinskog problema.",
+      "evidence": {
+        "source_render_sha256": "7f58c9a005d35483662cfb9657ccc39711fe9aca3be9b24b38fa911d1ba522ce",
+        "baseline_render_sha256": "a77e950dbbcc80b4d8f3c3c10471ba9933b852a5d730d1fc763f2be47787b36b",
+        "new_render_sha256": "b674baac2a7b38a2c5501a6a1755f6aa0872113485851dd1b432ac71a75e0bf9",
+        "notes_render_sha256": "5693aa13d0bc453b9292939c6f8f9a0d4eab8451600945f3bdfbf54f4080dcc6",
+        "slide_sources_sha256": "f4331644670c7ead32e9237fa834625e908261f4dd19abeba48d8ad70b2c5218",
+        "notes_sources_sha256": "434d0bc48768920debc30d135f1ae577d703508b699d2187a908ef5cf3311451",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "14a481dd0232237552bfe32d177b2274253cf942ccf04ab4696d9b54f98d5618",
+        "coverage_sha256": "c56076bc2514ce4fac93ae33340c4629ffc601e7022f12ed528f77faaa3d5bec"
+      }
+    },
+    "09_3-s071": {
+      "categories": {
+        "tekst": "problem",
+        "formule": "nije_primenljivo",
+        "tabele": "nije_primenljivo",
+        "kod": "nije_primenljivo",
+        "crtezi": "provereno",
+        "citljivost": "provereno",
+        "pokrivenost": "provereno",
+        "beleske": "provereno"
+      },
+      "date": "2026-10-03T12:04:28.430661+00:00",
+      "reviewer": "Codex — pojedinačni sadržinski i vizuelni pregled",
+      "notes": "Pojedinačno pregledani originalni isečak, sačuvani početni prikaz, novi slajd i A4 beleške uz ID i naslov. Provereni čitljivost, formule, veze i spojevi šema, sva odredišta sadržaja i odsustvo uredničkog teksta u beleškama. Otvoreno stručno pitanje P13, opis i predlog u otvorena_pitanja.md; izvorni zapis ostaje do korisnikove odluke.",
+      "evidence": {
+        "source_render_sha256": "e0a8d712e60e760a72c1f532af6712fcbeaad7bf16f03051f01738fea9c924eb",
+        "baseline_render_sha256": "97ea1f4aa1b48ee02d92afc9555935a1fd7c1c10fa94782c35a93e29883875dc",
+        "new_render_sha256": "3a9dafe9d9e1d116ed80b45814df26e9ab97bafbd7ffcdc6d19dd12f3bb18119",
+        "notes_render_sha256": "4e75d3825a971e8791898c1cb71f1d0a1d88022deaaf30aa62ddfc40868bae1f",
+        "slide_sources_sha256": "6f2205d6f53d3841e52d1df6ee8231bcd894d3bb372938273d3e8dbc45de4230",
+        "notes_sources_sha256": "f9d0bd77a3909af3399536465033bfa1a54bea499bb43be9313a483f156e6566",
+        "shared_sha256": "edaaaefb1c719f0ab3e1adc62278a709474621d091f6395f50a5d282aac40585",
+        "mapping_sha256": "2ab6a2d7b9cb97d2cb6a34597d5aabbd786b6baae50f5193fecbf1b448c3d4ee",
+        "coverage_sha256": "ca6f10da66318df33121b8999e10ee95de778cb6515f78a2f1ca1c203bb81785"
+      }
+    }
+  }
+}

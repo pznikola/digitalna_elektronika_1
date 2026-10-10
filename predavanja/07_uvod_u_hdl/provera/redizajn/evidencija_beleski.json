@@ -1,0 +1,358 @@
+{
+  "date": "2026-10-03",
+  "policy": "PLAN_PREDAVANJA.md — beleške za predavača, samo dodatni nastavni sadržaj",
+  "references": {
+    "process": "https://hdlworks.com/hdl_corner/vhdl_ref/VHDLContents/Process.htm",
+    "signal": "https://www.hdlworks.com/hdl_corner/vhdl_ref/VHDLContents/SignalAssignment.htm",
+    "ghdl": "https://ghdl.github.io/ghdl/using/ImplementationOfVHDL.html",
+    "pal": "https://wakerly.org/DDPP/DDPP3_mkt/c05samp1.pdf",
+    "latch": "https://www.intel.com.tw/content/www/tw/zh/programmable/quartushelp/19.1/msgs/msgs/wvrfx2_l2_vhdl_id_in_comb_process_holds_value.htm",
+    "gateway": "https://computerhistory.org/profile/philip-moorby/",
+    "eeprom": "https://developerhelp.microchip.com/xwiki/bin/view/products/mcu-mpu/8-bit-avr/structure/memory/",
+    "cpld_fpga": "https://www.intel.com/content/www/us/en/products/details/fpga/max.html"
+  },
+  "slides": {
+    "07-s001": {
+      "notes_path": "beleske/s001.tex",
+      "transferred_original_elements": [],
+      "additional_explanation_elements": [],
+      "proof": "Naslovni original u celosti ostaje na slajdu; beleške imaju samo ID, bez veštačkog popunjavanja.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s002": {
+      "notes_path": "beleske/s002.tex",
+      "transferred_original_elements": [
+        "07-s002:e04",
+        "07-s002:e06"
+      ],
+      "additional_explanation_elements": [],
+      "proof": "Potpuno preneti izvorni pasusi: provereni prema originalnom PDF-u; nova interpretacija istorijskih tvrdnji nije uvedena.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s003": {
+      "notes_path": "beleske/s003.tex",
+      "transferred_original_elements": [
+        "07-s003:e03",
+        "07-s003:e04"
+      ],
+      "additional_explanation_elements": [],
+      "proof": "Potpuno preneti izvorni pasusi: provereni prema originalnom PDF-u; nova interpretacija istorijskih tvrdnji nije uvedena.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s004": {
+      "notes_path": "beleske/s004.tex",
+      "transferred_original_elements": [],
+      "additional_explanation_elements": [
+        "07-s004:d01"
+      ],
+      "proof": "Suma proizvoda: svaka logička funkcija kao I proizvodi i ILI sabiranje; izvor s004 i gradivo već prikazano na s005.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s005": {
+      "notes_path": "beleske/s005.tex",
+      "transferred_original_elements": [
+        "07-s005:e05",
+        "07-s005:e06"
+      ],
+      "additional_explanation_elements": [
+        "07-s005:d01"
+      ],
+      "proof": "Izvorna pitanja o programabilnosti I/ILI matrice; konkretan primer PAL-a u s007 pokazuje fiksnu ILI matricu.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s006": {
+      "notes_path": "beleske/s006.tex",
+      "transferred_original_elements": [],
+      "additional_explanation_elements": [
+        "07-s006:d01"
+      ],
+      "proof": "Izvorne kategorije i njihovi puni nazivi; nema dopunskog tumačenja sporne klasifikacije CPLD/FPGA.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s007": {
+      "notes_path": "beleske/s007.tex",
+      "transferred_original_elements": [
+        "07-s007:e02",
+        "07-s007:e05",
+        "07-s007:e09"
+      ],
+      "additional_explanation_elements": [
+        "07-s007:d01"
+      ],
+      "proof": "X=0/6 direktna zamena u izvornu formulu; 32*64=2048. Topologija osam grupa sa sedam OR članova i jednim enable članom proverena prema originalnoj slici i Wakerly autorovoj referenci.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s008": {
+      "notes_path": "beleske/s008.tex",
+      "transferred_original_elements": [],
+      "additional_explanation_elements": [
+        "07-s008:d01"
+      ],
+      "proof": "Kodovi s008_jedec_zaglavlje.txt / s008_jedec_osiguraci.jed i provera_logike.py: svih 352 bita i niz od 11 adresa, 32*3=96, 96+31=127.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s009": {
+      "notes_path": "beleske/s009.tex",
+      "transferred_original_elements": [
+        "07-s009:e01",
+        "07-s009:e05"
+      ],
+      "additional_explanation_elements": [],
+      "proof": "Potpuno preneti izvorni pasusi: provereni prema originalnom PDF-u; nova interpretacija istorijskih tvrdnji nije uvedena.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s010": {
+      "notes_path": "beleske/s010.tex",
+      "transferred_original_elements": [
+        "07-s010:e03",
+        "07-s010:e05"
+      ],
+      "additional_explanation_elements": [
+        "07-s010:d01"
+      ],
+      "proof": "provera_logike.py: sva četiri AND testa i svih 256 ABEL prioriteta; ELSE WHEN i A!=i pročitani iz izvornog koda.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s011": {
+      "notes_path": "beleske/s011.tex",
+      "transferred_original_elements": [
+        "07-s011:e03"
+      ],
+      "additional_explanation_elements": [
+        "07-s011:d01"
+      ],
+      "proof": "provera_logike.py: svih 12 MUX testova, selekcije [a,b,c,c], H=15/L=0/X=don’t care.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s012": {
+      "notes_path": "beleske/s012.tex",
+      "transferred_original_elements": [],
+      "additional_explanation_elements": [
+        "07-s012:d01"
+      ],
+      "proof": "Oba originalna dijagrama toka: sve faze, odluke i povratni smerovi; svaki rečenicom opisan povratak odgovara prikazanoj vezi.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s013": {
+      "notes_path": "beleske/s013.tex",
+      "transferred_original_elements": [
+        "07-s013:e02",
+        "07-s013:e03"
+      ],
+      "additional_explanation_elements": [
+        "07-s013:d01"
+      ],
+      "proof": "Izvorna mogućnost detaljnog modela i ponovne upotrebe; funkcionalna provera i vremenska simulacija razlikuju se u originalnim CAD dijagramima.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s014": {
+      "notes_path": "beleske/s014.tex",
+      "transferred_original_elements": [
+        "07-s014:e01",
+        "07-s014:e02",
+        "07-s014:e03"
+      ],
+      "additional_explanation_elements": [],
+      "proof": "Potpuno preneti izvorni pasusi: provereni prema originalnom PDF-u; nova interpretacija istorijskih tvrdnji nije uvedena.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s015": {
+      "notes_path": "beleske/s015.tex",
+      "transferred_original_elements": [
+        "07-s015:e01",
+        "07-s015:e02",
+        "07-s015:e03"
+      ],
+      "additional_explanation_elements": [
+        "07-s015:d01"
+      ],
+      "proof": "Standardizacija i prenosivost su izvorni cilj; konkretni primeri zahtevaju IEEE pakete i izbor VHDL verzije (GHDL dokumentacija). Dopuna ne menja izvorni zaključak.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s016": {
+      "notes_path": "beleske/s016.tex",
+      "transferred_original_elements": [
+        "07-s016:e02",
+        "07-s016:e03"
+      ],
+      "additional_explanation_elements": [],
+      "proof": "Potpuno preneti izvorni pasusi: provereni prema originalnom PDF-u; nova interpretacija istorijskih tvrdnji nije uvedena.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s017": {
+      "notes_path": "beleske/s017.tex",
+      "transferred_original_elements": [
+        "07-s017:e01",
+        "07-s017:e02",
+        "07-s017:e03"
+      ],
+      "additional_explanation_elements": [],
+      "proof": "Potpuno preneti izvorni pasusi: provereni prema originalnom PDF-u; nova interpretacija istorijskih tvrdnji nije uvedena.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s018": {
+      "notes_path": "beleske/s018.tex",
+      "transferred_original_elements": [
+        "07-s018:e02",
+        "07-s018:e03",
+        "07-s018:e04"
+      ],
+      "additional_explanation_elements": [],
+      "proof": "Potpuno preneti izvorni pasusi: provereni prema originalnom PDF-u; nova interpretacija istorijskih tvrdnji nije uvedena.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s019": {
+      "notes_path": "beleske/s019.tex",
+      "transferred_original_elements": [
+        "07-s019:e01",
+        "07-s019:e02",
+        "07-s019:e03",
+        "07-s019:e04"
+      ],
+      "additional_explanation_elements": [],
+      "proof": "Potpuno preneti izvorni pasusi: provereni prema originalnom PDF-u; nova interpretacija istorijskih tvrdnji nije uvedena.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s020": {
+      "notes_path": "beleske/s020.tex",
+      "transferred_original_elements": [
+        "07-s020:e02"
+      ],
+      "additional_explanation_elements": [
+        "07-s020:d01"
+      ],
+      "proof": "Izvor s020: izabrati alat prema podršci za aplikaciju/tehnologiju; kriterijum izbora nije sintaksa.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s021": {
+      "notes_path": "beleske/s021.tex",
+      "transferred_original_elements": [],
+      "additional_explanation_elements": [
+        "07-s021:d01"
+      ],
+      "proof": "provera_logike.py: osam kombinacija f=x1*x2+not(x2)*x3; f=x1 za x2=1, f=x3 za x2=0. GHDL prihvata entity+architecture uz --std=08.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s022": {
+      "notes_path": "beleske/s022.tex",
+      "transferred_original_elements": [],
+      "additional_explanation_elements": [
+        "07-s022:d01"
+      ],
+      "proof": "Originalni Entity okvir obuhvata deklaraciju i arhitekturu, što je konkretno pokazano u prethodnom s021.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s023": {
+      "notes_path": "beleske/s023.tex",
+      "transferred_original_elements": [],
+      "additional_explanation_elements": [
+        "07-s023:d01"
+      ],
+      "proof": "Metasintaksa u samom obrascu; otvorena zagrada SIGNAL] ostaje otvoreno pitanje. Objašnjenje ne popravlja neodobreni izvor.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s024": {
+      "notes_path": "beleske/s024.tex",
+      "transferred_original_elements": [],
+      "additional_explanation_elements": [
+        "07-s024:d01"
+      ],
+      "proof": "provera_logike.py: svih osam kombinacija, suma i tri proizvoda prenosa; GHDL --std=08 prihvata ceo originalni kod.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s025": {
+      "notes_path": "beleske/s025.tex",
+      "transferred_original_elements": [],
+      "additional_explanation_elements": [
+        "07-s025:d01"
+      ],
+      "proof": "HDLWorks SignalAssignment: signalne dodele i delta ciklusi; izrazi pročitani iz s025_dodela.txt.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s026": {
+      "notes_path": "beleske/s026.tex",
+      "transferred_original_elements": [],
+      "additional_explanation_elements": [
+        "07-s026:d01"
+      ],
+      "proof": "101 AND 110=100 po bitovima; to/downTo su opsezi originala. Numerička semantika vektora zahteva paket/operator kao u izvornom s027 (std_logic_arith). Dopuna navodi uslov, ne prepravlja kod.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s027": {
+      "notes_path": "beleske/s027.tex",
+      "transferred_original_elements": [],
+      "additional_explanation_elements": [
+        "07-s027:d01"
+      ],
+      "proof": "Originalni ABEL prioritet i 256 kombinacija; HDLWorks Process/SignalAssignment o sekvencijalnim naredbama i signalnim dodelama. Konkretna greška GHDL oscilacije vodi se izvan beležaka.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s028": {
+      "notes_path": "beleske/s028.tex",
+      "transferred_original_elements": [],
+      "additional_explanation_elements": [
+        "07-s028:d01"
+      ],
+      "proof": "after 10 ns je izričito u oba koda; HDLWorks SignalAssignment: raspored signalnih transakcija i delta ciklusi. Sintakske greške vode se izvan beležaka.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s029": {
+      "notes_path": "beleske/s029.tex",
+      "transferred_original_elements": [],
+      "additional_explanation_elements": [
+        "07-s029:d01"
+      ],
+      "proof": "Četiri konkretna NOR koraka proverena provera_logike.py; čitanje OUT prihvata GHDL --std=08, izbor standarda potvrđen dokumentacijom. Početno stanje je zadati nastavni uslov, ne obećanje o neinicijalizovanoj simulaciji.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s030": {
+      "notes_path": "beleske/s030.tex",
+      "transferred_original_elements": [],
+      "additional_explanation_elements": [
+        "07-s030:d01"
+      ],
+      "proof": "HDLWorks Process/Wait i SignalAssignment: implicitno čekanje liste, zabrana WAIT uz listu, promenljiva/signal; izvorni obrazac je metasintaksa, ne kompletan program.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    },
+    "07-s031": {
+      "notes_path": "beleske/s031.tex",
+      "transferred_original_elements": [],
+      "additional_explanation_elements": [
+        "07-s031:d01"
+      ],
+      "proof": "HDLWorks SignalAssignment: poslednja signalna dodela za isto vreme; sva tela/listе procesa pročitana. Treći se ne predstavlja kao ekvivalentan mux pre stručne odluke.",
+      "teaching_text_only": true,
+      "source_vs_supplement": "Poreklo po elementu u inventar.json; odredišta i promene u pokrivenost.json. Tekst beležaka se ne kopira u ovu evidenciju."
+    }
+  }
+}

@@ -1,13 +1,18 @@
 \slajdid{08-s054}
+% element: 08-s054:e01
+% element: 08-s054:e02
+% element: 08-s054:e03
 \begin{frame}[label=08-s054]
-\gusttekst\setlength{\parskip}{3pt}
-Kolo koje smo posmatrali naziva se \alert{integratorom}\par
-\begin{columns}[c,onlytextwidth]\column{.49\textwidth}\centering\input{slike/tikz/s054_integrator.tex}
-\column{.49\textwidth}\centering\input{slike/tikz/s054_odziv.tex}\end{columns}
-dok se uticaj kola na tok signala, odnosno izlazni signal naziva se integratorskim efektom.\par
-Izlazni signal liči da je integral u vremenu ulaznog signala. Kapacitivnost je paralelno u odnosu na tok signala.\par
-Približno izvođenje\qquad $\displaystyle u_C(t)\approx\frac1C\int i_C(t)$\par
-Pošto je na početku pojave\qquad $\displaystyle i_C(t)\approx\frac{u_i(t)}R$\par
-Onda je
-\[u_o(t)=u_C(t)\approx\alert{\frac1{RC}\int u_i(t)}\]
+\setlength{\parskip}{2pt}
+\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}
+\begin{columns}[c,onlytextwidth]
+\column{.47\textwidth}\centering\input{slike/tikz/s054_integrator.tex}
+\column{.49\textwidth}\centering\input{slike/tikz/s054_odziv.tex}
+\end{columns}\medskip
+\alert{Integratorski efekat}: izlaz liči na integral ulaza u vremenu.\par
+Kapacitivnost je paralelno u odnosu na tok signala.
+\begin{align*}
+u_C(t)&\approx\frac1C\int i_C(t)\qquad i_C(t)\approx\frac{u_i(t)}R\\
+u_o(t)=u_C(t)&\approx\alert{\frac1{RC}\int u_i(t)}
+\end{align*}
 \end{frame}

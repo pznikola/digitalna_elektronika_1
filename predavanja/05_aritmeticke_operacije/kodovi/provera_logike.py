@@ -150,3 +150,5 @@ if __name__=='__main__':
     main()
     check_arithmetic()
     check_later_arithmetic()
+    from provera_beleski import check_notes
+    check_notes()

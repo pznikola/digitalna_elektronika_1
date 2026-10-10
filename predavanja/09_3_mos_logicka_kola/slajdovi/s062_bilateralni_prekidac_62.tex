@@ -1,4 +1,20 @@
 \slajdid{09_3-s062}
-\begin{frame}[label=09_3-s062]
-\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}Slučaj $V_C=+15V,V_I=-12V$\begin{center}\input{slike/tikz/s062_bilateralni_prekidac.tex}\end{center}Sada P tranzistor ima sjajne uslove za provođenje. Sors mu je sa strane 1, pa je napon između sorsa i gejta velik. Zbog toga će radi sa velikom strujom koja je u smeru kako je prikazano na slici. Napon na drejnu će biti pozitivan i on će raditi u omskoj oblasti. Ako je otpornost $R_L$ velika i veća od dinamičke otpornosti tranzistora izlazni napon će biti $V_O\approx+12V$. Bitno je da uočite šta se dešava sa N tranzistorom. Njegov napon između gejta i sorsa je $V_{GS}>V_{Tn}$. Sors mu je na strani 2. Zbog malog napona između drejna i sorsa (obezbeđuje P tranzistor) on je takođe u omskoj oblasti, ali zbog relativno malog napona između gejta i sorsa sa velikom otpornošću.
+\begin{frame}[label=09_3-s062]{Bilateralni prekidač: pozitivan ulaz}
+% element: 09_3-s062:e01
+% element: 09_3-s062:e02
+% element: 09_3-s062:e03
+% element: 09_3-s062:e04
+\begin{columns}[c,onlytextwidth]\column{.47\textwidth}
+\begin{center}
+\input{slike/tikz/s062_bilateralni_prekidac.tex}
+\end{center}
+\column{.49\textwidth}
+Slučaj $V_C=+15\,\mathrm V$, $V_I=-12\,\mathrm V$.
+\begin{itemize}
+\item P: sors na strani 1; jaka provodnost, omska oblast.
+\item N: sors na strani 2; omska oblast, veća otpornost.
+\end{itemize}
+\[V_{GS,n}>V_{Tn}\]
+Za veliki $R_L$ prema dinamičkoj otpornosti: $V_O\approx+12\,\mathrm V$.
+\end{columns}
 \end{frame}

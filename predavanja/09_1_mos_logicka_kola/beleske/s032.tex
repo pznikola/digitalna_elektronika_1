@@ -1,0 +1,7 @@
+\BeleskeID{09_1-s032}
+% element: 09_1-s032:n01
+Posle uvođenja oznake $I_{Dnsat}$, struje u dve radne tačke imaju isti osnovni faktor i različite korekcije modulacije dužine kanala. Aritmetička sredina glasi
+\[R_n=\frac{R_{ON1}+R_{ON2}}2=\frac{\frac{V_{DD}}{I_{Dnsat}(1+\lambda_nV_{DD})}+\frac{V_{DD}}{2I_{Dnsat}(1+\lambda_n\frac{V_{DD}}2)}}2\]
+Izdvajanjem zajedničkog faktora dobija se izraz na slajdu. Za malu modulaciju koristi se linearni član razvoja recipročnog imenitelja:
+\[R_n\approx\frac{V_{DD}}{4I_{Dnsat}}\left(2(1-\lambda_nV_{DD})+\left(1-\lambda_n\frac{V_{DD}}2\right)\right)\]
+Sređivanjem koeficijenata nastaje faktor $5/6$. Pri računu je bitno odabrati ulazni napon za posmatrani slučaj pogona, jer struja zasićenja neposredno zavisi od $V_{GS}$.

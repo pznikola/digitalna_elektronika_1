@@ -1,1 +1,11 @@
-\begin{tikzpicture}[x=.85cm,y=.65cm,font=\sitneoznake,>=Latex]\ctikzset{bipoles/length=.65cm}\draw(-1,1)node[ocirc]{}to[R,l=$R$](1,1)--(1,.7);\begin{scope}[shift={(1,-.05)},rotate=-90]\draw(-1,0)--(-.3,0);\draw(-.3,-.3)--(-.3,.3)--(.3,0)--cycle;\draw(.3,0)--(1,0);\draw(.3,-.3)--(.3,.3);\end{scope}\draw(1,-1.05)--(1,-1.4)node[ground]{};\draw(-1,-1.4)node[ground]{}--(-1,-.8);\draw[->](-1,-.7)--(-1,.7)node[midway,left]{$v_i(t)$}node[near end,left]{$+$};\draw(1,.65)--(2.3,.65);\draw(2.3,-1.4)node[ground]{}--(2.3,-.8);\draw[->](2.3,-.7)--(2.3,.65)node[midway,right]{$v_o(t)$}node[near end,right]{$+$};\draw[->](.35,1.4)--(.85,1.4)node[midway,above]{$i_D(t)$};\end{tikzpicture}
+{\RazaviSetup
+\begin{circuitikz}[labeltext,american resistors,>=Latex,line width=.7pt]
+\draw (0,1.35) node[ocirc]{} to[R,l=$R$] (1.6,1.35) to[D] (1.6,0) node[ground]{};
+\draw (1.6,1.35) -- (2.45,1.35) node[ocirc]{};
+\fill (1.6,1.35) circle(1.15pt);
+\draw (0,-.15) node[ground]{} -- (0,.25);
+\draw[->] (0,.35) -- (0,1.1) node[midway,left]{$v_i(t)$};\node[left] at (0,1.35) {$+$};
+\draw (2.45,-.15) node[ground]{} -- (2.45,.15);
+\draw[->] (2.45,.25) -- (2.45,1.1) node[midway,right]{$v_o(t)$};\node[right] at (2.45,1.35) {$+$};
+\draw[->] (.85,1.7) -- (1.45,1.7) node[midway,above]{$i_D(t)$};
+\end{circuitikz}}

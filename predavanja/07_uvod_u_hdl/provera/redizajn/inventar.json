@@ -1,0 +1,1125 @@
+{
+  "slides": {
+    "07-s001": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s001:e01",
+          "description": "Naslov Uvod u HDL; autorstvo, katedra i školska godina iz podnožja izvornog materijala.",
+          "source": "PDF strana 1, gornji slajd, 07-s001",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "07-s002": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s002:e01",
+          "description": "Opis rečima: željeno ponašanje, behavioral model.",
+          "source": "PDF strana 1, donji slajd, 07-s002",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s002:e02",
+          "description": "Funkcionalna tabela za mali broj ulaza/izlaza.",
+          "source": "PDF strana 1, donji slajd, 07-s002",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s002:e03",
+          "description": "Jednačine Bulove algebre za kombinacione mreže.",
+          "source": "PDF strana 1, donji slajd, 07-s002",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s002:e04",
+          "description": "Električna šema, realizacija, sinteza/simulacija i Schematic Capture; CAD, EDA/ECAD, PCB sa punim nazivima.",
+          "source": "PDF strana 1, donji slajd, 07-s002",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s002:e05",
+          "description": "HDL — Hardware Description Language: efikasniji opis složenih/programabilnih sistema.",
+          "source": "PDF strana 1, donji slajd, 07-s002",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s002:e06",
+          "description": "Sličnost sa programskim jezicima, objektni i konkurentni koncepti; opis hardvera naspram posla procesora.",
+          "source": "PDF strana 1, donji slajd, 07-s002",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "07-s003": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s003:e01",
+          "description": "Fiksne komponente: funkcija određena pri proizvodnji.",
+          "source": "PDF strana 2, gornji slajd, 07-s003",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s003:e02",
+          "description": "Programabilne komponente: prilagođavanje logičke funkcije.",
+          "source": "PDF strana 2, gornji slajd, 07-s003",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s003:e03",
+          "description": "Računar i različiti programi ne menjaju fizičke veze; izuzimanje memorija iz poređenja.",
+          "source": "PDF strana 2, gornji slajd, 07-s003",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s003:e04",
+          "description": "Prelazak sa malog/srednjeg na viši stepen integracije i ograničenje teme na kombinacione mreže.",
+          "source": "PDF strana 2, gornji slajd, 07-s003",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "07-s004": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s004:e01",
+          "description": "Pitanje o ideji programabilne komponente za različite kombinacione mreže.",
+          "source": "PDF strana 2, donji slajd, 07-s004",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s004:e02",
+          "description": "Svaka logička funkcija kao suma proizvoda; I + ILI uz NE.",
+          "source": "PDF strana 2, donji slajd, 07-s004",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s004:e03",
+          "description": "Dovoljan broj ulaza.",
+          "source": "PDF strana 2, donji slajd, 07-s004",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s004:e04",
+          "description": "Dovoljan broj izlaza.",
+          "source": "PDF strana 2, donji slajd, 07-s004",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s004:e05",
+          "description": "Programiranje I–ILI povezanosti.",
+          "source": "PDF strana 2, donji slajd, 07-s004",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s004:d01",
+          "description": "Veza literala, I proizvoda i ILI sabiranja sa programiranjem.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "07-s005": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s005:e01",
+          "description": "Ulazni baferi/invertori, I matrica i ILI matrica, n ulaza i k izlaza.",
+          "source": "PDF strana 3, gornji slajd, 07-s005",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s005:e02",
+          "description": "X1/X2/Xn, direktni i negirani literali, tri spoljašnja ulaza i šest veza ka I matrici, trotačke.",
+          "source": "PDF strana 3, gornji slajd, 07-s005",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s005:e03",
+          "description": "Y1/Y2/Ym, F1/F2/Fk, sve veze i trotačke između proizvoda/funkcija.",
+          "source": "PDF strana 3, gornji slajd, 07-s005",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s005:e04",
+          "description": "Tip komponente određuje da li se programira jedna ili obe matrice.",
+          "source": "PDF strana 3, gornji slajd, 07-s005",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s005:e05",
+          "description": "Šta učestvuje u Y, koliko proizvoda m postoji, koliko ulaza ima I kolo.",
+          "source": "PDF strana 3, gornji slajd, 07-s005",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s005:e06",
+          "description": "Šta učestvuje u F, koliko članova i ulaza ima ILI kolo.",
+          "source": "PDF strana 3, gornji slajd, 07-s005",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s005:d01",
+          "description": "Sloboda programiranja nije određena samo nazivom komponente.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "07-s006": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s006:e01",
+          "description": "PLA — Programmable Logic Array.",
+          "source": "PDF strana 3, donji slajd, 07-s006",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s006:e02",
+          "description": "PAL — Programmable Array Logic.",
+          "source": "PDF strana 3, donji slajd, 07-s006",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s006:e03",
+          "description": "GAL — Generic Array Logic.",
+          "source": "PDF strana 3, donji slajd, 07-s006",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s006:e04",
+          "description": "CPLD — Complex Programmable Logic Device.",
+          "source": "PDF strana 3, donji slajd, 07-s006",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s006:e05",
+          "description": "FPGA — Field Programmable Gate Array (slovna ispravka Fild).",
+          "source": "PDF strana 3, donji slajd, 07-s006",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s006:e06",
+          "description": "ROM — Read Only Memory.",
+          "source": "PDF strana 3, donji slajd, 07-s006",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s006:e07",
+          "description": "PROM — Programmable ROM.",
+          "source": "PDF strana 3, donji slajd, 07-s006",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s006:e08",
+          "description": "EEPROM — Electrically EPROM, sačuvan izvorni skraćeni naziv do odluke.",
+          "source": "PDF strana 3, donji slajd, 07-s006",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s006:e09",
+          "description": "ASIC — Application Specific Integrated Circuit.",
+          "source": "PDF strana 3, donji slajd, 07-s006",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s006:e10",
+          "description": "Četiri grupe/zagrade: PLD, CPLD, Memory, ASIC; istaknuta početna slova.",
+          "source": "PDF strana 3, donji slajd, 07-s006",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s006:d01",
+          "description": "Razlikovanje konfiguracije i funkcije pri izboru komponente.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "07-s007": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s007:e01",
+          "description": "32 kolone i 64 I proizvoda sa 2048 mogućih programabilnih veza u matrici.",
+          "source": "PDF strana 4, gornji slajd, 07-s007",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s007:e02",
+          "description": "Indeksi kolona 0–31; svih 64 rednih indeksa 0–63 po osam grupa; redni indeksi u beleškama, rasponi vidljivi.",
+          "source": "PDF strana 4, gornji slajd, 07-s007",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s007:e03",
+          "description": "Osam fiksnih ILI realizacija: sedam proizvoda u svakom ILI, po jedan proizvod za upravljanje izlaznim drajverom; svi invertujući izlazni drajveri.",
+          "source": "PDF strana 4, gornji slajd, 07-s007",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s007:e04",
+          "description": "16 dvopolarnih ulaznih bafera, devet levih ulaza, I1 spoljna putanja, šest IO povratnih veza i I10.",
+          "source": "PDF strana 4, gornji slajd, 07-s007",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s007:e05",
+          "description": "I1–I10, O1/O8, IO2–IO7 i svi brojevi pinova; namenski ulazi/izlazi i deljeni IO.",
+          "source": "PDF strana 4, gornji slajd, 07-s007",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s007:e06",
+          "description": "Maksimalno 10+6 ulaza i 2+6 izlaza; 10+X i 2+6−X, X=0…6.",
+          "source": "PDF strana 4, gornji slajd, 07-s007",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s007:e07",
+          "description": "20-pinsko pakovanje: GND pin 10 i VDD pin 20.",
+          "source": "PDF strana 4, gornji slajd, 07-s007",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s007:e08",
+          "description": "I matrica programabilna, ILI fiksna; po I kolu 32 člana, po ILI sedam proizvoda.",
+          "source": "PDF strana 4, gornji slajd, 07-s007",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s007:e09",
+          "description": "Navodnici uz „bilo koja“ i primer jednostavne programabilne komponente.",
+          "source": "PDF strana 4, gornji slajd, 07-s007",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s007:e10",
+          "description": "Ulazna zagrada, oznake ulaz/izlaz/IO i crvena elipsa/pokazivač programabilnih veza; uloge desnih priključaka jasno imenovane.",
+          "source": "PDF strana 4, gornji slajd, 07-s007",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s007:d01",
+          "description": "Primeri X=0 i X=6; razlika mogućeg ukrštanja i električkog spoja.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "07-s008": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s008:e01",
+          "description": "JEDEC i namena fajla za programator, izvorni kvadrat.",
+          "source": "PDF strana 4, donji slajd, 07-s008",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s008:e02",
+          "description": "Svih 15 redova zaglavlja: uređaj, projekat, autor, vremena i kontrolni podaci.",
+          "source": "PDF strana 4, donji slajd, 07-s008",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s008:e03",
+          "description": "Svih 11 redova × 32 bita, adrese L00000 do L00320 i oznaka QF2194.",
+          "source": "PDF strana 4, donji slajd, 07-s008",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s008:e04",
+          "description": "Puna legenda: QF broj osigurača, L broj/adresa, 1 blown/no connection i 0 intact/connected.",
+          "source": "PDF strana 4, donji slajd, 07-s008",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s008:d01",
+          "description": "Tumačenje QF2194, 32-bitnih adresa i primer 96–127.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "07-s009": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s009:e01",
+          "description": "Početak razvoja 80-ih radi lakog generisanja, simulacije, verifikacije i dokumentovanosti čitljivog koda.",
+          "source": "PDF strana 5, gornji slajd, 07-s009",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s009:e02",
+          "description": "PALASM — PAL Assembler.",
+          "source": "PDF strana 5, gornji slajd, 07-s009",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s009:e03",
+          "description": "CUPL — Compiler for Universal Programmable Logic.",
+          "source": "PDF strana 5, gornji slajd, 07-s009",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s009:e04",
+          "description": "ABEL — Advanced Boolean Expression Language.",
+          "source": "PDF strana 5, gornji slajd, 07-s009",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s009:e05",
+          "description": "Razvoj složenijih jezika, prenosivost, ponovno korišćenje, simulacija, sinteza i analiza.",
+          "source": "PDF strana 5, gornji slajd, 07-s009",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s009:e06",
+          "description": "VHDL — Very High Speed Integrated Circuit (VHSIC) Hardware Description Language.",
+          "source": "PDF strana 5, gornji slajd, 07-s009",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s009:e07",
+          "description": "VERILOG — Verification and Logic.",
+          "source": "PDF strana 5, gornji slajd, 07-s009",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "07-s010": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s010:e01",
+          "description": "Dvoulazno I kolo i dualni prioritetni enkoder; crvene oznake 1 i 2.",
+          "source": "PDF strana 5, donji slajd, 07-s010",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s010:e02",
+          "description": "and1: modul, interfejs, dodela z=a&b i sva četiri test vektora.",
+          "source": "PDF strana 5, donji slajd, 07-s010",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s010:e03",
+          "description": "Naslov and1 o instanciranju/hijerarhiji i komentar o pinovima šematskog simbola/interfejsa.",
+          "source": "PDF strana 5, donji slajd, 07-s010",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "07-s010:e04",
+          "description": "PRIORTWO: svi pinovi, definicije A/B, osam grana za A, osam za B, AVALID/BVALID i kraj.",
+          "source": "PDF strana 5, donji slajd, 07-s010",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s010:e05",
+          "description": "Naslov Dual Priority Encoder; komentari Input and output pins i Set definitions.",
+          "source": "PDF strana 5, donji slajd, 07-s010",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "07-s010:d01",
+          "description": "Primer prioriteta R0/R7, ELSE WHEN, A!=i i značenje važenja.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "07-s011": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s011:e01",
+          "description": "Šema multipleksera: 12 podatkovnih ulaza u tri vektora, dva selekciona ulaza i četiri izlaza.",
+          "source": "PDF strana 6, gornji slajd, 07-s011",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s011:e02",
+          "description": "Mux12T4: svi pinovi, H/L/X, skupovi a/b/c/y/select, četiri uslova i svih 12 test vektora sa četiri komentara.",
+          "source": "PDF strana 6, gornji slajd, 07-s011",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s011:e03",
+          "description": "Naslov modula „12 to 4 multiplexer“.",
+          "source": "PDF strana 6, gornji slajd, 07-s011",
+          "origin": "original",
+          "must_remain_visible": false
+        },
+        {
+          "id": "07-s011:d01",
+          "description": "Četiri selekcije za tri vektora, H/L/X i tumačenje testova.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "07-s012": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s012:e01",
+          "description": "CAD: svih devet faza/odluka, dve elipse unosa, obe Yes/No grane i tri povratne putanje.",
+          "source": "PDF strana 6, donji slajd, 07-s012",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s012:e02",
+          "description": "VLSI: svih devet blokova, četiri povratne veze, četiri nivoa reprezentacije, naslov i Fabrication & Testing.",
+          "source": "PDF strana 6, donji slajd, 07-s012",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s012:d01",
+          "description": "Značenje simulacija i povratnih faza u oba toka.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "07-s013": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s013:e01",
+          "description": "VHDL optimizovan za ponašanje digitalnih kola i sistema.",
+          "source": "PDF strana 7, gornji slajd, 07-s013",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s013:e02",
+          "description": "1. Jezik za simulaciono modelovanje: nivo detalja, gejtovi do mikroprocesora/čipova, porast/pad/kašnjenja/funkcija.",
+          "source": "PDF strana 7, gornji slajd, 07-s013",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s013:e03",
+          "description": "Modeli kao gradivni blokovi većih kola kroz šeme, blok dijagrame i VHDL opis sistema.",
+          "source": "PDF strana 7, gornji slajd, 07-s013",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s013:d01",
+          "description": "Izbor nivoa detalja prema cilju simulacije.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "07-s014": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s014:e01",
+          "description": "2. Unos dizajna za sintezu/simulaciju; Pascal/C/C++, strukturiran dizajn i kontrola/podaci.",
+          "source": "PDF strana 7, donji slajd, 07-s014",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s014:e02",
+          "description": "Istovremeni događaji i rad hardvera; iskustvo sa PALASM/ABEL/CUPL naspram softverskih jezika.",
+          "source": "PDF strana 7, donji slajd, 07-s014",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s014:e03",
+          "description": "3. Testbench: specifikacija performansi, pobude/očekivani izlazi tokom vremena; nedovoljno korišćena mogućnost, paralelni razvoj.",
+          "source": "PDF strana 7, donji slajd, 07-s014",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "07-s015": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s015:e01",
+          "description": "4. Netlist Language: visok nivo unosa i niskonivojska komunikacija, strukturalni opis, zamena/dopuna EDIF-a.",
+          "source": "PDF strana 8, gornji slajd, 07-s015",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s015:e02",
+          "description": "5. Standard: očuvanje koncepta kroz nove alate, savremeni alati i baza iskustva drugih inženjera.",
+          "source": "PDF strana 8, gornji slajd, 07-s015",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s015:e03",
+          "description": "Veliki jezik, lak početak prema potrebama, postepeno napredne funkcije.",
+          "source": "PDF strana 8, gornji slajd, 07-s015",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s015:d01",
+          "description": "Prenosivost ne garantuje podršku svih konstrukcija u svakom alatu.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "07-s016": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s016:e01",
+          "description": "VHDL opšte namene optimizovan za elektronska kola; primena kroz proces dizajna.",
+          "source": "PDF strana 8, donji slajd, 07-s016",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s016:e02",
+          "description": "Specifikacija visokog nivoa, performanse/interfejsi, tim, top-down, testbench prihvatanja i prosleđivanje deklaracija/zahteva.",
+          "source": "PDF strana 8, donji slajd, 07-s016",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s016:e03",
+          "description": "Unos detalja, ploča/funkcionalne šeme/VHDL; sintetizabilan stil; kombinacija drugih metoda i alata.",
+          "source": "PDF strana 8, donji slajd, 07-s016",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "07-s017": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s017:e01",
+          "description": "Simulacija funkcionalnih/vremenskih zahteva: prethodni testbench, opis za sintezu i model posle sinteze.",
+          "source": "PDF strana 9, gornji slajd, 07-s017",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s017:e02",
+          "description": "Dokumentacija, struktura/konfiguracije i izvorni iskaz o DoD-u i podizvođačima u istorijskom kontekstu predavanja.",
+          "source": "PDF strana 9, gornji slajd, 07-s017",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s017:e03",
+          "description": "Šeme ostaju korisne, posebno blok dijagrami; kombinovanje sa VHDL-om.",
+          "source": "PDF strana 9, gornji slajd, 07-s017",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "07-s018": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s018:e01",
+          "description": "Šest blokova i šest usmerenih veza, oba izvora funkcionalne/vremenske simulacije, simbol uređaja.",
+          "source": "PDF strana 9, donji slajd, 07-s018",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s018:e02",
+          "description": "Unos VHDL/šeme/blok dijagrami i putanje simulacija/sinteza/uređaj.",
+          "source": "PDF strana 9, donji slajd, 07-s018",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s018:e03",
+          "description": "Razvoj testa prema zahtevima; tekst ili grafički talasni oblici kao izvor testbench-a.",
+          "source": "PDF strana 9, donji slajd, 07-s018",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s018:e04",
+          "description": "Model posle rutiranja; dobavljač uređaja/treća strana, generisani VHDL sa vremenskim napomenama i sistemska simulacija.",
+          "source": "PDF strana 9, donji slajd, 07-s018",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "07-s019": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s019:e01",
+          "description": "Verilog simulacija/sinteza; Gateway sredinom 1980-ih, de fakto ASIC biblioteke i istorijska prednost dostupnosti.",
+          "source": "PDF strana 10, gornji slajd, 07-s019",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s019:e02",
+          "description": "VITAL: standardni zapis kašnjenja, izrada VHDL modela iz Verilog biblioteka.",
+          "source": "PDF strana 10, gornji slajd, 07-s019",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s019:e03",
+          "description": "PLI/Open Verilog International: izvan HDL-a, C i brzina/teško izražive funkcije.",
+          "source": "PDF strana 10, gornji slajd, 07-s019",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s019:e04",
+          "description": "VHDL/IEEE1076, konfiguracije/biblioteke/veliki projekti; funkcionalna sličnost, Verilog-C i VHDL-Pascal/Ada.",
+          "source": "PDF strana 10, gornji slajd, 07-s019",
+          "origin": "original",
+          "must_remain_visible": true
+        }
+      ]
+    },
+    "07-s020": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s020:e01",
+          "description": "Oba jezika lako se uče, teško savladavaju.",
+          "source": "PDF strana 10, donji slajd, 07-s020",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s020:e02",
+          "description": "Prelazak sa jednog na drugi; smisao rasprave o karakteristikama i slobodno vreme.",
+          "source": "PDF strana 10, donji slajd, 07-s020",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s020:e03",
+          "description": "Izbor alata po karakteristikama/podršci za aplikaciju i tehnologiju, ne po izgledu jezika.",
+          "source": "PDF strana 10, donji slajd, 07-s020",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s020:d01",
+          "description": "Savladavanje sintakse naspram izbora realizacije i podrške alata.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "07-s021": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s021:e01",
+          "description": "Entity: tri BIT ulaza i izlaz f, ceo kod deklaracije.",
+          "source": "PDF strana 11, gornji slajd, 07-s021",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s021:e02",
+          "description": "Architecture LogicFunc: f=(x1 AND x2) OR ((NOT x2) AND x3), ceo kod.",
+          "source": "PDF strana 11, gornji slajd, 07-s021",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s021:e03",
+          "description": "Dva I, NE i ILI, svi x1/x2/x3/f priključci, negacija i grananje sa tačkama.",
+          "source": "PDF strana 11, gornji slajd, 07-s021",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s021:e04",
+          "description": "Za jedan entity više arhitektura; obrnuto NE; oznake 1/2 i uvod.",
+          "source": "PDF strana 11, gornji slajd, 07-s021",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s021:d01",
+          "description": "Različite arhitekture interfejsa i ekvivalencija šeme multiplekseru.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "07-s022": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s022:e01",
+          "description": "Ugnježden Entity okvir sa Entity declaration i Architecture, naslov design entity.",
+          "source": "PDF strana 11, donji slajd, 07-s022",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s022:d01",
+          "description": "Veza spoljašnjeg interfejsa i unutrašnje realizacije.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "07-s023": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s023:e01",
+          "description": "Ceo sintaksni obrazac ENTITY/PORT/END/ARCHITECTURE, oba porta, svi opcioni i ponavljajući delovi i identifikatori; SIGNAL] ostaje do odluke.",
+          "source": "PDF strana 12, gornji slajd, 07-s023",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s023:d01",
+          "description": "Metasintaksa opcije/ponavljanja i delovi deklaracije/arhitekture.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "07-s024": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s024:e01",
+          "description": "Ceo fulladd kod, IEEE/std_logic_1164, pet portova, XOR suma i sva tri člana prenosa.",
+          "source": "PDF strana 12, donji slajd, 07-s024",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s024:d01",
+          "description": "Parnost, prenos i x+y+Cin=s+2Cout za osam kombinacija; konkurentnost.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "07-s025": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s025:e01",
+          "description": "Opšti obrazac signal_name <= expression; naslov.",
+          "source": "PDF strana 13, gornji slajd, 07-s025",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s025:e02",
+          "description": "Četiri deklarisana signala, trotačka i konkretna dodela f <= (x1 AND x2) OR x3.",
+          "source": "PDF strana 13, gornji slajd, 07-s025",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s025:d01",
+          "description": "Zakazivanje signalne dodele, delta ciklus i zavisnost od ulaza.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "07-s026": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s026:e01",
+          "description": "A/B/C: STD_LOGIC_VECTOR(1 TO 3), trotačka, C<=A AND B, logički primer.",
+          "source": "PDF strana 13, donji slajd, 07-s026",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s026:e02",
+          "description": "Tri pojedinačna izraza C(1)/C(2)/C(3) za proizvod odgovarajućih bitova.",
+          "source": "PDF strana 13, donji slajd, 07-s026",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s026:e03",
+          "description": "X/Y/S: STD_LOGIC_VECTOR(3 DOWNTO 0), trotačka, S<=X+Y, aritmetički primer.",
+          "source": "PDF strana 13, donji slajd, 07-s026",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s026:d01",
+          "description": "AND primer 101/110, brojno tumačenje, numerički paket i izlazni prenos.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "07-s027": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s027:e01",
+          "description": "Ceo ponovljeni PRIORTWO ABEL: naslov/komentari/deklaracije/A/B/zastavice/kraj.",
+          "source": "PDF strana 14, gornji slajd, 07-s027",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s027:e02",
+          "description": "Ceo Vprior2 VHDL: IEEE paketi, portovi, proces(R,AVALID,BVALID), nule, petlja 0…7, if/elsif i sve signalne dodele.",
+          "source": "PDF strana 14, gornji slajd, 07-s027",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s027:d01",
+          "description": "Važenje dva zahteva; signalna dodela naspram trenutne promenljive.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "07-s028": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s028:e01",
+          "description": "Dataflow, konkurentnost i nezavisnost od redosleda; kombinaciona logika.",
+          "source": "PDF strana 14, donji slajd, 07-s028",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s028:e02",
+          "description": "Prva ckt varijanta: interfejs, tri izraza, after 10 ns i svi završeci.",
+          "source": "PDF strana 14, donji slajd, 07-s028",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s028:e03",
+          "description": "Druga ckt varijanta: identičan sadržaj drugačijim redosledom.",
+          "source": "PDF strana 14, donji slajd, 07-s028",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s028:e04",
+          "description": "A=1 B=0 Y=0 Z=0 → Y=1 Z=1, početne/konačne vrednosti.",
+          "source": "PDF strana 14, donji slajd, 07-s028",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s028:d01",
+          "description": "Kašnjenje 10 ns naspram delta ciklusa i redosled zavisnosti.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "07-s029": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s029:e01",
+          "description": "SR šema sa dva NOR, negacijama, R/S/Q/nQ i dve povratne veze; tačke grananja bez spoja ukrštanja.",
+          "source": "PDF strana 15, gornji slajd, 07-s029",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s029:e02",
+          "description": "Ceo latch VHDL: četiri BIT porta, architecture dataflow i dve NOR dodele.",
+          "source": "PDF strana 15, gornji slajd, 07-s029",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s029:e03",
+          "description": "Početno stanje, r=1 pa r=0 i obe strelice.",
+          "source": "PDF strana 15, gornji slajd, 07-s029",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s029:e04",
+          "description": "Start i četiri round reda: sve 20 vrednosti i sva tri zakazivanja/odsustva događaja.",
+          "source": "PDF strana 15, gornji slajd, 07-s029",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s029:d01",
+          "description": "Detaljno izvođenje četiri koraka, delta stanje i čitanje OUT uz VHDL-2008.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "07-s030": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s030:e01",
+          "description": "Behavioral/sekvencijalno izvršavanje, dodela na kraju i PROCESS, izvorna formulacija do odluke.",
+          "source": "PDF strana 15, donji slajd, 07-s030",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s030:e02",
+          "description": "Svih 11 redova PROCESS obrasca: label/sensitivity, deklaracije, opcije i sve naredbe uključujući WAIT.",
+          "source": "PDF strana 15, donji slajd, 07-s030",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s030:d01",
+          "description": "Konkurentni procesi/sekvencijalne naredbe, promenljiva/signal, lista i WAIT alternative.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    },
+    "07-s031": {
+      "confirmed": true,
+      "elements": [
+        {
+          "id": "07-s031:e01",
+          "description": "Prvi proces: Sel/x1/x2 lista, IF Sel=0, oba izlaza i ELSE.",
+          "source": "PDF strana 16, gornji slajd, 07-s031",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s031:e02",
+          "description": "Drugi: puna lista, podrazumevana dodela x1, uslovna x2, izvorni Sel=1.",
+          "source": "PDF strana 16, gornji slajd, 07-s031",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s031:e03",
+          "description": "Treći: lista Sel/x2, bez ELSE, uslovna x2 i izvorni Sel=1; naslov MUX 2/1.",
+          "source": "PDF strana 16, gornji slajd, 07-s031",
+          "origin": "original",
+          "must_remain_visible": true
+        },
+        {
+          "id": "07-s031:d01",
+          "description": "Podrazumevana/poslednja dodela i zasebna analiza grana trećeg procesa.",
+          "source": "Proverljiva nastavna dopuna; dokaz i literatura u evidencija_beleski.json / hdl_dokazi.txt.",
+          "origin": "dopuna",
+          "must_remain_visible": false
+        }
+      ]
+    }
+  }
+}

@@ -244,3 +244,23 @@ Stvarna korisnikova poruka:
 Prihvaćena je aktuelna završena isporuka prezentacije i pratećih beležaka: 62 slajda i 62 A4 strane, posle svih dorada do s054. Status je `odobreno`. [Zapis odobrenja](odobrenje_rezultata.json) sadrži otiske tačne prihvaćene verzije; svi zabeleženi izvori, zavisnosti i izlazi odgovaraju poslednjoj proveri. Izvori slajdova i beležaka, tema, originalni PDF, manifest i pojedinačne potvrde nisu menjani ovim prihvatanjem. Prethodni izveštaj sačuvan je u `istorija/pre-odobrenja-2026-10-05/izvestaj.md`.
 
 Ova odluka prihvata rezultat 02. Ne daje novu dozvolu za sledeće predavanje i ne prihvata rezultate drugih predavanja. Ranija zasebna dozvola za početak 03 ostaje važeća. Novi agent proverava relevantne otiske i preskače završenu analizu 02 ako nema promena.
+
+## 2026-10-09 — SystemVerilog primeri uz s021, s022 i s051
+
+[Stvarne korisnikove poruke](odobrenje_rtl.json) odobravaju po jedan RTL dodatak odmah iza svakog od ova tri ID-ja, automatski TB i dodatni TB sa jednostavnim pobudama i čekanjima, bez provera. Obuhvat je samo predavanje 02; drugi primeri čekaju korisnikov izbor.
+
+Naknadno izričito imenovanje:
+
+> neka se rtl s021 zove mreza_zp a slajd s022 mreza_pz
+
+Primenjeno na module, fajlove, oba TB-a, komande i linkove. S051 koristi `mreza_sa_hazardom`. Korisnik je upitao zašto kasni samo invertor; po objašnjenju da originalni s051 izričito pretpostavlja ostale idealno brze gejtove, odgovorio je:
+
+> onda u redu
+
+Model ostaje veran toj pretpostavci; u fizičkom kolu svi gejtovi imaju kašnjenje. Kašnjenje `T` i napomena o simulacionoj svrsi vidljivi su na dodatnom slajdu. Ovo potvrđuje izbor modela, bez prihvatanja celog novog rezultata.
+
+Korisnik je potom zatražio raspored sa celim RTL kodom na jednom slajdu, tekstom u drugoj koloni i manjim fontom. Primena: potpun kod levo sa stvarnim brojevima linija, font 9 pt, objašnjenje i TB linkovi desno. Nema pune putanje dizajna iznad koda. Poslednja odluka o oznaci:
+
+> testbench: treba da bude sa velikim T u ovim slajdovima
+
+Na sva tri slajda sada piše `Testbench:` i `Testbench bez provere:`. Novi ID-jevi su `02-s021-rtl01`, `02-s022-rtl01`, `02-s051-rtl01`. Ostaju svih 62 ranije prihvaćena slajda i njihove beleške; projektovani broj raste na 65. Odobrenje od 2026-10-05 čuva svoju tadašnju verziju, a nova isporuka ima status `ceka_odobrenje`.

@@ -1,12 +1,14 @@
 \slajdid{09_3-s016}
-\begin{frame}[label=09_3-s016]
-\gusttekst\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}\centering\input{slike/tikz/s016_lanac_invertora.tex}\par
-$f$ – faktor povećanja istovremeno i p i n tranzistora u narednom invertoru
-\par\medskip\raggedright
-Da napišemo izraze za kašnjenja, na osnovu prethodnih izvođenja, za prvi invertor:
-\[t_p=\frac{t_{pHL}+t_{pLH}}2=\frac{0.69}2(R_{n1}+R_{p1})\bigl((C_{Dp1}+C_{Dn1})+(C_{Gp2}+C_{Gn2})\bigr)\]
-Ako označimo $R_{eq}=\frac{R_{n1}+R_{p1}}2$, $C_{int1}=C_{Dp1}+C_{Dn1}$ i $C_{ext1}=C_{Gp2}+C_{Gn2}$ pa u opštem slučaju
-\[t_{p1}=0.69R_{eq1}(C_{int1}+C_{ext1})\]
-\[t_{p1}=0.69R_{eq1}C_{int1}\left(1+\frac{C_{ext1}}{C_{int1}}\right)=t_{p0}\left(1+\frac{C_{ext1}}{C_{int1}}\right)\]
-gde je za prvi invertor $t_{p0}=0.69R_{eq1}C_{int1}$.
+\begin{frame}[label=09_3-s016]{Kašnjenje prvog stepena}
+% element: 09_3-s016:e01
+% element: 09_3-s016:e02
+% element: 09_3-s016:e03
+% element: 09_3-s016:e04
+\begin{center}
+\input{slike/tikz/s016_lanac_invertora.tex}
+\end{center}$f$ — faktor povećanja P i N tranzistora narednog stepena.
+\[R_{eq}=\frac{R_n+R_p}2,\quad C_{int1}=C_{Dp1}+C_{Dn1},\quad C_{ext1}=C_{Gp2}+C_{Gn2}\]
+\[t_{p1}=0.69R_{eq1}(C_{int1}+C_{ext1})
+=t_{p0}\left(1+\frac{C_{ext1}}{C_{int1}}\right)\]
+\[\alert{t_{p0}=0.69R_{eq1}C_{int1}}\]
 \end{frame}

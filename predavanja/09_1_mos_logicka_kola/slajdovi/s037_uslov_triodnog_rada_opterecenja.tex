@@ -1,17 +1,15 @@
 \slajdid{09_1-s037}
-\begin{frame}[label=09_1-s037]
-\gusttekst\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}
-\begin{columns}[c,onlytextwidth]\column{.23\textwidth}\centering\input{slike/tikz/s037_invertor_sa_aktivnim_opterecenjem.tex}\column{.75\textwidth}
-Da pogledamo režim rada tranzistora $T_L$. Naponi na tranzistoru su
-\[V_{GS,L}=V_{G,L}-V_{S,L}=V_C-V_O\]
-\[V_{DS,L}=V_{D,L}-V_{S,L}=V_{DD}-V_O\]
-Uslov da radi u zasićenju
-\[V_{DS,L}\geq V_{GS,L}-V_{Tn,L}\]
-\[V_{DD}-V_O\geq V_C-V_O-V_{Tn,L}\]
+\begin{frame}[label=09_1-s037]{Režim rada tranzistora opterećenja}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{3pt}\setlength{\belowdisplayshortskip}{3pt}
+% element: 09_1-s037:e01
+% element: 09_1-s037:e02
+% element: 09_1-s037:e03
+% element: 09_1-s037:e04
+\begin{columns}[T,onlytextwidth]\column{.24\textwidth}\centering \input{slike/tikz/s037_invertor_sa_aktivnim_opterecenjem.tex}\column{.72\textwidth}\textbf{Naponi na $T_L$}\[V_{GS,L}=V_{G,L}-V_{S,L}=V_C-V_O\]
+
+\textbf{Uslov zasićenja}\[V_{DS,L}\geq V_{GS,L}-V_{Tn,L}\]
+
 \[V_{DD}+V_{Tn,L}\geq V_C\]
-i dobija se zanimljiv rezultat. Vidi se da se podešavanjem kontrolnog napona $V_C$ može postići da tranzistor $T_L$ uvek radi u zasićenju
-\[V_C<V_{DD}+V_{Tn,L}\]
-odnosno da uvek radi u omskoj oblasti
-\[V_C>V_{DD}+V_{Tn,L}\]
-\end{columns}
+Podešavanjem kontrolnog napona:\begin{columns}[T,onlytextwidth]\column{.48\textwidth}Zasićenje\[V_C<V_{DD}+V_{Tn,L}\]
+\column{.48\textwidth}Omska oblast\[V_C>V_{DD}+V_{Tn,L}\]
+\end{columns}\end{columns}
 \end{frame}
